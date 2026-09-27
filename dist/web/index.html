@@ -605,7 +605,15 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 <script>// Paste the config object from Firebase console > Project settings > Your apps > Web app.
 // These values are not secret; your Firestore security rules (firestore.rules) protect the data.
 // Leave as null to run without cloud sync (scores then save on each device only).
-window.FIREBASE_CONFIG = null;
+window.FIREBASE_CONFIG = {
+  apiKey: "AIzaSyBUyH5SYYpvVsM1VOhAiVs1I7pTXSkrImA",
+  authDomain: "football-suite.firebaseapp.com",
+  projectId: "football-suite",
+  storageBucket: "football-suite.firebasestorage.app",
+  messagingSenderId: "482691159826",
+  appId: "1:482691159826:web:88edcdaae21c2bac4e05cb",
+  measurementId: "G-7X4J678JDB"
+};
 /* Example:
 window.FIREBASE_CONFIG = {
   apiKey: "AIza...",
@@ -617,7 +625,7 @@ window.FIREBASE_CONFIG = {
 };
 */
 </script>
-<script>window.SEED = {"bl":{"draws":"{}","favs":"[3]","ko":"{}","live":"{}","motw":"{\"1\":null,\"2\":null,\"3\":null,\"4\":null}","results":"{}","settings":"{}","status":"{}","updated":1790518480361},"ch":{"draws":"{}","favs":"[]","results":"{}","settings":"{}","updated":1790459715696},"cup":{"draws":"{}","favs":"[45]","results":"{}","settings":"{}","updated":1790459576564},"epl":{"draws":"{}","favs":"[13]","ko":"{}","live":"{}","motw":"{\"1\":null,\"2\":null,\"3\":null,\"4\":null,\"5\":null}","results":"{}","settings":"{\"adj\":[]}","status":"{\"92\":{\"d\":\"2026-11-08\",\"t\":\"06:00\"},\"106\":{\"d\":\"2026-11-22\",\"t\":\"06:30\"},\"113\":{\"d\":\"2026-11-29\",\"t\":\"04:00\"}}","updated":1790526810140},"esp":{"draws":"{}","favs":"[]","results":"{}","settings":"{}","updated":1790459705830},"fra":{"draws":"{}","favs":"[]","results":"{}","settings":"{}","updated":1790459712579},"ita":{"draws":"{}","favs":"[]","results":"{}","settings":"{}","updated":1790459710031},"mls":{"draws":"{}","favs":"[20]","live":"{}","motw":"{\"1\":null,\"2\":null,\"3\":null,\"4\":null,\"5\":null,\"6\":null,\"7\":null,\"8\":null,\"9\":null,\"10\":null,\"11\":null,\"12\":null,\"13\":null,\"14\":null,\"15\":null,\"16\":null,\"17\":null,\"18\":null,\"19\":null,\"20\":null,\"21\":null,\"22\":null,\"23\":null,\"24\":331,\"25\":null,\"26\":null,\"27\":null,\"28\":404}","results":"{\"388\":[2,0,2,1,\"H\"],\"389\":[2,2,1,0,\"H\"],\"390\":[0,1,2,1,\"H\"],\"391\":[3,1,1,2,\"A\"],\"393\":[4,2,2,1,\"A\"],\"394\":[3,3,1,2,\"H\"],\"395\":[1,0,2,1,\"A\"],\"396\":[0,2,2,0,\"H\"],\"397\":[2,0,2,1,\"H\"],\"398\":[3,1,2,1,\"H\"],\"399\":[3,0,1,2,\"H\"],\"400\":[3,2,1,2,\"A\"],\"401\":[3,1,2,1,\"A\"],\"402\":[3,3,2,1,\"A\"]}","settings":"{}","status":"{\"331\":{\"d\":\"2026-10-21\",\"t\":\"16:00\"},\"389\":{},\"390\":{},\"391\":{},\"392\":{\"p\":1},\"393\":{},\"394\":{},\"395\":{},\"396\":{},\"397\":{},\"398\":{},\"399\":{},\"400\":{},\"401\":{},\"402\":{}}","updated":1790513522353},"nwsl":{"draws":"{}","favs":"[10]","results":"{\"200\":[2,0,2,1,\"H\"],\"201\":[0,2,1,2,\"H\"],\"202\":[3,1,2,0,\"H\"],\"203\":[4,1,2,1,\"H\"],\"204\":[1,1,2,1,\"H\"],\"205\":[0,1,1,0,\"H\"]}","settings":"{}","status":"{\"204\":{},\"205\":{}}","updated":1790476790335},"suite":{"suite":"{\"peOutcome\":2,\"peExact\":3,\"motwW\":0.5}","updated":1790526810497},"ucl":{"draws":"{}","favs":"[17,7]","live":"{}","motw":"{\"1\":null}","results":"{}","settings":"{}","status":"{}","updated":1790514091341},"unl":{"draws":"{}","favs":"[]","live":"{}","results":"{\"0\":[1,2,1,0,\"H\"],\"1\":[1,1,1,0,\"A\"],\"2\":[1,2,2,0,\"A\"],\"3\":[3,2,1,0,\"A\"],\"4\":[1,0,0,1,\"D\"],\"5\":[3,1,0,2,\"H\"],\"6\":[1,0,0,1,\"A\"],\"7\":[0,2,0,1,\"H\"],\"16\":[0,0,0,1,\"A\"],\"17\":[0,7,0,2,\"A\"],\"18\":[1,1,1,1,\"H\"],\"19\":[1,2,1,0,\"D\"],\"20\":[1,1,1,0,\"H\"],\"21\":[1,2,0,1,\"A\"],\"22\":[2,3,0,1,\"H\"],\"23\":[0,3,0,1,\"H\"],\"24\":[2,0,1,0,\"H\"],\"25\":[2,0,2,0,\"A\"]}","settings":"{}","status":"{\"0\":{},\"1\":{},\"2\":{},\"3\":{},\"4\":{},\"5\":{},\"6\":{},\"7\":{},\"16\":{},\"17\":{},\"18\":{},\"19\":{},\"20\":{},\"21\":{},\"22\":{},\"23\":{},\"24\":{},\"25\":{}}","updated":1790492554119},"usl":{"draws":"{}","favs":"[21]","ko":"{}","live":"{}","motw":"{\"1\":348,\"2\":null,\"3\":null,\"4\":null,\"5\":null,\"6\":null,\"7\":null,\"8\":null,\"9\":null,\"10\":null,\"11\":null,\"12\":null,\"13\":null,\"14\":null,\"15\":null,\"16\":null,\"17\":null,\"18\":null,\"19\":null,\"20\":null,\"21\":null,\"22\":361,\"23\":null,\"24\":null,\"25\":null,\"26\":null,\"27\":null,\"28\":null,\"29\":null}","results":"{\"157\":[2,3]}","settings":"{}","status":"{\"157\":{}}","updated":1790518291435}};</script>
+<script>window.SEED = {};</script>
 <script>const Z = (key, label, test, w, extra = {}) => Object.assign({ key, label, test, w, scope: 'overall' }, extra);
 const EU_LINES = [[17.5, 1], [1.5, 0.85], [4.5, 0.55], [6.5, 0.25], [5.5, 0.2]];
 const GOLD = '#E9B308', GREEN = 'var(--mint)', CYAN = 'var(--cyan)', RED = 'var(--magenta)', AMBER = '#F29D0C';
@@ -1533,7 +1541,7 @@ function matchCard(k, f, motw) {
   const favAway = isFav(k, f.a) && !isFav(k, f.h);
   const favBadge = hasFav(k, f) ? '<span class="badge b-fav">★ Your club</span>' : '';
   const midBadges = [motw ? `<span class="badge b-motw">${motw}</span>` : '',
-    f.live ? `<span class="badge b-live"><span class="live-dot"></span>LIVE ${f.live.ht ? 'HT' : f.live.min + "'"}</span>` : '',
+    f.live ? `<span class="badge b-live"><span class="live-dot"></span>LIVE</span>` : '',
     f.postponed ? '<span class="badge b-pp">Postponed</span>' : '', f.moved && !f.played ? '<span class="badge b-mv">Rescheduled</span>' : '', f.awarded ? '<span class="badge b-pp">Awarded</span>' : ''].join('');
   const badges = (favBadge || midBadges) ? `<span class="bslot l">${favAway ? '' : favBadge}</span><span class="bslot c">${midBadges}</span><span class="bslot r">${favAway ? favBadge : ''}</span>` : '';
   const fcol = isFav(k, f.h) ? T(k)[f.h].color : isFav(k, f.a) ? T(k)[f.a].color : null;

@@ -267,7 +267,7 @@ function matchCard(k, f, motw) {
   const favAway = isFav(k, f.a) && !isFav(k, f.h);
   const favBadge = hasFav(k, f) ? '<span class="badge b-fav">★ Your club</span>' : '';
   const midBadges = [motw ? `<span class="badge b-motw">${motw}</span>` : '',
-    f.live ? `<span class="badge b-live"><span class="live-dot"></span>LIVE ${f.live.ht ? 'HT' : f.live.min + "'"}</span>` : '',
+    f.live ? `<span class="badge b-live"><span class="live-dot"></span>LIVE</span>` : '',
     f.postponed ? '<span class="badge b-pp">Postponed</span>' : '', f.moved && !f.played ? '<span class="badge b-mv">Rescheduled</span>' : '', f.awarded ? '<span class="badge b-pp">Awarded</span>' : ''].join('');
   const badges = (favBadge || midBadges) ? `<span class="bslot l">${favAway ? '' : favBadge}</span><span class="bslot c">${midBadges}</span><span class="bslot r">${favAway ? favBadge : ''}</span>` : '';
   const fcol = isFav(k, f.h) ? T(k)[f.h].color : isFav(k, f.a) ? T(k)[f.a].color : null;

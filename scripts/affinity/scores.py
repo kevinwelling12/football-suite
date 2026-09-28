@@ -48,6 +48,19 @@ S = {
 'Slavia Prague':(8,6,8,5,6,0,''),'Slovan Bratislava':(7,5,7,5,5,0,''),'Sporting CP':(8,7,9,8,7,0,''),'Viking':(6,7,6,7,6,0,''),
 # Carabao Cup (lower-league clubs still alive)
 'Bradford City':(8,7,7,6,5,0,''),'Fleetwood Town':(5,6,3,5,5,0,''),'Peterborough United':(6,6,5,6,5,0,''),
+# Carabao Cup: League One / League Two clubs (Culture anchored on crowds and atmosphere, per the USL recalibration)
+'AFC Wimbledon':(9,10,8,10,5,0,'Fan-owned (Dons Trust); rebuilt by supporters from the ninth tier'),'Accrington Stanley':(5,8,6,8,5,0,''),
+'Barnet':(5,6,5,5,5,0,''),'Barnsley':(7,6,7,5,5,0,''),'Blackpool':(8,7,8,7,5,0,''),'Bristol Rovers':(8,6,6,4,5,0,''),'Bromley':(5,6,4,5,5,0,''),
+'Burton Albion':(5,6,4,5,5,0,''),'Cambridge United':(7,7,5,6,5,0,''),'Cheltenham Town':(5,7,4,7,5,0,''),'Chesterfield':(8,7,6,8,6,0,''),
+'Colchester United':(6,6,6,6,5,0,''),'Crawley Town':(4,5,2,3,6,0,'Crypto/NFT investor ownership'),'Crewe Alexandra':(6,6,7,6,7,0,'Values: club failings in the Bennell abuse case (Sheldon report)'),
+'Doncaster Rovers':(7,7,6,6,5,0,''),'Exeter City':(8,9,6,10,6,0,"Owned by its Supporters' Trust"),'Gillingham':(6,6,6,5,5,0,''),'Grimsby Town':(9,7,7,6,5,0,''),
+'Huddersfield Town':(7,6,8,5,5,0,''),'Leicester City':(8,4,7,4,6,-4,'Multi-club (King Power: OH Leuven); PSR breaches'),'Leyton Orient':(7,7,6,7,5,0,''),
+'Luton Town':(8,8,6,9,5,0,'Local fan consortium ownership'),'Mansfield Town':(7,7,5,7,5,0,''),'Milton Keynes Dons':(3,2,1,4,5,-15,'Franchise relocation of Wimbledon FC (2003)'),
+'Newport County':(7,8,6,8,5,0,''),'Northampton Town':(6,6,6,6,5,0,''),'Notts County':(8,7,9,6,6,0,''),'Oldham Athletic':(8,7,7,7,5,0,''),'Oxford United':(6,6,6,4,5,0,''),
+'Plymouth Argyle':(9,7,7,7,6,0,''),'Port Vale':(8,8,7,8,5,0,''),'Reading':(6,6,6,4,5,0,''),'Rochdale':(7,8,6,7,5,0,''),'Rotherham United':(6,7,6,7,5,0,''),
+'Salford City':(4,5,3,3,5,-4,'Celebrity project club; Peter Lim stake (also owns Valencia)'),'Sheffield Wednesday':(9,6,9,2,5,0,'Owner chaos: unpaid wages, EFL embargoes'),
+'Shrewsbury Town':(6,7,6,7,5,0,''),'Stevenage':(5,6,3,6,5,0,''),'Stockport County':(9,7,6,7,6,0,''),'Swindon Town':(6,6,7,5,5,0,''),'Tranmere Rovers':(8,7,7,7,5,0,''),
+'Walsall':(6,6,6,5,5,0,''),'Wigan Athletic':(6,7,6,7,5,0,''),'Wycombe Wanderers':(6,6,5,5,5,0,''),'York City':(7,7,6,6,5,0,''),
 # Nations (Culture = fan culture; Values = federation and fan conduct; Ownership = governance)
 'England':(9,7,10,6,6,0,''),'Scotland':(10,8,9,6,5,0,''),'Wales':(9,8,7,7,5,0,''),'Republic of Ireland':(9,8,7,6,4,0,''),'Northern Ireland':(8,6,7,6,4,0,''),'Iceland':(9,8,6,7,5,0,''),
 'Faroe Islands':(8,8,4,7,4,0,''),'Portugal':(8,7,9,7,7,0,''),'Spain':(7,7,9,6,8,0,''),'Germany':(7,7,10,7,7,0,''),'France':(6,6,10,6,7,0,''),'Italy':(7,6,10,6,6,0,''),'Netherlands':(9,7,9,7,7,0,''),

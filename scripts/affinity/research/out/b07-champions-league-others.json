@@ -816,5 +816,128 @@
    "https://www.bundesliga.com/en/bundesliga/news/juergen-klopp-red-bull-head-of-global-soccer-rb-leipzig-29277",
    "https://www.espn.com/soccer/story/_/id/47528058/jurgen-klopp-red-bull-role-grown-much-bigger-first-anticipated"
   ]
+ },
+ {
+  "name": "Real Betis",
+  "C": {
+   "score": 8,
+   "evidence": "'¡Viva el Betis manque pierda!': famous loyalty, huge crowds even in lower divisions. Playing 2025-2028 at La Cartuja (70,000, athletics bowl) while the Villamarín is rebuilt: underlying 9 with -1 for the temporary move."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Strong Andalusian regional identity (colours tied to the Andalusian flag and Celtic); women's team in Liga F; shirt sponsor GREE (appliance maker, no effect)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1935 Spanish champions, Copa del Rey 1977, 2005, 2022; first Andalusian club in the Champions League (2005); 2025 Conference League final."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "SAD with dispersed shareholders led by president Ángel Haro; long boardroom feuds and the Lopera era (fraud case, judicial administrator) behind it."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Pellegrini's technical, possession-leaning sides; moderate intensity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Supporters Gol Sur has had far-right elements historically (not verified this session); check before finalising V.",
+   "Culture drop ends when the new Villamarín opens (target 2028); then apply the new-stadium -1 for ~5 seasons."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Real_Betis",
+   "https://www.seville-traveller.com/benito-villamarin/",
+   "https://en.realbetisbalompie.es/news/latest_news/real-betis-and-hummel-unveil-the-2026-27-home-kit-32436",
+   "https://www.footballshirtculture.com/new-kits/real-betis-jersey-26-27-home-hummel.html"
+  ]
+ },
+ {
+  "name": "Real Madrid",
+  "C": {
+   "score": 7,
+   "evidence": "Bernabéu (83,186, renovated in place) is usually full but known for a quieter, spectator crowd; organised Grada Fans Animación replaced the banned far-right Ultras Sur (2013)."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Emirates (Dubai state airline) main shirt sponsor; high ticket prices; president-led political messaging (Real Madrid TV campaigns against referees and LaLiga). Positives: women's team (since 2020), La Fábrica supplies many players to top leagues but few into Madrid's own XI."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "15 European Cups (record); the defining club of European football."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Member-owned (socios elect the president), but Pérez unopposed since 2013 under restrictive candidacy rules; Nov 2025 plan for a subsidiary selling 5-10% to outside investors (members' referendum)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Star-driven, transition-based football; intensity varies; frequent coaching changes 2025-26."
+  },
+  "adjustments": [
+   {
+    "type": "superleague",
+    "points": -3,
+    "evidence": "Last founding club to back the Super League; ended the dispute via a peace deal with UEFA only in Feb 2026."
+   }
+  ],
+  "flags": [
+   "Outcome of the 2026 members' referendum on selling a 5-10% stake not verified: may lower O.",
+   "Old rating had -5 (still backing); changed to -3 after the Feb 2026 UEFA deal. Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+   "https://www.sportspro.com/news/decision-makers/real-madrid-uefa-european-super-league-florentino-perez-a22-february-2026/",
+   "https://insidersport.com/2025/11/24/real-madrid-investors-super-league/",
+   "https://www.realmadrid.com/en-US/news/club/latest-news/florentino-perez-societario-23-11-2025"
+  ]
+ },
+ {
+  "name": "Roma",
+  "C": {
+   "score": 9,
+   "evidence": "Curva Sud at the Olimpico (70,643, home since 1953) is one of Italy's great ends; season tickets and crowds strong through lean years."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Shirt sponsor Eurobet.live (sports betting) since 2025, reported Stake (betting) sleeve talks; previously Riyadh Season (Saudi state tourism, 2023-25). Curva Sud mixes left-wing and right-wing factions."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Serie A 1942, 1983, 2001; 1984 European Cup final; 2022 Conference League; capital-city club with deep cultural weight."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Friedkin Group owns ~96% since 2020; big investment and new Pietralata stadium approved (2031), but abrupt sackings (Mourinho, De Rossi) drew fan protests; run alongside Everton via Pursuit Sports."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Gasperini's man-to-man, high-intensity pressing since 2025."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Friedkin Group also owns Everton (99.5%, since Dec 2024) and AS Cannes; Pursuit Sports (2025) manages Roma and Everton together."
+   },
+   {
+    "type": "violence",
+    "points": -6,
+    "evidence": "Record of stabbings of visiting English fans (Liverpool, Chelsea, Arsenal, Man United); 2014 killing of Napoli fan Ciro Esposito by Roma ultra Daniele De Santis, followed by celebratory banners."
+   }
+  ],
+  "flags": [
+   "Friedkin reportedly assessing an Everton sale/new investment (Sept 2026): multiclub may change.",
+   "Pietralata stadium (planned 2031) will trigger the new-stadium Culture drop."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AS_Roma",
+   "https://www.sportspro.com/news/roma-riyadh-season-front-of-shirt-sponsor-2025/",
+   "https://romapress.net/roma-nearing-stake-sleeve-sponsorship-deal/",
+   "https://www.friedkin.com/everton-football-club-acquired-by-roundhouse-capital-holdings-limited-part-of-the-friedkin-group/",
+   "https://stadiumdb.com/news/2026/03/italy_the_rome_city_council_has_approved_the_construction_of_a_stadium_in_pietralata"
+  ]
  }
 ]

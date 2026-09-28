@@ -601,5 +601,208 @@
    "https://en.wikipedia.org/wiki/2026%E2%80%9327_AS_Roma_season",
    "https://en.wikipedia.org/wiki/AS_Roma"
   ]
+ },
+ {
+  "name": "Sabah",
+  "T": {
+   "score": 5,
+   "evidence": "Valdas Dambrauskas since June 2025; won the club's first league title and cup in 2025-26 and a first UCL league phase (6-4 over Hapoel Be'er Sheva). Young club (2017) with an imported squad from 15+ countries; no long-serving captain, icon or documented pressing identity. Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Nothing notable found (no conduct or welfare cases; few Azerbaijani academy players documented)."
+  },
+  "icons": [],
+  "coach": "Valdas Dambrauskas, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No American players in the squad."
+  },
+  "flags": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sabah_FC_(Azerbaijan)",
+   "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+  ]
+ },
+ {
+  "name": "Shakhtar Donetsk",
+  "T": {
+   "score": 6,
+   "evidence": "Arda Turan (since 2025): technical, attacking, Brazilian-heavy squad (Pedrinho, Eguinaldo, Kaua Elias, Marlon Gomes). Ukrainian core Matviyenko, Bondar, Kryskiv, Riznyk; club in exile (Lviv, European games abroad), players visibly involved in war-relief fundraising. Sudakov sold. Stays at old S."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Academy-developed Ukrainians in the first team (Matviyenko, Bondar, Kryskiv); no conduct cases found."
+  },
+  "icons": [
+   "Mykola Matviyenko"
+  ],
+  "coach": "Arda Turan, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "V_delta +1 may overlap with the academy note in V (relocation to Split); drop to 0 if so."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_FC_Shakhtar_Donetsk_season",
+   "https://en.wikipedia.org/wiki/FC_Shakhtar_Donetsk"
+  ]
+ },
+ {
+  "name": "Slavia Prague",
+  "T": {
+   "score": 9,
+   "evidence": "Jindrich Trpisovsky since Dec 2017: the defining coach of Slavia's intense, physical pressing identity; champions 2025 and 2026. Stable Czech core (Provod, Holes, Boril, Chory), low-ego squad. +1 vs old S for the long-serving coach."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No new player-conduct cases in the window; the 2021 Kudela case is already counted in V."
+  },
+  "icons": [
+   "Jindrich Trpisovsky (coach)"
+  ],
+  "coach": "Jindrich Trpisovsky, since 2017",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
+   "https://en.wikipedia.org/wiki/Jind%C5%99ich_Trpi%C5%A1ovsk%C3%BD"
+  ]
+ },
+ {
+  "name": "Slovan Bratislava",
+  "T": {
+   "score": 5,
+   "evidence": "Dominant domestic side (titles 2024, 2025, 2026), no documented pressing identity. New coach Yaya Toure since June 2026, first African coach in the UCL league phase. Veteran Bratislava-born Vladimir Weiss Jr. the long-time leader. Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found; ultra racism already handled in adjustments."
+  },
+  "icons": [],
+  "coach": "Yaya Toure, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Captain not confirmed for 2026-27."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/%C5%A0K_Slovan_Bratislava",
+   "https://www.aljazeera.com/sports/2026/8/27/yaya-toure-becomes-first-african-coach-to-lead-a-team-into-champions-league"
+  ]
+ },
+ {
+  "name": "Sporting CP",
+  "T": {
+   "score": 7,
+   "evidence": "Rui Borges (since Dec 2024) kept the front-foot 3-4-3 legacy of Amorim; doubles/titles 2025-26. Academy centre-back Goncalo Inacio among the captains; Gyokeres (2025) and Hjulmand (2026, to Atletico) sold; Zalazar EUR 30m in. Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found; academy already counted in V."
+  },
+  "icons": [],
+  "coach": "Rui Borges, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Sporting_CP_season",
+   "https://en.wikipedia.org/wiki/Sporting_CP"
+  ]
+ },
+ {
+  "name": "VfB Stuttgart",
+  "T": {
+   "score": 8,
+   "evidence": "Sebastian Hoeness since 2023: intense possession-and-press, 2nd in 2024, DFB-Pokal 2025. Captain Deniz Undav (Aug 2026). Sell-on churn every summer (Guirassy, Ito, Mittelstadt in/out cycles; Chema Andres EUR 23m out, Pejcinovic, El Khannouss in). Stays at old S."
+  },
+  "V_delta": {
+   "points": -2,
+   "evidence": "Atakan Karazor was arrested on Ibiza in June 2022 on a rape allegation (released on EUR 50,000 bail; investigation still open, no charge and no closure). Stuttgart kept playing him and made him club captain in summer 2024; he lost the armband only in Aug 2026 and is still in the squad."
+  },
+  "icons": [],
+  "coach": "Sebastian Hoeness, since 2023",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Karazor: -2 under the standing-by rule, but he was never charged; Kevin may prefer -1."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_VfB_Stuttgart_season",
+   "https://en.wikipedia.org/wiki/Atakan_Karazor",
+   "https://www.zvw.de/vfb-stuttgart/strafverfahren-gegen-karazor-fall-des-vfb-profis-kann-sich-noch-jahre-ziehen_arid-853642"
+  ]
+ },
+ {
+  "name": "Viking",
+  "T": {
+   "score": 8,
+   "evidence": "Joint head coaches Bjarte Lunde Aarsheim and Morten Jensen in their sixth season (since 2021): stable, attacking, energetic side that won the 2025 title. Local Rogaland core (Heggheim, Bjordal, Haugen) plus Tripic; member-club closeness to fans. +1 vs old S for coaching stability and a local squad."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Local and academy players (Heggheim, Bjordal, Haugen) form part of the first team; no conduct cases found."
+  },
+  "icons": [
+   "Aarsheim and Jensen (coaches)"
+  ],
+  "coach": "Bjarte Lunde Aarsheim and Morten Jensen, since 2021",
+  "republic_link": {
+   "value": false,
+   "evidence": "No American players in the squad."
+  },
+  "flags": [
+   "2026 captain not confirmed (Zlatko Tripic earlier)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Viking_FK_season",
+   "https://www.goal.com/en-us/lists/viking-fk-two-head-coaches-morten-jensen-bjarte-lunde-aarsheim-champions-league/bltd201dfb63563d29d"
+  ]
+ },
+ {
+  "name": "Villarreal",
+  "T": {
+   "score": 6,
+   "evidence": "New coach Inigo Perez for 2026-27 (Marcelino before, since 2023). Captain Gerard Moreno (club academy, all-time top scorer) is a current icon; Parejo and Partey left. Compact, transition football, not a pressing identity. Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found (Partey, who faces rape charges in England, was signed in 2025 and left in 2026: see flag). Academy already counted in V."
+  },
+  "icons": [
+   "Gerard Moreno"
+  ],
+  "coach": "Inigo Perez, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Villarreal signed Thomas Partey in summer 2025 while he was charged with rape and sexual assault in England (trial set for Nov 2026). Under the standing-by rule that is -2; I left V_delta 0 because he has left. Kevin to decide."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Villarreal_CF_season",
+   "https://en.wikipedia.org/wiki/Villarreal_CF"
+  ]
  }
 ]

@@ -1,0 +1,819 @@
+[
+ {
+  "name": "Arsenal",
+  "C": {
+   "score": 7,
+   "evidence": "Emirates Stadium (60,704) since 2006 after 93 years at Highbury; long criticised as quiet, improved recently with organised singing sections; licensed standing in Clock End from 2026-27 and North Bank a year later. Large, loyal away following."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Raises: major investment in Arsenal Women (2025 UWCL winners), Hale End academy pathway (Saka, Lewis-Skelly, Nwaneri), Arsenal in the Community. Lowers: Emirates (Dubai state-owned airline) on chest and stadium name; fifth straight season-ticket rise (+3.9%), GA £90-168, the most expensive in England per the Supporters' Trust."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "14 league titles (latest 2025-26, first since 2004), record 14 FA Cups, 2003-04 Invincibles, Chapman and Wenger eras shaped English football; 2026 Champions League finalists."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Kroenke Sports & Entertainment full owner since 2018. Has funded the squad heavily and delivered the 2026 title, but ticket price rises each year and Supporters' Trust calls the model 'US-centric'; 2021 Super League move drew protests."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Arteta's side presses high and is structured and physically intense, very strong at set pieces; control-first rather than chaotic high-energy."
+  },
+  "adjustments": [
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Founding Super League signatory in April 2021, withdrew two days later."
+   }
+  ],
+  "flags": [
+   "Emirates is chest AND stadium sponsor (Dubai state airline): counted once as -1 in V; Kevin may want a bigger hit."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.espn.com/soccer/story/_/id/47955459/arsenal-confirm-season-ticket-prices-rise-39-next-season",
+   "https://readarsenal.com/2026/02/18/arsenal-season-ticket-price-increase-2026-27-ast-statement/"
+  ]
+ },
+ {
+  "name": "Aston Villa",
+  "C": {
+   "score": 8,
+   "evidence": "Villa Park (home since 1897; capacity reduced to ~36,900 in 2026-27 during North Stand rebuild); the Holte End is one of England's great home ends. Stayed loud and sold out through the 2016-19 Championship years; big European away followings in 2024-26."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Lowers: Betano (sports betting) sleeve sponsor; Visit Rwanda (tourism board of an authoritarian state) chest sponsor from 2026; 2024-25 ticket price rises drew fan protest. Raises: Aston Villa Foundation, academy (2021 FA Youth Cup), funded WSL women's team."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "1982 European Cup winners, 7 league titles, founder member of the Football League (1888); 2025-26 Europa League winners, first trophy in 30 years."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "V Sports: Nassef Sawiris and Wes Edens (34.4% each) plus US fund Atairos (~32%). Heavy investment and ground redevelopment, but UEFA squad-cost breach settlement (>£19m) forces player sales, reports of academy players being sold to comply."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Emery's teams are organised, compact and good on the counter with a high offside line; not a pressing-first identity."
+  },
+  "adjustments": [
+   {
+    "type": "overspend",
+    "points": -3,
+    "evidence": "Breached UEFA squad-cost / financial rules; settlement over £19m with conditional instalments (2025-26)."
+   }
+  ],
+  "flags": [
+   "Visit Rwanda counted as authoritarian-state sponsor (-1 V). Check the adjustments stack (-11 total) feels right versus the old -4."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://en.wikipedia.org/wiki/V_Sports",
+   "https://bean-counter.co.uk/aston-villa/",
+   "https://www.billionaires.africa/2026/07/08/billionaire-nassef-sawiris-aston-villa-puts-nearly-its-entire-academy-up-for-sale-over-spending-rules/"
+  ],
+  "review": [
+   "multiclub: dropped (V Sports flagship (Vitoria SC secondary))",
+   "pe: dropped (Atairos is a sports investment group, not a PE fund)"
+  ]
+ },
+ {
+  "name": "Bournemouth",
+  "C": {
+   "score": 5,
+   "evidence": "Dean Court (12,357, home since 1910) is compact and full, lively on good days but not known for sustained atmosphere; small historic support base. Rebuild to ~20,000 began July 2026."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Lowers: MrQ (online betting) sleeve sponsor. Raises: AFCB Community Sports Trust; academy and women's team exist but modest. No formal fan board seat found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 1899 as Boscombe FC; nearly folded in 2008 administration (-17 points), then rose from League Two to the Premier League (2015) under Eddie Howe; first European qualification 2026."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Bill Foley's Black Knight Football Club since Dec 2022 (with Cannae Holdings, Michael B. Jordan). Invested, bought the ground back and is expanding it; club is part of a wider sports portfolio."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Iraola's side (to 2026) was among the Premier League's most intense high-pressing teams, finishing 6th in 2025-26; successor Marco Rose is from the same high-press school."
+  },
+  "adjustments": [],
+  "flags": [
+   "Hibernian stake not re-verified this session (reported 25% since 2023). Multiclub set at -6 (hub, large network) vs old -8."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+   "https://buzz.bournemouth.ac.uk/2026/01/inside-black-knight-football-club-and-bill-foley/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.scoreandchange.com/overview-of-the-2026-2027-premier-league-sponsors/"
+  ],
+  "review": [
+   "multiclub: dropped (Black Knight flagship (Lorient, Hibernian secondary))"
+  ]
+ },
+ {
+  "name": "Brentford",
+  "C": {
+   "score": 6,
+   "evidence": "Gtech Community Stadium (17,250) since 2020 after 116 years at Griffin Park; full, friendly and fairly loud, small but loyal support; the move is now past the 5-season window."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Raises: supporters' trust Bees United keeps a seat on the club board; well-regarded Community Sports Trust; ticket prices low for the Premier League. Neutral: no betting on shirt/sleeve (Indeed, Cazoo). No traditional academy (B team model); women's side is only an affiliate."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Old London club (1889), 5th in the First Division 1935-36, then decades in the lower leagues; 2021 promotion ended a 74-year top-flight absence."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Matthew Benham, lifelong fan, bought the club from the fans' trust in 2012 and runs it sustainably on analytics. Minority investors since 2024-26 (Lubner, Vaughn, Grainge, Melwani); Rothschild exploring a further sale in 2026."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Aggressive, direct, pressing side with elite set pieces under Frank; Keith Andrews has kept the intensity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Benham sold FC Midtjylland in 2023, so the old multi-club -4 is dropped.",
+   "Possible sale of a larger stake (Rothschild, 2026): re-check O next season."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brentford_F.C.",
+   "https://www.sportcal.com/news/brentford-secure-external-investment-as-benham-sells-minority-stake/",
+   "https://en.wikipedia.org/wiki/Matthew_Benham",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Brighton",
+  "C": {
+   "score": 6,
+   "evidence": "Amex / Falmer Stadium (32,176) since 2011, regularly sold out; decent but not a noted atmosphere. The fan base's defining trait is loyalty: fans fought for 14 years (Gillingham exile, Withdean) to win a new home."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Raises: Albion in the Community is one of the largest club charities; heavy women's investment (planned 10,000-seat purpose-built women's stadium, a first in Europe); productive academy. Neutral: no betting sponsors (Amex; Experience Kissimmee is a US county tourism board)."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "1983 FA Cup finalists; the 1997 Goldstone sale and fan-led fight to save the club are a famous supporter story; first European campaign 2023-24."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Tony Bloom, lifelong local fan, majority owner since 2009; funded the stadium and training ground and runs a sustainable, well-regarded model."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Possession-based pressing under De Zerbi, energetic high press under Hürzeler."
+  },
+  "adjustments": [],
+  "flags": [
+   "Bloom's wealth comes from betting syndicate Starlizard: treated like casino money behind an owner (no effect)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
+   "https://www.foxsports.com/articles/soccer/billionaire-brighton-owner-tony-bloom-buys-stake-in-scottish-soccer-club-hearts",
+   "https://www.scotsman.com/sport/football/hearts/latest-hearts-news/tony-bloom-brighton-and-hearts-why-both-can-play-in-conference-league-and-uefa-rules-8946901",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ],
+  "review": [
+   "multiclub: dropped (Bloom flagship (Union SG secondary))"
+  ]
+ },
+ {
+  "name": "Chelsea",
+  "C": {
+   "score": 6,
+   "evidence": "Stamford Bridge (40,044, home since 1905) is a historic ground but the crowd is often described as quiet; large, vocal away following. Loyal support through the 1970s-80s decline."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Raises: heavily funded, dominant Chelsea Women; Cobham academy; Chelsea Foundation and anti-antisemitism campaign. Lowers: repeated discriminatory chanting (FA charge Sept 2026 for sectarian chanting at Fulham, club admits prior fines for similar chants); £10.75m Premier League fine (Mar 2026) for undisclosed 2011-18 payments; high ticket prices. No betting sponsors (USDC chest, no sleeve)."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "6 league titles, 2 Champions Leagues (2012, 2021), 2 Club World Cups (2021, 2025), 2 Cup Winners' Cups; major national significance, modern global club."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Private-equity firm Clearlake Capital took full control on 16 Sept 2026 after buying out Todd Boehly and Mark Walter (99.9% reported). BlueCo era: huge churn of players and coaches, Strasbourg used as a sister club, fan protests over ownership."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Possession-heavy under Maresca; Xabi Alonso now in charge (pressing, structured). Average-plus intensity, no lasting pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -8,
+    "evidence": "Clearlake Capital (private equity) owns the club outright since Sept 2026."
+   },
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Signed up to the 2021 Super League, first club to withdraw."
+   },
+   {
+    "type": "overspend",
+    "points": -4,
+    "evidence": "Over £1bn spent on transfers since 2022, related-party asset sales to meet PSR, £10.75m PL fine and suspended transfer ban (Mar 2026)."
+   }
+  ],
+  "flags": [
+   "Discriminatory chanting (FA charge Sept 2026, earlier fines): counted in V only; Kevin may want a racism adjustment (-3 to -5).",
+   "Clearlake financing of the buyout not verified: check for acquisition debt on the club (possible lbo)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/BlueCo",
+   "https://www.rte.ie/sport/soccer/2026/0925/1592944-chelsea-charged-by-fa-over-alleged-sectarian-chanting/",
+   "https://www.sportspro.com/news/decision-makers/politics-and-governance/chelsea-premier-league-payment-fine-march-2026/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ],
+  "review": [
+   "multiclub: dropped (flagship of BlueCo)"
+  ]
+ },
+ {
+  "name": "Coventry City",
+  "C": {
+   "score": 7,
+   "evidence": "Stayed loyal through SISU years: exile to Northampton (2013-14) and Birmingham (2019-21), fall to League Two (2017), sustained protests. Now averaging ~29,400 at the CBS Arena (2025-26). Ground is a 2005 out-of-town bowl, not historic."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Neutral sponsors (Monzo; Geely is a private Chinese carmaker). Sky Blues in the Community and academy; no notable fan board seat found. Former owner's poor treatment of fans is past."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1987 FA Cup winners in a classic final; 34 straight top-flight seasons (1967-2001), Premier League founder member; Highfield Road 1899-2005."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Local businessman Doug King owner since 2023; bought the stadium back from Frasers Group in Aug 2025 (£50m), reuniting club and ground for the first time; promoted as champions 2026."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Lampard's promotion side was high-scoring and front-foot; average-plus intensity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Coventry_City_F.C.",
+   "https://www.thestadiumbusiness.com/2025/08/26/coventry-city-acquires-cbs-arena/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Coventry_City_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Crystal Palace",
+  "C": {
+   "score": 8,
+   "evidence": "Selhurst Park (1924, 25,194) has one of England's loudest home ends: Holmesdale Fanatics ultras (founded 2005) bring drums, flags and tifos. Main Stand rebuild began June 2026 (to 34,000 by 2029)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Lowers: CHEXX Bet (betting) sleeve sponsor. Raises: Palace for Life Foundation; productive academy; fan-group campaigning on ticket prices and fan issues. Neutral: Temporal (tech) chest."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "2025 FA Cup (first major trophy), 2026 Conference League winners, 1990 FA Cup final, 3rd in 1990-91; saved from 2010 administration by the CPFC 2010 consortium."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Woody Johnson 43% (bought Textor's stake July 2025), Josh Harris and David Blitzer, Steve Parish ~10% as chairman. Club well run and successful, but the US owners are reported (June 2026) to be exploring a sale."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Glasner's intense 3-4-2-1 with aggressive wing-backs and counter-pressing won two trophies; Pierre Sage now coach."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "David Blitzer holds stakes in several clubs via Bolt Football Holdings; minority stake, Palace not a feeder."
+   }
+  ],
+  "flags": [
+   "Blitzer's other clubs not re-verified this session; -4 kept from earlier multi-club policy.",
+   "Possible ownership change (US owners exploring sale, 2026)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
+   "https://www.foxsports.com/stories/soccer/jets-owner-woody-johnson-completes-purchase-of-stake-in-premier-league-club-crystal-palace",
+   "https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/",
+   "https://www.scoreandchange.com/overview-of-the-2026-2027-premier-league-sponsors/"
+  ]
+ },
+ {
+  "name": "Everton",
+  "C": {
+   "score": 8,
+   "evidence": "One of England's most loyal and loud supports (sell-outs through years of relegation fights). Moved in 2025 from Goodison Park (133 years) to the 52,888 Hill Dickinson Stadium at Bramley-Moore Dock, averaging ~52,100 in 2025-26; -1 new-stadium drop applied (would be 9)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Raises: Everton in the Community (widely praised charity); Everton Women now play at Goodison, the UK's largest dedicated women's stadium; academy. Lowers: Stake.com (betting) sleeve sponsor."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Founded 1878, record 123 top-flight seasons, 9 league titles, 5 FA Cups, 1985 Cup Winners' Cup; a founder of the Football League."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "The Friedkin Group (94.1%) since Dec 2024 converted ~£0.5bn of shareholder debt to equity and refinanced the stadium on better terms; stable after the Moshiri years. Same owner runs AS Roma via Pursuit Sports."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Moyes' Everton is organised, physical and direct; not a pressing side."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Friedkin Group owns AS Roma (and formerly AS Cannes) and runs them with Everton under Pursuit Sports (2025)."
+   }
+  ],
+  "flags": [
+   "Overspend penalty relates to the previous owner (Moshiri); Kevin may prefer to drop it."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Everton_F.C.",
+   "https://theesk.org/2026/04/13/final-analysis-of-the-financial-reconstruction-and-stewardship-transition-of-everton-football-club-and-everton-stadium-development-limited-for-the-2024-25-fiscal-period/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Everton_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ],
+  "review": [
+   "overspend: dropped (breach under the previous owner (Moshiri))"
+  ]
+ },
+ {
+  "name": "Fulham",
+  "C": {
+   "score": 5,
+   "evidence": "Craven Cottage (1896, 28,107 after Riverside Stand) is a characterful riverside ground, but the crowd is generally quiet and includes a neutral section; modest away following."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Neutral sponsors (ClickHouse, HiBob). Raises: Fulham FC Foundation, academy output. Lowers: very high prices for top Riverside/matchday tickets. Women's team is not a funded professional side."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Old London club (1879); 2010 Europa League final, 1975 FA Cup final; fell to 17th in the fourth tier in 1995-96 before the Al-Fayed rise."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Shahid Khan (owner since 2013) has funded the Riverside Stand and a stable club; no other football clubs; son Tony Khan runs football operations."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Marco Silva's possession side was tidy but not intense; Álvaro Arbeloa now coach."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fulham_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.scoreandchange.com/overview-of-the-2026-2027-premier-league-sponsors/"
+  ]
+ },
+ {
+  "name": "Hull City",
+  "C": {
+   "score": 6,
+   "evidence": "MKM Stadium (24,983, council-built 2002 after 56 years at Boothferry Park); crowds held up through the Allam era and Championship years (24,600 for the 2026 play-off semi). Solid, not a noted atmosphere."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Neutral sponsors (Corendon Airlines is a private Dutch-Turkish firm; McVitie's sleeve). Raises: Tigers Trust community work. Past fan mistreatment (Allam 'Hull Tigers' rename fight, concessions row) predates current owner."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "First top-flight season only in 2008; 2014 FA Cup final and 2014-15 Europa League qualifiers; mostly a lower-division club."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Turkish TV producer Acun Ilıcalı owner since Jan 2022 (£20m), says he has put in ~£100m; promotion via the 2026 play-off final. High manager turnover and public threats of legal action over the Southampton 'spygate' play-off case."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Average intensity; no lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Check whether Ilıcalı holds roles at other clubs (not verified this session; if yes, add multiclub).",
+   "Heavy owner spending in the Championship (~£100m): consider overspend -2 if PSR issues surface."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
+   "https://www.espn.com/soccer/story/_/id/48852636/hull-city-promoted-premier-league-beating-middlesbrough-championship-playoff-final",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Ipswich Town",
+  "C": {
+   "score": 7,
+   "evidence": "Portman Road (home since 1884, 30,056) sells out; strong, loyal Suffolk support that stayed through League One (2019-23); good away following. Atmosphere lively in promotion years, not elite."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Raises: Ipswich Town Women are now funded and professionalised; ITFC Charitable Trust; academy. Neutral: Halo chest. Sleeve sponsor 'Play' not verified (flag). No formal fan board seat found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1961-62 league champions in first top-flight season under Alf Ramsey; 1978 FA Cup and 1981 UEFA Cup under Bobby Robson; unbeaten at home in Europe for decades."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Gamechanger 20 (since 2021) led by US pension-fund investor ORG with the 'Three Lions Fund' and Marcus Evans; heavy investment and back-to-back promotions. US private-equity firm Bright Path took a 40% stake (2024)."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "McKenna's front-foot, pressing possession side scored 92 goals in 2025-26; Gary O'Neil (from June 2026) also plays an intense pressing game."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -6,
+    "evidence": "Bright Path Sports Partners (private equity) owns ~40%; majority owner is a pension-fund investment vehicle (ORG)."
+   }
+  ],
+  "flags": [
+   "Sleeve sponsor 'Play': check whether it is a gambling brand (would be -1 V).",
+   "Owner-funded spending (~£100m+ in 2024-25) could merit overspend -2."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ipswich_Town_F.C.",
+   "https://swissramble.substack.com/p/ipswich-town-finances-202425",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ipswich_Town_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Leeds United",
+  "C": {
+   "score": 9,
+   "evidence": "Elland Road (37,633, home since 1919) is one of England's loudest and most intimidating grounds; famously loyal, huge away following through three seasons in League One (2007-10). Expansion to ~53,000 approved Jan 2026."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Raises: Leeds United Foundation; LUFC Supporters' Trust consulted on ownership. Lowers: price rises and membership scheme criticised by 'legacy fans'. Neutral: Red Bull chest, KChat sleeve. Historic hooligan element (Service Crew) is not current."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "3 league titles, 1972 FA Cup, 2 Fairs Cups, 1975 European Cup final; Revie era a defining chapter of English football."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "49ers Enterprises (a ~100-investor consortium) has owned 100% since 2023; injected £120m new equity to fund Elland Road expansion. Red Bull holds under 10% after declining a share issue."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Bielsa-era intensity has faded; Farke's teams control the ball, energetic but not a pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Two adjustments (pe + multiclub, -8 total) vs old 0: check."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.cityam.com/red-bull-diluted-energy-drink-giant-reduces-stake-in-leeds-united/",
+   "https://www.sportcal.com/news/cavenagh-49ers-led-consortium-completes-rangers-takeover/",
+   "https://footballgroundguide.com/news/elland-road-expansion",
+   "https://lufctrust.com/article/trust-response-on-red-bull-partnership-with-leeds-united/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ],
+  "review": [
+   "multiclub: dropped (49ers Enterprises flagship in Europe (Rangers secondary))",
+   "pe: dropped (49ers Enterprises is a sports investment group, not a PE fund)"
+  ]
+ },
+ {
+  "name": "Liverpool",
+  "C": {
+   "score": 10,
+   "evidence": "Anfield (61,276) and the Kop are among the most famous atmospheres in world football; 'You'll Never Walk Alone', flag and banner culture, huge travelling support; supporters' union Spirit of Shankly organises fans."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Raises: Spirit of Shankly and supporters' board force changes (reversed a multi-year price rise in May 2026: 3% rise then 2027-28 freeze); LFC Foundation; Hillsborough justice campaign; academy; women's team. Neutral: Standard Chartered, Expedia. Lowers (from 2027-28): Turkish Airlines shirt deal (state holds a large stake via the Türkiye Wealth Fund)."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "20 league titles, 6 European Cups, 3 UEFA Cups; Shankly/Paisley eras, Istanbul 2005; Hillsborough changed English football."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Fenway Sports Group 62% since 2010; sold 38% in Aug 2026 to 1892 Holdings (Amit Bhatia, Jeff Bezos, Eduardo Saverin, Mittal family). Well-run, Anfield expanded, but ticket-price rows and 2021 Super League."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Klopp's gegenpressing legacy; Slot's side was more controlled; Iraola (from June 2026) is an elite high-press coach."
+  },
+  "adjustments": [
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Founding Super League signatory (2021), withdrew within days."
+   }
+  ],
+  "flags": [
+   "Turkish Airlines shirt deal from 2027-28: authoritarian-state-linked sponsor, V drops a point when it starts (currently 8, was 9).",
+   "pe -4 is new for FSG: Kevin to confirm it fits the pe rule."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+   "https://spiritofshankly.com/2026/05/07/multi-year-ticket-policy-off-the-table/",
+   "https://spiritofshankly.com/2026/08/14/fsg-announcement/",
+   "https://www.thisisanfield.com/2026/08/fsg-moneyball-liverpool-300m-5bn-valuation-bezos/"
+  ],
+  "review": [
+   "pe: dropped (FSG / 1892 Holdings are sports investment groups, not PE funds)"
+  ]
+ },
+ {
+  "name": "Manchester City",
+  "C": {
+   "score": 6,
+   "evidence": "Loyal through the 1998 drop to the third tier; Etihad (61,038, since 2003) is often quieter than its size and has had empty seats in cup and European games. Solid away following."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Lowers: Etihad Airways (Abu Dhabi state airline) on chest and stadium, plus other Abu Dhabi state-linked partners; club is a vehicle for state image. Raises: City in the Community, strong academy (Foden), funded women's team."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "10 league titles, 2023 Champions League and treble, 1968 title, 1970 Cup Winners' Cup; Maine Road history. Recent success is state-funded."
+  },
+  "O": {
+   "score": 0,
+   "evidence": "Owned since 2008 by Abu Dhabi United Group (Sheikh Mansour, deputy ruler/VP of the UAE) via City Football Group; Silver Lake minority stake. Independent commission reportedly found City guilty on 114 of 115 Premier League charges (Sept 2026), appeal expected."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Guardiola-era positional play with an elite counter-press; Maresca (2026) continues a control-first model."
+  },
+  "adjustments": [
+   {
+    "type": "state",
+    "points": -25,
+    "evidence": "Majority owner Abu Dhabi United Group is controlled by a member of the Abu Dhabi ruling family."
+   },
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Signed up to the 2021 Super League, withdrew within days."
+   },
+   {
+    "type": "overspend",
+    "points": -6,
+    "evidence": "Reportedly found guilty on 114 of 115 Premier League financial charges (2009-18) in Sept 2026; sanction pending."
+   }
+  ],
+  "flags": [
+   "Adjustments total -39: Kevin may want to cap the stack.",
+   "115-charges sanction not yet published; revisit after the appeal."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+   "https://www.beinsports.com/en-us/soccer/premier-league/articles/manchester-city-receives-verdict-on-115-premier-league-charges-2026-09-25",
+   "https://thefootballweek.com/2026/09/25/manchester-city-115-charges/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ],
+  "review": [
+   "multiclub: dropped (flagship of City Football Group)"
+  ]
+ },
+ {
+  "name": "Manchester United",
+  "C": {
+   "score": 8,
+   "evidence": "Old Trafford (74,158) with the Stretford End singing section; one of the biggest and most loyal away followings in England. Home atmosphere criticised in poor seasons and the ground is visibly ageing; fans keep staging mass ownership protests (The 1958)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Raises: academy has had a youth graduate in every matchday squad since 1937; Manchester United Foundation; women's team. Lowers: £66 flat match tickets with no child/pensioner concessions, staff cuts and fan-group complaints about treatment of supporters. Neutral: Snapdragon chest, SumUp sleeve (Betway only on training wear)."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "20 league titles, 3 European Cups, 1999 treble; Munich 1958 and the Busby Babes, Best-Law-Charlton, Ferguson era: global football significance."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Glazer family control since a 2005 leveraged takeover; net debt now over £1bn and ~£815m paid in interest since 2005. INEOS (Ratcliffe) holds ~29% and runs football operations with cost cuts and price rises. Glazers reported open to a sale (June 2026)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Carrick (permanent from 2026) took the team to 3rd in 2025-26 with a more energetic, front-foot approach than under Amorim; no lasting pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Founding Super League signatory (2021), withdrew."
+   },
+   {
+    "type": "lbo",
+    "points": -10,
+    "evidence": "2005 Glazer takeover financed with debt loaded onto the club; club net debt over £1bn in FY2026. [Review: Glazer purchase debt still on the club (smaller LBO scale).]"
+   }
+  ],
+  "flags": [
+   "LBO is the new big penalty (-20, total -26 vs old -6). Kevin to confirm -20 vs -15."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+   "https://theesk.org/2026/06/16/the-analysis-series-manchester-united-plc-debt-structure-ineos-investment-refinancing-full-financial-review/",
+   "https://insidersport.com/2026/06/04/manchester-united-glazer-family-sale/",
+   "https://africa.espn.com/football/story/_/id/47275844/man-united-net-debt-breaks-1bn-active-summer-window",
+   "https://www.goal.com/en/lists/the-way-you-treat-us-is-a-disgrace-man-utd-supporters-stage-fierce-old-trafford-protests-against-owners-before-derby-clash/bltedb95fc6b00ac9ea"
+  ],
+  "review": [
+   "multiclub: dropped (INEOS flagship (Nice secondary))",
+   "lbo: -10 (Glazer purchase debt still on the club (smaller LBO scale))"
+  ]
+ },
+ {
+  "name": "Newcastle United",
+  "C": {
+   "score": 9,
+   "evidence": "St James' Park (52,729) in the city centre, full and loud, with the Wor Flags fan group producing large displays; famously loyal through relegations in 2009 and 2016 and long trophy droughts."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Lowers: owner and sponsors tied to the Saudi state (Noon sleeve, co-owned by PIF; earlier PIF-owned Sela on the chest); the club is widely described as a sportswashing vehicle. Raises: NUFC Foundation; women's team brought in-house (2022) and funded."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "4 league titles, 6 FA Cups, 1969 Fairs Cup, 2025 League Cup (first domestic trophy since 1955); 'Entertainers' era of the 1990s."
+  },
+  "O": {
+   "score": 0,
+   "evidence": "Saudi Arabia's Public Investment Fund owns 85% (RB Sports & Media 15%) since the 2021 takeover. New head coach Matthias Jaissle came from PIF-owned Al-Ahli in Aug 2026."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Howe's teams (2021-26) were high-energy and physically intense; Jaissle comes from the Red Bull pressing school."
+  },
+  "adjustments": [
+   {
+    "type": "state",
+    "points": -25,
+    "evidence": "Majority owned (85%) by Saudi Arabia's sovereign wealth fund PIF."
+   }
+  ],
+  "flags": [
+   "PIF also owns four Saudi Pro League clubs (incl. Al-Ahli): consider multiclub -4 on top of state."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
+   "https://gulfnews.com/business/markets/saudi-pif-raises-stakes-in-newcastle-united-to-85-per-cent-1.1721050711909",
+   "https://www.skysports.com/football/news/11678/13568428/newcastle-united-appoint-matthias-jaissle-as-head-coach-following-eddie-howes-departure-from-st-james-park",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Nottingham Forest",
+  "C": {
+   "score": 8,
+   "evidence": "City Ground (31,212, home since 1898) on the Trent is loud and sold out; strong support through three seasons in the third tier (2005-08); big European away followings in 2025-26."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Lowers: Bally's Intralot (betting) sleeve sponsor; owner-driven public attacks on referees (club social posts, FA sanctions 2024) and touchline confrontations. Raises: Forest community trust, academy. Neutral: Marex chest."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Two European Cups (1979, 1980) and the 1978 title under Brian Clough; the only club with more European Cups than league titles."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Evangelos Marinakis owner since 2017 (also owns Olympiacos, Rio Ave). Heavy investment and a 2025-26 Europa League semi-final, but four head coaches in 2025-26 and repeated conflicts; shares placed in a blind trust (April 2026) to satisfy UEFA multi-club rules."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Style changed with each coach (Nuno counter-attack, Postecoglou, Dyche, Glasner); no lasting identity yet; Glasner brings intensity."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Owner also controls Olympiacos (and Rio Ave); blind trust used each year to stay within UEFA rules."
+   },
+   {
+    "type": "overspend",
+    "points": -3,
+    "evidence": "4-point Premier League deduction in 2023-24 for PSR breach."
+   }
+  ],
+  "flags": [
+   "Marinakis' legal history in Greece (match-fixing and other cases; not convicted) not scored: Kevin may weigh it in O.",
+   "FA fines for referee posts are from memory (2024), not re-fetched this session."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
+   "https://offthepitch.com/a/tuesday-briefing-marinakis-places-nottingham-forest-shares-blind-trust-amid-uefa-rules",
+   "https://www.soccerway.com/news/soccer-premier-league-nottingham-forest-owner-marinakis-withdraws-control-to-comply-with-uefa-rules/l4qfbkPO",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Sunderland",
+  "C": {
+   "score": 9,
+   "evidence": "Stadium of Light (48,095, since 1997 after 99 years at Roker Park). Extraordinary loyalty: League One attendance record 46,039 in 2018 after two straight relegations; loud and big away following."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Raises: Foundation of Light (large education charity), Academy of Light producing first-team players. Lowers: Shuffle (crypto casino/betting) sleeve; W88 betting chest in 2025-26. 2026-27 chest sponsor not yet announced."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "6 league titles, 1937 and 1973 FA Cups (1973 a famous second-tier upset); Roker Park record 75,118."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Kyril Louis-Dreyfus 64%, Juan Sartori 36% since 2021-23. Young-player model, stable, promoted 2025 and 7th in 2025-26 (first European place since 1973)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Le Bris' side is compact and energetic, strong without the ball; not an elite press."
+  },
+  "adjustments": [],
+  "flags": [
+   "Chest sponsor for 2026-27 TBC (rumoured Visit Ghana); if a state tourism board of an authoritarian state, lower V by 1 (Ghana is rated Free by Freedom House, so likely no effect)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+   "https://www.sportspro.com/news/sunderland-fc-kyril-louis-dreyfus-takeover-ownership-methven-donald/",
+   "https://www.sunderlandecho.com/sport/football/sunderland-afc/the-truth-behind-sunderlands-sponsorless-home-shirt-claims-after-online-rumours-swirl-8827135",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Tottenham Hotspur",
+  "C": {
+   "score": 7,
+   "evidence": "Tottenham Hotspur Stadium (62,850, 2019) on the White Hart Lane site; the 17,500 single-tier South Stand gives a strong home end; new-stadium window (5 seasons) has passed. Loyal but often tense crowd."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Raises: Tottenham Hotspur Foundation; funded Spurs Women; academy. Lowers: among the highest ticket prices in England and cuts to senior concessions (protested by the Supporters' Trust). Neutral: AIA chest, Kraken sleeve."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1960-61 double, 1963 Cup Winners' Cup (first British European trophy), 1972 and 1984 UEFA Cups, 2025 Europa League."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "ENIC (Lewis family trust) owns ~88%; Levy left in 2025. Lewis family put in ~£320m since Oct 2025 and rejected takeover approaches. Long-running 'ENIC Out' protests over ambition and prices."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "De Zerbi's possession-and-press style; recent seasons under Postecoglou and Frank were high-intensity if erratic."
+  },
+  "adjustments": [
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Founding Super League signatory (2021), withdrew."
+   }
+  ],
+  "flags": [
+   "~£400m summer 2026 spend funded by owners: consider overspend -2."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+   "https://sports.yahoo.com/articles/tottenham-owners-invest-further-120m-120046730.html",
+   "https://en.wikipedia.org/wiki/ENIC_Group",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ }
+]

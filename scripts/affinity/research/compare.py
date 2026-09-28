@@ -1,6 +1,6 @@
 """Validate the re-rate research outputs and compare them with the current Affinity scores.
 
-python3 scripts/affinity/research/compare.py [--weights C,V,H,O,S] [--md out.md]
+python3 scripts/affinity/research/compare.py [--weights C,V,H,O,S] [--md out.md] [--dir out|final]
 
 Checks (runbook step 2): every batch name present, scores are integers 0-10, >= 2 sources, adjustment
 types from the brief. Calibration (step 3): per-factor mean by batch and the anchor clubs. Report
@@ -29,6 +29,7 @@ args = sys.argv[1:]
 if '--weights' in args:
     NEW_W = dict(zip('CVHOS', map(int, args[args.index('--weights') + 1].split(','))))
 MD = args[args.index('--md') + 1] if '--md' in args else None
+OUT = args[args.index('--dir') + 1] if '--dir' in args else 'out'
 TYPES = {'state', 'lbo', 'pe', 'multiclub', 'superleague', 'racism', 'violence', 'overspend', 'franchise',
          'government', 'other'}
 F = 'CVHOS'
@@ -48,7 +49,7 @@ errors, rows, by_batch = [], [], {}
 for bf in sorted(R.glob('b[0-9][0-9]-*.json')):
     batch = bf.stem
     names = [e['name'] for e in json.loads(bf.read_text())]
-    of = R / 'out' / f'{batch}.json'
+    of = R / OUT / f'{batch}.json'
     if not of.exists():
         errors.append(f'{batch}: no output yet'); continue
     out = {e.get('name'): e for e in json.loads(of.read_text())}

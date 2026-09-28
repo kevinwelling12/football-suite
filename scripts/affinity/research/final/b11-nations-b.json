@@ -1,0 +1,1013 @@
+[
+ {
+  "name": "Kosovo",
+  "C": {
+   "score": 8,
+   "evidence": "Fadil Vokrri Stadium (13,500) regularly full and loud; large diaspora followings at away games in Switzerland, Germany and Scandinavia. Attendance figures not re-verified."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No verified UEFA discrimination sanction against FFK found. Walked off at Romania (Nov 2024) after pro-Serbia chants and forfeited 0-3. Strong Albanian national symbolism in the support; no clear raise or lower."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "FIFA/UEFA member only since 2016; never reached a finals. 2026 WC play-offs: won 4-3 away in Slovakia, lost the path final 0-1 to Turkey, the team's biggest moment so far."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Football Federation of Kosovo: no major governance scandal found; small, young federation. Not researched in depth."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Franco Foda side: organised, energetic and direct; scored freely in the 2026 play-off semi-final."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: 61/100, Partly Free. RSF 2026: 84th (55.89)."
+   }
+  ],
+  "flags": [
+   "Government -10 set for Partly Free (FH 61), in line with b10's Albania/Armenia. Kevin to confirm the scale for FH 60-70."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kosovo_national_football_team",
+   "https://freedomhouse.org/country/kosovo/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round",
+   "https://www.irishtimes.com/sport/soccer/2024/11/20/romania-awarded-3-0-victory-over-kosovo-after-nations-league-walk-off/"
+  ]
+ },
+ {
+  "name": "Latvia",
+  "C": {
+   "score": 4,
+   "evidence": "Small home crowds at Skonto Stadium in Riga (Daugava as backup); modest atmosphere, little away following. Crowd figures not verified."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions found; no notable positives or negatives."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Only major tournament: Euro 2004 (Starkovs era). Record 13 Baltic Cup titles. Pre-war team 1922-40."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Latvian Football Federation: no major scandal found; ordinary governance. Limited research."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Weak side, defensive and low possession under Paolo Nicolato; few wins in recent qualifying."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 89/100 Free; RSF 2026 17th."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Latvia_national_football_team",
+   "https://freedomhouse.org/country/latvia/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Liechtenstein",
+  "C": {
+   "score": 3,
+   "evidence": "Very small crowds at the Rheinpark Stadion (Vaduz); little organised support. Not verified in detail."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No sanctions or controversies found. Neutral."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Never qualified for a finals; first official match 1983. Only country to lose competitive matches to San Marino (twice, 2024-25 Nations League)."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Liechtenstein Football Association: small, stable, no scandals found."
+  },
+  "S": {
+   "score": 2,
+   "evidence": "Deep low block, very few goals; head coach Konrad Fünfstück."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 90/100 Free; RSF 2026 13th. (Prince holds strong constitutional powers; not scored.)"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Liechtenstein_national_football_team",
+   "https://freedomhouse.org/country/liechtenstein/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Lithuania",
+  "C": {
+   "score": 4,
+   "evidence": "Basketball is the main sport; football crowds at Darius and Girėnas Stadium (Kaunas, home since 2022) are modest. Not verified with attendance data."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions found. Neutral."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Never qualified for a finals; 10 Baltic Cup titles; first match 1923, restored 1990."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Lithuanian Football Federation: ordinary governance, no major scandal found. Limited research."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Defensive, low-scoring side under Edgaras Jankauskas."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 90/100 Free; RSF 2026 15th."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lithuania_national_football_team",
+   "https://freedomhouse.org/country/lithuania/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Luxembourg",
+  "C": {
+   "score": 5,
+   "evidence": "M-Block Fanatics supporters' association (founded 1995) gives a small organised singing section; new Stade de Luxembourg (about 9,400) since 2021."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No sanctions found; fan group is a non-profit association; federation invests in youth and women's football. No betting sponsor verified."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Never qualified for a World Cup or Euro; most qualifying campaigns of any nation without reaching a finals. Six Olympic tournaments 1920-52."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Luxembourg Football Federation: stable, no scandals found."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Improved and more proactive in the 2020s, but under Jeff Strasser mostly compact and defensive."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 97/100 Free; RSF 2026 9th. Stadium move 2021 is to a new national stadium in the same city; minor."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Luxembourg_national_football_team",
+   "https://freedomhouse.org/country/luxembourg/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Malta",
+  "C": {
+   "score": 6,
+   "evidence": "Loyal but modest home support at the National Stadium, Ta' Qali; many Maltese fans follow English/Italian teams. Not verified with attendance data."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions found. Malta is a betting-industry hub; MFA betting sponsorship not verified."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Never qualified for a finals; first official match 1957."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Malta FA: no major scandal verified; limited research."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Defensive side, few goals; coach Emilio De Leo."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 88/100 Free; but RSF 2026 67th (lowest in the EU group here, legacy of the Caruana Galizia murder). Kevin may consider -5.",
+   "Check MFA sponsor list for betting partners (not verified)."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Malta_national_football_team",
+   "https://freedomhouse.org/country/malta/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Moldova",
+  "C": {
+   "score": 4,
+   "evidence": "Zimbru Stadium (Chișinău, about 10,000) often not full; limited away following. Not verified with attendance data."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions found. Neutral."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Never qualified for a finals since 1994. Notable results: 3-2 v Poland (Euro 2024 qualifying), 3-0 v Hungary (2007). Record 1-11 loss to Norway, 9 Sep 2025."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Moldovan Football Federation: no major scandal verified; limited research."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Weak, defensive side; conceded 11 to Norway in 2025. Coach Lilian Popescu."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -5,
+    "evidence": "Freedom House 2026: 60/100, Partly Free. RSF 2026: 31st (74.77), a relatively good press-freedom rank. [Review: Partly Free, RSF 31st.]"
+   }
+  ],
+  "flags": [
+   "Government -10 driven by Freedom House (Partly Free); RSF rank 31 is good. Kevin may prefer -5."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Moldova_national_football_team",
+   "https://freedomhouse.org/country/moldova/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "review": [
+   "government: -5 (Partly Free, RSF 31st)"
+  ]
+ },
+ {
+  "name": "Montenegro",
+  "C": {
+   "score": 6,
+   "evidence": "Podgorica City Stadium (about 11,000) is intense and hostile for big games; small nation, national team since 2007."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "UEFA sanctions: closed-doors match after racist abuse of England players (2019 qualifier); fined €20,000 for discriminatory behaviour v Serbia (March 2023), appeal dismissed; prosecutors investigated hate chants."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "National team only since 2007; never qualified for a finals."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Football Association of Montenegro: long-time leadership, limited transparency; not researched in depth."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Mirko Vučinić side: average intensity."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -8,
+    "evidence": "Repeated UEFA discrimination sanctions: 2019 (v England, closed doors) and 2023 (v Serbia, €20,000 for discrimination)."
+   },
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: 68/100, Partly Free. RSF 2026: 41st."
+   }
+  ],
+  "flags": [
+   "Racism -8 kept from the old rating (2019, 2023); no newer sanction found."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Montenegro_national_football_team",
+   "https://freedomhouse.org/country/montenegro/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://www.insideworldfootball.com/2023/05/11/uefa-sanctions-montenegro-serbia-racist-fans-euro-2024-qualifier/",
+   "https://www.espn.com/soccer/story/_/id/37572943/uefa-dismisses-montenegro-racist-behaviour-appeal",
+   "https://bleacherreport.com/articles/2827861-montenegro-charged-by-uefa-after-racist-chants-from-fans-toward-england-players"
+  ]
+ },
+ {
+  "name": "Netherlands",
+  "C": {
+   "score": 9,
+   "evidence": "Het Oranje Legioen: huge orange away followings with the 'Links rechts' fan marches at Euro 2024; home games rotate around four club grounds."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No UEFA discrimination sanctions found; KNVB active on anti-racism and planned the OneLove armband (2022). Betting sponsors not verified."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Total Football; three World Cup finals (1974, 1978, 2010); Euro 1988 winners; major influence on how the game is played."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "KNVB: member association of clubs, stable and transparent; manager changed after WC 2026 (Koeman out, Xavi hired Aug 2026)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Recent seasons under Koeman: pragmatic, not a high-press side; lost 2026 WC round of 32 to Morocco on penalties. Xavi appointed Aug 2026, likely to shift toward possession."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 97/100 Free; RSF 2026 2nd.",
+   "New coach Xavi (Aug 2026): Style may need revisiting next season."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Netherlands_national_football_team",
+   "https://freedomhouse.org/country/netherlands/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage"
+  ]
+ },
+ {
+  "name": "North Macedonia",
+  "C": {
+   "score": 6,
+   "evidence": "Toše Proeski Arena (Skopje) is loud for big games; followed Euro 2020 debut with good support. Not verified with attendance data."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions against the Macedonian federation found; the team was the target of an Arnautović slur (Euro 2020) and of Albanian chants at Euro 2024 (Daku ban)."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "First finals: Euro 2020. Famous wins at Germany (2-1, 2021) and in Palermo v Italy (1-0, 2022 WC play-off)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Football Federation of North Macedonia: ordinary governance; not researched in depth."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Goce Sedloski side: compact, counter-attacking; lost 0-4 to Denmark in the 2026 play-offs."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: 67/100, Partly Free. RSF 2026: 45th."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/North_Macedonia_national_football_team",
+   "https://freedomhouse.org/country/north-macedonia/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round",
+   "https://www.aljazeera.com/sports/2024/6/23/albanian-football-federation-uefa-banned-player-mirlind-daku-for-two-games"
+  ]
+ },
+ {
+  "name": "Northern Ireland",
+  "C": {
+   "score": 8,
+   "evidence": "Green and White Army: loud, loyal Windsor Park crowds; Euro 2016 following ('Will Grigg's on fire') widely praised."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Sectarian history at Windsor Park (1990s-2000s; Neil Lennon quit in 2002 after threats); IFA 'Football for All' work since has changed the atmosphere. Sectarian identity lowers Values under the brief."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "IFA founded 1880; 1958 WC quarter-final; beat hosts Spain at the 1982 World Cup; Euro 2016."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Irish Football Association: stable; no recent scandal found."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Michael O'Neill's young side: hard-working and compact; lost 0-2 in Italy in the 2026 play-offs."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: UK Freedom House 2026 92/100 Free; RSF 2026 18th.",
+   "Sectarian lowering is historical; Kevin may judge the current atmosphere as V 6."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Northern_Ireland_national_football_team",
+   "https://freedomhouse.org/country/united-kingdom/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round",
+   "https://en.wikipedia.org/wiki/Irish_Football_Association"
+  ]
+ },
+ {
+  "name": "Norway",
+  "C": {
+   "score": 7,
+   "evidence": "Ullevaal Stadion sellouts through the Haaland/Ødegaard qualifying run; first World Cup since 1998 brought large travelling support. Not an elite singing culture."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "NFF under Lise Klaveness: human-rights advocacy (Qatar 2022 speech), donated Israel-match ticket profits (Oct 2025) to Doctors Without Borders in Gaza; early equal-pay agreement for women's team (2017)."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1936 Olympic bronze, 1938 WC, beat Brazil in 1998 and again in the 2026 World Cup round of 16 (2-1) before losing the QF to England after extra time."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Norwegian FA: democratic member federation, transparent and outspoken leadership."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Solbakken side: direct and high-energy, scored heavily in qualifying (11-1 v Moldova, 5-0 v Israel); WC 2026 quarter-finalists."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 99/100 Free; RSF 2026 1st.",
+   "Norsk Tipping (state lottery/betting operator) sponsorship of NFF not verified; if it is a main partner, lower V by 1."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Norway_national_football_team",
+   "https://freedomhouse.org/country/norway/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://www.haaretz.com/israel-news/2025-08-21/ty-article/norways-soccer-federation-to-donate-profits-from-israel-match-to-gaza-aid/00000198-cadb-d2cb-a5dc-ebff0f6c0000",
+   "https://www.aljazeera.com/sports/2025/10/10/norway-fa-president-welcomes-israel-peace-deal-ahead-of-vital-world-cup-tie"
+  ]
+ },
+ {
+  "name": "Poland",
+  "C": {
+   "score": 8,
+   "evidence": "Large, loud crowds at PGE Narodowy (Warsaw) and strong away followings; organised ultra-style support drawn from club scenes."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Bookmaker STS is the team's strategic sponsor (since 2014, extended to 2030 in Sept 2026, second only to Orlen). Nationalist/far-right elements in parts of the support; no recent UEFA discrimination sanction verified."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "World Cup third place 1974 and 1982; Olympic gold 1972; Lato, Boniek, Lewandowski."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "PZPN: history of corruption (suspended by the Polish Olympic Committee in 2008); current leadership ordinary, some controversies. Not researched in depth."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Recent seasons largely reactive; Jan Urban (since 2025) more organised. Lost the 2026 play-off final 2-3 in Sweden."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 82/100 Free; RSF 2026 27th.",
+   "Check UEFA fines for Polish fans (pyro, banners) since 2023; not verified. Possible small violence/racism adjustment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Poland_national_football_team",
+   "https://freedomhouse.org/country/poland/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round",
+   "https://www.pzpn.pl/reprezentacje/reprezentacja-a/aktualnosci/2026-09-21/sts-sponsorem-strategicznym-reprezentacji-polski-w-pilce-noznej-do-2030-roku",
+   "https://en.wikipedia.org/wiki/Polish_Football_Association"
+  ]
+ },
+ {
+  "name": "Portugal",
+  "C": {
+   "score": 7,
+   "evidence": "Good home crowds and big diaspora followings (France, Switzerland, North America); support is enthusiastic but not an elite singing culture."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Betting firm Betclic became official partner of the men's and women's A teams (June 2026); Betano sponsors the FPF's Supertaça (from 2025). Strong federation investment in women's and youth football."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Euro 2016 winners, Nations League winners 2019 and 2025; 1966 WC third (Eusébio); Ronaldo era."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "FPF: well-run, modern (Cidade do Futebol); Pedro Proença president since 2025. No scandal found."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Martínez era: possession-heavy, talent-led rather than intense; lost 0-1 to Spain in the 2026 WC round of 16. Jorge Jesus now head coach."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 96/100 Free; RSF 2026 10th.",
+   "Betting partners (Betclic, Betano) lower Values; check how many points Kevin wants for a federation partner vs a shirt sponsor.",
+   "New coach Jorge Jesus: Style may shift."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Portugal_national_football_team",
+   "https://freedomhouse.org/country/portugal/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://www.record.pt/futebol/selecoes/detalhe/betclic-torna-se-parceiro-oficial-das-selecoes-nacionais-a-de-futebol",
+   "https://www.fpf.pt/pt/News/Todas-as-not%C3%ADcias/Not%C3%ADcia/news/52311"
+  ]
+ },
+ {
+  "name": "Republic of Ireland",
+  "C": {
+   "score": 9,
+   "evidence": "Boys in Green: famous travelling support (Italia 90, USA 94, Euro 2016 fan praise); Aviva Stadium crowds strong during the 2026 qualifying run."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Fans' good-conduct reputation; no UEFA discrimination sanctions found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Italia 90 quarter-final, beat Italy at USA 94, 2002 WC; Euro 1988 win over England."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "FAI: 2019 governance crisis (Delaney era), state bailout with reform conditions; the Genesis Report criticised cronyism. Reformed since, still rebuilding trust."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Hallgrímsson side: direct, compact, low possession; reached 2026 play-offs, lost to Czech Republic on penalties."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 98/100 Free; RSF 2026 7th."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Republic_of_Ireland_national_football_team",
+   "https://freedomhouse.org/country/ireland/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round",
+   "https://en.wikipedia.org/wiki/Football_Association_of_Ireland"
+  ]
+ },
+ {
+  "name": "Romania",
+  "C": {
+   "score": 7,
+   "evidence": "Large, loud followings (Euro 2024 group winners with big support in Germany); Arena Națională atmosphere strong for big games."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Repeated nationalist chanting: 'Kosovo is Serbia' banner/chants v Kosovo (Sept 2023, €40,000 and closed doors) and again Nov 2024 (UEFA ordered an empty stadium for the next home World Cup qualifier)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1994 World Cup quarter-final (Hagi generation); played at the first World Cup in 1930."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "FRF under long-serving president Răzvan Burleanu; limited transparency. Not researched in depth."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Organised, workmanlike side under Iordănescu; lost 2026 play-off semi-final 0-1 to Turkey. Gheorghe Hagi now head coach."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -10,
+    "evidence": "UEFA sanctions for discriminatory chanting v Kosovo in 2023 (€40,000, closed doors) and 2024 (next home WC qualifier behind closed doors)."
+   }
+  ],
+  "flags": [
+   "No government adjustment: Freedom House 2026 83/100 Free; RSF 2026 49th.",
+   "Euro 2024 fines not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Romania_national_football_team",
+   "https://freedomhouse.org/country/romania/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round",
+   "https://www.sportresolutions.com/news/uefa-sanctions-romania-over-pro-serbia-chanting-towards-kosovo-fans",
+   "https://www.irishtimes.com/sport/soccer/2024/11/20/romania-awarded-3-0-victory-over-kosovo-after-nations-league-walk-off/"
+  ]
+ },
+ {
+  "name": "San Marino",
+  "C": {
+   "score": 4,
+   "evidence": "Tiny crowds at the San Marino Stadium (Serravalle), loyal and good-humoured; celebrated first competitive win in 2024."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No sanctions; amateur players; no controversies found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Weakest record in Europe; 1993 Gualtieri goal after about 8 seconds v England; first competitive win v Liechtenstein (2024 Nations League), won twice v them."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "San Marino Football Federation: small, stable, no scandal found."
+  },
+  "S": {
+   "score": 2,
+   "evidence": "Deep defensive block by necessity; Roberto Cevoli coach."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 97/100 Free. RSF 2026 rank not found in the index."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/San_Marino_national_football_team",
+   "https://freedomhouse.org/country/san-marino/freedom-world/2026"
+  ]
+ },
+ {
+  "name": "Scotland",
+  "C": {
+   "score": 10,
+   "evidence": "Tartan Army: huge, loud, loyal travelling support (Euro 2024 in Germany, World Cup 2026 in the US); UEFA and Belgian Olympic Committee fair-play awards for vocal, friendly support and charity work."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Scottish identity (brief raise); Tartan Army Sunshine Appeal charity; no UEFA discrimination sanctions found."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "First international football match (v England, 1872); 1937 Hampden record crowd of 149,415; nine World Cups incl. 2026."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Scottish FA: ordinary, stable governance; no major scandal found."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Clarke era: compact, low possession, set-piece reliant; won first WC match since 1998 (1-0 Haiti), out in the group. Sébastien Pocognoli now manager."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: UK Freedom House 2026 92/100 Free; RSF 2026 18th.",
+   "New manager Pocognoli: Style may change."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Scotland_national_football_team",
+   "https://freedomhouse.org/country/united-kingdom/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_C",
+   "https://en.wikipedia.org/wiki/Tartan_Army"
+  ]
+ },
+ {
+  "name": "Serbia",
+  "C": {
+   "score": 7,
+   "evidence": "Hostile, loud crowds for big games at Rajko Mitić, driven by club ultra groups; smaller and quieter for lesser games."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "Repeated discrimination: UEFA €90,000 for racist behaviour in the 2024 Nations League (incl. attempt to burn an Albanian flag), Euro 2024 fines, 2023 sanctions v Montenegro, FIFA CHF 50,000 and partial closure after the June 2025 Andorra qualifier. Nationalist identity; state-firm sponsors (Telekom Srbija)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "FIFA/UEFA successor to Yugoslavia: 1930 and 1962 WC semi-finals, Euro finals 1960 and 1968."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "FSS: close ties to political leadership; repeated failure to control fan conduct. Not researched in depth."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Mixed; physical and direct; missed 2026 WC. Veljko Paunović now coach."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -12,
+    "evidence": "Repeated UEFA/FIFA discrimination sanctions 2023, 2024 (Euro 2024 and Nations League, €90,000 for racism), 2025 (FIFA, Andorra match)."
+   },
+   {
+    "type": "government",
+    "points": -15,
+    "evidence": "Freedom House 2026: 53/100, Partly Free. RSF 2026: 104th (50.79)."
+   }
+  ],
+  "flags": [
+   "Racism raised from -10 to -12 given the 2024-25 sanctions."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Serbia_national_football_team",
+   "https://freedomhouse.org/country/serbia/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://euronews.com/2024/12/13/uefa-fines-serbian-football-association-for-fans-racist-behaviour-at-matches",
+   "https://kossev.info/en/fifa-kaznila-fs-srbije-zbog-ponasanja-navijaca-na-utakmici-sa-andorom/",
+   "https://www.insideworldfootball.com/2023/05/11/uefa-sanctions-montenegro-serbia-racist-fans-euro-2024-qualifier/",
+   "https://en.wikipedia.org/wiki/Football_Association_of_Serbia"
+  ]
+ },
+ {
+  "name": "Slovakia",
+  "C": {
+   "score": 6,
+   "evidence": "Decent crowds in Bratislava; good following at Euro 2024 (round of 16)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions verified. Neutral."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Independent since 1993: 2010 World Cup last 16 (beat Italy), Euro 2016 and 2024 knockouts. Czechoslovak history belongs mainly to Czechia."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Slovak FA: ordinary governance; not researched in depth."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Calzona era: energetic pressing side (nearly beat England at Euro 2024); lost 3-4 to Kosovo in the 2026 play-offs. Vladimír Weiss sr. now coach."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 88/100 Free; RSF 2026 37th."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Slovakia_national_football_team",
+   "https://freedomhouse.org/country/slovakia/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round"
+  ]
+ },
+ {
+  "name": "Slovenia",
+  "C": {
+   "score": 6,
+   "evidence": "Stožice (Ljubljana) crowds solid for big games; good following at Euro 2024. Not verified with attendance data."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No UEFA discrimination sanctions found; no betting sponsor verified."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Small nation: 2002 and 2010 World Cups, Euro 2000, Euro 2024 round of 16 (lost on penalties to Portugal)."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "NZS: stable; no major scandal found. Not researched in depth."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Kek era: compact, disciplined, low possession; Boštjan Cesar now coach."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 97/100 Free; RSF 2026 36th."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Slovenia_national_football_team",
+   "https://freedomhouse.org/country/slovenia/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Spain",
+  "C": {
+   "score": 6,
+   "evidence": "Home support is solid but not an elite atmosphere; national-team support is divided by regional identities (Catalan, Basque). Big following at the 2026 World Cup."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "RFEF: Rubiales scandal (2023) and the Saudi Supercopa deal (to 2029; talks to extend to 2034) with the state-linked Saudi sports authority. Raises: world-champion women's team and strong academy pathways. Spain bans betting sponsorship of sport."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "2026 World Cup winners (1-0 aet v Argentina), 2010 world champions, Euro 1964, 2008, 2012, 2024; tiki-taka era shaped the modern game."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "RFEF turmoil: three presidents in under two years; 'Operation Brody' corruption probe over the Saudi Supercopa deal. President Rafael Louzán (since Dec 2024) was acquitted by the Supreme Court in Feb 2025."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "De la Fuente side: aggressive high press and quick counter-press plus possession; world and European champions."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 91/100 Free; RSF 2026 29th.",
+   "Saudi Supercopa: lower V as a state-backed partner? Counted here as -1."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Spain_national_football_team",
+   "https://freedomhouse.org/country/spain/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://en.wikipedia.org/wiki/Operation_Brody",
+   "https://www.sportcal.com/news/rfef-keen-to-prolong-saudi-supercopa-deal-until-2034/",
+   "https://africa.espn.com/football/story/_/id/43717141/rafael-louzan-spain-supreme-court-clears-rfef-president"
+  ]
+ },
+ {
+  "name": "Sweden",
+  "C": {
+   "score": 7,
+   "evidence": "Large, colourful away followings at tournaments; Strawberry Arena/Friends Arena (Solna) crowds fair; not an elite singing culture."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "State-owned gambling operator Svenska Spel is SvFF's main sponsor (since 1994, deal to 2028), a sports-betting sponsor (lower). Strong women's investment and equality programmes (raise)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1958 World Cup final (hosts), third in 1950 and 1994; 1948 Olympic gold."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "SvFF: democratic member federation, transparent; no scandal found."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Mixed recent seasons; Graham Potter side reached the 2026 WC via the Nations League play-off path (beat Ukraine and Poland), lost 0-3 to France in the round of 32."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 99/100 Free; RSF 2026 5th.",
+   "Svenska Spel is a state monopoly (not an authoritarian state); counted only as a betting sponsor."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sweden_men%27s_national_football_team",
+   "https://freedomhouse.org/country/sweden/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://om.svenskaspel.se/sponsring/fotbollens-huvudsponsor/"
+  ]
+ },
+ {
+  "name": "Switzerland",
+  "C": {
+   "score": 5,
+   "evidence": "Ordinary crowds rotating between Basel, Bern and other venues; fair travelling support; limited atmosphere reputation."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No federation discrimination sanction verified (players Xhaka/Shaqiri were fined by FIFA for the eagle gesture in 2018). Neutral."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Host of 1954 WC; quarter-finals 1934, 1938, 1954, Euro 2024 and now the 2026 World Cup (beat Colombia on penalties, lost 1-3 aet to Argentina)."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Swiss FA: stable, transparent; no scandal found."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Yakin side: organised, flexible and hard-working; consistent tournament knockout runs."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 96/100 Free; RSF 2026 8th."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Switzerland_national_football_team",
+   "https://freedomhouse.org/country/switzerland/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage"
+  ]
+ },
+ {
+  "name": "Turkey",
+  "C": {
+   "score": 9,
+   "evidence": "Among the loudest home crowds in Europe; huge diaspora followings (Euro 2024 in Germany was effectively home games)."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Nationalist identity: Demiral banned two matches by UEFA for the Grey Wolves salute at Euro 2024, gesture widely copied by fans. TFF president Hacıosmanoğlu (since July 2024) close to the governing party."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "2002 World Cup third place; Euro 2008 semi-final; Euro 2024 quarter-final."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "TFF: 2025 betting scandal (371 of 571 referees had betting accounts; 149 referees and over 1,000 players suspended); long record of match-fixing cases (2011); political closeness to government."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Montella side: young, energetic and attacking (Güler, Yıldız). Out in the 2026 WC group (3 pts)."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "Freedom House 2026: 32/100, Not Free. RSF 2026: 163rd (27.94)."
+   }
+  ],
+  "flags": [
+   "No racism adjustment applied: only one UEFA sanction verified (Demiral, 2024). Kevin may want -5 to -8 for nationalist fan conduct.",
+   "Government -20 (Not Free, RSF 163); -25 is also defensible."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Turkey_national_football_team",
+   "https://freedomhouse.org/country/turkey/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/Merih_Demiral",
+   "https://en.wikipedia.org/wiki/2025_Turkish_football_betting_scandal",
+   "https://en.wikipedia.org/wiki/Turkish_Football_Federation",
+   "https://www.euronews.com/2025/11/11/more-than-1000-turkish-football-players-suspended-in-betting-probe-tff-says"
+  ]
+ },
+ {
+  "name": "Ukraine",
+  "C": {
+   "score": 7,
+   "evidence": "Home games played abroad since 2022 (Russia's invasion), with strong diaspora and refugee crowds; home atmosphere in Kyiv/Lviv strong before the war."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No discrimination sanctions found; the team carries a national-resistance role during the war; players and federation active in war relief. Neutral-to-positive."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "2006 World Cup quarter-final; Euro 2012 co-hosts; Soviet-era Dynamo Kyiv roots."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "UAF: former president Andriy Pavelko faced an arrest order in an embezzlement case; Andriy Shevchenko president since Jan 2024, cleaner image."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Rebrov era: average intensity; lost 1-3 to Sweden in the 2026 play-offs. Andrea Maldera (first foreign coach) appointed May 2026."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -5,
+    "evidence": "Freedom House 2026: 51/100, Partly Free (martial law, postponed elections during the war). RSF 2026: 55th. [Review: wartime measures drive the Freedom House score.]"
+   }
+  ],
+  "flags": [
+   "Government -10 reflects wartime restrictions; Kevin may prefer 0 or -5 given the cause."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ukraine_national_football_team",
+   "https://freedomhouse.org/country/ukraine/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round",
+   "https://en.wikipedia.org/wiki/Ukrainian_Association_of_Football"
+  ],
+  "review": [
+   "government: -5 (wartime measures drive the Freedom House score)"
+  ]
+ },
+ {
+  "name": "Wales",
+  "C": {
+   "score": 9,
+   "evidence": "The Red Wall: loud, loyal Cardiff City Stadium sellouts, anthem and 'Don't take me home' culture; large Euro 2016 and 2022 WC followings."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Welsh identity and language promoted by the FAW (Cymru branding); community focus; no discrimination sanctions found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1958 World Cup quarter-final (lost to Pelé's Brazil), Euro 2016 semi-final, 2022 World Cup."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "FAW: stable, fan-facing; 2021 controversy over a board appointment linked to the Post Office scandal (she left)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Bellamy side (since 2024): proactive pressing and possession, more intense than the Page era; lost the 2026 play-off semi-final on penalties to Bosnia."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: UK Freedom House 2026 92/100 Free; RSF 2026 18th."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wales_national_football_team",
+   "https://freedomhouse.org/country/united-kingdom/freedom-world/2026",
+   "https://rsf.org/en/index",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_second_round",
+   "https://en.wikipedia.org/wiki/Football_Association_of_Wales"
+  ]
+ }
+]

@@ -1,0 +1,820 @@
+[
+ {
+  "name": "AFC Wimbledon",
+  "C": {
+   "score": 8,
+   "evidence": "2024-25 average 7,924 at Plough Lane (86% of capacity); away following 768 in League One 2025-26 (17th of 24). Rebuilt Plough Lane opened Nov 2020 near the original site, so the new-ground effect is fading."
+  },
+  "V": {
+   "score": 9,
+   "evidence": "Supporter-owned community club formed by fans in 2002 after the Wimbledon FC relocation; Community Football Scheme since 2004, PM's Big Society Award 2012. Home shirt Football Manager, away shirt War Child; no betting sponsor found."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Keeps Wimbledon FC history per the re-formation rule (1988 FA Cup 'Crazy Gang', top-flight years), plus the rise from the ninth tier to League One."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "Owned by the Dons Trust (members). In April 2026 members voted to lower the Trust's minimum holding from 75% to 50.01% to allow more outside investment; ASOS co-founder Nick Robertson holds ~10%."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Johnnie Jackson's side, 19th in League One 2025-26; no evidence of a pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Dons Trust minimum stake cut to 50.01% (Apr 2026); club in talks with minority investors incl. a Robbie Earle-led UK/Italy/US group. Watch whether O should drop if a large outside stake completes.",
+   "Fan-investment round via Republic platform at £26.8m valuation (2026)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AFC_Wimbledon",
+   "https://www.cityam.com/afc-wimbledon-seeking-fan-investment-at-26-8m-valuation/",
+   "https://footballgroundguide.com/news/league-one-club-receive-stadium-expansion-boost-as-bid-made-for-minority-stake.html",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html",
+   "https://footballgroundguide.com/news/which-league-one-team-has-the-biggest-away-following.html"
+  ]
+ },
+ {
+  "name": "Accrington Stanley",
+  "C": {
+   "score": 4,
+   "evidence": "2024-25 average 2,520 at the Wham Stadium (46% of 5,450 capacity), lowest in League Two. Small, loyal following but little documented atmosphere."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Small-town community club; owner Andy Holt is a local businessman and vocal critic of high ticket prices across the EFL. Stadium naming sponsor What More UK (housewares), no betting sponsor found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Original Accrington Stanley (Football League 1921-62) resigned from the League in 1962 and folded in 1966; re-formed 1968 and returned to the League in 2006. Cultural fame from the 1989 'Accrington Stanley, who are they?' milk advert."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Andy Holt, local owner since 2015, cleared about £1.2m debt; stable but he publicly put the club up for sale in 2023 after a social-media row. Still owner in 2025-26."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "John Doolan's side, 16th in League Two 2025-26; no distinct pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Holt's 2023 public 'up for sale' outburst; no completed sale found as of 2026."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Accrington_Stanley_F.C.",
+   "https://www.thebusinessdesk.com/northwest/news/2122912-accrington-stanley-put-up-for-sale-by-owner-after-saturday-night-social-media-row",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html"
+  ]
+ },
+ {
+  "name": "Barnet",
+  "C": {
+   "score": 4,
+   "evidence": "Plays at The Hive in Harrow (6,500) since 2013, after leaving historic Underhill in Barnet; attendance figures for 2025-26 not found. Modest crowds."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Club group also runs the London Bees women's side (Bees Football Group); 'Back to Barnet' plan announced 2024 to return to the borough. Front-of-shirt sponsor TIC Health (2025-26). No betting sponsor found."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 1888; long non-league history (7 Athenian League titles), several spells in the Football League; 2024-25 National League title with a record 102 points."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Chairman Anthony Kleanthous, long-term private owner; moved the club out of its borough to The Hive in 2013, now pursuing a return. Daughter Natasha Kleanthous appointed CEO."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Dean Brennan's side, 8th in League Two 2025-26; no evidence of a pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "2013 move from Underhill (Barnet) to The Hive (Harrow) for the owner's development: consider a -1 Culture stadium penalty or small franchise-type note; 'Back to Barnet' plan pending.",
+   "Attendance not verified (no 2025-26 figure found)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Barnet_F.C.",
+   "https://barnetfc.com/back-to-barnet-update",
+   "https://barnetfc.com/barnet-fc-2025-26-kit-launch",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_League_Two"
+  ]
+ },
+ {
+  "name": "Barnsley",
+  "C": {
+   "score": 7,
+   "evidence": "2024-25 average 12,211 at Oakwell (historic ground since 1888); away following 1,125 in League One 2025-26 (11th of 24)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Shirt sponsor Gleeson Homes (housebuilder); Oakwell owned by Barnsley Council since 2003 administration. No betting sponsor found; nothing notable either way."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1912 FA Cup winners; one Premier League season 1997-98 ('It's just like watching Brazil'); 2008 FA Cup run beating Liverpool and Chelsea."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Chairman Neerav Parekh majority owner (~66%), with the Cryne family (~22%) and Julie Anne Quay; Chien Lee/Pacific Media now tiny stakes. Parekh has warned of a funding shortfall and player sales."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "15th in League One 2025-26 under Conor Hourihane. Data-driven, high-press model under earlier Beane/Lee ownership (Stendel era), not consistent since."
+  },
+  "adjustments": [],
+  "flags": [
+   "Wikipedia infobox lists Daniel Stendel as head coach again for 2026-27; not verified. If Stendel is back, S could be 6.",
+   "Financial shortfall warnings from Parekh; check for instability."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Barnsley_F.C.",
+   "https://www.royals.org/readingfc-news/Barnsley-chairman-Neerav-Parekh-warns-players-will-be-sold-amid-shortfall",
+   "https://footballgroundguide.com/news/league-one-attendances.html",
+   "https://footballgroundguide.com/news/which-league-one-team-has-the-biggest-away-following.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_League_One"
+  ]
+ },
+ {
+  "name": "Blackpool",
+  "C": {
+   "score": 8,
+   "evidence": "2024-25 average 9,640 at Bloomfield Road (home since 1901); measured among the loudest Premier League crowds in 2010-11 (85 dB). Fans sustained a years-long boycott against the Oyston family and returned en masse after 2019."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Supporter-led resistance to Oyston asset-stripping (2018 High Court finding of 'illegitimate stripping' of £26.77m); community trust and a women's side (Blackpool F.C. Ladies). No betting sponsor found."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "1953 'Matthews Final' FA Cup win; Stanley Matthews and Jimmy Armfield; Premier League 2010-11. Major national significance."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Simon Sadler, lifelong fan, bought 96.2% in 2019 and invested well; but his fund Segantii was charged with insider dealing in Hong Kong (trial due 2026) and he has been looking to sell since Jan 2025."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Ian Evatt's side, 13th in League One 2025-26; no evidence of a lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Owner Sadler: Hong Kong insider-dealing case and intended sale; outcome and any new owner not verified for 2026."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Blackpool_F.C.",
+   "https://en.wikipedia.org/wiki/Simon_Sadler_(businessman)",
+   "https://www.blackpoolgazette.co.uk/sport/football/blackpool-fc/blackpool-owner-looking-to-sell-seasiders-with-early-talks-taking-place-reports-4930227",
+   "https://footballgroundguide.com/news/league-one-attendances.html"
+  ]
+ },
+ {
+  "name": "Bradford City",
+  "C": {
+   "score": 8,
+   "evidence": "2024-25 average 17,877 in League Two (highest in the division); biggest away following in League One 2025-26 (2,057). Valley Parade, home since 1903. League Two record crowd 22,576 (2023)."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Long-running low-price season-ticket policy (2026-27 adult early-bird £349, under-12s £23); Bantams Trust supporters' trust; women's team. Shirt sponsor Mbanq (fintech); no betting sponsor found. Memory of the 1985 fire (56 dead) central to identity."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1911 FA Cup winners; Premier League 1999-2001; 2013 League Cup final as a fourth-tier side; 1985 Valley Parade fire changed stadium safety in Britain."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Chairman Stefan Rupp, German owner since 2016; low-profile, stable, keeps prices low. Not fan-owned."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Graham Alexander's side, 4th in League One 2025-26; no evidence of a pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bradford_City_A.F.C.",
+   "https://www.bradfordcityafc.com/news/2026/march/05/2026-27-season-tickets-on-sale-now/",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html",
+   "https://footballgroundguide.com/news/which-league-one-team-has-the-biggest-away-following.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_League_One"
+  ]
+ },
+ {
+  "name": "Bristol Rovers",
+  "C": {
+   "score": 7,
+   "evidence": "2024-25 average 7,880 in League One at the Memorial Stadium (rugby ground, home since 1996). 'Gasheads', 'Goodnight Irene' anthem; loyal through a decade in exile at Twerton Park, Bath."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Women's side in the FA Women's National League; shirt sponsor Hotchkins Group. No betting sponsor found; nothing notable either way."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Third Division champions 1953 and 1990; Watney Cup 1972; lost Eastville in 1986; returned via 2015 Conference play-off."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Kuwaiti businessman Hussain AlSaeed controlling owner since 2023, buying out the al-Qadi family; club fell to League Two, fans frustrated over broken stadium promises; relocation now 'most likely'."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Steve Evans head coach; direct, physical approach rather than pressing."
+  },
+  "adjustments": [],
+  "flags": [
+   "Possible stadium move away from the Memorial Stadium; check fan reaction."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bristol_Rovers_F.C.",
+   "https://footballgroundguide.com/news/bristol-rovers-chairman-now-drops-biggest-hint-yet-over-memorial-stadium-future.html",
+   "https://footballgroundguide.com/news/league-one-attendances.html"
+  ]
+ },
+ {
+  "name": "Bromley",
+  "C": {
+   "score": 4,
+   "evidence": "2024-25 average 3,226 at Hayes Lane (64% of capacity); small following, first seasons in the EFL."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Community club; no notable positives or negatives found. Shirt sponsor not verified."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 1892, long amateur history; first ever Football League place in 2024, League Two champions 2025-26. 'The Bromley Boys' book/film."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Chairman Robin Stanton-Gleaves, local businessman whose investment took the club into the EFL; no documented conduct issues."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Andy Woodman's side won League Two 2025-26; energetic, well-drilled team, but no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Shirt sponsor not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bromley_F.C.",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_League_Two"
+  ]
+ },
+ {
+  "name": "Burton Albion",
+  "C": {
+   "score": 3,
+   "evidence": "2024-25 average 3,254 at the Pirelli Stadium (6,912); smallest away following in League One 2025-26 (319)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "FA investigated Nordic Football Group investments for possible conflicts of interest in player purchases (2024 window, 23 signings). No betting sponsor found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 1950; Football League since 2009 under Nigel Clough; two Championship seasons 2016-18."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Majority owned since June 2024 by Nordic Football Group (investor consortium incl. H&M chairman Karl-Johan Persson and NHL players); under FA investigation as of 2025."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Gary Bowyer's side, 17th in League One 2025-26; no pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Nordic Football Group is an investor consortium, not a PE fund: no pe adjustment applied. Outcome of FA investigation not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Burton_Albion_F.C.",
+   "https://swedenherald.com/article/fa-investigates-swedishowned-nordic-football-groups-burton-albion-investments",
+   "https://footballgroundguide.com/news/league-one-attendances.html",
+   "https://footballgroundguide.com/news/which-league-one-team-has-the-biggest-away-following.html"
+  ]
+ },
+ {
+  "name": "Cambridge United",
+  "C": {
+   "score": 6,
+   "evidence": "2024-25 average 6,640 in League One; Abbey Stadium (home since 1932, 7,937, part terraced). Ordinary crowds with a traditional ground."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Supporters' group Cambridge Fans United is a significant shareholder with board representation; affiliated women's team. 2026-27 shirt sponsor Brooks Running; no betting sponsor found."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Fourth Division 1977 and Third Division 1991 titles; 1992 Second Division play-offs (near first Premier League season); 2014 FA Trophy and promotion back to the League."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Paul Barry holds 75.01%, Mark Green 24.99%; fan shareholder has a board seat. Stable ownership, promoted from League Two in 2025-26 (3rd)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Neil Harris's side; no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cambridge_United_F.C.",
+   "https://www.footballshirtculture.com/new-kits/cambridge-united-jersey-26-27-home-umbro.html",
+   "https://footballgroundguide.com/news/league-one-attendances.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_League_Two"
+  ]
+ },
+ {
+  "name": "Cheltenham Town",
+  "C": {
+   "score": 4,
+   "evidence": "2024-25 average 4,198 at Whaddon Road (59% of 7,066). Small crowds, little documented atmosphere."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Robins Trust (supporters' trust) is second-largest shareholder at ~15%; women's team (Cheltenham Town W.F.C.). Shirt sponsor Marchants Coaches; no betting sponsor found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 1887; Football League since 1999 under Steve Cotterill; League Two champions 2020-21. Modest history."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Former Burnley chairman Mike Garlick (with Alison Garlick) took ~75% in Aug 2025 with investment commitment; Robins Trust welcomed the deal."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Steve Cotterill back as manager (2025); 18th in League Two 2025-26. No pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "New owner Mike Garlick was part of the Burnley board that sold to ALK Capital in a 2020 leveraged buyout; no LBO at Cheltenham found. Decide whether that history affects O."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cheltenham_Town_F.C.",
+   "https://www.robinstrust.org/posts/trust-statement-following-the-clubs-change-of-ownership/",
+   "https://sports.yahoo.com/article/garlick-completes-takeover-cheltenham-town-120949481.html",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html"
+  ]
+ },
+ {
+  "name": "Chesterfield",
+  "C": {
+   "score": 7,
+   "evidence": "2024-25 average 8,146 in League Two (77.6% of capacity), third highest in the division; strong crowds held through six National League seasons. SMH Group Stadium since 2010 (left Saltergate after 139 years)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Community Trust took over in 2020 and still partners the owners; ~1,500 fan and local-business shareholders. Shirt sponsor Leengate Valves; no betting sponsor found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1866, one of the oldest League clubs; 1997 FA Cup semi-final (controversial 3-3 with Middlesbrough); 'Miners Strike Derby' with Mansfield."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Local brothers Phil and Ashley Kirk became majority owners (75%+) in 2024 after investing alongside the Community Trust; Phil Kirk has since died, Ashley Kirk chairman. Fans credit the partnership with the Trust."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Paul Cook's side, 6th in League Two 2025-26; no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chesterfield_F.C.",
+   "https://www.derbyshiretimes.co.uk/sport/football/chesterfield-brothers-set-to-become-majority-owners-of-spireites-4540245",
+   "https://www.derbyshiretimes.co.uk/sport/football/international-football/chesterfield-fc-pay-tribute-to-much-loved-owner-phil-kirk-after-marking-anniversary-of-his-tragic-death-8937681",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_League_Two"
+  ]
+ },
+ {
+  "name": "Colchester United",
+  "C": {
+   "score": 5,
+   "evidence": "2024-25 average 4,998 (49.5% of the 10,105 Community Stadium). Left historic Layer Road in 2008 for an out-of-town ground; ordinary crowds."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Women's team and academy (described by the manager as 'top academy'); shirt sponsor MEL Group. No notable positives or negatives found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1971 FA Cup win over Leeds United at Layer Road is one of the famous giant-killings; 10th in the Championship 2006-07."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Robbie Cowling, owner since 2006, built training ground and academy; has been trying to sell for over a year, with three takeover attempts collapsing (incl. John Terry-fronted group and SAC/Pato consortium)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Danny Cowley head coach; no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Ownership in flux: Cowling seeking a buyer in 2026; check for a completed sale."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Colchester_United_F.C.",
+   "https://www.gazette-news.co.uk/sport/colchesterunited/26295991.robbie-cowling-extremely-close-john-terry-group-sale/",
+   "https://www.gazette-news.co.uk/sport/colchesterunited/26293012.colchester-united-owner-robbie-cowling-gives-sale-update/",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html"
+  ]
+ },
+ {
+  "name": "Crawley Town",
+  "C": {
+   "score": 3,
+   "evidence": "2024-25 average 4,323 in League One; Broadfield Stadium (5,567, council-owned, since 1997). Thin crowds, little identity."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Former manager John Yems banned (until Jan 2026) after charges of racist abuse of his players (2022). Crypto ownership had no Values effect under the brief."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 1896 but in the Football League only since 2011; 2024 League Two play-off win, relegated from League One a year later."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "WAGMI United crypto investors (2022-25) criticised for 'reckless leadership'; sold 1 Aug 2025 to KB Sports and Leisure (Raphael Khalili, with US fintech VC Ryan Gilbert). Frequent manager churn; nearly relegated 2025-26."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Possession approach under Scott Lindsey ended with his 2025 sacking; Colin Kazim-Richards permanent head coach since May 2026."
+  },
+  "adjustments": [],
+  "flags": [
+   "New ownership (KB Sports and Leisure) only a year old; limited track record."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crawley_Town_F.C.",
+   "https://www.sussexexpress.co.uk/sport/football/crawley-town-confirm-new-permanent-manager-after-securing-survival-8542362",
+   "https://footballgroundguide.com/news/league-one-attendances.html"
+  ]
+ },
+ {
+  "name": "Crewe Alexandra",
+  "C": {
+   "score": 5,
+   "evidence": "2024-25 average 5,297 at Gresty Road (52% of 10,153); 2025-26 average about 5,693. Ordinary crowds."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Famous academy pathway (Platt, Murphy, Ashton), now Category Three (2026). Offset by the Bennell abuse case: Sheldon Report (2021) said the club 'should have done more'; Dario Gradi stripped of MBE in 2023. Shirt sponsor Whitby Morrison."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1877; FA Cup semi-final 1888; Dario Gradi era (1983-2011) made the academy nationally known."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Board-run private club under chairman Charles Grant; 2020 buyout of majority shareholder Norman Hassall by local directors. Stable."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Long-running technical, passing identity from the Gradi era, continued under Lee Bell; not a pressing side."
+  },
+  "adjustments": [],
+  "flags": [
+   "Values: how much weight to give the historic Bennell safeguarding failure versus today's club."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crewe_Alexandra_F.C.",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html"
+  ]
+ },
+ {
+  "name": "Doncaster Rovers",
+  "C": {
+   "score": 6,
+   "evidence": "2024-25 average 8,024 in League Two; away following 1,126 in League One 2025-26 (10th). Eco-Power Stadium since 2007 (generic bowl, 15,231)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Linked with Doncaster Rovers Belles, a historic women's club; third kit promoting the CALM mental-health charity with proceeds donated. Main sponsor eco-power; no betting sponsor found."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 1879; left the Football League in 1998 after the Ken Richardson era (owner convicted over arson at Belle Vue); returned 2003 and reached the Championship."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Owned by local businessman Terry Bramall (chairman); stable, long-term local ownership."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Grant McCann's side, League Two champions 2024-25, 14th in League One 2025-26; no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Doncaster_Rovers_F.C.",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html",
+   "https://footballgroundguide.com/news/which-league-one-team-has-the-biggest-away-following.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_League_One"
+  ]
+ },
+ {
+  "name": "Exeter City",
+  "C": {
+   "score": 7,
+   "evidence": "2024-25 average 6,513 in League One; St James Park, home since 1904, with the Big Bank terrace. Away following 600 (2025-26). Loyal through relegation to League Two in 2026."
+  },
+  "V": {
+   "score": 9,
+   "evidence": "Supporter-owned; academy pathway to first team and beyond (Ollie Watkins, Ethan Ampadu); women's team. 2026-27 shirt sponsor Nevada Construction, an employee-owned local firm, on men's and women's shirts."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "First team ever to play a Brazil national side (Rio, 1914); 0-0 at Old Trafford in the 2005 FA Cup. Otherwise lower-league history."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "Exeter City Supporters' Trust controls 53.6% of voting shares (majority fan ownership)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Matt Taylor's side, relegated from League One 2025-26; no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Exeter_City_F.C.",
+   "https://uk.news.yahoo.com/exeter-city-seal-nevada-deal-110244974.html",
+   "https://en.wikipedia.org/wiki/Exeter_City_Supporters%27_Trust",
+   "https://footballgroundguide.com/news/league-one-attendances.html",
+   "https://footballgroundguide.com/news/which-league-one-team-has-the-biggest-away-following.html"
+  ]
+ },
+ {
+  "name": "Fleetwood Town",
+  "C": {
+   "score": 3,
+   "evidence": "2024-25 average about 3,000 at Highbury Stadium (5,327, smallest ground in the division). Thin crowds, little identity."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Former owner Andrew Pilley jailed for 13 years for fraud (2023); club now owned by his son. Shirt sponsors Commercial Power / Business Energy Solutions; no betting sponsor found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Current club dates from 1997 (earlier Fleetwood clubs from 1908); rose rapidly under Pilley money, first Football League place 2012, relegated to League Two 2024."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Jamie Pilley took over in May 2024 after his father's fraud conviction; owner-funded club with limited natural income. Pete Wild sacked Jan 2026, Matt Lawlor interim."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "15th in League Two 2025-26; no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Rapid owner-funded rise under Andrew Pilley; consider overspend if Kevin wants it reflected. 2025-26 attendance not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fleetwood_Town_F.C.",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_League_Two"
+  ]
+ },
+ {
+  "name": "Gillingham",
+  "C": {
+   "score": 6,
+   "evidence": "2024-25 average 6,268, 2025-26 average 6,083 at Priestfield (home since 1893, 11,582). Ordinary to solid crowds with a traditional ground."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Recent sponsors Medway Council and Bauvill; no betting sponsor found. Nothing notable either way."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 1893 (New Brompton); fourth-tier titles 1964 and 2013; only second-tier spell 2000-05; 1999 play-off final v Man City."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "US businessman Brad Galinson majority owner since Dec 2022, Paul Scally (1995-2022) minority. Ordinary private ownership."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Gareth Ainsworth's side; direct style, no pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gillingham_F.C.",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html"
+  ]
+ },
+ {
+  "name": "Grimsby Town",
+  "C": {
+   "score": 8,
+   "evidence": "Blundell Park (home since 1899, ~9,000) is one of the most traditional grounds in the EFL; strong following through non-league spells (2010-16, 2021-22). 2024-25 average listed at 5,597 by one source."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Mariners Trust holds 13.5% of shares; women's team; community-led ownership approach. 2026-27 shirt sponsor Blackrow Group; back-of-shirt Winner Winner Chicken Dinner Competitions (prize competitions)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Founded 1878; top-flight club in the 1930s, FA Cup semi-finals 1936 and 1939 (Old Trafford record 76,962); 2025 League Cup win on penalties over Manchester United."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Local-born owners Jason Stockwood and Andrew Pettit (1878 Partners, 63.1%) since 2021, working alongside the Mariners Trust; returned the club to the League in 2022. New stadium site at Peaks Parkway ruled out."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "David Artell's side, 7th in League Two 2025-26; no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "The 5,597 average (footballgroundguide) looks low against Grimsby's usual 7,000+; attendance not cross-checked.",
+   "Back-of-shirt sponsor is a prize-competition firm; not sports betting as defined, but Kevin may want to judge."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Grimsby_Town_F.C.",
+   "https://gtfc.co.uk/blackrow-group-announced-as-front-of-shirt-sponsor-in-new-three-year-partnership/",
+   "https://gtfc.co.uk/winner-winner-chicken-dinner-competitions-extend-back-of-shirt-sponsorship-for-2026-27-season",
+   "https://footballgroundguide.com/news/league-two-attendances-this-weekends-highest-and-2024-25-averages-2.html"
+  ]
+ },
+ {
+  "name": "Huddersfield Town",
+  "C": {
+   "score": 7,
+   "evidence": "2025-26 average 17,087 in League One (18,815 in 2024-25); away following 1,428 (4th). Ultras-style group Cowshed Loyal since 2014; anthem 'Smile A While'. Kirklees Stadium (1994) is a modern bowl."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Chest sponsor Hey Dude, sleeve Core; no betting sponsor found. Nothing notable either way."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "First club to win three consecutive English league titles (1924-26) under Herbert Chapman; 1922 FA Cup; Premier League 2017-19 under David Wagner."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "California-based Kevin M. Nagle (also owner of Sacramento Republic FC) bought the club in June 2023 after Dean Hoyle wrote off £40m of debt. Ordinary private ownership so far."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Gegenpressing under David Wagner (2015-19) is not a lasting identity; Martin Drury appointed May 2026 after Liam Manning."
+  },
+  "adjustments": [],
+  "flags": [
+   "Multiclub -4 applies because Nagle also owns Sacramento Republic (Kevin's hometown club). Decide whether to keep it and whether it should be mirrored on Republic."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Huddersfield_Town_A.F.C.",
+   "https://www.yorkshirepost.co.uk/sport/football/martin-drury-is-huddersfield-towns-head-coach-after-impressing-with-leadership-8643735",
+   "https://footballgroundguide.com/news/league-one-attendances.html",
+   "https://footballgroundguide.com/news/which-league-one-team-has-the-biggest-away-following.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+  ],
+  "review": [
+   "multiclub: dropped (Nagle: two independent clubs, not a network)"
+  ]
+ },
+ {
+  "name": "Leicester City",
+  "C": {
+   "score": 7,
+   "evidence": "King Power Stadium (32,259, since 2002) with large Championship crowds; loud on big nights but not a documented standout atmosphere. Now in League One after two relegations."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Front-of-shirt sponsor BC.Game (crypto casino/betting brand) again on 2026-27 shirts. Vichai Srivaddhanaprabha era community legacy (local donations, hospital). [Review: set to 5.]"
+  },
+  "H": {
+   "score": 8,
+   "evidence": "2015-16 Premier League title at 5,000-1, one of football's most famous moments; 2021 FA Cup; 2016-17 Champions League quarter-finals."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "King Power International (Srivaddhanaprabha family) since 2010; losses over £200m in three years, PSR breach and six-point deduction Feb 2026; two relegations 2023 and 2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Russell Martin (possession-based) appointed for 2026-27 after Gary Rowett's short spell; no pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "overspend",
+    "points": -5,
+    "evidence": "Exceeded PSR loss limit by £20.8m; six-point deduction Feb 2026, appeal failed; losses near triple the permitted £81m."
+   }
+  ],
+  "flags": [
+   "BC.Game is a crypto-casino brand with sportsbook: treated as betting sponsor (V lowered)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Leicester_City_F.C.",
+   "https://www.lcfc.com/media-article/leicester-city-lcfc-adidas-home-kit-shirt-2026-2027-sale-buy-shop",
+   "https://www.sportspro.com/news/leicester-city-bc-game-shirt-sponsor-king-power/",
+   "https://www.lcfc.com/media-article/King-Power-To-Unite-Fans-Of-Leicester-City-and-OH-Leuven",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+  ],
+  "review": [
+   "multiclub: dropped (King Power flagship (OH Leuven secondary))"
+  ]
+ },
+ {
+  "name": "Leyton Orient",
+  "C": {
+   "score": 7,
+   "evidence": "2024-25 average 7,626 at Brisbane Road (home since 1937, 9,271); support held up through the Becchetti years and non-league spell (2017-19). Away following 633 (2025-26)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Tradition of charity shirt sponsorship (2020-23 Harry Kane deal funding hospices and mental-health charities); Leyton Orient Fans Trust; new owner plan includes more support for the women's team."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1881; First Division 1962-63; collapse under Francesco Becchetti to non-league in 2017, recovered with National League (2019) and League Two (2023) titles."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "US TV executive David Gandler (FuboTV co-founder) took 78.55% via GSG LOFC in April 2025; Nigel Travis stays chairman. Too early to judge conduct."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Richie Wellens's side, 20th in League One 2025-26; no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "O lowered from the Nigel Travis era (7) to 5 on the ownership change; revisit after a season or two."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Leyton_Orient_F.C.",
+   "https://www.foxsports.com/articles/soccer/us-tv-executive-gandler-is-the-new-majority-shareholder-of-london-club-leyton-orient",
+   "https://footballgroundguide.com/news/league-one-attendances.html",
+   "https://footballgroundguide.com/news/which-league-one-team-has-the-biggest-away-following.html"
+  ]
+ },
+ {
+  "name": "Luton Town",
+  "C": {
+   "score": 8,
+   "evidence": "Kenilworth Road (home since 1905, 12,056) is one of England's most distinctive old grounds; crowds held up in non-league (7,387 average in 2013-14 Conference, more than double rivals); away following 1,250 (2025-26). New Power Court stadium due 2028-29."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Supporters' Trust elects a board member and holds a legal veto on identity changes (since 2014); women's team; principal partner Capital Sky, a local construction firm. No betting sponsor found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1988 League Cup win over Arsenal; 1959 FA Cup final; fell to non-league 2009-14, then rose to the Premier League 2023-24; relegated twice since."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Owned by Luton Town Football Club 2020 Ltd, a local consortium of supporters/businessmen who rescued the club in 2008; Trust board seat and identity veto."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Jack Wilshere manager since Oct 2025; 7th in League One 2025-26; no documented pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "History of 1980s hooligan incidents (1985 Millwall riot) is old; no recent sanctions found, so no violence adjustment."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Luton_Town_F.C.",
+   "https://www.lutontown.co.uk/en/news/capital-sky-confirmed-as-principal-partner-for-2025-26-season",
+   "https://footballgroundguide.com/news/which-league-one-team-has-the-biggest-away-following.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_League_One"
+  ]
+ }
+]

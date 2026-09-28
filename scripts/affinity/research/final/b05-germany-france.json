@@ -1,0 +1,1092 @@
+[
+ {
+  "name": "1. FC Köln",
+  "C": {
+   "score": 9,
+   "evidence": "Averaged 49,918 (near-full RheinEnergieStadion, 50,000) in 2025-26; loud Südkurve with Wilde Horde ultras; crowds held up through repeated relegations and 2. Bundesliga seasons."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Member club (150,000+ members); regional sponsors (REWE front, DEVK sleeve), no betting or arms sponsors; women's team in Frauen-Bundesliga; strong academy. Very large DFB fines for fan pyrotechnics (EUR 924k in 2024-25; EUR 220k for 110 pyros v Bayern, Jan 2026)."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Inaugural Bundesliga champion 1963-64, three league titles, 1978 double, four DFB-Pokals, 1986 UEFA Cup final."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "Professional arm fully held by 1. FC Köln e.V. with no outside investor; members elect the board. Governance lapses (FIFA transfer ban 2023) and frequent coaching/board changes."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Promoted as 2. Bundesliga champion 2024-25, finished 14th in 2025-26; energetic, direct football under Kwasniok, now René Wagner. No lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "DFB named Köln the top-fined club for fan misconduct (mostly pyrotechnics). Decide if pyro-heavy fines should count as 'violence'; I did not apply an adjustment."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.tagesspiegel.de/sport/1-fc-koln-ist-randale-meister-dfb-verhangt-strafen-in-hohe-von-zwolf-millionen-euro-gegen-bundesligaklubs-15081096.html",
+   "https://www.dfb.de/news/220000-euro-geldstrafe-fuer-den-1-fc-koeln",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Bayer Leverkusen",
+  "C": {
+   "score": 5,
+   "evidence": "BayArena (30,210) averaged 30,016 in 2025-26; first German fan scene to call itself Ultras, but atmosphere is modest by Bundesliga standards and travelling support is small."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Sponsors BarmeniaGothaer (front) and Niedax (sleeve), no betting/arms; funded women's team in Frauen-Bundesliga; decent academy. No notable positives beyond that."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "UEFA Cup 1988, DFB-Pokal 1993, 2002 Champions League final; 2023-24 unbeaten Bundesliga and cup double with a record 51-match unbeaten run."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Wholly owned by Bayer AG under a 50+1 exemption as a works club; run competently and stably, but no member control."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Pressing, possession-heavy identity under Xabi Alonso (2022-25); since then Ten Hag, Hjulmand and Carles Martínez Novell; finished 6th in 2025-26."
+  },
+  "adjustments": [],
+  "flags": [
+   "Company-club exemption from 50+1 is structural; no adjustment applied (not state, PE or multi-club). Decide if a structural penalty is wanted."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Borussia Mönchengladbach",
+  "C": {
+   "score": 8,
+   "evidence": "Averaged 51,100 at Borussia-Park (54,057) in 2025-26; big, loyal Nordkurve; stadium opened 2004 (not recent)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Member club (about 93,000 members); regional sponsors (Reuter Gruppe front, Sonepar sleeve), no betting/arms; established academy."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Five Bundesliga titles in the 1970s, two UEFA Cups (1975, 1979), 1977 European Cup final; the 'Fohlen' era is a landmark of German football."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "Borussia VfL 1900 e.V. is member-run; no outside investor."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Finished 12th in 2025-26, poor start to 2026-27 (four straight losses); coaches Seoane, Polanski, now Blessin. No current pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Eintracht Frankfurt",
+  "C": {
+   "score": 9,
+   "evidence": "Averaged 59,071 at Deutsche Bank Park in 2025-26; one of Europe's biggest away followings (about 30,000 at Camp Nou, 2022); choreographies and a very loud Nordwestkurve."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Members' club with a public anti-racist stance (ex-president Peter Fischer's 2018 line against AfD members); sponsors Indeed (front) and Deutsche Vermögensberatung (sleeve), no betting/arms; women's team in Frauen-Bundesliga. Repeated fan disorder abroad lowers it slightly."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "1959 German champions, 1960 European Cup final (7-3 v Real Madrid), 1980 UEFA Cup, 2022 Europa League won unbeaten, five DFB-Pokals."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Eintracht Frankfurt Fußball AG is majority-held by the e.V. under 50+1, with minority holdings by friends/sponsor companies; stable and well run."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Riera (Jan-2026) then Adi Hütter; 8th in 2025-26. Transition-based football; intensity varies."
+  },
+  "adjustments": [
+   {
+    "type": "violence",
+    "points": -5,
+    "evidence": "Repeated UEFA sanctions for fan disorder: pyro and objects thrown at Camp Nou (2025-26 UCL, glass wall smashed) led to a two-match away-ticket ban while already on probation; earlier bans after Napoli 2023 and Marseille 2022 clashes."
+   }
+  ],
+  "flags": [
+   "Violence -5 is my call from repeated UEFA sanctions; Kevin to confirm the scale."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/uefa-urteil-ist-da-eintracht-frankfurt-muss-ohne-fans-nach-baku--v1,eintracht-uefa-urteil-100.html",
+   "https://profis.eintracht.de/news/uefa-spricht-strafen-aus-eintracht-frankfurt-champions-league-174286/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "FC Augsburg",
+  "C": {
+   "score": 6,
+   "evidence": "WWK Arena (30,660, opened 2009) averaged 29,787 in 2025-26; steady crowds but little distinct atmosphere or away presence."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (WWK insurance front, Siegmund sleeve), no betting/arms. Nothing notable either way."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Top flight only since 2011; best finish 5th (2014-15) and one Europa League run (2015-16, out to Liverpool)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "50+1 applies, but the professional arm is investor-held via Hofmann Investoren GmbH: Bolt Football Holdings (David Blitzer) about 45%, Klaus Hofmann about 30%. Reports say Blitzer has explored selling."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "9th in 2025-26 under Wagner then Manuel Baum; pragmatic, no lasting pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "David Blitzer's Global Football Holdings also invests in other clubs (e.g. Estoril Praia, Alcorcón, Beveren); Augsburg is not a feeder."
+   }
+  ],
+  "flags": [
+   "Existing score had no multi-club adjustment; I added -4 for Blitzer's stake."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Augsburg",
+   "https://en.wikipedia.org/wiki/David_Blitzer",
+   "https://www.kicker.de/us-unternehmer-blitzer-steigt-beim-fca-ein-802344/artikel",
+   "https://www.sportbusiness.com/news/blitzer-eyes-augsburg-sale-german-regulator-stands-by-501-after-ecj-ruling/",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025"
+  ]
+ },
+ {
+  "name": "Hamburger SV",
+  "C": {
+   "score": 9,
+   "evidence": "Averaged 56,947 at the Volksparkstadion (57,000) in 2025-26; crowds stayed near capacity through seven seasons in the 2. Bundesliga (2018-25); large, loud Nordtribüne."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "HanseMerkur (front) and Plan International (charity, sleeve), no betting/arms; e.V. keeps control. Nothing strongly negative."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "1983 European Cup, 1977 Cup Winners' Cup, six German titles; the only club never relegated until 2018."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "HSV e.V. holds about 75% of HSV Fußball AG; Kühne Holding cut its stake below 10% (Sparda-Bank 7.5%, Hanse & Raute 4.5%); club says no further major investors. Long history of boardroom instability."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Promoted 2025, 13th in 2025-26 under Merlin Polzin; active, front-foot football but not an elite press."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hamburger_SV",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.radiohamburg.de/aktuelles/hamburg/Neue-Struktur-Teil-der-K%C3%BChne-Anteile-am-HSV-verkauft-id1718053.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Mainz 05",
+  "C": {
+   "score": 7,
+   "evidence": "MEWA Arena (33,305) averaged 31,797 in 2025-26; Q-Block led by Ultraszene Mainz; compact and loud, carnival-club identity. A hooligan-leaning group (Schlechter Umgang) appeared in 2024."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Member club; Kömmerling (front) and iDM (sleeve), no betting/arms; known for climate-neutral and social commitments; fan project and academy pathway."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Top-flight since 2009 (and 2004-07); Klopp and Tuchel coaching roots; Conference League 2025-26 is their main European run."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "1. FSV Mainz 05 e.V., member-run, no outside investor."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "High-intensity pressing lineage (Klopp, Tuchel, Svensson, Henriksen); Urs Fischer since Dec 2025 keeps an intense, compact style."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://millernton.de/2025/02/20/1-fsv-mainz-05-verein-und-fanszene/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "SC Freiburg",
+  "C": {
+   "score": 7,
+   "evidence": "Europa-Park Stadion (34,700, opened 2021) averaged 34,118 in 2025-26; loyal and full, but atmosphere is good rather than intense. The new-stadium drop has lapsed (6th season)."
+  },
+  "V": {
+   "score": 9,
+   "evidence": "Member club known for social/sustainability focus; strong academy pathway (Freiburger Fußballschule); women's team in Frauen-Bundesliga; Lexware and Edeka sponsors, no betting/arms."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "No major trophies; long continuity (Streich era), 2022 DFB-Pokal final, 2025-26 Europa League run."
+  },
+  "O": {
+   "score": 10,
+   "evidence": "SC Freiburg e.V., member-owned and famously well run and stable."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "7th in 2025-26 under Julian Schuster; organised, hard-running team football."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SC_Freiburg",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "SC Paderborn",
+  "C": {
+   "score": 5,
+   "evidence": "Home Deluxe Arena (15,000) averaged 14,522 in 2025-26 in the 2. Bundesliga; small, fairly quiet support."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (C. Hedenkamp front, Mediacom sleeve), no betting/arms; nothing notable either way."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Third Bundesliga spell (2014-15, 2019-20, 2026-27); promoted via 2026 play-off win over Wolfsburg (2-1 aet)."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "SC Paderborn 07 e.V. under 50+1; past reliance on the late president Wilfried Finke; recent financial difficulties but stable now."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "'Brave football, young players' identity per coverage of the 2026 promotion; Ralf Kettemann coaches."
+  },
+  "adjustments": [],
+  "flags": [
+   "Ownership detail (e.V. vs spun-off company, main backers) not fully verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SC_Paderborn_07",
+   "https://www.transfermarkt.com/2-bundesliga/besucherzahlen/wettbewerb/L2/saison_id/2025",
+   "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-sc-paderborn-aufstieg-vfl-wolfsburg-100.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "SV Elversberg",
+  "C": {
+   "score": 4,
+   "evidence": "Village club (Spiesen-Elversberg); stadium about 10,000; averaged 9,113 in 2025-26 in the 2. Bundesliga; lowest Bundesliga crowd so far in 2026-27 (9,307)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Main sponsor HYLO is the Holzer family's Ursapharm brand; no betting/arms; nothing notable either way."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "First Bundesliga season (2026-27), first Saarland club in the top flight since 1993; rose from the Regionalliga in the 2020s."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Member club formally, but its rise is financed by the Holzer family and their company Ursapharm (Frank Holzer chairs the supervisory board; stadium and shirt carry Ursapharm brands)."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Attacking, possession-and-pressing style under Horst Steffen carried into the promotion side; Vincent Wagner now coaches."
+  },
+  "adjustments": [],
+  "flags": [
+   "Patron-funded rise (Ursapharm): decide if an overspend adjustment fits; I did not apply one."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SV_Elversberg",
+   "https://www.transfermarkt.com/2-bundesliga/besucherzahlen/wettbewerb/L2/saison_id/2025",
+   "https://www.t-online.de/sport/fussball/bundesliga/id_100739950/sv-elversberg-dahinter-steckt-pharma-unternehmer-frank-holzer.html",
+   "https://www.absolutfussball.com/deutschland/1-bundesliga/sv-elversberg-warum-bundesliga-aufstieg-kein-klassisches-fussball-maerchen-ist-familie-holzer-ursapharm-zr-94379836.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Schalke 04",
+  "C": {
+   "score": 10,
+   "evidence": "Averaged 61,829 in the 2. Bundesliga in 2025-26, by far the league's highest; huge, loyal Nordkurve that held up through three second-tier seasons."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Member club; financing through a members' cooperative (Auf Schalke eG) instead of an outside investor; Beumer Group and Blåkläder sponsors, no betting/arms; strong community identity."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Seven German titles (pre-Bundesliga era), 1997 UEFA Cup, five DFB-Pokals; a symbol of Ruhr working-class football."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "FC Gelsenkirchen-Schalke 04 e.V. is fully member-controlled; members oppose spinning off the pro side. Debt of about EUR 162m and negative equity of about EUR 97m after years of mismanagement."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Won the 2. Bundesliga in 2025-26 under Miron Muslić; no lasting intense style in recent years."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Schalke_04",
+   "https://www.transfermarkt.com/2-bundesliga/besucherzahlen/wettbewerb/L2/saison_id/2025",
+   "https://www.sportschau.de/fussball/bundesliga2/wie-schalke-ohne-investor-an-50-millionen-euro-kommen-will,schalke-genossenschaft-100.html",
+   "https://www.reviersport.de/fussball/2bundesliga/a625320---2-liga-schalke-erfuellt-dfl-eigenkapitalregel-bei-bundesliga-aufstieg-droht-fehlbetrag.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "TSG Hoffenheim",
+  "C": {
+   "score": 4,
+   "evidence": "PreZero Arena in Sinsheim (30,150) averaged 26,697 in 2025-26, below capacity; small fan scene and limited identity."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "SAP (front) and ProMinent (sleeve), no betting/arms. 2025-26 fan protests against Hopp associate and agent Roger Wittmann; executives dismissed after distancing themselves from him."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Village club lifted from the fifth tier to the Bundesliga (2008) by Dietmar Hopp's funding; no major honours."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Returned formally to 50+1 in Nov 2024, but a 2025-26 power struggle (Hopp backing Wittmann) led to dismissals and labour-court cases; member control looks limited in practice."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "5th in 2025-26 under Christian Ilzer; high-energy pressing style."
+  },
+  "adjustments": [],
+  "flags": [
+   "Hopp-funded rise is historical: decide if an overspend adjustment (-2) should apply."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+   "https://www.getfootballnewsgermany.com/2026/hoffenheim-metz-gamgami/",
+   "https://www.sportschau.de/regional/swr/swr-fanproteste-gegen-hopp-freund-wittmann-spielerberater-stellt-anzeige-100.html",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025"
+  ]
+ },
+ {
+  "name": "Union Berlin",
+  "C": {
+   "score": 10,
+   "evidence": "Anchor. Stadion An der Alten Försterei (22,012) averaged 21,996, almost all standing; fans rebuilt the stadium themselves (2008). Expansion to 40,500 planned; temporary move to the Olympiastadion from Dec 2027."
+  },
+  "V": {
+   "score": 9,
+   "evidence": "Member club with deep fan involvement; invests in its women's team (Frauen-Bundesliga, shared training centre being built); Raisin Bank and Kermi sponsors. Dec 2024 lighter thrown at Bochum's goalkeeper led to a points loss."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "East German cult club (1968 FDGB-Pokal), survival stories (fans' 'Bleed for Union' blood donation), rise to the Champions League in 2023."
+  },
+  "O": {
+   "score": 10,
+   "evidence": "Anchor. 1. FC Union Berlin e.V., member-owned; stadium company share scheme sold to fans."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "11th in 2025-26; physical, direct, hard-running style; Mauro Lustrinelli coaches."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/1._FC_Union_Berlin",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.sportschau.de/regional/rbb/rbb-stadionausbau-verzoegert-union-muss-laenger-ins-olympiastadion-100.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Werder Bremen",
+  "C": {
+   "score": 8,
+   "evidence": "Weserstadion (42,100) averaged 41,265 in 2025-26; loud Ostkurve with anti-racist ultra groups; strong loyalty after the 2021 relegation."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Members' club with a long anti-discrimination and CSR record ('Werder bewegt'); regional sponsors (Matthäi, Ammerländer), no betting/arms; women's team in Frauen-Bundesliga."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Four German titles, 1992 Cup Winners' Cup, 2004 double; one of the Bundesliga's most-played clubs."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "e.V. holds the majority of the KGaA; a regional alliance of Bremen businesspeople holds 19.71% on no-dividend, long-hold terms (expanded Sept 2026)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "15th in 2025-26; Steffen then Daniel Thioune. Front-foot but inconsistent."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SV_Werder_Bremen",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.werder.de/news/weitere-news/2026-2027/erweiterung-regionales-buendnis-16092026",
+   "https://www.butenunbinnen.de/sport/regionales-buendnis-investoren-werder-bremen-100.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Angers",
+  "C": {
+   "score": 5,
+   "evidence": "Stade Raymond-Kopa (19,350) averaged 12,484 in 2025-26, among Ligue 1's lowest; ordinary atmosphere."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Local sponsors (club school, Maison de l'Atoll), no betting/arms. Former owner-president Saïd Chabane resigned in 2023 and was convicted in 2024 of sexually assaulting six female employees of the club and his company; his son now runs the club."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Coupe de France finals 1957 and 2017; long spells between the top two tiers."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Owned by the Chabane family (son Romain Chabane president) after the father's conviction; sale attempts have failed; DNCG placed transfer and wage restrictions for 2025-26."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "13th in 2025-26; defensive, low-possession side; Stéphane Gilli coaches in 2026-27."
+  },
+  "adjustments": [],
+  "flags": [
+   "Ownership remains in the family of an owner convicted of sexual assault on club staff; confirm Values/Ownership treatment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Angers_SCO",
+   "https://en.wikipedia.org/wiki/Sa%C3%AFd_Chabane",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/3386-sco-dangers-qui-est-pret-a-payer-50-millions-pour-racheter-le-club/"
+  ]
+ },
+ {
+  "name": "Auxerre",
+  "C": {
+   "score": 6,
+   "evidence": "Stade de l'Abbé-Deschamps (18,541) averaged 16,313 in 2025-26 in a town of about 35,000; loyal, fairly traditional crowd."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Historic youth academy (Cantona, Cissé, Boli, Mexès); local sponsors, Groupama sleeve, no betting/arms."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Guy Roux's 44-year reign took a small-town club to the 1996 double and four Coupe de France titles; a model of French provincial football."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Majority owned (about 60%) by Chinese businessman James Zhou (ORG Packaging) since 2016; stable, modest investment."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "15th in 2025-26; Will Still appointed June 2026 (energetic, pressing approach at Reims and Lens)."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AJ_Auxerre",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://www.ici.fr/bourgogne-franche-comte/yonne-89/auxerre/aj-auxerre-james-zhou-annonce-un-nouveau-chapitre-et-appelle-a-la-patience-6964599",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Brest",
+  "C": {
+   "score": 7,
+   "evidence": "Stade Francis-Le Blé (15,220) averaged 14,362 in 2025-26; compact, loud old ground; supporters strongly attached to it. A new 15,000 stadium at Guipavas is planned."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Breton regional identity; local sponsors (Quéguiner, Breizh Cola, Leclerc), no betting/arms; family-run community club."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "First European campaign in 2024-25 (Champions League league phase and knockout play-off); earlier top-flight spells, 1980s Ginola era."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Owned and run by the local Le Saint family (Denis and Gérard); prudent budget."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "12th in 2025-26; organised, hard-working team; Julien Lachuer coaches 2026-27."
+  },
+  "adjustments": [],
+  "flags": [
+   "The new-stadium move (Guipavas) is still pending; apply the -1 new-stadium rule when it opens."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stade_Brestois_29",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://www.sportmag.fr/football-brest-attend-son-nouveau-stade-pour-2026/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Le Havre",
+  "C": {
+   "score": 6,
+   "evidence": "Stade Océane (25,178, opened 2012) averaged 19,253 in 2025-26; average atmosphere."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Zeturf (betting) on shorts; strong academy record (Pogba, Mahrez, Mandanda, Lass Diarra)."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "France's oldest club (founded 1872), 1959 Coupe de France; famous academy."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Vincent Volpe sold his 96.2% stake in mid-2025 to Blue Crow Sports Group (Jeff Luhnow, Houston); supporters voiced concern about the club's identity."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "14th in 2025-26 under Didier Digard; low-possession, defensive side."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Blue Crow Sports Group also owns CD Leganés, Cancún FC and Elite Falcons (UAE) and has pursued Monza; stated goal is to 'optimise talent flows'."
+   }
+  ],
+  "flags": [
+   "Wikipedia's 2026-27 table still lists Volpe as chairman; verify the BCSG sale has completed (reported as agreed June 2025)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Le_Havre_AC",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://www.footnormand.fr/actualites/le-havre-ac/de-vincent-volpe-au-blue-crow-sports-group-changement-de-proprietaire-du-hac/",
+   "https://www.sportbuzzbusiness.fr/vincent-volpe-cede-962-de-sa-societe-proprietaire-du-havre-athletic-club.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Le Mans",
+  "C": {
+   "score": 6,
+   "evidence": "Stade Marie-Marvingt (25,064) averaged 12,033 in Ligue 2 in 2025-26, second in the league; support held through the 2013 bankruptcy and a drop to the sixth tier."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (Hexaom, city sleeve), no betting/arms; nothing notable either way."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Top-flight spells 2003-04 and 2005-10 (Drogba, Gervinho era); rebuilt after 2013 bankruptcy; first top-flight season in 16 years."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Owned by OutField Inc, a Brazilian investment firm, with celebrity co-owners (Djokovic, Massa, Magnussen, Courtois)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Back-to-back promotions (National 2025, Ligue 2 2026) under Patrick Videira; limited top-flight evidence."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "OutField runs a multi-club model with Coritiba (Brazil)."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Le_Mans_FC",
+   "https://www.transfermarkt.com/ligue-2/besucherzahlen/wettbewerb/FR2/saison_id/2025",
+   "https://www.flashscore.com/news/soccer-ligue-2-novak-djokovic-joins-f1-stars-in-becoming-part-owners-of-ligue-2-club-le-mans/tUvlnGOG",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Lorient",
+  "C": {
+   "score": 6,
+   "evidence": "Stade du Moustoir (16,787) averaged 15,382 in 2025-26; Merlus Ultras 1995 lead the Kop Sud; small, lively town-centre ground."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Breton regional identity; local sponsors (Jean Floc'h, Breizh Cola), no betting/arms."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "2002 Coupe de France; 18 top-flight seasons."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Loïc Féry remains chairman; Bill Foley's Black Knight Football Club holds a large stake."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "10th in 2025-26 after promotion; Alexandre Dujeux coaches in 2026-27."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Black Knight (Foley) also owns AFC Bournemouth, Auckland FC and stakes in Hibernian and Moreirense; Lorient sits in that network."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Lorient",
+   "https://www.fclorient.bzh/groupes-de-supporters/",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Lyon",
+  "C": {
+   "score": 8,
+   "evidence": "Groupama Stadium (59,186, opened 2016) averaged 49,848 in 2025-26; Bad Gones lead a loud Virage Nord."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Emirates (UAE state airline) main sponsor and Winamax (betting) on the back lower it; major academy (Benzema, Lacazette, Cherki) and the women's game's most successful club raise it."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Seven straight titles 2002-08, Champions League semi-final 2010 and 2020."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Michele Kang's Olympe Bidco bought 87.8% in June 2026 after Ares put Textor's Eagle Football holding into administration; deal released EUR 232.6m intercompany debt, but OL still carries about EUR 616m group debt; DNCG wage cap."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "4th in 2025-26; Paulo Fonseca's front-foot style."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Kang also owns Washington Spirit and London City Lionesses (women's network); Lyon is the parent, not a feeder."
+   },
+   {
+    "type": "overspend",
+    "points": -4,
+    "evidence": "Eagle-era spending led to DNCG provisional relegation in 2025 (overturned on appeal) and a 2026 wage cap."
+   }
+  ],
+  "flags": [
+   "Old -8 (Eagle multi-club) replaced by Kang ownership; check the multi-club and overspend calls.",
+   "Emirates sponsorship: state airline, counted in Values."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
+   "https://theesk.org/2026/06/29/the-analysis-series-olympique-lyonnais-two-ownership-transactions-the-2022-eagle-football-john-textor-acquisition-and-the-2026-michele-kang-olympe-bidco-acquisition/",
+   "https://frontofficesports.com/article/michele-kang-to-buy-lyon-in-deal-that-would-end-john-textors-ownership/",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Marseille",
+  "C": {
+   "score": 10,
+   "evidence": "Vélodrome averaged 62,612 in 2025-26, highest in France; South Winners, Commando Ultra 84 and other groups; elite atmosphere and loyalty."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Unibet (betting) on the front and a 'Sublime Côte d'Ivoire' tourism sleeve lower it; ultras' anti-racist tradition; LFP stand closures for pyro and a case over homophobic chants (2026)."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "First and only French Champions League winner (1993); nine league titles; huge place in French football culture."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Frank McCourt (95%) has stopped funding losses; governance shake-up in 2026 (Longoria sidelined); UEFA fined EUR 10m for breaching deficit and squad-cost rules."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "5th in 2025-26; Habib Beye sacked, Bruno Génésio appointed July 2026."
+  },
+  "adjustments": [
+   {
+    "type": "overspend",
+    "points": -4,
+    "evidence": "UEFA June 2026 settlement: EUR 10m fine (EUR 6m deficit breach, EUR 4m squad-cost ratio breach)."
+   },
+   {
+    "type": "violence",
+    "points": -4,
+    "evidence": "Repeated LFP sanctions (South Stand closures 2026); 2023 stoning of Lyon's team bus by OM fans."
+   }
+  ],
+  "flags": [
+   "Violence -4 is my call; confirm scale.",
+   "Côte d'Ivoire tourism sleeve: Ivory Coast is not clearly authoritarian; counted lightly."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Olympique_de_Marseille",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/7499-om-franck-mccourt-nen-peut-plus/",
+   "https://www.lfp.fr/article/commission-de-discipline-les-decisions-du-27-mai-2026",
+   "https://www.foot01.com/marseille/la-sanction-de-luefa-contre-lom-enfin-devoilee",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Monaco",
+  "C": {
+   "score": 4,
+   "evidence": "Stade Louis II (18,525) averaged 8,153 in 2025-26, Ligue 1's lowest; small support. Home since 1985, so no stadium penalty."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "VBET (betting) on shorts and a DR Congo state tourism sleeve lower it; strong academy (Henry, Mbappé, Trezeguet)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Eight French titles, 2004 Champions League final, 2017 title and semi-final."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Rybolovlev's Monaco Sport Investment holds 66.7%, the Grimaldi family 33.3%; sale explored since 2024 with no deal."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "7th in 2025-26; Filipe Luís appointed July 2026; young, athletic side."
+  },
+  "adjustments": [],
+  "flags": [
+   "The ruling Grimaldi family (head of state) holds 33%: decide whether that counts as state backing."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AS_Monaco_FC",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://www.sportbusiness.com/news/russian-tycoon-rybolovlev-considers-as-monaco-sale/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Nice",
+  "C": {
+   "score": 6,
+   "evidence": "Allianz Riviera (36,178, opened 2013) averaged 22,078 in 2025-26; Populaire Sud is loud but crowds are well below capacity."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "LFP cases over racist banners and homophobic/sexist chants (Nice-OM, Jan 2025); VBET (betting) on shorts; Ineos sleeve."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Four titles in the 1950s, three Coupes de France (last 1997)."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "INEOS (Jim Ratcliffe) failed to sell the club to a US investor in 2026 and plans a partial sale while cutting costs."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "16th in 2025-26; Claude Puel sacked, Olivier Pantaloni appointed June 2026."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -8,
+    "evidence": "INEOS also owns a stake in Manchester United and Lausanne-Sport; Nice is the secondary club."
+   },
+   {
+    "type": "racism",
+    "points": -6,
+    "evidence": "Racist banners and discriminatory chants at Nice-OM, Jan 2025, LFP proceedings."
+   },
+   {
+    "type": "violence",
+    "points": -5,
+    "evidence": "Pyrotechnics, pitch invasion and damage at Nice-Metz (17 May 2026): two matches behind closed doors; 2022 clashes with Köln fans."
+   }
+  ],
+  "flags": [
+   "Racism -6 and violence -5 are my calls; confirm scale."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/OGC_Nice",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/nice/incidents-lors-du-match-nice-marseille-fermeture-de-tribune-et-sanctions-a-venir-la-lfp-hausse-le-ton-3099850.html",
+   "https://www.lfp.fr/article/commission-de-discipline-les-decisions-du-20-mai-2026",
+   "https://www.nicepremium.fr/sports/ogcn-football/ogc-nice-ineos-va-rester-actionnaire-majoritaire/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Paris FC",
+  "C": {
+   "score": 4,
+   "evidence": "Stade Jean-Bouin (19,904) averaged 16,826 in 2025-26; small fan base in PSG's shadow."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Main sponsor Bahrain Victorious (Kingdom of Bahrain brand) and Bwin (betting) on shorts lower it."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Founded 1969; mostly lower-division history; 2025-26 first top-flight season since 1979."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Arnault family (Agache Sport) 52.4%, Pierre Ferracci 29.8%, Red Bull 10.6%; big recent investment."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "11th in 2025-26; Liam Rosenior coaches 2026-27."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Red Bull holds 10.6% (minor stake in a multi-club group)."
+   },
+   {
+    "type": "overspend",
+    "points": -2,
+    "evidence": "Owner-funded spending since the 2024 Arnault takeover."
+   }
+  ],
+  "flags": [
+   "Bahrain Victorious main sponsor: authoritarian state brand, counted in Values."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paris_FC",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://profchadwick.substack.com/p/states-of-the-game-from-bahrain-victorious",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Rennes",
+  "C": {
+   "score": 7,
+   "evidence": "Roazhon Park (29,778) averaged 27,765 in 2025-26; Roazhon Celtic Kop is loud but faced LFP stand closures (Apr 2026)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Breton regional identity raises it; Winamax (betting) on the back lowers it; strong academy (Camavinga, Doué)."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Coupes de France 1965, 1971, 2019; regular European football."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Owned by the Pinault family's Artémis since 1998; stable and well funded, but ultras openly criticise the owners."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "6th in 2025-26; Franck Haise's attacking, fairly intense style."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stade_Rennais_FC",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://x.com/staderennais/status/2042252694417707057",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Strasbourg",
+  "C": {
+   "score": 9,
+   "evidence": "Stade de la Meinau averaged 27,836 in 2025-26; Ultra Boys 90 lead one of France's best atmospheres; support stayed strong after 2011 liquidation and a drop to the fifth tier."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Alsatian identity and anti-fascist ultras raise it; Winamax (betting) as main sponsor lowers it."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1979 French champions, three Coupes de France; history kept through the 2011 re-founding."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "BlueCo (Chelsea's owners) since 2023; Strasbourg and Chelsea fans jointly protested BlueCo in March 2026, saying Strasbourg is a feeder."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "8th in 2025-26; young squad; Hugo Oliveira appointed July 2026."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -8,
+    "evidence": "BlueCo moves players and staff between Chelsea and Strasbourg; fans call it a feeder."
+   },
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "BlueCo is backed by Clearlake Capital, a private-equity firm."
+   }
+  ],
+  "flags": [
+   "Added pe -4 on top of the existing multi-club -8; confirm."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://www.foxsports.com/articles/soccer/chelsea-and-strasbourg-fans-unite-in-stamford-bridge-protest-against-blueco-ownership",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Toulouse",
+  "C": {
+   "score": 6,
+   "evidence": "Stadium de Toulouse (33,150) averaged 24,620 in 2025-26; Indians Tolosa lead a moderate atmosphere."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Winamax (betting) on the back; otherwise ordinary."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "2023 Coupe de France; the earlier Toulouse FC (1937-67) won the 1957 cup."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "RedBird Capital Partners owns 85%; it has repeatedly explored a sale (Otro Capital, a Dubai fund linked); nothing confirmed."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "9th in 2025-26; data-driven recruitment; Jens Berthel Askou coaches 2026-27."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "RedBird also owns AC Milan; UEFA required separation."
+   },
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "RedBird Capital Partners is a private-equity firm."
+   }
+  ],
+  "flags": [
+   "Sale status unverified for 2026; re-check if ownership changed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Toulouse_FC",
+   "https://www.transfermarkt.com/ligue-1/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://www.sportbusiness.com/news/redbird-ponders-toulouse-fc-sale-as-uefa-hones-in-on-multi-club-ownership/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ]
+ },
+ {
+  "name": "Troyes",
+  "C": {
+   "score": 4,
+   "evidence": "Stade de l'Aube (20,460) averaged 7,969 in Ligue 2 in 2025-26; thin crowds."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Etihad Airways (UAE state airline) is the main sponsor; club is part of City Football Group."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Several top-flight spells; 2001 Intertoto Cup; current club founded 1986 after the old Troyes club folded."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "Owned by City Football Group since 2020, which is majority owned by Abu Dhabi United Group (Sheikh Mansour); used as a development club in the network."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Promoted in 2026 under Stéphane Dumont; limited evidence of a lasting style."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -8,
+    "evidence": "Troyes is a City Football Group feeder club."
+   },
+   {
+    "type": "state",
+    "points": -12,
+    "evidence": "City Football Group is majority owned by Abu Dhabi United Group; Manchester City already carries the state-backed penalty. [Review: satellite of state-controlled City Football Group.]"
+   }
+  ],
+  "flags": [
+   "State -25 plus multiclub -8 double-counts CFG; Kevin to decide if only one applies (old score used -8 only)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/ES_Troyes_AC",
+   "https://www.transfermarkt.com/ligue-2/besucherzahlen/wettbewerb/FR2/saison_id/2025",
+   "https://www.footmercato.net/a607122596173641824-lextraordinaire-epopee-de-lestac-troyes-qui-revient-de-loin",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1"
+  ],
+  "review": [
+   "state: -12 (satellite of state-controlled City Football Group)"
+  ]
+ }
+]

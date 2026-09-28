@@ -1,0 +1,1072 @@
+[
+ {
+  "name": "Atlanta United",
+  "C": {
+   "score": 7,
+   "evidence": "League-high crowds (44.0k avg 2025, 46.8k 2024; 53k in 2018) and six recognised groups (Terminus Legion, Footie Mob...), Golden Spike ritual. Crowds falling; plays in the NFL Falcons' Mercedes-Benz Stadium (-1 applied)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: American Family Insurance / Emory Healthcare, no betting or state sponsor. Free-to-play MLS NEXT academy with homegrown pathway. Nothing notable either way otherwise."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Expansion club from 2017. MLS Cup 2018, U.S. Open Cup 2019, record 73,019 crowd at MLS Cup 2018."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Arthur Blank (AMB Sports & Entertainment), local owner who invested heavily; no fan unrest documented. Ordinary-to-good conduct."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Decline since the mid-2020s, coaching churn; Tata Martino returned Nov 2025. No lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/",
+   "https://en.wikipedia.org/wiki/Major_League_Soccer_attendance"
+  ]
+ },
+ {
+  "name": "Austin FC",
+  "C": {
+   "score": 7,
+   "evidence": "Sold out every home match at Q2 Stadium since 2021 (longest active MLS streak); Los Verdes, Austin Anthem, La Murga de Austin band. Only city club in a soccer-specific stadium; 20.7k capacity."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Yeti / Siete Foods, no betting or state sponsor. MLS NEXT academy and Austin FC II; first homegrown signed 2023. Nothing notable either way."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2018, began play 2021. Copa Tejas titles, 2023 CONCACAF CL debut, 2025 U.S. Open Cup runner-up."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Two Oak Ventures led by Anthony Precourt (with McConaughey and others). Precourt tried to relocate Columbus Crew to Austin in 2017 (Save The Crew); the Austin club itself is run ordinarily."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Coaching churn: Wolff to 2024, Estevez Nov 2024-May 2026, interim Arnaud, Jim Curtin hired for after 2026. No lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Ownership: Kevin to decide how much Precourt's 2017 attempt to move the Crew should weigh (set O 5, was 6).",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Austin_FC",
+   "https://en.wikipedia.org/wiki/Columbus_Crew",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "CF Montréal",
+  "C": {
+   "score": 5,
+   "evidence": "Saputo Stadium 19.6k. Ultras Montreal (since 2002) banned in 2021 after the rebrand dispute; 127 Montreal disbanded after 2024; Collectif Impact Montreal relaunched section 132, 1642 MTL keep the North Star bell. Support fragmented."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Quebec identity (fleur-de-lis restored in 2023 badge) is a regional plus; offset by the 2021 rebrand imposed over fan objections and the ultras ban. Kit: BMO / Telus, no betting sponsor."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Roots as Montreal Impact from 1992 (lower-division titles), MLS from 2012; first Canadian club in a CONCACAF CL final (2015); 11 Voyageurs Cups."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Joey Saputo, long-time local owner (since club's early years). Conduct mixed: rebrand against fans' wishes, ultras banned. Also owns Bologna."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "2026: 6-15-6, 29th of 30, caretaker coach Philippe Eullaffroy. No settled identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Regional (Quebec) identity counted modestly in Values; Kevin may want more.",
+   "2026 attendance not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/CF_Montréal",
+   "https://en.wikipedia.org/wiki/2026_CF_Montréal_season",
+   "https://en.wikipedia.org/wiki/Bologna_FC_1909",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ],
+  "review": [
+   "multiclub: dropped (Saputo flagship (Bologna secondary))"
+  ]
+ },
+ {
+  "name": "Charlotte FC",
+  "C": {
+   "score": 5,
+   "evidence": "Big crowds (30.7k avg 2025, 33.4k 2024; 74,479 home debut) and 'the Royal Family' groups with a 'Pepas' pre-match ritual, but plays in the NFL Panthers' Bank of America Stadium (-1 applied) and atmosphere reports are thin."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Ally Financial / Rugs.com, no betting or state sponsor. Academy since 2020, first homegrowns 2022. Nothing notable either way."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Expansion club, first match 2022. No trophies."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "David Tepper (hedge fund; also owns the Panthers, who share the stadium). Ordinary private owner for the MLS side."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Dean Smith since Dec 2023; best season 2025 (4th East, 19 wins). No distinct pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Charlotte_FC",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/",
+   "https://en.wikipedia.org/wiki/Major_League_Soccer_attendance"
+  ]
+ },
+ {
+  "name": "Chicago Fire FC",
+  "C": {
+   "score": 5,
+   "evidence": "Section 8 Chicago (independent, standing behind north goal) is one of MLS's oldest supporter cultures, but crowds are modest in the NFL Bears' Soldier Field (-1 applied); some matches moved to Bridgeview."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Chicago Fire Foundation community work, development academy. Kit: Carvana / Magellan, no betting sponsor. 2019 rebrand drew overwhelmingly negative fan response (crest revised 2021)."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1998 founding-season double (MLS Cup + U.S. Open Cup), Open Cups 2000, 2003, 2006, 2003 Shield."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Joe Mansueto (majority since 2019) is funding a private soccer-specific stadium (announced June 2025); signed Lewandowski (2026). Sensible investment."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Gregg Berhalter coach and sporting director. No lasting pressing identity documented."
+  },
+  "adjustments": [],
+  "flags": [
+   "New private stadium (McDonald's Park) would lift Culture once open; check opening date.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chicago_Fire_FC",
+   "https://en.wikipedia.org/wiki/FC_Lugano",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ],
+  "review": [
+   "multiclub: dropped (Mansueto flagship (Lugano secondary))"
+  ]
+ },
+ {
+  "name": "Colorado Rapids",
+  "C": {
+   "score": 5,
+   "evidence": "Dick's Sporting Goods Park in Commerce City (18k), Centennial 38 supporters and a standing terrace. Suburban site; atmosphere reports modest."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: UCHealth / Kiewit, no betting or state sponsor. Academy (Marcelo Balboa). Nothing notable either way (was 5)."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "MLS founding member 1996; 2010 MLS Cup, 1997 MLS Cup final, 1999 Open Cup final."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Kroenke Sports & Entertainment, a sports conglomerate (Nuggets, Avalanche, Arsenal). Club treated as a minor holding; ambition historically low."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Matt Wells appointed Dec 2025. No lasting pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "KSE also owns Arsenal FC (Premier League). Not a feeder."
+   }
+  ],
+  "flags": [
+   "Consistency: the b01 Arsenal entry did not apply multiclub for KSE; decide whether both or neither get it."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Colorado_Rapids",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/",
+   "https://en.wikipedia.org/wiki/2025_Major_League_Soccer_season"
+  ]
+ },
+ {
+  "name": "Columbus Crew",
+  "C": {
+   "score": 8,
+   "evidence": "Nordecke supporters; fans fought off relocation to Austin with #SaveTheCrew (2017-18). Club records for attendance and sellouts in 2023. New stadium in the same city opened 2021, so the new-stadium drop is fading."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Nationwide / DHL, no betting or state sponsor. Community-led Save The Crew, backed by Ohio's Modell Law suit. No formal fan voice now."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "MLS founding member 1996; built the first soccer-specific stadium in MLS (1999). Three MLS Cups (2008, 2020, 2023), three Shields, 2024 Leagues Cup, 2024 Champions Cup final."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Haslam Sports Group (70%) with the local Edwards family (30%) bought the club in 2019 to keep it in Columbus and built a new downtown stadium."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Possession-heavy, successful under Nancy (2023-24); after Rydstrom, Laurent Courtois is interim in 2026."
+  },
+  "adjustments": [],
+  "flags": [
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Columbus_Crew",
+   "https://www.espn.com/soccer/story/_/id/45632187/columbus-crew-owner-sells-stake-900m-valuation-report",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "D.C. United",
+  "C": {
+   "score": 7,
+   "evidence": "La Barra Brava (1995), Screaming Eagles, District Ultras among six groups; safe standing at the north end of Audi Field (2018). Long supporter culture from RFK days; recent crowds not verified."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Guidehouse / The Fruitist, no betting or state sponsor. Nothing notable either way."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Early MLS dynasty: four MLS Cups (1996, 1997, 1999, 2004), four Shields, three Open Cups, 1998 CONCACAF Champions' Cup and Copa Interamericana (only U.S. winner)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Jason Levien (managing owner) with Steve Kaplan; long run of poor results. Ordinary."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Rene Weiler coach in 2026. No lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Swansea stake timing: search result dated the Swansea control announcement May 2026; Levien/Kaplan have held Swansea since 2016. Verify current share.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/D.C._United",
+   "https://www.mlssoccer.com/news/dc-united-confirm-part-owner-jason-levien-finalizing-swansea-city-takeover",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ],
+  "review": [
+   "multiclub: dropped (Levien/Kaplan flagship (Swansea secondary))"
+  ]
+ },
+ {
+  "name": "FC Cincinnati",
+  "C": {
+   "score": 8,
+   "evidence": "The Bailey supporters' section, nine groups under The Incline Collective, pre-match march through Over-the-Rhine. Big crowds since USL days (25.3k in 2017, ~25.2k in MLS). TQL Stadium opened 2021, so the new-stadium drop is fading."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Mercy Health / Kroger, no betting or state sponsor. Nothing notable either way."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "USL club 2016-18 (2018 USL regular-season title, 2017 U.S. Open Cup semifinal run beating Columbus and Chicago); MLS from 2019, 2023 Supporters' Shield."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Local Lindner family majority, Meg Whitman minority; privately built TQL Stadium. Stable and ambitious."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Pat Noonan since Dec 2021; attacking, 57 goals in 2023. Moderate intensity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Cincinnati",
+   "https://en.wikipedia.org/wiki/Major_League_Soccer_attendance",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "FC Dallas",
+  "C": {
+   "score": 5,
+   "evidence": "Suburban Toyota Stadium (Frisco); 2025 attendance fell 42% during renovation (temporary capacity 11,004). Renovation to 2028 adds a north stand for ultras. Atmosphere historically modest."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Elite homegrown pathway (McKennie, Cannon, Pepi, Richards); strong girls' academy. Kit: Children's Health / UT Southwestern, no betting sponsor."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "MLS founding member as Dallas Burn (1996), Lamar Hunt family club; Open Cups 1997, 2016, 2016 Shield, 2010 MLS Cup final."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Hunt Sports Group (Clark and Dan Hunt), long-term owners investing in academy and a $182m stadium redevelopment."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Eric Quill coach; 2nd in the West in Sept 2026. Style detail not verified."
+  },
+  "adjustments": [],
+  "flags": [
+   "Culture set to 5 (was 6) on attendance; renovation is temporary, Kevin may prefer to hold 6.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Dallas",
+   "https://en.wikipedia.org/wiki/Major_League_Soccer_attendance",
+   "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season"
+  ]
+ },
+ {
+  "name": "Houston Dynamo FC",
+  "C": {
+   "score": 5,
+   "evidence": "Shell Energy Stadium downtown (renovated 2022-23); El Batallon, Texian Army, Bandera Negra, The Surge. Crowds have fluctuated; no strong atmosphere reports found."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: MD Anderson Cancer Center, no betting or state sponsor (stadium naming by Shell: fossil, no effect). Nothing notable either way."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Back-to-back MLS Cups 2006 and 2007, finals 2011 and 2012; U.S. Open Cups 2018 and 2023."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Ted Segal (bought 2021, ~$400m; also owns Houston Dash), Tim Howard joined ownership 2024. Ordinary private owner."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Ben Olsen coach; 2023 conference final, 2025 12th in the West. Average."
+  },
+  "adjustments": [],
+  "flags": [
+   "2025/2026 attendance not verified.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/",
+   "https://en.wikipedia.org/wiki/2025_Major_League_Soccer_season"
+  ]
+ },
+ {
+  "name": "Inter Miami CF",
+  "C": {
+   "score": 5,
+   "evidence": "Four groups (The Siege, Southern Legion, Vice City 1896, Nacion Rosa y Negro); Nu Stadium (26,700, opened April 2026) sold out its opener with constant drumming. Support largely Messi-driven since 2023, secondary prices jumped fivefold. Brand-new stadium (new-stadium -1 applied)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "High ticket prices relative to peers after Messi (avg secondary price rose fivefold to $161). Kit: Royal Caribbean / Lowe's, no betting or state sponsor. MLS fined the club $2m (2021) for salary-cap breaches."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Began play 2020. 2023 Leagues Cup, 2024 Shield (record 74 points), 2025 MLS Cup; first MLS win at the 2025 Club World Cup."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Jorge and Jose Mas with David Beckham; Ares Management holds a stake. Owner Jorge Mas fined $250k in 2021 over cap breaches."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Star-led possession side (Messi, Mascherano then Kily Gonzalez). Not a pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "Ares Management (private investment firm) holds an ownership stake."
+   },
+   {
+    "type": "overspend",
+    "points": -3,
+    "evidence": "2021 MLS salary-cap breach ($2m fine, allocation money misused on Matuidi and Reyes); owner-funded star spending well beyond the cap framework."
+   }
+  ],
+  "flags": [
+   "New adjustments vs old scores (pe -4, overspend -3): Kevin to confirm.",
+   "Ares stake size not verified.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+   "https://www.cbsnews.com/miami/news/inter-miami-new-nu-stadium-fans-reaction-freedom-park-debut/",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/",
+   "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season"
+  ]
+ },
+ {
+  "name": "LA Galaxy",
+  "C": {
+   "score": 6,
+   "evidence": "Galaxians (1996), Angel City Brigade, LA Riot Squad, Galaxy Outlawz; Victoria Block safe standing (2020) at Dignity Health Sports Park, Carson. July 2025 walkout/silent protests over the club's silence on ICE raids."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Club banned and suspended Angel City Brigade members during the 2025 ICE-raid protests (banner and harassment claims): documented friction with fans. Kit: Herbalife / RBC, no betting sponsor. Academy via Galaxy II."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Six MLS Cups (most, latest 2024), four Shields, two Open Cups, 2000 CONCACAF Champions' Cup; Beckham era raised MLS's global profile."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "AEG (Philip Anschutz), a large entertainment company. Ordinary private owner."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Vanney's 2024 title side was attack-led; 2025 was among the worst seasons in club history. Average."
+  },
+  "adjustments": [],
+  "flags": [
+   "Values docked 1 for the 2025 fan-discipline episode; Kevin to confirm.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/LA_Galaxy",
+   "https://www.rollingstone.com/politics/politics-features/mls-protests-fan-groups-boycott-team-silence-ice-raids-1235387537/",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "Los Angeles Football Club",
+  "C": {
+   "score": 8,
+   "evidence": "The 3252 supporters' union in a 3,252-capacity safe-standing end, regular tifo and multilingual chants; BMO Stadium (22,000) sold out since 2018. Among MLS's loudest."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: BMO / Ford, no betting or state sponsor. Shares stadium with and holds a minority stake in Angel City FC. Nothing notable either way."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Began play 2018. Shields 2019 and 2022, 2022 MLS Cup, 2024 U.S. Open Cup, CONCACAF CL finals 2020 and 2023."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Large investor group (Rosenthal, Berg, Beck; Guber chairman; celebrity part-owners). Ordinary private conduct."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Cherundolo's sides (2022-25) were intense and direct; Marc Dos Santos hired Dec 2025, fired 27 Sept 2026."
+  },
+  "adjustments": [],
+  "flags": [
+   "Angel City minority stake is a women's club, not counted as multiclub.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+   "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "Minnesota United FC",
+  "C": {
+   "score": 7,
+   "evidence": "Wonderwall (Dark Clouds, True North Elite) with permanent Thunderwall drumline; 'Wonderwall' sung after wins. Privately financed Allianz Field (19,400, 2019)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Target / Nutrisource / Finley's, no betting or state sponsor. Nothing notable documented either way (was 7)."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Grew out of NSC Minnesota Stars / NASL Minnesota United (2010-16), 2011 NASL champions; MLS since 2017."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Local group led by Bill McGuire with the Pohlad family and Glen Taylor; privately built stadium."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Eric Ramsay: counter-attack and set pieces, 39.1% possession in 2025 (lowest in MLS), record 21 set-piece goals, 58 points. Effective, not pressing."
+  },
+  "adjustments": [],
+  "flags": [
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Minnesota_United_FC",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/",
+   "https://en.wikipedia.org/wiki/2025_Major_League_Soccer_season"
+  ]
+ },
+ {
+  "name": "Nashville SC",
+  "C": {
+   "score": 7,
+   "evidence": "Geodis Park (30,000), largest soccer-specific stadium in US/Canada, opened 2022; 26.4k avg in 2025, 28.6k in 2024. The Roadies (2014) supporters."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Renasant Bank / Hyundai, no betting or state sponsor. Nothing notable either way."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "USL Championship 2018-19, MLS from 2020; first trophy the 2025 U.S. Open Cup."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Local owner John Ingram (Nashville Holdings), Ian Ayre CEO. Stable, invested in stadium."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "B.J. Callaghan since 2024; club-record 16 wins in 2025 and leading the Shield race in Sept 2026 (60 pts)."
+  },
+  "adjustments": [],
+  "flags": [
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nashville_SC",
+   "https://en.wikipedia.org/wiki/Major_League_Soccer_attendance",
+   "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season"
+  ]
+ },
+ {
+  "name": "New England Revolution",
+  "C": {
+   "score": 4,
+   "evidence": "Midnight Riders and The Rebellion in the 65k NFL Gillette Stadium in Foxborough, far from Boston (NFL-stadium -1 applied); crowds around 20k. Soccer stadium in Everett agreed Dec 2025 but years away."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Gillette, no betting or state sponsor. Nothing notable either way (was 5)."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "MLS founding member 1996; five MLS Cup finals lost (2002-2014), 2007 U.S. Open Cup, 2008 SuperLiga, 2021 Shield (record points at the time)."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Kraft Group; Boston Magazine (2014) named the Krafts 'the worst owners in the league' for neglecting the Revs. Now committing ~$500m to a soccer stadium in Everett."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Level on 46 pts for 2nd in the East in Sept 2026; style detail not verified."
+  },
+  "adjustments": [],
+  "flags": [
+   "Everett stadium: earliest opening ~2027-2030; would lift Culture once open.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/New_England_Revolution",
+   "https://www.thestadiumbusiness.com/2026/01/05/new-england-revolution-moves-forward-with-stadium-plans/",
+   "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season"
+  ]
+ },
+ {
+  "name": "New York City Football Club",
+  "C": {
+   "score": 5,
+   "evidence": "The Third Rail (2013); plays in a baseball stadium (Yankee Stadium) and sometimes Citi Field; described as the 15th best-attended club. Etihad Park (Queens) opens 2027."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Shirt sponsor Etihad Airways, the Abu Dhabi state airline (since 2015). Otherwise ordinary."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Began play 2015. 2021 MLS Cup (first for a New York team), 2022 Campeones Cup."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "City Football Group holds 80%; CFG is controlled by Abu Dhabi United Group (Sheikh Mansour, UAE Vice-President). Yankees and Marcelo Claure 10% each."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Pascal Jansen since late 2024; CFG positional-possession model. Moderate intensity."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -8,
+    "evidence": "Part of the City Football Group network with Manchester City at its head."
+   },
+   {
+    "type": "state",
+    "points": -12,
+    "evidence": "Majority owner City Football Group is controlled by Abu Dhabi United Group of Sheikh Mansour, a member of the UAE ruling family and state leadership. [Review: satellite of state-controlled City Football Group.]"
+   }
+  ],
+  "flags": [
+   "NEW: state -25 applied (old score had only multiclub -8). Kevin to confirm it matches how Man City is treated.",
+   "Silver Lake's minority stake in CFG not separately counted."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/New_York_City_FC",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/",
+   "https://en.wikipedia.org/wiki/City_Football_Group"
+  ],
+  "review": [
+   "state: -12 (satellite of state-controlled City Football Group)"
+  ]
+ },
+ {
+  "name": "Orlando City",
+  "C": {
+   "score": 7,
+   "evidence": "The Wall (The Ruckus and Iron Lion Firm) in safe standing at Inter&Co Stadium (25.5k, 2017). Group bans in 2014 (reinstated) and 2018 debris-throwing ban exchange with Atlanta."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Orlando Health, no betting or state sponsor. Same owners run the NWSL's Orlando Pride; YMCA youth partnership. Nothing strongly either way."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2010 by Phil Rawlins; USL Pro champions 2011 and 2013; MLS from 2015; 2022 U.S. Open Cup."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Wilf family (since 2021, ~$400-450m), also owners of Orlando Pride and the NFL Vikings. Stable, invested."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Oscar Pareja since 2020; 2024 conference final. Average intensity."
+  },
+  "adjustments": [],
+  "flags": [
+   "2018 Orlando/Atlanta debris incident: minor, not counted as violence.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Orlando_City_SC",
+   "https://www.espn.com/soccer/major-league-soccer/story/3187882/orlando-city-supporters-groups-banned-from-attending-next-four-matches-at-atlanta-united",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "Philadelphia Union",
+  "C": {
+   "score": 8,
+   "evidence": "Sons of Ben (2007) campaigned for the club before it existed; 4,000+ members, 'loud, proud' with a stated anti-violence and anti-discrimination code. Subaru Park (18,500) on the Chester riverfront."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Strong homegrown pathway: Union Academy, Union II and the YSC Academy school (Aaronson, McKenzie). Kit: Bimbo / Thomas' / Independence Blue Cross, no betting sponsor."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Began play 2010. Supporters' Shields 2020 and 2025, 2022 MLS Cup final (lost on penalties), three Open Cup finals."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Jay Sugarman (Keystone Sports & Entertainment), Kevin Durant minority. Moneyball-style, academy-led, stable."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Long-running high-press identity under Curtin, Carnell won the 2025 Shield; Carnell fired May 2026 after a 1-10-4 start."
+  },
+  "adjustments": [],
+  "flags": [
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Philadelphia_Union",
+   "https://en.wikipedia.org/wiki/2025_Major_League_Soccer_season",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "Portland Timbers",
+  "C": {
+   "score": 10,
+   "evidence": "Timbers Army (from 2001, 5,000+ members) known for loud, raucous support and famous tifo at historic downtown Providence Park. Anchor club for Culture 10. Attendance dipped in 2022 (only five sellouts) during the abuse-scandal protests."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Supporters' 107 Independent Supporters Trust runs charity work; Timbers Army forced MLS to reverse its Iron Front (anti-fascist) ban in 2019. Offset: owner's handling of the 2021-22 Thorns abuse scandal (executives fired Oct 2022 after supporter demands). Kit: Bank of America / Tillamook, no betting sponsor."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Traces to the 1975 NASL Timbers ('Soccer City USA'); MLS since 2011, 2015 MLS Cup, finals 2018 and 2021, 2020 MLS is Back."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Merritt Paulson (Peregrine Sports) still owns the Timbers as of Aug 2026 after selling the Thorns in 2024. Kept at the agreed 5."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Phil Neville left May 2026 after 14 games; Marti Cifuentes hired July 2026. No settled identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Values set 8 (was 9): supporter values are elite but the owner's scandal record weighs; Kevin to decide.",
+   "History set 7 (was 8).",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Portland_Timbers",
+   "https://en.wikipedia.org/wiki/Timbers_Army",
+   "https://justwomenssports.com/reads/nwsl-portland-thorns-merritt-paulson-mls-timbers-sale-ownership/",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "Real Salt Lake",
+  "C": {
+   "score": 6,
+   "evidence": "Seven groups under 'The Riot' (La Barra Real, Rogue Cavaliers...), anthem 'Believe'. America First Field (20,213) in suburban Sandy since 2008."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Intermountain Health / Select Health, no betting sponsor. Shares a sister club with Utah Royals; academy emphasis. Racist-language scandal of ex-owner Dell Loy Hansen (2020) is resolved by his sale."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Began play 2005; 2009 MLS Cup, 2011 CONCACAF CL final (first U.S. club in a final of the group-stage format)."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Miller Sports + Entertainment (Gail Miller, local; ex-Utah Jazz owners) took control April 2025 for $600m. David Blitzer remains a minority investor."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Pablo Mastroeni coach. Average."
+  },
+  "adjustments": [],
+  "flags": [
+   "David Blitzer (minority) has stakes in several clubs (multi-club investor); not counted since he no longer controls RSL.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/",
+   "https://en.wikipedia.org/wiki/2025_Major_League_Soccer_season"
+  ]
+ },
+ {
+  "name": "Red Bull New York",
+  "C": {
+   "score": 5,
+   "evidence": "Empire Supporters Club (1995), Viking Army, Torcida 96 in the South Ward at Sports Illustrated Stadium, Harrison (2010). Garden State Ultras banned 2021; 2023 supporter walkout in protest at management."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "The club is a marketing vehicle named after its owner's product; Red Bull on the shirt, OANDA (forex broker) on the sleeve. New academy centre opened April 2026."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "MLS founding member as the MetroStars (1996); Shields 2013, 2015, 2018; MLS Cup finals 2008 and 2024."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Red Bull GmbH since 2006. Corporate owner of a global club network."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Lasting Red Bull high-press identity; Sandro Schwarz to 2025, Michael Bradley since Dec 2025."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -8,
+    "evidence": "Part of the Red Bull network (RB Leipzig, Salzburg...); players routinely move up the chain."
+   }
+  ],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "San Diego FC",
+  "C": {
+   "score": 6,
+   "evidence": "Seven groups under Frontera SD with 3,000 safe-standing seats; 28.1k avg in 2025 at Snapdragon Stadium (35k, shared with SDSU college football). Record 34,506 opener was marred by homophobic chanting."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Club and supporters launched the 'Aqui No' campaign against the chant. Right to Dream academy on the Sycuan reservation. Tribal (Sycuan) casino money behind a co-owner is fine per the casino rule. Kit: DirecTV / Adriana's Insurance."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Expansion club, first season 2025 (1st in the West, 63 pts, conference final)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Mohamed Mansour (Mansour Group) with the Sycuan Band of the Kumeyaay Nation; minority Machado, Mata. Ordinary so far."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Attacking side under Mikey Varas; record expansion points in 2025."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Mansour Group's Right to Dream network also owns FC Nordsjaelland (Denmark) and FC Masar (Egypt); integrated academy pathway."
+   }
+  ],
+  "flags": [
+   "Multiclub -6 is new (old score 0).",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/San_Diego_FC",
+   "https://en.wikipedia.org/wiki/Right_to_Dream_Academy",
+   "https://en.wikipedia.org/wiki/Sycuan_Band_of_the_Kumeyaay_Nation",
+   "https://en.wikipedia.org/wiki/Major_League_Soccer_attendance"
+  ]
+ },
+ {
+  "name": "San Jose Earthquakes",
+  "C": {
+   "score": 5,
+   "evidence": "1906 Ultras and San Jose Ultras at PayPal Park (18,000, 2015); 'Goonies never say die' era 2012-14. Recent crowds and atmosphere not verified."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: El Camino Health, no betting or state sponsor. Nothing notable either way."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Name and branding trace to the 1974 NASL Earthquakes; MLS Cups 2001 and 2003, Shields 2005 and 2012; team was moved to Houston in 2006 and revived in 2008."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "John Fisher (Athletics owner, moving that team from Oakland to Las Vegas) put the club up for sale in June 2025; no buyer confirmed. Long record of low investment."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Bruce Arena coach and sporting director since Nov 2024; signed Timo Werner for 2026."
+  },
+  "adjustments": [],
+  "flags": [
+   "Check for a completed sale of the club (not found).",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+   "https://www.espn.com/soccer/story/_/id/45538304/san-jose-earthquakes-owner-john-fisher-sell-team",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "Seattle Sounders FC",
+  "C": {
+   "score": 9,
+   "evidence": "Emerald City Supporters (2,700+ paid members by 2012) with large tifo and March to the Match; 31.0k avg in 2025 (2nd in MLS). Plays in the NFL Seahawks' Lumen Field: kept at the agreed 9."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Members' Alliance Council gives season-ticket holders a formal voice (it criticised the Providence sponsorship); owns the NWSL's Seattle Reign since 2024; Tacoma Defiance academy pathway. Sleeve: Puyallup Tribe's Emerald Queen Casino (tribal casino, fine per rule)."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Traces to the 1974 NASL Sounders; MLS Cups 2016 and 2019, 2022 CONCACAF CL (first U.S. club), 2025 Leagues Cup, four Open Cups."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Adrian Hanauer majority with Jody Allen and 14 local families; members' Alliance Council."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Brian Schmetzer since 2016; flexible, youth-led. Moderate intensity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Alliance Council's GM-retention vote not verified this session.",
+   "Emerald Queen Casino may also run a sportsbook; Kevin to decide if the sleeve counts as betting."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+   "https://en.wikipedia.org/wiki/Emerald_City_Supporters",
+   "https://en.wikipedia.org/wiki/Major_League_Soccer_attendance",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "Sporting Kansas City",
+  "C": {
+   "score": 7,
+   "evidence": "The Cauldron in the north stand; 14,000+ season tickets and 100+ straight sellouts (to 2017) at Children's Mercy Park (18,491, 2011). Recent crowds not verified."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: Compass Minerals / Saint Luke's, no betting sponsor on the kit. Nothing notable either way."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "MLS founding member as Kansas City Wiz (1996, Lamar Hunt); MLS Cups 2000 and 2013, four U.S. Open Cups."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Peter Mallouk (local investor) took 80% in Jan 2026 at a $700m valuation; record transfer for Andre Luiz."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Vermes' pressing era ended March 2025; Raphael Wicky from Jan 2026."
+  },
+  "adjustments": [],
+  "flags": [
+   "Missouri launched sports betting with team market-access deals; SKC's partner not verified.",
+   "Culture 7 kept; recent sellout data not checked."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "St. Louis CITY SC",
+  "C": {
+   "score": 8,
+   "evidence": "Energizer Park (22,423) with a 3,000+ standing section and built-in tifo rigging; St. Louligans (2010), City Punks, No Nap City Ultras, Fleur de Noise drum corps. Crowds not re-verified after results fell in 2024-25."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Club restricted BLM and trans-rights banners in the supporters' end from Feb 2026, drawing supporter-group protests. FanDuel market-access (sportsbook) partner for Missouri. Offsets: first female-majority owned MLS club. Kit: Purina / BJC."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Began play 2023 (1st in the West). Credit for the city's century-long soccer heritage."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Local Taylor family (Enterprise) and Carolyn Kindle; privately built downtown stadium. Flag decision was club-imposed."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Carnell's high press in 2023; since then decline, Yoann Damet coach."
+  },
+  "adjustments": [],
+  "flags": [
+   "Values down to 5 (was 7): flag restrictions and FanDuel deal; Kevin to confirm.",
+   "Culture 8 (was 9)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/St._Louis_City_SC",
+   "https://www.stlpr.org/sports/2026-02-16/st-louis-city-sc-black-lives-matter-trans-pride-flag-restrictions",
+   "https://www.prnewswire.com/news-releases/fanduel-announces-market-access-agreement-with-st-louis-city-sc-ahead-of-upcoming-missouri-launch-302531368.html",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "Toronto FC",
+  "C": {
+   "score": 6,
+   "evidence": "Red Patch Boys, U-Sector, Kings in the North and others at BMO Field (lakefront, 28k); historically large away travel. Inebriati stripped of status after a 2018 arson incident. Four straight seasons without playoffs (to 2025)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Kit: BMO / LG, no betting or state sponsor. Academy. Nothing notable either way."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Began play 2007; 2017 domestic treble (first in MLS), 2018 CONCACAF CL final, multiple Canadian Championships."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "MLSE, becoming 100% owned by Rogers Communications (bought BCE's 37.5% in 2025 and Tanenbaum's 25% in 2026). Corporate owner; long results slump."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Robin Fraser since Jan 2025. Average."
+  },
+  "adjustments": [],
+  "flags": [
+   "Ontario sportsbook partners of TFC/MLSE not checked.",
+   "Ownership down to 4 (was 5): corporate telecom owner."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Toronto_FC",
+   "https://www.cbc.ca/news/business/rogers-buying-mlse-9.7259583",
+   "https://analyticsblog.blinkfire.com/blog/2026/04/02/2026-mls-jersey-sponsors-brands-fueling-north-american-soccer/"
+  ]
+ },
+ {
+  "name": "Vancouver Whitecaps FC",
+  "C": {
+   "score": 6,
+   "evidence": "Southsiders (1999), Curva Collective, Rain City Brigade and others; Village Stand GA end. Plays in BC Place, shared with the CFL Lions (-1 applied)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Academy pathway (Alphonso Davies). Offset: misconduct allegations against women's-team coaches Birarda (2008, later convicted) and Busby (2011); supporters walked out in 2019 over the club's response; MLS review called it appropriate but the initial investigations 'superficial'. Kit: Telus / BLG, no betting sponsor."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Traces to the 1974 NASL Whitecaps, Soccer Bowl '79 champions; five Canadian Championships (four straight 2022-24); 2025 West champions and MLS Cup finalist."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Owners (Kerfoot, Luczo, Mallett, Nash) put the club up for sale in Dec 2024; an April 2026 bid proposed moving it to Las Vegas. CEO says the future remains uncertain."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Jesper Sorensen: record 63 points in 2025, top of the West in Sept 2026; energetic, direct."
+  },
+  "adjustments": [],
+  "flags": [
+   "Relocation risk (Las Vegas bid): if the club moves, a franchise adjustment would apply.",
+   "Values set 6 (was 7) because of the abuse-scandal history; Kevin to decide.",
+   "Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC",
+   "https://www.tsn.ca/soccer/article/investment-group-comes-forward-to-buy-whitecaps-and-move-team-to-las-vegas/",
+   "https://www.cbc.ca/news/canada/british-columbia/vancouver-whitecaps-review-1.6549006",
+   "https://globalnews.ca/news/5212734/whitecaps-abuse-allegations-second-walkout/",
+   "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season"
+  ]
+ }
+]

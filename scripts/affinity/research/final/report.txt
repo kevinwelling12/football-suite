@@ -1,0 +1,444 @@
+Weights old {'C': 28, 'V': 22, 'H': 18, 'O': 14, 'S': 8}  new {'C': 26, 'V': 28, 'H': 16, 'O': 12, 'S': 8}
+
+Validation: 308 entries, 0 problem(s)
+
+Mean factor score by batch (new / old on the same clubs)
+batch                                   C          V          H          O          S   adj
+b01-premier-league               7.2/ 7.4   5.7/ 6.1   7.2/ 7.0   4.6/ 4.3   6.5/ 6.2  -5.9
+b02-championship                 6.8/ 6.9   5.6/ 6.0   6.3/ 6.5   4.9/ 5.1   5.4/ 5.2  -2.2
+b03-cup-lower-a                  5.9/ 6.7   6.5/ 6.7   5.7/ 5.8   5.7/ 6.2   5.1/ 5.2  -0.2
+b04-cup-lower-b                  5.7/ 6.6   6.0/ 6.5   5.2/ 5.9   6.0/ 5.9   5.1/ 5.1  -1.4
+b05-germany-france               6.7/ 6.8   6.1/ 6.6   5.7/ 5.6   5.6/ 6.2   5.9/ 5.9  -3.7
+b06-spain-italy                  6.9/ 7.0   6.1/ 6.4   6.6/ 6.6   5.3/ 5.7   5.6/ 5.6  -2.6
+b07-champions-league-others      7.5/ 7.6   5.7/ 6.0   7.3/ 7.5   5.5/ 6.0   7.0/ 6.6  -5.3
+b08-mls                          6.4/ 6.6   6.0/ 6.1   4.8/ 4.9   5.1/ 5.4   5.4/ 5.5  -1.5
+b09-nwsl-usl                     5.5/ 6.3   6.3/ 6.6   4.0/ 4.2   5.4/ 5.6   5.2/ 5.6  -0.6
+b10-nations-a                    5.9/ 6.8   5.2/ 5.9   4.9/ 5.1   4.3/ 5.3   4.8/ 5.0  -7.3
+b11-nations-b                    6.6/ 7.0   5.8/ 6.5   5.3/ 5.1   5.4/ 5.8   4.8/ 5.1  -3.9
+
+Anchors
+  ok  Borussia Dortmund C = 10 (want 10)
+  ok  Union Berlin C = 10 (want 10)
+  ok  Portland Timbers C = 10 (want 10)
+  ok  Union Berlin O = 10 (want 10)
+  ok  Athletic Club O = 10 (want 10)
+  ok  Liverpool H = 10 (want 10)
+  ok  Real Madrid H = 10 (want 10)
+  ok  Athletic Club H = 10 (want 10)
+  ok  Seattle Sounders FC C = 9 (want 9)
+  ok  Portland Timbers O = 5 (want 5)
+  ok  Sacramento Republic FC O = 8 (want 8)
+  ok  Lazio adjustments [('racism', -30)] (want ('racism', -30))
+  ok  Milton Keynes Dons adjustments [('franchise', -15), ('overspend', -3)] (want ('franchise', -15))
+
+Biggest drops (displayed Affinity, old -> new)
+  Israel                        51.1 ->  19.6 (-31.5)    4  4  3  5  4 adj -20
+  Albania                       59.8 ->  30.7 (-29.1)    8  4  3  4  5 adj -20
+  Turkey                        65.3 ->  36.2 (-29.1)    9  3  6  3  7 adj -20
+  Serbia                        47.3 ->  20.3 (-27.0)    7  2  7  3  5 adj -27
+  Kazakhstan                    39.1 ->  15.1 (-24.0)    4  4  2  3  4 adj -20
+  Slovan Bratislava             60.2 ->  36.6 (-23.6)    6  4  6  5  5 adj -15
+  Troyes                        36.9 ->  13.8 (-23.1)    4  3  4  1  5 adj -20
+  Georgia                       65.3 ->  43.0 (-22.3)    9  5  4  3  6 adj -15
+  Montenegro                    44.2 ->  22.0 (-22.2)    6  3  2  4  5 adj -18
+  North Carolina Courage        64.4 ->  42.7 (-21.7)    5  5  6  5  6 adj -10
+  Racing Louisville             60.3 ->  39.6 (-20.7)    4  5  2  4  4 adj 0
+  Atlético Madrid               58.1 ->  38.0 (-20.1)    8  3  9  4  7 adj -22
+  New York City Football Club   39.0 ->  18.9 (-20.1)    5  4  3  1  6 adj -20
+  Nice                          44.4 ->  25.0 (-19.4)    6  3  5  3  5 adj -19
+  Chicago Stars                 60.5 ->  41.1 (-19.4)    3  4  6  5  3 adj 0
+  Inter Milan                   73.1 ->  53.8 (-19.3)    9  4 10  4  7 adj -14
+  Hungary                       47.0 ->  27.9 (-19.1)    8  2  8  3  6 adj -25
+  Romania                       60.2 ->  41.8 (-18.4)    7  3  7  4  5 adj -10
+  Azerbaijan                    18.0 ->   0.0 (-18.0)    3  3  1  1  3 adj -25
+  West Ham United               60.7 ->  42.9 (-17.8)    5  4  7  3  4 adj -4
+  Galatasaray                   76.0 ->  59.3 (-16.7)   10  4  9  5  6 adj -10
+  Fenerbahçe                    76.0 ->  59.7 (-16.3)   10  5  8  5  6 adj -11
+  Stoke City                    67.2 ->  51.8 (-15.4)    7  3  6  6  4 adj 0
+  Southampton                   67.2 ->  51.9 (-15.3)    7  5  7  4  6 adj -7
+  Belarus                       15.3 ->   0.0 (-15.3)    2  3  2  1  3 adj -25
+
+Biggest rises
+  Bolton Wanderers              57.2 ->  63.3 (+6.1)    7  6  7  5  6 adj 0
+  Real Salt Lake                53.1 ->  58.7 (+5.6)    6  6  5  7  5 adj 0
+  Viking                        64.0 ->  69.6 (+5.6)    7  7  6  8  7 adj 0
+  Lorient                       47.1 ->  52.2 (+5.1)    6  7  4  5  6 adj -6
+  Bodø/Glimt                    68.9 ->  74.0 (+5.1)    7  8  5  9  9 adj 0
+  Derby County                  64.3 ->  69.3 (+5.0)    8  6  7  8  5 adj 0
+  Washington Spirit             59.6 ->  64.0 (+4.4)    8  5  7  5  7 adj 0
+  Orange County SC              44.2 ->  48.4 (+4.2)    4  6  4  5  5 adj 0
+  VfB Stuttgart                 78.9 ->  82.9 (+4.0)    9  8  8  8  8 adj 0
+  Celta Vigo                    69.2 ->  73.1 (+3.9)    7  8  7  7  7 adj 0
+  Lexington SC                  46.9 ->  50.4 (+3.5)    5  7  1  6  5 adj 0
+  Brighton                      63.4 ->  66.7 (+3.3)    6  8  5  7  7 adj 0
+  Angel City FC                 53.8 ->  56.7 (+2.9)    7  7  2  5  5 adj 0
+  Norway                        68.4 ->  71.3 (+2.9)    7  8  6  7  7 adj 0
+  Fiorentina                    68.7 ->  71.6 (+2.9)    8  7  8  6  5 adj 0
+  Bayer Leverkusen              52.5 ->  55.3 (+2.8)    5  6  6  4  7 adj 0
+  Bradford City                 70.2 ->  72.9 (+2.7)    8  8  7  6  5 adj 0
+  Swindon Town                  59.8 ->  62.2 (+2.4)    6  7  6  6  5 adj 0
+  Hull City                     52.0 ->  54.2 (+2.2)    6  6  4  5  5 adj 0
+  Orlando City                  56.2 ->  58.4 (+2.2)    7  6  4  6  5 adj 0
+  Deportivo La Coruña           69.4 ->  71.6 (+2.2)    8  7  8  6  5 adj 0
+  Kansas City Current           72.8 ->  74.9 (+2.1)    9  8  4  8  7 adj 0
+  Levante                       59.7 ->  61.8 (+2.1)    6  7  5  7  5 adj 0
+  Frosinone                     48.0 ->  50.0 (+2.0)    5  6  2  6  6 adj 0
+  Hartford Athletic             50.4 ->  52.2 (+1.8)    5  6  4  5  6 adj 0
+
+Low confidence: Udinese, LASK, Sabah, Denver Summit, Brooklyn FC, Orange County SC, Cyprus, Kazakhstan, Malta
+
+Flags
+  [b01] Arsenal: Emirates is chest AND stadium sponsor (Dubai state airline): counted once as -1 in V; Kevin may want a bigger hit.
+  [b01] Aston Villa: Visit Rwanda counted as authoritarian-state sponsor (-1 V). Check the adjustments stack (-11 total) feels right versus the old -4.
+  [b01] Bournemouth: Hibernian stake not re-verified this session (reported 25% since 2023). Multiclub set at -6 (hub, large network) vs old -8.
+  [b01] Brentford: Benham sold FC Midtjylland in 2023, so the old multi-club -4 is dropped.
+  [b01] Brentford: Possible sale of a larger stake (Rothschild, 2026): re-check O next season.
+  [b01] Brighton: Bloom's wealth comes from betting syndicate Starlizard: treated like casino money behind an owner (no effect).
+  [b01] Chelsea: Discriminatory chanting (FA charge Sept 2026, earlier fines): counted in V only; Kevin may want a racism adjustment (-3 to -5).
+  [b01] Chelsea: Clearlake financing of the buyout not verified: check for acquisition debt on the club (possible lbo).
+  [b01] Crystal Palace: Blitzer's other clubs not re-verified this session; -4 kept from earlier multi-club policy.
+  [b01] Crystal Palace: Possible ownership change (US owners exploring sale, 2026).
+  [b01] Everton: Overspend penalty relates to the previous owner (Moshiri); Kevin may prefer to drop it.
+  [b01] Hull City: Check whether Ilıcalı holds roles at other clubs (not verified this session; if yes, add multiclub).
+  [b01] Hull City: Heavy owner spending in the Championship (~£100m): consider overspend -2 if PSR issues surface.
+  [b01] Ipswich Town: Sleeve sponsor 'Play': check whether it is a gambling brand (would be -1 V).
+  [b01] Ipswich Town: Owner-funded spending (~£100m+ in 2024-25) could merit overspend -2.
+  [b01] Leeds United: Two adjustments (pe + multiclub, -8 total) vs old 0: check.
+  [b01] Liverpool: Turkish Airlines shirt deal from 2027-28: authoritarian-state-linked sponsor, V drops a point when it starts (currently 8, was 9).
+  [b01] Liverpool: pe -4 is new for FSG: Kevin to confirm it fits the pe rule.
+  [b01] Manchester City: Adjustments total -39: Kevin may want to cap the stack.
+  [b01] Manchester City: 115-charges sanction not yet published; revisit after the appeal.
+  [b01] Manchester United: LBO is the new big penalty (-20, total -26 vs old -6). Kevin to confirm -20 vs -15.
+  [b01] Newcastle United: PIF also owns four Saudi Pro League clubs (incl. Al-Ahli): consider multiclub -4 on top of state.
+  [b01] Nottingham Forest: Marinakis' legal history in Greece (match-fixing and other cases; not convicted) not scored: Kevin may weigh it in O.
+  [b01] Nottingham Forest: FA fines for referee posts are from memory (2024), not re-fetched this session.
+  [b01] Sunderland: Chest sponsor for 2026-27 TBC (rumoured Visit Ghana); if a state tourism board of an authoritarian state, lower V by 1 (Ghana is rated Free by Freedom House, so likely no effect).
+  [b01] Tottenham Hotspur: ~£400m summer 2026 spend funded by owners: consider overspend -2.
+  [b02] Birmingham City: Heavy owner-funded spending in League One and the Championship; consider an overspend adjustment (-2 to -3) if PSR losses are confirmed.
+  [b02] Birmingham City: Women's team 97% sold to an external consortium (Carney/Clijsters) in 2026: decide whether this counts as disinvestment.
+  [b02] Blackburn Rovers: Wikipedia lists Tony Mowbray as manager for 2026-27; not independently verified.
+  [b02] Blackburn Rovers: Attendance figures not fetched this session; Culture based on general reporting.
+  [b02] Bolton Wanderers: Newly promoted to the Championship for 2026-27.
+  [b02] Bristol City: Pending investment from a betting-firm owner (Aug 2026 reports): re-check Ownership and Values if it completes.
+  [b02] Bristol City: Women's team sold to Mercury/13 (multi-club women's group): decide whether that affects Values.
+  [b02] Burnley: Manager for 2026-27 not verified (Wikipedia summary named Nicky Hayen); check.
+  [b02] Burnley: Lbo set at -15 (low end); debt level may justify more.
+  [b02] Cardiff City: Visit Malaysia sponsor: Malaysia is 'Partly Free' (Freedom House), so I applied only a small Values deduction; decide whether it counts as an authoritarian-state sponsor.
+  [b02] Cardiff City: Current manager not verified this session.
+  [b02] Charlton Athletic: Club up for sale (Aug 2026): re-check Ownership after any takeover.
+  [b02] Charlton Athletic: pe -4 is a judgement: GFP is an investor group rather than a formal PE fund.
+  [b02] Derby County: Near-miss Saudi-linked takeover (Turki Alalshikh, head of Saudi General Entertainment Authority) in summer 2026; if revived, a state adjustment would apply.
+  [b02] Derby County: Shirt sponsor 'Loaded' not identified; check it is not a gambling brand.
+  [b02] Lincoln City: New majority owner Ron Fowler from January 2026: conduct record at Lincoln is short.
+  [b02] Lincoln City: Manager and style for 2026-27 not independently verified.
+  [b02] Millwall: Existing rule gave -5 for racism; I propose -8 given three FA discrimination breaches in three years. Decide.
+  [b02] Millwall: Hooliganism reputation is mostly historical; no separate violence adjustment applied (no recent repeated disorder found in this session).
+  [b02] Norwich City: Head coach for 2026-27 not verified this session.
+  [b02] Norwich City: Previous V 8 reflected Delia-era near-community ownership; lowered to 7 after the Attanasio takeover.
+  [b02] Portsmouth: Check whether the Pompey Supporters' Trust still holds any stake or special rights after the 2017 sale.
+  [b02] Preston North End: Head coach for 2026-27 not verified (Wikipedia lists a caretaker).
+  [b02] Queens Park Rangers: MrQ is mainly casino/bingo rather than sports betting; decide whether it counts as a betting sponsor (I applied a partial deduction).
+  [b02] Queens Park Rangers: Stadium naming sponsor for 2026-27 not verified (MATRADE was a Malaysian government agency).
+  [b02] Sheffield United: Ownership in flux after COH Sports' liquidation (Aug 2026): re-check before finalising. The 'other' -5 is my proposal; the case may also fit 'lbo' if the purchase proves to be debt-funded against the club.
+  [b02] Sheffield United: Head coach for 2026-27 not verified.
+  [b02] Southampton: Spygate: decide whether cheating by club staff belongs in Values or as an 'other' adjustment (I used both lightly: V 5 and -3).
+  [b02] Southampton: pe and multiclub both applied for Sport Republic; drop one if that double-counts.
+  [b02] Stoke City: Existing rule: casino money behind an owner does not count, but here bet365 (sports betting) is also shirt and stadium sponsor, so Values is lowered. Confirm.
+  [b02] Swansea City: Trust stake is ~7% (Wikipedia); verify if diluted further by new investment.
+  [b02] Watford: Reported sale of Udinese (~€150m) not confirmed; if completed, remove the multiclub adjustment.
+  [b02] Watford: Head coach for 2026-27 not verified.
+  [b02] West Bromwich Albion: Lai-era MSD loans (~£25m) due December 2026: check refinancing.
+  [b02] West Bromwich Albion: Head coach for 2026-27 not verified.
+  [b02] West Ham United: Relegated to the Championship in 2026; Culture could drop further if crowds fall at the London Stadium.
+  [b02] West Ham United: Křetínský stake size and Sparta link from background knowledge, not re-verified this session.
+  [b02] Wolverhampton Wanderers: Fosun's long-standing agent link (Jorge Mendes) not scored; consider an 'other' adjustment if Kevin sees it as a conflict of interest.
+  [b02] Wolverhampton Wanderers: Fosun is a private conglomerate, not state-backed; no state adjustment applied.
+  [b02] Wrexham: Big wage spending relative to a small-ground income; consider a small overspend adjustment if accounts show large losses.
+  [b02] Wrexham: Check whether the Wrexham Supporters Trust kept any rights (e.g. over the Racecourse) after the 2021 sale.
+  [b03] AFC Wimbledon: Dons Trust minimum stake cut to 50.01% (Apr 2026); club in talks with minority investors incl. a Robbie Earle-led UK/Italy/US group. Watch whether O should drop if a large outside stake completes.
+  [b03] AFC Wimbledon: Fan-investment round via Republic platform at £26.8m valuation (2026).
+  [b03] Accrington Stanley: Holt's 2023 public 'up for sale' outburst; no completed sale found as of 2026.
+  [b03] Barnet: 2013 move from Underhill (Barnet) to The Hive (Harrow) for the owner's development: consider a -1 Culture stadium penalty or small franchise-type note; 'Back to Barnet' plan pending.
+  [b03] Barnet: Attendance not verified (no 2025-26 figure found).
+  [b03] Barnsley: Wikipedia infobox lists Daniel Stendel as head coach again for 2026-27; not verified. If Stendel is back, S could be 6.
+  [b03] Barnsley: Financial shortfall warnings from Parekh; check for instability.
+  [b03] Blackpool: Owner Sadler: Hong Kong insider-dealing case and intended sale; outcome and any new owner not verified for 2026.
+  [b03] Bristol Rovers: Possible stadium move away from the Memorial Stadium; check fan reaction.
+  [b03] Bromley: Shirt sponsor not verified.
+  [b03] Burton Albion: Nordic Football Group is an investor consortium, not a PE fund: no pe adjustment applied. Outcome of FA investigation not verified.
+  [b03] Cheltenham Town: New owner Mike Garlick was part of the Burnley board that sold to ALK Capital in a 2020 leveraged buyout; no LBO at Cheltenham found. Decide whether that history affects O.
+  [b03] Colchester United: Ownership in flux: Cowling seeking a buyer in 2026; check for a completed sale.
+  [b03] Crawley Town: New ownership (KB Sports and Leisure) only a year old; limited track record.
+  [b03] Crewe Alexandra: Values: how much weight to give the historic Bennell safeguarding failure versus today's club.
+  [b03] Fleetwood Town: Rapid owner-funded rise under Andrew Pilley; consider overspend if Kevin wants it reflected. 2025-26 attendance not verified.
+  [b03] Grimsby Town: The 5,597 average (footballgroundguide) looks low against Grimsby's usual 7,000+; attendance not cross-checked.
+  [b03] Grimsby Town: Back-of-shirt sponsor is a prize-competition firm; not sports betting as defined, but Kevin may want to judge.
+  [b03] Huddersfield Town: Multiclub -4 applies because Nagle also owns Sacramento Republic (Kevin's hometown club). Decide whether to keep it and whether it should be mirrored on Republic.
+  [b03] Leicester City: BC.Game is a crypto-casino brand with sportsbook: treated as betting sponsor (V lowered).
+  [b03] Leyton Orient: O lowered from the Nigel Travis era (7) to 5 on the ownership change; revisit after a season or two.
+  [b03] Luton Town: History of 1980s hooligan incidents (1985 Millwall riot) is old; no recent sanctions found, so no violence adjustment.
+  [b04] Milton Keynes Dons: Visit Kuwait is a state tourism brand: counts as authoritarian-state sponsor (V lowered by 2). Kevin to confirm Kuwait counts as authoritarian.
+  [b04] Milton Keynes Dons: Owner's family owns Kuwait SC: not scored as multiclub (no network/feeder evidence); Kevin may decide -4.
+  [b04] Newport County: Reports in June 2026 of possible further ownership changes: check before finalising O.
+  [b04] Newport County: Previously trust-owned (O 8): now majority private owner with trust stake, O lowered to 7.
+  [b04] Northampton Town: Sixfields council-loan affair (2014-15) predates current regime; not scored.
+  [b04] Oxford United: Erick Thohir holds Indonesian government posts (ex-state-enterprises minister; reportedly sports minister and PSSI president): not treated as state backing. Kevin to decide.
+  [b04] Oxford United: Thohir has held stakes in other clubs (Inter, DC United, Indonesian clubs): no current multi-club network verified.
+  [b04] Oxford United: New stadium move (planned, same area): apply -1 C once it opens.
+  [b04] Plymouth Argyle: Shirt sponsor sources differ (Beacon Electrical per club article, Classic Builders per 2026-27 table); neither is betting.
+  [b04] Plymouth Argyle: Argyle Trust shareholding/board seat not verified: could raise V/O.
+  [b04] Reading: Mr Vegas is primarily a casino brand: treated as gambling sponsor (V -2). Kevin to decide if casino = sports betting under his rule.
+  [b04] Reading: Couhig previously owned Wycombe; confirm no current stake (no multi-club found).
+  [b04] Rochdale: Pre-2024 fan/community ownership model: check whether the supporters' trust still holds shares (could raise O).
+  [b04] Salford City: Peter Lim (Valencia) no longer a shareholder: old multiclub -4 removed.
+  [b04] Salford City: Consello-led investor consortium: Kevin may treat as pe (-4).
+  [b04] Salford City: Dream11 shareholder is gambling-adjacent (fantasy/real-money gaming): not scored.
+  [b04] Sheffield Wednesday: Search summary claims the Storch group holds stakes in Leganes, Le Havre and Cancun FC; not confirmed by fetched articles. If true add multiclub -6.
+  [b04] Sheffield Wednesday: Wolf Competitions sleeve: prize competitions, not sports betting; not scored as gambling. Kevin to decide.
+  [b04] Sheffield Wednesday: Chansiri negatives no longer apply to O; O judged on new, untested owners.
+  [b04] Shrewsbury Town: Pending takeover by US consortium (linked to Edinburgh club Spartans): re-check O and multiclub once completed.
+  [b04] Stockport County: Scale of owner funding vs income not verified: possible overspend adjustment.
+  [b04] Tranmere Rovers: Takeover pending (Ascent Capital Partners reported; a Tacopina / A$AP Rocky bid also reported): re-check O and possible pe/multiclub when completed.
+  [b04] Walsall: Reported 2025 UEFA ruling on Drogheda/Silkeborg common ownership not verified here.
+  [b04] Walsall: pe and multiclub both applied for one owner: Kevin may prefer a single combined -8.
+  [b04] Wycombe Wanderers: Owner's wealth comes from Kazakh fintech Kaspi.kz: no state backing found; Kevin may want to double-check.
+  [b04] York City: Identity of FB Sports (24% partner) not verified.
+  [b05] 1. FC Köln: DFB named Köln the top-fined club for fan misconduct (mostly pyrotechnics). Decide if pyro-heavy fines should count as 'violence'; I did not apply an adjustment.
+  [b05] Bayer Leverkusen: Company-club exemption from 50+1 is structural; no adjustment applied (not state, PE or multi-club). Decide if a structural penalty is wanted.
+  [b05] Eintracht Frankfurt: Violence -5 is my call from repeated UEFA sanctions; Kevin to confirm the scale.
+  [b05] FC Augsburg: Existing score had no multi-club adjustment; I added -4 for Blitzer's stake.
+  [b05] SC Paderborn: Ownership detail (e.V. vs spun-off company, main backers) not fully verified.
+  [b05] SV Elversberg: Patron-funded rise (Ursapharm): decide if an overspend adjustment fits; I did not apply one.
+  [b05] TSG Hoffenheim: Hopp-funded rise is historical: decide if an overspend adjustment (-2) should apply.
+  [b05] Angers: Ownership remains in the family of an owner convicted of sexual assault on club staff; confirm Values/Ownership treatment.
+  [b05] Brest: The new-stadium move (Guipavas) is still pending; apply the -1 new-stadium rule when it opens.
+  [b05] Le Havre: Wikipedia's 2026-27 table still lists Volpe as chairman; verify the BCSG sale has completed (reported as agreed June 2025).
+  [b05] Lyon: Old -8 (Eagle multi-club) replaced by Kang ownership; check the multi-club and overspend calls.
+  [b05] Lyon: Emirates sponsorship: state airline, counted in Values.
+  [b05] Marseille: Violence -4 is my call; confirm scale.
+  [b05] Marseille: Côte d'Ivoire tourism sleeve: Ivory Coast is not clearly authoritarian; counted lightly.
+  [b05] Monaco: The ruling Grimaldi family (head of state) holds 33%: decide whether that counts as state backing.
+  [b05] Nice: Racism -6 and violence -5 are my calls; confirm scale.
+  [b05] Paris FC: Bahrain Victorious main sponsor: authoritarian state brand, counted in Values.
+  [b05] Strasbourg: Added pe -4 on top of the existing multi-club -8; confirm.
+  [b05] Toulouse: Sale status unverified for 2026; re-check if ownership changed.
+  [b05] Troyes: State -25 plus multiclub -8 double-counts CFG; Kevin to decide if only one applies (old score used -8 only).
+  [b06] Alavés: MK-Tiyu-News shirt sponsor treated as a betting surrogate: confirm Kevin counts it as sports betting.
+  [b06] Alavés: Check whether the Baskonia-Alavés group holds stakes in other football clubs (not verified).
+  [b06] Athletic Club: Coach Edin Terzić is new; Style may need a revisit after 2026-27.
+  [b06] Deportivo La Coruña: Bank ownership: O 6 assumes Kevin sees Abanca's rescue as acceptable conduct.
+  [b06] Elche: Agent-owner: consider an extra 'other' adjustment for conflict of interest.
+  [b06] Espanyol: Check whether acquisition debt sits on the club (Burnley's takeover was leveraged); if so an lbo adjustment may apply.
+  [b06] Getafe: Style: Bordalás is high-intensity but anti-possession; Kevin to decide whether intensity or negativity dominates (scored 4).
+  [b06] Levante: Fundación majority holding not re-verified this session: confirm current share structure.
+  [b06] Málaga: Owner is a Qatari royal family member acting privately; not scored as state-backed. Kevin to confirm.
+  [b06] Osasuna: 2013 match-fixing by former directors (club sanctioned; CAS in 2023 allowed Conference League entry). Past, not current.
+  [b06] Rayo Vallecano: Vallecas closure: Rayo played at Butarque until reopening; recheck Culture if the move becomes permanent.
+  [b06] Sevilla: Takeover completion unconfirmed: keep pe adjustment only if CSD approved.
+  [b06] Sevilla: Check Biris Norte recent violence/sanctions (not researched).
+  [b06] Valencia: Lim also held a stake in Salford City (multi-club): check if still held; possible -4.
+  [b06] Valencia: Racism adjustment size (-5) for Kevin to confirm.
+  [b06] AC Milan: Elliott vendor loan sits at RedBird's holding level, not on the club: no lbo applied; Kevin to confirm.
+  [b06] AC Milan: Doppia Curva convictions: no violence adjustment applied because the club was an injured party and cut ties; Kevin to confirm.
+  [b06] Atalanta: Snai Fun sleeve/secondary sponsor treated as betting: confirm.
+  [b06] Atalanta: Style may drift from the Gasperini identity; recheck after 2026-27.
+  [b06] Cagliari: US investors (hedge-fund manager) may take majority with the stadium project: check for pe adjustment later.
+  [b06] Genoa: 2024 derby violence not re-verified; consider a violence adjustment.
+  [b06] Juventus: Consider racism adjustment for documented racist abuse at Juventus home games (not re-verified).
+  [b06] Lazio: Culture is hard to judge during the boycott (fans loyal but absent).
+  [b06] Parma: 2026-27 coach listed as TBC on Wikipedia; recheck Style.
+  [b06] Sassuolo: Existing rule gives -1 Culture for the 2013 move; already reflected in C 3.
+  [b06] Udinese: Confirm whether the Guggenheim Partners takeover completed; if so switch multiclub to pe.
+  [b06] Venezia: Future stadium move (Bosco dello Sport) will need a Culture review.
+  [b07] AEK Athens: Greek football violence context: AEK fans involved in the 2013 pitch invasion (points deduction). The 2023 killing of an AEK fan was by Dinamo Zagreb ultras (victims, not perpetrators). No violence adjustment applied; confirm.
+  [b07] Atlético Madrid: Racism+violence total -14 vs old -10 combined; check scale vs Lazio -30.
+  [b07] Atlético Madrid: Apollo: consider whether -6 PE or harsher if any acquisition debt is loaded on the club (not found).
+  [b07] Barcelona: 2026 presidential election outcome not verified; may affect O.
+  [b07] Barcelona: UEFA has fined the club for fan Nazi salutes (2023-24); not treated as an adjustment.
+  [b07] Bayern Munich: Visit Rwanda: decide if the remaining Rwanda academy partnership should still count as an authoritarian-state sponsor.
+  [b07] Bodø/Glimt: Shirt sponsor and ownership detail not verified directly this session (Norwegian clubs are member associations).
+  [b07] Borussia Dortmund: Rheinmetall deal runs to 2027 unless ended early; re-check at expiry.
+  [b07] Club Brugge: Verhaeghe's status in the 'Clean Hands' case not verified this session; may lower O.
+  [b07] Como: Hartono fortune rests on tobacco (Djarum): brief says no effect, confirm.
+  [b07] Como: Spending figures not re-verified this session.
+  [b07] Fenerbahçe: Current president unclear from sources (Sadettin Saran elected Sept 2025; Wikipedia summary named Aziz Yıldırım). Verify.
+  [b07] Fenerbahçe: Nationalist identity: decide if it should lower V further.
+  [b07] Feyenoord: Adjustments total -13 vs old -5; Kevin to confirm scale.
+  [b07] Feyenoord: Ownership/governance details (foundations, VAK) not confirmed from a fetched source.
+  [b07] Galatasaray: Overspend figure not verified; drop if Kevin prefers evidence-only.
+  [b07] Galatasaray: Nationalist identity: decide whether to lower V further.
+  [b07] Inter Milan: New stadium on the San Siro site (joint with Milan) will trigger the new-stadium Culture drop when it opens.
+  [b07] Inter Milan: Far-right links of Curva Nord: consider a racism adjustment if evidence firms up.
+  [b07] LASK: President (Wikipedia says Siegmund Gruber) not verified as current.
+  [b07] LASK: Ultras/atmosphere not documented in fetched sources; Culture estimate.
+  [b07] Lens: Millonarios link not verified this session; drop multiclub if Kevin disagrees.
+  [b07] Lens: EEP stake is minority: -4 PE is the low end.
+  [b07] Napoli: Bari ownership status in Sept 2026 not verified: drop multiclub if sold.
+  [b07] Napoli: Napoli ultras' clashes (e.g. with Eintracht Frankfurt fans 2023) not treated as an adjustment.
+  [b07] Paris Saint-Germain: Stacked adjustments (-33); Kevin may prefer state -25 only.
+  [b07] Paris Saint-Germain: QSI's Braga stake not verified in fetched sources this session.
+  [b07] RB Leipzig: Old rating was -8 total; franchise -10 is new. Kevin to confirm whether the licence purchase counts as franchising.
+  [b07] Real Betis: Supporters Gol Sur has had far-right elements historically (not verified this session); check before finalising V.
+  [b07] Real Betis: Culture drop ends when the new Villamarín opens (target 2028); then apply the new-stadium -1 for ~5 seasons.
+  [b07] Real Madrid: Outcome of the 2026 members' referendum on selling a 5-10% stake not verified: may lower O.
+  [b07] Real Madrid: Old rating had -5 (still backing); changed to -3 after the Feb 2026 UEFA deal. Kevin to confirm.
+  [b07] Roma: Friedkin reportedly assessing an Everton sale/new investment (Sept 2026): multiclub may change.
+  [b07] Roma: Pietralata stadium (planned 2031) will trigger the new-stadium Culture drop.
+  [b07] Sabah: Funding and any state/regime links not verified: check before finalising O (possible state adjustment).
+  [b07] Sabah: Attendance data not found.
+  [b07] Shakhtar Donetsk: Exile is war-forced, not a convenience move: no stadium penalty applied beyond the Culture score.
+  [b07] Shakhtar Donetsk: Owner politics: decide whether Akhmetov's past political role should lower V.
+  [b07] Slavia Prague: Stadium naming (Fortuna) as betting sponsor: confirm it still applies in 2026-27.
+  [b07] Slavia Prague: Kúdela/Kamara incident was a player, not fans: no racism adjustment applied.
+  [b07] Slovan Bratislava: Shirt sponsor not verified this session.
+  [b07] Slovan Bratislava: No 2025-26 UEFA cases found; confirm scale of racism adjustment given repetition.
+  [b07] Sporting CP: 2018 Alcochete attack by ~50 ultras (convictions): not applied as a violence adjustment (club acted, 8 years ago). Kevin to confirm.
+  [b07] Viking: Ownership detail (any investor share company) not verified beyond Wikipedia.
+  [b08] Atlanta United: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Austin FC: Ownership: Kevin to decide how much Precourt's 2017 attempt to move the Crew should weigh (set O 5, was 6).
+  [b08] Austin FC: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] CF Montréal: Regional (Quebec) identity counted modestly in Values; Kevin may want more.
+  [b08] CF Montréal: 2026 attendance not verified.
+  [b08] Charlotte FC: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Chicago Fire FC: New private stadium (McDonald's Park) would lift Culture once open; check opening date.
+  [b08] Chicago Fire FC: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Colorado Rapids: Consistency: the b01 Arsenal entry did not apply multiclub for KSE; decide whether both or neither get it.
+  [b08] Columbus Crew: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] D.C. United: Swansea stake timing: search result dated the Swansea control announcement May 2026; Levien/Kaplan have held Swansea since 2016. Verify current share.
+  [b08] D.C. United: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] FC Cincinnati: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] FC Dallas: Culture set to 5 (was 6) on attendance; renovation is temporary, Kevin may prefer to hold 6.
+  [b08] FC Dallas: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Houston Dynamo FC: 2025/2026 attendance not verified.
+  [b08] Houston Dynamo FC: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Inter Miami CF: New adjustments vs old scores (pe -4, overspend -3): Kevin to confirm.
+  [b08] Inter Miami CF: Ares stake size not verified.
+  [b08] Inter Miami CF: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] LA Galaxy: Values docked 1 for the 2025 fan-discipline episode; Kevin to confirm.
+  [b08] LA Galaxy: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Los Angeles Football Club: Angel City minority stake is a women's club, not counted as multiclub.
+  [b08] Los Angeles Football Club: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Minnesota United FC: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Nashville SC: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] New England Revolution: Everett stadium: earliest opening ~2027-2030; would lift Culture once open.
+  [b08] New England Revolution: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] New York City Football Club: NEW: state -25 applied (old score had only multiclub -8). Kevin to confirm it matches how Man City is treated.
+  [b08] New York City Football Club: Silver Lake's minority stake in CFG not separately counted.
+  [b08] Orlando City: 2018 Orlando/Atlanta debris incident: minor, not counted as violence.
+  [b08] Orlando City: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Philadelphia Union: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Portland Timbers: Values set 8 (was 9): supporter values are elite but the owner's scandal record weighs; Kevin to decide.
+  [b08] Portland Timbers: History set 7 (was 8).
+  [b08] Portland Timbers: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Real Salt Lake: David Blitzer (minority) has stakes in several clubs (multi-club investor); not counted since he no longer controls RSL.
+  [b08] Real Salt Lake: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] San Diego FC: Multiclub -6 is new (old score 0).
+  [b08] San Diego FC: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] San Jose Earthquakes: Check for a completed sale of the club (not found).
+  [b08] San Jose Earthquakes: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b08] Seattle Sounders FC: Alliance Council's GM-retention vote not verified this session.
+  [b08] Seattle Sounders FC: Emerald Queen Casino may also run a sportsbook; Kevin to decide if the sleeve counts as betting.
+  [b08] Sporting Kansas City: Missouri launched sports betting with team market-access deals; SKC's partner not verified.
+  [b08] Sporting Kansas City: Culture 7 kept; recent sellout data not checked.
+  [b08] St. Louis CITY SC: Values down to 5 (was 7): flag restrictions and FanDuel deal; Kevin to confirm.
+  [b08] St. Louis CITY SC: Culture 8 (was 9).
+  [b08] Toronto FC: Ontario sportsbook partners of TFC/MLSE not checked.
+  [b08] Toronto FC: Ownership down to 4 (was 5): corporate telecom owner.
+  [b08] Vancouver Whitecaps FC: Relocation risk (Las Vegas bid): if the club moves, a franchise adjustment would apply.
+  [b08] Vancouver Whitecaps FC: Values set 6 (was 7) because of the abuse-scandal history; Kevin to decide.
+  [b08] Vancouver Whitecaps FC: Club-level sports-betting partners (non-kit) were not verified; one search found none. Kit sponsors are clean.
+  [b09] Bay FC: Sixth Street majority: scored as PE -6. Kevin to confirm the size (it is investment money, with a founder-player group).
+  [b09] Boston Legacy: White Stadium public-land dispute: Kevin may want to weigh it more.
+  [b09] Denver Summit: Culture based on one season and a record one-off crowd; recheck after 2027.
+  [b09] Houston Dash: Shares ownership with Houston Dynamo; check Dynamo sponsors if Kevin counts shared-group sponsors.
+  [b09] North Carolina Courage: Relocated franchise (bought the Western New York Flash rights and moved to Cary in 2017). No franchise adjustment applied; Kevin to decide if it should be -10. History counts the Courage titles, lightly credits the Flash.
+  [b09] Portland Thorns: Values dropped from 8 to 6 for the Yates findings (brief requires welfare record). Kevin to confirm whether new ownership should soften it.
+  [b09] Racing Louisville: Possible sale/relocation to Cincinnati (ESPN, 2026). If it moves, add a franchise adjustment.
+  [b09] San Diego Wave: Owners are PE-firm founders; the purchase appears personal, so no PE adjustment. Kevin to confirm.
+  [b09] Utah Royals: David Blitzer (minority) has a multi-club portfolio; not treated as a network club, no adjustment.
+  [b09] Washington Spirit: Multi-club reduced from -8 to -6 (Spirit is the flagship, not a feeder).
+  [b09] Brooklyn FC: North Sixth Group may hold stakes in other clubs; not verified, so no multi-club adjustment.
+  [b09] Detroit City FC: Fan-investor units, not member ownership: O 8 (was 9). Kevin to confirm.
+  [b09] Las Vegas Lights FC: Stadium uncertainty for 2027; recheck location.
+  [b09] Louisville City FC: Franchise moved from Orlando in 2014 (no fan base moved). No franchise adjustment applied.
+  [b09] Oakland Roots SC: Coliseum is a large multi-use bowl; -1 applied in Culture.
+  [b09] Sacramento Republic FC: Culture 8 (was 10) on the league-agnostic scale: 10k crowd, not a Dortmund-level atmosphere. History 6 (was 7). Kevin to confirm.
+  [b10] Albania: Racism -10 is at the middle of the -8 to -15 national rule; sanctions are repeated (2024, 2025 x2).
+  [b10] Albania: V lowered to 4 for the nationalist supporter identity; check this is not double-counting with the racism adjustment.
+  [b10] Andorra: No government adjustment: Freedom House 2026 Free 93/100, RSF 2026 rank 60/180.
+  [b10] Armenia: Borderline government case: RSF 50th is mid-table; -10 is the minimum of the scale, 0 is defensible.
+  [b10] Austria: No government adjustment: Freedom House 2026 Free 94/100, RSF 2026 rank 19/180 (earlier draft had 12th; corrected).
+  [b10] Azerbaijan: Old 'authoritarian federation -10' rule not applied separately to avoid double counting with government -25; O=1 already reflects it. Kevin to confirm.
+  [b10] Belarus: Old 'authoritarian federation -10' rule not applied separately (O=1 covers it). Kevin to confirm.
+  [b10] Belarus: Federation leadership not verified this session.
+  [b10] Belgium: No government adjustment: Freedom House 2026 Free 95/100, RSF 2026 rank 16/180 (earlier draft had 21st; corrected).
+  [b10] Bosnia and Herzegovina: Beating Italy for the 2026 World Cup is a new famous moment; H kept at 4.
+  [b10] Bulgaria: No government adjustment: Freedom House 2026 Free 74/100, RSF 2026 rank 71/180.
+  [b10] Bulgaria: Racism -10 rests mostly on the 2019 case; -8 would also fit if Kevin wants recency to count.
+  [b10] Croatia: No government adjustment: Freedom House 2026 Free 82/100, RSF 2026 rank 53/180.
+  [b10] Croatia: Racism raised from -10 to -12 given the 2025 closed-door sanction.
+  [b10] Cyprus: No government adjustment: Freedom House 2026 Free 90/100, RSF 2026 rank 80/180.
+  [b10] Cyprus: O based on general knowledge of Cypriot match-fixing controversies; not verified in detail.
+  [b10] Czech Republic: No government adjustment: Freedom House 2026 Free 95/100, RSF 2026 rank 11/180.
+  [b10] Denmark: No government adjustment: Freedom House 2026 Free 97/100, RSF 2026 rank 4/180.
+  [b10] England: Violence -5 is a judgement call: serious 2021 disorder, but no repeat UEFA sanction since. 0 to -8 defensible.
+  [b10] England: No government adjustment: Freedom House 2026 (United Kingdom) Free 92/100, RSF 2026 rank 18/180 (earlier draft had 29th; corrected).
+  [b10] Estonia: No government adjustment: Freedom House 2026 Free 96/100, RSF 2026 rank 3/180.
+  [b10] Faroe Islands: No government adjustment: Faroe Islands not rated separately; Denmark: Freedom House 2026 Free 97/100, RSF 2026 rank 4/180.
+  [b10] Finland: No government adjustment: Freedom House 2026 Free 100/100, RSF 2026 rank 6/180.
+  [b10] France: No government adjustment: Freedom House 2026 Free 89/100, RSF 2026 rank 25/180.
+  [b10] France: Hijab ban: Kevin to decide whether it should lower V (kept inside the V=5).
+  [b10] Georgia: Consider -20: continuing crackdown since late 2024; FH trend down.
+  [b10] Georgia: 2025 UEFA sanction was for disorder aimed at Armenian fans; not coded as racism/violence adjustment (single case).
+  [b10] Germany: No government adjustment: Freedom House 2026 Free 95/100, RSF 2026 rank 14/180 (earlier draft had 17th; corrected).
+  [b10] Germany: 2006 affair details not re-verified this session.
+  [b10] Gibraltar: No government adjustment: British overseas territory, not rated separately; United Kingdom: Freedom House 2026 Free 92/100, RSF 2026 rank 18/180.
+  [b10] Greece: No government adjustment by the brief's thresholds: Freedom House 2026 Free 85/100, but RSF 2026 rank 86/180 (low for the EU; spyware and media-pressure concerns). Kevin may want -10.
+  [b10] Greece: S based on 2025 qualifying reports; not verified in depth.
+  [b10] Hungary: Government changed after the April 2026 election; revisit -10 when FH/RSF 2027 reflect it.
+  [b10] Hungary: Racism -15 is the top of the national rule; no new UEFA sanction after 2021-22 found in this check.
+  [b10] Iceland: No government adjustment: Freedom House 2026 Free 95/100, RSF 2026 rank 12/180.
+  [b10] Iceland: KSÍ 2021 case from general knowledge, not re-fetched this session.
+  [b10] Israel: Government adjustment is a judgement call: Free rating for Israel proper vs occupation and Gaza-war record. -15 to -25 defensible; set at -20. Kevin to decide.
+  [b10] Israel: Possible UEFA/FIFA suspension still debated; check status before finalising.
+  [b10] Italy: No government adjustment: Freedom House 2026 Free 87/100, RSF 2026 rank 56/180 (lowish for Western Europe).
+  [b10] Italy: Coach situation after June 2026 not verified.
+  [b10] Kazakhstan: KFF governance/government ties not verified in detail; O=3 is an estimate.
+  [b11] Kosovo: Government -10 set for Partly Free (FH 61), in line with b10's Albania/Armenia. Kevin to confirm the scale for FH 60-70.
+  [b11] Latvia: No government adjustment: Freedom House 2026 89/100 Free; RSF 2026 17th.
+  [b11] Liechtenstein: No government adjustment: Freedom House 2026 90/100 Free; RSF 2026 13th. (Prince holds strong constitutional powers; not scored.)
+  [b11] Lithuania: No government adjustment: Freedom House 2026 90/100 Free; RSF 2026 15th.
+  [b11] Luxembourg: No government adjustment: Freedom House 2026 97/100 Free; RSF 2026 9th. Stadium move 2021 is to a new national stadium in the same city; minor.
+  [b11] Malta: No government adjustment: Freedom House 2026 88/100 Free; but RSF 2026 67th (lowest in the EU group here, legacy of the Caruana Galizia murder). Kevin may consider -5.
+  [b11] Malta: Check MFA sponsor list for betting partners (not verified).
+  [b11] Moldova: Government -10 driven by Freedom House (Partly Free); RSF rank 31 is good. Kevin may prefer -5.
+  [b11] Montenegro: Racism -8 kept from the old rating (2019, 2023); no newer sanction found.
+  [b11] Netherlands: No government adjustment: Freedom House 2026 97/100 Free; RSF 2026 2nd.
+  [b11] Netherlands: New coach Xavi (Aug 2026): Style may need revisiting next season.
+  [b11] Northern Ireland: No government adjustment: UK Freedom House 2026 92/100 Free; RSF 2026 18th.
+  [b11] Northern Ireland: Sectarian lowering is historical; Kevin may judge the current atmosphere as V 6.
+  [b11] Norway: No government adjustment: Freedom House 2026 99/100 Free; RSF 2026 1st.
+  [b11] Norway: Norsk Tipping (state lottery/betting operator) sponsorship of NFF not verified; if it is a main partner, lower V by 1.
+  [b11] Poland: No government adjustment: Freedom House 2026 82/100 Free; RSF 2026 27th.
+  [b11] Poland: Check UEFA fines for Polish fans (pyro, banners) since 2023; not verified. Possible small violence/racism adjustment.
+  [b11] Portugal: No government adjustment: Freedom House 2026 96/100 Free; RSF 2026 10th.
+  [b11] Portugal: Betting partners (Betclic, Betano) lower Values; check how many points Kevin wants for a federation partner vs a shirt sponsor.
+  [b11] Portugal: New coach Jorge Jesus: Style may shift.
+  [b11] Republic of Ireland: No government adjustment: Freedom House 2026 98/100 Free; RSF 2026 7th.
+  [b11] Romania: No government adjustment: Freedom House 2026 83/100 Free; RSF 2026 49th.
+  [b11] Romania: Euro 2024 fines not verified.
+  [b11] San Marino: No government adjustment: Freedom House 2026 97/100 Free. RSF 2026 rank not found in the index.
+  [b11] Scotland: No government adjustment: UK Freedom House 2026 92/100 Free; RSF 2026 18th.
+  [b11] Scotland: New manager Pocognoli: Style may change.
+  [b11] Serbia: Racism raised from -10 to -12 given the 2024-25 sanctions.
+  [b11] Slovakia: No government adjustment: Freedom House 2026 88/100 Free; RSF 2026 37th.
+  [b11] Slovenia: No government adjustment: Freedom House 2026 97/100 Free; RSF 2026 36th.
+  [b11] Spain: No government adjustment: Freedom House 2026 91/100 Free; RSF 2026 29th.
+  [b11] Spain: Saudi Supercopa: lower V as a state-backed partner? Counted here as -1.
+  [b11] Sweden: No government adjustment: Freedom House 2026 99/100 Free; RSF 2026 5th.
+  [b11] Sweden: Svenska Spel is a state monopoly (not an authoritarian state); counted only as a betting sponsor.
+  [b11] Switzerland: No government adjustment: Freedom House 2026 96/100 Free; RSF 2026 8th.
+  [b11] Turkey: No racism adjustment applied: only one UEFA sanction verified (Demiral, 2024). Kevin may want -5 to -8 for nationalist fan conduct.
+  [b11] Turkey: Government -20 (Not Free, RSF 163); -25 is also defensible.
+  [b11] Ukraine: Government -10 reflects wartime restrictions; Kevin may prefer 0 or -5 given the cause.
+  [b11] Wales: No government adjustment: UK Freedom House 2026 92/100 Free; RSF 2026 18th.

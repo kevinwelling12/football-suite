@@ -64,3 +64,21 @@ E. Big moves on clubs Kevin follows
 F. Low confidence: Udinese, LASK, Sabah, Denver Summit, Brooklyn FC, Orange County SC, Cyprus, Kazakhstan, Malta.
 
 Per-club flags (about 250) are in each out/<batch>.json entry and listed at the end of out/report.txt.
+
+## Kevin's answers (2026-09-28, multiple choice)
+- State reach: satellites of a state-controlled group get half, -12 (Troyes, NYCFC). Owner club keeps -25.
+- PE plus multi-club for one owner: add both.
+- Multi-club: only secondary clubs pay; the owner's flagship gets 0. Nagle: neither club (not a network).
+- No cap on stacked adjustments.
+- LBO smaller: Man Utd -10, Burnley -8.
+- Violence penalties as scored.
+- Ukraine and Moldova government -5.
+- Man City overspend -6 applied now.
+- Casino (non-sportsbook) sponsors: half weight (Reading V5, Leicester V5, QPR stays 5, Seattle tribal casino no effect).
+- Stoke: owner owns the betting sponsor, worse than normal (V3).
+- Partly Free state sponsors count in full (Cardiff V4).
+- Private equity: only real PE funds (drops Liverpool, Leeds, Villa, Charlton, Walsall pe).
+- Sacramento Republic C9 H6. Portland Thorns V back to 8. Franchise -10 for RB Leipzig and NC Courage.
+- Weights C26 V28 H16 O12 S8. Drop penalties from previous owners (Everton overspend). Signed future sponsors count now.
+  Southampton Spygate stays in both Values and adjustment.
+Applied by decisions.py -> final/<batch>.json; numbers in final/report.txt.

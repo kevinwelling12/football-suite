@@ -1,0 +1,1348 @@
+[
+ {
+  "name": "Albania",
+  "C": {
+   "score": 8,
+   "evidence": "Large, loud support incl. diaspora; big travelling support at Euro 2016 and Euro 2024. Main group Tifozat Kuq e Zi (founded 2003). Home: Arena Kombëtare (Air Albania Stadium), Tirana."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Tifozat Kuq e Zi advocate Albanian unification (nationalist identity). Euro 2024: UEFA fines and a two-match ban for player Mirlind Daku for nationalist chants. FIFA fined FSHF in 2025 for discriminatory fan behaviour (vs Andorra and Serbia, partial stadium closures)."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Two Euros (2016, 2024), group stage both times; never at a World Cup. Reached the 2026 World Cup play-offs for the first time."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "FSHF led by Armand Duka since 2002 (very long tenure); close ties with the government-built national stadium project. No major proven corruption case found."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 5 (compact, counter-attacking). Up 1 for culture: tight, hard-running side that went unbeaten in Euro 2024 qualifying and won four 2026 WC qualifiers without conceding; long-serving core (Hysaj 101 caps, captain Gjimshiti); strong bond with the big diaspora support. Coach churn: Sylvinho (2023-26) replaced by Rolando Maran in May 2026 on an 18-month deal."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: Partly Free, 69/100. RSF 2026 rank 83/180."
+   },
+   {
+    "type": "racism",
+    "points": -10,
+    "evidence": "Repeated sanctions for discriminatory fan conduct: UEFA Euro 2024 fines (chants) and two FIFA sanctions in 2025 (discriminatory chants vs Andorra and Serbia, CHF 161,500 fine and partial closures)."
+   }
+  ],
+  "flags": [
+   "Racism -10 is at the middle of the -8 to -15 national rule; sanctions are repeated (2024, 2025 x2).",
+   "V lowered to 4 for the nationalist supporter identity; check this is not double-counting with the racism adjustment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Albania_national_football_team",
+   "https://euronews.al/en/fifa-fines-albanian-fa-over-discriminatory-fan-behavior-orders-20-stadium-closure/",
+   "https://www.aa.com.tr/en/europe/fifa-fines-albania-over-fan-misconduct-during-serbia-match/3639615",
+   "https://www.aljazeera.com/sports/2024/6/23/albanian-football-federation-uefa-banned-player-mirlind-daku-for-two-games",
+   "https://freedomhouse.org/country/albania/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Rolando Maran, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Albania_national_football_team",
+    "https://www.thestar.com.my/sport/football/2026/05/20/soccer-maran-named-albania-coach-after-sylvinho-exit",
+    "https://fshf.org/en/the-new-coach-of-the-albanian-national-team-rolando-maran-is-introduced-president-armand-duka-i-am-convinced-that-he-is-the-right-choice/"
+   ]
+  }
+ },
+ {
+  "name": "Andorra",
+  "C": {
+   "score": 3,
+   "evidence": "Very small, quiet crowds at the Estadi Nacional (about 3,300 capacity); little away following."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No notable positives or negatives found; no UEFA discrimination sanctions found."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Among Europe's weakest sides; a handful of competitive wins ever (first in 2004 vs North Macedonia)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "FAF: small federation, no major governance scandal found in this check."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Old S 2 (deep block, little pressing). Up 1 for culture: Koldo Álvarez has coached the team since 2010 (Europe's longest-serving national coach, a former Andorra goalkeeper); small, humble, largely semi-pro squad with low churn. Playing style unchanged."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 93/100, RSF 2026 rank 60/180."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andorra_national_football_team",
+   "https://freedomhouse.org/countries/freedom-world/scores",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Koldo Álvarez, since 2010",
+   "flags": [
+    "Long-serving coach is the whole raise; style still bottom-tier."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Andorra_national_football_team",
+    "https://en.wikipedia.org/wiki/Koldo_%C3%81lvarez"
+   ]
+  }
+ },
+ {
+  "name": "Armenia",
+  "C": {
+   "score": 6,
+   "evidence": "Passionate home crowds at Vazgen Sargsyan Republican Stadium (about 14,400) and diaspora support; small away following."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions found. No notable positives."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Never qualified for a major tournament; best-known era around Mkhitaryan (Euro 2012 qualifying near miss)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "FFA president Armen Melikbekyan since 2019; no major governance case found in this check."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Old S 4. Down 1: reactive side with heavy 2025 WC-qualifying defeats (1-9 vs Portugal); Mkhitaryan retired from the national team in 2022, so no current icon; coach change to Yegishe Melikyan (2025). Captain Eduard Spertsyan. No distinctive player-fan bond found."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: Partly Free, 54/100. RSF 2026 rank 50/180."
+   }
+  ],
+  "flags": [
+   "Borderline government case: RSF 50th is mid-table; -10 is the minimum of the scale, 0 is defensible."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Armenia_national_football_team",
+   "https://en.wikipedia.org/wiki/Football_Federation_of_Armenia",
+   "https://freedomhouse.org/country/armenia/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Yegishe Melikyan, since 2025",
+   "flags": [
+    "Coach start year not verified by a second source."
+   ],
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Armenia_national_football_team",
+    "https://www.ffa.am/en/news/list-of-players-armenia-national-team"
+   ]
+  }
+ },
+ {
+  "name": "Austria",
+  "C": {
+   "score": 7,
+   "evidence": "Large, loud travelling support at Euro 2024 (Germany); sell-outs at Ernst Happel Stadium (about 50,000) in recent campaigns."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions of note found. No notable raises or lowers verified."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1930s 'Wunderteam', 3rd at the 1954 World Cup, 'Miracle of Córdoba' 1978; qualified for the 2026 World Cup (first World Cup since 1998)."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "ÖFB: periodic leadership turmoil (president changes 2023-25) but no corruption case found."
+  },
+  "S": {
+   "score": 10,
+   "evidence": "Old S 9 (Rangnick gegenpressing). Up 1: Ralf Rangnick is a defining coach (since 2022, took them to Euro 2024 group win and the first World Cup since 1998; 3-1 Jordan, 3-3 Algeria, out 0-3 to Spain in the round of 32). Long-serving core: captain David Alaba and Marko Arnautović (137 caps, record scorer) both still in the squad; team known for running for each other and celebrating with travelling fans."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 94/100, RSF 2026 rank 19/180 (earlier draft had 12th; corrected)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Austria_national_football_team",
+   "https://freedomhouse.org/country/austria/freedom-world/2026",
+   "https://rsf.org/en/country/austria"
+  ],
+  "team": {
+   "icons": [
+    "Marko Arnautović",
+    "David Alaba"
+   ],
+   "coach": "Ralf Rangnick, since 2022",
+   "flags": [
+    "10 is the top of the scale; 9 is defensible if icons/coach should not stack on an already-elite press."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Austria_national_football_team",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-spain-arnautovic-alaba-schlager-reaction",
+    "https://www.nbcsports.com/soccer/news/austria-qualify-for-first-world-cup-in-28-years-as-alaba-arnautovic-sabitzer-finally-reach-tournament"
+   ]
+  }
+ },
+ {
+  "name": "Azerbaijan",
+  "C": {
+   "score": 3,
+   "evidence": "Modest, often thin crowds in Baku; little away following."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Federation closely tied to the state (see O). Country uses football for image-building ('Land of Fire' tourism sponsorship at Atlético Madrid)."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Never qualified for a major tournament; very few notable results."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "AFFA president Rovshan Najaf (since 2024) is president of state oil company SOCAR; predecessor Rovnag Abdullayev was also SOCAR head (2008-2024). Federation effectively run by the state."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Old S 3. No change: defensive, low-intensity side, relegated in the 2024-25 Nations League; coach churn (De Biasi sacked 2023, Fernando Santos 2024-25, now Aykhan Abbasov). Captain Emin Mahmudov. No player-fan bond signals."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -25,
+    "evidence": "Freedom House 2026: Not Free, 6/100. RSF 2026 rank 171/180."
+   }
+  ],
+  "flags": [
+   "Old 'authoritarian federation -10' rule not applied separately to avoid double counting with government -25; O=1 already reflects it. Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Azerbaijan_national_football_team",
+   "https://en.wikipedia.org/wiki/Association_of_Football_Federations_of_Azerbaijan",
+   "https://freedomhouse.org/country/azerbaijan/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Aykhan Abbasov, since 2025",
+   "flags": [
+    "Abbasov start date not confirmed by a second source."
+   ],
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Azerbaijan_national_football_team",
+    "https://en.wikipedia.org/wiki/Association_of_Football_Federations_of_Azerbaijan"
+   ]
+  }
+ },
+ {
+  "name": "Belarus",
+  "C": {
+   "score": 2,
+   "evidence": "Competitive home matches played abroad (Hungary/Serbia) behind closed doors since 2022 under UEFA's ban; almost no live support."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Federation aligned with the Lukashenko government; UEFA hosting ban tied to Belarus' role in Russia's invasion of Ukraine."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Never qualified for a World Cup or Euro since 1991; won a Nations League D group (2018-19)."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "ABFF is tied to the state leadership (not independent); no transparency. Not detailed on Wikipedia; general knowledge, not re-verified."
+  },
+  "S": {
+   "score": 2,
+   "evidence": "Old S 3. Down 1: home matches played abroad behind closed doors since 2022, so almost no player-fan contact; heavy WC-qualifying defeats (0-6 Denmark, 1-5 Greece); new coach Viktor Goncharenko (2026)."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -25,
+    "evidence": "Freedom House 2026: Not Free, 7/100. RSF 2026 rank 165/180. Belarus supports Russia's war against Ukraine."
+   }
+  ],
+  "flags": [
+   "Old 'authoritarian federation -10' rule not applied separately (O=1 covers it). Kevin to confirm.",
+   "Federation leadership not verified this session."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Belarus_national_football_team",
+   "https://freedomhouse.org/country/belarus/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Viktor Goncharenko, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Belarus_national_football_team",
+    "https://en.wikipedia.org/wiki/Viktor_Goncharenko"
+   ]
+  }
+ },
+ {
+  "name": "Belgium",
+  "C": {
+   "score": 6,
+   "evidence": "Official supporter federation '1895' (about 24,000 members by 2013); good tournament followings but King Baudouin Stadium atmosphere is ordinary."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions for national-team fans found. Multilingual, multi-community squad; federation sponsors not verified."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "'Golden generation': 3rd at 2018 World Cup, FIFA No. 1 2015-2022; 4th in 1986, Euro 1980 finalists. 2026 World Cup quarter-finals (lost 1-2 to Spain)."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "RBFA: no current national-team governance scandal found; the 2018 'Propere Handen' corruption case involved clubs/agents, not the federation leadership."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 6. Down 1 for culture: third coach in three years (Tedesco, Garcia, Mark van Bommel from August 2026); star-ego friction, e.g. Courtois refused to play under Tedesco in 2024 after a captaincy row. Talented but ageing core (De Bruyne, Lukaku, Courtois); captain Youri Tielemans since 2025. Reached the 2026 WC quarter-finals."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 95/100, RSF 2026 rank 16/180 (earlier draft had 21st; corrected)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Belgium_national_football_team",
+   "https://freedomhouse.org/country/belgium/freedom-world/2026",
+   "https://rsf.org/en/country/belgium"
+  ],
+  "team": {
+   "icons": [
+    "Kevin De Bruyne"
+   ],
+   "coach": "Mark van Bommel, since 2026",
+   "flags": [
+    "Is De Bruyne still an icon 'inseparable' from the team? He is in the current squad."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Belgium_national_football_team",
+    "https://www.espn.com/soccer/story/_/id/49439835/belgium-name-mark-van-bommel-replace-rudi-garcia-manager",
+    "https://www.fifa.com/en/news/articles/mark-van-bommel-belgium-coach"
+   ]
+  }
+ },
+ {
+  "name": "Bosnia and Herzegovina",
+  "C": {
+   "score": 8,
+   "evidence": "Loud, passionate support (BHFanaticos), strong diaspora followings; intimate home ground Bilino Polje, Zenica."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Supporter scene mostly Bosniak-identified in a divided country; pyro and occasional incidents. No major UEFA discrimination case found in this check."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "World Cups 2014 and 2026 (2026: beat Wales and Italy on penalties in the play-offs; out in the round of 32 to the USA). Never at a Euro."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "NFSBiH was suspended by FIFA/UEFA in 2011 over its three-member ethnic presidency; governance remains divided along ethnic lines."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 5. Up 2: Edin Džeko (40, captain, 151 caps, record scorer) still leads the side and is inseparable from it; coach Sergej Barbarez (since 2024, a former national-team player) built a fighting side that beat Wales and Italy on penalties to reach the 2026 World Cup; very emotional bond with fans and diaspora. Style still direct, average pressing."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: Partly Free, 54/100. RSF 2026 rank 90/180."
+   }
+  ],
+  "flags": [
+   "Beating Italy for the 2026 World Cup is a new famous moment; H kept at 4."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_national_football_team",
+   "https://en.wikipedia.org/wiki/Football_Association_of_Bosnia_and_Herzegovina",
+   "https://freedomhouse.org/country/bosnia-and-herzegovina/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [
+    "Edin Džeko"
+   ],
+   "coach": "Sergej Barbarez, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_national_football_team",
+    "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko"
+   ]
+  }
+ },
+ {
+  "name": "Bulgaria",
+  "C": {
+   "score": 5,
+   "evidence": "Crowds at Vasil Levski have been small and hostile to the federation; ultras boycotted and protested for years."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "October 2019: racist abuse of England players in Sofia, UEFA ordered closed-door matches and fined the BFU. Fans later protested federation leadership."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "4th at the 1994 World Cup (Stoichkov generation), a genuine famous moment; little since."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Borislav Mihaylov resigned in 2019 after the racism case, returned in 2021 amid fan protests; in 2023 a match was moved and played behind closed doors because of protests. Georgi Ivanov president since March 2024, election contested."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 4. No change: weak, reactive side; supporters in conflict with the federation rather than bonded to the team; new coach Aleksandar Dimitrov (2025); captain Kiril Despodov."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -10,
+    "evidence": "UEFA 2019 sanctions for racist abuse vs England (closed-door matches, fine); earlier sanctions for the same. No new UEFA case found after 2019."
+   }
+  ],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 74/100, RSF 2026 rank 71/180.",
+   "Racism -10 rests mostly on the 2019 case; -8 would also fit if Kevin wants recency to count."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bulgaria_national_football_team",
+   "https://en.wikipedia.org/wiki/Bulgarian_Football_Union",
+   "https://freedomhouse.org/country/bulgaria/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Aleksandar Dimitrov, since 2025",
+   "flags": [],
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bulgaria_national_football_team",
+    "https://en.wikipedia.org/wiki/Bulgarian_Football_Union"
+   ]
+  }
+ },
+ {
+  "name": "Croatia",
+  "C": {
+   "score": 8,
+   "evidence": "Large, loud followings at every tournament; strong diaspora support. Home matches rotate between stadiums (Maksimir, Poljud, Rujevica)."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Fan displays of Ustaše symbols and far-right chants recur: 2015 swastika mowed into the Split pitch; Euro 2024 UEFA fines incl. chants; after the March 2025 Nations League tie with France UEFA ordered the next home match behind closed doors for racism/discrimination."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "World Cup runners-up 2018, 3rd in 1998 and 2022, Nations League finalists 2023. Qualified undefeated for 2026 and reached the knockouts."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "HNS long dominated by Zdravko Mamić, convicted of embezzlement in 2018 and fled to Bosnia; governance and transparency still questioned."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. Up 1: Luka Modrić (41, captain, 203 caps) is still playing and has confirmed he continues; stable core that reached WC 2018 final, 2022 semi-final, 2023 Nations League final. Zlatko Dalić (2017-2026) was the defining coach but resigned after the 2026 World Cup; Slaven Bilić returned in 2026. Midfield-control style, not a pressing side."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -12,
+    "evidence": "Repeated UEFA sanctions for discriminatory fan conduct: 2015 swastika (points deduction), Euro 2024 fines, 2025 closed-door match after France tie."
+   }
+  ],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 82/100, RSF 2026 rank 53/180.",
+   "Racism raised from -10 to -12 given the 2025 closed-door sanction."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Croatia_national_football_team",
+   "https://www.croatiaweek.com/croatia-to-play-behind-closed-doors-following-uefa-punishment/",
+   "https://www.foxsports.com/articles/soccer/uefa-punishes-croatia-for-offensive-fan-chants-and-disorder-at-nations-league-finals",
+   "https://freedomhouse.org/country/croatia/freedom-world/2026",
+   "https://rsf.org/en/country/croatia"
+  ],
+  "team": {
+   "icons": [
+    "Luka Modrić"
+   ],
+   "coach": "Slaven Bilić, since 2026",
+   "flags": [
+    "2022 World Cup players' Thompson song video is just outside the 3-year window; Kevin may want it counted (-1)."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Croatia_national_football_team",
+    "https://hns.team/en/news/31517/slaven-bilic-appointed-head-coach-of-the-croatia-national-team/",
+    "https://www.croatiaweek.com/slaven-bilic-appointed-head-coach-of-croatia-again/",
+    "https://balkaninsight.com/2022/12/19/croatian-players-celebrate-world-cup-success-with-nationalist-song/btj/"
+   ]
+  }
+ },
+ {
+  "name": "Cyprus",
+  "C": {
+   "score": 4,
+   "evidence": "Small, mostly quiet crowds for the national team; club rivalries (APOEL, Omonia, Anorthosis) draw more passion than the national side."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No UEFA discrimination sanctions for the national team found. No notable raises or lowers verified."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Never qualified for a major tournament; occasional upsets only."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "CFA: Cypriot football has had recurring match-fixing investigations and referee disputes (club level); UEFA-assisted reforms. No specific federation conviction verified this session."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Old S 3. No change: defensive, low-possession side; coach Akis Mantzios since 2025; captain Kostakis Artymatas. No notable player-fan bond signals."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 90/100, RSF 2026 rank 80/180.",
+   "O based on general knowledge of Cypriot match-fixing controversies; not verified in detail."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cyprus_national_football_team",
+   "https://freedomhouse.org/country/cyprus/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Akis Mantzios, since 2025",
+   "flags": [],
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cyprus_national_football_team",
+    "https://en.wikipedia.org/wiki/Akis_Mantzios"
+   ]
+  }
+ },
+ {
+  "name": "Czech Republic",
+  "C": {
+   "score": 6,
+   "evidence": "Solid but not outstanding atmospheres; home matches spread over several stadiums (Eden Arena main venue). Good travelling support at Euros."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "FAČR sponsors include betting firm Fortuna (lowers V). No recent UEFA discrimination sanction for the national team found."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Claims Czechoslovakia's record: World Cup finalists 1934 and 1962, Euro 1976 winners (Panenka penalty); Euro 1996 finalists, Euro 2004 semi-finalists. 2026 World Cup: first in 20 years, out in the group stage."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Repeated corruption cases: 2017 raid and arrest of chairman Miroslav Pelta (subsidies); October 2020 raid, vice-chair Roman Berbr detained (referee corruption). David Trunda chairman since May 2025."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. No net change: physical, energetic, direct side with a stable core (Souček, Schick, captain Ladislav Krejčí); but discipline issues (three players dropped in Sept 2023 after a night out in the team hotel) and coach churn (Hašek, Koubek, now Santi Denia, the first foreign coach, from July 2026 after finishing bottom of their WC group)."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 95/100, RSF 2026 rank 11/180."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Czech_Republic_national_football_team",
+   "https://en.wikipedia.org/wiki/Football_Association_of_the_Czech_Republic",
+   "https://freedomhouse.org/country/czechia/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Santi Denia, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Czech_Republic_national_football_team",
+    "https://www.france24.com/en/live-news/20260731-spaniard-santi-denia-takes-over-as-czech-republic-coach"
+   ]
+  }
+ },
+ {
+  "name": "Denmark",
+  "C": {
+   "score": 8,
+   "evidence": "'Roligans' fan culture: loud, friendly, big travelling support; Parken sell-outs. Roligans received a UNESCO/fair-play recognition in the 1980s."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Friendly, non-violent supporter culture; DBU openly critical of FIFA over Qatar 2022 (toned-down protest kit) and did not back Infantino. No discrimination sanctions found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Euro 1992 winners, 'Danish Dynamite' 1986, Euro 2020 semi-finals after Eriksen's collapse. Lost the 2026 World Cup play-off final to Czechia on penalties."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "DBU: stable, transparent federation with a strong reform voice in UEFA/FIFA governance."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. Up 1: Christian Eriksen (151 caps, record appearances, the 2021 collapse and return) is still in the squad and inseparable from the team; strong, famously close bond between players and Roligans; humble, stable squad led by captain Pierre-Emile Højbjerg. Brian Riemer coach since Oct 2024 (attacking, pressing intent). Lost the WC play-off final to Czechia."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 97/100, RSF 2026 rank 4/180."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Denmark_national_football_team",
+   "https://en.wikipedia.org/wiki/Roligans",
+   "https://freedomhouse.org/country/denmark/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [
+    "Christian Eriksen"
+   ],
+   "coach": "Brian Riemer, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Denmark_national_football_team",
+    "https://www.beinsports.com/en-us/soccer/uefa-nations-league/articles/denmark-appoint-riemer-as-full-time-hjulmand-successor-2024-10-24"
+   ]
+  }
+ },
+ {
+  "name": "England",
+  "C": {
+   "score": 8,
+   "evidence": "Very large away followings (hundreds of thousands travelled to Germany in 2024), England Band, Wembley sell-outs; home atmosphere often flat."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "July 2021 Euro final: ticketless fans stormed Wembley; UEFA fined the FA and ordered a match behind closed doors. Recurring nationalist chants ('No surrender', 'Ten German bombers'); racist online abuse of players after the 2021 final. FA has no betting partner and invests heavily in the women's team (European champions)."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Oldest national team (1872), 1966 World Cup winners, central to the game's history. 3rd at the 2026 World Cup (beat France 6-4 in the third-place match)."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "The FA: independent, transparent; no corruption case of note."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6 (mid-block, talent-heavy). Up 1: captain Harry Kane (captain since 2018, record scorer) is an icon inseparable from the team; Tuchel's 2026 side was praised for togetherness and a strong connection with travelling fans; 3rd at the 2026 World Cup (best since 1966). Tuchel only since 2025, so no long-serving-coach credit."
+  },
+  "adjustments": [
+   {
+    "type": "violence",
+    "points": -5,
+    "evidence": "Wembley disorder at the Euro 2020 final (UEFA sanction: closed-door match, fine); earlier tournament disorder (e.g. Marseille 2016)."
+   }
+  ],
+  "flags": [
+   "Violence -5 is a judgement call: serious 2021 disorder, but no repeat UEFA sanction since. 0 to -8 defensible.",
+   "No government adjustment: Freedom House 2026 (United Kingdom) Free 92/100, RSF 2026 rank 18/180 (earlier draft had 29th; corrected)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/England_national_football_team",
+   "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/france-england-report-highlights-bronze-final",
+   "https://freedomhouse.org/country/united-kingdom/freedom-world/2026",
+   "https://rsf.org/en/country/united-kingdom"
+  ],
+  "team": {
+   "icons": [
+    "Harry Kane"
+   ],
+   "coach": "Thomas Tuchel, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/England_national_football_team",
+    "https://sports.yahoo.com/articles/tuchel-says-england-players-proud-023321444.html",
+    "https://www.englandfootball.com/articles/2026/Sep/16/Thomas-Tuchel-Reflections-England-World-Cup-Journey-film-20261609"
+   ]
+  }
+ },
+ {
+  "name": "Estonia",
+  "C": {
+   "score": 4,
+   "evidence": "Small crowds at A. Le Coq Arena (about 15,000 capacity); limited atmosphere and away following."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No discrimination sanctions for the national team found. No notable raises or lowers."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Never qualified for a major tournament; best was the Euro 2012 play-offs."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "EJL president Aivar Pohlak since 2007 (long tenure); no corruption case found."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Old S 3. No change: defensive, low-possession side; coach Jürgen Henn; captain Karol Mets. No distinctive culture signals found."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 96/100, RSF 2026 rank 3/180."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Estonia_national_football_team",
+   "https://en.wikipedia.org/wiki/Estonian_Football_Association",
+   "https://freedomhouse.org/country/estonia/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Jürgen Henn, since 2025",
+   "flags": [
+    "Henn start year not verified."
+   ],
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Estonia_national_football_team",
+    "https://jalgpall.ee/"
+   ]
+  }
+ },
+ {
+  "name": "Faroe Islands",
+  "C": {
+   "score": 7,
+   "evidence": "Tiny, loyal, community support; Tórsvøllur (about 5,000) sells out for big games; strong identity for a nation of about 55,000."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Community-based, amateur-rooted football culture; regional/national identity within the Danish realm. No sanctions found."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Famous 1-0 win over Austria in 1990 (first competitive match) and wins over Greece (2014, 2015); no tournaments."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "FSF: small, stable federation; no scandals found."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 4. Up 2: best-ever qualifying campaign (2026 WC, 3rd in group; home wins 4-0 Montenegro and 2-1 Czechia) with a mostly part-time, homegrown, humble squad; Eyðun Klakstein (first Faroese coach since 2009, a crime novelist) since Feb 2025; long-serving captain Hallur Hansson; organised, hard-working, quick breaks."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Faroe Islands not rated separately; Denmark: Freedom House 2026 Free 97/100, RSF 2026 rank 4/180."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Faroe_Islands_national_football_team",
+   "https://freedomhouse.org/country/denmark/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Eyðun Klakstein, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Faroe_Islands_national_football_team",
+    "https://www.olympics.com/en/news/faroe-islands-2026-world-cup-quest",
+    "https://local.fo/football-klakstein-takes-over-as-head-coach-of-faroe-islands-national-team/"
+   ]
+  }
+ },
+ {
+  "name": "Finland",
+  "C": {
+   "score": 6,
+   "evidence": "Loyal support; thousands travelled to St Petersburg and Copenhagen for the first major tournament (Euro 2020). Supporter group 'Pohjoispääty'."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Positive, family-friendly support; no sanctions found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Only one major tournament (Euro 2020, group stage)."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "SPL/Palloliitto: stable federation, no scandals found."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 4. Up 1: stable, humble squad led by long-serving captain Lukas Hradecky; positive family-style support. Jacob Friis coach since January 2025. Style still organised and set-piece reliant."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 100/100, RSF 2026 rank 6/180."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Finland_national_football_team",
+   "https://freedomhouse.org/country/finland/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Jacob Friis, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Finland_national_football_team",
+    "https://en.wikipedia.org/wiki/Jacob_Friis"
+   ]
+  }
+ },
+ {
+  "name": "France",
+  "C": {
+   "score": 6,
+   "evidence": "Big national support, but Stade de France atmosphere is often ordinary; limited organised away culture compared with peers."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "FFF sponsors include betting firm Betclic. FFF ban on players wearing the hijab (upheld by the Conseil d'État in 2023). Very diverse squads; strong women's programme."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "World Cup winners 1998 and 2018, finalists 2006 and 2022, Euro winners 1984 and 2000; Platini, Zidane, Mbappé. 4th at the 2026 World Cup."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "President Noël Le Graët resigned in 2023 after an audit and harassment allegations; Philippe Diallo now president."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 6 (pragmatic counter-attack). Down 1 for culture: star-led squad around captain Kylian Mbappé; Deschamps (2012-2026, the defining coach) left after the 2026 World Cup (4th); Zinedine Zidane took over in 2026 and his first squad dropped Tchouaméni and Marcus Thuram. No pressing identity; player-fan bond ordinary."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 89/100, RSF 2026 rank 25/180.",
+   "Hijab ban: Kevin to decide whether it should lower V (kept inside the V=5)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/France_national_football_team",
+   "https://en.wikipedia.org/wiki/French_Football_Federation",
+   "https://freedomhouse.org/country/france/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [
+    "Kylian Mbappé"
+   ],
+   "coach": "Zinedine Zidane, since 2026",
+   "flags": [
+    "Mbappé listed as icon, but the star culture is also why T went down; Kevin may prefer 6."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/France_national_football_team",
+    "https://www.france24.com/en/live-news/20260918-new-france-boss-zidane-confirms-mbappe-as-captain-after-naming-first-squad",
+    "https://www.fifa.com/en/articles/zidane-named-france-coach"
+   ]
+  }
+ },
+ {
+  "name": "Georgia",
+  "C": {
+   "score": 9,
+   "evidence": "Euro 2024 debut drew huge, loud crowds; Boris Paichadze Dinamo Arena (about 55,000) regularly full and very loud; national celebrations after beating Portugal."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "UEFA fined the GFF (€40,000 and a match without spectators) after pitch invasions, lasers and fireworks aimed at Armenian fans (March 2025). Leading players backed the 2024 protests against the 'foreign agents' law."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Euro 2024: first tournament, reached the last 16 after beating Portugal. Dinamo Tbilisi's Soviet-era tradition."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "GFF president Levan Kobiashvili entered parliament with the ruling Georgian Dream in 2016; the state president installed by Georgian Dream (Mikheil Kavelashvili) is an ex-international. Federation seen as close to the ruling party."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. Up 1: captain Khvicha Kvaratskhelia is the icon of the team; players stood with the public in the 2024 protests and celebrate closely with fans (Euro 2024 run). Down-weight: Willy Sagnol, coach since 2021 and architect of Euro 2024, was sacked on 26 Sept 2026 after losing to Northern Ireland; U21 coach Ramaz Svanadze takes over to 2028."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -15,
+    "evidence": "Freedom House 2026: Partly Free, 51/100. RSF 2026 rank 135/180 after the Georgian Dream crackdown on media and protests."
+   }
+  ],
+  "flags": [
+   "Consider -20: continuing crackdown since late 2024; FH trend down.",
+   "2025 UEFA sanction was for disorder aimed at Armenian fans; not coded as racism/violence adjustment (single case)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Georgia_national_football_team",
+   "https://oc-media.org/georgian-football-federation-fined-in-response-to-poor-fan-behaviour-during-match-with-armenia/",
+   "https://www.rferl.org/a/georgia-soccer-protests-euro-politics-football/32932284.html",
+   "https://freedomhouse.org/country/georgia/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [
+    "Khvicha Kvaratskhelia"
+   ],
+   "coach": "Ramaz Svanadze, since 2026",
+   "flags": [
+    "Coach changed two days ago; T may drift down if results fall away."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Georgia_national_football_team",
+    "https://www.france24.com/en/live-news/20260926-sagnol-sacked-as-georgia-boss-after-nations-league-upset",
+    "https://www.maltanewsagency.com/2026/09/georgia-part-ways-with-sagnol-svanadze-appointed-new-head-coach/"
+   ]
+  }
+ },
+ {
+  "name": "Germany",
+  "C": {
+   "score": 6,
+   "evidence": "Large crowds but a moderate, event-style atmosphere; organised fan club (Fan Club Nationalmannschaft). Club ultras largely ignore the national team."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Strong women's programme and anti-discrimination work; no fan sanctions found. Sponsor list not fully audited."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Four World Cups (1954, 1974, 1990, 2014), three Euros; one of the most significant national teams. 2026 World Cup: out in the round of 32 to Paraguay on penalties."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "DFB (president Bernd Neuendorf since 2022). 2006 World Cup payments affair ('Sommermärchen') led to tax proceedings and criminal trials of former officials."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 7. No change yet: Nagelsmann's proactive, pressing side went out in the WC round of 32 to Paraguay; Jürgen Klopp took over on 15 Aug 2026 (four-year deal, Krawietz and Lijnders as assistants), a pressing identity but not yet long-serving. Captain Joshua Kimmich."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 95/100, RSF 2026 rank 14/180 (earlier draft had 17th; corrected).",
+   "2006 affair details not re-verified this session."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Germany_national_football_team",
+   "https://en.wikipedia.org/wiki/German_Football_Association",
+   "https://freedomhouse.org/country/germany/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Jürgen Klopp, since 2026",
+   "flags": [
+    "Klopp could justify +1 once his style is visible; re-check next season."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Germany_national_football_team",
+    "https://www.dfb.de/news/juergen-klopp-appointed-new-germany-head-coach",
+    "https://www.cnn.com/2026/07/24/sport/jurgen-klopp-germany-head-coach"
+   ]
+  }
+ },
+ {
+  "name": "Gibraltar",
+  "C": {
+   "score": 3,
+   "evidence": "Very small crowds (Victoria Stadium, about 2,000); limited away following."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No sanctions found. Community-scale football; no notable raises or lowers."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "UEFA member only since 2013; a few competitive wins (first in 2018)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "GFA: small federation; no scandals found. Recurring political friction with Spain over fixtures (UEFA keeps them apart)."
+  },
+  "S": {
+   "score": 2,
+   "evidence": "Old S 2. No change: deep defensive block, very low possession; community-scale squad of mostly local semi-professionals (humble, but no stand-out bond evidence). Coach Scott Wiseman, confirmed in May 2025; captain Graeme Torrilla."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: British overseas territory, not rated separately; United Kingdom: Freedom House 2026 Free 92/100, RSF 2026 rank 18/180."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gibraltar_national_football_team",
+   "https://freedomhouse.org/country/united-kingdom/freedom-world/2026",
+   "https://rsf.org/en/country/united-kingdom"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Scott Wiseman, since 2024",
+   "flags": [
+    "Humble part-time squad could merit +1 like the Faroes and Andorra; left at 2 for lack of evidence."
+   ],
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gibraltar_national_football_team",
+    "https://www.gibraltarfa.com/"
+   ]
+  }
+ },
+ {
+  "name": "Greece",
+  "C": {
+   "score": 6,
+   "evidence": "Club rivalries dominate Greek fan culture; national-team crowds are moderate outside big games. Big celebrations in 2004."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No recent UEFA discrimination sanction for the national team found. Greek club football has a serious violence record (club level, not coded here)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Euro 2004 winners, one of the biggest shocks in football history; World Cups 1994, 2010, 2014 (last 16)."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "FIFA suspended Greece briefly in 2006 over political interference and imposed a temporary administration after the 2015 match-fixing scandal; ex-HFF presidents convicted of economic crimes in 2019. Chrysostomos Gkagkatsis president since 2024."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. Up 1: energetic young side under Ivan Jovanović (since 2024); strong team bond after George Baldock's death in Oct 2024 (the squad dedicated the 2-1 win at Wembley to him days later); long-serving captain Anastasios Bakasetas."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment by the brief's thresholds: Freedom House 2026 Free 85/100, but RSF 2026 rank 86/180 (low for the EU; spyware and media-pressure concerns). Kevin may want -10.",
+   "S based on 2025 qualifying reports; not verified in depth."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Greece_national_football_team",
+   "https://en.wikipedia.org/wiki/Hellenic_Football_Federation",
+   "https://freedomhouse.org/country/greece/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Ivan Jovanović, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Greece_national_football_team",
+    "https://en.wikipedia.org/wiki/George_Baldock"
+   ]
+  }
+ },
+ {
+  "name": "Hungary",
+  "C": {
+   "score": 8,
+   "evidence": "Very loud, large followings at Euro 2016, 2020 and 2024; Puskás Aréna sell-outs. Ultra bloc 'Carpathian Brigade' drives the atmosphere."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "Carpathian Brigade is a far-right ultra bloc; homophobic banners and racist abuse led to UEFA closed-door sanctions after Euro 2020 (anti-LGBTQ banners at all three home games) and a FIFA fan ban after racist abuse of England players (2021). Orbán-era ministers attacked UEFA over the sanctions."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "'Mighty Magyars': 1953 6-3 win at Wembley, World Cup finals 1938 and 1954, Puskás; hugely influential on the game's tactics."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "MLSZ president Sándor Csányi (since 2010), banker close to the former Orbán government; football heavily state-funded through the TAO tax scheme and a stadium-building boom."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. Up 1: Marco Rossi is a defining long-serving coach (since 2018, contract to 2030, kept on after the 2026 WC qualifying collapse vs Ireland); captain Dominik Szoboszlai is the team's icon; tight bond between players and fans (Euro 2024, Varga injury). Organised press-and-transition play."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026 (covering 2025): Partly Free, 65/100. RSF 2026 rank 74/180. Orbán's Fidesz lost the April 2026 election; Péter Magyar (Tisza) PM since May 2026."
+   },
+   {
+    "type": "racism",
+    "points": -15,
+    "evidence": "Repeated UEFA/FIFA sanctions for racist and homophobic fan conduct (Euro 2020 closed-door matches, €100,000 fine; FIFA 2021 fan ban for racism vs England); far-right Carpathian Brigade tolerated."
+   }
+  ],
+  "flags": [
+   "Government changed after the April 2026 election; revisit -10 when FH/RSF 2027 reflect it.",
+   "Racism -15 is the top of the national rule; no new UEFA sanction after 2021-22 found in this check."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hungary_national_football_team",
+   "https://en.wikipedia.org/wiki/Hungarian_Football_Federation",
+   "https://www.espn.com/soccer/hungary-hun/story/4430023/hungary-to-play-games-without-fans-for-discriminatory-fan-behaviour-uefa",
+   "https://www.seattletimes.com/sports/hungary-gets-1-match-fan-ban-217000-fifa-fine-for-racism/",
+   "https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz",
+   "https://freedomhouse.org/country/hungary/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [
+    "Dominik Szoboszlai"
+   ],
+   "coach": "Marco Rossi, since 2018",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hungary_national_football_team",
+    "https://dailynewshungary.com/marco-rossi-hungarian-football-team-ireland/",
+    "https://en.mlsz.hu/hir/new-national-team-staff-welcomed"
+   ]
+  }
+ },
+ {
+  "name": "Iceland",
+  "C": {
+   "score": 8,
+   "evidence": "The 'Viking clap'; around 8-10% of the population travelled to Euro 2016. Small, loyal home crowds at Laugardalsvöllur."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Community-based football, strong coaching-education model; no fan sanctions found."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Euro 2016 quarter-finals (beat England), 2018 World Cup as the smallest nation ever to qualify."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "KSÍ board resigned in 2021 over its handling of sexual-misconduct allegations against national-team players; reformed since."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. No change: organised, direct, set-piece side; coach Arnar Gunnlaugsson since Jan 2025; 22-year-old Orri Óskarsson captain since March 2025 (squad in transition from the 2016-18 generation)."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 95/100, RSF 2026 rank 12/180.",
+   "KSÍ 2021 case from general knowledge, not re-fetched this session."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Iceland_national_football_team",
+   "https://freedomhouse.org/country/iceland/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Arnar Gunnlaugsson, since 2025",
+   "flags": [
+    "Albert's appeal outcome not found; if convicted on appeal and still selected, move to -2. KSÍ did apply its suspension rule while he was charged, so 0 is also defensible."
+   ],
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Iceland_national_football_team",
+    "https://en.wikipedia.org/wiki/Albert_Gu%C3%B0mundsson_(footballer,_born_1997)",
+    "https://www.footitalia.com/news/gudmundsson-case-takes-new-turn-prosecutor-appeals-acquittal/"
+   ]
+  }
+ },
+ {
+  "name": "Israel",
+  "C": {
+   "score": 4,
+   "evidence": "Home matches played mostly in Hungary since the 2023 Gaza war, with small crowds; limited away following."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "IFA includes clubs based in West Bank settlements, the basis of calls (Ireland, Norway, Spain, Türkiye, UN experts) for UEFA/FIFA suspension in 2025; a UEFA vote was prepared then paused. No UEFA discrimination sanction for the national team found. [Players: -1. Striker Shon Weissman's Oct 2023 posts supporting the destruction of Gaza (his Fortuna Düsseldorf move was cancelled in 2025 over them); no IFA action against him found.]"
+  },
+  "H": {
+   "score": 3,
+   "evidence": "One World Cup (1970); former AFC member, UEFA since 1994."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "IFA: no major corruption case found; governance questioned over settlement clubs."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 4. No change: mid-table, reactive side; coach Ran Ben Shimon since May 2024; captain Eli Dasa. Home matches mostly abroad in 2023-25 (security), limiting the player-fan bond."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "Freedom House 2026: Israel Free, 73/100, but Gaza Strip 2/100 and West Bank 22/100 (Not Free) under Israeli control/occupation. RSF 2026 rank 116/180. ICC arrest warrant for the Prime Minister (2024) over the Gaza war."
+   }
+  ],
+  "flags": [
+   "Government adjustment is a judgement call: Free rating for Israel proper vs occupation and Gaza-war record. -15 to -25 defensible; set at -20. Kevin to decide.",
+   "Possible UEFA/FIFA suspension still debated; check status before finalising."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Israel_national_football_team",
+   "https://www.cbc.ca/sports/soccer/uefa-israel-suspension-vote-1.7643221",
+   "https://www.aljazeera.com/sports/2025/11/8/irish-football-body-overwhelmingly-backs-call-for-israels-ban-from-uefa",
+   "https://freedomhouse.org/country/israel/freedom-world/2026",
+   "https://freedomhouse.org/countries/freedom-world/scores",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Ran Ben Shimon, since 2024",
+   "flags": [
+    "Weissman's national-team selection after the posts not verified; set to 0 if he was not picked."
+   ],
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Israel_national_football_team",
+    "https://zeteo.com/p/game-over-israel-campaign-demands"
+   ]
+  }
+ },
+ {
+  "name": "Italy",
+  "C": {
+   "score": 6,
+   "evidence": "National team support is lukewarm compared with club ultras; ageing stadiums, rotating venues. Strong turnouts for tournaments."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Italy banned gambling advertising in sport in 2019 (Decreto Dignità), so no betting sponsors. No UEFA discrimination sanction for the national team found in this check. [Players: -1. Oct 2023: Tonali and Zaniolo left the Italy camp over the illegal-betting investigation (Tonali banned 10 months). March 2024: Acerbi sent home over an alleged racist slur at Juan Jesus (later cleared for lack of evidence); FIGC's responses were prompt.]"
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Four World Cups (1934, 1938, 1982, 2006), Euros 1968 and 2020; a defining national team. Missed a third straight World Cup in 2026 (lost the play-off to Bosnia on penalties)."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "FIGC president Gravina resigned in April 2026 citing 'lack of reforms' and 'inertia'; Giovanni Malagò elected 22 June 2026. Silvio Baldini caretaker coach (June 2026)."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 5. Down 1: no settled identity or stable squad; five head coaches in three years (Spalletti, Gattuso, interim Baldini, now Roberto Mancini back from July 2026 after he had walked out in 2023); missed a third straight World Cup. Captain Gianluigi Donnarumma."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 87/100, RSF 2026 rank 56/180 (lowish for Western Europe).",
+   "Coach situation after June 2026 not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Italy_national_football_team",
+   "https://en.wikipedia.org/wiki/Italian_Football_Federation",
+   "https://www.aljazeera.com/sports/2026/4/2/world-cup-2026-italys-football-chief-resigns-after-qualifying-failure",
+   "https://freedomhouse.org/country/italy/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Roberto Mancini, since 2026",
+   "flags": [
+    "Betting case is at the edge of the 3-year window (Oct 2023)."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Italy_national_football_team",
+    "https://www.aljazeera.com/sports/2026/7/28/mancini-to-become-italy-head-coach-for-second-time-source-says",
+    "https://www.espn.com/soccer/story/_/id/39758303/inter-milan-acerbi-leaves-italy-camp-amid-racism-allegation",
+    "https://www.soccerway.com/news/spalletti-defends-decision-to-allow-tonali-and-zaniolo-to-leave-italy-squad/niQWElTI"
+   ]
+  }
+ },
+ {
+  "name": "Kazakhstan",
+  "C": {
+   "score": 4,
+   "evidence": "Moderate crowds at Astana Arena (26,539 vs Liechtenstein, Oct 2025); limited organised support or away following."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Federation operates in a state-dominated system; no fan sanctions found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "UEFA member since 2002 (from AFC); never qualified; best was the Euro 2024 play-offs."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "KFF close to the state establishment (typical for the political system); not verified in detail this session."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 4. No net change: organised, defensive side; coach churn (Cherchesov, Baysufinov twice, John van 't Schip back from August 2026); captain Nuraly Alip. No distinctive culture signals."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "Freedom House 2026: Not Free, 23/100. RSF 2026 rank 149/180."
+   }
+  ],
+  "flags": [
+   "KFF governance/government ties not verified in detail; O=3 is an estimate."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kazakhstan_national_football_team",
+   "https://freedomhouse.org/country/kazakhstan/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "John van 't Schip, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kazakhstan_national_football_team",
+    "https://kz.kursiv.media/en/2026-08-07/engk-nknk-kazakhstan-football-federation-unveils-john-van-t-schip-as-national-team-head-coach/",
+    "https://kff.kz/en/news/27988"
+   ]
+  }
+ }
+]

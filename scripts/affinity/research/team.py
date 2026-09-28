@@ -54,7 +54,18 @@ O_DELTA = {
     'Sheffield United': (-1, 'Maddy Cusack case: warned about the coach, flawed club inquiry'),
 }
 # Republic link: regulars only. None = not yet checked (agent value used, flagged in the report).
-REPUBLIC_REGULARS = None
+# Checked 2026-09-27 against ESPN league lineups (starts / squads). Borderline: Pittsburgh (Amann 13 of 27
+# starts, in every squad), Indy Eleven (Kibunguchy 6 starts in 13 since signing, started the last 4).
+REPUBLIC_REGULARS = {
+    'Los Angeles Football Club',        # Aaron Long, captain, starts when fit
+    'Colorado Springs Switchbacks FC',  # Matt Mahoney 18/23, Khori Bennett 23/25
+    'Monterey Bay FC',                  # Nick Ross 22/24
+    'New Mexico United',                # Chris Gloster 24/25
+    'San Antonio FC',                   # Taintor 23/23, Cuello 18/22, Suarez 17/20, Parano 15/23
+    'Tampa Bay Rowdies',                # Russell Cicerone 20/23
+    'Pittsburgh Riverhounds',           # Trevor Amann 13/25 (borderline)
+    'Indy Eleven',                      # Nabilai Kibunguchy 6/9 (borderline)
+}
 
 
 def score(e, w, nation, bonus):

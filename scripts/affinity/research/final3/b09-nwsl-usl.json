@@ -1,0 +1,1872 @@
+[
+ {
+  "name": "Angel City FC",
+  "C": {
+   "score": 7,
+   "evidence": "Average 19,756 (2023) falling to 16,257 (2025) and 15,321 (2026, 4th in NWSL) at BMO Stadium (22,000, shared soccer-specific). Organised supporters' section; among the league's larger crowds."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Founded around a community model (share of sponsorship value to local programmes); record NWSL shirt deal with DoorDash; no betting sponsor found. 2024: fined $200,000 and docked 3 points for salary-cap violations."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2020, first season 2022. No trophies."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Bob Iger and Willow Bay majority since July 2024 ($50m at a $250m valuation) plus a large celebrity/founder group. Heavy investment; frequent coach turnover (Coombe 2023, Tweed 2024, Straus fired June 2026)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Heavy coach churn: Tweed fired Dec 2024, three interims, Straus (June 2025) fired June 2026, Smerud interim. Captain Sarah Gorden (at club since 2022, outspoken on racial justice); Ali Riley and Christen Press no longer on the 2026 squad. High squad churn, no settled playing identity. Club founded around player/celebrity activism, but current squad not a welfare-fight leader. Net: stays 5."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Angel_City_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [
+    "Sarah Gorden"
+   ],
+   "coach": "Leif Gunnar Smerud (interim), since June 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Angel_City_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Bay FC",
+  "C": {
+   "score": 6,
+   "evidence": "Average 13,617 (2024), 14,823 (2025), 11,677 (2026) at PayPal Park (18,000, shared with San Jose Earthquakes). Young club, supporters' section still forming."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Founded by four ex-USWNT players (Chastain, Osborne, Slaton, Wagner); Treasure Island performance centre under construction (2025). No betting sponsor found; no welfare cases found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2023, first season 2024. Region has women's-game history (FC Gold Pride, WPS 2010 champion) but no lineage."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Majority owner Sixth Street (investment firm) paid a $53m expansion fee and committed $72m more. Founder-players and Sheryl Sandberg, Rick Welts in the group."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 4. Third season; Montoya resigned Nov 2025, Emma Coates 2026. 2025 co-captain Tess Boade now on Gotham's roster: churn. Founders (Chastain, Osborne, Slaton, Wagner) are equal-pay era figures but not players in the squad. Abby Dahlkemper captain. No icon, 13th twice."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -6,
+    "evidence": "Sixth Street, a global investment firm, is majority owner."
+   }
+  ],
+  "flags": [
+   "Sixth Street majority: scored as PE -6. Kevin to confirm the size (it is investment money, with a founder-player group)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bay_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season",
+   "https://en.wikipedia.org/wiki/2026_Bay_FC_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Emma Coates, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bay_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Boston Legacy",
+  "C": {
+   "score": 4,
+   "evidence": "Inaugural 2026 season: average 10,589, split between Gillette Stadium (NFL) and Centreville Bank Stadium (RI). No home in Boston until White Stadium (2028). NFL-stadium rule applied."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Launch branding 'BOS Nation' ('too many balls in this town') drew backlash; rebranded March 2025. White Stadium rebuild in a public park contested by the Emerald Necklace Conservancy (city won on appeal Aug 2026), costs rose from $50m to $325m. All-women lead ownership group."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2023, first season 2026. Boston Breakers (WUSA/WPS/NWSL, folded 2018) are not a direct lineage; crest nods to original NWSL clubs."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Boston Unity Soccer Partners, all-women lead group (Jennifer Epstein), many celebrity investors. Heavy stadium investment; no conduct issues found."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 4. Inaugural 2026 season, 14th of 16 under Filipa Patao; captain Nichelle Prince; squad assembled from scratch (expansion), no bond or icons yet."
+  },
+  "adjustments": [],
+  "flags": [
+   "White Stadium public-land dispute: Kevin may want to weigh it more."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Boston_Legacy_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Filipa Patao, since 2026",
+   "flags": [],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Boston_Legacy_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Chicago Stars",
+  "C": {
+   "score": 3,
+   "evidence": "Lowest NWSL average in 2026: 4,517. Moved from SeatGeek Stadium (Bridgeview) to Northwestern's Martin Stadium (12,023) in 2025. Long-running supporters (Chicago Local 134) but thin crowds."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Yates report (2022): owner Arnim Whisler knew of coach Rory Dames' abuse for years and did nothing; club and Whisler fined $1.5m (2023), Dames banned. Club sold since; no betting sponsor found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 2006 as Chicago Red Stars, WPS founding member (2009), NWSL founding member (2013). 2019 and 2021 NWSL finalists, no major trophy."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Laura Ricketts group bought the club in 2023 ($35.5m + $25m operational). Stadium instability (temporary college venue)."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 3. Worst results (16th 2026) and six coaches/interims since 2024 (Donaldson fired Apr 2025, Hemmi, Masar, Jacobson interims, Sjogren fired Aug 2026, Baez interim). Raised by Alyssa Naeher: captain, at the club since 2016, one of the players whose testimony fed the Yates report on Dames/Whisler; squad and fans pushed for the sale away from Whisler (2024). Net +1."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chicago_Stars_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [
+    "Alyssa Naeher"
+   ],
+   "coach": "Karina Baez (interim), since Aug 2026",
+   "flags": [
+    "Naeher is the club's lone continuity: if she retires T should drop back to 3."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chicago_Stars_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Denver Summit",
+  "C": {
+   "score": 6,
+   "evidence": "Inaugural 2026 average 17,354, inflated by an NWSL-record 63,004 at Empower Field (NFL) for the home opener; regular home is a temporary 12,000-seat venue in Centennial. Atmosphere evidence limited."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or welfare cases found. Permanent stadium promised in Denver (Santa Fe Yards) but delayed to about 2029."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Founded 2025, first season 2026."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Rob Cohen-led group paid a league-record $110m fee; Peyton Manning and Mikaela Shiffrin investors. Committed to a soccer-specific stadium."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Inaugural 2026 season, 10th under Nick Cushing. Co-captain Lindsey Heaps (USWNT captain, part of the equal-pay settlement/CBA generation) and Janine Sonis. New squad, no track record of fan bond yet."
+  },
+  "adjustments": [],
+  "flags": [
+   "Culture based on one season and a record one-off crowd; recheck after 2027."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Denver_Summit_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [
+    "Lindsey Heaps"
+   ],
+   "coach": "Nick Cushing, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Denver_Summit_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Gotham FC",
+  "C": {
+   "score": 6,
+   "evidence": "2026 average 10,728 at Sports Illustrated Stadium (Harrison, shared with Red Bull NY); Cloud 9 supporters' group. Record 42,175 at Citi Field (July 2026)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Sky Blue era (2017-19): no running water, showers or proper housing for players; reforms since. No betting sponsor found. Co-founded by Phil and Tammy Murphy (NJ governor until 2026)."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Founded 2006, WPS champion 2009, NWSL founding member, NWSL champion 2023 and 2025, CONCACAF W Champions Cup 2025."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Murphys, Carli Lloyd, Sue Bird, Eli Manning and others. Investment since the 2021 rebrand turned the club round."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 7. Juan Carlos Amoros since 2022: champions 2023 and 2025, 1st 2026. Captain Tierna Davidson, vice-captain Rose Lavelle, Mandy Freeman (USWNT equal-pay CBA generation). But a 'superteam' built on big-money signings with high turnover and a star profile, which the rubric does not reward. Stays 7."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/NJ/NY_Gotham_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [
+    "Rose Lavelle",
+    "Tierna Davidson"
+   ],
+   "coach": "Juan Carlos Amoros, since 2022",
+   "flags": [],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gotham_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Houston Dash",
+  "C": {
+   "score": 4,
+   "evidence": "2026 average 6,684 (14th of 16) at Shell Energy Stadium (20,656, shared with Dynamo)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Coach James Clarkson suspended 2022, terminated after an NWSL finding of emotional misconduct. No betting sponsor found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2014; 2020 Challenge Cup is the only trophy."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Ted Segal (majority since 2021, with Dynamo), James Harden and Tim Howard minority. Ordinary conduct."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 4. Poor results (14th, 10th, 12th). Raised by Jane Campbell: captain, goalkeeper at the club since 2017, the long-serving face of the club. Fabrice Gautrat coach since Jan 2025. Net +1."
+  },
+  "adjustments": [],
+  "flags": [
+   "Shares ownership with Houston Dynamo; check Dynamo sponsors if Kevin counts shared-group sponsors."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Houston_Dash",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [
+    "Jane Campbell"
+   ],
+   "coach": "Fabrice Gautrat, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Houston_Dash",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Kansas City Current",
+  "C": {
+   "score": 9,
+   "evidence": "CPKC Stadium (11,500), first stadium built for a women's team (2024), sold out every home match 2024 and 2025; 2026 average 11,500. Supporters: Blue Crew (from FC Kansas City), Surface Tension, The Undertow."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Owners privately funded the stadium and a training facility; shirt sponsor United Way of Greater Kansas City (2024-). No betting sponsor found. 2022 player complaints about coach Huw Williams."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2020, play since 2021. Fan base carries on from FC Kansas City (NWSL champions 2014, 2015) but not the same club."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Angie and Chris Long (local), Patrick and Brittany Mahomes. Large, sensible investment in stadium and facilities; strong conduct."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 7. Record 2025 Shield (65 pts, 16 clean sheets) with an aggressive attacking style; captain Lo'eau LaBonta (long-serving, with the franchise since its Utah/KC restart) and MVP Temwa Chawinga. Strong player-fan bond around CPKC Stadium. Coach changed: Vlatko Andonovski (2025) to Chris Armas (2026), 7th in 2026. Stays 7."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kansas_City_Current",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [
+    "Lo'eau LaBonta",
+    "Temwa Chawinga"
+   ],
+   "coach": "Chris Armas, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kansas_City_Current",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "North Carolina Courage",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 8,024 at WakeMed Soccer Park (10,000, Cary). Supporters' group present; smaller crowds than peers."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Coach Paul Riley fired Sept 2021 after sexual-coercion allegations surfaced (his abuse was at Portland; the Yates report covers it). No betting sponsor found (shirt: Merz Aesthetics)."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Continues the Western New York Flash (WPS 2011 champion, NWSL 2016 champion). As Courage: NWSL Shield 2017-19, Championships 2018-19, Challenge Cups 2022-23."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Steve Malik (local) with Capitol Broadcasting, the Holidays and Naomi Osaka. Downtown stadium plan stalled."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 6. The 2017-19 high-press dynasty has broken up; Sean Nahas fired Aug 2025, interim Thackeray, Mak Lind 2026. Captain changed (Denise O'Sullivan 2025, Natalie Jacobs 2026). Mid-table (9th, 9th). Net -1 for coach and squad churn."
+  },
+  "adjustments": [
+   {
+    "type": "franchise",
+    "points": -10,
+    "evidence": "[Review: Western New York Flash moved to North Carolina (2017).]"
+   }
+  ],
+  "flags": [
+   "Relocated franchise (bought the Western New York Flash rights and moved to Cary in 2017). No franchise adjustment applied; Kevin to decide if it should be -10. History counts the Courage titles, lightly credits the Flash."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/North_Carolina_Courage",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season",
+   "https://en.wikipedia.org/wiki/Western_New_York_Flash"
+  ],
+  "review": [
+   "franchise: -10 (Western New York Flash moved to North Carolina (2017))"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Mak Lind, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/North_Carolina_Courage",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Orlando Pride",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 7,963; 2025: 9,623 at Inter&Co Stadium (25,500, shared with Orlando City)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Coach Amanda Cromwell and assistant fired in 2022 for retaliation against players. No betting sponsor found. Yolanda Thomas first Black woman head coach in NWSL (interim, 2026)."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2015. NWSL Shield and Championship double in 2024; Marta era."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Wilf family (Minnesota Vikings) since 2021, with Orlando City. Ordinary conduct."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 5. Marta at the club since 2017 and still captain in 2026: an icon inseparable from the club. 2024 double under Seb Hines with a direct, pressing side (Banda). Hines fired Aug 2026, Yolanda Thomas interim; 11th in 2026. Net +1 for Marta."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Orlando_Pride",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [
+    "Marta"
+   ],
+   "coach": "Yolanda Thomas (interim), since Aug 2026",
+   "flags": [
+    "Marta is 40; when she leaves, T drops to about 5."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Orlando_Pride",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Portland Thorns",
+  "C": {
+   "score": 10,
+   "evidence": "League-leading crowds: 18,173 (2025, 1st), 19,087 (2026, 1st) at Providence Park. Rose City Riveters (since 2013) known for tifo and chanting."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Yates report (2022): club obstructed witness access; GM Gavin Wilkinson recommended Paul Riley to other clubs and downplayed abuse allegations. Club fined; Paulson sold. New ownership since 2024. No betting sponsor found. [Review: set to 8.]"
+  },
+  "H": {
+   "score": 9,
+   "evidence": "NWSL founding member; champions 2013, 2017, 2022; Shield 2016, 2021; the women's game's reference club for crowds."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Bhathal family (RAJ Sports) since January 2024; separate from the Timbers. Stable after the Paulson era."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. Thorns players (Sinclair, Klingenberg, Sauerbrunn, now retired) led the 2021-22 welfare fight that forced Paulson's sale; the Riveters-player bond is the league's strongest. Current icons Sophia Wilson (since 2020) and Olivia Moultrie (since 2019, signed at 15); captain Sam Hiatt. Coach churn (Gale fired, Vilahamn 2026). Net +1."
+  },
+  "adjustments": [],
+  "flags": [
+   "Values dropped from 8 to 6 for the Yates findings (brief requires welfare record). Kevin to confirm whether new ownership should soften it."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Portland_Thorns_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [
+    "Sophia Wilson",
+    "Olivia Moultrie"
+   ],
+   "coach": "Robert Vilahamn, since 2026",
+   "flags": [
+    "The welfare-fight credit belongs mostly to players who retired in 2024; Kevin may want less weight on it."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Portland_Thorns_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Racing Louisville",
+  "C": {
+   "score": 4,
+   "evidence": "Crowds falling: 6,223 (2024), 5,521 (2025), 5,548 (2026, 15th) at Lynn Family Stadium (15,304, shared with Louisville City)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "First coach Christy Holly fired for cause in 2021; Yates report detailed his sexual abuse of a player at Racing. GE Appliances shirt sponsor. No betting sponsor found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2019, first season 2021."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Soccer Holdings (John Neace), also owns Louisville City. In 2026 exploring sale; FC Cincinnati talks about a move to Cincinnati; commissioner says relocation possible."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 4. Bev Yanez since 2025 (Coach of the Year 2025, best season 7th); captain Arin Wright. 15th in 2026. Small, low-profile squad with no star-ego culture. Net +1 for a coach with an identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Possible sale/relocation to Cincinnati (ESPN, 2026). If it moves, add a franchise adjustment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Racing_Louisville_FC",
+   "https://www.espn.com/soccer/story/_/id/49883605/nwsl-racing-louisville-future-look-new-ownership-relocation-city-folding",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Bev Yanez, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Racing_Louisville_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "San Diego Wave",
+  "C": {
+   "score": 6,
+   "evidence": "19,575 average in 2024 (record opener 32,066) fell to 12,040 in 2026 at Snapdragon Stadium (35,000, college/multi-use). Sirens supporters' group."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "July 2024 ex-employees alleged an abusive workplace under president Jill Ellis; five filed suit (Oct 2024). No betting sponsor found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2021, first season 2022. NWSL Shield 2023, Challenge Cup 2024."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Lauren Leichtman and Arthur Levine (founders of PE firm Levine Leichtman) bought in 2024 at $113m; Alex Morgan, Jimmy Butler minority."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Alex Morgan (equal-pay leader) retired 2024; heavy churn and front-office turmoil 2024. Jonas Eidevall since Jan 2025 (2nd in 2026). Captain Kenza Dali (2026). Stays 6."
+  },
+  "adjustments": [],
+  "flags": [
+   "Owners are PE-firm founders; the purchase appears personal, so no PE adjustment. Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/San_Diego_Wave_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Jonas Eidevall, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/San_Diego_Wave_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Seattle Reign",
+  "C": {
+   "score": 4,
+   "evidence": "2026 average 7,300 at Lumen Field (NFL stadium, capped around 10,000). Royal Guard (2013), first women's supporters' group in the state."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Coach Farid Benstiti resigned 2021; investigation found weight-shaming abuse. Shirt sponsor Trupanion (2025-); earlier Black Future Co-op Fund. No betting sponsor found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "NWSL founding member (2013); Shields 2014, 2015, 2022; finals 2014, 2015, 2023; Rapinoe era."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Bought in 2024 by the Seattle Sounders ownership and The Carlyle Group ($58m) from OL Groupe."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Old S 6. Laura Harvey is the defining coach (founding coach 2013-17, back since 2021). Jess Fishlock at the club since 2013 and still co-captain: icon and a leading voice on player welfare; Megan Rapinoe (equal-pay leader) until 2023; Lauren Barnes a one-club player to 2025. Low churn by NWSL standards. Net +2."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "The Carlyle Group, a private-equity firm, co-owns the club with the Sounders."
+   },
+   {
+    "type": "rival",
+    "points": -5,
+    "evidence": "Rival of a club Kevin follows."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seattle_Reign_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [
+    "Jess Fishlock"
+   ],
+   "coach": "Laura Harvey, since 2021 (also 2013-17)",
+   "flags": [
+    "Cascadia rival: -5 adjustment applies separately.",
+    "Fishlock is 39; T should drop when she retires."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Seattle_Reign_FC",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Utah Royals",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 8,884 at America First Field (20,213, shared with Real Salt Lake)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Original Royals (2018-20) folded after racist and sexist conduct allegations against then-owner Dell Loy Hansen; current club under new owners. No betting sponsor or welfare cases found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Original team 2018-20, revived 2024."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Miller Sports + Entertainment (Gail Miller, local) majority since April 2025; David Blitzer minority."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Jimmy Coenraets since 2024 turned a last-place expansion side into 4th in 2026; captain Paige Cronin. No icons yet. Stays 6."
+  },
+  "adjustments": [],
+  "flags": [
+   "David Blitzer (minority) has a multi-club portfolio; not treated as a network club, no adjustment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Utah_Royals",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Jimmy Coenraets, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Utah_Royals",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Washington Spirit",
+  "C": {
+   "score": 8,
+   "evidence": "Averages 13,934 (2024), 15,259 (2025), 15,797 (2026, 3rd) at Audi Field. Spirit Squadron and Rose Room Collective supporters."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Fanatics Sportsbook partnership (May 2026), the first NWSL club sportsbook deal found. 2021: coach Richie Burke dismissed for abuse; owner Steve Baldwin forced out. Kang invests heavily in the women's game."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "NWSL founding member, successor to D.C. United Women; champion 2021, finalist 2016, 2024, 2025; Challenge Cup 2025."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Michele Kang majority since 2022; heavy investment."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Old S 7. Spirit players' 2021 letter and campaign forced owner Baldwin out after the Burke abuse case (welfare fight led by this squad). Captain Aubrey Kingsbury at the club since 2019; Trinity Rodman an icon. High-press, attacking identity under Giraldez then Adrian Gonzalez (finals 2024, 2025, 3rd 2026). Net +1."
+  },
+  "adjustments": [],
+  "flags": [
+   "Multi-club reduced from -8 to -6 (Spirit is the flagship, not a feeder)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Washington_Spirit",
+   "https://www.intergameonline.com/land-based-gaming/news/fanatics-sportsbook-and-washington-spirit-launch-partnership-deal",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ],
+  "review": [
+   "multiclub: dropped (Kang flagship (Lyon, London City secondary))"
+  ],
+  "team": {
+   "icons": [
+    "Trinity Rodman",
+    "Aubrey Kingsbury"
+   ],
+   "coach": "Adrian Gonzalez, since July 2025",
+   "flags": [],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Washington_Spirit",
+    "https://en.wikipedia.org/wiki/2026_NWSL_season",
+    "https://en.wikipedia.org/wiki/2025_NWSL_season"
+   ]
+  }
+ },
+ {
+  "name": "Birmingham Legion FC",
+  "C": {
+   "score": 4,
+   "evidence": "2026 average 3,503 (2025: 4,490) in the 47,100-seat Protective Stadium, a college-football bowl. Supporters: Magic City Brigade, The Puentas 12."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or conduct issues found."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Founded 2017, play since 2019. 2023 US Open Cup win over MLS side Charlotte FC."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Local business group (Jim Rein, Lee Styslinger III and others); Jay Heaps is president, GM and coach."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 3. Coach churn: Tom Soehn (2018-25) fired Apr 2025, Mark Briggs, then Jay Heaps 2026. Raised by captain Phanuel Kavita, at the club since its first season (2019). Poor results. Net +1."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Birmingham_Legion_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [
+    "Phanuel Kavita"
+   ],
+   "coach": "Jay Heaps, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Birmingham_Legion_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Brooklyn FC",
+  "C": {
+   "score": 3,
+   "evidence": "Inaugural 2026 season: average 2,142 at Maimonides Park (7,000, minor-league baseball ground, Coney Island)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Runs a professional women's team in the USL Super League since 2024, before the men's side. No betting sponsor found."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Founded 2023; men's team first season 2026. Older 'Brooklyn FC' names are unrelated."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Controlled by New York family office North Sixth Group (chair Matt Rizzetta)."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Old S 3. Inaugural 2026 season, 12th of 13 East under Marlon LeBlanc (Dec 2025). Veteran captain Tommy McNamara; new squad, no bond yet."
+  },
+  "adjustments": [],
+  "flags": [
+   "North Sixth Group may hold stakes in other clubs; not verified, so no multi-club adjustment."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brooklyn_FC_(USL)",
+   "https://www.uslchampionship.com/news_article/show/1354712",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Marlon LeBlanc, since Dec 2025",
+   "flags": [],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Brooklyn_FC_(2026)",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Charleston Battery",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 3,991 at Patriots Point Soccer Complex (Mount Pleasant) since 2020, after 20 years at purpose-built Blackbaud/MUSC Health Stadium. The Regiment supporters' group."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or conduct issues found. Long record of developing players for MLS."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Founded 1993, the oldest continuously operating US pro club. League titles 1996, 2003, 2010, 2012; 2008 US Open Cup final; 2023 USL final."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Rob Salvatore owner since 2019. Ordinary conduct; move to a smaller complex."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 7. Ben Pirmann since 2022: energetic, attacking, pressing sides (final 2023, 2nd East 2024 and 2026). Captain Emilio Ycaza. Stays 7."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Charleston_Battery",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Ben Pirmann, since 2022",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Charleston_Battery",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Colorado Springs Switchbacks FC",
+  "C": {
+   "score": 6,
+   "evidence": "2026 average 6,190 at Weidner Field (8,000, downtown, opened 2021; new-stadium drop nearly faded). Trailheads SG independent supporters."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or conduct issues found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2013, play since 2015. 2024 USL Championship title."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Weidner Apartment Homes (Dean Weidner), local owner who backed the downtown stadium."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. 2024 champions; James Chambers replaced by Alan McCann for 2026 (3rd West). Captain Matt Mahoney, long-serving centre-back. Stays 6."
+  },
+  "adjustments": [
+   {
+    "type": "republic",
+    "points": 2,
+    "evidence": "Captain Matt Mahoney, Duke Lacroix and Khori Bennett are former Republic players on the 2026 roster (Wikipedia category 'Sacramento Republic FC players' matched against the club's current Wikipedia roster, updated 2026)."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Colorado_Springs_Switchbacks_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [
+    "Matt Mahoney"
+   ],
+   "coach": "Alan McCann, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Colorado_Springs_Switchbacks_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ },
+ {
+  "name": "Detroit City FC",
+  "C": {
+   "score": 9,
+   "evidence": "Northern Guard Supporters: smoke, chanting, tifo; 2026 average 6,138 at Keyworth Stadium (7,933, 1936) in Hamtramck. Loyal support since the 2012 amateur (NPSL) days."
+  },
+  "V": {
+   "score": 9,
+   "evidence": "Fan culture openly anti-racist, anti-fascist and inclusive; first US team to wear a pro-LGBTQ+ kit in a match (2014). Women's team since 2020. No betting sponsor found."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 2012 by five residents; rose from NPSL to USL Championship (2022). Growing place in US lower-league culture."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Founders keep control; fans bought investment units (over $1m in five days in 2020). New AlumniFi Field under way for 2028. Reported losses of $9.62m 2021-24."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. Strong player-fan bond (players with the Northern Guard, community events, supporter-driven club). Stable core: captain Devon Amoo-Mensah and Maxi Rodriguez (at DCFC since the late NPSL/2019 era). Founding coach Trevor James (2012-24) gone; Danny Dichio since 2025, 3rd East 2026. Net +1."
+  },
+  "adjustments": [],
+  "flags": [
+   "Fan-investor units, not member ownership: O 8 (was 9). Kevin to confirm."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Detroit_City_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [
+    "Maxi Rodriguez",
+    "Devon Amoo-Mensah"
+   ],
+   "coach": "Danny Dichio, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Detroit_City_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ },
+ {
+  "name": "El Paso Locomotive FC",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 5,131 at Southwest University Park (7,500, shared baseball ground). Rivalries with New Mexico United and FC Juarez."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or conduct issues found."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Founded 2018; Western Conference finals 2019 and 2020."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "MountainStar Sports Group (local; also owns the baseball Chihuahuas)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Coach churn (Wilmer Cabrera 2025, Junior Gonzalez 2026) but 1st West in 2026. Captain Arturo Ortiz. Stays 6."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/El_Paso_Locomotive_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Junior Gonzalez, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/El_Paso_Locomotive_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "FC Tulsa",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 4,242 at ONEOK Field (baseball). 83UNITED official supporters; record 9,507 for the 2025 USL final."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or conduct issues found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2013 as Tulsa Roughnecks in homage to the NASL Roughnecks (Soccer Bowl 1983); not a direct lineage. 2025 Western Conference champions."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Craft family (JW, Ryan, Kyle) since 2019."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Luke Spencer since Nov 2024: 1st West 2025 and a final; 6th 2026. Captain Abdoulaye Cissoko. Stays 6."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Tulsa",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Luke Spencer, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/FC_Tulsa",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Hartford Athletic",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 3,021 (about 4,900 in 2019-25) at Trinity Health (Dillon) Stadium, 1935, about 5,700. The Bonanza and Raza Brava in the east end, 'Brass Bonanza' Whalers chant."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor found. Sept 2025: players refused to finish a match after alleging a racial slur by a Pittsburgh player; league found it unsubstantiated."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2018. 2025 USL Cup, first trophy. Historic city ground."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Hartford Sports Group (Calafiore, Mandell, Schooley)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Brendan Burke since 2024; captain Jordan Scarlett (2025-26). Sept 2025: players refused to finish a match after an alleged racial slur against a teammate, a squad standing together. Stays 6."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hartford_Athletic",
+   "https://pittsburghsoccernow.com/2025/09/26/hartford-athletic-statement-usl-championship-investigation-finds-allegation-of-racial-slur-unsubstantiated/",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Brendan Burke, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hartford_Athletic",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Indy Eleven",
+  "C": {
+   "score": 7,
+   "evidence": "2026 average 8,566 (4th) at Carroll Stadium. Brickyard Battalion formed in 2011 before the club, 2,000+ members."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Shirt sponsor Ford (2024-). Women's team won the 2023 USL W League. No betting sponsor found."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 2013. 2016 NASL spring title unbeaten, 'Miracle at the Mike'."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Ersal Ozdemir (Keystone Group). $1bn Eleven Park stalled: city withdrew financial support (Jan 2026) amid a clash with the mayor's MLS bid."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Sean McAuley since 2023; captain Aodhan Quinn. Mid-table; Brickyard Battalion bond is fan-led. Stays 5."
+  },
+  "adjustments": [
+   {
+    "type": "republic",
+    "points": 2,
+    "evidence": "Defender Nabilai Kibunguchy, a former Republic player, is on the 2026 roster (Wikipedia category 'Sacramento Republic FC players' matched against the club's current Wikipedia roster, updated 2026)."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Indy_Eleven",
+   "https://en.wikipedia.org/wiki/Eleven_Park",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Sean McAuley, since 2023",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Indy_Eleven",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ },
+ {
+  "name": "Las Vegas Lights FC",
+  "C": {
+   "score": 3,
+   "evidence": "2026 average 2,843 at Cashman Field; final season there (land rezoned), 2027 venue unknown. BLVD Locals supporters."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Shirt sponsor Silk Title. Known for promotions (casino chips as a player hat-trick reward). No betting sponsor found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2017."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Group led by Jose Bautista since January 2024. No home ground secured for 2027."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 5. Three coaches in three seasons (Dennis Sanchez to NMU Dec 2024, Antonio Nocerino 2025, Devin Rensing 2026); high churn, promotional-gimmick culture. Captain Christian Pinzon; Aaron Guillen (ex-Tampa captain) joined. Net -1."
+  },
+  "adjustments": [],
+  "flags": [
+   "Stadium uncertainty for 2027; recheck location."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Las_Vegas_Lights_FC",
+   "https://lvsportsbiz.com/2026/08/13/soccers-las-vegas-lights-roll-out-45-multi-game-ticket-deal-that-includes-cashman-fields-final-game-oct-17/",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Devin Rensing, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Las_Vegas_Lights_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Lexington SC",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 4,776 at Lexington SC Stadium (7,500, opened 2024). Railbirds supporters (2022)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Professional women's team in the USL Super League (2nd in 2025-26). Shirt sponsor UK HealthCare. No betting sponsor found."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Founded 2021; promoted from League One to the Championship in 2025."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Local owners Bill and Donna Shively and Stephen Dawahare; privately built stadium."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Coach churn (Darren Powell to Terry Boss 2025 to Masaki Hemmi 2026); young club. Captain Kendall Burks; Marcus Epps. Stays 5."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lexington_SC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Masaki Hemmi, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lexington_SC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ },
+ {
+  "name": "Loudoun United FC",
+  "C": {
+   "score": 2,
+   "evidence": "2026 average 1,625 (2025: 2,333) at Segra Field (5,000). Loudoun Stampede supporters."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Betfred (betting) shirt sponsor in 2023; CORAS since 2024. Adding a USL W League women's team in 2026."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2018 as D.C. United's reserve side."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Attain Sports and Entertainment majority since 2023; D.C. United keeps a minority stake."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Old S 3. D.C. United's former reserve side: high churn, coaches change (Ryan Martin left for Oakland; Anthony Limbrick 2026). Captain Jacob Erlandson. Stays 3."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "D.C. United (MLS) keeps a minority stake; the club began as its reserve affiliate."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Loudoun_United_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Anthony Limbrick, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Loudoun_United_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Louisville City FC",
+  "C": {
+   "score": 8,
+   "evidence": "2026 average 9,528 (2nd) at Lynn Family Stadium (15,304, 2020). The Coopers (2013) predate the club."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Sister NWSL club Racing Louisville (investment in women's football); its first coach Christy Holly was fired in 2021 for abuse. No betting sponsor found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 2014 by moving Orlando City's USL franchise. USL titles 2017, 2018; Players' Shield 2024, 2025."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Soccer Holdings (John Neace, local). Built the stadium; the group is looking to sell part of or all of Racing Louisville."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 7. Shields 2024 and 2025 with an intense, front-foot side under Danny Cruz (since 2023, still listed as coach 2026). Stable core: Sean Totsch (since 2018) and captain Kyle Adams; Coopers-player bond strong. Stays 7."
+  },
+  "adjustments": [],
+  "flags": [
+   "Franchise moved from Orlando in 2014 (no fan base moved). No franchise adjustment applied."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Louisville_City_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [
+    "Sean Totsch"
+   ],
+   "coach": "Danny Cruz, since 2023",
+   "flags": [
+    "final/ says 2026 was with an interim coach; the 2026 season page lists Cruz. Check."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Louisville_City_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Miami FC",
+  "C": {
+   "score": 1,
+   "evidence": "Lowest average in the league: 924 (2026), about 1,075 in 2024, at FIU's 20,000-seat Pitbull Stadium. Dade Brigade supporters."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or conduct issues found (shirt sponsor Helbiz)."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Founded 2015 in the NASL; NASL spring and fall titles 2017, NPSL titles 2018-19."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Riccardo Silva (Silva International). Crowds collapsed; 3-2-29 in 2024. Planned move to a 15,000-seat Homestead development."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Old S 3. Worst record 2024, 9th East 2026; Gaston Maddoni since Jan 2025; captain Daltyn Knutson. High churn, tiny crowds. Stays 3."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Miami_FC",
+   "https://www.miamifc.com/news/2025/09/18/miami-fc-unveils-new-stadium-plans/",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Gaston Maddoni, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Miami_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Monterey Bay FC",
+  "C": {
+   "score": 4,
+   "evidence": "2026 average 3,466 at Cardinale Stadium (6,000, CSU Monterey Bay). Several supporters' groups (The Rising Tide, Los Hinchas, Fuerza Union 831)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Shirt sponsor Montage Health. No betting sponsor found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2021 using the franchise rights of defunct Fresno FC."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Ray Beshoff (regional businessman)."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Old S 3. Bottom of the West for years; coach changes; captain Nico Gordon. Stays 3."
+  },
+  "adjustments": [
+   {
+    "type": "republic",
+    "points": 2,
+    "evidence": "Midfielder Nick Ross, a former Republic player, is on the 2026 roster (Wikipedia category 'Sacramento Republic FC players' matched against the club's current Wikipedia roster, updated 2026)."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Monterey_Bay_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Jordan Stewart (listed on 2026 season page; final/ notes an April 2026 change)",
+   "flags": [
+    "Coach unclear: final/ says changed April 2026; 2026 season page still shows Jordan Stewart."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Monterey_Bay_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ },
+ {
+  "name": "New Mexico United",
+  "C": {
+   "score": 8,
+   "evidence": "2026 average 9,032 (3rd) at Isotopes Park (baseball). Five supporters' groups incl. The Curse; a statewide identity."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Somos Unidos Foundation; strong statewide community identity. No betting sponsor found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2018. 2019 Open Cup run beating two MLS clubs; West regular-season winners 2024."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Peter Trevisani (local) majority. City approved a new stadium at Balloon Fiesta Park (2024) after a failed 2021 bond vote."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Consistent top-2 West (1st 2024, 2nd 2026); Eric Quill left for FC Dallas, Dennis Sanchez since Dec 2024. Captain Will Seymore. Players visible in statewide community work. Stays 6."
+  },
+  "adjustments": [
+   {
+    "type": "republic",
+    "points": 2,
+    "evidence": "Chris Gloster and Luther Archimede, both former Republic players, are on the 2026 roster (Wikipedia category 'Sacramento Republic FC players' matched against the club's current Wikipedia roster, updated 2026)."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/New_Mexico_United",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Dennis Sanchez, since Dec 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/New_Mexico_United",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ },
+ {
+  "name": "Oakland Roots SC",
+  "C": {
+   "score": 6,
+   "evidence": "2026 average 5,610 at the Oakland Coliseum (MLB/NFL bowl, since 2025; leaving after 2026). La Union 1852 (La Brigada Del Pueblo, Oakland 68s, Homegrown Hooligans)."
+  },
+  "V": {
+   "score": 10,
+   "evidence": "Pledges 1% of payroll and ticket revenue to Common Goal; Oakland Roots Justice Fund; sister women's pro club Oakland Soul. Mission-driven identity."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2018 by Oakland natives."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Founders Edreece Arghandiwal and Benno Nagel with community investors and local figures. Unsettled stadium plans (Howard Terminal)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Coach churn (Glinton, then Ryan Martin 2026); 11th West. Co-captains Tyler Gibson and Tommy McCabe. Players take part in the club's community mission, but results and turnover hold it at 5."
+  },
+  "adjustments": [],
+  "flags": [
+   "Coliseum is a large multi-use bowl; -1 applied in Culture."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Oakland_Roots_SC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Ryan Martin, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Oakland_Roots_SC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Orange County SC",
+  "C": {
+   "score": 4,
+   "evidence": "2026 average 4,143 at Championship Soccer Stadium (5,000, Great Park). County Line Coalition (2014)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or conduct issues found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2010 as LA Blues. 2021 USL Championship title."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "James Keston since 2016. Stable."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Danny Stone since Dec 2024 (interim before); captain Tom Brewitt. 8th West 2026. Stays 5."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Orange_County_SC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Danny Stone, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Orange_County_SC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ },
+ {
+  "name": "Phoenix Rising FC",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 5,023 (2025: 4,868; 7,358 in 2022). Los Bandidos Football Firm. Several stadium moves (Tempe, Chandler, Phoenix 2023)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "2020: Junior Flemmings accused of a homophobic slur at San Diego Loyal's Collin Martin; player and coach suspended and fined. No betting sponsor found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2014 as Arizona United. 2019 regular-season title, 2023 USL Championship."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Principal owner Pablo Prichard; investors include Didier Drogba."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Pa-Modou Kah since Nov 2024; captain Pape Mar Boye; high churn. Stays 5."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Phoenix_Rising_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Pa-Modou Kah, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Phoenix_Rising_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://www.phxrisingfc.com/roster/"
+   ]
+  }
+ },
+ {
+  "name": "Pittsburgh Riverhounds",
+  "C": {
+   "score": 7,
+   "evidence": "Steel Army (2007); 2026 average 5,280 fills the 5,000-seat F.N.B. Stadium at Station Square."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor found (shirts: Allegheny Health Network, 84 Lumber). 2025 slur allegation against a player ruled unsubstantiated."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1998, first pro outdoor club in the city since 1967. 2025 USL Championship title."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Tuffy Shallenberger, local, rescued the club from Chapter 11 (2014). Privately funded stadium."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 7. Bob Lilley's hard-working, organised identity (2018-25) won the 2025 title; he has left, Rob Vincent coaches 2026 (4th East). Captain Danny Griffin; Steel Army bond at a sold-out small ground. Stays 7; would have been 8 with Lilley."
+  },
+  "adjustments": [
+   {
+    "type": "republic",
+    "points": 2,
+    "evidence": "Forward Trevor Amann, a former Republic player, is on the 2026 roster (Wikipedia category 'Sacramento Republic FC players' matched against the club's current Wikipedia roster, updated 2026)."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pittsburgh_Riverhounds_SC",
+   "https://pittsburghsoccernow.com/2025/09/26/hartford-athletic-statement-usl-championship-investigation-finds-allegation-of-racial-slur-unsubstantiated/",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Rob Vincent, since 2026",
+   "flags": [
+    "Lilley's departure: keep 7 or drop to 6?"
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pittsburgh_Riverhounds_SC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ },
+ {
+  "name": "Rhode Island FC",
+  "C": {
+   "score": 7,
+   "evidence": "2026 average 8,178 (5th) at Centreville Bank Stadium (10,500, Pawtucket, 2025). Rhode Island Defiance 1636 supporters."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Shirt Breeze Airways, sleeve Centreville Bank. No betting sponsor found. Stadium about $130m."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2019, play since 2024. 2024 final in the first season."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Brett Johnson and Michael Parkhurst."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Khano Smith since 2023 (final 2024); captain Koke Vegas. Young club. Stays 5."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rhode_Island_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Khano Smith, since 2023",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rhode_Island_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Sacramento Republic FC",
+  "C": {
+   "score": 9,
+   "evidence": "Highest average in the league: 10,037 (2026) at Heart Health Park (11,569). Tower Bridge Battalion. Sellout culture since 2014. [Review: set to 9.]"
+  },
+  "V": {
+   "score": 8,
+   "evidence": "First club and stadium owned by a tribal nation (Wilton Rancheria); stadium on the tribe's ancestral land in the Railyards. No betting sponsor found; tribal casino money behind the owner does not count."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 2012. 2014 USL Pro title in the first season; 2022 US Open Cup final, first non-MLS finalist since 2008. [Review: set to 6.]"
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Wilton Rancheria majority, Kevin Nagle minority. Privately financed $350m, 20,000+ seat Republic Stadium under construction for 2028. (Ownership 8 is Kevin's fixed call.)"
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 5. Mark Briggs left Nov 2024; Neill Collins since Dec 2024, many draws. Captain Lee Desmond (at the club since 2020); Rodrigo Lopez (captain, icon) gone from the 2026 roster. Players and Tower Bridge Battalion bond is strong (sellout culture). Net +1."
+  },
+  "adjustments": [],
+  "flags": [
+   "Culture 8 (was 10) on the league-agnostic scale: 10k crowd, not a Dortmund-level atmosphere. History 6 (was 7). Kevin to confirm."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sacramento_Republic_FC",
+   "https://www.sacrepublicfc.com/news/2026/03/24/wilton-rancheria-and-republic-fc-to-build-sacramentos-largest-professional-sports-venue-republic-stadium-to-seat-20000/",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [
+    "Lee Desmond"
+   ],
+   "coach": "Neill Collins, since Dec 2024",
+   "flags": [
+    "Kevin's own club: T 6 vs old S 5 is a judgement call."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sacramento_Republic_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "San Antonio FC",
+  "C": {
+   "score": 6,
+   "evidence": "2026 average 6,098 at Toyota Field (8,296). Crocketteers and Mission City Firm."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or conduct issues found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2016, replacing the NASL San Antonio Scorpions (2014 champions). 2022 USL Championship title."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Spurs Sports & Entertainment. Stable."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Carlos Llamosa since Dec 2024; captain Mitchell Taintor. 4th West, USL Cup semis 2026. Stays 6."
+  },
+  "adjustments": [
+   {
+    "type": "republic",
+    "points": 2,
+    "evidence": "Captain Mitchell Taintor, Cristian Parano, Emil Cuello, EJ Johnson and Santiago Suarez (on loan from New England) are former Republic players on the 2026 roster (Wikipedia category 'Sacramento Republic FC players' matched against the club's current Wikipedia roster, updated 2026)."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/San_Antonio_FC",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [
+    "Mitchell Taintor"
+   ],
+   "coach": "Carlos Llamosa, since Dec 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/San_Antonio_FC",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ },
+ {
+  "name": "Sporting JAX",
+  "C": {
+   "score": 2,
+   "evidence": "Inaugural 2026 season: average 1,807 (24th of 25) at UNF's Hodges Stadium; permanent 15,000-seat stadium planned."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Professional women's team in the USL Super League since 2025, before the men. No betting sponsor found."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Founded 2022; men's first season 2026."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Ricky Caplin (venture capitalist), Tim Tebow, Fred Taylor. CEO left March 2026."
+  },
+  "S": {
+   "score": 2,
+   "evidence": "Old S 2. Inaugural 2026, last in the East; Liam Fox coach; CEO departed March 2026, Mark Warburton made president. New squad, no bond yet."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sporting_Club_Jacksonville",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Liam Fox, since 2026",
+   "flags": [],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sporting_JAX",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season"
+   ]
+  }
+ },
+ {
+  "name": "Tampa Bay Rowdies",
+  "C": {
+   "score": 6,
+   "evidence": "2026 average 4,971 at waterfront Al Lang Stadium (7,500). Ralph's Mob with green-and-gold stripes. Lease extension to 2027 requested; city plans to expand the stadium."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or conduct issues found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Phoenix of the NASL Rowdies (1975 Soccer Bowl, one of the best-known NASL names). Modern club: NASL 2012 champions."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Bought by Patrick Zalupski's group in 2025 as part of the Tampa Bay Rays sale."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 7. 1st East 2026, but churn at the top: Robbie Neilson (2024-25) replaced by Dominic Casciato; long-time captain Aaron Guillen left for Las Vegas, Leo Fernandes gone; Lewis Hilton captain. Net -1 for lost continuity."
+  },
+  "adjustments": [
+   {
+    "type": "republic",
+    "points": 2,
+    "evidence": "Forward Russell Cicerone, a former Republic player, is on the 2026 roster (Wikipedia category 'Sacramento Republic FC players' matched against the club's current Wikipedia roster, updated 2026)."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tampa_Bay_Rowdies",
+   "https://www.tampabay.com/news/st-petersburg/2026/03/10/tampa-bay-rowdies-extension-al-lang-st-petersburg-rays/",
+   "https://en.wikipedia.org/wiki/2026_USL_Championship_season"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Dominic Casciato, since 2026",
+   "flags": [
+    "Wyke re-signing: finding was overturned; Kevin may still want -1."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tampa_Bay_Rowdies",
+    "https://en.wikipedia.org/wiki/2026_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/2025_USL_Championship_season",
+    "https://en.wikipedia.org/wiki/Laurence_Wyke",
+    "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+   ]
+  }
+ }
+]

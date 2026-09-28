@@ -1,0 +1,1479 @@
+[
+ {
+  "name": "Alavés",
+  "C": {
+   "score": 6,
+   "evidence": "Mendizorrotza (1924, 19,840) is a traditional ground; Iraultza 1921 supply a singing section. Solid but not elite atmosphere; loyal through drops to the third tier."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Basque club (regional identity raise). 2026-27 front-of-shirt sponsor is MK-Tiyu-News, a surrogate brand of an Asian sports-betting operator (lower). Iraultza 1921 on Spain's official list of violent groups since 2022."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Reached the 2001 UEFA Cup final (lost 5-4 to Liverpool, golden goal) and the 2017 Copa del Rey final. Solid regional club with famous moments."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Owned by the Baskonia-Alavés group (Josean Querejeta; local Vitoria sports group that also runs the Baskonia basketball club); president Alfonso Fernández de Trocóniz. Stable local ownership."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Energetic, duel-heavy side under Coudet (2025-26); Quique Sánchez Flores (pragmatic, defensive) took over for 2026-27. Captain Antonio Sivera (GK, at the club since 2019). Squad built largely on loans and short deals (Boyé, Denis Suárez, Mariano); no current icon. Ordinary player-fan bond."
+  },
+  "adjustments": [],
+  "flags": [
+   "MK-Tiyu-News shirt sponsor treated as a betting surrogate: confirm Kevin counts it as sports betting.",
+   "Check whether the Baskonia-Alavés group holds stakes in other football clubs (not verified)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s",
+   "https://about.macron.com/en/news/kit-launches/deportivo-alaves-2026-27-away-kit/",
+   "https://stadiumdb.com/stadiums/esp/estadio_de_mendizorroza",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Quique Sánchez Flores, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+   ]
+  }
+ },
+ {
+  "name": "Athletic Club",
+  "C": {
+   "score": 10,
+   "evidence": "San Mamés (53,289) regularly near full; among the loudest and most loyal crowds in Europe; huge crowds for the gabarra celebration after the 2024 Copa del Rey."
+  },
+  "V": {
+   "score": 9,
+   "evidence": "Basque identity and cantera policy (only players born or trained in the greater Basque Country since 1911); Lezama academy is the first-team pathway; Athletic Femenino five-time Spanish champions; member-run club."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Anchor: never relegated, 8 league titles, 24 Copas (2024 win ended a 40-year drought), unique player policy."
+  },
+  "O": {
+   "score": 10,
+   "evidence": "Anchor: member-owned association; members elect the president, who cannot invest personal funds."
+  },
+  "S": {
+   "score": 9,
+   "evidence": "Old S 7. High-energy pressing identity (Valverde 2022-2026). Cantera policy gives the lowest churn in Europe: captain Iñaki Williams (one-club, record run of consecutive Liga matches), Nico Williams renewed to 2035 in 2025 despite Barcelona interest, Unai Simón, Sancet, Vivian, Laporte back from academy roots. Players celebrated the 2024 Copa with ~1m on the Nervión (gabarra). Edin Terzić new coach (2026); Valverde era over."
+  },
+  "adjustments": [],
+  "flags": [
+   "Coach Edin Terzić is new; Style may need a revisit after 2026-27."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Athletic_Bilbao",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [
+    "Iñaki Williams",
+    "Nico Williams",
+    "Unai Simón"
+   ],
+   "coach": "Edin Terzić, since 2026",
+   "flags": [
+    "V_delta +1 overlaps the cantera credit already in V; Kevin to decide if it double counts.",
+    "Terzić is new: revisit T after 2026-27."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Athletic_Bilbao",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+   ]
+  }
+ },
+ {
+  "name": "Celta Vigo",
+  "C": {
+   "score": 7,
+   "evidence": "Balaídos (24,870) under phased rebuild; Celtarras and peñas provide a steady singing section; strong local following in Vigo."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Galician identity; A Madroa academy players form a large part of the first team under Claudio Giráldez (promoted from the B team); women's team; Celtarras are left-wing Galician ultras."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "EuroCelta era (wins over Liverpool, Juventus, Benfica around 1999-2000), Champions League 2003-04 after a 4th-place finish; Iago Aspas era."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Mouriño family holds about 68%; Marián Mouriño president since 2023 (first woman in the role). Stable, prudent spending."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Old S 7. Claudio Giráldez (promoted from Celta B in 2024) plays an intense, pressing, possession game with a young A Madroa core (Hugo Álvarez, Javi Rodríguez, Hugo Sotelo, Damián Rodríguez); 6th and Europa League in 2025-26. Captain Iago Aspas (Moaña-born, 2008-13 and 2015-now) renewed in May 2026 for a final season and joins the club structure to 2029. Strong local bond."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [
+    "Iago Aspas (final season 2026-27)"
+   ],
+   "coach": "Claudio Giráldez, since 2024",
+   "flags": [
+    "Aspas retires in 2027: T should drop about 1 then."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo",
+    "https://www.laregion.es/deportes/iago-aspas-confirma-sera-ultima_1_20260526-4291451.html"
+   ]
+  }
+ },
+ {
+  "name": "Deportivo La Coruña",
+  "C": {
+   "score": 8,
+   "evidence": "Riazor (32,490) kept 25,001 season-ticket holders even in the third tier (2022-23); Riazor Blues and ~200 peñas; promoted back to La Liga in 2026 after eight years away."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Galician identity; Riazor Blues are an anti-fascist group (a member, Jimmy, was killed in a 2014 brawl with Frente Atlético). Estrella Galicia shirt sponsor. Women's team. [Players: +1. Notable Abegondo/Galician core in the first team (Villares, Yeremay, Barcia). No conduct or welfare cases found.]"
+  },
+  "H": {
+   "score": 8,
+   "evidence": "1999-2000 La Liga champions, 'Centenariazo' Copa win at the Bernabéu (2002), Champions League semi-final 2004 ('Super Depor')."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Abanca (Galician bank controlled by Juan Carlos Escotet) owns ~99% after converting debt; Escotet is president. Rescued and invested; not fan-owned."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 5. Promoted in 2025-26 under Antonio Hidalgo with an attacking side built around homegrown winger Yeremay Hernández (stayed despite big offers) and captain Diego Villares (Galician, from the region). Strong squad-fan bond from the third-tier years; icon Lucas Pérez left in 2025. Moderate churn plus big-name arrivals (Aubameyang listed in the squad)."
+  },
+  "adjustments": [],
+  "flags": [
+   "Bank ownership: O 6 assumes Kevin sees Abanca's rescue as acceptable conduct."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [
+    "Yeremay Hernández"
+   ],
+   "coach": "Antonio Hidalgo, since 2025",
+   "flags": [
+    "Aubameyang in the squad per Wikipedia: not verified elsewhere."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n"
+   ]
+  }
+ },
+ {
+  "name": "Elche",
+  "C": {
+   "score": 6,
+   "evidence": "Martínez Valero (33,732) well supported for the city size; ordinary atmosphere, occasional big nights."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Owner Christian Bragarnik is also a major player agent; Spanish press reported investigations into his alleged funding of Argentine barras bravas. No betting shirt sponsor found. [Players: -2. Signed Rafa Mir on loan from Sevilla in 2025 while he was already charged with the Sept 2024 sexual assault in Bétera and played him all season; terminated the loan and contract only after his June 2026 conviction (8.5 years). Counts as standing by a player facing credible allegations.]"
+  },
+  "H": {
+   "score": 5,
+   "evidence": "1969 Copa del Rey final, 5th in 1963-64; yo-yo club between Primera and Segunda."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Score Club 2019 SL (Bragarnik) owns 97%+ since 2019; agent-owner conflict of interest."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 6. Front-foot possession and press (Sarabia, now Martín Anselmi, 2026). High churn: squad built on loans and players linked to the owner's agency network (Buonanotte, Lemar, Redondo, Ponce). Captain Pedro Bigas (veteran). No icon, ordinary fan bond."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Bragarnik's network includes Chilean clubs Unión La Calera and San Luis de Quillota."
+   }
+  ],
+  "flags": [
+   "Agent-owner: consider an extra 'other' adjustment for conflict of interest."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Elche_CF",
+   "https://elcierredigital.com/pizarra-deportiva/christian-bragarnik-polemico-dueno-argentino-elche-cf-investigado-por-financiacion-barras-bravas",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Martín Anselmi, since 2026",
+   "flags": [
+    "Rafa Mir: Elche knowingly signed and played him while charged; -2 applied."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elche_CF",
+    "https://www.que.es/2026/06/18/elche-rescinde-rafa-mir/",
+    "https://www.elindependiente.com/espana/2026/05/28/comienza-juicio-rafa-mir-agresion-sexual/"
+   ]
+  }
+ },
+ {
+  "name": "Espanyol",
+  "C": {
+   "score": 6,
+   "evidence": "RCDE Stadium (40,000, opened 2009 after 12 seasons at Montjuïc) is a modern bowl on the city edge; Curva RCDE provides a singing end; crowds solid, atmosphere ordinary."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Historic Brigadas Blanquiazules ultras had far-right links (club has distanced itself). Women's team with past titles. 2026-27 shirt sponsor Arctempus (not betting). Owner model now multi-club."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1900; two UEFA Cup finals (1988, 2007); four Copas del Rey (last 2006)."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Velocity Sports Partners (sports investment arm of ALK Capital, Alan Pace, also Burnley's owner) bought a majority stake in October 2025 from Chen Yansheng/Rastar in a deal worth up to EUR 200m."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Manolo González (promoted from the B team in 2024) has a compact, direct, hard-running side. Vice-captain Javi Puado is an academy product and the face of the team; captain Leandro Cabrera, third captain Pol Lozano (academy). Churn rising with loans under the new multi-club owners. Ordinary fan bond."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Same owners as Burnley (VSP/ALK Capital); Pace says each club is run independently."
+   },
+   {
+    "type": "pe",
+    "points": -5,
+    "evidence": "Owner is a sports investment vehicle (Velocity Sports Partners, ALK Capital)."
+   }
+  ],
+  "flags": [
+   "Check whether acquisition debt sits on the club (Burnley's takeover was leveraged); if so an lbo adjustment may apply."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RCD_Espanyol",
+   "https://alkcapital.com/2025/10/velocity-sports-partners-complete-acquisition-of-rcd-espanyol-de-barcelona/",
+   "https://ca.sports.yahoo.com/news/burnley-owners-expand-multi-club-111900764.html",
+   "https://www.espn.com/soccer/story/_/id/46592179/burnley-owner-keen-avoid-crystal-palace-style-uefa-issue",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [
+    "Javi Puado"
+   ],
+   "coach": "Manolo González, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/RCD_Espanyol",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+   ]
+  }
+ },
+ {
+  "name": "Getafe",
+  "C": {
+   "score": 4,
+   "evidence": "Coliseum (16,500) in a Madrid suburb; ~12,000 members; modest, quiet crowds in the shadow of Real and Atlético."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No notable community or fan-voice positives found; signed Mason Greenwood on loan in 2023-24 amid public criticism. Shirt sponsor Tecnocasa (not betting)."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Founded in its current form in 1983; UEFA Cup quarter-final 2008 (lost to Bayern), Copa finals 2007 and 2008. Modest history."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Ángel Torres owner-president for over 20 years; stable, frugal, ordinary private ownership."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 4. Bordalás (2016-21, back since 2023) is a defining, long-serving coach: very intense, collective, running for each other, but the least possession-minded and most foul-heavy side in La Liga. Stable core: captain Djené (since 2017), David Soria, Juanmi. Small squad, low budget; ordinary fan bond."
+  },
+  "adjustments": [],
+  "flags": [
+   "Style: Bordalás is high-intensity but anti-possession; Kevin to decide whether intensity or negativity dominates (scored 4)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Getafe_CF",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "José Bordalás, since 2023 (also 2016-2021)",
+   "flags": [
+    "Team +1 from long-serving coach and stable squad; Kevin may see Bordalás's gamesmanship as a negative."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Getafe_CF",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+   ]
+  }
+ },
+ {
+  "name": "Levante",
+  "C": {
+   "score": 6,
+   "evidence": "Ciutat de València (26,354); loyal following through relegations; Ultras Levante/peñas give an ordinary to decent atmosphere."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Majority of shares held by the Fundación Levante UD (a club foundation rather than a private owner); established women's team (Levante UD Femenino). Oldest club in Valencia city."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 1909; Copa de la España Libre 1937; 6th and Europa League in 2011-12; famous 5-4 win over Barcelona in 2018."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Foundation-controlled SAD with small shareholders; president Pablo Sánchez. Past wage crisis (2007-08) under earlier boards."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Promoted as 2024-25 champions under Julián Calero; Luís Castro since late 2025; survived in 16th. Captain Roger Brugué, vice Adrián Dela; several loans from bigger clubs; no current icon (Morales era over)."
+  },
+  "adjustments": [],
+  "flags": [
+   "Fundación majority holding not re-verified this session: confirm current share structure."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Levante_UD",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Luís Castro, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Levante_UD",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+   ]
+  }
+ },
+ {
+  "name": "Málaga",
+  "C": {
+   "score": 7,
+   "evidence": "La Rosaleda (30,044) well filled even in Segunda; big city support that stayed through relegation to the second tier and the third tier (2023-24). Promoted to La Liga via 2026 play-off."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No betting sponsor verified; no notable positives or negatives found beyond long governance crisis. [Players: +1. Notable homegrown core in the first team. No player-conduct or welfare cases found despite the club's administration.]"
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Champions League quarter-final 2013 (lost late to Dortmund); Intertoto Cup 2002; solid regional club."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Majority owner Sheikh Abdullah Al Thani removed from management; club under court-appointed administrator José María Muñoz since 2020. April 2026 arrest warrant for the owner over misappropriation. Sale stalled."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 5. Rebuilt around its academy through the third tier: Funes (from the club's youth staff) promoted the team in 2026; captain Ramón Enríquez and several La Rosaleda-raised players (Puga, Galilea, Larrubia, Dani Lorenzo, Izan Merino). Strong squad-fan bond from the Primera RFEF season. No star culture."
+  },
+  "adjustments": [],
+  "flags": [
+   "Owner is a Qatari royal family member acting privately; not scored as state-backed. Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+   "https://www.elespanol.com/malaga/deporte/malaga-c-f/20250401/unica-via-comprar-malaga-cf-pasa-thani/935407095_0.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Juan Francisco Funes, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n"
+   ]
+  }
+ },
+ {
+  "name": "Osasuna",
+  "C": {
+   "score": 8,
+   "evidence": "El Sadar (23,516) rebuilt 2019-21 with steep stands close to the pitch; one of the loudest grounds in Spain; Indar Gorri ultras."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Member-owned; Navarrese/Basque regional identity; Tajonar academy produces a steady flow of first-team players; women's team. Indar Gorri are left-wing."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "UEFA Cup semi-final 2007, Copa del Rey finals 2005 and 2023, 4th in 1990-91 and 2005-06."
+  },
+  "O": {
+   "score": 10,
+   "evidence": "One of four member-owned professional clubs in Spain; members elect the president (Luis Sabalza)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 5. Hard-working, direct side; coach churn since Arrasate left (Moreno, Lisci, now Ramis). Stable Navarrese core: captain Kike Barja, Moncayola, Aimar Oroz, Herrera (since 2018), Rubén García, Budimir. Players close to the crowd at El Sadar."
+  },
+  "adjustments": [],
+  "flags": [
+   "2013 match-fixing by former directors (club sanctioned; CAS in 2023 allowed Conference League entry). Past, not current."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/CA_Osasuna",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Luis Miguel Ramis (coach in 2025-26; start date not verified)",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/CA_Osasuna",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+   ]
+  }
+ },
+ {
+  "name": "Racing Santander",
+  "C": {
+   "score": 8,
+   "evidence": "El Sardinero (22,222) drew big crowds even in the third tier; fans led the 2014-15 fight against the Ali Syed-era mismanagement; promoted as Segunda champions 2025-26 after 14 years away."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Cantabrian identity; fan-driven rescue in the mid-2010s; no betting shirt sponsor verified. [Players: +1. La Albericia academy players form the captaincy group (Sainz-Maza, Mantilla). No conduct or welfare cases found.]"
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founding member of La Liga (1929), runners-up 1930-31, first Spanish shirt sponsor (Teka, 1981), UEFA Cup 2008-09."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Controlled by Sebastián Ceria (Pitma group, Santander-born businessman); president Manuel Higuera. Stabilised the club after the 2011-14 crisis."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. José Alberto López (since 2023) built an attacking, high-scoring side that won Segunda 2025-26. Captain Íñigo Sainz-Maza (Cantabrian, academy), vice Álvaro Mantilla (academy); Íñigo Vicente and Andrés Martín the stars. Low churn over three seasons, close bond with El Sardinero."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Racing_de_Santander",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [
+    "Íñigo Vicente"
+   ],
+   "coach": "José Alberto López, since 2023",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Racing_de_Santander",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n"
+   ]
+  }
+ },
+ {
+  "name": "Rayo Vallecano",
+  "C": {
+   "score": 8,
+   "evidence": "Tiny, character-rich Vallecas ground in a working-class barrio; Bukaneros ultras; thousands marched against the president in 2026 and fan groups organised boycotts. Stadium closed by the regional government from 28 July to 14 September 2026 for safety failures."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Strong left-wing, anti-fascist, working-class identity and community activism (fans famously helped an evicted elderly neighbour). Lower: president neglected the women's team and stadium; season tickets sold for a stadium he knew could close."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Cult barrio club; UEFA Cup quarter-final 2001; Conference League 2025-26."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "Raúl Martín Presa (owner since 2011): sustained fan protests, stadium safety closure, poor treatment of fans and the women's team. [Players: -1, squad complaint to AFE over missing medical services.]"
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Old S 6. Íñigo Pérez's high-energy pressing side reached the 2026 Conference League final (lost 1-0 to Crystal Palace); Beñat San José now coach. Long-serving captain Óscar Valentín and vice Isi Palazón. In July 2026 the whole squad issued a statement backing the fans and Vallecas against the club and the regional government; players publicly side with the barrio."
+  },
+  "adjustments": [],
+  "flags": [
+   "Vallecas closure: Rayo played at Butarque until reopening; recheck Culture if the move becomes permanent."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://stadiumdb.com/news/2026/09/spain_spain_rayo_president_sold_season_tickets_for_a_closed_stadium_more_protests_follow",
+   "https://www.allfootballapp.com/articles/5256286-thousands-rayo-vallecano-fans-march-demand",
+   "https://www.democrata.es/en/sports/the-rayo-premieres-in-butarque-amid-the-clash-with-the-community-of-madrid-the-boycott-of-its-supporters-and-the-match-against-alaves/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [
+    "Isi Palazón",
+    "Óscar Valentín"
+   ],
+   "coach": "Beñat San José, since 2026",
+   "flags": [
+    "Welfare -1 reflects the owner, not the players; Kevin may prefer to put it in Ownership."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.elespanol.com/deportes/futbol/20260731/jugadores-rayo-cargan-comunidad-club-queremos-seguir-vallecas-podria-evitado/1003744340691_0.html",
+    "https://www.libertaddigital.com/deportes/liga/2026-02-07/el-durisimo-comunicado-del-rayo-que-destapa-las-verguenzas-de-martin-presa-7355956/",
+    "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+   ]
+  }
+ },
+ {
+  "name": "Real Sociedad",
+  "C": {
+   "score": 8,
+   "evidence": "Anoeta/Reale Arena (40,000) rebuilt 2019 without the running track; Grada Aitor Zabaleta singing section; strong Gipuzkoa following."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Basque identity; Zubieta academy is a proven pathway (Xabi Alonso, Griezmann, Oyarzabal, Zubimendi); women's team in Liga F. No betting sponsor found."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Back-to-back La Liga titles 1981 and 1982; Copa del Rey 1987, 2020 and 2026."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "SAD with a broad local shareholder base; president Jokin Aperribay. Stadium owned by the city. Well run, no single outside owner."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. Imanol Alguacil (2018-2025) era of pressing, homegrown teams; Matarazzo since late 2025 won the 2026 Copa del Rey fielding 10 homegrown players. Captain Mikel Oyarzabal (one-club, Euro 2024 winner) is the icon. Churn from sales (Merino, Le Normand, Zubimendi, Kubo) but the Zubieta core stays."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Real_Sociedad",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [
+    "Mikel Oyarzabal"
+   ],
+   "coach": "Pellegrino Matarazzo, since 2025",
+   "flags": [
+    "V_delta +1 overlaps the Zubieta credit already in V."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Real_Sociedad",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+   ]
+  }
+ },
+ {
+  "name": "Sevilla",
+  "C": {
+   "score": 8,
+   "evidence": "Ramón Sánchez-Pizjuán (42,714) is one of Spain's most intense grounds; Biris Norte ultras; strong home crowds despite recent decline."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Supporters' trust holds a small stake; women's team in Liga F; academy (Sevilla Atlético). Lower: long boardroom infighting; Biris involved in past disorder. [Players: -1. Held Rafa Mir's contract after his Sept 2024 sexual-assault arrest and loaned him to Valencia and Elche rather than acting; condemned him only after the June 2026 conviction. Kike Salas investigated in 2024 over bets on his yellow cards; club kept playing him.]"
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Record seven UEFA Cup/Europa League titles (2006-2023); La Liga 1946; major national significance."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Years of shareholder infighting (Del Nido Carrasco vs Castro/Del Nido Benavente) and fan protests; 777 Partners held a stake. May 2026 agreement to sell 80% for about EUR 450m to Five Eleven Capital fronted by Sergio Ramos, pending CSD approval (completion not confirmed by September 2026)."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 5. High churn and coach turnover (Mendilibar, Diego Alonso, Quique Sánchez Flores, García Pimienta, Almeyda, García Plaza) amid boardroom war; Jesús Navas retired in Dec 2024 and no icon remains. Captain Gabriel Suazo. Players often jeered; weak bond in recent seasons."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -5,
+    "evidence": "If completed, majority owner becomes investment fund Five Eleven Capital (Sergio Ramos-led group)."
+   }
+  ],
+  "flags": [
+   "Takeover completion unconfirmed: keep pe adjustment only if CSD approved.",
+   "Check Biris Norte recent violence/sanctions (not researched)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sevilla_FC",
+   "https://www.beinsports.com/en-us/soccer/la-liga/articles/sergio-ramos-agrees-to-purchase-sevilla-pending-signature-and-csd-approval-2026-05-12",
+   "https://www.insideworldfootball.com/2026/05/13/sergio-ramos-closing-e450m-acquisition-sevilla/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Luis García Plaza (in charge for 2025-26 run-in and 2026-27)",
+   "flags": [
+    "Rafa Mir: Sevilla owned his contract but did not play him; scored -1, not -2."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sevilla_FC",
+    "https://www.vamosmisevillafc.com/el-sevilla-fc-reacciona-a-la-condena-a-rafa-mir-con-un-duro-comunicado/",
+    "https://www.que.es/2026/06/18/elche-rescinde-rafa-mir/"
+   ]
+  }
+ },
+ {
+  "name": "Valencia",
+  "C": {
+   "score": 8,
+   "evidence": "Mestalla (1923, ~49,000) is one of Europe's steepest, most historic grounds; tens of thousands joined Libertad VCF protests; mass in-stadium protests in September 2026. Planned move to Nou Mestalla (under construction) will trigger the new-stadium rule later."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Racist abuse of Vinícius Jr at Mestalla (May 2023) led to criminal convictions and a partial stand closure. Club sold by debt-driven owner; poor treatment of fan groups. [Players: -1. -2: signed Rafa Mir on loan in Aug 2024 and kept selecting him after his Sept 2024 arrest for sexual assault (convicted June 2026, 8.5 years, for the assault committed while a Valencia player). +1: notable academy core (Gayà, Diego López, Guerra). Net -1.]"
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Six La Liga titles, two Champions League finals (2000, 2001), UEFA Cup 2004, Cup Winners' Cup 1980."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Peter Lim (Meriton Holdings) majority owner since 2014; club debt around EUR 600m after restarting Nou Mestalla; sustained mass protests; president Layhoon Chan says the club is not for sale."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Coach churn (Baraja, Corberán Dec 2024 - Sept 2026, Javier Aguirre since Sept 2026). Captain José Luis Gayà (one-club, academy) is the icon; academy players Diego López, Javi Guerra, Tárrega. Players regularly sold to balance books."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -5,
+    "evidence": "Mestalla racist abuse of Vinícius Jr (2023): three fans sentenced to prison; stand closure sanction."
+   }
+  ],
+  "flags": [
+   "Lim also held a stake in Salford City (multi-club): check if still held; possible -4.",
+   "Racism adjustment size (-5) for Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Valencia_CF",
+   "https://www.eldiario.es/comunitat-valenciana/valencia/miles-valencianistas-claman-gestion-maximo-accionista-valencia-cf-peter-lim_1_13244770.html",
+   "https://www.eldesmarque.com/futbol/liga-1a-division/20260906/mestalla-protestar-peter-lim-directiva_18_020095817.html",
+   "https://www.npr.org/2024/06/10/nx-s1-4998276/racist-chant-vicinius-spain-fans-punished",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ],
+  "team": {
+   "icons": [
+    "José Luis Gayà"
+   ],
+   "coach": "Javier Aguirre, since 2026",
+   "flags": [
+    "Net -1 lets the academy +1 offset the Mir -2; Kevin may prefer a flat -2."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://www.ultimahora.es/deportes/futbol/2026/09/23/2714517/javier-aguirre-nuevo-entrenador-del-valencia-cf.html",
+    "https://en.wikipedia.org/wiki/Valencia_CF",
+    "https://www.que.es/2026/06/18/elche-rescinde-rafa-mir/",
+    "https://www.elindependiente.com/espana/2026/05/28/comienza-juicio-rafa-mir-agresion-sexual/"
+   ]
+  }
+ },
+ {
+  "name": "AC Milan",
+  "C": {
+   "score": 8,
+   "evidence": "San Siro (75,710, shared) draws some of Serie A's biggest crowds (75,681 v Juventus, April 2026). Curva Sud historically elite, but after its leaders were jailed in the Doppia Curva case there was no organised tifo in 2025-26."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Emirates (Dubai state-owned airline) shirt sponsor (lower). Women's team exists. Curva Sud leaders (Lucci) sentenced to 10 years for attempted murder/extortion; the club was an injured party and has cut ties with the ultras."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Seven European Cups, 19 league titles; one of the most significant clubs in world football."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "RedBird Capital (Gerry Cardinale) owns ~99.9% since 2022, part-funded by an Elliott vendor loan (up to EUR 600m); Elliott kept board seats. Fan protests against the ownership; Allegri and executives left in 2026."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 5. Constant churn in coaches (Pioli, Fonseca, Conceição, Allegri, Amorim since June 2026) and squad (Tonali, Kalulu, Theo Hernández, Reijnders sold); captain Mike Maignan. Amorim brings a 3-4-2-1 but no settled identity yet. Fan protests against ownership; weak squad-curva bond after the curva was dissolved."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -6,
+    "evidence": "Owner is private-equity/investment firm RedBird Capital Partners; Elliott (hedge fund) retains a minority stake and board seats."
+   },
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "2021 Super League signatory; withdrew."
+   }
+  ],
+  "flags": [
+   "Elliott vendor loan sits at RedBird's holding level, not on the club: no lbo applied; Kevin to confirm.",
+   "Doppia Curva convictions: no violence adjustment applied because the club was an injured party and cut ties; Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AC_Milan",
+   "https://www.espn.com/soccer/story/_/id/38680815/ac-milan-sale-redbird-agrees-deal-elliott-buy-serie-champions-report",
+   "https://sempremilan.com/bloomberg-ac-milan-owners-redbird-sale-toulouse",
+   "https://lespresso.it/c/attualita/2025/6/17/inchiesta-ultra-sentenza-lucci-beretta-condanna-milan-inter/55022",
+   "https://www.ilgiorno.it/milano/cronaca/milan-curva-sud-ultra-atihnrtg",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "review": [
+   "multiclub: dropped (RedBird flagship (Toulouse secondary))"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Rúben Amorim, since 2026",
+   "flags": [
+    "Amorim is new: revisit T after 2026-27."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/AC_Milan",
+    "https://www.dazn.com/it-IT/news/calcio/probabile-formazione-milan-modulo-titolari-ballottaggi/1ovtpo3fat0e412ic9xn9kpicw"
+   ]
+  }
+ },
+ {
+  "name": "Atalanta",
+  "C": {
+   "score": 8,
+   "evidence": "Curva Nord 1907 is among Italy's most loyal and intense; home ground in Bergamo since 1928, rebuilt in place (New Balance Arena, 23,439)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Zingonia academy (since 1977) is one of Europe's best pathways; women's team. Lower: secondary sponsor Snai Fun (betting-brand surrogate); Curva Nord has a history of violence."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "2024 Europa League winners (3-0 v Leverkusen), 2020 Champions League quarter-final, Coppa Italia 1963; the Gasperini era made them a European reference for provincial clubs."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Percassi family (Bergamo, chairman, 45%) with a US consortium led by Stephen Pagliuca holding 55% since 2022. Club bought its stadium in 2017; well run, self-funded."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 8. Gasperini's elite man-marking press (2016-2025) is over: Jurić sacked Nov 2025, Palladino, then Sarri (4-3-3, possession) for 2026-27. Long-serving captain Marten de Roon (10 years) was benched by Sarri and sold to Roma in Sept 2026; Éderson now captain, Pašalić remains. Stars sold each summer (Koopmeiners, Lookman, Retegui). Players' bond with the Curva Nord is traditionally strong."
+  },
+  "adjustments": [],
+  "flags": [
+   "Snai Fun sleeve/secondary sponsor treated as betting: confirm.",
+   "Style may drift from the Gasperini identity; recheck after 2026-27."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Atalanta_BC",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Maurizio Sarri, since 2026",
+   "flags": [
+    "Biggest drop in the batch (-2): the Gasperini era and its captain are gone."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Atalanta_BC",
+    "https://sport.quotidiano.net/calcio/atalanta/de-roon-roma-gasperini-276dab1f"
+   ]
+  }
+ },
+ {
+  "name": "Bologna",
+  "C": {
+   "score": 7,
+   "evidence": "Stadio Renato Dall'Ara (1927, ~38,000) is a historic ground; Curva Andrea Costa; big crowds and celebrations for the 2025 Coppa Italia win."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Stable, community-minded club; women's team. Shirt sponsor is the owner's dairy company Saputo (neutral)."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Seven Italian titles (last 1964), 79 Serie A seasons; 2024-25 Coppa Italia, first trophy in 51 years."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Joey Saputo's Canadian consortium since 2014; steady investment (Dall'Ara renovation plans) and sensible conduct."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 7. Intense pressing under Motta and Italiano (2024-May 2026), 2025 Coppa Italia winners and Champions League 2024-25; Palladino coach for 2026-27. Vice-captain Riccardo Orsolini (since 2018, club's leading modern scorer) and Lewis Ferguson; captain Lorenzo De Silvestri. Players celebrated the Coppa with the city. Stars regularly sold (Zirkzee, Calafiori, Ndoye, Beukema)."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Saputo also owns CF Montréal (MLS); minor link, not a feeder."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bologna_FC_1909",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [
+    "Riccardo Orsolini"
+   ],
+   "coach": "Raffaele Palladino, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bologna_FC_1909",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+   ]
+  }
+ },
+ {
+  "name": "Cagliari",
+  "C": {
+   "score": 6,
+   "evidence": "Strong Sardinian following (Sconvolts, Curva Nord); but home is the temporary Unipol Domus (16,416) since 2017 while the Sant'Elia site is redeveloped."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Sardinian regional identity (raise); shirt sponsor Sardegna Turismo is a democratic regional government brand (no penalty)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1970 scudetto with Gigi Riva, a defining moment for Sardinia; long Serie A history."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Tommaso Giulini (Fluorsid) retains control; US investors Maurizio Fiori (Praxis Capital) and Prashant Gupta raised their stake to 49%, possibly majority if the new stadium is built."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 5. Fabio Pisacane (promoted from the club's youth teams in 2025) keeps a scrappy, hard-running survival side. Captain Alessandro Deiola (Sardinian, academy); strong players-island bond from the Ranieri 2023 promotion. Moderate churn."
+  },
+  "adjustments": [],
+  "flags": [
+   "US investors (hedge-fund manager) may take majority with the stadium project: check for pe adjustment later."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.unionesarda.it/en/cagliari-giulini-sells-further-shares-to-americans-us-investors-now-hold-49-sbby2nc7",
+   "https://sport.quotidiano.net/en/calcio/nuovi-soci-cagliari-allamericana-entra-da89c266",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Fabio Pisacane, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cagliari_Calcio",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+   ]
+  }
+ },
+ {
+  "name": "Fiorentina",
+  "C": {
+   "score": 8,
+   "evidence": "Curva Fiesole is one of Italy's classic singing ends; Stadio Artemio Franchi (1931) is under phased renovation with reduced capacity during works."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Heavy investment in the Viola Park training centre and academy; Fiorentina Femminile is a top women's side; shirt sponsor Mediacom (owner's company)."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Two scudetti (1956, 1969), 1961 Cup Winners' Cup; re-founded after the 2002 bankruptcy and kept its history; Conference League finals 2023 and 2024."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Commisso family: Rocco Commisso died January 2026; son Giuseppe became president and widow Catherine joined the board; family says the club is not for sale."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 5. Coach churn (Italiano to 2024, Palladino, Pioli sacked 2025, Vanoli since Nov 2025) and a 15th-place 2025-26; many loans. Captain David de Gea. No current icon. Club handled Edoardo Bove's cardiac arrest (Dec 2024) with visible solidarity from squad and fans."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/47744571/fiorentina-owner-rocco-commisso-president-giuseppe",
+   "https://www.florencedailynews.com/2026/01/29/giuseppe-commisso-new-president-of-fiorentina-as-club-stays-in-family-hands/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Paolo Vanoli, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/ACF_Fiorentina",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+   ]
+  }
+ },
+ {
+  "name": "Frosinone",
+  "C": {
+   "score": 5,
+   "evidence": "Stadio Benito Stirpe (16,227, opened 2017) is a small modern ground; loyal but modest crowds (old Matusa record ~12,000)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local, community-rooted club; shirt sponsor Banca Popolare del Frusinate (local bank). No notable positives or negatives found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "First Serie A promotion only in 2015; yo-yo club since."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Maurizio Stirpe (local industrialist, Together S.p.A.) owns and built the club-owned stadium; prudent."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Massimiliano Alvini's front-foot side won promotion as Serie B runners-up (81 pts). Captain Ilario Monterisi; squad leans on loans from bigger clubs, so churn is high. Small-town, close fan bond."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Frosinone_Calcio",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Massimiliano Alvini, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Frosinone_Calcio",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B"
+   ]
+  }
+ },
+ {
+  "name": "Genoa",
+  "C": {
+   "score": 9,
+   "evidence": "Gradinata Nord is one of Italy's most famous curves (club retired No. 12 for fans); Stadio Luigi Ferraris (1911) is a classic English-style ground."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Shirt sponsor Pulsee (energy). Lower: repeated derby disorder (e.g. 2024 Coppa Italia derby riots)."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Italy's oldest existing club (1893), nine titles including the first in 1898; English roots."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Dan Șucu (Romanian businessman) majority owner since 2024 after 777 Partners' collapse; stabilised finances."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Daniele De Rossi (since late 2025, after Vieira) brought energy and stability; 16th in 2025-26. Captain Johan Vásquez; long-serving Sabelli. Stars sold (Gudmundsson, Retegui). Gradinata Nord bond with players is strong."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Șucu also owns Rapid București."
+   }
+  ],
+  "flags": [
+   "2024 derby violence not re-verified; consider a violence adjustment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Genoa_CFC",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Daniele De Rossi, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Genoa_CFC",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+   ]
+  }
+ },
+ {
+  "name": "Juventus",
+  "C": {
+   "score": 6,
+   "evidence": "Allianz Stadium (41,507, 2011) usually full but atmosphere ordinary for the club's size; curva groups subject to ticketing/'ndrangheta investigations (2016-2019)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Juventus Women (multiple Serie A titles) and Next Gen U23 pathway (raise); lower: plusvalenze accounting case (points deduction 2023), fan racist abuse incidents at the Allianz. Jeep shirt sponsor (neutral)."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "36 league titles, two European Cups, Heysel and Calciopoli; one of the most significant clubs in football."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Exor (Agnelli-Elkann) holds ~65%; Tether 11.5% with a board seat; Exor rejected Tether's EUR 1bn bid. Around EUR 1bn of capital increases over seven years."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 5. Coach churn (Allegri to 2024, Motta, Tudor, Spalletti since late 2025) and heavy squad turnover; captain Manuel Locatelli. Kenan Yildiz (No. 10) is the rising face but not yet an icon. Corporate, star-driven culture; weak player-fan bond."
+  },
+  "adjustments": [
+   {
+    "type": "superleague",
+    "points": -3,
+    "evidence": "Founding Super League signatory; withdrew late (2023-24)."
+   },
+   {
+    "type": "overspend",
+    "points": -3,
+    "evidence": "Plusvalenze false-accounting case (10-point deduction 2023), UEFA financial settlement, repeated capital injections."
+   }
+  ],
+  "flags": [
+   "Consider racism adjustment for documented racist abuse at Juventus home games (not re-verified)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://finance.yahoo.com/news/john-elkann-makes-clear-juventus-201356402.html",
+   "https://www.yahoo.com/news/articles/exclusive-agnelli-family-fully-committed-070113882.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Luciano Spalletti, since 2025",
+   "flags": [
+    "Player welfare: 2020-21 'salary manoeuvre' (hidden wage deferrals; 2024 arbitration ordered EUR 9.8m to Ronaldo). Kevin to decide if this counts as welfare (not scored)."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Juventus_FC",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Juventus_FC_season"
+   ]
+  }
+ },
+ {
+  "name": "Lazio",
+  "C": {
+   "score": 7,
+   "evidence": "Curva Nord historically loud; 2026 boycott of Lotito: crowds fell to 5,000, 3,400 and 2,000 (lowest in Serie A); 93% of season-ticket holders did not renew; 20,000 marched in July 2026. Olimpico has a running track."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "Anchor: far-right Irriducibili legacy, fascist salutes and antisemitic incidents; UEFA sanctioned Lazio for fans' racist behaviour (2019, 2024)."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Scudetti 1974 and 2000, 1999 Cup Winners' Cup and Super Cup; major national significance."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Claudio Lotito owner since 2004; mass fan boycott and 'Libera la Lazio' protests in 2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Sarri's possession side in 2025-26 under a transfer freeze, which kept churn low; Gattuso (intense, combative) for 2026-27. Captain Mattia Zaccagni, vice Adam Marušić (since 2017), homegrown Danilo Cataldi. No star-ego culture, no single icon."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -30,
+    "evidence": "Anchor: tolerated far-right ultras; UEFA sanctions for racist behaviour (2019 Europa League, 2024)."
+   }
+  ],
+  "flags": [
+   "Culture is hard to judge during the boycott (fans loyal but absent)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://footballgroundguide.com/news/lazio-stadium-boycott-deepens-as-93-of-fans-refuse-season-ticket-renewals-in-protest-over-owner.html",
+   "https://roarnews.co.uk/2026/empty-seats-full-streets-inside-lazios-war-with-owner-claudio-lotito/",
+   "https://africa.espn.com/football/story/_/id/41733032/uefa-sanction-lazio-atletico-fans-racist-behaviour",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Gennaro Gattuso, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/SS_Lazio",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+   ]
+  }
+ },
+ {
+  "name": "Lecce",
+  "C": {
+   "score": 8,
+   "evidence": "Via del Mare (~31,000) well filled; strong Salento identity and a loud Curva Nord; big following across southern Puglia."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Local ownership; Primavera won the 2023 Italian youth title; prudent budget. Shirt sponsor DEGHI (local firm)."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 1908; many Serie A spells but few famous moments; two straight promotions under Liverani."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "President Saverio Sticchi Damiani leads a local shareholder group; minority stake held by Indonesian investor Alvin Sariaatmadja. Sound management."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 5. Survival side under Di Francesco (since 2025); constant sale of best players (Hjulmand, Dorgu, Krstović). Captain Wladimiro Falcone (GK since 2022), Antonino Gallo. Club sacked coach D'Aversa the day after he headbutted a Verona player (March 2024)."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/US_Lecce",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Eusebio Di Francesco, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/US_Lecce",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+   ]
+  }
+ },
+ {
+  "name": "Monza",
+  "C": {
+   "score": 4,
+   "evidence": "Stadio Brianteo (17,102) in the shadow of Milan's clubs; small, fairly quiet crowds."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Shirt sponsor DAZN Bet Club (sports betting brand, lower). No notable positives found."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "First Serie A promotion in 2022 under Berlusconi/Galliani; modest history."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "US investment fund Beckett Layne Ventures bought 80% from Fininvest in 2025 (EV ~EUR 45m), remaining 20% by June 2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 6. Relegated with 18 points in 2024-25, promoted via 2026 play-off under Paolo Bianco; Ivan Jurić (intense man-marking press) now coach. High churn after the Fininvest sale; no icon or long-serving captain found."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -5,
+    "evidence": "Owner is an investment fund (Beckett Layne Ventures)."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://fininvest.it/en/press/fininvest-and-beckett-layne-ventures-finalize-the-first-closing-of-the-ac-monza-sale/",
+   "https://en.ilsole24ore.com/art/monza-officially-passes-us-fund-beckett-layne-ventures-AH887MpC",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Ivan Jurić, since 2026",
+   "flags": [
+    "Captain not verified."
+   ],
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/AC_Monza",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B"
+   ]
+  }
+ },
+ {
+  "name": "Parma",
+  "C": {
+   "score": 7,
+   "evidence": "Stadio Ennio Tardini (1923) is a historic city ground; Boys Parma 1977 lead the curva; loyal through the 2015 bankruptcy and restart in Serie D."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Invested in women's team and academy; Prometeon shirt sponsor (neutral). No notable negatives."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Two UEFA Cups, Cup Winners' Cup, three Coppe Italia in the 1990s; history kept after the 2015 re-foundation."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Krause Group (Kyle Krause) since 2020; heavy investment and a Tardini redevelopment plan with works from mid-2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Old S 6. Young, attacking side (Chivu, then Carlos Cuesta); Cuesta left on 27 Sept 2026 and the job is vacant (Gilardino, D'Aversa linked). Captain Enrico Delprato (since 2020), Adrián Bernabé. High churn of young talents sold on."
+  },
+  "adjustments": [],
+  "flags": [
+   "2026-27 coach listed as TBC on Wikipedia; recheck Style."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.calcioefinanza.it/2026/05/16/interview-federico-cherubini-ceo-parma-krause-juventus/",
+   "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Vacant (Carlos Cuesta left 27 Sept 2026)",
+   "flags": [
+    "Coach vacant: revisit when appointed."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+    "https://www.gazzettadiparma.it/parma-calcio/2026/09/27/news/parma--cuesta-non-e-piu-l-allenatore-dei-crociati-970624/"
+   ]
+  }
+ },
+ {
+  "name": "Sassuolo",
+  "C": {
+   "score": 3,
+   "evidence": "Plays at Mapei Stadium in Reggio Emilia (21,584, shared with Reggiana) since 2013, outside its home town of ~40,000; thin crowds."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Family-company club (Mapei); academy and women's team. No notable positives or negatives."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "First Serie A in 2013; Europa League 2016-17; modest history."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Mapei S.p.A. (Squinzi family); stable, owner-as-sponsor."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Old S 6. Ball-playing, proactive side; Grosso won promotion (2024-25), Alberto Aquilani appointed July 2026. Captain Domenico Berardi, at the club since 2012, all-time top scorer, stayed through the 2024 relegation: a current icon. Small family club, low ego culture, but thin crowds limit the fan bond."
+  },
+  "adjustments": [],
+  "flags": [
+   "Existing rule gives -1 Culture for the 2013 move; already reflected in C 3."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [
+    "Domenico Berardi"
+   ],
+   "coach": "Alberto Aquilani, since 2026",
+   "flags": [
+    "Final S evidence names Aquilani for 2025-26; Wikipedia says he was appointed July 2026."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+   ]
+  }
+ },
+ {
+  "name": "Torino",
+  "C": {
+   "score": 8,
+   "evidence": "Curva Maratona; deep identity around the Grande Torino and Superga; repeated organised protests against the owner."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Rebuilt Stadio Filadelfia as a training ground; women's team is a separate club. Shirt sponsor Suzuki (neutral)."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Seven titles, Grande Torino (five in a row) and the 1949 Superga disaster: central to Italian football culture."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Urbano Cairo owner since 2005; long-running fan protests over lack of ambition."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 5. Coach churn (Jurić to 2024, Vanoli, Baroni, D'Aversa, Ignazio Abate). Stars sold each year (Buongiorno, Bellanova, Ricci); captain Duván Zapata, vice Nikola Vlašić. Fans protest the owner; players not close to the curva."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Torino_FC",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Ignazio Abate, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Torino_FC",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+   ]
+  }
+ },
+ {
+  "name": "Udinese",
+  "C": {
+   "score": 6,
+   "evidence": "Club-owned Stadio Friuli (25,132) rebuilt 2016; regional Friulian support; ordinary atmosphere."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Friulian regional identity; shirt sponsor 'Io sono Friuli Venezia Giulia' (regional brand, neutral); club-owned stadium; long-running global scouting model."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Zico era, Champions League 2005-06; long Serie A tenure."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Pozzo family since 1986 (Franco Soldati president); stable, self-sustaining. 2025 reports of a sale to Guggenheim Partners; completion not confirmed (Wikipedia still lists Pozzo)."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Old S 5. Kosta Runjaić since 2024 (10th in 2025-26). Scouting-and-sell model means very high churn; captain Jesper Karlström; no long-serving icon."
+  },
+  "adjustments": [],
+  "flags": [
+   "Confirm whether the Guggenheim Partners takeover completed; if so switch multiclub to pe."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Udinese_Calcio",
+   "https://www.sportcal.com/news/report-udinese-to-be-taken-over-by-guggenheim-partners/",
+   "https://www.sportspro.com/news/watford-udinese-spac-investment-pozzo-family/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "review": [
+   "multiclub: dropped (Pozzo flagship (Watford secondary))"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Kosta Runjaić, since 2024",
+   "flags": [
+    "Unnamed footballer investigated in Udine (May 2025): club not identified."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Udinese_Calcio",
+    "https://www.telefriuli.it/cronaca/calciatore-indagato-per-violenza-sessuale-al-vaglio-il-racconto-della-donna/"
+   ]
+  }
+ },
+ {
+  "name": "Venezia",
+  "C": {
+   "score": 6,
+   "evidence": "Stadio Pier Luigi Penzo (1913, 12,048), Italy's second-oldest stadium, reached by boat; small but characterful crowds. Move to the planned Bosco dello Sport (2027) will trigger the new-stadium drop later."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Strong civic and cultural identity; shirt sponsor Cynar Spritz (neutral). No notable negatives found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1907; Coppa Italia 1941; re-founded several times and kept its history."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "US investor group; May 2026 minority investment by Tim Leiweke and Francesca Bodie (now president) in a EUR 100m raise; Drake an investor. Niederauer kept a small stake."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Old S 6. Giovanni Stroppa's front-foot side won Serie B 2025-26 (82 pts). Captain Gianluca Busio (American, at the club since 2021). Moderate churn after the 2025 relegation; no icon."
+  },
+  "adjustments": [],
+  "flags": [
+   "Future stadium move (Bosco dello Sport) will need a Culture review."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.veneziafc.it/news/drake-riunisce-nuovi-proprietari-il-venezia-fc-annuncia-un-investimento-strategico-da-parte-di-tim-leiweke-e-francesca-bodie-nell-ambito-di-una-raccolta-fondi-da-100-milioni-di-euro-nel-corso-della",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Giovanni Stroppa, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Venezia_FC",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B"
+   ]
+  }
+ }
+]

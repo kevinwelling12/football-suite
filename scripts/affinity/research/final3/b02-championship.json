@@ -1,0 +1,1202 @@
+[
+ {
+  "name": "Birmingham City",
+  "C": {
+   "score": 7,
+   "evidence": "St Andrew's (home since 1906, ~29,400) sells out regularly since the Knighthead takeover; loud Tilton Road/Kop support and a large away following, loyal through relegation to League One in 2024."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Coral (Entain) is front-of-shirt sponsor for 2026/27 on men's and women's kits, upgraded from official betting partner. Stadium renamed after the owner (St Andrew's @ Knighthead Park). 97% of the women's team was sold to an outside consortium in 2026. Supporters' trust exists since 2012."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "League Cup winners 1963 and 2011, FA Cup finalists 1931 and 1956, Inter-Cities Fairs Cup finalists 1960 and 1961 (first English club in European competition); best league finish 6th."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Controlled since July 2023 by Shelby Companies, a subsidiary of US investment firm Knighthead Capital (chair Tom Wagner), with Tom Brady as minority owner. Heavy investment in squad and a planned 'Sports Quarter' stadium development; broadly welcomed by fans but fund-backed."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Chris Davies (since June 2024): front-foot possession-and-pressing side, record 111-point League One title 2024-25, then consolidated in the Championship. Captain Christoph Klarer (since 2024). Heavy owner-funded recruitment, many new signings and loans each window (high churn). Record signing Jay Stansfield is a boyhood Blues fan whose father played for the club; big, loud crowds and a visible player-fan bond. No long-serving icon yet."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -5,
+    "evidence": "Majority owner is a subsidiary of Knighthead Capital Management, a US investment fund."
+   }
+  ],
+  "flags": [
+   "Heavy owner-funded spending in League One and the Championship; consider an overspend adjustment (-2 to -3) if PSR losses are confirmed.",
+   "Women's team 97% sold to an external consortium (Carney/Clijsters) in 2026: decide whether this counts as disinvestment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Birmingham_City_F.C.",
+   "https://sbcnews.co.uk/marketing/2026/07/27/coral-sponsors-birmingham/",
+   "https://www.gamblingnews.com/news/birmingham-city-welcomes-entains-coral-as-front-of-shirt-sponsor-in-2026-27/",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Chris Davies, since 2024",
+   "flags": [
+    "Stansfield (local, boyhood fan) could become an icon if he stays; not counted yet."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Birmingham_City_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship",
+    "https://www.thefa.com/news/2026/jan/07/fa-charges---december-2025-070126"
+   ]
+  }
+ },
+ {
+  "name": "Blackburn Rovers",
+  "C": {
+   "score": 6,
+   "evidence": "Ewood Park (since 1890, ~31,400) is historic but usually well under half full in recent Championship seasons; sustained fan protests against the owners show loyalty, atmosphere is modest."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor: shirt Watson Ramsbottom Solicitors, sleeve Venky's (owner's brand). Productive Category One academy that feeds the first team. No notable negatives beyond owner conduct (scored in O)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Football League founder member; six FA Cups (five in the 1880s-90s, plus 1928), league champions 1912 and 1914, Premier League champions 1994-95 under Dalglish."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Owned since 2010 by India's Venky's (99.9%): absentee ownership, relegation to League One in 2012 and 2017, long-running fan protests; April 2025 reports said the owners were not looking to sell and there was little takeover interest."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Tony Mowbray (club legend as manager 2017-22) back as head coach; frequent coaching changes before that (Tomasson, Ismaël, Eustace briefly). Pragmatic, mid-to-low-table football (20th in 2025-26). Captain Todd Cantwell. Club sells its best players most windows (Szmodics, Brereton Díaz, Dolan), so churn is high. Productive academy (Rankin-Costello, Wharton, Carter) gives some continuity; fan bond muted by owner protests."
+  },
+  "adjustments": [],
+  "flags": [
+   "Wikipedia lists Tony Mowbray as manager for 2026-27; not independently verified.",
+   "Attendance figures not fetched this session; Culture based on general reporting."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Blackburn_Rovers_F.C.",
+   "https://eflanalysis.com/news/venkys-stance-on-selling-blackburn-rovers-as-level-of-interest-in-takeover-revealed/",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Tony Mowbray, since 2026 (second spell)",
+   "flags": [
+    "Mowbray return date not verified (club page lists him as head coach)."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Blackburn_Rovers_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship",
+    "https://www.itv.com/news/granada/2025-01-30/football-fan-banned-for-racist-abuse-of-blackburn-rovers-star"
+   ]
+  }
+ },
+ {
+  "name": "Bolton Wanderers",
+  "C": {
+   "score": 7,
+   "evidence": "Crowds in the mid-20,000s in League One, among the best in the division, after the club nearly went out of existence in 2019; strong loyalty through administration. Home since 1997 is an out-of-town bowl (Toughsheet Community Stadium), less character than Burnden Park."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor: shirt Victorian Plumbing / Bolton Wanderers in the Community, sleeve White Beaconsfield. Fan bond scheme gave supporters a financial stake. No notable negatives found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Football League founder member; FA Cups 1923 (first Wembley final, 'White Horse Final'), 1926, 1929, 1958; Nat Lofthouse era; UEFA Cup runs 2005-08; Burnden Park disaster 1946."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Football Ventures (Whites) Ltd 92%, British Business Bank 8% (converted COVID loan), chair Sharon Brittan. Rescued the club from administration in 2019; owners covered ~£18m of losses in 2023-24. Stable, ordinary private ownership."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Steven Schumacher (since January 2025): energetic, front-foot side; promoted via the 2026 League One play-off final (4-1 v Stockport). Captain Eoin Toal, vice-captain Chris Forino-Joseph. Moderate churn with several loans from bigger clubs. Strong fan bond (fan bond scheme, large League One crowds)."
+  },
+  "adjustments": [],
+  "flags": [
+   "Newly promoted to the Championship for 2026-27."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bolton_Wanderers_F.C.",
+   "https://www.bwfc.co.uk/club/company-details",
+   "https://eflanalysis.com/news/bolton-wanderers-now-have-30m-destiny-as-football-ventures-masterplan-saluted/",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Steven Schumacher, since 2025",
+   "flags": [
+    "Newly promoted: Team read is mostly League One evidence."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bolton_Wanderers_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Bristol City",
+  "C": {
+   "score": 6,
+   "evidence": "Ashton Gate (redeveloped 2015-16, ~27,000, safe standing since 2021) draws around 20,000+; decent atmosphere and derby intensity with Rovers and Cardiff, not among the loudest grounds."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor (shirt Victorian Plumbing, sleeve Exacta Group). Academy pathway into the first team (e.g. Alex Scott, Tommy Conway). Women's team majority sold to Mercury/13 in 2025."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 1894; First Division runners-up 1906-07, FA Cup finalists 1909; otherwise mostly second/third tier. Solid regional club."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Lansdown family (Bristol Sport) in charge since 1996: long-term local owner who funded the stadium redevelopment. In August 2026 reported to be in advanced talks with an unnamed investor who owns a betting firm; Lansdown open to selling a majority."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Michael Skubala appointed in summer 2026 (three-year deal) after Gerhard Struber left in March 2026 and Roy Hodgson was interim; Skubala built an intense, front-foot, 103-point League One title side at Lincoln. Captain Jason Knight. Academy pathway (Scott, Conway, Pring) but best players are sold, and three coaches in 15 months. Settled Ashton Gate bond, no current icon."
+  },
+  "adjustments": [],
+  "flags": [
+   "Pending investment from a betting-firm owner (Aug 2026 reports): re-check Ownership and Values if it completes.",
+   "Women's team sold to Mercury/13 (multi-club women's group): decide whether that affects Values."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bristol_City_F.C.",
+   "https://the72.co.uk/2026/08/17/bristol-city-advanced-talks-investment-deal/",
+   "https://www.thebusinessdesk.com/south-west/news/28549-mercury13-acquire-majority-stake-in-bristol-city-women-fc",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Michael Skubala, since 2026",
+   "flags": [
+    "Skubala is brand new; Team rests on his Lincoln record."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bristol_City_F.C.",
+    "https://www.bcfc.co.uk/city-men-news/skubala-appointed-bristol-city-manager/",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Burnley",
+  "C": {
+   "score": 7,
+   "evidence": "Turf Moor (used since 1883, ~21,900) averages about 21,000 from a town of ~78,000, one of England's best-supported clubs per head; traditional ground."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor in 2026/27 (shirt Vertu). Burnley FC in the Community is a well-regarded trust. No notable political or conduct issues found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Football League founder member (1888); English champions 1920-21 and 1959-60, FA Cup 1914; European Cup quarter-final 1961."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "ALK Capital (Alan Pace) bought 84% in December 2020 largely with a loan from MSD that was loaded onto the club; 2025 reporting cites ~£142m debt, interest up to 12%, ~£81m owed by owner-linked Velocity, and supporter concern after a CEO exit. Relegated from the Premier League in 2025-26 with 22 points."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Three straight promotion/relegation swings; relegated in 2025-26 with a club-record-low 22 points and 4 wins. Scott Parker left by mutual consent (April 2026); Nicky Hayen (ex-Club Brugge, Genk) appointed July 2026. Captain Josh Cullen (since 2022). Very high churn (Kompany-era loans, Parker rebuild, new rebuild), plus 39-year-old Jamie Vardy signed Sept 2026 on a one-season deal. No lasting pressing identity, no icon."
+  },
+  "adjustments": [
+   {
+    "type": "lbo",
+    "points": -8,
+    "evidence": "2020 takeover funded by MSD loan secured on the club; club carries the acquisition debt (Sportico, Swiss Ramble). [Review: ALK purchase debt on the club (smaller LBO scale).]"
+   }
+  ],
+  "flags": [
+   "Manager for 2026-27 not verified (Wikipedia summary named Nicky Hayen); check.",
+   "Lbo set at -15 (low end); debt level may justify more."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Burnley_F.C.",
+   "https://www.sportico.com/business/sales/2021/alk-capital-burnley-debt-1234621513/",
+   "https://footballleagueworld.co.uk/alan-pace-delivers-burnley-financial-update-amid-supporter-concerns/",
+   "https://www.catalannews.com/sports/item/american-alan-pace-officially-acquires-rcd-espanyol-football-team-9-october-2025",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "review": [
+   "multiclub: dropped (Velocity flagship (Espanyol secondary))",
+   "lbo: -8 (ALK purchase debt on the club (smaller LBO scale))"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Nicky Hayen, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Burnley_F.C.",
+    "https://www.burnleyfootballclub.com/media-article/nicky-hayen-confirmed-as-new-burnley-boss",
+    "https://www.espn.com/soccer/story/_/id/49848349/jamie-vardy-burnley-efl-championship-transfers"
+   ]
+  }
+ },
+ {
+  "name": "Cardiff City",
+  "C": {
+   "score": 7,
+   "evidence": "Passionate Welsh-capital support with a strong away following; crowds held up through relegation to League One in 2025 and immediate promotion in 2026. Cardiff City Stadium (2009) replaced Ninian Park, a newer but still single-club ground."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Visit Malaysia (Malaysian government tourism board) is 2026/27 shirt sponsor, linked to owner Vincent Tan; Malaysia is not a full authoritarian state, so a small deduction. Welsh regional identity is a raise. Past owner-driven rebrand to red (2012-15) reversed after fan pressure. [Review: set to 4.] [Players: +1. Notable homegrown core in the first team: Rubin Colwill (vice-captain), Joel Colwill, Isaak Davies and other Welsh academy graduates. No player-conduct cases found.]"
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Only club from outside England to win the FA Cup (1927); Cup Winners' Cup semi-final 1968; 1938 FA Cup final and 2008 FA Cup final; many Welsh Cups; two brief Premier League seasons."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Vincent Tan owner since 2010; on 21 September 2026 he passed 1,000 days without attending a match; repeated fan protests calling for him and the board to leave; club heavily dependent on his loans."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Brian Barry-Murphy (ex-Man City U21) brought a clear possession identity and immediate promotion from League One after the 2025 relegation, ending years of managerial churn. Captain Calum Chambers; vice-captain Rubin Colwill (academy). A young squad with many Welsh academy players (Rubin and Joel Colwill, Isaak Davies, Anyadike, Turner). Fan bond recovering after the Tan-era rows."
+  },
+  "adjustments": [],
+  "flags": [
+   "Visit Malaysia sponsor: Malaysia is 'Partly Free' (Freedom House), so I applied only a small Values deduction; decide whether it counts as an authoritarian-state sponsor.",
+   "Current manager not verified this session."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://sports.yahoo.com/articles/tans-1-000-days-without-035317993.html",
+   "https://www.thecardiffnews.com/sport/cardiff-city-fans-protest-calling-for-owner-vincent-tan-to-leave-the-club",
+   "https://en.wikipedia.org/wiki/Vincent_Tan",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Brian Barry-Murphy, since 2025",
+   "flags": [
+    "V +1 for the homegrown Welsh core: confirm it is not double-counted with the regional-identity raise."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cardiff_City_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Charlton Athletic",
+  "C": {
+   "score": 7,
+   "evidence": "Fans fought the 1985-92 exile from The Valley (Valley Party won 11% in 1990 local elections; Valley Gold funded the return) and protested Duchâtelet's 2014-19 ownership. The Valley (~27,100) is a traditional ground; crowds solid, atmosphere good but not elite."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "No betting sponsor (shirt RSK Group, sleeve Christopher Ward). Long-standing anti-racism work (Red, White and Black) and a well-regarded Charlton Athletic Community Trust; established women's team; history of fan activism and involvement."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "FA Cup winners 1947 (finalists 1946); post-war crowds over 40,000 and record 75,031; the exile and return to The Valley is a famous fan story; Premier League spell 1998-2007."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Global Football Partners (Gabriel Brener, Joshua Friedman; UK vehicle SE7 Partners) bought the club in 2023 for about £15m. In August 2026 they appointed Oakwell Sports Advisory and are exploring a sale, adding uncertainty."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Nathan Jones (since February 2024): direct, organised, physical side; play-off winners 2025, 19th in 2025-26. Captain Lloyd Jones. Moderate-to-high churn; few academy players left in the first team after years of sales. Good fan bond at The Valley, no current icon."
+  },
+  "adjustments": [],
+  "flags": [
+   "Club up for sale (Aug 2026): re-check Ownership after any takeover.",
+   "pe -4 is a judgement: GFP is an investor group rather than a formal PE fund."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Charlton_Athletic_F.C.",
+   "https://www.insideworldfootball.com/2026/08/04/charlton-for-sale-as-global-football-partners-eye-exit",
+   "https://www.charltonafc.com/news/global-football-partners-purchase-charlton-athletic",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "review": [
+   "pe: dropped (Global Football Partners is an investor group, not a PE fund)"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Nathan Jones, since 2024",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Charlton_Athletic_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Derby County",
+  "C": {
+   "score": 8,
+   "evidence": "Average attendance has not dropped below 23,000 since 1997 at Pride Park; averaged 27,278 in League One in 2023-24, higher than six Premier League clubs, after administration and a 21-point deduction. Loud, loyal support; stadium is a 1997 bowl."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor found (shirt Loaded, sleeve Tonic Health Group). Active community trust and a Supporters' Board that meets the owner. No notable negatives."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Football League founder member; champions 1971-72 and 1974-75 (Clough/Mackay), European Cup semi-final 1973, FA Cup 1946."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Local developer David Clowes (Clowes Developments) rescued the club from administration in 2022 and bought back Pride Park. A 2026 takeover by Turki Alalshikh's Lion Sport consortium was approved but the consortium withdrew on 10 August 2026; club taken off the market."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "John Eustace (since February 2025): organised, pragmatic, hard-working side; 8th in 2025-26. Captain Lewis Travis. Big squad turnover since the 2024 promotion. Huge, loyal crowds (6th best supported in the EFL) and a bond built through the administration years, but no current icon."
+  },
+  "adjustments": [],
+  "flags": [
+   "Near-miss Saudi-linked takeover (Turki Alalshikh, head of Saudi General Entertainment Authority) in summer 2026; if revived, a state adjustment would apply.",
+   "Shirt sponsor 'Loaded' not identified; check it is not a gambling brand."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Derby_County_F.C.",
+   "https://footballleagueworld.co.uk/what-david-clowes-said-about-derby-county-takeover-turki-al-sheikh/",
+   "https://the72.co.uk/2025/12/22/derby-county-david-clowes-takeover-stance-criteria/",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "John Eustace, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Derby_County_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Lincoln City",
+  "C": {
+   "score": 7,
+   "evidence": "Sincil Bank (LNER Stadium, home since 1895, ~10,000) sells out regularly; loud, loyal crowd that stayed through non-league years (2011-17) and the 2017 FA Cup quarter-final run."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Red Imps Community Trust (supporters) holds just over 8% of the club's shares and is represented on both boards. No betting sponsors (Branston / Nanna Tate, sleeves Easy Heat Pumps / Logicool)."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 1884; first club relegated automatically from the Football League (1987) and first to return; 2017 FA Cup quarter-final as a non-league side; Graham Taylor era. Mostly lower-division history; first Championship season in 2026-27."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Ron Fowler (ex-San Diego Padres co-owner) took majority control of Lincoln City Holdings in January 2026 (with HJ-LCFC Holdings and Clive Nates as other main holders); supporters' trust keeps board seats. Owners have run the club prudently."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Michael Skubala's intense, front-foot side won League One with a club-record 103 points in 2025-26 (first second-tier season in 65 years). Skubala left for Bristol City in 2026; assistants Chris Cohen and Tom Shaw promoted to joint head coaches (continuity). Captain Tendayi Darikwa. Humble, low-budget, data-driven squad with no star culture; several loans from Premier League clubs. Close community club with a supporters' trust stake."
+  },
+  "adjustments": [],
+  "flags": [
+   "New majority owner Ron Fowler from January 2026: conduct record at Lincoln is short.",
+   "Manager and style for 2026-27 not independently verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.weareimps.com/news/ron-takes-over-imps-chairman",
+   "https://boardroomsports.substack.com/p/lincoln-citys-remarkable-rise-to",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Lincoln_City_F.C._season",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Chris Cohen & Tom Shaw, since 2026",
+   "flags": [
+    "Coach who built the style has left; T kept at 7 because the new joint heads are his in-house assistants. Could be 6."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lincoln_City_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Middlesbrough",
+  "C": {
+   "score": 6,
+   "evidence": "Riverside Stadium (1995) crowds in the mid-20,000s; Red Faction singing group; fans praised by UEFA for conduct in the 2005-06 UEFA Cup run. Atmosphere good on big days, ordinary otherwise."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Midnite (betting) is front-of-shirt sponsor in 2026/27. MFC Foundation community work, women's team affiliated since 2023, historically productive academy."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1876; League Cup 2004 (first major trophy); UEFA Cup final 2006; club saved from liquidation in 1986 by a Gibson-led consortium."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Steve Gibson, local owner since 1994 who saved the club in 1986; long-term, stable, locally committed. No stake changes found."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Energetic, front-foot possession under Carrick, Edwards and now Kim Hellberg (since November 2025); 5th in 2025-26 and top three early in 2026-27. Three coaches in 18 months (Carrick, Edwards, Hellberg) and heavy squad churn; Luke Ayling now captain. Academy products (Hackney, Fry) still feature. No current icon."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Middlesbrough_F.C.",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Kim Hellberg, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Middlesbrough_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Millwall",
+  "C": {
+   "score": 8,
+   "evidence": "The Den (~20,100) is one of the loudest, most intimidating grounds in England; 2025-26 average 17,135 was the highest since 1952-53. Fiercely loyal, tight-knit local support and strong away following."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "No betting sponsor (shirt Wiggett Group, sleeve FXD Capital). Millwall Community Trust and the Lionesses women's team are positives, but repeated discriminatory chanting and a long hooligan reputation weigh against."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 1885 on the Isle of Dogs; first top-flight season 1988-89; 2004 FA Cup final and UEFA Cup entry; 59-game unbeaten home run (1964-67). 'No one likes us' identity is part of football culture."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Berylson family (Chestnut Hill Ventures) since 2007; James Berylson chairman after John Berylson's death in 2023. Long-term, stable owners who cover losses; 3rd in 2025-26 with a record 83 points."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Alex Neil: hard-running, physical, direct side that runs for each other; record second-tier points total in 2025-26 (lost play-off semi-final to Hull). Captain Jake Cooper (at the club since 2017, 400+ appearances) is the current icon. Moderate churn, no star culture; one of the closest player-fan bonds in the league (players celebrate in front of the Dockers' stand)."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -8,
+    "evidence": "FA fined the club £45,000 (2026) for fans' disability-discriminatory chanting at Crystal Palace in September 2025, the third discrimination breach in three years (previous charges over chants about religion and sexual orientation); FA had suggested a partial closure. Earlier: fined over racist chanting v Everton (2019), fans booed players taking the knee (Dec 2020)."
+   }
+  ],
+  "flags": [
+   "Existing rule gave -5 for racism; I propose -8 given three FA discrimination breaches in three years. Decide.",
+   "Hooliganism reputation is mostly historical; no separate violence adjustment applied (no recent repeated disorder found in this session)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Millwall_F.C.",
+   "https://www.millwallfc.co.uk/news/2026/march/09/club-statement--charge-for-breach-of-fa-rule-e21/",
+   "https://www.thefa.com/-/media/files/thefaportal/governance-docs/discipline-cases/2025-26/the-fa-v-millwall-fc-updated.ashx",
+   "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/04/24/millwall-fumes-after-anti-racism-booklet-shows-its-badge-on-a-ku-klux-klan-robe",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [
+    "Jake Cooper"
+   ],
+   "coach": "Alex Neil, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship",
+    "https://www.thefa.com/news/2026/jan/07/fa-charges---december-2025-070126",
+    "https://www.millwallfc.co.uk/news/2025/december/14/club-statement/"
+   ]
+  }
+ },
+ {
+  "name": "Norwich City",
+  "C": {
+   "score": 7,
+   "evidence": "Carrow Road (~27,000) near-full most seasons; 'On the Ball, City' is one of the oldest club songs; loyal regional support, atmosphere good but not elite."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No betting sponsor (shirt Blakely). Strong community trust (Community Sports Foundation), investment in the women's team and a Category One academy with a first-team pathway. Delia Smith and Michael Wynn-Jones remain honorary life presidents with 10%."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "League Cup 1962 and 1985; 3rd in the inaugural Premier League 1992-93 and a UEFA Cup win at Bayern Munich in 1993. Solid regional club."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Mark Attanasio (Milwaukee Brewers owner) took ~85% via Norfolk Holdings in October 2024, ending 27 years of Delia Smith / Wynn-Jones majority ownership; other small shareholders remain. Outside owner, so far sensible."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Coaching churn: Wagner, Thorup, Liam Manning (sacked 8 Nov 2025 after 17 games), then Philippe Clement (since Nov 2025, deal to 2029), a more aggressive pressing coach. Long-serving captain Kenny McLean (at Carrow Road since 2018, through two promotions and relegations) is the nearest thing to an icon. High squad churn and regular sales. Possession-leaning but no lasting identity yet."
+  },
+  "adjustments": [],
+  "flags": [
+   "Head coach for 2026-27 not verified this session.",
+   "Previous V 8 reflected Delia-era near-community ownership; lowered to 7 after the Attanasio takeover."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.pinkun.com/sport/norwich-city/24978326.norwich-city-mark-attanasio-completes-delia-smith-takeover/",
+   "https://en.wikipedia.org/wiki/Mark_Attanasio",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [
+    "Kenny McLean"
+   ],
+   "coach": "Philippe Clement, since 2025",
+   "flags": [
+    "McLean as icon is borderline; decide."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Norwich_City_F.C._season",
+    "https://www.skysports.com/football/news/11095/13472178/philippe-clement-norwich-appoint-former-rangers-boss-as-head-coach",
+    "https://global.espn.com/football/story/_/id/43357104/norwichs-borja-sainz-gets-6-game-ban-spitting-opponent"
+   ]
+  }
+ },
+ {
+  "name": "Portsmouth",
+  "C": {
+   "score": 8,
+   "evidence": "Fratton Park (home since 1898, ~21,000 after the 2024 redevelopment) sells out routinely; loud, loyal support that stayed through two administrations and a drop to League Two; big away following."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No betting sponsor (shirt University of Portsmouth, sleeve Richmond Motor Group). Club was rescued and owned by the Pompey Supporters' Trust 2013-17; active community trust; women's team in the professional pyramid."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "English champions 1948-49 and 1949-50, FA Cup 1939 and 2008, 2010 FA Cup final; the 2013 fan buy-out was the largest supporter ownership in English football at the time."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Michael Eisner's Tornante Company owns the club since 2017 (bought from the supporters' trust); has invested over £15m in Fratton Park and more in running costs; stable and well regarded, though outside ownership."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "John Mousinho (since January 2023, one of the longest-serving coaches in the division): organised, hard-working mid-block, League One title 2024 then Championship survival. Captain Marlon Pack, Portsmouth-born boyhood fan who came home in 2022, is the icon. Stable, humble squad without star culture; a very strong player-fan bond at Fratton Park."
+  },
+  "adjustments": [],
+  "flags": [
+   "Check whether the Pompey Supporters' Trust still holds any stake or special rights after the 2017 sale."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://footballgroundguide.com/news/fratton-park-redevelopment-portsmouth",
+   "https://www.portsmouth.co.uk/sport/football/portsmouth-fc/portsmouth-fc-accounts-fratton-park-spending-6026617",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Portsmouth_F.C._season",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [
+    "Marlon Pack"
+   ],
+   "coach": "John Mousinho, since 2023",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Portsmouth_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Preston North End",
+  "C": {
+   "score": 5,
+   "evidence": "Deepdale (~23,400) is often around half to two-thirds full in the Championship; loyal but not noted for atmosphere. The ground itself is the world's oldest in continuous use by a league club (since 1875)."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "No betting sponsor (shirt SpudBros, sleeve CPC). Community & Education Trust; no notable negatives found. [Players: -2. Milutin Osmajić bit Blackburn's Owen Beck (Sept 2024, 8-match ban, £15k fine) and in Nov 2025 an FA commission found him guilty of racially abusing Burnley's Hannibal Mejbri (9-match ban, £21k fine). Preston said they were 'extremely disappointed', questioned the verdict and stayed 'fully supportive' of the player. He was sold to Genoa in August 2026, but the club stood by him through the case.]"
+  },
+  "H": {
+   "score": 8,
+   "evidence": "'The Invincibles' won the first Football League (1888-89) unbeaten and the FA Cup without conceding; champions again 1889-90; FA Cup 1938; Tom Finney. Deep influence on the early game."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Owned by Wordon Ltd, the Hemmings family company, since Trevor Hemmings' era; he died in 2021 and the family has continued funding; stable but low ambition."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Mid-table pragmatism (14th in 2025-26); Paul Heckingbottom left 13 Sept 2026, Jason Euell interim. Captain Ali McCann. Long-serving servants (Alan Browne, Ben Whiteman) have left in recent seasons; moderate churn, no icon, no pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Head coach for 2026-27 not verified (Wikipedia lists a caretaker)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Preston_North_End_F.C.",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Jason Euell (interim), since September 2026",
+   "flags": [
+    "V -2 for publicly backing a player found guilty of racist abuse; Kevin to confirm the size (player now gone)."
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.itv.com/news/granada/2025-11-07/preston-extremely-disappointed-over-nine-match-ban-for-alleged-racist-abuse",
+    "https://www.skysports.com/football/news/11095/13465881/milutin-osmajic-preston-striker-given-nine-match-ban-and-lb21-000-fine-for-alleged-racial-abuse-of-burnleys-hannibal",
+    "https://the72.co.uk/2026/08/21/preston-north-end-accept-milutin-osmajic-transfer-bid/",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Queens Park Rangers",
+  "C": {
+   "score": 6,
+   "evidence": "Loftus Road (~18,400) is a compact, traditional ground with a close atmosphere; modest West London following, crowds usually 15,000-17,000."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Shirt sponsor MrQ (online bingo/casino brand) from 2026. QPR in the Community Trust is well regarded; women's team exists. Stadium naming has previously gone to Malaysian government trade agency MATRADE (not verified for 2026)."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "League Cup 1967 as a third-tier club; First Division runners-up 1975-76; Premier League founder member."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Consortium of Ruben Gnanalingam, Richard Reilly and Lakshmi Mittal (Tony Fernandes stepped back); owners fund large losses; history of instability and heavy debt."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Julien Stéphan (since June 2025): possession-based, mid-table (15th in 2025-26), after Martí Cifuentes left. Captain Jimmy Dunne. Moderate churn on a tight budget, no star culture, but no current icon either. Small, close ground (Loftus Road) with a decent bond."
+  },
+  "adjustments": [
+   {
+    "type": "overspend",
+    "points": -2,
+    "evidence": "Breached EFL FFP in 2013-14 Premier League promotion push; settled for £42m in 2018. Continued owner-funded losses since."
+   }
+  ],
+  "flags": [
+   "MrQ is mainly casino/bingo rather than sports betting; decide whether it counts as a betting sponsor (I applied a partial deduction).",
+   "Stadium naming sponsor for 2026-27 not verified (MATRADE was a Malaysian government agency)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Julien Stéphan, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship",
+    "https://www.expressandstar.com/news/2025/03/10/police-issue-update-after-west-bromwich-albion-fan-arrested-following-reports-of-racist-behaviour-towards-qpr-player/"
+   ]
+  }
+ },
+ {
+  "name": "Sheffield United",
+  "C": {
+   "score": 8,
+   "evidence": "Bramall Lane (since 1855, the oldest major stadium still hosting professional football) with near-full crowds in the high 20,000s; loud Kop and a fierce Steel City derby; loyal through spells in the third tier."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Midnite (betting) is 2026/27 front-of-shirt sponsor; sleeve Village Hotels. Community Foundation and a women's team in the second tier are positives."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "English champions 1897-98, FA Cup 1899, 1902, 1915, 1925; Bramall Lane and Sheffield's place as a birthplace of the organised game; Premier League founder member."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "Bought in December 2024 by COH Sports (Steven Rosen, Helmy Eltoukhy) from Prince Abdullah bin Mosa'ad's United World, which says it is owed over £35m from the sale. On 19 August 2026 the High Court wound up COH Sports Bidco; the EFL is considering action, including a possible 12-point deduction. [Players: -1, Maddy Cusack case: warned about the coach, flawed club inquiry.]"
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Chris Wilder (Sheffield-born Blades fan, third spell, back in 2025 on a three-year deal after Rubén Sellés was sacked at 0-5) is the defining coach: overlapping centre-backs, high energy. Captain Japhet Tanganga. But very high churn: owner changes, 2025 play-off final loss, sale of key players, loans. No current icon."
+  },
+  "adjustments": [
+   {
+    "type": "other",
+    "points": -5,
+    "evidence": "Holding company of the owners placed into compulsory liquidation (Aug 2026) over an unpaid ~£35m purchase balance; club faces a possible points deduction and ownership uncertainty."
+   }
+  ],
+  "flags": [
+   "Ownership in flux after COH Sports' liquidation (Aug 2026): re-check before finalising. The 'other' -5 is my proposal; the case may also fit 'lbo' if the purchase proves to be debt-funded against the club.",
+   "Head coach for 2026-27 not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://sports.yahoo.com/articles/sheffield-united-face-potential-points-125100595.html",
+   "https://www.thestar.co.uk/sport/football/sheffield-united/sheffield-united-owners-winding-up-petition-8781193",
+   "https://fanbanter.co.uk/sheffield-united-owners-coh-sports-wound-up-with-club-facing-threat-of-12-point-deduction",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Chris Wilder, since 2025 (third spell)",
+   "flags": [
+    "Cusack case is a women's-team welfare failure; decide if -1 is enough given the warnings before her death."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://www.skysports.com/football/news/11683/13430715/chris-wilder-sheffield-united-reappoint-manager-just-three-months-after-he-left-following-ruben-selles-sacking",
+    "https://sports.yahoo.com/sheffield-united-were-warned-manager-080107870.html",
+    "https://en.wikipedia.org/wiki/Maddy_Cusack",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Southampton",
+  "C": {
+   "score": 7,
+   "evidence": "St Mary's (~32,400, since 2001) well filled even in the Championship; solid, loyal south-coast support with a good away following; atmosphere good rather than elite. Left the Dell 25 years ago."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No betting sponsor (shirt P&O Cruises, sleeve Garmin). Renowned academy (Bale, Walcott, Shaw, Ward-Prowse) and a women's team in the second tier are positives. In May 2026 the club admitted spying on three opponents' training sessions (Middlesbrough, Oxford, Ipswich) authorised by head coach Tonda Eckert."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "FA Cup 1976 as a second-tier side; First Division runners-up 1984; Le Tissier era; one of England's most influential academies."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Sport Republic (founded by Rasmus Ankersen and Henrik Kraft, financed by Dragan Šolak, who chairs the club) holds 80% since 2022. Relegated from the Premier League in 2025 with 12 points; Ankersen resigned as a director in September 2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Tonda Eckert's aggressive, front-foot side reached the 2026 play-off final before expulsion for Spygate (four-point deduction for 2026-27); players publicly backed Eckert. Captain Jack Stephens (at the club since 2011) is the long-serving figure. But very high churn after the 2024-25 Premier League collapse and the Sport Republic model (big buy-and-sell squad, e.g. £9m Dobbin, Larin, Peretz). Player-fan bond strained by the 2024-25 season."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "Owner Sport Republic is a sports investment firm."
+   },
+   {
+    "type": "other",
+    "points": -3,
+    "evidence": "'Spygate' (2026): club admitted three breaches of the EFL training-spying rule, was expelled from the play-off final and given a 4-point deduction for 2026-27."
+   }
+  ],
+  "flags": [
+   "Spygate: decide whether cheating by club staff belongs in Values or as an 'other' adjustment (I used both lightly: V 5 and -3).",
+   "pe and multiclub both applied for Sport Republic; drop one if that double-counts."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sport_Republic",
+   "https://www.sportbusiness.com/news/sport-republic-begins-to-roll-out-multi-club-vision-with-goztepe-takeover/",
+   "https://www.skysports.com/football/news/13545415/southampton-expelled-from-championship-play-offs-over-spygate-with-middlesbrough-reinstated",
+   "https://en.wikipedia.org/wiki/Southampton_F.C._espionage_incident",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "review": [
+   "multiclub: dropped (Sport Republic flagship (Goztepe, Valenciennes secondary))"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Tonda Eckert, since 2025",
+   "flags": [
+    "Stephens is long-serving but a squad player more than an icon; not listed."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://www.itv.com/news/meridian/2026-08-07/southampton-fc-players-back-manager-tonda-eckert-after-spygate-fallout",
+    "https://en.wikipedia.org/wiki/Tonda_Eckert",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Stoke City",
+  "C": {
+   "score": 7,
+   "evidence": "Known for a loud, passionate crowd and the 'Delilah' anthem; bet365 Stadium (~30,100, since 1997, out of town) with crowds in the low-to-mid 20,000s; left the Victoria Ground after 119 years."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "bet365 is shirt sponsor (since 2012) and stadium name; the club is owned by the Coates family, who own bet365, so the club is a platform for a sports-betting firm. Stoke City Community Trust and a women's team are positives."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1863, one of the oldest professional clubs; Football League founder member; League Cup 1972; Stanley Matthews; FA Cup final 2011 and Europa League 2011-12."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Coates family (local, via Stoke City Holdings; chairman John Coates) since 2006; has funded large losses and kept the club stable. Local and long-term, but a betting-firm owner."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Mark Robins (since January 2025): pragmatic, low-possession football, 17th in 2025-26, reported to be under sack pressure. Several coaches in three seasons (Neil, Schumacher, Pèlach, Robins) and repeated squad rebuilds. Captain goalkeeper Viktor Johansson. No icon, no pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Existing rule: casino money behind an owner does not count, but here bet365 (sports betting) is also shirt and stadium sponsor, so Values is lowered. Confirm."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stoke_City_F.C.",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Mark Robins, since 2025",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mark_Robins",
+    "https://footballleagueworld.co.uk/mark-robins-facing-stoke-city-sack-threat/",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Swansea City",
+  "C": {
+   "score": 6,
+   "evidence": "Swansea.com Stadium (since 2005, ~21,000) usually around 17,000-18,000; committed Jack Army and Welsh-derby intensity, but a modern ground and an average atmosphere. Left the Vetch Field after 93 years."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Supporters' Trust holds ~7% with protected rights and a board seat (a second permanent director agreed in 2024); Welsh regional identity; no betting sponsor (shirt AG1, sleeve ASI:One). [Players: +1. Homegrown captain Ben Cabango (academy graduate, Wales international) leads a first team with other academy products. No player-conduct cases found.]"
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Rose from the fourth tier to top the First Division in 1981 (finished 6th); saved by fans in 2001-02; League Cup 2013 and seven Premier League seasons (2011-18); several European campaigns via the Welsh Cup."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Since November 2024 controlled by Americans Andy Coleman, Brett Cravatt, Nigel Morris and Jason Cohen, who committed over £20m; minority investors include Luka Modrić and Snoop Dogg. Trust rights preserved."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Long possession identity ('Swansea way'), now with Klopp's former assistant Vítor Matos (since 2025) adding intensity: top of the table in Sept 2026 with four clean sheets in five. Captain Ben Cabango, a Welsh academy graduate and long-serving centre-back. Moderate churn; celebrity investors (Modrić, Snoop Dogg) but no star-ego squad. Good player-fan bond in a community-owned-in-part club."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "[Review: Levien/Kaplan secondary club (D.C. United flagship).]"
+   }
+  ],
+  "flags": [
+   "Trust stake is ~7% (Wikipedia); verify if diluted further by new investment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.swanstrust.co.uk/news/announcement-of-change-in-club-ownership/",
+   "https://en.wikipedia.org/wiki/Swansea_City_A.F.C.",
+   "https://www.aljazeera.com/sports/2025/7/18/snoop-dog-becomes-swansea-city-co-owner-in-rivalry-with-wrexham",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "review": [
+   "multiclub: -4 (Levien/Kaplan secondary club (D.C. United flagship))"
+  ],
+  "team": {
+   "icons": [
+    "Ben Cabango"
+   ],
+   "coach": "Vítor Matos, since 2025",
+   "flags": [
+    "T 7 leans on Matos' early 2026-27 form; 6 if it fades."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://swanseabaynews.com/swans-more-useful-that-we-speak-about-football-matos-on-the-cabango-challenge/",
+    "https://en.wikipedia.org/wiki/Ben_Cabango",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Watford",
+  "C": {
+   "score": 5,
+   "evidence": "Vicarage Road (~22,000, since 1922) with crowds around 18,000-20,000 in the Championship; traditional ground, generally ordinary atmosphere."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor (shirt Boxt, sleeve University of Hertfordshire). Watford FC's Community Sports & Education Trust is well regarded; women's team."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Rise from the fourth tier to First Division runners-up in 1983 under Graham Taylor and Elton John; FA Cup finals 1984 and 2019; UEFA Cup 1983-84."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Pozzo family since 2012: very high managerial turnover (sacked popular coach Tom Cleverley), reported growing anti-Pozzo sentiment among fans; Gino Pozzo said to be selling Udinese to focus on Watford, not confirmed."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Constant coaching turnover under the Pozzo model: Ed Still sacked 3 May 2026 after under three months; Alessio Dionisi appointed June 2026 (his 10th job in 12 years). Very high squad churn, many loans, players moved around the Udinese network. Captain Mattie Pollock. No icon, no lasting style, weak player-fan bond."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Pozzo family also owns Udinese (Serie A); Wikipedia still lists Giampaolo Pozzo as owner in 2026; long history of player movement between the clubs."
+   }
+  ],
+  "flags": [
+   "Reported sale of Udinese (~€150m) not confirmed; if completed, remove the multiclub adjustment.",
+   "Head coach for 2026-27 not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://footballleagueworld.co.uk/gino-pozzo-sent-clear-watford-fc-warning-after-udinese-sale/",
+   "https://en.wikipedia.org/wiki/Udinese_Calcio",
+   "https://www.sportspro.com/news/watford-udinese-spac-investment-pozzo-family/",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Alessio Dionisi, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://sports.yahoo.com/articles/watford-turn-another-italian-head-152500335.html",
+    "https://www.thefa.com/news/2026/mar/03/fa-charges---february-2026-040326",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "West Bromwich Albion",
+  "C": {
+   "score": 7,
+   "evidence": "The Hawthorns (since 1900, ~26,700) with crowds around 23,000-24,000 in the Championship; loud Birmingham Road End and intense Black Country derby with Wolves."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor (shirt Ideal Heating, sleeve BarberBoss). Albion Foundation community work; women's team. No notable negatives found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Football League founder member; champions 1919-20; five FA Cups (last 1968), League Cup 1966; the late-1970s 'Three Degrees' (Regis, Cunningham, Batson) were a landmark for Black players in English football."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Bilkul Football WBA (Shilen and Kiran Patel, Florida) bought 87.7% from Guochuan Lai in February 2024; invested £31m in 16 months and cut losses to £17m. Inherited ~£25m of Lai-era MSD loans due for repayment by December 2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Frequent coaching changes since Corberán left (Dec 2024): Mowbray, Ryan Mason, then club legend James Morrison (341 apps over 12 years as a player) as interim and permanent from 30 April 2026 after a 10-game unbeaten survival run. Captain George Campbell. Moderate churn, no current player icon; Morrison's return improves the bond."
+  },
+  "adjustments": [],
+  "flags": [
+   "Lai-era MSD loans (~£25m) due December 2026: check refinancing.",
+   "Head coach for 2026-27 not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/39616456/west-brom-takeover-shilen-patel-florida-championship",
+   "https://en.wikipedia.org/wiki/Shilen_Patel",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_West_Bromwich_Albion_F.C._season",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "James Morrison, since 2026",
+   "flags": [
+    "Morrison is a club-legend coach but new; revisit if he lasts."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://www.wba.co.uk/news/james-morrison-appointed-albion-head-coach",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "West Ham United",
+  "C": {
+   "score": 5,
+   "evidence": "Large, loyal East London fanbase, but the 62,500 London Stadium (moved 2016 from the Boleyn Ground) struggles for atmosphere; 2025-26 saw a supporter boycott with thousands of empty seats and anger at relegation. Existing -1 for the convenience move included."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "BoyleSports (betting) is 2026/27 front-of-shirt sponsor. West Ham Foundation and a WSL-era women's team are positives; relations between board and fans have broken down."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Academy of Football: Moore, Hurst and Peters in England's 1966 World Cup win; FA Cups 1964, 1975, 1980; Cup Winners' Cup 1965; Europa Conference League 2023."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "David Sullivan (chair) and Karren Brady face sustained fan protests, chants and a 2025-26 boycott; relegated in 2026 with 39 points. Czech billionaire Daniel Křetínský holds a large minority stake (~27%)."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Mostly reactive, low-possession football (Moyes, Lopetegui, Potter, now Nuno since Sept 2025); relegated in 2026 with a reported £150m player exodus. Captain Jarrod Bowen stayed after relegation and is the current icon (since 2020, Conference League winner). High churn and star-transfer culture; broken board-fan relations."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Minority owner Daniel Křetínský also controls Sparta Prague."
+   }
+  ],
+  "flags": [
+   "Relegated to the Championship in 2026; Culture could drop further if crowds fall at the London Stadium.",
+   "Křetínský stake size and Sparta link from background knowledge, not re-verified this session."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://sports.yahoo.com/articles/west-ham-sleepwalked-relegation-look-171151581.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_West_Ham_United_F.C._season",
+   "https://www.flashscore.com/news/soccer-premier-league-west-ham-fans-stage-sit-in-protest-at-london-stadium-after-win-over-newcastle/d4s3u7sS",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [
+    "Jarrod Bowen"
+   ],
+   "coach": "Nuno Espírito Santo, since 2025",
+   "flags": [
+    "Confirm Bowen is staying beyond the summer window."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://readwestham.com/2026/05/25/west-ham-relegated-premier-league-expected-to-lead-to-150m-player-exodus/",
+    "https://en.wikipedia.org/wiki/2025%E2%80%9326_West_Ham_United_F.C._season",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Wolverhampton Wanderers",
+  "C": {
+   "score": 8,
+   "evidence": "Molineux (since 1889, ~31,700) with a loud South Bank and full crowds; fans stayed loyal through the 1980s collapse to the fourth tier and organised boycotts of the first 15 minutes against owners in 2025-26."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Midnite (betting) is 2026/27 front-of-shirt sponsor; sleeve Wolf Competitions (prize-draw firm). Wolves Foundation and women's team are positives; supporters say they are treated with contempt by the owners."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Football League founder member; champions 1954, 1958, 1959 and four FA Cups; 1950s floodlit friendlies against Honvéd and others helped inspire the European Cup; UEFA Cup final 1972."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Chinese conglomerate Fosun International owns the club since 2016; relegated in 2025-26 after a steady decline; fan boycotts and petitions to sell; chairman Jeff Shi left in December 2025; Fosun rejected a ~£400m Textor bid and seeks only minority investment."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Relegated from the Premier League bottom in 2026, 21 points from safety; Rob Edwards sacked June 2026 after seven months, César Peixoto (ex-Gil Vicente) appointed on a two-year deal. Five coaches in three seasons (Lopetegui, O'Neil, Pereira, Edwards, Peixoto). Very high churn and a sell-on model (Cunha, Aït-Nouri, Neto sold). Captain Toti Gomes. No icon, reactive play, owner-fan relations poor."
+  },
+  "adjustments": [],
+  "flags": [
+   "Fosun's long-standing agent link (Jorge Mendes) not scored; consider an 'other' adjustment if Kevin sees it as a conflict of interest.",
+   "Fosun is a private conglomerate, not state-backed; no state adjustment applied."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
+   "https://uk.sports.yahoo.com/news/disgraceful-wolves-fans-fume-fosun-164229909.html",
+   "https://www.footballfancast.com/wolves-cut-price-takeover-bid-surprise-offer-rejected/",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "César Peixoto, since 2026",
+   "flags": [],
+   "confidence": "medium",
+   "sources": [
+    "https://www.itv.com/news/central/2026-06-11/wolves-sack-manager-rob-edwards-after-less-than-six-months-in-charge",
+    "https://www.skysports.com/football/news/13554380/wolves-manager-latest-cesar-peixoto-announced-as-rob-edwards-replacement-at-molineux",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ },
+ {
+  "name": "Wrexham",
+  "C": {
+   "score": 8,
+   "evidence": "Racecourse Ground (since 1864, oldest international stadium still in use) sells out; non-season-ticket fans balloted for every match in 2026-27; loyal through 15 years in non-league and fan ownership."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Welsh regional identity; no betting sponsor (shirt Firefox, sleeve NEX); women's team investment and visible community work. Matchday prices rose £6 for some stands in 2026-27 (adult £28-£32)."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Oldest club in Wales (1864); famous FA Cup win over champions Arsenal in 1992; Cup Winners' Cup quarter-final 1976; supporters' trust saved and ran the club 2011-21; highest-ever league finish in 2025-26."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Ryan Reynolds and Rob McElhenney majority owners since 2021, heavy investment including a $95m Kop stand (now due 2027-28). Minority stakes: Allyn family (~15%, 2024), Apollo Sports Capital (~10%, December 2025) and a further ~5% to an ASC-linked group that co-owns Necaxa."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Phil Parkinson (since July 2019) is the defining long-serving coach: three straight promotions then a strong first Championship season with a direct, physical, high-energy side. Captain Dominic Hyam. Very visible player-fan and community bond (documentary, players at community events). Against it: heavy churn (11 permanent signings in 2025, 7 more in 2026) and icon Paul Mullin has left."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "Apollo Sports Capital (private-equity sports fund) holds just under 10% since December 2025."
+   }
+  ],
+  "flags": [
+   "Big wage spending relative to a small-ground income; consider a small overspend adjustment if accounts show large losses.",
+   "Check whether the Wrexham Supporters Trust kept any rights (e.g. over the Racecourse) after the 2021 sale."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.si.com/soccer/who-owns-wrexham-club-ownership-structure-investors",
+   "https://www.sportspro.com/news/wrexham-allyn-family-minority-investment-ryan-reynolds-rob-mcelhenney/",
+   "https://footballgroundguide.com/news/wrexham-announce-ticket-price-rises-for-2026-27-championship-season.html",
+   "https://www.si.com/soccer/wrexham-ceo-when-new-95-million-kop-stand-finished",
+   "https://www.scoreandchange.com/championship-sponsors/"
+  ],
+  "team": {
+   "icons": [],
+   "coach": "Phil Parkinson, since 2019",
+   "flags": [
+    "Churn is very high for a 'stable squad'; T could be 6."
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://www.espn.com/soccer/story/_/id/48655759/wrexham-boss-eyes-new-signings-2026-27-championship-promotion-push",
+    "https://www.northwalespioneer.co.uk/sport/26536102.wrexham-submit-official-2026-27-season-efl-squad-list/",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+   ]
+  }
+ }
+]

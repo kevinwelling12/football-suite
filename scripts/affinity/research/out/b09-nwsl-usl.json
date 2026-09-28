@@ -1,0 +1,524 @@
+[
+ {
+  "name": "Angel City FC",
+  "C": {
+   "score": 7,
+   "evidence": "Average 19,756 (2023) falling to 16,257 (2025) and 15,321 (2026, 4th in NWSL) at BMO Stadium (22,000, shared soccer-specific). Organised supporters' section; among the league's larger crowds."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Founded around a community model (share of sponsorship value to local programmes); record NWSL shirt deal with DoorDash; no betting sponsor found. 2024: fined $200,000 and docked 3 points for salary-cap violations."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2020, first season 2022. No trophies."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Bob Iger and Willow Bay majority since July 2024 ($50m at a $250m valuation) plus a large celebrity/founder group. Heavy investment; frequent coach turnover (Coombe 2023, Tweed 2024, Straus fired June 2026)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "12th (2024), 11th (2025); 6th in 2026 (42 pts) under interim coach after a mid-season sacking. No settled identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Angel_City_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Bay FC",
+  "C": {
+   "score": 6,
+   "evidence": "Average 13,617 (2024), 14,823 (2025), 11,677 (2026) at PayPal Park (18,000, shared with San Jose Earthquakes). Young club, supporters' section still forming."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Founded by four ex-USWNT players (Chastain, Osborne, Slaton, Wagner); Treasure Island performance centre under construction (2025). No betting sponsor found; no welfare cases found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2023, first season 2024. Region has women's-game history (FC Gold Pride, WPS 2010 champion) but no lineage."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Majority owner Sixth Street (investment firm) paid a $53m expansion fee and committed $72m more. Founder-players and Sheryl Sandberg, Rick Welts in the group."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "7th (2024), 13th (2025), 13th (2026). Coach Montoya resigned Nov 2025; Emma Coates hired."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -6,
+    "evidence": "Sixth Street, a global investment firm, is majority owner."
+   }
+  ],
+  "flags": [
+   "Sixth Street majority: scored as PE -6. Kevin to confirm the size (it is investment money, with a founder-player group)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bay_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season",
+   "https://en.wikipedia.org/wiki/2026_Bay_FC_season"
+  ]
+ },
+ {
+  "name": "Boston Legacy",
+  "C": {
+   "score": 4,
+   "evidence": "Inaugural 2026 season: average 10,589, split between Gillette Stadium (NFL) and Centreville Bank Stadium (RI). No home in Boston until White Stadium (2028). NFL-stadium rule applied."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Launch branding 'BOS Nation' ('too many balls in this town') drew backlash; rebranded March 2025. White Stadium rebuild in a public park contested by the Emerald Necklace Conservancy (city won on appeal Aug 2026), costs rose from $50m to $325m. All-women lead ownership group."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2023, first season 2026. Boston Breakers (WUSA/WPS/NWSL, folded 2018) are not a direct lineage; crest nods to original NWSL clubs."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Boston Unity Soccer Partners, all-women lead group (Jennifer Epstein), many celebrity investors. Heavy stadium investment; no conduct issues found."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "14th of 16 in the 2026 inaugural season under Filipa Patao."
+  },
+  "adjustments": [],
+  "flags": [
+   "White Stadium public-land dispute: Kevin may want to weigh it more."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Boston_Legacy_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Chicago Stars",
+  "C": {
+   "score": 3,
+   "evidence": "Lowest NWSL average in 2026: 4,517. Moved from SeatGeek Stadium (Bridgeview) to Northwestern's Martin Stadium (12,023) in 2025. Long-running supporters (Chicago Local 134) but thin crowds."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Yates report (2022): owner Arnim Whisler knew of coach Rory Dames' abuse for years and did nothing; club and Whisler fined $1.5m (2023), Dames banned. Club sold since; no betting sponsor found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 2006 as Chicago Red Stars, WPS founding member (2009), NWSL founding member (2013). 2019 and 2021 NWSL finalists, no major trophy."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Laura Ricketts group bought the club in 2023 ($35.5m + $25m operational). Stadium instability (temporary college venue)."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "8th (2024), 14th of 14 (2025), 16th of 16 (2026, 17 pts); coach Sjogren fired Aug 2026."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chicago_Stars_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Denver Summit",
+  "C": {
+   "score": 6,
+   "evidence": "Inaugural 2026 average 17,354, inflated by an NWSL-record 63,004 at Empower Field (NFL) for the home opener; regular home is a temporary 12,000-seat venue in Centennial. Atmosphere evidence limited."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor or welfare cases found. Permanent stadium promised in Denver (Santa Fe Yards) but delayed to about 2029."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Founded 2025, first season 2026."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Rob Cohen-led group paid a league-record $110m fee; Peyton Manning and Mikaela Shiffrin investors. Committed to a soccer-specific stadium."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "10th of 16 in the 2026 inaugural season under Nick Cushing."
+  },
+  "adjustments": [],
+  "flags": [
+   "Culture based on one season and a record one-off crowd; recheck after 2027."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Denver_Summit_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Gotham FC",
+  "C": {
+   "score": 6,
+   "evidence": "2026 average 10,728 at Sports Illustrated Stadium (Harrison, shared with Red Bull NY); Cloud 9 supporters' group. Record 42,175 at Citi Field (July 2026)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Sky Blue era (2017-19): no running water, showers or proper housing for players; reforms since. No betting sponsor found. Co-founded by Phil and Tammy Murphy (NJ governor until 2026)."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Founded 2006, WPS champion 2009, NWSL founding member, NWSL champion 2023 and 2025, CONCACAF W Champions Cup 2025."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Murphys, Carli Lloyd, Sue Bird, Eli Manning and others. Investment since the 2021 rebrand turned the club round."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "3rd (2024), champion (2025), 1st in 2026 (54 pts)."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/NJ/NY_Gotham_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Houston Dash",
+  "C": {
+   "score": 4,
+   "evidence": "2026 average 6,684 (14th of 16) at Shell Energy Stadium (20,656, shared with Dynamo)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Coach James Clarkson suspended 2022, terminated after an NWSL finding of emotional misconduct. No betting sponsor found."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2014; 2020 Challenge Cup is the only trophy."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Ted Segal (majority since 2021, with Dynamo), James Harden and Tim Howard minority. Ordinary conduct."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "14th (2024), 10th (2025), 12th (2026) with an interim coach."
+  },
+  "adjustments": [],
+  "flags": [
+   "Shares ownership with Houston Dynamo; check Dynamo sponsors if Kevin counts shared-group sponsors."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Houston_Dash",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Kansas City Current",
+  "C": {
+   "score": 9,
+   "evidence": "CPKC Stadium (11,500), first stadium built for a women's team (2024), sold out every home match 2024 and 2025; 2026 average 11,500. Supporters: Blue Crew (from FC Kansas City), Surface Tension, The Undertow."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Owners privately funded the stadium and a training facility; shirt sponsor United Way of Greater Kansas City (2024-). No betting sponsor found. 2022 player complaints about coach Huw Williams."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2020, play since 2021. Fan base carries on from FC Kansas City (NWSL champions 2014, 2015) but not the same club."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Angie and Chris Long (local), Patrick and Brittany Mahomes. Large, sensible investment in stadium and facilities; strong conduct."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "2025 NWSL Shield with a record 65 points and 16 clean sheets; Temwa Chawinga MVP 2024 and 2025. 7th in 2026."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kansas_City_Current",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "North Carolina Courage",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 8,024 at WakeMed Soccer Park (10,000, Cary). Supporters' group present; smaller crowds than peers."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Coach Paul Riley fired Sept 2021 after sexual-coercion allegations surfaced (his abuse was at Portland; the Yates report covers it). No betting sponsor found (shirt: Merz Aesthetics)."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Continues the Western New York Flash (WPS 2011 champion, NWSL 2016 champion). As Courage: NWSL Shield 2017-19, Championships 2018-19, Challenge Cups 2022-23."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Steve Malik (local) with Capitol Broadcasting, the Holidays and Naomi Osaka. Downtown stadium plan stalled."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Built a high-press dynasty in 2017-19; now mid-table: 5th (2024), 9th (2025), 9th (2026)."
+  },
+  "adjustments": [],
+  "flags": [
+   "Relocated franchise (bought the Western New York Flash rights and moved to Cary in 2017). No franchise adjustment applied; Kevin to decide if it should be -10. History counts the Courage titles, lightly credits the Flash."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/North_Carolina_Courage",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season",
+   "https://en.wikipedia.org/wiki/Western_New_York_Flash"
+  ]
+ },
+ {
+  "name": "Orlando Pride",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 7,963; 2025: 9,623 at Inter&Co Stadium (25,500, shared with Orlando City)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Coach Amanda Cromwell and assistant fired in 2022 for retaliation against players. No betting sponsor found. Yolanda Thomas first Black woman head coach in NWSL (interim, 2026)."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Founded 2015. NWSL Shield and Championship double in 2024; Marta era."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Wilf family (Minnesota Vikings) since 2021, with Orlando City. Ordinary conduct."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "2024 double, 4th in 2025, 11th in 2026; Seb Hines fired Aug 2026."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Orlando_Pride",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Portland Thorns",
+  "C": {
+   "score": 10,
+   "evidence": "League-leading crowds: 18,173 (2025, 1st), 19,087 (2026, 1st) at Providence Park. Rose City Riveters (since 2013) known for tifo and chanting."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Yates report (2022): club obstructed witness access; GM Gavin Wilkinson recommended Paul Riley to other clubs and downplayed abuse allegations. Club fined; Paulson sold. New ownership since 2024. No betting sponsor found."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "NWSL founding member; champions 2013, 2017, 2022; Shield 2016, 2021; the women's game's reference club for crowds."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Bhathal family (RAJ Sports) since January 2024; separate from the Timbers. Stable after the Paulson era."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "6th (2024), 3rd (2025), 5th (2026); Rob Gale fired, Robert Vilahamn hired 2026."
+  },
+  "adjustments": [],
+  "flags": [
+   "Values dropped from 8 to 6 for the Yates findings (brief requires welfare record). Kevin to confirm whether new ownership should soften it."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Portland_Thorns_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Racing Louisville",
+  "C": {
+   "score": 4,
+   "evidence": "Crowds falling: 6,223 (2024), 5,521 (2025), 5,548 (2026, 15th) at Lynn Family Stadium (15,304, shared with Louisville City)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "First coach Christy Holly fired for cause in 2021; Yates report detailed his sexual abuse of a player at Racing. GE Appliances shirt sponsor. No betting sponsor found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2019, first season 2021."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Soccer Holdings (John Neace), also owns Louisville City. In 2026 exploring sale; FC Cincinnati talks about a move to Cincinnati; commissioner says relocation possible."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Best season 2025 (7th, quarter-final, Yanez Coach of the Year); 15th in 2026."
+  },
+  "adjustments": [],
+  "flags": [
+   "Possible sale/relocation to Cincinnati (ESPN, 2026). If it moves, add a franchise adjustment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Racing_Louisville_FC",
+   "https://www.espn.com/soccer/story/_/id/49883605/nwsl-racing-louisville-future-look-new-ownership-relocation-city-folding",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "San Diego Wave",
+  "C": {
+   "score": 6,
+   "evidence": "19,575 average in 2024 (record opener 32,066) fell to 12,040 in 2026 at Snapdragon Stadium (35,000, college/multi-use). Sirens supporters' group."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "July 2024 ex-employees alleged an abusive workplace under president Jill Ellis; five filed suit (Oct 2024). No betting sponsor found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2021, first season 2022. NWSL Shield 2023, Challenge Cup 2024."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Lauren Leichtman and Arthur Levine (founders of PE firm Levine Leichtman) bought in 2024 at $113m; Alex Morgan, Jimmy Butler minority."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "10th (2024), 6th (2025), 2nd in 2026 under Jonas Eidevall."
+  },
+  "adjustments": [],
+  "flags": [
+   "Owners are PE-firm founders; the purchase appears personal, so no PE adjustment. Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/San_Diego_Wave_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Seattle Reign",
+  "C": {
+   "score": 4,
+   "evidence": "2026 average 7,300 at Lumen Field (NFL stadium, capped around 10,000). Royal Guard (2013), first women's supporters' group in the state."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Coach Farid Benstiti resigned 2021; investigation found weight-shaming abuse. Shirt sponsor Trupanion (2025-); earlier Black Future Co-op Fund. No betting sponsor found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "NWSL founding member (2013); Shields 2014, 2015, 2022; finals 2014, 2015, 2023; Rapinoe era."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Bought in 2024 by the Seattle Sounders ownership and The Carlyle Group ($58m) from OL Groupe."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "13th (2024), 5th (2025), 8th (2026)."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "The Carlyle Group, a private-equity firm, co-owns the club with the Sounders."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seattle_Reign_FC",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Utah Royals",
+  "C": {
+   "score": 5,
+   "evidence": "2026 average 8,884 at America First Field (20,213, shared with Real Salt Lake)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Original Royals (2018-20) folded after racist and sexist conduct allegations against then-owner Dell Loy Hansen; current club under new owners. No betting sponsor or welfare cases found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Original team 2018-20, revived 2024."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Miller Sports + Entertainment (Gail Miller, local) majority since April 2025; David Blitzer minority."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "11th (2024), 12th (2025), 4th in 2026 (45 pts)."
+  },
+  "adjustments": [],
+  "flags": [
+   "David Blitzer (minority) has a multi-club portfolio; not treated as a network club, no adjustment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Utah_Royals",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ },
+ {
+  "name": "Washington Spirit",
+  "C": {
+   "score": 8,
+   "evidence": "Averages 13,934 (2024), 15,259 (2025), 15,797 (2026, 3rd) at Audi Field. Spirit Squadron and Rose Room Collective supporters."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Fanatics Sportsbook partnership (May 2026), the first NWSL club sportsbook deal found. 2021: coach Richie Burke dismissed for abuse; owner Steve Baldwin forced out. Kang invests heavily in the women's game."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "NWSL founding member, successor to D.C. United Women; champion 2021, finalist 2016, 2024, 2025; Challenge Cup 2025."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Michele Kang majority since 2022; heavy investment."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Finals in 2024 and 2025; 3rd in 2026."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Kang's Kynisca also controls Olympique Lyonnais Feminin and London City Lionesses; the Spirit is not a feeder."
+   }
+  ],
+  "flags": [
+   "Multi-club reduced from -8 to -6 (Spirit is the flagship, not a feeder)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Washington_Spirit",
+   "https://www.intergameonline.com/land-based-gaming/news/fanatics-sportsbook-and-washington-spirit-launch-partnership-deal",
+   "https://en.wikipedia.org/wiki/2026_NWSL_season"
+  ]
+ }
+]

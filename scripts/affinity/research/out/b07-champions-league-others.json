@@ -1,0 +1,617 @@
+[
+ {
+  "name": "AEK Athens",
+  "C": {
+   "score": 8,
+   "evidence": "Original 21 at Gate 21 are among Greece's most intense ultras; 'well over 1 million' fans. OPAP Arena (Agia Sophia, 32,500) opened 2022 on the Nikos Goumas site: elite atmosphere (9) with the new-stadium -1."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Main shirt sponsor Pame Stoixima (OPAP sports betting) lowers; Original 21's anti-fascist/left identity and the refugee (Constantinople) roots offset. Net typical."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "14 Greek titles, 16 cups; first Greek club in a European Cup QF (1968-69) and UEFA Cup SF (1977). Relegated 2013 and rebuilt from the third tier."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Owned by Marios Iliopoulos (Greek shipping businessman) since 2015; financed the new stadium and rebuilt the club after 2013. Private owner, acceptable conduct."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Competitive Greek champion (2023, 2026); energetic but not a defined high-press identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Greek football violence context: AEK fans involved in the 2013 pitch invasion (points deduction). The 2023 killing of an AEK fan was by Dinamo Zagreb ultras (victims, not perpetrators). No violence adjustment applied; confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AEK_Athens_F.C.",
+   "https://www.footyheadlines.com/7621041480/aek-athens-26-27-home-kit-released.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_AEK_Athens_F.C._season"
+  ]
+ },
+ {
+  "name": "Atlético Madrid",
+  "C": {
+   "score": 8,
+   "evidence": "Loud, loyal support; ~70,800 Metropolitano since 2017 (move now 9 seasons old, no new-stadium drop). Lost the character of the Calderón; Frente Atlético-led south stand drives the noise."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Riyadh Air (Saudi PIF-owned state airline) is main shirt sponsor and stadium name (Riyadh Air Metropolitano, ~EUR300m): authoritarian-state sponsor. Frente Atlético has far-right roots; 2023 Vinícius effigy (four ultras convicted as hate crime 2025)."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "11 La Liga titles, 3 Europa Leagues, European Cup finals 1974, 2014, 2016; Madrid's working-class counterweight to Real."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Apollo Sports Capital (PE) became 55% majority owner in March 2026; Quantum Pacific ~25%. Gil/Cerezo remain in charge (controversial 1990s conversion to SAD)."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Simeone era (since 2011) built on intensity, work rate and collective effort; less defensive recently but still a running identity."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -6,
+    "evidence": "Apollo Sports Capital (private-equity sports fund) majority shareholder since March 2026."
+   },
+   {
+    "type": "racism",
+    "points": -10,
+    "evidence": "UEFA fined the club EUR30,000 for fans' racist behaviour at Benfica (Oct 2024); nine fans banned for life for racism (2024); Frente Atlético ultras convicted over the Vinícius effigy."
+   },
+   {
+    "type": "violence",
+    "points": -4,
+    "evidence": "Sept 2024 derby suspended after objects thrown from the Frente's stand (partial closure); history includes the 2014 killing of a Deportivo fan in a pre-arranged clash involving Frente."
+   },
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "2021 Super League founder; withdrew within days."
+   }
+  ],
+  "flags": [
+   "Racism+violence total -14 vs old -10 combined; check scale vs Lazio -30.",
+   "Apollo: consider whether -6 PE or harsher if any acquisition debt is loaded on the club (not found)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://www.apollo.com/insights-news/pressreleases/2026/03/apollo-sports-capital-completes-transaction-to-become-majority-shareholder-of-atl-tico-de-madrid-3254644",
+   "https://en.atleticodemadrid.com/noticias/riyadh-air-atletico-de-madrid-s-new-main-sponsor",
+   "https://insidersport.com/2024/10/10/atletico-madrid-stadium-riyadh-air/",
+   "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+   "https://www.flashscore.com/news/soccer-laliga-atletico-will-not-sell-tickets-for-next-five-away-matches-after-uefa-rfef-sanctions/Stt5IG55",
+   "https://www.malaymail.com/news/sports/2025/06/17/atletico-madrid-fans-handed-suspended-jail-terms-for-racist-attack-on-vinicius-junior/180664"
+  ]
+ },
+ {
+  "name": "Barcelona",
+  "C": {
+   "score": 7,
+   "evidence": "Huge following but Camp Nou crowds are known as touristy and quiet outside big games; Grada d'Animació is the organised section. Camp Nou reopened in stages from Nov 2025 (same site, not a new stadium)."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Catalan identity ('Més que un club'); member-owned with elected president; elite women's team (Femení); La Masia pathway (Yamal, Cubarsí, Fermín). Negreira referee-payments case and high tourist-oriented pricing hold it back. Spotify sponsor: no effect."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Global significance: Cruyff/total football legacy, 5 European Cups, La Masia influence on the game."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Member-owned (socis elect the president); conduct weaker: 'economic levers' (sold future TV-rights share to Sixth Street, etc.), heavy debt, governance turmoil; Laporta stood down in Feb 2026 ahead of elections."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Flick's high line and aggressive pressing since 2024."
+  },
+  "adjustments": [
+   {
+    "type": "superleague",
+    "points": -3,
+    "evidence": "Founder and last-but-one backer; formally withdrew only in Feb 2026, leaving Real Madrid alone."
+   },
+   {
+    "type": "overspend",
+    "points": -3,
+    "evidence": "Repeated LaLiga squad-cost limit breaches and asset sales ('levers') to fund spending beyond income."
+   }
+  ],
+  "flags": [
+   "2026 presidential election outcome not verified; may affect O.",
+   "UEFA has fined the club for fan Nazi salutes (2023-24); not treated as an adjustment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Barcelona",
+   "https://www.espn.com/soccer/story/_/id/47855886/barcelona-confirm-withdrawal-european-super-league-project",
+   "https://www.sportspro.com/news/decision-makers/barcelona-european-super-league-real-madrid-a22-clubs-uefa-february-2026/",
+   "https://insidersport.com/2026/02/09/barcelona-laporta-super-league-exit/"
+  ]
+ },
+ {
+  "name": "Bayern Munich",
+  "C": {
+   "score": 7,
+   "evidence": "Allianz Arena (75,024) sells out; Südkurve (Schickeria, Club Nr. 12) is organised and active but the stadium is less intense overall than Germany's top atmospheres."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Member club (432,500 members) with low standing-ticket prices; strong women's team; fans protested Qatar Airways and the 'Visit Rwanda' deal, which Bayern scaled back in Aug 2025 into a youth-academy partnership. Residual Rwanda state tie keeps it from 8."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "6 European Cups, 35 German titles, the sextuple (2020); central to German football."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "FC Bayern München e.V. holds the large majority of the AG (Adidas, Allianz, Audi minority stakes); 50+1 with members electing the president."
+  },
+  "S": {
+   "score": 9,
+   "evidence": "Kompany (since 2024) plays high-line, high-press attacking football; record 16 straight wins and 105 league goals by matchday 29 in 2025-26."
+  },
+  "adjustments": [],
+  "flags": [
+   "Visit Rwanda: decide if the remaining Rwanda academy partnership should still count as an authoritarian-state sponsor."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+   "https://www.aljazeera.com/sports/2025/8/8/bayern-munich-veers-from-rwanda-sponsorship-after-criticism",
+   "https://ministryofsport.com/bayern-munich-refocus-rwanda-partnership-away-from-sponsorship-amid-sportswashing-criticism/"
+  ]
+ },
+ {
+  "name": "Bodø/Glimt",
+  "C": {
+   "score": 7,
+   "evidence": "Small but loyal crowd; Aspmyra (~8,270) is sold out and one of Europe's hardest away trips (Den Gule Horde, yellow rattles). City beaten 3-1 and Inter beaten there in 2025-26 UCL. 10,000-seat Arctic Arena under construction."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Northern Norwegian regional identity; community club with the 'Vårres Måte' development philosophy; local sponsor base, no betting shirt sponsor found; women's team exists."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "1975 Norwegian Cup (first northern club to win a national title); four league titles 2020-24; first Norwegian club in a European semi-final (Europa League 2025); 6-1 over Roma (2021)."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "Norwegian member association (members' club, no private owner found)."
+  },
+  "S": {
+   "score": 9,
+   "evidence": "Knutsen's high-intensity, pressing possession game since 2018; a lasting club identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Shirt sponsor and ownership detail not verified directly this session (Norwegian clubs are member associations)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FK_Bod%C3%B8/Glimt",
+   "https://sports.yahoo.com/articles/hour-sunlight-day-plastic-pitches-113356285.html",
+   "https://www.beinsports.com/en-us/soccer/uefa-champions-league/articles/the-arctic-giant-slayers-bodo-glimt-s-stunning-champions-league-run-2026-02-19"
+  ]
+ },
+ {
+  "name": "Borussia Dortmund",
+  "C": {
+   "score": 10,
+   "evidence": "Highest average attendance of any club worldwide in 81,365 Signal Iduna Park; the Yellow Wall (Südtribüne) is Europe's benchmark standing terrace."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Members' club with low ticket prices, anti-extremism fan statutes and Holocaust-remembrance work after a far-right (Borussenfront) past; members voted 556-247 against the Rheinmetall arms deal (non-binding) but it continues (-1 per rule); betting brands among commercial partners. Shirt sponsor Vodafone."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "8 German titles, 1997 Champions League, 1966 Cup Winners' Cup (first German European trophy); 2013 and 2024 UCL finals."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "KGaA listed since 2000 but controlled by the e.V. (50+1); Evonik 7.8%, Signal Iduna 5.7%, Puma 5.1%. Members have a real voice (Rheinmetall vote)."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Klopp-era gegenpress identity has faded; Kovač's side is more structured and pragmatic."
+  },
+  "adjustments": [],
+  "flags": [
+   "Rheinmetall deal runs to 2027 unless ended early; re-check at expiry."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Borussia_Dortmund",
+   "https://www.getfootballnewsgermany.com/2024/borussia-dortmund-members-vote-against-controversial-sponsorship/",
+   "https://www.france24.com/en/live-news/20241125-dortmund-boss-calls-for-member-vote-on-club-s-arms-sponsorship-deal"
+  ]
+ },
+ {
+  "name": "Club Brugge",
+  "C": {
+   "score": 7,
+   "evidence": "Jan Breydel (29,062, shared with Cercle, athletics-era bowl) fills for big games; about 10,000 members in 62 fan clubs; the Blue Army section is loud. The number 12 is retired for supporters. New stadium planned since 2007, not built."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Main shirt sponsor Betsson (sports betting) since 2025 lowers; women's team in the Belgian Super League and a working academy (Club NXT) raise. Net slightly below typical."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Only Belgian club in a European Cup final (1978 v Liverpool); 1976 UEFA Cup final; 20 league titles and a record 12 cups."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "President and main shareholder Bart Verhaeghe (property developer) since 2011; successful and stable, but he was named in the Belgian 'Clean Hands' football fraud investigation (outcome not verified here)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Well-coached, direct and energetic sides; no distinct pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Verhaeghe's status in the 'Clean Hands' case not verified this session; may lower O."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Club_Brugge_KV",
+   "https://www.footyheadlines.com/4504048622/club-brugge-26-27-away-kit-released.html",
+   "https://www.footballshirtculture.com/new-kits/club-brugge-jersey-26-27-home-castore.html"
+  ]
+ },
+ {
+  "name": "Como",
+  "C": {
+   "score": 5,
+   "evidence": "Small crowds in the 13,602 Sinigaglia (1927 rationalist lakeside ground, strong character); ultras reorganised under 'Como 1907'; recent success has added tourists and celebrity visitors more than a big terrace culture."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Revolut shirt sponsor (no effect). Owners' spending built a largely imported squad (little local pathway); ticket prices rose sharply with Serie A/UCL (not verified in detail)."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Serie A spells mainly in the 1980s; bankruptcies in 2004 and 2016 with fan-backed refoundings; first ever UCL qualification in 2026 (4th in 2025-26)."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Owned since 2019 by Indonesia's Hartono brothers (Djarum group), among the world's richest; Henry and Fàbregas minority shareholders; stable but owner-funded model with no fan voice."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Fàbregas: possession-dominant, high-pressing, young technical side."
+  },
+  "adjustments": [
+   {
+    "type": "overspend",
+    "points": -5,
+    "evidence": "Among Serie A's heaviest net spenders since promotion in 2024, funded by the Hartono fortune on a 13,600-seat revenue base."
+   }
+  ],
+  "flags": [
+   "Hartono fortune rests on tobacco (Djarum): brief says no effect, confirm.",
+   "Spending figures not re-verified this session."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Como_1907",
+   "https://www.footyheadlines.com/2026/04/como-26-27-home-kit.html",
+   "https://comofootball.com/en/como-1907-and-adidas-unveil-the-202627-home-jersey/"
+  ]
+ },
+ {
+  "name": "Fenerbahçe",
+  "C": {
+   "score": 10,
+   "evidence": "Şükrü Saracoğlu (47,911, Kadıköy, home since 1908) is one of Europe's loudest grounds; Genç Fenerbahçeliler lead a huge, loyal support."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Member association; strong nationalist displays (2024 Super Cup in Riyadh cancelled over Atatürk banners); 2011 match-fixing scandal (UEFA two-season ban). Women's team exists."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "28 Turkish titles; 2008 UCL quarter-final, 2013 Europa League semi-final; one of Turkey's defining clubs."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Fenerbahçe S.K. (members elect the president) owns 62% of the listed football company. Conduct weak: UEFA CFCB fined EUR7.5m (2026) for exceeding spending limits; FIFA transfer ban; frequent presidential turnover."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Big-name, star-driven squads; intense but not a pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "violence",
+    "points": -8,
+    "evidence": "UEFA fined EUR50,500 and ordered a European away match without fans after pyrotechnics and thrown objects v Nottingham Forest (2026); UEFA 3-match away-fan ban reported by Anadolu Agency; recurring disorder in Turkish derbies."
+   },
+   {
+    "type": "overspend",
+    "points": -3,
+    "evidence": "UEFA CFCB EUR7.5m fine (EUR2m fixed) for breaching spending limits; squad-cost ratio above 70% in 2025."
+   }
+  ],
+  "flags": [
+   "Current president unclear from sources (Sadettin Saran elected Sept 2025; Wikipedia summary named Aziz Yıldırım). Verify.",
+   "Nationalist identity: decide if it should lower V further."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
+   "https://www.aa.com.tr/en/sports/uefa-imposes-3-match-away-ban-on-fenerbahce-fans/3165585",
+   "https://www.fanatik.com.tr/en/uefas-penalty-for-fenerbahce-announced-mourinho-kerem-diego-carlos-2628382",
+   "https://www.stockopedia.com/share-prices/fenerbahce-futbol-as-IST:FENER.E/news/brief-fenerbahce-says-uefa-imposes-%E2%82%AC-7-mln-financial-discipline-penalty-on-fenerbahce-as-of-june-30-019f1c28-0495-7936-ae4f-b5146cf7a88a/"
+  ]
+ },
+ {
+  "name": "Feyenoord",
+  "C": {
+   "score": 10,
+   "evidence": "De Kuip (47,500, home since 1937) is the Netherlands' most intense stadium; a working-class 'people's club' with huge national and travelling support."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Strong community/working-class identity and Varkenoord academy pathway; offset by recurring discriminatory behaviour by sections of the support (see adjustments)."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "1970 European Cup (first Dutch club) and Intercontinental Cup; UEFA Cups 1974 and 2002."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "No single owner: governed through foundations with supporter-investor groups (VAK); boardroom disputes over the new-stadium plan (dropped) but no outside owner."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "High-energy, pressing sides under Slot (2021-23) and Priske; current coach Robin van Persie."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -8,
+    "evidence": "UEFA fined Feyenoord EUR25,000 for supporters' racist/discriminatory behaviour (monkey gestures) at Barcelona, Sept 2026, part of a EUR74,375 penalty; long record of antisemitic chanting."
+   },
+   {
+    "type": "violence",
+    "points": -5,
+    "evidence": "Same UEFA case: objects thrown and vandalism, suspended 25% away-ticket cut; earlier European ban after violence at Nancy (2006) and the 2015 Barcaccia fountain damage in Rome."
+   }
+  ],
+  "flags": [
+   "Adjustments total -13 vs old -5; Kevin to confirm scale.",
+   "Ownership/governance details (foundations, VAK) not confirmed from a fetched source."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Feyenoord",
+   "https://www.goal.com/en/news/financial-fines-and-compensation-for-barcelona-camp-nou-night-costs-feyenoord-a-heavy-bill/blt8cec9b849c3f92f1",
+   "https://footballgroundguide.com/news/feyenoord-slapped-with-heavy-fine-for-barcelona-fan-disorder-after-despicable-racist-gesture.html",
+   "https://www.efdn.org/blog/news/feyenoord-condemns-anti-semitic-mural-after-captains-move-to-rival-ajax/"
+  ]
+ },
+ {
+  "name": "Galatasaray",
+  "C": {
+   "score": 10,
+   "evidence": "RAMS Park (53,387, opened 2011, now 15 seasons) set a Guinness record for crowd noise (140.76 dBA); ultrAslan lead one of Europe's most intimidating atmospheres."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Main shirt sponsor Misli (Turkish sports-betting brand) for 2026-27; strong nationalist displays common to Turkish big clubs; supporter violence handled below."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "First Turkish club to win a European trophy: 2000 UEFA Cup and Super Cup (quadruple season); Turkey's most successful club."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Members' sports club electing the president (Dursun Özbek), with a listed football company; debt-heavy, big-name spending."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Okan Buruk's side: attacking, star-driven (Osimhen), not a pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "violence",
+    "points": -8,
+    "evidence": "UEFA fined EUR40,000 and ordered the next away match without fans after fireworks thrown at Juventus (Feb 2026) injured a man and his daughter; appeal rejected, no away fans at Anfield. Wider history of derby violence and the 2000 Leeds fans' killings in Istanbul."
+   },
+   {
+    "type": "overspend",
+    "points": -2,
+    "evidence": "Heavy owner/club-debt-funded spending (record fees for Osimhen) relative to income (not quantified this session)."
+   }
+  ],
+  "flags": [
+   "Overspend figure not verified; drop if Kevin prefers evidence-only.",
+   "Nationalist identity: decide whether to lower V further."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
+   "https://www.insideworldfootball.com/2026/03/04/uefa-bans-travelling-galatasaray-fans-last-16-tie-anfield/",
+   "https://onefootball.com/en/news/official-galatasaray-fined-and-fans-banned-after-violent-incidents-against-juventus-42500186"
+  ]
+ },
+ {
+  "name": "Inter Milan",
+  "C": {
+   "score": 9,
+   "evidence": "Highest home attendance in Italy (San Siro ~75,800); the Curva Nord produces major choreographies and constant noise."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Betsson.sport (sports betting) main shirt sponsor since 2024 (~EUR30m/yr, Italian record). Curva Nord leadership prosecuted for mafia-linked organised crime; reports of far-right links. Women's team in Serie A."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "3 European Cups (1964, 1965, 2010 treble), 21 Serie A titles; Grande Inter and catenaccio shaped the game."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Oaktree Capital Management (US asset manager / credit fund) owns ~99.6% since May 2024 after Suning's Zhang defaulted on a loan. Financial turnaround, but no fan voice. With Milan bought San Siro (EUR197m, Nov 2025) to demolish and rebuild; bid-rigging probe reported."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Aggressive, well-drilled attacking sides (Inzaghi to 2025, now Chivu); not a pure pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -6,
+    "evidence": "Oaktree Capital (investment fund) owner since 2024, took control via loan default."
+   },
+   {
+    "type": "violence",
+    "points": -6,
+    "evidence": "2024 'Doppia Curva' investigation: Curva Nord leaders arrested and tried for organised crime with mafia methods after the murder of ultra Antonio Bellocco; Feb 2026 firecracker thrown at Cremonese keeper Audero put the Curva at risk of closure."
+   },
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "2021 Super League signatory; withdrew within days."
+   }
+  ],
+  "flags": [
+   "New stadium on the San Siro site (joint with Milan) will trigger the new-stadium Culture drop when it opens.",
+   "Far-right links of Curva Nord: consider a racism adjustment if evidence firms up."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Inter_Milan",
+   "https://www.sportspro.com/news/inter-milan-betsson-sport-shirt-sponsorship-serie-a/",
+   "https://www.france24.com/en/live-news/20250304-inter-and-ac-milan-ultras-stand-trial-over-organised-crime-offences",
+   "https://sempreinter.com/2026/02/04/cremona-scandal-inter-milan-risk-curva-closure-san-siro/",
+   "https://www.goal.com/en/lists/ac-milan-inter-confirm-eur197m-purchase-san-siro-serie-a-sides-under-investigation-bid-rigging/blte7f28c32da51c30f"
+  ]
+ },
+ {
+  "name": "LASK",
+  "C": {
+   "score": 6,
+   "evidence": "Average league crowd 13,433 in the 19,080 Raiffeisen Arena (opened Feb 2023 on the old Linzer Stadion site): solid but not elite; new-stadium -1 applied."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Women's team in the top division; club name never carried a sponsor. No notable positives or negatives verified."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "First champion from outside Vienna (1965); second title and double in 2025-26; first UCL league phase in 2026 after a 5-1 comeback v Celtic."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "LASK GmbH run by 'Friends of LASK', a consortium of local entrepreneurs who rescued the club in 2013; stable local ownership, some boardroom disputes in recent years."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Energetic, direct Austrian pressing school; UCL qualification built on intensity."
+  },
+  "adjustments": [],
+  "flags": [
+   "President (Wikipedia says Siegmund Gruber) not verified as current.",
+   "Ultras/atmosphere not documented in fetched sources; Culture estimate."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/LASK",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_LASK_season",
+   "https://www.uefa.com/uefachampionsleague/news/02a9-2182ea0b2967-71f1f3de557b-1000--lask-in-the-2026-27-champions-league-what-are-their-fixtu/"
+  ]
+ },
+ {
+  "name": "Lens",
+  "C": {
+   "score": 10,
+   "evidence": "Bollaert-Delelis holds 38,223 in a town of about 30,000 and is regularly full; drew a Ligue 2-leading ~29,000 even in the second tier; famed for its atmosphere and loyalty."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Mining-basin community identity (club survived the 1962 pit closures through volunteers and the town); local sponsor Auchan extended to 2031; women's team (RC Lens Féminin)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1998 French champions; 2025-26 Ligue 1 runners-up and first Coupe de France; a symbol of the Nord-Pas-de-Calais."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Joseph Oughourlian (Amber Capital) majority owner (69.1%) since 2017; bought the stadium from the city. Sept 2026: Tim Leiweke's Entrepreneur Equity Partners took 13.93% to fund stadium redevelopment."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Intense, well-organised pressing sides since promotion (Haise, Still, Sage)."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "Entrepreneur Equity Partners (investment firm) bought a 13.93% minority stake in Sept 2026."
+   },
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Oughourlian is also a major shareholder of Colombia's Millonarios (minor network; not verified this session)."
+   }
+  ],
+  "flags": [
+   "Millonarios link not verified this session; drop multiclub if Kevin disagrees.",
+   "EEP stake is minority: -4 PE is the low end."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RC_Lens",
+   "https://www.insideworldfootball.com/2026/09/02/tim-leiwekes-eep-buy-stake-in-lens-with-focus-on-developing-stade-bollaert-delelis",
+   "https://www.insideworldfootball.com/2026/09/01/rc-lens-bring-in-new-minority-investors-to-help-fund-stadium-redevelopment",
+   "https://www.coliseum-online.com/rc-lens-buy-home-stade-bollaert-delelis/"
+  ]
+ },
+ {
+  "name": "Lille",
+  "C": {
+   "score": 6,
+   "evidence": "Stade Pierre-Mauroy (50,186, retractable roof, 2012) in suburban Villeneuve-d'Ascq; Dogues Virage Est ultras active, crowds decent but the venue is a generic modern arena."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Well-known academy at Domaine de Luchin producing first-team players; women's club; shirt sponsor Boulanger (retailer)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Four French titles (incl. 2011 double, 2021 under Galtier) plus the 1940s-50s golden era."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Owned since Dec 2020 by Merlyn Partners SCSp, a Luxembourg investment fund, with Olivier Létang as president; took over from Gérard López's debt-laden ownership."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Organised, possession-leaning sides (Fonseca, Genesio); moderate intensity."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -6,
+    "evidence": "Merlyn Partners SCSp (Luxembourg investment fund) owner since 2020."
+   }
+  ],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lille_OSC",
+   "https://www.france24.com/en/live-news/20201218-ligue-1-leaders-lille-sold-to-investment-fund",
+   "https://www.sportspro.com/news/ligue-1-lille-callisto-sporting-merly-partners-takeover/"
+  ]
+ }
+]

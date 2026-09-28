@@ -1,0 +1,479 @@
+[
+ {
+  "name": "1. FC Köln",
+  "C": {
+   "score": 9,
+   "evidence": "Averaged 49,918 (near-full RheinEnergieStadion, 50,000) in 2025-26; loud Südkurve with Wilde Horde ultras; crowds held up through repeated relegations and 2. Bundesliga seasons."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Member club (150,000+ members); regional sponsors (REWE front, DEVK sleeve), no betting or arms sponsors; women's team in Frauen-Bundesliga; strong academy. Very large DFB fines for fan pyrotechnics (EUR 924k in 2024-25; EUR 220k for 110 pyros v Bayern, Jan 2026)."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Inaugural Bundesliga champion 1963-64, three league titles, 1978 double, four DFB-Pokals, 1986 UEFA Cup final."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "Professional arm fully held by 1. FC Köln e.V. with no outside investor; members elect the board. Governance lapses (FIFA transfer ban 2023) and frequent coaching/board changes."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Promoted as 2. Bundesliga champion 2024-25, finished 14th in 2025-26; energetic, direct football under Kwasniok, now René Wagner. No lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "DFB named Köln the top-fined club for fan misconduct (mostly pyrotechnics). Decide if pyro-heavy fines should count as 'violence'; I did not apply an adjustment."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.tagesspiegel.de/sport/1-fc-koln-ist-randale-meister-dfb-verhangt-strafen-in-hohe-von-zwolf-millionen-euro-gegen-bundesligaklubs-15081096.html",
+   "https://www.dfb.de/news/220000-euro-geldstrafe-fuer-den-1-fc-koeln",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Bayer Leverkusen",
+  "C": {
+   "score": 5,
+   "evidence": "BayArena (30,210) averaged 30,016 in 2025-26; first German fan scene to call itself Ultras, but atmosphere is modest by Bundesliga standards and travelling support is small."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Sponsors BarmeniaGothaer (front) and Niedax (sleeve), no betting/arms; funded women's team in Frauen-Bundesliga; decent academy. No notable positives beyond that."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "UEFA Cup 1988, DFB-Pokal 1993, 2002 Champions League final; 2023-24 unbeaten Bundesliga and cup double with a record 51-match unbeaten run."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Wholly owned by Bayer AG under a 50+1 exemption as a works club; run competently and stably, but no member control."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Pressing, possession-heavy identity under Xabi Alonso (2022-25); since then Ten Hag, Hjulmand and Carles Martínez Novell; finished 6th in 2025-26."
+  },
+  "adjustments": [],
+  "flags": [
+   "Company-club exemption from 50+1 is structural; no adjustment applied (not state, PE or multi-club). Decide if a structural penalty is wanted."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Borussia Mönchengladbach",
+  "C": {
+   "score": 8,
+   "evidence": "Averaged 51,100 at Borussia-Park (54,057) in 2025-26; big, loyal Nordkurve; stadium opened 2004 (not recent)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Member club (about 93,000 members); regional sponsors (Reuter Gruppe front, Sonepar sleeve), no betting/arms; established academy."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Five Bundesliga titles in the 1970s, two UEFA Cups (1975, 1979), 1977 European Cup final; the 'Fohlen' era is a landmark of German football."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "Borussia VfL 1900 e.V. is member-run; no outside investor."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Finished 12th in 2025-26, poor start to 2026-27 (four straight losses); coaches Seoane, Polanski, now Blessin. No current pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Eintracht Frankfurt",
+  "C": {
+   "score": 9,
+   "evidence": "Averaged 59,071 at Deutsche Bank Park in 2025-26; one of Europe's biggest away followings (about 30,000 at Camp Nou, 2022); choreographies and a very loud Nordwestkurve."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Members' club with a public anti-racist stance (ex-president Peter Fischer's 2018 line against AfD members); sponsors Indeed (front) and Deutsche Vermögensberatung (sleeve), no betting/arms; women's team in Frauen-Bundesliga. Repeated fan disorder abroad lowers it slightly."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "1959 German champions, 1960 European Cup final (7-3 v Real Madrid), 1980 UEFA Cup, 2022 Europa League won unbeaten, five DFB-Pokals."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Eintracht Frankfurt Fußball AG is majority-held by the e.V. under 50+1, with minority holdings by friends/sponsor companies; stable and well run."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Riera (Jan-2026) then Adi Hütter; 8th in 2025-26. Transition-based football; intensity varies."
+  },
+  "adjustments": [
+   {
+    "type": "violence",
+    "points": -5,
+    "evidence": "Repeated UEFA sanctions for fan disorder: pyro and objects thrown at Camp Nou (2025-26 UCL, glass wall smashed) led to a two-match away-ticket ban while already on probation; earlier bans after Napoli 2023 and Marseille 2022 clashes."
+   }
+  ],
+  "flags": [
+   "Violence -5 is my call from repeated UEFA sanctions; Kevin to confirm the scale."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/uefa-urteil-ist-da-eintracht-frankfurt-muss-ohne-fans-nach-baku--v1,eintracht-uefa-urteil-100.html",
+   "https://profis.eintracht.de/news/uefa-spricht-strafen-aus-eintracht-frankfurt-champions-league-174286/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "FC Augsburg",
+  "C": {
+   "score": 6,
+   "evidence": "WWK Arena (30,660, opened 2009) averaged 29,787 in 2025-26; steady crowds but little distinct atmosphere or away presence."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (WWK insurance front, Siegmund sleeve), no betting/arms. Nothing notable either way."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Top flight only since 2011; best finish 5th (2014-15) and one Europa League run (2015-16, out to Liverpool)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "50+1 applies, but the professional arm is investor-held via Hofmann Investoren GmbH: Bolt Football Holdings (David Blitzer) about 45%, Klaus Hofmann about 30%. Reports say Blitzer has explored selling."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "9th in 2025-26 under Wagner then Manuel Baum; pragmatic, no lasting pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "David Blitzer's Global Football Holdings also invests in other clubs (e.g. Estoril Praia, Alcorcón, Beveren); Augsburg is not a feeder."
+   }
+  ],
+  "flags": [
+   "Existing score had no multi-club adjustment; I added -4 for Blitzer's stake."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Augsburg",
+   "https://en.wikipedia.org/wiki/David_Blitzer",
+   "https://www.kicker.de/us-unternehmer-blitzer-steigt-beim-fca-ein-802344/artikel",
+   "https://www.sportbusiness.com/news/blitzer-eyes-augsburg-sale-german-regulator-stands-by-501-after-ecj-ruling/",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025"
+  ]
+ },
+ {
+  "name": "Hamburger SV",
+  "C": {
+   "score": 9,
+   "evidence": "Averaged 56,947 at the Volksparkstadion (57,000) in 2025-26; crowds stayed near capacity through seven seasons in the 2. Bundesliga (2018-25); large, loud Nordtribüne."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "HanseMerkur (front) and Plan International (charity, sleeve), no betting/arms; e.V. keeps control. Nothing strongly negative."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "1983 European Cup, 1977 Cup Winners' Cup, six German titles; the only club never relegated until 2018."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "HSV e.V. holds about 75% of HSV Fußball AG; Kühne Holding cut its stake below 10% (Sparda-Bank 7.5%, Hanse & Raute 4.5%); club says no further major investors. Long history of boardroom instability."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Promoted 2025, 13th in 2025-26 under Merlin Polzin; active, front-foot football but not an elite press."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hamburger_SV",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.radiohamburg.de/aktuelles/hamburg/Neue-Struktur-Teil-der-K%C3%BChne-Anteile-am-HSV-verkauft-id1718053.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Mainz 05",
+  "C": {
+   "score": 7,
+   "evidence": "MEWA Arena (33,305) averaged 31,797 in 2025-26; Q-Block led by Ultraszene Mainz; compact and loud, carnival-club identity. A hooligan-leaning group (Schlechter Umgang) appeared in 2024."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Member club; Kömmerling (front) and iDM (sleeve), no betting/arms; known for climate-neutral and social commitments; fan project and academy pathway."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Top-flight since 2009 (and 2004-07); Klopp and Tuchel coaching roots; Conference League 2025-26 is their main European run."
+  },
+  "O": {
+   "score": 9,
+   "evidence": "1. FSV Mainz 05 e.V., member-run, no outside investor."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "High-intensity pressing lineage (Klopp, Tuchel, Svensson, Henriksen); Urs Fischer since Dec 2025 keeps an intense, compact style."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://millernton.de/2025/02/20/1-fsv-mainz-05-verein-und-fanszene/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "SC Freiburg",
+  "C": {
+   "score": 7,
+   "evidence": "Europa-Park Stadion (34,700, opened 2021) averaged 34,118 in 2025-26; loyal and full, but atmosphere is good rather than intense. The new-stadium drop has lapsed (6th season)."
+  },
+  "V": {
+   "score": 9,
+   "evidence": "Member club known for social/sustainability focus; strong academy pathway (Freiburger Fußballschule); women's team in Frauen-Bundesliga; Lexware and Edeka sponsors, no betting/arms."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "No major trophies; long continuity (Streich era), 2022 DFB-Pokal final, 2025-26 Europa League run."
+  },
+  "O": {
+   "score": 10,
+   "evidence": "SC Freiburg e.V., member-owned and famously well run and stable."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "7th in 2025-26 under Julian Schuster; organised, hard-running team football."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SC_Freiburg",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "SC Paderborn",
+  "C": {
+   "score": 5,
+   "evidence": "Home Deluxe Arena (15,000) averaged 14,522 in 2025-26 in the 2. Bundesliga; small, fairly quiet support."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (C. Hedenkamp front, Mediacom sleeve), no betting/arms; nothing notable either way."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Third Bundesliga spell (2014-15, 2019-20, 2026-27); promoted via 2026 play-off win over Wolfsburg (2-1 aet)."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "SC Paderborn 07 e.V. under 50+1; past reliance on the late president Wilfried Finke; recent financial difficulties but stable now."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "'Brave football, young players' identity per coverage of the 2026 promotion; Ralf Kettemann coaches."
+  },
+  "adjustments": [],
+  "flags": [
+   "Ownership detail (e.V. vs spun-off company, main backers) not fully verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SC_Paderborn_07",
+   "https://www.transfermarkt.com/2-bundesliga/besucherzahlen/wettbewerb/L2/saison_id/2025",
+   "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-sc-paderborn-aufstieg-vfl-wolfsburg-100.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "SV Elversberg",
+  "C": {
+   "score": 4,
+   "evidence": "Village club (Spiesen-Elversberg); stadium about 10,000; averaged 9,113 in 2025-26 in the 2. Bundesliga; lowest Bundesliga crowd so far in 2026-27 (9,307)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Main sponsor HYLO is the Holzer family's Ursapharm brand; no betting/arms; nothing notable either way."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "First Bundesliga season (2026-27), first Saarland club in the top flight since 1993; rose from the Regionalliga in the 2020s."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Member club formally, but its rise is financed by the Holzer family and their company Ursapharm (Frank Holzer chairs the supervisory board; stadium and shirt carry Ursapharm brands)."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Attacking, possession-and-pressing style under Horst Steffen carried into the promotion side; Vincent Wagner now coaches."
+  },
+  "adjustments": [],
+  "flags": [
+   "Patron-funded rise (Ursapharm): decide if an overspend adjustment fits; I did not apply one."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SV_Elversberg",
+   "https://www.transfermarkt.com/2-bundesliga/besucherzahlen/wettbewerb/L2/saison_id/2025",
+   "https://www.t-online.de/sport/fussball/bundesliga/id_100739950/sv-elversberg-dahinter-steckt-pharma-unternehmer-frank-holzer.html",
+   "https://www.absolutfussball.com/deutschland/1-bundesliga/sv-elversberg-warum-bundesliga-aufstieg-kein-klassisches-fussball-maerchen-ist-familie-holzer-ursapharm-zr-94379836.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Schalke 04",
+  "C": {
+   "score": 10,
+   "evidence": "Averaged 61,829 in the 2. Bundesliga in 2025-26, by far the league's highest; huge, loyal Nordkurve that held up through three second-tier seasons."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Member club; financing through a members' cooperative (Auf Schalke eG) instead of an outside investor; Beumer Group and Blåkläder sponsors, no betting/arms; strong community identity."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Seven German titles (pre-Bundesliga era), 1997 UEFA Cup, five DFB-Pokals; a symbol of Ruhr working-class football."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "FC Gelsenkirchen-Schalke 04 e.V. is fully member-controlled; members oppose spinning off the pro side. Debt of about EUR 162m and negative equity of about EUR 97m after years of mismanagement."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Won the 2. Bundesliga in 2025-26 under Miron Muslić; no lasting intense style in recent years."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Schalke_04",
+   "https://www.transfermarkt.com/2-bundesliga/besucherzahlen/wettbewerb/L2/saison_id/2025",
+   "https://www.sportschau.de/fussball/bundesliga2/wie-schalke-ohne-investor-an-50-millionen-euro-kommen-will,schalke-genossenschaft-100.html",
+   "https://www.reviersport.de/fussball/2bundesliga/a625320---2-liga-schalke-erfuellt-dfl-eigenkapitalregel-bei-bundesliga-aufstieg-droht-fehlbetrag.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "TSG Hoffenheim",
+  "C": {
+   "score": 4,
+   "evidence": "PreZero Arena in Sinsheim (30,150) averaged 26,697 in 2025-26, below capacity; small fan scene and limited identity."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "SAP (front) and ProMinent (sleeve), no betting/arms. 2025-26 fan protests against Hopp associate and agent Roger Wittmann; executives dismissed after distancing themselves from him."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Village club lifted from the fifth tier to the Bundesliga (2008) by Dietmar Hopp's funding; no major honours."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Returned formally to 50+1 in Nov 2024, but a 2025-26 power struggle (Hopp backing Wittmann) led to dismissals and labour-court cases; member control looks limited in practice."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "5th in 2025-26 under Christian Ilzer; high-energy pressing style."
+  },
+  "adjustments": [],
+  "flags": [
+   "Hopp-funded rise is historical: decide if an overspend adjustment (-2) should apply."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+   "https://www.getfootballnewsgermany.com/2026/hoffenheim-metz-gamgami/",
+   "https://www.sportschau.de/regional/swr/swr-fanproteste-gegen-hopp-freund-wittmann-spielerberater-stellt-anzeige-100.html",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025"
+  ]
+ },
+ {
+  "name": "Union Berlin",
+  "C": {
+   "score": 10,
+   "evidence": "Anchor. Stadion An der Alten Försterei (22,012) averaged 21,996, almost all standing; fans rebuilt the stadium themselves (2008). Expansion to 40,500 planned; temporary move to the Olympiastadion from Dec 2027."
+  },
+  "V": {
+   "score": 9,
+   "evidence": "Member club with deep fan involvement; invests in its women's team (Frauen-Bundesliga, shared training centre being built); Raisin Bank and Kermi sponsors. Dec 2024 lighter thrown at Bochum's goalkeeper led to a points loss."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "East German cult club (1968 FDGB-Pokal), survival stories (fans' 'Bleed for Union' blood donation), rise to the Champions League in 2023."
+  },
+  "O": {
+   "score": 10,
+   "evidence": "Anchor. 1. FC Union Berlin e.V., member-owned; stadium company share scheme sold to fans."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "11th in 2025-26; physical, direct, hard-running style; Mauro Lustrinelli coaches."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/1._FC_Union_Berlin",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.sportschau.de/regional/rbb/rbb-stadionausbau-verzoegert-union-muss-laenger-ins-olympiastadion-100.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "Werder Bremen",
+  "C": {
+   "score": 8,
+   "evidence": "Weserstadion (42,100) averaged 41,265 in 2025-26; loud Ostkurve with anti-racist ultra groups; strong loyalty after the 2021 relegation."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Members' club with a long anti-discrimination and CSR record ('Werder bewegt'); regional sponsors (Matthäi, Ammerländer), no betting/arms; women's team in Frauen-Bundesliga."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Four German titles, 1992 Cup Winners' Cup, 2004 double; one of the Bundesliga's most-played clubs."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "e.V. holds the majority of the KGaA; a regional alliance of Bremen businesspeople holds 19.71% on no-dividend, long-hold terms (expanded Sept 2026)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "15th in 2025-26; Steffen then Daniel Thioune. Front-foot but inconsistent."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SV_Werder_Bremen",
+   "https://www.transfermarkt.de/bundesliga/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://www.werder.de/news/weitere-news/2026-2027/erweiterung-regionales-buendnis-16092026",
+   "https://www.butenunbinnen.de/sport/regionales-buendnis-investoren-werder-bremen-100.html",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ }
+]

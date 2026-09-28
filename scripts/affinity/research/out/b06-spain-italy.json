@@ -1,0 +1,520 @@
+[
+ {
+  "name": "Alavés",
+  "C": {
+   "score": 6,
+   "evidence": "Mendizorrotza (1924, 19,840) is a traditional ground; Iraultza 1921 supply a singing section. Solid but not elite atmosphere; loyal through drops to the third tier."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Basque club (regional identity raise). 2026-27 front-of-shirt sponsor is MK-Tiyu-News, a surrogate brand of an Asian sports-betting operator (lower). Iraultza 1921 on Spain's official list of violent groups since 2022."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Reached the 2001 UEFA Cup final (lost 5-4 to Liverpool, golden goal) and the 2017 Copa del Rey final. Solid regional club with famous moments."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Owned by the Baskonia-Alavés group (Josean Querejeta; local Vitoria sports group that also runs the Baskonia basketball club); president Alfonso Fernández de Trocóniz. Stable local ownership."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Recent teams under Eduardo Coudet built on energy, duels and pressing; finished 14th in 2025-26."
+  },
+  "adjustments": [],
+  "flags": [
+   "MK-Tiyu-News shirt sponsor treated as a betting surrogate: confirm Kevin counts it as sports betting.",
+   "Check whether the Baskonia-Alavés group holds stakes in other football clubs (not verified)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s",
+   "https://about.macron.com/en/news/kit-launches/deportivo-alaves-2026-27-away-kit/",
+   "https://stadiumdb.com/stadiums/esp/estadio_de_mendizorroza",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Athletic Club",
+  "C": {
+   "score": 10,
+   "evidence": "San Mamés (53,289) regularly near full; among the loudest and most loyal crowds in Europe; huge crowds for the gabarra celebration after the 2024 Copa del Rey."
+  },
+  "V": {
+   "score": 9,
+   "evidence": "Basque identity and cantera policy (only players born or trained in the greater Basque Country since 1911); Lezama academy is the first-team pathway; Athletic Femenino five-time Spanish champions; member-run club."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Anchor: never relegated, 8 league titles, 24 Copas (2024 win ended a 40-year drought), unique player policy."
+  },
+  "O": {
+   "score": 10,
+   "evidence": "Anchor: member-owned association; members elect the president, who cannot invest personal funds."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Long pressing, high-energy identity (Bielsa, Valverde); 12th in 2025-26; Edin Terzić now coach."
+  },
+  "adjustments": [],
+  "flags": [
+   "Coach Edin Terzić is new; Style may need a revisit after 2026-27."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Athletic_Bilbao",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Celta Vigo",
+  "C": {
+   "score": 7,
+   "evidence": "Balaídos (24,870) under phased rebuild; Celtarras and peñas provide a steady singing section; strong local following in Vigo."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Galician identity; A Madroa academy players form a large part of the first team under Claudio Giráldez (promoted from the B team); women's team; Celtarras are left-wing Galician ultras."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "EuroCelta era (wins over Liverpool, Juventus, Benfica around 1999-2000), Champions League 2003-04 after a 4th-place finish; Iago Aspas era."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Mouriño family holds about 68%; Marián Mouriño president since 2023 (first woman in the role). Stable, prudent spending."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Giráldez's young, homegrown side plays with intensity and pressing; 6th in 2025-26 and in the Europa League."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Deportivo La Coruña",
+  "C": {
+   "score": 8,
+   "evidence": "Riazor (32,490) kept 25,001 season-ticket holders even in the third tier (2022-23); Riazor Blues and ~200 peñas; promoted back to La Liga in 2026 after eight years away."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Galician identity; Riazor Blues are an anti-fascist group (a member, Jimmy, was killed in a 2014 brawl with Frente Atlético). Estrella Galicia shirt sponsor. Women's team."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "1999-2000 La Liga champions, 'Centenariazo' Copa win at the Bernabéu (2002), Champions League semi-final 2004 ('Super Depor')."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Abanca (Galician bank controlled by Juan Carlos Escotet) owns ~99% after converting debt; Escotet is president. Rescued and invested; not fan-owned."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Promoted as Segunda runners-up in 2025-26 (Antonio Hidalgo); no strong lasting style identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Bank ownership: O 6 assumes Kevin sees Abanca's rescue as acceptable conduct."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n"
+  ]
+ },
+ {
+  "name": "Elche",
+  "C": {
+   "score": 6,
+   "evidence": "Martínez Valero (33,732) well supported for the city size; ordinary atmosphere, occasional big nights."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Owner Christian Bragarnik is also a major player agent; Spanish press reported investigations into his alleged funding of Argentine barras bravas. No betting shirt sponsor found."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "1969 Copa del Rey final, 5th in 1963-64; yo-yo club between Primera and Segunda."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Score Club 2019 SL (Bragarnik) owns 97%+ since 2019; agent-owner conflict of interest."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Recent possession-and-press football (Eder Sarabia, now Martín Anselmi, known for aggressive pressing); 15th in 2025-26."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Bragarnik's network includes Chilean clubs Unión La Calera and San Luis de Quillota."
+   }
+  ],
+  "flags": [
+   "Agent-owner: consider an extra 'other' adjustment for conflict of interest."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Elche_CF",
+   "https://elcierredigital.com/pizarra-deportiva/christian-bragarnik-polemico-dueno-argentino-elche-cf-investigado-por-financiacion-barras-bravas",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Espanyol",
+  "C": {
+   "score": 6,
+   "evidence": "RCDE Stadium (40,000, opened 2009 after 12 seasons at Montjuïc) is a modern bowl on the city edge; Curva RCDE provides a singing end; crowds solid, atmosphere ordinary."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Historic Brigadas Blanquiazules ultras had far-right links (club has distanced itself). Women's team with past titles. No betting shirt sponsor found (not verified). Owner model now multi-club."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1900; two UEFA Cup finals (1988, 2007); four Copas del Rey (last 2006)."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Velocity Sports Partners (sports investment arm of ALK Capital, Alan Pace, also Burnley's owner) bought a majority stake in October 2025 from Chen Yansheng/Rastar in a deal worth up to EUR 200m."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Manolo González's side is compact and direct; 11th in 2025-26 after a 17-match winless run in early 2026."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Same owners as Burnley (VSP/ALK Capital); Pace says each club is run independently."
+   },
+   {
+    "type": "pe",
+    "points": -5,
+    "evidence": "Owner is a sports investment vehicle (Velocity Sports Partners, ALK Capital)."
+   }
+  ],
+  "flags": [
+   "Check whether acquisition debt sits on the club (Burnley's takeover was leveraged); if so an lbo adjustment may apply."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RCD_Espanyol",
+   "https://alkcapital.com/2025/10/velocity-sports-partners-complete-acquisition-of-rcd-espanyol-de-barcelona/",
+   "https://ca.sports.yahoo.com/news/burnley-owners-expand-multi-club-111900764.html",
+   "https://www.espn.com/soccer/story/_/id/46592179/burnley-owner-keen-avoid-crystal-palace-style-uefa-issue"
+  ]
+ },
+ {
+  "name": "Getafe",
+  "C": {
+   "score": 4,
+   "evidence": "Coliseum (16,500) in a Madrid suburb; ~12,000 members; modest, quiet crowds in the shadow of Real and Atlético."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No notable community or fan-voice positives found; signed Mason Greenwood on loan in 2023-24 amid public criticism. No betting shirt sponsor verified."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Founded in its current form in 1983; UEFA Cup quarter-final 2008 (lost to Bayern), Copa finals 2007 and 2008. Modest history."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Ángel Torres owner-president for over 20 years; stable, frugal, ordinary private ownership."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Bordalás teams are highly physical and intense but defensive and disruptive; only 32 league goals in 2025-26 (finished 7th)."
+  },
+  "adjustments": [],
+  "flags": [
+   "Style: Bordalás is high-intensity but anti-possession; Kevin to decide whether intensity or negativity dominates (scored 4)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Getafe_CF",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Levante",
+  "C": {
+   "score": 6,
+   "evidence": "Ciutat de València (26,354); loyal following through relegations; Ultras Levante/peñas give an ordinary to decent atmosphere."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Majority of shares held by the Fundación Levante UD (a club foundation rather than a private owner); established women's team (Levante UD Femenino). Oldest club in Valencia city."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 1909; Copa de la España Libre 1937; 6th and Europa League in 2011-12; famous 5-4 win over Barcelona in 2018."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Foundation-controlled SAD with small shareholders; president Pablo Sánchez. Past wage crisis (2007-08) under earlier boards."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Survived in 16th in 2025-26; coach Luís Castro; no lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Fundación majority holding not re-verified this session: confirm current share structure."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Levante_UD",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Málaga",
+  "C": {
+   "score": 7,
+   "evidence": "La Rosaleda (30,044) well filled even in Segunda; big city support that stayed through relegation to the second tier and the third tier (2023-24). Promoted to La Liga via 2026 play-off."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No betting sponsor verified; no notable positives or negatives found beyond long governance crisis."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Champions League quarter-final 2013 (lost late to Dortmund); Intertoto Cup 2002; solid regional club."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Majority owner Sheikh Abdullah Al Thani removed from management; club under court-appointed administrator José María Muñoz since 2020. April 2026 arrest warrant for the owner over misappropriation. Sale stalled."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Promoted through the play-offs under Juan Francisco Funes; no lasting style identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Owner is a Qatari royal family member acting privately; not scored as state-backed. Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+   "https://www.elespanol.com/malaga/deporte/malaga-c-f/20250401/unica-via-comprar-malaga-cf-pasa-thani/935407095_0.html",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n"
+  ]
+ },
+ {
+  "name": "Osasuna",
+  "C": {
+   "score": 8,
+   "evidence": "El Sadar (23,516) rebuilt 2019-21 with steep stands close to the pitch; one of the loudest grounds in Spain; Indar Gorri ultras."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Member-owned; Navarrese/Basque regional identity; Tajonar academy produces a steady flow of first-team players; women's team. Indar Gorri are left-wing."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "UEFA Cup semi-final 2007, Copa del Rey finals 2005 and 2023, 4th in 1990-91 and 2005-06."
+  },
+  "O": {
+   "score": 10,
+   "evidence": "One of four member-owned professional clubs in Spain; members elect the president (Luis Sabalza)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Hard-working but ordinary; 17th in 2025-26 under Luis Miguel Ramis (coach per Wikipedia)."
+  },
+  "adjustments": [],
+  "flags": [
+   "2013 match-fixing by former directors (club sanctioned; CAS in 2023 allowed Conference League entry). Past, not current."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/CA_Osasuna",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Racing Santander",
+  "C": {
+   "score": 8,
+   "evidence": "El Sardinero (22,222) drew big crowds even in the third tier; fans led the 2014-15 fight against the Ali Syed-era mismanagement; promoted as Segunda champions 2025-26 after 14 years away."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Cantabrian identity; fan-driven rescue in the mid-2010s; no betting shirt sponsor verified."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founding member of La Liga (1929), runners-up 1930-31, first Spanish shirt sponsor (Teka, 1981), UEFA Cup 2008-09."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Controlled by Sebastián Ceria (Pitma group, Santander-born businessman); president Manuel Higuera. Stabilised the club after the 2011-14 crisis."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "José Alberto's title-winning side was attacking and high-scoring."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Racing_de_Santander",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n"
+  ]
+ },
+ {
+  "name": "Rayo Vallecano",
+  "C": {
+   "score": 8,
+   "evidence": "Tiny, character-rich Vallecas ground in a working-class barrio; Bukaneros ultras; thousands marched against the president in 2026 and fan groups organised boycotts. Stadium closed by the regional government from 28 July to 14 September 2026 for safety failures."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Strong left-wing, anti-fascist, working-class identity and community activism (fans famously helped an evicted elderly neighbour). Lower: president neglected the women's team and stadium; season tickets sold for a stadium he knew could close."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Cult barrio club; UEFA Cup quarter-final 2001; Conference League 2025-26."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Raúl Martín Presa (owner since 2011): sustained fan protests, stadium safety closure, poor treatment of fans and the women's team."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "High-energy pressing teams under Íñigo Pérez; 8th in 2025-26."
+  },
+  "adjustments": [],
+  "flags": [
+   "Vallecas closure: Rayo played at Butarque until reopening; recheck Culture if the move becomes permanent."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://stadiumdb.com/news/2026/09/spain_spain_rayo_president_sold_season_tickets_for_a_closed_stadium_more_protests_follow",
+   "https://www.allfootballapp.com/articles/5256286-thousands-rayo-vallecano-fans-march-demand",
+   "https://www.democrata.es/en/sports/the-rayo-premieres-in-butarque-amid-the-clash-with-the-community-of-madrid-the-boycott-of-its-supporters-and-the-match-against-alaves/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Real Sociedad",
+  "C": {
+   "score": 8,
+   "evidence": "Anoeta/Reale Arena (40,000) rebuilt 2019 without the running track; Grada Aitor Zabaleta singing section; strong Gipuzkoa following."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Basque identity; Zubieta academy is a proven pathway (Xabi Alonso, Griezmann, Oyarzabal, Zubimendi); women's team in Liga F. No betting sponsor found."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Back-to-back La Liga titles 1981 and 1982; Copa del Rey 1987, 2020 and 2026."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "SAD with a broad local shareholder base; president Jokin Aperribay. Stadium owned by the city. Well run, no single outside owner."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "10th in 2025-26; Pellegrino Matarazzo won the 2026 Copa del Rey with a pressing-oriented side."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Real_Sociedad",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Sevilla",
+  "C": {
+   "score": 8,
+   "evidence": "Ramón Sánchez-Pizjuán (42,714) is one of Spain's most intense grounds; Biris Norte ultras; strong home crowds despite recent decline."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Supporters' trust holds a small stake; women's team in Liga F; academy (Sevilla Atlético). Lower: long boardroom infighting; Biris involved in past disorder."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Record seven UEFA Cup/Europa League titles (2006-2023); La Liga 1946; major national significance."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Years of shareholder infighting (Del Nido Carrasco vs Castro/Del Nido Benavente) and fan protests; 777 Partners held a stake. May 2026 agreement to sell 80% for about EUR 450m to Five Eleven Capital fronted by Sergio Ramos, pending CSD approval (completion not confirmed by September 2026)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "13th in 2025-26 under Luis García Plaza; no lasting pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -5,
+    "evidence": "If completed, majority owner becomes investment fund Five Eleven Capital (Sergio Ramos-led group)."
+   }
+  ],
+  "flags": [
+   "Takeover completion unconfirmed: keep pe adjustment only if CSD approved.",
+   "Check Biris Norte recent violence/sanctions (not researched)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sevilla_FC",
+   "https://www.beinsports.com/en-us/soccer/la-liga/articles/sergio-ramos-agrees-to-purchase-sevilla-pending-signature-and-csd-approval-2026-05-12",
+   "https://www.insideworldfootball.com/2026/05/13/sergio-ramos-closing-e450m-acquisition-sevilla/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Valencia",
+  "C": {
+   "score": 8,
+   "evidence": "Mestalla (1923, ~49,000) is one of Europe's steepest, most historic grounds; tens of thousands joined Libertad VCF protests; mass in-stadium protests in September 2026. Planned move to Nou Mestalla (under construction) will trigger the new-stadium rule later."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Racist abuse of Vinícius Jr at Mestalla (May 2023) led to criminal convictions and a partial stand closure. Club sold by debt-driven owner; poor treatment of fan groups."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "Six La Liga titles, two Champions League finals (2000, 2001), UEFA Cup 2004, Cup Winners' Cup 1980."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Peter Lim (Meriton Holdings) majority owner since 2014; club debt around EUR 600m after restarting Nou Mestalla; sustained mass protests; president Layhoon Chan says the club is not for sale."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "9th in 2025-26; no lasting pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -5,
+    "evidence": "Mestalla racist abuse of Vinícius Jr (2023): three fans sentenced to prison; stand closure sanction."
+   }
+  ],
+  "flags": [
+   "Lim also held a stake in Salford City (multi-club): check if still held; possible -4.",
+   "Racism adjustment size (-5) for Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Valencia_CF",
+   "https://www.eldiario.es/comunitat-valenciana/valencia/miles-valencianistas-claman-gestion-maximo-accionista-valencia-cf-peter-lim_1_13244770.html",
+   "https://www.eldesmarque.com/futbol/liga-1a-division/20260906/mestalla-protestar-peter-lim-directiva_18_020095817.html",
+   "https://www.npr.org/2024/06/10/nx-s1-4998276/racist-chant-vicinius-spain-fans-punished"
+  ]
+ }
+]

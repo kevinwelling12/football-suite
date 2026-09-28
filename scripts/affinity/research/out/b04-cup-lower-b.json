@@ -1,0 +1,553 @@
+[
+ {
+  "name": "Mansfield Town",
+  "C": {
+   "score": 6,
+   "evidence": "Avg home league crowd 7,769 in 2024-25 (10,022-capacity Field Mill, home since 1919). Solid, loyal support; no evidence of an exceptional atmosphere."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local-business sponsors (One Call Insurance front, Source Travel sleeve); no betting/state sponsors found. No notable positives or negatives verified."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Fourth Division champions 1975, Third Division champions 1977; FA Cup quarter-final 1969 after beating West Ham 3-0. FA Cup fifth round 2025-26."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "John Radford owner/chairman since 2010 (Carolyn Radford CEO): long, stable ownership, stadium bought back, promoted to League One 2024."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Nigel Clough (since 2020): organised, pragmatic sides; no clear high-press identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mansfield_Town_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Mansfield_Town_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+  ]
+ },
+ {
+  "name": "Milton Keynes Dons",
+  "C": {
+   "score": 3,
+   "evidence": "Stadium MK (30,500, opened 2007) is a modern bowl with large empty areas; club created 2004 by relocating Wimbledon FC. Modest crowds, little distinct identity. Attendance figure not verified this session."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Sleeve sponsor 2026-27 is Visit Kuwait (state tourism body of Kuwait, owner's home country). Positives: women's team (3rd tier, plays at Stadium MK), academy produced Dele Alli."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2004 from the Wimbledon relocation (Wimbledon's patrimony handed to Merton in 2007). Moments: 2008 League Two title + EFL Trophy, 4-0 League Cup win over Man Utd 2014."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Kuwait-based consortium led by Fahad Al Ghanim (family also owns Kuwait SC) bought club and stadium from Pete Winkelman Aug 2024; heavy spending since."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Paul Warne (since Apr 2025) sides built on work-rate and energy; promoted 2nd in League Two 2025-26. Average overall."
+  },
+  "adjustments": [
+   {
+    "type": "franchise",
+    "points": -15,
+    "evidence": "Relocated/franchised identity: Wimbledon FC moved 60 miles to Milton Keynes in 2003-04 (existing MK Dons rule -15)."
+   },
+   {
+    "type": "overspend",
+    "points": -3,
+    "evidence": "Owner-funded splurge: described as prominent spenders in League Two over 18 months (Crowley, Mendez-Laing, Collins, Warne) after the 2024 Kuwaiti takeover."
+   }
+  ],
+  "flags": [
+   "Visit Kuwait is a state tourism brand: counts as authoritarian-state sponsor (V lowered by 2). Kevin to confirm Kuwait counts as authoritarian.",
+   "Owner's family owns Kuwait SC: not scored as multiclub (no network/feeder evidence); Kevin may decide -4."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Milton_Keynes_Dons_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One",
+   "https://www.coliseum-online.com/milton-keynes-dons-reins-in-kuwait-based-consortium-hands/",
+   "https://x.com/henrywinter/status/1821895387583750638"
+  ]
+ },
+ {
+  "name": "Newport County",
+  "C": {
+   "score": 6,
+   "evidence": "Small but loyal support that re-formed the club in 1989 and followed it into exile (Moreton-in-Marsh). Rodney Parade (7,850) is a rugby ground shared with the Dragons. Crowd figures not verified this session."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Supporters' Trust keeps 27% and two board seats (formal fan voice); trust ran the club 2015-2024. Local sponsors (Pure Vans, Newport Galvanizers); no betting sponsor."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Keeps full history of the pre-1989 club: 60 Football League seasons, Welsh Cup 1980, Cup Winners' Cup quarter-final 1981 (Carl Zeiss Jena). Fans re-formed the club after liquidation in 1989."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Huw Jenkins (ex-Swansea chairman) bought 52% in Jan 2024 after 98% trust-member vote; trust 27%, other investors 21%."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Struggled in League Two (22nd 2024-25, 20th 2025-26, survived on last day); managers changed in 2026. No clear pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Reports in June 2026 of possible further ownership changes: check before finalising O.",
+   "Previously trust-owned (O 8): now majority private owner with trust stake, O lowered to 7."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Newport_County_A.F.C.",
+   "https://www.newport-county.co.uk/news/2024/january/club-statement--huw-jenkins",
+   "https://nation.cymru/news/former-swansea-chairman-huw-jenkins-completes-newport-takeover/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_Two"
+  ]
+ },
+ {
+  "name": "Northampton Town",
+  "C": {
+   "score": 5,
+   "evidence": "Sixfields (8,203), out-of-town ground since 1994 replacing the historic County Ground. Ordinary crowds; no verified atmosphere reports."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Shirt sponsor University of Northampton since 2013; no betting sponsor. Supporters' Trust founded 1992 was the first to help take over a club. No other notable factors verified."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Rose from Fourth to First Division in five years, one top-flight season 1965-66, then fell back within nine years. Otherwise lower-league history."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Kelvin Thomas executive chairman; Chinese firm 5uSport bought 60% in 2017. Relegated bottom of League One in April 2026 after a club-record 10 straight league defeats."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "No clear style identity; poor 2025-26 season."
+  },
+  "adjustments": [],
+  "flags": [
+   "Sixfields council-loan affair (2014-15) predates current regime; not scored."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Northampton_Town_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_Two"
+  ]
+ },
+ {
+  "name": "Notts County",
+  "C": {
+   "score": 7,
+   "evidence": "Avg home league crowd 10,715 in League Two 2025-26 (10,905 in 2023-24, 3rd-highest in the division); 17,224 for the play-off semi. Support held up through four National League seasons (2019-23)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (John Pye Auctions, WorkBox UK); no betting sponsor. No other notable positives or negatives verified."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Founded 1862, oldest professional league club; Football League founder member 1888; FA Cup winners 1894; inspired Juventus' black-and-white stripes. Meadow Lane since 1910."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Danish brothers Christoffer and Alexander Reedtz (since 2019): data-led, stable, two promotions (2023 to EFL, 2026 to League One via play-offs)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Front-foot, possession-based attacking sides under the Reedtz model (high-scoring 2022-23 National League season); promoted via play-offs 2026."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Notts_County_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Notts_County_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+  ]
+ },
+ {
+  "name": "Oldham Athletic",
+  "C": {
+   "score": 7,
+   "evidence": "Boundary Park (13,560). Fans protested sustained against owner Lemsagam and stayed through relegation to the National League (2022) until the 2025 play-off return. Avg league crowd reported 6,008 in 2024-25 (figure from search snippet, not checked)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (Bunkabin, Old School BBQ); no betting sponsor. Women's academy programme launched 2024. Supporters' trust active but no formal board seat found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Premier League founder member 1992; 1990 League Cup final; FA Cup semi-finals 1913, 1990, 1994; Second Division champions 1991. First ex-Premier League club to drop into non-league (2022)."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Frank Rothwell (local businessman, Manchester Cabins) bought club 2022 from Abdallah Lemsagam and reunited it with Boundary Park in 2023. Stable since."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Micky Mellon; mid-table (10th) back in League Two 2025-26. No clear pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Oldham_Athletic_A.F.C.",
+   "https://en.wikipedia.org/wiki/2024%E2%80%9325_Oldham_Athletic_A.F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_Two"
+  ]
+ },
+ {
+  "name": "Oxford United",
+  "C": {
+   "score": 5,
+   "evidence": "Kassam Stadium (12,573, three-sided, out of town since 2001, left the Manor Ground). Ordinary crowds; attendance not verified. New 16,000 stadium at the Triangle, Kidlington, approved Feb 2026 (judicial review dismissed Sept 2026)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Sponsors Baxi (front), Caprinos Pizza (sleeve); no betting sponsor. OxVox supporters' trust (no board seat found). Women's side is a separate club."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "League Cup winners 1986; three top-flight seasons 1985-88 under Robert Maxwell; first former major-trophy winners to drop out of the League (2006). Two Championship seasons 2024-26."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Erick Thohir (Indonesian businessman/politician) became sole controlling owner after buying out co-investors; chairman Grant Ferguson. Investment funded promotion and stadium project; relegated from Championship 2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Relegated 22nd in the Championship 2025-26; no clear high-energy identity. Aaron Ramsey named head coach for 2026-27."
+  },
+  "adjustments": [],
+  "flags": [
+   "Erick Thohir holds Indonesian government posts (ex-state-enterprises minister; reportedly sports minister and PSSI president): not treated as state backing. Kevin to decide.",
+   "Thohir has held stakes in other clubs (Inter, DC United, Indonesian clubs): no current multi-club network verified.",
+   "New stadium move (planned, same area): apply -1 C once it opens."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Oxford_United_F.C.",
+   "https://www.oufc.co.uk/news/erick-thohir-increases-controlling-interest-oxford-united",
+   "https://www.thestadiumbusiness.com/2026/09/25/high-court-ruling-reinforces-oxford-united-stadium-position/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+  ]
+ },
+ {
+  "name": "Peterborough United",
+  "C": {
+   "score": 5,
+   "evidence": "London Road (13,512), traditional ground with terraces. Ordinary crowds; average attendance not verified this session."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Sponsors Mick George (front), NextLevel Fibreoptics (sleeve); no betting sponsor. Known for developing and selling players; no other notable factors verified."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Elected to the League 1960 and scored a Football League record 134 goals in 1960-61; Fourth Division titles 1961, 1974; record crowd 30,096 (1965 FA Cup)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Darragh MacAnthony 75%, Kelgary Sports & Entertainment 20%, IRC Investments 5%. Long-serving chairman; heavy criticism of manager turnover (Luke Williams sacked Sept 2026 after 2 wins in 22)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "18th in League One 2025-26; possession-based under Williams, struggling. No lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Peterborough_United_F.C.",
+   "https://www.peterboroughtoday.co.uk/sport/football/peterborough-united/peterborough-united-manager-luke-williams-has-left-london-road-after-47-matches-in-charge-9105419",
+   "https://www.peterboroughtoday.co.uk/sport/football/peterborough-united/a-list-of-managerial-appoints-by-the-peterborough-united-chairman-which-inspires-little-confidence-9112725"
+  ]
+ },
+ {
+  "name": "Plymouth Argyle",
+  "C": {
+   "score": 8,
+   "evidence": "Avg home crowd 15,695 in League One 2025-26 (5th highest); ~16,000 regularly in 2022-23. 'Green Army' with #12 shirt retired for fans; remote location makes every away trip long. Home Park (c.17,900)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Argyle Community Trust runs community programmes; women's team (Plymouth Argyle WFC). Local sponsors; no betting sponsor. Formal fan-voice details not verified."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "FA Cup semi-final 1984 as a Third Division side; largest English city never to host top-flight men's football; beat Liverpool in the FA Cup (Feb 2025). Two Championship seasons 2023-25."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Simon Hallett, lifelong fan, owner/chairman: funded Mayflower Stand rebuild (2021) and promotion; stable, invested sensibly."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Tom Cleverley head coach; 8th in League One 2025-26. No clear pressing identity verified."
+  },
+  "adjustments": [],
+  "flags": [
+   "Shirt sponsor sources differ (Beacon Electrical per club article, Classic Builders per 2026-27 table); neither is betting.",
+   "Argyle Trust shareholding/board seat not verified: could raise V/O."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Plymouth_Argyle_F.C.",
+   "https://x.com/PAFCNewsHub/status/2055698694356320481",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Plymouth_Argyle_F.C._season"
+  ]
+ },
+ {
+  "name": "Port Vale",
+  "C": {
+   "score": 7,
+   "evidence": "Vale Park (16,800, Burslem, since 1950). Avg league crowd 7,922 early 2026-27 in League Two after relegation; FA Cup quarter-final run 2025-26. Loyal support through two administrations (2003, 2012)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Shirt sponsor is lifelong fan Robbie Williams (2026-28), not a commercial/betting brand. Women's team (Staffordshire Vase 2026). Community-focused local owners."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Third Division North champions and FA Cup semi-final 1954 ('Iron Curtain'); Football League Trophy 1993; second-tier spell 1990s. Regional club with famous cup moments."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Carol and Kevin Shanahan, local owners since 2019, rescued the club from Norman Smurthwaite; stable conduct."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Relegated from League One 2025-26; Jon Brady appointed Jan 2026. No lasting pressing identity verified."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Port_Vale_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Port_Vale_F.C._season",
+   "https://www.onevalefan.co.uk/2026/06/port-vale-announce-robbie-williams-as-sponsor-as-they-unveil-2026-27-home-kit-design/"
+  ]
+ },
+ {
+  "name": "Reading",
+  "C": {
+   "score": 5,
+   "evidence": "Select Car Leasing (Madejski) Stadium, 24,161, out-of-town bowl since 1998 (left Elm Park). Crowds well below capacity; fan groups united in the 'Sell Before We Dai' protests (2023-25). Attendance figure not verified."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Front-of-shirt sponsor 2026-27 is Mr Vegas, a UK online casino brand (club-record deal). Women's team withdrew from the Women's Championship in June 2024 for financial reasons. Strong academy tradition."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Record 106 points in the 2005-06 Championship; Premier League 2006-08 (8th in 2006-07) and 2012-13. Founded 1871. Otherwise second/third-tier club."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Rob Couhig (Redwood Holdings) took over 14 May 2025 after the EFL disqualified Dai Yongge, whose era brought five points deductions (2021-24) and fan protests. Too early to judge beyond stabilisation."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Leam Richardson; mid-table (12th) in League One. No clear pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Mr Vegas is primarily a casino brand: treated as gambling sponsor (V -2). Kevin to decide if casino = sports betting under his rule.",
+   "Couhig previously owned Wycombe; confirm no current stake (no multi-club found)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Reading_F.C.",
+   "https://www.gamingintelligence.com/marketing/233890-mr-vegas-agrees-shirt-sponsorship-deal-with-reading-fc/",
+   "https://www.hellorayo.co.uk/greatest-hits/berkshire-north-hampshire/news/reading-fc-mr-vegas-new-shirt-sponsor-2026-27"
+  ]
+ },
+ {
+  "name": "Rochdale",
+  "C": {
+   "score": 6,
+   "evidence": "Spotland (10,249, opened 1920). 7,221 v York City (Apr 2026); 15,000 tickets taken for the 2026 play-off final at Wembley. Loyal through 36 straight fourth-tier seasons and the 2023 relegation."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Crown Oil shirt sponsor since 2013 (fossil fuel: no effect). Fans resisted the 2021 hostile Morton House takeover. No other notable factors verified."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "League Cup finalists 1962 (as a fourth-tier side); 36 consecutive seasons in the bottom division (1974-2010). Modest regional history with one famous run."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Local Ogden family (Rochdale-born Sir Peter Ogden; co-chair Cameron Ogden) invested about GBP 2m in May 2024 when the club faced liquidation; promoted back to the EFL in 2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Club-record 106 points in the 2025-26 National League, promoted via play-offs. Style not verified."
+  },
+  "adjustments": [],
+  "flags": [
+   "Pre-2024 fan/community ownership model: check whether the supporters' trust still holds shares (could raise O)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rochdale_A.F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Rochdale_A.F.C._season",
+   "https://www.rochvalleyradio.com/news/sports/rochdale-afc-promotion-heroes-welcomed-home-after-wembley-triumph/"
+  ]
+ },
+ {
+  "name": "Rotherham United",
+  "C": {
+   "score": 6,
+   "evidence": "New York Stadium (12,021, since 2012, after four years' exile at Sheffield's Don Valley). Record there 11,758. Steady, ordinary crowds; attendance not verified this session."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Front of shirt carries Rotherham Hospice (charity) for 2025-26 and 2026-27. No betting sponsor. Community-minded local club."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Runners-up in the first League Cup final (1961); mostly third/fourth tier, several Championship spells. Modest history."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Tony Stewart, local businessman, chairman since 2008; built the club's own stadium. Stable, though relegated to League Two in 2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Relegated 22nd in League One 2025-26; Alex Bruce head coach from June 2026. No clear pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rotherham_United_F.C.",
+   "https://www.rotherhamhospice.org.uk/rotherham-united-shirt-2026/",
+   "https://www.themillers.co.uk/news/2026/may/12/hummel-introduce-themselves-with-2026-27-kit-designs--/"
+  ]
+ },
+ {
+  "name": "Salford City",
+  "C": {
+   "score": 3,
+   "evidence": "Moor Lane (5,108); average crowd about 3,000 in recent seasons (from about 140 in 2014). Small, fairly quiet support; little distinct identity."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "AIG shirt sponsor; women's team (Salford City Lionesses) and foundation. Dream Sports Group (owner of Indian fantasy/real-money gaming app Dream11) is one of nine shareholders."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 1940 (Salford Amateurs); amateur and non-league history (Lancashire Amateur Cups). Football League only since 2019. Celebrity 'Class of 92' era."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "May 2025: consortium of nine shareholders led by David Beckham, Gary Neville, Declan Kelly and Lord Mervyn Davies (Consello); Peter Lim bought out Aug 2024 after refusing to fund losses."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "4th in League Two 2025-26 under Peter Cklamovski. No established pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "overspend",
+    "points": -4,
+    "evidence": "Losses funded by owners well beyond the club's natural income (small crowds, heavy spending since 2014); Lim quit in 2024 unwilling to fund the losses."
+   }
+  ],
+  "flags": [
+   "Peter Lim (Valencia) no longer a shareholder: old multiclub -4 removed.",
+   "Consello-led investor consortium: Kevin may treat as pe (-4).",
+   "Dream11 shareholder is gambling-adjacent (fantasy/real-money gaming): not scored."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Salford_City_F.C.",
+   "https://www.salfordcityfc.co.uk/news/2025/may/08/salford-city-fc-acquired-by-new-ownership-group-led-by-david-beckham--gary-neville--lord-mervyn-davies-and-declan-kelly/",
+   "https://www.givemesport.com/gary-neville-salford-stake-majority-owner/"
+  ]
+ },
+ {
+  "name": "Sheffield Wednesday",
+  "C": {
+   "score": 9,
+   "evidence": "Avg home league crowd 23,199 in 2025-26 despite a record 39-game winless run and relegation in February. Organised boycotts, pitch protest and a protest at the Thai embassy against Chansiri. Historic Hillsborough (39,732; North Stand closed July 2025 for roof corrosion)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Front Fibrely; sleeve Wolf Competitions (online prize-draw/competitions firm). Women's side exists. No other notable positives verified."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Four league titles (1903, 1904, 1929, 1930), three FA Cups, 1991 League Cup win over Man Utd as a second-tier side. Founded 1867. Hillsborough ground central to English football history (1989 disaster)."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Chansiri era ended in administration (Oct 2025, 18 points deducted). Arise Capital Partners (David and Michael Storch, Tom Costin) bought club 2 May 2026; strict EFL business plan for two seasons. New owners untested."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "2025-26 collapse (record 39 league games without a win) due to financial crisis; Henrik Pedersen coach. No lasting pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -5,
+    "evidence": "Owner is Arise Capital Partners LLC; investors placed money via a 'Steel City Sports Fund' vehicle (Wikipedia season article)."
+   }
+  ],
+  "flags": [
+   "Search summary claims the Storch group holds stakes in Leganes, Le Havre and Cancun FC; not confirmed by fetched articles. If true add multiclub -6.",
+   "Wolf Competitions sleeve: prize competitions, not sports betting; not scored as gambling. Kevin to decide.",
+   "Chansiri negatives no longer apply to O; O judged on new, untested owners."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sheffield_Wednesday_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sheffield_Wednesday_F.C._season",
+   "https://sports.yahoo.com/articles/sheffield-wednesday-administration-us-consortium-130307134.html"
+  ]
+ },
+ {
+  "name": "Shrewsbury Town",
+  "C": {
+   "score": 5,
+   "evidence": "New Meadow (9,875, since 2007, safe standing in South Stand) after 97 years at the Gay Meadow. 2025-26 home crowds 4,116-7,879. Ordinary support."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (Shropshire Homes, Hanmart); no betting sponsor. Shrewsbury Town Foundation community programmes; women's team."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Welsh Cup winners (1938 and others); 2018 EFL Trophy and League One play-off finals; 2020 FA Cup draw with Liverpool. Gay Meadow (river Severn) lore."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Roland Wycherley owner/chairman since 1996, club on sale since 2024; fans issued an ultimatum in Sept 2026 over the delayed sale, then a sale to a US consortium (Scott Davidson, Will Dotson, Craig Graham, Brad Friedel) was announced 7 Sept 2026."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Relegated from League One 2025; narrowly retained EFL status 2025-26 under Gavin Cowan. No clear pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Pending takeover by US consortium (linked to Edinburgh club Spartans): re-check O and multiclub once completed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shrewsbury_Town_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Shrewsbury_Town_F.C._season",
+   "https://www.scotsman.com/sport/football/inside-the-stunning-spartans-led-takeover-of-shrewsbury-town-and-the-brad-friedel-link-9023267"
+  ]
+ }
+]

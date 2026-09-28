@@ -18,6 +18,44 @@ RIVALS = {'Schalke 04': -5, 'Bayern Munich': -5, 'Seattle Sounders FC': -5, 'Sea
 HOMETOWN = 'Sacramento Republic FC'
 F = 'CVHOS'
 
+# Kevin's answers to the round 3 review (2026-09-28).
+# Values change from players, overriding the agent's V_delta: name -> (points, reason)
+V_OVERRIDE = {
+    # Standing by: not after an acquittal (or a closed investigation without charge)
+    'Real Madrid': (0, 'Asencio acquitted Sept 2026'),
+    'Fleetwood Town': (0, 'Ched Evans acquitted at the 2016 retrial'),
+    'Iceland': (0, 'Gudmundsson acquitted; Sigurdsson investigation dropped without charge'),
+    # Staff and owner conduct toward players moves to Ownership (O_DELTA below)
+    'Seattle Sounders FC': (0, 'owner conduct moved to Ownership'),
+    'Philadelphia Union': (0, 'Tanner moved to Ownership; Wagner slur ban (2023) is outside the 3-season window'),
+    'Chelsea': (-1, 'Enzo Fernandez chant; training-group exile moved to Ownership'),
+    'Paris Saint-Germain': (-2, 'standing by Hakimi; Mbappe wages and exclusions moved to Ownership'),
+    'Barcelona': (0, 'ter Stegen treatment and registrations moved to Ownership'),
+    'Mainz 05': (0, 'El Ghazi dismissal moved to Ownership'),
+    'Rayo Vallecano': (0, 'missing medical services moved to Ownership'),
+    'Sheffield United': (0, 'Cusack case (coach, club inquiry) moved to Ownership'),
+    # Previous owner (Chansiri): dropped under the previous-owner rule
+    'Sheffield Wednesday': (0, 'late wages under the previous owner'),
+    # Homegrown +1 dropped where Values already credits the academy pathway
+    'Crewe Alexandra': (0, 'academy already in Values'), 'SC Freiburg': (0, 'academy already in Values'),
+    'Athletic Club': (0, 'cantera already in Values'), 'Celta Vigo': (0, 'academy already in Values'),
+    'Osasuna': (0, 'academy already in Values'), 'Real Sociedad': (0, 'academy already in Values'),
+    'Shakhtar Donetsk': (0, 'academy already in Values'),
+}
+# Staff and owner conduct toward players: Ownership change, name -> (points, reason)
+O_DELTA = {
+    'Seattle Sounders FC': (-1, 'owner confronted players over their 2025 prize-money protest'),
+    'Philadelphia Union': (-1, 'sporting director Tanner suspended for sexist, anti-gay and racist remarks'),
+    'Chelsea': (-1, 'players exiled to a separate training group (PFA intervened)'),
+    'Paris Saint-Germain': (-1, 'Mbappe unpaid wages (about EUR 61m ordered) and player exclusions'),
+    'Barcelona': (-1, 'ter Stegen disciplinary case, players left unregistered'),
+    'Mainz 05': (-1, 'El Ghazi dismissal ruled unfair'),
+    'Rayo Vallecano': (-1, 'squad complaint to AFE over missing medical services'),
+    'Sheffield United': (-1, 'Maddy Cusack case: warned about the coach, flawed club inquiry'),
+}
+# Republic link: regulars only. None = not yet checked (agent value used, flagged in the report).
+REPUBLIC_REGULARS = None
+
 
 def score(e, w, nation, bonus):
     f = {k: e[k]['score'] for k in F}
@@ -54,12 +92,22 @@ for bf in sorted(R.glob('b[0-9][0-9]-*.json')):
         if not isinstance(t, int) or not isinstance(vd, int): continue
         m = copy.deepcopy(e)
         m['S'] = {'score': t, 'evidence': x['T'].get('evidence', '')}
+        vev = x['V_delta'].get('evidence', '')
+        if n in V_OVERRIDE:
+            vd, why = V_OVERRIDE[n]
+            vev = f'{vev} [Review: {vd:+d}, {why}.]'
         if vd:
             v = max(0, min(10, e['V']['score'] + vd))
-            m['V'] = {'score': v, 'evidence': e['V']['evidence'] + f' [Players: {vd:+d}. {x["V_delta"].get("evidence", "")}]'}
+            m['V'] = {'score': v, 'evidence': e['V']['evidence'] + f' [Players: {vd:+d}. {vev}]'}
+        if n in O_DELTA:
+            od, why = O_DELTA[n]
+            m['O'] = {'score': max(0, min(10, e['O']['score'] + od)), 'evidence': e['O']['evidence'] + f' [Players: {od:+d}, {why}.]'}
         if n in RIVALS:
             m['adjustments'] = m['adjustments'] + [{'type': 'rival', 'points': RIVALS[n], 'evidence': 'Rival of a club Kevin follows.'}]
-        if (x.get('republic_link') or {}).get('value') and n != HOMETOWN:
+        link = (x.get('republic_link') or {}).get('value')
+        if REPUBLIC_REGULARS is not None:
+            link = n in REPUBLIC_REGULARS
+        if link and n != HOMETOWN:
             m['adjustments'] = m['adjustments'] + [{'type': 'republic', 'points': 2, 'evidence': x['republic_link'].get('evidence', '')}]
         m['team'] = {k: x.get(k) for k in ('icons', 'coach', 'flags', 'confidence', 'sources')}
         new.append(m)

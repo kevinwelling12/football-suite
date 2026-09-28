@@ -939,5 +939,280 @@
    "https://www.friedkin.com/everton-football-club-acquired-by-roundhouse-capital-holdings-limited-part-of-the-friedkin-group/",
    "https://stadiumdb.com/news/2026/03/italy_the_rome_city_council_has_approved_the_construction_of_a_stadium_in_pietralata"
   ]
+ },
+ {
+  "name": "Sabah",
+  "C": {
+   "score": 3,
+   "evidence": "Founded 2017; plays at the 8,969 Bank Respublika Arena in suburban Masazır. No documented organised support or notable attendance found."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Young club with a ministry-/business-backed model typical of Azerbaijan; no community, fan-voice or women's-team evidence found. Country context (authoritarian state) matters if any state link is confirmed."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Brand new: founded 8 Sept 2017; first league title 2025-26, cups 2025 and 2026; first UCL league phase 2026 (beat Hapoel Be'er Sheva)."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Founder and supervisory-board chair Yagub Huseynov, president Magsud Adigozalov; funding source not documented; no fan ownership."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Valdas Dambrauskas (since June 2025); no clear intensity identity documented."
+  },
+  "adjustments": [],
+  "flags": [
+   "Funding and any state/regime links not verified: check before finalising O (possible state adjustment).",
+   "Attendance data not found."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sabah_FC_(Azerbaijan)",
+   "https://bakuheritage.com/en/inspiration/sabah-fk-azerbaijan-football-club"
+  ]
+ },
+ {
+  "name": "Shakhtar Donetsk",
+  "C": {
+   "score": 4,
+   "evidence": "In exile since 2014 (Lviv, Kharkiv, Kyiv; since 2023 Arena Lviv); 2026-27 UCL home games at Stamford Bridge, London. Loyal core but home crowds are small and displaced (pre-war average ~37,000 at Donbass Arena)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Club and owner's foundation active in war relief; academy relocated to Split in 2022; women's team. Offset: oligarch-club model, historic owner politics (Akhmetov was a Party of Regions MP)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "2009 UEFA Cup (first independent Ukrainian European trophy); 15+ league titles, record 15 Ukrainian Cups; 'most Brazilian club in Europe' under Lucescu."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Owned since 1996 by oligarch Rinat Akhmetov (SCM); stable, heavy investment and sensible development, but single-oligarch control and no fan voice."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Technical, attacking; Arda Turan head coach; not a pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Exile is war-forced, not a convenience move: no stadium penalty applied beyond the Culture score.",
+   "Owner politics: decide whether Akhmetov's past political role should lower V."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Shakhtar_Donetsk",
+   "https://shakhtar.com/en/news/2026/august/21_news/21_shakhtar_stamford_bridge/",
+   "https://www.skysports.com/football/news/11668/13575487/why-are-shakhtar-playing-at-chelsea-stamford-bridge-to-host-exiled-ukrainian-sides-champions-league-home-games"
+  ]
+ },
+ {
+  "name": "Slavia Prague",
+  "C": {
+   "score": 8,
+   "evidence": "Fortuna Arena (19,370, opened 2008 on the Eden site) sells out for European nights; Tribuna Sever ultras loud; fierce Prague derby with Sparta."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Stadium naming sponsor Fortuna (sports-betting brand) lowers; 2021 Kúdela racism case against Glen Kamara (player, UEFA 10-match ban) tainted the club. Women's team strong in Czech league."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Founded 1892; 1938 Mitropa Cup; 22 league titles; 54-game unbeaten run in 2020-21; 1996 UEFA Cup semi-final."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Czech billionaire Pavel Tykač owner since Dec 2023, after Chinese owners CEFC/CITIC/Sinobo (2015-23); stable, no fan voice."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Trpišovský (since 2017): intense, physical pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Stadium naming (Fortuna) as betting sponsor: confirm it still applies in 2026-27.",
+   "Kúdela/Kamara incident was a player, not fans: no racism adjustment applied."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SK_Slavia_Prague",
+   "https://en.slavia.cz/clanek.asp?id=Pavel-Tyka-269-becomes-the-new-owner-of-Slavia-Prague-1180",
+   "https://english.radio.cz/seznam-zpravy-billionaire-tykac-new-owner-slavia-prague-8803641"
+  ]
+ },
+ {
+  "name": "Slovan Bratislava",
+  "C": {
+   "score": 6,
+   "evidence": "Rebuilt Tehelné pole (22,500, reopened 2019 on the same site); Ultras Slovan in Sektor C are active; home crowds modest relative to capacity."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Nationalist ultra scene with repeated racism sanctions (see adjustments); no documented community or fan-voice positives."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1969 Cup Winners' Cup (beat Barcelona 3-2): only Czechoslovak/Slovak European trophy; dominant Slovak champion; 2024-25 UCL league phase."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Owned and chaired by Slovak businessman Ivan Kmotrík; stable, domestic success, no fan voice."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Dominant domestic side; no documented pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -10,
+    "evidence": "UEFA: stadium closure (Wolves match, 2019) for racist chants/banner v PAOK; EUR40,000 fine for fans' racist behaviour at Ferencváros (2022); partial closure and away-fan ban (2022)."
+   },
+   {
+    "type": "violence",
+    "points": -5,
+    "evidence": "UEFA fine and away-ticket ban after fans wrecked facilities and used pyrotechnics at Sturm Graz (Feb 2024)."
+   }
+  ],
+  "flags": [
+   "Shirt sponsor not verified this session.",
+   "No 2025-26 UEFA cases found; confirm scale of racism adjustment given repetition."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/%C5%A0K_Slovan_Bratislava",
+   "https://www.foxsports.com/stories/soccer/uefa-punishes-slovakian-club-for-fan-racism-in-europa-league",
+   "https://www.insideworldfootball.com/2022/08/02/uefa-hits-bratislava-partial-stadium-closure-fines-away-fan-ban/",
+   "https://www.foxsports.com/articles/soccer/slovan-bratislava-punished-for-fans-damaging-sturm-graz-stadium-in-europa-conference-league"
+  ]
+ },
+ {
+  "name": "Sporting CP",
+  "C": {
+   "score": 8,
+   "evidence": "Estádio José Alvalade (52,707, 2003) with Juventude Leonina and Directivo Ultras XXI; big, loud support and 179,000 members."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Betano (sports betting) shirt sponsor, renewed to 2029, lowers; famed academy (Figo, Ronaldo, Quaresma) and women's team raise. Board cut ties with ultras after the 2018 Alcochete attack on players."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "1964 Cup Winners' Cup; 21 league titles incl. 2024 and 2025; academy influence on world football."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Members' club (179,208 members) owns 88% of Sporting SAD (2024); elected president Frederico Varandas."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Amorim's intense 3-4-3 (2020-24) set a pressing identity; successors kept a front-foot style."
+  },
+  "adjustments": [],
+  "flags": [
+   "2018 Alcochete attack by ~50 ultras (convictions): not applied as a violence adjustment (club acted, 8 years ago). Kevin to confirm."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sporting_CP",
+   "https://www.insideworldfootball.com/2025/08/12/betano-doubles-sporting-cp-shirt-sponsorship",
+   "https://portugoal.net/club-news/4962-betano-sticks-with-sporting-cp-for-another-four-years"
+  ]
+ },
+ {
+  "name": "VfB Stuttgart",
+  "C": {
+   "score": 9,
+   "evidence": "MHPArena (60,058) regularly sold out; Cannstatter Kurve (Commando Cannstatt) is one of Germany's strongest curves; support held through the 2016 and 2019 relegations."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Fan pressure made the club end the Winamax betting shirt deal a year early; since 2025 LBBW (regional bank). Members' club (100,000+), women's department, academy with record U19/U17 titles. Porsche buy-in (2023) caused board disputes."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Five German titles (last 2007), 2025 DFB-Pokal; 1989 UEFA Cup final; 2024 runners-up."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "e.V. holds the majority of the AG under 50+1; Mercedes-Benz 10.4%, Porsche 10.4%, Jako 1%."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Hoeneß: intense, possession-and-press football since 2023."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/VfB_Stuttgart",
+   "https://www.sportcal.com/sponsorship/lbbw-to-replace-winamax-as-stuttgart-shirt-sponsor-from-2025/",
+   "https://www.footyheadlines.com/2024/09/stuttgart-announces-new-main-shirt-sponsor-for-25-26-season.html"
+  ]
+ },
+ {
+  "name": "Viking",
+  "C": {
+   "score": 7,
+   "evidence": "Viking Stadion (15,900, 2004) averaged 15,747 in 2026 (effectively sold out) and 13,731 in 2025; several supporter groups (Vikinghordene, F19 Stavanger, Blå Brigade 99)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Norwegian member club; long-term local sponsor Lyse Energi (municipal utility, since 1999); women's section; community rescue via SR-Bank refinancing in 2017-18."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Founded 1899; nine league titles incl. 2025 (first in 34 years); knocked out Chelsea (2002) and Sporting (1999)."
+  },
+  "O": {
+   "score": 8,
+   "evidence": "Member-run club (Norwegian association model), chairman Jan Henrik Jelsa; stadium partly sold to SR-Bank in the 2018 rescue."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Attacking, energetic title-winning side; won the 2025 title by one point over Bodø/Glimt."
+  },
+  "adjustments": [],
+  "flags": [
+   "Ownership detail (any investor share company) not verified beyond Wikipedia."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Viking_FK",
+   "https://en.wikipedia.org/wiki/2025_Viking_FK_season",
+   "https://www.uefa.com/uefachampionsleague/news/02a9-218b0b5ce041-499a5bed3e4f-1000--viking-s-unlikely-journey-to-the-champions-league/"
+  ]
+ },
+ {
+  "name": "Villarreal",
+  "C": {
+   "score": 6,
+   "evidence": "Estadio de la Cerámica (23,008) in a town of about 50,000; loyal local crowd, pleasant but not intense atmosphere; small away following."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Local ceramics-industry identity (Pamesa, owned by the same family, sponsor since 2013); strong academy and women's team; no betting shirt sponsor."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Small-town rise: 2021 Europa League (beat Man United), UCL semi-finals 2006 and 2022."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Local industrialist Fernando Roig owner-president since 1997; stable, sensible, long-term investment."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Organised, compact sides with quick transitions; not a pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Villarreal_CF",
+   "https://www.footballshirtculture.com/new-kits/villarreal-jersey-26-27-home-joma.html",
+   "https://www.scoreandchange.com/la-liga-sponsors/"
+  ]
  }
 ]

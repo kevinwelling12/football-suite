@@ -41,5 +41,5 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 ## Where the logic lives
 - Affinity rubric & rules: docs/affinity.md and scripts/affinity/scores.py (+ USL in build_usl.py).
 - Model details: docs/architecture.md (Dixon-Coles, draw calibration, importance, favour/Affinity picks).
-- Data sources and sync: docs/sync.md.
+- Data sources and sync: docs/sync.md (nightly ESPN sync: .github/workflows/espn-sync.yml, scripts/sync/espn.js).
 - Open ideas: docs/backlog.md.

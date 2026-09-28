@@ -1,0 +1,59 @@
+name: Sync results from ESPN
+# Twice a day: 3:17am Pacific catches late US matches, 4:17pm Pacific catches the European day.
+# Commits data/suite_data.json when something changed, then redeploys the page (pushes made by this
+# workflow don't trigger pages.yml on their own). Anything that needs a human goes to one open issue.
+on:
+  schedule:
+    - cron: '17 10 * * *'
+    - cron: '17 23 * * *'
+  workflow_dispatch:
+    inputs:
+      back:
+        description: Days of results to look back
+        default: '10'
+permissions:
+  contents: write
+  actions: write
+  issues: write
+concurrency:
+  group: espn-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - id: sync
+        continue-on-error: true   # a competition that fails is reported in the issue; the others still commit
+        run: node scripts/sync/espn.js --back "${{ inputs.back || '10' }}" --report sync-report.md
+      - if: always()
+        run: '[ -f sync-report.md ] && cat sync-report.md >> "$GITHUB_STEP_SUMMARY" || true'
+      - name: Commit and redeploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git diff --quiet data/suite_data.json && { echo "No changes"; exit 0; }
+          git config user.name "espn-sync[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/suite_data.json
+          git commit -m "ESPN sync $(date -u +%Y-%m-%d)" -m "$(awk '/^## /{n=substr($0,4)} /checked/{print n ": " $0}' sync-report.md)"
+          git push origin HEAD:main
+          gh workflow run pages.yml --ref main
+      - name: Flag anything that needs a look
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f sync-report.md ] || exit 0
+          awk '/^## /{h=$0; p=0; shown=0} /^(DISAGREES|Not applied|Team names|No fixture|Error)/{p=1; if (!shown) print "\n" h; shown=1} p' sync-report.md > flagged.md
+          title="ESPN sync needs a look"
+          num=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number // empty')
+          if [ ! -s flagged.md ]; then exit 0; fi
+          { echo "Latest run: $(date -u +%Y-%m-%d\ %H:%M) UTC. Nothing here was changed in the tracker."; cat flagged.md; } > body.md
+          if [ -z "$num" ]; then gh issue create --title "$title" --body-file body.md
+          else gh issue edit "$num" --body-file body.md; fi

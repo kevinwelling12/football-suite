@@ -1,0 +1,1497 @@
+[
+ {
+  "club": "Arsenal",
+  "franchise": "Los Angeles Rams",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Kroenke Sports & Entertainment (Stan Kroenke)",
+  "evidence": "Arsenal is wholly owned by Kroenke Sports & Entertainment, which also owns the Los Angeles Rams.",
+  "sources": [
+   "https://www.si.com/soccer/how-many-premier-league-clubs-are-owned-by-americans"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Arsenal",
+  "franchise": "Denver Nuggets",
+  "league": "NBA",
+  "kind": "ownership",
+  "via": "Kroenke Sports & Entertainment (Stan Kroenke)",
+  "evidence": "Arsenal is wholly owned by Kroenke Sports & Entertainment, which also owns the Denver Nuggets.",
+  "sources": [
+   "https://www.si.com/soccer/how-many-premier-league-clubs-are-owned-by-americans"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Arsenal",
+  "franchise": "Colorado Avalanche",
+  "league": "NHL",
+  "kind": "ownership",
+  "via": "Kroenke Sports & Entertainment (Stan Kroenke)",
+  "evidence": "Arsenal is wholly owned by Kroenke Sports & Entertainment, which also owns the Colorado Avalanche.",
+  "sources": [
+   "https://www.si.com/soccer/how-many-premier-league-clubs-are-owned-by-americans"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Aston Villa",
+  "franchise": "Milwaukee Bucks",
+  "league": "NBA",
+  "kind": "ownership",
+  "via": "V Sports (Wes Edens)",
+  "evidence": "Aston Villa is owned by V Sports (Nassef Sawiris, Wes Edens, Atairos); Edens is co-owner of the Milwaukee Bucks.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/V_Sports",
+   "https://legalclarity.org/who-owns-aston-villa-sawiris-edens-and-v-sports/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Bournemouth",
+  "franchise": "Vegas Golden Knights",
+  "league": "NHL",
+  "kind": "ownership",
+  "via": "Black Knight Football Club (Bill Foley)",
+  "evidence": "Bournemouth is owned by Bill Foley's Black Knight Football Club; Foley owns the Vegas Golden Knights.",
+  "sources": [
+   "https://www.afcb.co.uk/news/2026/january/28/black-knight-football-club-becomes-sole-shareholder-of-fc-lorient/",
+   "https://en.wikipedia.org/wiki/Bill_Foley_(businessman)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Lorient",
+  "franchise": "Vegas Golden Knights",
+  "league": "NHL",
+  "kind": "ownership",
+  "via": "Black Knight Football Club (Bill Foley)",
+  "evidence": "Lorient (sole shareholder since Jan 2026) is owned by Bill Foley's Black Knight Football Club; Foley owns the Vegas Golden Knights.",
+  "sources": [
+   "https://www.afcb.co.uk/news/2026/january/28/black-knight-football-club-becomes-sole-shareholder-of-fc-lorient/",
+   "https://en.wikipedia.org/wiki/Bill_Foley_(businessman)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Crystal Palace",
+  "franchise": "New York Jets",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Woody Johnson",
+  "evidence": "Jets owner Woody Johnson holds about 43% of Crystal Palace, the largest stake. FT reported in June 2026 that the US owners are exploring selling their combined 79%.",
+  "sources": [
+   "https://www.foxsports.com/stories/soccer/jets-owner-woody-johnson-completes-purchase-of-stake-in-premier-league-club-crystal-palace",
+   "https://www.wearepalace.uk/club/owners/",
+   "https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Crystal Palace",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "ownership",
+  "via": "Josh Harris and David Blitzer (Harris Blitzer Sports & Entertainment)",
+  "evidence": "Harris and Blitzer each hold about 18% of Crystal Palace and co-own the 76ers. FT reported in June 2026 that the US owners are exploring selling their combined 79%.",
+  "sources": [
+   "https://www.foxsports.com/stories/soccer/jets-owner-woody-johnson-completes-purchase-of-stake-in-premier-league-club-crystal-palace",
+   "https://www.wearepalace.uk/club/owners/",
+   "https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/",
+   "https://www.hbse.com/our-team/david-blitzer/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Crystal Palace",
+  "franchise": "New Jersey Devils",
+  "league": "NHL",
+  "kind": "ownership",
+  "via": "Josh Harris and David Blitzer (Harris Blitzer Sports & Entertainment)",
+  "evidence": "Harris and Blitzer each hold about 18% of Crystal Palace and co-own the Devils. FT reported in June 2026 that the US owners are exploring selling their combined 79%.",
+  "sources": [
+   "https://www.foxsports.com/stories/soccer/jets-owner-woody-johnson-completes-purchase-of-stake-in-premier-league-club-crystal-palace",
+   "https://www.wearepalace.uk/club/owners/",
+   "https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/",
+   "https://www.hbse.com/our-team/david-blitzer/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Crystal Palace",
+  "franchise": "Washington Commanders",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Josh Harris (managing partner), David Blitzer (limited partner)",
+  "evidence": "Harris leads the Commanders ownership group, with Blitzer a limited partner; both hold about 18% of Crystal Palace. FT reported in June 2026 that the US owners are exploring selling their combined 79%.",
+  "sources": [
+   "https://www.foxsports.com/stories/soccer/jets-owner-woody-johnson-completes-purchase-of-stake-in-premier-league-club-crystal-palace",
+   "https://www.wearepalace.uk/club/owners/",
+   "https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Crystal Palace",
+  "franchise": "Cleveland Guardians",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "David Blitzer",
+  "evidence": "Blitzer holds about 25% of the Guardians as a limited partner (option to take control in 2028) and about 18% of Crystal Palace. FT reported in June 2026 that the US owners are exploring selling their combined 79%.",
+  "sources": [
+   "https://www.foxsports.com/stories/soccer/jets-owner-woody-johnson-completes-purchase-of-stake-in-premier-league-club-crystal-palace",
+   "https://www.wearepalace.uk/club/owners/",
+   "https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "FC Augsburg",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "ownership",
+  "via": "David Blitzer (Bolt Football Holdings)",
+  "evidence": "Blitzer's Bolt Football Holdings holds about 45% of FC Augsburg's company; he co-owns the 76ers. Blitzer explored selling the stake from 2024; no completed sale found, so status as of Sept 2026 is unconfirmed.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/David_Blitzer",
+   "https://www.sportbusiness.com/news/blitzer-eyes-augsburg-sale-german-regulator-stands-by-501-after-ecj-ruling/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "FC Augsburg",
+  "franchise": "New Jersey Devils",
+  "league": "NHL",
+  "kind": "ownership",
+  "via": "David Blitzer (Bolt Football Holdings)",
+  "evidence": "Blitzer's Bolt Football Holdings holds about 45% of FC Augsburg's company; he co-owns the Devils. Blitzer explored selling the stake from 2024; no completed sale found, so status as of Sept 2026 is unconfirmed.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/David_Blitzer",
+   "https://www.sportbusiness.com/news/blitzer-eyes-augsburg-sale-german-regulator-stands-by-501-after-ecj-ruling/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "FC Augsburg",
+  "franchise": "Washington Commanders",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "David Blitzer (Bolt Football Holdings)",
+  "evidence": "Blitzer, a Commanders limited partner, holds about 45% of FC Augsburg's company via Bolt. Blitzer explored selling the stake from 2024; no completed sale found, so status as of Sept 2026 is unconfirmed.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/David_Blitzer",
+   "https://www.sportbusiness.com/news/blitzer-eyes-augsburg-sale-german-regulator-stands-by-501-after-ecj-ruling/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "FC Augsburg",
+  "franchise": "Cleveland Guardians",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "David Blitzer (Bolt Football Holdings)",
+  "evidence": "Blitzer, a 25% Guardians limited partner, holds about 45% of FC Augsburg's company via Bolt. Blitzer explored selling the stake from 2024; no completed sale found, so status as of Sept 2026 is unconfirmed.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/David_Blitzer",
+   "https://www.sportbusiness.com/news/blitzer-eyes-augsburg-sale-german-regulator-stands-by-501-after-ecj-ruling/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Chelsea",
+  "franchise": "Los Angeles Dodgers",
+  "league": "MLB",
+  "kind": "former",
+  "via": "BlueCo (Todd Boehly, Mark Walter)",
+  "evidence": "Dodgers/Lakers owners Mark Walter and Todd Boehly co-owned Chelsea through BlueCo from 2022 until September 2026, when Clearlake Capital bought them out and took full control (Wyss remains a minority). Tie is to former club owners, not the current one.",
+  "sources": [
+   "https://insidersport.com/2026/09/17/chelsea-confirms-clearlake-sole-owner/",
+   "https://www.cnbc.com/2026/09/17/chelsea-mark-walter-bohely-clearlake-capital.html",
+   "https://frenchfootballweekly.com/2026/09/17/chelsea-strasbourg-a-page-turns/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Chelsea",
+  "franchise": "Los Angeles Lakers",
+  "league": "NBA",
+  "kind": "former",
+  "via": "BlueCo (Todd Boehly, Mark Walter)",
+  "evidence": "Dodgers/Lakers owners Mark Walter and Todd Boehly co-owned Chelsea through BlueCo from 2022 until September 2026, when Clearlake Capital bought them out and took full control (Wyss remains a minority). Tie is to former club owners, not the current one.",
+  "sources": [
+   "https://insidersport.com/2026/09/17/chelsea-confirms-clearlake-sole-owner/",
+   "https://www.cnbc.com/2026/09/17/chelsea-mark-walter-bohely-clearlake-capital.html",
+   "https://frenchfootballweekly.com/2026/09/17/chelsea-strasbourg-a-page-turns/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Strasbourg",
+  "franchise": "Los Angeles Dodgers",
+  "league": "MLB",
+  "kind": "former",
+  "via": "BlueCo (Todd Boehly, Mark Walter)",
+  "evidence": "Dodgers/Lakers owners Mark Walter and Todd Boehly co-owned Strasbourg through BlueCo from 2023 until September 2026, when Clearlake Capital bought them out and took full control (Wyss remains a minority). Tie is to former club owners, not the current one.",
+  "sources": [
+   "https://insidersport.com/2026/09/17/chelsea-confirms-clearlake-sole-owner/",
+   "https://www.cnbc.com/2026/09/17/chelsea-mark-walter-bohely-clearlake-capital.html",
+   "https://frenchfootballweekly.com/2026/09/17/chelsea-strasbourg-a-page-turns/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Strasbourg",
+  "franchise": "Los Angeles Lakers",
+  "league": "NBA",
+  "kind": "former",
+  "via": "BlueCo (Todd Boehly, Mark Walter)",
+  "evidence": "Dodgers/Lakers owners Mark Walter and Todd Boehly co-owned Strasbourg through BlueCo from 2023 until September 2026, when Clearlake Capital bought them out and took full control (Wyss remains a minority). Tie is to former club owners, not the current one.",
+  "sources": [
+   "https://insidersport.com/2026/09/17/chelsea-confirms-clearlake-sole-owner/",
+   "https://www.cnbc.com/2026/09/17/chelsea-mark-walter-bohely-clearlake-capital.html",
+   "https://frenchfootballweekly.com/2026/09/17/chelsea-strasbourg-a-page-turns/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Fulham",
+  "franchise": "Jacksonville Jaguars",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Shahid Khan",
+  "evidence": "Fulham is owned by Shahid Khan, who also owns the Jacksonville Jaguars.",
+  "sources": [
+   "https://www.si.com/soccer/how-many-premier-league-clubs-are-owned-by-americans"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Leeds United",
+  "franchise": "San Francisco 49ers",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "49ers Enterprises (York family)",
+  "evidence": "Leeds United is 100% owned by 49ers Enterprises Global Football Group, the investment arm of the 49ers' owners (Red Bull holds a minority stake since 2024).",
+  "sources": [
+   "https://www.leedsunited.com/en/news/49ers-enterprises-assumes-full-ownership-of-leeds-united",
+   "https://frontofficesports.com/49ers-owners-take-full-control-of-leeds-united-after-sale-approval/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Manchester United",
+  "franchise": "Tampa Bay Buccaneers",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Glazer family",
+  "evidence": "The Glazer family holds about 69% of Manchester United (INEOS ~29%) and owns the Tampa Bay Buccaneers. Sept 2026 reports say the Glazers are again considering a sale.",
+  "sources": [
+   "https://www.si.com/soccer/man-utd-everything-know-rumored-glazer-family-ownership",
+   "https://www.caughtoffside.com/2026/09/02/manchester-united-glazers-sale-middle-eastern-investor/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Norwich City",
+  "franchise": "Milwaukee Brewers",
+  "league": "MLB",
+  "kind": "ownership",
+  "via": "Mark Attanasio",
+  "evidence": "Brewers principal owner Mark Attanasio has been Norwich City's majority shareholder since March 2025.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mark_Attanasio",
+   "https://www.sportbusiness.com/news/brewers-owner-attanasio-acquires-minority-norwich-city-stake/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Huddersfield Town",
+  "franchise": "Sacramento Kings",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Kevin M. Nagle",
+  "evidence": "Huddersfield owner and chairman Kevin M. Nagle (since June 2023) is a minority owner of the Sacramento Kings and owner of Sacramento Republic FC.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kevin_M._Nagle",
+   "https://www.espn.com/soccer/story/_/id/37637558/sacramento-republic-owner-agrees-buy-huddersfield-town"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Birmingham City",
+  "franchise": "Las Vegas Raiders",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Knighthead Capital (Tom Wagner) and Tom Brady",
+  "evidence": "Birmingham is owned by Tom Wagner's Knighthead with Tom Brady as minority owner; Wagner and Brady bought about 10% of the Raiders (approved Oct 2024).",
+  "sources": [
+   "https://www.cnbc.com/2024/10/15/tom-brady-to-be-part-owner-of-nfls-las-vegas-raiders.html",
+   "https://en.wikipedia.org/wiki/Tom_Wagner_(financier)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Everton",
+  "franchise": "Houston Texans",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Christopher Sarofim",
+  "evidence": "Texans minority owner Christopher Sarofim bought a minority stake in Roundhouse Capital, the Friedkin Group vehicle that owns Everton, in April 2025, and is a board observer.",
+  "sources": [
+   "https://www.bloomberg.com/news/articles/2025-04-23/everton-fc-gets-investment-from-co-owner-of-nfl-s-houston-texans",
+   "https://www.toffeeweb.com/season/24-25/news/46088.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Boston Red Sox",
+  "league": "MLB",
+  "kind": "ownership",
+  "via": "Fenway Sports Group (John W. Henry, Tom Werner)",
+  "evidence": "Liverpool is majority owned by Fenway Sports Group, which owns the Boston Red Sox. FSG agreed in 2026 to sell a ~30-38% minority stake to 1892 Holdings but keeps control.",
+  "sources": [
+   "https://fenwaysportsgroup.com/evolution-of-fsg/",
+   "https://www.sportico.com/business/team-sales/2026/jeff-bezos-liverpool-stake-bhatia-saverin-1234941903/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Pittsburgh Penguins",
+  "league": "NHL",
+  "kind": "former",
+  "via": "Fenway Sports Group",
+  "evidence": "FSG sold control of the Penguins to the Hoffmann family (closed June 24, 2026) and keeps a minority stake for a period of time.",
+  "sources": [
+   "https://www.sportico.com/business/team-sales/2026/nhl-approves-penguins-sale-hoffmann-family-1234936872/",
+   "https://www.nhl.com/penguins/news/hoffmann-family-to-acquire-controlling-interest-in-pittsburgh-penguins-from-fenway-sports-group"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Boston Celtics",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "1892 Holdings (Mittal family trusts, Amit Bhatia)",
+  "evidence": "1892 Holdings (Bhatia, Bezos, Saverin, Mittal family trusts) agreed in 2026 to buy a ~30-38% minority stake in Liverpool, subject to approvals; Aditya Mittal invested $1bn in the Celtics and is an alternate governor.",
+  "sources": [
+   "https://www.sportico.com/business/team-sales/2026/jeff-bezos-liverpool-stake-bhatia-saverin-1234941903/",
+   "https://www.skysports.com/football/news/13566630/liverpool-key-questions-answered-as-jeff-bezos-and-amit-bhatia-close-in-on-purchasing-strategic-minority-stake",
+   "https://www.sportico.com/business/team-sales/2025/boston-celtics-sale-mittal-india-steel-1234853503/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Queens Park Rangers",
+  "franchise": "Boston Celtics",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Mittal family (Sea Dream Ltd)",
+  "evidence": "The Mittal family's Sea Dream Ltd was reported to hold about 11% of QPR; Aditya Mittal is a Celtics co-owner. Amit Bhatia transferred his QPR shares to Ruben Gnanalingam and left the board in July 2026, so the family's remaining holding is unclear.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.",
+   "https://en.wikipedia.org/wiki/Amit_Bhatia"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "AC Milan",
+  "franchise": "New York Yankees",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Yankee Global Enterprises",
+  "evidence": "Yankee Global Enterprises took a minority equity stake in AC Milan as part of RedBird's 2022 takeover; RedBird owns ~99.9% and co-owns the YES Network with the Yankees.",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/37631533/new-york-yankees-purchase-minority-stake-ac-milan",
+   "https://www.cbssports.com/soccer/news/ac-milan-sale-boston-red-sox-stakeholders-redbird-capital-joined-by-new-york-yankees-in-serie-a-acquisition"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "AC Milan",
+  "franchise": "Boston Red Sox",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "RedBird Capital Partners (Gerry Cardinale)",
+  "evidence": "RedBird owns ~99.9% of AC Milan and bought about 11% of Fenway Sports Group (Red Sox owner) in 2021.",
+  "sources": [
+   "https://www.businesswire.com/news/home/20210331005874/en/Fenway-Sports-Group-Announces-Significant-Investment-by-RedBird-Capital-Partners-LeBron-James-Maverick-Carter-Join-FSG-Ownership",
+   "https://en.wikipedia.org/wiki/Gerry_Cardinale"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Toulouse",
+  "franchise": "Boston Red Sox",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "RedBird Capital Partners (Gerry Cardinale)",
+  "evidence": "RedBird owns 85% of Toulouse and bought about 11% of Fenway Sports Group (Red Sox owner) in 2021.",
+  "sources": [
+   "https://www.businesswire.com/news/home/20210331005874/en/Fenway-Sports-Group-Announces-Significant-Investment-by-RedBird-Capital-Partners-LeBron-James-Maverick-Carter-Join-FSG-Ownership",
+   "https://redbirdcap.com/company/toulouse-fc/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Marseille",
+  "franchise": "Los Angeles Dodgers",
+  "league": "MLB",
+  "kind": "former",
+  "via": "Frank McCourt",
+  "evidence": "Marseille owner Frank McCourt (since 2016, still owner in 2026) owned the Los Angeles Dodgers from 2004 to 2012.",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/37495200/formers-dodgers-owner-frank-mccourt-completes-takeover-marseille",
+   "https://www.getfootballnewsfrance.com/2026/marseille-owner-frank-mccourt-insists-club-is-not-for-sale-amid-supporter-unrest/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Boston Celtics",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Stephen Pagliuca",
+  "evidence": "Atalanta co-chairman Stephen Pagliuca (55% group since 2022) kept a minority stake in the Celtics after the 2025 sale to Bill Chisholm, reportedly for about three years.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stephen_Pagliuca",
+   "https://www.bostonglobe.com/2025/08/19/sports/steve-pagliuca-celtics-sale-chisholm/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Oxford United",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Erick Thohir",
+  "evidence": "Oxford United owner Erick Thohir (sole owner since Nov 2025) was part of Josh Harris's 76ers ownership group around 2011-2013.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Erick_Thohir",
+   "https://jakartaglobe.id/news/erick-thohir-acquires-100-stake-in-oxford-united"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Washington Wizards",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Qatar Investment Authority (parent of QSI)",
+  "evidence": "PSG is owned by Qatar Sports Investments, a QIA subsidiary; QIA has held a stake in Monumental Sports & Entertainment (Wizards, Capitals) since 2023 and increased it in Dec 2025.",
+  "sources": [
+   "https://monumentalsports.com/2025/12/monumental-sports-entertainment-announces-minority-investor-updates-to-accelerate-growth-and-innovation/",
+   "https://frontofficesports.com/qatari-fund-buys-stake-in-wizards-capitals-parent-company/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Washington Capitals",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Qatar Investment Authority (parent of QSI)",
+  "evidence": "PSG is owned by Qatar Sports Investments, a QIA subsidiary; QIA has held a stake in Monumental Sports & Entertainment (Wizards, Capitals) since 2023 and increased it in Dec 2025.",
+  "sources": [
+   "https://monumentalsports.com/2025/12/monumental-sports-entertainment-announces-minority-investor-updates-to-accelerate-growth-and-innovation/",
+   "https://frontofficesports.com/qatari-fund-buys-stake-in-wizards-capitals-parent-company/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Golden State Warriors",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Golden State Warriors. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Sacramento Kings",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Sacramento Kings. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Utah Jazz",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Utah Jazz. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Philadelphia 76ers. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Washington Wizards",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Washington Wizards. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Boston Red Sox",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Boston Red Sox. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Chicago Cubs",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Chicago Cubs. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Los Angeles Dodgers",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Los Angeles Dodgers. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the San Francisco Giants. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Houston Astros",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Houston Astros. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "San Diego Padres",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the San Diego Padres. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Buffalo Bills",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Buffalo Bills. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Los Angeles Chargers",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Los Angeles Chargers. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Cleveland Browns",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Cleveland Browns. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Washington Capitals",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Washington Capitals. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "Minnesota Wild",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the Minnesota Wild. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Paris Saint-Germain",
+  "franchise": "New Jersey Devils",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) has held about 12.5% of PSG since 2023; Arctos also holds a passive minority stake in the New Jersey Devils. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Golden State Warriors",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Golden State Warriors. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Sacramento Kings",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Sacramento Kings. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Utah Jazz",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Utah Jazz. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Philadelphia 76ers. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Washington Wizards",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Washington Wizards. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Boston Red Sox",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Boston Red Sox. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Chicago Cubs",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Chicago Cubs. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Los Angeles Dodgers",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Los Angeles Dodgers. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the San Francisco Giants. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Houston Astros",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Houston Astros. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "San Diego Padres",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the San Diego Padres. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Buffalo Bills",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Buffalo Bills. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Los Angeles Chargers",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Los Angeles Chargers. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Cleveland Browns",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Cleveland Browns. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Washington Capitals",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Washington Capitals. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "Minnesota Wild",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the Minnesota Wild. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Liverpool",
+  "franchise": "New Jersey Devils",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) holds a stake in Fenway Sports Group, Liverpool's owner; Arctos also holds a passive minority stake in the New Jersey Devils. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Golden State Warriors",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Golden State Warriors. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Sacramento Kings",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Sacramento Kings. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Utah Jazz",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Utah Jazz. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Philadelphia 76ers. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Washington Wizards",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Washington Wizards. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Boston Red Sox",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Boston Red Sox. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Chicago Cubs",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Chicago Cubs. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Los Angeles Dodgers",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Los Angeles Dodgers. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the San Francisco Giants. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Houston Astros",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Houston Astros. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "San Diego Padres",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the San Diego Padres. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Buffalo Bills",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Buffalo Bills. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Los Angeles Chargers",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Los Angeles Chargers. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Cleveland Browns",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Cleveland Browns. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Washington Capitals",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Washington Capitals. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "Minnesota Wild",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the Minnesota Wild. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atalanta",
+  "franchise": "New Jersey Devils",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners / KKR (fund investor)",
+  "evidence": "Arctos Partners (now part of KKR) invested about $36m in Atalanta's ownership in 2022; Arctos also holds a passive minority stake in the New Jersey Devils. Fund-level link, not shared control.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arctos_Partners",
+   "https://www.sportico.com/business/team-sales/2026/arctos-cleveland-browns-investment-team-portfolio-1234901093/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Atlético Madrid",
+  "franchise": "Miami Dolphins",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Ares Management",
+  "evidence": "Ares funds remain shareholders of Atlético after Apollo's March 2026 takeover; Ares bought about 10% of the Miami Dolphins in 2024-25.",
+  "sources": [
+   "https://www.apollo.com/insights-news/pressreleases/2026/03/apollo-sports-capital-completes-transaction-to-become-majority-shareholder-of-atl-tico-de-madrid-3254644",
+   "https://www.miamidolphins.com/news/miami-dolphins-announce-sale-of-limited-interest-to-ares-management"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Atlético Madrid",
+  "franchise": "New York Yankees",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Apollo Sports Capital",
+  "evidence": "Apollo Sports Capital became Atlético's majority shareholder in March 2026 and in late Sept 2026 was finalising a ~$2.6bn deal for up to 16% of the Yankees (not yet closed).",
+  "sources": [
+   "https://www.apollo.com/insights-news/pressreleases/2026/03/apollo-sports-capital-completes-transaction-to-become-majority-shareholder-of-atl-tico-de-madrid-3254644",
+   "https://www.sportico.com/business/team-sales/2026/steinbrenner-family-sell-yankees-stake-apollo-1234945365/",
+   "https://insidersport.com/2026/09/23/yankees-apollo-stake-sale/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Wrexham",
+  "franchise": "New York Yankees",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Apollo Sports Capital",
+  "evidence": "Apollo Sports Capital took a minority stake in Wrexham in December 2025 and in late Sept 2026 was finalising a ~$2.6bn deal for up to 16% of the Yankees (not yet closed).",
+  "sources": [
+   "https://www.apollo.com/insights-news/pressreleases/2025/12/wrexham-afc-welcomes-apollo-sports-capital-as-a-minority-investo",
+   "https://www.sportico.com/business/team-sales/2026/steinbrenner-family-sell-yankees-stake-apollo-1234945365/",
+   "https://insidersport.com/2026/09/23/yankees-apollo-stake-sale/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Real Madrid",
+  "franchise": "New York Yankees",
+  "league": "MLB",
+  "kind": "operations",
+  "via": "Legends (founded by Yankees and Cowboys affiliates; majority Sixth Street)",
+  "evidence": "Legends, formed in 2008 by affiliates of the Yankees and Cowboys, runs merchandising and helps operate the Bernabéu under a 20-year deal (2022) with Sixth Street, which holds 30% of the new stadium businesses.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/strategic-partnership-between-real-madrid-sixth-street-and-legends/",
+   "https://www.thestadiumbusiness.com/2022/05/20/real-agrees-e360m-deal-for-management-of-new-look-bernabeu/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Real Madrid",
+  "franchise": "Dallas Cowboys",
+  "league": "NFL",
+  "kind": "operations",
+  "via": "Legends (founded by Yankees and Cowboys affiliates; majority Sixth Street)",
+  "evidence": "Legends, formed in 2008 by affiliates of the Yankees and Cowboys, runs merchandising and helps operate the Bernabéu under a 20-year deal (2022) with Sixth Street, which holds 30% of the new stadium businesses.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/strategic-partnership-between-real-madrid-sixth-street-and-legends/",
+   "https://www.thestadiumbusiness.com/2022/05/20/real-agrees-e360m-deal-for-management-of-new-look-bernabeu/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Real Madrid",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "operations",
+  "via": "Sixth Street",
+  "evidence": "Sixth Street holds a 20-year share of new Bernabéu stadium businesses (2022, ~€360m) and a ~10% (2025) minority stake in the San Francisco Giants.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/strategic-partnership-between-real-madrid-sixth-street-and-legends/",
+   "https://www.thestadiumbusiness.com/2022/05/20/real-agrees-e360m-deal-for-management-of-new-look-bernabeu/",
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Barcelona",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Sixth Street",
+  "evidence": "Sixth Street bought 25% of Barcelona's LaLiga TV-rights income for 25 years (2022), a financial deal not equity; it holds a ~10% (2025) minority stake in the San Francisco Giants.",
+  "sources": [
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/",
+   "https://en.wikipedia.org/wiki/Sixth_Street_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Sunderland",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "partnership",
+  "via": "Sixth Street (Bay Collective)",
+  "evidence": "Sixth Street-backed Bay Collective bought a majority of Sunderland AFC Women (completed June 2026), with Sunderland AFC keeping a minority; Sixth Street holds a ~10% (2025) minority stake in the San Francisco Giants. The men's club is not owned by Sixth Street.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/bay-collective-completes-acquisition-of-sunderland-afc-women/",
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Real Madrid",
+  "franchise": "Boston Celtics",
+  "league": "NBA",
+  "kind": "operations",
+  "via": "Sixth Street",
+  "evidence": "Sixth Street holds a 20-year share of new Bernabéu stadium businesses (2022, ~€360m) and a stake minority stake in the Boston Celtics.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/strategic-partnership-between-real-madrid-sixth-street-and-legends/",
+   "https://www.thestadiumbusiness.com/2022/05/20/real-agrees-e360m-deal-for-management-of-new-look-bernabeu/",
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Barcelona",
+  "franchise": "Boston Celtics",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Sixth Street",
+  "evidence": "Sixth Street bought 25% of Barcelona's LaLiga TV-rights income for 25 years (2022), a financial deal not equity; it holds a stake minority stake in the Boston Celtics.",
+  "sources": [
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/",
+   "https://en.wikipedia.org/wiki/Sixth_Street_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Sunderland",
+  "franchise": "Boston Celtics",
+  "league": "NBA",
+  "kind": "partnership",
+  "via": "Sixth Street (Bay Collective)",
+  "evidence": "Sixth Street-backed Bay Collective bought a majority of Sunderland AFC Women (completed June 2026), with Sunderland AFC keeping a minority; Sixth Street holds a stake minority stake in the Boston Celtics. The men's club is not owned by Sixth Street.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/bay-collective-completes-acquisition-of-sunderland-afc-women/",
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Real Madrid",
+  "franchise": "San Antonio Spurs",
+  "league": "NBA",
+  "kind": "operations",
+  "via": "Sixth Street",
+  "evidence": "Sixth Street holds a 20-year share of new Bernabéu stadium businesses (2022, ~€360m) and a ~20% minority stake in the San Antonio Spurs.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/strategic-partnership-between-real-madrid-sixth-street-and-legends/",
+   "https://www.thestadiumbusiness.com/2022/05/20/real-agrees-e360m-deal-for-management-of-new-look-bernabeu/",
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Barcelona",
+  "franchise": "San Antonio Spurs",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Sixth Street",
+  "evidence": "Sixth Street bought 25% of Barcelona's LaLiga TV-rights income for 25 years (2022), a financial deal not equity; it holds a ~20% minority stake in the San Antonio Spurs.",
+  "sources": [
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/",
+   "https://en.wikipedia.org/wiki/Sixth_Street_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Sunderland",
+  "franchise": "San Antonio Spurs",
+  "league": "NBA",
+  "kind": "partnership",
+  "via": "Sixth Street (Bay Collective)",
+  "evidence": "Sixth Street-backed Bay Collective bought a majority of Sunderland AFC Women (completed June 2026), with Sunderland AFC keeping a minority; Sixth Street holds a ~20% minority stake in the San Antonio Spurs. The men's club is not owned by Sixth Street.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/bay-collective-completes-acquisition-of-sunderland-afc-women/",
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Real Madrid",
+  "franchise": "New England Patriots",
+  "league": "NFL",
+  "kind": "operations",
+  "via": "Sixth Street",
+  "evidence": "Sixth Street holds a 20-year share of new Bernabéu stadium businesses (2022, ~€360m) and a stake minority stake in the New England Patriots.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/strategic-partnership-between-real-madrid-sixth-street-and-legends/",
+   "https://www.thestadiumbusiness.com/2022/05/20/real-agrees-e360m-deal-for-management-of-new-look-bernabeu/",
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Barcelona",
+  "franchise": "New England Patriots",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Sixth Street",
+  "evidence": "Sixth Street bought 25% of Barcelona's LaLiga TV-rights income for 25 years (2022), a financial deal not equity; it holds a stake minority stake in the New England Patriots.",
+  "sources": [
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/",
+   "https://en.wikipedia.org/wiki/Sixth_Street_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Sunderland",
+  "franchise": "New England Patriots",
+  "league": "NFL",
+  "kind": "partnership",
+  "via": "Sixth Street (Bay Collective)",
+  "evidence": "Sixth Street-backed Bay Collective bought a majority of Sunderland AFC Women (completed June 2026), with Sunderland AFC keeping a minority; Sixth Street holds a stake minority stake in the New England Patriots. The men's club is not owned by Sixth Street.",
+  "sources": [
+   "https://sixthstreet.com/investment_announce/bay-collective-completes-acquisition-of-sunderland-afc-women/",
+   "https://www.sportico.com/business/finance/2025/sixth-street-boston-celtics-san-francisco-giants-1234844055/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Manchester City",
+  "franchise": "New York Yankees",
+  "league": "MLB",
+  "kind": "partnership",
+  "via": "City Football Group",
+  "evidence": "Manchester City's owner City Football Group co-owns MLS side New York City FC with Yankee Global Enterprises (~10%) and Marcelo Claure; tie is via the group, not Manchester City directly.",
+  "sources": [
+   "https://www.sportspro.com/news/new-york-city-fc-owner-marcelo-claure-stake-new-stadium-cfg-yankees/",
+   "https://en.wikipedia.org/wiki/New_York_City_FC"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Troyes",
+  "franchise": "New York Yankees",
+  "league": "MLB",
+  "kind": "partnership",
+  "via": "City Football Group",
+  "evidence": "Troyes's owner City Football Group co-owns MLS side New York City FC with Yankee Global Enterprises (~10%) and Marcelo Claure; tie is via the group, not Troyes directly.",
+  "sources": [
+   "https://www.sportspro.com/news/new-york-city-fc-owner-marcelo-claure-stake-new-stadium-cfg-yankees/",
+   "https://en.wikipedia.org/wiki/New_York_City_FC"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Le Havre",
+  "franchise": "Houston Astros",
+  "league": "MLB",
+  "kind": "former",
+  "via": "Blue Crow Sports Group (Jeff Luhnow)",
+  "evidence": "Le Havre has been owned since July 2025 by Blue Crow Sports Group, co-founded by Jeff Luhnow, the Astros general manager from 2011 to 2020 (an executive, not an owner).",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jeff_Luhnow",
+   "https://www.archysport.com/2025/06/le-havre-sold-blue-crow-sports-group-takeover-ligue-1-news/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Venezia",
+  "franchise": "Los Angeles Kings",
+  "league": "NHL",
+  "kind": "former",
+  "via": "Tim Leiweke",
+  "evidence": "A vehicle led by Tim Leiweke became Venezia's largest outside shareholder in May 2026; Leiweke was formerly AEG president (owner of the LA Kings) and MLSE CEO (Maple Leafs, Raptors), as an executive.",
+  "sources": [
+   "https://www.veneziafc.it/en/news/drake-brings-together-new-ownership-as-venezia-fc-announces-strategic-investment-from-tim-leiweke-and-francesca-bodie-as-part-of-eur100-million-fund-raise-during-2025-26-season"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Venezia",
+  "franchise": "Toronto Maple Leafs",
+  "league": "NHL",
+  "kind": "former",
+  "via": "Tim Leiweke",
+  "evidence": "Leiweke, now Venezia co-chairman of its operating committee and largest outside shareholder (May 2026), was CEO of MLSE (Maple Leafs, Raptors) 2012-2015.",
+  "sources": [
+   "https://www.veneziafc.it/en/news/drake-brings-together-new-ownership-as-venezia-fc-announces-strategic-investment-from-tim-leiweke-and-francesca-bodie-as-part-of-eur100-million-fund-raise-during-2025-26-season"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Venezia",
+  "franchise": "Toronto Raptors",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Tim Leiweke",
+  "evidence": "Leiweke, now Venezia co-chairman of its operating committee and largest outside shareholder (May 2026), was CEO of MLSE (Maple Leafs, Raptors) 2012-2015.",
+  "sources": [
+   "https://www.veneziafc.it/en/news/drake-brings-together-new-ownership-as-venezia-fc-announces-strategic-investment-from-tim-leiweke-and-francesca-bodie-as-part-of-eur100-million-fund-raise-during-2025-26-season"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portsmouth",
+  "franchise": "Anaheim Ducks",
+  "league": "NHL",
+  "kind": "former",
+  "via": "Michael Eisner (Tornante)",
+  "evidence": "Portsmouth owner-chairman Michael Eisner was Disney CEO when Disney owned the Anaheim Ducks (1993-2005); a corporate, not personal, ownership.",
+  "sources": [
+   "https://www.hollywoodreporter.com/business/business-news/michael-eisners-tornante-completes-acquisition-english-soccer-club-portsmouth-1026415/",
+   "https://en.wikipedia.org/wiki/The_Tornante_Company"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portsmouth",
+  "franchise": "Los Angeles Angels",
+  "league": "MLB",
+  "kind": "former",
+  "via": "Michael Eisner (Tornante)",
+  "evidence": "Portsmouth owner-chairman Michael Eisner was Disney CEO when Disney owned the Los Angeles Angels (1996-2003); a corporate, not personal, ownership.",
+  "sources": [
+   "https://www.hollywoodreporter.com/business/business-news/michael-eisners-tornante-completes-acquisition-english-soccer-club-portsmouth-1026415/",
+   "https://en.wikipedia.org/wiki/The_Tornante_Company"
+  ],
+  "confidence": "low"
+ }
+]

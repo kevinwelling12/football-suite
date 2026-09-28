@@ -51,10 +51,12 @@ next full re-rate. Ratings are league-agnostic: the same club gets the same scor
   state-backed club ownership (goes beyond the old "federation tied to the regime" rule).
 
 ## Women's clubs (NWSL)
+- The men's and women's games are rated in their own contexts. They are not on level footing
+  economically or culturally, so equitable adjustments apply: crowds, history, investment and ownership
+  are judged against the women's game, not against men's clubs.
+- League-agnostic still holds within each game (a women's club scores the same in any women's league).
 - Player-welfare record counts in Values.
-- Crowds are judged in the context of the women's game (the one deliberate exception to
-  league-agnostic ratings).
 
 ## Heritage bonus
-- Keep the hometown bonus (Sacramento Republic +4). Drop the regional heritage bonus.
-- To confirm at the re-rate: whether this also removes the nation heritage bonus (up to +10).
+- Clubs: drop the regional heritage bonus. Keep only the hometown bonus (Sacramento Republic +4).
+- National teams: keep the national heritage bonus (up to +10).

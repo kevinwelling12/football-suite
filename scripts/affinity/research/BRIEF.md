@@ -40,6 +40,13 @@ Start at 6 (a typical club with no notable positives or negatives) and move with
 - Crypto/NFT and fossil-fuel sponsors: no effect.
 - Women's clubs (NWSL): include the club's player-welfare record (e.g. the 2022 Yates / Sally Q. Yates
   report, NWSL investigations).
+
+## Women's clubs: their own context
+The men's and women's games are not on level footing economically or culturally. Score women's clubs
+against the women's game: Culture anchors on women's-game atmospheres and crowds (a club drawing
+15,000+ loud, regular fans is elite there), History on significance within the women's game and its
+predecessor leagues (WPS, WUSA), Ownership and investment against what is normal in the women's game.
+League-agnostic still holds within the women's game.
 - Anchors: 10 = St. Pauli, Oakland Roots-type clubs (values are the identity). 6 = typical. 3 = several
   negatives. 1 = values actively opposed to Kevin's.
 
@@ -79,6 +86,9 @@ Start at 6 (a typical club with no notable positives or negatives) and move with
 | franchise | -10 to -15 | Relocated or franchised identity (MK Dons -15). |
 | government | -10 to -25 | Nations only: the country's government record (human rights, press freedom), scaled like state backing. Use Freedom House / RSF as evidence. |
 | other | any | Explain. |
+
+Heritage: the regional heritage bonus for clubs is dropped (hometown Sacramento Republic +4 stays). National
+teams keep their heritage bonus. You do not score heritage; it is applied later.
 
 Existing specific rules to keep: gambling = sports-betting sponsors count against Values, casino money
 behind an owner does not (Sacramento Republic's tribal-casino ownership is fine). Dortmund: Rheinmetall

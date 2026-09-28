@@ -4,7 +4,7 @@ python3 scripts/affinity/research/team.py [--write]
 
 Takes final/<batch>.json (the agreed re-rate) and applies out3/<batch>.json:
 Team (T) replaces Style, Values += V_delta (clamped 0-10), rival penalties, Republic link +2.
-New weights (of 90): Values 26, Culture 24, History 14, Ownership 10, Team 16.
+New weights (of 90): Values 26, Culture 26, History 14, Ownership 12, Team 12.
 With --write, saves final3/<batch>.json in the same layout as final/ (S holds the Team score).
 """
 import copy, json, pathlib, statistics, sys
@@ -12,7 +12,7 @@ import copy, json, pathlib, statistics, sys
 root = pathlib.Path(__file__).resolve().parents[3]
 R = root / 'scripts' / 'affinity' / 'research'
 OLD_W = dict(C=26, V=28, H=16, O=12, S=8)
-NEW_W = dict(C=24, V=26, H=14, O=10, S=16)
+NEW_W = dict(C=26, V=26, H=14, O=12, S=12)
 RIVALS = {'Schalke 04': -5, 'Bayern Munich': -5, 'Seattle Sounders FC': -5, 'Seattle Reign': -5,
           'Vancouver Whitecaps FC': -5, 'Everton': -2}
 HOMETOWN = 'Sacramento Republic FC'

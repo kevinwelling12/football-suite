@@ -94,4 +94,5 @@ run for the Team factor (see scripts/affinity/research/BRIEF.md, "Team factor").
 - Republic link: +2 while a former Sacramento Republic player is on the roster.
 
 ## Weights (of 90)
-Values 26, Culture 24, History 14, Ownership 10, Team 16 (was 28 / 26 / 16 / 12 / Style 8).
+Values 26, Culture 26, History 14, Ownership 12, Team 12 (was 28 / 26 / 16 / 12 / Style 8). Revised after the
+research: Values and Culture equal (first quiz answer was 26 / 24 / 14 / 10 / 16).

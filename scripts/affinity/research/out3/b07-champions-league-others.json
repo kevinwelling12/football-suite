@@ -344,5 +344,262 @@
    "https://www.watson.de/sport/fussball/529955600-jerome-boateng-beim-lask-linz-frauen-sorgen-mit-protest-fuer-aufsehen",
    "https://www.90minuten.at/de/red/meinung/12meter/2024/lask-und-boateng--moralischer-totalverfall--exklusiv-/"
   ]
+ },
+ {
+  "name": "Lens",
+  "T": {
+   "score": 6,
+   "evidence": "Intense, organised sides under Haise, Still and Sage (UCL qualification 2026), and one of Europe's closest player-fan bonds at Bollaert. But 2026 coaching turmoil: Toppmoller left by mutual agreement in September 2026 after weeks in charge; Yannick Cahuzac (ex-Lens midfielder) promoted. Rebuilt squad (Thauvin captain, Hazard, Edouard, Todibo on loan, Haidara). -1 vs old S for coach and squad churn."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Yannick Cahuzac, since September 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Coach situation is fluid (Cahuzac first reported as caretaker)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_RC_Lens_season",
+   "https://www.butfootballclub.fr/1698526-rc-lens-cest-officiel-pour-toppmoller-et-cahuzac/",
+   "https://en.wikipedia.org/wiki/Yannick_Cahuzac"
+  ]
+ },
+ {
+  "name": "Lille",
+  "T": {
+   "score": 6,
+   "evidence": "Organised, possession-leaning sides; new coach Davide Ancelotti for 2026-27 after Genesio. Captain Benjamin Andre (at Lille since 2019) is the steady leader; Giroud and Ethan Mbappe in the squad; sell-on model (Ueda in from Feyenoord). Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found; academy already counted in V."
+  },
+  "icons": [
+   "Benjamin Andre"
+  ],
+  "coach": "Davide Ancelotti, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Lille_OSC_season",
+   "https://en.wikipedia.org/wiki/Lille_OSC"
+  ]
+ },
+ {
+  "name": "Napoli",
+  "T": {
+   "score": 5,
+   "evidence": "Conte left after 2025-26; Massimiliano Allegri took over for 2026-27: a pragmatic, low-block coach, a step down in intensity. Captain Giovanni Di Lorenzo (Napoli since 2019). Star-signing model (De Bruyne 2025, Hojlund EUR 44m, Milinkovic-Savic). -2 vs old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [
+   "Giovanni Di Lorenzo"
+  ],
+  "coach": "Massimiliano Allegri, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Allegri era is new: revisit T after a season."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_SSC_Napoli_season",
+   "https://en.wikipedia.org/wiki/SSC_Napoli"
+  ]
+ },
+ {
+  "name": "PSV Eindhoven",
+  "T": {
+   "score": 8,
+   "evidence": "Peter Bosz since 2023: aggressive high press and attacking football, three straight titles (champions 2026 by 19 points). Captain Jerdy Schouten. Sell-on churn every summer (Saibari to Bayern, Veerman to Dortmund). Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found; De Herdgang academy already counted in V."
+  },
+  "icons": [
+   "Peter Bosz (coach)"
+  ],
+  "coach": "Peter Bosz, since 2023",
+  "republic_link": {
+   "value": false,
+   "evidence": "Americans Ricardo Pepi and Sergino Dest are in the squad; neither played for Sacramento Republic."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://tribuna.com/en/clubs/psv/squad/2026-2027/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_PSV_Eindhoven_season"
+  ]
+ },
+ {
+  "name": "Paris Saint-Germain",
+  "T": {
+   "score": 9,
+   "evidence": "Luis Enrique since 2023: a collective, high-intensity pressing side with no star-ego culture after Mbappe left, European champions twice. Captain Marquinhos (club since 2013) is a current icon; academy players Zaire-Emery, Mayulu, Ndjantou. Churn is still large (Kvaratskhelia EUR 70m, Akliouche, Ferran Torres in; Barcola EUR 125m, Ramos out). Stays at old S."
+  },
+  "V_delta": {
+   "points": -3,
+   "evidence": "-2: vice-captain Achraf Hakimi was sent to trial for rape (2023 allegation; Court of Cassation confirmed 23 Sept 2026); PSG publicly reaffirmed its support and keeps selecting him. -1: player welfare, the Mbappe unpaid-wages dispute (labour court ordered PSG to pay about EUR 61m, Dec 2025) and the 2023 exclusion of unwanted players into a separate 'loft' group."
+  },
+  "icons": [
+   "Marquinhos",
+   "Luis Enrique (coach)"
+  ],
+  "coach": "Luis Enrique, since 2023",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Hakimi: -2 under the standing-by rule (he denies it; presumed innocent).",
+   "Mbappe wage case amount from memory; verify if it matters."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Paris_Saint-Germain_FC_season",
+   "https://www.france24.com/en/live-news/20260923-french-court-confirms-rape-trial-for-psg-and-morocco-star-hakimi",
+   "https://www.moroccoworldnews.com/2026/09/339584/psg-reaffirms-support-for-achraf-hakimi-after-trial-referral/"
+  ]
+ },
+ {
+  "name": "Porto",
+  "T": {
+   "score": 7,
+   "evidence": "Farioli (since 2025): high-intensity pressing; 7 wins from 7 to start 2026-27. Captain Diogo Costa (academy goalkeeper), Olival players Martim Fernandes, Francisco Moura. Churn moderate-high (Mora EUR 25m to Roma, Gul to Galatasaray; Gimenez, Mec, Hwang in). Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found; Olival pathway already counted in V."
+  },
+  "icons": [
+   "Diogo Costa"
+  ],
+  "coach": "Francesco Farioli, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_FC_Porto_season",
+   "https://en.wikipedia.org/wiki/FC_Porto"
+  ]
+ },
+ {
+  "name": "RB Leipzig",
+  "T": {
+   "score": 6,
+   "evidence": "Red Bull pressing template remains, but constant coach and squad turnover: Rose (sacked 2025), Werner (one season, 3rd place, sacked), now Martin Demichelis (since July 2026, 'we want to play aggressively'). Sold Diomande (EUR 125m) and Openda; captain David Raum. No icons, a feeder-club churn model. -2 vs old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Martin Demichelis, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_RB_Leipzig_season",
+   "https://www.bundesliga.com/en/bundesliga/news/rb-leipzig-martin-demichelis-new-head-coach-ole-werner-37798"
+  ]
+ },
+ {
+  "name": "Real Betis",
+  "T": {
+   "score": 7,
+   "evidence": "Manuel Pellegrini since 2020: the defining coach of the modern Betis (Copa 2022, Conference League final 2025, UCL 2026). Captain Isco, beloved leader; vice-captains Bartra, Bellerin, academy winger Aitor Ruibal; Ceballos returned home in 2026. Low-ego, stable core. Technical, moderate intensity. +1 vs old S."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Academy players in the first team (Aitor Ruibal, Dani Ceballos back, Rodri/Pablo Garcia pathway). No conduct or welfare cases found."
+  },
+  "icons": [
+   "Isco",
+   "Manuel Pellegrini (coach)"
+  ],
+  "coach": "Manuel Pellegrini, since 2020",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Real_Betis_season",
+   "https://en.wikipedia.org/wiki/Real_Betis"
+  ]
+ },
+ {
+  "name": "Real Madrid",
+  "T": {
+   "score": 5,
+   "evidence": "Star-driven squad (Mbappe, Vinicius, Bellingham) with coach churn: Ancelotti to 2025, Xabi Alonso sacked in 2025-26 after player friction (Vinicius' public outburst at being substituted), Mourinho back since June 2026. Carvajal (23 seasons) and Alaba left; captain Valverde. -1 vs old S."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Stood by and promoted Raul Asencio while he was charged (2023 case) with sharing a sexual video involving a minor; acquitted Sept 2026 after prosecutors dropped charges when victims forgave; three co-accused youth players were convicted. Asencio also fined for drink-driving. Club's backing of Vinicius against racist abuse offsets part of it."
+  },
+  "icons": [],
+  "coach": "Jose Mourinho, since 2026 (second spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Asencio: -1 chosen (acquitted); the standing-by rule would say -2 for the charge period. Kevin to decide."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Real_Madrid_CF_season",
+   "https://www.espn.com/soccer/story/_/id/49813638/real-madrid-raul-asencio-cleared-charges-sharing-explicit-video-minor"
+  ]
+ },
+ {
+  "name": "Roma",
+  "T": {
+   "score": 7,
+   "evidence": "Gasperini (since 2025): man-to-man, high-intensity pressing, top of Serie A early 2026-27. Captain Bryan Cristante, vice Lorenzo Pellegrini (Roman, academy). But heavy spending (EUR 123.5m net: Malen, Castro, Koulierakis, de Roon) and coach churn before Gasperini (Mourinho, De Rossi, Juric, Ranieri in 2024-25). -1 vs old S."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Academy/Roman players in the squad: Lorenzo Pellegrini, Niccolo Pisilli, De Marzi, Lulli. No conduct or welfare cases found."
+  },
+  "icons": [
+   "Lorenzo Pellegrini"
+  ],
+  "coach": "Gian Piero Gasperini, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_AS_Roma_season",
+   "https://en.wikipedia.org/wiki/AS_Roma"
+  ]
  }
 ]

@@ -173,10 +173,20 @@ h4{margin:0 0 6px;font-size:14px;font-weight:800;font-variation-settings:"wdth" 
 @media (prefers-reduced-motion:no-preference){.match{transition:border-color .15s}.match:hover{border-color:var(--faint)}}
 
 
-.comps{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:14px -20px 0;padding:0 20px 2px}
-.comps::-webkit-scrollbar{display:none}
+/* Top nav, three levels: region tabs (text + underline) > competition chips > section tabs (segmented) */
+.regions{display:flex;justify-content:space-between;margin:16px 0 0;border-bottom:1px solid rgba(255,255,255,.14)}
+@media (min-width:601px){.regions{justify-content:flex-start;gap:30px}}
+.regions button{background:none;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;color:rgba(235,235,245,.6);
+  padding:9px 4px 10px;font-size:15px;font-weight:650;cursor:pointer;white-space:nowrap}
+.regions button[aria-pressed="true"]{color:#fff;border-bottom-color:var(--dot)}
+.comps{display:flex;gap:6px;margin:12px 0 0}
+:root.bc .comps button{flex:0 1 auto;min-width:0;padding:6px 11px 6px 9px;font-size:13.5px;gap:6px}
+.comps button>span,.comps button{overflow:hidden;text-overflow:ellipsis}
+@media (max-width:400px){.comps{gap:4px}:root.bc .comps button{padding:6px 7px 6px 6px;font-size:12.5px;gap:5px}.comps button i{width:8px;height:8px}}
+.comps button i{flex:none}
+.comps[hidden]{display:none}
 .comps button{flex:none;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);color:#fff;border-radius:999px;padding:7px 13px 7px 10px;font-size:13.5px;font-weight:650;cursor:pointer;display:flex;align-items:center;gap:7px;white-space:nowrap}
-.comps button i{width:10px;height:10px;border-radius:50%;background:var(--c);box-shadow:0 0 0 2px rgba(255,255,255,.35)}
+.comps button i{width:9px;height:9px;border-radius:50%;background:var(--c)}
 .comps button[aria-pressed="true"]{background:#fff;color:var(--ink);border-color:#fff}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:14px}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);cursor:pointer;text-align:left;padding:0;display:block;width:100%}
@@ -585,3 +595,24 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 :root.bc .legend span::before{border-radius:2px}
 
 .linkish{background:none;border:0;padding:0;color:#64D2FF;font:inherit;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+
+/* Live match controls: +1 goal buttons either side of the next match event */
+.live-ctl{display:grid;grid-template-columns:1fr 1.4fr 1fr;gap:8px;margin:12px 0 2px}
+.live-ctl.one{grid-template-columns:1fr}
+.live-ctl .btn{height:44px;padding:0 6px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.status .updating{color:var(--muted);font-weight:500}
+/* Slim bar pinned to the top once the header's nav scrolls away */
+.mini{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;align-items:center;gap:8px;
+  padding:calc(env(safe-area-inset-top,0px) + 6px) 12px 6px;background:rgba(10,10,12,.86);
+  -webkit-backdrop-filter:saturate(180%) blur(18px);backdrop-filter:saturate(180%) blur(18px);
+  border-bottom:.5px solid rgba(255,255,255,.12);transform:translateY(-110%);transition:transform .18s ease-out}
+.mini.on{transform:none}
+@media (prefers-reduced-motion:reduce){.mini{transition:none}}
+.mini-comp{flex:none;display:flex;align-items:center;gap:6px;background:none;border:0;color:#fff;font-weight:750;font-size:14px;padding:8px 2px;cursor:pointer}
+.mini-comp i{display:inline-block;flex:none;width:9px;height:9px;border-radius:50%;background:var(--c)}
+:root.bc .mini nav.mini-tabs{margin:0;flex:1 1 auto;min-width:0}
+:root.bc .mini nav.mini-tabs button{padding:6px 9px;font-size:13px}
+@media (max-width:420px){.mini{gap:6px;padding-left:10px;padding-right:10px}:root.bc .mini nav.mini-tabs button{padding:6px 6px;font-size:12.5px}}
+.mini .mini-regions{flex:1;margin:0;border:0}
+.mini .mini-regions button{padding:6px 4px 7px}
+@media (min-width:601px){.mini{padding-left:max(20px,calc((100% - 1100px)/2 + 20px))}}

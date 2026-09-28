@@ -27,10 +27,23 @@ MODEL.runCup: Carabao Cup (single ties, pens; two-legged semis; neutral final wi
 undrawn rounds, draw entry supported. MODEL.poResolve/poProbs: bracket resolution for the Playoffs tab.
 
 ## App (src/app.js)
+- Model runs: full runs (1,000 seasons) go to a Web Worker built from the page's own config.js + model.js
+  (script tags #src-config/#src-model), so taps never block. update(k) shows a quick 150-season run at once
+  and the full result replaces it (status shows "updating odds…"). No Worker (claude.ai artifact) = runs
+  on the page as before. bgRender() redraws for background changes without moving the page or closing an
+  open score entry.
+- Live clock: live entries are {h, a, ph:'1H'|'HT'|'2H', t, m0}. Match events are one tap on the card
+  (Kicked off, Half-time, 2nd half, Full time, +1 goal); the clock runs from the last tap. 45+N/90+N for
+  stoppage; missed taps are guessed (~) and "FT?" asks for full time after 90+15. A 30 s timer keeps clocks
+  current and re-runs the model every 2 match minutes. Old {h, a, min, ht} entries keep a fixed minute.
+- Sticky bar (#mini): slides in once the header nav scrolls away; competition (tap = back to top) + sections.
 - `state`: view/tab/round per comp, results, status, live, favs (followed clubs, synced across comps by
   name), settings (per comp incl. adj = points adjustments), ko (playoff results), motw (locked Match of the
   week per round), suite (pick 'em scoring, motwW), draws (cup), tmode (table view).
 - compute(k) runs the model and attaches kickoffs (data.kick + reschedules); computeAll() is progressive.
+- Top nav (renderChrome): region tabs (REGIONS in config.js: England, Europe, USA, UEFA) > that region's
+  competition chips (DOT colours, CHIP phone labels) > section tabs. A region tab reopens the last competition
+  viewed in it. ORDER follows REGIONS.
 - Views: overview (tiles, Your clubs, What's next, biggest per comp, Live now), round/matchweek cards
   (score bug), table (current / as it stands / projected, per-league columns for Nations League),
   races, playoffs bracket, clubs (Affinity breakdown), settings, club sheet, match detail

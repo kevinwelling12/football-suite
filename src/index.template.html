@@ -6,16 +6,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
 <style>/*__CSS__*/</style></head>
 <body>
+<div class="mini" id="mini" inert></div>
 <header class="mast"><div class="mast-in">
   <h1 class="league" id="title">Football Tracker<span class="season">Suite</span></h1>
   <p class="status" id="status">Loading…</p>
+  <nav class="regions" id="regions" aria-label="Regions"></nav>
   <div class="comps" id="comps" aria-label="Competitions"></div>
   <nav class="tabs" id="tabs" role="tablist" aria-label="Sections"></nav>
 </div></header>
 <main id="main" tabindex="-1"></main>
 <dialog id="detail" aria-label="Match detail"><div class="sheet" id="sheet"></div></dialog>
 /*__WEB_HEAD__*/
-<script>/*__CONFIG__*/</script>
-<script>/*__MODEL__*/</script>
+<script id="src-config">/*__CONFIG__*/</script>
+<script id="src-model">/*__MODEL__*/</script>
 <script>/*__APP__*/</script>
 </body></html>

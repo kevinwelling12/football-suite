@@ -1,0 +1,199 @@
+[
+ {
+  "name": "Mansfield Town",
+  "T": {
+   "score": 6,
+   "evidence": "Nigel Clough manager since Nov 2020 (6th season): defining long-serving coach, led 2024 promotion to League One and a 2025-26 FA Cup fifth-round run. Organised, pragmatic, hard-working sides rather than a high press. Experienced, fairly stable core (captain Ryan Sweeney, David McGoldrick, Lucas Akins, George Maris). No current icon verified."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found (search of 2024-26). Only discipline item: Clough 3-match touchline ban for words to an official (Jan 2024), minor. No notable homegrown core."
+  },
+  "icons": [],
+  "coach": "Nigel Clough, since 2020",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mansfield_Town_F.C.",
+   "https://www.thefa.com/news/2024/feb/05/fa-charges---january-2024-050224"
+  ]
+ },
+ {
+  "name": "Milton Keynes Dons",
+  "T": {
+   "score": 4,
+   "evidence": "Paul Warne head coach since Apr 2025: work-rate and energy, promoted 2nd in League Two 2025-26. But very high churn since the Aug 2024 Kuwaiti takeover (big-spending rebuild; managers Williamson, Lindsey, Warne within ~2 years). Captain Alex Gilbey; no current icon (Dean Lewington retired). Club lacks a player-fan bond story."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found 2024-26. Academy pathway already counted in V."
+  },
+  "icons": [],
+  "coach": "Paul Warne, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "High-churn spending rebuild under new owners: T lowered one from old S 5."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Milton_Keynes_Dons_F.C.",
+   "https://www.mkdons.com/news/2025/may/16/mk-dons-reveal-24-25-retained-and-released-list/"
+  ]
+ },
+ {
+  "name": "Newport County",
+  "T": {
+   "score": 4,
+   "evidence": "Relegation battlers (22nd 2024-25, 20th 2025-26). Coach churn: David Hughes sacked Nov 2025, Christian Fuchs resigned June 2026, interim Chris Todd, now Hayden Mullins. Squad leans on six loans from bigger clubs (Hull, Bournemouth, Fulham, Watford, Cardiff): high churn. Captain Kyle Cameron; veterans Christian Doidge and Shaun MacDonald. No icon, no pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases at the club found. (Thierry Nevers, jailed Dec 2025 for drug supply, was only a 2022-23 loanee: not counted.) Several Wales-born players but no notable academy core."
+  },
+  "icons": [],
+  "coach": "Hayden Mullins, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "Lewis Jamieson joined from Sacramento Republic on 16 Jan 2026 but was sold to Ross County on 23 July 2026; not in the 2026-27 squad."
+  },
+  "flags": [
+   "Lewis Jamieson (ex-Republic) now at Ross County: relevant to whoever scores Ross County."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Newport_County_A.F.C.",
+   "https://www.uslchampionship.com/news_article/show/1353593",
+   "https://en.wikipedia.org/wiki/Lewis_Jamieson"
+  ]
+ },
+ {
+  "name": "Northampton Town",
+  "T": {
+   "score": 5,
+   "evidence": "Icon: Sam Hoskins (at the club since 2015, club's second-highest appearance maker, scored in the decisive game of three promotions, new deal May 2026). Captain Jon Guthrie long-serving. Offset by the 2025-26 collapse (club-record 10 straight league defeats, relegated bottom) and a new coach (Chris Hogg, 2026). No pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found. Hoskins came through Southampton's academy, so not a homegrown/one-club case."
+  },
+  "icons": [
+   "Sam Hoskins"
+  ],
+  "coach": "Chris Hogg, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Icon (+1) cancelled by poor 2025-26 play; Kevin could rate 6."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Northampton_Town_F.C.",
+   "https://www.northamptonchron.co.uk/sport/football/record-breaking-sam-hoskins-signs-new-deal-with-cobblers-8648370"
+  ]
+ },
+ {
+  "name": "Notts County",
+  "T": {
+   "score": 6,
+   "evidence": "Front-foot, possession-based attacking model under the Reedtz owners (Luke Williams 2021-23, Stuart Maynard, now Martin Paterson since 2025); promoted to League One via 2026 play-offs. Captain Matt Palmer; data-led recruitment and five Premier League loanees mean steady churn. Macaulay Langstaff (42-goal hero) left in 2024. No current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Lewis Macari given a suspended three-month ban (Oct 2025) for betting breaches 2020-22: minor, not abuse/violence. No other cases found."
+  },
+  "icons": [],
+  "coach": "Martin Paterson, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Notts_County_F.C.",
+   "https://en.wikipedia.org/wiki/Lewis_Macari"
+  ]
+ },
+ {
+  "name": "Oldham Athletic",
+  "T": {
+   "score": 5,
+   "evidence": "Micky Mellon manager since Sept 2023: led the 2025 National League play-off win and a 10th-place return season. Captain Tom Pett; squad largely rebuilt since 2025 with several loanees (Stoke, Sheffield Utd, Wigan, Bolton). No pressing identity or current icon verified."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Micky Mellon, since 2023",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Oldham_Athletic_A.F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Oldham_Athletic_A.F.C._season"
+  ]
+ },
+ {
+  "name": "Oxford United",
+  "T": {
+   "score": 5,
+   "evidence": "Cameron Brannagan (at the club since 2018, long-time captain) still there. Relegated from the Championship 2025-26; Aaron Ramsey (first coaching job) appointed 23 June 2026 after Matt Bloomfield left. Moderate churn (Stanley Mills sold GBP 2.5m, Prelec, Vaulks out). No clear high-energy identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found 2024-26."
+  },
+  "icons": [
+   "Cameron Brannagan (long-serving, borderline icon)"
+  ],
+  "coach": "Aaron Ramsey, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Brannagan could count as an icon (+1 -> T 6)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Oxford_United_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Oxford_United_F.C._season"
+  ]
+ },
+ {
+  "name": "Peterborough United",
+  "T": {
+   "score": 4,
+   "evidence": "Develop-and-sell model means constant churn (Toney, Clarke, Mason-Clark, Jones etc. sold). Luke Williams sacked 19 Sept 2026 after 2 wins in 22; Ryan Harley caretaker. 18th in League One 2025-26. Captain Carl Johnston; no icon, no pressing identity that stuck."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found; goalkeeping coach Ali Uzunhasanoglu suspended-ban for betting (Feb 2024), staff not player, minor."
+  },
+  "icons": [],
+  "coach": "Ryan Harley (caretaker), since Sept 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Peterborough_United_F.C.",
+   "https://www.thefa.com/news/2024/feb/09/uzunhasanoglu-suspended-090224"
+  ]
+ }
+]

@@ -1,0 +1,390 @@
+[
+ {
+  "name": "Alavés",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 5. Energetic, duel-heavy side under Coudet (2025-26); Quique Sánchez Flores (pragmatic, defensive) took over for 2026-27. Captain Antonio Sivera (GK, at the club since 2019). Squad built largely on loans and short deals (Boyé, Denis Suárez, Mariano); no current icon. Ordinary player-fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found for 2023-2026."
+  },
+  "icons": [],
+  "coach": "Quique Sánchez Flores, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ]
+ },
+ {
+  "name": "Athletic Club",
+  "T": {
+   "score": 9,
+   "evidence": "Old S 7. High-energy pressing identity (Valverde 2022-2026). Cantera policy gives the lowest churn in Europe: captain Iñaki Williams (one-club, record run of consecutive Liga matches), Nico Williams renewed to 2035 in 2025 despite Barcelona interest, Unai Simón, Sancet, Vivian, Laporte back from academy roots. Players celebrated the 2024 Copa with ~1m on the Nervión (gabarra). Edin Terzić new coach (2026); Valverde era over."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "First team almost entirely Lezama/Basque-trained, several one-club players (Iñaki Williams, Unai Simón, Sancet). Raise kept at +1 even though the cantera is already in V. No conduct cases found (Iñaki Williams was a racism victim, not an offender)."
+  },
+  "icons": [
+   "Iñaki Williams",
+   "Nico Williams",
+   "Unai Simón"
+  ],
+  "coach": "Edin Terzić, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "V_delta +1 overlaps the cantera credit already in V; Kevin to decide if it double counts.",
+   "Terzić is new: revisit T after 2026-27."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Athletic_Bilbao",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ]
+ },
+ {
+  "name": "Celta Vigo",
+  "T": {
+   "score": 8,
+   "evidence": "Old S 7. Claudio Giráldez (promoted from Celta B in 2024) plays an intense, pressing, possession game with a young A Madroa core (Hugo Álvarez, Javi Rodríguez, Hugo Sotelo, Damián Rodríguez); 6th and Europa League in 2025-26. Captain Iago Aspas (Moaña-born, 2008-13 and 2015-now) renewed in May 2026 for a final season and joins the club structure to 2029. Strong local bond."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Large homegrown share of the first team under Giráldez, plus one-club icon Aspas. Santi Mina (sexual-abuse conviction 2022) was frozen out and left, before the window; no new cases found."
+  },
+  "icons": [
+   "Iago Aspas (final season 2026-27)"
+  ],
+  "coach": "Claudio Giráldez, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Aspas retires in 2027: T should drop about 1 then."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo",
+   "https://www.laregion.es/deportes/iago-aspas-confirma-sera-ultima_1_20260526-4291451.html"
+  ]
+ },
+ {
+  "name": "Deportivo La Coruña",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 5. Promoted in 2025-26 under Antonio Hidalgo with an attacking side built around homegrown winger Yeremay Hernández (stayed despite big offers) and captain Diego Villares (Galician, from the region). Strong squad-fan bond from the third-tier years; icon Lucas Pérez left in 2025. Moderate churn plus big-name arrivals (Aubameyang listed in the squad)."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Notable Abegondo/Galician core in the first team (Villares, Yeremay, Barcia). No conduct or welfare cases found."
+  },
+  "icons": [
+   "Yeremay Hernández"
+  ],
+  "coach": "Antonio Hidalgo, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Aubameyang in the squad per Wikipedia: not verified elsewhere."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n"
+  ]
+ },
+ {
+  "name": "Elche",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 6. Front-foot possession and press (Sarabia, now Martín Anselmi, 2026). High churn: squad built on loans and players linked to the owner's agency network (Buonanotte, Lemar, Redondo, Ponce). Captain Pedro Bigas (veteran). No icon, ordinary fan bond."
+  },
+  "V_delta": {
+   "points": -2,
+   "evidence": "Signed Rafa Mir on loan from Sevilla in 2025 while he was already charged with the Sept 2024 sexual assault in Bétera and played him all season; terminated the loan and contract only after his June 2026 conviction (8.5 years). Counts as standing by a player facing credible allegations."
+  },
+  "icons": [],
+  "coach": "Martín Anselmi, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Rafa Mir: Elche knowingly signed and played him while charged; -2 applied."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Elche_CF",
+   "https://www.que.es/2026/06/18/elche-rescinde-rafa-mir/",
+   "https://www.elindependiente.com/espana/2026/05/28/comienza-juicio-rafa-mir-agresion-sexual/"
+  ]
+ },
+ {
+  "name": "Espanyol",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 5. Manolo González (promoted from the B team in 2024) has a compact, direct, hard-running side. Vice-captain Javi Puado is an academy product and the face of the team; captain Leandro Cabrera, third captain Pol Lozano (academy). Churn rising with loans under the new multi-club owners. Ordinary fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found. Puado and Lozano are academy graduates but not a large homegrown core."
+  },
+  "icons": [
+   "Javi Puado"
+  ],
+  "coach": "Manolo González, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RCD_Espanyol",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+  ]
+ },
+ {
+  "name": "Getafe",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 4. Bordalás (2016-21, back since 2023) is a defining, long-serving coach: very intense, collective, running for each other, but the least possession-minded and most foul-heavy side in La Liga. Stable core: captain Djené (since 2017), David Soria, Juanmi. Small squad, low budget; ordinary fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Greenwood loan is already in V. No other player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "José Bordalás, since 2023 (also 2016-2021)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Team +1 from long-serving coach and stable squad; Kevin may see Bordalás's gamesmanship as a negative."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Getafe_CF",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Levante",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 5. Promoted as 2024-25 champions under Julián Calero; Luís Castro since late 2025; survived in 16th. Captain Roger Brugué, vice Adrián Dela; several loans from bigger clubs; no current icon (Morales era over)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Luís Castro, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Levante_UD",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Málaga",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 5. Rebuilt around its academy through the third tier: Funes (from the club's youth staff) promoted the team in 2026; captain Ramón Enríquez and several La Rosaleda-raised players (Puga, Galilea, Larrubia, Dani Lorenzo, Izan Merino). Strong squad-fan bond from the Primera RFEF season. No star culture."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Notable homegrown core in the first team. No player-conduct or welfare cases found despite the club's administration."
+  },
+  "icons": [],
+  "coach": "Juan Francisco Funes, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n"
+  ]
+ },
+ {
+  "name": "Osasuna",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 5. Hard-working, direct side; coach churn since Arrasate left (Moreno, Lisci, now Ramis). Stable Navarrese core: captain Kike Barja, Moncayola, Aimar Oroz, Herrera (since 2018), Rubén García, Budimir. Players close to the crowd at El Sadar."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Tajonar products and long-serving players are a large part of the first team. No conduct or welfare cases found (2013 match-fixing concerned directors, already flagged)."
+  },
+  "icons": [],
+  "coach": "Luis Miguel Ramis, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/CA_Osasuna",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Racing Santander",
+  "T": {
+   "score": 7,
+   "evidence": "Old S 6. José Alberto López (since 2023) built an attacking, high-scoring side that won Segunda 2025-26. Captain Íñigo Sainz-Maza (Cantabrian, academy), vice Álvaro Mantilla (academy); Íñigo Vicente and Andrés Martín the stars. Low churn over three seasons, close bond with El Sardinero."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "La Albericia academy players form the captaincy group (Sainz-Maza, Mantilla). No conduct or welfare cases found."
+  },
+  "icons": [
+   "Íñigo Vicente"
+  ],
+  "coach": "José Alberto López, since 2023",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Racing_de_Santander",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n"
+  ]
+ },
+ {
+  "name": "Rayo Vallecano",
+  "T": {
+   "score": 8,
+   "evidence": "Old S 6. Íñigo Pérez's high-energy pressing side reached the 2026 Conference League final (lost 1-0 to Crystal Palace); Beñat San José now coach. Long-serving captain Óscar Valentín and vice Isi Palazón. In July 2026 the whole squad issued a statement backing the fans and Vallecas against the club and the regional government; players publicly side with the barrio."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Player welfare: in Feb 2026 the squad and staff complained to the players' union (AFE) about missing medical services and basic materials at the club. No player-conduct cases found."
+  },
+  "icons": [
+   "Isi Palazón",
+   "Óscar Valentín"
+  ],
+  "coach": "Beñat San José, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Welfare -1 reflects the owner, not the players; Kevin may prefer to put it in Ownership."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://www.elespanol.com/deportes/futbol/20260731/jugadores-rayo-cargan-comunidad-club-queremos-seguir-vallecas-podria-evitado/1003744340691_0.html",
+   "https://www.libertaddigital.com/deportes/liga/2026-02-07/el-durisimo-comunicado-del-rayo-que-destapa-las-verguenzas-de-martin-presa-7355956/",
+   "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+  ]
+ },
+ {
+  "name": "Real Sociedad",
+  "T": {
+   "score": 7,
+   "evidence": "Old S 6. Imanol Alguacil (2018-2025) era of pressing, homegrown teams; Matarazzo since late 2025 won the 2026 Copa del Rey fielding 10 homegrown players. Captain Mikel Oyarzabal (one-club, Euro 2024 winner) is the icon. Churn from sales (Merino, Le Normand, Zubimendi, Kubo) but the Zubieta core stays."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Ten homegrown players in the 2026 Copa final; one-club captain Oyarzabal. Overlaps the academy credit already in V. No conduct cases found."
+  },
+  "icons": [
+   "Mikel Oyarzabal"
+  ],
+  "coach": "Pellegrino Matarazzo, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "V_delta +1 overlaps the Zubieta credit already in V."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Real_Sociedad",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga"
+  ]
+ },
+ {
+  "name": "Sevilla",
+  "T": {
+   "score": 4,
+   "evidence": "Old S 5. High churn and coach turnover (Mendilibar, Quique, Pimienta, García Pimienta, Almeyda, García Plaza) amid boardroom war; Jesús Navas retired in Dec 2024 and no icon remains. Captain Gabriel Suazo. Players often jeered; weak bond in recent seasons."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Held Rafa Mir's contract after his Sept 2024 sexual-assault arrest and loaned him to Valencia and Elche rather than acting; condemned him only after the June 2026 conviction. Kike Salas investigated in 2024 over bets on his yellow cards; club kept playing him."
+  },
+  "icons": [],
+  "coach": "Luis García Plaza, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Rafa Mir: Sevilla owned his contract but did not play him; scored -1, not -2."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sevilla_FC",
+   "https://www.vamosmisevillafc.com/el-sevilla-fc-reacciona-a-la-condena-a-rafa-mir-con-un-duro-comunicado/",
+   "https://www.que.es/2026/06/18/elche-rescinde-rafa-mir/"
+  ]
+ },
+ {
+  "name": "Valencia",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 5. Coach churn (Baraja, Corberán Dec 2024 - Sept 2026, Javier Aguirre since Sept 2026). Captain José Luis Gayà (one-club, academy) is the icon; academy players Diego López, Javi Guerra, Tárrega. Players regularly sold to balance books."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "-2: signed Rafa Mir on loan in Aug 2024 and kept selecting him after his Sept 2024 arrest for sexual assault (convicted June 2026, 8.5 years, for the assault committed while a Valencia player). +1: notable academy core (Gayà, Diego López, Guerra). Net -1."
+  },
+  "icons": [
+   "José Luis Gayà"
+  ],
+  "coach": "Javier Aguirre, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Net -1 lets the academy +1 offset the Mir -2; Kevin may prefer a flat -2."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.ultimahora.es/deportes/futbol/2026/09/23/2714517/javier-aguirre-nuevo-entrenador-del-valencia-cf.html",
+   "https://en.wikipedia.org/wiki/Valencia_CF",
+   "https://www.que.es/2026/06/18/elche-rescinde-rafa-mir/",
+   "https://www.elindependiente.com/espana/2026/05/28/comienza-juicio-rafa-mir-agresion-sexual/"
+  ]
+ }
+]

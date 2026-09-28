@@ -1,0 +1,348 @@
+[
+ {
+  "name": "AEK Athens",
+  "T": {
+   "score": 6,
+   "evidence": "Energetic, direct champion side (Greek titles 2023, 2026), no defined pressing identity. Captain Petros Mantalos at the club since 2014 (icon, now in his mid-30s). High churn: about 7 signings for EUR 19.5m in summer 2026 (Majer, Kairinen), squad of many nationalities. Coach Marko Nikolic since 2025. Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct cases, welfare problems or homegrown core found."
+  },
+  "icons": [
+   "Petros Mantalos"
+  ],
+  "coach": "Marko Nikolic, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic player in the 2026-27 squad (checked against Wikipedia's Republic player category)."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_AEK_Athens_F.C._season",
+   "https://en.wikipedia.org/wiki/AEK_Athens_F.C.",
+   "https://en.wikipedia.org/wiki/Category:Sacramento_Republic_FC_players"
+  ]
+ },
+ {
+  "name": "Atlético Madrid",
+  "T": {
+   "score": 8,
+   "evidence": "Simeone since Dec 2011: the defining long-serving coach of the era, intensity and collective running still the identity. Captain Koke is a one-club academy player (debut 2009); Oblak vice-captain since 2014. Griezmann left for Orlando City in 2026. Churn is high (Hjulmand, Lee Kang-in, Romero, Grimaldo in; Almada, Molina, Ruggeri out). +1 over old S for Simeone and Koke."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Koke (one-club captain) and Giuliano Simeone-type academy/home players in the first team; no player-conduct or welfare cases found against the club (the Vinicius effigy was fans, already counted)."
+  },
+  "icons": [
+   "Koke",
+   "Jan Oblak",
+   "Diego Simeone (coach)"
+  ],
+  "coach": "Diego Simeone, since 2011",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "V_delta +1 for Koke is borderline: the rest of the squad is largely bought; set to 0 if one captain is not enough."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Atl%C3%A9tico_Madrid_season",
+   "https://en.atleticodemadrid.com/jugadores-primer-equipo/"
+  ]
+ },
+ {
+  "name": "Barcelona",
+  "T": {
+   "score": 8,
+   "evidence": "Flick (since 2024) high line and aggressive press. La Masia core (Yamal, Pedri, Gavi, Fermin, Cubarsi); captain Raphinha, vice Pedri. But heavy spending again (Rodri EUR 60m, Gordon EUR 70m, Adeyemi, Jesus, Cancelo) and a star/celebrity culture around Yamal. Stays at old S."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Treatment of long-serving captain ter Stegen in 2025: club opened disciplinary proceedings when he would not sign off his medical report so his injury could be used to register Joan Garcia, stripped the armband, then loaned him to Ajax in 2026. Recurring registration crises (Olmo, Pau Victor) left players in limbo. La Masia already counted in V."
+  },
+  "icons": [
+   "Pedri",
+   "Lamine Yamal"
+  ],
+  "coach": "Hansi Flick, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "ter Stegen treatment as a player-welfare -1: Kevin to confirm."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_FC_Barcelona_season",
+   "https://en.wikipedia.org/wiki/FC_Barcelona"
+  ]
+ },
+ {
+  "name": "Bayern Munich",
+  "T": {
+   "score": 8,
+   "evidence": "Kompany (since 2024) high-line, high-press football; record-breaking 2025-26. Captain Neuer (since 2011), Kimmich vice, Musiala. Muller left 2025, Goretzka 2026; star-signing model (Kane, Diaz, Olise, Brown EUR 55m, Palhinha). Neuer's Bayern-bond is the remaining icon. -1 vs old S for star culture/churn."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Late 2025 Bayern approved a coaching internship under Kompany for Jerome Boateng (convicted 2024 of bodily harm against his ex-partner); Kompany called it 'no big deal'. Cancelled only after Sudkurve banners ('Whoever gives the perpetrator space shares his guilt'). Fans' response is credit; club's initial stance is the minus."
+  },
+  "icons": [
+   "Manuel Neuer",
+   "Thomas Muller (left 2025, now History)"
+  ],
+  "coach": "Vincent Kompany, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Boateng internship: -1 (reversed) vs -2 (standing by an abuser). I chose -1 since the club backed down.",
+   "Dortmund rival adjustment (-5) still applies separately."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_FC_Bayern_Munich_season",
+   "https://www.goal.com/en/lists/bayern-munich-cancel-jerome-boateng-internship-under-vincent-kompany-after-fans-launch-protest-over-ex-defender-s-prior-conviction/blt47234cce0473c193",
+   "https://www.bavarianfootballworks.com/bayern-munich-bundesliga/143184/jerome-boateng-bayern-munich-controversy-internship-vincent-kompany-bundesliga-der-klassiker"
+  ]
+ },
+ {
+  "name": "Bodø/Glimt",
+  "T": {
+   "score": 10,
+   "evidence": "Knutsen since 2018 (contract to 2029): defining coach of a relentless pressing identity that knocked Inter out and reached the UCL last 16. Local captains Patrick Berg (Bodø family, returned 2024) and Ulrik Saltnes (club since 2014); Brede Moe retired Jan 2026 after 12 years. Mostly Norwegian squad, low ego, known mental-performance culture. +1 vs old S."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Local and long-serving players (Berg, Saltnes, Moe) at the heart of the team; mental-performance coaching (Bjorn Mannsverk) is a player-welfare positive. No conduct cases found."
+  },
+  "icons": [
+   "Patrick Berg",
+   "Ulrik Saltnes",
+   "Kjetil Knutsen (coach)"
+  ],
+  "coach": "Kjetil Knutsen, since 2018",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FK_Bod%C3%B8/Glimt_season",
+   "https://www.uefa.com/uefachampionsleague/news/02a9-2182e9443a45-d5e5f2a4ad8e-1000--bodo-glimt-in-the-2026-27-champions-league-what-are-their-/"
+  ]
+ },
+ {
+  "name": "Borussia Dortmund",
+  "T": {
+   "score": 6,
+   "evidence": "Kovac (since Feb 2025): structured, pragmatic back three, not the old gegenpress. Reus (2024) and Brandt (2026) gone; captain Emre Can, Schlotterbeck vice. Sell-on model keeps churn high (Adeyemi to Barcelona; Konstantelias, Karetsas, Veerman in). Player-fan ritual at the Yellow Wall after matches remains a strong bond. -1 vs old S: no current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found in the window; no notable homegrown core in the XI."
+  },
+  "icons": [],
+  "coach": "Niko Kovac, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Borussia_Dortmund_season",
+   "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+  ]
+ },
+ {
+  "name": "Club Brugge",
+  "T": {
+   "score": 7,
+   "evidence": "Energetic, attacking side under Ivan Leko (since 2025, second spell), UCL knockout run 2024-25. Captain Hans Vanaken at the club since 2015 (contract to 2027), a club icon. Sell-on model, moderate churn (Sommer, Vetlesen, Forbs). +1 vs old S for Vanaken."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found; Club NXT academy already counted in V."
+  },
+  "icons": [
+   "Hans Vanaken"
+  ],
+  "coach": "Ivan Leko, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Club_Brugge_KV",
+   "https://www.clubbrugge.be/en/teams/a-kern/players/hans-vanaken"
+  ]
+ },
+ {
+  "name": "Como",
+  "T": {
+   "score": 6,
+   "evidence": "Fabregas (coach since 2024, head coach contract to 2028, turned down Leverkusen/Chelsea): possession-dominant, high-pressing young side, 4th in 2025-26. But the squad is bought and rebuilt every summer (EUR 64m in 2026: Chalobah, Kean, loans of Sanchez, Ricci); no long-serving captain or icon; Nico Paz is a Real Madrid-owned talent. -1 vs old S for churn."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found. Little homegrown presence (already reflected in V)."
+  },
+  "icons": [
+   "Cesc Fabregas (coach)"
+  ],
+  "coach": "Cesc Fabregas, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Como_1907_season",
+   "https://www.beinsports.com/en-us/soccer/serie-a/articles/cesc-fabregas-breaks-his-silence-is-he-rejecting-chelsea-out-of-loyalty-to-como-2026-04-14"
+  ]
+ },
+ {
+  "name": "Fenerbahçe",
+  "T": {
+   "score": 4,
+   "evidence": "Star-signing, high-churn model: summer 2026 brought Greenwood (EUR 39m), Ake, Lukaku, Muriqi alongside Kante, Asensio, Skriniar, Guendouzi. Coach Ismail Kartal back for 2026-27 (second spell; Mourinho 2024-25 and Tedesco in between). No pressing identity; captain Mert Hakan Yandas. -2 vs old S."
+  },
+  "V_delta": {
+   "points": -3,
+   "evidence": "July 2026 signed Mason Greenwood for EUR 39m ('Welcome to our family') despite the 2022 attempted-rape/assault charges (dropped 2023) and published audio/images: standing by a player facing credible abuse allegations, -2. Captain Mert Hakan Yandas was jailed pending trial (Dec 2025) in the Turkish betting probe, accused of betting on his own team's matches, and is still listed as captain: -1."
+  },
+  "icons": [],
+  "coach": "Ismail Kartal, since 2026 (second spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Greenwood signing -2: the brief's rule for credible abuse allegations; Kevin to confirm.",
+   "Confirm Yandas is still captain/in the squad after the betting case (Wikipedia 2026-27 page lists him)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Fenerbah%C3%A7e_S.K._season",
+   "https://www.espn.com/soccer/story/_/id/49367104/mason-greenwood-signs-fenerbahce-marseille",
+   "https://www.dailysabah.com/sports/football/galatasaray-fenerbahce-stars-jailed-in-widening-tff-betting-saga"
+  ]
+ },
+ {
+  "name": "Feyenoord",
+  "T": {
+   "score": 6,
+   "evidence": "Coach churn: Slot (to 2024), Priske (sacked Feb 2025), Van Persie (sacked June 2026), now club legend Van Bronckhorst (since 18 June 2026). Sell-on squad with high turnover (Ueda, Sauer out; Ferri, Ahmedhodzic in; Trauner retired); young captain Luciano Valente. Players' bond with Het Legioen after matches is strong. -1 vs old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found; Varkenoord academy already counted in V."
+  },
+  "icons": [
+   "Giovanni van Bronckhorst (coach, club legend)"
+  ],
+  "coach": "Giovanni van Bronckhorst, since 2026 (second spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Feyenoord_season",
+   "https://www.beinsports.com/en-us/soccer/eredivisie/articles/van-persie-sacked-by-feyenoord-after-15-months-in-charge-2026-06-07"
+  ]
+ },
+ {
+  "name": "Galatasaray",
+  "T": {
+   "score": 6,
+   "evidence": "Okan Buruk since 2022 (club's former player; multiple titles): long tenure is a plus, but star-driven and high-churn (Osimhen, Sane, Gundogan; Leao EUR 38m and Batrakov EUR 25m in 2026; Icardi, Zaha, Zaniolo out). Captain Abdulkerim Bardakci. No pressing identity. Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Defender Metehan Baltaci (9-month ban, jailed pending trial) and Eren Elmali (45-day ban) were caught in the 2025 Turkish betting probe; the club's response is unclear. Left at 0 pending Kevin's call."
+  },
+  "icons": [
+   "Okan Buruk (coach)"
+  ],
+  "coach": "Okan Buruk, since 2022",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Betting-probe players (Baltaci, Elmali): count -1 if they remain in the squad without club action."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Galatasaray_S.K._season",
+   "https://www.soccerway.com/news/soccer-super-lig-turkish-court-jails-fenerbahce-and-galatasaray-players-pending-trial-in-gambling-probe/UXiCCion"
+  ]
+ },
+ {
+  "name": "Inter Milan",
+  "T": {
+   "score": 7,
+   "evidence": "Chivu (since June 2025; ex-player and youth coach): aggressive, well-drilled, more front-foot than Inzaghi. Captain Lautaro Martinez (Inter since 2018) and vice Barella; Dimarco (academy, Inter fan) 4th captain. Old core left in 2026 (Acerbi, De Vrij, Darmian, Sommer); Stones, Curtis Jones, Spence in. Stays at old S."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "-1: March 2024 Acerbi-Juan Jesus racist-slur allegation; acquitted for insufficient evidence, Inter kept picking him (he left June 2026). +1: Dimarco and Pio Esposito, academy players in the first team. Net 0. Ultra links already counted in V."
+  },
+  "icons": [
+   "Lautaro Martinez",
+   "Nicolo Barella"
+  ],
+  "coach": "Cristian Chivu, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Acerbi case: -1 offset by homegrown +1; Kevin may weigh differently."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Inter_Milan_season",
+   "https://en.wikipedia.org/wiki/Inter_Milan"
+  ]
+ },
+ {
+  "name": "LASK",
+  "T": {
+   "score": 7,
+   "evidence": "Austrian pressing school; won the 2025-26 double (first since 1965). Dietmar Kuhbauer back as coach since Jan 2025 (also 2022-23), after Sageder and Sacramento. Captain Sascha Horvath. Loan-heavy, international squad (Kalajdzic, Bello, Ljubicic, Elfadli). Stays at old S."
+  },
+  "V_delta": {
+   "points": -2,
+   "evidence": "Signed Jerome Boateng in Oct 2024 while his retrial for assaulting his ex-partner was pending (convicted 2024); kept him until Aug 2025 despite protests from fans and LASK's own women's team ('No platform for perpetrators')."
+  },
+  "icons": [],
+  "coach": "Dietmar Kuhbauer, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "George Bello (American) is in the squad but never played for Sacramento Republic."
+  },
+  "flags": [
+   "Boateng signing counted -2 under the standing-by-abuser rule; he left in 2025, still inside the 3-season window."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/LASK",
+   "https://www.watson.de/sport/fussball/529955600-jerome-boateng-beim-lask-linz-frauen-sorgen-mit-protest-fuer-aufsehen",
+   "https://www.90minuten.at/de/red/meinung/12meter/2024/lask-und-boateng--moralischer-totalverfall--exklusiv-/"
+  ]
+ }
+]

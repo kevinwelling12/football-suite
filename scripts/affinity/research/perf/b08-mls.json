@@ -1,0 +1,2252 @@
+[
+ {
+  "name": "Atlanta United",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 29,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 20,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 10,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 23,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 9,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 23,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 2,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 4,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": null,
+    "pos": null,
+    "of": null
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2019",
+    "type": "cup",
+    "what": "U.S. Open Cup"
+   },
+   {
+    "s": "2018",
+    "type": "league",
+    "what": "MLS Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS debut 2017. 2019 US Open Cup winners. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Austin FC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 15,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 18,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 25,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 4,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 24,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2019",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2018",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2017",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2016",
+    "tier": null,
+    "pos": null,
+    "of": null
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS debut 2021; did not exist 2016-2020. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "CF Montréal",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 28,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 17,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 20,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 3,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 18,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 18,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 18,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 15,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 17,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2021",
+    "type": "cup",
+    "what": "Canadian Championship"
+   },
+   {
+    "s": "2019",
+    "type": "cup",
+    "what": "Canadian Championship"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Montreal Impact until 2020. Canadian Championship counted as 'cup' (Canadian clubs are not eligible for the US Open Cup). MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Charlotte FC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 7,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 11,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 19,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 19,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2020",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2019",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2018",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2017",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2016",
+    "tier": null,
+    "pos": null,
+    "of": null
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS debut 2022; unrelated to Charlotte Independence (USL). MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Chicago Fire FC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 13,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 28,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 24,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 24,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 22,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 22,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 20,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 3,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Colorado Rapids",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 21,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 12,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 28,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 18,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 2,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 10,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 21,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 20,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Columbus Crew",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 12,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 2,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 3,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 16,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 17,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 4,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 10,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 5,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024",
+    "type": "league_cup",
+    "what": "Leagues Cup"
+   },
+   {
+    "s": "2023",
+    "type": "league",
+    "what": "MLS Cup"
+   },
+   {
+    "s": "2020",
+    "type": "league",
+    "what": "MLS Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "D.C. United",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 30,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 21,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 23,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 28,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 16,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 24,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 10,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 9,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 21,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "FC Cincinnati",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 2,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 5,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 1,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 10,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 27,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 26,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 2,
+    "pos": 1,
+    "of": 16,
+    "table": "conf"
+   },
+   {
+    "s": "2017",
+    "tier": 2,
+    "pos": 6,
+    "of": 15,
+    "table": "conf"
+   },
+   {
+    "s": "2016",
+    "tier": 2,
+    "pos": 3,
+    "of": 14,
+    "table": "conf"
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "USL (conference tables): 2016 Eastern Conf 3/14 (USL was USSF Division III in 2016, hence tier 3), 2017 East 6/15, 2018 East 1/16 (USL regular-season champions). MLS from 2019. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season). 2016 USL set to tier 2 to match the USL batch (USL counted as tier 2 from 2015)."
+ },
+ {
+  "name": "FC Dallas",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 16,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 19,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 14,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 7,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 23,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 11,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 6,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 13,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2016",
+    "type": "cup",
+    "what": "U.S. Open Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Houston Dynamo FC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 22,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 8,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 9,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 25,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 25,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 25,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 19,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 17,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 10,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023",
+    "type": "cup",
+    "what": "U.S. Open Cup"
+   },
+   {
+    "s": "2018",
+    "type": "cup",
+    "what": "U.S. Open Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Inter Miami CF",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 3,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 1,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 27,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 12,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 20,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 19,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2018",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2017",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2016",
+    "tier": null,
+    "pos": null,
+    "of": null
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025",
+    "type": "league",
+    "what": "MLS Cup"
+   },
+   {
+    "s": "2023",
+    "type": "league_cup",
+    "what": "Leagues Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS debut 2020. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "LA Galaxy",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 26,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 4,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 26,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 8,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 15,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 20,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 8,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 13,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 22,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024",
+    "type": "league",
+    "what": "MLS Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Los Angeles Football Club",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 6,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 3,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 8,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 1,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 19,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 12,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 5,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2016",
+    "tier": null,
+    "pos": null,
+    "of": null
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024",
+    "type": "cup",
+    "what": "U.S. Open Cup"
+   },
+   {
+    "s": "2022",
+    "type": "league",
+    "what": "MLS Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS debut 2018. 2022 double (MLS Cup + Supporters' Shield). MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Minnesota United FC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 8,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 10,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 21,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 11,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 11,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 9,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 18,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 19,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 2,
+    "pos": 5,
+    "of": 12
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2016 in NASL (tier 2), combined spring/fall table 5/12. MLS from 2017. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Nashville SC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 11,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 25,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 12,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 9,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 7,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 14,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 2,
+    "pos": 2,
+    "of": 18,
+    "table": "conf"
+   },
+   {
+    "s": "2018",
+    "tier": 2,
+    "pos": 8,
+    "of": 16,
+    "table": "conf"
+   },
+   {
+    "s": "2017",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2016",
+    "tier": null,
+    "pos": null,
+    "of": null
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025",
+    "type": "cup",
+    "what": "U.S. Open Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "USL franchise founded 2018 (earlier amateur Nashville FC is a different club; 2016-17 null). USL Eastern Conf: 2018 8/16, 2019 2/18. MLS from 2020. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "New England Revolution",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 23,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 26,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 6,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 20,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 1,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 15,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 16,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 15,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "New York City Football Club",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 9,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 13,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 22,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 5,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 8,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 7,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 7,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 2,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2021",
+    "type": "league",
+    "what": "MLS Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Orlando City",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 14,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 9,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 2,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 13,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 10,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 5,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 22,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 18,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2022",
+    "type": "cup",
+    "what": "U.S. Open Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Philadelphia Union",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 1,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 23,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 5,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 2,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 6,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 1,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 11,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 16,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Portland Timbers",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 17,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 15,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 18,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 15,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 5,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 8,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 8,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 6,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Real Salt Lake",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 19,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 6,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 11,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 14,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 13,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 21,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 12,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 14,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Red Bull New York",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 18,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 16,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 17,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 6,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 14,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 13,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 1,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 9,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "San Diego FC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 4,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2023",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2022",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2021",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2020",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2019",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2018",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2017",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2016",
+    "tier": null,
+    "pos": null,
+    "of": null
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS debut 2025. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "San Jose Earthquakes",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 20,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 29,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 16,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 26,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 21,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 16,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 23,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 12,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Seattle Sounders FC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 10,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 7,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 7,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 21,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 3,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 6,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 4,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 7,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025",
+    "type": "league_cup",
+    "what": "Leagues Cup"
+   },
+   {
+    "s": "2022",
+    "type": "continental",
+    "what": "CONCACAF Champions League"
+   },
+   {
+    "s": "2019",
+    "type": "league",
+    "what": "MLS Cup"
+   },
+   {
+    "s": "2016",
+    "type": "league",
+    "what": "MLS Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2022 CONCACAF Champions League winners. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Sporting Kansas City",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 27,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 27,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 15,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 22,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 4,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 3,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 3,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 11,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2017",
+    "type": "cup",
+    "what": "U.S. Open Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "St. Louis CITY SC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 24,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 24,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 4,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2021",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2020",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2019",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2018",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2017",
+    "tier": null,
+    "pos": null,
+    "of": null
+   },
+   {
+    "s": "2016",
+    "tier": null,
+    "pos": null,
+    "of": null
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "MLS debut 2023. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Toronto FC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 25,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 22,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 29,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 27,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 26,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 2,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 19,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 1,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020",
+    "type": "cup",
+    "what": "Canadian Championship"
+   },
+   {
+    "s": "2018",
+    "type": "cup",
+    "what": "Canadian Championship"
+   },
+   {
+    "s": "2017",
+    "type": "league",
+    "what": "MLS Cup"
+   },
+   {
+    "s": "2017",
+    "type": "cup",
+    "what": "Canadian Championship"
+   },
+   {
+    "s": "2016",
+    "type": "cup",
+    "what": "Canadian Championship"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2017 treble (MLS Cup, Supporters' Shield, Canadian Championship). Canadian Championship counted as 'cup'. 2020 edition final played June 2022. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ },
+ {
+  "name": "Vancouver Whitecaps FC",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 5,
+    "of": 30
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 14,
+    "of": 29
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 13,
+    "of": 29
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 17,
+    "of": 28
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 12,
+    "of": 27
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 17,
+    "of": 26
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 23,
+    "of": 24
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 14,
+    "of": 23
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 8,
+    "of": 22
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025",
+    "type": "cup",
+    "what": "Canadian Championship"
+   },
+   {
+    "s": "2024",
+    "type": "cup",
+    "what": "Canadian Championship"
+   },
+   {
+    "s": "2023",
+    "type": "cup",
+    "what": "Canadian Championship"
+   },
+   {
+    "s": "2022",
+    "type": "cup",
+    "what": "Canadian Championship"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Canadian Championship counted as 'cup'. MLS positions from the overall (Supporters' Shield) table; 2020 overall table ranked by points per game (COVID-shortened season)."
+ }
+]

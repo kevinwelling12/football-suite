@@ -1,0 +1,1620 @@
+[
+ {
+  "name": "Arsenal",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Premier League"
+   },
+   {
+    "s": "2019-20",
+    "type": "cup",
+    "what": "FA Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "cup",
+    "what": "FA Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Aston Villa",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 13,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "continental2",
+    "what": "UEFA Europa League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2018-19 Championship 5th, promoted via play-offs."
+ },
+ {
+  "name": "Bournemouth",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Brentford",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 10,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2020-21 Championship 3rd, promoted via play-offs."
+ },
+ {
+  "name": "Brighton",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 2,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Chelsea",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "continental2",
+    "what": "UEFA Conference League"
+   },
+   {
+    "s": "2020-21",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   },
+   {
+    "s": "2018-19",
+    "type": "continental2",
+    "what": "UEFA Europa League"
+   },
+   {
+    "s": "2017-18",
+    "type": "cup",
+    "what": "FA Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Premier League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Coventry City",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 8,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 23,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "EFL Championship"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "EFL League One"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2017-18 in League Two (tier 4), 6th, promoted via play-offs. 2019-20 League One title decided on points per game (season curtailed by COVID)."
+ },
+ {
+  "name": "Crystal Palace",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "continental2",
+    "what": "UEFA Conference League"
+   },
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "FA Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Won 2024-25 FA Cup and 2025-26 Conference League."
+ },
+ {
+  "name": "Everton",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2023-24 PL: 8 points deducted in total (PSR breaches)."
+ },
+ {
+  "name": "Fulham",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 6,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "EFL Championship"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2017-18 and 2019-20 promoted via Championship play-offs."
+ },
+ {
+  "name": "Hull City",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 19,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 18,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "EFL League One"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2025-26 Championship 6th, promoted via play-offs (Southampton, 4th, were expelled from the play-offs for spying)."
+ },
+ {
+  "name": "Ipswich Town",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 16,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2019-20 League One final table on points per game (COVID curtailment)."
+ },
+ {
+  "name": "Leeds United",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 7,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "EFL Championship"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "EFL Championship"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Liverpool",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Premier League"
+   },
+   {
+    "s": "2023-24",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   },
+   {
+    "s": "2021-22",
+    "type": "cup",
+    "what": "FA Cup"
+   },
+   {
+    "s": "2021-22",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Premier League"
+   },
+   {
+    "s": "2018-19",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Manchester City",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "cup",
+    "what": "FA Cup"
+   },
+   {
+    "s": "2025-26",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Premier League"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Premier League"
+   },
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "FA Cup"
+   },
+   {
+    "s": "2022-23",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   },
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Premier League"
+   },
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Premier League"
+   },
+   {
+    "s": "2020-21",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   },
+   {
+    "s": "2019-20",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Premier League"
+   },
+   {
+    "s": "2018-19",
+    "type": "cup",
+    "what": "FA Cup"
+   },
+   {
+    "s": "2018-19",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Premier League"
+   },
+   {
+    "s": "2017-18",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Manchester United",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "cup",
+    "what": "FA Cup"
+   },
+   {
+    "s": "2022-23",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "continental2",
+    "what": "UEFA Europa League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Newcastle United",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 1,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "league_cup",
+    "what": "EFL Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "EFL Championship"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Nottingham Forest",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 21,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2021-22 Championship 4th, promoted via play-offs. 2023-24 PL: 4-point deduction (PSR)."
+ },
+ {
+  "name": "Sunderland",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 8,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2021-22 League One 5th, promoted via play-offs; 2024-25 Championship 4th, promoted via play-offs."
+ },
+ {
+  "name": "Tottenham Hotspur",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "continental2",
+    "what": "UEFA Europa League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ }
+]

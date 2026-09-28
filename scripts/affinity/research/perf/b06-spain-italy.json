@@ -1,0 +1,2342 @@
+[
+ {
+  "name": "Alavés",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 4,
+    "of": 22
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Promoted via 2023 Segunda play-offs."
+ },
+ {
+  "name": "Athletic Club",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "cup",
+    "what": "Copa del Rey"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Celta Vigo",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Deportivo La Coruña",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 2,
+    "of": 22
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 15,
+    "of": 22
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 2,
+    "of": 6
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 19,
+    "of": 22
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 6,
+    "of": 22
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Primera Federación (Group 1)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "medium",
+  "notes": "2020-21 Segunda B: second-phase Group 1D position (qualified for new Primera RFEF). Tier 3 2020-21 to 2023-24; promoted to La Liga 2026."
+ },
+ {
+  "name": "Elche",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 2,
+    "of": 22
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 11,
+    "of": 22
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 6,
+    "of": 22
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 11,
+    "of": 22
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 21,
+    "of": 22
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2017-18 Segunda B Group 3, promoted via play-offs; 2019-20 promoted via play-offs."
+ },
+ {
+  "name": "Espanyol",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 4,
+    "of": 22
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 1,
+    "of": 22
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Segunda División"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Promoted via 2024 Segunda play-offs."
+ },
+ {
+  "name": "Getafe",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 3,
+    "of": 22
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Promoted via 2017 Segunda play-offs."
+ },
+ {
+  "name": "Levante",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 1,
+    "of": 22
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 8,
+    "of": 22
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 3,
+    "of": 22
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 1,
+    "of": 22
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Segunda División"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Segunda División"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Málaga",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 4,
+    "of": 22
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 16,
+    "of": 22
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 20,
+    "of": 22
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 18,
+    "of": 22
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 12,
+    "of": 22
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 14,
+    "of": 22
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 3,
+    "of": 22
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2023-24 Primera Federación Group 2, promoted via play-offs; 2025-26 promoted via Segunda play-offs."
+ },
+ {
+  "name": "Osasuna",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 1,
+    "of": 22
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 8,
+    "of": 22
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Segunda División"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Racing Santander",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 1,
+    "of": 22
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 5,
+    "of": 22
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 7,
+    "of": 22
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 12,
+    "of": 22
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 2,
+    "of": 7
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 22,
+    "of": 22
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 2,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Segunda División"
+   },
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Primera División RFEF (Group 1)"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Segunda División B (Group 2)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "medium",
+  "notes": "2016-17 to 2018-19 Segunda B Group 2; 2020-21 Segunda B second-phase group position (qualified for Primera RFEF)."
+ },
+ {
+  "name": "Rayo Vallecano",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 6,
+    "of": 22
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 7,
+    "of": 22
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 1,
+    "of": 22
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 12,
+    "of": 22
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Segunda División"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Runners-up 2025-26 Conference League."
+ },
+ {
+  "name": "Real Sociedad",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "cup",
+    "what": "Copa del Rey"
+   },
+   {
+    "s": "2019-20",
+    "type": "cup",
+    "what": "Copa del Rey"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2019-20 Copa del Rey final played April 2021; 2025-26 final won on penalties."
+ },
+ {
+  "name": "Sevilla",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2022-23",
+    "type": "continental2",
+    "what": "UEFA Europa League"
+   },
+   {
+    "s": "2019-20",
+    "type": "continental2",
+    "what": "UEFA Europa League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Valencia",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2018-19",
+    "type": "cup",
+    "what": "Copa del Rey"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "AC Milan",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Serie A"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Atalanta",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "continental2",
+    "what": "UEFA Europa League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Bologna",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "Coppa Italia"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Cagliari",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Promoted via 2023 Serie B play-offs."
+ },
+ {
+  "name": "Fiorentina",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Frosinone",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 3,
+    "of": 22
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 3,
+    "of": 22
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Serie B"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Genoa",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Juventus",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "cup",
+    "what": "Coppa Italia"
+   },
+   {
+    "s": "2020-21",
+    "type": "cup",
+    "what": "Coppa Italia"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Serie A"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Serie A"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Serie A"
+   },
+   {
+    "s": "2017-18",
+    "type": "cup",
+    "what": "Coppa Italia"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Serie A"
+   },
+   {
+    "s": "2016-17",
+    "type": "cup",
+    "what": "Coppa Italia"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2022-23: 7th after 10-point deduction."
+ },
+ {
+  "name": "Lazio",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2018-19",
+    "type": "cup",
+    "what": "Coppa Italia"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Lecce",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 2,
+    "of": 19
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 1,
+    "of": 19
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 2,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Serie B"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Serie C (Group C)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2016-17 Serie C Group C."
+ },
+ {
+  "name": "Monza",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 4,
+    "of": 19
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 1,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Serie C (Group A)"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Serie D (Group B + Scudetto Dilettanti)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Serie D (tier 4) 2016-17; Serie C 2019-20 curtailed by COVID, Monza awarded group title. Promoted via 2022 and 2026 Serie B play-offs."
+ },
+ {
+  "name": "Parma",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 2,
+    "of": 22
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 2,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Serie B"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2016-17 Serie C Group B, promoted via play-offs."
+ },
+ {
+  "name": "Sassuolo",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Serie B"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Torino",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Udinese",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   }
+  ],
+  "trophies": [],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Venezia",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 19,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 11,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 15,
+    "of": 19
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 5,
+    "of": 22
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 1,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Serie B"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Serie C (Group B)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Promoted via 2021 and 2024 Serie B play-offs."
+ }
+]

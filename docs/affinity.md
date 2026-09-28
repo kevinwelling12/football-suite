@@ -3,7 +3,8 @@
 Built from a 51-question supporter-profile interview ("the Principled Romantic").
 Five factors, 0-10 each, weights from Kevin's own ranking (re-rate 2026-09):
 Values 26% · Supporter culture 26% · History & identity 14% · Ownership 12% · Team 12%
-(quiz round 3; before: 28 / 26 / 16 / 12 / Style 8; originally 22 / 28 / 18 / 14 / 8). base = weighted sum / 0.90 * 10 + adjustments.
+(quiz round 3; before: 28 / 26 / 16 / 12 / Style 8; originally 22 / 28 / 18 / 14 / 8).
+base = weighted sum / 0.90 * 10 * track record coefficient + adjustments.
 Bonus: nations keep a heritage tiebreaker up to +10. Clubs have no regional bonus; only the hometown club
 (Sacramento Republic FC) gets +4.
 
@@ -40,3 +41,16 @@ Quiz round 3 (players and team culture, 2026-09-28; research in scripts/affinity
 - Rivals of clubs Kevin follows: Schalke, Bayern, Seattle Sounders, Seattle Reign, Vancouver -5; Everton -2.
 - Republic link +2: a former Republic player who is a regular at a higher-tier club (now LAFC, Aaron Long).
 Rescore: edit scripts/affinity/scores.py (USL: scripts/importers/build_usl.py) -> rescore.py -> build.
+
+Track record (2026-09-28, scripts/affinity/performance.py; data in scripts/affinity/research/perf, brief PERF_BRIEF.md):
+- Clubs only. A coefficient, not a sixth factor: k = 0.90 + 0.02 * P multiplies the factor score before
+  adjustments (P 0 -> x0.90, 5 -> x1.00, 10 -> x1.10). Penalties are not scaled.
+- P (0-10) = the last 10 completed league seasons, averaged with a 3-season half-life (last season counts 1,
+  three seasons ago 0.5, nine ago 0.125). Older success counts for nothing here; History covers heritage.
+- Each season is judged against the tier the club is analysed in: top flights 1, Championship and USL Championship 2,
+  League One/Two as one band (3-4). In the band: 8.5 * (1 - p^1.5), p = 0 first, 1 last (steady top-half
+  finishes score close to a title, a relegation fight scores low). One tier above: 8.5-10; two or more: 10.
+  One tier below: up to 4.5; two or more: 0. Trophies add: league title 1.5, main cup 1, league cup 0.5,
+  Champions League / CONCACAF Champions Cup 2, Europa / Conference League 1 (capped at 10).
+- Seasons before a club existed score 3 (no consistency shown yet). NWSL 2020 (no regular season) is left out.
+- Refresh once a year after the seasons end: add the new season to perf/*.json (drop the oldest), then rescore.

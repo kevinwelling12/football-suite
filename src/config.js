@@ -89,4 +89,11 @@ const DOT = { epl: '#FF2D87', ch: '#E9B824', cup: '#22C55E', ucl: '#3B82F6', esp
 // Chip labels: [full, phone]. Phone labels keep each region's chips on one row at 390px.
 const CHIP = { epl: ['Premier League', 'Premier Lg'], cup: ['Carabao Cup', 'Carabao'], usl: ['USL'] };
 const ORDER = REGIONS.flatMap(r => r.comps);
-if (typeof module !== 'undefined') module.exports = { COMPS_CFG, ORDER, REGIONS, DOT, CHIP };
+// Short labels for the slim bar that sticks to the top once the header scrolls away.
+const ABBR = { epl: 'EPL', ch: 'EFL', cup: 'Cup', ucl: 'UCL', esp: 'LaLiga', ita: 'Serie A', bl: 'BL', fra: 'L1', mls: 'MLS', usl: 'USL', nwsl: 'NWSL', unl: 'UNL' };
+// Model config for a competition (shared by the page and the background model worker).
+function compCfg(k, params) {
+  const c = COMPS_CFG[k];
+  return Object.assign({ grouped: !!c.grouped, satOrder: c.satOrder, drawPrior: c.drawPrior }, c.build ? c.build((params || {}).zoneW || {}) : {});
+}
+if (typeof module !== 'undefined') module.exports = { COMPS_CFG, ORDER, REGIONS, DOT, CHIP, ABBR, compCfg };

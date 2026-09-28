@@ -601,8 +601,30 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 :root.bc .legend span::before{border-radius:2px}
 
 .linkish{background:none;border:0;padding:0;color:#64D2FF;font:inherit;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+
+/* Live match controls: +1 goal buttons either side of the next match event */
+.live-ctl{display:grid;grid-template-columns:1fr 1.4fr 1fr;gap:8px;margin:12px 0 2px}
+.live-ctl.one{grid-template-columns:1fr}
+.live-ctl .btn{height:44px;padding:0 6px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.status .updating{color:var(--muted);font-weight:500}
+/* Slim bar pinned to the top once the header's nav scrolls away */
+.mini{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;align-items:center;gap:8px;
+  padding:calc(env(safe-area-inset-top,0px) + 6px) 12px 6px;background:rgba(10,10,12,.86);
+  -webkit-backdrop-filter:saturate(180%) blur(18px);backdrop-filter:saturate(180%) blur(18px);
+  border-bottom:.5px solid rgba(255,255,255,.12);transform:translateY(-110%);transition:transform .18s ease-out}
+.mini.on{transform:none}
+@media (prefers-reduced-motion:reduce){.mini{transition:none}}
+.mini-comp{flex:none;display:flex;align-items:center;gap:6px;background:none;border:0;color:#fff;font-weight:750;font-size:14px;padding:8px 2px;cursor:pointer}
+.mini-comp i{display:inline-block;flex:none;width:9px;height:9px;border-radius:50%;background:var(--c)}
+:root.bc .mini nav.mini-tabs{margin:0;flex:1 1 auto;min-width:0}
+:root.bc .mini nav.mini-tabs button{padding:6px 9px;font-size:13px}
+@media (max-width:420px){.mini{gap:6px;padding-left:10px;padding-right:10px}:root.bc .mini nav.mini-tabs button{padding:6px 6px;font-size:12.5px}}
+.mini .mini-regions{flex:1;margin:0;border:0}
+.mini .mini-regions button{padding:6px 4px 7px}
+@media (min-width:601px){.mini{padding-left:max(20px,calc((100% - 1100px)/2 + 20px))}}
 </style></head>
 <body>
+<div class="mini" id="mini" inert></div>
 <header class="mast"><div class="mast-in">
   <h1 class="league" id="title">Football Tracker<span class="season">Suite</span></h1>
   <p class="status" id="status">Loading…</p>
@@ -639,7 +661,7 @@ window.FIREBASE_CONFIG = {
 */
 </script>
 <script>window.SEED = {};</script>
-<script>const Z = (key, label, test, w, extra = {}) => Object.assign({ key, label, test, w, scope: 'overall' }, extra);
+<script id="src-config">const Z = (key, label, test, w, extra = {}) => Object.assign({ key, label, test, w, scope: 'overall' }, extra);
 const EU_LINES = [[17.5, 1], [1.5, 0.85], [4.5, 0.55], [6.5, 0.25], [5.5, 0.2]];
 const GOLD = '#E9B308', GREEN = 'var(--mint)', CYAN = 'var(--cyan)', RED = 'var(--magenta)', AMBER = '#F29D0C';
 const euro20 = (zw) => ({
@@ -730,9 +752,16 @@ const DOT = { epl: '#FF2D87', ch: '#E9B824', cup: '#22C55E', ucl: '#3B82F6', esp
 // Chip labels: [full, phone]. Phone labels keep each region's chips on one row at 390px.
 const CHIP = { epl: ['Premier League', 'Premier Lg'], cup: ['Carabao Cup', 'Carabao'], usl: ['USL'] };
 const ORDER = REGIONS.flatMap(r => r.comps);
-if (typeof module !== 'undefined') module.exports = { COMPS_CFG, ORDER, REGIONS, DOT, CHIP };
+// Short labels for the slim bar that sticks to the top once the header scrolls away.
+const ABBR = { epl: 'EPL', ch: 'EFL', cup: 'Cup', ucl: 'UCL', esp: 'LaLiga', ita: 'Serie A', bl: 'BL', fra: 'L1', mls: 'MLS', usl: 'USL', nwsl: 'NWSL', unl: 'UNL' };
+// Model config for a competition (shared by the page and the background model worker).
+function compCfg(k, params) {
+  const c = COMPS_CFG[k];
+  return Object.assign({ grouped: !!c.grouped, satOrder: c.satOrder, drawPrior: c.drawPrior }, c.build ? c.build((params || {}).zoneW || {}) : {});
+}
+if (typeof module !== 'undefined') module.exports = { COMPS_CFG, ORDER, REGIONS, DOT, CHIP, ABBR, compCfg };
 </script>
-<script>// Suite model: leagues (with groups), UCL/UNL knockout extensions, and the Carabao Cup engine.
+<script id="src-model">// Suite model: leagues (with groups), UCL/UNL knockout extensions, and the Carabao Cup engine.
 const MODEL = (() => {
   const KMAX = 10;
   const poisVec = l => { const v = new Float64Array(KMAX + 1); v[0] = Math.exp(-l); for (let i = 1; i <= KMAX; i++) v[i] = v[i - 1] * l / i; return v; };
@@ -1316,8 +1345,7 @@ for (const k of ORDER) for (const t of DATA[k].teams) {
 }
 for (const k of ORDER) {
   const d = DATA[k], c = COMPS_CFG[k];
-  COMP[k] = {teams:d.teams, fixtures:d.fixtures, params:d.params || {},
-    cfg: Object.assign({grouped:!!c.grouped, satOrder:c.satOrder, drawPrior:c.drawPrior}, c.build ? c.build((d.params || {}).zoneW || {}) : {})};
+  COMP[k] = {teams:d.teams, fixtures:d.fixtures, params:d.params || {}, cfg:compCfg(k, d.params)};
   state.results[k] = {}; state.settings[k] = {}; state.tab[k] = 'week'; state.favs[k] = []; state.status[k] = {}; state.live[k] = {}; state.motw[k] = {}; state.ko[k] = {};
 }
 state.draws.cup = {};
@@ -1328,8 +1356,101 @@ function Sfor(k) {
   return Object.assign({}, DEF, {halfLife:p.halfLife || 56, k:p.k || 10, h2h:p.h2h ?? 1, h2hK:p.h2hK || 10, rhoPrior:p.rhoPrior ?? -0.13, rhoW:p.rhoW || 300,
     beta:0.3, underdog:0.05, drawW:p.drawW ?? 1.05, haPrior:p.haPrior, scPrior:p.scPrior, baseW:p.baseW || 0}, s, {peOutcome:state.suite.peOutcome, peExact:state.suite.peExact, koRes:state.ko[k] || {}});
 }
-function compute(k) {
-  R[k] = COMPS_CFG[k].cup ? MODEL.runCup(COMP[k], state.results[k], state.draws.cup, Sfor(k)) : MODEL.run(COMP[k], state.results[k], Sfor(k), state.status[k], state.live[k]);
+// ---------------------------------------------------------------- live clock
+// A live entry is {h, a, ph, t, m0}: the phase ('1H' | 'HT' | '2H'), the time t (ms) of the last tap or typed
+// minute, and the match minute m0 at that moment. The clock runs on from there, so taps at kick-off,
+// half-time, the second-half restart and full time keep it right through late starts and long breaks.
+// Stoppage time counts up as 45+N / 90+N. If a tap is missed the clock guesses (marked ~): half-time
+// after 45+12 (taken to have started at 47'), the restart 15 minutes into the break (after waiting 20
+// in case it runs long), and full time is asked for ("FT?") once the second half passes 90+15.
+// Older entries without t ({h, a, min, ht}) keep their fixed minute.
+const HT_AT = 47, HT_LEN = 15, HT_WAIT = 20, STOP_MAX = 12, FT_ASK = 15;
+function clock(L, kt, now = Date.now()) {
+  if (!L.t) {
+    const stale = kt && now - kt > 150 * 6e4;
+    return {ph:L.ht ? 'HT' : L.min > 45 ? '2H' : '1H', min:L.ht ? 45 : L.min, ht:!!L.ht, stale, label:stale ? 'FT?' : L.ht ? 'HT' : L.min + "'"};
+  }
+  const el = (now - L.t) / 6e4;
+  let ph = L.ph, m = ph === 'HT' ? 0 : L.m0 + el, est = false;
+  if (ph === '1H' && m >= 46 + STOP_MAX) { const b = m - HT_AT; est = true; if (b < HT_LEN) return {ph:'HT', min:45, ht:true, est, label:'HT'}; ph = '2H'; m = 46 + b - HT_LEN; }
+  if (ph === 'HT') { if (el < HT_WAIT) return {ph, min:45, ht:true, label:'HT'}; ph = '2H'; m = 46 + el - HT_LEN; est = true; }
+  const t = est ? '~' : '';
+  if (ph === '1H') { const f = Math.max(1, Math.floor(m)); return {ph, min:Math.min(f, 45), label:f <= 45 ? `${t}${f}'` : `${t}45+${f - 45}'`}; }
+  const f = Math.floor(m);
+  if (f > 90 + FT_ASK) return {ph, min:90, est, stale:true, label:'FT?'};
+  return {ph, min:Math.min(f, 90), est, label:f <= 90 ? `${t}${f}'` : `${t}90+${f - 90}'`};
+}
+const liveLabel = (k, f) => { const c = clockOf(k, f.id); return c ? c.label : f.live.min + "'"; };
+const kickOf = (k, id) => { const f = R[k] && R[k].fx[id]; return f ? f.kt : null; };
+const clockOf = (k, id) => { const L = state.live[k][id]; return L ? clock(L, kickOf(k, id)) : null; };
+// What the model needs: score, minute (capped at 90) and whether it's half-time.
+function liveFor(k) {
+  const out = {};
+  for (const [id, L] of Object.entries(state.live[k] || {})) { const c = clock(L, kickOf(k, +id)); out[id] = {h:L.h, a:L.a, min:c.min, ht:c.ht ? 1 : 0}; }
+  return out;
+}
+// Entry for a typed minute ("67", "45+2" counts as 45, "HT").
+function liveAt(h, a, raw, now = Date.now()) {
+  if (raw === 'HT') return {h, a, ph:'HT', t:now};
+  const mn = Math.min(parseInt(raw, 10), 120);
+  return mn <= 45 ? {h, a, ph:'1H', t:now, m0:Math.max(mn, 1)} : {h, a, ph:'2H', t:now, m0:mn};
+}
+
+// ---------------------------------------------------------------- model runs
+// A full run (1,000 seasons) takes up to ~0.8 s for MLS on a laptop, longer on a phone. Full runs go to a
+// background worker so taps never freeze the page. update(k) first does a quick 150-season run on the page
+// so a change shows at once, then swaps in the full result when the worker sends it back.
+const QUICK_SIMS = 150;
+const runArgs = (k, sims) => ({results:state.results[k], draws:state.draws.cup, S:Object.assign(Sfor(k), sims ? {sims} : {}), status:state.status[k], live:liveFor(k)});
+function runModel(k, a) { return COMPS_CFG[k].cup ? MODEL.runCup(COMP[k], a.results, a.draws, a.S) : MODEL.run(COMP[k], a.results, a.S, a.status, a.live); }
+let worker = null; const jobs = {}; let jobSeq = 0;
+function workerMain() {
+  const COMP = {};
+  onmessage = e => {
+    const m = e.data;
+    if (m.init) { for (const [k, d] of Object.entries(m.init)) COMP[k] = Object.assign(d, {cfg:compCfg(k, d.params)}); return; }
+    const a = m.a, r = COMPS_CFG[m.k].cup ? MODEL.runCup(COMP[m.k], a.results, a.draws, a.S) : MODEL.run(COMP[m.k], a.results, a.S, a.status, a.live);
+    postMessage({k:m.k, id:m.id, r});
+  };
+}
+function startWorker() {
+  try {
+    const src = ['src-config', 'src-model'].map(id => document.getElementById(id).textContent).join('\n') + '\n(' + workerMain + ')();';
+    worker = new Worker(URL.createObjectURL(new Blob([src], {type:'text/javascript'})));
+    worker.onmessage = e => { const {k, id, r} = e.data; if (jobs[k] !== id) return; delete jobs[k]; finish(k, r); bgRender(k); };
+    worker.onerror = () => { worker = null; for (const k of Object.keys(jobs)) { delete jobs[k]; compute(k); } render(); };
+    worker.postMessage({init:Object.fromEntries(ORDER.map(k => [k, {teams:COMP[k].teams, fixtures:COMP[k].fixtures, params:COMP[k].params}]))});
+  } catch (e) { worker = null; }
+}
+// Full run in the background (or on the page if workers are unavailable, e.g. inside claude.ai).
+function queueFull(k) {
+  liveSig[k] = sigOf(k);
+  if (!worker) { compute(k); return false; }
+  jobs[k] = ++jobSeq; worker.postMessage({k, id:jobs[k], a:runArgs(k)}); return true;
+}
+// Keep live clocks and "Kicked off" buttons current (every 30 s while the page is open) and re-run the
+// model every 2 minutes of match time so live odds follow the clock.
+const liveSig = {};
+const sigOf = k => JSON.stringify(Object.entries(liveFor(k)).map(([id, x]) => [id, x.h, x.a, x.ht, x.min >> 1]));
+function tick() {
+  if (document.hidden) return;
+  const now = Date.now(), v = state.view;
+  let redraw = false;
+  for (const k of ORDER) {
+    if (!R[k] || !Object.keys(state.live[k] || {}).length) continue;
+    redraw = true;
+    if (!jobs[k] && liveSig[k] !== sigOf(k)) { if (worker) queueFull(k); else { liveSig[k] = sigOf(k); finish(k, runModel(k, runArgs(k, QUICK_SIMS)), true); } }
+  }
+  if (!redraw) redraw = ORDER.some(k => R[k] && (v === 'home' || v === k) && R[k].fx.some(f => !f.played && f.kt && now >= f.kt - 10 * 6e4 && now <= f.kt + 150 * 6e4));
+  if (redraw) bgRender();
+}
+setInterval(tick, 30000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) tick(); });
+// A change the user just made: quick result now, full result shortly.
+function update(k) { if (worker) { finish(k, runModel(k, runArgs(k, QUICK_SIMS)), true); queueFull(k); } else { liveSig[k] = sigOf(k); compute(k); } }
+function compute(k) { finish(k, runModel(k, runArgs(k))); }
+function finish(k, r, quick) {
+  R[k] = r;
   const km = DATA[k].kick || {}, st = state.status[k] || {};
   for (const f of R[k].fx) {
     const s = st[f.id] || {}, x = km[f.id];
@@ -1338,7 +1459,8 @@ function compute(k) {
     f.postponed = !f.played && !!s.p; f.awarded = f.played && !!s.aw;
     f.sortT = f.kt || Date.parse(f.date + 'T19:00:00Z');
   }
-  if (lockMotw(k)) saveLocal();
+  R[k].quick = !!quick;
+  if (!quick && lockMotw(k)) saveLocal();
   if (state.mw[k] == null) state.mw[k] = defaultRound(k);
 }
 function defaultRound(k) {
@@ -1349,9 +1471,24 @@ function defaultRound(k) {
   const full = Math.max(...Object.values(counts)); return keys.find(x => counts[x] >= 0.6 * full);
 }
 function computeAll() {
+  if (worker) { ORDER.forEach(queueFull); return; }
   const queue = [...ORDER];
   const step = () => { const k = queue.shift(); if (!k) return; compute(k); if (state.view === 'home' || state.view === k) render(); setTimeout(step, 0); };
   step();
+}
+// Re-render for a background change (worker result, cloud sync, clock tick) without disturbing the reader:
+// the first card on screen stays put, and an open score entry keeps its typed values and focus.
+function bgRender(k) {
+  if (k && state.view !== k && state.view !== 'home') { renderStatus(); return; }
+  const open = [...document.querySelectorAll('#main .entry:not([hidden])')];
+  const vals = open.flatMap(e => [...e.querySelectorAll('input[id],select[id]')]).map(x => [x.id, x.type === 'checkbox' ? x.checked : x.value]);
+  const foc = document.activeElement && document.activeElement.id;
+  const first = [...document.querySelectorAll('#main [data-fx]')].find(x => x.getBoundingClientRect().bottom > 0);
+  anchor = first ? {key:first.dataset.fx, top:first.getBoundingClientRect().top} : null;
+  render();
+  open.forEach(e => { const x = document.getElementById(e.id); if (x) x.hidden = false; });
+  vals.forEach(([id, v]) => { const x = document.getElementById(id); if (x) { if (x.type === 'checkbox') x.checked = v; else x.value = v; } });
+  if (foc) { const x = document.getElementById(foc); if (x && x.closest('#main')) x.focus({preventScroll:true}); }
 }
 
 // ---------------------------------------------------------------- persistence
@@ -1432,10 +1569,10 @@ async function connect() {
       syncFavs(); saveLocal();
     }
     saveMode = backend.name;
-    ORDER.forEach(k => compute(k)); render();
+    ORDER.forEach(k => queueFull(k)); bgRender();
     if (backend.watch) backend.watch((k, d) => {
       if (docSig(d) === docSig(docFor(k))) return;
-      if (applyDoc(k, d)) { saveLocal(); if (k === 'suite') ORDER.forEach(c => compute(c)); else compute(k); render(); }
+      if (applyDoc(k, d)) { saveLocal(); if (k === 'suite') ORDER.forEach(c => queueFull(c)); else update(k); bgRender(k === 'suite' ? null : k); }
     });
   } catch (e) { console.error(e); saveMode = 'device'; renderStatus(); }
 }
@@ -1470,7 +1607,17 @@ function renderChrome() {
     ? `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="Settings" title="Settings" class="gear"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.3 7.3 0 0 0-1.7-1l-.4-2.6h-4l-.4 2.6a7.3 7.3 0 0 0-1.7 1l-2.4-1-2 3.4 2 1.6a7.6 7.6 0 0 0 0 2l-2 1.6 2 3.4 2.4-1c.5.4 1.1.7 1.7 1l.4 2.6h4l.4-2.6c.6-.3 1.2-.6 1.7-1l2.4 1 2-3.4-2-1.6ZM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Z"/></svg></button>`
     : `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="${esc(l)}">${tabShort(k, t, l) === l ? esc(l) : `<span class="nm-full">${esc(l)}</span><span class="nm-short">${esc(tabShort(k, t, l))}</span>`}</button>`).join('');
   $('#tabs').hidden = k === 'home';
+  // Slim bar that slides in once the header's nav scrolls away: regions on Home, else competition + sections.
+  $('#mini').innerHTML = k === 'home' ? `<nav class="regions mini-regions">${$('#regions').innerHTML}</nav>`
+    : `<button class="mini-comp" data-top="1" aria-label="${esc(COMPS_CFG[k].name)}: back to top"><i style="--c:${DOT[k]}"></i>${esc(ABBR[k])}</button><nav class="tabs mini-tabs" role="tablist" aria-label="Sections">${[...$('#tabs').children].filter(b => !b.classList.contains('gear')).map(b => b.outerHTML).join('')}</nav>`;
+  miniCheck();
 }
+function miniCheck() {
+  const nav = state.view === 'home' ? $('#regions') : $('#tabs'), on = nav.getBoundingClientRect().bottom < 0, m = $('#mini');
+  if (m.classList.contains('on') !== on) { m.classList.toggle('on', on); m.inert = !on; }
+}
+let miniRaf = 0;
+addEventListener('scroll', () => { if (!miniRaf) miniRaf = requestAnimationFrame(() => { miniRaf = 0; miniCheck(); }); }, {passive:true});
 const regionOf = k => REGIONS.find(r => r.comps.includes(k));
 const lastIn = {};
 function renderStatus() {
@@ -1483,6 +1630,7 @@ function renderStatus() {
   else {
     const r = R[k], last = r.fx.filter(f => f.played).reduce((m, f) => f.date > m ? f.date : m, '');
     s = COMPS_CFG[k].cup ? `<b>${r.alive.length}</b> clubs left of 92` : `<b>${r.nPlayed}</b> of ${r.fx.length} matches played${last ? `, results through <b>${fmtDate(last, {month:'long', day:'numeric'})}</b>` : ''}`;
+    if (r.quick) s += ' · <span class="updating">updating odds…</span>';
   }
   const sv = saveMode === 'google' ? `Synced to ${esc(backend && backend.user && backend.user.email || 'your Google account')}` : saveMode === 'claude' ? 'Scores save to your Claude account'
     : authState === 'signed-out' ? 'Saved on this device · <button class="linkish" data-signin="1">Sign in to sync</button>' : 'Scores save on this device';
@@ -1554,7 +1702,7 @@ function matchCard(k, f, motw) {
   const bcTeams = f.h != null && f.a != null && !!T(k)[f.h].abbr && document.documentElement.classList.contains('bc');
   const fin = f.played, cup = COMPS_CFG[k].cup, known = f.h != null && f.a != null, rated = f.pH != null;
   let scoreHtml;
-  if (f.live) scoreHtml = `<div class="score live num">${f.live.h}<span class="dash">–</span>${f.live.a}</div><div class="score-cap"><span class="live-dot"></span>${f.live.min}' · pick ${f.pick[0]}–${f.pick[1]}</div>`;
+  if (f.live) scoreHtml = `<div class="score live num">${f.live.h}<span class="dash">–</span>${f.live.a}</div><div class="score-cap"><span class="live-dot"></span>${liveLabel(k, f)} · pick ${f.pick[0]}–${f.pick[1]}</div>`;
   else if (fin) scoreHtml = `<div class="score final num">${f.hs}<span class="dash">–</span>${f.as}</div><div class="score-cap">${f.awarded ? 'Awarded' : ''}${f.awarded ? '' : ''}${f.pens != null && f.hs === f.as && !f.round?.endsWith('leg 1') ? esc(nm(k, f.pens)) + ' on pens' : 'Full time'}</div>`;
   else if (rated) scoreHtml = `<div class="score num">${f.pick[0]}<span class="dash">–</span>${f.pick[1]}</div><div class="score-cap">Your pick 'em</div>`;
   else scoreHtml = `<div class="score num" style="color:var(--faint)">v</div><div class="score-cap">${known ? 'No prediction' : 'Awaiting draw'}</div>`;
@@ -1575,6 +1723,25 @@ function matchCard(k, f, motw) {
   const P = f.live || f;
   const probs = rated ? `<div class="probs" aria-hidden="true"><span style="flex:${P.pH}"></span><span style="flex:${P.pD}"></span><span style="flex:${P.pA}"></span></div>
     <div class="prob-lab num"><span><b>${pct(P.pH)}</b> ${bcTeams ? esc(T(k)[f.h].abbr) : 'Home'}</span><span><b>${pct(P.pD)}</b> ${f.live ? 'Draw · live' : 'Draw'}</span><span><b>${pct(P.pA)}</b> ${bcTeams ? esc(T(k)[f.a].abbr) : 'Away'}</span></div>` : '';
+  // Live controls: goals and the next match event, one tap each. Before a match, "Kicked off" appears from
+  // 10 minutes before the listed kickoff; tapped more than 5 minutes after it, the clock starts at kickoff.
+  let liveCtl = '';
+  if (!cup && known && !fin && !f.postponed) {
+    const now = Date.now();
+    if (f.live) {
+      const c = clockOf(k, f.id) || {ph:f.live.ht ? 'HT' : '2H'};
+      // while the clock is guessing past a missed tap, keep offering the restart until the 70th minute
+      const [ev, lab] = c.stale ? ['ft', `Full time ${f.live.h}–${f.live.a}?`] : c.ph === '1H' ? ['ht', 'Half-time']
+        : c.ph === 'HT' || (c.est && c.min < 70) ? ['sh', '2nd half'] : ['ft', 'Full time'];
+      const ab = i => esc(T(k)[i].abbr || nm(k, i));
+      liveCtl = `<div class="live-ctl"><button class="btn ghost" data-ev="gh" data-id="${f.id}" aria-label="Goal ${esc(full(k, f.h))}">+1 ${ab(f.h)}</button>
+        <button class="btn ${c.stale || ev === 'ft' ? 'primary' : 'live-btn'}" data-ev="${ev}" data-id="${f.id}">${lab}</button>
+        <button class="btn ghost" data-ev="ga" data-id="${f.id}" aria-label="Goal ${esc(full(k, f.a))}">+1 ${ab(f.a)}</button></div>`;
+    } else if (f.kt && now >= f.kt - 10 * 6e4 && now <= f.kt + 150 * 6e4) {
+      const late = now - f.kt > 5 * 6e4;
+      liveCtl = `<div class="live-ctl one"><button class="btn live-btn" data-ev="ko" data-id="${f.id}">${late ? `Live now (clock from ${fmtTime(f.kt)})` : 'Kicked off'}</button></div>`;
+    }
+  }
   const canDraw = cup && !known && ['Quarter-final', 'Semi-final leg 1', 'Final'].includes(f.round) && f.round !== 'Final';
   const drawUI = canDraw ? drawPicker(k, f) : '';
   const canEnter = known && !(cup && f.round.startsWith('Semi-final') && false);
@@ -1592,7 +1759,7 @@ function matchCard(k, f, motw) {
     <div class="m-top"><span>${fin ? fmtDateK(f) : whenLabel(f)}${cup ? ' · ' + esc(f.round) + (f.round.startsWith('Semi') ? '' : ` ${f.tie}`) : ''}</span>${imp}</div>
     ${bcTeams ? (() => {
       const sh = fin ? f.hs : f.live ? f.live.h : rated ? f.pick[0] : '', sa = fin ? f.as : f.live ? f.live.a : rated ? f.pick[1] : '';
-      const mid = f.live ? `<span class="bug-mid-seg live">${f.live.ht ? 'HT' : f.live.min + "'"}</span>` : fin ? '<span class="bug-mid-seg">FT</span>'
+      const mid = f.live ? `<span class="bug-mid-seg live">${liveLabel(k, f)}</span>` : fin ? '<span class="bug-mid-seg">FT</span>'
         : f.postponed ? '<span class="bug-mid-seg">PPD</span>' : '<span class="bug-mid-seg dim">–</span>';
       return `<div class="bugwrap" ${rated || fin ? `role="button" tabindex="0" data-open="${f.id}"` : ''}>
         <div class="bug ${!fin && !f.live ? 'is-pick' : ''}"><span class="bug-team" style="--tc:${T(k)[f.h].color}"><i></i>${esc(T(k)[f.h].abbr)}${star(k, f.h)}</span>
@@ -1604,7 +1771,7 @@ function matchCard(k, f, motw) {
       <div>${scoreHtml}</div>
       ${bcTeams ? `<div class="team bc-team"><span class="t-abbr">${tchip(k, f.a)}${esc(T(k)[f.a].abbr)}${star(k, f.a)}</span><small>${esc(nm(k, f.a))}${wlab('a') ? ' · ' + wlab('a') : ''}</small></div>` : `<div class="team"><span class="${f.favored === 'A' ? 'fav' : ''}">${esc(nm(k, f.a))}${star(k, f.a)}</span><small>${wlab('a')}</small></div>`}
     </div>`}
-${probs}
+${probs}${liveCtl}
     ${!fin && known ? `<div class="tv">Watch: ${esc(tvLabel(k))}</div>` : ''}
     ${foot ? `<div class="m-foot">${foot}</div>` : ''}${affRow}${drawUI}
     ${canEnter ? `<div class="m-act"><button class="enter wide" data-enter="${f.id}">${fin ? 'Edit result' : f.live ? 'Update score' : 'Enter score'}</button></div>
@@ -1613,7 +1780,7 @@ ${probs}
       <input inputmode="numeric" aria-label="${esc(full(k, f.a))} goals" value="${fin ? f.as : f.live ? f.live.a : ''}" id="as-${f.id}">
       ${needPens ? `<select id="pw-${f.id}" aria-label="Penalty winner if level"><option value="">Pens (if level)</option><option value="${f.h}" ${f.pens === f.h ? 'selected' : ''}>${esc(nm(k, f.h))}</option><option value="${f.a}" ${f.pens === f.a ? 'selected' : ''}>${esc(nm(k, f.a))}</option></select>` : ''}
       <button class="btn primary" data-save="${f.id}">Save</button>${fin ? `<button class="btn ghost" data-clear="${f.id}">Clear</button>` : ''}
-      ${!cup && !fin ? `<div class="st-row live-row"><span>In progress? Minute or HT</span><input id="mn-${f.id}" value="${f.live ? (f.live.ht ? 'HT' : f.live.min) : ''}" placeholder="67" aria-label="Minute, or HT">
+      ${!cup && !fin ? `<div class="st-row live-row"><span>In progress? Minute or HT</span><input id="mn-${f.id}" value="${f.live ? (c => c.ht ? 'HT' : c.min)(clockOf(k, f.id) || f.live) : ''}" placeholder="67" aria-label="Minute, or HT">
         <button class="btn live-btn" data-live="${f.id}">Update live</button>${f.live ? `<button class="btn ghost" data-unlive="${f.id}">Not live</button>` : ''}</div>
       <p class="hint">Save = full time. Update live = the score so far at that minute; odds, tables and importance update to match.</p>` : ''}
       ${!cup ? `<div class="st-row"><label class="aw"><input type="checkbox" id="aw-${f.id}" ${f.awarded ? 'checked' : ''}> Awarded result (counts in the table, not in ratings or pick 'em)</label></div>
@@ -1935,7 +2102,7 @@ function viewHome() {
   const lives = ORDER.filter(k => R[k]).flatMap(k => R[k].fx.filter(f => f.live).map(f => ({k, f})));
   const liveSec = lives.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Matches you've marked in progress, with live win chances and your pick 'em outlook.</p>
     <div class="card" style="margin-top:12px">${lives.map(({k, f}) => `<div class="feed-row live-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
-      <span class="d">${f.live.min}'</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
+      <span class="d">${liveLabel(k, f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
       <span class="m">${star(k, f.h)}${esc(nm(k, f.h))} <b class="num">${f.live.h}–${f.live.a}</b> ${esc(nm(k, f.a))}${star(k, f.a)} <span style="color:var(--muted);font-weight:500">· ${pct(f.live.pH)} / ${pct(f.live.pD)} / ${pct(f.live.pA)}</span></span>
       <span class="p num">${f.pick[0]}–${f.pick[1]}</span><span class="imp" style="font-size:12px;color:var(--muted)">${f.live.ev.toFixed(2)} pts</span></div>`).join('')}</div></section>` : '';
   return `${liveSec}${yours}<section class="section"><h2>At a glance</h2><p class="sub">Tap a competition to open its tracker.</p><div class="tiles">${tiles}</div></section>
@@ -1993,7 +2160,7 @@ function openDetail(k, id) {
   $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(COMPS_CFG[k].name)} · ${fmtDateK(f, {weekday:'long', month:'long', day:'numeric'})}${f.played ? '' : ' · ' + (f.kt ? fmtTime(f.kt) + ' your time' : 'time TBC')}</div>
       <h2 style="margin-top:4px">${esc(full(k, f.h))} v ${esc(full(k, f.a))}</h2></div><button class="close" aria-label="Close" id="close">✕</button></div>
     ${f.played ? '' : `<div class="tv" style="margin-top:8px">Watch: ${esc(tvLabel(k))}</div>`}
-    ${f.live ? `<div class="why" style="border-left-color:#E5484D"><h4><span class="live-dot"></span>Live: ${esc(nm(k, f.h))} ${f.live.h}–${f.live.a} ${esc(nm(k, f.a))}, ${f.live.min}'</h4>
+    ${f.live ? `<div class="why" style="border-left-color:#E5484D"><h4><span class="live-dot"></span>Live: ${esc(nm(k, f.h))} ${f.live.h}–${f.live.a} ${esc(nm(k, f.a))}, ${liveLabel(k, f)}</h4>
       <p>Win chances now: <b>${esc(nm(k, f.h))} ${pct(f.live.pH)}</b>, draw ${pct(f.live.pD)}, <b>${esc(nm(k, f.a))} ${pct(f.live.pA)}</b> (before kickoff: ${pct(f.pH)} / ${pct(f.pD)} / ${pct(f.pA)}). Expected goals still to come: ${f.live.rh.toFixed(2)} and ${f.live.ra.toFixed(2)}.</p>
       <p>Your pick 'em ${f.pick[0]}–${f.pick[1]}: ${pct(f.live.pExact)} chance of the exact score, ${pct(f.live.pOutcome)} chance of the right result, <b>${f.live.ev.toFixed(2)}</b> expected points (was ${f.pickEV.toFixed(2)}).</p></div>` : ''}
     ${!f.played && (f.imp || f.rawH != null) ? `<div class="why"><h4>Why it matters</h4>${narrative(k, f)}</div>` : ''}
@@ -2060,37 +2227,73 @@ function openClub(k, i) {
   if (!$('#detail').open) $('#detail').showModal(); $('#close').onclick = () => $('#detail').close();
 }
 
+// Full-time result (Save, or the Full time button on a live card).
+function saveResult(k, id, h, a) {
+  if (!(Number.isInteger(h) && Number.isInteger(a) && h >= 0 && a >= 0)) return;
+  if (R[k] && R[k].fx[id]) lockMotw(k, roundKey(k, R[k].fx[id]));
+  const f = R[k].fx[id], prev = state.results[k][id];
+    if (COMPS_CFG[k].cup) {
+      const pwEl = $('#pw-' + id), pw = pwEl && pwEl.value !== '' ? +pwEl.value : null;
+      const lock = f.played ? (prev && prev.length >= 6 ? prev.slice(3) : null) : (f.pick ? [f.pick[0], f.pick[1], f.favored] : null);
+      state.results[k][id] = lock ? [h, a, pw, ...lock] : [h, a, pw];
+    } else {
+      const lock = f.played ? (prev && prev.length >= 5 ? prev.slice(2) : null) : [f.pick[0], f.pick[1], f.favored];
+      state.results[k][id] = lock ? [h, a, ...lock] : [h, a];
+      delete state.live[k][id];
+      const aw = $('#aw-' + id); const st = state.status[k][id] = Object.assign({}, state.status[k][id]);
+      delete st.p; if (aw && aw.checked) st.aw = 1; else delete st.aw;
+    }
+  update(k); render(); save(k);
+}
+// One-tap match events on a live card.
+function liveEvent(k, id, ev) {
+  const now = Date.now(), f = R[k] && R[k].fx[id], L = state.live[k][id];
+  if (!f) return;
+  if (ev === 'ft') { if (L) saveResult(k, id, L.h, L.a); return; }
+  lockMotw(k, roundKey(k, f));
+  if (ev === 'ko') state.live[k][id] = {h:0, a:0, ph:'1H', t:f.kt && now - f.kt > 5 * 6e4 ? f.kt : now, m0:1};
+  else if (!L) return;
+  else if (ev === 'ht') state.live[k][id] = {h:L.h, a:L.a, ph:'HT', t:now};
+  else if (ev === 'sh') state.live[k][id] = {h:L.h, a:L.a, ph:'2H', t:now, m0:46};
+  else if (ev === 'gh' || ev === 'ga') {
+    // a goal keeps the clock; an old fixed-minute entry starts running from its minute
+    const c = clock(L, f.kt), base = L.t ? L : liveAt(L.h, L.a, c.ht ? 'HT' : String(c.min), now);
+    state.live[k][id] = Object.assign({}, base, ev === 'gh' ? {h:L.h + 1} : {a:L.a + 1});
+  }
+  update(k); render(); save(k);
+}
 // ---------------------------------------------------------------- events
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-signin],[data-signout],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
+  const t = e.target.closest('[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
   if (!t) return;
   const k = state.view;
   const card = t.closest('#main [data-fx]'); anchor = card ? {key:card.dataset.fx, top:card.getBoundingClientRect().top} : null; queueMicrotask(() => { anchor = null; });
+  if (t.dataset.top) { window.scrollTo({top:0, behavior:'smooth'}); return; }
   if (t.dataset.signin) { signIn(); return; }
   if (t.dataset.signout) { signOut(); return; }
   if (t.dataset.adjadd) { const i = +$('#adj-club').value, p = +$('#adj-sign').value * Math.abs(parseInt(String($('#adj-pts').value).replace(/[^0-9]/g, ''), 10)), n = $('#adj-note').value.trim();
-    if (!Number.isInteger(p) || p === 0) return; const st = state.settings[k]; st.adj = [...(st.adj || []), {i, p, n}]; compute(k); render(); save(k); return; }
-  if (t.dataset.adjdel) { const st = state.settings[k]; st.adj = (st.adj || []).filter((_, n) => n !== +t.dataset.adjdel); compute(k); render(); save(k); return; }
+    if (!Number.isInteger(p) || p === 0) return; const st = state.settings[k]; st.adj = [...(st.adj || []), {i, p, n}]; update(k); render(); save(k); return; }
+  if (t.dataset.adjdel) { const st = state.settings[k]; st.adj = (st.adj || []).filter((_, n) => n !== +t.dataset.adjdel); update(k); render(); save(k); return; }
   if (t.dataset.koenter) { const el = document.getElementById('koe-' + t.dataset.koenter); el.hidden = !el.hidden; return; }
   if (t.dataset.kosave) { const id = t.dataset.kosave, h = parseInt(document.getElementById('kh-' + id).value, 10), a2 = parseInt(document.getElementById('ka-' + id).value, 10), w = document.getElementById('kw-' + id).value;
     if (!(Number.isInteger(h) && Number.isInteger(a2) && h >= 0 && a2 >= 0)) return; if (h === a2 && !w) { alert('Level after 90 minutes: pick who went through.'); return; }
-    state.ko[k] = state.ko[k] || {}; state.ko[k][id] = {hs:h, as:a2, adv: h === a2 ? w : null}; compute(k); render(); save(k); return; }
-  if (t.dataset.koclear) { delete state.ko[k][t.dataset.koclear]; compute(k); render(); save(k); return; }
+    state.ko[k] = state.ko[k] || {}; state.ko[k][id] = {hs:h, as:a2, adv: h === a2 ? w : null}; update(k); render(); save(k); return; }
+  if (t.dataset.koclear) { delete state.ko[k][t.dataset.koclear]; update(k); render(); save(k); return; }
   if (t.dataset.unllg) { state.unlLeague = t.dataset.unllg; render(); return; }
   if (t.dataset.live) {
     if (R[k] && R[k].fx[+t.dataset.live]) lockMotw(k, roundKey(k, R[k].fx[+t.dataset.live]));
     const id = +t.dataset.live, h = parseInt($('#hs-' + id).value, 10), a2 = parseInt($('#as-' + id).value, 10), raw = $('#mn-' + id).value.trim().toUpperCase();
     const ht = raw === 'HT', mn = ht ? 45 : parseInt(raw, 10);
     if (!(Number.isInteger(h) && Number.isInteger(a2) && h >= 0 && a2 >= 0 && Number.isInteger(mn) && mn >= 0)) return;
-    state.live[k][id] = ht ? {h, a:a2, min:45, ht:1} : {h, a:a2, min:Math.min(mn, 120)}; compute(k); render(); save(k); return;
+    state.live[k][id] = liveAt(h, a2, ht ? 'HT' : raw); update(k); render(); save(k); return;
   }
-  if (t.dataset.unlive) { delete state.live[k][+t.dataset.unlive]; compute(k); render(); save(k); return; }
+  if (t.dataset.unlive) { delete state.live[k][+t.dataset.unlive]; update(k); render(); save(k); return; }
   if (t.dataset.pp || t.dataset.unpp || t.dataset.move) {
     const id = +(t.dataset.pp || t.dataset.unpp || t.dataset.move), st = state.status[k][id] = Object.assign({}, state.status[k][id]);
     if (t.dataset.pp) { st.p = 1; delete st.d; delete st.t; }
     else if (t.dataset.unpp) delete st.p;
     else { const d = $('#nd-' + id).value, tm = $('#nt-' + id).value; if (!d) return; st.d = d; if (tm) st.t = tm; else delete st.t; delete st.p; }
-    compute(k); render(); save(k); return;
+    update(k); render(); save(k); return;
   }
   if (t.dataset.follow) { const i = +t.dataset.follow, name = T(k)[i].name, on = !isFav(k, i);
     for (const c of ORDER) { const idx = T(c).findIndex(x => x.name === name); if (idx < 0) continue;
@@ -2113,41 +2316,28 @@ document.addEventListener('click', e => {
   if (t.dataset.open) { openDetail(k, +t.dataset.open); return; }
   if (t.dataset.enter) { const el = $('#entry-' + t.dataset.enter); el.hidden = !el.hidden; if (!el.hidden) $('#hs-' + t.dataset.enter).focus({preventScroll:true}); return; }
   if (t.dataset.save) {
-    if (R[k] && R[k].fx[+t.dataset.save]) lockMotw(k, roundKey(k, R[k].fx[+t.dataset.save]));
     const id = +t.dataset.save, h = parseInt($('#hs-' + id).value, 10), a = parseInt($('#as-' + id).value, 10);
-    if (!(Number.isInteger(h) && Number.isInteger(a) && h >= 0 && a >= 0)) return;
-    const f = R[k].fx[id], prev = state.results[k][id];
-    if (COMPS_CFG[k].cup) {
-      const pwEl = $('#pw-' + id), pw = pwEl && pwEl.value !== '' ? +pwEl.value : null;
-      const lock = f.played ? (prev && prev.length >= 6 ? prev.slice(3) : null) : (f.pick ? [f.pick[0], f.pick[1], f.favored] : null);
-      state.results[k][id] = lock ? [h, a, pw, ...lock] : [h, a, pw];
-    } else {
-      const lock = f.played ? (prev && prev.length >= 5 ? prev.slice(2) : null) : [f.pick[0], f.pick[1], f.favored];
-      state.results[k][id] = lock ? [h, a, ...lock] : [h, a];
-      delete state.live[k][id];
-      const aw = $('#aw-' + id); const st = state.status[k][id] = Object.assign({}, state.status[k][id]);
-      delete st.p; if (aw && aw.checked) st.aw = 1; else delete st.aw;
-    }
-    compute(k); render(); save(k); return;
+    saveResult(k, id, h, a); return;
   }
-  if (t.dataset.clear) { state.results[k][+t.dataset.clear] = null; compute(k); render(); save(k); return; }
-  if (t.dataset.draw) { const id = +t.dataset.draw, h = $('#dh-' + id).value, a = $('#da-' + id).value; if (h === '' || a === '' || h === a) return; state.draws.cup[id] = [+h, +a]; compute('cup'); render(); save('cup'); return; }
+  if (t.dataset.ev) { liveEvent(k, +t.dataset.id, t.dataset.ev); return; }
+  if (t.dataset.clear) { state.results[k][+t.dataset.clear] = null; update(k); render(); save(k); return; }
+  if (t.dataset.draw) { const id = +t.dataset.draw, h = $('#dh-' + id).value, a = $('#da-' + id).value; if (h === '' || a === '' || h === a) return; state.draws.cup[id] = [+h, +a]; update('cup'); render(); save('cup'); return; }
   if (t.dataset.step) { const rounds = [...new Set(R[k].fx.map(f => f.mw))].sort((x, y) => x - y); const i = rounds.indexOf(state.mw[k]) + (+t.dataset.step); if (rounds[i] != null) { state.mw[k] = rounds[i]; render(); } return; }
   if (t.dataset.cstep) { const cur = state.mw[k] && state.mw[k].startsWith('Semi') ? 'Semi-finals' : state.mw[k]; const i = CUP_ROUNDS.indexOf(cur) + (+t.dataset.cstep); if (CUP_ROUNDS[i]) { state.mw[k] = CUP_ROUNDS[i] === 'Semi-finals' ? 'Semi-final leg 1' : CUP_ROUNDS[i]; render(); } return; }
   if (t.dataset.reset) { if (confirm('Remove every result you entered or edited here? The results that came with the tracker stay.')) { state.results[t.dataset.reset] = {}; if (t.dataset.reset === 'cup') state.draws.cup = {};
-for (const k of ORDER) Object.assign(state.status[k], DATA[k].statusDefault || {}); compute(t.dataset.reset); render(); save(t.dataset.reset); } }
+for (const k of ORDER) Object.assign(state.status[k], DATA[k].statusDefault || {}); update(t.dataset.reset); render(); save(t.dataset.reset); } }
 });
 document.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('[data-open],[data-go]')) { e.preventDefault(); e.target.click(); } });
 document.addEventListener('change', e => {
   const key = e.target.dataset && e.target.dataset.set; if (!key) return;
   const v = parseFloat(e.target.value); if (isNaN(v)) return;
-  if (e.target.dataset.global === '1') { state.suite[key] = v; ORDER.forEach(c => compute(c)); render(); save(state.view); }
-  else { state.settings[state.view][key] = v; compute(state.view); render(); save(state.view); }
+  if (e.target.dataset.global === '1') { state.suite[key] = v; ORDER.forEach(c => queueFull(c)); render(); save(state.view); }
+  else { state.settings[state.view][key] = v; update(state.view); render(); save(state.view); }
 });
 function syncFavs() {
   const names = new Set(); for (const c of ORDER) for (const i of (state.favs[c] || [])) if (T(c)[i]) names.add(T(c)[i].name);
   for (const c of ORDER) { const arr = state.favs[c] = state.favs[c] || []; T(c).forEach((x, i) => { if (names.has(x.name) && !arr.includes(i)) arr.push(i); }); }
 }
-loadLocal(); syncFavs(); render(); computeAll(); connect();
+loadLocal(); syncFavs(); startWorker(); render(); computeAll(); connect();
 </script>
 </body></html>

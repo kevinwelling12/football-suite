@@ -602,17 +602,17 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .live-ctl .btn{height:44px;padding:0 6px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .status .updating{color:var(--muted);font-weight:500}
 /* Slim bar pinned to the top once the header's nav scrolls away */
-.mini{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;align-items:center;gap:8px;
+.topbar{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;align-items:center;gap:8px;
   padding:calc(env(safe-area-inset-top,0px) + 6px) 12px 6px;background:rgba(10,10,12,.86);
   -webkit-backdrop-filter:saturate(180%) blur(18px);backdrop-filter:saturate(180%) blur(18px);
   border-bottom:.5px solid rgba(255,255,255,.12);transform:translateY(-110%);transition:transform .18s ease-out}
-.mini.on{transform:none}
-@media (prefers-reduced-motion:reduce){.mini{transition:none}}
-.mini-comp{flex:none;display:flex;align-items:center;gap:6px;background:none;border:0;color:#fff;font-weight:750;font-size:14px;padding:8px 2px;cursor:pointer}
-.mini-comp i{display:inline-block;flex:none;width:9px;height:9px;border-radius:50%;background:var(--c)}
-:root.bc .mini nav.mini-tabs{margin:0;flex:1 1 auto;min-width:0}
-:root.bc .mini nav.mini-tabs button{padding:6px 9px;font-size:13px}
-@media (max-width:420px){.mini{gap:6px;padding-left:10px;padding-right:10px}:root.bc .mini nav.mini-tabs button{padding:6px 6px;font-size:12.5px}}
-.mini .mini-regions{flex:1;margin:0;border:0}
-.mini .mini-regions button{padding:6px 4px 7px}
-@media (min-width:601px){.mini{padding-left:max(20px,calc((100% - 1100px)/2 + 20px))}}
+.topbar.on{transform:none}
+@media (prefers-reduced-motion:reduce){.topbar{transition:none}}
+.topbar-comp{flex:none;display:flex;align-items:center;gap:6px;background:none;border:0;color:#fff;font-weight:750;font-size:14px;padding:8px 2px;cursor:pointer}
+.topbar-comp i{display:inline-block;flex:none;width:9px;height:9px;border-radius:50%;background:var(--c)}
+:root.bc .topbar nav.topbar-tabs{margin:0;flex:1 1 auto;min-width:0}
+:root.bc .topbar nav.topbar-tabs button{padding:6px 9px;font-size:13px}
+@media (max-width:420px){.topbar{gap:6px;padding-left:10px;padding-right:10px}:root.bc .topbar nav.topbar-tabs button{padding:6px 6px;font-size:12.5px}}
+.topbar .topbar-regions{flex:1;margin:0;border:0}
+.topbar .topbar-regions button{padding:6px 4px 7px}
+@media (min-width:601px){.topbar{padding-left:max(20px,calc((100% - 1100px)/2 + 20px))}}

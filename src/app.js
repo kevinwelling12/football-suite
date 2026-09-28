@@ -279,12 +279,12 @@ function renderChrome() {
     : `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="${esc(l)}">${tabShort(k, t, l) === l ? esc(l) : `<span class="nm-full">${esc(l)}</span><span class="nm-short">${esc(tabShort(k, t, l))}</span>`}</button>`).join('');
   $('#tabs').hidden = k === 'home';
   // Slim bar that slides in once the header's nav scrolls away: regions on Home, else competition + sections.
-  $('#mini').innerHTML = k === 'home' ? `<nav class="regions mini-regions">${$('#regions').innerHTML}</nav>`
-    : `<button class="mini-comp" data-top="1" aria-label="${esc(COMPS_CFG[k].name)}: back to top"><i style="--c:${DOT[k]}"></i>${esc(ABBR[k])}</button><nav class="tabs mini-tabs" role="tablist" aria-label="Sections">${[...$('#tabs').children].filter(b => !b.classList.contains('gear')).map(b => b.outerHTML).join('')}</nav>`;
+  $('#topbar').innerHTML = k === 'home' ? `<nav class="regions topbar-regions">${$('#regions').innerHTML}</nav>`
+    : `<button class="topbar-comp" data-top="1" aria-label="${esc(COMPS_CFG[k].name)}: back to top"><i style="--c:${DOT[k]}"></i>${esc(ABBR[k])}</button><nav class="tabs topbar-tabs" role="tablist" aria-label="Sections">${[...$('#tabs').children].filter(b => !b.classList.contains('gear')).map(b => b.outerHTML).join('')}</nav>`;
   miniCheck();
 }
 function miniCheck() {
-  const nav = state.view === 'home' ? $('#regions') : $('#tabs'), on = nav.getBoundingClientRect().bottom < 0, m = $('#mini');
+  const nav = state.view === 'home' ? $('#regions') : $('#tabs'), on = nav.getBoundingClientRect().bottom < 0, m = $('#topbar');
   if (m.classList.contains('on') !== on) { m.classList.toggle('on', on); m.inert = !on; }
 }
 let miniRaf = 0;

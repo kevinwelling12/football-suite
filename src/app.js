@@ -483,7 +483,8 @@ function viewWeek(k) {
     <p class="note">Match of the week blends importance with how evenly matched the sides are, as the round begins; it's fixed once the first match kicks off. Entering a result locks in the pick 'em score and affinity pick shown before kickoff. Results that came with the tracker are scored with the picks as of September 26. Tap a match for the full scoreline grid.</p></section>`;
 }
 function zoneColor(k, pos) { const c = COMP[k].cfg.colors.find(([a, b]) => pos >= a && pos <= b); return c ? c[2] : 'transparent'; }
-const COL_SHORT = {'Promoted':'Up', 'Play-offs':'PO', 'Relegated':'Rel', 'Quarter-finals':'QF', 'Win it':'Win', 'Top 8':'Top 8', 'Title':'Title', 'Top 4':'Top 4', 'Top 3':'Top 3', 'Shield':'Shield', 'Bye':'Bye', 'Playoffs':'PO'};
+const COL_SHORT = {'Promoted':'Up', 'Play-offs':'PO', 'Relegated':'Rel', 'Quarter-finals':'QF', 'Win it':'Win', 'Top 8':'Top 8', 'Title':'Title', 'Top 4':'Top 4', 'Top 3':'Top 3', 'Shield':'Shield', 'Bye':'Bye', 'Playoffs':'PO',
+  "Players' Shield":'Shield', "Supporters' Shield":'Shield', 'Home QF':'Home', 'Group winner':'1st', 'Play-off':'PO'};
 const colHead = (k, key) => { const l = colLabel(k, key), s = COL_SHORT[l] || l; return s === l ? esc(l) : `<span class="nm-full">${esc(l)}</span><span class="nm-short">${esc(s)}</span>`; };
 function colLabel(k, key) { const cfg = COMP[k].cfg; return (cfg.colLabels && cfg.colLabels[key]) || (cfg.zones.find(z => z.key === key) || {}).label || key; }
 function tableRows(k, rows, proj, colsOverride) {
@@ -1008,4 +1009,40 @@ function syncFavs() {
   const names = new Set(); for (const c of ORDER) for (const i of (state.favs[c] || [])) if (T(c)[i]) names.add(T(c)[i].name);
   for (const c of ORDER) { const arr = state.favs[c] = state.favs[c] || []; T(c).forEach((x, i) => { if (names.has(x.name) && !arr.includes(i)) arr.push(i); }); }
 }
-loadLocal(); syncFavs(); startWorker(); render(); computeAll(); connect();
+// ---------------------------------------------------------------- pull to refresh
+// Home-screen web apps on iOS have no browser pull-to-refresh, so add one: pull down from the top of the
+// page and let go past the line to reload (new deploys and fresh cloud data). The page comes back on the
+// same competition and tab. In Safari itself the browser's own gesture is used instead.
+const UI_KEY = STORE + ':ui';
+const standalone = navigator.standalone === true || matchMedia('(display-mode: standalone)').matches;
+function restoreUI() {
+  try {
+    const u = JSON.parse(sessionStorage.getItem(UI_KEY) || 'null'); sessionStorage.removeItem(UI_KEY);
+    if (u && (u.view === 'home' || ORDER.includes(u.view))) Object.assign(state, {view:u.view, unlLeague:u.unlLeague}, {tab:Object.assign(state.tab, u.tab), mw:Object.assign(state.mw, u.mw), tmode:Object.assign(state.tmode, u.tmode)});
+  } catch (e) {}
+}
+function pullRefresh() {
+  const PULL = 70, MAX = 110, el = $('#ptr');
+  let y0 = null, d = 0;
+  const reset = () => { y0 = null; d = 0; el.style.transform = ''; el.classList.remove('ready'); };
+  addEventListener('touchstart', e => {
+    y0 = scrollY <= 0 && e.touches.length === 1 && !$('#detail').open && !e.target.closest('input,select,textarea') ? e.touches[0].clientY : null;
+  }, {passive:true});
+  addEventListener('touchmove', e => {
+    if (y0 == null) return;
+    d = Math.min(MAX, Math.max(0, (e.touches[0].clientY - y0) * 0.5));
+    if (scrollY > 0) { reset(); return; }
+    el.style.transform = `translate(-50%, ${d}px) rotate(${d * 3}deg)`; el.classList.toggle('ready', d >= PULL);
+  }, {passive:true});
+  addEventListener('touchend', () => {
+    if (y0 == null) return;
+    if (d < PULL) { reset(); return; }
+    el.classList.add('spin'); el.style.transform = `translate(-50%, ${PULL}px)`;
+    try { sessionStorage.setItem(UI_KEY, JSON.stringify({view:state.view, tab:state.tab, mw:state.mw, tmode:state.tmode, unlLeague:state.unlLeague})); } catch (e) {}
+    location.reload();
+  });
+  addEventListener('touchcancel', reset);
+}
+
+loadLocal(); syncFavs(); restoreUI(); startWorker(); render(); computeAll(); connect();
+if (standalone) { document.documentElement.classList.add('standalone'); pullRefresh(); }

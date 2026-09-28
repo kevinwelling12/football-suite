@@ -674,3 +674,13 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .hb-adj{align-items:start;padding-top:6px;border-top:1px solid var(--line)}
 .hb-adj span:nth-child(2){font-size:12.5px;color:var(--muted)}
 .hb-adj b.neg{color:#FF453A}
+
+/* ---------- Live ---------- */
+.nav-live .live-dot{margin-right:5px}
+.live-item{display:flex;flex-direction:column;gap:6px;min-width:0}
+.live-comp{align-self:flex-start;background:none;border:0;padding:0;font:inherit;font-size:13px;font-weight:700;color:var(--muted);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.live-comp i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+/* Seven nav items (Home, Live, four regions, Affinity) on a phone */
+@media (max-width:430px){.regions button,.topbar .topbar-regions button{font-size:14px;padding-left:1px;padding-right:1px;letter-spacing:-.01em}.nav-live .live-dot{margin-right:3px;width:7px;height:7px}}
+@media (max-width:380px){.regions button,.topbar .topbar-regions button{font-size:13px}}
+.regions{overflow-x:auto;scrollbar-width:none}.regions::-webkit-scrollbar{display:none}

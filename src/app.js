@@ -1,7 +1,9 @@
 const DATA = /*__DATA__*/;
 const DEF = {sims:1000, impFloor:0.05, impRamp:0.25, drawAuto:1, drawW0:60};
 const STORE = 'football-suite-2627';
-const $ = s => document.querySelector(s);
+// In views that mix competitions (Live), fixture ids repeat, so a click looks up ids inside its own card first.
+let scopeEl = null;
+const $ = s => (scopeEl && scopeEl.isConnected && s[0] === '#' && scopeEl.querySelector(s)) || document.querySelector(s);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pct = x => (x > 0 && x * 100 < 0.5 ? '<1' : Math.round(x * 100)) + '%';
 const fmtDate = (iso, o = {weekday:'short', month:'short', day:'numeric'}) => new Date(iso + 'T12:00:00').toLocaleDateString('en-US', o);
@@ -252,10 +254,10 @@ async function connect() {
 }
 
 // ---------------------------------------------------------------- chrome
-// Views that aren't a competition: Home and the overall Affinity ranking.
-const isHub = v => v === 'home' || v === 'rank';
+// Views that aren't a competition: Home, Live and the overall Affinity ranking.
+const isHub = v => v === 'home' || v === 'rank' || v === 'live';
 function setBrand(k) {
-  if (k === 'rank') k = 'home';
+  if (isHub(k)) k = 'home';
   const b = k === 'home' ? {head:'#1A1033', accent:'#7C5CFF', glow:'rgba(124,92,255,.5)', tag:'#B9A6FF'}
     : COMPS_CFG[k].brand;
   if (document.documentElement.classList.contains('bc') || true) { const r0 = document.documentElement.style; r0.setProperty('--head', '#000000'); r0.setProperty('--accent', '#FF453A'); r0.setProperty('--glow', 'transparent'); r0.setProperty('--tag', 'rgba(235,235,245,.6)'); r0.setProperty('--brand', k === 'home' ? 'rgba(235,235,245,.6)' : b.accent); return; }
@@ -269,9 +271,9 @@ function renderChrome() {
   const k = state.view, hub = isHub(k), cup = !hub && COMPS_CFG[k].cup;
   setBrand(k);
   document.documentElement.classList.add('bc');
-  $('#title').innerHTML = k === 'rank' ? 'Affinity<span class="season">Ranking</span>' : hub ? 'Football Tracker<span class="season">Suite</span>' : `${esc(COMPS_CFG[k].name)}<span class="season">${esc(COMPS_CFG[k].season)}</span>`;
+  $('#title').innerHTML = k === 'live' ? 'Live<span class="season">Now</span>' : k === 'rank' ? 'Affinity<span class="season">Ranking</span>' : hub ? 'Football Tracker<span class="season">Suite</span>' : `${esc(COMPS_CFG[k].name)}<span class="season">${esc(COMPS_CFG[k].season)}</span>`;
   const reg = regionOf(k); if (reg) lastIn[reg.key] = k;
-  $('#regions').innerHTML = `<button data-view="home" aria-pressed="${k === 'home'}">Home</button>` +
+  $('#regions').innerHTML = `<button data-view="home" aria-pressed="${k === 'home'}">Home</button><button data-view="live" aria-pressed="${k === 'live'}" class="nav-live">${liveNow().length ? '<span class="live-dot"></span>' : ''}Live</button>` +
     REGIONS.map(r => `<button data-region="${r.key}" aria-pressed="${reg === r}">${esc(r.name)}</button>`).join('') +
     `<button data-view="rank" aria-pressed="${k === 'rank'}">Affinity</button>`;
   const chip = c => { const [f, s] = CHIP[c] || [COMPS_CFG[c].name]; return s ? `<span class="nm-full">${esc(f)}</span><span class="nm-short">${esc(s)}</span>` : esc(f); };
@@ -302,6 +304,7 @@ function renderStatus() {
   const k = state.view;
   let s;
   if (k === 'rank') s = `<b>${rankList().length}</b> clubs and nations, ranked by Affinity`;
+  else if (k === 'live') { const a = liveNow().length, b = kickedOff().length; s = a || b ? `<b>${a}</b> live${b ? `, <b>${b}</b> kicked off without a live score` : ''}` : 'Nothing live right now'; }
   else if (k === 'home') {
     const done = ORDER.filter(c => R[c]).length;
     s = done < ORDER.length ? `Crunching ${done} of ${ORDER.length} competitions…` : `${ORDER.length} competitions, live`;
@@ -321,6 +324,7 @@ function render() {
   let html;
   if (k === 'home') html = viewHome();
   else if (k === 'rank') html = viewRank();
+  else if (k === 'live') html = viewLive();
   else if (!R[k]) html = '<div class="loading">Crunching the numbers…</div>';
   else if (COMPS_CFG[k].cup) html = {week:cupRounds, table:cupLeft, races:cupRaces, clubs:viewClubs, settings:viewSettings}[state.tab[k]](k);
   else html = {week:viewWeek, table:viewTable, races:viewRaces, clubs:viewClubs, settings:viewSettings, bracket:viewBracket}[state.tab[k]](k);
@@ -793,6 +797,23 @@ function tileData(k) {
   else { const pp = r.tab.map(t => t.projPts).sort((a, b) => b - a); line = [cfg.line[0], pp[cfg.line[1] - 1].toFixed(1) + ' pts', cfg.line[2]]; }
   return {peN:r.fx.filter(f => f.pickPts !== undefined).length, h1:[cfg.headline[0], nm(k, lead.i), pct(lead.odds[hk] || 0) + ' ' + cfg.headline[2]], h2:line, next, pe:r.pickemPts, sat:r.satisfaction, played:r.nPlayed};
 }
+// Live: every match marked in progress, plus matches that have kicked off (by the schedule) with no score yet.
+const liveNow = () => ORDER.filter(k => R[k]).flatMap(k => R[k].fx.filter(f => f.live).map(f => ({k, f})));
+const kickedOff = () => { const now = Date.now(); return ORDER.filter(k => R[k]).flatMap(k => R[k].fx.filter(f => !f.played && !f.live && !f.postponed && f.h != null && f.a != null && f.kt && now >= f.kt && now <= f.kt + 150 * 6e4).map(f => ({k, f}))); };
+function viewLive() {
+  const byTime = (a, b) => (a.f.kt || 0) - (b.f.kt || 0) || ORDER.indexOf(a.k) - ORDER.indexOf(b.k);
+  const live = liveNow().sort(byTime), ko = kickedOff().sort(byTime);
+  const cards = list => `<div class="matches live-list">${list.map(({k, f}) => `<div class="live-item"><button class="live-comp" data-go="${k}:${f.id}" style="--c:${DOT[k]}"><i></i>${esc(COMPS_CFG[k].name)}${f.round ? ` · ${esc(f.round)}` : ''}</button>${matchCard(k, f, '')}</div>`).join('')}</div>`;
+  if (!ORDER.every(k => R[k])) return '<div class="loading">Crunching the numbers…</div>';
+  if (!live.length && !ko.length) {
+    const next = ORDER.flatMap(k => R[k].fx.filter(f => !f.played && !f.postponed && f.kt && f.kt > Date.now() && f.h != null && f.a != null).map(f => ({k, f}))).sort(byTime).slice(0, 5);
+    return `<section class="section"><h2>Nothing live right now</h2><p class="sub">Matches show up here when they kick off. Mark one in progress (Update live on its card) to track the score, live win chances and your pick 'em outlook.</p>
+      ${next.length ? `<h3 style="margin-top:18px">Next kickoffs</h3><div class="card" style="margin-top:10px">${next.map(({k, f}) => `<div class="feed-row" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
+        <span class="d">${whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span><span class="m">${star(k, f.h)}${esc(nm(k, f.h))} v ${esc(nm(k, f.a))}${star(k, f.a)}</span><span class="p num">${f.pick ? f.pick[0] + '–' + f.pick[1] : ''}</span><span class="imp"></span></div>`).join('')}</div>` : ''}</section>`;
+  }
+  return `${live.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Matches marked in progress, with live win chances and your pick 'em outlook. Tap Goal, Half-time or Full time on a card as the match goes on.</p>${cards(live)}</section>` : ''}
+    ${ko.length ? `<section class="section"><h2>Kicked off</h2><p class="sub">Past their kickoff time with no live score yet. Enter the minute and score to follow one live, or the final score when it's over.</p>${cards(ko)}</section>` : ''}`;
+}
 function viewHome() {
   // Compact competition tiles (2 per row on a phone): colour, name, the headline race and pick 'em per match.
   const tiles = ORDER.map(k => {
@@ -1015,8 +1036,11 @@ function liveEvent(k, id, ev) {
 document.addEventListener('click', e => {
   const t = e.target.closest('[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-rankf],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
   if (!t) return;
-  const k = state.view;
-  const card = t.closest('#main [data-fx]'); anchor = card ? {key:card.dataset.fx, top:card.getBoundingClientRect().top} : null; queueMicrotask(() => { anchor = null; });
+  const card = t.closest('#main [data-fx]');
+  // On Live, a match card's buttons act on that card's competition.
+  const k = isHub(state.view) && card ? card.dataset.fx.split(':')[0] : state.view;
+  scopeEl = card; queueMicrotask(() => { scopeEl = null; });
+  anchor = card ? {key:card.dataset.fx, top:card.getBoundingClientRect().top} : null; queueMicrotask(() => { anchor = null; });
   if (t.dataset.top) { window.scrollTo({top:0, behavior:'smooth'}); return; }
   if (t.dataset.signin) { signIn(); return; }
   if (t.dataset.signout) { signOut(); return; }

@@ -4,11 +4,11 @@ python3 scripts/affinity/big4.py   # print every club's items
 
 Kevin's teams: Sacramento Kings, San Francisco Giants, San Francisco 49ers, San Jose Sharks.
 Rivals (full weight): Lakers; Dodgers; Seahawks, Rams, Cowboys; LA Kings, Ducks, Golden Knights.
-Half weight: Athletics (Bay Bridge), Raiders, Packers.
+Half weight: Athletics (Bay Bridge), Raiders, Packers, Warriors (Kings).
 
 Items, all added like adjustments (not scaled), before the association pull:
 - distance from Sacramento (proximity.py): up to +3 for North American clubs.
-- market: a US club sharing a metro with Kevin's teams +1 (Bay Area); with his rivals -1 per full rival,
+- market: a US club sharing a metro with Kevin's teams +1 (Bay Area: +1 - 0.5 for the Warriors = +0.5); with his rivals -1 per full rival,
   -0.5 per half rival, at most -2. Clubs that already carry a rival penalty (Seattle) are skipped.
 - ownership ties (research in research/big4, BRIEF in BIG4_BRIEF.md): the club's owners also own
   (ownership) or hold a stake in (minority) one of the teams. Kevin's team: +2 ownership, +1 minority.
@@ -22,11 +22,11 @@ import proximity
 KEVIN = ['Sacramento Kings', 'San Francisco Giants', 'San Francisco 49ers', 'San Jose Sharks']
 RIVAL = {'Los Angeles Lakers': 1, 'Los Angeles Dodgers': 1, 'Seattle Seahawks': 1, 'Los Angeles Rams': 1,
          'Dallas Cowboys': 1, 'Los Angeles Kings': 1, 'Anaheim Ducks': 1, 'Vegas Golden Knights': 1,
-         'Athletics': 0.5, 'Las Vegas Raiders': 0.5, 'Green Bay Packers': 0.5}
-BAY = 'Bay Area (Giants, 49ers, Sharks)'
+         'Athletics': 0.5, 'Las Vegas Raiders': 0.5, 'Green Bay Packers': 0.5, 'Golden State Warriors': 0.5}
+BAY = 'Bay Area (Giants, 49ers, Sharks; Warriors)'
 LA = 'LA market (Lakers, Dodgers, Rams, Kings, Ducks)'
 MARKET = {
-    'San Jose Earthquakes': (BAY, 1), 'Bay FC': (BAY, 1), 'Oakland Roots SC': (BAY, 1),
+    'San Jose Earthquakes': (BAY, 0.5), 'Bay FC': (BAY, 0.5), 'Oakland Roots SC': (BAY, 0.5),
     'Los Angeles Football Club': (LA, -2), 'LA Galaxy': (LA, -2), 'Angel City FC': (LA, -2), 'Orange County SC': (LA, -2),
     'FC Dallas': ('Dallas (Cowboys)', -1), 'Las Vegas Lights FC': ('Las Vegas (Golden Knights, Raiders)', -1.5),
 }
@@ -44,6 +44,7 @@ TIES = [
     ('Bournemouth', 'Vegas Golden Knights', 'ownership', 'Bill Foley owns the Golden Knights'),
     ('Lorient', 'Vegas Golden Knights', 'ownership', 'Bill Foley owns the Golden Knights'),
     ('Los Angeles Football Club', 'Los Angeles Dodgers', 'minority', 'Guber and Magic Johnson are Dodgers co-owners'),
+    ('Los Angeles Football Club', 'Golden State Warriors', 'minority', 'Guber, Tsao, Karsh and Schneider are Warriors co-owners'),
     ('San Jose Earthquakes', 'Athletics', 'ownership', 'John Fisher owns the Athletics'),
     ('Birmingham City', 'Las Vegas Raiders', 'minority', 'Wagner and Brady hold about 10% of the Raiders'),
     ('Marseille', 'Los Angeles Dodgers', 'former', 'Owner Frank McCourt owned the Dodgers until 2012'),
@@ -52,7 +53,7 @@ PTS = {'ownership': (2, -3), 'minority': (1, -1.5), 'former': (0, -1)}
 SHORT = {'Sacramento Kings': 'Kings', 'San Francisco Giants': 'Giants', 'San Francisco 49ers': '49ers',
          'San Jose Sharks': 'Sharks', 'Los Angeles Rams': 'Rams', 'Los Angeles Kings': 'LA Kings',
          'Vegas Golden Knights': 'Golden Knights', 'Los Angeles Dodgers': 'Dodgers', 'Athletics': "A's",
-         'Las Vegas Raiders': 'Raiders'}
+         'Las Vegas Raiders': 'Raiders', 'Golden State Warriors': 'Warriors'}
 CAP = 4.0
 
 

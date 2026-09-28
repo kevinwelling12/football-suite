@@ -69,9 +69,9 @@ research in scripts/affinity/research/assoc, brief ASSOC_BRIEF.md):
 
 Location & big-4 (2026-09-28, scripts/affinity/big4.py + proximity.py; research in research/big4, BIG4_BRIEF.md):
 - Kevin's teams: Kings, Giants, 49ers, Sharks. Rivals: Lakers, Dodgers, Seahawks, Rams, Cowboys, LA Kings, Ducks,
-  Golden Knights; half weight: A's, Raiders, Packers.
+  Golden Knights; half weight: A's, Raiders, Packers, Warriors.
 - Distance: North American clubs +3 * (1 - miles/800) from Sacramento (Republic excluded: hometown +4).
-- Market: Bay Area clubs +1; LA-market clubs -2; Dallas -1; Las Vegas -1.5 (skipped for clubs with a rival penalty).
+- Market: Bay Area clubs +0.5 (+1 for Kevin's teams, -0.5 Warriors); LA-market clubs -2; Dallas -1; Las Vegas -1.5 (skipped for clubs with a rival penalty).
 - Ownership ties: Kevin's team +2 ownership / +1 minority (Leeds, Huddersfield, Republic, Thorns, Whitecaps, Bay FC);
   rival -3 ownership / -1.5 minority / -1 former owner, half for half rivals (Arsenal, Rapids, Galaxy, Bournemouth,
   Lorient, LAFC, Earthquakes, Birmingham, Marseille). Passive fund stakes and ended ties don't count.

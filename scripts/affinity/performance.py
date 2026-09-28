@@ -17,7 +17,7 @@ other top flights = tier 1, Championship and USL Championship = tier 2, League O
   regular season (NWSL 2020) is left out.
 Seasons are averaged with a 3-season half-life (last season weight 1, three seasons ago 0.5, nine ago 0.125).
 
-Coefficient: k = 0.90 + 0.02 * P, so P 0 -> x0.90, P 5 -> x1.00, P 10 -> x1.10.
+Coefficient: k = 0.80 + 0.04 * P, so P 0 -> x0.80, P 5 -> x1.00, P 10 -> x1.20 (was +/-10% until 2026-09-28).
 It multiplies the weighted factor score, before adjustments (penalties are not scaled). Nations: no track record.
 """
 import json, pathlib
@@ -82,7 +82,7 @@ def track(club, band):
 
 
 def coef(P):
-    return 0.90 + 0.02 * P
+    return 0.80 + 0.04 * P
 
 
 def primary(comps):

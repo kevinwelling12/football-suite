@@ -611,7 +611,7 @@ function affLine(t, fallback) {
   return bits.join(' · ') || 'No adjustments';
 }
 const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five factors from your supporter profile, each out of 10: values 26%, supporter culture 26%, history and identity 14%, ownership 12%, team 12% (how they play, the squad's bond with fans, long-serving captains and coaches).</p>
-  <p>Track record multiplies that score by 0.90 to 1.10: the last 10 league seasons, judged against the tier the club plays in (top flight, Championship, USL Championship, League One/Two), with recent seasons counting most (a season three years ago counts half). Steady top-half finishes score almost as well as titles; a relegation fight scores low. Nations have no track record.</p>
+  <p>Track record multiplies that score by 0.80 to 1.20: the last 10 league seasons, judged against the tier the club plays in (top flight, Championship, USL Championship, League One/Two), with recent seasons counting most (a season three years ago counts half). Steady top-half finishes score almost as well as titles; a relegation fight scores low. Nations have no track record.</p>
   <p>Then adjustments for your hard lines (state ownership, racism and fan violence, private equity, multi-club networks, Super League) and for rivals and Republic links. Sacramento Republic gets a +4 hometown bonus; nations get a heritage tiebreaker of up to 10.</p></details>`;
 function viewClubs(k) {
   const t = T(k), order = [...t.keys()].sort((a, b) => affOf(t[b]) - affOf(t[a])), mx = Math.max(...order.map(i => affOf(t[i])));
@@ -916,6 +916,7 @@ function affBreakdown(k, t) {
   if (h.k != null) sum.push(`× ${h.k.toFixed(2)} track record`);
   if (h.adj) sum.push(`${h.adj < 0 ? '−' : '+'} ${Math.abs(h.adj)} adjustments`);
   if (t.bonus) sum.push(`+ ${t.bonus} ${k === 'unl' ? 'heritage' : 'hometown'}`);
+  if (fs * (h.k ?? 1) + h.adj > 100) sum.push('(capped at 100)');
   return `<h4 style="margin-top:18px">Affinity ${affOf(t).toFixed(1)}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
     ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${h[key]}</b></div>`).join('')}
     ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>

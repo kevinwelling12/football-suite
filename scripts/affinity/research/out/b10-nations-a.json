@@ -743,5 +743,274 @@
    "https://freedomhouse.org/country/germany/freedom-world/2026",
    "https://rsf.org/en/index"
   ]
+ },
+ {
+  "name": "Gibraltar",
+  "C": {
+   "score": 3,
+   "evidence": "Very small crowds (Victoria Stadium, about 2,000); limited away following."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No sanctions found. Community-scale football; no notable raises or lowers."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "UEFA member only since 2013; a few competitive wins (first in 2018)."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "GFA: small federation; no scandals found. Recurring political friction with Spain over fixtures (UEFA keeps them apart)."
+  },
+  "S": {
+   "score": 2,
+   "evidence": "Deep defensive block, very low possession."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: British overseas territory, not rated separately; United Kingdom: Freedom House 2026 Free 92/100, RSF 2026 rank 18/180."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gibraltar_national_football_team",
+   "https://freedomhouse.org/country/united-kingdom/freedom-world/2026",
+   "https://rsf.org/en/country/united-kingdom"
+  ]
+ },
+ {
+  "name": "Greece",
+  "C": {
+   "score": 6,
+   "evidence": "Club rivalries dominate Greek fan culture; national-team crowds are moderate outside big games. Big celebrations in 2004."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No recent UEFA discrimination sanction for the national team found. Greek club football has a serious violence record (club level, not coded here)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Euro 2004 winners, one of the biggest shocks in football history; World Cups 1994, 2010, 2014 (last 16)."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "FIFA suspended Greece briefly in 2006 over political interference and imposed a temporary administration after the 2015 match-fixing scandal; ex-HFF presidents convicted of economic crimes in 2019. Chrysostomos Gkagkatsis president since 2024."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Energetic, younger side under Ivan Jovanović in 2025-26 qualifying; average-plus intensity."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment by the brief's thresholds: Freedom House 2026 Free 85/100, but RSF 2026 rank 86/180 (low for the EU; spyware and media-pressure concerns). Kevin may want -10.",
+   "S based on 2025 qualifying reports; not verified in depth."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Greece_national_football_team",
+   "https://en.wikipedia.org/wiki/Hellenic_Football_Federation",
+   "https://freedomhouse.org/country/greece/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Hungary",
+  "C": {
+   "score": 8,
+   "evidence": "Very loud, large followings at Euro 2016, 2020 and 2024; Puskás Aréna sell-outs. Ultra bloc 'Carpathian Brigade' drives the atmosphere."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "Carpathian Brigade is a far-right ultra bloc; homophobic banners and racist abuse led to UEFA closed-door sanctions after Euro 2020 (anti-LGBTQ banners at all three home games) and a FIFA fan ban after racist abuse of England players (2021). Orbán-era ministers attacked UEFA over the sanctions."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "'Mighty Magyars': 1953 6-3 win at Wembley, World Cup finals 1938 and 1954, Puskás; hugely influential on the game's tactics."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "MLSZ president Sándor Csányi (since 2010), banker close to the former Orbán government; football heavily state-funded through the TAO tax scheme and a stadium-building boom."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Marco Rossi's organised, energetic side; press and transition play."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026 (covering 2025): Partly Free, 65/100. RSF 2026 rank 74/180. Orbán's Fidesz lost the April 2026 election; Péter Magyar (Tisza) PM since May 2026."
+   },
+   {
+    "type": "racism",
+    "points": -15,
+    "evidence": "Repeated UEFA/FIFA sanctions for racist and homophobic fan conduct (Euro 2020 closed-door matches, €100,000 fine; FIFA 2021 fan ban for racism vs England); far-right Carpathian Brigade tolerated."
+   }
+  ],
+  "flags": [
+   "Government changed after the April 2026 election; revisit -10 when FH/RSF 2027 reflect it.",
+   "Racism -15 is the top of the national rule; no new UEFA sanction after 2021-22 found in this check."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hungary_national_football_team",
+   "https://en.wikipedia.org/wiki/Hungarian_Football_Federation",
+   "https://www.espn.com/soccer/hungary-hun/story/4430023/hungary-to-play-games-without-fans-for-discriminatory-fan-behaviour-uefa",
+   "https://www.seattletimes.com/sports/hungary-gets-1-match-fan-ban-217000-fifa-fine-for-racism/",
+   "https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz",
+   "https://freedomhouse.org/country/hungary/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Iceland",
+  "C": {
+   "score": 8,
+   "evidence": "The 'Viking clap'; around 8-10% of the population travelled to Euro 2016. Small, loyal home crowds at Laugardalsvöllur."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Community-based football, strong coaching-education model; no fan sanctions found."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Euro 2016 quarter-finals (beat England), 2018 World Cup as the smallest nation ever to qualify."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "KSÍ board resigned in 2021 over its handling of sexual-misconduct allegations against national-team players; reformed since."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Organised, direct, set-piece strong; average pressing."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 95/100, RSF 2026 rank 12/180.",
+   "KSÍ 2021 case from general knowledge, not re-fetched this session."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Iceland_national_football_team",
+   "https://freedomhouse.org/country/iceland/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Israel",
+  "C": {
+   "score": 4,
+   "evidence": "Home matches played mostly in Hungary since the 2023 Gaza war, with small crowds; limited away following."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "IFA includes clubs based in West Bank settlements, the basis of calls (Ireland, Norway, Spain, Türkiye, UN experts) for UEFA/FIFA suspension in 2025; a UEFA vote was prepared then paused. No UEFA discrimination sanction for the national team found."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "One World Cup (1970); former AFC member, UEFA since 1994."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "IFA: no major corruption case found; governance questioned over settlement clubs."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Mid-table, reactive side; 3rd in its 2026 qualifying group behind Norway and Italy."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "Freedom House 2026: Israel Free, 73/100, but Gaza Strip 2/100 and West Bank 22/100 (Not Free) under Israeli control/occupation. RSF 2026 rank 116/180. ICC arrest warrant for the Prime Minister (2024) over the Gaza war."
+   }
+  ],
+  "flags": [
+   "Government adjustment is a judgement call: Free rating for Israel proper vs occupation and Gaza-war record. -15 to -25 defensible; set at -20. Kevin to decide.",
+   "Possible UEFA/FIFA suspension still debated; check status before finalising."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Israel_national_football_team",
+   "https://www.cbc.ca/sports/soccer/uefa-israel-suspension-vote-1.7643221",
+   "https://www.aljazeera.com/sports/2025/11/8/irish-football-body-overwhelmingly-backs-call-for-israels-ban-from-uefa",
+   "https://freedomhouse.org/country/israel/freedom-world/2026",
+   "https://freedomhouse.org/countries/freedom-world/scores",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Italy",
+  "C": {
+   "score": 6,
+   "evidence": "National team support is lukewarm compared with club ultras; ageing stadiums, rotating venues. Strong turnouts for tournaments."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Italy banned gambling advertising in sport in 2019 (Decreto Dignità), so no betting sponsors. No UEFA discrimination sanction for the national team found in this check."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Four World Cups (1934, 1938, 1982, 2006), Euros 1968 and 2020; a defining national team. Missed a third straight World Cup in 2026 (lost the play-off to Bosnia on penalties)."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "FIGC president Gravina resigned in April 2026 citing 'lack of reforms' and 'inertia'; Giovanni Malagò elected 22 June 2026. Silvio Baldini caretaker coach (June 2026)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Transition side; no settled identity after Spalletti and Gattuso."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: Freedom House 2026 Free 87/100, RSF 2026 rank 56/180 (lowish for Western Europe).",
+   "Coach situation after June 2026 not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Italy_national_football_team",
+   "https://en.wikipedia.org/wiki/Italian_Football_Federation",
+   "https://www.aljazeera.com/sports/2026/4/2/world-cup-2026-italys-football-chief-resigns-after-qualifying-failure",
+   "https://freedomhouse.org/country/italy/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
+ },
+ {
+  "name": "Kazakhstan",
+  "C": {
+   "score": 4,
+   "evidence": "Moderate crowds at Astana Arena (26,539 vs Liechtenstein, Oct 2025); limited organised support or away following."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Federation operates in a state-dominated system; no fan sanctions found."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "UEFA member since 2002 (from AFC); never qualified; best was the Euro 2024 play-offs."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "KFF close to the state establishment (typical for the political system); not verified in detail this session."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Organised, defensive under John van 't Schip; low pressing."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "Freedom House 2026: Not Free, 23/100. RSF 2026 rank 149/180."
+   }
+  ],
+  "flags": [
+   "KFF governance/government ties not verified in detail; O=3 is an estimate."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kazakhstan_national_football_team",
+   "https://freedomhouse.org/country/kazakhstan/freedom-world/2026",
+   "https://rsf.org/en/index"
+  ]
  }
 ]

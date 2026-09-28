@@ -613,5 +613,208 @@
    "https://www.france24.com/en/live-news/20201218-ligue-1-leaders-lille-sold-to-investment-fund",
    "https://www.sportspro.com/news/ligue-1-lille-callisto-sporting-merly-partners-takeover/"
   ]
+ },
+ {
+  "name": "Napoli",
+  "C": {
+   "score": 10,
+   "evidence": "Stadio Maradona (54,732) is among Italy's loudest; Napoli set the Serie C attendance record (51,000) after the 2004 bankruptcy, a benchmark for loyalty. Home for decades (no stadium penalty)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Southern/Neapolitan regional identity, long targeted by 'territorial discrimination' chants; strong city bond. Shirt partners not betting-led (EA7 kit). Women's team in Serie A. Offsets: owner combativeness and limited academy pathway."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Maradona era: Serie A 1987 and 1990, 1989 UEFA Cup; titles again in 2023 and 2025; cultural icon of the South."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Aurelio De Laurentiis (Filmauro) since refounding the bankrupt club in 2004; financially prudent and successful, but centralised, combative with fans and city; no fan voice."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Conte's intense, physical 2024-26 sides; Spalletti's 2023 pressing team before that."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "De Laurentiis family also owns SSC Bari (Serie B); FIGC rules require it to be separated/sold (status not verified this session)."
+   }
+  ],
+  "flags": [
+   "Bari ownership status in Sept 2026 not verified: drop multiclub if sold.",
+   "Napoli ultras' clashes (e.g. with Eintracht Frankfurt fans 2023) not treated as an adjustment."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SSC_Napoli",
+   "https://en.wikipedia.org/wiki/Stadio_Diego_Armando_Maradona",
+   "https://sscnapoli.it/en/ssc-napoli-and-ea7-unveil-the-2026-27-home-jersey/"
+  ]
+ },
+ {
+  "name": "PSV Eindhoven",
+  "C": {
+   "score": 7,
+   "evidence": "Philips Stadion (35,000, city-centre, home since 1913) averages about 33,000; sold-out season tickets; good but not among the most intense Dutch crowds."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Shirt sponsor is a regional consortium (Metropoolregio Brainport Eindhoven: ASML, VDL, Philips, Jumbo, Bavaria) through 2027; women's team; De Herdgang academy. No betting shirt sponsor."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "1988 European Cup treble, 1978 UEFA Cup; 27 Dutch titles incl. 2024, 2025, 2026."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "PSV N.V. shares held by the Foundation PSV Football (one share with the members' club); no private owner, but historic Philips corporate ties."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Peter Bosz: aggressive high press, attacking football; three straight titles."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/PSV_Eindhoven",
+   "https://www.footyheadlines.com/0717673831/psv-26-27-home-kit-leaked.html",
+   "https://www.sponsorreport.nl/sportpsv-verlengt-met-brainport-eindhoven-partners/"
+  ]
+ },
+ {
+  "name": "Paris Saint-Germain",
+  "C": {
+   "score": 8,
+   "evidence": "Parc des Princes (47,929) averaged a record 47,639 in 2024-25; Collectif Ultras Paris in the Auteuil end, loud and organised since their 2016 return after the Leproux plan."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "Owner-state branding throughout: Qatar Airways shirt sponsor (state airline), Qatar ownership used for national soft power; owner-driven politics via Al-Khelaifi (beIN, EFC). Women's team and Poissy academy campus are positives."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Champions League winners 2025 (sextuple) and 2026 (beat Arsenal on penalties); 1996 Cup Winners' Cup; France's dominant club."
+  },
+  "O": {
+   "score": 0,
+   "evidence": "Qatar Sports Investments (Qatar's sovereign fund) owns 85.9%; Arctos Partners 12.5% (2023)."
+  },
+  "S": {
+   "score": 9,
+   "evidence": "Luis Enrique's collective, high-intensity pressing side, champions of Europe twice."
+  },
+  "adjustments": [
+   {
+    "type": "state",
+    "points": -25,
+    "evidence": "Owned by Qatar Sports Investments, subsidiary of the Qatar Investment Authority, since 2011."
+   },
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "Arctos Partners (US private-equity sports fund) minority stake of 12.5% since 2023."
+   },
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "QSI also owns a minority stake in SC Braga (Portugal)."
+   }
+  ],
+  "flags": [
+   "Stacked adjustments (-33); Kevin may prefer state -25 only.",
+   "QSI's Braga stake not verified in fetched sources this session."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
+   "https://en.wikipedia.org/wiki/2026_UEFA_Champions_League_final",
+   "https://www.footballkitarchive.com/paris-saint-germain-sponsor-history-t8/",
+   "https://www.psg.fr/en/content/actu_en_-paris-saint-germain-and-nike-unveil-the-2026-2027-psg-club-news-25-26"
+  ]
+ },
+ {
+  "name": "Porto",
+  "C": {
+   "score": 8,
+   "evidence": "Estádio do Dragão (50,033, since 2003) with Super Dragões and Colectivo Ultras 95; loud and loyal, big away followings."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Betano (sports betting) shirt sponsor lowers; Villas-Boas launched the club's first women's team and promotes Olival academy players; strong northern regional identity vs Lisbon."
+  },
+  "H": {
+   "score": 9,
+   "evidence": "European Cup 1987 and Champions League 2004, UEFA Cups 2003 and 2011, two Intercontinental Cups."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Club (members) controls the SAD; members ousted 42-year president Pinto da Costa in 2024 (Villas-Boas, 80% of votes), a clean-up after the Apito Dourado corruption case and debt."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Farioli era (2025-) high-intensity pressing; historically intense, well-drilled sides."
+  },
+  "adjustments": [
+   {
+    "type": "violence",
+    "points": -5,
+    "evidence": "Operação Pretoriano: Super Dragões leader Fernando Madureira and others tried for assaults and coercion at the Nov 2023 club general assembly; prison sentence reduced on appeal, banned from stadiums. New board broke with the group."
+   }
+  ],
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Porto",
+   "https://www.publico.pt/2026/02/06/desporto/noticia/operacao-pretoriano-relacao-porto-reduz-cinco-meses-pena-prisao-fernando-madureira-2163818",
+   "https://observador.pt/2025/03/17/julgamento-da-operacao-pretoriano-arranca-esta-segunda-feira-no-porto/"
+  ]
+ },
+ {
+  "name": "RB Leipzig",
+  "C": {
+   "score": 4,
+   "evidence": "Red Bull Arena (47,800, the old Zentralstadion) fills well, but support is young and organised mainly by the club; little away following or independent ultra culture; widely boycotted/protested by other clubs' fans."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Club created as a marketing vehicle for Red Bull; very few voting members (founders were Red Bull staff); academy and women's team exist."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Founded 2009 via SSV Markranstädt's licence; DFB-Pokal 2022 and 2023, UCL semi-final 2020."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "Red Bull GmbH owns 99% of the GmbH; 50+1 met only formally through a closed membership."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Red Bull high-press, fast-transition identity; Red Bull football strategy led by Jürgen Klopp (Head of Global Soccer since 2025)."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Red Bull network: Salzburg, NY Red Bulls, Bragantino, Omiya Ardija, stakes in Paris FC and Leeds; frequent player transfers from Salzburg. Leipzig is the network's top club, not a feeder."
+   },
+   {
+    "type": "franchise",
+    "points": -10,
+    "evidence": "Created by buying fifth-tier SSV Markranstädt's playing rights in 2009 and rebranding as a corporate club."
+   }
+  ],
+  "flags": [
+   "Old rating was -8 total; franchise -10 is new. Kevin to confirm whether the licence purchase counts as franchising."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RB_Leipzig",
+   "https://www.bundesliga.com/en/bundesliga/news/juergen-klopp-red-bull-head-of-global-soccer-rb-leipzig-29277",
+   "https://www.espn.com/soccer/story/_/id/47528058/jurgen-klopp-red-bull-role-grown-much-bigger-first-anticipated"
+  ]
  }
 ]

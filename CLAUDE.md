@@ -37,6 +37,7 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 - Terminology: "Affinity" (not HAI), "Matches" (not "Games"), "Affinity pick", "Match of the week".
 - The broadcast theme (Apple TV MLS-inspired) applies to every competition; keep it consistent.
 - Excel trackers are deprecated. Don't recreate them.
+- "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 
 ## Where the logic lives
 - Affinity rubric & rules: docs/affinity.md and scripts/affinity/scores.py (+ USL in build_usl.py).

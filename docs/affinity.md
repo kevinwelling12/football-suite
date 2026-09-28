@@ -2,8 +2,8 @@
 
 Built from a 51-question supporter-profile interview ("the Principled Romantic").
 Five factors, 0-10 each, weights from Kevin's own ranking (re-rate 2026-09):
-Values 28% · Supporter culture 26% · History & identity 16% · Ownership 12% · Style of play 8%
-(was 22 / 28 / 18 / 14 / 8). base = weighted sum / 0.90 * 10 + adjustments.
+Values 26% · Supporter culture 26% · History & identity 14% · Ownership 12% · Team 12%
+(quiz round 3; before: 28 / 26 / 16 / 12 / Style 8; originally 22 / 28 / 18 / 14 / 8). base = weighted sum / 0.90 * 10 + adjustments.
 Bonus: nations keep a heritage tiebreaker up to +10. Clubs have no regional bonus; only the hometown club
 (Sacramento Republic FC) gets +4.
 
@@ -31,4 +31,12 @@ Re-rate 2026-09 (research in scripts/affinity/research, answers in REVIEW.md), r
 - Sponsors: casino brands count half as much as sportsbooks; an owner who owns the betting sponsor counts worse;
   state tourism boards and state firms of any non-Free country count in full; signed future deals count now.
 - Penalties from a previous owner are dropped. Franchise -10 also for RB Leipzig and NC Courage.
+Quiz round 3 (players and team culture, 2026-09-28; research in scripts/affinity/research/out3, applied by team.py):
+- Team replaces Style of play (slot S in scores.py): how they play, the player-fan bond, a stable humble squad,
+  current icons (only while at the club), a defining long-serving coach; women's clubs also player activism.
+- Values: player conduct and the club's response; -2 for standing by a player facing credible abuse or violence
+  allegations (not after an acquittal); +1 for homegrown players unless the academy is already credited.
+  Staff and owner conduct toward players (welfare, pay, exile groups) counts in Ownership.
+- Rivals of clubs Kevin follows: Schalke, Bayern, Seattle Sounders, Seattle Reign, Vancouver -5; Everton -2.
+- Republic link +2: a former Republic player who is a regular at a higher-tier club (now LAFC, Aaron Long).
 Rescore: edit scripts/affinity/scores.py (USL: scripts/importers/build_usl.py) -> rescore.py -> build.

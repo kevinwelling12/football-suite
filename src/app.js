@@ -1,4 +1,6 @@
 const DATA = /*__DATA__*/;
+// Nations outside the Nations League (2026 World Cup), for the Affinity pages only: {wc: {name: result}, teams: [...]}.
+const EXTRA = /*__EXTRA__*/;
 const DEF = {sims:1000, impFloor:0.05, impRamp:0.25, drawAuto:1, drawW0:60};
 const STORE = 'football-suite-2627';
 // In views that mix competitions (Live), fixture ids repeat, so a click looks up ids inside its own card first.
@@ -622,7 +624,10 @@ const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five 
   <p>Association: clubs with real ties (a shared supporter base like the Timbers and Thorns, a formal fan friendship, a shared ritual like You'll Never Walk Alone) pull each other's Affinity part of the way together: 15%, 8% or 4% of the gap by how strong the tie is, up to 5 points. A club gains from friends rated above it and only loses points to friends you rate below 50, so a friendship with Lazio costs, one with Mainz doesn't. Ownership ties don't count (multi-club networks have their own penalty), and rivals of your clubs aren't linked.</p>
   <p>Location & big-4: North American clubs get up to +3 for being close to Sacramento. A US club sharing a market with the Giants, 49ers or Sharks gets +1 (Bay Area clubs +0.5 net, as the Warriors count as a half rival); one sharing a market with their rivals (Lakers, Dodgers, Rams, LA Kings, Ducks, Cowboys, Golden Knights; A's, Raiders and Warriors at half) loses up to 2. Any club whose owners also own or hold a stake in the Kings, Giants, 49ers or Sharks gains (Leeds +2); one tied to a rival loses (Arsenal −3 for the Rams). Capped at ±4.</p>
   <p>Sacramento Republic gets a +4 hometown bonus; nations get a heritage tiebreaker of up to 10.</p></details>`;
+let natF = 'all';
+const wcOf = name => EXTRA.wc[name];
 function viewClubs(k) {
+  if (k === 'unl') return viewNations();
   const t = T(k), order = [...t.keys()].sort((a, b) => affOf(t[b]) - affOf(t[a])), mx = Math.max(...order.map(i => affOf(t[i])));
   const cup = COMPS_CFG[k].cup, r = R[k], anyBonus = order.some(i => t[i].bonus);
   const ratings = cup ? '' : `<section class="section"><h2>Ratings</h2><p class="sub">Opponent-adjusted attack and defense (1.00 = average; lower defense is better).</p>
@@ -636,6 +641,36 @@ function viewClubs(k) {
       <span class="stack"><span class="b" style="width:${t[i].base / mx * 100}%"></span><span class="x" style="width:${t[i].bonus / mx * 100}%"></span></span>
       <span class="num sc">${affOf(t[i]).toFixed(1)}</span></div>`).join('')}</div></section>${ratings}`;
 }
+// Nations: the Nations League's 54 plus the rest of the 2026 World Cup field, filterable.
+function viewNations() {
+  const k = 'unl', r = R[k], t = T(k);
+  const all = t.map((x, i) => ({t: x, attr: `data-club="${i}"`, chip: tchip(k, i)}))
+    .concat(EXTRA.teams.map((x, j) => ({t: x, attr: `data-xnat="${j}"`, chip: `<i class="tchip" style="--tc:${x.color}"></i>`})))
+    .sort((a, b) => affOf(b.t) - affOf(a.t) || a.t.name.localeCompare(b.t.name));
+  const nWc = all.filter(e => wcOf(e.t.name)).length;
+  const list = all.map((e, n) => Object.assign({n: n + 1}, e)).filter(e => natF === 'all' || (natF === 'wc' ? wcOf(e.t.name) : !e.t.confed));
+  const mx = affOf(all[0].t), sub = e => [e.t.confed || 'UEFA', wcOf(e.t.name) ? `World Cup: ${wcOf(e.t.name)}` : ''].filter(Boolean).join(' · ');
+  const chips = [['all', `All ${all.length}`], ['wc', `World Cup 2026 ${nWc}`], ['uefa', `Nations League ${t.length}`]];
+  const ratings = `<section class="section"><h2>Ratings</h2><p class="sub">Opponent-adjusted attack and defense (1.00 = average; lower defense is better). Nations League sides only.</p>
+    <div class="card scroll" style="margin-top:14px"><table><thead><tr><th class="club">Nation</th><th>Attack</th><th>Defense</th><th>Avg finish</th></tr></thead>
+    <tbody>${[...t.keys()].sort((a, b) => (r.att[b] / r.def[b]) - (r.att[a] / r.def[a])).map(i => `<tr><td class="club"><button class="club-link" data-club="${i}">${dual(k, i)}</button></td><td class="num">${r.att[i].toFixed(2)}</td><td class="num">${r.def[i].toFixed(2)}</td><td class="num">${r.tab[i].avgSimPos.toFixed(1)}</td></tr>`).join('')}</tbody></table></div></section>`;
+  return `<section class="section"><div class="sec-head"><h2>Your Affinity</h2><button class="linkish" data-view="rank">All ${rankList().length} ranked →</button></div>
+    <p class="sub">Every Nations League side plus the rest of the 2026 World Cup field. Tap one for the breakdown.</p>${AFF_HOW}
+    <div class="rank-chips">${chips.map(([f, l]) => `<button class="rchip" data-natf="${f}" aria-pressed="${natF === f}">${esc(l)}</button>`).join('')}</div>
+    <div class="legend"><span style="--c:var(--accent)">Affinity</span><span style="--c:var(--magenta)">Heritage bonus</span></div>
+    <div class="card" style="margin-top:10px">${list.map(e => `<div class="hai-row"><span class="num rk">${e.n}</span>
+      <span class="who"><button class="club-link" ${e.attr}>${e.chip}${esc(e.t.name)}</button><small>${esc(sub(e))}${e.t.hai && e.t.hai.adj ? ` · <b class="adj">Adjustments ${signed(e.t.hai.adj)}</b>` : ''}${e.t.bonus ? ` · ${e.t.region === 'Home nation' ? 'Home nation' : 'Heritage'} +${e.t.bonus}` : ''}</small></span>
+      <span class="stack"><span class="b" style="width:${Math.max(0, e.t.base) / mx * 100}%"></span><span class="x" style="width:${e.t.bonus / mx * 100}%"></span></span>
+      <span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>${ratings}`;
+}
+// A World Cup nation outside the Nations League: Affinity breakdown only.
+function openNation(j) {
+  const t = EXTRA.teams[j];
+  $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(t.confed)}${wcOf(t.name) ? ` · World Cup 2026: ${esc(wcOf(t.name))}` : ''}</div>
+      <h2 style="margin-top:4px"><i class="tchip" style="--tc:${t.color}"></i>${esc(t.name)}</h2></div><button class="close" aria-label="Close" id="close">✕</button></div>
+    ${affBreakdown('unl', t)}<p class="note">Not in the Nations League, so there are no matches or ratings to show.</p>`;
+  if (!$('#detail').open) $('#detail').showModal(); $('#close').onclick = () => $('#detail').close();
+}
 // Overall ranking: every club and nation once, under its primary league.
 const RANK_PRIMARY = ['epl', 'esp', 'ita', 'bl', 'fra', 'mls', 'nwsl', 'ch', 'usl', 'ucl', 'cup', 'unl'];
 const RANK_LABEL = { cup: 'League One / Two', ucl: 'Other European leagues', unl: 'Nations' };
@@ -645,6 +680,7 @@ function rankList() {
   if (rankCache) return rankCache;
   const by = {};
   for (const k of RANK_PRIMARY) T(k).forEach((t, i) => { if (!by[t.name]) by[t.name] = {k, i, t}; });
+  EXTRA.teams.forEach((t, j) => { if (!by[t.name]) by[t.name] = {k: 'unl', x: j, t}; });
   return rankCache = Object.values(by).sort((a, b) => affOf(b.t) - affOf(a.t) || a.t.name.localeCompare(b.t.name));
 }
 function viewRank() {
@@ -656,7 +692,7 @@ function viewRank() {
     <p class="sub">All ${all.length} clubs and nations in the tracker, by Affinity, coloured by their main league. Clubs in more than one competition show once. Tap one for the breakdown.</p>${AFF_HOW}
     <div class="rank-chips">${chips.map(([k, l]) => `<button class="rchip" data-rankf="${k}" aria-pressed="${rankF === k}" style="--c:${k === 'all' ? '#fff' : DOT[k]}">${k === 'all' ? '' : '<i></i>'}${esc(l)}</button>`).join('')}</div>
     <div class="card rank" style="margin-top:12px">${list.map(e => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${e.n}</span>
-      <span class="who"><button class="club-link" data-club="${e.k}:${e.i}">${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}${e.t.hai && e.t.hai.P != null ? ` · Track record ${e.t.hai.P.toFixed(1)}` : ''}</small></span>
+      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}${e.t.hai && e.t.hai.P != null ? ` · Track record ${e.t.hai.P.toFixed(1)}` : ''}</small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, affOf(e.t)) / mx * 100}%"></span></span>
       <span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>`;
 }
@@ -858,7 +894,7 @@ function viewHome() {
     <section class="section"><h2>Competitions</h2><p class="sub">Tap one to open it.</p><div class="tiles">${tiles}</div></section>
     <section class="section"><div class="sec-head"><h2>Affinity ranking</h2><button class="linkish" data-view="rank">All ${rankList().length} →</button></div><p class="sub">Your top 10 across every competition, coloured by league.</p>
       <div class="card rank" style="margin-top:12px">${rankList().slice(0, 10).map((e, n) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${n + 1}</span>
-      <span class="who"><button class="club-link" data-club="${e.k}:${e.i}">${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}</small></span><span></span><span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>
+      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}</small></span><span></span><span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>
     <section class="section"><h2>Biggest match left in each competition</h2><p class="sub">The most important match left in each competition, soonest first.</p>
       <div class="card" style="margin-top:12px">${big.map(x => row(x, true)).join('')}</div></section>`;
 }
@@ -953,7 +989,7 @@ function affBreakdown(k, t) {
     ${h.adj ? `<div class="hb hb-adj"><span>Adjustments</span><span>${esc(h.note)}</span><b class="num ${h.adj < 0 ? 'neg' : ''}">${signed(h.adj)}</b></div>` : h.note ? `<p class="hb-note">${esc(h.note)}</p>` : ''}
     ${h.usTot ? `<div class="hb hb-adj"><span>Location & big‑4</span><span>${h.us.map(([l, v]) => `${esc(l)} ${signed(v)}`).join('<br>')}</span><b class="num ${h.usTot < 0 ? 'neg' : ''}">${signed(h.usTot)}</b></div>` : ''}
     ${h.assoc ? `<div class="hb hb-adj"><span>Association</span><span>${h.links.map(([y, v]) => `${esc(y)} ${signed(v)}`).join(' · ')}</span><b class="num ${h.assoc < 0 ? 'neg' : ''}">${signed(h.assoc)}</b></div>` : ''}
-    ${t.bonus ? `<div class="hb hb-adj"><span>${k === 'unl' ? 'Heritage' : 'Hometown'}</span><span>${esc(t.region || '')}</span><b class="num">+${t.bonus}</b></div>` : ''}</div>`;
+    ${t.bonus ? `<div class="hb hb-adj"><span>${k === 'unl' ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown'}</span><span>${esc(t.region || '')}</span><b class="num">+${t.bonus}</b></div>` : ''}</div>`;
 }
 function openClub(k, i) {
   const r = R[k], cup = COMPS_CFG[k].cup, t = T(k)[i];
@@ -1034,7 +1070,7 @@ function liveEvent(k, id, ev) {
 }
 // ---------------------------------------------------------------- events
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-rankf],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
+  const t = e.target.closest('[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-rankf],[data-natf],[data-xnat],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
   if (!t) return;
   const card = t.closest('#main [data-fx]');
   // On Live, a match card's buttons act on that card's competition.
@@ -1076,6 +1112,8 @@ document.addEventListener('click', e => {
     save(k); if ($('#detail').open) openClub(k, i); render(); return; }
   if (t.dataset.club) { const [kk, i] = t.dataset.club.includes(':') ? t.dataset.club.split(':') : [k, t.dataset.club]; if (R[kk]) openClub(kk, +i); return; }
   if (t.dataset.rankf) { rankF = t.dataset.rankf; render(); return; }
+  if (t.dataset.natf) { natF = t.dataset.natf; render(); return; }
+  if (t.dataset.xnat) { openNation(+t.dataset.xnat); return; }
   if (t.dataset.tmode) { state.tmode[k] = t.dataset.tmode; render(); return; }
   if (t.dataset.region) { const r = REGIONS.find(x => x.key === t.dataset.region); if (regionOf(k) === r) return; state.view = lastIn[r.key] || r.comps[0]; render(); window.scrollTo({top:0}); return; }
   if (t.dataset.view) { state.view = t.dataset.view; render(); window.scrollTo({top:0}); return; }

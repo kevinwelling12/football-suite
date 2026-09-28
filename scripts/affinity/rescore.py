@@ -63,5 +63,17 @@ for key, comp in D.items():
             tot, ps = PULL[t['name']]
             t['hai'].update(assoc=tot, links=[[y, v] for y, v in ps])
             t['base'] = min(100, max(0, round(t['base'] + tot, 1)))
+# Nations outside the Nations League (2026 World Cup field): data/nations_extra.json, same factors, no track record.
+# Heritage bonus: the United States is Kevin's home nation (+10, the nations' maximum).
+NATION_BONUS = {'United States': (10.0, 'Home nation')}
+px = root / 'data' / 'nations_extra.json'
+if px.exists():
+    X = json.loads(px.read_text())
+    for t in X['teams']:
+        C, V, H, O, St, adj, note = S[t['name']]
+        t['hai'] = dict(C=C, V=V, H=H, O=O, S=St, adj=adj, note=note)
+        t['base'] = min(100, max(0, round((W['C']*C + W['V']*V + W['H']*H + W['O']*O + W['S']*St) / 0.90 * 10 + adj, 1)))
+        t['bonus'], t['region'] = NATION_BONUS.get(t['name'], (0, ''))
+    px.write_text(json.dumps(X, ensure_ascii=False, indent=1))
 p.write_text(json.dumps(D, ensure_ascii=False, separators=(',', ':')))
 print('rescored')

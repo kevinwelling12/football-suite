@@ -11,6 +11,8 @@ claude = '--claude' in sys.argv
 
 html = (src / 'index.template.html').read_text()
 app = (src / 'app.js').read_text().replace('/*__DATA__*/', (root / 'data' / 'suite_data.json').read_text())
+extra = root / 'data' / 'nations_extra.json'
+app = app.replace('/*__EXTRA__*/', extra.read_text() if extra.exists() else '{"wc":{},"teams":[]}')
 head = ''
 if not claude:
     sdk = ''.join(f'<script src="https://www.gstatic.com/firebasejs/{FIREBASE_SDK}/firebase-{m}-compat.js"></script>\n'

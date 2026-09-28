@@ -122,8 +122,11 @@ function update(k) { if (worker) { finish(k, runModel(k, runArgs(k, QUICK_SIMS))
 function compute(k) { finish(k, runModel(k, runArgs(k))); }
 function finish(k, r, quick) {
   R[k] = r;
-  const km = DATA[k].kick || {}, st = state.status[k] || {};
+  const km = DATA[k].kick || {}, st = state.status[k] || {}, src = DATA[k].fixtures, mine = state.results[k] || {}, si = COMPS_CFG[k].cup ? 5 : 4;
   for (const f of R[k].fx) {
+    // One of Kevin's entries that disagrees with the tracker's data (nightly ESPN sync): flag it, never replace it.
+    const b = src[f.id], r = mine[f.id];
+    f.baseDiff = f.played && r && Number.isInteger(b[si]) && (b[si] !== r[0] || b[si + 1] !== r[1]) ? [b[si], b[si + 1]] : null;
     const s = st[f.id] || {}, x = km[f.id];
     if (s.d) { f.date = s.d; f.kt = s.t ? new Date(s.d + 'T' + s.t).getTime() : null; f.moved = true; }
     else f.kt = x && x[1] ? Date.parse(x[0]) : null;
@@ -383,6 +386,7 @@ function matchCard(k, f, motw) {
   if (fin) {
     const bits = [];
     if (f.pickPts !== undefined) bits.push(`<span class="res-row"><span>Pick 'em <b>${f.pick[0]}–${f.pick[1]}</b></span><span class="chip ${f.pickPts === state.suite.peExact ? 'p3' : f.pickPts > 0 ? 'hit' : 'miss'}">${f.pickPts} pt${f.pickPts === 1 ? '' : 's'}</span></span>`);
+    if (f.baseDiff) bits.push(`<span class="res-row"><span>Tracker data <b>${f.baseDiff[0]}–${f.baseDiff[1]}</b></span><span class="chip fav">Differs from yours</span></span>`);
     if (f.favorHit !== undefined) bits.push(`<span class="res-row"><span>Affinity pick <b>${esc(favLabel(k, f))}</b></span><span class="chip ${f.favorHit ? 'hit' : 'miss'}">${f.favorHit ? 'Came through' : 'Missed'}</span></span>`);
     foot = bits.length ? `<div class="res-stack">${bits.join('')}</div>` : '';
   } else if (f.live) {
@@ -480,7 +484,7 @@ function viewWeek(k) {
     ${k === 'unl' ? leagueSeg() : ''}
     <div class="slate">${up.length ? `<span class="pill">Pick 'em slate <b class="num">${ev.toFixed(1)}</b> expected pts</span>` : ''}${done.length ? `<span class="pill">Picks scored <b class="num">${got}</b> of ${done.length * state.suite.peExact}</span>` : ''}<span class="pill">Season pick 'em <b class="num">${r.pickemPts}</b> pts in ${r.nPlayed} matches</span></div>
     <div class="matches">${(() => { const m = motwFor(k, list); return list.map(f => matchCard(k, f, m && m.id === f.id ? 'Match of the week' : '')).join(''); })()}</div>
-    <p class="note">Match of the week blends importance with how evenly matched the sides are, as the round begins; it's fixed once the first match kicks off. Entering a result locks in the pick 'em score and affinity pick shown before kickoff. Results that came with the tracker are scored with the picks as of September 26. Tap a match for the full scoreline grid.</p></section>`;
+    <p class="note">Match of the week blends importance with how evenly matched the sides are, as the round begins; it's fixed once the first match kicks off. Entering a result locks in the pick 'em score and affinity pick shown before kickoff. Results that came with the tracker are scored with the picks as of September 26; results added by the nightly ESPN sync, with the picks from before the match. Tap a match for the full scoreline grid.</p></section>`;
 }
 function zoneColor(k, pos) { const c = COMP[k].cfg.colors.find(([a, b]) => pos >= a && pos <= b); return c ? c[2] : 'transparent'; }
 const COL_SHORT = {'Promoted':'Up', 'Play-offs':'PO', 'Relegated':'Rel', 'Quarter-finals':'QF', 'Win it':'Win', 'Top 8':'Top 8', 'Title':'Title', 'Top 4':'Top 4', 'Top 3':'Top 3', 'Shield':'Shield', 'Bye':'Bye', 'Playoffs':'PO',
@@ -603,7 +607,7 @@ function viewClubs(k) {
 }
 function field(k, key, label, help, step, global) { const v = global ? state.suite[key] : Sfor(k)[key]; return `<div class="field"><label for="f-${key}">${label}</label><p>${help}</p><input id="f-${key}" data-set="${key}" data-global="${global ? 1 : 0}" type="number" step="${step}" value="${v}"></div>`; }
 function viewSettings(k) {
-  const n = Object.keys(state.results[k]).length, cup = COMPS_CFG[k].cup;
+  const n = Object.keys(state.results[k]).length, cup = COMPS_CFG[k].cup, nd = R[k] ? R[k].fx.filter(f => f.baseDiff).length : 0;
   return `<section class="section"><h2>Settings</h2><p class="sub">Changes apply straight away and save with your scores. Pick 'em scoring is shared by every competition.</p>
     <div class="set-grid">${field(k, 'peOutcome', "Pick 'em: correct result", 'Points for the right winner or draw.', 1, true)}${field(k, 'motwW', 'Match of the week: importance share', 'Blend of what\'s at stake (importance) and how evenly matched the sides are. 1 = importance only, 0 = competitiveness only. Default 0.5. Also used for Match of the day.', 0.1, true)}${field(k, 'peExact', "Pick 'em: correct score (total)", 'Total points when the exact score is right too.', 1, true)}
     ${cup ? field(k, 'underdog', 'Affinity pick: underdog lean', 'Extra weight for the side less likely to go through. At 0.05 (5%) it only decides close calls. 0 = off.', 0.01) : field(k, 'beta', 'Affinity pick: stakes weight (β)', "How much a club's stakes can outweigh Affinity in the pick. 0 = Affinity only. Default 0.3.", 0.05) +
@@ -620,9 +624,9 @@ function viewSettings(k) {
     <section class="section"><h2>Your clubs</h2><p class="sub">Followed clubs get a star, a highlighted match card and table row, and their own section on the overview. You can also follow from any club card.</p>
     <div class="fav-chips">${[...T(k).keys()].sort((x, y) => T(k)[x].name.localeCompare(T(k)[y].name)).filter(i => !cup || R[k].alive.includes(i) || isFav(k, i)).map(i => `<button class="fchip ${isFav(k, i) ? 'on' : ''}" data-follow="${i}">${isFav(k, i) ? '★' : '☆'} ${esc(T(k)[i].name)}</button>`).join('')}</div>
     ${cup ? '<p class="note">Showing the 16 clubs still in the cup.</p>' : ''}</section>
-    <section class="section"><h2>Your data</h2><p class="sub">${n} result${n === 1 ? '' : 's'} entered or edited here, on top of the results that came with the tracker. ${saveMode === 'google' ? `They sync to your Google account (${esc(backend.user.email || '')}), so they follow you between devices. <button class="linkish" data-signout="1">Sign out</button>` : saveMode === 'claude' ? 'They save to your Claude account, so they follow you between devices.' : authState === 'signed-out' ? 'They save on this device only. <button class="linkish" data-signin="1">Sign in with Google</button> to sync between devices.' : 'They save on this device.'}</p>
+    <section class="section"><h2>Your data</h2><p class="sub">${n} result${n === 1 ? '' : 's'} entered or edited here, on top of the results that came with the tracker.${nd ? ` <b>${nd}</b> of them ${nd === 1 ? 'differs' : 'differ'} from the tracker's data; the match cards show both.` : ''} ${saveMode === 'google' ? `They sync to your Google account (${esc(backend.user.email || '')}), so they follow you between devices. <button class="linkish" data-signout="1">Sign out</button>` : saveMode === 'claude' ? 'They save to your Claude account, so they follow you between devices.' : authState === 'signed-out' ? 'They save on this device only. <button class="linkish" data-signin="1">Sign in with Google</button> to sync between devices.' : 'They save on this device.'}</p>
     <button class="danger" data-reset="${k}" style="margin-top:12px">Remove my entered results for ${esc(COMPS_CFG[k].name)}</button>
-    <p class="note">US broadcaster: ${esc(DATA[k].tv)}. Kickoff times show in your device's time zone; "time TBC" means the league hasn't confirmed the slot yet. Fixtures and results through September 20 from ${esc(COMPS_CFG[k].source)}. ${cup ? 'Model: Poisson ratings on the Premier League scale with tier offsets, 1,000 simulated cups with random draws for undrawn rounds.' : 'Model: Dixon-Coles Poisson ratings with preseason priors and a 1,000-season simulation, the same method as your Excel trackers.'}</p></section>`;
+    <p class="note">US broadcaster: ${esc(DATA[k].tv)}. Kickoff times show in your device's time zone; "time TBC" means the league hasn't confirmed the slot yet. Fixtures and results through September 20 from ${esc(COMPS_CFG[k].source)}${DATA[k].synced ? `, then from ESPN (last update ${fmtDate(DATA[k].synced, {month:'long', day:'numeric'})})` : ''}. ${cup ? 'Model: Poisson ratings on the Premier League scale with tier offsets, 1,000 simulated cups with random draws for undrawn rounds.' : 'Model: Dixon-Coles Poisson ratings with preseason priors and a 1,000-season simulation, the same method as your Excel trackers.'}</p></section>`;
 }
 
 

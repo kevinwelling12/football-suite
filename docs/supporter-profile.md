@@ -60,3 +60,38 @@ next full re-rate. Ratings are league-agnostic: the same club gets the same scor
 ## Heritage bonus
 - Clubs: drop the regional heritage bonus. Keep only the hometown bonus (Sacramento Republic +4).
 - National teams: keep the national heritage bonus (up to +10).
+
+# Quiz round 3: players and team culture (2026-09-28)
+
+Players and the squad were not covered before. Answers below. Not yet applied to scores: needs a research
+run for the Team factor (see scripts/affinity/research/BRIEF.md, "Team factor").
+
+## Team (replaces Style of play)
+- Style becomes Team: how they play (intensity, pressing, running for each other) plus team culture.
+- Team-culture signals that count: the player-fan bond (players celebrate with fans, stay after defeats,
+  show up in the community) and a stable, humble squad (low churn, no big-ego stars, long-serving captains).
+  Fight and a clean dressing room were not picked as signals of their own.
+- Icons count only while at the club (Reus-type bond), then they pass into History.
+- A defining, long-serving coach (Klopp, Streich, Simeone) raises Team while there.
+- Women's clubs: squads and players who led the equal-pay and welfare fights raise Team.
+- Time window: the last 3 seasons.
+
+## Values additions
+- Player conduct counts, and the club's response counts on top (racist abuse, violence by a player; charity
+  and speaking up on social issues raise).
+- A club standing by a player facing credible abuse or violence allegations: strong negative (Values -2 or more).
+- Player welfare applies to all clubs, men's included (contracts, mental health, treatment of injured or released players).
+- One-club players and academy graduates in the first team: a small raise (the academy pathway already counts).
+
+## Not added
+- Underdog status: only through History (famous runs), no extra credit.
+- US players, clubs visited in person: no bonus.
+
+## Adjustments
+- Rivals of clubs Kevin follows: Schalke 04 and Bayern Munich (Dortmund) -5; Seattle Sounders FC, Seattle Reign
+  and Vancouver Whitecaps FC (Cascadia) -5; Everton -2 (friendly derby). Manchester United and Republic's USL
+  rivals: none.
+- Republic link: +2 while a former Sacramento Republic player is on the roster.
+
+## Weights (of 90)
+Values 26, Culture 24, History 14, Ownership 10, Team 16 (was 28 / 26 / 16 / 12 / Style 8).

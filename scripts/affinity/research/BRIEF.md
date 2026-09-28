@@ -124,3 +124,15 @@ one object per club, in the batch order:
 ```
 At least two sources per club, more for anything that triggers an adjustment. Keep evidence short.
 Do not edit any other file, do not commit, do not run git.
+
+## Team factor (quiz round 3, next run)
+T replaces S. Score 0-10 on the last 3 seasons:
+- How they play: intensity, pressing, running for each other (the old Style anchors still apply).
+- Player-fan bond: players celebrate with fans, stay after defeats, community presence.
+- Stable, humble squad: low churn, long-serving captains, no star-ego culture.
+- Current icons (a player inseparable from the club, while still there) and a defining long-serving coach raise it.
+- Women's clubs: player activism (equal pay, welfare reform) raises it.
+Also report per club, as evidence fields: player-conduct cases and the club's response (Values), whether the club
+stood by a player facing credible abuse/violence allegations (Values -2 or more), player-welfare findings (all clubs),
+homegrown / one-club players in the first team (small Values raise), and any former Sacramento Republic player on
+the current roster (+2 while there).

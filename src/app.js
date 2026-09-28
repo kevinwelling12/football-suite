@@ -607,12 +607,15 @@ function affLine(t, fallback) {
   const bits = [];
   if (h.P != null) bits.push(`Track record ${h.P.toFixed(1)}`);
   if (h.adj) bits.push(`<b class="${h.adj < 0 ? 'adj' : 'adj pos'}">Adjustments ${signed(h.adj)}</b>`);
+  if (h.assoc) bits.push(`<b class="${h.assoc < 0 ? 'adj' : 'adj pos'}">Association ${signed(h.assoc)}</b>`);
   if (t.bonus) bits.push(`Hometown ${signed(t.bonus)}`);
   return bits.join(' · ') || 'No adjustments';
 }
 const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five factors from your supporter profile, each out of 10: values 26%, supporter culture 26%, history and identity 14%, ownership 12%, team 12% (how they play, the squad's bond with fans, long-serving captains and coaches).</p>
   <p>Track record multiplies that score by 0.80 to 1.20: the last 10 league seasons, judged against the tier the club plays in (top flight, Championship, USL Championship, League One/Two), with recent seasons counting most (a season three years ago counts half). Steady top-half finishes score almost as well as titles; a relegation fight scores low. Nations have no track record.</p>
-  <p>Then adjustments for your hard lines (state ownership, racism and fan violence, private equity, multi-club networks, Super League) and for rivals and Republic links. Sacramento Republic gets a +4 hometown bonus; nations get a heritage tiebreaker of up to 10.</p></details>`;
+  <p>Then adjustments for your hard lines (state ownership, racism and fan violence, private equity, multi-club networks, Super League) and for rivals and Republic links.</p>
+  <p>Association: clubs with real ties (a shared supporter base like the Timbers and Thorns, a formal fan friendship, a shared ritual like You'll Never Walk Alone) pull each other's Affinity part of the way together: 15%, 8% or 4% of the gap by how strong the tie is, up to 5 points. A club gains from friends rated above it and only loses points to friends you rate below 50, so a friendship with Lazio costs, one with Mainz doesn't. Ownership ties don't count (multi-club networks have their own penalty), and rivals of your clubs aren't linked.</p>
+  <p>Sacramento Republic gets a +4 hometown bonus; nations get a heritage tiebreaker of up to 10.</p></details>`;
 function viewClubs(k) {
   const t = T(k), order = [...t.keys()].sort((a, b) => affOf(t[b]) - affOf(t[a])), mx = Math.max(...order.map(i => affOf(t[i])));
   const cup = COMPS_CFG[k].cup, r = R[k], anyBonus = order.some(i => t[i].bonus);
@@ -916,12 +919,14 @@ function affBreakdown(k, t) {
   if (h.k != null) sum.push(`× ${h.k.toFixed(2)} track record`);
   if (h.adj) sum.push(`${h.adj < 0 ? '−' : '+'} ${Math.abs(h.adj)} adjustments`);
   if (t.bonus) sum.push(`+ ${t.bonus} ${k === 'unl' ? 'heritage' : 'hometown'}`);
-  if (fs * (h.k ?? 1) + h.adj > 100) sum.push('(capped at 100)');
+  if (h.assoc) sum.push(`${h.assoc < 0 ? '−' : '+'} ${Math.abs(h.assoc)} association`);
+  if (fs * (h.k ?? 1) + h.adj + (h.assoc || 0) > 100) sum.push('(capped at 100)');
   return `<h4 style="margin-top:18px">Affinity ${affOf(t).toFixed(1)}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
     ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${h[key]}</b></div>`).join('')}
     ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>
       <p class="hb-note">Last 10 league seasons, oldest to newest, recent ones counting most.</p>` : ''}
     ${h.adj ? `<div class="hb hb-adj"><span>Adjustments</span><span>${esc(h.note)}</span><b class="num ${h.adj < 0 ? 'neg' : ''}">${signed(h.adj)}</b></div>` : h.note ? `<p class="hb-note">${esc(h.note)}</p>` : ''}
+    ${h.assoc ? `<div class="hb hb-adj"><span>Association</span><span>${h.links.map(([y, v]) => `${esc(y)} ${signed(v)}`).join(' · ')}</span><b class="num ${h.assoc < 0 ? 'neg' : ''}">${signed(h.assoc)}</b></div>` : ''}
     ${t.bonus ? `<div class="hb hb-adj"><span>${k === 'unl' ? 'Heritage' : 'Hometown'}</span><span>${esc(t.region || '')}</span><b class="num">+${t.bonus}</b></div>` : ''}</div>`;
 }
 function openClub(k, i) {

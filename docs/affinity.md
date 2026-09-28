@@ -55,3 +55,14 @@ Track record (2026-09-28, scripts/affinity/performance.py; data in scripts/affin
   Champions League / CONCACAF Champions Cup 2, Europa / Conference League 1 (capped at 10).
 - Seasons before a club existed score 3 (no consistency shown yet). NWSL 2020 (no regular season) is left out.
 - Refresh once a year after the seasons end: add the new season to perf/*.json (drop the oldest), then rescore.
+
+Association (2026-09-28, scripts/affinity/association.py; links in scripts/affinity/links.json after Kevin's review;
+research in scripts/affinity/research/assoc, brief ASSOC_BRIEF.md):
+- Two-way pull: each linked club moves a share of the gap toward its partner's Affinity. strong 15% (one supporter
+  base: Timbers / Thorns), medium 8% (formal fan friendship, shared ritual like You'll Never Walk Alone), light 4%.
+  A club's link weights add up to at most 15% (many links average instead of stacking); total capped at +/-5;
+  computed once on the Affinity before any pull.
+- Direction: a club always gains from a partner rated above it, and only loses to a partner below 50 (a club Kevin
+  dislikes): Liverpool isn't dragged down by Mainz, but an ultras twinning with Lazio costs Inter and Real Madrid.
+- 56 ties in links.json: the research minus low-confidence ties (incl. stadium-only US pairs) and kit-heritage ties.
+- Pairs where both clubs carry a rival penalty are skipped (Sounders / Reign). Ownership ties never count.

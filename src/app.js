@@ -443,7 +443,7 @@ function matchCard(k, f, motw) {
       ${bcTeams ? `<div class="team bc-team"><span class="t-abbr">${tchip(k, f.a)}${esc(T(k)[f.a].abbr)}${star(k, f.a)}</span><small>${esc(nm(k, f.a))}${wlab('a') ? ' · ' + wlab('a') : ''}</small></div>` : `<div class="team"><span class="${f.favored === 'A' ? 'fav' : ''}">${esc(nm(k, f.a))}${star(k, f.a)}</span><small>${wlab('a')}</small></div>`}
     </div>`}
 ${probs}${liveCtl}
-    ${!fin && known ? `<div class="tv">Watch: ${esc(tvLabel(k))}</div>` : ''}
+    ${!fin && known ? `<div class="tv">Watch: ${esc(TV_SHORT[k] || DATA[k].tv)}</div>` : ''}
     ${foot ? `<div class="m-foot">${foot}</div>` : ''}${affRow}${drawUI}
     ${canEnter ? `<div class="m-act"><button class="enter wide" data-enter="${f.id}">${fin ? 'Edit result' : f.live ? 'Update score' : 'Enter score'}</button></div>
     <div class="entry" id="entry-${f.id}" hidden>
@@ -738,16 +738,14 @@ function tileData(k) {
   return {peN:r.fx.filter(f => f.pickPts !== undefined).length, h1:[cfg.headline[0], nm(k, lead.i), pct(lead.odds[hk] || 0) + ' ' + cfg.headline[2]], h2:line, next, pe:r.pickemPts, sat:r.satisfaction, played:r.nPlayed};
 }
 function viewHome() {
+  // Compact competition tiles (2 per row on a phone): colour, name, the headline race and pick 'em per match.
   const tiles = ORDER.map(k => {
     const d = tileData(k), c = COMPS_CFG[k];
-    if (!d) return `<div class="tile"><div class="tile-top" style="--c:${c.brand.head}"><b>${esc(c.name)}</b></div><div class="loading">Crunching…</div></div>`;
-    return `<button class="tile" data-view="${k}"><div class="tile-top" style="--c:${c.brand.head}"><b>${esc(c.name)}</b><span>${esc(c.season)}</span></div>
-      <div class="tile-body"><div><div class="k">${esc(d.h1[0])}</div><div class="v">${esc(d.h1[1])}<small>${esc(d.h1[2])}</small></div></div>
-      <div><div class="k">${esc(d.h2[0])}</div><div class="v">${esc(d.h2[1])}<small>${esc(d.h2[2])}</small></div></div>
-      <div><div class="k">Pick 'em</div><div class="v num">${d.peN ? (d.pe / d.peN).toFixed(2) : '—'}<small>${d.peN ? `pts per match · ${d.pe} in ${d.peN}` : 'no picks scored yet'}</small></div></div>
-      <div><div class="k">Affinity satisfaction</div><div class="v num">${Math.round(d.sat)}<small>out of 100</small></div></div>
-      <div class="tile-tv">Watch: ${esc(DATA[k].tv)}</div>
-      <div class="tile-next">${d.next ? `Next: ${whenLabel(d.next)} · <b>${esc(nm(k, d.next.h))} v ${esc(nm(k, d.next.a))}</b> · pick ${d.next.pick[0]}–${d.next.pick[1]}` : 'No fixtures set'}</div></div></button>`;
+    const head = `<div class="tile-top"><i style="--c:${DOT[k]}"></i><b>${esc(c.name)}</b></div>`;
+    if (!d) return `<div class="tile">${head}<div class="tile-body"><span class="tile-sub">Crunching…</span></div></div>`;
+    return `<button class="tile" data-view="${k}">${head}<div class="tile-body">
+      <span class="tile-k">${esc(d.h1[0])}</span><span class="tile-v">${esc(d.h1[1])}</span><span class="tile-sub">${esc(d.h1[2])}</span>
+      <span class="tile-pe">Pick 'em <b class="num">${d.peN ? (d.pe / d.peN).toFixed(2) : '—'}</b>${d.peN ? ' avg' : ''}</span></div></button>`;
   }).join('');
   const feed = ORDER.filter(k => R[k]).flatMap(k => R[k].fx.filter(f => !f.played && !f.postponed && f.h != null && f.a != null && f.pick).map(f => ({k, f}))).sort((a, b) => a.f.sortT - b.f.sortT || ORDER.indexOf(a.k) - ORDER.indexOf(b.k)).slice(0, 20);
   const big = ORDER.filter(k => R[k]).map(k => { const f = R[k].fx.filter(x => !x.played && x.importance !== undefined && !(x.round || '').endsWith('leg 1')).sort((a, b) => b.importance - a.importance)[0]; return f ? {k, f} : null; }).filter(Boolean);
@@ -776,9 +774,10 @@ function viewHome() {
       <span class="d">${liveLabel(k, f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
       <span class="m">${star(k, f.h)}${esc(nm(k, f.h))} <b class="num">${f.live.h}–${f.live.a}</b> ${esc(nm(k, f.a))}${star(k, f.a)} <span style="color:var(--muted);font-weight:500">· ${pct(f.live.pH)} / ${pct(f.live.pD)} / ${pct(f.live.pA)}</span></span>
       <span class="p num">${f.pick[0]}–${f.pick[1]}</span><span class="imp" style="font-size:12px;color:var(--muted)">${f.live.ev.toFixed(2)} pts</span></div>`).join('')}</div></section>` : '';
-  return `${liveSec}${yours}<section class="section"><h2>At a glance</h2><p class="sub">Tap a competition to open its tracker.</p><div class="tiles">${tiles}</div></section>
+  return `${liveSec}${yours}
     <section class="section"><h2>What's next</h2><p class="sub">The next 20 unplayed matches everywhere, with your pick 'em score. The highlighted row is each day's match of the day: the best blend of what's at stake and how evenly matched the sides are. Greyed dates have passed: enter those results in their competition.</p>
       <div class="card" style="margin-top:12px">${feed.map(x => row(x)).join('') || '<div class="loading">Crunching…</div>'}</div></section>
+    <section class="section"><h2>Competitions</h2><p class="sub">Tap one to open it.</p><div class="tiles">${tiles}</div></section>
     <section class="section"><h2>Biggest match left in each competition</h2><p class="sub">Ranked within each competition by match importance.</p>
       <div class="card" style="margin-top:12px">${big.map(x => row(x, true)).join('')}</div></section>`;
 }

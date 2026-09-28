@@ -1,0 +1,3022 @@
+[
+ {
+  "name": "AEK Athens",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 14
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 4,
+    "of": 14
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 2,
+    "of": 14
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 14
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 5,
+    "of": 14
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 4,
+    "of": 14
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 3,
+    "of": 14
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 3,
+    "of": 16
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 4,
+    "of": 16
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Super League Greece"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Super League Greece"
+   },
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "Greek Cup"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Super League Greece"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Split format since 2019-20 (final position after championship play-offs). 2016-17 play-offs were for European places only; regular-season position used."
+ },
+ {
+  "name": "Atlético Madrid",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2017-18",
+    "type": "continental2",
+    "what": "UEFA Europa League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Barcelona",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "Copa del Rey"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2020-21",
+    "type": "cup",
+    "what": "Copa del Rey"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2017-18",
+    "type": "cup",
+    "what": "Copa del Rey"
+   },
+   {
+    "s": "2016-17",
+    "type": "cup",
+    "what": "Copa del Rey"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Bayern Munich",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Bundesliga"
+   },
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Bundesliga"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Bundesliga"
+   },
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Bundesliga"
+   },
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Bundesliga"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Bundesliga"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Bundesliga"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Bundesliga"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Bundesliga"
+   },
+   {
+    "s": "2025-26",
+    "type": "cup",
+    "what": "DFB-Pokal"
+   },
+   {
+    "s": "2019-20",
+    "type": "cup",
+    "what": "DFB-Pokal"
+   },
+   {
+    "s": "2018-19",
+    "type": "cup",
+    "what": "DFB-Pokal"
+   },
+   {
+    "s": "2019-20",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Bodø/Glimt",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   },
+   {
+    "s": "2018",
+    "tier": 1,
+    "pos": 11,
+    "of": 16
+   },
+   {
+    "s": "2017",
+    "tier": 2,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 15,
+    "of": 16
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024",
+    "type": "league",
+    "what": "Eliteserien"
+   },
+   {
+    "s": "2023",
+    "type": "league",
+    "what": "Eliteserien"
+   },
+   {
+    "s": "2021",
+    "type": "league",
+    "what": "Eliteserien"
+   },
+   {
+    "s": "2020",
+    "type": "league",
+    "what": "Eliteserien"
+   },
+   {
+    "s": "2017",
+    "type": "league",
+    "what": "Norwegian First Division (tier 2)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Relegated from Eliteserien in 2016 (15th), won the 2017 1. divisjon and returned. Lost Norwegian Cup finals 2021-22 and 2023."
+ },
+ {
+  "name": "Borussia Dortmund",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 5,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020-21",
+    "type": "cup",
+    "what": "DFB-Pokal"
+   },
+   {
+    "s": "2016-17",
+    "type": "cup",
+    "what": "DFB-Pokal"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Club Brugge",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Belgian Pro League"
+   },
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "Belgian Cup"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Belgian Pro League"
+   },
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Belgian First Division A"
+   },
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Belgian First Division A"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Belgian First Division A"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Belgian First Division A"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Positions after the championship play-offs. 2019-20 season curtailed (COVID) with Brugge declared champions."
+ },
+ {
+  "name": "Como",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 4,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 7,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Serie C Group A (tier 3)"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Serie D Group B (tier 4)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "medium",
+  "notes": "Tier 3/4 seasons are group tables (Serie C Group A, Serie D group). Relegated and went bankrupt in 2017; refounded in Serie D for 2017-18. 2019-20 Serie C curtailed (COVID)."
+ },
+ {
+  "name": "Fenerbahçe",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 2,
+    "of": 19
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 19
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 3,
+    "of": 21
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 7,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 6,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "Turkish Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Feyenoord",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 5,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "cup",
+    "what": "KNVB Cup"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Eredivisie"
+   },
+   {
+    "s": "2017-18",
+    "type": "cup",
+    "what": "KNVB Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Eredivisie"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2019-20 Eredivisie abandoned (COVID), no champion; position at abandonment."
+ },
+ {
+  "name": "Galatasaray",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 19
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 19
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 13,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 21
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 6,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Süper Lig"
+   },
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Süper Lig"
+   },
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "Turkish Cup"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Süper Lig"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Süper Lig"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Süper Lig"
+   },
+   {
+    "s": "2018-19",
+    "type": "cup",
+    "what": "Turkish Cup"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Süper Lig"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Inter Milan",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Serie A"
+   },
+   {
+    "s": "2025-26",
+    "type": "cup",
+    "what": "Coppa Italia"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Serie A"
+   },
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "Coppa Italia"
+   },
+   {
+    "s": "2021-22",
+    "type": "cup",
+    "what": "Coppa Italia"
+   },
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Serie A"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "LASK",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 7,
+    "of": 12
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 3,
+    "of": 12
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 3,
+    "of": 12
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 7,
+    "of": 12
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 4,
+    "of": 12
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 4,
+    "of": 12
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 4,
+    "of": 10
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 1,
+    "of": 10
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Austrian Bundesliga"
+   },
+   {
+    "s": "2025-26",
+    "type": "cup",
+    "what": "Austrian Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Austrian First League (tier 2)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Split format since 2018-19 (final position after the split; 7th = top of the qualification group). 2019-20 finished 4th after a 12-point deduction for training during the COVID ban (pre-deduction 2nd-3rd)."
+ },
+ {
+  "name": "Lens",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 8,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 7,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 2,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 4,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "cup",
+    "what": "Coupe de France"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Ligue 2 2016-17 to 2019-20; 2019-20 curtailed (COVID), promoted as runners-up."
+ },
+ {
+  "name": "Lille",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 5,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 4,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 17,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 11,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Ligue 1"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2017-18 17th, survived by one place. 2019-20 curtailed (COVID)."
+ },
+ {
+  "name": "Napoli",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Serie A"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Serie A"
+   },
+   {
+    "s": "2019-20",
+    "type": "cup",
+    "what": "Coppa Italia"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "PSV Eindhoven",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Eredivisie"
+   },
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Eredivisie"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Eredivisie"
+   },
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "KNVB Cup"
+   },
+   {
+    "s": "2021-22",
+    "type": "cup",
+    "what": "KNVB Cup"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Eredivisie"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2019-20 Eredivisie abandoned (COVID), no champion; position at abandonment."
+ },
+ {
+  "name": "Paris Saint-Germain",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Ligue 1"
+   },
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Ligue 1"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Ligue 1"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Ligue 1"
+   },
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Ligue 1"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Ligue 1"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Ligue 1"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Ligue 1"
+   },
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "Coupe de France"
+   },
+   {
+    "s": "2023-24",
+    "type": "cup",
+    "what": "Coupe de France"
+   },
+   {
+    "s": "2020-21",
+    "type": "cup",
+    "what": "Coupe de France"
+   },
+   {
+    "s": "2019-20",
+    "type": "cup",
+    "what": "Coupe de France"
+   },
+   {
+    "s": "2017-18",
+    "type": "cup",
+    "what": "Coupe de France"
+   },
+   {
+    "s": "2016-17",
+    "type": "cup",
+    "what": "Coupe de France"
+   },
+   {
+    "s": "2019-20",
+    "type": "league_cup",
+    "what": "Coupe de la Ligue"
+   },
+   {
+    "s": "2017-18",
+    "type": "league_cup",
+    "what": "Coupe de la Ligue"
+   },
+   {
+    "s": "2016-17",
+    "type": "league_cup",
+    "what": "Coupe de la Ligue"
+   },
+   {
+    "s": "2025-26",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   },
+   {
+    "s": "2024-25",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2019-20 Ligue 1 curtailed (COVID), PSG declared champions. Coupe de la Ligue abolished after 2019-20."
+ },
+ {
+  "name": "Porto",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Primeira Liga"
+   },
+   {
+    "s": "2023-24",
+    "type": "cup",
+    "what": "Taça de Portugal"
+   },
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "Taça de Portugal"
+   },
+   {
+    "s": "2022-23",
+    "type": "league_cup",
+    "what": "Taça da Liga"
+   },
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Primeira Liga"
+   },
+   {
+    "s": "2021-22",
+    "type": "cup",
+    "what": "Taça de Portugal"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Primeira Liga"
+   },
+   {
+    "s": "2019-20",
+    "type": "cup",
+    "what": "Taça de Portugal"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Primeira Liga"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "RB Leipzig",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 7,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 6,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "DFB-Pokal"
+   },
+   {
+    "s": "2021-22",
+    "type": "cup",
+    "what": "DFB-Pokal"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Real Betis",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 10,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 15,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2021-22",
+    "type": "cup",
+    "what": "Copa del Rey"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Runners-up in the 2024-25 Conference League final (not a trophy)."
+ },
+ {
+  "name": "Real Madrid",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 1,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "La Liga"
+   },
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "Copa del Rey"
+   },
+   {
+    "s": "2023-24",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   },
+   {
+    "s": "2021-22",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   },
+   {
+    "s": "2017-18",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   },
+   {
+    "s": "2016-17",
+    "type": "continental",
+    "what": "UEFA Champions League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Roma",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 6,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 2,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2021-22",
+    "type": "continental2",
+    "what": "UEFA Conference League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "Sabah",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 5,
+    "of": 10
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 3,
+    "of": 10
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 10
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 5,
+    "of": 8
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 5,
+    "of": 8
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 6,
+    "of": 8
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 7,
+    "of": 8
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 5,
+    "of": 10
+   },
+   {
+    "s": "2016-17",
+    "tier": null,
+    "pos": null,
+    "of": null
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Azerbaijan Premier League"
+   },
+   {
+    "s": "2025-26",
+    "type": "cup",
+    "what": "Azerbaijan Cup"
+   },
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "Azerbaijan Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Founded September 2017; 2016-17 did not exist. 2017-18 in Azerbaijan First Division (5th), admitted to the Premier League after clubs above declined promotion. 2019-20 curtailed (COVID)."
+ },
+ {
+  "name": "Shakhtar Donetsk",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 3,
+    "of": 16
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 14
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Ukrainian Premier League"
+   },
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "Ukrainian Cup"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Ukrainian Premier League"
+   },
+   {
+    "s": "2023-24",
+    "type": "cup",
+    "what": "Ukrainian Cup"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Ukrainian Premier League"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Ukrainian Premier League"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Ukrainian Premier League"
+   },
+   {
+    "s": "2018-19",
+    "type": "cup",
+    "what": "Ukrainian Cup"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Ukrainian Premier League"
+   },
+   {
+    "s": "2017-18",
+    "type": "cup",
+    "what": "Ukrainian Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Ukrainian Premier League"
+   },
+   {
+    "s": "2016-17",
+    "type": "cup",
+    "what": "Ukrainian Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2021-22 abandoned after 18 rounds (Russian invasion) with Shakhtar 1st; no champion declared. Split format 2016-17 to 2019-20 (final position after championship round). Playing home games in exile since 2014."
+ },
+ {
+  "name": "Slavia Prague",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 2,
+    "of": 16
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Czech First League"
+   },
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Czech First League"
+   },
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "Czech Cup"
+   },
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Czech First League"
+   },
+   {
+    "s": "2020-21",
+    "type": "cup",
+    "what": "Czech Cup"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Czech First League"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Czech First League"
+   },
+   {
+    "s": "2018-19",
+    "type": "cup",
+    "what": "Czech Cup"
+   },
+   {
+    "s": "2017-18",
+    "type": "cup",
+    "what": "Czech Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Czech First League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Split format from 2018-19 (except 2020-21, 18-team single table): final position after the championship group."
+ },
+ {
+  "name": "Slovan Bratislava",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Slovak First Football League"
+   },
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Slovak First Football League"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Slovak First Football League"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Slovak First Football League"
+   },
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Slovak First Football League"
+   },
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Slovak First Football League"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Slovak First Football League"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Slovak First Football League"
+   },
+   {
+    "s": "2020-21",
+    "type": "cup",
+    "what": "Slovak Cup"
+   },
+   {
+    "s": "2019-20",
+    "type": "cup",
+    "what": "Slovak Cup"
+   },
+   {
+    "s": "2017-18",
+    "type": "cup",
+    "what": "Slovak Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "cup",
+    "what": "Slovak Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Split format (final position after championship group). 2019-20 curtailed (COVID). Eight straight titles 2018-19 to 2025-26."
+ },
+ {
+  "name": "Sporting CP",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 3,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Primeira Liga"
+   },
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "Taça de Portugal"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Primeira Liga"
+   },
+   {
+    "s": "2021-22",
+    "type": "league_cup",
+    "what": "Taça da Liga"
+   },
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Primeira Liga"
+   },
+   {
+    "s": "2020-21",
+    "type": "league_cup",
+    "what": "Taça da Liga"
+   },
+   {
+    "s": "2018-19",
+    "type": "cup",
+    "what": "Taça de Portugal"
+   },
+   {
+    "s": "2018-19",
+    "type": "league_cup",
+    "what": "Taça da Liga"
+   },
+   {
+    "s": "2017-18",
+    "type": "league_cup",
+    "what": "Taça da Liga"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ },
+ {
+  "name": "VfB Stuttgart",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 4,
+    "of": 18
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 9,
+    "of": 18
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 16,
+    "of": 18
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 15,
+    "of": 18
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 9,
+    "of": 18
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 2,
+    "of": 18
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 16,
+    "of": 18
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 7,
+    "of": 18
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 1,
+    "of": 18
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "cup",
+    "what": "DFB-Pokal"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "2. Bundesliga (tier 2)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Relegated 2018-19 via play-off (16th); promoted from 2. Bundesliga 2019-20 as runners-up. 2022-23 16th, survived the relegation play-off. DFB-Pokal runners-up 2025-26."
+ },
+ {
+  "name": "Viking",
+  "seasons": [
+   {
+    "s": "2025",
+    "tier": 1,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2024",
+    "tier": 1,
+    "pos": 3,
+    "of": 16
+   },
+   {
+    "s": "2023",
+    "tier": 1,
+    "pos": 4,
+    "of": 16
+   },
+   {
+    "s": "2022",
+    "tier": 1,
+    "pos": 11,
+    "of": 16
+   },
+   {
+    "s": "2021",
+    "tier": 1,
+    "pos": 3,
+    "of": 16
+   },
+   {
+    "s": "2020",
+    "tier": 1,
+    "pos": 6,
+    "of": 16
+   },
+   {
+    "s": "2019",
+    "tier": 1,
+    "pos": 5,
+    "of": 16
+   },
+   {
+    "s": "2018",
+    "tier": 2,
+    "pos": 1,
+    "of": 16
+   },
+   {
+    "s": "2017",
+    "tier": 1,
+    "pos": 16,
+    "of": 16
+   },
+   {
+    "s": "2016",
+    "tier": 1,
+    "pos": 8,
+    "of": 16
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025",
+    "type": "league",
+    "what": "Eliteserien"
+   },
+   {
+    "s": "2019",
+    "type": "cup",
+    "what": "Norwegian Cup"
+   },
+   {
+    "s": "2018",
+    "type": "league",
+    "what": "Norwegian First Division (tier 2)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Relegated from Eliteserien in 2017 (16th), won the 2018 1. divisjon and returned."
+ },
+ {
+  "name": "Villarreal",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 3,
+    "of": 20
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 7,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 14,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020-21",
+    "type": "continental2",
+    "what": "UEFA Europa League"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": ""
+ }
+]

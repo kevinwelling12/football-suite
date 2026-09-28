@@ -1,0 +1,1722 @@
+[
+ {
+  "name": "AFC Wimbledon",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 19,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 4,
+    "pos": 10,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 4,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 23,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 19,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 18,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 15,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "Promoted from League Two via 2024-25 play-offs. 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Accrington Stanley",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 4,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 23,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 13,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "EFL League Two"
+   }
+  ],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Barnet",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 8,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 5,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 5,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 5,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 5,
+    "pos": 18,
+    "of": 23
+   },
+   {
+    "s": "2020-21",
+    "tier": 5,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 5,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 5,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 23,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 15,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "National League"
+   }
+  ],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "National League 2018-19 to 2024-25 (tier 5); 2024-25 National League champions. 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Barnsley",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 3,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 14,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "Relegated from Championship 2017-18 (22nd), promoted from League One 2018-19 (2nd), relegated again 2021-22; lost 2023-24 League One play-offs."
+ },
+ {
+  "name": "Blackpool",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 3,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 8,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 23,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 10,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 7,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "Promoted via play-offs 2016-17 (League Two) and 2020-21 (League One). 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Bradford City",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 4,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 4,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 4,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 4,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 4,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 5,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "Promoted from League Two 2024-25 (3rd); lost in 2025-26 League One play-offs (4th). 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Bristol Rovers",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 3,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 4,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 10,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Bromley",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 5,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 5,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 5,
+    "pos": 10,
+    "of": 23
+   },
+   {
+    "s": "2020-21",
+    "tier": 5,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 5,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 5,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 5,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 5,
+    "pos": 10,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "EFL League Two"
+   }
+  ],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "National League until 2023-24 (promoted via play-offs); 2025-26 League Two champions. 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Burton Albion",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 3,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 2,
+    "pos": 23,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 20,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Cambridge United",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 3,
+    "pos": 23,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 18,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 4,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 4,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 4,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 11,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "Relegated from League One 2024-25, promoted straight back 2025-26 (3rd). 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Cheltenham Town",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 18,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 4,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 4,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 4,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 21,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "EFL League Two"
+   }
+  ],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Chesterfield",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 5,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 5,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 5,
+    "pos": 7,
+    "of": 23
+   },
+   {
+    "s": "2020-21",
+    "tier": 5,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 5,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 5,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 24,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "National League"
+   }
+  ],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "Two straight relegations 2016-17/2017-18; National League 2018-19 to 2023-24 (2023-24 champions). 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Colchester United",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 10,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 4,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 4,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 4,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 4,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 4,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 4,
+    "pos": 8,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 8,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Crawley Town",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 3,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 4,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 4,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 4,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 4,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 4,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 4,
+    "pos": 19,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 19,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "Promoted via 2023-24 League Two play-offs, relegated 2024-25. 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Crewe Alexandra",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 4,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 4,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 4,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 4,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 17,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Doncaster Rovers",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 4,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 4,
+    "pos": 18,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 3,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "EFL League Two"
+   }
+  ],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Exeter City",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 3,
+    "pos": 16,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 4,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 4,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 4,
+    "pos": 5,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 4,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 4,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 5,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "Promoted from League Two 2021-22 (2nd); relegated from League One 2025-26 (21st). 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Fleetwood Town",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 3,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 14,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 4,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Gillingham",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 4,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 4,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 3,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 3,
+    "pos": 10,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 3,
+    "pos": 10,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 3,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 3,
+    "pos": 20,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Grimsby Town",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 4,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 4,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 4,
+    "pos": 21,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 4,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 5,
+    "pos": 6,
+    "of": 23
+   },
+   {
+    "s": "2020-21",
+    "tier": 4,
+    "pos": 24,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 4,
+    "pos": 15,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 4,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 18,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 14,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 4,
+  "confidence": "high",
+  "notes": "Relegated 2020-21; promoted back via 2021-22 National League play-offs. 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Huddersfield Town",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 9,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 3,
+    "pos": 10,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 23,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 18,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 18,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 20,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 16,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 5,
+    "of": 24
+   }
+  ],
+  "trophies": [],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "Promoted to Premier League via 2016-17 play-offs; 2 PL seasons."
+ },
+ {
+  "name": "Leicester City",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 2,
+    "pos": 23,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   },
+   {
+    "s": "2023-24",
+    "tier": 2,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 8,
+    "of": 20
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 5,
+    "of": 20
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 9,
+    "of": 20
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 12,
+    "of": 20
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "EFL Championship"
+   },
+   {
+    "s": "2020-21",
+    "type": "cup",
+    "what": "FA Cup"
+   }
+  ],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "Relegated from PL 2022-23 and 2024-25; 2025-26 Championship 23rd (6-point PSR deduction), relegated to League One."
+ },
+ {
+  "name": "Leyton Orient",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 20,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 3,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 3,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2022-23",
+    "tier": 4,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 4,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 4,
+    "pos": 11,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 4,
+    "pos": 17,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 5,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 5,
+    "pos": 13,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 24,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "EFL League Two"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "National League"
+   }
+  ],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "Relegated to National League 2016-17; NL champions 2018-19; League Two champions 2022-23. 2019-20 positions are the final points-per-game table (season curtailed)."
+ },
+ {
+  "name": "Luton Town",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 3,
+    "pos": 7,
+    "of": 24
+   },
+   {
+    "s": "2024-25",
+    "tier": 2,
+    "pos": 22,
+    "of": 24
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 18,
+    "of": 20
+   },
+   {
+    "s": "2022-23",
+    "tier": 2,
+    "pos": 3,
+    "of": 24
+   },
+   {
+    "s": "2021-22",
+    "tier": 2,
+    "pos": 6,
+    "of": 24
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 12,
+    "of": 24
+   },
+   {
+    "s": "2019-20",
+    "tier": 2,
+    "pos": 19,
+    "of": 24
+   },
+   {
+    "s": "2018-19",
+    "tier": 3,
+    "pos": 1,
+    "of": 24
+   },
+   {
+    "s": "2017-18",
+    "tier": 4,
+    "pos": 2,
+    "of": 24
+   },
+   {
+    "s": "2016-17",
+    "tier": 4,
+    "pos": 4,
+    "of": 24
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "EFL League One"
+   }
+  ],
+  "current_tier": 3,
+  "confidence": "high",
+  "notes": "Rose League Two to Premier League 2016-17 to 2022-23 (PL via play-offs); relegated 2023-24 and 2024-25."
+ }
+]

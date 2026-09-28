@@ -112,7 +112,7 @@ function tick() {
     redraw = true;
     if (!jobs[k] && liveSig[k] !== sigOf(k)) { if (worker) queueFull(k); else { liveSig[k] = sigOf(k); finish(k, runModel(k, runArgs(k, QUICK_SIMS)), true); } }
   }
-  if (!redraw) redraw = ORDER.some(k => R[k] && (v === 'home' || v === k) && R[k].fx.some(f => !f.played && f.kt && now >= f.kt - 10 * 6e4 && now <= f.kt + 150 * 6e4));
+  if (!redraw) redraw = ORDER.some(k => R[k] && (isHub(v) || v === k) && R[k].fx.some(f => !f.played && f.kt && now >= f.kt - 10 * 6e4 && now <= f.kt + 150 * 6e4));
   if (redraw) bgRender();
 }
 setInterval(tick, 30000);
@@ -147,13 +147,13 @@ function defaultRound(k) {
 function computeAll() {
   if (worker) { ORDER.forEach(queueFull); return; }
   const queue = [...ORDER];
-  const step = () => { const k = queue.shift(); if (!k) return; compute(k); if (state.view === 'home' || state.view === k) render(); setTimeout(step, 0); };
+  const step = () => { const k = queue.shift(); if (!k) return; compute(k); if (isHub(state.view) || state.view === k) render(); setTimeout(step, 0); };
   step();
 }
 // Re-render for a background change (worker result, cloud sync, clock tick) without disturbing the reader:
 // the first card on screen stays put, and an open score entry keeps its typed values and focus.
 function bgRender(k) {
-  if (k && state.view !== k && state.view !== 'home') { renderStatus(); return; }
+  if (k && state.view !== k && !isHub(state.view)) { renderStatus(); return; }
   const open = [...document.querySelectorAll('#main .entry:not([hidden])')];
   const vals = open.flatMap(e => [...e.querySelectorAll('input[id],select[id]')]).map(x => [x.id, x.type === 'checkbox' ? x.checked : x.value]);
   const foc = document.activeElement && document.activeElement.id;
@@ -252,7 +252,10 @@ async function connect() {
 }
 
 // ---------------------------------------------------------------- chrome
+// Views that aren't a competition: Home and the overall Affinity ranking.
+const isHub = v => v === 'home' || v === 'rank';
 function setBrand(k) {
+  if (k === 'rank') k = 'home';
   const b = k === 'home' ? {head:'#1A1033', accent:'#7C5CFF', glow:'rgba(124,92,255,.5)', tag:'#B9A6FF'}
     : COMPS_CFG[k].brand;
   if (document.documentElement.classList.contains('bc') || true) { const r0 = document.documentElement.style; r0.setProperty('--head', '#000000'); r0.setProperty('--accent', '#FF453A'); r0.setProperty('--glow', 'transparent'); r0.setProperty('--tag', 'rgba(235,235,245,.6)'); r0.setProperty('--brand', k === 'home' ? 'rgba(235,235,245,.6)' : b.accent); return; }
@@ -263,31 +266,32 @@ function tabShort(k, t, l) {
   return S[l] || l;
 }
 function renderChrome() {
-  const k = state.view, cup = k !== 'home' && COMPS_CFG[k].cup;
+  const k = state.view, hub = isHub(k), cup = !hub && COMPS_CFG[k].cup;
   setBrand(k);
   document.documentElement.classList.add('bc');
-  $('#title').innerHTML = k === 'home' ? 'Football Tracker<span class="season">Suite</span>' : `${esc(COMPS_CFG[k].name)}<span class="season">${esc(COMPS_CFG[k].season)}</span>`;
+  $('#title').innerHTML = k === 'rank' ? 'Affinity<span class="season">Ranking</span>' : hub ? 'Football Tracker<span class="season">Suite</span>' : `${esc(COMPS_CFG[k].name)}<span class="season">${esc(COMPS_CFG[k].season)}</span>`;
   const reg = regionOf(k); if (reg) lastIn[reg.key] = k;
   $('#regions').innerHTML = `<button data-view="home" aria-pressed="${k === 'home'}">Home</button>` +
-    REGIONS.map(r => `<button data-region="${r.key}" aria-pressed="${reg === r}">${esc(r.name)}</button>`).join('');
+    REGIONS.map(r => `<button data-region="${r.key}" aria-pressed="${reg === r}">${esc(r.name)}</button>`).join('') +
+    `<button data-view="rank" aria-pressed="${k === 'rank'}">Affinity</button>`;
   const chip = c => { const [f, s] = CHIP[c] || [COMPS_CFG[c].name]; return s ? `<span class="nm-full">${esc(f)}</span><span class="nm-short">${esc(s)}</span>` : esc(f); };
   $('#comps').innerHTML = reg ? reg.comps.map(c => `<button data-view="${c}" aria-pressed="${k === c}" aria-label="${esc(COMPS_CFG[c].name)}"><i style="--c:${DOT[c]}"></i>${chip(c)}</button>`).join('') : '';
   $('#comps').hidden = !reg;
   $('#regions').style.setProperty('--dot', reg ? DOT[k] : '#fff');
-  const tabs = k === 'home' ? [] : cup ? [['week', 'Rounds'], ['table', 'Clubs left'], ['races', 'Trophy race'], ['clubs', 'Your Affinity'], ['settings', 'Settings']]
+  const tabs = hub ? [] : cup ? [['week', 'Rounds'], ['table', 'Clubs left'], ['races', 'Trophy race'], ['clubs', 'Your Affinity'], ['settings', 'Settings']]
     : [['week', COMPS_CFG[k].round], ['table', COMPS_CFG[k].grouped ? (['mls', 'usl'].includes(k) ? 'Conferences' : 'Groups') : 'Table'], ['races', 'Races'],
        ...(['nwsl', 'mls', 'usl'].includes(k) ? [['bracket', 'Playoffs']] : []), ['clubs', 'Clubs'], ['settings', 'Settings']];
   $('#tabs').innerHTML = tabs.map(([t, l]) => t === 'settings'
     ? `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="Settings" title="Settings" class="gear"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.3 7.3 0 0 0-1.7-1l-.4-2.6h-4l-.4 2.6a7.3 7.3 0 0 0-1.7 1l-2.4-1-2 3.4 2 1.6a7.6 7.6 0 0 0 0 2l-2 1.6 2 3.4 2.4-1c.5.4 1.1.7 1.7 1l.4 2.6h4l.4-2.6c.6-.3 1.2-.6 1.7-1l2.4 1 2-3.4-2-1.6ZM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Z"/></svg></button>`
     : `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="${esc(l)}">${tabShort(k, t, l) === l ? esc(l) : `<span class="nm-full">${esc(l)}</span><span class="nm-short">${esc(tabShort(k, t, l))}</span>`}</button>`).join('');
-  $('#tabs').hidden = k === 'home';
+  $('#tabs').hidden = hub;
   // Slim bar that slides in once the header's nav scrolls away: regions on Home, else competition + sections.
-  $('#topbar').innerHTML = k === 'home' ? `<nav class="regions topbar-regions">${$('#regions').innerHTML}</nav>`
+  $('#topbar').innerHTML = hub ? `<nav class="regions topbar-regions">${$('#regions').innerHTML}</nav>`
     : `<button class="topbar-comp" data-top="1" aria-label="${esc(COMPS_CFG[k].name)}: back to top"><i style="--c:${DOT[k]}"></i>${esc(ABBR[k])}</button><nav class="tabs topbar-tabs" role="tablist" aria-label="Sections">${[...$('#tabs').children].filter(b => !b.classList.contains('gear')).map(b => b.outerHTML).join('')}</nav>`;
   miniCheck();
 }
 function miniCheck() {
-  const nav = state.view === 'home' ? $('#regions') : $('#tabs'), on = nav.getBoundingClientRect().bottom < 0, m = $('#topbar');
+  const nav = isHub(state.view) ? $('#regions') : $('#tabs'), on = nav.getBoundingClientRect().bottom < 0, m = $('#topbar');
   if (m.classList.contains('on') !== on) { m.classList.toggle('on', on); m.inert = !on; }
 }
 let miniRaf = 0;
@@ -297,7 +301,8 @@ const lastIn = {};
 function renderStatus() {
   const k = state.view;
   let s;
-  if (k === 'home') {
+  if (k === 'rank') s = `<b>${rankList().length}</b> clubs and nations, ranked by Affinity`;
+  else if (k === 'home') {
     const done = ORDER.filter(c => R[c]).length;
     s = done < ORDER.length ? `Crunching ${done} of ${ORDER.length} competitions…` : `${ORDER.length} competitions, live`;
   } else if (!R[k]) s = 'Crunching the numbers…';
@@ -315,6 +320,7 @@ function render() {
   const k = state.view;
   let html;
   if (k === 'home') html = viewHome();
+  else if (k === 'rank') html = viewRank();
   else if (!R[k]) html = '<div class="loading">Crunching the numbers…</div>';
   else if (COMPS_CFG[k].cup) html = {week:cupRounds, table:cupLeft, races:cupRaces, clubs:viewClubs, settings:viewSettings}[state.tab[k]](k);
   else html = {week:viewWeek, table:viewTable, races:viewRaces, clubs:viewClubs, settings:viewSettings, bracket:viewBracket}[state.tab[k]](k);
@@ -592,18 +598,58 @@ function viewRaces(k) {
     <div class="races ${COMP[k].cfg.grouped ? 'pairs' : ''}">${specs.map(([key, title, g]) => raceList(k, key, title, (cfg.zones.find(z => z.key === key) || {}).bad || key === 'down', g)).join('')}</div></section>
     <section class="section"><h2>Biggest matches left</h2><p class="sub">How far each result swings the odds that matter, scaled so the biggest is 1.00.</p>${bigList(k, big)}</section>`;
 }
+// ---------------------------------------------------------------- Affinity
+const affOf = t => t.base + t.bonus;
+const signed = v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v);
+// One-line summary under a club's name: track record and adjustments (the factors are on the club card).
+function affLine(t, fallback) {
+  const h = t.hai; if (!h) return esc(fallback || '');
+  const bits = [];
+  if (h.P != null) bits.push(`Track record ${h.P.toFixed(1)}`);
+  if (h.adj) bits.push(`<b class="${h.adj < 0 ? 'adj' : 'adj pos'}">Adjustments ${signed(h.adj)}</b>`);
+  if (t.bonus) bits.push(`Hometown ${signed(t.bonus)}`);
+  return bits.join(' · ') || 'No adjustments';
+}
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five factors from your supporter profile, each out of 10: values 26%, supporter culture 26%, history and identity 14%, ownership 12%, team 12% (how they play, the squad's bond with fans, long-serving captains and coaches).</p>
+  <p>Track record multiplies that score by 0.90 to 1.10: the last 10 league seasons, judged against the tier the club plays in (top flight, Championship, USL Championship, League One/Two), with recent seasons counting most (a season three years ago counts half). Steady top-half finishes score almost as well as titles; a relegation fight scores low. Nations have no track record.</p>
+  <p>Then adjustments for your hard lines (state ownership, racism and fan violence, private equity, multi-club networks, Super League) and for rivals and Republic links. Sacramento Republic gets a +4 hometown bonus; nations get a heritage tiebreaker of up to 10.</p></details>`;
 function viewClubs(k) {
-  const t = T(k), order = [...t.keys()].sort((a, b) => (t[b].base + t[b].bonus) - (t[a].base + t[a].bonus)), mx = Math.max(...order.map(i => t[i].base + t[i].bonus));
-  const cup = COMPS_CFG[k].cup, r = R[k];
+  const t = T(k), order = [...t.keys()].sort((a, b) => affOf(t[b]) - affOf(t[a])), mx = Math.max(...order.map(i => affOf(t[i])));
+  const cup = COMPS_CFG[k].cup, r = R[k], anyBonus = order.some(i => t[i].bonus);
   const ratings = cup ? '' : `<section class="section"><h2>Ratings</h2><p class="sub">Opponent-adjusted attack and defense (1.00 = average; lower defense is better).</p>
     <div class="card scroll" style="margin-top:14px"><table><thead><tr><th class="club">${esc(COMPS_CFG[k].noun || 'Club')}</th><th>Attack</th><th>Defense</th><th>Avg finish</th></tr></thead>
     <tbody>${[...t.keys()].sort((a, b) => (r.att[b] / r.def[b]) - (r.att[a] / r.def[a])).map(i => `<tr><td class="club"><button class="club-link" data-club="${i}">${dual(k, i)}</button></td><td class="num">${r.att[i].toFixed(2)}</td><td class="num">${r.def[i].toFixed(2)}</td><td class="num">${r.tab[i].avgSimPos.toFixed(1)}</td></tr>`).join('')}</tbody></table></div></section>`;
-  return `<section class="section"><h2>Your Affinity</h2><p class="sub">Scored from your supporter profile: values 26%, supporter culture 26%, history and identity 14%, ownership 12%, team 12% (how they play, the squad's bond with fans, long-serving captains and coaches), then adjustments for your hard lines (state ownership, racism and fan violence, private equity, multi-club networks, Super League) and for rivals and Republic links. Sacramento Republic gets a +4 hometown bonus; nations get a heritage tiebreaker of up to 10. Tap a club for its breakdown.</p>
-    <div class="legend"><span style="--c:var(--head)">Base score</span><span style="--c:var(--magenta)">Heritage bonus</span></div>
-    <div class="card" style="margin-top:10px">${order.map((i, n) => `<div class="hai-row"><span class="num" style="color:var(--muted);font-weight:700">${n + 1}</span>
-      <span class="who"><button class="club-link" data-club="${i}">${esc(t[i].name)}</button><small>${t[i].hai ? `Culture ${t[i].hai.C} · Values ${t[i].hai.V} · History ${t[i].hai.H} · Ownership ${t[i].hai.O} · Team ${t[i].hai.S}${t[i].hai.adj ? ` · <b class="adj">${t[i].hai.adj > 0 ? '+' : ''}${t[i].hai.adj}</b>` : ''}` : esc(cup ? (t[i].tier || '') : (t[i].region || ''))}</small></span>
-      <span class="stack" title="${esc(t[i].drivers)}"><span class="b" style="background:var(--head);width:${t[i].base / mx * 100}%"></span><span class="x" style="width:${t[i].bonus / mx * 100}%"></span></span>
-      <span class="num" style="text-align:right;font-weight:800">${(t[i].base + t[i].bonus).toFixed(1)}</span></div>`).join('')}</div></section>${ratings}`;
+  return `<section class="section"><div class="sec-head"><h2>Your Affinity</h2><button class="linkish" data-view="rank">All ${rankList().length} ranked →</button></div>
+    <p class="sub">How well each ${esc((COMPS_CFG[k].noun || 'club').toLowerCase())} fits your supporter profile. Tap one for the breakdown.</p>${AFF_HOW}
+    ${anyBonus ? '<div class="legend"><span style="--c:var(--accent)">Affinity</span><span style="--c:var(--magenta)">Heritage bonus</span></div>' : ''}
+    <div class="card" style="margin-top:10px">${order.map((i, n) => `<div class="hai-row"><span class="num rk">${n + 1}</span>
+      <span class="who"><button class="club-link" data-club="${i}">${tchip(k, i)}${esc(t[i].name)}</button><small>${affLine(t[i], cup ? t[i].tier : t[i].region)}</small></span>
+      <span class="stack"><span class="b" style="width:${t[i].base / mx * 100}%"></span><span class="x" style="width:${t[i].bonus / mx * 100}%"></span></span>
+      <span class="num sc">${affOf(t[i]).toFixed(1)}</span></div>`).join('')}</div></section>${ratings}`;
+}
+// Overall ranking: every club and nation once, under its primary league.
+const RANK_PRIMARY = ['epl', 'esp', 'ita', 'bl', 'fra', 'mls', 'nwsl', 'ch', 'usl', 'ucl', 'cup', 'unl'];
+const RANK_LABEL = { cup: 'League One / Two', ucl: 'Other European leagues', unl: 'Nations' };
+const rankLabel = k => RANK_LABEL[k] || COMPS_CFG[k].name;
+let rankF = 'all', rankCache = null;
+function rankList() {
+  if (rankCache) return rankCache;
+  const by = {};
+  for (const k of RANK_PRIMARY) T(k).forEach((t, i) => { if (!by[t.name]) by[t.name] = {k, i, t}; });
+  return rankCache = Object.values(by).sort((a, b) => affOf(b.t) - affOf(a.t) || a.t.name.localeCompare(b.t.name));
+}
+function viewRank() {
+  const all = rankList(), mx = affOf(all[0].t);
+  const counts = {}; all.forEach(e => counts[e.k] = (counts[e.k] || 0) + 1);
+  const chips = [['all', `All ${all.length}`]].concat(RANK_PRIMARY.filter(k => counts[k]).map(k => [k, `${rankLabel(k)} ${counts[k]}`]));
+  const list = all.map((e, n) => Object.assign({n: n + 1}, e)).filter(e => rankF === 'all' || e.k === rankF);
+  return `<section class="section"><h2>Every club, one ranking</h2>
+    <p class="sub">All ${all.length} clubs and nations in the tracker, by Affinity, coloured by their main league. Clubs in more than one competition show once. Tap one for the breakdown.</p>${AFF_HOW}
+    <div class="rank-chips">${chips.map(([k, l]) => `<button class="rchip" data-rankf="${k}" aria-pressed="${rankF === k}" style="--c:${k === 'all' ? '#fff' : DOT[k]}">${k === 'all' ? '' : '<i></i>'}${esc(l)}</button>`).join('')}</div>
+    <div class="card rank" style="margin-top:12px">${list.map(e => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${e.n}</span>
+      <span class="who"><button class="club-link" data-club="${e.k}:${e.i}">${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}${e.t.hai && e.t.hai.P != null ? ` · Track record ${e.t.hai.P.toFixed(1)}` : ''}</small></span>
+      <span class="stack"><span class="b" style="width:${Math.max(0, affOf(e.t)) / mx * 100}%"></span></span>
+      <span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>`;
 }
 function field(k, key, label, help, step, global) { const v = global ? state.suite[key] : Sfor(k)[key]; return `<div class="field"><label for="f-${key}">${label}</label><p>${help}</p><input id="f-${key}" data-set="${key}" data-global="${global ? 1 : 0}" type="number" step="${step}" value="${v}"></div>`; }
 function viewSettings(k) {
@@ -783,6 +829,9 @@ function viewHome() {
     <section class="section"><h2>What's next</h2><p class="sub">The next 20 unplayed matches everywhere, with your pick 'em score. The highlighted row is each day's match of the day: the best blend of what's at stake and how evenly matched the sides are. Greyed dates have passed: enter those results in their competition.</p>
       <div class="card" style="margin-top:12px">${feed.map(x => row(x)).join('') || '<div class="loading">Crunching…</div>'}</div></section>
     <section class="section"><h2>Competitions</h2><p class="sub">Tap one to open it.</p><div class="tiles">${tiles}</div></section>
+    <section class="section"><div class="sec-head"><h2>Affinity ranking</h2><button class="linkish" data-view="rank">All ${rankList().length} →</button></div><p class="sub">Your top 10 across every competition, coloured by league.</p>
+      <div class="card rank" style="margin-top:12px">${rankList().slice(0, 10).map((e, n) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${n + 1}</span>
+      <span class="who"><button class="club-link" data-club="${e.k}:${e.i}">${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}</small></span><span></span><span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>
     <section class="section"><h2>Biggest match left in each competition</h2><p class="sub">Ranked within each competition by match importance.</p>
       <div class="card" style="margin-top:12px">${big.map(x => row(x, true)).join('')}</div></section>`;
 }
@@ -857,6 +906,23 @@ function openDetail(k, id) {
 }
 
 
+const FACTORS = [['Culture', 'C', 26], ['Values', 'V', 26], ['History', 'H', 14], ['Ownership', 'O', 12], ['Team', 'S', 12]];
+function affBreakdown(k, t) {
+  const h = t.hai, fs = FACTORS.reduce((s, [, key, w]) => s + w * h[key], 0) / 90 * 10;
+  const spark = h.ps ? (() => { const last = h.pl || '', cal = !last.includes('-'), y = parseInt(last, 10);
+    const lab = j => cal ? String(y - 9 + j) : `${String(y - 9 + j).slice(2)}/${String(y - 8 + j).slice(2)}`;
+    return `<span class="spark" aria-label="Season scores, oldest to newest">${h.ps.map((x, j) => `<i title="${lab(j)}: ${x == null ? 'no season' : x.toFixed(1)}" class="${x == null ? 'none' : ''}" style="height:${x == null ? 8 : Math.max(8, x * 10)}%"></i>`).join('')}</span>`; })() : '';
+  const sum = [`${fs.toFixed(1)} factors`];
+  if (h.k != null) sum.push(`× ${h.k.toFixed(2)} track record`);
+  if (h.adj) sum.push(`${h.adj < 0 ? '−' : '+'} ${Math.abs(h.adj)} adjustments`);
+  if (t.bonus) sum.push(`+ ${t.bonus} ${k === 'unl' ? 'heritage' : 'hometown'}`);
+  return `<h4 style="margin-top:18px">Affinity ${affOf(t).toFixed(1)}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
+    ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${h[key]}</b></div>`).join('')}
+    ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>
+      <p class="hb-note">Last 10 league seasons, oldest to newest, recent ones counting most.</p>` : ''}
+    ${h.adj ? `<div class="hb hb-adj"><span>Adjustments</span><span>${esc(h.note)}</span><b class="num ${h.adj < 0 ? 'neg' : ''}">${signed(h.adj)}</b></div>` : h.note ? `<p class="hb-note">${esc(h.note)}</p>` : ''}
+    ${t.bonus ? `<div class="hb hb-adj"><span>${k === 'unl' ? 'Heritage' : 'Hometown'}</span><span>${esc(t.region || '')}</span><b class="num">+${t.bonus}</b></div>` : ''}</div>`;
+}
 function openClub(k, i) {
   const r = R[k], cup = COMPS_CFG[k].cup, t = T(k)[i];
   const mine = r.fx.filter(f => f.h === i || f.a === i).sort((a, b) => a.sortT - b.sortT || a.id - b.id);
@@ -890,12 +956,9 @@ function openClub(k, i) {
   }
   $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(COMPS_CFG[k].name)}${t.group ? ' · ' + (k === 'mls' ? esc(t.group) + 'ern Conference' : 'Group ' + esc(t.group)) : ''}</div>
       <h2 style="margin-top:4px">${tchip(k, i)}${esc(t.name)}</h2>
-      <div class="club-meta">${form ? `<div class="form-row">Form ${form}</div>` : '<span></span>'}<button class="follow ${isFav(k, i) ? 'on' : ''}" ${t.color ? `style="--fc:${t.color}"` : ''} data-follow="${i}">${isFav(k, i) ? '★ Following' : '☆ Follow'}</button></div></div><button class="close" aria-label="Close" id="close">✕</button></div>
+      <div class="club-meta">${form ? `<div class="form-row">Form ${form}</div>` : '<span></span>'}<button class="follow ${isFav(k, i) ? 'on' : ''}" ${t.color ? `style="--fc:${t.color}"` : ''} data-fk="${k}" data-follow="${i}">${isFav(k, i) ? '★ Following' : '☆ Follow'}</button></div></div><button class="close" aria-label="Close" id="close">✕</button></div>
     ${stats}
-    ${t.hai ? `<h4 style="margin-top:18px">Affinity ${(t.base + t.bonus).toFixed(1)}: why</h4><div class="hai-break">
-      ${[['Supporter culture', 'C', 26], ['Values', 'V', 26], ['History & identity', 'H', 14], ['Ownership', 'O', 12], ['Team', 'S', 12]].map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${t.hai[key] * 10}%"></i></span><b class="num">${t.hai[key]}/10</b></div>`).join('')}
-      ${t.hai.adj ? `<div class="hb adj-row"><span>Adjustment</span><span>${esc(t.hai.note)}</span><b class="num">${t.hai.adj > 0 ? '+' : ''}${t.hai.adj}</b></div>` : t.hai.note ? `<div class="hb"><span>Note</span><span style="font-size:12.5px;color:var(--muted)">${esc(t.hai.note)}</span><b></b></div>` : ''}
-      ${t.bonus ? `<div class="hb"><span>${(t.region || '').startsWith('Hometown') ? 'Hometown bonus' : 'Heritage tiebreaker'}</span><span>${esc(t.region || '')}</span><b class="num">+${t.bonus}</b></div>` : ''}</div>` : ''}
+    ${t.hai ? affBreakdown(k, t) : ''}
     <h4 style="margin-top:18px">Upcoming (${up.length})</h4>
     ${up.length ? `<div class="cf-head"><span>Date</span><span>Opponent</span><span>Win · Draw · Loss</span><span>Pick 'em</span><span>Importance</span></div><p class="note" style="margin:6px 0 0">Scores are shown with ${esc(t.short || t.name)} first.</p>${up.map(rowUp).join('')}` : '<p class="note">No fixtures left.</p>'}
     ${done.length ? `<h4 style="margin-top:18px">Results (${done.length})</h4>${done.slice().reverse().map(rowDone).join('')}` : ''}`;
@@ -939,7 +1002,7 @@ function liveEvent(k, id, ev) {
 }
 // ---------------------------------------------------------------- events
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
+  const t = e.target.closest('[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-rankf],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
   if (!t) return;
   const k = state.view;
   const card = t.closest('#main [data-fx]'); anchor = card ? {key:card.dataset.fx, top:card.getBoundingClientRect().top} : null; queueMicrotask(() => { anchor = null; });
@@ -970,13 +1033,14 @@ document.addEventListener('click', e => {
     else { const d = $('#nd-' + id).value, tm = $('#nt-' + id).value; if (!d) return; st.d = d; if (tm) st.t = tm; else delete st.t; delete st.p; }
     update(k); render(); save(k); return;
   }
-  if (t.dataset.follow) { const i = +t.dataset.follow, name = T(k)[i].name, on = !isFav(k, i);
+  if (t.dataset.follow) { const k = t.dataset.fk || state.view, i = +t.dataset.follow, name = T(k)[i].name, on = !isFav(k, i);
     for (const c of ORDER) { const idx = T(c).findIndex(x => x.name === name); if (idx < 0) continue;
       const arr = state.favs[c] = state.favs[c] || [], j = arr.indexOf(idx);
       if (on && j < 0) arr.push(idx); if (!on && j >= 0) arr.splice(j, 1);
       if (c !== k) save(c); }
     save(k); if ($('#detail').open) openClub(k, i); render(); return; }
-  if (t.dataset.club) { openClub(k, +t.dataset.club); return; }
+  if (t.dataset.club) { const [kk, i] = t.dataset.club.includes(':') ? t.dataset.club.split(':') : [k, t.dataset.club]; if (R[kk]) openClub(kk, +i); return; }
+  if (t.dataset.rankf) { rankF = t.dataset.rankf; render(); return; }
   if (t.dataset.tmode) { state.tmode[k] = t.dataset.tmode; render(); return; }
   if (t.dataset.region) { const r = REGIONS.find(x => x.key === t.dataset.region); if (regionOf(k) === r) return; state.view = lastIn[r.key] || r.comps[0]; render(); window.scrollTo({top:0}); return; }
   if (t.dataset.view) { state.view = t.dataset.view; render(); window.scrollTo({top:0}); return; }
@@ -1022,7 +1086,7 @@ const standalone = navigator.standalone === true || matchMedia('(display-mode: s
 function restoreUI() {
   try {
     const u = JSON.parse(sessionStorage.getItem(UI_KEY) || 'null'); sessionStorage.removeItem(UI_KEY);
-    if (u && (u.view === 'home' || ORDER.includes(u.view))) Object.assign(state, {view:u.view, unlLeague:u.unlLeague}, {tab:Object.assign(state.tab, u.tab), mw:Object.assign(state.mw, u.mw), tmode:Object.assign(state.tmode, u.tmode)});
+    if (u && (isHub(u.view) || ORDER.includes(u.view))) Object.assign(state, {view:u.view, unlLeague:u.unlLeague}, {tab:Object.assign(state.tab, u.tab), mw:Object.assign(state.mw, u.mw), tmode:Object.assign(state.tmode, u.tmode)});
   } catch (e) {}
 }
 function pullRefresh() {

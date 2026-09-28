@@ -5,7 +5,7 @@ Team (slot S) replaced Style of play in quiz round 3: how they play plus team cu
 Displayed Affinity = base + bonus. Clubs get no regional heritage bonus (2026 re-rate); only the hometown
 club (Sacramento Republic FC, +4) keeps one. Nations keep their heritage bonus (up to +10).
 Track record (clubs only, scripts/affinity/performance.py): the factor score is multiplied by
-k = 0.90 + 0.02 * P before adjustments, P = recency-weighted success over the last 10 seasons (0-10)."""
+k = 0.80 + 0.04 * P before adjustments; base is capped at 100, P = recency-weighted success over the last 10 seasons (0-10)."""
 import ast, json, pathlib, sys
 root = pathlib.Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(root / 'scripts' / 'affinity'))
@@ -33,7 +33,7 @@ for key, comp in D.items():
             if key != 'unl' and t['name'] in TR:
                 P, xs = TR[t['name']]; k = perf.coef(P)
                 t['hai'].update(P=P, k=round(k, 3), ps=xs, pl=PERF[t['name']]['seasons'][0]['s'])
-            t['base'] = max(0, round((W['C']*C + W['V']*V + W['H']*H + W['O']*O + W['S']*St) / 0.90 * 10 * k + adj, 1))
+            t['base'] = min(100, max(0, round((W['C']*C + W['V']*V + W['H']*H + W['O']*O + W['S']*St) / 0.90 * 10 * k + adj, 1)))
         if key != 'unl':
             t['bonus'] = 4.0 if t['name'] == HOMETOWN else 0
             if 'bonus0' in t: t['bonus0'] = t['bonus'] / 0.4

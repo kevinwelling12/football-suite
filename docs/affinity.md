@@ -43,8 +43,9 @@ Quiz round 3 (players and team culture, 2026-09-28; research in scripts/affinity
 Rescore: edit scripts/affinity/scores.py (USL: scripts/importers/build_usl.py) -> rescore.py -> build.
 
 Track record (2026-09-28, scripts/affinity/performance.py; data in scripts/affinity/research/perf, brief PERF_BRIEF.md):
-- Clubs only. A coefficient, not a sixth factor: k = 0.90 + 0.02 * P multiplies the factor score before
-  adjustments (P 0 -> x0.90, 5 -> x1.00, 10 -> x1.10). Penalties are not scaled.
+- Clubs only. A coefficient, not a sixth factor: k = 0.80 + 0.04 * P multiplies the factor score before
+  adjustments (P 0 -> x0.80, 5 -> x1.00, 10 -> x1.20; widened from +/-10% on 2026-09-28 so a strong record
+  can overturn a small factor lead, e.g. Dortmund now above Union Berlin). Penalties are not scaled. Affinity is capped at 100.
 - P (0-10) = the last 10 completed league seasons, averaged with a 3-season half-life (last season counts 1,
   three seasons ago 0.5, nine ago 0.125). Older success counts for nothing here; History covers heritage.
 - Each season is judged against the tier the club is analysed in: top flights 1, Championship and USL Championship 2,

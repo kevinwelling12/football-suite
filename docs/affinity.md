@@ -1,9 +1,11 @@
 # Affinity (formerly HAI, Heritage Authenticist Index)
 
 Built from a 51-question supporter-profile interview ("the Principled Romantic").
-Five factors, 0-10 each, weights from Kevin's own ranking:
-Supporter culture 28% · Values 22% · History & identity 18% · Ownership 14% · Style of play 8%
-base = weighted sum / 0.90 * 10 + adjustments. Heritage is a tiebreaker: bonus up to +4 clubs, +10 nations.
+Five factors, 0-10 each, weights from Kevin's own ranking (re-rate 2026-09):
+Values 28% · Supporter culture 26% · History & identity 16% · Ownership 12% · Style of play 8%
+(was 22 / 28 / 18 / 14 / 8). base = weighted sum / 0.90 * 10 + adjustments.
+Bonus: nations keep a heritage tiebreaker up to +10. Clubs have no regional bonus; only the hometown club
+(Sacramento Republic FC) gets +4.
 
 Rules decided with Kevin (apply consistently):
 - State-backed ownership: -25. Tolerated racism/far-right fan groups: up to -30 (Lazio -30).
@@ -21,4 +23,12 @@ Rules decided with Kevin (apply consistently):
 - Specific calls: Timbers ownership 5 (judge on today); Sounders culture 9 (NFL stadium); Sacramento
   ownership 8.
 Quiz round 2 (neutral questions, 2026-09): see docs/supporter-profile.md. It refines how each factor is judged.
+Re-rate 2026-09 (research in scripts/affinity/research, answers in REVIEW.md), rules added:
+- Satellites of a state-controlled group: half the state penalty (-12), plus multi-club.
+- Multi-club: only the owner's secondary clubs pay; the flagship gets 0. Private equity and multi-club add up. No cap on stacks.
+- Leveraged buyout -8 to -10. Private equity -4 to -8, only real PE funds (not US sports investment groups).
+- Fan violence up to -30, same scale as racism. Nations: government record -5 to -25 (Freedom House / RSF).
+- Sponsors: casino brands count half as much as sportsbooks; an owner who owns the betting sponsor counts worse;
+  state tourism boards and state firms of any non-Free country count in full; signed future deals count now.
+- Penalties from a previous owner are dropped. Franchise -10 also for RB Leipzig and NC Courage.
 Rescore: edit scripts/affinity/scores.py (USL: scripts/importers/build_usl.py) -> rescore.py -> build.

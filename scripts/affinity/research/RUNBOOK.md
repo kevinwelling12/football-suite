@@ -1,5 +1,8 @@
 # Running the Affinity research (re-rate, 2026)
 
+Done 2026-09-28: all 11 batches in out/, Kevin's answers in REVIEW.md, applied by decisions.py (final/) and
+written to scores.py / build_usl.py with the new weights. Steps below kept for the next re-rate.
+
 Status: quiz done (docs/supporter-profile.md), brief written (BRIEF.md), 11 batch lists committed
 (b01 ... b11, 308 unique clubs and nations). The first run stopped because the session's web-search
 cap (200) ran out and the network policy blocked direct page fetches. Only a partial, low-confidence

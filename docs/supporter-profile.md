@@ -44,7 +44,7 @@ next full re-rate. Ratings are league-agnostic: the same club gets the same scor
   (Culture > Ownership). Strong community values beat a big history with poor conduct (Values > History).
 - Values is too low. The increase is spread across the other factors.
 - Working proposal for the re-rate (sum 90, as now): Culture 26, Values 28, History 16, Ownership 12,
-  Style 8 (was 28 / 22 / 18 / 14 / 8). To be confirmed after the research.
+  Style 8 (was 28 / 22 / 18 / 14 / 8). Confirmed 2026-09-28 after the research.
 
 ## Nations
 - A country's government record (human rights, press freedom) counts strongly, on the scale of

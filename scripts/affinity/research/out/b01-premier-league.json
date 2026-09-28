@@ -409,5 +409,228 @@
    "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
    "https://www.scoreandchange.com/overview-of-the-2026-2027-premier-league-sponsors/"
   ]
+ },
+ {
+  "name": "Hull City",
+  "C": {
+   "score": 6,
+   "evidence": "MKM Stadium (24,983, council-built 2002 after 56 years at Boothferry Park); crowds held up through the Allam era and Championship years (24,600 for the 2026 play-off semi). Solid, not a noted atmosphere."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Neutral sponsors (Corendon Airlines is a private Dutch-Turkish firm; McVitie's sleeve). Raises: Tigers Trust community work. Past fan mistreatment (Allam 'Hull Tigers' rename fight, concessions row) predates current owner."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "First top-flight season only in 2008; 2014 FA Cup final and 2014-15 Europa League qualifiers; mostly a lower-division club."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Turkish TV producer Acun Ilıcalı owner since Jan 2022 (£20m), says he has put in ~£100m; promotion via the 2026 play-off final. High manager turnover and public threats of legal action over the Southampton 'spygate' play-off case."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Average intensity; no lasting pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Check whether Ilıcalı holds roles at other clubs (not verified this session; if yes, add multiclub).",
+   "Heavy owner spending in the Championship (~£100m): consider overspend -2 if PSR issues surface."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
+   "https://www.espn.com/soccer/story/_/id/48852636/hull-city-promoted-premier-league-beating-middlesbrough-championship-playoff-final",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Ipswich Town",
+  "C": {
+   "score": 7,
+   "evidence": "Portman Road (home since 1884, 30,056) sells out; strong, loyal Suffolk support that stayed through League One (2019-23); good away following. Atmosphere lively in promotion years, not elite."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Raises: Ipswich Town Women are now funded and professionalised; ITFC Charitable Trust; academy. Neutral: Halo chest. Sleeve sponsor 'Play' not verified (flag). No formal fan board seat found."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1961-62 league champions in first top-flight season under Alf Ramsey; 1978 FA Cup and 1981 UEFA Cup under Bobby Robson; unbeaten at home in Europe for decades."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Gamechanger 20 (since 2021) led by US pension-fund investor ORG with the 'Three Lions Fund' and Marcus Evans; heavy investment and back-to-back promotions. US private-equity firm Bright Path took a 40% stake (2024)."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "McKenna's front-foot, pressing possession side scored 92 goals in 2025-26; Gary O'Neil (from June 2026) also plays an intense pressing game."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -6,
+    "evidence": "Bright Path Sports Partners (private equity) owns ~40%; majority owner is a pension-fund investment vehicle (ORG)."
+   }
+  ],
+  "flags": [
+   "Sleeve sponsor 'Play': check whether it is a gambling brand (would be -1 V).",
+   "Owner-funded spending (~£100m+ in 2024-25) could merit overspend -2."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ipswich_Town_F.C.",
+   "https://swissramble.substack.com/p/ipswich-town-finances-202425",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ipswich_Town_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Leeds United",
+  "C": {
+   "score": 9,
+   "evidence": "Elland Road (37,633, home since 1919) is one of England's loudest and most intimidating grounds; famously loyal, huge away following through three seasons in League One (2007-10). Expansion to ~53,000 approved Jan 2026."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Raises: Leeds United Foundation; LUFC Supporters' Trust consulted on ownership. Lowers: price rises and membership scheme criticised by 'legacy fans'. Neutral: Red Bull chest, KChat sleeve. Historic hooligan element (Service Crew) is not current."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "3 league titles, 1972 FA Cup, 2 Fairs Cups, 1975 European Cup final; Revie era a defining chapter of English football."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "49ers Enterprises (a ~100-investor consortium) has owned 100% since 2023; injected £120m new equity to fund Elland Road expansion. Red Bull holds under 10% after declining a share issue."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Bielsa-era intensity has faded; Farke's teams control the ball, energetic but not a pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "Owner 49ers Enterprises is the investment arm of the 49ers owners, pooling around 100 outside investors."
+   },
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "49ers Enterprises co-led the 51% takeover of Rangers (May 2025); Red Bull (Leipzig, Salzburg network) holds a minority stake."
+   }
+  ],
+  "flags": [
+   "Two adjustments (pe + multiclub, -8 total) vs old 0: check."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.cityam.com/red-bull-diluted-energy-drink-giant-reduces-stake-in-leeds-united/",
+   "https://www.sportcal.com/news/cavenagh-49ers-led-consortium-completes-rangers-takeover/",
+   "https://footballgroundguide.com/news/elland-road-expansion",
+   "https://lufctrust.com/article/trust-response-on-red-bull-partnership-with-leeds-united/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Liverpool",
+  "C": {
+   "score": 10,
+   "evidence": "Anfield (61,276) and the Kop are among the most famous atmospheres in world football; 'You'll Never Walk Alone', flag and banner culture, huge travelling support; supporters' union Spirit of Shankly organises fans."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Raises: Spirit of Shankly and supporters' board force changes (reversed a multi-year price rise in May 2026: 3% rise then 2027-28 freeze); LFC Foundation; Hillsborough justice campaign; academy; women's team. Neutral: Standard Chartered, Expedia. Lowers (from 2027-28): Turkish Airlines shirt deal (state holds a large stake via the Türkiye Wealth Fund)."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "20 league titles, 6 European Cups, 3 UEFA Cups; Shankly/Paisley eras, Istanbul 2005; Hillsborough changed English football."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Fenway Sports Group 62% since 2010; sold 38% in Aug 2026 to 1892 Holdings (Amit Bhatia, Jeff Bezos, Eduardo Saverin, Mittal family). Well-run, Anfield expanded, but ticket-price rows and 2021 Super League."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Klopp's gegenpressing legacy; Slot's side was more controlled; Iraola (from June 2026) is an elite high-press coach."
+  },
+  "adjustments": [
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Founding Super League signatory (2021), withdrew within days."
+   },
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "FSG is a sports investment group with outside fund investors (RedBird, Dynasty); new 38% holder 1892 Holdings is an investor consortium."
+   }
+  ],
+  "flags": [
+   "Turkish Airlines shirt deal from 2027-28: authoritarian-state-linked sponsor, V drops a point when it starts (currently 8, was 9).",
+   "pe -4 is new for FSG: Kevin to confirm it fits the pe rule."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+   "https://spiritofshankly.com/2026/05/07/multi-year-ticket-policy-off-the-table/",
+   "https://spiritofshankly.com/2026/08/14/fsg-announcement/",
+   "https://www.thisisanfield.com/2026/08/fsg-moneyball-liverpool-300m-5bn-valuation-bezos/"
+  ]
+ },
+ {
+  "name": "Manchester City",
+  "C": {
+   "score": 6,
+   "evidence": "Loyal through the 1998 drop to the third tier; Etihad (61,038, since 2003) is often quieter than its size and has had empty seats in cup and European games. Solid away following."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Lowers: Etihad Airways (Abu Dhabi state airline) on chest and stadium, plus other Abu Dhabi state-linked partners; club is a vehicle for state image. Raises: City in the Community, strong academy (Foden), funded women's team."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "10 league titles, 2023 Champions League and treble, 1968 title, 1970 Cup Winners' Cup; Maine Road history. Recent success is state-funded."
+  },
+  "O": {
+   "score": 0,
+   "evidence": "Owned since 2008 by Abu Dhabi United Group (Sheikh Mansour, deputy ruler/VP of the UAE) via City Football Group; Silver Lake minority stake. Independent commission reportedly found City guilty on 114 of 115 Premier League charges (Sept 2026), appeal expected."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Guardiola-era positional play with an elite counter-press; Maresca (2026) continues a control-first model."
+  },
+  "adjustments": [
+   {
+    "type": "state",
+    "points": -25,
+    "evidence": "Majority owner Abu Dhabi United Group is controlled by a member of the Abu Dhabi ruling family."
+   },
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "City Football Group runs a network of about a dozen clubs (Girona, NYCFC, Melbourne City...); City is the hub, not a feeder."
+   },
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Signed up to the 2021 Super League, withdrew within days."
+   },
+   {
+    "type": "overspend",
+    "points": -6,
+    "evidence": "Reportedly found guilty on 114 of 115 Premier League financial charges (2009-18) in Sept 2026; sanction pending."
+   }
+  ],
+  "flags": [
+   "Adjustments total -39: Kevin may want to cap the stack.",
+   "115-charges sanction not yet published; revisit after the appeal."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+   "https://www.beinsports.com/en-us/soccer/premier-league/articles/manchester-city-receives-verdict-on-115-premier-league-charges-2026-09-25",
+   "https://thefootballweek.com/2026/09/25/manchester-city-115-charges/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
  }
 ]

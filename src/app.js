@@ -797,7 +797,13 @@ document.addEventListener('click', e => {
   if (t.dataset.club) { openClub(k, +t.dataset.club); return; }
   if (t.dataset.tmode) { state.tmode[k] = t.dataset.tmode; render(); return; }
   if (t.dataset.view) { state.view = t.dataset.view; render(); window.scrollTo({top:0}); return; }
-  if (t.dataset.go) { const [kk, id] = t.dataset.go.split(':'); state.view = kk; state.tab[kk] = 'week'; const f = R[kk].fx[+id]; state.mw[kk] = f.mw; render(); window.scrollTo({top:0}); return; }
+  if (t.dataset.go) { const [kk, id] = t.dataset.go.split(':'); state.view = kk; state.tab[kk] = 'week'; const f = R[kk].fx[+id]; state.mw[kk] = f.mw;
+    if (kk === 'unl' && f.h != null) state.unlLeague = (T(kk)[f.h].group || 'A')[0];
+    render();
+    // Land on the match itself, centred, with a brief highlight so it's easy to spot.
+    const card = document.querySelector(`#main [data-fx="${kk}:${id}"]`);
+    if (card) { card.scrollIntoView({block:'center'}); card.classList.add('flash'); setTimeout(() => card.classList.remove('flash'), 1600); } else window.scrollTo({top:0});
+    return; }
   if (t.dataset.tab) { state.tab[k] = t.dataset.tab; render(); window.scrollTo({top:0}); return; }
   if (t.dataset.open) { openDetail(k, +t.dataset.open); return; }
   if (t.dataset.enter) { const el = $('#entry-' + t.dataset.enter); el.hidden = !el.hidden; if (!el.hidden) $('#hs-' + t.dataset.enter).focus({preventScroll:true}); return; }

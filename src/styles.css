@@ -317,6 +317,8 @@ tr.fav-row td.club{font-weight:800}
 @media (prefers-reduced-motion:no-preference){.live-dot{animation:pulse 1.4s ease-in-out infinite}}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 .b-live{background:#E5484D;color:#fff}
+.match.flash{box-shadow:0 0 0 3px rgba(255,255,255,.55)}
+@media (prefers-reduced-motion:no-preference){.match{transition:box-shadow .5s ease}}
 .b-live .live-dot{background:#fff}
 .match.is-live{border-color:#E5484D;border-width:2px;padding:13px 15px 11px}
 .score.live{background:#E5484D;color:#fff}.score.live .dash{color:rgba(255,255,255,.6)}

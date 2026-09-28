@@ -36,6 +36,9 @@ undrawn rounds, draw entry supported. MODEL.poResolve/poProbs: bracket resolutio
   (Kicked off, Half-time, 2nd half, Full time, +1 goal); the clock runs from the last tap. 45+N/90+N for
   stoppage; missed taps are guessed (~) and "FT?" asks for full time after 90+15. A 30 s timer keeps clocks
   current and re-runs the model every 2 match minutes. Old {h, a, min, ht} entries keep a fixed minute.
+- Live view (nav 'Live', view 'live'): every match marked live, plus matches past kickoff (up to 150 min) with no
+  score, as full match cards from every competition. Card clicks act on the card's own competition (k from
+  data-fx) and `$('#id')` looks inside the clicked card first, because fixture ids repeat across competitions.
 - Pull to refresh (#ptr): home-screen web app only (navigator.standalone). Pull down from the top past
   the line to reload; view/tab/round/table mode come back from sessionStorage. Safari keeps its own gesture.
 - Sticky bar (#topbar): slides in once the header nav scrolls away; competition (tap = back to top) + sections.

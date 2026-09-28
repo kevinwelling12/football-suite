@@ -1009,4 +1009,40 @@ function syncFavs() {
   const names = new Set(); for (const c of ORDER) for (const i of (state.favs[c] || [])) if (T(c)[i]) names.add(T(c)[i].name);
   for (const c of ORDER) { const arr = state.favs[c] = state.favs[c] || []; T(c).forEach((x, i) => { if (names.has(x.name) && !arr.includes(i)) arr.push(i); }); }
 }
-loadLocal(); syncFavs(); startWorker(); render(); computeAll(); connect();
+// ---------------------------------------------------------------- pull to refresh
+// Home-screen web apps on iOS have no browser pull-to-refresh, so add one: pull down from the top of the
+// page and let go past the line to reload (new deploys and fresh cloud data). The page comes back on the
+// same competition and tab. In Safari itself the browser's own gesture is used instead.
+const UI_KEY = STORE + ':ui';
+const standalone = navigator.standalone === true || matchMedia('(display-mode: standalone)').matches;
+function restoreUI() {
+  try {
+    const u = JSON.parse(sessionStorage.getItem(UI_KEY) || 'null'); sessionStorage.removeItem(UI_KEY);
+    if (u && (u.view === 'home' || ORDER.includes(u.view))) Object.assign(state, {view:u.view, unlLeague:u.unlLeague}, {tab:Object.assign(state.tab, u.tab), mw:Object.assign(state.mw, u.mw), tmode:Object.assign(state.tmode, u.tmode)});
+  } catch (e) {}
+}
+function pullRefresh() {
+  const PULL = 70, MAX = 110, el = $('#ptr');
+  let y0 = null, d = 0;
+  const reset = () => { y0 = null; d = 0; el.style.transform = ''; el.classList.remove('ready'); };
+  addEventListener('touchstart', e => {
+    y0 = scrollY <= 0 && e.touches.length === 1 && !$('#detail').open && !e.target.closest('input,select,textarea') ? e.touches[0].clientY : null;
+  }, {passive:true});
+  addEventListener('touchmove', e => {
+    if (y0 == null) return;
+    d = Math.min(MAX, Math.max(0, (e.touches[0].clientY - y0) * 0.5));
+    if (scrollY > 0) { reset(); return; }
+    el.style.transform = `translate(-50%, ${d}px) rotate(${d * 3}deg)`; el.classList.toggle('ready', d >= PULL);
+  }, {passive:true});
+  addEventListener('touchend', () => {
+    if (y0 == null) return;
+    if (d < PULL) { reset(); return; }
+    el.classList.add('spin'); el.style.transform = `translate(-50%, ${PULL}px)`;
+    try { sessionStorage.setItem(UI_KEY, JSON.stringify({view:state.view, tab:state.tab, mw:state.mw, tmode:state.tmode, unlLeague:state.unlLeague})); } catch (e) {}
+    location.reload();
+  });
+  addEventListener('touchcancel', reset);
+}
+
+loadLocal(); syncFavs(); restoreUI(); startWorker(); render(); computeAll(); connect();
+if (standalone) { document.documentElement.classList.add('standalone'); pullRefresh(); }

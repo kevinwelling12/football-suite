@@ -626,3 +626,13 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .topbar .topbar-regions{flex:1;margin:0;border:0}
 .topbar .topbar-regions button{padding:6px 4px 7px}
 @media (min-width:601px){.topbar{padding-left:max(20px,calc((100% - 1100px)/2 + 20px))}}
+
+/* Pull to refresh (home-screen web app only): a ring that drops in from the top, turns solid at the
+   release point, then spins while the page reloads. overscroll-behavior stops the page itself bouncing. */
+:root.standalone,:root.standalone body{overscroll-behavior-y:none}
+.ptr{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) - 44px);z-index:60;width:34px;height:34px;border-radius:50%;
+  border:3px solid rgba(255,255,255,.25);border-top-color:#fff;background:rgba(28,28,30,.9);transform:translate(-50%,0);
+  box-shadow:0 4px 14px rgba(0,0,0,.5);pointer-events:none}
+.ptr.ready{border-color:#fff;border-top-color:#fff}
+.ptr.spin{border-color:rgba(255,255,255,.25);border-top-color:#fff;animation:ptr-spin .7s linear infinite;transition:transform .15s}
+@keyframes ptr-spin{from{rotate:0deg}to{rotate:360deg}}

@@ -1,2 +1,3 @@
 # Build output: GitHub Actions rebuilds dist/web on every push to main (scripts/build.py).
 dist/
+__pycache__/

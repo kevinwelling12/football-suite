@@ -1,0 +1,708 @@
+[
+ {
+  "name": "1. FC Köln",
+  "T": {
+   "score": 6,
+   "evidence": "Energetic, direct football after 2025 promotion (Kwasniok, then René Wagner since Mar 2026); no lasting pressing identity. Captain Marvin Schwäbe (GK), vice Ron-Robert Zieler; Timo Hübers and Linton Maina long-serving but armband changed twice since 2025. Moderate churn plus loans (Sosa, Dallinga, Mikey Moore). Players and Südkurve bond is warm but no current icon since Jonas Hector retired (2023). Coach churn: 4 coaches in 3 seasons."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found in 2023-26. FIFA transfer ban (Potočnik, 2023) is club governance, already in O."
+  },
+  "icons": [],
+  "coach": "René Wagner, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553",
+   "https://geissblog.koeln/2025/08/kwasniok-erklaert-entscheidung-warum-huebers-nicht-mehr-fc-kapitaen-ist/"
+  ]
+ },
+ {
+  "name": "Bayer Leverkusen",
+  "T": {
+   "score": 5,
+   "evidence": "Alonso's elite pressing/possession side (2022-25) broke up in 2025 (Wirtz, Frimpong, Xhaka, Tah left); since then Ten Hag (sacked after 2 matches), Hjulmand, now Carles Martínez Novell (from Jul 2026) - three coaches in a year. Captain changed again for 2026-27 (Tapsoba replaces Andrich, vice Schick). Very high churn, many young signings (Maza, Kofane, Poku, Eichhorn). Schick (100+ goals since 2020) is the closest thing to a long-server, not an icon. Company club, modest player-fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases or welfare issues found."
+  },
+  "icons": [],
+  "coach": "Carles Martínez Novell, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [
+   "Big drop from old S 7: pressing identity left with Alonso and the 2025 squad sale."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
+   "https://www.bundesliga.com/en/bundesliga/news/edmond-tapsoba-new-bayer-leverkusen-captain-schick-martinez-38720",
+   "https://www.bundesliga.com/en/bundesliga/news/bayer-leverkusen-2026-27-season-preview-top-four-martinez-schick-38768"
+  ]
+ },
+ {
+  "name": "Borussia Mönchengladbach",
+  "T": {
+   "score": 4,
+   "evidence": "No pressing identity; 0 points from 4 matches in 2026-27 (6-16 goals), Polanski sacked 13 Sep 2026 after 0-5 at Freiburg, Alexander Blessin hired 22 Sep 2026 (coaches Seoane, Polanski, Blessin in 3 seasons). Academy captain Rocco Reitz sold to Leipzig (EUR 20m) and ten-year man Nico Elvedi to Leeds in summer 2026; captain now Tim Kleindienst (joined 2024). Churn up, no current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Alexander Blessin, since Sep 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Borussia_M%C3%B6nchengladbach_season",
+   "https://www.sportschau.de/regional/wdr/wdr-gladbachs-rocco-reitz-wechselt-zu-rb-leipzig-100.html",
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553"
+  ]
+ },
+ {
+  "name": "Eintracht Frankfurt",
+  "T": {
+   "score": 5,
+   "evidence": "Transition football, intensity varies. Selling-club model with high churn (Kolo Muani, Marmoush, Ekitike sold in 3 seasons; another medium overhaul in 2026). Coaches Toppmöller, Riera (Jan 2026), Adi Hütter (2026). Captain Robin Koch, 4th season with the armband; long-time captain/icon Kevin Trapp left in 2025. Strong fan culture but no current player icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Adi Hütter, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553",
+   "https://www.sportschau.de/fussball/bundesliga/die-transfers-eintracht-frankfurt-zur-saison-2026-27,wechselboerse-eintracht-frankfurt-saison-26-27-100.html",
+   "https://en.wikipedia.org/wiki/Adi_H%C3%BCtter"
+  ]
+ },
+ {
+  "name": "FC Augsburg",
+  "T": {
+   "score": 5,
+   "evidence": "Pragmatic, compact football; 9th in 2025-26 after Manuel Baum took over (Dec 2025, second spell; made permanent). Captain Jeffrey Gouweleeuw, at the club since 2016, contract extended with the armband; Finn Dahmen long-serving GK. Low-profile, no star egos; coach churn (Thorup, Wagner, Baum)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Manuel Baum, since Dec 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Augsburg",
+   "https://www.bundesliga.com/en/bundesliga/news/augsburg-2026-27-season-preview-michael-gregoritsch-manuel-baum-38845"
+  ]
+ },
+ {
+  "name": "Hamburger SV",
+  "T": {
+   "score": 6,
+   "evidence": "Front-foot but not an elite press. Coach Merlin Polzin, a Hamburg local and former HSV youth coach, in charge since Nov 2024 (led 2025 promotion). New captain Nicolai Remberg (2026-27) after Yussuf Poulsen; leadership group chosen for mentality. Strong player-fan bond after promotion; squad rebuilt heavily in 2025 (many loans/new signings)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Merlin Polzin, since Nov 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://ran.joyn.de/sports/fussball/bundesliga/hamburger-sv-nicolai-rembergs-aufstieg-zum-kapitaen-polzin-schickte-ihn-einst-nach-hause-165189",
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553",
+   "https://en.wikipedia.org/wiki/Merlin_Polzin"
+  ]
+ },
+ {
+  "name": "Mainz 05",
+  "T": {
+   "score": 6,
+   "evidence": "Intense pressing lineage (Klopp, Tuchel, Svensson, Henriksen's 6th place 2024-25), but slid to bottom with 9 points after 16 matches in 2025-26; Urs Fischer (Dec 2025) rescued 10th with a compact 3-5-2. Regular sellers (Burkardt, Lee Jae-sung era players). Captain Silvan Widmer / Nadiem Amiri; no current icon since Stefan Bell era ended."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Player welfare: Mainz suspended and then sacked Anwar El Ghazi (Oct-Nov 2023) over pro-Palestinian posts; labour court ruled the dismissal unfair (Jul 2024, EUR 1.5m) and Mainz lost the back-pay appeal (Oct 2025)."
+  },
+  "icons": [],
+  "coach": "Urs Fischer, since Dec 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [
+   "El Ghazi dismissal: political-speech case; Kevin to decide if an unlawful dismissal counts as player welfare (-1 applied)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.bundesliga.com/en/bundesliga/news/mainz-2026-27-season-preview-fischer-amiri-gruber-38776",
+   "https://en.wikipedia.org/wiki/Anwar_El_Ghazi",
+   "https://www.mainz05.de/news/urs-fischer-neuer-05-trainer"
+  ]
+ },
+ {
+  "name": "SC Freiburg",
+  "T": {
+   "score": 8,
+   "evidence": "Organised, hard-running team football; 2026 Europa League final (lost 0-3 to Aston Villa), the club's first European final. Captain Christian Günter, one-club academy product, captain since 2020-21; vices Grifo and Eggestein re-elected. Coach Julian Schuster, ex-Freiburg captain, succeeded Christian Streich in 2024 (continuity). Low churn, humble culture, strong player-fan bond."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "One-club captain Günter plus other academy players in the first team (small raise; academy system itself is already in V)."
+  },
+  "icons": [
+   "Christian Günter"
+  ],
+  "coach": "Julian Schuster, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SC_Freiburg",
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553"
+  ]
+ },
+ {
+  "name": "SC Paderborn",
+  "T": {
+   "score": 6,
+   "evidence": "'Brave football, young players' identity carried into the 2026 promotion under Ralf Kettemann. Captain Felix Götze kept despite injury, praised for dressing-room standing. Small, low-profile squad; limited top-flight evidence."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Ralf Kettemann, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+  ]
+ },
+ {
+  "name": "SV Elversberg",
+  "T": {
+   "score": 6,
+   "evidence": "Attacking, possession-and-pressing style (Steffen, now Vincent Wagner since 2025). Model relies on young talents loaned from Bundesliga clubs (Woltemade, Asllani, Wanner passed through; Onyeka on loan now), so churn is very high. Captain Lukas Pinckert. Small village club, close but small fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Vincent Wagner, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [
+   "Loan-based squad lowers the stability part; style alone would keep 7."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.bundesliga.com/de/bundesliga/news/teamcheck-saisonvorschau-2026-27-sv-elversberg-campbell-petkov-38570",
+   "https://en.wikipedia.org/wiki/Vincent_Wagner"
+  ]
+ },
+ {
+  "name": "Schalke 04",
+  "T": {
+   "score": 6,
+   "evidence": "Won the 2025-26 2. Bundesliga (70 pts, 8 clear) under Miron Muslić with a compact, hard-working side; Muslić extended to 2028. Low churn: 24 of 30 players returned. Captain Kenan Karaman (Ruhr-born, back since 2022). Edin Džeko (40) and Loris Karius signed. Very strong player-fan bond in the Nordkurve."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Miron Muslić, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.bundesliga.com/en/bundesliga/news/schalke-2026-27-season-preview-dzeko-muslic-38784",
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553"
+  ]
+ },
+ {
+  "name": "TSG Hoffenheim",
+  "T": {
+   "score": 7,
+   "evidence": "High-energy pressing under Christian Ilzer (since Nov 2024); 5th in 2025-26. Captain Oliver Baumann since 2022 (at the club since 2014, 392 Bundesliga apps); Andrej Kramarić (since 2016, club record scorer) vice-captain and a current icon. Otherwise a trading squad with regular churn; modest crowd bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [
+   "Andrej Kramarić",
+   "Oliver Baumann"
+  ],
+  "coach": "Christian Ilzer, since Nov 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553",
+   "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+  ]
+ },
+ {
+  "name": "Union Berlin",
+  "T": {
+   "score": 7,
+   "evidence": "Physical, direct, hard-running style. Captain Christopher Trimmel (39), in his 13th season at the club, called a club icon and kept as captain by new coach Mauro Lustrinelli (from Jul 2026, after Baumgart and Marie-Louise Eta); vice Rani Khedira. Legendary player-fan bond at the Alte Försterei; coach churn since Fischer left in 2023."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [
+   "Christopher Trimmel"
+  ],
+  "coach": "Mauro Lustrinelli, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [
+   "Trimmel is 39: icon credit ends when he retires."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://sports.yahoo.com/articles/union-berlin-appoints-lustrinelli-coach-150229321.html",
+   "https://www.fc-union-berlin.de/en/news/christopher-trimmel-signs-new-contract-RgeWB",
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553"
+  ]
+ },
+ {
+  "name": "Werder Bremen",
+  "T": {
+   "score": 6,
+   "evidence": "Front-foot but inconsistent; 15th in 2025-26. Captain Marco Friedl (at the club since 2018), confirmed by coach Daniel Thioune. Moderate churn; warm fan bond but no current icon; coaches Werner, Steffen, Thioune in 3 seasons."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Daniel Thioune, since Feb 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.bundesliga.com/de/bundesliga/news/kapitane-bundesliga-saison-2026-27-38553",
+   "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+  ]
+ },
+ {
+  "name": "Angers",
+  "T": {
+   "score": 4,
+   "evidence": "Defensive, low-possession side (13th in 2025-26). Coach turnover: Alexandre Dujeux left for Lorient, Stéphane Gilli appointed 9 Jun 2026. Captain Haris Belkebla. Budget squad with regular churn; no icon, limited player-fan bond evidence."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found. FIFA transfer ban (Chetti, 2023) is governance, not player conduct."
+  },
+  "icons": [],
+  "coach": "Stéphane Gilli, since Jun 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Angers_SCO",
+   "https://angers-infos.fr/stephane-gilli-devoile-son-staff-pour-la-saison-2026-2027/"
+  ]
+ },
+ {
+  "name": "Auxerre",
+  "T": {
+   "score": 6,
+   "evidence": "Christophe Pélissier (2022-26) built a hard-working, compact side; he left in June 2026 after a row with the sporting director. Will Still (from 12 Jun 2026, contract to 2028) brings an energetic pressing approach. Captain Kévin Danois per current squad list. Modest, low-ego squad; moderate churn (Sinayoko sold to Paris FC)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Will Still, since Jun 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AJ_Auxerre",
+   "https://www.ici.fr/bourgogne-franche-comte/yonne-89/auxerre/will-still-succede-a-christophe-pelissier-et-devient-le-nouvel-entraineur-de-l-aja-7304161"
+  ]
+ },
+ {
+  "name": "Brest",
+  "T": {
+   "score": 7,
+   "evidence": "Organised, hard-working team that overachieved (3rd in 2023-24, Champions League 2024-25) on a small budget. Captain Brendan Chardonnet, Brest-born academy product and one-club player (debut 2012), contract extended to 2027 and still playing in 2026-27; a local hero. Strong player-fan bond in a small Breton club; Julien Lachuer now coaches after Éric Roy's era."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "One-club, local-born captain Chardonnet in the first team (small raise)."
+  },
+  "icons": [
+   "Brendan Chardonnet"
+  ],
+  "coach": "Julien Lachuer, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.sb29.bzh/07-11-24-prolongation-de-brendan-chardonnet.php",
+   "https://ligue1.com/fr/player-sheet/l1_championship_player_2026_44_52212/matches",
+   "https://www.football-addict.com/fr/article/general/un-nouveau-monde-le-capitaine-du-stade-brestois-brendan-chardonnet-avant-les-debuts-en-ligue-des-champions/66eb1cfa0b3403f52601b777"
+  ]
+ },
+ {
+  "name": "Le Havre",
+  "T": {
+   "score": 5,
+   "evidence": "Low-possession, defensive side. Didier Digard (Le Havre academy product) coach since Jul 2024, extended to 2027. New captain Rassoul Ndiaye (Aug 2026). Young squad (36 players, avg 24.6), multi-club talent flow means regular churn; no icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Didier Digard, since Jul 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Le_Havre_AC",
+   "https://wiwsport.com/2026/08/21/ligue-1-rassoul-ndiaye-nomme-capitaine-du-havre-ac/",
+   "https://sports.orange.fr/football/mercato/article/le-havre-digard-prolonge-jusqu-en-2027-officiel-exclu-CNT000002pUuMI.html"
+  ]
+ },
+ {
+  "name": "Le Mans",
+  "T": {
+   "score": 6,
+   "evidence": "Back-to-back promotions (National 2025, Ligue 2 runners-up 2026, 4 league defeats) under Patrick Videira (since summer 2024, extended to 2029), who stresses intensity, humility and character. Kept most of the promotion squad incl. captain Samuel Yohou and top scorers Gueye, Rabillard, Colas. Limited top-flight evidence."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Patrick Videira, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://ligue1.com/en/articles/l1_article_5649-26-27-preview-3-le-mans-fc",
+   "https://ligue1.com/en/articles/l1_article_5592-who-is-patrick-videira-le-mans-fast-rising-coach"
+  ]
+ },
+ {
+  "name": "Lorient",
+  "T": {
+   "score": 5,
+   "evidence": "10th in 2025-26 after promotion under Olivier Pantaloni, who left for Nice; Alexandre Dujeux appointed 9 Jun 2026. Emblematic captain Laurent Abergel left in 2026 at his own request with three years left; Pablo Pagis sold to Paris FC. Stability dented; no current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Alexandre Dujeux, since Jun 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alexandre_Dujeux",
+   "https://www.ici.fr/bretagne/morbihan-56/lorient/fc-lorient-alexandre-dujeux-devient-le-nouvel-entraineur-des-merlus-il-signe-pour-deux-saisons-3013815"
+  ]
+ },
+ {
+  "name": "Lyon",
+  "T": {
+   "score": 6,
+   "evidence": "Front-foot 4-2-3-1 under Paulo Fonseca (since Jan 2025); 4th in 2025-26, strong start to 2026-27. Captain Corentin Tolisso, academy product who returned in 2022. Very high churn forced by the DNCG crisis (Cherki, Lacazette, Almada, Mikautadze; Tagliafico, Niakhaté, Abner out in 2026)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found (Fonseca's 2025 touchline ban is coach conduct). Academy already in V."
+  },
+  "icons": [
+   "Corentin Tolisso"
+  ],
+  "coach": "Paulo Fonseca, since Jan 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Olympique_Lyonnais_season",
+   "https://www.olympique-et-lyonnais.com/lol-se-deplace-au-psg-sans-six-joueurs-dont-le-capitaine-tolisso,395972.html"
+  ]
+ },
+ {
+  "name": "Marseille",
+  "T": {
+   "score": 5,
+   "evidence": "Very high churn in the Longoria era; coaches De Zerbi, Habib Beye, now Bruno Génésio (Jul 2026). Star-ego problems: Rabiot-Rowe dressing-room fight (Aug 2025), both moved on. Mason Greenwood sold to Fenerbahçe (EUR 42m, Jul 2026). Passionate crowd bond but no stable core or current icon."
+  },
+  "V_delta": {
+   "points": -2,
+   "evidence": "Signed Mason Greenwood in Jul 2024 (charges of attempted rape and assault dropped in 2023; Marseille's mayor objected) and kept him as a starter for two seasons until his Jul 2026 sale. Club acted on the 2025 Rabiot-Rowe fight by moving both players."
+  },
+  "icons": [],
+  "coach": "Bruno Génésio, since Jul 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [
+   "Greenwood left in Jul 2026; -2 applied because he was at the club within the 3-season window. Kevin to confirm whether it should lapse now he is gone.",
+   "Captaincy unclear (Wikipedia squad marks Timothy Weah)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.foxsports.com/articles/soccer/fenerbahce-agree-42m-mason-greenwood-transfer-with-marseille-as-ex-man-utd-forward-snubs-saudi-arabia-move",
+   "https://en.wikipedia.org/wiki/Olympique_de_Marseille",
+   "https://www.goal.com/en-us/lists/marseille-explain-mason-greenwood-transfer-fenerbahce-official-statement/bltd63b11ab3824c942"
+  ]
+ },
+ {
+  "name": "Monaco",
+  "T": {
+   "score": 5,
+   "evidence": "Young, athletic, fairly intense side, but a trading club with high churn and coach turnover (Hütter, Pocognoli, Filipe Luís from Jul 2026). Star signings (Pogba 2025) rather than a stable core; small crowd bond; no icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Mohamed Camara covered the anti-homophobia patch (May 2024) and got a 4-match LFP ban; Monaco backed the league, did not appeal, and sold him to Al-Sadd (Jul 2024). Response adequate, so net 0."
+  },
+  "icons": [],
+  "coach": "Filipe Luís, since Jul 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [
+   "Camara case: Kevin to decide if a player's anti-LGBT gesture counts even with a good club response (I gave 0)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.nbcnews.com/news/sports/monaco-player-mohamed-camara-suspended-rcna154842",
+   "https://www.malaymail.com/news/sports/2024/07/31/monaco-midfielder-camara-transferred-to-qatar-after-hiding-anti-homophobia-campaign-logo-last-season/145533"
+  ]
+ },
+ {
+  "name": "Nice",
+  "T": {
+   "score": 3,
+   "evidence": "16th in 2025-26; Claude Puel sacked, Olivier Pantaloni from Jun 2026. Player-fan bond broken: on 30 Nov 2025, 300-400 ultras met the bus at the training ground after a 1-3 loss at Lorient and Jérémie Boga and Terem Moffi were kicked, slapped and spat on; both left soon after. High churn, no icon."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Player welfare: Boga and Moffi assaulted by the club's own ultras at the training centre (Nov 2025); both filed complaints and left. Not in the existing violence adjustment (which cites Nice-Metz 2026 and 2022)."
+  },
+  "icons": [],
+  "coach": "Olivier Pantaloni, since Jun 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [
+   "The Nov 2025 assault on players could go into the violence adjustment instead of V_delta; do not count twice."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://liti.fr/ogc-nice-deux-leaders-ultras-au-tribunal-ce-lundi-pour-lagression-de-boga-et-moffi-devant-le-centre-dentrainement/",
+   "https://fr.soccerway.com/actualites/terem-moffi-jeremie-boga-et-florian-maurice-agresses-par-des-supporters-nicois/fFowb6Tk"
+  ]
+ },
+ {
+  "name": "Paris FC",
+  "T": {
+   "score": 5,
+   "evidence": "Arnault-funded project with heavy churn: EUR 63m spent in summer 2026 (Zabi, Coppola, Pagis, Sinayoko) after star signings in 2025 (Trapp, Immobile, now retired). Liam Rosenior coaches; captain Pierre Lees-Melou. 3rd after 5 matches (unbeaten). Small crowd bond; no icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Liam Rosenior, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Saison_2026-2027_du_Paris_Football_Club",
+   "https://www.footmercato.net/club/paris-fc/effectif/"
+  ]
+ },
+ {
+  "name": "Rennes",
+  "T": {
+   "score": 5,
+   "evidence": "Franck Haise (since 18 Feb 2026) brought an attacking, fairly intense style and Europa League qualification. But churn is very high: Haise said the squad had 35 outfield players and must be cut to 23-24; six more signings in 2026 (Thomasson, Mayenda, Bryan Reynolds, etc.). Academy stars sold (Doué, Camavinga earlier). No current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Franck Haise, since Feb 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "Bryan Reynolds (American, ex-FC Dallas) is not a former Republic player."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Franck_Haise",
+   "https://www.butfootballclub.fr/1684372-stade-rennais-franck-haise-prend-une-decision-majeure-pour-le-mercato/"
+  ]
+ },
+ {
+  "name": "Strasbourg",
+  "T": {
+   "score": 4,
+   "evidence": "Young, energetic side, but BlueCo's Chelsea pipeline drives extreme churn: about 20 out and 18 in in summer 2026 (Emegha, Barco, Enciso, Moreira, Guéla Doué out; Chelsea loans in). Captain Emegha sold to Chelsea; coaches Rosenior, then Hugo Oliveira (12 Jul 2026). Fans hostile to the model; no icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Hugo Oliveira, since Jul 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Saison_2026-2027_du_Racing_Club_de_Strasbourg_Alsace",
+   "https://africa.espn.com/football/story/_/id/46233087/chelsea-agree-deal-sign-rc-strasbourg-emanuel-emegha",
+   "https://en.wikipedia.org/wiki/Hugo_Oliveira_(football_manager)"
+  ]
+ },
+ {
+  "name": "Toulouse",
+  "T": {
+   "score": 6,
+   "evidence": "Front-foot, well-drilled side under Carles Martínez Novell (2023-26, 2023 Coupe de France), now Jens Berthel Askou (21 May 2026) from Motherwell. Data-driven trading model, but squad kept nearly complete for 2026-27 with captain Rasmus Nicolaisen. No icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Jens Berthel Askou, since May 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.toulousefc.com/play/blog/2026/05/jens-berthel-askou-est-le-nouvel-entraineur-du-toulouse-football-club",
+   "https://ligue1.com/en/articles/l1_article_5186-who-is-new-toulouse-manager-jens-berthel-askou"
+  ]
+ },
+ {
+  "name": "Troyes",
+  "T": {
+   "score": 5,
+   "evidence": "Ligue 2 champions 2025-26 under Stéphane Dumont; City Football Group feeder with loan-driven churn. Captain for 2026-27 not confirmed. Limited evidence on culture or style."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Stéphane Dumont, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player found in the 2026-27 squad."
+  },
+  "flags": [
+   "Dumont start date and captain not verified."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/St%C3%A9phane_Dumont",
+   "https://www.estac.fr/ligue-1-mcdonalds-2026-2027-lestac-connait-son-calendrier/"
+  ]
+ }
+]

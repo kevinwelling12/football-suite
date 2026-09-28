@@ -1,0 +1,601 @@
+[
+ {
+  "name": "AFC Wimbledon",
+  "T": {
+   "score": 6,
+   "evidence": "Johnnie Jackson manager since 2022 (4+ seasons), took them up via the 2025 League Two play-off final (1-0 v Walsall); survived in League One 2025-26 (19th). Low churn: 8 in / 2 permanent out in 2025-26. Captain reported as Jake Reeves (Wimbledon academy product, returned 2024; club wiki lists Ryan Johnson). Fan-owned club with close player-fan culture; no pressing identity, organised and hard-working."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Only on-pitch discipline: Paul Kalambayi FA charge (abusive to officials, Jan 2024); club fined GBP 8,000 for mass confrontation v MK Dons (Mar 2024). Academy products (Reeves, Isaac Ogundere) present but not enough for +1."
+  },
+  "icons": [],
+  "coach": "Johnnie Jackson, since 2022",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Captain source conflict (Jake Reeves vs Ryan Johnson)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AFC_Wimbledon",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_AFC_Wimbledon_season",
+   "https://www.thefa.com/news/2024/apr/02/fa-charges---march-2024-020424"
+  ]
+ },
+ {
+  "name": "Accrington Stanley",
+  "T": {
+   "score": 5,
+   "evidence": "John Doolan manager since March 2024; 16th in League Two 2025-26, no pressing identity. Long-serving captain Seamus Conneely (joined Jan 2015, 378 apps, 2017-18 title) released as a 'club legend' in 2026, so the icon is gone. Squad leans on loans (Moulden, Borland, Catesby, Warren). Small-club, close community bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found. Academy closed in 2025 citing finances (declined a council offer to fund it for 12 months) - hits the youth pathway; see flags."
+  },
+  "icons": [],
+  "coach": "John Doolan, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Academy closure (2025) for financial reasons: treat as a player-welfare / pathway negative (-1)? Not scored here.",
+   "Conneely departure: confirm he has left (one May 2026 report said still negotiating)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Accrington_Stanley_F.C.",
+   "https://www.soccerbase.com/players/player.sd?player_id=55200",
+   "https://www.facebook.com/ASFCofficial/posts/-accrington-stanley-can-today-confirm-that-long-serving-captain-seamus-conneely-/1102085541946237/"
+  ]
+ },
+ {
+  "name": "Barnet",
+  "T": {
+   "score": 6,
+   "evidence": "Dean Brennan head coach since 2021 (5+ years), won the 2024-25 National League with a club-record 102 points, 8th in League Two 2025-26, League Two Manager of the Month August 2026. Captain Danny Collinge. Settled core squad carried up from non-league; no documented pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Dean Brennan, since 2021",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Barnet_F.C.",
+   "https://en.wikipedia.org/wiki/Dean_Brennan",
+   "https://barnetfc.com/sky-bet-league-two-manager-of-the-month-dean-brennan"
+  ]
+ },
+ {
+  "name": "Barnsley",
+  "T": {
+   "score": 6,
+   "evidence": "Daniel Stendel back as head coach for 2026-27 (two-year deal); his 2018-19 side was a genuine high-press team that won promotion. Previous 3 seasons: Duff/Hourihane, 15th in League One 2025-26, no lasting identity. Data-driven recruitment of young players means high churn; no long-serving captain (Luca Connell 2024-25, Cameron McGeehan listed now)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Only minor FA charge (Ziggy Kozluk, abuse of official in a reserve match, May 2025). No conduct or welfare cases."
+  },
+  "icons": [],
+  "coach": "Daniel Stendel, since 2026 (second spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "T raised mainly on Stendel's return: pressing identity not yet proven this spell."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Barnsley_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Barnsley_F.C._season",
+   "https://www.thefa.com/news/2025/aug/04/fa-charges---july-2025-040825"
+  ]
+ },
+ {
+  "name": "Blackpool",
+  "T": {
+   "score": 5,
+   "evidence": "Steve Bruce sacked Oct 2025; former Blackpool captain Ian Evatt head coach since 21 Oct 2025 (3-year deal), 13th in League One 2025-26. High churn: Honeyman, Ennis, Horsfall, Ihiekwe, Dale Taylor in; Carey, O'Donnell, Lee Evans out. No pressing identity, no current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found in the last 3 seasons."
+  },
+  "icons": [],
+  "coach": "Ian Evatt, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Blackpool_F.C._season",
+   "https://www.espn.co.uk/football/team/squad/_/id/346/eng.blackpool"
+  ]
+ },
+ {
+  "name": "Bradford City",
+  "T": {
+   "score": 6,
+   "evidence": "Graham Alexander manager since 2023; League Two champions 2024-25, 4th in League One 2025-26, top of League One after 7 games 2026-27. 3-4-2-1. Captain Antoni Sarcevic (34), praised by Alexander for embodying club 'values'. Big home crowds and strong player-fan bond, but talisman Andy Cook left for Grimsby (2026) and Max Power / Jenson Metcalfe sold, so moderate churn."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found. Academy graduate Oscar Lunn signed first pro deal (2026); not enough for +1."
+  },
+  "icons": [],
+  "coach": "Graham Alexander, since 2023",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Andy Cook (club talisman) left in 2026, so no icon credit."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bradford_City_A.F.C._season",
+   "https://www.yorkshirepost.co.uk/sport/football/graham-alexander-says-bradford-citys-new-captain-embodies-their-values-and-desires-8843324"
+  ]
+ },
+ {
+  "name": "Bristol Rovers",
+  "T": {
+   "score": 4,
+   "evidence": "Steve Evans head coach since 16 Dec 2025 (permanent two-year deal Apr 2026); direct, physical, confrontational approach. Four managers in three seasons (Joey Barton to Oct 2023, Matt Taylor, Inigo Calderon, Evans) and relegated to League Two; very high squad churn. Captain Alfie Kilgour. No icon, no pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found for current players. Evans's own record (1990s tax-fraud conviction, 20-month FA suspension 2003, stadium ban 2012, one-match ban Jan 2026) is a coach matter, not scored."
+  },
+  "icons": [],
+  "coach": "Steve Evans, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Steve Evans's conduct record (FA bans for comments/conduct) is a coach issue: decide if it belongs in Values."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://uk.sports.yahoo.com/news/bristol-rovers-manager-steve-evans-050000027.html",
+   "https://en.wikipedia.org/wiki/2024%E2%80%9325_Bristol_Rovers_F.C._season",
+   "https://en.wikipedia.org/wiki/Steve_Evans_(football_manager)"
+  ]
+ },
+ {
+  "name": "Bromley",
+  "T": {
+   "score": 7,
+   "evidence": "Andy Woodman head coach since 2021 (5 years, 227 matches): FA Trophy 2022, National League play-off 2024, League Two title 2025-26, first League One season now. Very stable, humble squad; Michael Cheek (at Bromley since 2019, club record scorer) still leads the line; captain Byron Webster retired 2026. Energetic, well-drilled, no documented press."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [
+   "Michael Cheek"
+  ],
+  "coach": "Andy Woodman, since 2021",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bromley_F.C._season",
+   "https://en.wikipedia.org/wiki/2024%E2%80%9325_Bromley_F.C._season",
+   "https://boardroomsports.substack.com/p/how-bromley-fc-built-their-way-to"
+  ]
+ },
+ {
+  "name": "Burton Albion",
+  "T": {
+   "score": 4,
+   "evidence": "Nordic Football Group owners since 2024 turned the squad over (23 signings in one window) and use many Premier League loans; Mark Robinson sacked 2024, Gary Bowyer head coach since Dec 2024, 17th in League One. Captain Curtis Tilt. No identity, no icon; FA Cup 4th round v West Ham 2025-26 the high point."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found (FA ownership conflict probe already in V)."
+  },
+  "icons": [],
+  "coach": "Gary Bowyer, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Burton_Albion_F.C.",
+   "https://www.burtonalbionfc.co.uk/news/2024/december/17/gary-bowyer-named-new-burton-albion-head-coach/"
+  ]
+ },
+ {
+  "name": "Cambridge United",
+  "T": {
+   "score": 6,
+   "evidence": "Neil Harris manager since 2025: relegated from League One 2024-25, promoted straight back from League Two 2025-26. Dom Ball made permanent captain ('clear leader'). Summer 2026: Munday sold to Brighton, Brophy/Gibbons/Purrington released; Pelly-Ruddock Mpanzu (Luton one-club legend) now in the squad. Hard-working Harris side, no pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Neil Harris, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Cambridge_United_F.C._season",
+   "https://www.cambridgeindependent.co.uk/sport/it-was-very-clear-to-see-he-was-the-leader-9475934/"
+  ]
+ },
+ {
+  "name": "Cheltenham Town",
+  "T": {
+   "score": 6,
+   "evidence": "Steve Cotterill returned as manager Sept 2025; he took Cheltenham from the Conference to the Football League (1997-2002) and the club ran an 'award him the Freedom of Cheltenham' campaign (Apr 2026): a defining coach, but only a year into this spell. Poor recent results (relegated 2024, 18th League Two 2025-26); former captain Aaron Downes stepped down as assistant. No pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Steve Cotterill, since 2025 (second spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Captain for 2026-27 not confirmed."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://www.ctfc.com/news/2026/april/17/award-steve-cotterill-the-freedom-of-cheltenham-/",
+   "https://www.ctfc.com/news/2025/september/30/welcome-back-to-cheltenham-town-steve-cotterill/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Cheltenham_Town_F.C._season"
+  ]
+ },
+ {
+  "name": "Chesterfield",
+  "T": {
+   "score": 6,
+   "evidence": "Paul Cook manager since Oct 2021 (second spell; also 2012-15): National League title 2023-24, 6th in League Two 2025-26 (play-offs). Settled senior core (Tom Naylor captained in 2025-26 and pre-season, Kyle McFadzean deputy, Jack Simpson); captaincy for 2026-27 not formally named in August. Cook's pre-season 'big joint effort' rallying call to fans; community-trust club. No pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Paul Cook, since 2021 (second spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "2026-27 captain not confirmed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://chesterfield-fc.co.uk/news/2026-27-squad-list",
+   "https://www.derbyshiretimes.co.uk/sport/football/chesterfield-and-the-captaincy-in-the-202627-season-8842444",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Chesterfield_F.C._season"
+  ]
+ },
+ {
+  "name": "Colchester United",
+  "T": {
+   "score": 5,
+   "evidence": "Danny Cowley head coach (since 2024-25); eleventh straight League Two season, 15th after 8 games. Captain Jack Tucker. Moderate churn: Raggett, Digby, Kouassi in plus several Premier/Championship loans; Lisbie sold to Reading, Macey and Read released. No pressing identity, no icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Danny Cowley, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Colchester_United_F.C._season",
+   "https://www.gazette-news.co.uk/sport/26118437.colchester-united-boss-danny-cowley-pre-season-plans/"
+  ]
+ },
+ {
+  "name": "Crawley Town",
+  "T": {
+   "score": 4,
+   "evidence": "Manager churn: Scott Lindsey (possession approach) dismissed 22 Mar 2026 at a 22.6% win rate; Colin Kazim-Richards (ex-Arsenal youth coach, first senior job) interim from 24 Mar, permanent May 2026 after survival. 22nd in League Two 2025-26 (40 pts). Loan-heavy squad (Harvey Davies, Ryan Loft), no icon, no stable captain found."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No current player conduct cases found. Kazim-Richards was convicted in April 2014 (as a player) of a homophobic gesture towards Brighton fans; outside the 3-season window and a coach matter now, so not scored."
+  },
+  "icons": [],
+  "coach": "Colin Kazim-Richards, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Head coach Kazim-Richards has a 2014 conviction for a homophobic gesture: decide whether it affects Values."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Crawley_Town_F.C._season",
+   "https://www.crawleytownfc.com/news/2026/may/12/colin-kazim-richards-named-as-head-coach/",
+   "https://www.skysports.com/football/news/11676/9257366/colin-kazim-richards-found-guilty-of-homophobic-gesture"
+  ]
+ },
+ {
+  "name": "Crewe Alexandra",
+  "T": {
+   "score": 7,
+   "evidence": "Lee Bell manager since Dec 2022 (ex-Crewe player), continuing the Gradi/Artell technical, attractive, academy-first identity; the club has fielded starting XIs made up entirely of academy graduates. Graduates in the first team (Lewis Billington, Joel Tabiner, Charlie Finney); summer 2026 brought back academy product Luke Offord and a former captain. Promotion push 2024-25, 11th in League Two 2025-26. Not a pressing side."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "First team built on academy graduates and returning homegrown players (Offord, Billington, Tabiner, Finney): +1. No player conduct cases found (Bennell case already in V)."
+  },
+  "icons": [],
+  "coach": "Lee Bell, since 2022",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "+1 is for current homegrown first-teamers, separate from the historic academy pathway already in V; drop it if Kevin sees that as double counting."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crewe_Alexandra_F.C.",
+   "https://www.crewealex.net/news/2026/august/27/lee-bell----we-will-make-sure-that-the-players-are-ready--",
+   "https://crewe.nub.news/news/local-news/crewe-alexandra-re-sign-former-captain-as-defender-departs-300525"
+  ]
+ },
+ {
+  "name": "Doncaster Rovers",
+  "T": {
+   "score": 6,
+   "evidence": "Grant McCann (second spell, since 2023): League Two champions 2024-25, 14th in League One 2025-26; urges his side to 'go and entertain'. Influential captain Owen Bailey. Moderate churn (Grehan, Pearson, Hanlan, Gotts, Middleton in; Ironside, Lawlor out). Front-foot but no documented pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Grant McCann, since 2023 (second spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Doncaster_Rovers_F.C._season",
+   "https://www.yorkshirepost.co.uk/sport/football/doncaster-rovers-v-middlesbrough-i-believe-in-you-to-go-and-entertain-urges-grant-mccann-8939214",
+   "https://www.yorkshirepost.co.uk/sport/football/doncaster-rovers-2026-27-season-preview-rejuvenated-rovers-aim-to-be-best-of-rest-8825853"
+  ]
+ },
+ {
+  "name": "Exeter City",
+  "T": {
+   "score": 5,
+   "evidence": "Relegated from League One 2025-26; Matt Taylor (who led them up in 2022) back as manager, interim then permanent. Big summer turnover: long-serving defender Pierce Sweeney, Kevin McDonald, Josh Magennis and four others released; Yfeko, Wareham, Kieran Wilson sold; Gwion Edwards, Josh Gordon, Taylor Perry, Danny Rose in. Supporter-owned, close fan bond, but no current icon and no pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found (academy pathway already in V)."
+  },
+  "icons": [],
+  "coach": "Matt Taylor, since 2026 (second spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Captain for 2026-27 not found (Sweeney released)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Exeter_City_F.C._season",
+   "https://en.wikipedia.org/wiki/Exeter_City_F.C."
+  ]
+ },
+ {
+  "name": "Fleetwood Town",
+  "T": {
+   "score": 4,
+   "evidence": "Coach churn: Scott Brown (to 2023), Charlie Adam (sacked Dec 2024), Pete Wild, then academy coach Matt Lawlor (at the club since 2019, three caretaker spells) permanent from 17 Mar 2026 to 2028. 15th in League Two 2025-26. Ched Evans (37) named captain Aug 2026. No pressing identity, no icon."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Club made Ched Evans captain (Aug 2026). His 2012 rape conviction was quashed and he was acquitted at a 2016 retrial, so this is not standing by a player facing live allegations; but the appointment is contested and his return to clubs has drawn protests before. Scored -1 as a middle option."
+  },
+  "icons": [],
+  "coach": "Matt Lawlor, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Ched Evans captaincy: Kevin to decide 0 (acquitted) or -2 (club elevating him despite the case). Scored -1."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.fleetwoodtownfc.com/evans-named-town-captain-for-2026-27/",
+   "https://en.wikipedia.org/wiki/Matt_Lawlor",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Fleetwood_Town_F.C._season"
+  ]
+ },
+ {
+  "name": "Gillingham",
+  "T": {
+   "score": 5,
+   "evidence": "Gareth Ainsworth manager (since 2025); direct, physical style; 17th in League Two 2025-26 with 53 pts. Captain Armani Little in 2025-26; 2026-27 armband between new signing Liam Gordon and Omar Beckles. Heavy churn: Vokes, Palmer-Houlden, Smith in 2025; Albarus, Brophy, Goodwin, Gordon, Kadeem Harris in 2026. No icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Gareth Ainsworth, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Gillingham_F.C._season",
+   "https://www.kentonline.co.uk/medway/sport/boss-yet-to-reveal-his-captain-for-the-new-season-343867/"
+  ]
+ },
+ {
+  "name": "Grimsby Town",
+  "T": {
+   "score": 6,
+   "evidence": "David Artell manager since 2024: 7th in League Two 2025-26 (78 pts, 74 goals), knocked Manchester United out of the EFL Cup (Aug 2025) and reached FA Cup and EFL Cup fourth rounds. Moderate churn: top scorer Jaze Kabia sold to Orient, Darragh Burns to Derry; Andy Cook, Iwan Morgan in. Attacking, but no documented press; no current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found (the 2025 EFL Cup ineligible-player fine is a club admin matter)."
+  },
+  "icons": [],
+  "coach": "David Artell, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Grimsby_Town_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Grimsby_Town_F.C._season"
+  ]
+ },
+ {
+  "name": "Huddersfield Town",
+  "T": {
+   "score": 5,
+   "evidence": "Martin Drury head coach since 27 May 2026 (League One Manager of the Month Aug 2026; demands players are 'all in... running', stresses 'togetherness and humility'); 6th after 7 games. Previous 3 seasons: Warnock, Duff, Manning and a Championship relegation, so no stable identity. Captain Ryan Ledson. ~10 summer signings; Lee Nicholls and Tom Iorpenda sold."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Martin Drury, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Drury's work-rate emphasis could lift T next year if it holds."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Huddersfield_Town_A.F.C._season",
+   "https://www.yorkshirepost.co.uk/sport/football/huddersfield-town-captain-ryan-ledson-on-martin-drurys-key-change-since-taking-over-at-league-one-club-8882847"
+  ]
+ },
+ {
+  "name": "Leicester City",
+  "T": {
+   "score": 4,
+   "evidence": "Back-to-back relegations (23rd in the Championship 2025-26 after a 6-point PSR deduction), now in League One. Russell Martin (possession) appointed 15 Jun 2026, after Gary Rowett's short spell. 14 out / 10 in this summer (El Khannouss, Fatawu, Monga sold); captain Ricardo Pereira released, Jamie Vardy gone since 2025; no captain named yet. Some continuity via Luke Thomas, Wout Faes and academy products (Stolarczyk, Nelson, Braybrooke)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No current player conduct cases found. Academy graduates present, but not enough for +1 given the squad churn."
+  },
+  "icons": [],
+  "coach": "Russell Martin, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Old S 5 -> T 4 driven by collapse and churn; no icon left after Vardy."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Leicester_City_F.C._season",
+   "https://filbertway.com/2026/07/29/leicester-captains-history-new-chapter-soon-to-be-happening/",
+   "https://thefosseway.net/2026/09/03/war-and-peace-and-positivity-assessing-your-2026-27-leicester-city-squad/"
+  ]
+ },
+ {
+  "name": "Leyton Orient",
+  "T": {
+   "score": 6,
+   "evidence": "Richie Wellens manager since 2022 (League Two title 2022-23, 2025 play-off final); expansive, ball-playing side; 20th in 2025-26 but won 5-0 v Bromley early 2026-27. High summer churn: 12 in (Dobra, Baxter, Scarlett, Stevens), Dom Ballard sold to Bristol City for GBP 5m. Academy product Jakob Lowe given a pro deal. Captain not confirmed."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Richie Wellens, since 2022",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Captain for 2026-27 not confirmed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Leyton_Orient_F.C._season",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Leyton_Orient_F.C._season"
+  ]
+ },
+ {
+  "name": "Luton Town",
+  "T": {
+   "score": 5,
+   "evidence": "Two relegations (Premier League 2024, Championship 2025); Jack Wilshere manager since Oct 2025, 7th in League One 2025-26. Captains Carlton Morris and Jordan Clark (both at Luton since the Premier League promotion era) give continuity, but the one-club icon Pelly-Ruddock Mpanzu has left (now Cambridge) and churn is high (Makosso, Adebayo, Woodrow, Jacob Brown out; Palmer, Johnston, Marshall plus PL loans in). No pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found. Tom Lockyer's on-pitch cardiac arrest (Dec 2023) was handled well; not scored."
+  },
+  "icons": [],
+  "coach": "Jack Wilshere, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Mpanzu is now at Cambridge United, so Luton loses the icon."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Luton_Town_F.C._season",
+   "https://www.lutontown.co.uk/news/2025/october/13/luton-town-appoint-jack-wilshere",
+   "https://vitalfootball.co.uk/luton-town-2026-2027-squad-confirmed/"
+  ]
+ }
+]

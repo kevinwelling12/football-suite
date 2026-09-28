@@ -60,6 +60,9 @@ Association (2026-09-28, scripts/affinity/association.py; links in scripts/affin
 research in scripts/affinity/research/assoc, brief ASSOC_BRIEF.md):
 - Two-way pull: each linked club moves a share of the gap toward its partner's Affinity. strong 15% (one supporter
   base: Timbers / Thorns), medium 8% (formal fan friendship, shared ritual like You'll Never Walk Alone), light 4%.
-  Summed over a club's links, capped at +/-5, computed once on the Affinity before any pull.
-- A friendship with a club Kevin rates low costs points (e.g. an ultras twinning with Lazio).
+  A club's link weights add up to at most 15% (many links average instead of stacking); total capped at +/-5;
+  computed once on the Affinity before any pull.
+- Direction: a club always gains from a partner rated above it, and only loses to a partner below 50 (a club Kevin
+  dislikes): Liverpool isn't dragged down by Mainz, but an ultras twinning with Lazio costs Inter and Real Madrid.
+- 56 ties in links.json: the research minus low-confidence ties (incl. stadium-only US pairs) and kit-heritage ties.
 - Pairs where both clubs carry a rival penalty are skipped (Sounders / Reign). Ownership ties never count.

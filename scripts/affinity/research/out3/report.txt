@@ -1,0 +1,206 @@
+Validation: 308 entries, 0 problem(s)
+
+Team vs old Style, mean by batch
+  b01-premier-league             T  6.0  S  6.5  V_delta total -7
+  b02-championship               T  5.3  S  5.4  V_delta total -1
+  b03-cup-lower-a                T  5.4  S  5.1  V_delta total +0
+  b04-cup-lower-b                T  4.9  S  5.1  V_delta total -3
+  b05-germany-france             T  5.5  S  5.9  V_delta total -2
+  b06-spain-italy                T  5.6  S  5.6  V_delta total +2
+  b07-champions-league-others    T  6.7  S  7.0  V_delta total -9
+  b08-mls                        T  5.3  S  5.4  V_delta total -5
+  b09-nwsl-usl                   T  5.4  S  5.2  V_delta total +0
+  b10-nations-a                  T  5.1  S  4.8  V_delta total -3
+  b11-nations-b                  T  5.1  S  4.8  V_delta total -3
+
+Biggest drops
+  Fenerbahçe                    59.7 ->  46.6 (-13.1)  S 6 -> T 4  V -3
+  Bayern Munich                 79.8 ->  70.8 (-9.0)  S 9 -> T 8  V -1
+  Preston North End             59.8 ->  51.1 (-8.7)  S 5 -> T 4  V -2
+  Chelsea                       38.0 ->  29.6 (-8.4)  S 6 -> T 4  V -2
+  Marseille                     63.1 ->  54.7 (-8.4)  S 6 -> T 5  V -2
+  Inter Miami CF                39.0 ->  31.2 (-7.8)  S 6 -> T 4  V -2
+  Manchester United             52.4 ->  44.7 (-7.7)  S 6 -> T 5  V -2
+  Oldham Athletic               63.3 ->  56.2 (-7.1)  S 5 -> T 5  V -2
+  Elche                         48.4 ->  41.8 (-6.6)  S 6 -> T 5  V -2
+  Schalke 04                    81.8 ->  75.4 (-6.4)  S 5 -> T 6  V +0
+  Seattle Sounders FC           79.8 ->  73.7 (-6.1)  S 6 -> T 8  V -1
+  VfB Stuttgart                 82.9 ->  76.9 (-6.0)  S 8 -> T 8  V -2
+  Villarreal                    62.7 ->  56.7 (-6.0)  S 6 -> T 6  V -2
+  Italy                         63.6 ->  57.6 (-6.0)  S 5 -> T 4  V -1
+  Nice                          25.0 ->  19.2 (-5.8)  S 5 -> T 3  V -1
+
+Biggest rises
+  Bodø/Glimt                    74.0 ->  80.2 (+6.2)  S 9 -> T 10  V +1
+  Atlético Madrid               38.0 ->  43.6 (+5.6)  S 7 -> T 8  V +1
+  Crewe Alexandra               54.0 ->  59.1 (+5.1)  S 6 -> T 7  V +1
+  Cardiff City                  50.4 ->  55.3 (+4.9)  S 5 -> T 6  V +1
+  Viking                        69.6 ->  74.2 (+4.6)  S 7 -> T 8  V +1
+  Celta Vigo                    73.1 ->  77.6 (+4.5)  S 7 -> T 8  V +1
+  Swansea City                  59.1 ->  63.6 (+4.5)  S 6 -> T 7  V +1
+  Austria                       65.6 ->  69.8 (+4.2)  S 9 -> T 10  V +0
+  Racing Santander              65.8 ->  70.0 (+4.2)  S 6 -> T 7  V +1
+  Málaga                        58.0 ->  62.2 (+4.2)  S 5 -> T 6  V +1
+  Brest                         66.9 ->  71.1 (+4.2)  S 6 -> T 7  V +1
+  New England Revolution        48.9 ->  52.9 (+4.0)  S 5 -> T 6  V +0
+  Real Betis                    69.3 ->  73.3 (+4.0)  S 6 -> T 7  V +1
+  Athletic Club                 94.2 ->  98.2 (+4.0)  S 7 -> T 9  V +1
+  SC Freiburg                   76.7 ->  80.7 (+4.0)  S 7 -> T 8  V +1
+
+Kevin's clubs
+  Liverpool                     84.7 ->  82.4 (-2.3)  S 8 -> T 7  V +0
+  Borussia Dortmund             83.6 ->  80.4 (-3.2)  S 7 -> T 6  V +0
+  Portland Timbers              77.3 ->  76.9 (-0.4)  S 5 -> T 6  V +0
+  Portland Thorns               83.1 ->  82.9 (-0.2)  S 6 -> T 7  V +0
+  Sacramento Republic FC        80.7 ->  80.0 (-0.7)  S 5 -> T 6  V +0
+
+V_delta != 0: Arsenal -2, Chelsea -2, Manchester United -2, Tottenham Hotspur -1, Cardiff City +1, Preston North End -2, Sheffield United -1, Swansea City +1, Crewe Alexandra +1, Fleetwood Town -1, Oldham Athletic -2, Sheffield Wednesday -1, Mainz 05 -1, SC Freiburg +1, Brest +1, Marseille -2, Nice -1, Athletic Club +1, Celta Vigo +1, Deportivo La Coruña +1, Elche -2, Málaga +1, Osasuna +1, Racing Santander +1, Rayo Vallecano -1, Real Sociedad +1, Sevilla -1, Valencia -1, Atlético Madrid +1, Barcelona -1, Bayern Munich -1, Bodø/Glimt +1, Fenerbahçe -3, LASK -2, Paris Saint-Germain -3, Real Betis +1, Real Madrid -1, Roma +1, Shakhtar Donetsk +1, VfB Stuttgart -2, Viking +1, Villarreal -2, Inter Miami CF -2, Nashville SC -1, Philadelphia Union -1, Seattle Sounders FC -1, Iceland -1, Israel -1, Italy -1, Luxembourg -2, Spain -1
+Low confidence: Hull City, Cheltenham Town, Stevenage, Tranmere Rovers, SC Paderborn, Troyes, Monza, Sabah, Shakhtar Donetsk, Slovan Bratislava, Colorado Rapids, FC Dallas, Armenia, Azerbaijan, Bulgaria, Cyprus, Estonia, Gibraltar, Iceland, Israel, Latvia
+
+Flags
+  [b01] Arsenal: Partey case: -2 applied under the 'stood by a player facing credible allegations' rule; Kevin to confirm (Arsenal never commented, he was not charged until after leaving).
+  [b01] Brighton: Dunk is a genuine one-club player: Kevin may want +1 V even though 'productive academy' is already in V.
+  [b01] Chelsea: Enzo Fernandez has since moved to Man City (on City's list now); Kevin may count the chant only once.
+  [b01] Ipswich Town: Morsy's armband refusal (club backed him): Kevin may count it as a small minus (-1).
+  [b01] Manchester City: Mendy wage tribunal: Kevin may treat it as a welfare minus (-1).
+  [b01] Manchester United: Antony and Greenwood both in 2023, inside the 3-season window; Kevin to confirm -2 (could be -3 counting the 2025 exile group as a welfare issue).
+  [b02] Birmingham City: Stansfield (local, boyhood fan) could become an icon if he stays; not counted yet.
+  [b02] Blackburn Rovers: Mowbray return date not verified (club page lists him as head coach).
+  [b02] Bolton Wanderers: Newly promoted: Team read is mostly League One evidence.
+  [b02] Bristol City: Skubala is brand new; Team rests on his Lincoln record.
+  [b02] Cardiff City: V +1 for the homegrown Welsh core: confirm it is not double-counted with the regional-identity raise.
+  [b02] Lincoln City: Coach who built the style has left; T kept at 7 because the new joint heads are his in-house assistants. Could be 6.
+  [b02] Norwich City: McLean as icon is borderline; decide.
+  [b02] Preston North End: V -2 for publicly backing a player found guilty of racist abuse; Kevin to confirm the size (player now gone).
+  [b02] Sheffield United: Cusack case is a women's-team welfare failure; decide if -1 is enough given the warnings before her death.
+  [b02] Southampton: Stephens is long-serving but a squad player more than an icon; not listed.
+  [b02] Swansea City: T 7 leans on Matos' early 2026-27 form; 6 if it fades.
+  [b02] West Bromwich Albion: Morrison is a club-legend coach but new; revisit if he lasts.
+  [b02] West Ham United: Confirm Bowen is staying beyond the summer window.
+  [b02] Wrexham: Churn is very high for a 'stable squad'; T could be 6.
+  [b03] AFC Wimbledon: Captain source conflict (Jake Reeves vs Ryan Johnson).
+  [b03] Accrington Stanley: Academy closure (2025) for financial reasons: treat as a player-welfare / pathway negative (-1)? Not scored here.
+  [b03] Accrington Stanley: Conneely departure: confirm he has left (one May 2026 report said still negotiating).
+  [b03] Barnsley: T raised mainly on Stendel's return: pressing identity not yet proven this spell.
+  [b03] Bradford City: Andy Cook (club talisman) left in 2026, so no icon credit.
+  [b03] Bristol Rovers: Steve Evans's conduct record (FA bans for comments/conduct) is a coach issue: decide if it belongs in Values.
+  [b03] Cheltenham Town: Captain for 2026-27 not confirmed.
+  [b03] Chesterfield: 2026-27 captain not confirmed.
+  [b03] Crawley Town: Head coach Kazim-Richards has a 2014 conviction for a homophobic gesture: decide whether it affects Values.
+  [b03] Crewe Alexandra: +1 is for current homegrown first-teamers, separate from the historic academy pathway already in V; drop it if Kevin sees that as double counting.
+  [b03] Exeter City: Captain for 2026-27 not found (Sweeney released).
+  [b03] Fleetwood Town: Ched Evans captaincy: Kevin to decide 0 (acquitted) or -2 (club elevating him despite the case). Scored -1.
+  [b03] Huddersfield Town: Drury's work-rate emphasis could lift T next year if it holds.
+  [b03] Leicester City: Old S 5 -> T 4 driven by collapse and churn; no icon left after Vardy.
+  [b03] Leyton Orient: Captain for 2026-27 not confirmed.
+  [b03] Luton Town: Mpanzu is now at Cambridge United, so Luton loses the icon.
+  [b04] Milton Keynes Dons: High-churn spending rebuild under new owners: T lowered one from old S 5.
+  [b04] Newport County: Lewis Jamieson (ex-Republic) now at Ross County: relevant to whoever scores Ross County.
+  [b04] Northampton Town: Icon (+1) cancelled by poor 2025-26 play; Kevin could rate 6.
+  [b04] Oldham Athletic: Harratt case: video evidence but no criminal charge found, he claimed he aimed at a man; player now gone. Kevin may prefer -1.
+  [b04] Oxford United: Brannagan could count as an icon (+1 -> T 6).
+  [b04] Plymouth Argyle: Edwards counted as a borderline icon (+1 over old S 5).
+  [b04] Port Vale: Wikipedia lists Ben Garrity as captain; a search snippet named George Byers captain in 2025-26. Not material to the score.
+  [b04] Reading: If Kevin counts the 2022-23 unpaid player wages as welfare, V -1.
+  [b04] Sheffield Wednesday: Unpaid wages were Chansiri's doing and O already reflects that era's end; Kevin may see the V -1 as double-counting.
+  [b04] Sheffield Wednesday: Bannan returned July 2026: +1 icon applied (old S 4 -> T 5).
+  [b04] Shrewsbury Town: US consortium incl. Brad Friedel buying the club: re-check T/coach once completed.
+  [b04] Stockport County: Owner Mark Stott's firm took a controlling stake in Debreceni VSC (Hungary) in Jan 2026: multi-club, affects O not T/V here.
+  [b04] Wigan Athletic: McManaman could be read as an icon; he is mostly a mentor now, not counted.
+  [b04] York City: final/ S evidence credits the title to Scott Lindsey; it was Stuart Maynard (Lindsey arrived July 2026).
+  [b05] Bayer Leverkusen: Big drop from old S 7: pressing identity left with Alonso and the 2025 squad sale.
+  [b05] Mainz 05: El Ghazi dismissal: political-speech case; Kevin to decide if an unlawful dismissal counts as player welfare (-1 applied).
+  [b05] SV Elversberg: Loan-based squad lowers the stability part; style alone would keep 7.
+  [b05] Union Berlin: Trimmel is 39: icon credit ends when he retires.
+  [b05] Marseille: Greenwood left in Jul 2026; -2 applied because he was at the club within the 3-season window. Kevin to confirm whether it should lapse now he is gone.
+  [b05] Marseille: Captaincy unclear (Wikipedia squad marks Timothy Weah).
+  [b05] Monaco: Camara case: Kevin to decide if a player's anti-LGBT gesture counts even with a good club response (I gave 0).
+  [b05] Nice: The Nov 2025 assault on players could go into the violence adjustment instead of V_delta; do not count twice.
+  [b05] Troyes: Dumont start date and captain not verified.
+  [b06] Athletic Club: V_delta +1 overlaps the cantera credit already in V; Kevin to decide if it double counts.
+  [b06] Athletic Club: Terzić is new: revisit T after 2026-27.
+  [b06] Celta Vigo: Aspas retires in 2027: T should drop about 1 then.
+  [b06] Deportivo La Coruña: Aubameyang in the squad per Wikipedia: not verified elsewhere.
+  [b06] Elche: Rafa Mir: Elche knowingly signed and played him while charged; -2 applied.
+  [b06] Getafe: Team +1 from long-serving coach and stable squad; Kevin may see Bordalás's gamesmanship as a negative.
+  [b06] Rayo Vallecano: Welfare -1 reflects the owner, not the players; Kevin may prefer to put it in Ownership.
+  [b06] Real Sociedad: V_delta +1 overlaps the Zubieta credit already in V.
+  [b06] Sevilla: Rafa Mir: Sevilla owned his contract but did not play him; scored -1, not -2.
+  [b06] Valencia: Net -1 lets the academy +1 offset the Mir -2; Kevin may prefer a flat -2.
+  [b06] AC Milan: Amorim is new: revisit T after 2026-27.
+  [b06] Atalanta: Biggest drop in the batch (-2): the Gasperini era and its captain are gone.
+  [b06] Juventus: Player welfare: 2020-21 'salary manoeuvre' (hidden wage deferrals; 2024 arbitration ordered EUR 9.8m to Ronaldo). Kevin to decide if this counts as welfare (not scored).
+  [b06] Monza: Captain not verified.
+  [b06] Parma: Coach vacant: revisit when appointed.
+  [b06] Sassuolo: Final S evidence names Aquilani for 2025-26; Wikipedia says he was appointed July 2026.
+  [b06] Udinese: Unnamed footballer investigated in Udine (May 2025): club not identified.
+  [b07] Atlético Madrid: V_delta +1 for Koke is borderline: the rest of the squad is largely bought; set to 0 if one captain is not enough.
+  [b07] Barcelona: ter Stegen treatment as a player-welfare -1: Kevin to confirm.
+  [b07] Bayern Munich: Boateng internship: -1 (reversed) vs -2 (standing by an abuser). I chose -1 since the club backed down.
+  [b07] Bayern Munich: Dortmund rival adjustment (-5) still applies separately.
+  [b07] Fenerbahçe: Greenwood signing -2: the brief's rule for credible abuse allegations; Kevin to confirm.
+  [b07] Fenerbahçe: Confirm Yandas is still captain/in the squad after the betting case (Wikipedia 2026-27 page lists him).
+  [b07] Galatasaray: Betting-probe players (Baltaci, Elmali): count -1 if they remain in the squad without club action.
+  [b07] Inter Milan: Acerbi case: -1 offset by homegrown +1; Kevin may weigh differently.
+  [b07] LASK: Boateng signing counted -2 under the standing-by-abuser rule; he left in 2025, still inside the 3-season window.
+  [b07] Lens: Coach situation is fluid (Cahuzac first reported as caretaker).
+  [b07] Napoli: Allegri era is new: revisit T after a season.
+  [b07] Paris Saint-Germain: Hakimi: -2 under the standing-by rule (he denies it; presumed innocent).
+  [b07] Paris Saint-Germain: Mbappe wage case amount from memory; verify if it matters.
+  [b07] Real Madrid: Asencio: -1 chosen (acquitted); the standing-by rule would say -2 for the charge period. Kevin to decide.
+  [b07] Shakhtar Donetsk: V_delta +1 may overlap with the academy note in V (relocation to Split); drop to 0 if so.
+  [b07] Slovan Bratislava: Captain not confirmed for 2026-27.
+  [b07] VfB Stuttgart: Karazor: -2 under the standing-by rule, but he was never charged; Kevin may prefer -1.
+  [b07] Viking: 2026 captain not confirmed (Zlatko Tripic earlier).
+  [b07] Villarreal: Partey -2 applied although he has now left (consistent with LASK/Boateng). Set to -1 if a departed player should count less.
+  [b08] Austin FC: Rosales slur ban (2025, at Minnesota) now on Austin's roster: count or not?
+  [b08] Chicago Fire FC: Republic link: Josh Cohen is a backup GK; +2 applies while he's on the roster.
+  [b08] FC Cincinnati: Republic link: Alvas Powell is a veteran; check he stays on the roster for 2027.
+  [b08] Inter Miami CF: -2 treats Suárez's spitting as violence the club stood by; -1 if Kevin reads it as on-field misconduct only.
+  [b08] LA Galaxy: Republic link: Brady Scott is a backup GK; +2 while on the roster.
+  [b08] Los Angeles Football Club: Republic link: Aaron Long is the captain, so the +2 is a visible one.
+  [b08] Minnesota United FC: Assistant coach Jeremy Hall is a former Republic player; staff do not count under the rule as written.
+  [b08] Nashville SC: Yazbek -1 is mild; drop to 0 if a single served slur ban shouldn't count.
+  [b08] New England Revolution: Republic link via a loanee: Cody Baker belongs to Seattle. Counts while he's on NE's roster; may end with the season.
+  [b08] Philadelphia Union: Tanner is staff, not a player: count here or leave for V? If he's reinstated, consider -2.
+  [b08] Philadelphia Union: Wagner's slur case is 2023, just outside the window.
+  [b08] Philadelphia Union: Bedoya back on the roster is from the Wikipedia 2026 season page; not separately confirmed.
+  [b08] Real Salt Lake: Tyler Wolff (RSL) is on loan at Republic now; if he returns to RSL for 2027, the +2 would apply.
+  [b08] San Diego FC: Lozano freeze-out: Kevin decides whether it's team culture (+) or player welfare (-).
+  [b08] Seattle Sounders FC: Cascadia rival (-5 applies regardless).
+  [b08] Seattle Sounders FC: Cody Baker returns from loan -> Republic link could flip to true in 2027.
+  [b08] Seattle Sounders FC: The owner-confrontation -1 is judgement-heavy.
+  [b08] Vancouver Whitecaps FC: Cascadia rival (-5 applies regardless).
+  [b09] Chicago Stars: Naeher is the club's lone continuity: if she retires T should drop back to 3.
+  [b09] Orlando Pride: Marta is 40; when she leaves, T drops to about 5.
+  [b09] Portland Thorns: The welfare-fight credit belongs mostly to players who retired in 2024; Kevin may want less weight on it.
+  [b09] Seattle Reign: Cascadia rival: -5 adjustment applies separately.
+  [b09] Seattle Reign: Fishlock is 39; T should drop when she retires.
+  [b09] Louisville City FC: final/ says 2026 was with an interim coach; the 2026 season page lists Cruz. Check.
+  [b09] Monterey Bay FC: Coach unclear: final/ says changed April 2026; 2026 season page still shows Jordan Stewart.
+  [b09] Pittsburgh Riverhounds: Lilley's departure: keep 7 or drop to 6?
+  [b09] Sacramento Republic FC: Kevin's own club: T 6 vs old S 5 is a judgement call.
+  [b09] Tampa Bay Rowdies: Wyke re-signing: finding was overturned; Kevin may still want -1.
+  [b10] Andorra: Long-serving coach is the whole raise; style still bottom-tier.
+  [b10] Armenia: Coach start year not verified by a second source.
+  [b10] Austria: 10 is the top of the scale; 9 is defensible if icons/coach should not stack on an already-elite press.
+  [b10] Azerbaijan: Abbasov start date not confirmed by a second source.
+  [b10] Belgium: Is De Bruyne still an icon 'inseparable' from the team? He is in the current squad.
+  [b10] Croatia: 2022 World Cup players' Thompson song video is just outside the 3-year window; Kevin may want it counted (-1).
+  [b10] Estonia: Henn start year not verified.
+  [b10] France: Mbappé listed as icon, but the star culture is also why T went down; Kevin may prefer 6.
+  [b10] Georgia: Coach changed two days ago; T may drift down if results fall away.
+  [b10] Germany: Klopp could justify +1 once his style is visible; re-check next season.
+  [b10] Gibraltar: Humble part-time squad could merit +1 like the Faroes and Andorra; left at 2 for lack of evidence.
+  [b10] Iceland: Albert's appeal outcome not found; if convicted on appeal and still selected, move to -2. KSÍ did apply its suspension rule while he was charged, so 0 is also defensible.
+  [b10] Israel: Weissman's national-team selection after the posts not verified; set to 0 if he was not picked.
+  [b10] Italy: Betting case is at the edge of the 3-year window (Oct 2023).
+  [b11] Lithuania: Wikipedia says Jankauskas since 2023; other sources give 2021. Not resolved.
+  [b11] Luxembourg: V_delta -2 for the Rodrigues selection; the federation reversed in Aug 2025, Kevin may want -1 if the reversal counts.
+  [b11] Portugal: Ronaldo elbow red card (Nov 2025) with a reduced ban: counted as on-field, V_delta 0. Kevin may want -1.
+  [b11] Romania: final/ S evidence says Iordănescu led the 2026 play-off; sources indicate Mircea Lucescu was coach 2024-26. Not re-verified in depth.
+  [b11] San Marino: T +2 over old S is driven by culture, not play; Kevin said underdog status alone earns no credit.
+  [b11] Slovakia: Weiss appointment date not verified (assumed 2026).
+  [b11] Spain: Spain won the 2026 World Cup; note for H if not yet reflected.
+  [b11] Spain: Women's team strikes over conditions (2022-23) not re-counted because Rubiales is in V; Kevin may want an extra -1.
+  [b11] Turkey: Betting-scandal suspension of Eren Elmalı (Nov 2025) not scored; Kevin may want -1.

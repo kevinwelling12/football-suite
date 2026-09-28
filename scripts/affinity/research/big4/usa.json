@@ -1,0 +1,1153 @@
+[
+ {
+  "club": "Atlanta United",
+  "franchise": "Atlanta Falcons",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "AMB Sports & Entertainment (Arthur Blank)",
+  "evidence": "Arthur Blank's AMB Sports & Entertainment owns both Atlanta United and the Falcons, and runs Mercedes-Benz Stadium where both play.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Atlanta_United_FC",
+   "https://blankfamilyofbusinesses.com/company/atlanta-falcons/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Charlotte FC",
+  "franchise": "Carolina Panthers",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Tepper Sports & Entertainment (David Tepper)",
+  "evidence": "David Tepper owns Charlotte FC and the Panthers through Tepper Sports & Entertainment; both play at Bank of America Stadium.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Charlotte_FC",
+   "https://www.charlottefootballclub.com/front-office/david-tepper"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Colorado Rapids",
+  "franchise": "Denver Nuggets",
+  "league": "NBA",
+  "kind": "ownership",
+  "via": "Kroenke Sports & Entertainment (Stan Kroenke)",
+  "evidence": "Stan Kroenke's KSE has owned the Rapids since 2003; the Kroenke family also controls the Denver Nuggets.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kroenke_Sports_%26_Entertainment",
+   "https://www.coloradorapids.com/club/stan-kroenke"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Colorado Rapids",
+  "franchise": "Colorado Avalanche",
+  "league": "NHL",
+  "kind": "ownership",
+  "via": "Kroenke Sports & Entertainment (Stan Kroenke)",
+  "evidence": "Stan Kroenke's KSE has owned the Rapids since 2003; the Kroenke family also controls the Colorado Avalanche.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kroenke_Sports_%26_Entertainment",
+   "https://www.coloradorapids.com/club/stan-kroenke"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Colorado Rapids",
+  "franchise": "Los Angeles Rams",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Kroenke Sports & Entertainment (Stan Kroenke)",
+  "evidence": "Stan Kroenke's KSE has owned the Rapids since 2003; the Kroenke family also controls the Los Angeles Rams.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kroenke_Sports_%26_Entertainment",
+   "https://www.coloradorapids.com/club/stan-kroenke"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Columbus Crew",
+  "franchise": "Cleveland Browns",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Haslam Sports Group (Jimmy & Dee Haslam)",
+  "evidence": "Haslam Sports Group controls the Crew (about 70% before Nationwide's agreed 37% purchase in 2026) and owns the Browns.",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/45632187/columbus-crew-owner-sells-stake-900m-valuation-report",
+   "https://www.sportico.com/business/team-sales/2026/mls-columbus-crew-nationwide-stake-sale-1234901712/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Columbus Crew",
+  "franchise": "Milwaukee Bucks",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Haslam Sports Group (Jimmy & Dee Haslam)",
+  "evidence": "The Haslams, the Crew's controlling owners, bought roughly a 25% stake in the Bucks from Marc Lasry in 2023.",
+  "sources": [
+   "https://www.si.com/nba/bucks/off-the-court/jimmy-haslam-to-join-bucks-ownership-group-after-buying-marc-lasrys-stake"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "D.C. United",
+  "franchise": "Memphis Grizzlies",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Steven Kaplan (co-chairman)",
+  "evidence": "D.C. United co-chairman Steven Kaplan (Oaktree co-founder) has been a minority owner of the Grizzlies since 2012.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Steven_Kaplan_(investor)",
+   "https://en.wikipedia.org/wiki/D.C._United"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "D.C. United",
+  "franchise": "Memphis Grizzlies",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Jason Levien (chairman & majority owner)",
+  "evidence": "Levien was the Grizzlies' CEO and managing partner from 2012 until May 2014.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jason_Levien"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "D.C. United",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Jason Levien (chairman & majority owner)",
+  "evidence": "Levien was a minority investor in the 76ers in 2011 and sold that stake in 2012 when he joined Memphis.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jason_Levien"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "D.C. United",
+  "franchise": "Sacramento Kings",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Jason Levien (chairman & majority owner)",
+  "evidence": "Before owning clubs, Levien worked in the Sacramento Kings' front office (in the late 2000s). It was a staff role, not ownership.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jason_Levien"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "FC Cincinnati",
+  "franchise": "Cincinnati Reds",
+  "league": "MLB",
+  "kind": "former",
+  "via": "Lindner family (Carl Lindner III, majority owner)",
+  "evidence": "Carl Lindner Jr., father of FC Cincinnati owner Carl Lindner III, controlled the Reds until selling to Bob Castellini in 2005 and then stayed on as a partner. It is unclear whether the family still holds Reds shares.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lindner_family",
+   "https://en.wikipedia.org/wiki/Carl_Lindner_Jr."
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "FC Dallas",
+  "franchise": "Kansas City Chiefs",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Hunt Sports Group (Clark & Dan Hunt)",
+  "evidence": "The Hunt family's Hunt Sports Group owns FC Dallas and the Chiefs; Clark Hunt is Chiefs chairman/CEO and co-owner of FC Dallas.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Clark_Hunt",
+   "https://dallasinnovates.com/billionaire-blueprint-chiefs-and-fc-dallas-owner-clark-hunt-on-winning-leadership-and-taylor-swift/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "LA Galaxy",
+  "franchise": "Los Angeles Kings",
+  "league": "NHL",
+  "kind": "ownership",
+  "via": "AEG / The Anschutz Company (Philip Anschutz)",
+  "evidence": "AEG, controlled by Philip Anschutz, owns both the Galaxy and the Kings.",
+  "sources": [
+   "https://www.lagalaxy.com/news/anschutz-company-retain-ownership-aeg",
+   "https://en.wikipedia.org/wiki/Crypto.com_Arena"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "LA Galaxy",
+  "franchise": "Los Angeles Lakers",
+  "league": "NBA",
+  "kind": "operations",
+  "via": "AEG (Crypto.com Arena)",
+  "evidence": "AEG owns and runs Crypto.com Arena, the Lakers' home. Anschutz also held about 27% of the Lakers until selling it in 2021, a former tie.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crypto.com_Arena"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Los Angeles Football Club",
+  "franchise": "Golden State Warriors",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Peter Guber, Harry Tsao, Bruce Karsh, Brandon Schneider (LAFC owners)",
+  "evidence": "LAFC's owner list includes Warriors co-executive chairman Peter Guber, Warriors part-owner Harry Tsao, Warriors executive board member Bruce Karsh and Warriors president/COO Brandon Schneider. Retired Warriors president Rick Welts is also an LAFC owner.",
+  "sources": [
+   "https://www.lafc.com/club/ownership"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Los Angeles Football Club",
+  "franchise": "Los Angeles Dodgers",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Peter Guber and Magic Johnson (Guggenheim Baseball Management)",
+  "evidence": "LAFC owners Peter Guber and Magic Johnson are co-owners of the Dodgers.",
+  "sources": [
+   "https://www.lafc.com/club/ownership"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Los Angeles Football Club",
+  "franchise": "Washington Commanders",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Magic Johnson",
+  "evidence": "LAFC owner Magic Johnson has been a limited partner (about 4%) in Josh Harris's Commanders group since 2023.",
+  "sources": [
+   "https://www.lafc.com/club/ownership",
+   "https://www.nbcnews.com/news/nbcblk/magic-johnson-officially-joins-nfls-commanders-co-owner-rcna95341"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Minnesota United FC",
+  "franchise": "Minnesota Twins",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Pohlad family",
+  "evidence": "The Pohlad family, who kept control of the Twins in 2025 (Tom Pohlad is now control person), is part of Bill McGuire's Minnesota United ownership group.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Minnesota_United_FC",
+   "https://www.espn.com/mlb/story/_/id/47336092/twins-finalize-sales-name-tom-pohlad-new-controlling-owner"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Minnesota United FC",
+  "franchise": "Minnesota Timberwolves",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Glen Taylor",
+  "evidence": "Minnesota United part-owner Glen Taylor owned the Timberwolves from 1994 until the sale to Lore/Rodriguez was completed in 2025.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Glen_Taylor"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "New England Revolution",
+  "franchise": "New England Patriots",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "The Kraft Group (Robert Kraft)",
+  "evidence": "The Kraft Group owns the Revolution and the Patriots, and both play at the Kraft-owned Gillette Stadium.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/New_England_Revolution"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "New York City Football Club",
+  "franchise": "New York Yankees",
+  "league": "MLB",
+  "kind": "ownership",
+  "via": "Yankee Global Enterprises",
+  "evidence": "Yankee Global Enterprises co-founded NYCFC. Since the 2024 restructuring it holds 10% (City Football Group 80%, Marcelo Claure 10%).",
+  "sources": [
+   "https://www.sportspro.com/news/new-york-city-fc-owner-marcelo-claure-stake-new-stadium-cfg-yankees/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Orlando City",
+  "franchise": "Minnesota Vikings",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Wilf family (Mark, Zygi, Lenny Wilf)",
+  "evidence": "The Wilf family, owners of the Vikings, have owned Orlando City, the Pride and Inter&Co Stadium (formerly Exploria Stadium) since July 2021.",
+  "sources": [
+   "https://www.vikings.com/news/wilf-family-completes-purchase-of-orlando-city-soccer-club-and-orlando-pride"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Orlando City",
+  "franchise": "Orlando Magic",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "DeVos family (limited partner)",
+  "evidence": "The DeVos family, owners of the Magic, joined the Wilfs' Orlando City ownership group as a limited partner in 2021.",
+  "sources": [
+   "https://www.orlandocitysc.com/club/bio/mark-wilf",
+   "https://www.vikings.com/news/wilf-family-completes-purchase-of-orlando-city-soccer-club-and-orlando-pride"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Sacramento Kings",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Sacramento Kings. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the San Francisco Giants. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Golden State Warriors",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Golden State Warriors. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Los Angeles Dodgers",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Los Angeles Dodgers. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "San Diego Padres",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the San Diego Padres. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Chicago Cubs",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Chicago Cubs. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Houston Astros",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Houston Astros. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Boston Red Sox",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Boston Red Sox. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Buffalo Bills",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Buffalo Bills. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Los Angeles Chargers",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Los Angeles Chargers. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Cleveland Browns",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Cleveland Browns. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Philadelphia 76ers. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Utah Jazz",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Utah Jazz. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Washington Wizards",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Washington Wizards. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "New Jersey Devils",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the New Jersey Devils. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Minnesota Wild",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Minnesota Wild. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Tampa Bay Lightning",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Tampa Bay Lightning. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Pittsburgh Penguins",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Pittsburgh Penguins. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Washington Capitals",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Washington Capitals. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Portland Timbers",
+  "franchise": "Utah Mammoth",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Arctos Partners (now KKR), 15% of Peregrine Sports",
+  "evidence": "Private-equity firm Arctos bought 15% of the Timbers' parent Peregrine Sports in 2021 and also holds a passive minority stake in the Utah Mammoth. Both links are fund holdings, not operating ties.",
+  "sources": [
+   "https://www.kgw.com/article/sports/soccer/timbers/timbers-thorns-owner-sold-stake/283-ae7797d6-2ec3-44d4-a8e8-49d5654c8d30",
+   "https://en.wikipedia.org/wiki/Arctos_Partners"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Real Salt Lake",
+  "franchise": "Utah Jazz",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Miller family / Miller Sports + Entertainment (Gail Miller)",
+  "evidence": "The Miller family bought control of RSL and the Utah Royals in April 2025. They owned the Jazz from 1986 until selling to Ryan Smith in 2020.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://www.deseret.com/sports/2025/04/18/larry-h-miller-sports-purchase-real-salt-lake-soccer-utah-royals-david-blitzer/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Real Salt Lake",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "David Blitzer",
+  "evidence": "David Blitzer stayed on as the second-largest owner (and RSL alternate governor) after the Millers' 2025 purchase. He is managing partner of the Philadelphia 76ers.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Real Salt Lake",
+  "franchise": "New Jersey Devils",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "David Blitzer",
+  "evidence": "David Blitzer stayed on as the second-largest owner (and RSL alternate governor) after the Millers' 2025 purchase. He is managing partner of the New Jersey Devils.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Real Salt Lake",
+  "franchise": "Cleveland Guardians",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "David Blitzer",
+  "evidence": "David Blitzer stayed on as the second-largest owner (and RSL alternate governor) after the Millers' 2025 purchase. He is limited partner (about 25%, option to take control in 2028) of the Cleveland Guardians.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Real Salt Lake",
+  "franchise": "Washington Commanders",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "David Blitzer",
+  "evidence": "David Blitzer stayed on as the second-largest owner (and RSL alternate governor) after the Millers' 2025 purchase. He is minority owner of the Washington Commanders.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Utah Royals",
+  "franchise": "Utah Jazz",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Miller family / Miller Sports + Entertainment (Gail Miller)",
+  "evidence": "The Miller family bought control of RSL and the Utah Royals in April 2025. They owned the Jazz from 1986 until selling to Ryan Smith in 2020.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://www.deseret.com/sports/2025/04/18/larry-h-miller-sports-purchase-real-salt-lake-soccer-utah-royals-david-blitzer/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Utah Royals",
+  "franchise": "Philadelphia 76ers",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "David Blitzer",
+  "evidence": "David Blitzer stayed on as the second-largest owner (and RSL alternate governor) after the Millers' 2025 purchase. He is managing partner of the Philadelphia 76ers.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Utah Royals",
+  "franchise": "New Jersey Devils",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "David Blitzer",
+  "evidence": "David Blitzer stayed on as the second-largest owner (and RSL alternate governor) after the Millers' 2025 purchase. He is managing partner of the New Jersey Devils.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Utah Royals",
+  "franchise": "Cleveland Guardians",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "David Blitzer",
+  "evidence": "David Blitzer stayed on as the second-largest owner (and RSL alternate governor) after the Millers' 2025 purchase. He is limited partner (about 25%, option to take control in 2028) of the Cleveland Guardians.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Utah Royals",
+  "franchise": "Washington Commanders",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "David Blitzer",
+  "evidence": "David Blitzer stayed on as the second-largest owner (and RSL alternate governor) after the Millers' 2025 purchase. He is minority owner of the Washington Commanders.",
+  "sources": [
+   "https://www.ksl.com/article/51297183/miller-family-buys-rsl-royals-as-smith-entertainment-group-exits",
+   "https://en.wikipedia.org/wiki/David_Blitzer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "San Diego FC",
+  "franchise": "Portland Trail Blazers",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Tom Penn (co-owner & CEO)",
+  "evidence": "SDFC co-owner and CEO Tom Penn spent 11 years as an NBA executive, including four seasons as a Trail Blazers vice president and assistant GM. This was a staff role, not ownership.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tom_Penn",
+   "https://www.sandiegofc.com/club/ownership"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "San Jose Earthquakes",
+  "franchise": "Athletics",
+  "league": "MLB",
+  "kind": "ownership",
+  "via": "John Fisher (Fisher family)",
+  "evidence": "John Fisher is principal owner of both the Earthquakes and the Athletics. He started a sale of a controlling stake in the Earthquakes in June 2025, but no sale has been reported as of Sept 2026.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/John_Fisher_(businessman)",
+   "https://www.espn.com/soccer/story/_/id/45538304/san-jose-earthquakes-owner-john-fisher-sell-team"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Seattle Sounders FC",
+  "franchise": "Seattle Seahawks",
+  "league": "NFL",
+  "kind": "former",
+  "via": "Paul G. Allen estate (about 25% of Sounders)",
+  "evidence": "Paul Allen's estate, which still holds about 25% of the Sounders, owned the Seahawks until the sale to the Khosla family closed on Sept 3, 2026.",
+  "sources": [
+   "https://www.sounderatheart.com/2026/07/how-the-seahawks-sale-might-impact-the-sounders-reign/",
+   "https://www.nfl.com/news/khosla-family-closes-purchase-seahawks"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Seattle Sounders FC",
+  "franchise": "Seattle Seahawks",
+  "league": "NFL",
+  "kind": "operations",
+  "via": "First & Goal Inc. (Lumen Field operator)",
+  "evidence": "The Sounders play at Lumen Field, which is run by First & Goal Inc., the Seahawks' stadium operator set up under Paul Allen. Whether it passed to the Khosla ownership was not confirmed.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lumen_Field",
+   "https://www.lumenfield.com/venue-info/stadium-history-facts"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Seattle Sounders FC",
+  "franchise": "Portland Trail Blazers",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Paul G. Allen estate",
+  "evidence": "Allen's estate sold 80.1% of the Blazers to Tom Dundon on March 31, 2026, and keeps 19.9% until the second phase closes (by 2028). The estate also holds about 25% of the Sounders.",
+  "sources": [
+   "https://hillsboronewstimes.com/2026/03/30/portland-trail-blazers-officially-sold-to-tom-dundon-on-monday/",
+   "https://www.sounderatheart.com/2026/07/how-the-seahawks-sale-might-impact-the-sounders-reign/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Seattle Sounders FC",
+  "franchise": "Seattle Mariners",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Ken Griffey Jr.",
+  "evidence": "Ken Griffey Jr. joined the Sounders ownership group in 2020 and the Mariners ownership group in 2021.",
+  "sources": [
+   "https://www.mlb.com/news/ken-griffey-jr-becomes-sounders-part-owner",
+   "https://www.espn.com/mlb/story/_/id/32472698/hall-famer-ken-griffey-jr-assumes-dream-come-true-ownership-stake-seattle-mariners-group"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Sporting Kansas City",
+  "franchise": "Kansas City Royals",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Patrick Mahomes",
+  "evidence": "Patrick Mahomes, a Royals minority owner since 2020, has also bought into Sporting Club, the group that owns Sporting KC.",
+  "sources": [
+   "https://www.sportspro.com/news/patrick-mahomes-sporting-kansas-city-mls-owner-royals-mlb-nwsl/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "St. Louis CITY SC",
+  "franchise": "St. Louis Blues",
+  "league": "NHL",
+  "kind": "minority",
+  "via": "Carolyn Kindle (Taylor family)",
+  "evidence": "CITY SC controlling owner and CEO Carolyn Kindle bought her uncle Andy Taylor's minority stake in the Blues in January 2025.",
+  "sources": [
+   "https://www.nhl.com/blues/news/blues-announce-transfer-of-ownership-stake-within-taylor-family",
+   "https://www.stltoday.com/sports/professional/nhl/blues/minority-ownership-stake-in-blues-sold-to-st-louis-city-sc-ceo-carolyn-kindle/article_7cc6f57c-cdfe-11ef-8379-2bcf45be950a.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Toronto FC",
+  "franchise": "Toronto Maple Leafs",
+  "league": "NHL",
+  "kind": "ownership",
+  "via": "Maple Leaf Sports & Entertainment (Rogers Communications)",
+  "evidence": "MLSE owns Toronto FC and the Maple Leafs. Rogers became majority owner of MLSE in 2025 and agreed in 2026 to buy Larry Tanenbaum's remaining 25% (closing Q4 2026).",
+  "sources": [
+   "https://www.cbc.ca/news/business/rogers-buying-mlse-9.7259583",
+   "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Toronto FC",
+  "franchise": "Toronto Raptors",
+  "league": "NBA",
+  "kind": "ownership",
+  "via": "Maple Leaf Sports & Entertainment (Rogers Communications)",
+  "evidence": "MLSE owns Toronto FC and the Raptors. Rogers became majority owner of MLSE in 2025 and agreed in 2026 to buy Larry Tanenbaum's remaining 25% (closing Q4 2026).",
+  "sources": [
+   "https://www.cbc.ca/news/business/rogers-buying-mlse-9.7259583",
+   "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Toronto FC",
+  "franchise": "Toronto Blue Jays",
+  "league": "MLB",
+  "kind": "ownership",
+  "via": "Maple Leaf Sports & Entertainment (Rogers Communications)",
+  "evidence": "Rogers Communications owns the Blue Jays and controls MLSE, Toronto FC's owner. Rogers became majority owner of MLSE in 2025 and agreed in 2026 to buy Larry Tanenbaum's remaining 25% (closing Q4 2026).",
+  "sources": [
+   "https://www.cbc.ca/news/business/rogers-buying-mlse-9.7259583",
+   "https://en.wikipedia.org/wiki/Maple_Leaf_Sports_%26_Entertainment"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Vancouver Whitecaps FC",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Jeff Mallett (co-owner, executive chair)",
+  "evidence": "Whitecaps co-owner Jeff Mallett has been a principal owner and executive-committee member of the Giants since 2002. The Whitecaps have been for sale since Dec 2024, with no sale as of Sept 2026.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jeff_Mallett",
+   "https://www.whitecapsfc.com/club/ownership-status"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Vancouver Whitecaps FC",
+  "franchise": "Boston Celtics",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Steve Luczo (co-owner)",
+  "evidence": "Whitecaps co-owner Steve Luczo was a partner in Boston Basketball Partners, which owned the Celtics. Its remaining minority holders can stay until Bill Chisholm's 2028 buyout, and whether Luczo still holds shares was not confirmed.",
+  "sources": [
+   "https://www.whitecapsfc.com/news/prospective-mls-ownership-solidified",
+   "https://www.boston.com/sports/boston-celtics/2025/06/12/celtics-sale-william-chisholm-additional-inverstors-comments/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Bay FC",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Sixth Street (majority owner; CEO Alan Waxman is governor)",
+  "evidence": "Sixth Street owns a majority of Bay FC. Sixth Street bought about 10% of the Giants in March 2025.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bay_FC",
+   "https://www.espn.com/mlb/story/_/id/44304510/giants-sell-reported-10-stake-private-equity-firm-sixth-street"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Bay FC",
+  "franchise": "San Antonio Spurs",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Sixth Street (majority owner; CEO Alan Waxman is governor)",
+  "evidence": "Sixth Street owns a majority of Bay FC. Sixth Street holds about 20% of the Spurs.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bay_FC",
+   "https://www.wealthmanagement.com/alternative-investments/sixth-street-co-owner-of-nba-s-spurs-plans-debut-sports-fund"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Bay FC",
+  "franchise": "Boston Celtics",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Sixth Street (majority owner; CEO Alan Waxman is governor)",
+  "evidence": "Sixth Street owns a majority of Bay FC. Sixth Street joined Bill Chisholm's Celtics ownership group in 2025.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bay_FC",
+   "https://frontofficesports.com/celtics-ownership-bill-chisholm-closed/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Bay FC",
+  "franchise": "San Francisco Giants",
+  "league": "MLB",
+  "kind": "former",
+  "via": "Staci Slaughter (founding board member)",
+  "evidence": "Founding board member Staci Slaughter is a former Giants executive. This is a staff tie, separate from Sixth Street's stake.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bay_FC"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Bay FC",
+  "franchise": "Golden State Warriors",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Rick Welts (founding board member/investor)",
+  "evidence": "Founding board member and investor Rick Welts is the retired president and COO of the Warriors.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bay_FC",
+   "https://en.wikipedia.org/wiki/List_of_owners_of_National_Women's_Soccer_League_teams"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Bay FC",
+  "franchise": "Athletics",
+  "league": "MLB",
+  "kind": "operations",
+  "via": "PayPal Park (Earthquakes, John Fisher)",
+  "evidence": "Bay FC plays at PayPal Park, run by the Earthquakes, whose owner John Fisher also owns the Athletics. This is a tenant arrangement, so the tie is indirect.",
+  "sources": [
+   "https://bayfc.com/press-releases/bay-fc-to-play-at-paypal-park-in-san-jose-for-2024-season/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Boston Legacy",
+  "franchise": "Boston Celtics",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Jennifer Epstein, Stephanie Connaughton (families); investors Tracy & Brad Stevens",
+  "evidence": "Lead owners Jennifer Epstein and Stephanie Connaughton come from long-time Celtics co-owning families, and Celtics president of basketball operations Brad Stevens is an investor. After Chisholm's 2025 takeover, existing minority holders may stay until the 2028 buyout; the families' current status was not confirmed.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Boston_Legacy_FC",
+   "https://www.boston.com/sports/boston-celtics/2025/06/12/celtics-sale-william-chisholm-additional-inverstors-comments/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Boston Legacy",
+  "franchise": "New England Patriots",
+  "league": "NFL",
+  "kind": "operations",
+  "via": "Gillette Stadium (Kraft Group)",
+  "evidence": "Boston Legacy scheduled 2026 home matches at the Kraft-run Gillette Stadium while White Stadium was unfinished.",
+  "sources": [
+   "https://www.cbsnews.com/boston/news/boston-legacy-2026-schedule-gillette-stadium/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Chicago Stars",
+  "franchise": "Chicago Cubs",
+  "league": "MLB",
+  "kind": "ownership",
+  "via": "Laura Ricketts (majority owner)",
+  "evidence": "Laura Ricketts, Cubs co-owner and board member (Ricketts family), led the group that bought the club in 2024 and is its majority owner.",
+  "sources": [
+   "https://www.foxsports.com/stories/soccer/cubs-co-owner-laura-rickets-leads-group-to-buy-nwsls-chicago-red-stars",
+   "https://en.wikipedia.org/wiki/Chicago_Stars_FC"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Denver Summit",
+  "franchise": "Denver Broncos",
+  "league": "NFL",
+  "kind": "minority",
+  "via": "Mellody Hobson (co-owner, alternate governor)",
+  "evidence": "Mellody Hobson is Denver Summit's alternate governor next to controlling owner Rob Cohen, and is part of the Walton-Penner group that owns the Broncos.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Denver_Summit_FC",
+   "https://www.denverbroncos.com/team/front-office-roster/mellody-hobson"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Gotham FC",
+  "franchise": "New York Giants",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Tisch family (Carolyn Tisch Blodgett, primary owner & governor)",
+  "evidence": "Carolyn Tisch Blodgett, a Giants co-owner, has been Gotham's primary owner and governor since 2023, backed by Giants co-owners Laurie, Jonathan and Steve Tisch.",
+  "sources": [
+   "https://www.gothamfc.com/news/njny-gotham-fc-strengthens-ownership-group-with-carolyn-tisch-blodgett-and-the-tisch-family",
+   "https://frontofficesports.com/article/carolyn-tisch-blodgett-ownership-gotham-fc-nwsl-giants-nfl/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Kansas City Current",
+  "franchise": "Kansas City Royals",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Patrick Mahomes (co-owner with Brittany Mahomes)",
+  "evidence": "Patrick and Brittany Mahomes are co-owners of the Current. Patrick has been a Royals minority owner since 2020.",
+  "sources": [
+   "https://www.cbssports.com/soccer/news/patrick-mahomes-becomes-co-owner-of-kansas-city-current-nwsl-team"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "North Carolina Courage",
+  "franchise": "Milwaukee Bucks",
+  "league": "NBA",
+  "kind": "former",
+  "via": "Marc Lasry (Avenue Sports Fund)",
+  "evidence": "Former Bucks co-owner Marc Lasry (sold 2023) agreed in April 2026 to invest $40M in the Courage for a non-controlling stake. NWSL approval was pending at announcement.",
+  "sources": [
+   "https://www.sportico.com/business/team-sales/2026/marc-lasry-nwsl-north-carolina-courage-1234886270/",
+   "https://www.wral.com/sports/north-carolina-courage-marc-lasry-investment-155million-valuation-march-2026/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Orlando Pride",
+  "franchise": "Minnesota Vikings",
+  "league": "NFL",
+  "kind": "ownership",
+  "via": "Wilf family (Mark, Zygi, Lenny Wilf)",
+  "evidence": "The Wilf family, owners of the Vikings, have owned the Pride with Orlando City since July 2021.",
+  "sources": [
+   "https://www.vikings.com/news/wilf-family-completes-purchase-of-orlando-city-soccer-club-and-orlando-pride"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Orlando Pride",
+  "franchise": "Orlando Magic",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "DeVos family (limited partner in Orlando City SC group)",
+  "evidence": "The DeVos family, owners of the Magic, are limited partners in the Wilf-led group that owns Orlando City and the Pride.",
+  "sources": [
+   "https://www.vikings.com/news/wilf-family-completes-purchase-of-orlando-city-soccer-club-and-orlando-pride"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Portland Thorns",
+  "franchise": "Sacramento Kings",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Bhathal family / RAJ Sports (Lisa Bhathal Merage, Alex Bhathal)",
+  "evidence": "The Bhathal family, part of the 2013 group that bought the Kings and still Kings investors, bought the Thorns in 2024 for $63M. Lisa Bhathal Merage is controlling owner and governor.",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/39235567/portland-thorns-sold-sacramento-kings-investors-bhathal-family",
+   "https://en.wikipedia.org/wiki/Lisa_Bhathal_Merage"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Seattle Reign",
+  "franchise": "Seattle Seahawks",
+  "league": "NFL",
+  "kind": "operations",
+  "via": "First & Goal Inc. (Lumen Field operator)",
+  "evidence": "The Reign, owned by the Sounders' ownership group and Carlyle, play at Lumen Field, which is run by the Seahawks-affiliated First & Goal Inc.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seattle_Reign_FC",
+   "https://en.wikipedia.org/wiki/Lumen_Field"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Seattle Reign",
+  "franchise": "Seattle Mariners",
+  "league": "MLB",
+  "kind": "minority",
+  "via": "Sounders FC ownership group (incl. Ken Griffey Jr.)",
+  "evidence": "The Reign's managing partner is the Sounders ownership group, whose members include Mariners part-owner Ken Griffey Jr. The tie is indirect.",
+  "sources": [
+   "https://www.sounderatheart.com/2024/06/seattle-reign-sale-sounders-carlyle-complete/",
+   "https://www.mlb.com/news/ken-griffey-jr-becomes-sounders-part-owner"
+  ],
+  "confidence": "low"
+ },
+ {
+  "club": "Birmingham Legion FC",
+  "franchise": "Atlanta Hawks",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Dominique Wilkins (investor)",
+  "evidence": "Dominique Wilkins, the Hawks' vice president of basketball (an executive role), joined the Legion ownership group in 2023.",
+  "sources": [
+   "https://www.bhmlegion.com/news/2023/06/20/nba-hall-of-famer-dominique-wilkins-joins-legion-fc-ownership-group-as-investor/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "Sacramento Republic FC",
+  "franchise": "Sacramento Kings",
+  "league": "NBA",
+  "kind": "minority",
+  "via": "Kevin Nagle (minority owner, managing partner)",
+  "evidence": "Kevin Nagle, a Kings minority owner in the local 'Play To Win' group, remains Republic managing partner after the Wilton Rancheria took majority control in Nov 2024. The Kings franchise itself also invested in Republic in Jan 2015.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kevin_M._Nagle",
+   "https://www.sacrepublicfc.com/news/2024/11/07/jointventure/",
+   "https://www.cbsnews.com/amp/sacramento/news/sacramento-kings-owner-team-investing-in-usl-pro-champion-sacramento-republic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Sacramento Republic FC",
+  "franchise": "San Francisco 49ers",
+  "league": "NFL",
+  "kind": "former",
+  "via": "York family (Jed York)",
+  "evidence": "The 49ers' York family took a minority stake in Republic in Jan 2015 and was no longer part of the group after Nagle's Sac Soccer & Entertainment Holdings bought the club in 2017.",
+  "sources": [
+   "https://www.mlssoccer.com/post/2015/01/30/san-francisco-49ers-owners-agree-invest-mls-hopefuls-sacramento-republic-fc",
+   "https://en.wikipedia.org/wiki/Sacramento_Republic_FC"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "club": "San Antonio FC",
+  "franchise": "San Antonio Spurs",
+  "league": "NBA",
+  "kind": "ownership",
+  "via": "Spurs Sports & Entertainment",
+  "evidence": "Spurs Sports & Entertainment, the Spurs' parent company, owns and operates San Antonio FC.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/San_Antonio_FC",
+   "https://en.wikipedia.org/wiki/Spurs_Sports_%26_Entertainment"
+  ],
+  "confidence": "high"
+ },
+ {
+  "club": "Tampa Bay Rowdies",
+  "franchise": "Tampa Bay Rays",
+  "league": "MLB",
+  "kind": "ownership",
+  "via": "Patrick Zalupski group (Rays owners)",
+  "evidence": "The Rowdies were sold with the Rays to Patrick Zalupski's group on Sept 30, 2025. They had been owned by the Rays under Stuart Sternberg since 2019.",
+  "sources": [
+   "https://www.rowdiessoccer.com/news/2025/10/02/patrick-zalupski-acquires-ownership-of-rowdies/"
+  ],
+  "confidence": "high"
+ }
+]

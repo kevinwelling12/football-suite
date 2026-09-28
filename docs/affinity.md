@@ -66,3 +66,14 @@ research in scripts/affinity/research/assoc, brief ASSOC_BRIEF.md):
   dislikes): Liverpool isn't dragged down by Mainz, but an ultras twinning with Lazio costs Inter and Real Madrid.
 - 56 ties in links.json: the research minus low-confidence ties (incl. stadium-only US pairs) and kit-heritage ties.
 - Pairs where both clubs carry a rival penalty are skipped (Sounders / Reign). Ownership ties never count.
+
+Location & big-4 (2026-09-28, scripts/affinity/big4.py + proximity.py; research in research/big4, BIG4_BRIEF.md):
+- Kevin's teams: Kings, Giants, 49ers, Sharks. Rivals: Lakers, Dodgers, Seahawks, Rams, Cowboys, LA Kings, Ducks,
+  Golden Knights; half weight: A's, Raiders, Packers.
+- Distance: North American clubs +3 * (1 - miles/800) from Sacramento (Republic excluded: hometown +4).
+- Market: Bay Area clubs +1; LA-market clubs -2; Dallas -1; Las Vegas -1.5 (skipped for clubs with a rival penalty).
+- Ownership ties: Kevin's team +2 ownership / +1 minority (Leeds, Huddersfield, Republic, Thorns, Whitecaps, Bay FC);
+  rival -3 ownership / -1.5 minority / -1 former owner, half for half rivals (Arsenal, Rapids, Galaxy, Bournemouth,
+  Lorient, LAFC, Earthquakes, Birmingham, Marseille). Passive fund stakes and ended ties don't count.
+  Chelsea: BlueCo's Dodgers/Lakers owners bought out by Clearlake (Sept 2026), so no penalty.
+- Added like an adjustment, capped at +/-4, before the association pull.

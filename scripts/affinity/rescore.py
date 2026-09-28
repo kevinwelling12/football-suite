@@ -5,7 +5,8 @@ Team (slot S) replaced Style of play in quiz round 3: how they play plus team cu
 Displayed Affinity = base + bonus. Clubs get no regional heritage bonus (2026 re-rate); only the hometown
 club (Sacramento Republic FC, +4) keeps one. Nations keep their heritage bonus (up to +10).
 Track record (clubs only, scripts/affinity/performance.py): the factor score is multiplied by
-k = 0.80 + 0.04 * P before adjustments; base is capped at 100. Then association pulls
+k = 0.80 + 0.04 * P before adjustments; base is capped at 100. Then Kevin's big-4 items
+(scripts/affinity/big4.py: distance, rival markets, ownership ties). Then association pulls
 (scripts/affinity/association.py) move linked clubs toward each other, P = recency-weighted success over the last 10 seasons (0-10)."""
 import ast, json, pathlib, sys
 root = pathlib.Path(__file__).resolve().parent.parent.parent
@@ -13,6 +14,7 @@ sys.path.insert(0, str(root / 'scripts' / 'affinity'))
 from scores import S
 import performance as perf
 import association as assoc
+import big4
 for node in ast.parse((root / 'scripts' / 'importers' / 'build_usl.py').read_text()).body:
     if isinstance(node, ast.Assign) and getattr(node.targets[0], 'id', '') == 'A':
         S = {**S, **ast.literal_eval(node.value)}
@@ -39,6 +41,15 @@ for key, comp in D.items():
         if key != 'unl':
             t['bonus'] = 4.0 if t['name'] == HOMETOWN else 0
             if 'bonus0' in t: t['bonus0'] = t['bonus'] / 0.4
+# Kevin's big-4 teams: distance from Sacramento, rival markets, ownership ties (big4.py). hai.us = items.
+for key, comp in D.items():
+    for t in comp['teams']:
+        h = t.get('hai')
+        if not h or key == 'unl': continue
+        its = big4.items(t['name'], 'Rival' in h.get('note', ''))
+        if its:
+            h.update(us=[[l, v] for l, v in its], usTot=big4.total(its))
+            t['base'] = min(100, max(0, round(t['base'] + h['usTot'], 1)))
 # Association: second pass, on Affinity before any pull (hai.assoc = total pull, hai.links = per partner).
 pre, rivals, seen = {}, set(), set()
 for key, comp in D.items():

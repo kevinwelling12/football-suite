@@ -483,7 +483,8 @@ function viewWeek(k) {
     <p class="note">Match of the week blends importance with how evenly matched the sides are, as the round begins; it's fixed once the first match kicks off. Entering a result locks in the pick 'em score and affinity pick shown before kickoff. Results that came with the tracker are scored with the picks as of September 26. Tap a match for the full scoreline grid.</p></section>`;
 }
 function zoneColor(k, pos) { const c = COMP[k].cfg.colors.find(([a, b]) => pos >= a && pos <= b); return c ? c[2] : 'transparent'; }
-const COL_SHORT = {'Promoted':'Up', 'Play-offs':'PO', 'Relegated':'Rel', 'Quarter-finals':'QF', 'Win it':'Win', 'Top 8':'Top 8', 'Title':'Title', 'Top 4':'Top 4', 'Top 3':'Top 3', 'Shield':'Shield', 'Bye':'Bye', 'Playoffs':'PO'};
+const COL_SHORT = {'Promoted':'Up', 'Play-offs':'PO', 'Relegated':'Rel', 'Quarter-finals':'QF', 'Win it':'Win', 'Top 8':'Top 8', 'Title':'Title', 'Top 4':'Top 4', 'Top 3':'Top 3', 'Shield':'Shield', 'Bye':'Bye', 'Playoffs':'PO',
+  "Players' Shield":'Shield', "Supporters' Shield":'Shield', 'Home QF':'Home', 'Group winner':'1st', 'Play-off':'PO'};
 const colHead = (k, key) => { const l = colLabel(k, key), s = COL_SHORT[l] || l; return s === l ? esc(l) : `<span class="nm-full">${esc(l)}</span><span class="nm-short">${esc(s)}</span>`; };
 function colLabel(k, key) { const cfg = COMP[k].cfg; return (cfg.colLabels && cfg.colLabels[key]) || (cfg.zones.find(z => z.key === key) || {}).label || key; }
 function tableRows(k, rows, proj, colsOverride) {

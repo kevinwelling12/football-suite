@@ -20,4 +20,5 @@ Rules decided with Kevin (apply consistently):
   full club heritage bonus +4. Only club this applies to.
 - Specific calls: Timbers ownership 5 (judge on today); Sounders culture 9 (NFL stadium); Sacramento
   ownership 8.
+Quiz round 2 (neutral questions, 2026-09): see docs/supporter-profile.md. It refines how each factor is judged.
 Rescore: edit scripts/affinity/scores.py (USL: scripts/importers/build_usl.py) -> rescore.py -> build.

@@ -62,7 +62,7 @@
   },
   "V_delta": {
    "points": -1,
-   "evidence": "Treatment of long-serving captain ter Stegen in 2025: club opened disciplinary proceedings when he would not sign off his medical report so his injury could be used to register Joan Garcia, stripped the armband, then loaned him to Ajax in 2026. Recurring registration crises (Olmo, Pau Victor) left players in limbo. La Masia already counted in V."
+   "evidence": "Treatment of long-serving captain ter Stegen in 2025: club opened disciplinary proceedings when he would not sign off his medical report so his injury could be used to register Joan Garcia, temporarily withdrew his captaincy, then loaned him to Ajax in 2026. Recurring registration crises (Olmo, Pau Victor) left players in limbo. La Masia already counted in V."
   },
   "icons": [
    "Pedri",
@@ -116,7 +116,7 @@
   "name": "Bodø/Glimt",
   "T": {
    "score": 10,
-   "evidence": "Knutsen since 2018 (contract to 2029): defining coach of a relentless pressing identity that knocked Inter out and reached the UCL last 16. Local captains Patrick Berg (Bodø family, returned 2024) and Ulrik Saltnes (club since 2014); Brede Moe retired Jan 2026 after 12 years. Mostly Norwegian squad, low ego, known mental-performance culture. +1 vs old S."
+   "evidence": "Knutsen since 2018 (contract to 2029): defining coach of a relentless pressing identity that knocked Inter out and reached the UCL last 16. Local captains Patrick Berg (third generation of a Glimt family, back from Lens) and long-serving Ulrik Saltnes; Brede Moe retired Jan 2026 after 12 years. Mostly Norwegian squad, low ego, known mental-performance culture. +1 vs old S."
   },
   "V_delta": {
    "points": 1,
@@ -785,8 +785,8 @@
    "evidence": "New coach Inigo Perez for 2026-27 (Marcelino before, since 2023). Captain Gerard Moreno (club academy, all-time top scorer) is a current icon; Parejo and Partey left. Compact, transition football, not a pressing identity. Stays at old S."
   },
   "V_delta": {
-   "points": 0,
-   "evidence": "No player-conduct or welfare cases found (Partey, who faces rape charges in England, was signed in 2025 and left in 2026: see flag). Academy already counted in V."
+   "points": -2,
+   "evidence": "Signed Thomas Partey in July 2025 while he was charged in England with five counts of rape and one of sexual assault (not-guilty plea; two further rape counts added March 2026; trial set 2 Nov 2026) and played him through 2025-26; he left on a free in 2026. Same standing-by rule as LASK/Boateng. Academy already counted in V."
   },
   "icons": [
    "Gerard Moreno"
@@ -797,12 +797,13 @@
    "evidence": ""
   },
   "flags": [
-   "Villarreal signed Thomas Partey in summer 2025 while he was charged with rape and sexual assault in England (trial set for Nov 2026). Under the standing-by rule that is -2; I left V_delta 0 because he has left. Kevin to decide."
+   "Partey -2 applied although he has now left (consistent with LASK/Boateng). Set to -1 if a departed player should count less."
   ],
   "confidence": "medium",
   "sources": [
    "https://en.wikipedia.org/wiki/2026%E2%80%9327_Villarreal_CF_season",
-   "https://en.wikipedia.org/wiki/Villarreal_CF"
+   "https://en.wikipedia.org/wiki/Villarreal_CF",
+   "https://www.aljazeera.com/sports/2026/3/13/former-arsenal-player-partey-to-plead-not-guilty-to-2-new-charges-of-rape"
   ]
  }
 ]

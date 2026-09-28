@@ -18,7 +18,17 @@ if not claude:
     seed = {p.stem: json.loads(p.read_text()) for p in sorted((root / 'user-data').glob('*.json'))}
     head = (sdk + '<script>' + (src / 'firebase-config.js').read_text() + '</script>\n'
             + '<script>window.SEED = ' + json.dumps(seed, ensure_ascii=False, separators=(',', ':')) + ';</script>')
-out = (html.replace('/*__WEB_HEAD__*/', head)
+# Icons: the web build links files copied next to the page (iOS needs a real apple-touch-icon file);
+# the claude.ai build inlines the small favicon.
+icons = src / 'icons'
+if claude:
+    import base64
+    icon_tags = '<link rel="icon" type="image/png" href="data:image/png;base64,' + base64.b64encode((icons / 'favicon-32.png').read_bytes()).decode() + '">'
+else:
+    icon_tags = ('<link rel="icon" type="image/svg+xml" href="icon.svg">\n<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">\n'
+                 '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n<meta name="apple-mobile-web-app-title" content="Football">\n'
+                 '<meta name="theme-color" content="#050408">')
+out = (html.replace('<!--__ICONS__-->', icon_tags).replace('/*__WEB_HEAD__*/', head)
            .replace('/*__CSS__*/', (src / 'styles.css').read_text())
            .replace('/*__CONFIG__*/', (src / 'config.js').read_text())
            .replace('/*__MODEL__*/', (src / 'model.js').read_text())
@@ -26,4 +36,7 @@ out = (html.replace('/*__WEB_HEAD__*/', head)
 dest = root / 'dist' / ('football_suite.html' if claude else 'web/index.html')
 dest.parent.mkdir(parents=True, exist_ok=True)
 dest.write_text(out)
+if not claude:
+    import shutil
+    for f in ('icon.svg', 'favicon-32.png', 'apple-touch-icon.png'): shutil.copyfile(icons / f, dest.parent / f)
 print(f'wrote {dest.relative_to(root)} ({len(out):,} bytes)')

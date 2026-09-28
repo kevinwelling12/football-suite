@@ -1,0 +1,512 @@
+[
+ {
+  "name": "Arsenal",
+  "T": {
+   "score": 8,
+   "evidence": "Old S 7. Arteta (since Dec 2019, now the league's longest-serving top coach, 2026 title) is a defining coach; high, structured press and physical intensity. Captain Odegaard since 2022; vice-captain Saka (Hale End graduate) is the current icon. Players' post-match celebrations in front of the fans are a hallmark of the Arteta era. Minus: heavy recruitment churn at the top end (2025: Gyokeres, Eze, Zubimendi, Madueke; 2026: Konsa, Bruno Guimaraes, Tzolis, Meslier)."
+  },
+  "V_delta": {
+   "points": -2,
+   "evidence": "Thomas Partey: arrested July 2022 on rape allegations, Arsenal kept selecting him through 2022-23 to 2024-25 while the investigation ran (criticised by women's groups and MPs), no club statement; charged with five counts of rape and one of sexual assault in July 2025 after his contract ended (further charges Feb 2026). Standing by a player facing credible allegations = -2."
+  },
+  "icons": [
+   "Bukayo Saka",
+   "Martin Odegaard"
+  ],
+  "coach": "Mikel Arteta, since 2019",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [
+   "Partey case: -2 applied under the 'stood by a player facing credible allegations' rule; Kevin to confirm (Arsenal never commented, he was not charged until after leaving)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.nbcnews.com/world/united-kingdom/former-arsenal-soccer-player-partey-charged-five-counts-rape-rcna216946"
+  ]
+ },
+ {
+  "name": "Aston Villa",
+  "T": {
+   "score": 7,
+   "evidence": "Old S 6. Emery (since Nov 2022) is a defining coach: Champions League 2024-25 and the 2025-26 Europa League; compact, well-drilled, counter-attacking side rather than a pressing one. Captain John McGinn (at Villa since 2018) is the icon, loved by the Holte End; core of Mings, Cash, Kamara, Buendia. Minus: loan-heavy recruitment (Garnacho, Wan-Bissaka) and Konsa sold to Arsenal in 2026."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found for 2023-26."
+  },
+  "icons": [
+   "John McGinn"
+  ],
+  "coach": "Unai Emery, since 2022",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Bournemouth",
+  "T": {
+   "score": 7,
+   "evidence": "Old S 8. Still an intense pressing side, but Iraola left in June 2026; Marco Rose (Red Bull school) took over, so no long-serving coach now. Long-serving leaders: captain Adam Smith (at the club since 2014), Lewis Cook, David Brooks, Ryan Christie. Minus: yearly sale of the best players (Huijsen, Kerkez, Zabarnyi in 2025, Semenyo to Man City in 2026)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found for 2023-26."
+  },
+  "icons": [
+   "Adam Smith"
+  ],
+  "coach": "Marco Rose, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Brentford",
+  "T": {
+   "score": 7,
+   "evidence": "Old S 7. Keith Andrews (since June 2025, Frank's set-piece coach) kept the aggressive, direct pressing game. Captain Nathan Collins; long-servers Rico Henry, Mathias Jensen, Vitaly Janelt, Josh Dasilva. Friendly, community-rooted club. Minus: 2025 exodus (Frank, Mbeumo, Wissa, Norgaard) and a sell-on model."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found for 2023-26 (Toney's 2023 betting ban is not an abuse/violence case)."
+  },
+  "icons": [],
+  "coach": "Keith Andrews, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brentford_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Brighton",
+  "T": {
+   "score": 7,
+   "evidence": "Old S 7. Hurzeler (since June 2024) plays an energetic high press. Captain Lewis Dunk joined the academy at 11 and has spent his whole career at Brighton, a one-club icon; vice-captain Pascal Gross back at the club. Minus: sell-on model means high churn (Mac Allister, Caicedo, Mitoma-era sales; big loan-out list)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found. Dunk (one-club) would fit the homegrown raise, but the academy is already in V evidence, so not re-counted."
+  },
+  "icons": [
+   "Lewis Dunk"
+  ],
+  "coach": "Fabian Hurzeler, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [
+   "Dunk is a genuine one-club player: Kevin may want +1 V even though 'productive academy' is already in V."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Chelsea",
+  "T": {
+   "score": 4,
+   "evidence": "Old S 6. Xabi Alonso new (July 2026) after Pochettino, Maresca and an interim in three seasons. Extreme churn: squads of 40+, repeated 'bomb squad' exclusions, eight-year contracts as assets. Captain Reece James (academy) is the one local anchor; star Cole Palmer. Weak player-fan bond while fans protest the owners."
+  },
+  "V_delta": {
+   "points": -2,
+   "evidence": "Welfare: in 2024 and 2025 Chelsea banished up to 13-18 players (Sterling, Chilwell, Disasi and others) to a separate training group; the PFA intervened and called it unacceptable, noting FIFA may deem such exclusion abusive conduct (-1). Conduct: Enzo Fernandez filmed singing a racist chant about France players (July 2024); club opened an internal process, kept him and he stayed a first-choice player (-1)."
+  },
+  "icons": [
+   "Reece James"
+  ],
+  "coach": "Xabi Alonso, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [
+   "Enzo Fernandez has since moved to Man City (on City's list now); Kevin may count the chant only once."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.goal.com/en-gb/lists/chelsea-pfa-push-for-bomb-squads-blues-banish-raheem-sterling-ben-chilwell/blt1832026841ea2a0b",
+   "https://africa.espn.com/football/story/_/id/46300189/pfa-working-chelsea-treatment-sterling-diasi-sources"
+  ]
+ },
+ {
+  "name": "Coventry City",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 6. Lampard (since Nov 2024) won promotion with a front-foot, high-scoring side. Captain Matt Grimes; long-servers Ben Wilson, Jake Bidwell, Bobby Thomas, academy midfielder Josh Eccles. Moderate churn. Mass confrontation at Southampton (Dec 2025) cost a £30,000 FA fine, no individual conduct case."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found for 2023-26."
+  },
+  "icons": [],
+  "coach": "Frank Lampard, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Coventry_City_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.thefa.com/news/2026/feb/04/fa-charges---january-2026-040226"
+  ]
+ },
+ {
+  "name": "Crystal Palace",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 7. Glasner (2024-26, FA Cup 2025 and Community Shield) left; Pierre Sage from Lens (intense 3-4-3) new in June 2026. Captain Dean Henderson; stable spine of Mitchell (academy), Lerma, Hughes, Mateta, Wharton. Minus: Guehi and Eze sold, coach gone; FA Cup-winning squad had a strong bond with the Holmesdale."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found for 2023-26."
+  },
+  "icons": [],
+  "coach": "Pierre Sage, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Everton",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 5. Moyes (back since Jan 2025) is organised and direct, not a pressing side. Captain James Tarkowski; Pickford (since 2017) and Keane long-serving. Seamus Coleman (captain 2019-26, 17 years) left in 2026, so he now counts in History. Moderate churn with the move to Hill Dickinson Stadium."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found for 2023-26."
+  },
+  "icons": [
+   "Jordan Pickford"
+  ],
+  "coach": "David Moyes, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Everton_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Fulham",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 5. Marco Silva left in 2026; Alvaro Arbeloa new. Captain Tom Cairney (at Fulham since 2015) is the club icon; stable core (Leno, Robinson, Reed, Iwobi, Bassey) and low churn by Premier League standards."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found for 2023-26."
+  },
+  "icons": [
+   "Tom Cairney"
+  ],
+  "coach": "Alvaro Arbeloa, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fulham_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Hull City",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 5. Jakirovic (since 2025) got them promoted. Captain Lewie Coyle (since 2021). High churn under owner Ilicali's spending: a 40-man squad list and constant loan traffic. No lasting identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found (FA charges only for reserves and staff, 2025-26)."
+  },
+  "icons": [],
+  "coach": "Sergej Jakirovic, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.thefa.com/news/2026/mar/03/fa-charges---february-2026-040326"
+  ]
+ },
+ {
+  "name": "Ipswich Town",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 7. McKenna, the defining coach of the double promotion, resigned in June 2026; Gary O'Neil (pressing) took over. Captain Dara O'Shea; very high churn since 2024 (Burns, Morsy gone, big spending)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No abuse/violence case. Former captain Sam Morsy refused the Rainbow Laces armband (Dec 2024) and the club backed his decision; not scored."
+  },
+  "icons": [],
+  "coach": "Gary O'Neil, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [
+   "Morsy's armband refusal (club backed him): Kevin may count it as a small minus (-1)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ipswich_Town_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Leeds United",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 6. Farke (since July 2023) is the longest-serving of the promoted-era coaches: energetic, ball-controlling. Captain Ethan Ampadu; Elland Road bond strong. Moderate churn after the 2025 promotion."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found for 2023-26."
+  },
+  "icons": [],
+  "coach": "Daniel Farke, since 2023",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Liverpool",
+  "T": {
+   "score": 7,
+   "evidence": "Old S 8. Slot sacked (June 2026), Iraola new: an elite high press again. Captain Virgil van Dijk (since 2018) is the icon; Salah left in May 2026 (now History). Big churn: 2025 (Wirtz, Isak, Ekitike, Frimpong, Kerkez) and 2026 (Barcola, Leoni, Jacquet). Strong player-fan bond; the squad's tribute after Diogo Jota's death (July 2025) and the club paying his contract to the family."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No conduct case. Jota death handled with care (tribute, contract paid to family): positive welfare, no extra points."
+  },
+  "icons": [
+   "Virgil van Dijk"
+  ],
+  "coach": "Andoni Iraola, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.liverpoolfc.com/news/mohamed-salah-leave-liverpool-end-season"
+  ]
+ },
+ {
+  "name": "Manchester City",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 8. Guardiola left in 2026; Maresca (control-first). Captain Ruben Dias. Very high churn in the 2025-26 rebuild (Cherki, Ait-Nouri, Donnarumma, Semenyo, Guehi, Enzo Fernandez). Haaland (contract to 2034) and academy Foden as icons. Moderate fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No new abuse/violence case at City; Mendy (acquitted 2023) won an employment tribunal over unpaid wages in 2024 (club had withheld pay while he was charged), not scored."
+  },
+  "icons": [
+   "Erling Haaland",
+   "Phil Foden"
+  ],
+  "coach": "Enzo Maresca, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [
+   "Mendy wage tribunal: Kevin may treat it as a welfare minus (-1)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Manchester United",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 6. Carrick (from Jan 2026) more energetic, but four coaches in three seasons. Captain Bruno Fernandes (since 2023) stayed, turning down Saudi money in 2025. High churn and an ego-heavy history: 2025 exiles (Rashford, Garnacho, Sancho, Antony) trained apart; big rebuild (Cunha, Mbeumo, Sesko, Baleba). Academy stars Mainoo, Amass."
+  },
+  "V_delta": {
+   "points": -2,
+   "evidence": "Antony: accused of assault by three women (2023); United stood him down, then brought him back into the squad in October 2023 while police investigations continued ('he has not been charged'). Greenwood: United planned to reintegrate him before a public backlash forced an August 2023 exit. Standing by a player facing credible allegations = -2."
+  },
+  "icons": [
+   "Bruno Fernandes"
+  ],
+  "coach": "Michael Carrick, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [
+   "Antony and Greenwood both in 2023, inside the 3-season window; Kevin to confirm -2 (could be -3 counting the 2025 exile group as a welfare issue)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.espn.com/soccer/story/_/id/38518102/antony-return-man-united-squad-police-interview",
+   "https://www.aljazeera.com/sports/2023/8/23/criticism-manchester-united-handling-of-mason-greenwood-case"
+  ]
+ },
+ {
+  "name": "Newcastle United",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 7. Howe (defining coach 2021-26) resigned Aug 2026; Jaissle (Red Bull pressing) new. Captain Dan Burn is a local lad and boyhood fan: the current icon. Core broken up: Isak went on strike and was sold (Sept 2025); Bruno Guimaraes and Tonali left in 2026. Joelinton vice-captain."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No abuse/violence case found. Isak's 2025 strike is a dispute, not a conduct case."
+  },
+  "icons": [
+   "Dan Burn"
+  ],
+  "coach": "Matthias Jaissle, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Nottingham Forest",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 6. Coach churn under Marinakis (Nuno, Postecoglou, Dyche, Pereira, Glasner from July 2026); Glasner brings intensity. Captain Ryan Yates (academy, at Forest since boyhood) and Chris Wood; Gibbs-White vice-captain. High squad churn."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct or welfare case found. Yates is academy-grown, but the academy is already in V."
+  },
+  "icons": [
+   "Ryan Yates"
+  ],
+  "coach": "Oliver Glasner, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Sunderland",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 6. Le Bris (since 2024) compact and energetic. Captain Granit Xhaka (since 2025); long-servers Luke O'Nien (since 2018), Trai Hume; academy Chris Rigg. Huge 2025 spending and more in 2026 (Fofana, Methalie). Stadium of Light bond strong."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No notable player-conduct case; Romaine Mundle was a victim of racist abuse (Feb 2026), not a conduct case."
+  },
+  "icons": [
+   "Luke O'Nien"
+  ],
+  "coach": "Regis Le Bris, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Sunderland_A.F.C._season"
+  ]
+ },
+ {
+  "name": "Tottenham Hotspur",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 7. Coach churn (Postecoglou sacked 2025, Frank, De Zerbi 2026). Son (2025) and Romero (2026, Atletico) gone; Micky van de Ven now captain. High churn (Robertson, Tonali, loans of Marmoush, Mudryk). Tense player-fan relations in 2025-26."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Rodrigo Bentancur: 7-match FA ban (Nov 2024) for a racial remark about Son; Spurs appealed the length and kept him as a regular. Racist remark by a player, club support = -1."
+  },
+  "icons": [],
+  "coach": "Roberto De Zerbi, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No former Sacramento Republic FC player (Wikipedia category, 162 names) in the 2026-27 squad list."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+   "https://www.espn.com/soccer/story/_/id/49681498/roberto-de-zerbi-confirms-micky-van-de-ven-new-tottenham-captain"
+  ]
+ }
+]

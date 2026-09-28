@@ -1,0 +1,610 @@
+[
+ {
+  "name": "Birmingham City",
+  "T": {
+   "score": 6,
+   "evidence": "Chris Davies (since June 2024): front-foot possession-and-pressing side, record 111-point League One title 2024-25, then consolidated in the Championship. Captain Christoph Klarer (since 2024). Heavy owner-funded recruitment, many new signings and loans each window (high churn). Record signing Jay Stansfield is a boyhood Blues fan whose father played for the club; big, loud crowds and a visible player-fan bond. No long-serving icon yet."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found (only a 3-match red-card ban for Klarer, Dec 2025, on-field)."
+  },
+  "icons": [],
+  "coach": "Chris Davies, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Stansfield (local, boyhood fan) could become an icon if he stays; not counted yet."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Birmingham_City_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship",
+   "https://www.thefa.com/news/2026/jan/07/fa-charges---december-2025-070126"
+  ]
+ },
+ {
+  "name": "Blackburn Rovers",
+  "T": {
+   "score": 5,
+   "evidence": "Tony Mowbray (club legend as manager 2017-22) back as head coach; frequent coaching changes before that (Tomasson, Ismaël, Eustace briefly). Pragmatic, mid-to-low-table football (20th in 2025-26). Captain Todd Cantwell. Club sells its best players most windows (Szmodics, Brereton Díaz, Dolan), so churn is high. Productive academy (Rankin-Costello, Wharton, Carter) gives some continuity; fan bond muted by owner protests."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct cases found; Rovers players were victims (Owen Beck bitten by Preston's Osmajić 2024; racist abuse of Makhtar Gueye by a fan, 2024). Academy already counted in V."
+  },
+  "icons": [],
+  "coach": "Tony Mowbray, since 2026 (second spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Mowbray return date not verified (club page lists him as head coach)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Blackburn_Rovers_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship",
+   "https://www.itv.com/news/granada/2025-01-30/football-fan-banned-for-racist-abuse-of-blackburn-rovers-star"
+  ]
+ },
+ {
+  "name": "Bolton Wanderers",
+  "T": {
+   "score": 6,
+   "evidence": "Steven Schumacher (since January 2025): energetic, front-foot side; promoted via the 2026 League One play-off final (4-1 v Stockport). Captain Eoin Toal, vice-captain Chris Forino-Joseph. Moderate churn with several loans from bigger clubs. Strong fan bond (fan bond scheme, large League One crowds)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Steven Schumacher, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Newly promoted: Team read is mostly League One evidence."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bolton_Wanderers_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Bristol City",
+  "T": {
+   "score": 6,
+   "evidence": "Michael Skubala appointed in summer 2026 (three-year deal) after Gerhard Struber left in March 2026 and Roy Hodgson was interim; Skubala built an intense, front-foot, 103-point League One title side at Lincoln. Captain Jason Knight. Academy pathway (Scott, Conway, Pring) but best players are sold, and three coaches in 15 months. Settled Ashton Gate bond, no current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found. Academy already counted in V."
+  },
+  "icons": [],
+  "coach": "Michael Skubala, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Skubala is brand new; Team rests on his Lincoln record."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bristol_City_F.C.",
+   "https://www.bcfc.co.uk/city-men-news/skubala-appointed-bristol-city-manager/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Burnley",
+  "T": {
+   "score": 4,
+   "evidence": "Three straight promotion/relegation swings; relegated in 2025-26 with a club-record-low 22 points and 4 wins. Scott Parker left by mutual consent (April 2026); Nicky Hayen (ex-Club Brugge, Genk) appointed July 2026. Captain Josh Cullen (since 2022). Very high churn (Kompany-era loans, Parker rebuild, new rebuild), plus 39-year-old Jamie Vardy signed Sept 2026 on a one-season deal. No lasting pressing identity, no icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct cases found; Hannibal Mejbri was the victim of racist abuse by Preston's Osmajić (2025)."
+  },
+  "icons": [],
+  "coach": "Nicky Hayen, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Burnley_F.C.",
+   "https://www.burnleyfootballclub.com/media-article/nicky-hayen-confirmed-as-new-burnley-boss",
+   "https://www.espn.com/soccer/story/_/id/49848349/jamie-vardy-burnley-efl-championship-transfers"
+  ]
+ },
+ {
+  "name": "Cardiff City",
+  "T": {
+   "score": 6,
+   "evidence": "Brian Barry-Murphy (ex-Man City U21) brought a clear possession identity and immediate promotion from League One after the 2025 relegation, ending years of managerial churn. Captain Calum Chambers; vice-captain Rubin Colwill (academy). A young squad with many Welsh academy players (Rubin and Joel Colwill, Isaak Davies, Anyadike, Turner). Fan bond recovering after the Tan-era rows."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Notable homegrown core in the first team: Rubin Colwill (vice-captain), Joel Colwill, Isaak Davies and other Welsh academy graduates. No player-conduct cases found."
+  },
+  "icons": [],
+  "coach": "Brian Barry-Murphy, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "V +1 for the homegrown Welsh core: confirm it is not double-counted with the regional-identity raise."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cardiff_City_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Charlton Athletic",
+  "T": {
+   "score": 5,
+   "evidence": "Nathan Jones (since February 2024): direct, organised, physical side; play-off winners 2025, 19th in 2025-26. Captain Lloyd Jones. Moderate-to-high churn; few academy players left in the first team after years of sales. Good fan bond at The Valley, no current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Nathan Jones, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Charlton_Athletic_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Derby County",
+  "T": {
+   "score": 5,
+   "evidence": "John Eustace (since February 2025): organised, pragmatic, hard-working side; 8th in 2025-26. Captain Lewis Travis. Big squad turnover since the 2024 promotion. Huge, loyal crowds (6th best supported in the EFL) and a bond built through the administration years, but no current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "John Eustace, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Derby_County_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Lincoln City",
+  "T": {
+   "score": 7,
+   "evidence": "Michael Skubala's intense, front-foot side won League One with a club-record 103 points in 2025-26 (first second-tier season in 65 years). Skubala left for Bristol City in 2026; assistants Chris Cohen and Tom Shaw promoted to joint head coaches (continuity). Captain Tendayi Darikwa. Humble, low-budget, data-driven squad with no star culture; several loans from Premier League clubs. Close community club with a supporters' trust stake."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Chris Cohen & Tom Shaw, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Coach who built the style has left; T kept at 7 because the new joint heads are his in-house assistants. Could be 6."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lincoln_City_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Middlesbrough",
+  "T": {
+   "score": 6,
+   "evidence": "Energetic, front-foot possession under Carrick, Edwards and now Kim Hellberg (since November 2025); 5th in 2025-26 and top three early in 2026-27. Three coaches in 18 months (Carrick, Edwards, Hellberg) and heavy squad churn; Luke Ayling now captain. Academy products (Hackney, Fry) still feature. No current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found. Academy already counted in V."
+  },
+  "icons": [],
+  "coach": "Kim Hellberg, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Middlesbrough_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Millwall",
+  "T": {
+   "score": 7,
+   "evidence": "Alex Neil: hard-running, physical, direct side that runs for each other; record second-tier points total in 2025-26 (lost play-off semi-final to Hull). Captain Jake Cooper (at the club since 2017, 400+ appearances) is the current icon. Moderate churn, no star culture; one of the closest player-fan bonds in the league (players celebrate in front of the Dockers' stand)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Dec 2025: goalkeeper Joel Coleman and staff member David Livermore charged by the FA with improper/violent conduct after the final whistle at Bristol City, and the club charged for failing to control them (minor, on-field). Club handled the June 2024 death of goalkeeper Matija Šarkić with support and tributes. Net 0."
+  },
+  "icons": [
+   "Jake Cooper"
+  ],
+  "coach": "Alex Neil, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship",
+   "https://www.thefa.com/news/2026/jan/07/fa-charges---december-2025-070126",
+   "https://www.millwallfc.co.uk/news/2025/december/14/club-statement/"
+  ]
+ },
+ {
+  "name": "Norwich City",
+  "T": {
+   "score": 5,
+   "evidence": "Coaching churn: Wagner, Thorup, Liam Manning (sacked 8 Nov 2025 after 17 games), then Philippe Clement (since Nov 2025, deal to 2029), a more aggressive pressing coach. Long-serving captain Kenny McLean (at Carrow Road since 2018, through two promotions and relegations) is the nearest thing to an icon. High squad churn and regular sales. Possession-leaning but no lasting identity yet."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "On-field only: Borja Sainz six-game ban for spitting (Dec 2024), Brandon Thomas-Asante two-game violent-conduct ban (2026). No off-field conduct or welfare cases found."
+  },
+  "icons": [
+   "Kenny McLean"
+  ],
+  "coach": "Philippe Clement, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "McLean as icon is borderline; decide."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Norwich_City_F.C._season",
+   "https://www.skysports.com/football/news/11095/13472178/philippe-clement-norwich-appoint-former-rangers-boss-as-head-coach",
+   "https://global.espn.com/football/story/_/id/43357104/norwichs-borja-sainz-gets-6-game-ban-spitting-opponent"
+  ]
+ },
+ {
+  "name": "Portsmouth",
+  "T": {
+   "score": 7,
+   "evidence": "John Mousinho (since January 2023, one of the longest-serving coaches in the division): organised, hard-working mid-block, League One title 2024 then Championship survival. Captain Marlon Pack, Portsmouth-born boyhood fan who came home in 2022, is the icon. Stable, humble squad without star culture; a very strong player-fan bond at Fratton Park."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [
+   "Marlon Pack"
+  ],
+  "coach": "John Mousinho, since 2023",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Portsmouth_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Preston North End",
+  "T": {
+   "score": 4,
+   "evidence": "Mid-table pragmatism (14th in 2025-26); Paul Heckingbottom left 13 Sept 2026, Jason Euell interim. Captain Ali McCann. Long-serving servants (Alan Browne, Ben Whiteman) have left in recent seasons; moderate churn, no icon, no pressing identity."
+  },
+  "V_delta": {
+   "points": -2,
+   "evidence": "Milutin Osmajić bit Blackburn's Owen Beck (Sept 2024, 8-match ban, £15k fine) and in Nov 2025 an FA commission found him guilty of racially abusing Burnley's Hannibal Mejbri (9-match ban, £21k fine). Preston said they were 'extremely disappointed', questioned the verdict and stayed 'fully supportive' of the player. He was sold to Genoa in August 2026, but the club stood by him through the case."
+  },
+  "icons": [],
+  "coach": "Jason Euell (interim), since September 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "V -2 for publicly backing a player found guilty of racist abuse; Kevin to confirm the size (player now gone)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://www.itv.com/news/granada/2025-11-07/preston-extremely-disappointed-over-nine-match-ban-for-alleged-racist-abuse",
+   "https://www.skysports.com/football/news/11095/13465881/milutin-osmajic-preston-striker-given-nine-match-ban-and-lb21-000-fine-for-alleged-racial-abuse-of-burnleys-hannibal",
+   "https://the72.co.uk/2026/08/21/preston-north-end-accept-milutin-osmajic-transfer-bid/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Queens Park Rangers",
+  "T": {
+   "score": 5,
+   "evidence": "Julien Stéphan (since June 2025): possession-based, mid-table (15th in 2025-26), after Martí Cifuentes left. Captain Jimmy Dunne. Moderate churn on a tight budget, no star culture, but no current icon either. Small, close ground (Loftus Road) with a decent bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found (a QPR player was the victim of racist abuse by a WBA fan, March 2025)."
+  },
+  "icons": [],
+  "coach": "Julien Stéphan, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship",
+   "https://www.expressandstar.com/news/2025/03/10/police-issue-update-after-west-bromwich-albion-fan-arrested-following-reports-of-racist-behaviour-towards-qpr-player/"
+  ]
+ },
+ {
+  "name": "Sheffield United",
+  "T": {
+   "score": 6,
+   "evidence": "Chris Wilder (Sheffield-born Blades fan, third spell, back in 2025 on a three-year deal after Rubén Sellés was sacked at 0-5) is the defining coach: overlapping centre-backs, high energy. Captain Japhet Tanganga. But very high churn: owner changes, 2025 play-off final loss, sale of key players, loans. No current icon."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Player welfare: Women's player Maddy Cusack died in Sept 2023; her family blamed manager Jonathan Morgan's bullying. The club's own inquiry found no wrongdoing and was criticised for basic errors; an FA hearing later heard evidence of 'bullying behaviour'. Club had reportedly been warned about Morgan beforehand."
+  },
+  "icons": [],
+  "coach": "Chris Wilder, since 2025 (third spell)",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Cusack case is a women's-team welfare failure; decide if -1 is enough given the warnings before her death."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.skysports.com/football/news/11683/13430715/chris-wilder-sheffield-united-reappoint-manager-just-three-months-after-he-left-following-ruben-selles-sacking",
+   "https://sports.yahoo.com/sheffield-united-were-warned-manager-080107870.html",
+   "https://en.wikipedia.org/wiki/Maddy_Cusack",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Southampton",
+  "T": {
+   "score": 5,
+   "evidence": "Tonda Eckert's aggressive, front-foot side reached the 2026 play-off final before expulsion for Spygate (four-point deduction for 2026-27); players publicly backed Eckert. Captain Jack Stephens (at the club since 2011) is the long-serving figure. But very high churn after the 2024-25 Premier League collapse and the Sport Republic model (big buy-and-sell squad, e.g. £9m Dobbin, Larin, Peretz). Player-fan bond strained by the 2024-25 season."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found. Spygate (staff) is already in V."
+  },
+  "icons": [],
+  "coach": "Tonda Eckert, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Stephens is long-serving but a squad player more than an icon; not listed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.itv.com/news/meridian/2026-08-07/southampton-fc-players-back-manager-tonda-eckert-after-spygate-fallout",
+   "https://en.wikipedia.org/wiki/Tonda_Eckert",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Stoke City",
+  "T": {
+   "score": 4,
+   "evidence": "Mark Robins (since January 2025): pragmatic, low-possession football, 17th in 2025-26, reported to be under sack pressure. Several coaches in three seasons (Neil, Schumacher, Pèlach, Robins) and repeated squad rebuilds. Captain goalkeeper Viktor Johansson. No icon, no pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Mark Robins, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mark_Robins",
+   "https://footballleagueworld.co.uk/mark-robins-facing-stoke-city-sack-threat/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Swansea City",
+  "T": {
+   "score": 7,
+   "evidence": "Long possession identity ('Swansea way'), now with Klopp's former assistant Vítor Matos (since 2025) adding intensity: top of the table in Sept 2026 with four clean sheets in five. Captain Ben Cabango, a Welsh academy graduate and long-serving centre-back. Moderate churn; celebrity investors (Modrić, Snoop Dogg) but no star-ego squad. Good player-fan bond in a community-owned-in-part club."
+  },
+  "V_delta": {
+   "points": 1,
+   "evidence": "Homegrown captain Ben Cabango (academy graduate, Wales international) leads a first team with other academy products. No player-conduct cases found."
+  },
+  "icons": [
+   "Ben Cabango"
+  ],
+  "coach": "Vítor Matos, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "T 7 leans on Matos' early 2026-27 form; 6 if it fades."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://swanseabaynews.com/swans-more-useful-that-we-speak-about-football-matos-on-the-cabango-challenge/",
+   "https://en.wikipedia.org/wiki/Ben_Cabango",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Watford",
+  "T": {
+   "score": 3,
+   "evidence": "Constant coaching turnover under the Pozzo model: Ed Still sacked 3 May 2026 after under three months; Alessio Dionisi appointed June 2026 (his 10th job in 12 years). Very high squad churn, many loans, players moved around the Udinese network. Captain Mattie Pollock. No icon, no lasting style, weak player-fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No off-field conduct or welfare cases found (only on-field FA charges, e.g. Mamadou Doumbia, Feb 2026)."
+  },
+  "icons": [],
+  "coach": "Alessio Dionisi, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://sports.yahoo.com/articles/watford-turn-another-italian-head-152500335.html",
+   "https://www.thefa.com/news/2026/mar/03/fa-charges---february-2026-040326",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "West Bromwich Albion",
+  "T": {
+   "score": 5,
+   "evidence": "Frequent coaching changes since Corberán left (Dec 2024): Mowbray, Ryan Mason, then club legend James Morrison (341 apps over 12 years as a player) as interim and permanent from 30 April 2026 after a 10-game unbeaten survival run. Captain George Campbell. Moderate churn, no current player icon; Morrison's return improves the bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "James Morrison, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Morrison is a club-legend coach but new; revisit if he lasts."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.wba.co.uk/news/james-morrison-appointed-albion-head-coach",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "West Ham United",
+  "T": {
+   "score": 4,
+   "evidence": "Mostly reactive, low-possession football (Moyes, Lopetegui, Potter, now Nuno since Sept 2025); relegated in 2026 with a reported £150m player exodus. Captain Jarrod Bowen stayed after relegation and is the current icon (since 2020, Conference League winner). High churn and star-transfer culture; broken board-fan relations."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Lucas Paquetá cleared of spot-fixing charges in 2025 (club backed him; betting, not abuse/violence). Kurt Zouma cat case (2022) is outside the window. No other player-conduct cases found."
+  },
+  "icons": [
+   "Jarrod Bowen"
+  ],
+  "coach": "Nuno Espírito Santo, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Confirm Bowen is staying beyond the summer window."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://readwestham.com/2026/05/25/west-ham-relegated-premier-league-expected-to-lead-to-150m-player-exodus/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_West_Ham_United_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Wolverhampton Wanderers",
+  "T": {
+   "score": 3,
+   "evidence": "Relegated from the Premier League bottom in 2026, 21 points from safety; Rob Edwards sacked June 2026 after seven months, César Peixoto (ex-Gil Vicente) appointed on a two-year deal. Five coaches in three seasons (Lopetegui, O'Neil, Pereira, Edwards, Peixoto). Very high churn and a sell-on model (Cunha, Aït-Nouri, Neto sold). Captain Toti Gomes. No icon, reactive play, owner-fan relations poor."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Matheus Cunha's 2025 clash with an Ipswich security guard (FA ban) was on-field and he has left. No other player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "César Peixoto, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.itv.com/news/central/2026-06-11/wolves-sack-manager-rob-edwards-after-less-than-six-months-in-charge",
+   "https://www.skysports.com/football/news/13554380/wolves-manager-latest-cesar-peixoto-announced-as-rob-edwards-replacement-at-molineux",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ },
+ {
+  "name": "Wrexham",
+  "T": {
+   "score": 7,
+   "evidence": "Phil Parkinson (since July 2019) is the defining long-serving coach: three straight promotions then a strong first Championship season with a direct, physical, high-energy side. Captain Dominic Hyam. Very visible player-fan and community bond (documentary, players at community events). Against it: heavy churn (11 permanent signings in 2025, 7 more in 2026) and icon Paul Mullin has left."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Phil Parkinson, since 2019",
+  "republic_link": {
+   "value": false,
+   "evidence": "No ex-Sacramento Republic player recognised in the 2026-27 squad; the Wikipedia list of 162 ex-Republic players was scanned by name, not fully cross-checked (API rate-limited). Kieran Phillips (Republic 2024) is at Ross County."
+  },
+  "flags": [
+   "Churn is very high for a 'stable squad'; T could be 6."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/48655759/wrexham-boss-eyes-new-signings-2026-27-championship-promotion-push",
+   "https://www.northwalespioneer.co.uk/sport/26536102.wrexham-submit-official-2026-27-season-efl-squad-list/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  ]
+ }
+]

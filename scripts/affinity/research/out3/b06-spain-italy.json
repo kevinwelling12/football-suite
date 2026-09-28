@@ -239,7 +239,7 @@
    "evidence": "Tajonar products and long-serving players are a large part of the first team. No conduct or welfare cases found (2013 match-fixing concerned directors, already flagged)."
   },
   "icons": [],
-  "coach": "Luis Miguel Ramis, since 2026",
+  "coach": "Luis Miguel Ramis (coach in 2025-26; start date not verified)",
   "republic_link": {
    "value": false,
    "evidence": ""
@@ -336,14 +336,14 @@
   "name": "Sevilla",
   "T": {
    "score": 4,
-   "evidence": "Old S 5. High churn and coach turnover (Mendilibar, Quique, Pimienta, García Pimienta, Almeyda, García Plaza) amid boardroom war; Jesús Navas retired in Dec 2024 and no icon remains. Captain Gabriel Suazo. Players often jeered; weak bond in recent seasons."
+   "evidence": "Old S 5. High churn and coach turnover (Mendilibar, Diego Alonso, Quique Sánchez Flores, García Pimienta, Almeyda, García Plaza) amid boardroom war; Jesús Navas retired in Dec 2024 and no icon remains. Captain Gabriel Suazo. Players often jeered; weak bond in recent seasons."
   },
   "V_delta": {
    "points": -1,
    "evidence": "Held Rafa Mir's contract after his Sept 2024 sexual-assault arrest and loaned him to Valencia and Elche rather than acting; condemned him only after the June 2026 conviction. Kike Salas investigated in 2024 over bets on his yellow cards; club kept playing him."
   },
   "icons": [],
-  "coach": "Luis García Plaza, since 2026",
+  "coach": "Luis García Plaza (in charge for 2025-26 run-in and 2026-27)",
   "republic_link": {
    "value": false,
    "evidence": ""
@@ -385,6 +385,392 @@
    "https://en.wikipedia.org/wiki/Valencia_CF",
    "https://www.que.es/2026/06/18/elche-rescinde-rafa-mir/",
    "https://www.elindependiente.com/espana/2026/05/28/comienza-juicio-rafa-mir-agresion-sexual/"
+  ]
+ },
+ {
+  "name": "AC Milan",
+  "T": {
+   "score": 4,
+   "evidence": "Old S 5. Constant churn in coaches (Pioli, Fonseca, Conceição, Allegri, Amorim since June 2026) and squad (Tonali, Kalulu, Theo Hernández, Reijnders sold); captain Mike Maignan. Amorim brings a 3-4-2-1 but no settled identity yet. Fan protests against ownership; weak squad-curva bond after the curva was dissolved."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found for 2023-2026."
+  },
+  "icons": [],
+  "coach": "Rúben Amorim, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Amorim is new: revisit T after 2026-27."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AC_Milan",
+   "https://www.dazn.com/it-IT/news/calcio/probabile-formazione-milan-modulo-titolari-ballottaggi/1ovtpo3fat0e412ic9xn9kpicw"
+  ]
+ },
+ {
+  "name": "Atalanta",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 8. Gasperini's elite man-marking press (2016-2025) is over: Jurić sacked Nov 2025, Palladino, then Sarri (4-3-3, possession) for 2026-27. Long-serving captain Marten de Roon (10 years) was benched by Sarri and sold to Roma in Sept 2026; Éderson now captain, Pašalić remains. Stars sold each summer (Koopmeiners, Lookman, Retegui). Players' bond with the Curva Nord is traditionally strong."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found. Zingonia pathway already in V."
+  },
+  "icons": [],
+  "coach": "Maurizio Sarri, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Biggest drop in the batch (-2): the Gasperini era and its captain are gone."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Atalanta_BC",
+   "https://sport.quotidiano.net/calcio/atalanta/de-roon-roma-gasperini-276dab1f"
+  ]
+ },
+ {
+  "name": "Bologna",
+  "T": {
+   "score": 7,
+   "evidence": "Old S 7. Intense pressing under Motta and Italiano (2024-May 2026), 2025 Coppa Italia winners and Champions League 2024-25; Palladino coach for 2026-27. Vice-captain Riccardo Orsolini (since 2018, club's leading modern scorer) and Lewis Ferguson; captain Lorenzo De Silvestri. Players celebrated the Coppa with the city. Stars regularly sold (Zirkzee, Calafiori, Ndoye, Beukema)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [
+   "Riccardo Orsolini"
+  ],
+  "coach": "Raffaele Palladino, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bologna_FC_1909",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+  ]
+ },
+ {
+  "name": "Cagliari",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 5. Fabio Pisacane (promoted from the club's youth teams in 2025) keeps a scrappy, hard-running survival side. Captain Alessandro Deiola (Sardinian, academy); strong players-island bond from the Ranieri 2023 promotion. Moderate churn."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found. One homegrown captain, not a notable homegrown core."
+  },
+  "icons": [],
+  "coach": "Fabio Pisacane, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cagliari_Calcio",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+  ]
+ },
+ {
+  "name": "Fiorentina",
+  "T": {
+   "score": 4,
+   "evidence": "Old S 5. Coach churn (Italiano to 2024, Palladino, Pioli sacked 2025, Vanoli since Nov 2025) and a 15th-place 2025-26; many loans. Captain David de Gea. No current icon. Club handled Edoardo Bove's cardiac arrest (Dec 2024) with visible solidarity from squad and fans."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct cases found. Bove case handled supportively (no penalty, no raise)."
+  },
+  "icons": [],
+  "coach": "Paolo Vanoli, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/ACF_Fiorentina",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+  ]
+ },
+ {
+  "name": "Frosinone",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 6. Massimiliano Alvini's front-foot side won promotion as Serie B runners-up (81 pts). Captain Ilario Monterisi; squad leans on loans from bigger clubs, so churn is high. Small-town, close fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Massimiliano Alvini, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Frosinone_Calcio",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B"
+  ]
+ },
+ {
+  "name": "Genoa",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 6. Daniele De Rossi (since late 2025, after Vieira) brought energy and stability; 16th in 2025-26. Captain Johan Vásquez; long-serving Sabelli. Stars sold (Gudmundsson, Retegui). Gradinata Nord bond with players is strong."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Daniele De Rossi, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Genoa_CFC",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+  ]
+ },
+ {
+  "name": "Juventus",
+  "T": {
+   "score": 4,
+   "evidence": "Old S 5. Coach churn (Allegri to 2024, Motta, Tudor, Spalletti since late 2025) and heavy squad turnover; captain Manuel Locatelli. Kenan Yildiz (No. 10) is the rising face but not yet an icon. Corporate, star-driven culture; weak player-fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Pogba: four-year doping ban (2024, cut to 18 months); club ended his contract by mutual consent in Nov 2024. Fagioli: 2023 betting ban, club kept him, sold 2025. Neither is abuse or violence. Next Gen pathway already in V."
+  },
+  "icons": [],
+  "coach": "Luciano Spalletti, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Player welfare: 2020-21 'salary manoeuvre' (hidden wage deferrals; 2024 arbitration ordered EUR 9.8m to Ronaldo). Kevin to decide if this counts as welfare (not scored)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Juventus_FC",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Juventus_FC_season"
+  ]
+ },
+ {
+  "name": "Lazio",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 5. Sarri's possession side in 2025-26 under a transfer freeze, which kept churn low; Gattuso (intense, combative) for 2026-27. Captain Mattia Zaccagni, vice Adam Marušić (since 2017), homegrown Danilo Cataldi. No star-ego culture, no single icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct cases found; fan racism already in V."
+  },
+  "icons": [],
+  "coach": "Gennaro Gattuso, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SS_Lazio",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+  ]
+ },
+ {
+  "name": "Lecce",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 5. Survival side under Di Francesco (since 2025); constant sale of best players (Hjulmand, Dorgu, Krstović). Captain Wladimiro Falcone (GK since 2022), Antonino Gallo. Club sacked coach D'Aversa the day after he headbutted a Verona player (March 2024)."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "D'Aversa headbutt (coach, 2024): club dismissed him at once; good response, no penalty. No player cases found."
+  },
+  "icons": [],
+  "coach": "Eusebio Di Francesco, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/US_Lecce",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+  ]
+ },
+ {
+  "name": "Monza",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 6. Relegated with 18 points in 2024-25, promoted via 2026 play-off under Paolo Bianco; Ivan Jurić (intense man-marking press) now coach. High churn after the Fininvest sale; no icon or long-serving captain found."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Ivan Jurić, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Captain not verified."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AC_Monza",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B"
+  ]
+ },
+ {
+  "name": "Parma",
+  "T": {
+   "score": 5,
+   "evidence": "Old S 6. Young, attacking side (Chivu, then Carlos Cuesta); Cuesta left on 27 Sept 2026 and the job is vacant (Gilardino, D'Aversa linked). Captain Enrico Delprato (since 2020), Adrián Bernabé. High churn of young talents sold on."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Vacant (Carlos Cuesta left 27 Sept 2026)",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Coach vacant: revisit when appointed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+   "https://www.gazzettadiparma.it/parma-calcio/2026/09/27/news/parma--cuesta-non-e-piu-l-allenatore-dei-crociati-970624/"
+  ]
+ },
+ {
+  "name": "Sassuolo",
+  "T": {
+   "score": 7,
+   "evidence": "Old S 6. Ball-playing, proactive side; Grosso won promotion (2024-25), Alberto Aquilani appointed July 2026. Captain Domenico Berardi, at the club since 2012, all-time top scorer, stayed through the 2024 relegation: a current icon. Small family club, low ego culture, but thin crowds limit the fan bond."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found. Berardi's loyalty is credited in T."
+  },
+  "icons": [
+   "Domenico Berardi"
+  ],
+  "coach": "Alberto Aquilani, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Final S evidence names Aquilani for 2025-26; Wikipedia says he was appointed July 2026."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+  ]
+ },
+ {
+  "name": "Torino",
+  "T": {
+   "score": 4,
+   "evidence": "Old S 5. Coach churn (Jurić to 2024, Vanoli, Baroni, D'Aversa, Ignazio Abate). Stars sold each year (Buongiorno, Bellanova, Ricci); captain Duván Zapata, vice Nikola Vlašić. Fans protest the owner; players not close to the curva."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Ignazio Abate, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Torino_FC",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A"
+  ]
+ },
+ {
+  "name": "Udinese",
+  "T": {
+   "score": 4,
+   "evidence": "Old S 5. Kosta Runjaić since 2024 (10th in 2025-26). Scouting-and-sell model means very high churn; captain Jesper Karlström; no long-serving icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases attributable to a named player found (a May 2025 Udine sexual-assault investigation involved an unnamed footballer)."
+  },
+  "icons": [],
+  "coach": "Kosta Runjaić, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Unnamed footballer investigated in Udine (May 2025): club not identified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Udinese_Calcio",
+   "https://www.telefriuli.it/cronaca/calciatore-indagato-per-violenza-sessuale-al-vaglio-il-racconto-della-donna/"
+  ]
+ },
+ {
+  "name": "Venezia",
+  "T": {
+   "score": 6,
+   "evidence": "Old S 6. Giovanni Stroppa's front-foot side won Serie B 2025-26 (82 pts). Captain Gianluca Busio (American, at the club since 2021). Moderate churn after the 2025 relegation; no icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player-conduct or welfare cases found."
+  },
+  "icons": [],
+  "coach": "Giovanni Stroppa, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Venezia_FC",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B"
   ]
  }
 ]

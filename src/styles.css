@@ -173,10 +173,20 @@ h4{margin:0 0 6px;font-size:14px;font-weight:800;font-variation-settings:"wdth" 
 @media (prefers-reduced-motion:no-preference){.match{transition:border-color .15s}.match:hover{border-color:var(--faint)}}
 
 
-.comps{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:14px -20px 0;padding:0 20px 2px}
-.comps::-webkit-scrollbar{display:none}
+/* Top nav, three levels: region tabs (text + underline) > competition chips > section tabs (segmented) */
+.regions{display:flex;justify-content:space-between;margin:16px 0 0;border-bottom:1px solid rgba(255,255,255,.14)}
+@media (min-width:601px){.regions{justify-content:flex-start;gap:30px}}
+.regions button{background:none;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;color:rgba(235,235,245,.6);
+  padding:9px 4px 10px;font-size:15px;font-weight:650;cursor:pointer;white-space:nowrap}
+.regions button[aria-pressed="true"]{color:#fff;border-bottom-color:var(--dot)}
+.comps{display:flex;gap:6px;margin:12px 0 0}
+:root.bc .comps button{flex:0 1 auto;min-width:0;padding:6px 11px 6px 9px;font-size:13.5px;gap:6px}
+.comps button>span,.comps button{overflow:hidden;text-overflow:ellipsis}
+@media (max-width:400px){.comps{gap:4px}:root.bc .comps button{padding:6px 7px 6px 6px;font-size:12.5px;gap:5px}.comps button i{width:8px;height:8px}}
+.comps button i{flex:none}
+.comps[hidden]{display:none}
 .comps button{flex:none;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);color:#fff;border-radius:999px;padding:7px 13px 7px 10px;font-size:13.5px;font-weight:650;cursor:pointer;display:flex;align-items:center;gap:7px;white-space:nowrap}
-.comps button i{width:10px;height:10px;border-radius:50%;background:var(--c);box-shadow:0 0 0 2px rgba(255,255,255,.35)}
+.comps button i{width:9px;height:9px;border-radius:50%;background:var(--c)}
 .comps button[aria-pressed="true"]{background:#fff;color:var(--ink);border-color:#fff}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:14px}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);cursor:pointer;text-align:left;padding:0;display:block;width:100%}

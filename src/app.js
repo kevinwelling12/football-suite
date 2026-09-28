@@ -156,8 +156,13 @@ function renderChrome() {
   setBrand(k);
   document.documentElement.classList.add('bc');
   $('#title').innerHTML = k === 'home' ? 'Football Tracker<span class="season">Suite</span>' : `${esc(COMPS_CFG[k].name)}<span class="season">${esc(COMPS_CFG[k].season)}</span>`;
-  $('#comps').innerHTML = `<button data-view="home" aria-pressed="${k === 'home'}"><i style="--c:#7C5CFF"></i>Overview</button>` +
-    ORDER.map(c => `<button data-view="${c}" aria-pressed="${k === c}"><i style="--c:${COMPS_CFG[c].brand.accent}"></i>${esc(COMPS_CFG[c].name)}</button>`).join('');
+  const reg = regionOf(k); if (reg) lastIn[reg.key] = k;
+  $('#regions').innerHTML = `<button data-view="home" aria-pressed="${k === 'home'}">Home</button>` +
+    REGIONS.map(r => `<button data-region="${r.key}" aria-pressed="${reg === r}">${esc(r.name)}</button>`).join('');
+  const chip = c => { const [f, s] = CHIP[c] || [COMPS_CFG[c].name]; return s ? `<span class="nm-full">${esc(f)}</span><span class="nm-short">${esc(s)}</span>` : esc(f); };
+  $('#comps').innerHTML = reg ? reg.comps.map(c => `<button data-view="${c}" aria-pressed="${k === c}" aria-label="${esc(COMPS_CFG[c].name)}"><i style="--c:${DOT[c]}"></i>${chip(c)}</button>`).join('') : '';
+  $('#comps').hidden = !reg;
+  $('#regions').style.setProperty('--dot', reg ? DOT[k] : '#fff');
   const tabs = k === 'home' ? [] : cup ? [['week', 'Rounds'], ['table', 'Clubs left'], ['races', 'Trophy race'], ['clubs', 'Your Affinity'], ['settings', 'Settings']]
     : [['week', COMPS_CFG[k].round], ['table', COMPS_CFG[k].grouped ? (['mls', 'usl'].includes(k) ? 'Conferences' : 'Groups') : 'Table'], ['races', 'Races'],
        ...(['nwsl', 'mls', 'usl'].includes(k) ? [['bracket', 'Playoffs']] : []), ['clubs', 'Clubs'], ['settings', 'Settings']];
@@ -165,10 +170,9 @@ function renderChrome() {
     ? `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="Settings" title="Settings" class="gear"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.3 7.3 0 0 0-1.7-1l-.4-2.6h-4l-.4 2.6a7.3 7.3 0 0 0-1.7 1l-2.4-1-2 3.4 2 1.6a7.6 7.6 0 0 0 0 2l-2 1.6 2 3.4 2.4-1c.5.4 1.1.7 1.7 1l.4 2.6h4l.4-2.6c.6-.3 1.2-.6 1.7-1l2.4 1 2-3.4-2-1.6ZM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Z"/></svg></button>`
     : `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="${esc(l)}">${tabShort(k, t, l) === l ? esc(l) : `<span class="nm-full">${esc(l)}</span><span class="nm-short">${esc(tabShort(k, t, l))}</span>`}</button>`).join('');
   $('#tabs').hidden = k === 'home';
-  // Centre the active chip by scrolling the chip row only (scrollIntoView would also move the page).
-  const bar = $('#comps'), act = bar.querySelector('[aria-pressed="true"]');
-  if (act) bar.scrollLeft += act.getBoundingClientRect().left - bar.getBoundingClientRect().left - (bar.clientWidth - act.offsetWidth) / 2;
 }
+const regionOf = k => REGIONS.find(r => r.comps.includes(k));
+const lastIn = {};
 function renderStatus() {
   const k = state.view;
   let s;
@@ -611,7 +615,7 @@ function viewHome() {
   const big = ORDER.filter(k => R[k]).map(k => { const f = R[k].fx.filter(x => !x.played && x.importance !== undefined && !(x.round || '').endsWith('leg 1')).sort((a, b) => b.importance - a.importance)[0]; return f ? {k, f} : null; }).filter(Boolean);
   const motd = {}; for (const {k, f} of feed) { const d = fmtDateK(f); if (f.importance !== undefined && (!motd[d] || headline(f) > headline(motd[d].f))) motd[d] = {k, f}; }
   const isMotd = (k, f) => { const m = motd[fmtDateK(f)]; return m && m.k === k && m.f.id === f.id; };
-  const row = ({k, f}, bigMode) => `<div class="feed-row ${hasFav(k, f) ? 'fav-feed' : ''} ${!bigMode && isMotd(k, f) ? 'motd' : ''}" ${!bigMode && isMotd(k, f) ? 'title="Match of the day"' : ''} data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${COMPS_CFG[k].brand.accent === '#C8DC00' ? '#8FA000' : COMPS_CFG[k].brand.accent}">
+  const row = ({k, f}, bigMode) => `<div class="feed-row ${hasFav(k, f) ? 'fav-feed' : ''} ${!bigMode && isMotd(k, f) ? 'motd' : ''}" ${!bigMode && isMotd(k, f) ? 'title="Match of the day"' : ''} data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
     <span class="d ${!bigMode && isPast(f) ? 'past' : ''}">${bigMode ? fmtDateK(f) : whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
     <span class="m">${star(k, f.h)}${esc(nm(k, f.h))} v ${esc(nm(k, f.a))}${star(k, f.a)}${bigMode && f.mattersTo != null ? ` <span style="color:var(--muted);font-weight:500">· matters most to ${esc(nm(k, f.mattersTo))}</span>` : ''}</span>
     <span class="p num">${f.pick[0]}–${f.pick[1]}</span><span class="imp">${f.importance !== undefined ? `<span class="imp-track"><span class="imp-fill" style="width:${f.importance * 100}%"></span></span>` : ''}</span></div>`;
@@ -624,13 +628,13 @@ function viewHome() {
   }
   const mine = Object.values(byClub).filter(e => e.best).map(e => Object.assign({}, e.best, {also:[...e.comps].filter(c => c !== e.best.k)})).sort((a, b) => a.f.sortT - b.f.sortT);
   const yours = `<section class="section"><h2>Your clubs</h2><p class="sub">${mine.length ? 'The very next match for each club you follow, whichever competition it\'s in. Following a club in one competition follows it everywhere it plays.' : 'Follow clubs from any club card (tap a club name) or a competition\'s Settings tab, and their next matches show up here.'}</p>
-    ${mine.length ? `<div class="card" style="margin-top:12px">${mine.map(({k, i, f, also}) => `<div class="feed-row fav-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${COMPS_CFG[k].brand.accent === '#C8DC00' ? '#8FA000' : COMPS_CFG[k].brand.accent}">
+    ${mine.length ? `<div class="card" style="margin-top:12px">${mine.map(({k, i, f, also}) => `<div class="feed-row fav-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
       <span class="d ${isPast(f) ? 'past' : ''}">${whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
       <span class="m">★ ${esc(nm(k, i))} ${f.h === i ? 'v' : 'at'} ${esc(nm(k, f.h === i ? f.a : f.h))}${also.length ? `<small class="also">Also following in ${also.map(c => esc(COMPS_CFG[c].name)).join(', ')}</small>` : ''}</span>
       <span class="p num">${f.pick[0]}–${f.pick[1]}</span><span class="imp">${f.importance !== undefined ? `<span class="imp-track"><span class="imp-fill" style="width:${f.importance * 100}%"></span></span>` : ''}</span></div>`).join('')}</div>` : ''}</section>`;
   const lives = ORDER.filter(k => R[k]).flatMap(k => R[k].fx.filter(f => f.live).map(f => ({k, f})));
   const liveSec = lives.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Matches you've marked in progress, with live win chances and your pick 'em outlook.</p>
-    <div class="card" style="margin-top:12px">${lives.map(({k, f}) => `<div class="feed-row live-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${COMPS_CFG[k].brand.accent === '#C8DC00' ? '#8FA000' : COMPS_CFG[k].brand.accent}">
+    <div class="card" style="margin-top:12px">${lives.map(({k, f}) => `<div class="feed-row live-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
       <span class="d">${f.live.min}'</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
       <span class="m">${star(k, f.h)}${esc(nm(k, f.h))} <b class="num">${f.live.h}–${f.live.a}</b> ${esc(nm(k, f.a))}${star(k, f.a)} <span style="color:var(--muted);font-weight:500">· ${pct(f.live.pH)} / ${pct(f.live.pD)} / ${pct(f.live.pA)}</span></span>
       <span class="p num">${f.pick[0]}–${f.pick[1]}</span><span class="imp" style="font-size:12px;color:var(--muted)">${f.live.ev.toFixed(2)} pts</span></div>`).join('')}</div></section>` : '';
@@ -758,7 +762,7 @@ function openClub(k, i) {
 
 // ---------------------------------------------------------------- events
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-signin],[data-signout],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-tmode],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
+  const t = e.target.closest('[data-signin],[data-signout],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
   if (!t) return;
   const k = state.view;
   const card = t.closest('#main [data-fx]'); anchor = card ? {key:card.dataset.fx, top:card.getBoundingClientRect().top} : null; queueMicrotask(() => { anchor = null; });
@@ -796,6 +800,7 @@ document.addEventListener('click', e => {
     save(k); if ($('#detail').open) openClub(k, i); render(); return; }
   if (t.dataset.club) { openClub(k, +t.dataset.club); return; }
   if (t.dataset.tmode) { state.tmode[k] = t.dataset.tmode; render(); return; }
+  if (t.dataset.region) { const r = REGIONS.find(x => x.key === t.dataset.region); if (regionOf(k) === r) return; state.view = lastIn[r.key] || r.comps[0]; render(); window.scrollTo({top:0}); return; }
   if (t.dataset.view) { state.view = t.dataset.view; render(); window.scrollTo({top:0}); return; }
   if (t.dataset.go) { const [kk, id] = t.dataset.go.split(':'); state.view = kk; state.tab[kk] = 'week'; const f = R[kk].fx[+id]; state.mw[kk] = f.mw;
     if (kk === 'unl' && f.h != null) state.unlLeague = (T(kk)[f.h].group || 'A')[0];

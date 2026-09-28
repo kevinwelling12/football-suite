@@ -75,5 +75,18 @@ const COMPS_CFG = {
       headline: ['Title race', 'win', 'to win the Nations League'], line: ['Quarter-final line', 8, 'Projected 8th overall'] }) },
   cup: { name: 'Carabao Cup', season: '26/27', round: 'Round', abbr: '', brand: { head: '#004D2C', accent: '#E30613', glow: 'rgba(227,6,19,.5)', tag: '#FF7A82' }, source: 'EFL and match reports', cup: true },
 };
-const ORDER = ['epl', 'ucl', 'cup', 'mls', 'usl', 'bl', 'nwsl', 'esp', 'ita', 'fra', 'ch', 'unl'];
-if (typeof module !== 'undefined') module.exports = { COMPS_CFG, ORDER };
+// Top nav: region tabs, then that region's competitions as chips. ORDER follows the regions.
+// dot = the competition's colour in the nav and on the overview: one clearly different hue per competition,
+// tuned to read on black. brand.* still themes each competition's own pages.
+const REGIONS = [
+  { key: 'eng', name: 'England', comps: ['epl', 'ch', 'cup'] },
+  { key: 'eur', name: 'Europe', comps: ['esp', 'ita', 'bl', 'fra'] },
+  { key: 'usa', name: 'USA', comps: ['mls', 'usl', 'nwsl'] },
+  { key: 'uefa', name: 'UEFA', comps: ['ucl', 'unl'] },
+];
+const DOT = { epl: '#FF2D87', ch: '#E9B824', cup: '#22C55E', ucl: '#3B82F6', esp: '#FF7A1A', ita: '#14B8A6', bl: '#EF4444', fra: '#C4E02A',
+  mls: '#38BDF8', usl: '#FFB020', nwsl: '#A78BFA', unl: '#CBD5E1' };
+// Chip labels: [full, phone]. Phone labels keep each region's chips on one row at 390px.
+const CHIP = { epl: ['Premier League', 'Premier Lg'], cup: ['Carabao Cup', 'Carabao'], usl: ['USL'] };
+const ORDER = REGIONS.flatMap(r => r.comps);
+if (typeof module !== 'undefined') module.exports = { COMPS_CFG, ORDER, REGIONS, DOT, CHIP };

@@ -31,6 +31,9 @@ undrawn rounds, draw entry supported. MODEL.poResolve/poProbs: bracket resolutio
   name), settings (per comp incl. adj = points adjustments), ko (playoff results), motw (locked Match of the
   week per round), suite (pick 'em scoring, motwW), draws (cup), tmode (table view).
 - compute(k) runs the model and attaches kickoffs (data.kick + reschedules); computeAll() is progressive.
+- Top nav (renderChrome): region tabs (REGIONS in config.js: England, Europe, USA, UEFA) > that region's
+  competition chips (DOT colours, CHIP phone labels) > section tabs. A region tab reopens the last competition
+  viewed in it. ORDER follows REGIONS.
 - Views: overview (tiles, Your clubs, What's next, biggest per comp, Live now), round/matchweek cards
   (score bug), table (current / as it stands / projected, per-league columns for Nations League),
   races, playoffs bracket, clubs (Affinity breakdown), settings, club sheet, match detail

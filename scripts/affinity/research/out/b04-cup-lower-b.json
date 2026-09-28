@@ -549,5 +549,282 @@
    "https://en.wikipedia.org/wiki/2025%E2%80%9326_Shrewsbury_Town_F.C._season",
    "https://www.scotsman.com/sport/football/inside-the-stunning-spartans-led-takeover-of-shrewsbury-town-and-the-brad-friedel-link-9023267"
   ]
+ },
+ {
+  "name": "Stevenage",
+  "C": {
+   "score": 3,
+   "evidence": "Broadhall Way (7,318). Avg home league crowd 4,366 in 2025-26 despite a 6th-place League One finish; 7,321 for the play-off semi. Thin support, little distinct identity."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Shirt sponsor Xsolla (games payments firm); no betting sponsor found. No other notable positives or negatives verified."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Founded 1976 after Stevenage Athletic went bust; FA Trophy 2007, 2009; beat Newcastle 3-1 in the 2011 FA Cup. League club since 2010."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Phil Wallace owns 91% and has chaired the club for decades; stable, sensible running; joint-best League finish (6th) in 2025-26."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Alex Revell; play-off semi-final 2026. Style not verified; no clear pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stevenage_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Stevenage_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+  ]
+ },
+ {
+  "name": "Stockport County",
+  "C": {
+   "score": 8,
+   "evidence": "Avg home league crowd 9,503 in 2025-26 at Edgeley Park (10,852, home since 1902). Support held up through 11 non-league seasons (2011-22) and administration (2009); large following for the 2026 play-off final."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Sponsors VITA (front), GroFu (local agency, sleeve); no betting sponsor. Supporters' Co-operative (fan owners 2005-10) still active. Ground owned by the council since 2015 to save it; 250-year lease."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Founded 1883; best season 1996-97 (League Cup semi-final, promotion to second tier). Otherwise lower-league history."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Mark Stott (local businessman) bought club Jan 2020, cleared debts and funded rise from National League to League One play-off final (2026)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "3rd in League One 2025-26 (77 pts) under Dave Challinor, known for energetic, front-foot sides; Jimmy McNulty now manager."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "Jan 2026: Stott Capital (Mark Stott's firm) took a controlling stake in Hungarian club Debreceni VSC; clubs said to run independently; Stockport is the lead club."
+   }
+  ],
+  "flags": [
+   "Scale of owner funding vs income not verified: possible overspend adjustment."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stockport_County_F.C.",
+   "https://www.stockportcounty.com/news/2026/january/07/an-open-letter-from-mark-stott",
+   "https://www.countysupporterscoop.co.uk/a-new-line-east-mark-stotts-stake-in-debrecen/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Stockport_County_F.C._season"
+  ]
+ },
+ {
+  "name": "Swindon Town",
+  "C": {
+   "score": 6,
+   "evidence": "County Ground (15,728, home since 1896). Early 2026-27 crowds 7,120 and 8,833 in League Two. Solid support given six straight fourth-tier seasons."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "County Ground bought in 2023 (GBP 2.3m) via a joint venture with Trust STFC, giving fans a stake; women's team integrated into the club in 2023. Sponsors Pro:Direct Sport, Bravedog; no betting sponsor."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "League Cup winners 1969 (beat Arsenal 3-1 as a third-tier side); won 1990 play-off final but demoted for financial irregularities; Premier League 1993-94."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Clem Morfuni (Australian businessman) with co-owners Hollie Kiely and Bethany Parlodorio; bought the stadium with the trust. Ordinary private ownership, acceptable conduct."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Ian Holloway (contract to 2028) stabilised the club after 2024 turmoil; mid-table League Two. No clear pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Swindon_Town_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Swindon_Town_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_Two"
+  ]
+ },
+ {
+  "name": "Tranmere Rovers",
+  "C": {
+   "score": 6,
+   "evidence": "Prenton Park (16,567). Avg home crowd 6,398 in 2024-25 (10th in League Two); 2025-26 range 5,585-11,141. Loyal through three National League seasons (2015-18)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (SURE Solutions, O'Rourke Construction); no betting sponsor. Supporters' trust and women's team (North West Regional League). No formal fan board seat found."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "94 continuous Football League years to 2015; John King era (late 1980s-90s); 2000 League Cup final; several FA Cup quarter-finals."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Mark and Nicola Palios (owners since 2014) sought a sale for over a year; exclusivity with investors (reported Ascent Capital Partners) extended Jan 2026; reported GBP 2.9m losses. Uncertain."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "21st in League Two 2025-26; Darrell Clarke manager. No clear pressing identity."
+  },
+  "adjustments": [],
+  "flags": [
+   "Takeover pending (Ascent Capital Partners reported; a Tacopina / A$AP Rocky bid also reported): re-check O and possible pe/multiclub when completed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tranmere_Rovers_F.C.",
+   "https://lbndaily.co.uk/palios-says-tranmere-sale-agreed-amid-2-9m-losses/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Tranmere_Rovers_F.C._season"
+  ]
+ },
+ {
+  "name": "Walsall",
+  "C": {
+   "score": 5,
+   "evidence": "Bescot Stadium (11,300, since 1990, replacing Fellows Park). Ordinary crowds; average attendance not verified this session."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Local sponsors (NoFo Brew Co, Howard Evans Roofing); no betting sponsor. No other notable factors verified."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "1933 FA Cup win over Arsenal, one of the competition's great upsets; record crowd 74,646 v Aston Villa (1930, at Villa Park). Otherwise lower-league history."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Trivela Group LLC (US sports investment firm, Birmingham, Alabama) holds 51% since June 2022; bought Bescot freehold from Jeff Bonser in Dec 2022. Acceptable conduct."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Led League Two by 12 points in Jan 2025 then lost the play-off final; 13th in 2025-26; Lee Grant from May 2026."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Trivela also owns Drogheda United (Ireland, 2023), 80% of Silkeborg IF (Denmark, 2024) and Trivela FC (Togo)."
+   },
+   {
+    "type": "pe",
+    "points": -4,
+    "evidence": "Owner is a sports investment firm building a multi-club portfolio."
+   }
+  ],
+  "flags": [
+   "Reported 2025 UEFA ruling on Drogheda/Silkeborg common ownership not verified here.",
+   "pe and multiclub both applied for one owner: Kevin may prefer a single combined -8."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Walsall_F.C.",
+   "https://www.expressandstar.com/sport/2024/11/19/walsall-owners-trivela-set-to-purchase-majority-stake-in-danish-superliga-side/",
+   "https://fcbusiness.co.uk/news/trivela-group-llc-takes-majority-ownership-of-walsall-football-club/"
+  ]
+ },
+ {
+  "name": "Wigan Athletic",
+  "C": {
+   "score": 5,
+   "evidence": "Avg home league crowd 9,974 in 2025-26 at the 25,138-capacity Brick Community Stadium (1999), shared with Wigan Warriors (rugby league). Fans stayed through the 2020 administration; atmosphere ordinary."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Front sponsor Smurfit Westrock; no betting sponsor. Community trust; no other notable factors verified."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "FA Cup winners 2013 (beat Man City), first club relegated and cup winners in same season; eight Premier League seasons 2005-13; elected to the League 1978."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Mike Danson owner since June 2023, bought the club after prior owners' failures (2020 administration; unpaid wages); stable since."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "16th in League One 2025-26 under Gary Caldwell. No clear pressing identity."
+  },
+  "adjustments": [],
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wigan_Athletic_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Wigan_Athletic_F.C._season",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_League_One"
+  ]
+ },
+ {
+  "name": "Wycombe Wanderers",
+  "C": {
+   "score": 5,
+   "evidence": "Adams Park (9,558 nominal, reduced to 8,828 for safety; Valley Terrace 700). Ordinary crowds; average attendance not verified this session."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Supporters Trust holds 10%; women's team via Wycombe Wanderers Foundation. Sponsors Origin Doors, Buckinghamshire New University; no betting sponsor."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Martin O'Neill took them into the League (1993); 2001 FA Cup semi-final (Essandoh winner at Leicester); 2007 League Cup semi-final; one Championship season 2020-21 under Gareth Ainsworth."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Blue Ocean Partners II (Mikheil Lomtadze, Kaspi.kz billionaire) owns 80% since May 2024; trust 10%, Dan Rice 10%. Conduct acceptable so far."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "11th in League One 2025-26; Michael Duff sacked 8 Sept 2026. Ainsworth-era identity was direct and physical rather than pressing."
+  },
+  "adjustments": [],
+  "flags": [
+   "Owner's wealth comes from Kazakh fintech Kaspi.kz: no state backing found; Kevin may want to double-check."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wycombe_Wanderers_F.C.",
+   "https://www.rferl.org/a/english-soccer-wycombe-georgia-kazakhstan-lomtadze/33238969.html",
+   "https://vitalfootball.co.uk/wycombe-wanderers-new-owners-a-deep-dive/"
+  ]
+ },
+ {
+  "name": "York City",
+  "C": {
+   "score": 6,
+   "evidence": "Avg home league crowd 6,650 in 2025-26 in the 8,500 York Community Stadium (near capacity). Moved from Bootham Crescent (88 years) in 2021: new-stadium -1 applied (base 7)."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "York City Supporters' Society/Trust owns 25% (trust owned the club 2003 and again in 2022). Shirt sponsor Titan Wealth; no betting sponsor."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "FA Cup semi-final 1955; beat Arsenal (1985 FA Cup) and Manchester United (1995-96 League Cup); second-tier spell 1974-76. Returned to the League in 2026 after a decade away."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "394 Sports (Julie-Anne and Matt Uggla) 51% since 2023, supporters' society 25%, FB Sports 24%. Invested; record promotion season."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "National League champions 2025-26 with club-record 108 points and 114 goals under Scott Lindsey: attacking, high-tempo side."
+  },
+  "adjustments": [],
+  "flags": [
+   "Identity of FB Sports (24% partner) not verified."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/York_City_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_York_City_F.C._season",
+   "https://www.ycst.org.uk/club-investment-update/"
+  ]
  }
 ]

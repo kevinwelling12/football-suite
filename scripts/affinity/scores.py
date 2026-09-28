@@ -72,4 +72,13 @@ S = {
 'Cyprus':(4,6,2,4,3,0,""),'Slovakia':(6,6,4,6,6,0,""),'Kazakhstan':(4,4,2,3,4,-20,"Government record -20"),'Moldova':(4,6,2,5,2,-5,"Government record -5"),'Bulgaria':(5,4,5,3,4,-10,"Racism -10"),'Luxembourg':(5,5,2,6,5,0,""),
 'Estonia':(4,6,1,5,3,0,""),'Andorra':(3,6,1,5,3,0,""),'Malta':(6,6,2,5,3,0,""),'Gibraltar':(3,6,1,5,2,0,""),'Liechtenstein':(3,6,1,6,3,0,""),'Lithuania':(4,6,3,5,3,0,""),
 'Azerbaijan':(3,3,1,1,3,-25,"Government record -25"),
+# Nations outside the Nations League: the 2026 World Cup field (research in research/wc, WC_BRIEF.md)
+'Argentina':(10,3,10,2,9,-12,"Racism -12"),'Brazil':(6,5,10,3,5,0,""),'Colombia':(9,4,6,3,8,-10,"Racism -5; Fan violence -5"),'Ecuador':(7,4,4,3,6,-15,"Racism -5; Government record -10"),
+'Paraguay':(7,5,5,4,7,-10,"Government record -10"),'Uruguay':(8,5,10,5,4,0,""),'Mexico':(8,3,7,3,6,-20,"Racism -10; Government record -10"),'United States':(7,7,6,6,6,0,""),
+'Canada':(6,6,4,4,8,0,""),'Panama':(7,6,3,5,7,0,""),'Haiti':(7,4,4,2,6,-10,"Government record -10"),'Curaçao':(5,6,3,4,5,0,""),
+'New Zealand':(4,7,4,7,6,0,""),'Australia':(6,7,5,6,7,0,""),'Iran':(8,2,5,1,5,-25,"Government record -25"),'Iraq':(8,6,6,3,4,-20,"Government record -20"),
+'Japan':(7,8,6,7,8,0,""),'Jordan':(7,6,3,4,6,-15,"Government record -15"),'Qatar':(2,2,3,1,3,-20,"Government record -20"),'Saudi Arabia':(4,2,5,1,3,-25,"Government record -25"),
+'South Korea':(7,5,7,3,5,0,""),'Uzbekistan':(6,5,3,2,4,-22,"Government record -22"),'Algeria':(9,4,6,2,5,-20,"Government record -20"),'Cape Verde':(7,7,4,5,8,0,""),
+'DR Congo':(8,6,6,3,7,-20,"Government record -20"),'Egypt':(6,3,7,3,6,-22,"Government record -22"),'Ghana':(6,6,7,4,4,0,""),'Ivory Coast':(7,6,7,4,6,-10,"Government record -10"),
+'Morocco':(9,5,8,3,7,-15,"Government record -15"),'Senegal':(8,4,7,4,6,-5,"Fan violence -5"),'South Africa':(6,5,6,3,7,0,""),'Tunisia':(7,5,5,3,3,-15,"Government record -15"),
 }

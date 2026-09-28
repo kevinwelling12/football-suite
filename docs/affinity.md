@@ -77,3 +77,10 @@ Location & big-4 (2026-09-28, scripts/affinity/big4.py + proximity.py; research 
   Lorient, LAFC, Earthquakes, Birmingham, Marseille). Passive fund stakes and ended ties don't count.
   Chelsea: BlueCo's Dodgers/Lakers owners bought out by Clearlake (Sept 2026), so no penalty.
 - Added like an adjustment, capped at +/-4, before the association pull.
+
+World Cup 2026 nations (2026-09-28; research in scripts/affinity/research/wc, WC_BRIEF.md):
+- The 32 non-UEFA nations of the 48-team field are scored like the UEFA nations (factors in scores.py, metadata and
+  World Cup results in data/nations_extra.json, filled by rescore.py). They show on the Nations League Affinity tab
+  (filter: All / World Cup 2026 / Nations League) and in the overall ranking, with a breakdown-only card.
+- Government penalty only for Partly Free / Not Free countries, as for UEFA (Argentina, Colombia, US, Senegal: 0).
+- United States: home nation +10 (the nations' maximum, like England's heritage +10).

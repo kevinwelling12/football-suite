@@ -1,0 +1,756 @@
+[
+ {
+  "name": "Australia",
+  "confed": "AFC",
+  "abbr": "AUS",
+  "color": "#FFCD00",
+  "C": {
+   "score": 6,
+   "evidence": "Solid, noisy travelling support (Green and Gold Army), big crowds for key home qualifiers; football is not the national first sport and home matches rotate around rugby/cricket grounds."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No FIFA discrimination or crowd sanctions in the 2026 cycle. The 2022 squad published a video on migrant-worker rights and same-sex marriage before Qatar; First Nations-designed kit; heavy investment in the Matildas."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Seven World Cups, six in a row; 2006 Hiddink run, 2015 Asian Cup, the only team to win two confederation titles; round-of-32 run in 2026 after beating Turkey 2-0."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Football Australia is a member-based body without government ties; recurring financial pressure and a volatile A-League, but no corruption findings."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Tony Popovic (since Sept 2024) built an intense, hard-running side that beat Turkey and took Egypt to penalties; young squad (Irankunda, Metcalfe) with a strong team-fan bond; Mat Ryan long-serving captain."
+  },
+  "adjustments": [],
+  "wc2026": "round of 32 (Group D: W1 D1 L1; lost to Egypt on penalties after 1-1)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Australia_men%27s_national_soccer_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices"
+  ]
+ },
+ {
+  "name": "Iran",
+  "confed": "AFC",
+  "abbr": "IRN",
+  "color": "#F2F2F2",
+  "C": {
+   "score": 8,
+   "evidence": "Azadi Stadium crowds are among Asia's loudest and a large diaspora follows Team Melli; support is politically split since 2022 (protest symbols in the stands); women largely excluded from domestic stadiums for decades."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "Federation objected to the Seattle 'Pride Match' vs Egypt; long-running ban on women in stadiums; players who showed solidarity with protesters (2022 anthem, 2026 massacres) faced state pressure."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Seven World Cups but never past the group stage; famous 1998 win over the United States; three straight Asian Cups (1968-76); Ali Daei's scoring record."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "Football Federation Islamic Republic of Iran is controlled by the state (Ministry of Sport appointments); FIFA suspended it in 2006 over government interference."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Amir Ghalenoei (second spell) with an experienced, stable core (Taremi, Hajsafi 149 caps); three draws in 2026 but eliminated; squad bond with fans strained by politics."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -25,
+    "evidence": "Freedom House 2026: 10/100, Not Free; RSF 2026 rank 177 of 180; 2026 massacres of protesters including athletes."
+   }
+  ],
+  "wc2026": "group stage (Group G: D3, third with 3 points, not among the best third-placed teams)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Iran_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://rsf.org/en/2026-rsf-index-press-freedom-25-year-low"
+  ]
+ },
+ {
+  "name": "Iraq",
+  "confed": "AFC",
+  "abbr": "IRQ",
+  "color": "#1B8A3A",
+  "C": {
+   "score": 8,
+   "evidence": "Fervent support: packed Basra International Stadium (65,000) since home matches returned, mass street celebrations after the play-off win over Bolivia; big diaspora in the US."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No FIFA discrimination sanctions; the national team is a cross-sectarian unifying symbol (2007 Asian Cup); a fatal crush outside Basra stadium at the 2023 Gulf Cup."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "2007 Asian Cup title won amid war (a major moment in Asian football); World Cups 1986 and 2026; 2015 Asian Cup semi-final."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Iraq Football Association has a history of political interference and leadership disputes (FIFA normalisation committee 2020-21); president Adnan Dirjal previously served as sports minister."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Graham Arnold since April 2025 (earlier coach churn: Casas sacked); lost all three 2026 matches 1-12; limited pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "Freedom House 2026: 31/100, Not Free; RSF 2025 rank 155."
+   }
+  ],
+  "wc2026": "group stage (Group I: L3, 1-12)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Iraq_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://factsinstitute.com/ranking/countries-ranked-by-freedom-of-press/"
+  ]
+ },
+ {
+  "name": "Japan",
+  "confed": "AFC",
+  "abbr": "JPN",
+  "color": "#2F5DD6",
+  "C": {
+   "score": 7,
+   "evidence": "Ultras Nippon lead a loud, organised singing section and a large travelling following; world-known for cleaning the stands; atmosphere is committed rather than volcanic."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Exemplary conduct: no red card at any World Cup since 1998, fans' stadium clean-ups, no FIFA sanctions; strong investment in the women's team (2011 world champions); clear youth pathway."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Eight straight World Cups; wins over Germany and Spain in 2022; record four Asian Cups; the J.League development model is widely copied."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Japan Football Association is independent and transparent, runs a long-term published plan ('Japan's Way'); stable coach contract policy."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Hajime Moriyasu in charge since 2018, a defining long-serving coach; high-press, high-work-rate side with a stable core; round of 32 in 2026 (lost 2-1 to Brazil)."
+  },
+  "adjustments": [],
+  "wc2026": "round of 32 (Group F: W1 D2; lost 2-1 to Brazil)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Japan_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices"
+  ]
+ },
+ {
+  "name": "Jordan",
+  "confed": "AFC",
+  "abbr": "JOR",
+  "color": "#CE1126",
+  "C": {
+   "score": 7,
+   "evidence": "'Al-Nashama' supporters fill Amman International Stadium and turned out in large numbers for the 2023 Asian Cup final and 2025 Arab Cup final runs; strong diaspora presence at the World Cup debut."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No FIFA discrimination sanctions; the federation's president Prince Ali led the campaign that overturned FIFA's hijab ban and backs women's football; domestic club rivalry carries Jordanian/Palestinian identity tension."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "World Cup debut in 2026; 2023 Asian Cup runners-up and 2025 Arab Cup runners-up."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Jordan Football Association is chaired by Prince Ali bin Hussein (royal family); stable and active in reform, but not independent of the monarchy."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Energetic counter-attacking side built under Ammouta and Jamal Sellami (2024-26); icon Musa Al-Taamari; scored in all three World Cup matches; Sellami left after the tournament (Ezzaki Badou now)."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -15,
+    "evidence": "Freedom House 2026: 34/100, Partly Free; RSF 2025 rank 147."
+   }
+  ],
+  "wc2026": "group stage (Group J: L3, debut)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jordan_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://factsinstitute.com/ranking/countries-ranked-by-freedom-of-press/"
+  ]
+ },
+ {
+  "name": "Qatar",
+  "confed": "AFC",
+  "abbr": "QAT",
+  "color": "#A6193C",
+  "C": {
+   "score": 2,
+   "evidence": "Small, quiet national-team crowds; home fans left early during the 2022 opening match; reports of paid or imported supporter groups in 2022."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "National team is a state project with naturalised players; the 2022 World Cup build was tied to migrant-worker deaths and abuse; LGBT rights criminalised. No FIFA crowd sanctions."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Two Asian Cup titles (2019, 2023); 2022 hosts (worst host record); first qualification through the pitch in 2026."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "Qatar Football Association is led by a member of the ruling Al Thani family and funded by the state (Aspire)."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Julen Lopetegui appointed in 2025; aging core (Al-Haydos 189 caps, Afif, Almoez Ali); conceded 10 in three 2026 matches."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "Freedom House 2026: 25/100, Not Free (absolute monarchy, no elected legislature); RSF 2026 rank 75; migrant-worker rights record."
+   }
+  ],
+  "wc2026": "group stage (Group B: D1 L2, 2-10)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Qatar_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://rsf.org/en/2026-rsf-index-press-freedom-25-year-low"
+  ]
+ },
+ {
+  "name": "Saudi Arabia",
+  "confed": "AFC",
+  "abbr": "KSA",
+  "color": "#1FA35B",
+  "C": {
+   "score": 4,
+   "evidence": "Big crowds and noise for major matches (large following in Qatar 2022), but national-team attendance at home is often thin; women admitted to stadiums only since 2018."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "National team and league are part of a state sportswashing programme (PIF); FIFA fined the federation for fireworks vs Iraq (Oct 2025) and two officials for misconduct vs Indonesia."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Seven World Cups; 1994 round of 16 and Owairan's solo goal; 2022 win over Argentina; three Asian Cups."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "Saudi Arabian Football Federation operates under the Ministry of Sport; state control of football."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Heavy coach churn (Mancini sacked 2024, Renard recalled then sacked April 2026, Georgios Donis appointed); cautious side, one goal in three 2026 matches."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -25,
+    "evidence": "Freedom House 2026: 9/100, Not Free; RSF 2026 rank 176 (executions and jailing of journalists)."
+   }
+  ],
+  "wc2026": "group stage (Group H: D2 L1, 1-5)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://rsf.org/en/2026-rsf-index-press-freedom-25-year-low",
+   "https://digitalhub.fifa.com/m/106ef9c589ecc94e/original/FIFA-World-Cup-26-Qualifiers-disciplinary-overview-05-November-2025.pdf"
+  ]
+ },
+ {
+  "name": "South Korea",
+  "confed": "AFC",
+  "abbr": "KOR",
+  "color": "#E53935",
+  "C": {
+   "score": 7,
+   "evidence": "Red Devils supporters group, known for the 2002 street crowds; loud at home, but boos and protests against the KFA and coach Hong at home matches since 2024."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No FIFA crowd sanctions; fan-federation relations broke down over the Klinsmann and Hong appointments; players' conduct otherwise not a recurring issue."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Eleven straight World Cups (Asia's record); 2002 semi-final; two early Asian Cups; Park Ji-sung and Son Heung-min eras."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "KFA under Chung Mong-gyu: ministry audit (2024) found the Hong appointment irregular; after the 2026 exit a new audit, police investigation into a 'rigged' coach pick; Chung and Hong resigned and apologised at a parliamentary hearing."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Hong Myung-bo's side lacked a clear pressing identity; captain Son Heung-min a long-serving icon; stable core, but squad-fan bond hurt by the federation crisis."
+  },
+  "adjustments": [],
+  "wc2026": "group stage (Group A: W1 L2)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/South_Korea_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://www.loc.gov/item/global-legal-monitor/2026-07-15/south-korea-korea-football-association-faces-audit-after-early-exit-from-2026-fifa-world-cup",
+   "https://www.koreajoongangdaily.com/sports/exfootball-czar-hong-myungbo-apologize-for-world-cup-debacle-in-parliamentary-hearing/12800010"
+  ]
+ },
+ {
+  "name": "Uzbekistan",
+  "confed": "AFC",
+  "abbr": "UZB",
+  "color": "#3FA9F5",
+  "C": {
+   "score": 6,
+   "evidence": "Enthusiastic home crowds in Tashkent and national celebrations on qualification; limited away following and no long tradition of organised support."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No FIFA sanctions found; strong youth pathway (U20/U23 Asian titles feed the senior squad)."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "World Cup debut 2026 (first Central Asian nation); 1994 Asian Games gold; 2011 Asian Cup semi-final."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Uzbekistan Football Association has been presided over by the chairman of the State Security Service (Azizov 2019-24, Kurbanov since Feb 2025)."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Fabio Cannavaro appointed Oct 2025 (short tenure); captain Eldor Shomurodov is the record scorer; lost all three 2026 matches 2-11."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -22,
+    "evidence": "Freedom House 2026: 12/100, Not Free; RSF 2025 rank 148."
+   }
+  ],
+  "wc2026": "group stage (Group K: L3, debut)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Uzbekistan_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://factsinstitute.com/ranking/countries-ranked-by-freedom-of-press/",
+   "https://en.wikipedia.org/wiki/Uzbekistan_Football_Association"
+  ]
+ },
+ {
+  "name": "Algeria",
+  "confed": "CAF",
+  "abbr": "ALG",
+  "color": "#F5F5F5",
+  "C": {
+   "score": 9,
+   "evidence": "Among the most intense national-team supports anywhere: full, deafening home stadiums and a huge diaspora following (France, North America); 2019 AFCON celebrations across the country."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Long record of disorder around big matches (2009 Egypt-Algeria qualifier violence, riots after 2019 celebrations in France); no FIFA discrimination sanctions in the 2026 cycle."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1982 upset of West Germany and the 'Disgrace of Gijon' that changed World Cup scheduling; the FLN team of the independence war; two AFCONs; 2014 round of 16."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "FAF president Walid Sadi has also been the government's Minister of Sports since Nov 2024 (dual role)."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Vladimir Petkovic (2024-26) left after the round-of-32 exit; Brahim Hemdani appointed Sept 2026; aging core, moderate intensity."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "Freedom House 2026: 31/100, Not Free; RSF 2026 rank 145 (down 19)."
+   }
+  ],
+  "wc2026": "round of 32 (Group J: W1 D1 L1; lost 2-0 to Switzerland)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Algeria_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://rsf.org/en/2026-rsf-index-press-freedom-25-year-low",
+   "https://en.wikipedia.org/wiki/Walid_Sadi",
+   "https://allafrica.com/stories/202609070016.html"
+  ]
+ },
+ {
+  "name": "Cape Verde",
+  "confed": "CAF",
+  "abbr": "CPV",
+  "color": "#1F5FBF",
+  "C": {
+   "score": 7,
+   "evidence": "Small nation that follows the Blue Sharks as one; large diaspora (New England) filled US venues in 2026; loyal but small home crowds at Estadio Nacional."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No sanctions; community-rooted small federation; diaspora identity is central to the team."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "World Cup debut in 2026 and unbeaten group (draws with Spain and Uruguay); AFCON quarter-finals 2013 and 2023."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Small, low-profile federation (FCF); no governance scandals found, limited public information."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Pedro 'Bubista' Brito in charge since 2020, a defining coach; very stable, humble squad; captain Ryan Mendes 100+ caps; organised, hard-working side that took Argentina to extra time."
+  },
+  "adjustments": [],
+  "wc2026": "round of 32 (Group H: D3, unbeaten; lost 3-2 aet to Argentina)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cape_Verde_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices"
+  ]
+ },
+ {
+  "name": "DR Congo",
+  "confed": "CAF",
+  "abbr": "COD",
+  "color": "#0098FF",
+  "C": {
+   "score": 8,
+   "evidence": "Passionate Leopards support and big diaspora; the government declared a public holiday after qualification; strong following at AFCON 2023 and in the US."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Players used the AFCON 2024 semi-final to protest the violence in eastern Congo (hand-over-mouth, finger-to-temple gesture); fatal crushes at domestic stadiums; no FIFA sanctions found for the national team."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "As Zaire, the first sub-Saharan side at a World Cup (1974); two AFCON titles (1968, 1974); 2026 return and round of 32."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "FECOFA is heavily state-funded; former president Constant Omari was arrested in 2021 over embezzlement of public funds."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Sebastien Desabre in charge since 2022 (AFCON 2023 semi-final, qualification through two play-off rounds); captain Chancel Mbemba 114 caps; intense, well-organised side that led England in the round of 32."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "Freedom House 2026: 18/100, Not Free; RSF 2025 rank 133; armed conflict in the east."
+   }
+  ],
+  "wc2026": "round of 32 (Group K: W1 D1 L1; lost 2-1 to England)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/DR_Congo_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://factsinstitute.com/ranking/countries-ranked-by-freedom-of-press/"
+  ]
+ },
+ {
+  "name": "Egypt",
+  "confed": "CAF",
+  "abbr": "EGY",
+  "color": "#E4002B",
+  "C": {
+   "score": 6,
+   "evidence": "Football-mad country, but supporters have been kept out of or capped in stadiums since the 2012 Port Said disaster and the crackdown on ultras; national-team atmosphere depends on diaspora abroad."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "State repression of ultras groups; federation objected to the Seattle Pride Match; in 2019 the EFA recalled Amr Warda after player pressure despite sexual-harassment allegations."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Record seven AFCONs (three in a row 2006-10); first African World Cup team (1934); first progress past a World Cup knockout round in 2026 (round of 16); Mohamed Salah."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Egyptian Football Association closely tied to the state; frequent leadership turnover and government-appointed committees."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Hossam Hassan (since 2024) built the best Egypt World Cup run; captain Salah is the icon; stable core."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -22,
+    "evidence": "Freedom House 2026: 18/100, Not Free; RSF 2026 rank 169."
+   }
+  ],
+  "wc2026": "round of 16 (Group G: W1 D2; beat Australia on penalties; lost 3-2 to Argentina)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Egypt_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://rsf.org/en/2026-rsf-index-press-freedom-25-year-low",
+   "https://www.aljazeera.com/news/2026/6/26/egypt-coach-offers-support-for-iranian-team-before-crucial-world-cup-match"
+  ]
+ },
+ {
+  "name": "Ghana",
+  "confed": "CAF",
+  "abbr": "GHA",
+  "color": "#FFFFFF",
+  "C": {
+   "score": 6,
+   "evidence": "Colourful, musical support (drums, horns, supporters' unions) and a proud following, but empty stadiums and public disaffection during poor spells (missed AFCON 2025)."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No FIFA discrimination sanctions; the 2018 'Number 12' exposé of match-fixing and bribery led to the old association's dissolution."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "2010 quarter-final and the Suarez handball; four AFCONs; 2006 round of 16; Abedi Pele, Asamoah Gyan."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Ghana Football Association rebuilt after the 2018 corruption scandal; current leadership under Kurt Okraku without major findings, but frequent coach turmoil."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Coach churn: Otto Addo sacked after four straight defeats, Carlos Queiroz appointed April 2026; lowest-ranked African side; captain Jordan Ayew most capped."
+  },
+  "adjustments": [],
+  "wc2026": "round of 32 (Group L: W1 D1 L1; lost 1-0 to Colombia)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ghana_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices"
+  ]
+ },
+ {
+  "name": "Ivory Coast",
+  "confed": "CAF",
+  "abbr": "CIV",
+  "color": "#FF8200",
+  "C": {
+   "score": 7,
+   "evidence": "Big, joyful home crowds at the Alassane Ouattara Stadium (Ebimpe), national euphoria at the home AFCON 2023 title; solid following abroad."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No FIFA discrimination sanctions; national team is a symbol of unity (Drogba's 2005 appeal for peace)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Three AFCONs (1992, 2015, 2023); the Drogba golden generation and his 2005 ceasefire appeal; four World Cups."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Ivorian Football Federation (FIF): functioning but close to political power; no major corruption findings in the last three years."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Emerse Fae (2024-26) took the side from AFCON crisis to the title and the 2026 round of 32, then left in July; Herve Renard returned Aug 2026; captain Kessie."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: 46/100, Partly Free (down 3; 2025 election with main opposition candidates excluded); RSF 2025 rank 64."
+   }
+  ],
+  "wc2026": "round of 32 (Group E: W2 L1; lost 2-1 to Norway)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://www.aljazeera.com/sports/2026/8/4/ivory-coast-reappoint-herve-renard-for-attempt-at-repeat-of-afcon-title"
+  ]
+ },
+ {
+  "name": "Morocco",
+  "confed": "CAF",
+  "abbr": "MAR",
+  "color": "#C1272D",
+  "C": {
+   "score": 9,
+   "evidence": "Among the loudest supports at 2022 and 2026 (whistling, chanting, huge diaspora crowds); full new stadiums at home; strong player-fan bond (players' families on the pitch in 2022)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "CAF fined the FRMF $315,000 at the AFCON 2025 final (ball boys, VAR-area intrusion, laser pointers); no discrimination sanctions; title later awarded to Morocco on appeal after Senegal's walk-off."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "First African World Cup semi-finalist (2022); first African group winner (1986); back-to-back quarter-finals (2026); AFCON 1976 and 2025 (awarded)."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "FRMF president Fouzi Lekjaa is also the government's Minister Delegate for the Budget and leads the 2030 World Cup committee; state-driven project."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Intense, well-drilled side; Regragui's era (2022-March 2026) then youth coach Mohamed Ouahbi; captain Hakimi an icon; record 19-match winning streak."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -15,
+    "evidence": "Freedom House 2026: 37/100, Partly Free; RSF 2026 rank 105 (up 15)."
+   }
+  ],
+  "wc2026": "quarter-finals (beat the Netherlands on penalties and Canada 3-0; lost 2-0 to France)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Morocco_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://rsf.org/en/2026-rsf-index-press-freedom-25-year-low",
+   "https://www.cafonline.com/news/caf-disciplinary-board-imposes-sanctions-on-the-federation-senegalaise-de-football-fsf-the-federation-royale-marocaine-de-football-frmf/",
+   "https://www.france24.com/en/sport/20260306-morocco-parts-ways-coach-walid-regragui-world-cup"
+  ]
+ },
+ {
+  "name": "Senegal",
+  "confed": "CAF",
+  "abbr": "SEN",
+  "color": "#FFFFFF",
+  "C": {
+   "score": 8,
+   "evidence": "'12e Gaïnde' supporters with drums and dance, loud home crowds at Diamniadio and large diaspora followings at World Cups."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Players walked off in the AFCON 2025 final on the coach's instruction; CAF fined the FSF $300,000 for players/staff and $300,000 for supporters' conduct and later ruled a forfeit (CAS appeal pending)."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "2002 quarter-final after beating holders France; AFCON 2021 champions; Sadio Mane era."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "FSF (Augustin Senghor) is stable, but backed the final walk-off and is fighting the forfeiture at CAS."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Aliou Cisse era ended Oct 2024; Pape Thiaw then Patrick Vieira (Aug 2026); icon Mane and captain Koulibaly; blew a 2-0 lead to Belgium."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -5,
+    "evidence": "Freedom House 2026: 70/100, Free, after 2021-24 repression of protests; RSF 2025 rank 74."
+   },
+   {
+    "type": "violence",
+    "points": -5,
+    "evidence": "CAF fined the FSF $300,000 for supporters' conduct at the AFCON 2025 final (Jan 2026)."
+   }
+  ],
+  "wc2026": "round of 32 (Group I: W1 L2, beat Iraq 5-0; lost 3-2 aet to Belgium)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Senegal_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://www.cafonline.com/news/caf-disciplinary-board-imposes-sanctions-on-the-federation-senegalaise-de-football-fsf-the-federation-royale-marocaine-de-football-frmf/",
+   "https://www.aljazeera.com/sports/2026/8/18/patrick-vieira-appointed-senegal-head-coach-with-afcon-qualifiers-looming"
+  ]
+ },
+ {
+  "name": "South Africa",
+  "confed": "CAF",
+  "abbr": "RSA",
+  "color": "#FFB612",
+  "C": {
+   "score": 6,
+   "evidence": "Vuvuzelas and festive crowds, but Bafana home attendance fluctuates and football competes with rugby and cricket for attention."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Bafana are a post-apartheid unity symbol and pick a mostly locally based squad; SAFA re-elected Danny Jordaan in Sept 2026 while he faces fraud charges (and a 2017 rape allegation he denies)."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Readmitted 1992; 1996 AFCON; first African hosts (2010) and Tshabalala's opening goal; first World Cup knockout run in 2026."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "SAFA president Jordaan charged with fraud and theft (2024) over misuse of association funds; re-elected 157-82."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Hugo Broos (2021-26) a defining coach: AFCON 2023 bronze and 2026 knockouts with a stable, Sundowns-based squad; captain Ronwen Williams; Pitso Mosimane took over Sept 2026."
+  },
+  "adjustments": [],
+  "wc2026": "round of 32 (Group A: W1 D1 L1; lost 1-0 to Canada)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/South_Africa_national_soccer_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://sports.yahoo.com/articles/danny-jordaan-elected-head-south-152136563.html",
+   "https://www.aljazeera.com/sports/2026/9/1/pitso-mosimane-appointed-by-south-africa-ahead-of-afcon-qualifiers"
+  ]
+ },
+ {
+  "name": "Tunisia",
+  "confed": "CAF",
+  "abbr": "TUN",
+  "color": "#E70013",
+  "C": {
+   "score": 7,
+   "evidence": "Loud Rades crowds and large followings at Russia 2018 and Qatar 2022 (and Lille friendly vs Brazil, 40,000)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No FIFA discrimination sanctions found; domestic league has recurring crowd trouble."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "First African team to win a World Cup match (1978 vs Mexico); 2004 AFCON; seven World Cups; beat France 2022."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Tunisian Football Federation president Wadie Jary jailed in 2023 on financial corruption charges; leadership turmoil since."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Coach churn (Kadri, Louhichi, Trabelsi, now Mouin Chaabani); cautious, defence-first side (qualified without conceding) that lost all three 2026 matches 2-12."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -15,
+    "evidence": "Freedom House 2026: 42/100, Partly Free (down 2; power concentrated under President Saied); RSF 2026 rank 137."
+   }
+  ],
+  "wc2026": "group stage (Group F: L3, 2-12)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tunisia_national_football_team",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/List_of_freedom_indices",
+   "https://rsf.org/en/2026-rsf-index-press-freedom-25-year-low"
+  ]
+ }
+]

@@ -5,12 +5,14 @@ Team (slot S) replaced Style of play in quiz round 3: how they play plus team cu
 Displayed Affinity = base + bonus. Clubs get no regional heritage bonus (2026 re-rate); only the hometown
 club (Sacramento Republic FC, +4) keeps one. Nations keep their heritage bonus (up to +10).
 Track record (clubs only, scripts/affinity/performance.py): the factor score is multiplied by
-k = 0.80 + 0.04 * P before adjustments; base is capped at 100, P = recency-weighted success over the last 10 seasons (0-10)."""
+k = 0.80 + 0.04 * P before adjustments; base is capped at 100. Then association pulls
+(scripts/affinity/association.py) move linked clubs toward each other, P = recency-weighted success over the last 10 seasons (0-10)."""
 import ast, json, pathlib, sys
 root = pathlib.Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(root / 'scripts' / 'affinity'))
 from scores import S
 import performance as perf
+import association as assoc
 for node in ast.parse((root / 'scripts' / 'importers' / 'build_usl.py').read_text()).body:
     if isinstance(node, ast.Assign) and getattr(node.targets[0], 'id', '') == 'A':
         S = {**S, **ast.literal_eval(node.value)}
@@ -37,5 +39,18 @@ for key, comp in D.items():
         if key != 'unl':
             t['bonus'] = 4.0 if t['name'] == HOMETOWN else 0
             if 'bonus0' in t: t['bonus0'] = t['bonus'] / 0.4
+# Association: second pass, on Affinity before any pull (hai.assoc = total pull, hai.links = per partner).
+pre, rivals, seen = {}, set(), set()
+for key, comp in D.items():
+    for t in comp['teams']:
+        pre.setdefault(t['name'], t['base'] + t['bonus'])
+        if 'Rival' in (t.get('hai') or {}).get('note', ''): rivals.add(t['name'])
+PULL = assoc.pulls(pre, rivals)
+for key, comp in D.items():
+    for t in comp['teams']:
+        if t['name'] in PULL and t.get('hai'):
+            tot, ps = PULL[t['name']]
+            t['hai'].update(assoc=tot, links=[[y, v] for y, v in ps])
+            t['base'] = min(100, max(0, round(t['base'] + tot, 1)))
 p.write_text(json.dumps(D, ensure_ascii=False, separators=(',', ':')))
 print('rescored')

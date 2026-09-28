@@ -1,0 +1,931 @@
+[
+ {
+  "name": "Albania",
+  "C": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "RSF 2026 rank 83rd; RSF calls it hostile to journalism. FH 2026 status not verified this session (previously Partly Free)."
+   }
+  ],
+  "flags": [
+   "Check UEFA Euro 2024 discrimination / chants sanctions (not verified); possible racism adjustment.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia",
+   "https://balkancsd.net/rsf-2026-index-press-freedom-declines-globally-western-balkans-under-pressure/"
+  ]
+ },
+ {
+  "name": "Andorra",
+  "C": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment (free democracy / territory); 2026 FH and RSF figures not verified this session.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "name": "Armenia",
+  "C": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: Partly Free. RSF 2026 rank 50th (\"problematic\"). Bottom of the scale."
+   }
+  ],
+  "flags": [
+   "Borderline: Partly Free but improving; 0 would also be defensible.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia",
+   "https://jam-news.net/armenia-and-georgia-rated-partly-free-in-updated-freedom-house-report/",
+   "https://freedomhouse.org/sites/default/files/2026-03/FIW2026_final_digital%20(1).pdf"
+  ]
+ },
+ {
+  "name": "Austria",
+  "C": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: RSF 2026 rank 12th (free democracy).",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "Azerbaijan",
+  "C": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -25,
+    "evidence": "Freedom House 2026: Not Free, 6/100 (down from 7). RSF 2026 rank 171st."
+   }
+  ],
+  "flags": [
+   "Old rule 'Federation tied to an authoritarian regime' (-10) dropped in favour of the government adjustment to avoid double counting; low O already reflects the federation. Kevin to confirm.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia",
+   "https://jam-news.net/armenia-and-georgia-rated-partly-free-in-updated-freedom-house-report/",
+   "https://freedomhouse.org/sites/default/files/2026-03/FIW2026_final_digital%20(1).pdf"
+  ]
+ },
+ {
+  "name": "Belarus",
+  "C": {
+   "score": 3,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 2,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 1,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -25,
+    "evidence": "RSF 2026 rank 165th of 180; long-standing authoritarian government. FH 2026 status/score not verified this session (previously Not Free)."
+   }
+  ],
+  "flags": [
+   "Old rule 'Federation tied to an authoritarian regime' (-10) dropped in favour of the government adjustment to avoid double counting; low O already reflects the federation. Kevin to confirm.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "Belgium",
+  "C": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: RSF 2026 rank 21st (free democracy).",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "Bosnia and Herzegovina",
+  "C": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "RSF 2026 rank 90th; RSF calls it hostile to journalism. FH 2026 status not verified this session (previously Partly Free)."
+   }
+  ],
+  "flags": [
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia",
+   "https://balkancsd.net/rsf-2026-index-press-freedom-declines-globally-western-balkans-under-pressure/"
+  ]
+ },
+ {
+  "name": "Bulgaria",
+  "C": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -10,
+    "evidence": "UEFA sanctions for racist abuse (2019) (carried over from scores.py; UEFA sanctions not re-verified this session)."
+   }
+  ],
+  "flags": [
+   "No government adjustment: RSF 2026 rank 71st (free democracy).",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "Croatia",
+  "C": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -10,
+    "evidence": "Repeated UEFA sanctions for discriminatory fan conduct (carried over from scores.py; UEFA sanctions not re-verified this session)."
+   }
+  ],
+  "flags": [
+   "No government adjustment (free democracy / territory); 2026 FH and RSF figures not verified this session.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "name": "Cyprus",
+  "C": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment (free democracy / territory); 2026 FH and RSF figures not verified this session.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "name": "Czech Republic",
+  "C": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment (free democracy / territory); 2026 FH and RSF figures not verified this session.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "name": "Denmark",
+  "C": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: RSF 2026 rank 4th (88.47) (free democracy).",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "England",
+  "C": {
+   "score": 9,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: RSF 2026 rank 29th (United Kingdom) (free democracy).",
+   "Check whether Euro 2020 final (Wembley) disorder sanction should give a violence adjustment (not verified this session).",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "Estonia",
+  "C": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: RSF 2026 rank 3rd (88.54) (free democracy).",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "Faroe Islands",
+  "C": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment (free democracy / territory); 2026 FH and RSF figures not verified this session.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "name": "Finland",
+  "C": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment (free democracy / territory); 2026 FH and RSF figures not verified this session.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "name": "France",
+  "C": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment (free democracy / territory); 2026 FH and RSF figures not verified this session.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "name": "Georgia",
+  "C": {
+   "score": 9,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -15,
+    "evidence": "Freedom House 2026: Partly Free, score down again. RSF 2026 rank 135th after the Georgian Dream government's media and protest crackdown."
+   }
+  ],
+  "flags": [
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia",
+   "https://jam-news.net/armenia-and-georgia-rated-partly-free-in-updated-freedom-house-report/",
+   "https://freedomhouse.org/sites/default/files/2026-03/FIW2026_final_digital%20(1).pdf"
+  ]
+ },
+ {
+  "name": "Germany",
+  "C": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: RSF 2026 rank 17th (free democracy).",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "Gibraltar",
+  "C": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 1,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 3,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment (free democracy / territory); 2026 FH and RSF figures not verified this session.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "name": "Greece",
+  "C": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: RSF 2026 rank 86th (free democracy).",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "Hungary",
+  "C": {
+   "score": 9,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026 (covering 2025): Partly Free, the only EU state not Free. RSF 2026 rank 74th. Orban's government lost the April 2026 election, so the record may improve."
+   },
+   {
+    "type": "racism",
+    "points": -15,
+    "evidence": "Repeated UEFA sanctions for racist fan conduct (carried over from scores.py; UEFA sanctions not re-verified this session)."
+   }
+  ],
+  "flags": [
+   "Government changed after the April 2026 election; revisit the -10 once FH 2027 / RSF 2027 reflect it.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia",
+   "https://www.intellinews.com/hungary-remains-partly-free-in-latest-freedom-house-report-236186/",
+   "https://www.pbs.org/newshour/classroom/daily-news-lessons/2026/04/why-orban-defeat-in-hungary-has-global-impact",
+   "https://freedomhouse.org/sites/default/files/2026-03/FIW2026_final_digital%20(1).pdf"
+  ]
+ },
+ {
+  "name": "Iceland",
+  "C": {
+   "score": 9,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 8,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment (free democracy / territory); 2026 FH and RSF figures not verified this session.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "name": "Israel",
+  "C": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -15,
+    "evidence": "RSF 2026 rank 116th (46.46, down from 112th); RSF cites restrictions since the Gaza war. FH 2026 status not verified this session (Israel was previously rated Free, territories separately Not Free)."
+   }
+  ],
+  "flags": [
+   "Israel is a judgement call: RSF decline and Gaza-war human-rights record vs a Free rating for Israel proper. Kevin to decide -10 to -25.",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia",
+   "https://rsf.org/en/country/israel",
+   "https://ifex.org/2026-rsf-index-press-freedom-at-a-25-year-low/"
+  ]
+ },
+ {
+  "name": "Italy",
+  "C": {
+   "score": 7,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [],
+  "flags": [
+   "No government adjustment: RSF 2026 rank 56th (free democracy).",
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia"
+  ]
+ },
+ {
+  "name": "Kazakhstan",
+  "C": {
+   "score": 5,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "H": {
+   "score": 2,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Not re-researched: web access failed this session (WebFetch blocked, search budget used up). Score carried over from scores.py."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -20,
+    "evidence": "RSF 2026 rank 149th (down 8); RSF cites tightening media law and online repression. FH 2026 status not verified this session (previously Not Free)."
+   }
+  ],
+  "flags": [
+   "RE-RUN NEEDED: C/V/H/O/S and UEFA sanctions not re-researched."
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://rsf.org/en/classement/2026/europe-central-asia",
+   "https://timesca.com/turkmenistan-ranks-173rd-in-global-press-freedom-index/"
+  ]
+ }
+]

@@ -54,17 +54,11 @@ O_DELTA = {
     'Sheffield United': (-1, 'Maddy Cusack case: warned about the coach, flawed club inquiry'),
 }
 # Republic link: regulars only. None = not yet checked (agent value used, flagged in the report).
-# Checked 2026-09-27 against ESPN league lineups (starts / squads). Borderline: Pittsburgh (Amann 13 of 27
-# starts, in every squad), Indy Eleven (Kibunguchy 6 starts in 13 since signing, started the last 4).
+# Checked 2026-09-27 against ESPN league lineups. Only clubs in a higher tier than Republic (USL Championship)
+# count: a former Republic player who moved up. USL clubs with Republic regulars (Colorado Springs, Monterey Bay,
+# New Mexico, San Antonio, Tampa Bay, Pittsburgh, Indy Eleven) get nothing.
 REPUBLIC_REGULARS = {
     'Los Angeles Football Club',        # Aaron Long, captain, starts when fit
-    'Colorado Springs Switchbacks FC',  # Matt Mahoney 18/23, Khori Bennett 23/25
-    'Monterey Bay FC',                  # Nick Ross 22/24
-    'New Mexico United',                # Chris Gloster 24/25
-    'San Antonio FC',                   # Taintor 23/23, Cuello 18/22, Suarez 17/20, Parano 15/23
-    'Tampa Bay Rowdies',                # Russell Cicerone 20/23
-    'Pittsburgh Riverhounds',           # Trevor Amann 13/25 (borderline)
-    'Indy Eleven',                      # Nabilai Kibunguchy 6/9 (borderline)
 }
 
 

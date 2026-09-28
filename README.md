@@ -24,7 +24,7 @@ Pure vanilla JS/CSS/HTML: no bundler, no npm dependencies. Python 3 only for bui
     src/model.js              the engine (MODEL.run for leagues, MODEL.runCup, playoffs/knockouts)
     src/app.js                UI, state, persistence, views, events (/*__DATA__*/ is replaced by data JSON)
     data/suite_data.json      all competition data (teams, fixtures, results, kickoffs, TV, Affinity)
-    dist/web/index.html       built web app;  dist/football_suite.html = claude.ai build
+    dist/web/index.html       built web app;  dist/football_suite.html = claude.ai build (not committed)
     firestore.rules           Firestore security rules;  .github/workflows/pages.yml = deploy
     user-data/                export of Kevin's saved state (entered results, follows, statuses...) - see docs/state.md
     scripts/build.py          build

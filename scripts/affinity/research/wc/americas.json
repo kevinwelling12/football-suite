@@ -1,0 +1,565 @@
+[
+ {
+  "name": "Argentina",
+  "confed": "CONMEBOL",
+  "abbr": "ARG",
+  "color": "#75AADB",
+  "C": {
+   "score": 10,
+   "evidence": "Among the most intense national-team followings anywhere: 'Muchachos' singing sections, large travelling support in Qatar 2022 and across the 2026 host cities, loyal through the 2014-2021 trophy drought."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "FIFA sanctioned the AFA for discriminatory chants in June 2025 (Argentina v Colombia, CHF 120,000, 25% spectator reduction) and again on 21 Aug 2026 (USD 321,000 for discriminatory chants/gestures, team misconduct, a political banner and security failures at the World Cup; two home matches at 50%, one suspended). Players were filmed singing a racist chant about France's players after the 2024 Copa America; four Argentina players/officials face assault/unsporting-behaviour proceedings after the 2026 final."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Three-time world champion (1978, 1986, 2022), runner-up 2026, 16 Copa Americas; Maradona 1986 and Messi's 2022 title are among the game's defining moments."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "AFA president Claudio Tapia and senior officials formally charged in a tax-evasion case (asset freeze of 350m pesos); separate money-laundering probe around Sur Finanzas with more than 30 raids, including AFA headquarters (Dec 2025)."
+  },
+  "S": {
+   "score": 9,
+   "evidence": "Scaloni in charge since 2018 (World Cup 2022, Copa 2021/2024, 2026 final); hard-running collective built around Messi, who retired from the national team after the 2026 World Cup. Stable core (Romero, Mac Allister, E. Fernandez, Martinez); Scaloni's contract runs to Dec 2026 with an extension under discussion."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -12,
+    "evidence": "Repeated FIFA discrimination sanctions: CHF 120,000 plus partial closure (June 2025 qualifier) and USD 321,000 plus 50% capacity for two home matches (Aug 2026, World Cup chants/gestures); 2024 Copa America squad racist chant (FIFA probe)."
+   },
+   {
+    "type": "government",
+    "points": -5,
+    "evidence": "Freedom House 2026: Free, 85/100, but RSF 2026 rank 98/180 (down 11 places; more than 69 places since 2022) over institutional hostility to the press and violence against journalists covering protests."
+   }
+  ],
+  "wc2026": "runner-up (lost 1-0 to Spain in the final; beat Cape Verde, Egypt, Switzerland, England)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://inside.fifa.com/legal/judicial-bodies/news/disciplinary-committee-imposes-sanctions-incidents-world-cup-2026",
+   "https://digitalhub.fifa.com/m/1658dabfdf455df8/original/FIFA-World-Cup-26-Qualifiers-disciplinary-overview-26-August-2025.pdf",
+   "https://www.batimes.com.ar/news/sports/afa-chief-tapia-and-top-officials-formally-charged-in-tax-evasion-case.phtml",
+   "https://buenosairesherald.com/society/afa-president-claudio-tapia-under-fire-over-allegations-of-money-laundering",
+   "https://www.foxsports.com/articles/soccer/argentina-coach-lionel-scaloni-opens-door-to-contract-extension-and-preps-for-messi-farewell",
+   "https://www.aljazeera.com/sports/2026/7/24/spains-de-la-fuente-slams-argentinas-world-cup-conduct-as-unacceptable",
+   "https://freedomhouse.org/country/argentina/freedom-world/2026",
+   "https://rsf.org/en/classement/2026/americas"
+  ]
+ },
+ {
+  "name": "Brazil",
+  "confed": "CONMEBOL",
+  "abbr": "BRA",
+  "color": "#FEDD00",
+  "C": {
+   "score": 6,
+   "evidence": "Huge global following, but home national-team crowds are often subdued and commentary in Brazil has described a disconnect between the Selecao and its public; no organised national-team singing culture comparable to its clubs."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No FIFA discrimination sanction found in the 2026 cycle; warning and CHF 5,000 fine for a pitch invasion (Brazil v Paraguay, June 2025). CBF has run anti-racism campaigns (Vinicius Junior). Neutral start."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Five-time world champion, only nation at every World Cup; Pele, 1970, 'jogo bonito' - central to the game's history."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "President Ednaldo Rodrigues removed by a Rio court in May 2025 over a forged signature; Samir Xaud elected unopposed amid a club boycott. Three previous presidents (Teixeira, Marin, Del Nero) were banned or convicted in the FIFA corruption cases."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "High coach churn after 2022 (Tite, interim Diniz, Dorival, Ancelotti from 2025, contract to 2030); round-of-16 exit to Norway, first since 1990. Individual stars (Vinicius, Raphinha), no settled collective identity yet."
+  },
+  "adjustments": [],
+  "wc2026": "round of 16 (lost 2-1 to Norway)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://www.espn.com/soccer/story/_/id/49285245/brazil-world-cup-exit-carlo-ancelotti-norway",
+   "https://www.insideworldfootball.com/2025/05/27/cbf-elects-samir-xaud-president-despite-major-club-boycott/",
+   "https://en.wikipedia.org/wiki/Ednaldo_Rodrigues",
+   "https://digitalhub.fifa.com/m/1658dabfdf455df8/original/FIFA-World-Cup-26-Qualifiers-disciplinary-overview-26-August-2025.pdf",
+   "https://freedomhouse.org/country/brazil/freedom-world/2026",
+   "https://rsf.org/en/classement/2026/americas"
+  ]
+ },
+ {
+  "name": "Colombia",
+  "confed": "CONMEBOL",
+  "abbr": "COL",
+  "color": "#FCD116",
+  "C": {
+   "score": 9,
+   "evidence": "Loud yellow-shirted support at the Metropolitano in Barranquilla and very large travelling crowds in the US (Copa America 2024, World Cup 2026)."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "FIFA discrimination sanction June 2025 (Colombia v Peru: CHF 70,000, prevention plan, 25% spectator reduction). Ticketless fans forced entry at the 2024 Copa America final in Miami; federation president arrested there (charges dropped, son charged)."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1990s golden generation (Valderrama, Higuita, 5-0 in Buenos Aires 1993), 2001 Copa America, James Rodriguez's 2014 Golden Boot; 1994 killing of Andres Escobar."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "Colombia's competition authority (SIC) fined the FCF and senior officials including president Ramon Jesurun about 18bn pesos over a 2018-qualifier ticket-resale scheme (upheld by the Cundinamarca tribunal). Jesurun arrested at the 2024 Copa final after a clash with security (charges dropped)."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Nestor Lorenzo in charge since 2022, extended after the World Cup; 28-match unbeaten run 2022-24, Copa 2024 final; conceded one goal in five 2026 matches. Captain James Rodriguez and Luis Diaz as icons; stable squad."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -5,
+    "evidence": "FIFA Article 15 (discrimination) sanction, Colombia v Peru, 6 June 2025: CHF 70,000 and partial closure."
+   },
+   {
+    "type": "violence",
+    "points": -5,
+    "evidence": "Mass gate-crashing and crowd disorder by ticketless fans at the 2024 Copa America final (Hard Rock Stadium), dozens arrested including the federation president (charges later dropped)."
+   },
+   {
+    "type": "government",
+    "points": -5,
+    "evidence": "Freedom House 2026: Free but only 69/100 (history of violence and rights abuses); RSF 2026 rank 102/180."
+   }
+  ],
+  "wc2026": "round of 16 (lost to Switzerland on penalties after 0-0; beat Ghana 1-0 in round of 32)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://digitalhub.fifa.com/m/1658dabfdf455df8/original/FIFA-World-Cup-26-Qualifiers-disciplinary-overview-26-August-2025.pdf",
+   "https://www.espn.com/soccer/story/_/id/49435363/colombia-backs-nestor-lorenzo-extension-world-cup",
+   "https://www.espn.com/soccer/story/_/id/40569659/colombia-federation-president-arrested-copa-america-final",
+   "https://www.wlrn.org/sports/2024-08-26/colombian-football-federation-president-will-not-face-criminal-charges-after-copa-arrest",
+   "https://www.infobae.com/america/colombia/2020/10/05/confirman-millonaria-sancion-a-la-federacion-colombiana-de-futbol-por-reventa-de-boletas/",
+   "https://freedomhouse.org/country/colombia/freedom-world/2026",
+   "https://rsf.org/en/classement/2026/americas"
+  ]
+ },
+ {
+  "name": "Ecuador",
+  "confed": "CONMEBOL",
+  "abbr": "ECU",
+  "color": "#FFD100",
+  "C": {
+   "score": 7,
+   "evidence": "Passionate home support at altitude in Quito's Rodrigo Paz Delgado/Atahualpa; solid but smaller travelling following."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "FIFA fined Ecuador for fans' homophobic chants at the 2022 World Cup opener; CHF 11,000 fine for misconduct and fireworks (Ecuador v Brazil, June 2025). Byron Castillo eligibility case: fine and a 3-point deduction in 2026 qualifying."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "Five World Cups since 2002; round of 16 in 2006; no senior titles."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "FEF was sanctioned (fine, points deduction) over false documents for Byron Castillo; frequent coach changes (Alfaro, Sanchez, Beccacece, now Marcelo Gallardo)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Beccacece's high-intensity pressing side (2024-26) with an elite defence (Hincapie, Pacho) and Caicedo; beat Germany in the group; Beccacece left after the round-of-32 exit, Gallardo appointed."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -5,
+    "evidence": "FIFA fine for discriminatory (homophobic) chants at the 2022 World Cup opener v Qatar."
+   },
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: Partly Free, 64/100 (organised crime, due-process concerns under repeated states of emergency); RSF 2026 rank 125/180."
+   }
+  ],
+  "wc2026": "round of 32 (lost 2-0 to Mexico)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://www.espn.com/soccer/story/_/id/49234695/sebastian-beccacece-steps-ecuador-coach-world-cup-exit",
+   "https://www.fifa.com/en/tournaments/mens/worldcup/2030/articles/marcelo-gallardo-ecuador-coach",
+   "https://www.nbcboston.com/news/local/fifa-fines-ecuador-for-fan-chants-in-world-cup-opener/2902230/",
+   "https://www.fotmob.com/news/guq4825vnr8c1nu10kwkkxj85-fifa-investigating-ecuador-for-alleged-homophobic-chants-at-world-cup",
+   "https://digitalhub.fifa.com/m/1658dabfdf455df8/original/FIFA-World-Cup-26-Qualifiers-disciplinary-overview-26-August-2025.pdf",
+   "https://freedomhouse.org/country/ecuador/freedom-world/2026",
+   "https://rsf.org/en/classement/2026/americas"
+  ]
+ },
+ {
+  "name": "Paraguay",
+  "confed": "CONMEBOL",
+  "abbr": "PAR",
+  "color": "#D52B1E",
+  "C": {
+   "score": 7,
+   "evidence": "Loyal, loud support at Defensores del Chaco; strong following returned with the first World Cup since 2010."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "No FIFA discrimination sanctions found this cycle. Neutral start, slightly lowered for a federation culture historically tied to CONMEBOL's Asuncion-based corruption (Leoz, Napout)."
+  },
+  "H": {
+   "score": 5,
+   "evidence": "Nine World Cups, quarter-final 2010, Copa America 1953 and 1979, Chilavert era."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "APF under Robert Harrison since 2019, stable; former APF president Juan Angel Napout convicted in the FIFA corruption case (2017)."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Gustavo Alfaro since 2024, extended to 2030; compact, hard-working side that beat Germany on penalties and lost only 1-0 to France."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: Partly Free, 63/100 (corruption, organised crime, pressure on journalists); RSF 2026 rank 88/180."
+   }
+  ],
+  "wc2026": "round of 16 (lost 1-0 to France; beat Germany on penalties in round of 32)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://www.tribuneindia.com/news/fifa-world-cup/fifa-world-cup-2026-paraguayan-fa-chief-robert-harrison-hails-national-team-after-round-of-16-loss-to-france",
+   "https://sharjah24.ae/en/Articles/2026/09/12/d66",
+   "https://en.wikipedia.org/wiki/Robert_Harrison_(football_executive)",
+   "https://freedomhouse.org/country/paraguay/freedom-world/2026",
+   "https://rsf.org/en/country/paraguay"
+  ]
+ },
+ {
+  "name": "Uruguay",
+  "confed": "CONMEBOL",
+  "abbr": "URU",
+  "color": "#5CBFEB",
+  "C": {
+   "score": 8,
+   "evidence": "Fervent support from a nation of 3.4m; Estadio Centenario, strong 'garra charrua' identity and loyal travelling fans."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Players climbed into the stands at the 2024 Copa America semi-final (CONMEBOL bans incl. Darwin Nunez); FIFA sanctions after 2022 World Cup player abuse of officials; warning and CHF 2,500 fine in June 2025. No recent discrimination sanction found."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "Two World Cups (1930 host, 1950 Maracanazo), two Olympic titles, 15 Copa Americas; foundational nation of international football."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "AUF has a history of conflict with the players' union and the TV rights holder; ordinary governance, no current criminal case found."
+  },
+  "S": {
+   "score": 4,
+   "evidence": "Bielsa era (2023-26) ended with a group-stage exit and public splits (Suarez's 2024 criticism of the dressing room); Diego Forlan interim coach. Federico Valverde as current icon."
+  },
+  "adjustments": [],
+  "wc2026": "group stage (2 points: Spain, Cape Verde, Saudi Arabia)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://www.espn.com/soccer/story/_/id/49231398/marcelo-bielsa-takes-full-blame-uruguay-world-cup-failure-contract-ends",
+   "https://www.aljazeera.com/sports/2026/6/27/toxic-bielsa-leaves-nothing-good-behind-in-uruguay-shock-world-cup-exit",
+   "https://www.goal.com/en-us/lists/diego-forlan-appointed-uruguay-interim-head-coach-marcelo-bielsa-world-cup/blte0a144b246451c2b",
+   "https://digitalhub.fifa.com/m/1658dabfdf455df8/original/FIFA-World-Cup-26-Qualifiers-disciplinary-overview-26-August-2025.pdf",
+   "https://freedomhouse.org/country/uruguay/freedom-world/2026",
+   "https://rsf.org/en/classement/2026/americas"
+  ]
+ },
+ {
+  "name": "Mexico",
+  "confed": "CONCACAF",
+  "abbr": "MEX",
+  "color": "#1FA35C",
+  "C": {
+   "score": 8,
+   "evidence": "Very large, loud home and diaspora support (Azteca, US 'home' games); the homophobic goal-kick chant is dealt with in Values."
+  },
+  "V": {
+   "score": 3,
+   "evidence": "Homophobic chant persists despite years of FIFA sanctions (fines, closed-door qualifiers); CAS upheld CHF 140,000 in fines in June 2026 and the chant returned at the World Cup v Czechia (24 June 2026). Liga MX/FMF ecosystem heavily betting-sponsored."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "Hosted 1970 and 1986 (first three-time host in 2026), seven straight rounds of 16 1994-2018, 2012 Olympic gold; major regional power."
+  },
+  "O": {
+   "score": 3,
+   "evidence": "FMF decisions rest with the Liga MX club owners' assembly, which permits multi-club ownership (e.g. Grupo Pachuca, Grupo Orlegi) and has suspended promotion/relegation since 2020; frequent coach changes (four head coaches 2022-26)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Aguirre's third spell (2024-26) won the 2025 Gold Cup and Nations League; he resigned after the round of 16, Rafael Marquez now coach. Raul Jimenez, Edson Alvarez as figureheads."
+  },
+  "adjustments": [
+   {
+    "type": "racism",
+    "points": -10,
+    "evidence": "Repeated FIFA discrimination sanctions for the homophobic chant since 2017 (fines, two qualifiers behind closed doors; CAS upheld CHF 140,000 in June 2026); chant heard again at the 2026 World Cup."
+   },
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: Partly Free, 58/100; RSF 2026 rank 122/180 (among the deadliest countries for journalists)."
+   }
+  ],
+  "wc2026": "round of 16 (lost 3-2 to England; beat Ecuador 2-0 in round of 32)",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://www.outlookindia.com/sports/football/fifa-world-cup-2026-mexico-loses-appeal-against-anti-gay-chant-fine",
+   "https://www.foxnews.com/sports/fifa-faces-pressure-discipline-2026-world-cup-co-host-mexico-anti-gay-chant-returns-vs-czechia",
+   "https://www.cbssports.com/soccer/news/mexico-to-play-two-world-cup-qualifying-games-in-empty-stadiums-as-fifa-punishment-for-derogatory-chants",
+   "https://www.fifa.com/en/articles/mexico-announce-rafael-marquez-as-new-coach",
+   "https://freedomhouse.org/country/mexico/freedom-world/2026",
+   "https://rsf.org/en/classement/2026/americas"
+  ]
+ },
+ {
+  "name": "United States",
+  "confed": "CONCACAF",
+  "abbr": "USA",
+  "color": "#FFFFFF",
+  "C": {
+   "score": 7,
+   "evidence": "Organised supporter groups (American Outlaws) and big crowds, but games in NFL stadiums and mixed home support; growing culture rather than a traditional one."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No FIFA discrimination sanctions; 2022 equal-pay CBAs and major investment in the women's team raise it; commissioned the 2022 Yates report into abuse in the women's game."
+  },
+  "H": {
+   "score": 6,
+   "evidence": "1930 semi-final, 1950 win over England, 1994 host (and 2026 co-host), 2002 quarter-final; the women's team history is not counted here."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Member-based non-profit federation with independent athlete representation and published governance; no current corruption case. FIFA lifted Folarin Balogun's World Cup suspension after a presidential call to Infantino (political interference, not by the federation)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Pochettino since 2024, extended to 2030 in Aug 2026; energetic pressing aims, but heavy lineup churn and a 4-1 round-of-16 loss to Belgium; Pulisic as current icon."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -5,
+    "evidence": "Freedom House 2026: Free but down to 81/100; RSF 2026 rank 64/180 (down from 17 when the index began); entry bans and immigration enforcement affected fans at the 2026 World Cup (e.g. Haitian and Iranian supporters)."
+   }
+  ],
+  "wc2026": "round of 16 (lost 4-1 to Belgium; beat Bosnia and Herzegovina 2-0 in round of 32)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://www.ussoccer.com/stories/2026/08/usmnt/mauricio-pochettino-head-coach-new-contract-through-2030",
+   "https://abcnews.com/US/wireStory/fifa-lifts-us-player-baloguns-red-card-suspension-134501866",
+   "https://apnews.com/article/world-cup-iran-fifa-tickets-33e5b6dcffa104896007f146357ec9ae",
+   "https://freedomhouse.org/country/united-states/freedom-world/2026",
+   "https://rsf.org/en/classement/2026/americas"
+  ]
+ },
+ {
+  "name": "Canada",
+  "confed": "CONCACAF",
+  "abbr": "CAN",
+  "color": "#E4222A",
+  "C": {
+   "score": 6,
+   "evidence": "Loyal but modest supporter culture (Voyageurs, Toronto and Vancouver crowds); interest surged with the 2022 and 2026 World Cups."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No FIFA discrimination sanctions. Drone-spying scandal (2024 Copa America and Paris Olympics) damaged the federation's standing; women's team investment and equal-pay agreements count in its favour."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "World Cups 1986, 2022 and 2026 (co-host, first knockout-round win); 2000 Gold Cup; modest men's history."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Drone scandal (FIFA bans for staff, six-point Olympic deduction), 2022-23 financial crisis and player strikes, criticised long-term Canadian Soccer Business rights deal; governance reforms since 2024."
+  },
+  "S": {
+   "score": 8,
+   "evidence": "Jesse Marsch since 2024, extended to 2030; high-pressing, front-foot identity; stable core around Alphonso Davies and Jonathan David; first World Cup knockout win (1-0 v South Africa)."
+  },
+  "adjustments": [],
+  "wc2026": "round of 16 (lost 3-0 to Morocco; beat South Africa 1-0 in round of 32)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage",
+   "https://sports.yahoo.com/articles/canada-jesse-marsch-says-d-211620734.html",
+   "https://en.wikipedia.org/wiki/Canada_Soccer_drone_spying_scandal",
+   "https://news.canadasoccer.com/canada-soccer-releases-findings-of-independent-investigation-organizational-change-continues",
+   "https://freedomhouse.org/country/canada/freedom-world/2026",
+   "https://rsf.org/en/classement/2026/americas"
+  ]
+ },
+ {
+  "name": "Panama",
+  "confed": "CONCACAF",
+  "abbr": "PAN",
+  "color": "#E4312B",
+  "C": {
+   "score": 7,
+   "evidence": "'Marea Roja' support at Rommel Fernandez and thousands of travelling fans in Toronto in 2026; famous celebrations at the 2018 debut."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No FIFA sanctions found this cycle; neutral."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "World Cups 2018 and 2026 only (no wins yet); 2024 Copa America quarter-final, 2025 Nations League final."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "FEPAFUT: new board elected Dec 2025, retained the coach; no current corruption case found."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Thomas Christiansen since 2020, retained through the 2030 cycle; stable, experienced squad (Carrasquilla, Godoy, Murillo); scored no goals at the 2026 World Cup."
+  },
+  "adjustments": [],
+  "wc2026": "group stage (0 points: Ghana, Croatia, England)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://www.torontotoday.ca/local/sports/with-huge-fan-base-at-toronto-home-game-croatia-ends-panamas-world-cup-bid-12463613",
+   "https://www.telemundo.com/deportes/copa-mundial-de-la-fifa-2026/panama-da-voto-de-confianza-a-thomas-christiansen-y-le-dara-continuida-rcna583304",
+   "https://freedomhouse.org/country/panama/freedom-world/2026",
+   "https://rsf.org/en/country/panama"
+  ]
+ },
+ {
+  "name": "Haiti",
+  "confed": "CONCACAF",
+  "abbr": "HAI",
+  "color": "#2F5BD3",
+  "C": {
+   "score": 7,
+   "evidence": "Intense diaspora support in the US, Canada and France; has not played at home since 2021 because of gang violence, and fans in Haiti were hit by a US entry ban during the tournament."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Former FHF president Yves Jean-Bart banned for life by FIFA in 2020 over sexual abuse of young female players; CHF 5,000 fine for a pitch invasion (Haiti v Nicaragua, Nov 2025)."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "1974 World Cup (Sanon's goal ended Zoff's record run), 1973 CONCACAF champions; 2026 the second appearance."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "FIFA normalisation committee installed after the Jean-Bart case amid concerns he still exerted influence; instability continues (coach Migne left by mutual agreement after the tournament)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Migne qualified the team without setting foot in Haiti; diaspora-heavy squad (only 10 of 26 born in Haiti), Duckens Nazon as figurehead; coach gone after the World Cup."
+  },
+  "adjustments": [
+   {
+    "type": "government",
+    "points": -10,
+    "evidence": "Freedom House 2026: Not Free, 22/100 (expired mandates, no elected government, gangs control most of Port-au-Prince); RSF 2026 rank 107/180. State collapse more than a repressive regime, so scaled below Turkey (-20)."
+   }
+  ],
+  "wc2026": "group stage (0 points: Scotland, Brazil, Morocco)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sebastien-migne-departs-haiti-post",
+   "https://theconversation.com/haiti-at-the-world-cup-is-more-than-an-underdog-tale-it-is-the-story-of-global-migration-283039",
+   "https://en.wikipedia.org/wiki/Yves_Jean-Bart",
+   "https://en.wikipedia.org/wiki/Haitian_Football_Federation",
+   "https://digitalhub.fifa.com/m/1525cda78bb25382/original/Disciplinary-sanctions-concerning-FIFA-World-Cup-Qualifiers_March-2026.pdf",
+   "https://freedomhouse.org/country/haiti/freedom-world/2026",
+   "https://rsf.org/en/country/haiti"
+  ]
+ },
+ {
+  "name": "Curaçao",
+  "confed": "CONCACAF",
+  "abbr": "CUW",
+  "color": "#2A7DE1",
+  "C": {
+   "score": 5,
+   "evidence": "Small island (about 150,000); enthusiastic 'Blue Wave' support in Philadelphia and at home, but a thin supporter culture and small stadium."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "No FIFA sanctions found; neutral."
+  },
+  "H": {
+   "score": 3,
+   "evidence": "2026 debut (smallest nation ever to qualify); Netherlands Antilles history, 2017 Caribbean Cup."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Coaching turmoil before the finals: Fred Rutten appointed Feb 2026 and resigned after disagreements with players, with the main sponsor pushing for Advocaat's return."
+  },
+  "S": {
+   "score": 5,
+   "evidence": "Dick Advocaat (appointed 2024, back for the finals); mostly Dutch-born squad; 7-1 loss to Germany, first point v Ecuador."
+  },
+  "adjustments": [],
+  "wc2026": "group stage (1 point: Germany, Ecuador, Ivory Coast)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://www.cbssports.com/soccer/news/world-cup-2026-curacao-manager-fred-rutten-steps-down/",
+   "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/dick-advocaat-returns-curacao-coach",
+   "https://www.concacaf.com/competitions/fifa-world-cup/news/curacao-ends-debut-world-cup-campaign-with-defeat-to-cote-d-ivoire"
+  ]
+ },
+ {
+  "name": "New Zealand",
+  "confed": "OFC",
+  "abbr": "NZL",
+  "color": "#FFFFFF",
+  "C": {
+   "score": 4,
+   "evidence": "Small following in a rugby-first country; big one-off crowds for play-offs (Wellington 2009) but ordinary atmosphere otherwise."
+  },
+  "V": {
+   "score": 7,
+   "evidence": "No sanctions; NZ Football agreed equal pay for men's and women's teams in 2018 and invests in the women's game; acted on a 2018 review of culture in the women's programme."
+  },
+  "H": {
+   "score": 4,
+   "evidence": "World Cups 1982, 2010 (only unbeaten team, three draws) and 2026; OFC's dominant nation."
+  },
+  "O": {
+   "score": 7,
+   "evidence": "Transparent, independent federation; no corruption cases."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Darren Bazeley since 2023; captain Chris Wood as icon; honest, physical side but outmatched (5-1 v Belgium)."
+  },
+  "adjustments": [],
+  "wc2026": "group stage (1 point: Iran, Egypt, Belgium)",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://en.wikipedia.org/wiki/New_Zealand_men%27s_national_football_team",
+   "https://www.rnz.co.nz/news/sport/620340/crunching-the-numbers-how-the-all-whites-can-still-progress-in-the-fifa-world-cup",
+   "https://freedomhouse.org/country/new-zealand/freedom-world/2026",
+   "https://rsf.org/en/country/new-zealand"
+  ]
+ }
+]

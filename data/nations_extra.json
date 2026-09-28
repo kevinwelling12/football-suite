@@ -1,0 +1,662 @@
+{
+ "wc": {
+  "Australia": "Round of 32",
+  "Iran": "Group stage",
+  "Iraq": "Group stage",
+  "Japan": "Round of 32",
+  "Jordan": "Group stage",
+  "Qatar": "Group stage",
+  "Saudi Arabia": "Group stage",
+  "South Korea": "Group stage",
+  "Uzbekistan": "Group stage",
+  "Algeria": "Round of 32",
+  "Cape Verde": "Round of 32",
+  "DR Congo": "Round of 32",
+  "Egypt": "Round of 16",
+  "Ghana": "Round of 32",
+  "Ivory Coast": "Round of 32",
+  "Morocco": "Quarter-finals",
+  "Senegal": "Round of 32",
+  "South Africa": "Round of 32",
+  "Tunisia": "Group stage",
+  "Canada": "Round of 16",
+  "Curaçao": "Group stage",
+  "Haiti": "Group stage",
+  "Mexico": "Round of 16",
+  "Panama": "Group stage",
+  "United States": "Round of 16",
+  "Argentina": "Runners-up",
+  "Brazil": "Round of 16",
+  "Colombia": "Round of 16",
+  "Ecuador": "Round of 32",
+  "Paraguay": "Round of 16",
+  "Uruguay": "Group stage",
+  "New Zealand": "Group stage",
+  "Austria": "Round of 32",
+  "Belgium": "Quarter-finals",
+  "Bosnia and Herzegovina": "Round of 32",
+  "Croatia": "Round of 32",
+  "Czech Republic": "Group stage",
+  "England": "Third place",
+  "France": "Fourth place",
+  "Germany": "Round of 32",
+  "Netherlands": "Round of 32",
+  "Norway": "Quarter-finals",
+  "Portugal": "Round of 16",
+  "Scotland": "Group stage",
+  "Spain": "Champions",
+  "Sweden": "Round of 32",
+  "Switzerland": "Quarter-finals",
+  "Turkey": "Group stage"
+ },
+ "teams": [
+  {
+   "name": "Algeria",
+   "short": "Algeria",
+   "abbr": "ALG",
+   "color": "#0B8C3F",
+   "confed": "CAF",
+   "hai": {
+    "C": 9,
+    "V": 4,
+    "H": 6,
+    "O": 2,
+    "S": 5,
+    "adj": -20,
+    "note": "Government record -20"
+   },
+   "base": 36.2,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Argentina",
+   "short": "Argentina",
+   "abbr": "ARG",
+   "color": "#75AADB",
+   "confed": "CONMEBOL",
+   "hai": {
+    "C": 10,
+    "V": 3,
+    "H": 10,
+    "O": 2,
+    "S": 9,
+    "adj": -12,
+    "note": "Racism -12"
+   },
+   "base": 55.8,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Australia",
+   "short": "Australia",
+   "abbr": "AUS",
+   "color": "#FFCD00",
+   "confed": "AFC",
+   "hai": {
+    "C": 6,
+    "V": 7,
+    "H": 5,
+    "O": 6,
+    "S": 7,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 62.7,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Brazil",
+   "short": "Brazil",
+   "abbr": "BRA",
+   "color": "#FEDD00",
+   "confed": "CONMEBOL",
+   "hai": {
+    "C": 6,
+    "V": 5,
+    "H": 10,
+    "O": 3,
+    "S": 5,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 58.0,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Canada",
+   "short": "Canada",
+   "abbr": "CAN",
+   "color": "#E4222A",
+   "confed": "CONCACAF",
+   "hai": {
+    "C": 6,
+    "V": 6,
+    "H": 4,
+    "O": 4,
+    "S": 8,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 56.9,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Cape Verde",
+   "short": "Cape Verde",
+   "abbr": "CPV",
+   "color": "#1F5FBF",
+   "confed": "CAF",
+   "hai": {
+    "C": 7,
+    "V": 7,
+    "H": 4,
+    "O": 5,
+    "S": 8,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 64.0,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Colombia",
+   "short": "Colombia",
+   "abbr": "COL",
+   "color": "#FCD116",
+   "confed": "CONMEBOL",
+   "hai": {
+    "C": 9,
+    "V": 4,
+    "H": 6,
+    "O": 3,
+    "S": 8,
+    "adj": -10,
+    "note": "Racism -5; Fan violence -5"
+   },
+   "base": 51.6,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Curaçao",
+   "short": "Curaçao",
+   "abbr": "CUW",
+   "color": "#2A7DE1",
+   "confed": "CONCACAF",
+   "hai": {
+    "C": 5,
+    "V": 6,
+    "H": 3,
+    "O": 4,
+    "S": 5,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 48.4,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "DR Congo",
+   "short": "DR Congo",
+   "abbr": "COD",
+   "color": "#0098FF",
+   "confed": "CAF",
+   "hai": {
+    "C": 8,
+    "V": 6,
+    "H": 6,
+    "O": 3,
+    "S": 7,
+    "adj": -20,
+    "note": "Government record -20"
+   },
+   "base": 43.1,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Ecuador",
+   "short": "Ecuador",
+   "abbr": "ECU",
+   "color": "#FFD100",
+   "confed": "CONMEBOL",
+   "hai": {
+    "C": 7,
+    "V": 4,
+    "H": 4,
+    "O": 3,
+    "S": 6,
+    "adj": -15,
+    "note": "Racism -5; Government record -10"
+   },
+   "base": 35.0,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Egypt",
+   "short": "Egypt",
+   "abbr": "EGY",
+   "color": "#E4002B",
+   "confed": "CAF",
+   "hai": {
+    "C": 6,
+    "V": 3,
+    "H": 7,
+    "O": 3,
+    "S": 6,
+    "adj": -22,
+    "note": "Government record -22"
+   },
+   "base": 26.9,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Ghana",
+   "short": "Ghana",
+   "abbr": "GHA",
+   "color": "#FCD116",
+   "confed": "CAF",
+   "hai": {
+    "C": 6,
+    "V": 6,
+    "H": 7,
+    "O": 4,
+    "S": 4,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 56.2,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Haiti",
+   "short": "Haiti",
+   "abbr": "HAI",
+   "color": "#2F5BD3",
+   "confed": "CONCACAF",
+   "hai": {
+    "C": 7,
+    "V": 4,
+    "H": 4,
+    "O": 2,
+    "S": 6,
+    "adj": -10,
+    "note": "Government record -10"
+   },
+   "base": 38.7,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Iran",
+   "short": "Iran",
+   "abbr": "IRN",
+   "color": "#239F40",
+   "confed": "AFC",
+   "hai": {
+    "C": 8,
+    "V": 2,
+    "H": 5,
+    "O": 1,
+    "S": 5,
+    "adj": -25,
+    "note": "Government record -25"
+   },
+   "base": 19.7,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Iraq",
+   "short": "Iraq",
+   "abbr": "IRQ",
+   "color": "#1B8A3A",
+   "confed": "AFC",
+   "hai": {
+    "C": 8,
+    "V": 6,
+    "H": 6,
+    "O": 3,
+    "S": 4,
+    "adj": -20,
+    "note": "Government record -20"
+   },
+   "base": 39.1,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Ivory Coast",
+   "short": "Ivory Coast",
+   "abbr": "CIV",
+   "color": "#FF8200",
+   "confed": "CAF",
+   "hai": {
+    "C": 7,
+    "V": 6,
+    "H": 7,
+    "O": 4,
+    "S": 6,
+    "adj": -10,
+    "note": "Government record -10"
+   },
+   "base": 51.8,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Japan",
+   "short": "Japan",
+   "abbr": "JPN",
+   "color": "#2F5DD6",
+   "confed": "AFC",
+   "hai": {
+    "C": 7,
+    "V": 8,
+    "H": 6,
+    "O": 7,
+    "S": 8,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 72.7,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Jordan",
+   "short": "Jordan",
+   "abbr": "JOR",
+   "color": "#CE1126",
+   "confed": "AFC",
+   "hai": {
+    "C": 7,
+    "V": 6,
+    "H": 3,
+    "O": 4,
+    "S": 6,
+    "adj": -15,
+    "note": "Government record -15"
+   },
+   "base": 40.6,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Mexico",
+   "short": "Mexico",
+   "abbr": "MEX",
+   "color": "#1FA35C",
+   "confed": "CONCACAF",
+   "hai": {
+    "C": 8,
+    "V": 3,
+    "H": 7,
+    "O": 3,
+    "S": 6,
+    "adj": -20,
+    "note": "Racism -10; Government record -10"
+   },
+   "base": 34.7,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Morocco",
+   "short": "Morocco",
+   "abbr": "MAR",
+   "color": "#C1272D",
+   "confed": "CAF",
+   "hai": {
+    "C": 9,
+    "V": 5,
+    "H": 8,
+    "O": 3,
+    "S": 7,
+    "adj": -15,
+    "note": "Government record -15"
+   },
+   "base": 51.2,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "New Zealand",
+   "short": "New Zealand",
+   "abbr": "NZL",
+   "color": "#E6E6E6",
+   "confed": "OFC",
+   "hai": {
+    "C": 4,
+    "V": 7,
+    "H": 4,
+    "O": 7,
+    "S": 6,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 55.3,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Panama",
+   "short": "Panama",
+   "abbr": "PAN",
+   "color": "#E4312B",
+   "confed": "CONCACAF",
+   "hai": {
+    "C": 7,
+    "V": 6,
+    "H": 3,
+    "O": 5,
+    "S": 7,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 58.2,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Paraguay",
+   "short": "Paraguay",
+   "abbr": "PAR",
+   "color": "#D52B1E",
+   "confed": "CONMEBOL",
+   "hai": {
+    "C": 7,
+    "V": 5,
+    "H": 5,
+    "O": 4,
+    "S": 7,
+    "adj": -10,
+    "note": "Government record -10"
+   },
+   "base": 47.1,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Qatar",
+   "short": "Qatar",
+   "abbr": "QAT",
+   "color": "#A6193C",
+   "confed": "AFC",
+   "hai": {
+    "C": 2,
+    "V": 2,
+    "H": 3,
+    "O": 1,
+    "S": 3,
+    "adj": -20,
+    "note": "Government record -20"
+   },
+   "base": 1.6,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Saudi Arabia",
+   "short": "Saudi Arabia",
+   "abbr": "KSA",
+   "color": "#1FA35B",
+   "confed": "AFC",
+   "hai": {
+    "C": 4,
+    "V": 2,
+    "H": 5,
+    "O": 1,
+    "S": 3,
+    "adj": -25,
+    "note": "Government record -25"
+   },
+   "base": 5.4,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Senegal",
+   "short": "Senegal",
+   "abbr": "SEN",
+   "color": "#00853F",
+   "confed": "CAF",
+   "hai": {
+    "C": 8,
+    "V": 4,
+    "H": 7,
+    "O": 4,
+    "S": 6,
+    "adj": -5,
+    "note": "Fan violence -5"
+   },
+   "base": 53.9,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "South Africa",
+   "short": "South Africa",
+   "abbr": "RSA",
+   "color": "#FFB612",
+   "confed": "CAF",
+   "hai": {
+    "C": 6,
+    "V": 5,
+    "H": 6,
+    "O": 3,
+    "S": 7,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 54.4,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "South Korea",
+   "short": "South Korea",
+   "abbr": "KOR",
+   "color": "#E53935",
+   "confed": "AFC",
+   "hai": {
+    "C": 7,
+    "V": 5,
+    "H": 7,
+    "O": 3,
+    "S": 5,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 56.2,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Tunisia",
+   "short": "Tunisia",
+   "abbr": "TUN",
+   "color": "#E70013",
+   "confed": "CAF",
+   "hai": {
+    "C": 7,
+    "V": 5,
+    "H": 5,
+    "O": 3,
+    "S": 3,
+    "adj": -15,
+    "note": "Government record -15"
+   },
+   "base": 35.4,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "United States",
+   "short": "United States",
+   "abbr": "USA",
+   "color": "#4A7BD0",
+   "confed": "CONCACAF",
+   "hai": {
+    "C": 7,
+    "V": 7,
+    "H": 6,
+    "O": 6,
+    "S": 6,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 65.8,
+   "bonus": 10.0,
+   "region": "Home nation"
+  },
+  {
+   "name": "Uruguay",
+   "short": "Uruguay",
+   "abbr": "URU",
+   "color": "#5CBFEB",
+   "confed": "CONMEBOL",
+   "hai": {
+    "C": 8,
+    "V": 5,
+    "H": 10,
+    "O": 5,
+    "S": 4,
+    "adj": 0,
+    "note": ""
+   },
+   "base": 65.1,
+   "bonus": 0,
+   "region": ""
+  },
+  {
+   "name": "Uzbekistan",
+   "short": "Uzbekistan",
+   "abbr": "UZB",
+   "color": "#3FA9F5",
+   "confed": "AFC",
+   "hai": {
+    "C": 6,
+    "V": 5,
+    "H": 3,
+    "O": 2,
+    "S": 4,
+    "adj": -22,
+    "note": "Government record -22"
+   },
+   "base": 22.4,
+   "bonus": 0,
+   "region": ""
+  }
+ ]
+}

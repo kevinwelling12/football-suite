@@ -978,7 +978,7 @@ function affBreakdown(k, t) {
   const sum = [`${fs.toFixed(1)} factors`];
   if (h.k != null) sum.push(`× ${h.k.toFixed(2)} track record`);
   if (h.adj) sum.push(`${h.adj < 0 ? '−' : '+'} ${Math.abs(h.adj)} adjustments`);
-  if (t.bonus) sum.push(`+ ${t.bonus} ${k === 'unl' ? 'heritage' : 'hometown'}`);
+  if (t.bonus) sum.push(`+ ${t.bonus} ${k === 'unl' ? (t.region === 'Home nation' ? 'home nation' : 'heritage') : 'hometown'}`);
   if (h.usTot) sum.push(`${h.usTot < 0 ? '−' : '+'} ${Math.abs(h.usTot)} location & big‑4`);
   if (h.assoc) sum.push(`${h.assoc < 0 ? '−' : '+'} ${Math.abs(h.assoc)} association`);
   if (fs * (h.k ?? 1) + h.adj + (h.usTot || 0) + (h.assoc || 0) > 100) sum.push('(capped at 100)');
@@ -989,7 +989,7 @@ function affBreakdown(k, t) {
     ${h.adj ? `<div class="hb hb-adj"><span>Adjustments</span><span>${esc(h.note)}</span><b class="num ${h.adj < 0 ? 'neg' : ''}">${signed(h.adj)}</b></div>` : h.note ? `<p class="hb-note">${esc(h.note)}</p>` : ''}
     ${h.usTot ? `<div class="hb hb-adj"><span>Location & big‑4</span><span>${h.us.map(([l, v]) => `${esc(l)} ${signed(v)}`).join('<br>')}</span><b class="num ${h.usTot < 0 ? 'neg' : ''}">${signed(h.usTot)}</b></div>` : ''}
     ${h.assoc ? `<div class="hb hb-adj"><span>Association</span><span>${h.links.map(([y, v]) => `${esc(y)} ${signed(v)}`).join(' · ')}</span><b class="num ${h.assoc < 0 ? 'neg' : ''}">${signed(h.assoc)}</b></div>` : ''}
-    ${t.bonus ? `<div class="hb hb-adj"><span>${k === 'unl' ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown'}</span><span>${esc(t.region || '')}</span><b class="num">+${t.bonus}</b></div>` : ''}</div>`;
+    ${t.bonus ? `<div class="hb hb-adj"><span>${k === 'unl' ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown'}</span><span>${esc(t.region === 'Home nation' ? 'Your country' : t.region || '')}</span><b class="num">+${t.bonus}</b></div>` : ''}</div>`;
 }
 function openClub(k, i) {
   const r = R[k], cup = COMPS_CFG[k].cup, t = T(k)[i];

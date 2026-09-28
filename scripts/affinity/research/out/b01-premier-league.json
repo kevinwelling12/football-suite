@@ -632,5 +632,216 @@
    "https://thefootballweek.com/2026/09/25/manchester-city-115-charges/",
    "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
   ]
+ },
+ {
+  "name": "Manchester United",
+  "C": {
+   "score": 8,
+   "evidence": "Old Trafford (74,158) with the Stretford End singing section; one of the biggest and most loyal away followings in England. Home atmosphere criticised in poor seasons and the ground is visibly ageing; fans keep staging mass ownership protests (The 1958)."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Raises: academy has had a youth graduate in every matchday squad since 1937; Manchester United Foundation; women's team. Lowers: £66 flat match tickets with no child/pensioner concessions, staff cuts and fan-group complaints about treatment of supporters. Neutral: Snapdragon chest, SumUp sleeve (Betway only on training wear)."
+  },
+  "H": {
+   "score": 10,
+   "evidence": "20 league titles, 3 European Cups, 1999 treble; Munich 1958 and the Busby Babes, Best-Law-Charlton, Ferguson era: global football significance."
+  },
+  "O": {
+   "score": 2,
+   "evidence": "Glazer family control since a 2005 leveraged takeover; net debt now over £1bn and ~£815m paid in interest since 2005. INEOS (Ratcliffe) holds ~29% and runs football operations with cost cuts and price rises. Glazers reported open to a sale (June 2026)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Carrick (permanent from 2026) took the team to 3rd in 2025-26 with a more energetic, front-foot approach than under Amorim; no lasting pressing identity."
+  },
+  "adjustments": [
+   {
+    "type": "lbo",
+    "points": -20,
+    "evidence": "2005 Glazer takeover financed with debt loaded onto the club; club net debt over £1bn in FY2026."
+   },
+   {
+    "type": "multiclub",
+    "points": -4,
+    "evidence": "INEOS also owns OGC Nice and Lausanne-Sport; United is not a feeder."
+   },
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Founding Super League signatory (2021), withdrew."
+   }
+  ],
+  "flags": [
+   "LBO is the new big penalty (-20, total -26 vs old -6). Kevin to confirm -20 vs -15."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+   "https://theesk.org/2026/06/16/the-analysis-series-manchester-united-plc-debt-structure-ineos-investment-refinancing-full-financial-review/",
+   "https://insidersport.com/2026/06/04/manchester-united-glazer-family-sale/",
+   "https://africa.espn.com/football/story/_/id/47275844/man-united-net-debt-breaks-1bn-active-summer-window",
+   "https://www.goal.com/en/lists/the-way-you-treat-us-is-a-disgrace-man-utd-supporters-stage-fierce-old-trafford-protests-against-owners-before-derby-clash/bltedb95fc6b00ac9ea"
+  ]
+ },
+ {
+  "name": "Newcastle United",
+  "C": {
+   "score": 9,
+   "evidence": "St James' Park (52,729) in the city centre, full and loud, with the Wor Flags fan group producing large displays; famously loyal through relegations in 2009 and 2016 and long trophy droughts."
+  },
+  "V": {
+   "score": 4,
+   "evidence": "Lowers: owner and sponsors tied to the Saudi state (Noon sleeve, co-owned by PIF; earlier PIF-owned Sela on the chest); the club is widely described as a sportswashing vehicle. Raises: NUFC Foundation; women's team brought in-house (2022) and funded."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "4 league titles, 6 FA Cups, 1969 Fairs Cup, 2025 League Cup (first domestic trophy since 1955); 'Entertainers' era of the 1990s."
+  },
+  "O": {
+   "score": 0,
+   "evidence": "Saudi Arabia's Public Investment Fund owns 85% (RB Sports & Media 15%) since the 2021 takeover. New head coach Matthias Jaissle came from PIF-owned Al-Ahli in Aug 2026."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "Howe's teams (2021-26) were high-energy and physically intense; Jaissle comes from the Red Bull pressing school."
+  },
+  "adjustments": [
+   {
+    "type": "state",
+    "points": -25,
+    "evidence": "Majority owned (85%) by Saudi Arabia's sovereign wealth fund PIF."
+   }
+  ],
+  "flags": [
+   "PIF also owns four Saudi Pro League clubs (incl. Al-Ahli): consider multiclub -4 on top of state."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
+   "https://gulfnews.com/business/markets/saudi-pif-raises-stakes-in-newcastle-united-to-85-per-cent-1.1721050711909",
+   "https://www.skysports.com/football/news/11678/13568428/newcastle-united-appoint-matthias-jaissle-as-head-coach-following-eddie-howes-departure-from-st-james-park",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Nottingham Forest",
+  "C": {
+   "score": 8,
+   "evidence": "City Ground (31,212, home since 1898) on the Trent is loud and sold out; strong support through three seasons in the third tier (2005-08); big European away followings in 2025-26."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Lowers: Bally's Intralot (betting) sleeve sponsor; owner-driven public attacks on referees (club social posts, FA sanctions 2024) and touchline confrontations. Raises: Forest community trust, academy. Neutral: Marex chest."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "Two European Cups (1979, 1980) and the 1978 title under Brian Clough; the only club with more European Cups than league titles."
+  },
+  "O": {
+   "score": 4,
+   "evidence": "Evangelos Marinakis owner since 2017 (also owns Olympiacos, Rio Ave). Heavy investment and a 2025-26 Europa League semi-final, but four head coaches in 2025-26 and repeated conflicts; shares placed in a blind trust (April 2026) to satisfy UEFA multi-club rules."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Style changed with each coach (Nuno counter-attack, Postecoglou, Dyche, Glasner); no lasting identity yet; Glasner brings intensity."
+  },
+  "adjustments": [
+   {
+    "type": "multiclub",
+    "points": -6,
+    "evidence": "Owner also controls Olympiacos (and Rio Ave); blind trust used each year to stay within UEFA rules."
+   },
+   {
+    "type": "overspend",
+    "points": -3,
+    "evidence": "4-point Premier League deduction in 2023-24 for PSR breach."
+   }
+  ],
+  "flags": [
+   "Marinakis' legal history in Greece (match-fixing and other cases; not convicted) not scored: Kevin may weigh it in O.",
+   "FA fines for referee posts are from memory (2024), not re-fetched this session."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
+   "https://offthepitch.com/a/tuesday-briefing-marinakis-places-nottingham-forest-shares-blind-trust-amid-uefa-rules",
+   "https://www.soccerway.com/news/soccer-premier-league-nottingham-forest-owner-marinakis-withdraws-control-to-comply-with-uefa-rules/l4qfbkPO",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Sunderland",
+  "C": {
+   "score": 9,
+   "evidence": "Stadium of Light (48,095, since 1997 after 99 years at Roker Park). Extraordinary loyalty: League One attendance record 46,039 in 2018 after two straight relegations; loud and big away following."
+  },
+  "V": {
+   "score": 6,
+   "evidence": "Raises: Foundation of Light (large education charity), Academy of Light producing first-team players. Lowers: Shuffle (crypto casino/betting) sleeve; W88 betting chest in 2025-26. 2026-27 chest sponsor not yet announced."
+  },
+  "H": {
+   "score": 8,
+   "evidence": "6 league titles, 1937 and 1973 FA Cups (1973 a famous second-tier upset); Roker Park record 75,118."
+  },
+  "O": {
+   "score": 6,
+   "evidence": "Kyril Louis-Dreyfus 64%, Juan Sartori 36% since 2021-23. Young-player model, stable, promoted 2025 and 7th in 2025-26 (first European place since 1973)."
+  },
+  "S": {
+   "score": 6,
+   "evidence": "Le Bris' side is compact and energetic, strong without the ball; not an elite press."
+  },
+  "adjustments": [],
+  "flags": [
+   "Chest sponsor for 2026-27 TBC (rumoured Visit Ghana); if a state tourism board of an authoritarian state, lower V by 1 (Ghana is rated Free by Freedom House, so likely no effect)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+   "https://www.sportspro.com/news/sunderland-fc-kyril-louis-dreyfus-takeover-ownership-methven-donald/",
+   "https://www.sunderlandecho.com/sport/football/sunderland-afc/the-truth-behind-sunderlands-sponsorless-home-shirt-claims-after-online-rumours-swirl-8827135",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
+ },
+ {
+  "name": "Tottenham Hotspur",
+  "C": {
+   "score": 7,
+   "evidence": "Tottenham Hotspur Stadium (62,850, 2019) on the White Hart Lane site; the 17,500 single-tier South Stand gives a strong home end; new-stadium window (5 seasons) has passed. Loyal but often tense crowd."
+  },
+  "V": {
+   "score": 5,
+   "evidence": "Raises: Tottenham Hotspur Foundation; funded Spurs Women; academy. Lowers: among the highest ticket prices in England and cuts to senior concessions (protested by the Supporters' Trust). Neutral: AIA chest, Kraken sleeve."
+  },
+  "H": {
+   "score": 7,
+   "evidence": "1960-61 double, 1963 Cup Winners' Cup (first British European trophy), 1972 and 1984 UEFA Cups, 2025 Europa League."
+  },
+  "O": {
+   "score": 5,
+   "evidence": "ENIC (Lewis family trust) owns ~88%; Levy left in 2025. Lewis family put in ~£320m since Oct 2025 and rejected takeover approaches. Long-running 'ENIC Out' protests over ambition and prices."
+  },
+  "S": {
+   "score": 7,
+   "evidence": "De Zerbi's possession-and-press style; recent seasons under Postecoglou and Frank were high-intensity if erratic."
+  },
+  "adjustments": [
+   {
+    "type": "superleague",
+    "points": -2,
+    "evidence": "Founding Super League signatory (2021), withdrew."
+   }
+  ],
+  "flags": [
+   "~£400m summer 2026 spend funded by owners: consider overspend -2."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+   "https://sports.yahoo.com/articles/tottenham-owners-invest-further-120m-120046730.html",
+   "https://en.wikipedia.org/wiki/ENIC_Group",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+  ]
  }
 ]

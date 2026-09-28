@@ -804,7 +804,8 @@ function viewHome() {
       <span class="tile-pe">Pick 'em <b class="num">${d.peN ? (d.pe / d.peN).toFixed(2) : '—'}</b>${d.peN ? ' avg' : ''}</span></div></button>`;
   }).join('');
   const feed = ORDER.filter(k => R[k]).flatMap(k => R[k].fx.filter(f => !f.played && !f.postponed && f.h != null && f.a != null && f.pick).map(f => ({k, f}))).sort((a, b) => a.f.sortT - b.f.sortT || ORDER.indexOf(a.k) - ORDER.indexOf(b.k)).slice(0, 20);
-  const big = ORDER.filter(k => R[k]).map(k => { const f = R[k].fx.filter(x => !x.played && x.importance !== undefined && !(x.round || '').endsWith('leg 1')).sort((a, b) => b.importance - a.importance)[0]; return f ? {k, f} : null; }).filter(Boolean);
+  const big = ORDER.filter(k => R[k]).map(k => { const f = R[k].fx.filter(x => !x.played && x.importance !== undefined && !(x.round || '').endsWith('leg 1')).sort((a, b) => b.importance - a.importance)[0]; return f ? {k, f} : null; }).filter(Boolean)
+    .sort((a, b) => a.f.sortT - b.f.sortT || ORDER.indexOf(a.k) - ORDER.indexOf(b.k));
   const motd = {}; for (const {k, f} of feed) { const d = fmtDateK(f); if (f.importance !== undefined && (!motd[d] || headline(f) > headline(motd[d].f))) motd[d] = {k, f}; }
   const isMotd = (k, f) => { const m = motd[fmtDateK(f)]; return m && m.k === k && m.f.id === f.id; };
   const row = ({k, f}, bigMode) => `<div class="feed-row ${hasFav(k, f) ? 'fav-feed' : ''} ${!bigMode && isMotd(k, f) ? 'motd' : ''}" ${!bigMode && isMotd(k, f) ? 'title="Match of the day"' : ''} data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
@@ -837,7 +838,7 @@ function viewHome() {
     <section class="section"><div class="sec-head"><h2>Affinity ranking</h2><button class="linkish" data-view="rank">All ${rankList().length} →</button></div><p class="sub">Your top 10 across every competition, coloured by league.</p>
       <div class="card rank" style="margin-top:12px">${rankList().slice(0, 10).map((e, n) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${n + 1}</span>
       <span class="who"><button class="club-link" data-club="${e.k}:${e.i}">${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}</small></span><span></span><span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>
-    <section class="section"><h2>Biggest match left in each competition</h2><p class="sub">Ranked within each competition by match importance.</p>
+    <section class="section"><h2>Biggest match left in each competition</h2><p class="sub">The most important match left in each competition, soonest first.</p>
       <div class="card" style="margin-top:12px">${big.map(x => row(x, true)).join('')}</div></section>`;
 }
 

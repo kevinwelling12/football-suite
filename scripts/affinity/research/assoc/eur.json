@@ -1,0 +1,630 @@
+[
+ {
+  "a": "Borussia Mönchengladbach",
+  "b": "Liverpool",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Supporters' friendship dating from the 1970s European finals; Gladbach fans have made an annual visit to Anfield since 1992 and Kopites travel to Gladbach every year since 2007.",
+  "sources": [
+   "https://www.liverpoolfc.com/news/liverpool-fans-make-friendship-visit-borussia-monchengladbach",
+   "https://de.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Borussia Dortmund",
+  "b": "Liverpool",
+  "strength": "medium",
+  "type": "ritual",
+  "evidence": "Both clubs' supporters sing You'll Never Walk Alone; at the 2016 Europa League quarter-final both sets of fans sang it together in Dortmund.",
+  "sources": [
+   "https://www.bundesliga.com/en/bundesliga/news/why-do-borussia-dortmund-sing-youll-never-walk-alone-liverpool-29108",
+   "https://sport360.com/article/football/european/174051/video-liverpool-and-borussia-dortmund-fans-sing-combined-rendition-of-youll-never-walk-alone"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Borussia Dortmund",
+  "b": "Mainz 05",
+  "strength": "light",
+  "type": "ritual",
+  "evidence": "The only two Bundesliga crowds that sing You'll Never Walk Alone before kick-off; in March 2016 both sets of fans sang it together after a Dortmund supporter died at the match.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/You%27ll_Never_Walk_Alone",
+   "https://www.musictimes.com/articles/67673/20160314/soccer-stadium-sings-never-walk-alone-fans-death-dortmund-vs-mainz.htm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Mainz 05",
+  "b": "Liverpool",
+  "strength": "light",
+  "type": "ritual",
+  "evidence": "Mainz adopted Liverpool's anthem You'll Never Walk Alone in 1997, but no documented mutual recognition between the fan bases was found.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/You%27ll_Never_Walk_Alone"
+  ],
+  "confidence": "low"
+ },
+ {
+  "a": "1. FC Köln",
+  "b": "Borussia Dortmund",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Ultras-level friendship (Wilde Horde and The Unity) since Köln's 2011 win over Leverkusen handed Dortmund the title; listed among current Bundesliga fan friendships.",
+  "sources": [
+   "https://de.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+   "https://ran.joyn.de/sports/fussball/bundesliga/fc-bayern-muenchen-borussia-dortmund-und-co-die-fanfreundschaften-der-bundesligisten-85361"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Borussia Mönchengladbach",
+  "b": "Schalke 04",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "New friendship officially listed by Schalke's ultras in 2025 after reciprocal visits, built on shared dislike of Köln and Dortmund.",
+  "sources": [
+   "https://www.gladbachlive.de/news/gladbach-mit-neuer-fanfreundschaft-zu-zweitliga-gigant-1027139"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Union Berlin",
+  "b": "Borussia Mönchengladbach",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Union's Hammerhearts and Gladbach's Sottocultura ultras have had an official group friendship since 2018 (contacts since 2009); the groups describe it as a group rather than club-wide friendship.",
+  "sources": [
+   "https://www.sportschau.de/regional/rbb/rbb-fussball-warum-gladbach-und-union-keine-fan-freundschaft-pflegen-100.html",
+   "https://archiv.faszination-fankurve.de/index.php?head=Union-Berlin-Ultras-verkuenden-Freundschaft-mit-Sottocultura&folder=sites&site=news_detail&news_id=18896"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Union Berlin",
+  "b": "Schalke 04",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "Some Union fans have kept a friendship with Schalke fans since the 2001 DFB-Pokal final; not carried by the whole fan scene.",
+  "sources": [
+   "https://de.wikipedia.org/wiki/1._FC_Union_Berlin"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Mainz 05",
+  "b": "Borussia Mönchengladbach",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "Intense fan friendship 1994-1999 that Gladbach fans cancelled in 1999; only individual friendships remain.",
+  "sources": [
+   "https://de.wikipedia.org/wiki/1._FSV_Mainz_05",
+   "https://de.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+  ],
+  "confidence": "low"
+ },
+ {
+  "a": "1. FC Köln",
+  "b": "Liverpool",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "Friendly relations arose after the 1965 European Cup tie decided by coin toss; German Wikipedia says only friendship scarves remain of it.",
+  "sources": [
+   "https://de.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+  ],
+  "confidence": "low"
+ },
+ {
+  "a": "Eintracht Frankfurt",
+  "b": "Atalanta",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Ultras twinning since a chance meeting on a train in January 2000; renewed with mass visits to Bergamo in 2016 and 2022 and one of the best-known cross-border gemellaggi.",
+  "sources": [
+   "https://football-italia.net/atalanta-eintracht-frankfurt-friends-26-years/",
+   "https://www.bergamonews.it/2022/12/09/il-gemellaggio-tra-latalanta-e-leintracht-francoforte-storia-di-unamicizia-di-lungo-corso/563939/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Paris Saint-Germain",
+  "b": "1. FC Köln",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "Supras Auteuil (PSG) and Köln's Wilde Horde 96 twinned in 2003; the German group still marks anniversaries although Supras dissolved.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC_supporters"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Inter Milan",
+  "b": "Lazio",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "One of Italy's most solid ultras twinnings (Boys San / Curva Nord Inter and Lazio's Curva Nord), dating from the late 1980s; both far-right-leaning curve.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_del_Football_Club_Internazionale_Milano",
+   "https://it.wikipedia.org/wiki/Tifoseria_della_Societ%C3%A0_Sportiva_Lazio"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Inter Milan",
+  "b": "Nice",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Official twinning since 2013; Nice ultras regularly appear at San Siro and sided with Inter ultras in the December 2018 clashes with Napoli.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_del_Football_Club_Internazionale_Milano",
+   "https://www.fcinter1908.it/primo-piano/la-internazionale-del-tifo-violento-non-solo-inter-nizza-ecco-tutti-i-rapporti-tra-italiane-e-straniere/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Inter Milan",
+  "b": "PSV Eindhoven",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Twinning with PSV's Ehv-Hools and Boys '91 made official in 2022-23.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_del_Football_Club_Internazionale_Milano"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Inter Milan",
+  "b": "Liverpool",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "Friendship with the Kop dating from 2010, when Inter's curva hosted Liverpool fans; Italian Wikipedia says it is not a true twinning.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_del_Football_Club_Internazionale_Milano"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Lazio",
+  "b": "Real Madrid",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Irriducibili and Ultras Sur twinned in 2001 ('divided by teams, united by mentality'), reinforced in 2007-08. Ultras Sur have been barred from the Bernabéu since 2014.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_della_Societ%C3%A0_Sportiva_Lazio",
+   "https://es.wikipedia.org/wiki/Ultras_Sur"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Lazio",
+  "b": "Espanyol",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Twinning between the Irriducibili and Espanyol's Brigadas Blanquiazules, both far-right, built on shared hostility to Barcelona; the Spanish banner often appears in Lazio's Curva Nord.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_della_Societ%C3%A0_Sportiva_Lazio",
+   "https://www.lazionews24.com/lazio-gemellaggi-internazionali-derby-roma-presenti-west-ham-wisla-levski-unsterblich-real-madrid-espanyol/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Lazio",
+  "b": "West Ham United",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Ultras friendship from around 2011; West Ham ultras attend Rome derbies (2017 report).",
+  "sources": [
+   "https://www.lazionews24.com/lazio-gemellaggi-internazionali-derby-roma-presenti-west-ham-wisla-levski-unsterblich-real-madrid-espanyol/",
+   "https://www.fcinter1908.it/primo-piano/la-internazionale-del-tifo-violento-non-solo-inter-nizza-ecco-tutti-i-rapporti-tra-italiane-e-straniere/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Napoli",
+  "b": "Borussia Dortmund",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Napoli's curve are twinned with Dortmund ultras, a link brokered via Catania; Dortmund ultras urged fans to respect the friendship when travelling to Naples.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_della_Societ%C3%A0_Sportiva_Calcio_Napoli",
+   "https://www.calciomercato.it/2023/01/04/napoli-gemellaggio-coi-tifosi-del-borussia-dortmund/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Napoli",
+  "b": "Feyenoord",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Listed as a Napoli twinning; Napoli ultras invited Feyenoord's hard core to Naples in 2023.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_della_Societ%C3%A0_Sportiva_Calcio_Napoli",
+   "https://www.fcupdate.nl/voetbalnieuws/2023/04/honderden-feyenoord-fans-naar-rome-harde-kern-uitgenodigd-door-ultras-napoli"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Napoli",
+  "b": "Paris Saint-Germain",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Twinning since 2017 between Napoli's Curva B (Ultras 1972) and PSG's K-Soce Team (Collectif Ultras Paris), with banners shown at each other's grounds.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_della_Societ%C3%A0_Sportiva_Calcio_Napoli",
+   "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC_supporters",
+   "https://www.culturepsg.com/news/supporters/des-ultras-du-psg-vus-a-naples-la-presse-locale-evoque-un-jumelage/15542"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Genoa",
+  "b": "Napoli",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "A 37-year twinning (1982-2019) that Napoli's ultras ended in April 2019; some sources report a rapprochement since 2024.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_del_Genoa_Cricket_and_Football_Club",
+   "https://it.wikipedia.org/wiki/Tifoseria_della_Societ%C3%A0_Sportiva_Calcio_Napoli"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Genoa",
+  "b": "Torino",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Historic twinning born in memory of Gigi Meroni; strained in 2009 and partly repaired in 2012; Genoa's most valued gemellaggio.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_del_Genoa_Cricket_and_Football_Club",
+   "https://it.wikipedia.org/wiki/Tifoseria_del_Torino_Football_Club"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Fiorentina",
+  "b": "Torino",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Twinning since about 1969-73, rooted in Fiorentina's closeness to Torino after Superga and a shared rivalry with Juventus; still active.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_del_Torino_Football_Club",
+   "https://www.drogbaster.it/gemellaggi-rivalita-squadre.htm"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Fiorentina",
+  "b": "Sporting CP",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Juventude Leonina and Directivo Ultras XXI are twinned with Fiorentina ultras; Juve Leo wore black at the 2018 Lisbon derby to honour a murdered Fiorentina fan.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Supporters_of_Sporting_CP",
+   "https://www.fcinter1908.it/primo-piano/la-internazionale-del-tifo-violento-non-solo-inter-nizza-ecco-tutti-i-rapporti-tra-italiane-e-straniere/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Fiorentina",
+  "b": "Sheffield Wednesday",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "Italian Wikipedia lists Sheffield Wednesday among Fiorentina supporters' British ties, with no detail.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_dell%27ACF_Fiorentina"
+  ],
+  "confidence": "low"
+ },
+ {
+  "a": "Genoa",
+  "b": "Marseille",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Genoa supporters are twinned with Marseille's South Winners only (Marseille's Commando Ultra is instead twinned with Sampdoria).",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_del_Genoa_Cricket_and_Football_Club"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Roma",
+  "b": "Atlético Madrid",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Official twinning between Roma's curva and Frente Atlético.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_dell%27Associazione_Sportiva_Roma",
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Roma",
+  "b": "Udinese",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "Roma supporters have a friendship (not a formal twinning) with Udinese supporters.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_dell%27Associazione_Sportiva_Roma",
+   "https://www.drogbaster.it/gemellaggi-rivalita-squadre.htm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "AC Milan",
+  "b": "Sevilla",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Milan's Curva Sud lists Sevilla among its current international twinnings (from around 2014), alongside CSKA Sofia and Partizan.",
+  "sources": [
+   "https://www.dailymilan.it/tifoserie-gemellate-milan/",
+   "https://www.drogbaster.it/gemellaggi-rivalita-squadre.htm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Juventus",
+  "b": "Notts County",
+  "strength": "light",
+  "type": "heritage",
+  "evidence": "Juventus took its black-and-white stripes from Notts County in 1903; the supporters' friendship was reinforced in 2011 when Notts County opened the Juventus Stadium.",
+  "sources": [
+   "https://it.wikipedia.org/wiki/Tifoseria_della_Juventus_Football_Club",
+   "https://en.wikipedia.org/wiki/Notts_County_F.C."
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Marseille",
+  "b": "AEK Athens",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Commando Ultra '84 and AEK's Original 21 have been friends for about 35 years (with Livorno, the 'triangle of brotherhood'); AEK's 1989 visit shaped Marseille's ultras.",
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Supporters_de_l%27Olympique_de_Marseille",
+   "https://en.wikipedia.org/wiki/Original_21"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Lille",
+  "b": "Nice",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Lille's Dogues Virage Est and Nice's Brigade Sud have been friends since the late 1990s; Lille shared its section with Nice ultras after the Brigade Sud was dissolved.",
+  "sources": [
+   "https://www.mouvement-ultra.fr/index.php/tinformations/revue-presse/1209-so-foot-top-5-des-amities-entre-groupes-ultras-1753101313"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Lyon",
+  "b": "Real Madrid",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Lyon's Bad Gones declare a friendship with Real Madrid's Ultras Sur, who attended the Bad Gones' 35th anniversary match in 2022.",
+  "sources": [
+   "https://es.wikipedia.org/wiki/Ultras_Sur",
+   "http://www.ultrasavanti.com/2025/08/the-bad-gones-of-lyon-ultras-identity.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Sevilla",
+  "b": "Marseille",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Biris Norte are listed as twinned with Marseille's Commando Ultra '84, within the left-wing ultras network.",
+  "sources": [
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "AEK Athens",
+  "b": "Fenerbahçe",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "Informal friendship between AEK and Fenerbahçe fans, rooted in AEK's Constantinople origins ('Same City's Sons' banner, 2017).",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._supporters"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Feyenoord",
+  "b": "Sunderland",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Long-standing friendship dating from Sunderland dock workers in Rotterdam in the 1970s; 'Feyenoord Mackems' flags at the Stadium of Light and supporters visiting each other's matches.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sunderland_A.F.C._supporters",
+   "https://www.elfvoetbal.nl/Binnenland/271282/Vriendschap-en-voetbal-met-wie-zijn-Ajax-PSV-en-Feyenoord-vrienden"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Feyenoord",
+  "b": "Liverpool",
+  "strength": "medium",
+  "type": "ritual",
+  "evidence": "Both port cities' fans sing You'll Never Walk Alone, and Dutch press lists Liverpool among Feyenoord's friendships.",
+  "sources": [
+   "https://www.elfvoetbal.nl/Binnenland/271282/Vriendschap-en-voetbal-met-wie-zijn-Ajax-PSV-en-Feyenoord-vrienden",
+   "https://en.wikipedia.org/wiki/You%27ll_Never_Walk_Alone"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Real Madrid",
+  "b": "Espanyol",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Ultras Sur and Espanyol's Brigadas Blanquiazules have had a strong far-right alliance since 1988.",
+  "sources": [
+   "https://es.wikipedia.org/wiki/Ultras_Sur",
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Sevilla",
+  "b": "Deportivo La Coruña",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Biris Norte and Riazor Blues, both left-wing, are officially twinned and display banners together when the teams meet.",
+  "sources": [
+   "https://es.wikipedia.org/wiki/Biris_Norte",
+   "https://www.elcorreogallego.es/galicia/2014/12/01/mapa-ultra-futbol-espanol-110519135.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Sevilla",
+  "b": "Rayo Vallecano",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Biris Norte are twinned with Rayo's Bukaneros in the left-wing ultras network.",
+  "sources": [
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html",
+   "https://www.elcorreogallego.es/galicia/2014/12/01/mapa-ultra-futbol-espanol-110519135.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Osasuna",
+  "b": "Rayo Vallecano",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Indar Gorri (Osasuna) and Bukaneros (Rayo) are twinned.",
+  "sources": [
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Osasuna",
+  "b": "Deportivo La Coruña",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Indar Gorri (Osasuna) and Riazor Blues (Deportivo) are twinned.",
+  "sources": [
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Deportivo La Coruña",
+  "b": "Rayo Vallecano",
+  "strength": "light",
+  "type": "fan friendship",
+  "evidence": "Riazor Blues and Bukaneros keep good relations, short of a formal twinning.",
+  "sources": [
+   "https://www.elcorreogallego.es/galicia/2014/12/01/mapa-ultra-futbol-espanol-110519135.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Athletic Club",
+  "b": "Osasuna",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Herri Norte Taldea and Indar Gorri are twinned in the Basque left-nationalist ultras network.",
+  "sources": [
+   "https://www.elespanol.com/reportajes/20251031/quieren-volver-kale-borroka-gks-indar-gorri-ultras-sembraron-caos-universidad-navarra/1003743993689_0.html",
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Athletic Club",
+  "b": "Real Sociedad",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Although the clubs contest the Basque derby, Herri Norte Taldea and Real Sociedad's ultras (Bultzada / Real Sociedad Firm) are twinned in the same Basque ultras network.",
+  "sources": [
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html",
+   "https://www.elespanol.com/reportajes/20251031/quieren-volver-kale-borroka-gks-indar-gorri-ultras-sembraron-caos-universidad-navarra/1003743993689_0.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Athletic Club",
+  "b": "Alavés",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Herri Norte Taldea and Alavés's Iraultza 1921 are twinned in the Basque left-nationalist ultras network.",
+  "sources": [
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Athletic Club",
+  "b": "Celta Vigo",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Herri Norte Taldea is twinned with Celtarras, Celta's left-wing, pro-independence ultras.",
+  "sources": [
+   "https://elgeneracionalpost.com/deportes/futbol/2024/0929/167999/hermanamientos-ultras-en-espana-nacionales-e-internacionales.html",
+   "https://www.eldesmarque.com/futbol/20241001/radiografia-ultras-futbol-espanol_18_017028515.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Osasuna",
+  "b": "Real Sociedad",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Indar Gorri is allied and twinned with Real Sociedad Firm in the Basque left-nationalist ultras network.",
+  "sources": [
+   "https://www.elespanol.com/reportajes/20251031/quieren-volver-kale-borroka-gks-indar-gorri-ultras-sembraron-caos-universidad-navarra/1003743993689_0.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "a": "Osasuna",
+  "b": "Alavés",
+  "strength": "medium",
+  "type": "fan friendship",
+  "evidence": "Indar Gorri is allied and twinned with Alavés's Iraultza 1921 in the Basque left-nationalist ultras network.",
+  "sources": [
+   "https://www.elespanol.com/reportajes/20251031/quieren-volver-kale-borroka-gks-indar-gorri-ultras-sembraron-caos-universidad-navarra/1003743993689_0.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "a": "Athletic Club",
+  "b": "Atlético Madrid",
+  "strength": "light",
+  "type": "heritage",
+  "evidence": "Atlético was founded in 1903 by Basque students as the Madrid branch of Athletic Club and shared its kit.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+  ],
+  "confidence": "high"
+ },
+ {
+  "a": "Athletic Club",
+  "b": "Southampton",
+  "strength": "light",
+  "type": "heritage",
+  "evidence": "Athletic's red-and-white stripes date from 1909-10, when shirts were bought in Southampton in the Saints' colours.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "a": "Atlético Madrid",
+  "b": "Southampton",
+  "strength": "light",
+  "type": "heritage",
+  "evidence": "Atlético took the same Southampton-style red-and-white shirts that Athletic brought back in 1911, hence the 'colchoneros' stripes.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+  ],
+  "confidence": "medium"
+ }
+]

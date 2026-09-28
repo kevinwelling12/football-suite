@@ -1439,7 +1439,9 @@ function renderChrome() {
     ? `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="Settings" title="Settings" class="gear"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.3 7.3 0 0 0-1.7-1l-.4-2.6h-4l-.4 2.6a7.3 7.3 0 0 0-1.7 1l-2.4-1-2 3.4 2 1.6a7.6 7.6 0 0 0 0 2l-2 1.6 2 3.4 2.4-1c.5.4 1.1.7 1.7 1l.4 2.6h4l.4-2.6c.6-.3 1.2-.6 1.7-1l2.4 1 2-3.4-2-1.6ZM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Z"/></svg></button>`
     : `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="${esc(l)}">${tabShort(k, t, l) === l ? esc(l) : `<span class="nm-full">${esc(l)}</span><span class="nm-short">${esc(tabShort(k, t, l))}</span>`}</button>`).join('');
   $('#tabs').hidden = k === 'home';
-  const act = document.querySelector('#comps [aria-pressed="true"]'); if (act) act.scrollIntoView({block:'nearest', inline:'center'});
+  // Centre the active chip by scrolling the chip row only (scrollIntoView would also move the page).
+  const bar = $('#comps'), act = bar.querySelector('[aria-pressed="true"]');
+  if (act) bar.scrollLeft += act.getBoundingClientRect().left - bar.getBoundingClientRect().left - (bar.clientWidth - act.offsetWidth) / 2;
 }
 function renderStatus() {
   const k = state.view;
@@ -1465,6 +1467,15 @@ function render() {
   else if (COMPS_CFG[k].cup) html = {week:cupRounds, table:cupLeft, races:cupRaces, clubs:viewClubs, settings:viewSettings}[state.tab[k]](k);
   else html = {week:viewWeek, table:viewTable, races:viewRaces, clubs:viewClubs, settings:viewSettings, bracket:viewBracket}[state.tab[k]](k);
   $('#main').innerHTML = html;
+  if (anchor) { holdAnchor(anchor); const a = anchor; anchor = null; requestAnimationFrame(() => holdAnchor(a)); }
+}
+// Keep the match card you just tapped at the same spot on screen after a re-render,
+// so saving or updating a score doesn't make the page jump.
+let anchor = null;
+function holdAnchor(a) {
+  const els = [...document.querySelectorAll(`#main [data-fx="${a.key}"]`)]; if (!els.length) return;
+  const el = els.reduce((b, x) => Math.abs(x.getBoundingClientRect().top - a.top) < Math.abs(b.getBoundingClientRect().top - a.top) ? x : b);
+  const dy = el.getBoundingClientRect().top - a.top; if (Math.abs(dy) > 1) window.scrollBy(0, dy);
 }
 
 // ---------------------------------------------------------------- shared bits
@@ -1546,7 +1557,7 @@ function matchCard(k, f, motw) {
   const badges = (favBadge || midBadges) ? `<span class="bslot l">${favAway ? '' : favBadge}</span><span class="bslot c">${midBadges}</span><span class="bslot r">${favAway ? favBadge : ''}</span>` : '';
   const fcol = isFav(k, f.h) ? T(k)[f.h].color : isFav(k, f.a) ? T(k)[f.a].color : null;
   const tc = f.h != null && f.a != null && T(k)[f.h].color ? `style="--hc:${T(k)[f.h].color};--ac:${T(k)[f.a].color}${fcol ? ';--fc:' + fcol : ''}"` : '';
-  return `<article ${tc} class="match ${f.live ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''} ${favAway ? 'fav-away' : ''} ${motw ? 'is-motw' : ''} ${f.postponed ? 'is-pp' : ''}">
+  return `<article ${tc} data-fx="${k}:${f.id}" class="match ${f.live ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''} ${favAway ? 'fav-away' : ''} ${motw ? 'is-motw' : ''} ${f.postponed ? 'is-pp' : ''}">
     ${badges ? `<div class="badges">${badges}</div>` : ''}
     <div class="m-top"><span>${fin ? fmtDateK(f) : whenLabel(f)}${cup ? ' · ' + esc(f.round) + (f.round.startsWith('Semi') ? '' : ` ${f.tie}`) : ''}</span>${imp}</div>
     ${bcTeams ? (() => {
@@ -2024,6 +2035,7 @@ document.addEventListener('click', e => {
   const t = e.target.closest('[data-signin],[data-signout],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-tmode],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
   if (!t) return;
   const k = state.view;
+  const card = t.closest('#main [data-fx]'); anchor = card ? {key:card.dataset.fx, top:card.getBoundingClientRect().top} : null; queueMicrotask(() => { anchor = null; });
   if (t.dataset.signin) { signIn(); return; }
   if (t.dataset.signout) { signOut(); return; }
   if (t.dataset.adjadd) { const i = +$('#adj-club').value, p = +$('#adj-sign').value * Math.abs(parseInt(String($('#adj-pts').value).replace(/[^0-9]/g, ''), 10)), n = $('#adj-note').value.trim();
@@ -2062,7 +2074,7 @@ document.addEventListener('click', e => {
   if (t.dataset.go) { const [kk, id] = t.dataset.go.split(':'); state.view = kk; state.tab[kk] = 'week'; const f = R[kk].fx[+id]; state.mw[kk] = f.mw; render(); window.scrollTo({top:0}); return; }
   if (t.dataset.tab) { state.tab[k] = t.dataset.tab; render(); window.scrollTo({top:0}); return; }
   if (t.dataset.open) { openDetail(k, +t.dataset.open); return; }
-  if (t.dataset.enter) { const el = $('#entry-' + t.dataset.enter); el.hidden = !el.hidden; if (!el.hidden) $('#hs-' + t.dataset.enter).focus(); return; }
+  if (t.dataset.enter) { const el = $('#entry-' + t.dataset.enter); el.hidden = !el.hidden; if (!el.hidden) $('#hs-' + t.dataset.enter).focus({preventScroll:true}); return; }
   if (t.dataset.save) {
     if (R[k] && R[k].fx[+t.dataset.save]) lockMotw(k, roundKey(k, R[k].fx[+t.dataset.save]));
     const id = +t.dataset.save, h = parseInt($('#hs-' + id).value, 10), a = parseInt($('#as-' + id).value, 10);

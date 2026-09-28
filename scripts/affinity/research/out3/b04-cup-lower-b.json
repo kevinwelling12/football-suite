@@ -127,11 +127,11 @@
   "name": "Oldham Athletic",
   "T": {
    "score": 5,
-   "evidence": "Micky Mellon manager since Sept 2023: led the 2025 National League play-off win and a 10th-place return season. Captain Tom Pett; squad largely rebuilt since 2025 with several loanees (Stoke, Sheffield Utd, Wigan, Bolton). No pressing identity or current icon verified."
+   "evidence": "Micky Mellon manager since Sept 2023: led the 2025 National League play-off win and a 10th-place League Two return. Captain was Tom Conlon (67 apps in 2025-26), now Tom Pett; squad rebuilt with several loanees (Stoke, Sheffield Utd, Wigan, Bolton). No pressing identity or current icon verified."
   },
   "V_delta": {
-   "points": 0,
-   "evidence": "No player conduct cases found."
+   "points": -2,
+   "evidence": "June 2025: video of Kian Harratt throwing a chair that struck a woman in an Ibiza hotel brawl went viral. Club said it 'strongly condemns violence' and would investigate, but published no outcome and kept him: 21 appearances in 2025-26, loaned to Brackley Jan 2026, left for Worksop July 2026. Applied as standing by a player over credible violence (-2)."
   },
   "icons": [],
   "coach": "Micky Mellon, since 2023",
@@ -139,11 +139,15 @@
    "value": false,
    "evidence": ""
   },
-  "flags": [],
-  "confidence": "low",
+  "flags": [
+   "Harratt case: video evidence but no criminal charge found, he claimed he aimed at a man; player now gone. Kevin may prefer -1."
+  ],
+  "confidence": "medium",
   "sources": [
    "https://en.wikipedia.org/wiki/Oldham_Athletic_A.F.C.",
-   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Oldham_Athletic_A.F.C._season"
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Oldham_Athletic_A.F.C._season",
+   "https://en.wikipedia.org/wiki/Kian_Harratt",
+   "https://www.theoldhamtimes.co.uk/sport/25269623.kian-harratt-speaks-throwing-chair-hit-woman/"
   ]
  },
  {
@@ -194,6 +198,403 @@
   "sources": [
    "https://en.wikipedia.org/wiki/Peterborough_United_F.C.",
    "https://www.thefa.com/news/2024/feb/09/uzunhasanoglu-suspended-090224"
+  ]
+ },
+ {
+  "name": "Plymouth Argyle",
+  "T": {
+   "score": 6,
+   "evidence": "Captain Joe Edwards (at Argyle since 2019, three promotions/relegation battles) is the long-serving leader; strong 'Green Army' player-fan bond (#12 retired for fans, long away trips). Coach churn: Schumacher, Rooney, Muslic, now Tom Cleverley (since 2025). Moderate churn after 2025 relegation (Tolaj sold GBP 4m, 8 in). Early 2026-27: 4th."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found. Bim Pepple was a target of online racist abuse (Sept 2025), club supported him. May 2025 FA case for a tunnel mass confrontation with Sheffield Utd: routine."
+  },
+  "icons": [
+   "Joe Edwards (borderline)"
+  ],
+  "coach": "Tom Cleverley, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Edwards counted as a borderline icon (+1 over old S 5)."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Plymouth_Argyle_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Plymouth_Argyle_F.C._season",
+   "https://www.itv.com/news/westcountry/2025-09-03/plymouth-argyle-striker-targeted-with-vile-racist-abuse"
+  ]
+ },
+ {
+  "name": "Port Vale",
+  "T": {
+   "score": 5,
+   "evidence": "Captain Ben Garrity, a mainstay since the 2022 promotion. 2025-26: FA Cup quarter-final but relegated from League One; coach churn (Andy Crosby sacked Feb 2024, Darren Moore left Dec 2025, Jon Brady since Jan 2026). Squad topped up with loanees. No pressing identity or current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found for current or recent Vale players (Kian Harratt's convictions relate to other clubs). Captain George Byers sent off for a heavy challenge, routine."
+  },
+  "icons": [],
+  "coach": "Jon Brady, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Wikipedia lists Ben Garrity as captain; a search snippet named George Byers captain in 2025-26. Not material to the score."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Port_Vale_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Port_Vale_F.C._season"
+  ]
+ },
+ {
+  "name": "Reading",
+  "T": {
+   "score": 5,
+   "evidence": "Leam Richardson manager since 2024; players stayed together through the Dai Yongge wage/points-deduction years; academy products used out of necessity. Captain Lewis Wing, vice Joel Pereira. Mid-table (12th) League One; no pressing identity, no current icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "Player wages paid late Oct-Nov 2022 and April 2023 (EFL charges): just before the 3-season window and under the old owner, not counted. No player conduct cases found. Academy tradition already counted in V."
+  },
+  "icons": [],
+  "coach": "Leam Richardson, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "If Kevin counts the 2022-23 unpaid player wages as welfare, V -1."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Reading_F.C.",
+   "https://en.wikipedia.org/wiki/Dai_Yongge"
+  ]
+ },
+ {
+  "name": "Rochdale",
+  "T": {
+   "score": 6,
+   "evidence": "Icon: Ian Henderson (41), club record league scorer (164), returned 2023, new one-year deal May 2026. 2025-26: club-record 106 points and promotion back to the EFL. Coach Jimmy McNulty then left for Stockport; Ian Watson since June 2026. Captain Ethan Ebanks-Landell. Fans took 15,000 to Wembley."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found 2023-26."
+  },
+  "icons": [
+   "Ian Henderson"
+  ],
+  "coach": "Ian Watson, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rochdale_A.F.C.",
+   "https://rochdaleafc.co.uk/ian-henderson/"
+  ]
+ },
+ {
+  "name": "Rotherham United",
+  "T": {
+   "score": 4,
+   "evidence": "Five managers in about three years (Richardson, Evans, Hamshaw, Bruce since June 2026) and relegation to League Two 2026. Captain Paul Mullin (a Wrexham icon, recent arrival). Large, loan-heavy squad. No pressing identity or icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found; loanee Martin Sherif charged with betting breaches during his 2024-25 loan (minor, not abuse/violence)."
+  },
+  "icons": [],
+  "coach": "Alex Bruce, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rotherham_United_F.C.",
+   "https://www.rotherhamadvertiser.co.uk/sport/football/rotherham-united/former-rotherham-united-player-accused-of-betting-breaches-8916600"
+  ]
+ },
+ {
+  "name": "Salford City",
+  "T": {
+   "score": 4,
+   "evidence": "High churn: 11 permanent signings summer 2026 (incl. Macaulay Langstaff), managers Karl Robinson then Peter Cklamovski (since 2025). Celebrity-owner project, small crowds, little player-fan bond story. Play-off contenders (4th 2025-26, 7th early 2026-27). No icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found. A Salford player was the alleged target of racist abuse at a July 2025 friendly at York (abandoned); fan issue, not player conduct."
+  },
+  "icons": [],
+  "coach": "Peter Cklamovski, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Salford_City_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Salford_City_F.C._season",
+   "https://www.skysports.com/football/news/11095/13395692/salford-city-friendly-at-york-city-abandoned-following-alleged-racist-abuse"
+  ]
+ },
+ {
+  "name": "Sheffield Wednesday",
+  "T": {
+   "score": 5,
+   "evidence": "Icon: Barry Bannan (at SWFC since 2015, 477 games, captain) left for Millwall in Jan 2026 only because administrators could give no assurances, then returned on a one-year deal July 2026. Henrik Pedersen coach since July 2025. Offsets: 2025-26 collapse (39 league games without a win, relegated) and huge churn (20+ arrivals summer 2026 under new owners). Academy players Jack Phillips, Ernie Weaver, Joe Emery in squad."
+  },
+  "V_delta": {
+   "points": -1,
+   "evidence": "Player welfare: players and staff not paid on time repeatedly in 2025 (five times in seven months by Oct 2025); PFA said it 'will not tolerate' it; several players moved to terminate contracts; EFL embargoes. Some academy graduates in the squad, not enough to offset."
+  },
+  "icons": [
+   "Barry Bannan"
+  ],
+  "coach": "Henrik Pedersen, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Unpaid wages were Chansiri's doing and O already reflects that era's end; Kevin may see the V -1 as double-counting.",
+   "Bannan returned July 2026: +1 icon applied (old S 4 -> T 5)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sheffield_Wednesday_F.C.",
+   "https://www.swfc.co.uk/news/2026/july/09/barry-bannan-back-at-wednesday-/",
+   "https://www.skysports.com/football/news/11703/13391100/sheffield-wednesday-players-intend-to-terminate-contracts-over-unpaid-wages",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Sheffield_Wednesday_F.C._season"
+  ]
+ },
+ {
+  "name": "Shrewsbury Town",
+  "T": {
+   "score": 4,
+   "evidence": "Managerial churn: Cotterill, Taylor, Hurst, Ainsworth, Appleton, Gavin Cowan (Feb 2026). Relegated 2025, narrowly stayed up 2025-26. Largely new squad around captain Will Boyle, several loans. No icon or pressing identity."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Gavin Cowan, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "US consortium incl. Brad Friedel buying the club: re-check T/coach once completed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shrewsbury_Town_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Salford_City_F.C._season"
+  ]
+ },
+ {
+  "name": "Stevenage",
+  "T": {
+   "score": 6,
+   "evidence": "Alex Revell (ex-player) head coach since March 2024; captain Carl Piergianni long-serving, Player of the Year 2023 and 2024. Joint-best League finish (6th, League One play-off semi 2026) on a small budget suggests a tight, stable, hard-working group. No pressing identity verified."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found. (Play-off pitch invader charged with assaulting a Stevenage player: fan matter.)"
+  },
+  "icons": [],
+  "coach": "Alex Revell, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stevenage_F.C.",
+   "https://www.thecomet.net/news/26128870.man-charged-pitch-encroachment-stevenage-fc-play-off/"
+  ]
+ },
+ {
+  "name": "Stockport County",
+  "T": {
+   "score": 6,
+   "evidence": "Dave Challinor (2021-26) built energetic, front-foot sides that rose from the National League to the 2026 League One play-off final; he left by mutual consent after it. Jimmy McNulty (from Rochdale) since 2026, 3-year deal. Captain Oliver Norwood. 13 summer signings. Strong crowd bond ('twelfth man')."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Jimmy McNulty, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "Owner Mark Stott's firm took a controlling stake in Debreceni VSC (Hungary) in Jan 2026: multi-club, affects O not T/V here."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stockport_County_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Stockport_County_F.C._season"
+  ]
+ },
+ {
+  "name": "Swindon Town",
+  "T": {
+   "score": 5,
+   "evidence": "Ian Holloway since Oct 2024 (contract to 2028): charismatic, fan-friendly manager who stabilised the club. Veterans retained May 2026 (Ollie Clarke, Lewis Ward, Ryan Tafazolli, Harry Smith). 7 signings + 6 loans summer 2026. Mid-table League Two; no pressing identity or icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found (only routine FA on-field charges, e.g. ineligible Ollie Clarke in the Vertu Trophy, Jan 2026)."
+  },
+  "icons": [],
+  "coach": "Ian Holloway, since 2024",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Swindon_Town_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Swindon_Town_F.C._season"
+  ]
+ },
+ {
+  "name": "Tranmere Rovers",
+  "T": {
+   "score": 4,
+   "evidence": "Four managers since 2023 (Mellon, Dawes, Adkins, Darrell Clarke); 21st in League Two 2025-26. Captain Will Vaulks (recent arrival); veteran Connor Jennings (2019 promotion scorer). No pressing identity or icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found (Brad Walker retrospective FA charge, Oct 2024, routine)."
+  },
+  "icons": [],
+  "coach": "Darrell Clarke, since 2025",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tranmere_Rovers_F.C.",
+   "https://en.wikipedia.org/wiki/2024%E2%80%9325_Tranmere_Rovers_F.C._season"
+  ]
+ },
+ {
+  "name": "Walsall",
+  "T": {
+   "score": 5,
+   "evidence": "Mat Sadler (2023-26) built a club-record nine-straight-wins side that led League Two by 12 points in Jan 2025 before fading and losing the play-off final. Lee Grant since May 2026 (3-year deal); heavy churn (11 in, 11 released summer 2026). Unbeaten start 2026-27 (5th). No icon."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Lee Grant, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Walsall_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Walsall_F.C._season"
+  ]
+ },
+ {
+  "name": "Wigan Athletic",
+  "T": {
+   "score": 4,
+   "evidence": "Coach churn (Maloney, Ryan Lowe sacked Feb 2026, Gary Caldwell since 16 Feb 2026). ~12 permanent signings plus six loans summer 2026; academy keeper Sam Tickle sold. Bottom of League One early 2026-27. Captain Max Power (returning ex-player). Callum McManaman (2013 FA Cup final hero) kept as player-mentor."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found (only routine red cards; U18 mass-confrontation fine Feb 2025). 2022-23 unpaid wages predate the window and current owner."
+  },
+  "icons": [],
+  "coach": "Gary Caldwell, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "McManaman could be read as an icon; he is mostly a mentor now, not counted."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wigan_Athletic_F.C.",
+   "https://wiganathletic.com/news/2026/february/16/gary-caldwell-appointed-wigan-athletic-head-coach-/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Wigan_Athletic_F.C._season"
+  ]
+ },
+ {
+  "name": "Wycombe Wanderers",
+  "T": {
+   "score": 5,
+   "evidence": "Captain Jack Grimmer (since 2019) and academy-product Josh Scowen give continuity, but coaching churn since Ainsworth (Matt Bloomfield, Duff sacked 8 Sept 2026, Tom Hounsell interim) and a wealthy-owner signing spree (Danny Ings, Steve Cook, Cauley Woodrow). Ainsworth-era identity was direct/physical, not pressing."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found (only routine serious-foul-play bans; chairman Dan Rice FA charge for misconduct to an official)."
+  },
+  "icons": [],
+  "coach": "Tom Hounsell (interim), since Sept 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wycombe_Wanderers_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Wycombe_Wanderers_F.C._season"
+  ]
+ },
+ {
+  "name": "York City",
+  "T": {
+   "score": 5,
+   "evidence": "2025-26 National League champions (108 pts, club-record 114 goals) under Stuart Maynard: attacking, high-tempo. But Maynard (Manager of the Season) was sacked 26 July 2026 over 'direction and vision'; Scott Lindsey appointed next day. 9 permanent signings. Captain Ryan Fallowfield, vice Ollie Pearce."
+  },
+  "V_delta": {
+   "points": 0,
+   "evidence": "No player conduct cases found."
+  },
+  "icons": [],
+  "coach": "Scott Lindsey, since 2026",
+  "republic_link": {
+   "value": false,
+   "evidence": ""
+  },
+  "flags": [
+   "final/ S evidence credits the title to Scott Lindsey; it was Stuart Maynard (Lindsey arrived July 2026)."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/York_City_F.C.",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_York_City_F.C._season",
+   "https://citiblog.co.uk/2026/07/27/former-mk-dons-boss-scott-lindsey-appointed-new-boss-of-york-city/"
   ]
  }
 ]

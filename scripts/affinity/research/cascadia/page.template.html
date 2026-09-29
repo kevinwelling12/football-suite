@@ -1,0 +1,122 @@
+<title>Cascadia Decider</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#000;--card:#1C1C1E;--card2:#2C2C2E;--ink:#fff;--muted:rgba(235,235,245,.62);--faint:rgba(235,235,245,.32);--accent:#0A84FF;--pick:#30D158;--a:#FF9F0A;--b:#64D2FF}
+*{box-sizing:border-box}html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 Archivo,-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;padding-inline:16px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:600px;margin:0 auto;padding-block:20px 32px;display:flex;flex-direction:column;gap:16px;min-height:100%}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.brand{font-weight:900;font-size:26px;font-variation-settings:"wdth" 112;letter-spacing:-.01em}
+.brand span{color:#2E8B57}.brand em{font-style:normal;color:#5B9BD5}
+.count{font-variant-numeric:tabular-nums;color:var(--muted);font-size:14px;white-space:nowrap}
+.sec{font-size:12px;text-transform:uppercase;letter-spacing:.1em;font-weight:800;color:var(--muted)}
+.bar{height:4px;border-radius:2px;background:var(--card2);overflow:hidden}.bar i{display:block;height:100%;background:var(--accent)}
+main{display:flex;flex-direction:column;gap:14px}
+h1{margin:0;font-size:22px;line-height:1.25;text-wrap:balance}
+.lead{margin:0;color:var(--muted)}
+button{font:inherit;color:inherit;cursor:pointer}
+.opts{display:flex;flex-direction:column;gap:9px}
+.opt{background:var(--card);border:1.5px solid transparent;border-radius:14px;padding:14px 16px;text-align:left;font-size:16.5px;font-weight:600}
+.opt.sel,.sc button.sel,.lik button.sel{border-color:var(--pick);background:#12301b}
+.opt:focus-visible,.sc button:focus-visible,.lik button:focus-visible,.cta:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.imp{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.imp button{background:var(--card);border:1.5px solid transparent;border-radius:12px;padding:12px 4px;font-size:13.5px;font-weight:700;line-height:1.2}
+.imp button.sel{border-color:var(--pick);background:#12301b}
+.two{display:grid;grid-template-columns:1fr;gap:10px}
+@media (min-width:600px){.two{grid-template-columns:1fr 1fr}}
+.club{background:var(--card);border-radius:16px;padding:14px 16px;font-size:15.5px;line-height:1.5}
+.club b{display:block;font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px}
+.club.a b{color:var(--a)}.club.b b{color:var(--b)}
+.lik{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+.lik button{background:var(--card);border:1.5px solid transparent;border-radius:10px;padding:12px 0;font-weight:800;font-size:14px}
+.lik button:nth-child(-n+3){color:var(--a)}.lik button:nth-child(n+5){color:var(--b)}
+.ends{display:flex;justify-content:space-between;font-size:12.5px;color:var(--faint)}
+.sc{display:grid;grid-template-columns:repeat(11,1fr);gap:4px}
+@media (max-width:420px){.sc{grid-template-columns:repeat(6,1fr)}}
+.sc button{background:var(--card);border:1.5px solid transparent;border-radius:10px;padding:12px 0;font-weight:800;font-variant-numeric:tabular-nums}
+.cta{border:0;border-radius:14px;padding:15px;background:var(--accent);color:#fff;font-weight:800;font-size:17px}
+.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;color:var(--faint);font-size:13px}
+.foot button{background:none;border:0;color:var(--muted);padding:6px 0;font-weight:600}
+</style>
+<div class="wrap">
+  <div class="top"><div class="brand"><span>Cascadia</span> <em>Decider</em></div><div class="count" id="count"></div></div>
+  <div class="sec" id="sec">Before you start</div>
+  <div class="bar"><i id="fill" style="width:0%"></i></div>
+  <main id="main" aria-live="polite"></main>
+  <div class="foot"><button id="back" type="button">← Back</button><span id="save"></span><button id="skip" type="button">Skip</button></div>
+</div>
+<script>
+const Q = /*__QUESTIONS__*/;
+const STORE = 'cascadia-decider-v1', $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const PARTS = [['imp', 'What matters · part 1 of 4'], ['card', 'Head to head · part 2 of 4'], ['rule', 'Rules of thumb · part 3 of 4'], ['scen', 'Scenarios · part 3 of 4'], ['gut', 'Gut check · part 4 of 4']];
+function newOrder() {
+  return [...shuffle(Q.dims.map(d => ({t: 'imp', id: 'i_' + d.id, d: d.id}))), ...shuffle(Q.cards.map(c => ({t: 'card', id: c.id}))),
+    ...Q.rules.map(r => ({t: 'rule', id: r.id})), ...Q.scen.map(s => ({t: 'scen', id: s.id})), ...Q.gut.map(g => ({t: 'gut', id: g.id}))];
+}
+let st = {order: null, answers: {}, times: {}, idx: -1};
+try { const j = JSON.parse(localStorage.getItem(STORE) || 'null'); if (j && j.order) st = j; } catch (e) {}
+const find = (arr, id) => arr.find(x => x.id === id);
+let shown = Date.now(), ref = null, chain = Promise.resolve(), dirty = false;
+function persist() {
+  try { localStorage.setItem(STORE, JSON.stringify(st)); } catch (e) {}
+  if (!ref) return; dirty = true;
+  chain = chain.then(async () => { if (!dirty) return; dirty = false;
+    try { await ref.set({answers: st.answers, times: st.times, order: st.order, idx: st.idx, updated: new Date().toISOString()}); $('#save').textContent = 'Saved'; }
+    catch (e) { $('#save').textContent = 'Saved on this device'; } });
+}
+function answer(v) { const it = st.order[st.idx]; st.answers[it.id] = v; st.times[it.id] = Date.now() - shown; persist(); render(); setTimeout(() => go(st.idx + 1), 200); }
+function go(i) { st.idx = Math.max(0, Math.min(i, st.order.length)); shown = Date.now(); persist(); render(); window.scrollTo(0, 0); }
+function render() {
+  const total = st.order ? st.order.length : 41, n = Object.keys(st.answers).length;
+  $('#fill').style.width = `${Math.round(n / total * 100)}%`;
+  const it = st.order && st.order[st.idx];
+  $('#count').textContent = it ? `${st.idx + 1} / ${total}` : '';
+  $('#sec').textContent = it ? PARTS.find(p => p[0] === it.t)[1] : st.idx >= total ? 'Done' : 'Before you start';
+  $('#back').hidden = !it || st.idx === 0; $('#skip').hidden = !it;
+  const m = $('#main');
+  if (st.idx < 0) {
+    m.innerHTML = `<h1>Portland or Seattle: settling it.</h1>
+      <p class="lead">Four short parts, about 10 minutes. First you say how much each thing matters, before seeing any facts. Then the two clubs go head to head on each thing, labelled A and B, shuffled on every card, with facts from a sourced dossier. Then a few rules of thumb and scenarios. Names only appear at the very end.</p>
+      <p class="lead">You'll recognise some clubs from the facts. That's fine: judge each card on what it says, not on the club you think it is.</p>
+      <button class="cta" id="go" type="button">${n ? 'Resume' : 'Start'}</button>`;
+    $('#go').onclick = () => { if (!st.order) st.order = newOrder(); const k = st.order.findIndex(x => !(x.id in st.answers)); go(k < 0 ? st.order.length : k); };
+    return;
+  }
+  if (st.idx >= total) {
+    const miss = st.order.filter(x => !(x.id in st.answers)).length;
+    m.innerHTML = `<h1>${miss ? `${miss} skipped` : 'Done. Thank you.'}</h1><p class="lead">${miss ? 'Go back to them or leave them. ' : ''}Tell Claude you're finished.</p>${miss ? '<button class="cta" id="gap" type="button">Answer the skipped ones</button>' : ''}`;
+    if (miss) $('#gap').onclick = () => go(st.order.findIndex(x => !(x.id in st.answers)));
+    return;
+  }
+  const cur = st.answers[it.id];
+  if (it.t === 'imp') {
+    const d = find(Q.dims, it.d), L = ['Not at all', 'A little', 'Some', 'A lot', 'Decisive'], V = [0, 1, 2, 3, 5];
+    m.innerHTML = `<h1>How much does this matter in choosing between two clubs?</h1><div class="club" style="font-size:20px;font-weight:800;text-align:center;padding:26px 16px">${esc(d.name)}</div>
+      <div class="imp">${L.map((l, i) => `<button type="button" class="${cur === V[i] ? 'sel' : ''}" data-v="${V[i]}">${l}</button>`).join('')}</div>`;
+  } else if (it.t === 'card') {
+    const c = find(Q.cards, it.id), L = ['A+++', 'A++', 'A+', '=', 'B+', 'B++', 'B+++'];
+    m.innerHTML = `<h1>${esc(c.name)}: which do you prefer?</h1><div class="two"><div class="club a"><b>Club A</b>${esc(c.a)}</div><div class="club b"><b>Club B</b>${esc(c.b)}</div></div>
+      <div class="lik">${L.map((l, i) => `<button type="button" class="${cur === i - 3 ? 'sel' : ''}" data-v="${i - 3}" aria-label="${['Strongly A', 'A', 'Slightly A', 'Even', 'Slightly B', 'B', 'Strongly B'][i]}">${l}</button>`).join('')}</div>
+      <div class="ends"><span>Strongly A</span><span>Even</span><span>Strongly B</span></div>`;
+  } else if (it.t === 'rule' || it.t === 'gut') {
+    const r = find(it.t === 'rule' ? Q.rules : Q.gut, it.id);
+    m.innerHTML = `<h1>${esc(r.q)}</h1><div class="opts">${r.o.map((o, i) => `<button class="opt ${cur === i ? 'sel' : ''}" type="button" data-v="${i}">${esc(o)}</button>`).join('')}</div>`;
+  } else {
+    const s = find(Q.scen, it.id);
+    m.innerHTML = `<h1>${esc(s.q)}</h1><p class="lead">How happy would you be as a fan? 0 = not at all, 10 = completely.</p>
+      <div class="sc">${Array.from({length: 11}, (_, i) => `<button type="button" class="${cur === i ? 'sel' : ''}" data-v="${i}">${i}</button>`).join('')}</div>`;
+  }
+  m.querySelectorAll('[data-v]').forEach(b => b.onclick = () => answer(+b.dataset.v));
+}
+$('#back').onclick = () => go(st.idx - 1); $('#skip').onclick = () => go(st.idx + 1);
+render();
+(async () => { try {
+  const db = window.claude && await window.claude.use('db'); if (!db) return;
+  ref = db.doc('responses/kevin'); const s = await ref.get(), r = s.exists ? s.data() : null;
+  if (r && r.order && Object.keys(r.answers || {}).length > Object.keys(st.answers).length) { st = {order: r.order, answers: {...r.answers}, times: {...(r.times || {})}, idx: r.idx ?? -1}; render(); }
+  else if (Object.keys(st.answers).length) persist();
+} catch (e) {} })();
+</script>

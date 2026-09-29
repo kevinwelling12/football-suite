@@ -2,8 +2,8 @@
 
 Built from a 51-question supporter-profile interview ("the Principled Romantic").
 Five factors, 0-10 each, weights from Kevin's own ranking (re-rate 2026-09):
-Values 27% · Supporter culture 20% · History & identity 17% · Team 16% · Ownership 10%
-(quiz round 4, 2026-09-29; round 3: 26 / 26 / 14 / 12 / 12; before: 28 / 26 / 16 / 12 / Style 8; originally 22 / 28 / 18 / 14 / 8).
+Values 26% · Supporter culture 23% · History & identity 16% · Team 15% · Ownership 10%
+(quiz round 5, 2026-09-29; round 4: 27 / 20 / 17 / 16 / 10; round 3: 26 / 26 / 14 / 12 / 12; before: 28 / 26 / 16 / 12 / Style 8; originally 22 / 28 / 18 / 14 / 8).
 base = weighted sum / 0.90 * 10 * track record coefficient + adjustments.
 Bonus: nations keep a heritage tiebreaker up to +10. Clubs have no regional bonus; only the hometown club
 (Sacramento Republic FC) gets +4.
@@ -91,3 +91,13 @@ Quiz round 4 "The Blind Draw" (2026-09-29; scripts/affinity/quiz4, results in do
 - Rival ownership (big-4) -5 / minority -2.5 (was -3 / -1.5); big-4 item cap +/-6.
 - Track record: kept at +/-20%; half-life 4 seasons (was 3).
 - Brighton: owner's fortune from sports betting -3.
+
+Quiz round 5 "The Blind Draw II" (2026-09-29; scripts/affinity/quiz5, findings in docs/supporter-profile.md):
+- Weights Values 26, Culture 23, History 16, Team 15, Ownership 10 (half round 4, half his 100-coin budget split).
+- Track record +/-15% (k = 0.85 + 0.03 P). Distance bonus up to +4 (was +3).
+- Penalties re-balanced to his worst/least-bad ranking (racism > state > PE = LBO = violence > Super League >
+  overspend = betting = arms > multi-club > relocation): fan violence 1.5x the pre-round-4 values (round 4 had 2x),
+  private equity x1.5, leveraged buyout x1.2, Super League x1.5, multi-club x0.75, franchise/relocation x0.4
+  (MK Dons -6, RB Leipzig -4, NC Courage -4).
+- For the next re-rate (needs research, not applied): sub-weights inside the factors and decay of old incidents
+  (see BRIEF.md, "Round 5 sub-weights").

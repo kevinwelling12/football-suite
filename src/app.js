@@ -618,11 +618,11 @@ function affLine(t, fallback) {
   if (t.bonus) bits.push(`Hometown ${signed(t.bonus)}`);
   return bits.join(' · ') || 'No adjustments';
 }
-const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five factors from your supporter profile, each out of 10: values 27%, supporter culture 20%, history and identity 17%, team 16%, ownership 10% (how they play, the squad's bond with fans, long-serving captains and coaches).</p>
-  <p>Track record multiplies that score by 0.80 to 1.20: the last 10 league seasons, judged against the tier the club plays in (top flight, Championship, USL Championship, League One/Two), with recent seasons counting most (a season four years ago counts half). Steady top-half finishes score almost as well as titles; a relegation fight scores low. Nations have no track record.</p>
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five factors from your supporter profile, each out of 10: values 26%, supporter culture 23%, history and identity 16%, team 15%, ownership 10% (how they play, the squad's bond with fans, long-serving captains and coaches).</p>
+  <p>Track record multiplies that score by 0.85 to 1.15: the last 10 league seasons, judged against the tier the club plays in (top flight, Championship, USL Championship, League One/Two), with recent seasons counting most (a season four years ago counts half). Steady top-half finishes score almost as well as titles; a relegation fight scores low. Nations have no track record.</p>
   <p>Then adjustments for your hard lines (state ownership, racism and fan violence, private equity, multi-club networks, Super League) and for rivals and Republic links.</p>
   <p>Association: clubs with real ties (a shared supporter base like the Timbers and Thorns, a formal fan friendship, a shared ritual like You'll Never Walk Alone) pull each other's Affinity part of the way together: 15%, 8% or 4% of the gap by how strong the tie is, up to 5 points. A club gains from friends rated above it and only loses points to friends you rate below 50, so a friendship with Lazio costs, one with Mainz doesn't. Ownership ties don't count (multi-club networks have their own penalty), and rivals of your clubs aren't linked.</p>
-  <p>Location & big-4: North American clubs get up to +3 for being close to Sacramento. A US club sharing a market with the Giants, 49ers or Sharks gets +1 (Bay Area clubs +0.5 net, as the Warriors count as a half rival); one sharing a market with their rivals (Lakers, Dodgers, Rams, LA Kings, Ducks, Cowboys, Golden Knights; A's, Raiders and Warriors at half) loses up to 2. Any club whose owners also own or hold a stake in the Kings, Giants, 49ers or Sharks gains (Leeds +2); one tied to a rival loses (Arsenal −5 for the Rams). Capped at ±6.</p>
+  <p>Location & big-4: North American clubs get up to +4 for being close to Sacramento. A US club sharing a market with the Giants, 49ers or Sharks gets +1 (Bay Area clubs +0.5 net, as the Warriors count as a half rival); one sharing a market with their rivals (Lakers, Dodgers, Rams, LA Kings, Ducks, Cowboys, Golden Knights; A's, Raiders and Warriors at half) loses up to 2. Any club whose owners also own or hold a stake in the Kings, Giants, 49ers or Sharks gains (Leeds +2); one tied to a rival loses (Arsenal −5 for the Rams). Capped at ±6.</p>
   <p>Sacramento Republic gets a +4 hometown bonus; nations get a heritage tiebreaker of up to 10.</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
@@ -969,7 +969,7 @@ function openDetail(k, id) {
 }
 
 
-const FACTORS = [['Values', 'V', 27], ['Culture', 'C', 20], ['History', 'H', 17], ['Team', 'S', 16], ['Ownership', 'O', 10]];
+const FACTORS = [['Values', 'V', 26], ['Culture', 'C', 23], ['History', 'H', 16], ['Team', 'S', 15], ['Ownership', 'O', 10]];
 function affBreakdown(k, t) {
   const h = t.hai, fs = FACTORS.reduce((s, [, key, w]) => s + w * h[key], 0) / 90 * 10;
   const spark = h.ps ? (() => { const last = h.pl || '', cal = !last.includes('-'), y = parseInt(last, 10);

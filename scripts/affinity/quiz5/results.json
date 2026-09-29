@@ -1,0 +1,160 @@
+{
+ "constructs": {
+  "ASSOC_DOWN": 0.33,
+  "CG": -0.22,
+  "CL": 0.33,
+  "CY": 0.09,
+  "DECAY": 0.39,
+  "H": 0.67,
+  "LOC": 0.67,
+  "NOV": 0.33,
+  "O": 0.0,
+  "TB": 0.3,
+  "TI": 0.55,
+  "TP": 0.25,
+  "TR": 0.0,
+  "TRIBE": 0.33,
+  "TROPHY": 0.64,
+  "TS": 1.0,
+  "VA": 0.57,
+  "VC": 1.0,
+  "VF": 0.44,
+  "VI": 1.0,
+  "VP": 0.33,
+  "WOM": 0.33
+ },
+ "attention": true,
+ "budget": {
+  "b1": {
+   "C": 25,
+   "V": 25,
+   "H": 15,
+   "O": 10,
+   "T": 15,
+   "TR": 10
+  },
+  "b2": {
+   "CG": 50,
+   "CL": 25,
+   "CY": 15,
+   "CA": 10
+  },
+  "b3": {
+   "VC": 20,
+   "VW": 20,
+   "VA": 15,
+   "VF": 10,
+   "VI": 20,
+   "VP": 15
+  },
+  "b4": {
+   "TP": 15,
+   "TB": 40,
+   "TS": 25,
+   "TI": 20
+  }
+ },
+ "severity": {
+  "racism": 1.0,
+  "state": 0.67,
+  "pe": 0.33,
+  "lbo": 0.33,
+  "violence": 0.33,
+  "politics": 0.0,
+  "superleague": 0.0,
+  "overspend": -0.33,
+  "betting": -0.33,
+  "arms": -0.33,
+  "multiclub": -0.67,
+  "franchise": -1.0
+ },
+ "dce": {
+  "V": 0.56,
+  "C": 1.43,
+  "T": -0.32,
+  "TR": 0.24,
+  "TITLE12": 0.12,
+  "CUPLAST": -0.75,
+  "O": -0.03,
+  "VIOL8": -0.2,
+  "VIOLLAST": -1.03
+ },
+ "dce_fit": "11/12",
+ "speed": {
+  "CG": 0.37,
+  "CL": 0.5,
+  "CY": 1.06,
+  "LOC": 1.25,
+  "NOV": -0.5,
+  "O": 1.12,
+  "PEN": -0.05,
+  "TB": 0.5,
+  "TI": 0.55,
+  "TP": 0.57,
+  "TR": 0.67,
+  "TS": 1.42,
+  "UNDER": 0.97,
+  "VA": 0.92,
+  "VF": 0.5,
+  "VI": 1.27,
+  "VP": 0.92,
+  "WOM": 1.21
+ },
+ "speed_ms": 2113,
+ "gut": {
+  "Napoli": [
+   6,
+   79.3
+  ],
+  "Sunderland": [
+   7,
+   66.5
+  ],
+  "Leeds United": [
+   6,
+   70.0
+  ],
+  "Marseille": [
+   5,
+   58.1
+  ],
+  "Chelsea": [
+   2,
+   30.2
+  ],
+  "Celta Vigo": [
+   10,
+   77.1
+  ],
+  "Juventus": [
+   3,
+   58.9
+  ],
+  "PSV Eindhoven": [
+   5,
+   83.1
+  ],
+  "Detroit City FC": [
+   6,
+   78.0
+  ],
+  "Oakland Roots SC": [
+   3,
+   67.3
+  ],
+  "Sporting CP": [
+   4,
+   81.3
+  ],
+  "Monterey Bay FC": [
+   5,
+   41.1
+  ],
+  "Manchester City": [
+   0,
+   18.7
+  ]
+ },
+ "gut_r_now": 0.677,
+ "answered": 87
+}

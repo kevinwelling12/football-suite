@@ -136,3 +136,12 @@ Also report per club, as evidence fields: player-conduct cases and the club's re
 stood by a player facing credible abuse/violence allegations (Values -2 or more), player-welfare findings (all clubs),
 homegrown / one-club players in the first team (small Values raise), and any former Sacramento Republic player on
 the current roster (+2 while there).
+
+## Round 5 sub-weights (Kevin, 2026-09-29; for the next re-rate)
+- Culture: loyalty through bad years and the ground's character weigh most (budget: ground 50, loud section 25,
+  loyal crowds 15, away following 10; quick sort: loyalty strongest). A modern ground with great sightlines is fine.
+- Values: community work, a real women's team and causes about equal and highest; academy and affordable tickets
+  next; a formal fan voice least.
+- Team: the player-fan bond first (40%), then a stable core squad (25), an icon or defining coach (20), pressing (15).
+  Pressing no longer leads the Team score.
+- Incidents fade: racism and violence incidents older than about 5 years count half, unless the behaviour continues.

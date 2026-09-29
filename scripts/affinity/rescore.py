@@ -1,11 +1,11 @@
 """Recompute Affinity (base) for every team in data/suite_data.json from scripts/affinity/scores.py
 and the USL dict A in scripts/importers/build_usl.py.
-base = (0.20*Culture + 0.27*Values + 0.17*History + 0.10*Ownership + 0.16*Team)/0.90*10 * k + adjustment
+base = (0.23*Culture + 0.26*Values + 0.16*History + 0.10*Ownership + 0.15*Team)/0.90*10 * k + adjustment
 Team (slot S) replaced Style of play in quiz round 3: how they play plus team culture.
 Displayed Affinity = base + bonus. Clubs get no regional heritage bonus (2026 re-rate); only the hometown
 club (Sacramento Republic FC, +4) keeps one. Nations keep their heritage bonus (up to +10).
 Track record (clubs only, scripts/affinity/performance.py): the factor score is multiplied by
-k = 0.80 + 0.04 * P before adjustments; base is capped at 100. Then Kevin's big-4 items
+k = 0.85 + 0.03 * P before adjustments; base is capped at 100. Then Kevin's big-4 items
 (scripts/affinity/big4.py: distance, rival markets, ownership ties). Then association pulls
 (scripts/affinity/association.py) move linked clubs toward each other, P = recency-weighted success over the last 10 seasons (0-10)."""
 import ast, json, pathlib, sys
@@ -18,7 +18,7 @@ import big4
 for node in ast.parse((root / 'scripts' / 'importers' / 'build_usl.py').read_text()).body:
     if isinstance(node, ast.Assign) and getattr(node.targets[0], 'id', '') == 'A':
         S = {**S, **ast.literal_eval(node.value)}
-W = {'C': .20, 'V': .27, 'H': .17, 'O': .10, 'S': .16}  # S = Team (was Style of play). Quiz round 4 (blind draw), 2026-09-29
+W = {'C': .23, 'V': .26, 'H': .16, 'O': .10, 'S': .15}  # S = Team (was Style of play). Quiz round 5, 2026-09-29 (round 4: 20/27/17/10/16)
 HOMETOWN = 'Sacramento Republic FC'
 p = root / 'data' / 'suite_data.json'; D = json.loads(p.read_text())
 PERF = perf.load()

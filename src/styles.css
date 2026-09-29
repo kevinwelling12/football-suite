@@ -424,7 +424,7 @@ tr.fav-row td.club{font-weight:800}
 :root.bc .bug{display:flex;align-items:stretch;height:52px;border-radius:14px;overflow:hidden;background:rgba(0,0,0,.55);border:.5px solid rgba(255,255,255,.14);box-shadow:0 8px 24px -12px rgba(0,0,0,.8), inset 0 1px 0 rgba(255,255,255,.07)}
 :root.bc .bug-team{flex:1;display:flex;align-items:center;gap:10px;padding:0 14px;font-weight:700;font-size:22px;letter-spacing:.02em;background:linear-gradient(90deg, color-mix(in srgb, var(--tc) 38%, transparent), transparent 85%)}
 :root.bc .bug-team.away{justify-content:flex-end;background:linear-gradient(270deg, color-mix(in srgb, var(--tc) 38%, transparent), transparent 85%)}
-:root.bc .bug-team i{width:4px;height:26px;border-radius:2px;background:var(--tc);flex:none}
+:root.bc .bug-team > i{width:4px;height:26px;border-radius:2px;background:var(--tc);flex:none}
 :root.bc .bug-score{width:48px;display:grid;place-items:center;font-weight:700;font-size:30px;background:rgba(255,255,255,.1);border-left:.5px solid rgba(255,255,255,.12)}
 :root.bc .bug-score + .bug-score{border-right:.5px solid rgba(255,255,255,.12)}
 :root.bc .bug.is-pick .bug-score{color:rgba(235,235,245,.72);background:rgba(255,255,255,.05)}
@@ -703,7 +703,7 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .lc-bug{display:flex;align-items:stretch;height:40px;margin-top:8px;border-radius:10px;overflow:hidden;background:rgba(0,0,0,.45);border:.5px solid rgba(255,255,255,.14);cursor:pointer}
 .lc-t{flex:1;min-width:0;display:flex;align-items:center;gap:6px;padding:0 10px;font-size:17px;letter-spacing:.02em;white-space:nowrap;background:linear-gradient(90deg, color-mix(in srgb, var(--tc) 36%, transparent), transparent 85%)}
 .lc-t.away{justify-content:flex-end;background:linear-gradient(270deg, color-mix(in srgb, var(--tc) 36%, transparent), transparent 85%)}
-.lc-t i{width:3px;height:20px;border-radius:2px;background:var(--tc);flex:none}
+.lc-t > i{width:3px;height:20px;border-radius:2px;background:var(--tc);flex:none}
 .lc-t .rcs{margin:0}
 .lc-aff{color:#FF6FB5;font-size:11px}
 .lc-s{width:34px;display:grid;place-items:center;font-weight:700;font-size:22px;background:rgba(255,255,255,.1)}

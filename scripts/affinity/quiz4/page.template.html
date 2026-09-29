@@ -1,0 +1,187 @@
+<title>The Blind Draw</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#000;--card:#1C1C1E;--card2:#2C2C2E;--ink:#fff;--muted:rgba(235,235,245,.62);--faint:rgba(235,235,245,.32);
+  --line:rgba(84,84,88,.55);--accent:#0A84FF;--pick:#30D158;--warn:#FF9F0A;--r:16px}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 Archivo,-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+  font-variation-settings:"wdth" 100;padding-inline:16px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:560px;margin:0 auto;padding-block:20px 40px;display:flex;flex-direction:column;gap:18px;min-height:100%}
+header{display:flex;flex-direction:column;gap:10px}
+.brand{font-weight:900;font-size:28px;letter-spacing:-.01em;font-variation-settings:"wdth" 112;line-height:1}
+.brand span{color:var(--faint)}
+.meta{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.meta b{color:var(--ink);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:12px}
+.bar{height:4px;border-radius:2px;background:var(--card2);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);transition:width .25s}
+.segs{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
+.segs i{height:3px;border-radius:2px;background:var(--card2)}
+.segs i.on{background:var(--muted)}
+main{display:flex;flex-direction:column;gap:14px}
+h1{font-size:23px;line-height:1.25;margin:0;text-wrap:balance;font-weight:750}
+.lead{color:var(--muted);margin:0;font-size:15px}
+.opts{display:flex;flex-direction:column;gap:10px}
+button{font:inherit;color:inherit;cursor:pointer}
+.opt{background:var(--card);border:1.5px solid transparent;border-radius:14px;padding:15px 16px;text-align:left;font-size:16.5px;font-weight:550;line-height:1.35}
+.opt:hover{border-color:var(--line)}
+.opt:focus-visible,.nav button:focus-visible,.num:focus-visible,.club:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.opt.sel{border-color:var(--pick);background:#12301b}
+.pairq{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+.clubs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:520px){.clubs{grid-template-columns:1fr}}
+.club{background:var(--card);border:1.5px solid transparent;border-radius:var(--r);padding:14px;text-align:left;display:flex;flex-direction:column;gap:8px}
+.club.sel{border-color:var(--pick);background:#12301b}
+.club h2{margin:0;font-size:15px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.club dl{margin:0;display:grid;grid-template-columns:92px 1fr;gap:5px 10px;font-size:14px}
+.club dt{color:var(--faint);font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding-top:2px}
+.club dd{margin:0;color:var(--muted)}
+.club dd.diff{color:var(--ink);font-weight:600}
+.profile{background:var(--card);border-radius:var(--r);padding:16px;font-size:16.5px;line-height:1.5}
+.scale{display:grid;grid-template-columns:repeat(11,1fr);gap:5px}
+.num{background:var(--card);border:1.5px solid transparent;border-radius:10px;padding:12px 0;font-weight:750;font-variant-numeric:tabular-nums;font-size:16px}
+.num.sel{border-color:var(--pick);background:#12301b}
+@media (max-width:420px){.scale{grid-template-columns:repeat(6,1fr)}}
+.ends{display:flex;justify-content:space-between;font-size:12.5px;color:var(--faint)}
+.nav{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:8px}
+.nav button{background:none;border:0;color:var(--muted);font-size:15px;font-weight:600;padding:8px 2px}
+.nav button:disabled{opacity:.3;cursor:default}
+.save{font-size:12.5px;color:var(--faint)}
+.save.err{color:var(--warn)}
+.cta{background:var(--accent);border:0;border-radius:14px;padding:15px;font-weight:750;font-size:17px;color:#fff}
+.notes{display:flex;flex-direction:column;gap:8px;margin:0;padding:0;list-style:none;color:var(--muted);font-size:15px}
+.notes li{display:grid;grid-template-columns:22px 1fr}
+.notes li::before{content:"·";color:var(--faint);font-weight:900}
+.parts{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.part{background:var(--card);border-radius:12px;padding:12px}
+.part b{display:block;font-size:14px}.part span{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+</style>
+<div class="wrap">
+  <header>
+    <div class="brand">The Blind Draw <span>/ 75</span></div>
+    <div class="meta"><b id="sec">Before you start</b><span id="count"></span></div>
+    <div class="segs" id="segs"><i></i><i></i><i></i><i></i></div>
+    <div class="bar"><i id="fill" style="width:0%"></i></div>
+  </header>
+  <main id="main" aria-live="polite"></main>
+  <div class="nav"><button id="back" type="button">← Back</button><span class="save" id="save"></span><button id="skip" type="button">Skip</button></div>
+</div>
+<script>
+const Q = /*__QUESTIONS__*/;
+const SECS = [['everyday', 'Everyday'], ['pairs', 'This or that'], ['dce', 'Pick a club'], ['rate', 'Gut check']];
+const STORE = 'blind-draw-v1';
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+function shuffle(a, seed) { let s = seed; const r = () => (s = (s * 1664525 + 1013904223) % 4294967296) / 4294967296; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function newOrder() {
+  const seed = Math.floor(Math.random() * 1e9), out = [];
+  out.push(...shuffle(Q.everyday.map(x => ({s: 'everyday', id: x.id})), seed));
+  out.push(...shuffle(Q.pairs.map((x, i) => ({s: 'pairs', id: x.id, flip: (seed >> i) & 1})), seed + 1));
+  out.push(...shuffle(Q.dce.map(x => ({s: 'dce', id: x.id})), seed + 2));
+  out.push(...shuffle(Q.rate.map(x => ({s: 'rate', id: x.id})), seed + 3));
+  return out;
+}
+let st = {order: null, answers: {}, times: {}, idx: -1, started: null, done: false};
+try { const j = JSON.parse(localStorage.getItem(STORE) || 'null'); if (j && j.order) st = j; } catch (e) {}
+let shownAt = Date.now(), db = null, ref = null, saving = Promise.resolve(), dirty = false, saveState = 'local';
+const byId = {}; for (const s of ['everyday', 'pairs', 'dce', 'rate']) for (const x of Q[s]) byId[x.id] = x;
+const total = () => (st.order || newOrder()).length;
+const answered = () => Object.keys(st.answers).length;
+
+function persist() {
+  try { localStorage.setItem(STORE, JSON.stringify(st)); } catch (e) {}
+  if (!ref) return;
+  dirty = true;
+  saving = saving.then(async () => {
+    if (!dirty) return; dirty = false;
+    try { await ref.set({answers: st.answers, times: st.times, order: st.order, idx: st.idx, started: st.started, done: st.done, updated: new Date().toISOString(), version: 1}); saveState = 'saved'; }
+    catch (e) { saveState = 'err'; }
+    showSave();
+  });
+}
+function showSave() {
+  const el = $('#save');
+  el.className = 'save' + (saveState === 'err' ? ' err' : '');
+  el.textContent = saveState === 'saved' ? `Saved · ${answered()} answered` : saveState === 'err' ? 'Not saved to your account; kept on this device' : ref ? 'Saving…' : 'Saved on this device';
+}
+function answer(v) {
+  const it = st.order[st.idx];
+  st.answers[it.id] = v; st.times[it.id] = Date.now() - shownAt;
+  if (st.idx === st.order.length - 1) st.done = true;
+  persist();
+  setTimeout(() => go(st.idx + 1), 180);
+  render(true);
+}
+function go(i) { st.idx = Math.max(0, Math.min(i, st.order.length)); shownAt = Date.now(); persist(); render(); window.scrollTo(0, 0); }
+
+function header() {
+  const it = st.order && st.order[st.idx];
+  const secIdx = it ? SECS.findIndex(s => s[0] === it.s) : st.idx >= total() ? 4 : -1;
+  $('#sec').textContent = it ? `${SECS[secIdx][1]} · part ${secIdx + 1} of 4` : st.idx >= total() ? 'Done' : 'Before you start';
+  $('#count').textContent = it ? `${st.idx + 1} / ${st.order.length}` : st.idx >= total() ? `${answered()} / ${total()}` : '';
+  $('#fill').style.width = `${Math.round(answered() / total() * 100)}%`;
+  [...$('#segs').children].forEach((el, i) => el.classList.toggle('on', i < secIdx || (secIdx === 4)));
+  $('#back').disabled = !it && st.idx < total();
+  $('#back').hidden = st.idx < 0;
+  $('#skip').hidden = !it;
+}
+function render(keepFocus) {
+  header(); showSave();
+  const m = $('#main');
+  if (st.idx < 0) {
+    const n = s => Q[s].length;
+    m.innerHTML = `<h1>75 quick questions. Most of them aren't about football.</h1>
+      <p class="lead">Each one is tied to how you pick clubs, but they're meant to be answered on instinct, not worked out. There are no right answers.</p>
+      <ul class="notes"><li>Go with your first reaction. Speed is fine; it's data too.</li><li>Don't try to guess what a question is measuring.</li><li>Answers save as you go. You can stop and come back.</li><li>About 12 minutes.</li></ul>
+      <div class="parts">${SECS.map(([s, l]) => `<div class="part"><b>${l}</b><span>${n(s)} questions</span></div>`).join('')}</div>
+      <button class="cta" id="start" type="button">${answered() ? `Resume at question ${Math.min(answered() + 1, total())}` : 'Start'}</button>`;
+    $('#start').onclick = () => { if (!st.order) { st.order = newOrder(); st.started = new Date().toISOString(); } go(answered() ? Math.min(st.order.findIndex(x => !(x.id in st.answers)) >= 0 ? st.order.findIndex(x => !(x.id in st.answers)) : st.order.length, st.order.length) : 0); };
+    return;
+  }
+  if (st.idx >= st.order.length) {
+    const missing = st.order.filter(x => !(x.id in st.answers)).length;
+    m.innerHTML = `<h1>${missing ? `Almost there: ${missing} skipped` : 'All done. Thank you.'}</h1>
+      <p class="lead">${missing ? 'You can go back to the skipped ones, or leave them. ' : ''}${saveState === 'saved' ? 'Your answers are saved to your account.' : 'Your answers are saved on this device.'} Tell Claude you're finished and it will score them and tune the model.</p>
+      ${missing ? '<button class="cta" id="fill-gaps" type="button">Answer the skipped ones</button>' : ''}`;
+    if (missing) $('#fill-gaps').onclick = () => go(st.order.findIndex(x => !(x.id in st.answers)));
+    return;
+  }
+  const it = st.order[st.idx], q = byId[it.id], cur = st.answers[it.id];
+  if (it.s === 'everyday') {
+    m.innerHTML = `<h1>${esc(q.prompt)}</h1><div class="opts">${q.options.map((o, i) => `<button class="opt ${cur === i ? 'sel' : ''}" type="button" data-v="${i}">${esc(o)}</button>`).join('')}</div>`;
+  } else if (it.s === 'pairs') {
+    const sides = it.flip ? ['b', 'a'] : ['a', 'b'];
+    m.innerHTML = `<div class="pairq">Which is more like you?</div><div class="opts">${sides.map(sd => `<button class="opt ${cur === sd ? 'sel' : ''}" type="button" data-v="${sd}">${esc(q[sd])}</button>`).join('')}</div>
+      <p class="lead" style="font-size:14px">Both may fit. Pick the one that fits better.</p>`;
+  } else if (it.s === 'dce') {
+    const card = (sd, lv, other) => `<button class="club ${cur === sd ? 'sel' : ''}" type="button" data-v="${sd}"><h2>Club ${sd.toUpperCase()}</h2><dl>${Q.attrs.map((a, i) => `<dt>${esc(a.label)}</dt><dd class="${lv[i] !== other[i] ? 'diff' : ''}">${esc(a.levels[lv[i]])}</dd>`).join('')}</dl></button>`;
+    m.innerHTML = `<h1>Which club would you rather follow?</h1><p class="lead" style="font-size:14px">Brighter lines are where they differ.</p><div class="clubs">${card('a', q.a, q.b)}${card('b', q.b, q.a)}</div>`;
+  } else {
+    m.innerHTML = `<div class="pairq">Gut rating</div><div class="profile">${esc(q.text)}</div><h1 style="font-size:19px">How much would you want to follow this club?</h1>
+      <div class="scale">${Array.from({length: 11}, (_, i) => `<button class="num ${cur === i ? 'sel' : ''}" type="button" data-v="${i}" aria-label="${i} out of 10">${i}</button>`).join('')}</div>
+      <div class="ends"><span>0 · not at all</span><span>10 · sign me up</span></div>`;
+  }
+  m.querySelectorAll('[data-v]').forEach(b => b.onclick = () => { const v = b.dataset.v; answer(/^\d+$/.test(v) ? +v : v); });
+  if (!keepFocus) { const f = m.querySelector('[data-v]'); if (f && matchMedia('(hover:hover)').matches) f.focus({preventScroll: true}); }
+}
+$('#back').onclick = () => go(st.idx - 1);
+$('#skip').onclick = () => go(st.idx + 1);
+render();
+(async () => {
+  try {
+    db = window.claude && await window.claude.use('db');
+    if (!db) return;
+    ref = db.doc('responses/kevin');
+    const snap = await ref.get();
+    const remote = snap.exists ? snap.data() : null;
+    if (remote && remote.order && Object.keys(remote.answers || {}).length > answered()) {
+      st = {order: remote.order, answers: {...remote.answers}, times: {...(remote.times || {})}, idx: remote.idx ?? -1, started: remote.started, done: !!remote.done};
+      try { localStorage.setItem(STORE, JSON.stringify(st)); } catch (e) {}
+      saveState = 'saved'; render();
+    } else if (answered()) persist();
+    else { saveState = 'saved'; showSave(); }
+  } catch (e) { saveState = 'err'; showSave(); }
+})();
+</script>

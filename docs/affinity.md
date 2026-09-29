@@ -2,8 +2,8 @@
 
 Built from a 51-question supporter-profile interview ("the Principled Romantic").
 Five factors, 0-10 each, weights from Kevin's own ranking (re-rate 2026-09):
-Values 26% · Supporter culture 26% · History & identity 14% · Ownership 12% · Team 12%
-(quiz round 3; before: 28 / 26 / 16 / 12 / Style 8; originally 22 / 28 / 18 / 14 / 8).
+Values 27% · Supporter culture 20% · History & identity 17% · Team 16% · Ownership 10%
+(quiz round 4, 2026-09-29; round 3: 26 / 26 / 14 / 12 / 12; before: 28 / 26 / 16 / 12 / Style 8; originally 22 / 28 / 18 / 14 / 8).
 base = weighted sum / 0.90 * 10 * track record coefficient + adjustments.
 Bonus: nations keep a heritage tiebreaker up to +10. Clubs have no regional bonus; only the hometown club
 (Sacramento Republic FC) gets +4.
@@ -84,3 +84,10 @@ World Cup 2026 nations (2026-09-28; research in scripts/affinity/research/wc, WC
   (filter: All / World Cup 2026 / Nations League) and in the overall ranking, with a breakdown-only card.
 - Government penalty only for Partly Free / Not Free countries, as for UEFA (Argentina, Colombia, US, Senegal: 0).
 - United States: home nation +10 (the nations' maximum, like England's heritage +10).
+
+Quiz round 4 "The Blind Draw" (2026-09-29; scripts/affinity/quiz4, results in docs/supporter-profile.md):
+- Weights now Values 27, Culture 20, History 17, Team 16, Ownership 10 (half quiz evidence, half the round-3 weights).
+- Fan violence penalties doubled (cap -30): Galatasaray -16, Fenerbahçe -16, Roma/Inter -12, Frankfurt/Feyenoord/Porto -10.
+- Rival ownership (big-4) -5 / minority -2.5 (was -3 / -1.5); big-4 item cap +/-6.
+- Track record: kept at +/-20%; half-life 4 seasons (was 3).
+- Brighton: owner's fortune from sports betting -3.

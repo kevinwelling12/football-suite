@@ -1,0 +1,435 @@
+{
+ "everyday": {
+  "e01": {
+   "H": 1,
+   "O": 1
+  },
+  "e02": {
+   "H": 1,
+   "NOV": -1
+  },
+  "e03": {
+   "CL": 1
+  },
+  "e04": {
+   "LOC": 1
+  },
+  "e05": {
+   "UNDER": 1,
+   "TR": -1
+  },
+  "e06": {
+   "H": 1,
+   "NOV": -1
+  },
+  "e07": {
+   "LOC": 1,
+   "O": 1
+  },
+  "e08": {
+   "LOYAL": 1
+  },
+  "e09": {
+   "O": 1,
+   "V": 1
+  },
+  "e10": {
+   "TP": 1,
+   "TI": -1
+  },
+  "e11": {
+   "LOC": 1
+  },
+  "e12": {
+   "CG": 1,
+   "NOV": -1
+  },
+  "e13": {
+   "TR": 1,
+   "TP": -1
+  },
+  "e14": {
+   "TS": 1,
+   "TI": -1
+  },
+  "e15": {
+   "DECAY": 1
+  },
+  "e16": {
+   "CL": 1,
+   "T": -1
+  },
+  "e17": {
+   "V": 1,
+   "TR": -1
+  },
+  "e18": {
+   "H": 1,
+   "TR": -1
+  },
+  "e19": {
+   "CY": 1,
+   "LOC": 1
+  },
+  "e20": {
+   "H": 1,
+   "NOV": -1
+  }
+ },
+ "traits": {
+  "t01": [
+   "CY",
+   "TI"
+  ],
+  "t02": [
+   "VI",
+   "TB"
+  ],
+  "t03": [
+   "TR",
+   "TROPHY"
+  ],
+  "t04": [
+   "CA",
+   "VI"
+  ],
+  "t05": [
+   "O",
+   "TS"
+  ],
+  "t06": [
+   "CA",
+   "TROPHY"
+  ],
+  "t07": [
+   "VA",
+   "TR"
+  ],
+  "t08": [
+   "CG",
+   "LOC"
+  ],
+  "t09": [
+   "VI",
+   "TP"
+  ],
+  "t10": [
+   "TB",
+   "LOC"
+  ],
+  "t11": [
+   "VC",
+   "TS"
+  ],
+  "t12": [
+   "O",
+   "H"
+  ],
+  "t13": [
+   "VC",
+   "H"
+  ],
+  "t14": [
+   "TP",
+   "H"
+  ],
+  "t15": [
+   "VW",
+   "LOC"
+  ],
+  "t16": [
+   "VP",
+   "TP"
+  ],
+  "t17": [
+   "VI",
+   "TI"
+  ],
+  "t18": [
+   "CY",
+   "TS"
+  ],
+  "t19": [
+   "VA",
+   "TI"
+  ],
+  "t20": [
+   "CA",
+   "VC"
+  ],
+  "t21": [
+   "CA",
+   "VP"
+  ],
+  "t22": [
+   "VP",
+   "O"
+  ],
+  "t23": [
+   "CY",
+   "TR"
+  ],
+  "t24": [
+   "CG",
+   "TI"
+  ],
+  "t25": [
+   "CG",
+   "VC"
+  ],
+  "t26": [
+   "CG",
+   "TS"
+  ],
+  "t27": [
+   "O",
+   "TP"
+  ],
+  "t28": [
+   "CL",
+   "CY"
+  ],
+  "t29": [
+   "CL",
+   "TR"
+  ],
+  "t30": [
+   "VP",
+   "TB"
+  ],
+  "t31": [
+   "H",
+   "TROPHY"
+  ],
+  "t32": [
+   "CL",
+   "TROPHY"
+  ],
+  "t33": [
+   "VW",
+   "VA"
+  ],
+  "t34": [
+   "VA",
+   "TB"
+  ]
+ },
+ "clubs": {
+  "c01": [
+   "West Ham United",
+   "Fenerbahçe",
+   47.5,
+   49.6
+  ],
+  "c02": [
+   "FC Augsburg",
+   "Ipswich Town",
+   48.7,
+   48.2
+  ],
+  "c03": [
+   "Real Salt Lake",
+   "Shrewsbury Town",
+   60.0,
+   52.1
+  ],
+  "c04": [
+   "Orlando City",
+   "Crystal Palace",
+   57.2,
+   60.6
+  ],
+  "c05": [
+   "Bologna",
+   "Sheffield Wednesday",
+   69.6,
+   63.8
+  ],
+  "c06": [
+   "Wrexham",
+   "Coventry City",
+   57.6,
+   60.4
+  ],
+  "c07": [
+   "Orlando Pride",
+   "Phoenix Rising FC",
+   53.9,
+   50.9
+  ],
+  "c08": [
+   "Torino",
+   "Oxford United",
+   64.4,
+   59.8
+  ],
+  "c09": [
+   "Levante",
+   "Accrington Stanley",
+   58.2,
+   54.6
+  ],
+  "c10": [
+   "Rennes",
+   "Swindon Town",
+   60.8,
+   59.0
+  ],
+  "c11": [
+   "Southampton",
+   "Parma",
+   54.8,
+   60.0
+  ],
+  "c12": [
+   "Hartford Athletic",
+   "FC Dallas",
+   50.9,
+   58.5
+  ],
+  "c13": [
+   "Doncaster Rovers",
+   "Málaga",
+   63.1,
+   56.9
+  ],
+  "c14": [
+   "New England Revolution",
+   "Millwall",
+   50.0,
+   53.9
+  ],
+  "c15": [
+   "Auxerre",
+   "Cardiff City",
+   57.8,
+   54.2
+  ],
+  "c16": [
+   "Swansea City",
+   "Brest",
+   67.1,
+   70.0
+  ],
+  "c17": [
+   "Colorado Springs Switchbacks FC",
+   "Vancouver Whitecaps FC",
+   58.1,
+   59.5
+  ],
+  "c18": [
+   "Sporting Kansas City",
+   "Angel City FC",
+   57.6,
+   53.1
+  ],
+  "c19": [
+   "Fulham",
+   "Reading",
+   54.8,
+   54.9
+  ],
+  "c20": [
+   "Club Brugge",
+   "Gotham FC",
+   70.4,
+   66.2
+  ],
+  "c21": [
+   "Rochdale",
+   "D.C. United",
+   57.7,
+   57.4
+  ],
+  "c22": [
+   "Leyton Orient",
+   "Mainz 05",
+   65.3,
+   69.6
+  ],
+  "c23": [
+   "Villarreal",
+   "Lille",
+   60.5,
+   55.0
+  ],
+  "c24": [
+   "Peterborough United",
+   "Galatasaray",
+   55.4,
+   62.9
+  ],
+  "c25": [
+   "Charlton Athletic",
+   "Inter Milan",
+   60.8,
+   54.8
+  ],
+  "c26": [
+   "Notts County",
+   "Schalke 04",
+   65.0,
+   72.6
+  ],
+  "c27": [
+   "San Diego Wave",
+   "Atlanta United",
+   50.9,
+   52.9
+  ],
+  "c28": [
+   "Arsenal",
+   "Columbus Crew",
+   62.9,
+   69.9
+  ],
+  "c29": [
+   "Napoli",
+   "Portsmouth",
+   79.3,
+   71.7
+  ],
+  "c30": [
+   "LASK",
+   "Wolverhampton Wanderers",
+   58.0,
+   59.5
+  ],
+  "c31": [
+   "Plymouth Argyle",
+   "Washington Spirit",
+   72.0,
+   68.0
+  ],
+  "c32": [
+   "Brentford",
+   "New Mexico United",
+   63.3,
+   70.9
+  ],
+  "c33": [
+   "Sunderland",
+   "Barnsley",
+   66.5,
+   69.3
+  ],
+  "c34": [
+   "Monaco",
+   "Bromley",
+   49.2,
+   51.9
+  ],
+  "c35": [
+   "Leicester City",
+   "Oakland Roots SC",
+   60.8,
+   67.3
+  ],
+  "c36": [
+   "Cambridge United",
+   "Bolton Wanderers",
+   61.3,
+   59.6
+  ]
+ }
+}

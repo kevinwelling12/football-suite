@@ -1,0 +1,141 @@
+[
+ {
+  "name": "Birmingham Legion FC",
+  "hits": []
+ },
+ {
+  "name": "Brooklyn FC",
+  "hits": []
+ },
+ {
+  "name": "Charleston Battery",
+  "hits": []
+ },
+ {
+  "name": "Colorado Springs Switchbacks FC",
+  "hits": []
+ },
+ {
+  "name": "Detroit City FC",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Construction of AlumniFi Field, a privately funded 15,000-seat soccer stadium in southwest Detroit (Corktown/Mexicantown), began July 2026 for 2028, replacing the 7,933-seat 1936 Keyworth Stadium; nearly 6,000 seat deposits already taken. Not yet credited in Culture.",
+    "source": "https://www.detroitnews.com/story/sports/soccer/2026/07/15/detroit-city-football-club-stadium-corktown-detroit-construction-begins/90918228007/"
+   }
+  ]
+ },
+ {
+  "name": "El Paso Locomotive FC",
+  "hits": []
+ },
+ {
+  "name": "FC Tulsa",
+  "hits": []
+ },
+ {
+  "name": "Hartford Athletic",
+  "hits": []
+ },
+ {
+  "name": "Indy Eleven",
+  "hits": []
+ },
+ {
+  "name": "Las Vegas Lights FC",
+  "hits": []
+ },
+ {
+  "name": "Lexington SC",
+  "hits": []
+ },
+ {
+  "name": "Loudoun United FC",
+  "hits": []
+ },
+ {
+  "name": "Louisville City FC",
+  "hits": []
+ },
+ {
+  "name": "Miami FC",
+  "hits": []
+ },
+ {
+  "name": "Monterey Bay FC",
+  "hits": []
+ },
+ {
+  "name": "New Mexico United",
+  "hits": [
+   {
+    "rule": "R4",
+    "factor": "V",
+    "delta": -1,
+    "evidence": "Sandia Resort & Casino is the front-of-shirt sponsor on the 2026 away kit (since 2024); the resort runs the 10,000 sq ft Sandia Sportsbook. Not counted in Values ('no betting sponsor found').",
+    "source": "https://www.newmexicoutd.com/news/2026/03/14/new-mexico-united-unveils-2026-away-jersey-the-mineral-kit/"
+   },
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "City-approved (2024) 10,000-seat soccer stadium at Balloon Fiesta Park in Albuquerque, replacing the baseball Isotopes Park; neighbourhood lawsuits dismissed and upheld on appeal (July 2026), 2028 opening targeted. Noted under Ownership but not credited in Culture.",
+    "source": "https://citydesk.org/2026/02/09/nm-united-stadium-stuck-in-extra-time-as-legal-battle-reaches-the-court-of-appeals/"
+   }
+  ]
+ },
+ {
+  "name": "Oakland Roots SC",
+  "hits": []
+ },
+ {
+  "name": "Orange County SC",
+  "hits": []
+ },
+ {
+  "name": "Phoenix Rising FC",
+  "hits": []
+ },
+ {
+  "name": "Pittsburgh Riverhounds",
+  "hits": []
+ },
+ {
+  "name": "Rhode Island FC",
+  "hits": []
+ },
+ {
+  "name": "Sacramento Republic FC",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Privately funded 20,000+ seat Republic Stadium in the downtown Railyards is under construction for 2028, replacing the 11,569-seat Heart Health Park at Cal Expo. Noted under Ownership but not credited in Culture.",
+    "source": "https://canada.constructconnect.com/dcn/news/usa/2026/06/republic-stadium-construction-underway-in-sacramentos-historic-railyards"
+   }
+  ]
+ },
+ {
+  "name": "San Antonio FC",
+  "hits": []
+ },
+ {
+  "name": "Sporting JAX",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Announced (March 2026) a privately financed 15,000-seat soccer stadium near St. Johns Town Center, Jacksonville, for 2028, replacing UNF's college Hodges Stadium; site plan released June 2026, permitting under way. Not yet credited in Culture.",
+    "source": "https://www.sportingjax.com/news/2026/03/02/sporting-club-jacksonville-announces-site-for-mixed-use-sporting-district/"
+   }
+  ]
+ },
+ {
+  "name": "Tampa Bay Rowdies",
+  "hits": []
+ }
+]

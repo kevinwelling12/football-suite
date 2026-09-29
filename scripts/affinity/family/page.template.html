@@ -94,7 +94,7 @@ details p{margin-top:8px;font-size:15px;color:var(--muted)}
 <div class="wrap" id="app"></div>
 
 <script>
-const CLUBS = __CLUBS__.map(r => ({n:r[0], k:r[1], lg:r[2], co:r[3], col:r[4], ab:r[5], C:r[6], V:r[7], H:r[8], O:r[9], S:r[10], adj:r[11], P:r[12], mi:r[13], hist:r[14], cult:r[15]}));
+const CLUBS = __CLUBS__.map(r => ({n:r[0], k:r[1], lg:r[2], co:r[3], col:r[4], ab:r[5], C:r[6], V:r[7], H:r[8], O:r[9], S:r[10], adj:r[11], P:r[12], mi:r[13], hist:r[14], cult:r[15], kv:r[16] || 0}));
 const KEVIN = ['Liverpool', 'Borussia Dortmund', 'Portland Timbers', 'Portland Thorns', 'Sacramento Republic FC'];
 const PCOL = ['#D1495B', '#2E86DE', '#E1A100', '#2F9E62', '#8E5BD6', '#E0702C'];
 const STARS = {
@@ -198,7 +198,7 @@ const Q = [
    {t:"Yes, I'd like at least one in common", fx:{family:2}},
    {t:'Maybe, if it fits', fx:{family:.8}},
    {t:"No, I'll find my own", fx:{family:-.5}},
-   {t:"I'm Kevin", fx:{family:0}}],
+   {t:"I'm Kevin", fx:{me:1}}],
   fact:'Portland Timbers fans have a lumberjack, Timber Joey. Every time the Timbers score, he cuts a slice off a log with a chainsaw and gives it to the goal scorer.'},
 ];
 
@@ -221,7 +221,7 @@ const $ = s => document.querySelector(s);
 
 // ---------------------------------------------------------------- scoring
 function profile(a) {
-  const p = {w:{C:1, V:1, H:1, O:.5, S:.6, P:1}, big:0, under:0, young:0, sens:.6, lower:-1, home:0, us:0, eu:0, women:0, family:0, where:[], hue:null, stars:[]};
+  const p = {w:{C:1, V:1, H:1, O:.5, S:.6, P:1}, big:0, under:0, young:0, sens:.6, lower:-1, home:0, us:0, eu:0, women:0, family:0, me:0, where:[], hue:null, stars:[]};
   let sens = [];
   for (const q of Q) {
     const v = a[q.id];
@@ -231,7 +231,7 @@ function profile(a) {
     if (q.id === 'stars') { p.stars = v.filter(x => x !== 'none'); continue; }
     const fx = q.opts[v].fx || {};
     for (const [f, d] of Object.entries(fx.w || {})) p.w[f] = Math.max(0.1, p.w[f] + d);
-    for (const t of ['big', 'under', 'young', 'lower', 'home', 'us', 'eu', 'women', 'family']) if (fx[t]) p[t] += fx[t];
+    for (const t of ['big', 'under', 'young', 'lower', 'home', 'us', 'eu', 'women', 'family', 'me']) if (fx[t]) p[t] += fx[t];
     if (fx.sens != null) sens.push(fx.sens);
   }
   if (sens.length) p.sens = sens.reduce((s, x) => s + x, 0) / sens.length;
@@ -269,7 +269,17 @@ function scoreClub(c, p) {
   add(!us ? p.eu * 2.5 : 0, 'Weekend-morning football');
   if (c.k === 'nwsl') add(p.women * 5, "A women's team");
   if (KEVIN.includes(c.n)) add(p.family * 5, "One of Kevin's clubs");
-  for (const s of p.stars) { const st = STARS[s]; if (!st) continue; if (st.cur.includes(c.n)) add(5, `${STAR_NAME[s]} plays here`); else if (st.old.includes(c.n)) add(2, `${STAR_NAME[s]} played here`); }
+  // Kevin's own items (his rivals, the Republic link) count fully for Kevin, half for anyone who wants to share
+  // a club with him, and otherwise only show as a warning.
+  if (c.kv) {
+    // a rival is never Kevin's pick
+    const k = p.me ? (c.kv < 0 ? 5 : 1) : c.kv < 0 && p.family > 0 ? .5 : 0;
+    bonus += c.kv * k / .7;
+    if (c.kv < 0) why.push(p.me ? 'Your rival' : "Kevin's rival");
+  }
+  // Knowing a player adds a little; someone who knows them all gets the same total as someone who knows two.
+  const sw = Math.min(1, 2 / Math.max(1, p.stars.length));
+  for (const s of p.stars) { const st = STARS[s]; if (!st) continue; if (st.cur.includes(c.n)) add(5 * sw, `${STAR_NAME[s]} plays here`); else if (st.old.includes(c.n)) add(2 * sw, `${STAR_NAME[s]} played here`); }
   if (p.hue) {
     const [h, s, l] = hsl(c.col), [th, ts] = HUES[p.hue];
     let hit = false;
@@ -286,8 +296,8 @@ function rank(a) { const p = profile(a); return {p, list:CLUBS.map(c => scoreClu
 function persona(p) {
   const W = Object.values(p.w).reduce((s, x) => s + x, 0), rel = {};
   const avg = {C:1, V:1, H:1, O:.5, S:.6, P:1};
-  for (const k in p.w) rel[k] = p.w[k] / W - avg[k] / 4.1;
-  rel.under = p.under * .05; rel.young = p.young * .05; rel.home = (p.home + (p.where.includes('home') ? 1 : 0)) * .04;
+  for (const k in p.w) rel[k] = p.w[k] / W - avg[k] / 5.1;
+  rel.under = p.under * .05; rel.young = p.young * .05; rel.home = (p.home + (p.where.includes('home') ? .5 : 0)) * .025;
   return PERSONAS[Object.entries(rel).sort((a, b) => b[1] - a[1])[0][0]];
 }
 

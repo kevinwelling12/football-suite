@@ -1,0 +1,154 @@
+[
+ {
+  "name": "Atlanta United",
+  "hits": []
+ },
+ {
+  "name": "Austin FC",
+  "hits": [
+   {
+    "rule": "R1",
+    "factor": "O",
+    "delta": 1,
+    "evidence": "Ownership was set 6->5 for Anthony Precourt's 2017-18 attempt to move the Columbus Crew to Austin. The consequence was the Modell Law suit and his exit from the Crew in the 2018-19 sale to Haslam/Edwards; nothing similar since, so it now counts half.",
+    "source": "https://en.wikipedia.org/wiki/Columbus_Crew"
+   }
+  ]
+ },
+ {
+  "name": "CF Montréal",
+  "hits": []
+ },
+ {
+  "name": "Charlotte FC",
+  "hits": []
+ },
+ {
+  "name": "Chicago Fire FC",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Privately funded soccer-specific stadium at The 78 (South Loop, Chicago) broke ground in March 2026, replacing the NFL Bears' Soldier Field. Not yet credited in Culture; community concerns are about the neighbourhood, not fan opposition.",
+    "source": "https://chicago.suntimes.com/real-estate/2026/03/03/chicago-fire-football-club-breaks-ground-650-million-stadium-78"
+   }
+  ]
+ },
+ {
+  "name": "Colorado Rapids",
+  "hits": []
+ },
+ {
+  "name": "Columbus Crew",
+  "hits": []
+ },
+ {
+  "name": "D.C. United",
+  "hits": []
+ },
+ {
+  "name": "FC Cincinnati",
+  "hits": []
+ },
+ {
+  "name": "FC Dallas",
+  "hits": []
+ },
+ {
+  "name": "Houston Dynamo FC",
+  "hits": []
+ },
+ {
+  "name": "Inter Miami CF",
+  "hits": []
+ },
+ {
+  "name": "LA Galaxy",
+  "hits": []
+ },
+ {
+  "name": "Los Angeles Football Club",
+  "hits": []
+ },
+ {
+  "name": "Minnesota United FC",
+  "hits": []
+ },
+ {
+  "name": "Nashville SC",
+  "hits": []
+ },
+ {
+  "name": "New England Revolution",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Agreement with Boston and Everett (Dec 2025) for a 24,000-seat soccer stadium in Everett, bordering Boston, replacing the NFL Gillette Stadium in Foxborough. Noted but not credited in Culture ('years away').",
+    "source": "https://www.thestadiumbusiness.com/2026/01/05/new-england-revolution-moves-forward-with-stadium-plans/"
+   }
+  ]
+ },
+ {
+  "name": "New York City Football Club",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Etihad Park, a 25,000-seat soccer-specific stadium in Queens, is under construction for 2027, replacing Yankee Stadium (baseball). Noted but not credited in Culture.",
+    "source": "https://en.wikipedia.org/wiki/Etihad_Park"
+   }
+  ]
+ },
+ {
+  "name": "Orlando City",
+  "hits": []
+ },
+ {
+  "name": "Philadelphia Union",
+  "hits": []
+ },
+ {
+  "name": "Portland Timbers",
+  "hits": []
+ },
+ {
+  "name": "Real Salt Lake",
+  "hits": []
+ },
+ {
+  "name": "Red Bull New York",
+  "hits": []
+ },
+ {
+  "name": "San Diego FC",
+  "hits": []
+ },
+ {
+  "name": "San Jose Earthquakes",
+  "hits": []
+ },
+ {
+  "name": "Seattle Sounders FC",
+  "hits": []
+ },
+ {
+  "name": "Sporting Kansas City",
+  "hits": []
+ },
+ {
+  "name": "St. Louis CITY SC",
+  "hits": []
+ },
+ {
+  "name": "Toronto FC",
+  "hits": []
+ },
+ {
+  "name": "Vancouver Whitecaps FC",
+  "hits": []
+ }
+]

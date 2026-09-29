@@ -36,7 +36,7 @@ S = {
 'Columbus Crew':(8,6,7,7,5,0,""),'D.C. United':(7,6,8,5,4,0,""),'FC Dallas':(5,7,6,6,5,0,""),'Houston Dynamo FC':(5,6,5,5,5,0,""),'Inter Miami CF':(5,3,3,4,4,-9,"Private equity -6; Overspend -3"),'LA Galaxy':(6,5,8,5,5,0,""),
 'Los Angeles Football Club':(8,6,3,5,5,2,"Republic link +2"),'Minnesota United FC':(7,6,5,6,6,0,""),'CF Montréal':(5,6,6,5,4,0,""),'Nashville SC':(7,5,2,6,7,0,""),'New England Revolution':(4,6,5,4,6,0,""),
 'New York City Football Club':(5,4,3,1,6,-18,"State-backed -12; Multi-club -6"),'Red Bull New York':(5,5,5,2,7,-6,"Multi-club -6"),'Orlando City':(7,6,4,6,4,0,""),'Philadelphia Union':(8,7,5,5,7,0,""),
-'Portland Timbers':(10,8,7,5,6,0,""),'Real Salt Lake':(6,6,5,7,6,0,""),'San Diego FC':(6,6,1,5,6,-4,"Multi-club -4"),'San Jose Earthquakes':(5,6,6,3,5,0,""),'Seattle Sounders FC':(9,8,8,6,8,-5,"Rival -5"),
+'Portland Timbers':(10,8,7,6,6,0,"Cascadia decider 2026-09-30: Ownership 5->6 (owner's past misconduct counts half; no repeat)"),'Real Salt Lake':(6,6,5,7,6,0,""),'San Diego FC':(6,6,1,5,6,-4,"Multi-club -4"),'San Jose Earthquakes':(5,6,6,3,5,0,""),'Seattle Sounders FC':(8,8,7,5,8,-5,"Rival -5; Cascadia decider 2026-09-30: Culture 9->8 (NFL stadium, likely suburban move), History 8->7, Ownership 6->5 (2025 conduct, ownership change pending)"),
 'Sporting Kansas City':(7,6,6,6,4,0,""),'St. Louis CITY SC':(8,5,3,7,4,0,""),'Toronto FC':(6,6,6,4,5,0,""),'Vancouver Whitecaps FC':(6,6,7,4,7,-5,"Rival -5"),
 # NWSL
 'Angel City FC':(7,7,2,5,5,0,""),'Bay FC':(6,6,2,4,4,-9,"Private equity -9"),'Boston Legacy':(4,5,2,5,4,0,""),'Chicago Stars':(3,4,6,5,4,0,""),'Denver Summit':(6,6,1,6,5,0,""),'Gotham FC':(6,6,8,6,7,0,""),

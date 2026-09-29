@@ -5,8 +5,9 @@ python3 scripts/affinity/performance.py        # print the ranking and the bigge
 Input: scripts/affinity/research/perf/*.json (last 10 completed league seasons per club, most recent first,
 plus trophies; brief in research/PERF_BRIEF.md).
 
-Each season scores 0-10 against the tier the club is analysed in (its app league: Premier League and
-other top flights = tier 1, Championship and USL Championship = tier 2, League One/Two = tiers 3-4 as one band):
+Each season scores 0-10 against a reference tier: the top flight for every club outside North America;
+USL Championship clubs (regional interest) against tier 2. (Until 2026-09-29 the Championship was judged
+against tier 2 and League One/Two against tiers 3-4.)
 - inside the band: 8.5 * (1 - p^1.5), p = 0 for 1st, 1 for last (a Two-tier band stacks the tiers).
   Concave on purpose: steady top-half finishes score close to a title, the relegation fight scores low.
 - one tier above the band: 8.5 + 1.5 * (1 - p); two or more above: 10.
@@ -33,7 +34,10 @@ EMPTY = 3.0
 TROPHY = {'league': 1.5, 'cup': 1.0, 'league_cup': 0.5, 'continental': 2.0, 'continental2': 1.0}
 # Band of tiers each app league is judged against. Clubs only in the Champions League: their own top flight.
 BAND = {'epl': (1, 1), 'esp': (1, 1), 'ita': (1, 1), 'bl': (1, 1), 'fra': (1, 1), 'mls': (1, 1), 'nwsl': (1, 1),
-        'ucl': (1, 1), 'ch': (2, 2), 'usl': (2, 2), 'cup': (3, 4)}
+        'ucl': (1, 1), 'ch': (1, 1), 'usl': (2, 2), 'cup': (1, 1)}
+# Kevin (2026-09-29): clubs outside North America are judged against the top flight (tier 1, mid-table or higher
+# regularly, occasional cup and European runs). Lower-tier football only counts for regional clubs, so the USL
+# keeps its own tier. Until then the Championship was judged against tier 2 and League One/Two against tiers 3-4.
 PRIMARY = ['epl', 'esp', 'ita', 'bl', 'fra', 'mls', 'nwsl', 'ch', 'usl', 'ucl', 'cup']
 
 

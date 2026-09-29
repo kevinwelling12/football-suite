@@ -29,7 +29,8 @@ LABEL = {'CG': 'Ground', 'CY': 'Loyal', 'CL': 'Loud', 'CA': 'Away', 'VC': 'Commu
 DECAY_BEFORE = 2021
 # Values deductions that repeat something an adjustment already counts (violence/racism): corrected here.
 VNEG_FIX = {'Eintracht Frankfurt': (0, 'UEFA fan sanctions already in the fan-violence adjustment'),
-            'Nice': (-1, 'VBET sponsor only; the ultras assault is in the fan-violence adjustment')}
+            'Nice': (-1, 'VBET sponsor only; the ultras assault is in the fan-violence adjustment'),
+            'Millwall': (0, 'discriminatory chanting charges already in the racism adjustment')}
 
 
 def sc(r, k):

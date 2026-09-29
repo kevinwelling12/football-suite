@@ -13,7 +13,8 @@ MODEL.run(comp, results, S, status, live) for league-style competitions:
 6. Predicted score (draw-zone calibrated) and **pick 'em** pick = argmax of
    peOutcome*P(outcome) + (peExact-peOutcome)*P(exact). Locked at result entry (results[id][2..4]).
 7. Table (+ points adjustments S.adj), clinch/elimination statuses (cfg.status), groups/conferences.
-8. Monte Carlo: S.sims seasons (1000); live matches sample remaining goals (xG scaled by time left).
+8. Monte Carlo: S.sims seasons (1000); live matches sample remaining goals (xG scaled by time left;
+   per red card that side's rate x0.67, the opponent's x1.25, up to 3 each; live entry field rc:[home, away]).
    Knockouts/playoffs simulated per season via makeKO(kind): 'ucl', 'unl2' (Nations League A-D with
    promotion/relegation play-offs), 'nwslpo', 'mlspo' (wild card + best-of-3), 'uslpo'.
 9. **Importance** per unplayed match: sum over zones of weight*|P(zone|win)-P(zone|loss)| (floor
@@ -33,11 +34,12 @@ undrawn rounds, draw entry supported. MODEL.poResolve/poProbs: bracket resolutio
   on the page as before. bgRender() redraws for background changes without moving the page or closing an
   open score entry.
 - Live clock: live entries are {h, a, ph:'1H'|'HT'|'2H', t, m0}. Match events are one tap on the card
-  (Kicked off, Half-time, 2nd half, Full time, +1 goal); the clock runs from the last tap. 45+N/90+N for
+  (Kicked off, Half-time, 2nd half, Full time, +1 goal, red card); the clock runs from the last tap. 45+N/90+N for
   stoppage; missed taps are guessed (~) and "FT?" asks for full time after 90+15. A 30 s timer keeps clocks
   current and re-runs the model every 2 match minutes. Old {h, a, min, ht} entries keep a fixed minute.
 - Live view (nav 'Live', view 'live'): every match marked live, plus matches past kickoff (up to 150 min) with no
-  score, as full match cards from every competition. Card clicks act on the card's own competition (k from
+  score, as compact cards (liveCard: comp + pick 'em outlook, score bug with red cards, odds bar, one-tap
+  buttons; ~155px so 4-5 fit on a phone; tap the bug for the full card). Card clicks act on the card's own competition (k from
   data-fx) and `$('#id')` looks inside the clicked card first, because fixture ids repeat across competitions.
 - Pull to refresh (#ptr): home-screen web app only (navigator.standalone). Pull down from the top past
   the line to reload; view/tab/round/table mode come back from sessionStorage. Safari keeps its own gesture.

@@ -58,10 +58,10 @@ function clock(L, kt, now = Date.now()) {
 const liveLabel = (k, f) => { const c = clockOf(k, f.id); return c ? c.label : f.live.min + "'"; };
 const kickOf = (k, id) => { const f = R[k] && R[k].fx[id]; return f ? f.kt : null; };
 const clockOf = (k, id) => { const L = state.live[k][id]; return L ? clock(L, kickOf(k, id)) : null; };
-// What the model needs: score, minute (capped at 90) and whether it's half-time.
+// What the model needs: score, minute (capped at 90), whether it's half-time, and red cards [home, away].
 function liveFor(k) {
   const out = {};
-  for (const [id, L] of Object.entries(state.live[k] || {})) { const c = clock(L, kickOf(k, +id)); out[id] = {h:L.h, a:L.a, min:c.min, ht:c.ht ? 1 : 0}; }
+  for (const [id, L] of Object.entries(state.live[k] || {})) { const c = clock(L, kickOf(k, +id)); out[id] = {h:L.h, a:L.a, min:c.min, ht:c.ht ? 1 : 0, rc:L.rc || [0, 0]}; }
   return out;
 }
 // Entry for a typed minute ("67", "45+2" counts as 45, "HT").
@@ -106,7 +106,7 @@ function queueFull(k) {
 // Keep live clocks and "Kicked off" buttons current (every 30 s while the page is open) and re-run the
 // model every 2 minutes of match time so live odds follow the clock.
 const liveSig = {};
-const sigOf = k => JSON.stringify(Object.entries(liveFor(k)).map(([id, x]) => [id, x.h, x.a, x.ht, x.min >> 1]));
+const sigOf = k => JSON.stringify(Object.entries(liveFor(k)).map(([id, x]) => [id, x.h, x.a, x.ht, x.min >> 1, x.rc]));
 function tick() {
   if (document.hidden) return;
   const now = Date.now(), v = state.view;
@@ -384,6 +384,41 @@ function motwOf(list) { let best = null; for (const f of list) if (!f.played && 
 const favLabel = (k, f) => f.favored === 'D' ? 'Draw' : nm(k, f.favored === 'H' ? f.h : f.a);
 function impMeter(v) { return `<span class="imp" title="Match importance">Importance <span class="imp-track"><span class="imp-fill" style="width:${Math.round(v * 100)}%"></span></span> <b class="num">${v.toFixed(2)}</b></span>`; }
 
+const reds = n => n ? `<span class="rcs" aria-label="${n} red card${n > 1 ? 's' : ''}">${'<i class="rc"></i>'.repeat(n)}</span>` : '';
+// One-tap live buttons: goal, red card, the next match event, red card, goal.
+function liveBtns(k, f) {
+  const c = clockOf(k, f.id) || {ph:f.live.ht ? 'HT' : '2H'};
+  // while the clock is guessing past a missed tap, keep offering the restart until the 70th minute
+  const [ev, lab] = c.stale ? ['ft', `FT ${f.live.h}–${f.live.a}?`] : c.ph === '1H' ? ['ht', 'Half-time']
+    : c.ph === 'HT' || (c.est && c.min < 70) ? ['sh', '2nd half'] : ['ft', 'Full time'];
+  const ab = i => esc(T(k)[i].abbr || nm(k, i));
+  return `<div class="live-ctl"><button class="btn ghost" data-ev="gh" data-id="${f.id}" aria-label="Goal ${esc(full(k, f.h))}">+1 ${ab(f.h)}</button>
+    <button class="btn ghost rc-btn" data-ev="rh" data-id="${f.id}" aria-label="Red card ${esc(full(k, f.h))}"><i class="rc"></i></button>
+    <button class="btn ${c.stale || ev === 'ft' ? 'primary' : 'live-btn'}" data-ev="${ev}" data-id="${f.id}">${lab}</button>
+    <button class="btn ghost rc-btn" data-ev="ra" data-id="${f.id}" aria-label="Red card ${esc(full(k, f.a))}"><i class="rc"></i></button>
+    <button class="btn ghost" data-ev="ga" data-id="${f.id}" aria-label="Goal ${esc(full(k, f.a))}">+1 ${ab(f.a)}</button></div>`;
+}
+// Compact card for the Live tab (about 150px, so 4-5 fit on a phone): competition and pick 'em outlook, the
+// score bug with red cards, live odds in one bar, one-tap events. Tap the bug for the full card.
+function liveCard(k, f) {
+  const L = f.live, P = L || f, t = i => T(k)[i], ab = i => esc(t(i).abbr || nm(k, i)), pk = f.pick;
+  const aff = side => f.favored === side ? '<span class="lc-aff" title="Affinity pick">◆</span>' : '';
+  const now = L && pk ? (L.h === pk[0] && L.a === pk[1] ? state.suite.peExact : Math.sign(L.h - L.a) === Math.sign(pk[0] - pk[1]) ? state.suite.peOutcome : 0) : null;
+  const out = pk ? (L ? `Pick ${pk[0]}–${pk[1]} · <b>${now}</b> now · <b class="num">${L.ev.toFixed(2)}</b> exp` : `Pick ${pk[0]}–${pk[1]}`) : '';
+  const seg = (p, cls) => `<span class="${cls}" style="flex:${p}">${p >= 0.14 ? pct(p) : ''}</span>`;
+  const bar = f.pH != null ? `<div class="lc-bar num" aria-label="Win chances ${pct(P.pH)} home, ${pct(P.pD)} draw, ${pct(P.pA)} away${L ? ', live' : ''}">${seg(P.pH, 'h')}${seg(P.pD, 'd')}${seg(P.pA, 'a')}</div>` : '';
+  let ctl = '';
+  if (L) ctl = liveBtns(k, f);
+  else if (COMPS_CFG[k].cup) ctl = `<div class="live-ctl one"><button class="btn ghost" data-go="${k}:${f.id}">Enter the result</button></div>`;
+  else if (!f.played && !f.postponed) ctl = `<div class="live-ctl one"><button class="btn live-btn" data-ev="ko" data-id="${f.id}">${Date.now() - f.kt > 5 * 6e4 ? `Live now (clock from ${fmtTime(f.kt)})` : 'Kicked off'}</button></div>`;
+  return `<article data-fx="${k}:${f.id}" class="match lc ${L ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''}" style="--hc:${t(f.h).color};--ac:${t(f.a).color}">
+    <div class="lc-top"><button class="live-comp" data-go="${k}:${f.id}" style="--c:${DOT[k]}"><i></i>${esc(COMPS_CFG[k].name)}</button><span class="lc-pe">${out}</span></div>
+    <div class="lc-bug" role="button" tabindex="0" data-go="${k}:${f.id}" aria-label="Open ${esc(full(k, f.h))} v ${esc(full(k, f.a))}">
+      <span class="lc-t" style="--tc:${t(f.h).color}"><i></i><b>${ab(f.h)}</b>${star(k, f.h)}${aff('H')}${L ? reds(L.rc[0]) : ''}</span>
+      <span class="lc-s num">${L ? L.h : ''}</span><span class="lc-clock ${L ? 'on' : ''}">${L ? liveLabel(k, f) : fmtTime(f.kt)}</span><span class="lc-s num">${L ? L.a : ''}</span>
+      <span class="lc-t away" style="--tc:${t(f.a).color}">${L ? reds(L.rc[1]) : ''}${aff('A')}${star(k, f.a)}<b>${ab(f.a)}</b><i></i></span></div>
+    ${bar}${ctl}</article>`;
+}
 function matchCard(k, f, motw) {
   const bcTeams = f.h != null && f.a != null && !!T(k)[f.h].abbr && document.documentElement.classList.contains('bc');
   const fin = f.played, cup = COMPS_CFG[k].cup, known = f.h != null && f.a != null, rated = f.pH != null;
@@ -410,21 +445,13 @@ function matchCard(k, f, motw) {
   const P = f.live || f;
   const probs = rated ? `<div class="probs" aria-hidden="true"><span style="flex:${P.pH}"></span><span style="flex:${P.pD}"></span><span style="flex:${P.pA}"></span></div>
     <div class="prob-lab num"><span><b>${pct(P.pH)}</b> ${bcTeams ? esc(T(k)[f.h].abbr) : 'Home'}</span><span><b>${pct(P.pD)}</b> ${f.live ? 'Draw · live' : 'Draw'}</span><span><b>${pct(P.pA)}</b> ${bcTeams ? esc(T(k)[f.a].abbr) : 'Away'}</span></div>` : '';
-  // Live controls: goals and the next match event, one tap each. Before a match, "Kicked off" appears from
+  // Live controls: goals, red cards and the next match event, one tap each. Before a match, "Kicked off" appears from
   // 10 minutes before the listed kickoff; tapped more than 5 minutes after it, the clock starts at kickoff.
   let liveCtl = '';
   if (!cup && known && !fin && !f.postponed) {
     const now = Date.now();
-    if (f.live) {
-      const c = clockOf(k, f.id) || {ph:f.live.ht ? 'HT' : '2H'};
-      // while the clock is guessing past a missed tap, keep offering the restart until the 70th minute
-      const [ev, lab] = c.stale ? ['ft', `Full time ${f.live.h}–${f.live.a}?`] : c.ph === '1H' ? ['ht', 'Half-time']
-        : c.ph === 'HT' || (c.est && c.min < 70) ? ['sh', '2nd half'] : ['ft', 'Full time'];
-      const ab = i => esc(T(k)[i].abbr || nm(k, i));
-      liveCtl = `<div class="live-ctl"><button class="btn ghost" data-ev="gh" data-id="${f.id}" aria-label="Goal ${esc(full(k, f.h))}">+1 ${ab(f.h)}</button>
-        <button class="btn ${c.stale || ev === 'ft' ? 'primary' : 'live-btn'}" data-ev="${ev}" data-id="${f.id}">${lab}</button>
-        <button class="btn ghost" data-ev="ga" data-id="${f.id}" aria-label="Goal ${esc(full(k, f.a))}">+1 ${ab(f.a)}</button></div>`;
-    } else if (f.kt && now >= f.kt - 10 * 6e4 && now <= f.kt + 150 * 6e4) {
+    if (f.live) liveCtl = liveBtns(k, f);
+    else if (f.kt && now >= f.kt - 10 * 6e4 && now <= f.kt + 150 * 6e4) {
       const late = now - f.kt > 5 * 6e4;
       liveCtl = `<div class="live-ctl one"><button class="btn live-btn" data-ev="ko" data-id="${f.id}">${late ? `Live now (clock from ${fmtTime(f.kt)})` : 'Kicked off'}</button></div>`;
     }
@@ -449,9 +476,9 @@ function matchCard(k, f, motw) {
       const mid = f.live ? `<span class="bug-mid-seg live">${liveLabel(k, f)}</span>` : fin ? '<span class="bug-mid-seg">FT</span>'
         : f.postponed ? '<span class="bug-mid-seg">PPD</span>' : '<span class="bug-mid-seg dim">–</span>';
       return `<div class="bugwrap" ${rated || fin ? `role="button" tabindex="0" data-open="${f.id}"` : ''}>
-        <div class="bug ${!fin && !f.live ? 'is-pick' : ''}"><span class="bug-team" style="--tc:${T(k)[f.h].color}"><i></i>${esc(T(k)[f.h].abbr)}${star(k, f.h)}</span>
+        <div class="bug ${!fin && !f.live ? 'is-pick' : ''}"><span class="bug-team" style="--tc:${T(k)[f.h].color}"><i></i>${esc(T(k)[f.h].abbr)}${star(k, f.h)}${f.live ? reds(f.live.rc[0]) : ''}</span>
         <span class="bug-score num">${sh}</span>${mid}<span class="bug-score num">${sa}</span>
-        <span class="bug-team away" style="--tc:${T(k)[f.a].color}">${star(k, f.a)}${esc(T(k)[f.a].abbr)}<i></i></span></div>
+        <span class="bug-team away" style="--tc:${T(k)[f.a].color}">${f.live ? reds(f.live.rc[1]) : ''}${star(k, f.a)}${esc(T(k)[f.a].abbr)}<i></i></span></div>
         <div class="bug-sub"><span>${esc(nm(k, f.h))}</span><span class="bug-mid">${fin ? (f.awarded ? 'Awarded' : '') : f.live ? `Pick ${f.pick[0]}–${f.pick[1]}` : rated ? "Your pick 'em"  : ''}</span><span>${esc(nm(k, f.a))}</span></div></div>`;
     })() : `<div class="board" ${rated || fin ? `role="button" tabindex="0" data-open="${f.id}"` : ''}>
       ${bcTeams ? `<div class="team h bc-team"><span class="t-abbr">${star(k, f.h)}${esc(T(k)[f.h].abbr)}${tchip(k, f.h)}</span><small>${esc(nm(k, f.h))}${wlab('h') ? ' · ' + wlab('h') : ''}</small></div>` : `<div class="team h"><span class="${f.favored === 'H' ? 'fav' : ''}">${star(k, f.h)}${esc(nm(k, f.h))}</span><small>${wlab('h')}</small></div>`}
@@ -467,9 +494,10 @@ ${probs}${liveCtl}
       <input inputmode="numeric" aria-label="${esc(full(k, f.a))} goals" value="${fin ? f.as : f.live ? f.live.a : ''}" id="as-${f.id}">
       ${needPens ? `<select id="pw-${f.id}" aria-label="Penalty winner if level"><option value="">Pens (if level)</option><option value="${f.h}" ${f.pens === f.h ? 'selected' : ''}>${esc(nm(k, f.h))}</option><option value="${f.a}" ${f.pens === f.a ? 'selected' : ''}>${esc(nm(k, f.a))}</option></select>` : ''}
       <button class="btn primary" data-save="${f.id}">Save</button>${fin ? `<button class="btn ghost" data-clear="${f.id}">Clear</button>` : ''}
-      ${!cup && !fin ? `<div class="st-row live-row"><span>In progress? Minute or HT</span><input id="mn-${f.id}" value="${f.live ? (c => c.ht ? 'HT' : c.min)(clockOf(k, f.id) || f.live) : ''}" placeholder="67" aria-label="Minute, or HT">
+      ${!cup && !fin ? `<div class="st-row live-row"><span>Red cards</span><input id="rch-${f.id}" inputmode="numeric" value="${f.live ? f.live.rc[0] : 0}" aria-label="${esc(full(k, f.h))} red cards"><span>–</span><input id="rca-${f.id}" inputmode="numeric" value="${f.live ? f.live.rc[1] : 0}" aria-label="${esc(full(k, f.a))} red cards"></div>
+      <div class="st-row live-row"><span>In progress? Minute or HT</span><input id="mn-${f.id}" value="${f.live ? (c => c.ht ? 'HT' : c.min)(clockOf(k, f.id) || f.live) : ''}" placeholder="67" aria-label="Minute, or HT">
         <button class="btn live-btn" data-live="${f.id}">Update live</button>${f.live ? `<button class="btn ghost" data-unlive="${f.id}">Not live</button>` : ''}</div>
-      <p class="hint">Save = full time. Update live = the score so far at that minute; odds, tables and importance update to match.</p>` : ''}
+      <p class="hint">Save = full time. Update live = the score and red cards so far at that minute; odds, tables and importance update to match.</p>` : ''}
       ${!cup ? `<div class="st-row"><label class="aw"><input type="checkbox" id="aw-${f.id}" ${f.awarded ? 'checked' : ''}> Awarded result (counts in the table, not in ratings or pick 'em)</label></div>
       ${fin ? '' : `<div class="st-row">${f.postponed ? `<button class="btn ghost" data-unpp="${f.id}">Not postponed</button>` : `<button class="btn ghost" data-pp="${f.id}">Mark postponed</button>`}
         <span class="mv">New date <input type="date" id="nd-${f.id}" value="${f.moved ? f.date : ''}"> <input type="time" id="nt-${f.id}" value="${f.moved && f.kt ? new Date(f.kt).toTimeString().slice(0, 5) : ''}"> <button class="btn ghost" data-move="${f.id}">Reschedule</button></span></div>`}` : ''}</div>` : ''}
@@ -855,7 +883,7 @@ const kickedOff = () => { const now = Date.now(); return ORDER.filter(k => R[k])
 function viewLive() {
   const byTime = (a, b) => (a.f.kt || 0) - (b.f.kt || 0) || ORDER.indexOf(a.k) - ORDER.indexOf(b.k);
   const live = liveNow().sort(byTime), ko = kickedOff().sort(byTime);
-  const cards = list => `<div class="matches live-list">${list.map(({k, f}) => `<div class="live-item"><button class="live-comp" data-go="${k}:${f.id}" style="--c:${DOT[k]}"><i></i>${esc(COMPS_CFG[k].name)}${f.round ? ` · ${esc(f.round)}` : ''}</button>${matchCard(k, f, '')}</div>`).join('')}</div>`;
+  const cards = list => `<div class="matches live-list">${list.map(({k, f}) => liveCard(k, f)).join('')}</div>`;
   if (!ORDER.every(k => R[k])) return '<div class="loading">Crunching the numbers…</div>';
   if (!live.length && !ko.length) {
     const next = ORDER.flatMap(k => R[k].fx.filter(f => !f.played && !f.postponed && f.kt && f.kt > Date.now() && f.h != null && f.a != null).map(f => ({k, f}))).sort(byTime).slice(0, 5);
@@ -863,7 +891,7 @@ function viewLive() {
       ${next.length ? `<h3 style="margin-top:18px">Next kickoffs</h3><div class="card" style="margin-top:10px">${next.map(({k, f}) => `<div class="feed-row" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
         <span class="d">${whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span><span class="m">${star(k, f.h)}${esc(nm(k, f.h))} v ${esc(nm(k, f.a))}${star(k, f.a)}</span><span class="p num">${f.pick ? f.pick[0] + '–' + f.pick[1] : ''}</span><span class="imp"></span></div>`).join('')}</div>` : ''}</section>`;
   }
-  return `${live.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Matches marked in progress, with live win chances and your pick 'em outlook. Tap Goal, Half-time or Full time on a card as the match goes on.</p>${cards(live)}</section>` : ''}
+  return `${live.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Tap +1 for a goal, the red card for a sending-off, and Half-time or Full time as the match goes on. Tap a scoreboard for the full card.</p>${cards(live)}</section>` : ''}
     ${ko.length ? `<section class="section"><h2>Kicked off</h2><p class="sub">Past their kickoff time with no live score yet. Enter the minute and score to follow one live, or the final score when it's over.</p>${cards(ko)}</section>` : ''}`;
 }
 function viewHome() {
@@ -902,7 +930,7 @@ function viewHome() {
   const liveSec = lives.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Matches you've marked in progress, with live win chances and your pick 'em outlook.</p>
     <div class="card" style="margin-top:12px">${lives.map(({k, f}) => `<div class="feed-row live-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
       <span class="d">${liveLabel(k, f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
-      <span class="m">${star(k, f.h)}${esc(nm(k, f.h))} <b class="num">${f.live.h}–${f.live.a}</b> ${esc(nm(k, f.a))}${star(k, f.a)} <span style="color:var(--muted);font-weight:500">· ${pct(f.live.pH)} / ${pct(f.live.pD)} / ${pct(f.live.pA)}</span></span>
+      <span class="m">${star(k, f.h)}${esc(nm(k, f.h))}${reds(f.live.rc[0])} <b class="num">${f.live.h}–${f.live.a}</b> ${reds(f.live.rc[1])}${esc(nm(k, f.a))}${star(k, f.a)} <span style="color:var(--muted);font-weight:500">· ${pct(f.live.pH)} / ${pct(f.live.pD)} / ${pct(f.live.pA)}</span></span>
       <span class="p num">${f.pick[0]}–${f.pick[1]}</span><span class="imp" style="font-size:12px;color:var(--muted)">${f.live.ev.toFixed(2)} pts</span></div>`).join('')}</div></section>` : '';
   return `${liveSec}${yours}
     <section class="section"><h2>What's next</h2><p class="sub">The next 20 unplayed matches everywhere, with your pick 'em score. The highlighted row is each day's match of the day: the best blend of what's at stake and how evenly matched the sides are. Greyed dates have passed: enter those results in their competition.</p>
@@ -1075,12 +1103,13 @@ function liveEvent(k, id, ev) {
   lockMotw(k, roundKey(k, f));
   if (ev === 'ko') state.live[k][id] = {h:0, a:0, ph:'1H', t:f.kt && now - f.kt > 5 * 6e4 ? f.kt : now, m0:1};
   else if (!L) return;
-  else if (ev === 'ht') state.live[k][id] = {h:L.h, a:L.a, ph:'HT', t:now};
-  else if (ev === 'sh') state.live[k][id] = {h:L.h, a:L.a, ph:'2H', t:now, m0:46};
-  else if (ev === 'gh' || ev === 'ga') {
-    // a goal keeps the clock; an old fixed-minute entry starts running from its minute
-    const c = clock(L, f.kt), base = L.t ? L : liveAt(L.h, L.a, c.ht ? 'HT' : String(c.min), now);
-    state.live[k][id] = Object.assign({}, base, ev === 'gh' ? {h:L.h + 1} : {a:L.a + 1});
+  else if (ev === 'ht') state.live[k][id] = {h:L.h, a:L.a, ph:'HT', t:now, rc:L.rc};
+  else if (ev === 'sh') state.live[k][id] = {h:L.h, a:L.a, ph:'2H', t:now, m0:46, rc:L.rc};
+  else if (ev === 'gh' || ev === 'ga' || ev === 'rh' || ev === 'ra') {
+    // goals and red cards keep the clock; an old fixed-minute entry starts running from its minute
+    const c = clock(L, f.kt), base = L.t ? L : Object.assign(liveAt(L.h, L.a, c.ht ? 'HT' : String(c.min), now), {rc:L.rc});
+    const rc = L.rc || [0, 0];
+    state.live[k][id] = Object.assign({}, base, ev === 'gh' ? {h:L.h + 1} : ev === 'ga' ? {a:L.a + 1} : {rc:ev === 'rh' ? [rc[0] + 1, rc[1]] : [rc[0], rc[1] + 1]});
   }
   update(k); render(); save(k);
 }
@@ -1110,7 +1139,9 @@ document.addEventListener('click', e => {
     const id = +t.dataset.live, h = parseInt($('#hs-' + id).value, 10), a2 = parseInt($('#as-' + id).value, 10), raw = $('#mn-' + id).value.trim().toUpperCase();
     const ht = raw === 'HT', mn = ht ? 45 : parseInt(raw, 10);
     if (!(Number.isInteger(h) && Number.isInteger(a2) && h >= 0 && a2 >= 0 && Number.isInteger(mn) && mn >= 0)) return;
-    state.live[k][id] = liveAt(h, a2, ht ? 'HT' : raw); update(k); render(); save(k); return;
+    const rd = s => { const v = parseInt(($('#' + s + '-' + id) || {}).value, 10); return Number.isInteger(v) && v >= 0 ? Math.min(v, 5) : 0; };
+    const rc = [rd('rch'), rd('rca')];
+    state.live[k][id] = Object.assign(liveAt(h, a2, ht ? 'HT' : raw), rc[0] || rc[1] ? {rc} : {}); update(k); render(); save(k); return;
   }
   if (t.dataset.unlive) { delete state.live[k][+t.dataset.unlive]; update(k); render(); save(k); return; }
   if (t.dataset.pp || t.dataset.unpp || t.dataset.move) {

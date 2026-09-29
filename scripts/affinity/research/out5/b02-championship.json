@@ -1,0 +1,1716 @@
+[
+ {
+  "name": "Birmingham City",
+  "CG": {
+   "score": 7,
+   "evidence": "St Andrew's, home since 1906 (~29,400), traditional but renamed after the owner and due to be replaced by a planned 'Sports Quarter' stadium."
+  },
+  "CL": {
+   "score": 7,
+   "evidence": "Loud Tilton Road and Kop sections; regular sell-outs since 2023."
+  },
+  "CY": {
+   "score": 8,
+   "evidence": "Crowds held and grew during the 2024-25 League One season; 26,146 average in the 2026-27 Championship."
+  },
+  "CA": {
+   "score": 8,
+   "evidence": "Large, noisy away following, among the biggest in the EFL."
+  },
+  "VC": {
+   "score": 6,
+   "evidence": "Birmingham City Community Trust runs typical local programmes; nothing exceptional found."
+  },
+  "VW": {
+   "score": 6,
+   "evidence": "Women promoted to the WSL for 2026-27, but 97% of the women's club was sold to an outside consortium in 2026."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity; stadium renamed after the owner's firm."
+  },
+  "VA": {
+   "score": 5,
+   "evidence": "Academy produces some players (Bellingham historically), but the first team is built mainly through signings."
+  },
+  "VP": {
+   "score": 7,
+   "evidence": "Cheapest adult season ticket £340, 5th cheapest in the Championship for 2026-27."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Supporters' trust since 2012 and the standard fan advisory board; no board seat or golden share."
+  },
+  "Vneg": {
+   "points": -2,
+   "evidence": "Coral (Entain, sports betting) is front-of-shirt sponsor on men's and women's kits for 2026-27."
+  },
+  "TB": {
+   "score": 7,
+   "evidence": "Big, loud crowds and a visible bond; record signing Jay Stansfield is a boyhood fan whose father played for the club."
+  },
+  "TS": {
+   "score": 3,
+   "evidence": "Heavy owner-funded recruitment with many signings and loans each window since 2023."
+  },
+  "TI": {
+   "score": 4,
+   "evidence": "Chris Davies in charge since June 2024; no long-serving icon yet (Stansfield could become one)."
+  },
+  "TP": {
+   "score": 7,
+   "evidence": "Front-foot possession-and-pressing side: record 111-point League One title 2024-25."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Birmingham_City_F.C.",
+   "https://sbcnews.co.uk/marketing/2026/07/27/coral-sponsors-birmingham/",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Women's_Super_League_2"
+  ]
+ },
+ {
+  "name": "Blackburn Rovers",
+  "CG": {
+   "score": 7,
+   "evidence": "Ewood Park, home since 1890 (~31,400), a historic ground, though often well under half full."
+  },
+  "CL": {
+   "score": 4,
+   "evidence": "Atmosphere described as subdued; ranked 19th of 24 in a 2026 Championship atmosphere ranking."
+  },
+  "CY": {
+   "score": 6,
+   "evidence": "Long-running protests against Venky's show commitment, but crowds have fallen to about 15,900 in 2026-27."
+  },
+  "CA": {
+   "score": 5,
+   "evidence": "Modest away following for the club's size."
+  },
+  "VC": {
+   "score": 6,
+   "evidence": "Blackburn Rovers Community Trust runs standard local programmes."
+  },
+  "VW": {
+   "score": 2,
+   "evidence": "Women's side fell out of WSL2 and was relegated from National League Division One North in 2025-26 (2 wins in 22)."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or political identity found."
+  },
+  "VA": {
+   "score": 8,
+   "evidence": "Productive Category One academy feeding the first team (Rankin-Costello, Wharton, Carter)."
+  },
+  "VP": {
+   "score": 8,
+   "evidence": "Cheapest adult season ticket £299, 3rd cheapest in the Championship for 2026-27."
+  },
+  "VF": {
+   "score": 4,
+   "evidence": "Absentee owners with little fan dialogue; only the standard fan advisory board."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (shirt Watson Ramsbottom, sleeve Venky's); owner conduct is scored in Ownership."
+  },
+  "TB": {
+   "score": 4,
+   "evidence": "Fan-player bond muted by years of protests against the owners."
+  },
+  "TS": {
+   "score": 3,
+   "evidence": "Club sells its best players most windows (Szmodics, Brereton Díaz, Dolan)."
+  },
+  "TI": {
+   "score": 5,
+   "evidence": "Tony Mowbray, a club legend as manager 2017-22, back for a second spell."
+  },
+  "TP": {
+   "score": 5,
+   "evidence": "Pragmatic, mid-to-low-table football; 20th in 2025-26."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Blackburn_Rovers_F.C.",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://www.footballfancast.com/best-atmospheres-fans-stadiums-efl-championship-ranked-2026/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_FA_Women%27s_National_League"
+  ]
+ },
+ {
+  "name": "Bolton Wanderers",
+  "CG": {
+   "score": 5,
+   "evidence": "Toughsheet Community Stadium (1997) is an out-of-town bowl with less character than Burnden Park."
+  },
+  "CL": {
+   "score": 5,
+   "evidence": "Ranked low (23rd) in one 2026 atmosphere ranking, though big crowds create noise on big days."
+  },
+  "CY": {
+   "score": 9,
+   "evidence": "Nearly went out of existence in 2019; crowds grew to the mid-20,000s in League One and 23,992 in 2026-27."
+  },
+  "CA": {
+   "score": 7,
+   "evidence": "Strong away following through the League One years."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Bolton Wanderers in the Community is on the shirt alongside Victorian Plumbing; active local programmes."
+  },
+  "VW": {
+   "score": 4,
+   "evidence": "Women's team plays in the lower women's pyramid; no notable investment found (not verified)."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or political identity found."
+  },
+  "VA": {
+   "score": 5,
+   "evidence": "Some academy graduates, but the squad relies on loans and signings."
+  },
+  "VP": {
+   "score": 7,
+   "evidence": "Cheapest adult season ticket £399, 10th cheapest in the Championship for 2026-27."
+  },
+  "VF": {
+   "score": 6,
+   "evidence": "Fan bond scheme gave supporters a financial stake; standard fan advisory board."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (shirt Victorian Plumbing / community trust, sleeve White Beaconsfield)."
+  },
+  "TB": {
+   "score": 7,
+   "evidence": "Strong bond after the 2019 rescue; promotion celebrated with fans at the 2026 play-off final."
+  },
+  "TS": {
+   "score": 5,
+   "evidence": "Moderate churn with several loans; captain Eoin Toal."
+  },
+  "TI": {
+   "score": 4,
+   "evidence": "Steven Schumacher in charge since January 2025; no icon."
+  },
+  "TP": {
+   "score": 7,
+   "evidence": "Energetic, front-foot side; won the 2026 League One play-off final 4-1."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bolton_Wanderers_F.C.",
+   "https://www.bwfc.co.uk/club/company-details",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://www.footballfancast.com/best-atmospheres-fans-stadiums-efl-championship-ranked-2026/"
+  ]
+ },
+ {
+  "name": "Bristol City",
+  "CG": {
+   "score": 6,
+   "evidence": "Ashton Gate, home since 1904, redeveloped 2015-16 (~27,000) with safe standing; good sightlines, modern feel."
+  },
+  "CL": {
+   "score": 5,
+   "evidence": "Can generate noise, rarely sustained; ranked 17th of 24 in a 2026 atmosphere ranking."
+  },
+  "CY": {
+   "score": 6,
+   "evidence": "Steady crowds through lower-division spells; 24,151 average in 2026-27."
+  },
+  "CA": {
+   "score": 5,
+   "evidence": "Average away following."
+  },
+  "VC": {
+   "score": 6,
+   "evidence": "Bristol City Community Trust runs standard programmes."
+  },
+  "VW": {
+   "score": 5,
+   "evidence": "Women in WSL2, but the women's club was majority sold to Mercury/13 in 2025."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 8,
+   "evidence": "Academy pathway into the first team (Alex Scott, Tommy Conway, Cam Pring)."
+  },
+  "VP": {
+   "score": 5,
+   "evidence": "Not among the ten cheapest season tickets in the division; prices typical for the Championship."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Standard fan advisory board; no fan board seat."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor now; Betano owner George Daskalakis is in talks for a minority stake (not completed as of September 2026)."
+  },
+  "TB": {
+   "score": 5,
+   "evidence": "Settled bond at Ashton Gate; no standout player-fan connection."
+  },
+  "TS": {
+   "score": 4,
+   "evidence": "Best players sold; three coaches in 15 months."
+  },
+  "TI": {
+   "score": 3,
+   "evidence": "Michael Skubala appointed summer 2026; no current icon."
+  },
+  "TP": {
+   "score": 7,
+   "evidence": "Skubala built an intense, front-foot 103-point title side at Lincoln; Struber before him also pressed."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bristol_City_F.C.",
+   "https://www.bristolworld.com/sport/football/bristol-city/bristol-city-takeover-tom-rawcliffe-turki-alalshikh-5363815",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://www.footballfancast.com/best-atmospheres-fans-stadiums-efl-championship-ranked-2026/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Women's_Super_League_2"
+  ]
+ },
+ {
+  "name": "Burnley",
+  "CG": {
+   "score": 8,
+   "evidence": "Turf Moor, used since 1883 (~21,900), a classic tight traditional ground."
+  },
+  "CL": {
+   "score": 6,
+   "evidence": "Good noise when the team does well; ranked mid-table (15th) for atmosphere in one 2026 ranking."
+  },
+  "CY": {
+   "score": 8,
+   "evidence": "About 20,000 from a town of ~78,000, one of England's best-supported clubs per head, through several relegations."
+  },
+  "CA": {
+   "score": 6,
+   "evidence": "Solid away following for the town's size."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Burnley FC in the Community is a well-regarded trust."
+  },
+  "VW": {
+   "score": 7,
+   "evidence": "Women won the 2025-26 National League North and were promoted to WSL2."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or political identity."
+  },
+  "VA": {
+   "score": 4,
+   "evidence": "Few academy players in the first team; squad built by loans and signings."
+  },
+  "VP": {
+   "score": 7,
+   "evidence": "Cheapest adult season ticket £362, 8th cheapest in the Championship."
+  },
+  "VF": {
+   "score": 4,
+   "evidence": "Standard fan advisory board; supporter concern over leveraged ownership."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor in 2026-27 (shirt Vertu)."
+  },
+  "TB": {
+   "score": 4,
+   "evidence": "Bond strained by a 22-point relegation season in 2025-26."
+  },
+  "TS": {
+   "score": 3,
+   "evidence": "Very high churn across three promotion/relegation swings; captain Josh Cullen since 2022."
+  },
+  "TI": {
+   "score": 2,
+   "evidence": "Nicky Hayen appointed July 2026; no icon (Vardy on a one-season deal)."
+  },
+  "TP": {
+   "score": 5,
+   "evidence": "No lasting pressing identity; Parker's side was defensive."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Burnley_F.C.",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://www.footballfancast.com/best-atmospheres-fans-stadiums-efl-championship-ranked-2026/",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_FA_Women%27s_National_League"
+  ]
+ },
+ {
+  "name": "Cardiff City",
+  "CG": {
+   "score": 5,
+   "evidence": "Cardiff City Stadium (2009) is a modern single-club ground that replaced Ninian Park."
+  },
+  "CL": {
+   "score": 7,
+   "evidence": "Passionate, loud support with a strong Welsh identity."
+  },
+  "CY": {
+   "score": 8,
+   "evidence": "Crowds held through the 2025 relegation to League One; 26,229 average in 2026-27 despite long protests against the owner."
+  },
+  "CA": {
+   "score": 7,
+   "evidence": "Strong, loud away following."
+  },
+  "VC": {
+   "score": 6,
+   "evidence": "Cardiff City FC Foundation runs local programmes."
+  },
+  "VW": {
+   "score": 7,
+   "evidence": "Cardiff City Women are a leading Adran Premier side (champions before Wrexham won in 2025-26)."
+  },
+  "VI": {
+   "score": 7,
+   "evidence": "Welsh capital identity; fans forced reversal of the owner's 2012-15 red rebrand."
+  },
+  "VA": {
+   "score": 8,
+   "evidence": "Welsh academy core in the first team (Rubin and Joel Colwill, Isaak Davies)."
+  },
+  "VP": {
+   "score": 8,
+   "evidence": "Cheapest adult season ticket £344, joint 6th cheapest in the Championship."
+  },
+  "VF": {
+   "score": 4,
+   "evidence": "Owner Vincent Tan passed 1,000 days without attending a match; fans' calls for change ignored."
+  },
+  "Vneg": {
+   "points": -1,
+   "evidence": "Shirt sponsor Visit Malaysia is a Malaysian government tourism board linked to the owner (partly free state, small deduction)."
+  },
+  "TB": {
+   "score": 6,
+   "evidence": "Young, local squad; bond recovering after the Tan-era rows."
+  },
+  "TS": {
+   "score": 5,
+   "evidence": "Homegrown core gives continuity, some churn after promotion."
+  },
+  "TI": {
+   "score": 4,
+   "evidence": "Brian Barry-Murphy since 2025; no icon."
+  },
+  "TP": {
+   "score": 5,
+   "evidence": "Possession identity more than pressing."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cardiff_City_F.C.",
+   "https://sports.yahoo.com/articles/tans-1-000-days-without-035317993.html",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances"
+  ]
+ },
+ {
+  "name": "Charlton Athletic",
+  "CG": {
+   "score": 7,
+   "evidence": "The Valley (~27,100), a traditional ground fans fought to return to."
+  },
+  "CL": {
+   "score": 5,
+   "evidence": "Atmosphere varies with results; ranked 18th in a 2026 atmosphere ranking."
+  },
+  "CY": {
+   "score": 9,
+   "evidence": "Fans fought the 1985-92 exile (Valley Party won 11% in 1990 local elections) and protested Duchâtelet's ownership."
+  },
+  "CA": {
+   "score": 6,
+   "evidence": "Decent away following."
+  },
+  "VC": {
+   "score": 8,
+   "evidence": "Charlton Athletic Community Trust is well regarded."
+  },
+  "VW": {
+   "score": 8,
+   "evidence": "Women promoted to the 14-team WSL for 2026-27 via play-off."
+  },
+  "VI": {
+   "score": 8,
+   "evidence": "Long-standing anti-racism work (Red, White and Black) and a history of fan activism."
+  },
+  "VA": {
+   "score": 6,
+   "evidence": "Historically strong academy (Lookman, Aribo), fewer graduates in the current first team."
+  },
+  "VP": {
+   "score": 7,
+   "evidence": "Cheapest adult season ticket £380, 9th cheapest in the Championship."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Standard fan advisory board; owners exploring a sale."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (shirt RSK Group, sleeve Christopher Ward)."
+  },
+  "TB": {
+   "score": 6,
+   "evidence": "Good bond at The Valley after the 2025 play-off win."
+  },
+  "TS": {
+   "score": 4,
+   "evidence": "Moderate-to-high churn; captain Lloyd Jones."
+  },
+  "TI": {
+   "score": 4,
+   "evidence": "Nathan Jones since February 2024; no icon."
+  },
+  "TP": {
+   "score": 5,
+   "evidence": "Direct, organised, physical side."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Charlton_Athletic_F.C.",
+   "https://www.insideworldfootball.com/2026/08/04/charlton-for-sale-as-global-football-partners-eye-exit",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Women's_Super_League_2"
+  ]
+ },
+ {
+  "name": "Derby County",
+  "CG": {
+   "score": 5,
+   "evidence": "Pride Park (1997) is a modern bowl."
+  },
+  "CL": {
+   "score": 7,
+   "evidence": "Loud, loyal support; big home crowds."
+  },
+  "CY": {
+   "score": 9,
+   "evidence": "Averaged 27,278 in League One in 2023-24 after administration and a 21-point deduction; never below 23,000 since 1997."
+  },
+  "CA": {
+   "score": 8,
+   "evidence": "Large away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Derby County Community Trust is active."
+  },
+  "VW": {
+   "score": 5,
+   "evidence": "Women play in the National League North (8th in 2025-26)."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 6,
+   "evidence": "Some academy graduates break through; a squad built on signings."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Not among the ten cheapest season tickets; typical Championship prices."
+  },
+  "VF": {
+   "score": 8,
+   "evidence": "Supporters' Board (since 2024) meets the owner and holds a veto on leaving Pride Park or changing colours."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor found (shirt Loaded, sleeve Tonic Health)."
+  },
+  "TB": {
+   "score": 6,
+   "evidence": "Bond built through the administration years."
+  },
+  "TS": {
+   "score": 4,
+   "evidence": "Big squad turnover since the 2024 promotion; captain Lewis Travis."
+  },
+  "TI": {
+   "score": 3,
+   "evidence": "John Eustace since February 2025; no icon."
+  },
+  "TP": {
+   "score": 5,
+   "evidence": "Organised, pragmatic, hard-working side."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Derby_County_F.C.",
+   "https://www.dcfc.co.uk/news/2026/06/supporters-board-june-2026-meeting-notes",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_FA_Women%27s_National_League"
+  ]
+ },
+ {
+  "name": "Lincoln City",
+  "CG": {
+   "score": 6,
+   "evidence": "Sincil Bank (now ProAmpac Stadium), home since 1895 (~10,000), compact and traditional."
+  },
+  "CL": {
+   "score": 7,
+   "evidence": "Loud, full home crowd."
+  },
+  "CY": {
+   "score": 8,
+   "evidence": "Crowd stayed through six non-league seasons (2011-17) and grew into regular sell-outs."
+  },
+  "CA": {
+   "score": 6,
+   "evidence": "Good away following for a small club."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Red Imps Community Trust and club community work are prominent."
+  },
+  "VW": {
+   "score": 3,
+   "evidence": "Women's side plays in the lower pyramid; no notable investment found (not verified)."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 4,
+   "evidence": "Squad built on loans from Premier League clubs and data-led signings."
+  },
+  "VP": {
+   "score": 10,
+   "evidence": "Cheapest adult season ticket in the Championship: £273 (£11.87 a match)."
+  },
+  "VF": {
+   "score": 8,
+   "evidence": "Red Imps Community Trust holds just over 8% and is represented on both boards."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (Branston / Nanna Tate)."
+  },
+  "TB": {
+   "score": 7,
+   "evidence": "Close community club; humble squad celebrated a record title with fans."
+  },
+  "TS": {
+   "score": 5,
+   "evidence": "Continuity via in-house coaches, but many loans."
+  },
+  "TI": {
+   "score": 4,
+   "evidence": "Joint heads Chris Cohen and Tom Shaw promoted from Skubala's staff in 2026; no icon."
+  },
+  "TP": {
+   "score": 8,
+   "evidence": "Intense, front-foot style: club-record 103 points in 2025-26."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.weareimps.com/news/ron-takes-over-imps-chairman",
+   "https://en.wikipedia.org/wiki/Lincoln_City_F.C.",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances"
+  ]
+ },
+ {
+  "name": "Middlesbrough",
+  "CG": {
+   "score": 5,
+   "evidence": "Riverside Stadium (1995), a modern bowl."
+  },
+  "CL": {
+   "score": 6,
+   "evidence": "Red Faction singing group; good noise when the team is high in the table."
+  },
+  "CY": {
+   "score": 7,
+   "evidence": "Club saved from liquidation in 1986; crowds rising to 30,529 in 2026-27."
+  },
+  "CA": {
+   "score": 6,
+   "evidence": "Reasonable away following; praised by UEFA for conduct in 2005-06."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "MFC Foundation runs substantial local programmes."
+  },
+  "VW": {
+   "score": 5,
+   "evidence": "Women promoted to the National League North in 2025-26; affiliated with the club since 2023."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 7,
+   "evidence": "Historically productive academy; Hackney and others in the first team."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Not among the ten cheapest; typical Championship prices."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Standard fan advisory board."
+  },
+  "Vneg": {
+   "points": -2,
+   "evidence": "Midnite (sports betting) is front-of-shirt sponsor in 2026-27."
+  },
+  "TB": {
+   "score": 6,
+   "evidence": "Good bond with a rising home crowd."
+  },
+  "TS": {
+   "score": 4,
+   "evidence": "Three coaches in 18 months and heavy churn."
+  },
+  "TI": {
+   "score": 3,
+   "evidence": "Kim Hellberg since November 2025; no icon."
+  },
+  "TP": {
+   "score": 7,
+   "evidence": "Energetic, front-foot possession; 5th in 2025-26."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Middlesbrough_F.C.",
+   "https://www.scoreandchange.com/championship-sponsors/",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_FA_Women%27s_National_League"
+  ]
+ },
+ {
+  "name": "Millwall",
+  "CG": {
+   "score": 7,
+   "evidence": "The Den (1993, ~20,100): modern but compact and intimidating."
+  },
+  "CL": {
+   "score": 8,
+   "evidence": "One of the loudest grounds in the EFL, ranked in the top three."
+  },
+  "CY": {
+   "score": 8,
+   "evidence": "Fiercely loyal local support; 2025-26 average 17,135 was the highest since 1952-53."
+  },
+  "CA": {
+   "score": 7,
+   "evidence": "Strong away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Millwall Community Trust is well regarded."
+  },
+  "VW": {
+   "score": 3,
+   "evidence": "Millwall Lionesses play in a regional league; club increased support in February 2026 (games at The Den)."
+  },
+  "VI": {
+   "score": 3,
+   "evidence": "'No one likes us' identity; repeated discriminatory chanting weighs against despite club condemnation."
+  },
+  "VA": {
+   "score": 5,
+   "evidence": "Some academy graduates; squad mainly built on signings."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Typical Championship prices (not verified in the ranking)."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Standard fan advisory board."
+  },
+  "Vneg": {
+   "points": -2,
+   "evidence": "FA fined the club £45,000 (2026) for disability-discriminatory chanting at Crystal Palace, then charged it in March 2026 over chants at Charlton; third breach in three years."
+  },
+  "TB": {
+   "score": 9,
+   "evidence": "Players celebrate in front of the Dockers' stand; one of the closest bonds in the league."
+  },
+  "TS": {
+   "score": 7,
+   "evidence": "Moderate churn, no star culture; long-serving core."
+  },
+  "TI": {
+   "score": 7,
+   "evidence": "Captain Jake Cooper (since 2017, 400+ appearances) is the icon."
+  },
+  "TP": {
+   "score": 8,
+   "evidence": "Hard-running, physical side; record second-tier points in 2025-26."
+  },
+  "incidents": [
+   {
+    "type": "racism",
+    "last_year": 2026,
+    "ongoing": true,
+    "evidence": "FA charge (March 2026) for discriminatory chants about disability and sexual orientation at Charlton, 24 January 2026, after a £45,000 fine for chants at Crystal Palace (Sept 2025); third breach in three years."
+   }
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Millwall_F.C.",
+   "https://www.millwallfc.co.uk/news/2026/march/09/club-statement--charge-for-breach-of-fa-rule-e21/",
+   "https://www.millwallfc.co.uk/news/2026/february/20/club-statement--millwall-lionesses/",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://www.footballfancast.com/best-atmospheres-fans-stadiums-efl-championship-ranked-2026/"
+  ]
+ },
+ {
+  "name": "Norwich City",
+  "CG": {
+   "score": 6,
+   "evidence": "Carrow Road (1935, ~27,000), redeveloped; mixed character."
+  },
+  "CL": {
+   "score": 6,
+   "evidence": "'On the Ball, City' tradition; good but not elite noise."
+  },
+  "CY": {
+   "score": 7,
+   "evidence": "Near-full crowds through relegations; 25,936 in 2026-27."
+  },
+  "CA": {
+   "score": 6,
+   "evidence": "Solid away following for a regional club."
+  },
+  "VC": {
+   "score": 8,
+   "evidence": "Community Sports Foundation is among the most extensive in the EFL."
+  },
+  "VW": {
+   "score": 4,
+   "evidence": "Women in the fourth tier (Division One South East play-offs in 2025-26)."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or political identity."
+  },
+  "VA": {
+   "score": 8,
+   "evidence": "Category One academy with a first-team pathway."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Not among the ten cheapest; typical Championship prices."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Delia Smith and Michael Wynn-Jones keep ~10% as honorary presidents; standard fan advisory board."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (shirt Blakely)."
+  },
+  "TB": {
+   "score": 5,
+   "evidence": "Decent bond; no standout connection."
+  },
+  "TS": {
+   "score": 4,
+   "evidence": "High churn and regular sales."
+  },
+  "TI": {
+   "score": 5,
+   "evidence": "Captain Kenny McLean, at the club since 2018, is the nearest thing to an icon."
+  },
+  "TP": {
+   "score": 6,
+   "evidence": "Philippe Clement (since Nov 2025) brings a more aggressive pressing approach."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.pinkun.com/sport/norwich-city/24978326.norwich-city-mark-attanasio-completes-delia-smith-takeover/",
+   "https://en.wikipedia.org/wiki/Norwich_City_F.C.",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_FA_Women%27s_National_League"
+  ]
+ },
+ {
+  "name": "Portsmouth",
+  "CG": {
+   "score": 8,
+   "evidence": "Fratton Park, home since 1898, redeveloped to ~21,000 in 2024; old-school ground."
+  },
+  "CL": {
+   "score": 8,
+   "evidence": "Loud, full home crowds."
+  },
+  "CY": {
+   "score": 10,
+   "evidence": "Support held through two administrations and a drop to League Two; fans bought the club in 2013."
+  },
+  "CA": {
+   "score": 8,
+   "evidence": "Big away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Pompey in the Community is active."
+  },
+  "VW": {
+   "score": 4,
+   "evidence": "Women's side in the lower National League; no notable investment found (not verified)."
+  },
+  "VI": {
+   "score": 6,
+   "evidence": "Fan-ownership heritage; no political identity."
+  },
+  "VA": {
+   "score": 5,
+   "evidence": "Some academy graduates; squad mainly signings."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Typical prices (not verified in the ranking)."
+  },
+  "VF": {
+   "score": 6,
+   "evidence": "Pompey Supporters' Trust kept three seats on the Heritage and Advisory Board after the 2017 sale."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (shirt University of Portsmouth)."
+  },
+  "TB": {
+   "score": 8,
+   "evidence": "Very strong bond at Fratton Park."
+  },
+  "TS": {
+   "score": 7,
+   "evidence": "Stable, humble squad under a long-serving coach."
+  },
+  "TI": {
+   "score": 8,
+   "evidence": "Captain Marlon Pack (Portsmouth-born fan) and John Mousinho (since January 2023)."
+  },
+  "TP": {
+   "score": 6,
+   "evidence": "Organised, hard-working mid-block."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Portsmouth_F.C.",
+   "https://en.wikipedia.org/wiki/Pompey_Supporters_Trust",
+   "https://footballgroundguide.com/news/championship-attendances"
+  ]
+ },
+ {
+  "name": "Preston North End",
+  "CG": {
+   "score": 8,
+   "evidence": "Deepdale, used since 1875, the oldest ground in continuous use by a league club."
+  },
+  "CL": {
+   "score": 4,
+   "evidence": "Traditional, respectful support; ranked 16th for atmosphere."
+  },
+  "CY": {
+   "score": 5,
+   "evidence": "Steady but modest crowds; 17,338 in 2026-27."
+  },
+  "CA": {
+   "score": 4,
+   "evidence": "Modest away following."
+  },
+  "VC": {
+   "score": 6,
+   "evidence": "Community & Education Trust runs standard programmes."
+  },
+  "VW": {
+   "score": 3,
+   "evidence": "Women's side in the lower pyramid; no notable investment found (not verified)."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 5,
+   "evidence": "Some academy graduates; long-serving homegrown players left in recent seasons."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Typical Championship prices."
+  },
+  "VF": {
+   "score": 4,
+   "evidence": "Standard fan advisory board only."
+  },
+  "Vneg": {
+   "points": -2,
+   "evidence": "Club stayed 'fully supportive' of Milutin Osmajić after an FA commission found he racially abused Hannibal Mejbri (Nov 2025); he was sold in August 2026."
+  },
+  "TB": {
+   "score": 4,
+   "evidence": "Muted bond."
+  },
+  "TS": {
+   "score": 3,
+   "evidence": "Long-serving servants have left; moderate churn."
+  },
+  "TI": {
+   "score": 2,
+   "evidence": "Heckingbottom left September 2026; Jason Euell interim."
+  },
+  "TP": {
+   "score": 4,
+   "evidence": "Mid-table pragmatism."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Preston_North_End_F.C.",
+   "https://www.itv.com/news/granada/2025-11-07/preston-extremely-disappointed-over-nine-match-ban-for-alleged-racist-abuse",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://www.footballfancast.com/best-atmospheres-fans-stadiums-efl-championship-ranked-2026/"
+  ]
+ },
+ {
+  "name": "Queens Park Rangers",
+  "CG": {
+   "score": 7,
+   "evidence": "Loftus Road (1917, ~18,400), compact and traditional."
+  },
+  "CL": {
+   "score": 5,
+   "evidence": "Can be loud when engaged; ranked 21st in a 2026 ranking."
+  },
+  "CY": {
+   "score": 6,
+   "evidence": "Steady crowds of about 16,500 through years of struggle."
+  },
+  "CA": {
+   "score": 4,
+   "evidence": "Modest away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "QPR in the Community Trust is well regarded, including its Grenfell response."
+  },
+  "VW": {
+   "score": 4,
+   "evidence": "Women's team in the lower pyramid (not verified)."
+  },
+  "VI": {
+   "score": 6,
+   "evidence": "Visible community role in west London after Grenfell."
+  },
+  "VA": {
+   "score": 6,
+   "evidence": "Some academy players in the first team."
+  },
+  "VP": {
+   "score": 9,
+   "evidence": "Cheapest adult season ticket £275, 2nd cheapest in the Championship."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Standard fan advisory board."
+  },
+  "Vneg": {
+   "points": -1,
+   "evidence": "Shirt sponsor MrQ is an online bingo/casino brand (not sports betting), partial deduction."
+  },
+  "TB": {
+   "score": 5,
+   "evidence": "Decent bond in a small ground."
+  },
+  "TS": {
+   "score": 5,
+   "evidence": "Moderate churn on a tight budget; captain Jimmy Dunne."
+  },
+  "TI": {
+   "score": 3,
+   "evidence": "Julien Stéphan since 2025; no icon."
+  },
+  "TP": {
+   "score": 5,
+   "evidence": "Possession-based, mid-table."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://www.footballfancast.com/best-atmospheres-fans-stadiums-efl-championship-ranked-2026/"
+  ]
+ },
+ {
+  "name": "Sheffield United",
+  "CG": {
+   "score": 9,
+   "evidence": "Bramall Lane (since 1855), the oldest major stadium still hosting professional football."
+  },
+  "CL": {
+   "score": 8,
+   "evidence": "Loud Kop, fierce Steel City derby."
+  },
+  "CY": {
+   "score": 8,
+   "evidence": "Near-full crowds through third-tier spells; 26,639 in 2026-27 amid ownership turmoil."
+  },
+  "CA": {
+   "score": 8,
+   "evidence": "Large away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Sheffield United Community Foundation is active."
+  },
+  "VW": {
+   "score": 4,
+   "evidence": "Women in WSL2, but the club's handling of the Maddy Cusack case was criticised."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 6,
+   "evidence": "Academy history (Walker, Maguire); some graduates now."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Typical Championship prices."
+  },
+  "VF": {
+   "score": 4,
+   "evidence": "Standard fan advisory board; ownership in flux."
+  },
+  "Vneg": {
+   "points": -3,
+   "evidence": "Midnite (sports betting) front-of-shirt sponsor 2026-27 (-2); club's own Cusack inquiry found no wrongdoing and was criticised (-1)."
+  },
+  "TB": {
+   "score": 6,
+   "evidence": "Good bond under Wilder."
+  },
+  "TS": {
+   "score": 3,
+   "evidence": "Very high churn with owner changes and sales."
+  },
+  "TI": {
+   "score": 8,
+   "evidence": "Chris Wilder, Sheffield-born fan in his third spell, defines the club."
+  },
+  "TP": {
+   "score": 7,
+   "evidence": "Overlapping centre-backs, high energy."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.yorkshirepost.co.uk/sport/football/sheffield-united/steve-rosen-confident-sheffield-united-will-not-be-deducted-points-as-they-look-at-free-agent-signing-8961268",
+   "https://en.wikipedia.org/wiki/Sheffield_United_F.C.",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Women's_Super_League_2"
+  ]
+ },
+ {
+  "name": "Southampton",
+  "CG": {
+   "score": 6,
+   "evidence": "St Mary's (2001, ~32,400), modern with good sightlines."
+  },
+  "CL": {
+   "score": 6,
+   "evidence": "Good atmosphere rather than elite."
+  },
+  "CY": {
+   "score": 6,
+   "evidence": "Well filled after relegation (29,176 in 2026-27)."
+  },
+  "CA": {
+   "score": 6,
+   "evidence": "Good away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Saints Foundation is active."
+  },
+  "VW": {
+   "score": 6,
+   "evidence": "Women in WSL2."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 9,
+   "evidence": "One of England's most influential academies (Bale, Walcott, Shaw, Ward-Prowse)."
+  },
+  "VP": {
+   "score": 5,
+   "evidence": "Typical prices."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Standard fan advisory board."
+  },
+  "Vneg": {
+   "points": -1,
+   "evidence": "Club admitted spying on three opponents' training (2026 Spygate), expelled from the play-off final."
+  },
+  "TB": {
+   "score": 4,
+   "evidence": "Bond strained by the 2024-25 collapse."
+  },
+  "TS": {
+   "score": 3,
+   "evidence": "Very high churn under the Sport Republic model."
+  },
+  "TI": {
+   "score": 4,
+   "evidence": "Jack Stephens (since 2011) is long-serving but not an icon; Eckert since 2025."
+  },
+  "TP": {
+   "score": 7,
+   "evidence": "Aggressive, front-foot side under Eckert."
+  },
+  "incidents": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.skysports.com/football/news/13545415/southampton-expelled-from-championship-play-offs-over-spygate-with-middlesbrough-reinstated",
+   "https://en.wikipedia.org/wiki/Southampton_F.C.",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Women's_Super_League_2"
+  ]
+ },
+ {
+  "name": "Stoke City",
+  "CG": {
+   "score": 5,
+   "evidence": "bet365 Stadium (1997, ~30,100), out-of-town bowl after 119 years at the Victoria Ground."
+  },
+  "CL": {
+   "score": 7,
+   "evidence": "Reputation for a loud crowd and the 'Delilah' anthem."
+  },
+  "CY": {
+   "score": 7,
+   "evidence": "Low-to-mid 20,000s through poor seasons (21,848 in 2026-27)."
+  },
+  "CA": {
+   "score": 7,
+   "evidence": "Good, loud away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Stoke City Community Trust is active."
+  },
+  "VW": {
+   "score": 5,
+   "evidence": "Women 4th in the National League North in 2025-26."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 5,
+   "evidence": "Some academy players; repeated rebuilds."
+  },
+  "VP": {
+   "score": 8,
+   "evidence": "Cheapest adult season ticket £344, joint 6th cheapest; free coach travel to away games historically."
+  },
+  "VF": {
+   "score": 4,
+   "evidence": "Standard fan advisory board."
+  },
+  "Vneg": {
+   "points": -4,
+   "evidence": "Club owned by the Coates family, owners of bet365, which is shirt and stadium sponsor since 2012."
+  },
+  "TB": {
+   "score": 4,
+   "evidence": "Bond weakened by repeated poor seasons."
+  },
+  "TS": {
+   "score": 3,
+   "evidence": "Several coaches in three seasons, repeated rebuilds."
+  },
+  "TI": {
+   "score": 2,
+   "evidence": "Mark Robins since January 2025, under pressure; no icon."
+  },
+  "TP": {
+   "score": 4,
+   "evidence": "Pragmatic, low-possession football."
+  },
+  "incidents": [],
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stoke_City_F.C.",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_FA_Women%27s_National_League"
+  ]
+ },
+ {
+  "name": "Swansea City",
+  "CG": {
+   "score": 5,
+   "evidence": "Swansea.com Stadium (2005), modern and functional; left the Vetch after 93 years."
+  },
+  "CL": {
+   "score": 4,
+   "evidence": "Described as polite and quiet outside big matches (ranked 24th of 24 in 2026)."
+  },
+  "CY": {
+   "score": 7,
+   "evidence": "Fans saved the club in 2001-02 when it nearly dropped out of the league."
+  },
+  "CA": {
+   "score": 5,
+   "evidence": "Average away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Swans Community Foundation is active."
+  },
+  "VW": {
+   "score": 6,
+   "evidence": "Established Adran Premier side."
+  },
+  "VI": {
+   "score": 7,
+   "evidence": "Welsh regional identity."
+  },
+  "VA": {
+   "score": 7,
+   "evidence": "Academy graduates in the first team, led by captain Ben Cabango."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Typical prices."
+  },
+  "VF": {
+   "score": 8,
+   "evidence": "Supporters' Trust holds ~7% with protected rights and board representation."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (shirt AG1)."
+  },
+  "TB": {
+   "score": 6,
+   "evidence": "Good bond in a partly community-owned club."
+  },
+  "TS": {
+   "score": 5,
+   "evidence": "Moderate churn."
+  },
+  "TI": {
+   "score": 6,
+   "evidence": "Homegrown captain Ben Cabango, long-serving."
+  },
+  "TP": {
+   "score": 7,
+   "evidence": "Vítor Matos adds intensity to the possession identity; top of the table in September 2026."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.swanstrust.co.uk/news/announcement-of-change-in-club-ownership/",
+   "https://en.wikipedia.org/wiki/Swansea_City_A.F.C.",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://www.footballfancast.com/best-atmospheres-fans-stadiums-efl-championship-ranked-2026/"
+  ]
+ },
+ {
+  "name": "Watford",
+  "CG": {
+   "score": 6,
+   "evidence": "Vicarage Road (since 1922, ~22,000), traditional but mixed."
+  },
+  "CL": {
+   "score": 4,
+   "evidence": "Support described as disengaged (22nd in a 2026 ranking)."
+  },
+  "CY": {
+   "score": 5,
+   "evidence": "Crowds around 20,000; loyal but not tested by a big collapse recently."
+  },
+  "CA": {
+   "score": 4,
+   "evidence": "Modest away following."
+  },
+  "VC": {
+   "score": 8,
+   "evidence": "Community Sports & Education Trust is highly regarded."
+  },
+  "VW": {
+   "score": 7,
+   "evidence": "Women won the 2025-26 National League South and were promoted to WSL2."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 5,
+   "evidence": "Some academy players; Pozzo model relies on transfers."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Typical prices."
+  },
+  "VF": {
+   "score": 3,
+   "evidence": "Fans report a disconnect with the owners; standard fan advisory board only."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (shirt Boxt)."
+  },
+  "TB": {
+   "score": 3,
+   "evidence": "Weak bond amid constant change."
+  },
+  "TS": {
+   "score": 2,
+   "evidence": "Very high churn, many loans, players moved around the Udinese network."
+  },
+  "TI": {
+   "score": 2,
+   "evidence": "Alessio Dionisi appointed June 2026; no icon."
+  },
+  "TP": {
+   "score": 5,
+   "evidence": "No lasting style."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Watford_F.C.",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://www.footballfancast.com/best-atmospheres-fans-stadiums-efl-championship-ranked-2026/",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Women's_Super_League_2"
+  ]
+ },
+ {
+  "name": "West Bromwich Albion",
+  "CG": {
+   "score": 7,
+   "evidence": "The Hawthorns (since 1900, ~26,700), old-school ground."
+  },
+  "CL": {
+   "score": 7,
+   "evidence": "Loud Birmingham Road End; ranked 4th loudest in one EFL ranking."
+  },
+  "CY": {
+   "score": 7,
+   "evidence": "Crowds around 23,600 in the Championship."
+  },
+  "CA": {
+   "score": 7,
+   "evidence": "Good away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Albion Foundation is active."
+  },
+  "VW": {
+   "score": 4,
+   "evidence": "Women in the lower pyramid (not verified)."
+  },
+  "VI": {
+   "score": 6,
+   "evidence": "Three Degrees legacy for Black players; anti-racism heritage."
+  },
+  "VA": {
+   "score": 6,
+   "evidence": "Some academy players."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Typical prices."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Standard fan advisory board."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (shirt Ideal Heating)."
+  },
+  "TB": {
+   "score": 6,
+   "evidence": "Bond improved by the return of club legend James Morrison as coach."
+  },
+  "TS": {
+   "score": 4,
+   "evidence": "Moderate churn; captain George Campbell."
+  },
+  "TI": {
+   "score": 6,
+   "evidence": "James Morrison (341 appearances as a player) head coach since April 2026."
+  },
+  "TP": {
+   "score": 5,
+   "evidence": "No lasting pressing identity."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.wba.co.uk/news/james-morrison-appointed-albion-head-coach",
+   "https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C.",
+   "https://footballgroundguide.com/news/championship-attendances"
+  ]
+ },
+ {
+  "name": "West Ham United",
+  "CG": {
+   "score": 2,
+   "evidence": "London Stadium, a 62,500 Olympic bowl since 2016, criticised for lacking atmosphere."
+  },
+  "CL": {
+   "score": 4,
+   "evidence": "Ranked 20th in a 2026 atmosphere ranking despite the largest crowd."
+  },
+  "CY": {
+   "score": 6,
+   "evidence": "60,689 average in the Championship despite relegation and protests."
+  },
+  "CA": {
+   "score": 7,
+   "evidence": "Large away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "West Ham Foundation is active."
+  },
+  "VW": {
+   "score": 7,
+   "evidence": "Women play in the WSL."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 7,
+   "evidence": "Historic 'Academy of Football'; fewer graduates lately."
+  },
+  "VP": {
+   "score": 8,
+   "evidence": "Cheapest adult season ticket £310, 4th cheapest in the Championship."
+  },
+  "VF": {
+   "score": 3,
+   "evidence": "Fan-board relations broken: boycotts and marches against Sullivan and Brady."
+  },
+  "Vneg": {
+   "points": -2,
+   "evidence": "BoyleSports (sports betting) front-of-shirt sponsor 2026-27."
+  },
+  "TB": {
+   "score": 4,
+   "evidence": "Relations poor after relegation."
+  },
+  "TS": {
+   "score": 3,
+   "evidence": "Reported £150m player exodus after relegation."
+  },
+  "TI": {
+   "score": 6,
+   "evidence": "Captain Jarrod Bowen stayed after relegation."
+  },
+  "TP": {
+   "score": 4,
+   "evidence": "Mostly reactive, low-possession football."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.londonworld.com/sport/football/west-ham/west-ham-brentford-protest-explained-5362318",
+   "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
+   "https://footballleagueworld.co.uk/efl-championship-clubs-season-ticket-prices-ranked/",
+   "https://footballgroundguide.com/news/championship-attendances"
+  ]
+ },
+ {
+  "name": "Wolverhampton Wanderers",
+  "CG": {
+   "score": 8,
+   "evidence": "Molineux (since 1889, ~31,700), historic ground."
+  },
+  "CL": {
+   "score": 8,
+   "evidence": "Loud South Bank."
+  },
+  "CY": {
+   "score": 8,
+   "evidence": "Fans stayed through the 1980s collapse to the fourth tier; 30,659 average in 2026-27."
+  },
+  "CA": {
+   "score": 7,
+   "evidence": "Good away following."
+  },
+  "VC": {
+   "score": 7,
+   "evidence": "Wolves Foundation is active."
+  },
+  "VW": {
+   "score": 6,
+   "evidence": "Women promoted to WSL2 via 2025-26 play-off."
+  },
+  "VI": {
+   "score": 5,
+   "evidence": "No notable causes or identity."
+  },
+  "VA": {
+   "score": 5,
+   "evidence": "Some academy players; sell-on model."
+  },
+  "VP": {
+   "score": 5,
+   "evidence": "Typical prices."
+  },
+  "VF": {
+   "score": 4,
+   "evidence": "Fans say they are treated with contempt by the owners; standard fan advisory board."
+  },
+  "Vneg": {
+   "points": -2,
+   "evidence": "Midnite (sports betting) front-of-shirt sponsor 2026-27."
+  },
+  "TB": {
+   "score": 3,
+   "evidence": "Owner-fan relations poor after relegation."
+  },
+  "TS": {
+   "score": 2,
+   "evidence": "Very high churn; sell-on model."
+  },
+  "TI": {
+   "score": 2,
+   "evidence": "César Peixoto appointed 2026; five coaches in three seasons."
+  },
+  "TP": {
+   "score": 4,
+   "evidence": "Reactive play."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
+   "https://footballgroundguide.com/news/championship-attendances",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Women's_Super_League_2"
+  ]
+ },
+ {
+  "name": "Wrexham",
+  "CG": {
+   "score": 8,
+   "evidence": "Racecourse Ground (since 1864), oldest international stadium; new Kop stand due 2027-28."
+  },
+  "CL": {
+   "score": 8,
+   "evidence": "Loud sell-out crowds."
+  },
+  "CY": {
+   "score": 9,
+   "evidence": "Loyal through 15 years in non-league and fan ownership."
+  },
+  "CA": {
+   "score": 8,
+   "evidence": "Large away following."
+  },
+  "VC": {
+   "score": 8,
+   "evidence": "Visible community work."
+  },
+  "VW": {
+   "score": 7,
+   "evidence": "Wrexham Women won the Adran Premier in 2025-26; semi-pro contracts."
+  },
+  "VI": {
+   "score": 7,
+   "evidence": "Welsh regional identity."
+  },
+  "VA": {
+   "score": 4,
+   "evidence": "Squad built mainly through signings."
+  },
+  "VP": {
+   "score": 6,
+   "evidence": "Matchday prices rose £6 for some stands in 2026-27 (adult £28-£32)."
+  },
+  "VF": {
+   "score": 5,
+   "evidence": "Supporters' trust sold control in 2021; standard fan advisory board."
+  },
+  "Vneg": {
+   "points": 0,
+   "evidence": "No betting sponsor (shirt Firefox)."
+  },
+  "TB": {
+   "score": 8,
+   "evidence": "Very visible player-fan and community bond."
+  },
+  "TS": {
+   "score": 4,
+   "evidence": "Heavy churn (11 signings in 2025, 7 more in 2026)."
+  },
+  "TI": {
+   "score": 8,
+   "evidence": "Phil Parkinson (since July 2019) is the defining coach."
+  },
+  "TP": {
+   "score": 6,
+   "evidence": "Direct, physical, high-energy side."
+  },
+  "incidents": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.wrexhamafc.co.uk/news/2026/june/10/squad-news---ten-players-sign-new-deals/",
+   "https://footballgroundguide.com/news/wrexham-announce-ticket-price-rises-for-2026-27-championship-season.html",
+   "https://footballgroundguide.com/news/championship-attendances"
+  ]
+ }
+]

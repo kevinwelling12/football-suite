@@ -110,3 +110,17 @@ Track record reference and "what you can follow" (2026-09-29):
   "Your leagues" (Premier League, Bundesliga, MLS, NWSL, USL Championship) and "Meets your clubs" (only in the Champions
   League or Carabao Cup), with an "In your competitions" filter. The tags never change the score (tested: adding
   points for them lowered the gut-rating fit).
+
+Cascadia decider (2026-09-30; scripts/affinity/research/cascadia: sourced dossier, questionnaire, answers):
+Portland vs Seattle, weighted head-to-head on 14 dimensions: Portland +8 (of +/-100). Portland on ground, sponsors,
+direction, owner conduct, history; Seattle on fan voice, academy, community, stability, women's link, coach, record;
+supporters even. Gut: Portland; switching would not feel like betrayal. Applied: Timbers Ownership 5->6; Sounders
+Culture 9->8, History 8->7, Ownership 6->5. Neutral (no rival penalty): Timbers 82.4, Sounders 81.6.
+Rules from it, for the whole engine (next re-rate):
+- Sharing an NFL stadium counts a little (the existing -1 Culture rule stands).
+- Owner misconduct with consequences and no repeat counts about half.
+- A casino sponsor with a sportsbook inside counts partly (as the casino rule: half a sportsbook).
+- Announced plans (stadium move, ownership change) count now, fully.
+- Formal fan power (e.g. a vote on the GM) matters some.
+- A women's team majority-owned by private equity but run by the club is better than none.
+- A long-serving coach matters more than the style of play.

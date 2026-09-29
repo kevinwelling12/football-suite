@@ -684,5 +684,3 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 @media (max-width:430px){.regions button,.topbar .topbar-regions button{font-size:14px;padding-left:1px;padding-right:1px;letter-spacing:-.01em}.nav-live .live-dot{margin-right:3px;width:7px;height:7px}}
 @media (max-width:380px){.regions button,.topbar .topbar-regions button{font-size:13px}}
 .regions{overflow-x:auto;scrollbar-width:none}.regions::-webkit-scrollbar{display:none}
-.hb-parts{margin:-3px 0 4px;font-size:12px;color:var(--muted);line-height:1.5}
-.hb-parts b{color:var(--ink);font-weight:650}.hb-parts b.neg{color:#FF453A}

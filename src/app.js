@@ -969,9 +969,6 @@ function openDetail(k, id) {
 }
 
 
-// Round-5 parts behind Culture, Values and Team (weights in scripts/affinity/subweights.py).
-const PARTS = { C: [['CG', 'Ground'], ['CY', 'Loyal'], ['CL', 'Loud'], ['CA', 'Away']], V: [['VC', 'Community'], ['VW', "Women's team"], ['VI', 'Causes'], ['VA', 'Academy'], ['VP', 'Prices'], ['VF', 'Fan voice']],
-  S: [['TB', 'Bond'], ['TS', 'Stable'], ['TI', 'Icon'], ['TP', 'Pressing']] };
 const FACTORS = [['Values', 'V', 26], ['Culture', 'C', 23], ['History', 'H', 16], ['Team', 'S', 15], ['Ownership', 'O', 10]];
 function affBreakdown(k, t) {
   const h = t.hai, fs = FACTORS.reduce((s, [, key, w]) => s + w * h[key], 0) / 90 * 10;
@@ -986,7 +983,7 @@ function affBreakdown(k, t) {
   if (h.assoc) sum.push(`${h.assoc < 0 ? '−' : '+'} ${Math.abs(h.assoc)} association`);
   if (fs * (h.k ?? 1) + h.adj + (h.usTot || 0) + (h.assoc || 0) > 100) sum.push('(capped at 100)');
   return `<h4 style="margin-top:18px">Affinity ${affOf(t).toFixed(1)}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
-    ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${h[key]}</b></div>${h.parts && PARTS[key] ? `<div class="hb-parts">${PARTS[key].map(([pk, pl]) => `${pl} <b class="num">${h.parts[pk]}</b>`).join(' · ')}${key === 'V' && h.parts.Vneg ? ` · Deductions <b class="num neg">${signed(h.parts.Vneg)}</b>` : ''}</div>` : ''}`).join('')}
+    ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${h[key]}</b></div>`).join('')}
     ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>
       <p class="hb-note">Last 10 league seasons, oldest to newest, recent ones counting most.</p>` : ''}
     ${h.adj ? `<div class="hb hb-adj"><span>Adjustments</span><span>${esc(h.note)}</span><b class="num ${h.adj < 0 ? 'neg' : ''}">${signed(h.adj)}</b></div>` : h.note ? `<p class="hb-note">${esc(h.note)}</p>` : ''}

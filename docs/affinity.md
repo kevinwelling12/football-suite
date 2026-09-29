@@ -101,7 +101,3 @@ Quiz round 5 "The Blind Draw II" (2026-09-29; scripts/affinity/quiz5, findings i
   (MK Dons -6, RB Leipzig -4, NC Courage -4).
 - For the next re-rate (needs research, not applied): sub-weights inside the factors and decay of old incidents
   (see BRIEF.md, "Round 5 sub-weights").
-
-Re-rate with round-5 sub-weights (2026-09-29; research/out5, RERATE5_BRIEF.md; scripts/affinity/subweights.py -> sub5.json):
-- Culture, Values and Team rebuilt from 14 parts (+ a Values deduction), mapped onto the old scale, blended 50/50 with
-  the old scores. Club cards list the parts. Incident fade (5+ years, not ongoing: half) found no qualifying case.

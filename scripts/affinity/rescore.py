@@ -22,8 +22,6 @@ W = {'C': .23, 'V': .26, 'H': .16, 'O': .10, 'S': .15}  # S = Team (was Style of
 HOMETOWN = 'Sacramento Republic FC'
 p = root / 'data' / 'suite_data.json'; D = json.loads(p.read_text())
 PERF = perf.load()
-sp = root / 'scripts' / 'affinity' / 'sub5.json'
-SUB = json.loads(sp.read_text()) if sp.exists() else {}
 comps = {}
 for key, comp in D.items():
     for t in comp['teams']: comps.setdefault(t['name'], []).append(key)
@@ -34,10 +32,7 @@ for key, comp in D.items():
     for t in comp['teams']:
         if t['name'] in S:
             C, V, H, O, St, adj, note = S[t['name']]
-            if t['name'] in SUB:  # round-5 re-rate: Culture, Values, Team from their parts (subweights.py)
-                x = SUB[t['name']]; C, V, St, adj, note = x['C'], x['V'], x['S'], x['adj'], x['note']
             t['hai'] = dict(C=C, V=V, H=H, O=O, S=St, adj=adj, note=note)
-            if t['name'] in SUB: t['hai']['parts'] = SUB[t['name']]['parts']
             k = 1.0
             if key != 'unl' and t['name'] in TR:
                 P, xs = TR[t['name']]; k = perf.coef(P)

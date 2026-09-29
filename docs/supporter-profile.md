@@ -160,3 +160,15 @@ Findings:
 - Women's game: the quick sort pulled strongly ("Women's team sells out" +1.21), the opposite of round 4's single
   item. No change.
 Result: hold-out fit on the round-5 clubs 0.632 -> 0.677; round-4 clubs unchanged at 0.83.
+
+# Round 6: This or That (2026-09-29)
+
+90 rapid-fire picks (scripts/affinity/quiz6; median 2.6 s). Traits ranked (34 paired comparisons): anti-racist stance,
+community work, women's team, defining coach, player-fan bond, long-serving captain, history, then winning; crowd traits,
+a recent trophy, pressing, fan ownership, cheap tickets and distance lowest. Real clubs head to head (pairs within 8
+Affinity points): 15/36 matched the model; EFL clubs won 18 of 26, continental clubs 4 of 20.
+Kevin's explanation: bandwidth. Following a club needs familiarity with its competitions, which is why he follows
+Liverpool, Dortmund, the Timbers/Thorns and Republic (Premier League, Bundesliga, Champions League, MLS, NWSL, USL and
+their cups). For global clubs he wants tier 1, mid-table or better regularly, with occasional title, cup and
+Champions League runs; lower-tier interest is regional (Sacramento, Portland). The "anonymous" clubs were often
+recognisable from context, so the gut ratings are not strictly blind.

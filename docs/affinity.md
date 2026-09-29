@@ -101,3 +101,12 @@ Quiz round 5 "The Blind Draw II" (2026-09-29; scripts/affinity/quiz5, findings i
   (MK Dons -6, RB Leipzig -4, NC Courage -4).
 - For the next re-rate (needs research, not applied): sub-weights inside the factors and decay of old incidents
   (see BRIEF.md, "Round 5 sub-weights").
+
+Track record reference and "what you can follow" (2026-09-29):
+- Track record: clubs outside North America are judged against the top flight (Kevin: "tier 1, mid-table or higher
+  regularly, with occasional runs at championships, cups and Champions League-type competitions"). Lower-tier football
+  counts only regionally, so USL Championship clubs keep their own tier. League One/Two clubs dropped 12-16 points.
+- Bandwidth is not Affinity: following a club needs context of its competitions. The ranking and Affinity tabs tag
+  "Your leagues" (Premier League, Bundesliga, MLS, NWSL, USL Championship) and "Meets your clubs" (only in the Champions
+  League or Carabao Cup), with an "In your competitions" filter. The tags never change the score (tested: adding
+  points for them lowered the gut-rating fit).

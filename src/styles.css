@@ -655,7 +655,7 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .rank-row{display:grid;grid-template-columns:32px minmax(0,220px) 1fr 52px;gap:12px;align-items:center;padding:9px 16px 9px 13px;border-bottom:1px solid var(--line);border-left:3px solid var(--c);font-size:14px}
 .rank-row:last-child{border-bottom:0}
 .rank-row .who{font-weight:700;min-width:0}
-.rank-row .who small{display:flex;align-items:center;gap:5px;font-weight:500;color:var(--muted);font-size:12px}
+.rank-row .who small{display:flex;flex-wrap:wrap;align-items:center;gap:5px;font-weight:500;color:var(--muted);font-size:12px}
 .rank-row .who small i{width:7px;height:7px;border-radius:50%;background:var(--c);flex:none}
 .rank-row .stack .b{background:var(--c)!important;opacity:.85!important;filter:none!important}
 @media (max-width:600px){
@@ -684,3 +684,7 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 @media (max-width:430px){.regions button,.topbar .topbar-regions button{font-size:14px;padding-left:1px;padding-right:1px;letter-spacing:-.01em}.nav-live .live-dot{margin-right:3px;width:7px;height:7px}}
 @media (max-width:380px){.regions button,.topbar .topbar-regions button{font-size:13px}}
 .regions{overflow-x:auto;scrollbar-width:none}.regions::-webkit-scrollbar{display:none}
+.fit-tag{display:inline-block;margin-left:0;padding:1px 6px;border-radius:6px;font-size:11px;font-weight:700;background:rgba(48,209,88,.16);color:#30D158;vertical-align:1px;white-space:nowrap}
+.fit-tag.light{background:rgba(118,118,128,.24);color:var(--muted)}
+.rank-row .who small span{min-width:0}
+.rank-row .who small{display:block}.rank-row .who small i{display:inline-block;margin-right:5px;vertical-align:1px}.rank-row .who small .fit-tag{margin-left:6px}

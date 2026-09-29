@@ -619,10 +619,11 @@ function affLine(t, fallback) {
   return bits.join(' · ') || 'No adjustments';
 }
 const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five factors from your supporter profile, each out of 10: values 26%, supporter culture 23%, history and identity 16%, team 15%, ownership 10% (how they play, the squad's bond with fans, long-serving captains and coaches).</p>
-  <p>Track record multiplies that score by 0.85 to 1.15: the last 10 league seasons, judged against the tier the club plays in (top flight, Championship, USL Championship, League One/Two), with recent seasons counting most (a season four years ago counts half). Steady top-half finishes score almost as well as titles; a relegation fight scores low. Nations have no track record.</p>
+  <p>Track record multiplies that score by 0.85 to 1.15: the last 10 league seasons, judged against the top flight for clubs outside North America and against their own tier for USL Championship clubs, with recent seasons counting most (a season four years ago counts half). Steady top-half finishes score almost as well as titles; a relegation fight scores low. Nations have no track record.</p>
   <p>Then adjustments for your hard lines (state ownership, racism and fan violence, private equity, multi-club networks, Super League) and for rivals and Republic links.</p>
   <p>Association: clubs with real ties (a shared supporter base like the Timbers and Thorns, a formal fan friendship, a shared ritual like You'll Never Walk Alone) pull each other's Affinity part of the way together: 15%, 8% or 4% of the gap by how strong the tie is, up to 5 points. A club gains from friends rated above it and only loses points to friends you rate below 50, so a friendship with Lazio costs, one with Mainz doesn't. Ownership ties don't count (multi-club networks have their own penalty), and rivals of your clubs aren't linked.</p>
   <p>Location & big-4: North American clubs get up to +4 for being close to Sacramento. A US club sharing a market with the Giants, 49ers or Sharks gets +1 (Bay Area clubs +0.5 net, as the Warriors count as a half rival); one sharing a market with their rivals (Lakers, Dodgers, Rams, LA Kings, Ducks, Cowboys, Golden Knights; A's, Raiders and Warriors at half) loses up to 2. Any club whose owners also own or hold a stake in the Kings, Giants, 49ers or Sharks gains (Leeds +2); one tied to a rival loses (Arsenal −5 for the Rams). Capped at ±6.</p>
+  <p>"Your leagues" and "Meets your clubs" mark what you can follow without taking on a new competition: a club in the Premier League, Bundesliga, MLS, NWSL or USL Championship, or one that only meets your clubs in the Champions League or is still in the Carabao Cup. It's shown next to Affinity and never changes the score.</p>
   <p>Sacramento Republic gets a +4 hometown bonus; nations get a heritage tiebreaker of up to 10.</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
@@ -637,7 +638,7 @@ function viewClubs(k) {
     <p class="sub">How well each ${esc((COMPS_CFG[k].noun || 'club').toLowerCase())} fits your supporter profile. Tap one for the breakdown.</p>${AFF_HOW}
     ${anyBonus ? '<div class="legend"><span style="--c:var(--accent)">Affinity</span><span style="--c:var(--magenta)">Heritage bonus</span></div>' : ''}
     <div class="card" style="margin-top:10px">${order.map((i, n) => `<div class="hai-row"><span class="num rk">${n + 1}</span>
-      <span class="who"><button class="club-link" data-club="${i}">${tchip(k, i)}${esc(t[i].name)}</button><small>${affLine(t[i], cup ? t[i].tier : t[i].region)}</small></span>
+      <span class="who"><button class="club-link" data-club="${i}">${tchip(k, i)}${esc(t[i].name)}</button><small>${affLine(t[i], cup ? t[i].tier : t[i].region)}${fitTag(t[i].name)}</small></span>
       <span class="stack"><span class="b" style="width:${t[i].base / mx * 100}%"></span><span class="x" style="width:${t[i].bonus / mx * 100}%"></span></span>
       <span class="num sc">${affOf(t[i]).toFixed(1)}</span></div>`).join('')}</div></section>${ratings}`;
 }
@@ -676,6 +677,20 @@ const RANK_PRIMARY = ['epl', 'esp', 'ita', 'bl', 'fra', 'mls', 'nwsl', 'ch', 'us
 const RANK_LABEL = { cup: 'League One / Two', ucl: 'Other European leagues', unl: 'Nations' };
 const rankLabel = k => RANK_LABEL[k] || COMPS_CFG[k].name;
 let rankF = 'all', rankCache = null;
+// What Kevin can realistically follow (bandwidth): the leagues he follows, and the competitions where his clubs meet
+// others (Champions League, Carabao Cup). Shown next to Affinity, never added to it.
+const YOUR_LEAGUES = ['epl', 'bl', 'mls', 'nwsl', 'usl'];
+let compsOfCache = null;
+function fitOf(name) {
+  if (!compsOfCache) { compsOfCache = {}; for (const k of ORDER) for (const t of T(k)) (compsOfCache[t.name] = compsOfCache[t.name] || new Set()).add(k); }
+  const cs = compsOfCache[name]; if (!cs) return '';
+  if (YOUR_LEAGUES.some(k => cs.has(k))) return 'league';
+  if (cs.has('ucl')) return 'meets';
+  // Carabao Cup: only clubs still in it can meet Liverpool
+  if (cs.has('cup') && R.cup && R.cup.alive.some(i => T('cup')[i].name === name)) return 'meets';
+  return '';
+}
+const fitTag = name => { const f = fitOf(name); return f === 'league' ? '<span class="fit-tag">Your leagues</span>' : f === 'meets' ? '<span class="fit-tag light">Meets your clubs</span>' : ''; };
 function rankList() {
   if (rankCache) return rankCache;
   const by = {};
@@ -686,13 +701,14 @@ function rankList() {
 function viewRank() {
   const all = rankList(), mx = affOf(all[0].t);
   const counts = {}; all.forEach(e => counts[e.k] = (counts[e.k] || 0) + 1);
-  const chips = [['all', `All ${all.length}`]].concat(RANK_PRIMARY.filter(k => counts[k]).map(k => [k, `${rankLabel(k)} ${counts[k]}`]));
-  const list = all.map((e, n) => Object.assign({n: n + 1}, e)).filter(e => rankF === 'all' || e.k === rankF);
+  const nFit = all.filter(e => fitOf(e.t.name)).length;
+  const chips = [['all', `All ${all.length}`], ['fit', `In your competitions ${nFit}`]].concat(RANK_PRIMARY.filter(k => counts[k]).map(k => [k, `${rankLabel(k)} ${counts[k]}`]));
+  const list = all.map((e, n) => Object.assign({n: n + 1}, e)).filter(e => rankF === 'all' || (rankF === 'fit' ? fitOf(e.t.name) : e.k === rankF));
   return `<section class="section"><h2>Every club, one ranking</h2>
     <p class="sub">All ${all.length} clubs and nations in the tracker, by Affinity, coloured by their main league. Clubs in more than one competition show once. Tap one for the breakdown.</p>${AFF_HOW}
-    <div class="rank-chips">${chips.map(([k, l]) => `<button class="rchip" data-rankf="${k}" aria-pressed="${rankF === k}" style="--c:${k === 'all' ? '#fff' : DOT[k]}">${k === 'all' ? '' : '<i></i>'}${esc(l)}</button>`).join('')}</div>
+    <div class="rank-chips">${chips.map(([k, l]) => `<button class="rchip" data-rankf="${k}" aria-pressed="${rankF === k}" style="--c:${k === 'all' || k === 'fit' ? '#fff' : DOT[k]}">${k === 'all' || k === 'fit' ? '' : '<i></i>'}${esc(l)}</button>`).join('')}</div>
     <div class="card rank" style="margin-top:12px">${list.map(e => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${e.n}</span>
-      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}${e.t.hai && e.t.hai.P != null ? ` · Track record ${e.t.hai.P.toFixed(1)}` : ''}</small></span>
+      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i><span>${esc(rankLabel(e.k))}${e.t.hai && e.t.hai.P != null ? ` · Track record ${e.t.hai.P.toFixed(1)}` : ''}</span>${fitTag(e.t.name)}</small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, affOf(e.t)) / mx * 100}%"></span></span>
       <span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>`;
 }

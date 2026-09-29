@@ -96,3 +96,34 @@ run for the Team factor (see scripts/affinity/research/BRIEF.md, "Team factor").
 ## Weights (of 90)
 Values 26, Culture 26, History 14, Ownership 12, Team 12 (was 28 / 26 / 16 / 12 / Style 8). Revised after the
 research: Values and Culture equal (first quiz answer was 26 / 24 / 14 / 10 / 16).
+
+# Quiz round 4: The Blind Draw (2026-09-29)
+
+75 blinded questions (artifact "The Blind Draw"; bank, hidden key, answers and analysis in scripts/affinity/quiz4).
+Methods, chosen to get past stated-preference bias:
+- Indirect everyday items (30): each option carries hidden loadings on 16 constructs (the five factors plus track
+  record, recency, localism, rivalry, association, penalty severity, forgiveness, underdog, novelty, loyalty, women's game).
+- Forced-choice pairs (12): two equally desirable statements on different factors (ipsative, Thurstonian-style), so
+  social desirability cancels out and the factors must be ranked.
+- Discrete-choice experiment (16): pairs of anonymous clubs over 8 attributes, fitted with a ridge conditional logit
+  (revealed weights). Fit: 14 of 16 choices predicted.
+- Blind vignettes (13): real clubs described without names, gut-rated 0-10, compared with the model (r = 0.82 before).
+- Checks: 3 reversed repeats (2 consistent; forgiveness split: forgives changed people and new owners, but "some
+  mistakes should follow a person for good"), an attention check (passed), response times.
+
+Findings (sources agreeing):
+- Values first (pairs 4/5, DCE strongest factor, everyday +0.54).
+- History and Team up: nostalgic picks (classic film, throwback jersey, old neighborhood; pairs chose story, legend,
+  roots) and team-first picks (watch the players, heart over management, steady team at work; everyday Team +0.71).
+- Culture lower than weighted: better view over loud section, "somewhere I agree with" over "loud and alive".
+- Ownership lowest (pairs 0/4, DCE weak), though private-equity and tech buyouts still worry him.
+- Fan violence weighed very heavily in the trade-offs (about 3 levels of Values) and Galatasaray's gut rating was far
+  below the model: violence penalties doubled. Sportsbook sponsor: a modest negative (already in Values).
+- Rival ownership: Arsenal (Rams owner) was the biggest overrating in the gut check: rival ownership raised to -5.
+- Brighton overrated: its owner's betting fortune now counts (-3).
+- Track record: split (trade-offs strong, gut ratings prefer less). Kept at +/-20%. Recency: judges a body of work,
+  not the last season, so half-life 4 seasons.
+- Loyalty very high (+0.9): same barber, favorite places, steady teams. Localism moderate (+0.27; roots for Sacramento
+  things "all the time"). Association moderate. Women's game: picked the men's game (no change: the women's-context
+  rule is about fair rating, not preference). Underdog: mild, no change.
+Result: gut-rating fit r 0.817 -> 0.833; weights Values 27, Culture 20, History 17, Team 16, Ownership 10.

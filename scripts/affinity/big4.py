@@ -12,10 +12,10 @@ Items, all added like adjustments (not scaled), before the association pull:
   -0.5 per half rival, at most -2. Clubs that already carry a rival penalty (Seattle) are skipped.
 - ownership ties (research in research/big4, BRIEF in BIG4_BRIEF.md): the club's owners also own
   (ownership) or hold a stake in (minority) one of the teams. Kevin's team: +2 ownership, +1 minority.
-  Rival: -3 ownership, -1.5 minority, -1 when the club's current owner used to own the rival; half for
+  Rival: -5 ownership, -2.5 minority, -1 when the club's current owner used to own the rival; half for
   half rivals. Passive fund stakes (Arctos, Sixth Street's revenue deals), stadium concessions and ties
   that ended with an owner who has left are not counted.
-Total per club capped at -4 / +4.
+Total per club capped at -6 / +6.
 """
 import proximity
 
@@ -49,12 +49,12 @@ TIES = [
     ('Birmingham City', 'Las Vegas Raiders', 'minority', 'Wagner and Brady hold about 10% of the Raiders'),
     ('Marseille', 'Los Angeles Dodgers', 'former', 'Owner Frank McCourt owned the Dodgers until 2012'),
 ]
-PTS = {'ownership': (2, -3), 'minority': (1, -1.5), 'former': (0, -1)}
+PTS = {'ownership': (2, -5), 'minority': (1, -2.5), 'former': (0, -1)}  # rival -3/-1.5 until quiz round 4
 SHORT = {'Sacramento Kings': 'Kings', 'San Francisco Giants': 'Giants', 'San Francisco 49ers': '49ers',
          'San Jose Sharks': 'Sharks', 'Los Angeles Rams': 'Rams', 'Los Angeles Kings': 'LA Kings',
          'Vegas Golden Knights': 'Golden Knights', 'Los Angeles Dodgers': 'Dodgers', 'Athletics': "A's",
          'Las Vegas Raiders': 'Raiders', 'Golden State Warriors': 'Warriors'}
-CAP = 4.0
+CAP = 6.0  # +/-4 until quiz round 4 (rival ownership now -5)
 
 
 def items(name, has_rival_penalty=False):

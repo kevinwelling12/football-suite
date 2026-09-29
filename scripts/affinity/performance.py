@@ -15,16 +15,19 @@ other top flights = tier 1, Championship and USL Championship = tier 2, League O
   Champions League / CONCACAF Champions Cup 2, Europa / Conference League 1. Capped at 10.
 - a season the club did not exist: 3 (a new club has not shown consistency yet). A season with no
   regular season (NWSL 2020) is left out.
-Seasons are averaged with a 3-season half-life (last season weight 1, three seasons ago 0.5, nine ago 0.125).
+Seasons are averaged with a 4-season half-life (last season weight 1, four seasons ago 0.5, nine ago 0.21);
+3 seasons until quiz round 4 (Kevin leans nostalgic: judges by the body of work, not the latest season).
 
 Coefficient: k = 0.80 + 0.04 * P, so P 0 -> x0.80, P 5 -> x1.00, P 10 -> x1.20 (was +/-10% until 2026-09-28).
+Quiz round 4 (2026-09-29) was split on it: trade-off choices weighed track record like Values, gut ratings of
+anonymous clubs fitted best with less. Kept at Kevin's own +/-20%.
 It multiplies the weighted factor score, before adjustments (penalties are not scaled). Nations: no track record.
 """
 import json, pathlib
 
 root = pathlib.Path(__file__).resolve().parents[2]
 PERF = root / 'scripts' / 'affinity' / 'research' / 'perf'
-HALF_LIFE = 3
+HALF_LIFE = 4
 EMPTY = 3.0
 TROPHY = {'league': 1.5, 'cup': 1.0, 'league_cup': 0.5, 'continental': 2.0, 'continental2': 1.0}
 # Band of tiers each app league is judged against. Clubs only in the Champions League: their own top flight.

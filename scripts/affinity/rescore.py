@@ -1,6 +1,6 @@
 """Recompute Affinity (base) for every team in data/suite_data.json from scripts/affinity/scores.py
 and the USL dict A in scripts/importers/build_usl.py.
-base = (0.26*Culture + 0.26*Values + 0.14*History + 0.12*Ownership + 0.12*Team)/0.90*10 + adjustment
+base = (0.20*Culture + 0.27*Values + 0.17*History + 0.10*Ownership + 0.16*Team)/0.90*10 * k + adjustment
 Team (slot S) replaced Style of play in quiz round 3: how they play plus team culture.
 Displayed Affinity = base + bonus. Clubs get no regional heritage bonus (2026 re-rate); only the hometown
 club (Sacramento Republic FC, +4) keeps one. Nations keep their heritage bonus (up to +10).
@@ -18,7 +18,7 @@ import big4
 for node in ast.parse((root / 'scripts' / 'importers' / 'build_usl.py').read_text()).body:
     if isinstance(node, ast.Assign) and getattr(node.targets[0], 'id', '') == 'A':
         S = {**S, **ast.literal_eval(node.value)}
-W = {'C': .26, 'V': .26, 'H': .14, 'O': .12, 'S': .12}  # S = Team (was Style of play)
+W = {'C': .20, 'V': .27, 'H': .17, 'O': .10, 'S': .16}  # S = Team (was Style of play). Quiz round 4 (blind draw), 2026-09-29
 HOMETOWN = 'Sacramento Republic FC'
 p = root / 'data' / 'suite_data.json'; D = json.loads(p.read_text())
 PERF = perf.load()

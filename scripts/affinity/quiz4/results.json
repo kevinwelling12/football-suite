@@ -1,0 +1,123 @@
+{
+ "constructs": {
+  "ASSOC": 0.57,
+  "C": 0.24,
+  "FORGIVE": 0.36,
+  "H": 0.5,
+  "LOC": 0.27,
+  "LOYAL": 0.9,
+  "NOV": 0.08,
+  "O": 0.28,
+  "PEN": 0.45,
+  "REC": -0.33,
+  "T": 0.71,
+  "TR": 0.05,
+  "TRIBE": 0.2,
+  "UNDER": 0.33,
+  "V": 0.54,
+  "WOM": -0.67
+ },
+ "attention": true,
+ "consistency": {
+  "FORGIVE": "inconsistent",
+  "ASSOC": "consistent",
+  "O": "consistent"
+ },
+ "pairs": {
+  "C": "1/4",
+  "V": "4/5",
+  "H": "3/4",
+  "O": "0/4",
+  "T": "2/4",
+  "TR": "1/1",
+  "UNDER": "0/1",
+  "LOC": "1/1"
+ },
+ "dce": {
+  "C": -0.21,
+  "V": 0.59,
+  "H": 0.09,
+  "O": -0.49,
+  "T": 0.2,
+  "TR": 0.6,
+  "LOC": 0.06,
+  "BET": -0.41,
+  "VIOL": -1.99
+ },
+ "dce_fit": "14/16 choices predicted",
+ "gut": [
+  [
+   "Union Berlin",
+   6,
+   85.3
+  ],
+  [
+   "Brighton",
+   3,
+   65.1
+  ],
+  [
+   "Wrexham",
+   4,
+   57.2
+  ],
+  [
+   "Bod\u00f8/Glimt",
+   7,
+   90.9
+  ],
+  [
+   "Newcastle United",
+   1,
+   35.3
+  ],
+  [
+   "Inter Miami CF",
+   2,
+   30.9
+  ],
+  [
+   "AFC Wimbledon",
+   8,
+   80.6
+  ],
+  [
+   "Galatasaray",
+   3,
+   60.2
+  ],
+  [
+   "Athletic Club",
+   6,
+   100
+  ],
+  [
+   "Arsenal",
+   2,
+   66.1
+  ],
+  [
+   "Bay FC",
+   4,
+   41.3
+  ],
+  [
+   "Real Madrid",
+   5,
+   65.5
+  ],
+  [
+   "Lazio",
+   0,
+   26.8
+  ]
+ ],
+ "gut_r": 0.83,
+ "median_ms": {
+  "dce": 20969,
+  "everyday": 8295,
+  "pairs": 5603,
+  "rate": 11895
+ },
+ "answered": 75
+}

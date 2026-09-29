@@ -8,7 +8,9 @@ Composites (Kevin's quiz round 5, docs/supporter-profile.md):
             + Vneg (sponsors, player conduct; 0 to -4)
   Team    = .40 player-fan bond + .25 stable squad + .20 icon or defining coach + .15 pressing
 Each composite is mapped linearly onto the old factor's mean and spread across the same clubs, so clubs stay on
-the scale nations (not re-rated) use, and the anchors keep their meaning; only the order within a factor changes.
+the scale nations (not re-rated) use, then blended 50/50 with the old holistic score: the parts research was light
+(under one search per club) and the old scores carry conduct and context the parts miss (e.g. Values for a
+state-owned club).
 Decay: a racism or fan-violence adjustment whose last serious incident was 5+ years ago (2021 or earlier) and is
 not ongoing counts half.
 """
@@ -27,6 +29,7 @@ TW = {'TB': .40, 'TS': .25, 'TI': .20, 'TP': .15}
 LABEL = {'CG': 'Ground', 'CY': 'Loyal', 'CL': 'Loud', 'CA': 'Away', 'VC': 'Community', 'VW': "Women's team", 'VI': 'Causes',
          'VA': 'Academy', 'VP': 'Prices', 'VF': 'Fan voice', 'TB': 'Bond', 'TS': 'Stable', 'TI': 'Icon', 'TP': 'Pressing'}
 DECAY_BEFORE = 2021
+BLEND = 0.5  # share of the parts composite in the final factor score
 # Values deductions that repeat something an adjustment already counts (violence/racism): corrected here.
 VNEG_FIX = {'Eintracht Frankfurt': (0, 'UEFA fan sanctions already in the fan-violence adjustment'),
             'Nice': (-1, 'VBET sponsor only; the ultras assault is in the fan-violence adjustment'),
@@ -59,7 +62,8 @@ def main():
         maps.append((a, b))
     for n in names:
         r = R[n]
-        C, V, T = (round(min(10, max(0, maps[j][0] * raw[n][j] + maps[j][1])), 1) for j in range(3))
+        old = (S[n][0], S[n][1], S[n][4])
+        C, V, T = (round(min(10, max(0, BLEND * (maps[j][0] * raw[n][j] + maps[j][1]) + (1 - BLEND) * old[j])), 1) for j in range(3))
         adj0, note = S[n][5], S[n][6]
         adj, newnote = adj0, note
         for inc in r.get('incidents') or []:

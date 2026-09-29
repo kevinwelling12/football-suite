@@ -27,6 +27,9 @@ TW = {'TB': .40, 'TS': .25, 'TI': .20, 'TP': .15}
 LABEL = {'CG': 'Ground', 'CY': 'Loyal', 'CL': 'Loud', 'CA': 'Away', 'VC': 'Community', 'VW': "Women's team", 'VI': 'Causes',
          'VA': 'Academy', 'VP': 'Prices', 'VF': 'Fan voice', 'TB': 'Bond', 'TS': 'Stable', 'TI': 'Icon', 'TP': 'Pressing'}
 DECAY_BEFORE = 2021
+# Values deductions that repeat something an adjustment already counts (violence/racism): corrected here.
+VNEG_FIX = {'Eintracht Frankfurt': (0, 'UEFA fan sanctions already in the fan-violence adjustment'),
+            'Nice': (-1, 'VBET sponsor only; the ultras assault is in the fan-violence adjustment')}
 
 
 def sc(r, k):
@@ -43,7 +46,7 @@ def main():
     raw = {}
     for n in names:
         r = R[n]
-        vneg = float((r.get('Vneg') or {}).get('points', 0))
+        vneg = float(VNEG_FIX[n][0] if n in VNEG_FIX else (r.get('Vneg') or {}).get('points', 0))
         raw[n] = (sum(w * sc(r, k) for k, w in CW.items()),
                   min(10, max(0, sum(w * sc(r, k) for k, w in VW.items()) + vneg)),
                   sum(w * sc(r, k) for k, w in TW.items()))
@@ -67,7 +70,7 @@ def main():
             v = int(m.group(1)); h = round(v / 2)
             adj += v - h; newnote = newnote.replace(f'{ty} -{v}', f'{ty} -{h} (last incident {y}, halved)', 1)
         parts = {k: int(sc(r, k)) for k in list(CW) + list(VW) + list(TW)}
-        parts['Vneg'] = (r.get('Vneg') or {}).get('points', 0)
+        parts['Vneg'] = VNEG_FIX[n][0] if n in VNEG_FIX else (r.get('Vneg') or {}).get('points', 0)
         out[n] = dict(C=C, V=V, S=T, adj=adj, note=newnote, parts=parts)
     (root / 'scripts' / 'affinity' / 'sub5.json').write_text(json.dumps(out, ensure_ascii=False, indent=1))
     moves = sorted(((out[n]['C'] - S[n][0]) * .23 + (out[n]['V'] - S[n][1]) * .26 + (out[n]['S'] - S[n][4]) * .15, n) for n in names)

@@ -124,3 +124,10 @@ Rules from it, for the whole engine (next re-rate):
 - Formal fan power (e.g. a vote on the GM) matters some.
 - A women's team majority-owned by private equity but run by the club is better than none.
 - A long-serving coach matters more than the style of play.
+Rules re-rate (2026-09-30; brief research/RULES6_BRIEF.md, findings research/out6, applied by apply_rules6.py):
+every club checked against four rules, each hit exactly +/-1 on one factor. R1 owner's past misconduct with
+consequences, no repeat -> +1; R2 announced stadium move (+1 welcomed upgrade, -1 opposed/worse) or sale
+(-1 private equity/multi-club/opposed owner, +1 fans or respected local); R3 coach 5+ seasons -> Team +1,
+3+ permanent coaches in 3 seasons -> Team -1; R4 uncounted casino-with-sportsbook sponsor -> Values -1.
+43 hits on 40 clubs (26 coach churn, 12 stadium, 2 sale, 1 owner-past, 2 casino); 3 rejected on review
+(Austin R1, Shrewsbury R2, Detroit City R2). Gut fit on the 26 vignettes 0.723 -> 0.728.

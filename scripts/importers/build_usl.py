@@ -15,12 +15,12 @@ SHORT={"Louisville City FC":"Louisville City","Charleston Battery":"Charleston",
 "Sacramento Republic FC":"Sacramento Republic","Orange County SC":"Orange County","Las Vegas Lights FC":"Las Vegas Lights","Phoenix Rising FC":"Phoenix Rising","El Paso Locomotive FC":"El Paso",
 "Colorado Springs Switchbacks FC":"Colorado Springs","Birmingham Legion FC":"Birmingham Legion","Tampa Bay Rowdies":"Tampa Bay","Loudoun United FC":"Loudoun United","Detroit City FC":"Detroit City"}
 A={ # (Culture, Values, History, Ownership, Style, adj, note)
-"Sacramento Republic FC":(9,8,6,8,6,0,""),"Louisville City FC":(8,7,6,7,7,0,""),"Detroit City FC":(9,9,5,8,7,0,""),"Charleston Battery":(5,6,7,5,7,0,""),
+"Sacramento Republic FC":(10,8,6,8,6,0,"Rules re-rate 2026-09-30: R2 Culture 9->10"),"Louisville City FC":(8,7,6,7,7,0,""),"Detroit City FC":(9,9,5,8,7,0,""),"Charleston Battery":(5,6,7,5,7,0,""),
 "Pittsburgh Riverhounds":(7,6,6,6,7,0,""),"Tampa Bay Rowdies":(6,6,7,5,6,0,""),"Indy Eleven":(7,6,5,4,5,0,""),"Hartford Athletic":(5,6,4,5,6,0,""),"Birmingham Legion FC":(4,6,3,5,4,0,""),
 "Miami FC":(1,6,3,3,3,0,""),"Rhode Island FC":(7,6,2,6,5,0,""),"Loudoun United FC":(2,6,2,4,3,-4,"Multi-club -4"),"Brooklyn FC":(3,7,1,5,3,0,""),
-"Sporting JAX":(2,7,1,5,2,0,""),"Lexington SC":(5,7,1,6,5,0,""),"Monterey Bay FC":(4,6,2,5,3,0,""),"Oakland Roots SC":(6,10,4,6,5,0,""),"FC Tulsa":(5,6,4,5,6,0,""),
+"Sporting JAX":(3,7,1,5,2,0,"Rules re-rate 2026-09-30: R2 Culture 2->3"),"Lexington SC":(5,7,1,6,5,0,""),"Monterey Bay FC":(4,6,2,5,3,0,""),"Oakland Roots SC":(6,10,4,6,5,0,""),"FC Tulsa":(5,6,4,5,6,0,""),
 "Orange County SC":(4,6,4,5,5,0,""),"Las Vegas Lights FC":(3,6,2,4,4,0,""),"San Antonio FC":(6,6,4,6,6,0,""),"Phoenix Rising FC":(5,5,4,5,5,0,""),"El Paso Locomotive FC":(5,6,3,5,6,0,""),
-"Colorado Springs Switchbacks FC":(6,6,4,6,6,0,""),"New Mexico United":(8,8,4,7,6,0,"")}
+"Colorado Springs Switchbacks FC":(6,6,4,6,6,0,""),"New Mexico United":(9,7,4,7,6,0,"Rules re-rate 2026-09-30: R4 Values 8->7, R2 Culture 8->9")}
 W={'C':.26,'V':.26,'H':.14,'O':.12,'S':.12}
 names=sorted(FULL[k][0] for k in FULL); idx={n:i for i,n in enumerate(names)}
 teams=[]

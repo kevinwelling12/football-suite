@@ -1,0 +1,154 @@
+[
+ {
+  "name": "AFC Wimbledon",
+  "hits": []
+ },
+ {
+  "name": "Accrington Stanley",
+  "hits": []
+ },
+ {
+  "name": "Barnet",
+  "hits": []
+ },
+ {
+  "name": "Barnsley",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Coach churn: Neill Collins (2023-24), Darrell Clarke (2024-25), Conor Hourihane (2025-26), then Daniel Stendel (2026): four permanent head coaches in three seasons; out3 did not count coach churn.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Barnsley_F.C._season"
+   }
+  ]
+ },
+ {
+  "name": "Blackpool",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Coach churn: Neil Critchley (May 2023 to Aug 2024), Steve Bruce (Sep 2024 to Oct 2025), Ian Evatt (Oct 2025): three permanent head coaches in three seasons; out3 counted player churn only.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Blackpool_F.C._season"
+   }
+  ]
+ },
+ {
+  "name": "Bradford City",
+  "hits": []
+ },
+ {
+  "name": "Bristol Rovers",
+  "hits": []
+ },
+ {
+  "name": "Bromley",
+  "hits": []
+ },
+ {
+  "name": "Burton Albion",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Coach churn: Dino Maamria (to Dec 2023), Martin Paterson (Jan 2024), Mark Robinson (sacked Oct 2024), Gary Bowyer (Dec 2024): four permanent head coaches in three seasons; out3 counted squad turnover, not coach churn.",
+    "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Burton_Albion_F.C._season"
+   }
+  ]
+ },
+ {
+  "name": "Cambridge United",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Coach churn: Mark Bonner (sacked Nov 2023), Neil Harris (to Millwall early 2024), Garry Monk (sacked Feb 2025), Harris again: three different permanent head coaches in three seasons; not counted in out3.",
+    "source": "https://www.cambridgeunited.com/news/neil-harris-appointed-head-coach-mark-bonner-appointed-director-football"
+   }
+  ]
+ },
+ {
+  "name": "Cheltenham Town",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Coach churn: Wade Elliott (to Sep 2023), Darrell Clarke (Oct 2023 to May 2024), Michael Flynn (Jun 2024 to Sep 2025), Steve Cotterill (Sep 2025): four permanent head coaches in three seasons; not counted in out3.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Cheltenham_Town_F.C._season"
+   }
+  ]
+ },
+ {
+  "name": "Chesterfield",
+  "hits": []
+ },
+ {
+  "name": "Colchester United",
+  "hits": []
+ },
+ {
+  "name": "Crawley Town",
+  "hits": []
+ },
+ {
+  "name": "Crewe Alexandra",
+  "hits": []
+ },
+ {
+  "name": "Doncaster Rovers",
+  "hits": []
+ },
+ {
+  "name": "Exeter City",
+  "hits": []
+ },
+ {
+  "name": "Fleetwood Town",
+  "hits": []
+ },
+ {
+  "name": "Gillingham",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Coach churn: Neil Harris (left Nov 2023), Stephen Clemence (to Apr 2024), Mark Bonner (summer 2024 to Jan 2025), Gareth Ainsworth (Mar 2025): four permanent managers in three seasons; out3 counted player churn only.",
+    "source": "https://www.gillinghamfootballclub.com/news/gills-appoint-gareth-ainsworth-new-first-team-manager"
+   }
+  ]
+ },
+ {
+  "name": "Grimsby Town",
+  "hits": []
+ },
+ {
+  "name": "Huddersfield Town",
+  "hits": []
+ },
+ {
+  "name": "Leicester City",
+  "hits": []
+ },
+ {
+  "name": "Leyton Orient",
+  "hits": []
+ },
+ {
+  "name": "Luton Town",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Coach churn: Rob Edwards (left Jan 2025), Matt Bloomfield (Jan to Oct 2025), Jack Wilshere (Oct 2025): three permanent managers in three seasons; out3 counted player churn only.",
+    "source": "https://www.skysports.com/football/news/11717/13449378/luton-town-jack-wilshere-announced-as-new-first-team-manager"
+   }
+  ]
+ }
+]

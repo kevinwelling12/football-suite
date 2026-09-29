@@ -1,0 +1,114 @@
+[
+ {
+  "name": "Birmingham City",
+  "hits": []
+ },
+ {
+  "name": "Blackburn Rovers",
+  "hits": []
+ },
+ {
+  "name": "Bolton Wanderers",
+  "hits": []
+ },
+ {
+  "name": "Bristol City",
+  "hits": []
+ },
+ {
+  "name": "Burnley",
+  "hits": []
+ },
+ {
+  "name": "Cardiff City",
+  "hits": []
+ },
+ {
+  "name": "Charlton Athletic",
+  "hits": []
+ },
+ {
+  "name": "Derby County",
+  "hits": []
+ },
+ {
+  "name": "Lincoln City",
+  "hits": []
+ },
+ {
+  "name": "Middlesbrough",
+  "hits": []
+ },
+ {
+  "name": "Millwall",
+  "hits": []
+ },
+ {
+  "name": "Norwich City",
+  "hits": []
+ },
+ {
+  "name": "Portsmouth",
+  "hits": []
+ },
+ {
+  "name": "Preston North End",
+  "hits": []
+ },
+ {
+  "name": "Queens Park Rangers",
+  "hits": []
+ },
+ {
+  "name": "Sheffield United",
+  "hits": []
+ },
+ {
+  "name": "Southampton",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Four permanent head coaches in the last three seasons: Russell Martin (sacked Dec 2024), Ivan Juric (Dec 2024-Apr 2025), Will Still (Jun-Nov 2025) and Tonda Eckert (since Nov 2025). out3 counted squad churn, not coaching churn.",
+    "source": "https://en.wikipedia.org/wiki/Tonda_Eckert"
+   }
+  ]
+ },
+ {
+  "name": "Stoke City",
+  "hits": []
+ },
+ {
+  "name": "Swansea City",
+  "hits": []
+ },
+ {
+  "name": "Watford",
+  "hits": []
+ },
+ {
+  "name": "West Bromwich Albion",
+  "hits": []
+ },
+ {
+  "name": "West Ham United",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "O",
+    "delta": -1,
+    "evidence": "In September 2026 Daniel Kretinsky (owner of Sparta Prague, a multi-club owner) signed a deal to take a 46% stake and become the largest shareholder, ahead of David Sullivan (40%).",
+    "source": "https://www.insideworldfootball.com/2026/09/04/daniel-kretinsky-ups-west-ham-united-shareholding-to-46"
+   }
+  ]
+ },
+ {
+  "name": "Wolverhampton Wanderers",
+  "hits": []
+ },
+ {
+  "name": "Wrexham",
+  "hits": []
+ }
+]

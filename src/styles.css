@@ -594,7 +594,11 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .linkish{background:none;border:0;padding:0;color:#64D2FF;font:inherit;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
 
 /* Live match controls: +1 goal buttons either side of the next match event */
-.live-ctl{display:grid;grid-template-columns:1fr 1.4fr 1fr;gap:8px;margin:12px 0 2px}
+.live-ctl{display:grid;grid-template-columns:1fr 36px 1.15fr 36px 1fr;gap:5px;margin:12px 0 2px}
+.rc{display:inline-block;width:10px;height:14px;border-radius:2px;background:#FF3B30;box-shadow:0 0 0 1px rgba(255,255,255,.85);transform:rotate(8deg);vertical-align:-2px}
+.rcs{display:inline-flex;gap:4px;margin:0 5px;vertical-align:1px}
+.live-ctl .btn.rc-btn{padding:0;display:grid;place-items:center}
+.live-ctl .btn.rc-btn .rc{width:12px;height:17px;box-shadow:none}
 .live-ctl.one{grid-template-columns:1fr}
 .live-ctl .btn{height:44px;padding:0 6px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .status .updating{color:var(--muted);font-weight:500}
@@ -688,3 +692,27 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .fit-tag.light{background:rgba(118,118,128,.24);color:var(--muted)}
 .rank-row .who small span{min-width:0}
 .rank-row .who small{display:block}.rank-row .who small i{display:inline-block;margin-right:5px;vertical-align:1px}.rank-row .who small .fit-tag{margin-left:6px}
+
+/* Compact live card (Live tab): about 150px tall so 4-5 fit on a phone */
+.live-list{gap:10px}
+.match.lc,:root.bc .match.lc,:root.bc .match.lc.is-live,.match.lc.is-live{padding:10px 12px}
+.lc-top{display:flex;justify-content:space-between;align-items:center;gap:8px;min-width:0}
+.lc-top .live-comp{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.lc-pe{font-size:12px;color:var(--muted);white-space:nowrap}
+.lc-pe b{color:var(--ink);font-weight:700}
+.lc-bug{display:flex;align-items:stretch;height:40px;margin-top:8px;border-radius:10px;overflow:hidden;background:rgba(0,0,0,.45);border:.5px solid rgba(255,255,255,.14);cursor:pointer}
+.lc-t{flex:1;min-width:0;display:flex;align-items:center;gap:6px;padding:0 10px;font-size:17px;letter-spacing:.02em;white-space:nowrap;background:linear-gradient(90deg, color-mix(in srgb, var(--tc) 36%, transparent), transparent 85%)}
+.lc-t.away{justify-content:flex-end;background:linear-gradient(270deg, color-mix(in srgb, var(--tc) 36%, transparent), transparent 85%)}
+.lc-t i{width:3px;height:20px;border-radius:2px;background:var(--tc);flex:none}
+.lc-t .rcs{margin:0}
+.lc-aff{color:#FF6FB5;font-size:11px}
+.lc-s{width:34px;display:grid;place-items:center;font-weight:700;font-size:22px;background:rgba(255,255,255,.1)}
+.lc-clock{min-width:56px;padding:0 6px;display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:600;color:var(--muted);white-space:nowrap}
+.lc-clock.on{background:#FF453A;color:#fff;font-weight:700;font-size:13.5px}
+.lc-clock .live-dot{display:none}
+.lc-bar{display:flex;gap:2px;height:16px;margin-top:8px;border-radius:5px;overflow:hidden;font-size:10.5px;font-weight:700;line-height:16px;color:#fff}
+.lc-bar span{display:block;text-align:center;overflow:hidden;min-width:0}
+.lc-bar .h{background:var(--hc,#8E8E93)} .lc-bar .d{background:#3A3A3C} .lc-bar .a{background:var(--ac,#64D2FF)}
+.lc-bar span{text-shadow:0 0 3px rgba(0,0,0,.7)}
+.match.lc .live-ctl{margin:8px 0 0}
+.match.lc .live-ctl .btn{height:36px;font-size:13px;padding:0 4px}

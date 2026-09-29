@@ -1,0 +1,149 @@
+[
+ {
+  "name": "1. FC Köln",
+  "hits": []
+ },
+ {
+  "name": "Bayer Leverkusen",
+  "hits": []
+ },
+ {
+  "name": "Borussia Mönchengladbach",
+  "hits": []
+ },
+ {
+  "name": "Eintracht Frankfurt",
+  "hits": []
+ },
+ {
+  "name": "FC Augsburg",
+  "hits": []
+ },
+ {
+  "name": "Hamburger SV",
+  "hits": []
+ },
+ {
+  "name": "Mainz 05",
+  "hits": []
+ },
+ {
+  "name": "SC Freiburg",
+  "hits": []
+ },
+ {
+  "name": "SC Paderborn",
+  "hits": []
+ },
+ {
+  "name": "SV Elversberg",
+  "hits": []
+ },
+ {
+  "name": "Schalke 04",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches in the last three seasons: Karel Geraerts (sacked Oct 2024), Kees van Wonderen (Nov 2024 to May 2025), Miron Muslić (from 2025). Team evidence did not count this churn.",
+    "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_FC_Schalke_04_season"
+   },
+   {
+    "rule": "R4",
+    "factor": "V",
+    "delta": -1,
+    "evidence": "Merkur Group (casino operator) is an exclusive partner from 2025-26, extended to June 2027, with LED boards and cam carpets in the Veltins-Arena that also carry its betting brand Merkur Bets. Values evidence listed no betting sponsor.",
+    "source": "https://schalke04.de/partner/merkur-group-wird-exklusiv-partner-des-fc-schalke-04/"
+   }
+  ]
+ },
+ {
+  "name": "TSG Hoffenheim",
+  "hits": []
+ },
+ {
+  "name": "Union Berlin",
+  "hits": []
+ },
+ {
+  "name": "Werder Bremen",
+  "hits": []
+ },
+ {
+  "name": "Angers",
+  "hits": []
+ },
+ {
+  "name": "Auxerre",
+  "hits": []
+ },
+ {
+  "name": "Brest",
+  "hits": []
+ },
+ {
+  "name": "Le Havre",
+  "hits": []
+ },
+ {
+  "name": "Le Mans",
+  "hits": []
+ },
+ {
+  "name": "Lorient",
+  "hits": []
+ },
+ {
+  "name": "Lyon",
+  "hits": []
+ },
+ {
+  "name": "Marseille",
+  "hits": []
+ },
+ {
+  "name": "Monaco",
+  "hits": []
+ },
+ {
+  "name": "Nice",
+  "hits": []
+ },
+ {
+  "name": "Paris FC",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches since 2025-26: Stéphane Gilli, Antoine Kombouaré (Feb 2026, left after the season), Liam Rosenior (from Jul 2026). Team evidence counted spending churn, not coach churn.",
+    "source": "https://www.eurosport.fr/football/ligue-1/2025-2026/ligue-1-i-officiel-liam-rosenior-succede-a-antoine-kombouare-comme-entraineur-du-paris-fc_sto23317128/story.shtml"
+   }
+  ]
+ },
+ {
+  "name": "Rennes",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Four permanent head coaches in the last three seasons: Julien Stéphan (sacked Nov 2024), Jorge Sampaoli, Habib Beye (to Feb 2026), Franck Haise (from Feb 2026). Team evidence counted player churn, not coach churn.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Stade_Rennais_FC_season"
+   }
+  ]
+ },
+ {
+  "name": "Strasbourg",
+  "hits": []
+ },
+ {
+  "name": "Toulouse",
+  "hits": []
+ },
+ {
+  "name": "Troyes",
+  "hits": []
+ }
+]

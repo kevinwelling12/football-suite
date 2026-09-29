@@ -1,0 +1,90 @@
+[
+ {
+  "name": "Angel City FC",
+  "hits": []
+ },
+ {
+  "name": "Bay FC",
+  "hits": []
+ },
+ {
+  "name": "Boston Legacy",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Announced move from Gillette Stadium (NFL) and a Rhode Island venue to the rebuilt White Stadium in Boston; the Massachusetts SJC cleared the project in August 2026, first Legacy match there planned for 2028.",
+    "source": "https://equalizersoccer.com/2026/08/19/court-ruling-clears-way-for-boston-legacy-white-stadium-renovation/"
+   }
+  ]
+ },
+ {
+  "name": "Chicago Stars",
+  "hits": []
+ },
+ {
+  "name": "Denver Summit",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Planned 14,500-seat soccer-specific stadium at Santa Fe Yards in Denver, approved by City Council (Dec 2025) and land acquired (March 2026), replacing a temporary venue in Centennial; opening about 2028-29.",
+    "source": "https://www.denver7.com/news/local-news/denver-city-council-approves-summit-womens-soccer-stadium-plan"
+   }
+  ]
+ },
+ {
+  "name": "Gotham FC",
+  "hits": []
+ },
+ {
+  "name": "Houston Dash",
+  "hits": []
+ },
+ {
+  "name": "Kansas City Current",
+  "hits": []
+ },
+ {
+  "name": "North Carolina Courage",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "O",
+    "delta": -1,
+    "evidence": "Signed agreement (March 2026) for Avenue Sports Fund, the sports fund of investment firm Avenue Capital (Marc Lasry), to invest $40m at a $155m valuation for a minority stake, pending NWSL approval; not counted in current Ownership.",
+    "source": "https://www.nccourage.com/news/north-carolina-courage-receive-financial-backing-from-avenue-sports-fund"
+   }
+  ]
+ },
+ {
+  "name": "Orlando Pride",
+  "hits": []
+ },
+ {
+  "name": "Portland Thorns",
+  "hits": []
+ },
+ {
+  "name": "Racing Louisville",
+  "hits": []
+ },
+ {
+  "name": "San Diego Wave",
+  "hits": []
+ },
+ {
+  "name": "Seattle Reign",
+  "hits": []
+ },
+ {
+  "name": "Utah Royals",
+  "hits": []
+ },
+ {
+  "name": "Washington Spirit",
+  "hits": []
+ }
+]

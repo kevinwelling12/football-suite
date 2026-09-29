@@ -1,6 +1,7 @@
 // Suite model: leagues (with groups), UCL/UNL knockout extensions, and the Carabao Cup engine.
 const MODEL = (() => {
   const KMAX = 10;
+  const RC_OWN = 0.67, RC_OPP = 1.25;
   const poisVec = l => { const v = new Float64Array(KMAX + 1); v[0] = Math.exp(-l); for (let i = 1; i <= KMAX; i++) v[i] = v[i - 1] * l / i; return v; };
   function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
   function poisSample(rand, l) { const L = Math.exp(-l); let k = 0, p = rand(); while (p > L) { k++; p *= rand(); } return k; }
@@ -118,7 +119,11 @@ const MODEL = (() => {
     for (const f of fx) {
       const L = live[f.id]; if (f.played || !L) continue;
       const rem = Math.max(0.02, (90 - Math.min(L.min, 90)) / 90);
-      f.live = { h: L.h, a: L.a, min: L.min, ht: L.ht, rh: f.lh * rem, ra: f.la * rem };
+      // Red cards change the scoring rates for the rest of the match: per player sent off, that side's rate
+      // x0.67 and the opponent's x1.25 (Vecer, Kopriva & Ichiba 2009; Titman et al. 2015 find similar).
+      const rc = L.rc || [0, 0], nh = Math.min(rc[0], 3), na = Math.min(rc[1], 3);
+      const mh = RC_OWN ** nh * RC_OPP ** na, ma = RC_OWN ** na * RC_OPP ** nh;
+      f.live = { h: L.h, a: L.a, min: L.min, ht: L.ht, rc: [rc[0], rc[1]], rh: f.lh * rem * mh, ra: f.la * rem * ma };
       const ph = poisVec(f.live.rh), pa = poisVec(f.live.ra);
       let H = 0, D = 0, A = 0, ex = 0, oc = 0; const po = Math.sign(f.pick[0] - f.pick[1]);
       for (let x = 0; x <= KMAX; x++) for (let y = 0; y <= KMAX; y++) {

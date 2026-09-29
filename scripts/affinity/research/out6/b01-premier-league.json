@@ -1,0 +1,90 @@
+[
+ {
+  "name": "Arsenal",
+  "hits": []
+ },
+ {
+  "name": "Aston Villa",
+  "hits": []
+ },
+ {
+  "name": "Bournemouth",
+  "hits": []
+ },
+ {
+  "name": "Brentford",
+  "hits": []
+ },
+ {
+  "name": "Brighton",
+  "hits": []
+ },
+ {
+  "name": "Chelsea",
+  "hits": []
+ },
+ {
+  "name": "Coventry City",
+  "hits": []
+ },
+ {
+  "name": "Crystal Palace",
+  "hits": []
+ },
+ {
+  "name": "Everton",
+  "hits": []
+ },
+ {
+  "name": "Fulham",
+  "hits": []
+ },
+ {
+  "name": "Hull City",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches since mid-2024: Tim Walter (May 2024, sacked Nov 2024), Ruben Selles (Dec 2024) and Sergej Jakirovic (June 2025). Earlier Team evidence noted squad churn but not coach churn.",
+    "source": "https://en.wikipedia.org/wiki/List_of_Hull_City_A.F.C._managers"
+   }
+  ]
+ },
+ {
+  "name": "Ipswich Town",
+  "hits": []
+ },
+ {
+  "name": "Leeds United",
+  "hits": []
+ },
+ {
+  "name": "Liverpool",
+  "hits": []
+ },
+ {
+  "name": "Manchester City",
+  "hits": []
+ },
+ {
+  "name": "Manchester United",
+  "hits": []
+ },
+ {
+  "name": "Newcastle United",
+  "hits": []
+ },
+ {
+  "name": "Nottingham Forest",
+  "hits": []
+ },
+ {
+  "name": "Sunderland",
+  "hits": []
+ },
+ {
+  "name": "Tottenham Hotspur",
+  "hits": []
+ }
+]

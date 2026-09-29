@@ -2,14 +2,14 @@
 
 python3 scripts/affinity/proximity.py   # print distances and bonuses
 
-bonus = 3 * (1 - miles / 800), 0 beyond 800 miles (straight line from Sacramento to the club's stadium).
-Bay Area clubs get about +2.7, Los Angeles +1.6, Portland +1.2, Seattle +0.7. Sacramento Republic is left out:
+bonus = 4 * (1 - miles / 800), 0 beyond 800 miles (straight line from Sacramento to the club's stadium).
+Bay Area clubs get about +3.6, Los Angeles +2.2, Portland +1.6, Seattle +0.9. Sacramento Republic is left out:
 it already has the hometown +4. Clubs outside North America get nothing.
 """
 import math
 
 HOME = (38.58, -121.49)  # Sacramento
-MAX, RANGE = 3.0, 800.0
+MAX, RANGE = 4.0, 800.0  # max 3 until quiz round 5
 SKIP = {'Sacramento Republic FC'}
 # Stadium coordinates (lat, lon)
 AT = {

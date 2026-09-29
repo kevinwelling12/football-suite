@@ -127,3 +127,36 @@ Findings (sources agreeing):
   things "all the time"). Association moderate. Women's game: picked the men's game (no change: the women's-context
   rule is about fair rating, not preference). Underdog: mild, no change.
 Result: gut-rating fit r 0.817 -> 0.833; weights Values 27, Culture 20, History 17, Team 16, Ownership 10.
+
+# Quiz round 5: The Blind Draw II (2026-09-29)
+
+87 blinded questions (scripts/affinity/quiz5): 24 everyday items + 2 reversed + attention (passed); 4 constant-sum
+budgets (split 100); 9 best-worst (MaxDiff) sets over 12 kinds of baggage; 12 trade-off choices (fit 11/12);
+22 speeded "pulls me in / pushes me away" phrases (median 2.1 s, faster = stronger); 13 new anonymous clubs as a
+hold-out test of the round-4 model.
+
+Findings:
+- Hold-out: round-4 model fitted the new clubs at r 0.632 (pre-round-4 model: 0.651). Misses: PSV, Sporting CP,
+  Juventus rated well above his gut; Celta Vigo (gut 10), Sunderland and Monterey Bay well below.
+- Winning: every method ranked it low. Budget: "scouting to win right away" 10 of 100 (lowest, with ownership);
+  trade-offs: steady top finishes +0.24 only, "a cup last season" negative, one title 12 years ago about neutral;
+  everyday: 0.0; but a single trophy beats five near-top finishes (+0.64). Gut fit over 26 clubs rises as the
+  track-record effect shrinks (+/-20%: 0.728, +/-15%: 0.748, +/-10%: 0.767, +/-5%: 0.785). Set to +/-15%, which
+  keeps Dortmund above Union Berlin.
+- Weights from the budget split: Culture 25, Values 25, History 15, Team 15, Ownership 10 (+10 winning). Culture is
+  back up (the trade-offs weighted the crowd most; round 4 had cut it too far).
+- Culture split: old ground 50, loud section 25, loyal through bad years 15, away following 10. But the quick sort
+  pulled hardest for loyalty ("Sold out for 40 straight years", "Relegated, and crowds grew") and he'd take the
+  new ballpark with perfect views.
+- Values split: community 20, women's team 20, causes 20, academy 15, affordable tickets 15, fan voice 10.
+  Everyday: community and causes maxed (+1.0).
+- Team split: player-fan bond 40, stable core squad 25, icon or defining coach 20, pressing 15. Quick sort: "Same
+  captain for 12 seasons" was the strongest pull of all 22.
+- Severity (worst to least bad): racism, authoritarian-state owner, then private equity = debt buyout = ultras
+  violence, then owner politics = Super League, then overspending = betting sponsor = arms sponsor, then multi-club
+  feeder, and relocation least bad. Penalties re-scaled to match.
+- Old wrongs fade: +0.39; violence 8 years ago cost little in the trade-offs, last season's a lot.
+- Localism strong (+0.67; "Two hours from Sacramento" pulled at +1.25): distance bonus up to +4.
+- Women's game: the quick sort pulled strongly ("Women's team sells out" +1.21), the opposite of round 4's single
+  item. No change.
+Result: hold-out fit on the round-5 clubs 0.632 -> 0.677; round-4 clubs unchanged at 0.83.

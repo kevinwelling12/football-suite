@@ -18,9 +18,10 @@ other top flights = tier 1, Championship and USL Championship = tier 2, League O
 Seasons are averaged with a 4-season half-life (last season weight 1, four seasons ago 0.5, nine ago 0.21);
 3 seasons until quiz round 4 (Kevin leans nostalgic: judges by the body of work, not the latest season).
 
-Coefficient: k = 0.80 + 0.04 * P, so P 0 -> x0.80, P 5 -> x1.00, P 10 -> x1.20 (was +/-10% until 2026-09-28).
-Quiz round 4 (2026-09-29) was split on it: trade-off choices weighed track record like Values, gut ratings of
-anonymous clubs fitted best with less. Kept at Kevin's own +/-20%.
+Coefficient: k = 0.85 + 0.03 * P, so P 0 -> x0.85, P 5 -> x1.00, P 10 -> x1.15. History: +/-10% (2026-09-28), +/-20% (Kevin,
+so Dortmund passes Union), +/-15% after quiz round 5 (2026-09-29): every method there (budget split, trade-offs, everyday
+items) ranked winning low, and gut ratings of 26 anonymous clubs fitted best with a small effect; 15% keeps Dortmund
+above Union Berlin.
 It multiplies the weighted factor score, before adjustments (penalties are not scaled). Nations: no track record.
 """
 import json, pathlib
@@ -85,7 +86,7 @@ def track(club, band):
 
 
 def coef(P):
-    return 0.80 + 0.04 * P
+    return 0.85 + 0.03 * P
 
 
 def primary(comps):

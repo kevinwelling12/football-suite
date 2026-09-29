@@ -7,7 +7,7 @@ Rivals (full weight): Lakers; Dodgers; Seahawks, Rams, Cowboys; LA Kings, Ducks,
 Half weight: Athletics (Bay Bridge), Raiders, Packers, Warriors (Kings).
 
 Items, all added like adjustments (not scaled), before the association pull:
-- distance from Sacramento (proximity.py): up to +3 for North American clubs.
+- distance from Sacramento (proximity.py): up to +4 for North American clubs (+3 until quiz round 5).
 - market: a US club sharing a metro with Kevin's teams +1 (Bay Area: +1 - 0.5 for the Warriors = +0.5); with his rivals -1 per full rival,
   -0.5 per half rival, at most -2. Clubs that already carry a rival penalty (Seattle) are skipped.
 - ownership ties (research in research/big4, BRIEF in BIG4_BRIEF.md): the club's owners also own

@@ -1,0 +1,198 @@
+[
+ {
+  "name": "Alavés",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches in the last three seasons: Luis García Plaza (to Dec 2024), Eduardo Coudet (Dec 2024 - Mar 2026), Quique Sánchez Flores (since Mar 2026). Coach churn not counted in out3.",
+    "source": "https://www.noticiasdealava.eus/alaves/2026/03/03/20-tecnicos-durante-querejeta-alaves-la-liga-entrenadores-10774637.html"
+   }
+  ]
+ },
+ {
+  "name": "Athletic Club",
+  "hits": []
+ },
+ {
+  "name": "Celta Vigo",
+  "hits": []
+ },
+ {
+  "name": "Deportivo La Coruña",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches in the last three seasons: Imanol Idiakez (sacked Oct 2024), Óscar Gilsanz (confirmed permanent Nov 2024, left June 2025), Antonio Hidalgo (since 2025). Coach churn not counted in out3.",
+    "source": "https://en.wikipedia.org/wiki/%C3%93scar_Gilsanz"
+   }
+  ]
+ },
+ {
+  "name": "Elche",
+  "hits": []
+ },
+ {
+  "name": "Espanyol",
+  "hits": []
+ },
+ {
+  "name": "Getafe",
+  "hits": []
+ },
+ {
+  "name": "Levante",
+  "hits": []
+ },
+ {
+  "name": "Málaga",
+  "hits": []
+ },
+ {
+  "name": "Osasuna",
+  "hits": []
+ },
+ {
+  "name": "Racing Santander",
+  "hits": []
+ },
+ {
+  "name": "Rayo Vallecano",
+  "hits": []
+ },
+ {
+  "name": "Real Sociedad",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches in the last three seasons: Imanol Alguacil (to June 2025), Sergio Francisco (June - Dec 2025, sacked), Pellegrino Matarazzo (since Dec 2025). Out3 counted player sales, not coach churn.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Real_Sociedad_season"
+   }
+  ]
+ },
+ {
+  "name": "Sevilla",
+  "hits": []
+ },
+ {
+  "name": "Valencia",
+  "hits": []
+ },
+ {
+  "name": "AC Milan",
+  "hits": []
+ },
+ {
+  "name": "Atalanta",
+  "hits": []
+ },
+ {
+  "name": "Bologna",
+  "hits": []
+ },
+ {
+  "name": "Cagliari",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Cagliari city council approved the new Gigi Riva stadium on the Sant'Elia site on 30 July 2026 (tender under way, works from 2027, completion about 2030), replacing the temporary 16,416-seat Unipol Domus with a purpose-built football ground in the same city. Not yet counted in Culture.",
+    "source": "https://www.comune.cagliari.it/portale/page/it/nuovo_stadio_di_cagliari_via_libera_definitivo_al_progetto?contentId=NVT244201"
+   }
+  ]
+ },
+ {
+  "name": "Fiorentina",
+  "hits": []
+ },
+ {
+  "name": "Frosinone",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches in the last three seasons: Vincenzo Vivarini (sacked Oct 2024), Leandro Greco (appointed permanently, 2024-25), Massimiliano Alvini (since 2025). Out3 counted loan churn, not coach churn.",
+    "source": "https://gianlucadimarzio.com/frosinone-vivarini-greco-esonero-primavera-serie-b-news/"
+   }
+  ]
+ },
+ {
+  "name": "Genoa",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches in the last three seasons: Alberto Gilardino (sacked Nov 2024), Patrick Vieira (Nov 2024 - Nov 2025), Daniele De Rossi (since Nov 2025). Coach churn not counted in out3.",
+    "source": "https://www.ilfattoquotidiano.it/2025/11/05/de-rossi-allenatore-genoa-vieira-esonero-news/8185357/"
+   }
+  ]
+ },
+ {
+  "name": "Juventus",
+  "hits": []
+ },
+ {
+  "name": "Lazio",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches in the last three seasons: Marco Baroni (2024-25), Maurizio Sarri (2025-26, left by mutual consent May 2026), Gennaro Gattuso (since June 2026). Out3 noted low squad churn, not coach churn.",
+    "source": "https://www.corrieredellosport.it/news/calcio/serie-a/lazio/2026/06/23-149409161/gattuso_il_nuovo_allenatore_della_lazio_arriva_l_ufficialit_il_comunicato"
+   }
+  ]
+ },
+ {
+  "name": "Lecce",
+  "hits": []
+ },
+ {
+  "name": "Monza",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Four permanent head coaches in the last three seasons: Alessandro Nesta and Salvatore Bocchetti (2024-25, Nesta sacked then reinstated), Paolo Bianco (2025-26), Ivan Jurić (since 2026). Out3 noted squad churn, not coach churn.",
+    "source": "https://sport.sky.it/calcio/serie-a/2024/12/23/nesta-esonero-monza-news"
+   }
+  ]
+ },
+ {
+  "name": "Parma",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Four permanent head coaches in the last three seasons: Fabio Pecchia (sacked Feb 2025), Cristian Chivu (Feb - June 2025), Carlos Cuesta (2025 - Sept 2026), Alberto Gilardino (Sept 2026). Out3 noted player churn, not coach churn.",
+    "source": "https://www.calciomercato.com/liste/sorpresa-parma-cuesta-non-e-piu-l-allenatore-e-ufficiale-chi-puo-arrivare-al-suo-posto/blteb261467cf94ab06"
+   }
+  ]
+ },
+ {
+  "name": "Sassuolo",
+  "hits": []
+ },
+ {
+  "name": "Torino",
+  "hits": []
+ },
+ {
+  "name": "Udinese",
+  "hits": []
+ },
+ {
+  "name": "Venezia",
+  "hits": []
+ }
+]

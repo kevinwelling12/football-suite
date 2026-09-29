@@ -1,0 +1,173 @@
+[
+ {
+  "name": "AEK Athens",
+  "hits": []
+ },
+ {
+  "name": "Atlético Madrid",
+  "hits": []
+ },
+ {
+  "name": "Barcelona",
+  "hits": []
+ },
+ {
+  "name": "Bayern Munich",
+  "hits": []
+ },
+ {
+  "name": "Bodø/Glimt",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Construction has started on the club's own 10,000-seat Arctic Arena at Thalleveiåkeren just outside central Bodø (target 2027), replacing the 8,270 Aspmyra; supporters are part-funding it through the Glimt-steinen campaign.",
+    "source": "https://www.insideworldfootball.com/2026/05/21/bodo-glimts-champions-league-heroics-rewarded-with-new-arctic-arena/"
+   }
+  ]
+ },
+ {
+  "name": "Borussia Dortmund",
+  "hits": []
+ },
+ {
+  "name": "Club Brugge",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "In July 2026 the club received a final, enforceable permit for its own 40,116-seat stadium on the Olympiasite in Bruges, leaving the athletics-era Jan Breydel shared with Cercle; works start autumn 2026, opening targeted 2029.",
+    "source": "https://www.clubbrugge.be/en/news/club-brugge-is-pleased-to-have-received-a-final-and-enforceable-permit-for-its-new-stadium"
+   },
+   {
+    "rule": "R1",
+    "factor": "O",
+    "delta": 1,
+    "evidence": "Owner Bart Verhaeghe settled the Clean Hands (Propere Handen) case with the federal prosecutor in December 2022 (fine paid; document falsification in the Diatta transfer), so he will not be tried; no similar case since.",
+    "source": "https://www.voetbalbelgie.be/artikel/propere-handen-verhaeghe-mannaert-houben-louwagie-schuldig"
+   }
+  ]
+ },
+ {
+  "name": "Como",
+  "hits": []
+ },
+ {
+  "name": "Fenerbahçe",
+  "hits": []
+ },
+ {
+  "name": "Feyenoord",
+  "hits": []
+ },
+ {
+  "name": "Galatasaray",
+  "hits": []
+ },
+ {
+  "name": "Inter Milan",
+  "hits": []
+ },
+ {
+  "name": "LASK",
+  "hits": []
+ },
+ {
+  "name": "Lens",
+  "hits": []
+ },
+ {
+  "name": "Lille",
+  "hits": []
+ },
+ {
+  "name": "Napoli",
+  "hits": []
+ },
+ {
+  "name": "PSV Eindhoven",
+  "hits": []
+ },
+ {
+  "name": "Paris Saint-Germain",
+  "hits": []
+ },
+ {
+  "name": "Porto",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches since mid-2024: Vítor Bruno (sacked Jan 2025), Martín Anselmi (Jan-July 2025), Francesco Farioli (since July 2025). out3 did not count the churn.",
+    "source": "https://www.outlookindia.com/sports/football/francesco-farioli-appointed-as-new-fc-porto-head-coach-primeira-liga-martin-anselmi-replacement"
+   }
+  ]
+ },
+ {
+  "name": "RB Leipzig",
+  "hits": []
+ },
+ {
+  "name": "Real Betis",
+  "hits": []
+ },
+ {
+  "name": "Real Madrid",
+  "hits": []
+ },
+ {
+  "name": "Roma",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "C",
+    "delta": 1,
+    "evidence": "Roma's own ~60,000-seat Pietralata stadium in Rome has city council approval (March 2026) and a positive Conferenza dei Servizi (Sept 2026), with building due to start in 2027. It will replace the shared Olimpico athletics bowl.",
+    "source": "https://www.insideworldfootball.com/2026/09/29/as-roma-clear-latest-hurdle-as-pietralata-plans-steam-ahead"
+   }
+  ]
+ },
+ {
+  "name": "Sabah",
+  "hits": []
+ },
+ {
+  "name": "Shakhtar Donetsk",
+  "hits": []
+ },
+ {
+  "name": "Slavia Prague",
+  "hits": []
+ },
+ {
+  "name": "Slovan Bratislava",
+  "hits": []
+ },
+ {
+  "name": "Sporting CP",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches in 2024-25: Rúben Amorim (to Nov 2024), João Pereira (Nov-Dec 2024, sacked after eight matches), Rui Borges (since Dec 2024). out3 did not count the churn.",
+    "source": "https://english.aawsat.com/sports/5095318-sporting-sack-pereira-borges-appointed-replacement"
+   }
+  ]
+ },
+ {
+  "name": "VfB Stuttgart",
+  "hits": []
+ },
+ {
+  "name": "Viking",
+  "hits": []
+ },
+ {
+  "name": "Villarreal",
+  "hits": []
+ }
+]

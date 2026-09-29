@@ -1,0 +1,138 @@
+[
+ {
+  "name": "Mansfield Town",
+  "hits": []
+ },
+ {
+  "name": "Milton Keynes Dons",
+  "hits": []
+ },
+ {
+  "name": "Newport County",
+  "hits": []
+ },
+ {
+  "name": "Northampton Town",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent managers in the last three seasons: Jon Brady (left Nov 2024), Kevin Nolan (Dec 2024, sacked 9 Mar 2026), Chris Hogg (appointed 18 May 2026). Churn not counted in out3.",
+    "source": "https://www.ntfc.co.uk/news/2026/may/18/chris-hogg-appointed-new-manager-of-northampton-town/"
+   }
+  ]
+ },
+ {
+  "name": "Notts County",
+  "hits": []
+ },
+ {
+  "name": "Oldham Athletic",
+  "hits": []
+ },
+ {
+  "name": "Oxford United",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Four permanent head coaches in the last three seasons: Des Buckingham (sacked Dec 2024), Gary Rowett (sacked Dec 2025), Matt Bloomfield (Jan-Jun 2026), Aaron Ramsey (Jun 2026). Coach churn not counted in out3.",
+    "source": "https://en.wikipedia.org/wiki/List_of_Oxford_United_F.C._managers"
+   }
+  ]
+ },
+ {
+  "name": "Peterborough United",
+  "hits": []
+ },
+ {
+  "name": "Plymouth Argyle",
+  "hits": []
+ },
+ {
+  "name": "Port Vale",
+  "hits": []
+ },
+ {
+  "name": "Reading",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent head coaches in the last three seasons: Ruben Selles (left Dec 2024), Noel Hunt (sacked 26 Oct 2025), Leam Richardson (appointed 28 Oct 2025). Churn not counted in out3.",
+    "source": "https://www.readingfc.co.uk/news/2025/october/28/leam-richardson-appointed-reading-fc-manager/"
+   }
+  ]
+ },
+ {
+  "name": "Rochdale",
+  "hits": []
+ },
+ {
+  "name": "Rotherham United",
+  "hits": []
+ },
+ {
+  "name": "Salford City",
+  "hits": []
+ },
+ {
+  "name": "Sheffield Wednesday",
+  "hits": []
+ },
+ {
+  "name": "Shrewsbury Town",
+  "hits": [
+   {
+    "rule": "R2",
+    "factor": "O",
+    "delta": -1,
+    "evidence": "Announced takeover (Sept 2026, EFL/IFR approval given) by a consortium led by Scott Davidson, majority shareholder of Edinburgh club Spartans, with fellow Spartans board members Will Dotson and Craig Graham: a pending sale to a multi-club group.",
+    "source": "https://www.shrewsburytown.com/news/2026/september/11/american-consortium-seeking-to-acquire-shrewsbury-town-led-by-scott-davidson"
+   }
+  ]
+ },
+ {
+  "name": "Stevenage",
+  "hits": []
+ },
+ {
+  "name": "Stockport County",
+  "hits": []
+ },
+ {
+  "name": "Swindon Town",
+  "hits": []
+ },
+ {
+  "name": "Tranmere Rovers",
+  "hits": []
+ },
+ {
+  "name": "Walsall",
+  "hits": []
+ },
+ {
+  "name": "Wigan Athletic",
+  "hits": []
+ },
+ {
+  "name": "Wycombe Wanderers",
+  "hits": []
+ },
+ {
+  "name": "York City",
+  "hits": [
+   {
+    "rule": "R3",
+    "factor": "S",
+    "delta": -1,
+    "evidence": "Three permanent managers in the last three seasons: Adam Hinshelwood (left 28 Aug 2025), Stuart Maynard (sacked 26 Jul 2026), Scott Lindsey (Jul 2026). Churn not counted in out3.",
+    "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_York_City_F.C._season"
+   }
+  ]
+ }
+]

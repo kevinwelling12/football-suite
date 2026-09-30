@@ -76,7 +76,18 @@ function liveAt(h, a, raw, now = Date.now()) {
 // background worker so taps never freeze the page. update(k) first does a quick 150-season run on the page
 // so a change shows at once, then swaps in the full result when the worker sends it back.
 const QUICK_SIMS = 150;
-const runArgs = (k, sims) => ({results:state.results[k], draws:state.draws.cup, S:Object.assign(Sfor(k), sims ? {sims} : {}), status:state.status[k], live:liveFor(k)});
+// A postponed mark stops counting once the fixture has a newer date than the one it was marked on
+// (new marks store that date; older marks are plain 1 and give way when the ESPN sync moved the fixture).
+const baseDate = (k, id) => DATA[k].fixtures[id][COMPS_CFG[k].cup ? 2 : 1];
+function statusFor(k) {
+  const st = state.status[k] || {}, mv = DATA[k].moved || {}, out = {};
+  for (const [id, s] of Object.entries(st)) {
+    const stale = s && s.p && !s.d && (typeof s.p === 'string' ? s.p !== baseDate(k, id) : mv[id] != null);
+    if (stale) { out[id] = Object.assign({}, s); delete out[id].p; } else out[id] = s;
+  }
+  return out;
+}
+const runArgs = (k, sims) => ({results:state.results[k], draws:state.draws.cup, S:Object.assign(Sfor(k), sims ? {sims} : {}), status:statusFor(k), live:liveFor(k)});
 function runModel(k, a) { return COMPS_CFG[k].cup ? MODEL.runCup(COMP[k], a.results, a.draws, a.S) : MODEL.run(COMP[k], a.results, a.S, a.status, a.live); }
 let worker = null; const jobs = {}; let jobSeq = 0;
 function workerMain() {
@@ -126,7 +137,7 @@ function update(k) { if (worker) { finish(k, runModel(k, runArgs(k, QUICK_SIMS))
 function compute(k) { finish(k, runModel(k, runArgs(k))); }
 function finish(k, r, quick) {
   R[k] = r;
-  const km = DATA[k].kick || {}, st = state.status[k] || {}, src = DATA[k].fixtures, mine = state.results[k] || {}, si = COMPS_CFG[k].cup ? 5 : 4;
+  const km = DATA[k].kick || {}, st = statusFor(k), mv = DATA[k].moved || {}, src = DATA[k].fixtures, mine = state.results[k] || {}, si = COMPS_CFG[k].cup ? 5 : 4;
   for (const f of R[k].fx) {
     // One of Kevin's entries that disagrees with the tracker's data (nightly ESPN sync): flag it, never replace it.
     const b = src[f.id], r = mine[f.id];
@@ -134,6 +145,7 @@ function finish(k, r, quick) {
     const s = st[f.id] || {}, x = km[f.id];
     if (s.d) { f.date = s.d; f.kt = s.t ? new Date(s.d + 'T' + s.t).getTime() : null; f.moved = true; }
     else f.kt = x && x[1] ? Date.parse(x[0]) : null;
+    if (!s.d && mv[f.id] != null && !f.played) f.moved = true;
     f.postponed = !f.played && !!s.p; f.awarded = f.played && !!s.aw;
     f.sortT = f.kt || Date.parse(f.date + 'T19:00:00Z');
   }
@@ -1153,7 +1165,7 @@ document.addEventListener('click', e => {
   if (t.dataset.unlive) { delete state.live[k][+t.dataset.unlive]; update(k); render(); save(k); return; }
   if (t.dataset.pp || t.dataset.unpp || t.dataset.move) {
     const id = +(t.dataset.pp || t.dataset.unpp || t.dataset.move), st = state.status[k][id] = Object.assign({}, state.status[k][id]);
-    if (t.dataset.pp) { st.p = 1; delete st.d; delete st.t; }
+    if (t.dataset.pp) { st.p = baseDate(k, id); delete st.d; delete st.t; }
     else if (t.dataset.unpp) delete st.p;
     else { const d = $('#nd-' + id).value, tm = $('#nt-' + id).value; if (!d) return; st.d = d; if (tm) st.t = tm; else delete st.t; delete st.p; }
     update(k); render(); save(k); return;

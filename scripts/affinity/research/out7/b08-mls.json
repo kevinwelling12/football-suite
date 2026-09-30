@@ -1,0 +1,242 @@
+[
+ {
+  "name": "Atlanta United",
+  "C": 7.3,
+  "V": 6.0,
+  "H": 3.2,
+  "O": 6.0,
+  "why": "C +0.3 league-high crowds (44k) and six groups despite NFL stadium; H +0.2 MLS Cup and Open Cup within three seasons"
+ },
+ {
+  "name": "Austin FC",
+  "C": 7.2,
+  "V": 6.0,
+  "H": 2.0,
+  "O": 5.0,
+  "why": "C +0.2 every home match sold out since 2021, though a small 20.7k ground"
+ },
+ {
+  "name": "CF Montréal",
+  "C": 4.8,
+  "V": 6.0,
+  "H": 5.9,
+  "O": 4.8,
+  "why": "C -0.2 support fragmented after ultras ban and group splits; H -0.1 older roots but thin MLS honours; O -0.2 rebrand imposed over fans, ultras banned"
+ },
+ {
+  "name": "Charlotte FC",
+  "C": 5.2,
+  "V": 6.0,
+  "H": 1.0,
+  "O": 4.8,
+  "why": "C +0.2 30k+ crowds, strongest attendance among the 5s; O -0.2 owner Tepper fined by the NFL for throwing a drink at fans (2024)"
+ },
+ {
+  "name": "Chicago Fire FC",
+  "C": 6.0,
+  "V": 6.0,
+  "H": 6.2,
+  "O": 6.2,
+  "why": "H +0.2 1998 double, four Open Cups, a Shield; O +0.2 owner privately funding a soccer stadium, ambitious signings"
+ },
+ {
+  "name": "Colorado Rapids",
+  "C": 4.9,
+  "V": 6.0,
+  "H": 5.0,
+  "O": 4.0,
+  "why": "C -0.1 suburban ground, modest atmosphere reports"
+ },
+ {
+  "name": "Columbus Crew",
+  "C": 8.2,
+  "V": 6.0,
+  "H": 7.2,
+  "O": 7.2,
+  "why": "C +0.2 fans' #SaveTheCrew defeated relocation, attendance records 2023; H +0.2 founding member, first soccer stadium, three MLS Cups; O +0.2 owners bought the club to keep it and built a downtown stadium"
+ },
+ {
+  "name": "D.C. United",
+  "C": 7.0,
+  "V": 6.0,
+  "H": 8.0,
+  "O": 4.8,
+  "why": "O -0.2 long run of poor results under current owners"
+ },
+ {
+  "name": "FC Cincinnati",
+  "C": 8.1,
+  "V": 6.0,
+  "H": 4.0,
+  "O": 7.1,
+  "why": "C +0.1 big crowds since USL days, Over-the-Rhine march; O +0.1 local owners, privately built stadium"
+ },
+ {
+  "name": "FC Dallas",
+  "C": 5.2,
+  "V": 7.3,
+  "H": 5.8,
+  "O": 6.2,
+  "why": "C +0.2 attendance drop is temporary (renovation), ultras stand coming; V +0.3 one of the best homegrown pathways in MLS; H -0.2 founding member but no MLS Cup; O +0.2 long-term owners investing $182m in stadium and academy"
+ },
+ {
+  "name": "Houston Dynamo FC",
+  "C": 5.0,
+  "V": 6.0,
+  "H": 5.3,
+  "O": 5.0,
+  "why": "H +0.3 two MLS Cups and two Open Cups"
+ },
+ {
+  "name": "Inter Miami CF",
+  "C": 5.1,
+  "V": 3.0,
+  "H": 3.3,
+  "O": 4.0,
+  "why": "C +0.1 new stadium sold out with constant drumming, support largely Messi-driven; H +0.3 MLS Cup, Shield and Leagues Cup within six seasons"
+ },
+ {
+  "name": "LA Galaxy",
+  "C": 6.0,
+  "V": 5.0,
+  "H": 8.2,
+  "O": 5.0,
+  "why": "H +0.2 record six MLS Cups (latest 2024), Beckham era"
+ },
+ {
+  "name": "Los Angeles Football Club",
+  "C": 8.3,
+  "V": 6.0,
+  "H": 3.3,
+  "O": 5.0,
+  "why": "C +0.3 3252 safe-standing end, sold out since 2018, among MLS's loudest; H +0.3 two Shields, MLS Cup, Open Cup in eight seasons"
+ },
+ {
+  "name": "Minnesota United FC",
+  "C": 7.1,
+  "V": 6.0,
+  "H": 4.8,
+  "O": 6.0,
+  "why": "C +0.1 Wonderwall and permanent drumline; H -0.2 MLS only since 2017, lower-division roots"
+ },
+ {
+  "name": "Nashville SC",
+  "C": 7.1,
+  "V": 5.0,
+  "H": 2.3,
+  "O": 6.0,
+  "why": "C +0.1 26k+ average in the largest soccer stadium; H +0.3 USL years and the 2025 Open Cup"
+ },
+ {
+  "name": "New England Revolution",
+  "C": 5.0,
+  "V": 6.0,
+  "H": 5.1,
+  "O": 4.2,
+  "why": "H +0.1 founding member, five MLS Cup finals, Open Cup, record Shield; O +0.2 owners now committing ~$500m to an Everett stadium after years of neglect"
+ },
+ {
+  "name": "New York City Football Club",
+  "C": 6.0,
+  "V": 4.0,
+  "H": 3.0,
+  "O": 1.0,
+  "why": ""
+ },
+ {
+  "name": "Orlando City",
+  "C": 7.0,
+  "V": 6.0,
+  "H": 4.1,
+  "O": 6.0,
+  "why": "H +0.1 two USL Pro titles before MLS, 2022 Open Cup"
+ },
+ {
+  "name": "Philadelphia Union",
+  "C": 8.1,
+  "V": 7.2,
+  "H": 4.9,
+  "O": 5.0,
+  "why": "C +0.1 Sons of Ben campaigned for the club before it existed; V +0.2 academy with its own school, strong homegrown pathway; H -0.1 two Shields but no MLS Cup"
+ },
+ {
+  "name": "Portland Timbers",
+  "C": 9.8,
+  "V": 8.0,
+  "H": 7.3,
+  "O": 5.8,
+  "why": "C -0.2 crowds ~88% of capacity in 2026, below other 10s; H +0.3 1975 NASL roots, same ground for a century, 'Soccer City USA'; O -0.2 owner's past misconduct counts half, third coach since 2023"
+ },
+ {
+  "name": "Real Salt Lake",
+  "C": 6.0,
+  "V": 6.0,
+  "H": 5.0,
+  "O": 7.1,
+  "why": "O +0.1 respected local owners (Miller family) since 2025"
+ },
+ {
+  "name": "Red Bull New York",
+  "C": 4.8,
+  "V": 5.0,
+  "H": 5.0,
+  "O": 2.0,
+  "why": "C -0.2 ultras group banned, 2023 supporter walkout, stadium rarely full"
+ },
+ {
+  "name": "San Diego FC",
+  "C": 6.1,
+  "V": 6.1,
+  "H": 1.0,
+  "O": 5.0,
+  "why": "C +0.1 28k average and 3,000 safe standing in year one, opener marred by a homophobic chant; V +0.1 club-supporter 'Aqui No' campaign, Right to Dream academy"
+ },
+ {
+  "name": "San Jose Earthquakes",
+  "C": 5.0,
+  "V": 6.0,
+  "H": 6.1,
+  "O": 3.0,
+  "why": "H +0.1 1974 NASL name, two MLS Cups, interrupted 2006-07"
+ },
+ {
+  "name": "Seattle Sounders FC",
+  "C": 8.2,
+  "V": 7.8,
+  "H": 7.2,
+  "O": 5.2,
+  "why": "C +0.2 31k+ average and ECS march, held back by NFL stadium; V -0.2 casino sleeve with a sportsbook inside counts partly; H +0.2 MLS Cups, 2022 CONCACAF title, 1974 roots; O +0.2 formal fan vote on the GM and local families, offset by pending change"
+ },
+ {
+  "name": "Sporting Kansas City",
+  "C": 7.0,
+  "V": 6.0,
+  "H": 6.3,
+  "O": 6.0,
+  "why": "H +0.3 founding member, two MLS Cups, four Open Cups"
+ },
+ {
+  "name": "St. Louis CITY SC",
+  "C": 8.0,
+  "V": 5.0,
+  "H": 2.8,
+  "O": 7.0,
+  "why": "H -0.2 no honours yet, credit only for the city's soccer heritage"
+ },
+ {
+  "name": "Toronto FC",
+  "C": 6.0,
+  "V": 6.0,
+  "H": 6.1,
+  "O": 4.0,
+  "why": "H +0.1 2017 treble, 2018 CONCACAF final"
+ },
+ {
+  "name": "Vancouver Whitecaps FC",
+  "C": 6.0,
+  "V": 6.0,
+  "H": 7.1,
+  "O": 3.8,
+  "why": "H +0.1 Soccer Bowl '79 champions, 2025 MLS Cup final; O -0.2 club for sale since 2024, the only public bid (2026) would move it to Las Vegas"
+ }
+]

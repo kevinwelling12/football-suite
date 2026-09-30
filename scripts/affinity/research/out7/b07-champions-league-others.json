@@ -1,0 +1,250 @@
+[
+ {
+  "name": "AEK Athens",
+  "C": 8.3,
+  "V": 6.0,
+  "H": 7.7,
+  "O": 6.2,
+  "why": "C +0.3 elite ultras atmosphere, held to 8 only by the new-stadium drop; H -0.3 modest European record for an 8; O +0.2 owner rebuilt the club after 2013 and financed the stadium"
+ },
+ {
+  "name": "Atlético Madrid",
+  "C": 8.0,
+  "V": 3.7,
+  "H": 9.3,
+  "O": 3.8,
+  "why": "V -0.3 Saudi state airline on both shirt and stadium name; H +0.3 11 league titles, 3 Europa Leagues and 3 European Cup finals, close to 10; O -0.2 controversial SAD conversion, no member voice"
+ },
+ {
+  "name": "Barcelona",
+  "C": 6.7,
+  "V": 7.8,
+  "H": 10.0,
+  "O": 6.2,
+  "why": "C -0.3 touristy, quiet crowds and Camp Nou still partly reopened; V -0.2 Negreira referee-payments case; O +0.2 member-owned with an elected president, stronger structure than a typical 6"
+ },
+ {
+  "name": "Bayern Munich",
+  "C": 7.3,
+  "V": 6.2,
+  "H": 10.0,
+  "O": 8.8,
+  "why": "C +0.3 75,000 sell-outs and an organised Südkurve, near 8; V +0.2 large member club with low standing prices and a strong women's team; O -0.2 corporate stakes (Adidas, Allianz, Audi) in the AG"
+ },
+ {
+  "name": "Bodø/Glimt",
+  "C": 7.8,
+  "V": 9.0,
+  "H": 5.2,
+  "O": 9.2,
+  "why": "C -0.2 small 8,270 ground, at 8 through the announced new stadium; H +0.2 four titles since 2020, first Norwegian European semi-final; O +0.2 member association with no private owner, close to 10"
+ },
+ {
+  "name": "Borussia Dortmund",
+  "C": 10.0,
+  "V": 7.0,
+  "H": 9.2,
+  "O": 8.0,
+  "why": "H +0.2 1997 Champions League, first German European trophy and two recent UCL finals"
+ },
+ {
+  "name": "Club Brugge",
+  "C": 7.8,
+  "V": 5.0,
+  "H": 7.3,
+  "O": 6.0,
+  "why": "C -0.2 ground fills mainly for big games, at 8 through the permitted new stadium; H +0.3 only Belgian European Cup finalist, 20 titles and record 12 cups"
+ },
+ {
+  "name": "Como",
+  "C": 5.0,
+  "V": 4.8,
+  "H": 4.2,
+  "O": 4.2,
+  "why": "V -0.2 imported squad and sharply higher ticket prices; H +0.2 first Champions League qualification on top of the 1980s Serie A spells; O +0.2 stable family owner rather than a fund"
+ },
+ {
+  "name": "Fenerbahçe",
+  "C": 10.0,
+  "V": 2.0,
+  "H": 8.0,
+  "O": 4.8,
+  "why": "O -0.2 UEFA spending-limit fine, FIFA transfer ban and frequent presidential turnover"
+ },
+ {
+  "name": "Feyenoord",
+  "C": 10.0,
+  "V": 5.0,
+  "H": 9.1,
+  "O": 7.0,
+  "why": "H +0.1 1970 European Cup and Intercontinental Cup, two UEFA Cups"
+ },
+ {
+  "name": "Galatasaray",
+  "C": 10.0,
+  "V": 4.0,
+  "H": 8.8,
+  "O": 5.0,
+  "why": "H -0.2 one European trophy (2000 UEFA Cup), lighter than the other 9s"
+ },
+ {
+  "name": "Inter Milan",
+  "C": 9.2,
+  "V": 4.0,
+  "H": 10.0,
+  "O": 4.0,
+  "why": "C +0.2 highest home attendance in Italy and major Curva Nord choreographies"
+ },
+ {
+  "name": "LASK",
+  "C": 6.0,
+  "V": 4.0,
+  "H": 5.2,
+  "O": 6.0,
+  "why": "H +0.2 2025-26 double and first UCL league phase"
+ },
+ {
+  "name": "Lens",
+  "C": 10.0,
+  "V": 8.2,
+  "H": 7.0,
+  "O": 6.0,
+  "why": "V +0.2 club kept alive by the town after the pit closures, local sponsor to 2031"
+ },
+ {
+  "name": "Lille",
+  "C": 6.0,
+  "V": 7.0,
+  "H": 7.2,
+  "O": 4.0,
+  "why": "H +0.2 four French titles and a 1940s-50s golden era"
+ },
+ {
+  "name": "Napoli",
+  "C": 10.0,
+  "V": 7.0,
+  "H": 8.3,
+  "O": 5.0,
+  "why": "H +0.3 Maradona era, 1989 UEFA Cup and four Serie A titles, close to 9"
+ },
+ {
+  "name": "PSV Eindhoven",
+  "C": 7.0,
+  "V": 7.2,
+  "H": 8.3,
+  "O": 7.0,
+  "why": "V +0.2 regional-consortium shirt sponsor, no betting partner, academy and women's team; H +0.3 1988 European Cup treble and 1978 UEFA Cup, close to 9"
+ },
+ {
+  "name": "Paris Saint-Germain",
+  "C": 8.2,
+  "V": 0.0,
+  "H": 8.3,
+  "O": 0.0,
+  "why": "C +0.2 record 47,639 average and loud Auteuil end; H +0.3 Champions League winners 2025 and 2026"
+ },
+ {
+  "name": "Porto",
+  "C": 8.2,
+  "V": 6.0,
+  "H": 9.3,
+  "O": 7.2,
+  "why": "C +0.2 loud Dragão and big away followings; H +0.3 two European Cups, two UEFA Cups, two Intercontinental Cups; O +0.2 members voted out Pinto da Costa and cleaned up the club"
+ },
+ {
+  "name": "RB Leipzig",
+  "C": 4.0,
+  "V": 4.0,
+  "H": 2.3,
+  "O": 1.0,
+  "why": "H +0.3 two DFB-Pokals and a UCL semi-final despite the 2009 founding"
+ },
+ {
+  "name": "Real Betis",
+  "C": 8.3,
+  "V": 8.0,
+  "H": 7.0,
+  "O": 5.0,
+  "why": "C +0.3 underlying 9 atmosphere, lowered only by the temporary move to La Cartuja"
+ },
+ {
+  "name": "Real Madrid",
+  "C": 6.8,
+  "V": 4.0,
+  "H": 10.0,
+  "O": 5.8,
+  "why": "C -0.2 full but quiet spectator crowd; O -0.2 unopposed president under restrictive candidacy rules, planned sale of a 5-10% stake"
+ },
+ {
+  "name": "Roma",
+  "C": 9.7,
+  "V": 5.0,
+  "H": 8.8,
+  "O": 4.0,
+  "why": "C -0.3 underlying Curva Sud 9, at 10 through the announced Pietralata stadium; H -0.2 three Serie A titles, lighter than the other 9s"
+ },
+ {
+  "name": "Sabah",
+  "C": 3.0,
+  "V": 4.0,
+  "H": 1.4,
+  "O": 3.0,
+  "why": "H +0.4 founded 2017 but already league and cup winners and in the UCL league phase"
+ },
+ {
+  "name": "Shakhtar Donetsk",
+  "C": 4.2,
+  "V": 6.2,
+  "H": 7.3,
+  "O": 4.2,
+  "why": "C +0.2 small crowds are war-forced exile, loyal core; V +0.2 extensive war-relief work; H +0.3 2009 UEFA Cup and a record 15 Ukrainian Cups; O +0.2 stable owner since 1996 with sensible investment"
+ },
+ {
+  "name": "Slavia Prague",
+  "C": 8.0,
+  "V": 5.0,
+  "H": 7.1,
+  "O": 5.0,
+  "why": "H +0.1 founded 1892, 1938 Mitropa Cup, 22 league titles"
+ },
+ {
+  "name": "Slovan Bratislava",
+  "C": 5.8,
+  "V": 4.0,
+  "H": 6.3,
+  "O": 5.0,
+  "why": "C -0.2 home crowds modest for the capacity; H +0.3 1969 Cup Winners' Cup, the only Czechoslovak/Slovak European trophy"
+ },
+ {
+  "name": "Sporting CP",
+  "C": 8.0,
+  "V": 6.2,
+  "H": 8.2,
+  "O": 8.2,
+  "why": "V +0.2 famed academy and a clean break with the ultras after Alcochete; H +0.2 1964 Cup Winners' Cup and academy influence on world football; O +0.2 members' club owns 88% of the SAD"
+ },
+ {
+  "name": "VfB Stuttgart",
+  "C": 9.0,
+  "V": 6.0,
+  "H": 8.0,
+  "O": 7.8,
+  "why": "O -0.2 Mercedes-Benz and Porsche stakes, board disputes over the Porsche buy-in"
+ },
+ {
+  "name": "Viking",
+  "C": 7.2,
+  "V": 8.0,
+  "H": 6.2,
+  "O": 8.0,
+  "why": "C +0.2 effectively sold out with several supporter groups; H +0.2 founded 1899, nine titles incl. 2025"
+ },
+ {
+  "name": "Villarreal",
+  "C": 6.2,
+  "V": 5.0,
+  "H": 5.4,
+  "O": 7.2,
+  "why": "C +0.2 23,000 ground in a town of 50,000, loyal local crowd; H +0.4 2021 Europa League and two UCL semi-finals; O +0.2 stable local owner-president since 1997"
+ }
+]

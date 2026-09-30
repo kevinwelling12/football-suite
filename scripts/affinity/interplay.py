@@ -8,8 +8,9 @@ bump = link / 3, capped at +/-2. Liverpool's four Dutch internationals (van Dijk
 
 Clubs (homegrown share): share of the squad eligible for the club's own national team, current squad plus every
 other season back to 2016 (research/domestic.json, from Wikipedia squad lists by interplay/parse_domestic.py),
-4-season half-life. Compared with the club's league (z-score): bump = 0.8 * z, capped at +/-2. Athletic Club
-(Basque players only) gets the most.
+4-season half-life. Compared with the club's own league (z-score): bump = 0.8 * z, capped at +/-2, and scaled down
+when few seasons are known (full at a recency weight of 2, e.g. the current squad plus one season). Welsh clubs count
+English players as domestic, Canadian clubs American ones. Athletic Club (Basque players only) is near the top.
 """
 import json, math, re, unicodedata, collections, pathlib
 root = pathlib.Path(__file__).resolve().parents[2]
@@ -62,20 +63,19 @@ def domestic(primary):
         for s in ss:
             if s.get('share') is None: continue
             w = 0.5 ** (s['age'] / HALF); num += w * s['share']; den += w
-        if den: share[c] = num / den
-    # peer group: own league; English clubs pooled across tiers; Champions League-only clubs vs all European top flights
-    grp = lambda k: 'eng' if k in ('epl', 'ch', 'cup') else 'eu1' if k in ('ucl', 'bl', 'esp', 'ita', 'fra') and False else k
+        if den: share[c] = (num / den, min(1.0, den / 2))
+    # peer group: the club's own league; Champions League-only clubs against all European top flights
     peers = collections.defaultdict(list)
-    for c, x in share.items():
+    for c, (x, _) in share.items():
         k = primary.get(c)
-        if k: peers[grp(k)].append(x)
-    ucl_pool = [x for c, x in share.items() if primary.get(c) in ('epl', 'bl', 'esp', 'ita', 'fra', 'ucl')]
+        if k: peers[k].append(x)
+    ucl_pool = [x for c, (x, _) in share.items() if primary.get(c) in ('epl', 'bl', 'esp', 'ita', 'fra', 'ucl')]
     out = {}
-    for c, x in share.items():
+    for c, (x, conf) in share.items():
         k = primary.get(c)
         if not k: continue
-        P = ucl_pool if k == 'ucl' else peers[grp(k)]
+        P = ucl_pool if k == 'ucl' else peers[k]
         if len(P) < 5: continue
         m = sum(P) / len(P); sd = math.sqrt(sum((p - m) ** 2 for p in P) / len(P)) or 1
-        out[c] = (round(max(-2.0, min(2.0, 0.8 * (x - m) / sd)), 1), round(x, 2), round(m, 2))
+        out[c] = (round(max(-2.0, min(2.0, 0.8 * (x - m) / sd * conf)), 1), round(x, 2), round(m, 2))
     return out

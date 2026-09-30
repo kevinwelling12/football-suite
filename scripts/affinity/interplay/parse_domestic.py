@@ -1,5 +1,6 @@
 """Domestic share per club and season from cached Wikipedia pages (fetch_squads.py): the share of squad-list
-players whose flag is the club's own country. -> research/domestic.json {club: [{s, age, share, n}]}
+players whose flag is the club's own country (Welsh clubs: Wales or England; Canadian clubs: Canada or the US).
+-> research/domestic.json {club: [{s, age, share, n, flags}]}
 python3 parse_domestic.py <cache dir>"""
 import json, re, sys, pathlib, urllib.parse
 from bs4 import BeautifulSoup
@@ -39,14 +40,17 @@ def squad_flags(html):
     return None
 out = {}
 for n, t in T.items():
-    home = 'Wales' if n in WALES else COUNTRY.get(co[n], co[n])
+    c0 = COUNTRY.get(co[n], co[n])
+    home = {'Wales', 'England'} if n in WALES else {'Canada', 'United States'} if c0 == 'Canada' else {c0}
     ss = []
     pages = [(t, 0, 'now')] + [((f'{2025 - i} {t} season' if comp[n] in CAL else f'{2025 - i}–{str(2026 - i)[2:]} {t} season'), i + 1 if comp[n] not in CAL else i + 1, str(2025 - i)) for i in range(0, 10, 2)]
     for title, age, lab in pages:
         f = cache / (title.replace('/', '_') + '.html')
         if not f.exists() or not f.stat().st_size: continue
         fl = squad_flags(f.read_text())
-        if fl: ss.append({'s': lab, 'age': age, 'share': round(sum(x == home for x in fl) / len(fl), 3), 'n': len(fl)})
+        if fl:
+            import collections
+            ss.append({'s': lab, 'age': age, 'share': round(sum(x in home for x in fl) / len(fl), 3), 'n': len(fl), 'flags': dict(collections.Counter(fl).most_common())})
     if ss: out[n] = ss
 (here.parent / 'research' / 'domestic.json').write_text(json.dumps(out, ensure_ascii=False, indent=0))
 print(len(out), 'clubs with data of', len(T))

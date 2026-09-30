@@ -1,0 +1,202 @@
+[
+ {
+  "name": "Birmingham Legion FC",
+  "C": 3.8,
+  "V": 6.0,
+  "H": 3.2,
+  "O": 5.0,
+  "why": "C -0.2 3,500 in a 47,000-seat bowl, crowds falling; H +0.2 2023 Open Cup win over an MLS side"
+ },
+ {
+  "name": "Brooklyn FC",
+  "C": 3.0,
+  "V": 7.1,
+  "H": 1.0,
+  "O": 4.8,
+  "why": "V +0.1 pro women's team since 2024, before the men; O -0.2 family-office owner, other stakes unverified"
+ },
+ {
+  "name": "Charleston Battery",
+  "C": 4.8,
+  "V": 6.0,
+  "H": 7.2,
+  "O": 4.8,
+  "why": "C -0.2 moved from a purpose-built stadium to a smaller complex; H +0.2 oldest continuously operating US pro club, four league titles; O -0.2 owner moved the club to a smaller venue"
+ },
+ {
+  "name": "Colorado Springs Switchbacks FC",
+  "C": 6.0,
+  "V": 6.0,
+  "H": 4.1,
+  "O": 6.2,
+  "why": "H +0.1 2024 USL title; O +0.2 local owner built the downtown stadium"
+ },
+ {
+  "name": "Detroit City FC",
+  "C": 9.0,
+  "V": 9.0,
+  "H": 4.7,
+  "O": 8.2,
+  "why": "H -0.3 founded 2012, no trophies; O +0.2 fan investment units, privately building a new stadium"
+ },
+ {
+  "name": "El Paso Locomotive FC",
+  "C": 5.0,
+  "V": 6.0,
+  "H": 3.2,
+  "O": 5.0,
+  "why": "H +0.2 two conference finals"
+ },
+ {
+  "name": "FC Tulsa",
+  "C": 4.8,
+  "V": 6.0,
+  "H": 3.7,
+  "O": 5.0,
+  "why": "C -0.2 4,200 at a baseball ground; H -0.3 no title, NASL name is homage not lineage"
+ },
+ {
+  "name": "Hartford Athletic",
+  "C": 4.8,
+  "V": 6.0,
+  "H": 3.9,
+  "O": 5.0,
+  "why": "C -0.2 crowds fell to 3,000 despite the historic ground; H -0.1 first trophy the 2025 USL Cup"
+ },
+ {
+  "name": "Indy Eleven",
+  "C": 7.1,
+  "V": 6.2,
+  "H": 5.0,
+  "O": 3.8,
+  "why": "C +0.1 8,600 average, Brickyard Battalion predates the club; V +0.2 women's team W League champions; O -0.2 Eleven Park stalled after clash with the city"
+ },
+ {
+  "name": "Las Vegas Lights FC",
+  "C": 2.8,
+  "V": 6.0,
+  "H": 2.0,
+  "O": 3.8,
+  "why": "C -0.2 2,800 average, last season at Cashman Field; O -0.2 no home ground secured for 2027"
+ },
+ {
+  "name": "Lexington SC",
+  "C": 4.8,
+  "V": 7.0,
+  "H": 1.2,
+  "O": 6.2,
+  "why": "C -0.2 4,800 in a 7,500 ground; H +0.2 promoted to the Championship in 2025; O +0.2 local owners privately built the stadium"
+ },
+ {
+  "name": "Loudoun United FC",
+  "C": 2.0,
+  "V": 6.1,
+  "H": 1.7,
+  "O": 4.0,
+  "why": "V +0.1 betting sponsor dropped, women's team added 2026; H -0.3 began as a reserve side"
+ },
+ {
+  "name": "Louisville City FC",
+  "C": 7.9,
+  "V": 7.0,
+  "H": 6.3,
+  "O": 6.9,
+  "why": "C -0.1 9,500 in a 15,300 ground; H +0.3 two USL titles and two Players' Shields; O -0.1 group exploring sale of its sister club"
+ },
+ {
+  "name": "Miami FC",
+  "C": 0.8,
+  "V": 6.0,
+  "H": 3.1,
+  "O": 2.9,
+  "why": "C -0.2 lowest crowd in the league, 924 in a 20,000 stadium; H +0.1 NASL spring and fall titles 2017; O -0.1 collapse in crowds and results"
+ },
+ {
+  "name": "Monterey Bay FC",
+  "C": 4.0,
+  "V": 6.0,
+  "H": 2.0,
+  "O": 5.0,
+  "why": ""
+ },
+ {
+  "name": "New Mexico United",
+  "C": 8.7,
+  "V": 7.4,
+  "H": 3.9,
+  "O": 7.0,
+  "why": "C -0.3 strong crowds but a baseball ground; V +0.4 casino-with-sportsbook sponsor counts only partly; H -0.1 no trophy yet, Open Cup run"
+ },
+ {
+  "name": "Oakland Roots SC",
+  "C": 6.0,
+  "V": 10.0,
+  "H": 3.6,
+  "O": 5.8,
+  "why": "H -0.4 founded 2018, no trophies; O -0.2 unsettled stadium plans"
+ },
+ {
+  "name": "Orange County SC",
+  "C": 4.2,
+  "V": 6.0,
+  "H": 4.2,
+  "O": 5.2,
+  "why": "C +0.2 fills 83% of a 5,000 ground; H +0.2 2021 USL title, since 2010; O +0.2 stable owner for a decade"
+ },
+ {
+  "name": "Phoenix Rising FC",
+  "C": 4.8,
+  "V": 5.4,
+  "H": 4.3,
+  "O": 5.0,
+  "why": "C -0.2 crowds down from 7,400 after several stadium moves; V +0.4 2020 slur incident punished, no repeat; H +0.3 2023 USL title and 2019 regular-season title"
+ },
+ {
+  "name": "Pittsburgh Riverhounds",
+  "C": 7.2,
+  "V": 6.0,
+  "H": 6.2,
+  "O": 6.3,
+  "why": "C +0.2 sells out its ground, Steel Army since 2007; H +0.2 since 1998, 2025 USL title; O +0.3 local owner rescued the club and funded the stadium"
+ },
+ {
+  "name": "Rhode Island FC",
+  "C": 6.9,
+  "V": 6.0,
+  "H": 2.2,
+  "O": 6.0,
+  "why": "C -0.1 supporters' culture still young; H +0.2 reached the final in its first season"
+ },
+ {
+  "name": "Sacramento Republic FC",
+  "C": 9.6,
+  "V": 8.2,
+  "H": 6.1,
+  "O": 8.0,
+  "why": "C -0.4 a 10,000 crowd, below the atmosphere of other 10s; V +0.2 first club owned by a tribal nation; H +0.1 2014 title and 2022 Open Cup final"
+ },
+ {
+  "name": "San Antonio FC",
+  "C": 6.0,
+  "V": 6.0,
+  "H": 4.1,
+  "O": 6.0,
+  "why": "H +0.1 2022 USL title"
+ },
+ {
+  "name": "Sporting JAX",
+  "C": 2.8,
+  "V": 7.0,
+  "H": 1.0,
+  "O": 4.8,
+  "why": "C -0.2 1,800 average, 24th of 25; O -0.2 CEO left March 2026"
+ },
+ {
+  "name": "Tampa Bay Rowdies",
+  "C": 5.9,
+  "V": 6.0,
+  "H": 6.8,
+  "O": 5.0,
+  "why": "C -0.1 about two-thirds full at Al Lang; H -0.2 NASL name revived, not a direct lineage"
+ }
+]

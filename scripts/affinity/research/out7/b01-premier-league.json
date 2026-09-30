@@ -1,0 +1,162 @@
+[
+ {
+  "name": "Arsenal",
+  "C": 7.2,
+  "V": 4.2,
+  "H": 9.3,
+  "O": 5.2,
+  "why": "C +0.2 licensed standing coming in both ends, singing sections improving; V +0.2 UWCL-winning women's side and Hale End pathway; H +0.3 record FA Cups, 2026 title and Champions League final; O +0.2 owner has funded a title-winning squad"
+ },
+ {
+  "name": "Aston Villa",
+  "C": 8.2,
+  "V": 4.7,
+  "H": 9.1,
+  "O": 4.8,
+  "why": "C +0.2 Holte End, stayed full through Championship years; V -0.3 betting sleeve plus Visit Rwanda chest; H +0.1 European Cup and 2026 Europa League; O -0.2 UEFA squad-cost breach forcing academy sales"
+ },
+ {
+  "name": "Bournemouth",
+  "C": 5.1,
+  "V": 5.0,
+  "H": 4.3,
+  "O": 5.2,
+  "why": "C +0.1 ground expansion under way; H +0.3 nine top-flight seasons, first European qualification 2026; O +0.2 owner bought the ground back and is expanding it"
+ },
+ {
+  "name": "Brentford",
+  "C": 6.0,
+  "V": 7.0,
+  "H": 5.0,
+  "O": 7.0,
+  "why": ""
+ },
+ {
+  "name": "Brighton",
+  "C": 6.1,
+  "V": 8.3,
+  "H": 5.2,
+  "O": 7.3,
+  "why": "C +0.1 regular sell-outs, loyal support; V +0.3 large community trust and planned purpose-built women's stadium; H +0.2 1983 Cup final, Goldstone fight, European campaign; O +0.3 local fan owner funded stadium and training ground, sustainable model"
+ },
+ {
+  "name": "Chelsea",
+  "C": 6.0,
+  "V": 3.0,
+  "H": 8.3,
+  "O": 1.0,
+  "why": "H +0.3 two Champions Leagues and two Club World Cups"
+ },
+ {
+  "name": "Coventry City",
+  "C": 7.0,
+  "V": 6.0,
+  "H": 6.0,
+  "O": 7.3,
+  "why": "O +0.3 local owner reunited club and ground, promoted as champions"
+ },
+ {
+  "name": "Crystal Palace",
+  "C": 8.3,
+  "V": 6.0,
+  "H": 6.4,
+  "O": 5.0,
+  "why": "C +0.3 Holmesdale Fanatics among England's loudest ends, stand rebuild started; H +0.4 2025 FA Cup and 2026 Conference League"
+ },
+ {
+  "name": "Everton",
+  "C": 8.3,
+  "V": 7.0,
+  "H": 9.0,
+  "O": 5.2,
+  "why": "C +0.3 near-full 52,000 crowds, would be 9 without the new-stadium rule; O +0.2 debt converted to equity, stadium refinanced"
+ },
+ {
+  "name": "Fulham",
+  "C": 5.2,
+  "V": 5.8,
+  "H": 5.2,
+  "O": 6.0,
+  "why": "C +0.2 characterful riverside ground; V -0.2 high prices, women's side not professional; H +0.2 oldest London club, 1975 and 2010 finals"
+ },
+ {
+  "name": "Hull City",
+  "C": 6.0,
+  "V": 6.0,
+  "H": 4.2,
+  "O": 4.7,
+  "why": "H +0.2 2014 FA Cup final and European qualifiers; O -0.3 high coach turnover, public legal threats"
+ },
+ {
+  "name": "Ipswich Town",
+  "C": 7.2,
+  "V": 6.0,
+  "H": 7.3,
+  "O": 5.0,
+  "why": "C +0.2 historic ground sells out, loyal through League One; H +0.3 1962 title, 1978 FA Cup, 1981 UEFA Cup"
+ },
+ {
+  "name": "Leeds United",
+  "C": 9.3,
+  "V": 6.0,
+  "H": 8.0,
+  "O": 5.2,
+  "why": "C +0.3 one of England's loudest grounds, huge away following, expansion approved; O +0.2 owner injected new equity for the expansion"
+ },
+ {
+  "name": "Liverpool",
+  "C": 10.0,
+  "V": 8.2,
+  "H": 10.0,
+  "O": 6.0,
+  "why": "V +0.2 supporters' union forced a price-rise reversal, strong foundation work"
+ },
+ {
+  "name": "Manchester City",
+  "C": 5.8,
+  "V": 3.0,
+  "H": 7.3,
+  "O": 0.0,
+  "why": "C -0.2 often quiet, empty seats in cup and European games; H +0.3 ten titles and 2023 treble"
+ },
+ {
+  "name": "Manchester United",
+  "C": 8.0,
+  "V": 3.2,
+  "H": 10.0,
+  "O": 2.0,
+  "why": "V +0.2 academy graduate in every matchday squad since 1937"
+ },
+ {
+  "name": "Newcastle United",
+  "C": 9.1,
+  "V": 4.0,
+  "H": 8.0,
+  "O": 0.0,
+  "why": "C +0.1 full city-centre ground, Wor Flags displays"
+ },
+ {
+  "name": "Nottingham Forest",
+  "C": 8.1,
+  "V": 4.7,
+  "H": 8.4,
+  "O": 3.8,
+  "why": "C +0.1 loud, sold out, loyal through the third tier; V -0.3 betting sleeve, attacks on referees; H +0.4 two European Cups; O -0.2 four coaches in a season, repeated conflicts"
+ },
+ {
+  "name": "Sunderland",
+  "C": 9.2,
+  "V": 5.8,
+  "H": 8.0,
+  "O": 6.2,
+  "why": "C +0.2 League One attendance record, large away following; V -0.2 crypto casino/betting sleeve; O +0.2 stable owners, young-player model, back in Europe"
+ },
+ {
+  "name": "Tottenham Hotspur",
+  "C": 7.0,
+  "V": 4.0,
+  "H": 7.4,
+  "O": 5.0,
+  "why": "H +0.4 1961 double, first British European trophy, three UEFA/Europa League wins"
+ }
+]

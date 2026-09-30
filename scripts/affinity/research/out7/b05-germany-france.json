@@ -1,0 +1,234 @@
+[
+ {
+  "name": "1. FC Köln",
+  "C": 9.2,
+  "V": 7.8,
+  "H": 7.9,
+  "O": 8.8,
+  "why": "C +0.2 near-capacity 50k, crowds held through relegations; V -0.2 league's most-fined club for fan pyro; H -0.1 three titles but no European trophy; O -0.2 governance lapses (2023 FIFA transfer ban)"
+ },
+ {
+  "name": "Bayer Leverkusen",
+  "C": 5.2,
+  "V": 6.0,
+  "H": 6.4,
+  "O": 4.3,
+  "why": "C +0.2 stadium full every week; H +0.4 2024 unbeaten double, UEFA Cup, 2002 final; O +0.3 company owner runs it stably and competently"
+ },
+ {
+  "name": "Borussia Mönchengladbach",
+  "C": 8.2,
+  "V": 7.0,
+  "H": 8.2,
+  "O": 9.2,
+  "why": "C +0.2 51k average, big loyal Nordkurve; H +0.2 five titles and two UEFA Cups; O +0.2 fully member-run, no investor at all"
+ },
+ {
+  "name": "Eintracht Frankfurt",
+  "C": 9.4,
+  "V": 7.2,
+  "H": 8.1,
+  "O": 8.0,
+  "why": "C +0.4 59k average and one of Europe's biggest away followings; V +0.2 public anti-racist stance; H +0.1 2022 Europa League, 1980 UEFA Cup"
+ },
+ {
+  "name": "FC Augsburg",
+  "C": 5.8,
+  "V": 6.0,
+  "H": 4.0,
+  "O": 4.8,
+  "why": "C -0.2 full but little atmosphere or away presence; O -0.2 investors hold the pro arm, Blitzer sale talk"
+ },
+ {
+  "name": "Hamburger SV",
+  "C": 9.3,
+  "V": 7.1,
+  "H": 8.3,
+  "O": 7.0,
+  "why": "C +0.3 57k at capacity through seven second-tier seasons; V +0.1 charity sleeve; H +0.3 1983 European Cup, six titles"
+ },
+ {
+  "name": "Mainz 05",
+  "C": 7.1,
+  "V": 8.2,
+  "H": 4.3,
+  "O": 8.3,
+  "why": "C +0.1 compact, loud Q-Block; V +0.2 climate-neutral and social work; H +0.3 top flight since 2009, Klopp/Tuchel roots, European run; O +0.3 member-run, no outside investor"
+ },
+ {
+  "name": "SC Freiburg",
+  "C": 7.0,
+  "V": 9.0,
+  "H": 5.2,
+  "O": 10.0,
+  "why": "H +0.2 cup final 2022 and long Streich-era continuity"
+ },
+ {
+  "name": "SC Paderborn",
+  "C": 4.8,
+  "V": 6.0,
+  "H": 3.0,
+  "O": 6.8,
+  "why": "C -0.2 small, fairly quiet support; O -0.2 recent financial difficulties, past patron reliance"
+ },
+ {
+  "name": "SV Elversberg",
+  "C": 4.0,
+  "V": 6.0,
+  "H": 2.0,
+  "O": 4.8,
+  "why": "O -0.2 rise financed by the Holzer family's company"
+ },
+ {
+  "name": "Schalke 04",
+  "C": 10.0,
+  "V": 6.2,
+  "H": 9.0,
+  "O": 7.8,
+  "why": "V +0.2 member cooperative financing instead of an investor; O -0.2 EUR 162m debt after years of mismanagement"
+ },
+ {
+  "name": "TSG Hoffenheim",
+  "C": 3.8,
+  "V": 4.8,
+  "H": 2.3,
+  "O": 3.0,
+  "why": "C -0.2 crowds below capacity, small fan scene; V -0.2 Wittmann affair and dismissals; H +0.3 in the top flight since 2008"
+ },
+ {
+  "name": "Union Berlin",
+  "C": 10.0,
+  "V": 8.9,
+  "H": 6.8,
+  "O": 10.0,
+  "why": "V -0.1 lighter thrown at Bochum keeper cost points; H -0.2 few trophies, identity-led history"
+ },
+ {
+  "name": "Werder Bremen",
+  "C": 8.1,
+  "V": 8.3,
+  "H": 8.1,
+  "O": 8.0,
+  "why": "C +0.1 near-full 41k, loud anti-racist Ostkurve; V +0.3 long anti-discrimination and CSR record; H +0.1 four titles, 1992 Cup Winners' Cup"
+ },
+ {
+  "name": "Angers",
+  "C": 4.6,
+  "V": 4.7,
+  "H": 4.0,
+  "O": 2.8,
+  "why": "C -0.4 among Ligue 1's lowest crowds, two-thirds full; V -0.3 former owner convicted of assaulting club staff; O -0.2 his family still owns it, DNCG restrictions"
+ },
+ {
+  "name": "Auxerre",
+  "C": 6.2,
+  "V": 6.3,
+  "H": 7.0,
+  "O": 5.0,
+  "why": "C +0.2 16k crowds in a town of 35k; V +0.3 historic academy"
+ },
+ {
+  "name": "Brest",
+  "C": 7.0,
+  "V": 8.7,
+  "H": 4.3,
+  "O": 7.1,
+  "why": "V -0.3 community club but short of the Freiburg/Union 9s; H +0.3 2024-25 Champions League run; O +0.1 prudent local family owners"
+ },
+ {
+  "name": "Le Havre",
+  "C": 5.8,
+  "V": 5.0,
+  "H": 6.2,
+  "O": 4.0,
+  "why": "C -0.2 stadium three-quarters full, average atmosphere; H +0.2 France's oldest club (1872), famous academy"
+ },
+ {
+  "name": "Le Mans",
+  "C": 5.8,
+  "V": 6.0,
+  "H": 4.0,
+  "O": 4.0,
+  "why": "C -0.2 stadium half empty despite loyal support"
+ },
+ {
+  "name": "Lorient",
+  "C": 6.3,
+  "V": 7.0,
+  "H": 4.2,
+  "O": 5.0,
+  "why": "C +0.3 near-full town-centre ground, Merlus Ultras; H +0.2 2002 Coupe de France, 18 top-flight seasons"
+ },
+ {
+  "name": "Lyon",
+  "C": 7.8,
+  "V": 5.0,
+  "H": 8.2,
+  "O": 4.0,
+  "why": "C -0.2 stadium 84% full; H +0.2 seven straight titles plus the women's European dynasty"
+ },
+ {
+  "name": "Marseille",
+  "C": 10.0,
+  "V": 3.0,
+  "H": 9.2,
+  "O": 3.8,
+  "why": "H +0.2 France's only Champions League winner; O -0.2 owner has stopped funding, 2026 governance shake-up"
+ },
+ {
+  "name": "Monaco",
+  "C": 3.6,
+  "V": 3.8,
+  "H": 7.4,
+  "O": 3.0,
+  "why": "C -0.4 lowest crowds in Ligue 1 (8k); V -0.2 DR Congo state tourism sleeve on top of VBET; H +0.4 eight titles, 2004 Champions League final"
+ },
+ {
+  "name": "Nice",
+  "C": 5.8,
+  "V": 2.0,
+  "H": 5.4,
+  "O": 2.8,
+  "why": "C -0.2 stadium 61% full; H +0.4 four titles and three Coupes de France; O -0.2 failed sale, planned partial sale with cost cuts"
+ },
+ {
+  "name": "Paris FC",
+  "C": 4.0,
+  "V": 3.7,
+  "H": 3.0,
+  "O": 5.0,
+  "why": "V -0.3 Bahrain state brand as main sponsor plus Bwin"
+ },
+ {
+  "name": "Rennes",
+  "C": 7.0,
+  "V": 6.0,
+  "H": 5.1,
+  "O": 5.2,
+  "why": "H +0.1 three Coupes de France, regular European football; O +0.2 stable Pinault ownership since 1998"
+ },
+ {
+  "name": "Strasbourg",
+  "C": 9.2,
+  "V": 4.8,
+  "H": 6.9,
+  "O": 3.0,
+  "why": "C +0.2 full Meinau, one of France's best atmospheres; V -0.2 betting brand as main shirt sponsor; H -0.1 one title and three cups"
+ },
+ {
+  "name": "Toulouse",
+  "C": 5.8,
+  "V": 5.0,
+  "H": 4.8,
+  "O": 4.0,
+  "why": "C -0.2 stadium three-quarters full, moderate atmosphere; H -0.2 one modern cup, older titles belong to a defunct club"
+ },
+ {
+  "name": "Troyes",
+  "C": 3.6,
+  "V": 3.0,
+  "H": 3.8,
+  "O": 1.0,
+  "why": "C -0.4 8k in a 20k stadium; H -0.2 current club only founded in 1986"
+ }
+]

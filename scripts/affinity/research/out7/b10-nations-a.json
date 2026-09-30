@@ -1,0 +1,218 @@
+[
+ {
+  "name": "Albania",
+  "C": 8.0,
+  "V": 4.0,
+  "H": 3.3,
+  "O": 3.9,
+  "why": "H +0.3 two Euros (2016, 2024), most of the 3s without a tournament; O -0.1 same president since 2002, close to the state stadium project"
+ },
+ {
+  "name": "Andorra",
+  "C": 3.0,
+  "V": 6.0,
+  "H": 1.0,
+  "O": 5.0,
+  "why": ""
+ },
+ {
+  "name": "Armenia",
+  "C": 6.1,
+  "V": 6.0,
+  "H": 2.8,
+  "O": 5.0,
+  "why": "C +0.1 full home crowds and diaspora support; H -0.2 never qualified for a tournament"
+ },
+ {
+  "name": "Austria",
+  "C": 7.2,
+  "V": 6.0,
+  "H": 6.2,
+  "O": 5.8,
+  "why": "C +0.2 Ernst Happel sell-outs, large Euro 2024 following; H +0.2 Wunderteam, 3rd 1954, Córdoba 1978; O -0.2 president turnover 2023-25"
+ },
+ {
+  "name": "Azerbaijan",
+  "C": 3.0,
+  "V": 2.9,
+  "H": 1.0,
+  "O": 1.0,
+  "why": "V -0.1 state 'Land of Fire' image sponsorship"
+ },
+ {
+  "name": "Belarus",
+  "C": 1.8,
+  "V": 2.8,
+  "H": 2.0,
+  "O": 1.0,
+  "why": "C -0.2 home matches abroad behind closed doors since 2022; V -0.2 hosting ban tied to the invasion of Ukraine"
+ },
+ {
+  "name": "Belgium",
+  "C": 6.0,
+  "V": 6.0,
+  "H": 7.2,
+  "O": 6.0,
+  "why": "H +0.2 3rd 2018, FIFA No. 1 2015-22, Euro 1980 final, 2026 quarter-final"
+ },
+ {
+  "name": "Bosnia and Herzegovina",
+  "C": 8.0,
+  "V": 5.0,
+  "H": 4.2,
+  "O": 3.0,
+  "why": "H +0.2 two World Cups (2014, 2026), 2026 play-off win over Italy"
+ },
+ {
+  "name": "Bulgaria",
+  "C": 4.8,
+  "V": 4.0,
+  "H": 5.3,
+  "O": 3.0,
+  "why": "C -0.2 small crowds, long ultras boycott; H +0.3 4th 1994, seven World Cups"
+ },
+ {
+  "name": "Croatia",
+  "C": 8.0,
+  "V": 3.0,
+  "H": 8.3,
+  "O": 3.0,
+  "why": "H +0.3 2018 final, 3rd 1998 and 2022 within 35 years"
+ },
+ {
+  "name": "Cyprus",
+  "C": 3.8,
+  "V": 6.0,
+  "H": 2.0,
+  "O": 4.0,
+  "why": "C -0.2 national team draws less than the club rivalries"
+ },
+ {
+  "name": "Czech Republic",
+  "C": 6.0,
+  "V": 5.0,
+  "H": 8.2,
+  "O": 2.9,
+  "why": "H +0.2 Euro 1976 winners, World Cup finals 1934 and 1962, Euro 1996 final; O -0.1 chairman and vice-chair detained in two corruption cases"
+ },
+ {
+  "name": "Denmark",
+  "C": 8.2,
+  "V": 8.1,
+  "H": 7.3,
+  "O": 7.2,
+  "why": "C +0.2 Roligans, Parken sell-outs, big friendly travel; V +0.1 open stance against FIFA over Qatar; H +0.3 Euro 1992 winners; O +0.2 stable, transparent, reform voice in UEFA/FIFA"
+ },
+ {
+  "name": "England",
+  "C": 8.0,
+  "V": 5.2,
+  "H": 10.0,
+  "O": 7.0,
+  "why": "V +0.2 no betting partner, heavy investment in the women's team"
+ },
+ {
+  "name": "Estonia",
+  "C": 4.0,
+  "V": 6.0,
+  "H": 1.3,
+  "O": 4.8,
+  "why": "H +0.3 pre-war national team, Euro 2012 play-offs; O -0.2 same president since 2007"
+ },
+ {
+  "name": "Faroe Islands",
+  "C": 7.0,
+  "V": 7.0,
+  "H": 3.0,
+  "O": 6.0,
+  "why": ""
+ },
+ {
+  "name": "Finland",
+  "C": 6.1,
+  "V": 7.0,
+  "H": 2.3,
+  "O": 6.0,
+  "why": "C +0.1 thousands travelled to Euro 2020, organised group Pohjoispääty; H +0.3 one major tournament (Euro 2020), more than the other 2s"
+ },
+ {
+  "name": "France",
+  "C": 6.0,
+  "V": 4.9,
+  "H": 10.0,
+  "O": 5.2,
+  "why": "V -0.1 Betclic betting sponsor and hijab ban against a diverse squad; O +0.2 Le Graët resigned 2023, consequences and no repeat"
+ },
+ {
+  "name": "Georgia",
+  "C": 9.0,
+  "V": 5.0,
+  "H": 4.0,
+  "O": 3.0,
+  "why": ""
+ },
+ {
+  "name": "Germany",
+  "C": 6.0,
+  "V": 6.0,
+  "H": 10.0,
+  "O": 5.0,
+  "why": ""
+ },
+ {
+  "name": "Gibraltar",
+  "C": 2.9,
+  "V": 6.0,
+  "H": 0.8,
+  "O": 5.0,
+  "why": "C -0.1 about 2,000 crowds; H -0.2 UEFA member only since 2013"
+ },
+ {
+  "name": "Greece",
+  "C": 6.0,
+  "V": 5.0,
+  "H": 7.1,
+  "O": 2.8,
+  "why": "H +0.1 Euro 2004 winners; O -0.2 FIFA suspension 2006, temporary administration 2015, ex-presidents convicted"
+ },
+ {
+  "name": "Hungary",
+  "C": 8.1,
+  "V": 2.0,
+  "H": 8.0,
+  "O": 2.9,
+  "why": "C +0.1 very loud, Puskás Aréna sell-outs; O -0.1 president close to the Orbán government, state-funded TAO scheme"
+ },
+ {
+  "name": "Iceland",
+  "C": 8.2,
+  "V": 7.0,
+  "H": 5.0,
+  "O": 5.2,
+  "why": "C +0.2 Viking clap, 8-10% of the population at Euro 2016; O +0.2 board resigned 2021 over misconduct handling, reformed since"
+ },
+ {
+  "name": "Israel",
+  "C": 3.8,
+  "V": 3.0,
+  "H": 3.1,
+  "O": 4.8,
+  "why": "C -0.2 home matches in Hungary with small crowds; H +0.1 one World Cup (1970); O -0.2 settlement clubs in the league"
+ },
+ {
+  "name": "Italy",
+  "C": 6.0,
+  "V": 5.0,
+  "H": 10.0,
+  "O": 4.0,
+  "why": ""
+ },
+ {
+  "name": "Kazakhstan",
+  "C": 4.0,
+  "V": 4.0,
+  "H": 2.0,
+  "O": 3.0,
+  "why": ""
+ }
+]

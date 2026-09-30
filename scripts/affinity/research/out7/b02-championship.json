@@ -1,0 +1,194 @@
+[
+ {
+  "name": "Birmingham City",
+  "C": 7.3,
+  "V": 3.8,
+  "H": 6.0,
+  "O": 5.2,
+  "why": "C +0.3 St Andrew's sells out, large away following; V -0.2 women's team 97% sold off, stadium renamed after owner; O +0.2 heavy investment and stadium plan welcomed by fans"
+ },
+ {
+  "name": "Blackburn Rovers",
+  "C": 5.8,
+  "V": 6.0,
+  "H": 7.4,
+  "O": 1.8,
+  "why": "C -0.2 Ewood often under half full; H +0.4 Premier League champions 1995, two league titles, six FA Cups; O -0.2 absentee Venky's, two relegations to League One"
+ },
+ {
+  "name": "Bolton Wanderers",
+  "C": 7.0,
+  "V": 6.2,
+  "H": 6.8,
+  "O": 5.3,
+  "why": "V +0.2 fan bond scheme gave supporters a stake; H -0.2 four FA Cups but no league title; O +0.3 rescued club in 2019, owners cover losses"
+ },
+ {
+  "name": "Bristol City",
+  "C": 6.1,
+  "V": 6.0,
+  "H": 4.8,
+  "O": 6.8,
+  "why": "C +0.1 safe standing and 20,000+ crowds; H -0.2 no major trophy; O -0.2 owner in talks to sell a majority to a betting-firm owner"
+ },
+ {
+  "name": "Burnley",
+  "C": 7.3,
+  "V": 6.0,
+  "H": 7.3,
+  "O": 2.8,
+  "why": "C +0.3 best-supported per head, Turf Moor since 1883; H +0.3 two league titles and an FA Cup; O -0.2 owner-linked debts and CEO exit beyond the LBO"
+ },
+ {
+  "name": "Cardiff City",
+  "C": 7.0,
+  "V": 5.0,
+  "H": 6.2,
+  "O": 2.0,
+  "why": "H +0.2 only non-English FA Cup winner (1927)"
+ },
+ {
+  "name": "Charlton Athletic",
+  "C": 7.3,
+  "V": 8.0,
+  "H": 6.0,
+  "O": 3.8,
+  "why": "C +0.3 fans won the Valley return (Valley Party, Valley Gold); O -0.2 owners exploring a sale"
+ },
+ {
+  "name": "Derby County",
+  "C": 8.2,
+  "V": 6.0,
+  "H": 7.4,
+  "O": 7.7,
+  "why": "C +0.2 27,000 average even in League One; H +0.4 two league titles, European Cup semi-final; O -0.3 owner agreed a sale to a Saudi-linked consortium in 2026 (it fell through)"
+ },
+ {
+  "name": "Lincoln City",
+  "C": 7.0,
+  "V": 7.2,
+  "H": 4.0,
+  "O": 7.0,
+  "why": "V +0.2 supporters' trust holds 8% with seats on both boards"
+ },
+ {
+  "name": "Middlesbrough",
+  "C": 6.0,
+  "V": 5.0,
+  "H": 6.2,
+  "O": 8.3,
+  "why": "H +0.2 League Cup 2004 and UEFA Cup final 2006; O +0.3 Gibson local owner since 1994 who saved the club"
+ },
+ {
+  "name": "Millwall",
+  "C": 8.2,
+  "V": 4.0,
+  "H": 5.0,
+  "O": 6.2,
+  "why": "C +0.2 one of England's loudest grounds, record crowds since 1953; O +0.2 long-term stable Berylson ownership covering losses"
+ },
+ {
+  "name": "Norwich City",
+  "C": 7.2,
+  "V": 7.0,
+  "H": 5.4,
+  "O": 6.0,
+  "why": "C +0.2 Carrow Road near full, one of the oldest club songs; H +0.4 two League Cups, 3rd in first Premier League, win at Bayern"
+ },
+ {
+  "name": "Portsmouth",
+  "C": 8.3,
+  "V": 7.0,
+  "H": 8.0,
+  "O": 7.2,
+  "why": "C +0.3 sells out, loyal through two administrations and League Two; O +0.2 Eisner stable and invested in Fratton Park"
+ },
+ {
+  "name": "Preston North End",
+  "C": 5.0,
+  "V": 4.0,
+  "H": 8.0,
+  "O": 6.0,
+  "why": ""
+ },
+ {
+  "name": "Queens Park Rangers",
+  "C": 6.0,
+  "V": 5.0,
+  "H": 5.0,
+  "O": 4.0,
+  "why": ""
+ },
+ {
+  "name": "Sheffield United",
+  "C": 8.2,
+  "V": 5.0,
+  "H": 7.3,
+  "O": 1.0,
+  "why": "C +0.2 Bramall Lane near full, oldest major stadium; H +0.3 league title and four FA Cups, Sheffield's role in the early game"
+ },
+ {
+  "name": "Southampton",
+  "C": 7.0,
+  "V": 5.0,
+  "H": 6.7,
+  "O": 3.8,
+  "why": "H -0.3 one FA Cup, thinner than other 7s; O -0.2 relegation and director departure under Sport Republic"
+ },
+ {
+  "name": "Stoke City",
+  "C": 7.0,
+  "V": 3.0,
+  "H": 6.2,
+  "O": 6.0,
+  "why": "H +0.2 founded 1863, League Cup 1972, Stanley Matthews"
+ },
+ {
+  "name": "Swansea City",
+  "C": 6.0,
+  "V": 8.0,
+  "H": 6.2,
+  "O": 6.0,
+  "why": "H +0.2 rise to top of the First Division, League Cup 2013, saved by fans"
+ },
+ {
+  "name": "Watford",
+  "C": 5.0,
+  "V": 6.0,
+  "H": 5.2,
+  "O": 3.0,
+  "why": "H +0.2 1983 runners-up, two FA Cup finals, Taylor/Elton John era"
+ },
+ {
+  "name": "West Bromwich Albion",
+  "C": 7.0,
+  "V": 6.0,
+  "H": 7.4,
+  "O": 6.0,
+  "why": "H +0.4 league title, five FA Cups, League Cup, Three Degrees"
+ },
+ {
+  "name": "West Ham United",
+  "C": 4.8,
+  "V": 4.0,
+  "H": 7.4,
+  "O": 2.0,
+  "why": "C -0.2 boycott and empty seats at London Stadium; H +0.4 1966 trio, three FA Cups, two European trophies"
+ },
+ {
+  "name": "Wolverhampton Wanderers",
+  "C": 8.2,
+  "V": 4.0,
+  "H": 8.3,
+  "O": 2.0,
+  "why": "C +0.2 full Molineux, loud South Bank; H +0.3 three league titles, four FA Cups, Honved friendlies"
+ },
+ {
+  "name": "Wrexham",
+  "C": 8.3,
+  "V": 7.0,
+  "H": 6.2,
+  "O": 6.0,
+  "why": "C +0.3 sells out, ballot for every match, oldest international stadium; H +0.2 oldest club in Wales, 1992 win over Arsenal"
+ }
+]

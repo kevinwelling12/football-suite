@@ -146,3 +146,11 @@ to +/-2 on the Team factor, recency-weighted with the track record's 4-year half
   only the current squad is known. Athletic Club 90% (league 60%) +1.6, Bodø/Glimt +1.1, Liverpool 27% (league 34%)
   -0.6, LAFC and FC Cincinnati about -1.8.
 Gut fit on the 26 vignettes 0.728 -> 0.732.
+
+Tenths re-rate (2026-09-30; brief research/DECIMAL_BRIEF.md, findings research/out7, applied by apply_tenths.py):
+Culture, Values, History and Ownership now carry one decimal for every club and nation. A refinement, not a re-rate:
+each value stays within 0.4 of its old whole number (k.0 = a typical k), placed against every entry with the same
+score across the tracker (research/decimal_bands.json). 641 of 1,360 values moved off .0 (mostly ±0.2-0.3). Average
+Affinity change 0.55; biggest: Arsenal and Shakhtar +2.1, Angers -2.0. History drifted up slightly in every batch
+(+0.02 to +0.17 on average), too small and too even to recentre. Gut fit on the 26 vignettes 0.732 -> 0.723.
+Team keeps its whole-number base plus the squad-interplay bump.

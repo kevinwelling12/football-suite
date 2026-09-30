@@ -1,0 +1,250 @@
+[
+ {
+  "name": "Alavés",
+  "C": 6,
+  "V": 5.8,
+  "H": 5.3,
+  "O": 6.2,
+  "why": "V -0.2 betting-surrogate shirt sponsor, Iraultza 1921 on violent-groups list; H +0.3 2001 UEFA Cup final and 2017 Copa final; O +0.2 stable local owner group"
+ },
+ {
+  "name": "Athletic Club",
+  "C": 10,
+  "V": 9.2,
+  "H": 9.8,
+  "O": 10,
+  "why": "V +0.2 Basque-only cantera policy, five-time champion women's side; H -0.2 fewer major honours than the other 10s, identity carries it"
+ },
+ {
+  "name": "Celta Vigo",
+  "C": 7,
+  "V": 8.2,
+  "H": 6.7,
+  "O": 7,
+  "why": "V +0.2 A Madroa academy supplies much of the first team; H -0.3 EuroCelta era and CL run but no major trophy"
+ },
+ {
+  "name": "Deportivo La Coruña",
+  "C": 8.3,
+  "V": 7.7,
+  "H": 8,
+  "O": 6,
+  "why": "C +0.3 25,000 season tickets even in the third tier; V -0.3 thinner case than other 8s, fatal 2014 ultras brawl"
+ },
+ {
+  "name": "Elche",
+  "C": 6,
+  "V": 3.2,
+  "H": 5,
+  "O": 4,
+  "why": "V +0.2 barras funding claims reported, not proven; no betting sponsor"
+ },
+ {
+  "name": "Espanyol",
+  "C": 6,
+  "V": 5,
+  "H": 6.3,
+  "O": 4,
+  "why": "H +0.3 four Copas, two UEFA Cup finals, founded 1900"
+ },
+ {
+  "name": "Getafe",
+  "C": 4,
+  "V": 4.8,
+  "H": 3.3,
+  "O": 5.2,
+  "why": "V -0.2 Greenwood loan signing amid criticism; H +0.3 two Copa finals and a UEFA Cup quarter-final; O +0.2 same frugal owner-president for 20+ years"
+ },
+ {
+  "name": "Levante",
+  "C": 6,
+  "V": 7.2,
+  "H": 5,
+  "O": 7,
+  "why": "V +0.2 long-established women's side, foundation-held majority"
+ },
+ {
+  "name": "Málaga",
+  "C": 7.2,
+  "V": 6.7,
+  "H": 6,
+  "O": 3,
+  "why": "C +0.2 Rosaleda well filled even in the third tier; V -0.3 no notable positives found"
+ },
+ {
+  "name": "Osasuna",
+  "C": 8.3,
+  "V": 8.1,
+  "H": 6.2,
+  "O": 9.8,
+  "why": "C +0.3 rebuilt El Sadar among Spain's loudest; V +0.1 steady Tajonar academy flow; H +0.2 UEFA Cup semi-final, two Copa finals; O -0.2 member governance produced the 2013 match-fixing and debt crisis"
+ },
+ {
+  "name": "Racing Santander",
+  "C": 8.2,
+  "V": 7,
+  "H": 6,
+  "O": 6.2,
+  "why": "C +0.2 big third-tier crowds, fans led the fight against mismanagement; O +0.2 Santander-born owner stabilised the club"
+ },
+ {
+  "name": "Rayo Vallecano",
+  "C": 8.2,
+  "V": 7.8,
+  "H": 6,
+  "O": 0.8,
+  "why": "C +0.2 barrio ground, organised fan marches and boycotts; V -0.2 women's team neglected, tickets sold for a stadium at risk of closure; O -0.2 stadium closed for safety failures in 2026"
+ },
+ {
+  "name": "Real Sociedad",
+  "C": 8,
+  "V": 8.3,
+  "H": 8.2,
+  "O": 7.3,
+  "why": "V +0.3 Zubieta a proven first-team pathway, Liga F side; H +0.2 two league titles, three Copas incl. 2026; O +0.3 broad local shareholder base, well run"
+ },
+ {
+  "name": "Sevilla",
+  "C": 8.2,
+  "V": 4,
+  "H": 8.4,
+  "O": 3,
+  "why": "C +0.2 one of Spain's most intense grounds; H +0.4 record seven UEFA Cup/Europa League titles"
+ },
+ {
+  "name": "Valencia",
+  "C": 8.3,
+  "V": 3,
+  "H": 9.2,
+  "O": 1.8,
+  "why": "C +0.3 steep historic Mestalla, mass fan protests; H +0.2 six titles, two CL finals, UEFA Cup; O -0.2 ~EUR 600m debt, sustained mass protests, not for sale"
+ },
+ {
+  "name": "AC Milan",
+  "C": 7.8,
+  "V": 4,
+  "H": 10,
+  "O": 3.8,
+  "why": "C -0.2 Curva Sud leadership jailed, no organised tifo in 2025-26; O -0.2 fan protests, coach and executives left in 2026"
+ },
+ {
+  "name": "Atalanta",
+  "C": 8,
+  "V": 6,
+  "H": 7.3,
+  "O": 6.3,
+  "why": "H +0.3 2024 Europa League winners; O +0.3 self-funded, club owns its stadium"
+ },
+ {
+  "name": "Bologna",
+  "C": 7.2,
+  "V": 7,
+  "H": 8,
+  "O": 6.2,
+  "why": "C +0.2 historic Dall'Ara, big crowds around the 2025 Coppa; O +0.2 twelve steady years, stadium renovation plans"
+ },
+ {
+  "name": "Cagliari",
+  "C": 6.8,
+  "V": 7,
+  "H": 7,
+  "O": 5.8,
+  "why": "C -0.2 still in the temporary 16,000 Unipol Domus; O -0.2 US investors at 49% with a possible majority"
+ },
+ {
+  "name": "Fiorentina",
+  "C": 8,
+  "V": 7.2,
+  "H": 8,
+  "O": 6,
+  "why": "V +0.2 Viola Park academy investment, top women's side"
+ },
+ {
+  "name": "Frosinone",
+  "C": 5,
+  "V": 6,
+  "H": 2.3,
+  "O": 6.3,
+  "why": "H +0.3 several Serie A seasons since 2015, older than the other 2s; O +0.3 local owner built the club-owned stadium"
+ },
+ {
+  "name": "Genoa",
+  "C": 9,
+  "V": 4.8,
+  "H": 8.8,
+  "O": 5.2,
+  "why": "V -0.2 2024 derby riots; H -0.2 titles all before 1924; O +0.2 Șucu stabilised finances after 777"
+ },
+ {
+  "name": "Juventus",
+  "C": 6,
+  "V": 5,
+  "H": 10,
+  "O": 5,
+  "why": ""
+ },
+ {
+  "name": "Lazio",
+  "C": 7,
+  "V": 2,
+  "H": 8,
+  "O": 1.8,
+  "why": "O -0.2 93% of season-ticket holders did not renew in the 2026 boycott"
+ },
+ {
+  "name": "Lecce",
+  "C": 8,
+  "V": 7,
+  "H": 4,
+  "O": 7,
+  "why": ""
+ },
+ {
+  "name": "Monza",
+  "C": 4,
+  "V": 3.8,
+  "H": 3,
+  "O": 4,
+  "why": "V -0.2 DAZN Bet shirt sponsor, no positives"
+ },
+ {
+  "name": "Parma",
+  "C": 7.2,
+  "V": 6.2,
+  "H": 7.3,
+  "O": 6,
+  "why": "C +0.2 historic Tardini, support kept through the Serie D restart; V +0.2 investment in women's team and academy; H +0.3 two UEFA Cups, Cup Winners' Cup, three Coppe"
+ },
+ {
+  "name": "Sassuolo",
+  "C": 3,
+  "V": 6,
+  "H": 3,
+  "O": 6,
+  "why": ""
+ },
+ {
+  "name": "Torino",
+  "C": 8,
+  "V": 6,
+  "H": 9,
+  "O": 3,
+  "why": ""
+ },
+ {
+  "name": "Udinese",
+  "C": 6,
+  "V": 7,
+  "H": 6,
+  "O": 6,
+  "why": ""
+ },
+ {
+  "name": "Venezia",
+  "C": 6.2,
+  "V": 7,
+  "H": 5.8,
+  "O": 5,
+  "why": "C +0.2 characterful 1913 Penzo reached by boat; H -0.2 one Coppa Italia (1941), several re-foundations"
+ }
+]

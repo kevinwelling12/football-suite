@@ -57,15 +57,15 @@
    "color": "#0B8C3F",
    "confed": "CAF",
    "hai": {
-    "C": 9,
-    "V": 4,
-    "H": 6,
+    "C": 9.2,
+    "V": 3.8,
+    "H": 6.3,
     "O": 2,
     "S": 5.0,
     "adj": -20,
     "note": "Government record -20",
     "S0": 5,
-    "tb": -0.0,
+    "tb": 0.0,
     "clubs": [
      [
       "Manchester City",
@@ -85,11 +85,11 @@
      [
       "Eintracht Frankfurt",
       3,
-      0.06
+      0.07
      ]
     ]
    },
-   "base": 35.8,
+   "base": 36.2,
    "bonus": 0,
    "region": ""
   },
@@ -101,9 +101,9 @@
    "confed": "CONMEBOL",
    "hai": {
     "C": 10,
-    "V": 3,
+    "V": 2.7,
     "H": 10,
-    "O": 2,
+    "O": 1.8,
     "S": 9.2,
     "adj": -12,
     "note": "Racism -12",
@@ -118,7 +118,7 @@
      [
       "Real Betis",
       7,
-      0.19
+      0.2
      ],
      [
       "Liverpool",
@@ -128,11 +128,11 @@
      [
       "Barcelona",
       5,
-      0.12
+      0.11
      ]
     ]
    },
-   "base": 57.5,
+   "base": 56.4,
    "bonus": 0,
    "region": ""
   },
@@ -144,8 +144,8 @@
    "confed": "AFC",
    "hai": {
     "C": 6,
-    "V": 7,
-    "H": 5,
+    "V": 7.3,
+    "H": 5.3,
     "O": 6,
     "S": 7.1,
     "adj": 0,
@@ -161,7 +161,7 @@
      [
       "PSV Eindhoven",
       2,
-      0.05
+      0.06
      ],
      [
       "Viking",
@@ -175,7 +175,7 @@
      ]
     ]
    },
-   "base": 63.0,
+   "base": 64.4,
    "bonus": 0,
    "region": ""
   },
@@ -187,14 +187,14 @@
    "confed": "CONMEBOL",
    "hai": {
     "C": 6,
-    "V": 5,
+    "V": 5.2,
     "H": 10,
-    "O": 3,
-    "S": 5.4,
+    "O": 2.8,
+    "S": 5.5,
     "adj": 0,
     "note": "",
     "S0": 5,
-    "tb": 0.4,
+    "tb": 0.5,
     "clubs": [
      [
       "Liverpool",
@@ -209,16 +209,16 @@
      [
       "Barcelona",
       8,
-      0.21
+      0.2
      ],
      [
       "Paris Saint-Germain",
       15,
-      -0.17
+      -0.13
      ]
     ]
    },
-   "base": 59.9,
+   "base": 60.4,
    "bonus": 0,
    "region": ""
   },
@@ -230,14 +230,14 @@
    "confed": "CONCACAF",
    "hai": {
     "C": 6,
-    "V": 6,
-    "H": 4,
-    "O": 4,
-    "S": 8.3,
+    "V": 5.7,
+    "H": 4.1,
+    "O": 4.2,
+    "S": 8.4,
     "adj": 0,
     "note": "",
     "S0": 8,
-    "tb": 0.3,
+    "tb": 0.4,
     "clubs": [
      [
       "Portland Timbers",
@@ -247,7 +247,7 @@
      [
       "Bayern Munich",
       4,
-      0.16
+      0.17
      ],
      [
       "Porto",
@@ -261,7 +261,7 @@
      ]
     ]
    },
-   "base": 58.1,
+   "base": 57.8,
    "bonus": 0,
    "region": ""
   },
@@ -274,7 +274,7 @@
    "hai": {
     "C": 7,
     "V": 7,
-    "H": 4,
+    "H": 4.2,
     "O": 5,
     "S": 8.1,
     "adj": 0,
@@ -285,7 +285,7 @@
      [
       "Columbus Crew",
       2,
-      0.06
+      0.07
      ],
      [
       "Philadelphia Union",
@@ -299,7 +299,7 @@
      ]
     ]
    },
-   "base": 64.3,
+   "base": 64.7,
    "bonus": 0,
    "region": ""
   },
@@ -311,9 +311,9 @@
    "confed": "CONMEBOL",
    "hai": {
     "C": 9,
-    "V": 4,
-    "H": 6,
-    "O": 3,
+    "V": 3.8,
+    "H": 6.2,
+    "O": 2.7,
     "S": 8.7,
     "adj": -13,
     "note": "Racism -5; Fan violence -8",
@@ -323,12 +323,12 @@
      [
       "Bayern Munich",
       3,
-      0.12
+      0.13
      ],
      [
       "Sporting CP",
       2,
-      0.08
+      0.09
      ],
      [
       "Liverpool",
@@ -336,13 +336,13 @@
       0.07
      ],
      [
-      "Napoli",
-      2,
-      0.05
+      "Real Betis",
+      1,
+      0.06
      ]
     ]
    },
-   "base": 50.1,
+   "base": 49.5,
    "bonus": 0,
    "region": ""
   },
@@ -355,8 +355,8 @@
    "hai": {
     "C": 5,
     "V": 6,
-    "H": 3,
-    "O": 4,
+    "H": 2.8,
+    "O": 3.8,
     "S": 5.1,
     "adj": 0,
     "note": "",
@@ -366,12 +366,12 @@
      [
       "PSV Eindhoven",
       2,
-      0.13
+      0.14
      ],
      [
       "Miami FC",
       2,
-      -0.07
+      -0.08
      ],
      [
       "Feyenoord",
@@ -380,7 +380,7 @@
      ]
     ]
    },
-   "base": 48.4,
+   "base": 47.8,
    "bonus": 0,
    "region": ""
   },
@@ -392,8 +392,8 @@
    "confed": "CAF",
    "hai": {
     "C": 8,
-    "V": 6,
-    "H": 6,
+    "V": 6.2,
+    "H": 6.1,
     "O": 3,
     "S": 7.3,
     "adj": -20,
@@ -414,16 +414,16 @@
      [
       "Lens",
       1,
-      0.04
+      0.05
      ],
      [
       "Sunderland",
       3,
-      0.03
+      0.04
      ]
     ]
    },
-   "base": 43.9,
+   "base": 44.7,
    "bonus": 0,
    "region": ""
   },
@@ -434,39 +434,39 @@
    "color": "#FFD100",
    "confed": "CONMEBOL",
    "hai": {
-    "C": 7,
+    "C": 6.8,
     "V": 4,
-    "H": 4,
+    "H": 4.3,
     "O": 3,
-    "S": 6.1,
+    "S": 6.2,
     "adj": -15,
     "note": "Racism -5; Government record -10",
     "S0": 6,
-    "tb": 0.1,
+    "tb": 0.2,
     "clubs": [
+     [
+      "Seattle Sounders FC",
+      3,
+      0.07
+     ],
      [
       "Club Brugge",
       2,
       0.07
      ],
      [
-      "Seattle Sounders FC",
-      3,
-      0.06
-     ],
-     [
       "VfB Stuttgart",
       1,
-      0.06
+      0.05
      ],
      [
       "Troyes",
       1,
-      -0.04
+      -0.05
      ]
     ]
    },
-   "base": 35.1,
+   "base": 35.2,
    "bonus": 0,
    "region": ""
   },
@@ -478,8 +478,8 @@
    "confed": "CAF",
    "hai": {
     "C": 6,
-    "V": 3,
-    "H": 7,
+    "V": 2.8,
+    "H": 7.3,
     "O": 3,
     "S": 6.3,
     "adj": -22,
@@ -509,7 +509,7 @@
      ]
     ]
    },
-   "base": 28.3,
+   "base": 28.2,
    "bonus": 0,
    "region": ""
   },
@@ -522,7 +522,7 @@
    "hai": {
     "C": 6,
     "V": 6,
-    "H": 7,
+    "H": 7.2,
     "O": 4,
     "S": 4.4,
     "adj": 0,
@@ -552,7 +552,7 @@
      ]
     ]
    },
-   "base": 56.9,
+   "base": 57.3,
    "bonus": 0,
    "region": ""
   },
@@ -563,9 +563,9 @@
    "color": "#2F5BD3",
    "confed": "CONCACAF",
    "hai": {
-    "C": 7,
+    "C": 6.7,
     "V": 4,
-    "H": 4,
+    "H": 3.7,
     "O": 2,
     "S": 6.1,
     "adj": -10,
@@ -576,7 +576,7 @@
      [
       "Philadelphia Union",
       2,
-      0.05
+      0.06
      ],
      [
       "AEK Athens",
@@ -589,13 +589,13 @@
       -0.03
      ],
      [
-      "Sunderland",
+      "Columbus Crew",
       1,
       0.01
      ]
     ]
    },
-   "base": 39.0,
+   "base": 37.7,
    "bonus": 0,
    "region": ""
   },
@@ -606,10 +606,10 @@
    "color": "#239F40",
    "confed": "AFC",
    "hai": {
-    "C": 8,
-    "V": 2,
+    "C": 7.8,
+    "V": 1.7,
     "H": 5,
-    "O": 1,
+    "O": 0.8,
     "S": 5.2,
     "adj": -25,
     "note": "Government record -25",
@@ -619,12 +619,12 @@
      [
       "AEK Athens",
       5,
-      0.14
+      0.15
      ],
      [
       "Porto",
       2,
-      0.04
+      0.05
      ],
      [
       "Feyenoord",
@@ -638,7 +638,7 @@
      ]
     ]
    },
-   "base": 19.9,
+   "base": 18.3,
    "bonus": 0,
    "region": ""
   },
@@ -649,10 +649,10 @@
    "color": "#1B8A3A",
    "confed": "AFC",
    "hai": {
-    "C": 8,
+    "C": 8.2,
     "V": 6,
-    "H": 6,
-    "O": 3,
+    "H": 5.8,
+    "O": 2.8,
     "S": 4.0,
     "adj": -20,
     "note": "Government record -20",
@@ -660,12 +660,12 @@
     "tb": 0.0,
     "clubs": [
      [
-      "AFC Wimbledon",
+      "Atalanta",
       1,
       0.02
      ],
      [
-      "Atalanta",
+      "AFC Wimbledon",
       1,
       0.02
      ]
@@ -695,12 +695,12 @@
      [
       "Sporting CP",
       3,
-      0.13
+      0.14
      ],
      [
       "Nice",
       2,
-      -0.07
+      -0.08
      ],
      [
       "Atalanta",
@@ -726,24 +726,24 @@
    "confed": "AFC",
    "hai": {
     "C": 7,
-    "V": 8,
-    "H": 6,
-    "O": 7,
-    "S": 9.0,
+    "V": 8.3,
+    "H": 6.3,
+    "O": 7.2,
+    "S": 9.1,
     "adj": 0,
     "note": "",
     "S0": 8,
-    "tb": 1.0,
+    "tb": 1.1,
     "clubs": [
      [
       "Real Sociedad",
       3,
-      0.15
+      0.16
      ],
      [
       "SC Freiburg",
       3,
-      0.14
+      0.15
      ],
      [
       "VfB Stuttgart",
@@ -757,7 +757,7 @@
      ]
     ]
    },
-   "base": 74.5,
+   "base": 76.2,
    "bonus": 0,
    "region": ""
   },
@@ -769,8 +769,8 @@
    "confed": "AFC",
    "hai": {
     "C": 7,
-    "V": 6,
-    "H": 3,
+    "V": 6.2,
+    "H": 3.2,
     "O": 4,
     "S": 6.0,
     "adj": -15,
@@ -779,7 +779,7 @@
     "tb": 0.0,
     "clubs": []
    },
-   "base": 40.0,
+   "base": 40.9,
    "bonus": 0,
    "region": ""
   },
@@ -790,10 +790,10 @@
    "color": "#1FA35C",
    "confed": "CONCACAF",
    "hai": {
-    "C": 8,
-    "V": 3,
+    "C": 8.2,
+    "V": 2.8,
     "H": 7,
-    "O": 3,
+    "O": 2.8,
     "S": 6.4,
     "adj": -20,
     "note": "Racism -10; Government record -10",
@@ -803,7 +803,7 @@
      [
       "AEK Athens",
       5,
-      0.09
+      0.1
      ],
      [
       "PSV Eindhoven",
@@ -813,16 +813,16 @@
      [
       "Real Betis",
       4,
-      0.08
+      0.09
      ],
      [
       "Porto",
       7,
-      0.05
+      0.06
      ]
     ]
    },
-   "base": 35.6,
+   "base": 35.3,
    "bonus": 0,
    "region": ""
   },
@@ -833,39 +833,39 @@
    "color": "#C1272D",
    "confed": "CAF",
    "hai": {
-    "C": 9,
-    "V": 5,
-    "H": 8,
-    "O": 3,
-    "S": 7.6,
+    "C": 9.2,
+    "V": 4.8,
+    "H": 8.2,
+    "O": 3.2,
+    "S": 7.7,
     "adj": -15,
     "note": "Government record -15",
     "S0": 7,
-    "tb": 0.6,
+    "tb": 0.7,
     "clubs": [
      [
       "PSV Eindhoven",
       5,
-      0.23
+      0.24
      ],
      [
       "Real Betis",
       5,
-      0.14
-     ],
-     [
-      "Paris Saint-Germain",
-      5,
-      -0.08
+      0.15
      ],
      [
       "VfB Stuttgart",
       2,
       0.08
+     ],
+     [
+      "Paris Saint-Germain",
+      5,
+      -0.06
      ]
     ]
    },
-   "base": 52.7,
+   "base": 53.4,
    "bonus": 0,
    "region": ""
   },
@@ -877,8 +877,8 @@
    "confed": "OFC",
    "hai": {
     "C": 4,
-    "V": 7,
-    "H": 4,
+    "V": 7.2,
+    "H": 3.9,
     "O": 7,
     "S": 6.4,
     "adj": 0,
@@ -894,11 +894,11 @@
      [
       "Viking",
       1,
-      0.18
+      0.19
      ]
     ]
    },
-   "base": 56.0,
+   "base": 56.4,
    "bonus": 0,
    "region": ""
   },
@@ -911,7 +911,7 @@
    "hai": {
     "C": 7,
     "V": 6,
-    "H": 3,
+    "H": 3.2,
     "O": 5,
     "S": 7.0,
     "adj": 0,
@@ -926,7 +926,7 @@
      ]
     ]
    },
-   "base": 57.8,
+   "base": 58.1,
    "bonus": 0,
    "region": ""
   },
@@ -938,9 +938,9 @@
    "confed": "CONMEBOL",
    "hai": {
     "C": 7,
-    "V": 5,
-    "H": 5,
-    "O": 4,
+    "V": 4.8,
+    "H": 5.4,
+    "O": 4.2,
     "S": 7.0,
     "adj": -10,
     "note": "Government record -10",
@@ -958,18 +958,18 @@
       0.01
      ],
      [
-      "Seattle Sounders FC",
+      "Portsmouth",
       1,
       0.01
      ],
      [
-      "Portsmouth",
+      "Seattle Sounders FC",
       1,
       0.01
      ]
     ]
    },
-   "base": 47.3,
+   "base": 47.7,
    "bonus": 0,
    "region": ""
   },
@@ -980,9 +980,9 @@
    "color": "#A6193C",
    "confed": "AFC",
    "hai": {
-    "C": 2,
-    "V": 2,
-    "H": 3,
+    "C": 1.8,
+    "V": 1.7,
+    "H": 3.2,
     "O": 1,
     "S": 3.0,
     "adj": -20,
@@ -991,7 +991,7 @@
     "tb": 0.0,
     "clubs": []
    },
-   "base": 2.3,
+   "base": 1.3,
    "bonus": 0,
    "region": ""
   },
@@ -1004,7 +1004,7 @@
    "hai": {
     "C": 4,
     "V": 2,
-    "H": 5,
+    "H": 5.2,
     "O": 1,
     "S": 3.0,
     "adj": -25,
@@ -1015,7 +1015,7 @@
      [
       "Lens",
       1,
-      0.03
+      0.04
      ],
      [
       "Roma",
@@ -1024,7 +1024,7 @@
      ]
     ]
    },
-   "base": 6.0,
+   "base": 6.4,
    "bonus": 0,
    "region": ""
   },
@@ -1036,9 +1036,9 @@
    "confed": "CAF",
    "hai": {
     "C": 8,
-    "V": 4,
+    "V": 3.8,
     "H": 7,
-    "O": 4,
+    "O": 3.8,
     "S": 6.2,
     "adj": -8,
     "note": "Fan violence -8",
@@ -1048,7 +1048,7 @@
      [
       "Bayern Munich",
       4,
-      0.17
+      0.18
      ],
      [
       "Nice",
@@ -1061,13 +1061,13 @@
       0.08
      ],
      [
-      "Chelsea",
-      5,
-      -0.05
+      "Napoli",
+      3,
+      0.05
      ]
     ]
    },
-   "base": 51.2,
+   "base": 50.4,
    "bonus": 0,
    "region": ""
   },
@@ -1081,7 +1081,7 @@
     "C": 6,
     "V": 5,
     "H": 6,
-    "O": 3,
+    "O": 2.7,
     "S": 7.1,
     "adj": 0,
     "note": "",
@@ -1091,7 +1091,7 @@
      [
       "Philadelphia Union",
       1,
-      0.03
+      0.04
      ],
      [
       "Club Brugge",
@@ -1100,7 +1100,7 @@
      ]
     ]
    },
-   "base": 55.6,
+   "base": 55.3,
    "bonus": 0,
    "region": ""
   },
@@ -1111,39 +1111,39 @@
    "color": "#E53935",
    "confed": "AFC",
    "hai": {
-    "C": 7,
+    "C": 7.2,
     "V": 5,
-    "H": 7,
+    "H": 7.2,
     "O": 3,
-    "S": 5.3,
+    "S": 5.4,
     "adj": 0,
     "note": "",
     "S0": 5,
-    "tb": 0.3,
+    "tb": 0.4,
     "clubs": [
      [
       "Bayern Munich",
       2,
-      0.12
+      0.13
      ],
      [
       "Mainz 05",
       3,
-      0.06
-     ],
-     [
-      "Paris Saint-Germain",
-      2,
-      -0.05
+      0.07
      ],
      [
       "Borussia Mönchengladbach",
+      1,
+      0.05
+     ],
+     [
+      "SC Freiburg",
       1,
       0.04
      ]
     ]
    },
-   "base": 56.9,
+   "base": 58.0,
    "bonus": 0,
    "region": ""
   },
@@ -1156,8 +1156,8 @@
    "hai": {
     "C": 7,
     "V": 5,
-    "H": 5,
-    "O": 3,
+    "H": 5.2,
+    "O": 2.8,
     "S": 3.0,
     "adj": -15,
     "note": "Government record -15",
@@ -1177,7 +1177,7 @@
      [
       "Eintracht Frankfurt",
       3,
-      0.06
+      0.07
      ],
      [
       "Troyes",
@@ -1186,7 +1186,7 @@
      ]
     ]
    },
-   "base": 34.6,
+   "base": 34.7,
    "bonus": 0,
    "region": ""
   },
@@ -1197,20 +1197,20 @@
    "color": "#4A7BD0",
    "confed": "CONCACAF",
    "hai": {
-    "C": 7,
-    "V": 7,
+    "C": 6.7,
+    "V": 7.2,
     "H": 6,
-    "O": 6,
-    "S": 6.7,
+    "O": 6.2,
+    "S": 6.8,
     "adj": 0,
     "note": "",
     "S0": 6,
-    "tb": 0.7,
+    "tb": 0.8,
     "clubs": [
      [
       "PSV Eindhoven",
       5,
-      0.2
+      0.21
      ],
      [
       "Seattle Sounders FC",
@@ -1229,7 +1229,7 @@
      ]
     ]
    },
-   "base": 66.6,
+   "base": 66.8,
    "bonus": 10.0,
    "region": "Home nation"
   },
@@ -1241,9 +1241,9 @@
    "confed": "CONMEBOL",
    "hai": {
     "C": 8,
-    "V": 5,
-    "H": 10,
-    "O": 5,
+    "V": 4.7,
+    "H": 9.7,
+    "O": 4.8,
     "S": 4.6,
     "adj": 0,
     "note": "",
@@ -1251,14 +1251,14 @@
     "tb": 0.6,
     "clubs": [
      [
-      "Barcelona",
-      7,
-      0.2
-     ],
-     [
       "Sporting CP",
       7,
-      0.2
+      0.21
+     ],
+     [
+      "Barcelona",
+      7,
+      0.19
      ],
      [
       "Napoli",
@@ -1272,7 +1272,7 @@
      ]
     ]
    },
-   "base": 65.9,
+   "base": 64.3,
    "bonus": 0,
    "region": ""
   },
@@ -1283,10 +1283,10 @@
    "color": "#3FA9F5",
    "confed": "AFC",
    "hai": {
-    "C": 6,
-    "V": 5,
+    "C": 5.8,
+    "V": 5.2,
     "H": 3,
-    "O": 2,
+    "O": 1.8,
     "S": 3.9,
     "adj": -22,
     "note": "Government record -22",
@@ -1305,7 +1305,7 @@
      ]
     ]
    },
-   "base": 21.8,
+   "base": 21.6,
    "bonus": 0,
    "region": ""
   }

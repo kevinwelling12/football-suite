@@ -1,0 +1,707 @@
+<title>Family Club Draft</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: one column like a matchday programme; each question is a "fixture card", each player a scarf colour. */
+:root{
+  --ground:#EDF2EA; --surface:#FFFFFF; --ink:#12241A; --muted:#55685C; --line:#CFDACF;
+  --pitch:#1E6B45; --flood:#F2C200; --on-flood:#1A1500; --chip:#E3EBE1;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0C1611; --surface:#14221A; --ink:#E8F1EA; --muted:#93A89A; --line:#27392E;
+  --pitch:#3FA571; --flood:#F5C400; --on-flood:#1A1500; --chip:#1D2E24; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ground:#0C1611; --surface:#14221A; --ink:#E8F1EA; --muted:#93A89A; --line:#27392E;
+  --pitch:#3FA571; --flood:#F5C400; --on-flood:#1A1500; --chip:#1D2E24; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font:17px/1.5 var(--body);margin:0}
+.wrap{max-width:720px;margin:0 auto;padding-inline:16px;padding-block:20px 64px}
+h1,h2,h3{font-family:var(--display);text-transform:uppercase;letter-spacing:.01em;line-height:.95;margin:0;text-wrap:balance}
+h1{font-size:clamp(46px,12vw,84px);font-weight:900}
+h2{font-size:clamp(30px,7vw,42px);font-weight:800}
+h3{font-size:24px;font-weight:800}
+p{margin:0}
+.muted{color:var(--muted)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pitch)}
+.stack{display:flex;flex-direction:column;gap:14px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible{outline:3px solid var(--flood);outline-offset:2px}
+.btn{border:0;border-radius:12px;padding:14px 20px;font-weight:700;background:var(--chip);color:var(--ink)}
+.btn.go{background:var(--flood);color:var(--on-flood);font-family:var(--display);font-size:24px;text-transform:uppercase;letter-spacing:.03em;padding:12px 26px}
+.btn:disabled{opacity:.45;cursor:default}
+.btn.small{padding:8px 14px;font-size:15px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px}
+.scarf{height:12px;border-radius:6px;background:repeating-linear-gradient(90deg,var(--c1) 0 22px,var(--c2) 22px 44px)}
+.hero{display:grid;gap:16px;padding-block:8px 6px}
+.hero p{max-width:60ch}
+/* players */
+.players{display:flex;flex-direction:column;gap:10px}
+.pl{display:flex;align-items:center;gap:10px}
+.pl input{flex:1;min-width:0;font:inherit;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.dot{width:28px;height:28px;border-radius:50%;background:var(--pc);flex:none;border:2px solid var(--surface);box-shadow:0 0 0 1px var(--line)}
+.x{border:0;background:none;color:var(--muted);font-size:22px;padding:4px 8px}
+/* question */
+.prog{display:flex;gap:4px}
+.prog i{flex:1;height:6px;border-radius:3px;background:var(--line)}
+.prog i.on{background:var(--pitch)}
+.opts{display:grid;gap:10px}
+.opt{background:var(--surface);border:2px solid var(--line);border-radius:16px;padding:14px 16px;text-align:left;display:grid;gap:8px}
+.opt.sel{border-color:var(--pitch);box-shadow:0 0 0 1px var(--pitch)}
+.opt b{font-size:18px;display:block}
+.opt small{color:var(--muted);font-size:15px;display:block}
+.who{display:flex;gap:8px;flex-wrap:wrap}
+.who button{border:2px solid var(--pc);background:transparent;color:var(--ink);border-radius:999px;padding:5px 12px;font-size:15px;font-weight:700;display:inline-flex;align-items:center;gap:6px}
+.who button::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--pc)}
+.who button[aria-pressed="true"]{background:var(--pc);color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.45)}
+.who button[aria-pressed="true"]::before{background:#fff}
+.fact{border-left:6px solid var(--flood);background:var(--surface);border-radius:4px 16px 16px 4px;padding:14px 16px;display:grid;gap:6px}
+.fact .eyebrow{color:var(--muted)}
+.nav{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.waiting{font-size:15px;color:var(--muted)}
+/* results */
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tabs button{border:2px solid var(--pc,var(--line));background:transparent;border-radius:999px;padding:7px 16px;font-weight:700;color:var(--ink)}
+.tabs button[aria-pressed="true"]{background:var(--pc,var(--pitch));color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.45)}
+.top{display:grid;gap:12px}
+.top .scarf{--c1:var(--cc);--c2:color-mix(in srgb,var(--cc) 30%,#fff)}
+.big{font-family:var(--display);font-size:clamp(38px,10vw,60px);font-weight:900;line-height:.92;text-transform:uppercase}
+.meta{font-size:15px;color:var(--muted)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chips span{background:var(--chip);border-radius:999px;padding:4px 10px;font-size:14px;font-weight:700}
+.score{font-family:var(--display);font-weight:800;font-size:30px;font-variant-numeric:tabular-nums}
+.story{font-size:16px}
+.story b{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:block}
+.list{display:grid;gap:8px}
+.li{display:grid;grid-template-columns:8px 1fr auto;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px 12px 0;text-align:left;width:100%;overflow:hidden}
+.li i{align-self:stretch;background:var(--cc)}
+.li div{min-width:0}
+.li strong{display:block;font-size:17px}
+.li span.meta{display:block}
+.li .score{font-size:24px}
+.persona{font-family:var(--display);font-size:30px;font-weight:800;text-transform:uppercase;color:var(--pitch)}
+.fam{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.fam .card{display:grid;gap:6px;border-top:6px solid var(--pc)}
+.past{display:grid;gap:8px}
+details summary{cursor:pointer;font-weight:700}
+details p{margin-top:8px;font-size:15px;color:var(--muted)}
+.note{font-size:14px;color:var(--muted)}
+.ptail{font-family:var(--display);font-size:22px;font-weight:700;text-transform:uppercase;margin-top:-8px}
+.grown{font-size:15px;color:var(--muted)}
+.kid h2{font-size:clamp(28px,7vw,40px)}
+.kid .opt b{font-size:20px}
+.kidb{padding:8px 12px}
+.kidb[aria-pressed="true"]{background:var(--flood);color:var(--on-flood)}
+@media (prefers-reduced-motion:no-preference){.opt,.who button{transition:border-color .12s,background .12s}}
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script>
+const CLUBS = __CLUBS__.map(r => ({n:r[0], k:r[1], lg:r[2], co:r[3], col:r[4], ab:r[5], C:r[6], V:r[7], H:r[8], O:r[9], S:r[10], adj:r[11], P:r[12], mi:r[13], hist:r[14], cult:r[15], kv:r[16] || 0}));
+const KEVIN = ['Liverpool', 'Borussia Dortmund', 'Portland Timbers', 'Portland Thorns', 'Sacramento Republic FC'];
+const PCOL = ['#D1495B', '#2E86DE', '#E1A100', '#2F9E62', '#8E5BD6', '#E0702C'];
+const STARS = {
+  messi:{cur:['Inter Miami CF'], old:['Barcelona', 'Paris Saint-Germain']},
+  ronaldo:{cur:[], old:['Manchester United', 'Real Madrid', 'Juventus', 'Sporting CP']},
+  mbappe:{cur:['Real Madrid'], old:['Paris Saint-Germain', 'Monaco']},
+  haaland:{cur:['Manchester City'], old:['Borussia Dortmund']},
+  salah:{cur:['Liverpool'], old:['Chelsea', 'Roma']},
+  kane:{cur:['Bayern Munich'], old:['Tottenham Hotspur']},
+  son:{cur:['Los Angeles Football Club'], old:['Tottenham Hotspur']},
+  pulisic:{cur:['AC Milan'], old:['Borussia Dortmund', 'Chelsea']},
+  beckham:{own:['Inter Miami CF'], old:['Manchester United', 'Real Madrid', 'LA Galaxy']},
+  morgan:{cur:[], old:['San Diego Wave', 'Orlando Pride', 'Portland Thorns']},
+  yamal:{cur:['Barcelona'], old:[]}, bellingham:{cur:['Real Madrid'], old:['Borussia Dortmund', 'Birmingham City']},
+  vini:{cur:['Real Madrid'], old:[]}, saka:{cur:['Arsenal'], old:[]}, rodman:{cur:['Washington Spirit'], old:[]},
+  wilson:{cur:['Portland Thorns'], old:[]}, rapinoe:{cur:[], old:['Seattle Reign']},
+  zlatan:{cur:[], old:['LA Galaxy', 'AC Milan', 'Paris Saint-Germain', 'Manchester United', 'Barcelona', 'Inter Milan', 'Juventus']},
+  neymar:{cur:[], old:['Barcelona', 'Paris Saint-Germain']}, reynolds:{own:['Wrexham']}, portman:{own:['Angel City FC']},
+};
+const STAR_NAME = {messi:'Messi', ronaldo:'Ronaldo', mbappe:'Mbappé', haaland:'Haaland', salah:'Salah', kane:'Kane', son:'Son', pulisic:'Pulisic', beckham:'Beckham', morgan:'Alex Morgan',
+  yamal:'Yamal', bellingham:'Bellingham', vini:'Vinícius', saka:'Saka', rodman:'Trinity Rodman', wilson:'Sophia Wilson', rapinoe:'Rapinoe',
+  zlatan:'Zlatan', neymar:'Neymar', reynolds:'Ryan Reynolds', portman:'Natalie Portman'};
+const HUES = {red:[355, 1], blue:[222, 1], sky:[205, 1], yellow:[48, 1], green:[145, 1], purple:[275, 1], orange:[25, 1], bw:[0, 0]};
+
+// Each option nudges a profile: w = factor weights (Culture, Values, History, Ownership, Team, winning),
+// plus tags. Facts show once everyone has answered. kq / k / kf are the kid versions (about age 8), shown
+// whenever a kid is playing; grown-ups see the full question in small type underneath.
+const BANK = [
+ {id:'day', q:'Picture your first match. Where are you?', kq:'Your first game! Where do you want to be?', opts:[
+   {t:'A giant stadium, 75,000 people, world-famous players', k:'A giant stadium with the most famous players', fx:{w:{H:1, P:1}, big:1}},
+   {t:'In a wall of fans who sing for the whole 90 minutes', k:'Right in the middle of fans singing and jumping', fx:{w:{C:2}}},
+   {t:'A small neighbourhood ground where everyone knows each other', k:'A small stadium where everyone knows each other', fx:{under:1, lower:1.5, home:.5}},
+   {t:'A relaxed family day out with good food', k:'A fun family day with yummy food', fx:{w:{V:1}, us:1, women:.5}}],
+  fact:"Borussia Dortmund's south stand, the Yellow Wall, holds about 25,000 standing fans. It is the biggest standing terrace in European football.",
+  kf:'In Dortmund, Germany, 25,000 fans stand together on one giant stand called the Yellow Wall. It is the biggest in Europe!'},
+ {id:'story', q:'Which story would you rather be part of?', kq:'Which story sounds best?', opts:[
+   {t:'A dynasty that wins trophies year after year', k:'A team that wins trophies again and again', fx:{w:{P:2}, big:1}},
+   {t:'A miracle: the underdog beats the giants', k:'The little team that beats the giants', fx:{under:2}},
+   {t:'A club that collapsed and its own fans rebuilt it', k:'A team that got saved by its own fans', fx:{w:{O:2, C:1}}},
+   {t:'A brand-new club writing its first chapter', k:'A brand-new team starting from zero', fx:{young:2, us:.5}}],
+  fact:'Leicester City won the 2015-16 Premier League. Bookmakers had them at 5,000 to 1 before the season started.',
+  kf:'Leicester City was a small team nobody thought could win. In 2016 they won the whole Premier League!'},
+ {id:'win', q:'Your team loses more than it wins this year. How do you feel?', kq:'Your team loses a lot this year. How do you feel?', opts:[
+   {t:"I still love them. That's what being a fan is", k:'I still love them!', fx:{w:{P:-.5, C:.5}}},
+   {t:'A bit sad, but I stick around', k:'A little sad, but I stay', fx:{w:{P:.5}}},
+   {t:'Frustrated. I want to see us win', k:'Grumpy. I want to win!', fx:{w:{P:1.5}}},
+   {t:"Honestly, I'd probably drift to another team", k:"I'd pick a new team", fx:{w:{P:2.5}, big:1}}],
+  fact:'Fans who pick a team because it is winning right now get teased as "glory hunters." Most fans stick with a club for life, through relegations and all.',
+  kf:'Most fans keep the same team their whole life, even when it loses. Lots of kids get their team from their mom, dad or grandparents.'},
+ {id:'own', q:'Who should own a football club?', kq:'Who should be the boss of a team?', opts:[
+   {t:'The fans themselves, as members with a vote', k:'The fans! Everyone gets a vote', fx:{w:{O:2.5}}},
+   {t:'A local family or businessperson who cares about the town', k:"A family from the team's town", fx:{w:{O:1.2}, home:.3}},
+   {t:'A billionaire who spends big to win', k:'A super-rich person who buys great players', fx:{w:{O:-1, P:1}}},
+   {t:"I don't mind, as long as it's run well", k:"I don't mind", fx:{}}],
+  fact:'In Germany the "50+1 rule" gives members a majority of the votes at most clubs. A season ticket at Dortmund costs a fraction of one at Liverpool.',
+  kf:'In Germany, fans are the bosses of most big teams. They get to vote, like a club at school.'},
+ {id:'wash', q:'A club gets bought by a foreign government trying to improve its image. You:', kq:'A faraway country buys a team so people will like that country more. What do you think?', opts:[
+   {t:"Walk away. That's not a club I'd back", k:"Not okay. I wouldn't cheer for them", fx:{w:{V:1.5}, sens:1.2}},
+   {t:"Feel uneasy, but it wouldn't be a deal-breaker", k:'Hmm, that feels a little weird', fx:{w:{V:.6}, sens:.7}},
+   {t:"Don't care if the team is good", k:"It's fine if the team is good", fx:{sens:.25, w:{P:.5}}}],
+  fact:'Manchester City is owned by a member of Abu Dhabi\'s ruling family, and Newcastle United by Saudi Arabia\'s sovereign wealth fund. Critics call it "sportswashing."',
+  kf:'Two big teams in England, Manchester City and Newcastle, are owned by rulers of faraway countries. Some fans do not like that.'},
+ {id:'cause', q:'Some clubs stand for something off the pitch: welcoming refugees, fighting racism, big community programmes. That is:', kq:'Some teams help people. They welcome families who had to leave their homes, and they stand up to bullies. Is that important?', opts:[
+   {t:'A big reason to pick a club', k:'Very important!', fx:{w:{V:2}}},
+   {t:'Nice to have', k:'Kind of nice', fx:{w:{V:.7}}},
+   {t:'Not why I watch sport', k:'I just want to watch the game', fx:{w:{V:-.3}}}],
+  fact:"Hamburg's St. Pauli flies a skull-and-crossbones flag and is known worldwide for anti-racist fan culture. Its fans voted to turn the club into a member-owned co-operative in 2024.",
+  kf:'St. Pauli, a team in Hamburg, Germany, uses a pirate flag. Its fans are famous for standing up against racism.'},
+ {id:'old', q:'How old should your club be?', kq:'Old team or new team?', opts:[
+   {t:'Ancient. I want 140 years of stories', k:'Super old! Over 100 years of stories', fx:{w:{H:2}}},
+   {t:'Some history is nice, not essential', k:'A little old is fine', fx:{w:{H:.7}}},
+   {t:'New is exciting. Be there from the start', k:'Brand new! I want to be there from the start', fx:{young:2, w:{H:-.5}}}],
+  fact:'Notts County, founded in 1862, is the oldest professional club in the world. Sacramento Republic FC was founded in 2012 and won its league in its very first season.',
+  kf:'The oldest pro team in the world, Notts County, started in 1862, before cars were invented! Sacramento Republic started in 2012 and won its league the very first year.'},
+ {id:'where', multi:true, q:'Where would you most like to go to a match? Pick any.', kq:'Where would you like to go see a game? Pick any.', opts:[
+   {t:'England', v:'England'}, {t:'Germany', v:'Germany'}, {t:'Spain', v:'Spain'}, {t:'Italy', v:'Italy'},
+   {t:'France', v:'France'}, {t:'Somewhere unusual (Norway, Türkiye, Portugal…)', k:'Somewhere far away and surprising', v:'other'},
+   {t:'A US road trip', k:'A road trip in the USA', v:'USA'}, {t:'Close to home (California and the West Coast)', k:'Close to home in California', v:'home'}],
+  fact:"Norway's Bodø/Glimt plays north of the Arctic Circle, on artificial grass, and knocked Roma out of Europe with a 6-1 win in 2021.",
+  kf:'Bodø/Glimt, a team in Norway, plays so far north that in the middle of winter the sun does not come up at all!'},
+ {id:'when', q:'When would you actually watch?', kq:'When would you watch games?', opts:[
+   {t:'Weekend mornings with coffee or pancakes', k:'Weekend mornings with pancakes', fx:{eu:1}},
+   {t:'Evenings after school or work', k:'After school or at dinner time', fx:{us:1.2}},
+   {t:'Whenever it fits', k:'Anytime!', fx:{}}],
+  fact:'A 3pm Saturday kickoff in England is 7am in Sacramento. In the UK those 3pm matches are not shown on TV at all, so fans go to the ground instead.',
+  kf:'Games in England often start while Sacramento is still waking up, at 7 in the morning!'},
+ {id:'style', q:'What kind of team do you want to watch?', kq:'How should your team play?', opts:[
+   {t:'Beautiful passing, like a dance', k:'Fancy passing, like a dance', fx:{w:{S:1.5}, big:.3}},
+   {t:'All-out energy: chase every ball', k:'Run, run, run! Chase every ball', fx:{w:{S:1, C:.5}}},
+   {t:'Scrappy fighters who never give up', k:'Tough fighters who never give up', fx:{w:{S:.5}, under:1}},
+   {t:'Superstars who can win it alone', k:'Superstars doing amazing tricks', fx:{big:1.2, w:{P:.8}}}],
+  fact:'Jürgen Klopp called his style "heavy metal football": win the ball back within seconds of losing it. He coached both Dortmund and Liverpool, which is part of why those two clubs have a friendship.',
+  kf:'Coach Jürgen Klopp called his style "heavy metal football": get the ball back super fast! He coached both Dortmund and Liverpool.'},
+ {id:'colour', q:'Pick a colour to wear on match day.', kq:'Pick a colour for your jersey!', opts:[
+   {t:'Red', v:'red'}, {t:'Royal blue', v:'blue'}, {t:'Sky blue', v:'sky'}, {t:'Yellow', v:'yellow'},
+   {t:'Green', v:'green'}, {t:'Purple', v:'purple'}, {t:'Orange', v:'orange'}, {t:'Black and white', v:'bw'}],
+  fact:"Juventus plays in black and white stripes because in 1903 a friend in England shipped them Notts County's shirts. They never changed back.",
+  kf:'Juventus, a team in Italy, wears black and white stripes because over 100 years ago a team in England mailed them its shirts.'},
+ {id:'women', q:"Would you like a women's team to follow too?", kq:"Do you want to cheer for a women's team too?", opts:[
+   {t:'Yes, I want one of my clubs to be a women\'s team', k:'Yes!', fx:{women:2}},
+   {t:'Maybe, if the club has both', k:'Maybe', fx:{women:.5}},
+   {t:'Not right now', k:'Not now', fx:{women:-1.5}}],
+  fact:"The US women's team has won four World Cups (1991, 1999, 2015, 2019). The NWSL is the top women's league in the country, and the Portland Thorns have won it three times.",
+  kf:"The US women's team has won the World Cup four times! The Portland Thorns have won their league three times."},
+ {id:'stars', multi:true, q:'Which of these players have you heard of? Pick any.', kq:'Which players do you know? Pick any.', opts:[
+   {t:'Lionel Messi', v:'messi'}, {t:'Cristiano Ronaldo', v:'ronaldo'}, {t:'Kylian Mbappé', v:'mbappe'}, {t:'Erling Haaland', v:'haaland'},
+   {t:'Mohamed Salah', v:'salah'}, {t:'Harry Kane', v:'kane'}, {t:'Son Heung-min', v:'son'}, {t:'Christian Pulisic', v:'pulisic'},
+   {t:'David Beckham', v:'beckham'}, {t:'Alex Morgan', v:'morgan'}, {t:'None of them', k:'None', v:'none'}],
+  fact:'Messi joined Inter Miami in 2023 and won the Leagues Cup within five weeks. David Beckham is one of the club\'s owners.',
+  kf:'Lionel Messi plays for Inter Miami in Florida. David Beckham, a famous player from England, helps own the team.'},
+ {id:'song', q:"Before kickoff, 50,000 people sing the same song, scarves held high. That gives you:", kq:'Before the game, 50,000 fans sing the same song and hold up their scarves. How does that feel?', opts:[
+   {t:'Goosebumps. Sign me up', k:'Goosebumps! Awesome!', fx:{w:{C:2}}},
+   {t:"It's pretty cool", k:'Pretty cool', fx:{w:{C:.8}}},
+   {t:'Mostly I want the game to start', k:"Let's just play!", fx:{w:{S:.5, P:.3}}}],
+  fact:'Liverpool fans sing "You\'ll Never Walk Alone" before every home match. The song comes from a 1945 Broadway musical, Carousel. Dortmund fans sing it too.',
+  kf:'Liverpool fans sing "You\'ll Never Walk Alone" before every home game. It means your friends are always with you.'},
+ {id:'trouble', q:'Clubs sometimes get in trouble: racist chants, cheating on spending rules, violent fans. How much should that count against a club?', kq:"Sometimes teams do bad things. Fans are mean to players because of their skin colour, or a team cheats. How much should that matter?", opts:[
+   {t:'A lot. I want a club I can be proud of', k:"A lot. I want a team I'm proud of", fx:{sens:1.2, w:{V:.8}}},
+   {t:'Some, depending on what happened', k:'Some', fx:{sens:.7}},
+   {t:'Not much. Every big club has something', k:'Not much', fx:{sens:.3}}],
+  fact:'Union Berlin fans rebuilt their own stadium in 2008 and 2009, putting in about 140,000 volunteer hours. Some even donated blood to raise money for the club.',
+  kf:'Union Berlin fans fixed up their own stadium with their own hands. Some even gave blood to raise money for the team!'},
+ {id:'family', q:'Kevin follows Liverpool, Borussia Dortmund, the Portland Timbers and Thorns, and Sacramento Republic. Would you like to share a club with him?', kq:'Dad (Kevin) cheers for Liverpool, Dortmund, the Portland Timbers and Thorns, and Sacramento Republic. Do you want to share a team with him?', opts:[
+   {t:"Yes, I'd like at least one in common", k:"Yes, let's share one!", fx:{family:2}},
+   {t:'Maybe, if it fits', k:'Maybe', fx:{family:.8}},
+   {t:"No, I'll find my own", k:"No, I'll find my own", fx:{family:-.5}},
+   {t:"I'm Kevin", k:"I'm Kevin", fx:{me:1}}],
+  fact:'Portland Timbers fans have a lumberjack, Timber Joey. Every time the Timbers score, he cuts a slice off a log with a chainsaw and gives it to the goal scorer.',
+  kf:'The Portland Timbers have a real lumberjack. Every time they score, he cuts a slice off a log with a chainsaw and gives it to the player who scored!'},
+];
+
+// ---- more versions of each question (same slot = same scoring). Each draft asks one per slot.
+const WHERE_OPTS = [
+   {t:'England', v:'England'}, {t:'Germany', v:'Germany'}, {t:'Spain', v:'Spain'}, {t:'Italy', v:'Italy'},
+   {t:'France', v:'France'}, {t:'Somewhere unusual (Norway, Türkiye, Portugal…)', k:'Somewhere far away and surprising', v:'other'},
+   {t:'A US road trip', k:'A road trip in the USA', v:'USA'}, {t:'Close to home (California and the West Coast)', k:'Close to home in California', v:'home'}];
+const COLOUR_OPTS = [
+   {t:'Red', v:'red'}, {t:'Royal blue', v:'blue'}, {t:'Sky blue', v:'sky'}, {t:'Yellow', v:'yellow'},
+   {t:'Green', v:'green'}, {t:'Purple', v:'purple'}, {t:'Orange', v:'orange'}, {t:'Black and white', v:'bw'}];
+const MORE = [
+ {id:'day2', slot:'day', q:'Pick your match-day ticket.', kq:'Pick your ticket!', opts:[
+   {t:'A seat right behind the goal with the loudest fans', k:'Behind the goal with the loudest fans', fx:{w:{C:2}}},
+   {t:'A seat in the most famous stadium in the world', k:'The most famous stadium in the world', fx:{w:{H:1, P:1}, big:1}},
+   {t:'A cheap ticket at a tiny ground, leaning on the fence', k:'A tiny stadium, right next to the field', fx:{under:1, lower:1.5, home:.5}},
+   {t:'The family section, with face paint and snacks', k:'The family section with face paint and snacks', fx:{w:{V:1}, us:1, women:.5}}],
+  fact:"Dortmund's stadium holds about 81,000 people, the biggest in Germany. Germany's top league draws the highest average crowds of any league in the world.",
+  kf:"Dortmund's stadium holds about 81,000 people. That's more than everyone who lives in Davis!"},
+ {id:'day3', slot:'day', q:'What would you bring home from your first match?', kq:'What would you bring home from your first game?', opts:[
+   {t:'A scarf, and no voice left from singing', k:'A scarf, and no voice left from singing', fx:{w:{C:2}}},
+   {t:'A photo with a superstar', k:'A photo with a superstar', fx:{w:{H:1, P:1}, big:1}},
+   {t:"A programme from a little local club nobody's heard of", k:'A souvenir from a little local team', fx:{under:1, lower:1.5, home:.5}},
+   {t:'Face paint and a full belly', k:'Face paint and a full belly', fx:{w:{V:1}, us:1, women:.5}}],
+  fact:"Before every Liverpool home match, players walk down the tunnel and touch a sign that says \"This Is Anfield.\" It was put up in the 1970s to remind visiting teams where they were.",
+  kf:'Before every Liverpool home game, the players touch a sign that says "This Is Anfield" for good luck.'},
+ {id:'story2', slot:'story', q:'Which sports movie would you watch?', kq:'Which movie would you watch?', opts:[
+   {t:'Champions: a team wins five titles in a row', k:'A team that wins five times in a row', fx:{w:{P:2}, big:1}},
+   {t:'The Long Shot: a small-town team beats the famous club', k:'A small-town team beats the famous team', fx:{under:2}},
+   {t:'Saved: fans buy their club back from a bad owner', k:'Fans save their team from a bad boss', fx:{w:{O:2, C:1}}},
+   {t:"Year One: a new club's very first season", k:"A new team's very first year", fx:{young:2, us:.5}}],
+  fact:'AFC Wimbledon was started by fans in 2002, after their old club was moved about 60 miles away to Milton Keynes. The new club climbed back into the Football League by 2011.',
+  kf:'When their team was moved to another city, Wimbledon fans started a brand-new team from scratch. Nine years later it was back in the big leagues!'},
+ {id:'story3', slot:'story', q:"Pick the headline you'd most like to read about your team.", kq:'Pick a headline about your team!', opts:[
+   {t:'"Champions again!"', k:'"Champions again!"', fx:{w:{P:2}, big:1}},
+   {t:'"Giant-killers! Tiny club knocks out the favourites"', k:'"Tiny team beats the giants!"', fx:{under:2}},
+   {t:'"Fans take over their club"', k:'"Fans take over their team!"', fx:{w:{O:2, C:1}}},
+   {t:'"New club wins its first ever match"', k:'"New team wins its first game ever!"', fx:{young:2, us:.5}}],
+  fact:'Wrexham, a small club in Wales, was bought by actors Ryan Reynolds and Rob McElhenney in 2021. It then went up a league three seasons in a row: 2023, 2024 and 2025.',
+  kf:'Two movie actors bought Wrexham, a small team in Wales. The team then went up three leagues in three years!'},
+ {id:'win2', slot:'win', q:'Your team finishes near the bottom and drops down a league. You:', kq:'Your team does badly and has to move down to an easier league. What do you do?', opts:[
+   {t:"Buy next year's ticket anyway", k:'Keep cheering for them!', fx:{w:{P:-.5, C:.5}}},
+   {t:'Feel sad, but stay', k:'Feel sad, but stay', fx:{w:{P:.5}}},
+   {t:'Grumble until they come back up', k:'Grumble until they come back up', fx:{w:{P:1.5}}},
+   {t:'Start watching a winning team instead', k:'Pick a team that wins more', fx:{w:{P:2.5}, big:1}}],
+  fact:'In England the bottom three Premier League teams drop down a league every year and three teams come up from below. It is called promotion and relegation, and most US leagues do not have it.',
+  kf:'In England, the three worst teams each year have to move down a league, and the three best teams from below move up. US leagues do not do that.'},
+ {id:'win3', slot:'win', q:'Would you rather your team:', kq:'Would you rather your team:', opts:[
+   {t:'Played with heart, win or lose', k:'Plays with heart, win or lose', fx:{w:{P:-.5, C:.5}}},
+   {t:'Won some and lost some', k:'Wins some, loses some', fx:{w:{P:.5}}},
+   {t:'Won most weeks', k:'Wins most weeks', fx:{w:{P:1.5}}},
+   {t:'Won everything, every year', k:'Wins everything, every year!', fx:{w:{P:2.5}, big:1}}],
+  fact:'Arsenal went the whole 2003-04 Premier League season without losing a match: 26 wins and 12 draws. Fans call that team "the Invincibles."',
+  kf:'In 2004, Arsenal played a whole season without losing a single game! People call them "the Invincibles."'},
+ {id:'own2', slot:'own', q:'A club needs money. Where should it come from?', kq:'A team needs money. Who should give it?', opts:[
+   {t:'Thousands of fans, each buying a small share', k:'Lots of fans, each giving a little', fx:{w:{O:2.5}}},
+   {t:'A local business that has backed the club for years', k:'A business from the same town', fx:{w:{O:1.2}, home:.3}},
+   {t:'A billionaire from overseas', k:'A super-rich person from far away', fx:{w:{O:-1, P:1}}},
+   {t:'Whoever offers the most', k:"I don't mind", fx:{}}],
+  fact:"Exeter City in England is majority-owned by its supporters' trust: thousands of fans who each chip in a small amount.",
+  kf:'A team in England called Exeter City is owned by its fans. Each fan gives a little bit, and together they own the team!'},
+ {id:'own3', slot:'own', q:'Should fans get a vote on big club decisions, like ticket prices or a new stadium?', kq:'Should fans get to vote on big team decisions?', opts:[
+   {t:'Yes, always', k:'Yes, always!', fx:{w:{O:2.5}}},
+   {t:'On some things', k:'On some things', fx:{w:{O:1.2}, home:.3}},
+   {t:'No, the owner should decide', k:'No, the boss decides', fx:{w:{O:-1, P:1}}},
+   {t:"I don't mind", k:"I don't mind", fx:{}}],
+  fact:"Barcelona and Real Madrid are owned by their members, called socios. The members vote to elect the club's president.",
+  kf:"Barcelona and Real Madrid, two of the biggest teams in the world, are owned by their fans. The fans vote for the team's president!"},
+ {id:'wash2', slot:'wash', q:"A club's owner comes from a country known for treating people badly. Does that matter to you?", kq:"A team's owner comes from a country that treats people unfairly. Does that matter?", opts:[
+   {t:"Yes. I wouldn't back that club", k:"Yes. I wouldn't cheer for them", fx:{w:{V:1.5}, sens:1.2}},
+   {t:"A little, but it wouldn't stop me", k:'A little', fx:{w:{V:.6}, sens:.7}},
+   {t:'Not if the team is good', k:'Not if the team is good', fx:{sens:.25, w:{P:.5}}}],
+  fact:'The 2022 World Cup was held in Qatar. Many fans and players spoke out about how the migrant workers who built the stadiums were treated.',
+  kf:'When Qatar hosted the World Cup in 2022, lots of people spoke up for the workers who built the stadiums and were not treated fairly.'},
+ {id:'wash3', slot:'wash', q:'One club spends far more than everyone else and wins a lot because of it. Is that fair?', kq:'One team has way more money than everyone else, so it wins a lot. Is that fair?', opts:[
+   {t:"No. I'd root against them", k:"No! I'd cheer against them", fx:{w:{V:1.5}, sens:1.2}},
+   {t:"A bit unfair, but that's football", k:'A little unfair', fx:{w:{V:.6}, sens:.7}},
+   {t:'Winning is winning', k:'Winning is winning', fx:{sens:.25, w:{P:.5}}}],
+  fact:'Chelsea spent more than £1 billion on new players in the first few years after its 2022 takeover.',
+  kf:'One team in England, Chelsea, spent more than a billion pounds on players in just a few years. That is a LOT of money!'},
+ {id:'cause2', slot:'cause', q:'A club gives free tickets to local kids and collects food for families in need. How much does that matter?', kq:'A team gives free tickets to kids and collects food for families who need it. Does that matter?', opts:[
+   {t:'A lot. That could make me pick them', k:'A lot!', fx:{w:{V:2}}},
+   {t:"It's nice", k:"It's nice", fx:{w:{V:.7}}},
+   {t:"It doesn't change who I'd cheer for", k:"It doesn't matter to me", fx:{w:{V:-.3}}}],
+  fact:'Liverpool and Everton fans, fierce rivals, run food bank collections together outside their grounds on match days. They started Fans Supporting Foodbanks in 2015.',
+  kf:'Fans of Liverpool and Everton are big rivals, but they work together to collect food for families who need it.'},
+ {id:'cause3', slot:'cause', q:'Your club puts a charity on its shirt instead of a paying sponsor. You think:', kq:'Your team puts a charity on its shirt instead of a company. What do you think?', opts:[
+   {t:"That's the kind of club I want", k:"That's awesome!", fx:{w:{V:2}}},
+   {t:'Nice touch', k:'Nice', fx:{w:{V:.7}}},
+   {t:"They should take the money and buy players", k:'They should get money for better players', fx:{w:{V:-.3}}}],
+  fact:'In 2006 Barcelona put UNICEF on its shirt, and paid UNICEF for the privilege instead of being paid by a sponsor.',
+  kf:"Barcelona once put UNICEF, a charity for kids, on its shirt, and gave the charity money instead of the other way around!"},
+ {id:'old2', slot:'old', q:'Would you rather your club had:', kq:'Would you rather your team had:', opts:[
+   {t:'A trophy cabinet older than your great-grandparents', k:'Trophies older than your great-grandparents', fx:{w:{H:2}}},
+   {t:'A few good stories', k:'A few good stories', fx:{w:{H:.7}}},
+   {t:'No history yet, and you get to write it', k:'No stories yet, so you get to make them', fx:{young:2, w:{H:-.5}}}],
+  fact:'The FA Cup began in 1871 and is the oldest national football competition in the world.',
+  kf:'The FA Cup in England is more than 150 years old! It is the oldest football tournament in the world.'},
+ {id:'old3', slot:'old', q:'Pick a stadium.', kq:'Pick a stadium!', opts:[
+   {t:'A 100-year-old ground with a creaky wooden stand', k:'A 100-year-old stadium with creaky wooden seats', fx:{w:{H:2}}},
+   {t:'A rebuilt stadium on the same old spot', k:'A fixed-up stadium in the same old spot', fx:{w:{H:.7}}},
+   {t:'A shiny stadium built last year', k:'A shiny new stadium', fx:{young:2, w:{H:-.5}}}],
+  fact:'Everton played at Goodison Park from 1892 to 2025, then moved to a new stadium on the Liverpool docks.',
+  kf:'Everton played in the same stadium for 133 years, then moved to a brand-new one by the river in 2025.'},
+ {id:'where2', slot:'where', multi:true, q:'Pick your dream football trip. Pick any.', kq:'Pick your dream trip to see a game! Pick any.', opts:WHERE_OPTS,
+  fact:"The 2026 World Cup was played in the USA, Canada and Mexico, with 48 teams for the first time. Levi's Stadium in Santa Clara hosted matches.",
+  kf:'The World Cup came to the USA in 2026! Some games were played in Santa Clara, not far from Sacramento.'},
+ {id:'where3', slot:'where', multi:true, q:'If you could live somewhere for a year and go to a match every week, where? Pick any.', kq:'If you could live somewhere for a year and see a game every week, where? Pick any.', opts:WHERE_OPTS,
+  fact:"Istanbul sits on two continents. Galatasaray plays on the European side of the city, and its rival Fenerbahçe on the Asian side.",
+  kf:'In Istanbul, Türkiye, one big team plays in Europe and its rival plays across the water in Asia!'},
+ {id:'when2', slot:'when', q:'When would you rather watch a whole match?', kq:'When would you watch a whole game?', opts:[
+   {t:'Saturday morning, still in pajamas', k:'Saturday morning in pajamas', fx:{eu:1}},
+   {t:'A weeknight under the lights', k:'At night under the lights', fx:{us:1.2}},
+   {t:"Doesn't matter", k:"Doesn't matter!", fx:{}}],
+  fact:'In England, Boxing Day (December 26) is one of the biggest days of the football year, with nearly every team playing.',
+  kf:'In England, almost every team plays the day after Christmas. Families go to games together.'},
+ {id:'when3', slot:'when', q:'How would you most like to watch?', kq:'How would you like to watch?', opts:[
+   {t:'Breakfast football on weekend mornings', k:'Breakfast football on weekends', fx:{eu:1}},
+   {t:'Evening games after dinner', k:'After dinner', fx:{us:1.2}},
+   {t:'Either', k:'Either!', fx:{}}],
+  fact:'About 1.5 billion people watched the 2022 World Cup final, more than any other sporting event.',
+  kf:'About 1.5 billion people watched the 2022 World Cup final. That is more people than live in all of North and South America!'},
+ {id:'style2', slot:'style', q:'Which player would you want to be?', kq:'Which player would you want to be?', opts:[
+   {t:'The playmaker who never misplaces a pass', k:'The one who makes perfect passes', fx:{w:{S:1.5}, big:.3}},
+   {t:'The one who runs all game and never stops', k:'The one who never stops running', fx:{w:{S:1, C:.5}}},
+   {t:'The tough defender who never gives up', k:'The tough defender who never gives up', fx:{w:{S:.5}, under:1}},
+   {t:'The superstar who scores wonder goals', k:'The superstar who scores amazing goals', fx:{big:1.2, w:{P:.8}}}],
+  fact:'Spain won the 2010 World Cup with "tiki-taka": keeping the ball with lots of short, quick passes until a gap opens.',
+  kf:'Spain won the 2010 World Cup by passing the ball short and quick, over and over, like a game of keep-away.'},
+ {id:'style3', slot:'style', q:'Which goal would you rather see?', kq:'Which goal would you rather see?', opts:[
+   {t:'A goal after 20 passes in a row', k:'A goal after 20 passes in a row', fx:{w:{S:1.5}, big:.3}},
+   {t:'A goal from stealing the ball near their net', k:'A goal from stealing the ball', fx:{w:{S:1, C:.5}}},
+   {t:'A scrappy goal in the last minute to save a draw', k:'A messy goal in the last minute', fx:{w:{S:.5}, under:1}},
+   {t:'A 40-yard rocket from a superstar', k:'A super-long rocket shot!', fx:{big:1.2, w:{P:.8}}}],
+  fact:'Erling Haaland scored 36 Premier League goals in 2022-23, the most ever in one season.',
+  kf:'Erling Haaland scored 36 goals in one season in England. Nobody has ever scored more!'},
+ {id:'colour2', slot:'colour', q:'Pick a jersey colour.', kq:'Pick a jersey colour!', opts:COLOUR_OPTS,
+  fact:'Yellow and red cards were invented by English referee Ken Aston, who got the idea waiting at a traffic light. They were first used at the 1970 World Cup.',
+  kf:'A referee got the idea for yellow and red cards while stopped at a traffic light!'},
+ {id:'colour3', slot:'colour', q:"What's your favourite colour?", kq:"What's your favourite colour?", opts:COLOUR_OPTS,
+  fact:"Boca Juniors in Argentina wears blue and gold because, the story goes, the founders chose the colours of the next ship to sail into port. It was Swedish.",
+  kf:'A team in Argentina picked its colours from the flag of the next ship that sailed in. It was from Sweden, so blue and yellow!'},
+ {id:'women2', slot:'women', q:"Would you like to go to a women's match?", kq:"Would you like to go to a women's game?", opts:[
+   {t:"Yes, I'd love to", k:'Yes!', fx:{women:2}},
+   {t:'Maybe', k:'Maybe', fx:{women:.5}},
+   {t:'Not right now', k:'Not now', fx:{women:-1.5}}],
+  fact:"Christine Sinclair, who played for the Portland Thorns, scored 190 goals for Canada, more international goals than any other player, man or woman.",
+  kf:'Christine Sinclair, who played for the Portland Thorns, scored more goals for her country than any other player ever, boy or girl!'},
+ {id:'women3', slot:'women', q:"Should your club have a great women's team too?", kq:"Should your team have a great women's team too?", opts:[
+   {t:'Yes, that matters to me', k:'Yes!', fx:{women:2}},
+   {t:'It would be nice', k:"That'd be nice", fx:{women:.5}},
+   {t:"I'm fine either way", k:"I don't mind", fx:{women:-1.5}}],
+  fact:"The Kansas City Current opened the first stadium built just for a women's professional team, in 2024.",
+  kf:'In 2024, Kansas City built the first stadium ever made just for a women\'s team!'},
+ {id:'stars2', slot:'stars', multi:true, q:'Which of these names do you know? Pick any.', kq:'Which of these names do you know? Pick any.', opts:[
+   {t:'Lamine Yamal', v:'yamal'}, {t:'Jude Bellingham', v:'bellingham'}, {t:'Vinícius Júnior', v:'vini'}, {t:'Bukayo Saka', v:'saka'},
+   {t:'Trinity Rodman', v:'rodman'}, {t:'Sophia Wilson', v:'wilson'}, {t:'Megan Rapinoe', v:'rapinoe'}, {t:'Zlatan Ibrahimović', v:'zlatan'},
+   {t:'Neymar', v:'neymar'}, {t:'Ryan Reynolds (actor)', v:'reynolds'}, {t:'Natalie Portman (actor)', v:'portman'}, {t:'None of them', k:'None', v:'none'}],
+  fact:'Lamine Yamal won Euro 2024 with Spain at 16 and became the youngest player ever to score at a European Championship.',
+  kf:'Lamine Yamal scored for Spain at the European Championship when he was just 16, and his team won the whole thing!'},
+ {id:'stars3', slot:'stars', multi:true, q:'Which of these have you seen or heard about? Pick any.', kq:'Which of these have you heard of? Pick any.', opts:[
+   {t:'Lionel Messi', v:'messi'}, {t:'Cristiano Ronaldo', v:'ronaldo'}, {t:'David Beckham', v:'beckham'}, {t:'Neymar', v:'neymar'},
+   {t:'Kylian Mbappé', v:'mbappe'}, {t:'Erling Haaland', v:'haaland'}, {t:'Megan Rapinoe', v:'rapinoe'}, {t:'Alex Morgan', v:'morgan'},
+   {t:'Zlatan Ibrahimović', v:'zlatan'}, {t:'Ryan Reynolds (actor)', v:'reynolds'}, {t:'None of them', k:'None', v:'none'}],
+  fact:'Cristiano Ronaldo has scored more goals for his country, Portugal, than any other man in history.',
+  kf:'Cristiano Ronaldo has scored more goals for his country than any other man ever!'},
+ {id:'song2', slot:'song', q:'Before kickoff, fans hold up thousands of coloured cards to make one giant picture. You think:', kq:'Before the game, fans hold up thousands of coloured cards to make one giant picture. You think:', opts:[
+   {t:'Amazing. Hand me a card', k:'Amazing! I want to hold a card', fx:{w:{C:2}}},
+   {t:'Cool to look at', k:'Cool!', fx:{w:{C:.8}}},
+   {t:'Nice, now start the game', k:'Can we start the game?', fx:{w:{S:.5, P:.3}}}],
+  fact:'Those giant fan displays are called tifos. Fans sometimes spend weeks painting and planning one.',
+  kf:'Those giant fan pictures are called tifos. Fans sometimes spend weeks painting them!'},
+ {id:'song3', slot:'song', q:'The whole crowd starts jumping together and the stadium shakes. You:', kq:'The whole crowd jumps together and the stadium shakes. What do you do?', opts:[
+   {t:'Jump with them', k:'Jump with them!', fx:{w:{C:2}}},
+   {t:'Watch and smile', k:'Watch and smile', fx:{w:{C:.8}}},
+   {t:'Hold on to my seat', k:'Hold on to my seat', fx:{w:{S:.5, P:.3}}}],
+  fact:"At Euro 2016, Iceland's fans did the \"Viking clap\": a slow, booming clap, thousands of people in time. Iceland has fewer people than Sacramento.",
+  kf:'Fans from Iceland do a giant slow clap all together: BOOM... clap! Their whole country has fewer people than Sacramento.'},
+ {id:'trouble2', slot:'trouble', q:"Your club's star player is caught bullying people online. What should the club do?", kq:"Your team's best player is mean to people online. What should the team do?", opts:[
+   {t:'Punish him, even if we lose games', k:'Punish him, even if we lose', fx:{sens:1.2, w:{V:.8}}},
+   {t:'Talk to him and give a second chance', k:'Give him a second chance', fx:{sens:.7}},
+   {t:'Nothing, he scores goals', k:'Nothing, he scores goals', fx:{sens:.3}}],
+  fact:'Clubs can be punished for breaking money rules too. Everton had points taken away twice in the 2023-24 season.',
+  kf:'Teams can lose points for breaking the rules about money. It happened to Everton twice in one season!'},
+ {id:'trouble3', slot:'trouble', q:"Some of a club's fans throw things and start fights. Should the club be punished?", kq:"Some fans of a team throw things and start fights. Should the team get in trouble?", opts:[
+   {t:'Yes, strongly', k:'Yes!', fx:{sens:1.2, w:{V:.8}}},
+   {t:'A little', k:'A little', fx:{sens:.7}},
+   {t:"No, it's only a few fans", k:"No, it's only a few fans", fx:{sens:.3}}],
+  fact:"After the Hillsborough disaster in 1989, when 97 Liverpool fans died in a crush, England's top stadiums were rebuilt with a seat for every fan.",
+  kf:'After a terrible accident at a stadium in 1989, England made its big stadiums safer, with a seat for every fan.'},
+ {id:'family2', slot:'family', q:'Kevin follows Liverpool, Borussia Dortmund, the Portland Timbers and Thorns, and Sacramento Republic. At a match together, whose team are you cheering for?', kq:'Dad (Kevin) cheers for Liverpool, Dortmund, the Portland Timbers and Thorns, and Sacramento Republic. At a game together, who do you cheer for?', opts:[
+   {t:'His team. We cheer together', k:'His team! We cheer together', fx:{family:2}},
+   {t:'Maybe one of his', k:'Maybe one of his', fx:{family:.8}},
+   {t:"Mine. Let's have a family rivalry", k:"Mine! Let's be rivals", fx:{family:-.5}},
+   {t:"I'm Kevin", k:"I'm Kevin", fx:{me:1}}],
+  fact:'The Cascadia Cup, played for by Portland, Seattle and Vancouver, was created by the fans themselves in 2004, not the league.',
+  kf:'Fans of Portland, Seattle and Vancouver made their own trophy, the Cascadia Cup, to play for every year!'},
+];
+BANK.push(...MORE);
+for (const q of BANK) q.slot = q.slot || q.id;
+const BYID = Object.fromEntries(BANK.map(q => [q.id, q]));
+const SLOTS = ['day', 'story', 'win', 'own', 'wash', 'cause', 'old', 'where', 'when', 'style', 'colour', 'women', 'stars', 'song', 'trouble', 'family'];
+// A new draft asks one version per slot: the one used least in past drafts (ties at random).
+function pickSet() {
+  const used = {};
+  for (const r of past) for (const id of Object.keys(r.answers || {})) used[id] = (used[id] || 0) + 1;
+  return SLOTS.map(sl => { const vs = BANK.filter(q => q.slot === sl), lo = Math.min(...vs.map(q => used[q.id] || 0)), c = vs.filter(q => (used[q.id] || 0) === lo); return c[Math.floor(Math.random() * c.length)].id; });
+}
+let Q = [];
+const setQ = () => { Q = (S.qs || SLOTS).map(id => BYID[id]).filter(Boolean); };
+
+const PERSONAS = {C:['The Terrace Singer', 'You want noise, songs and a crowd that never sits down.'], V:['The Idealist', 'You want a club you can be proud of off the pitch too.'],
+  H:['The Historian', 'Old grounds, old rivalries, a century of stories.'], O:['The Co-owner', 'You like clubs that belong to their fans.'],
+  S:['The Tactician', 'You care how the team plays, and how hard it tries.'], P:['The Trophy Hunter', 'You want to celebrate. Often.'],
+  under:['The Underdog Romantic', 'You root for the small club that punches above its weight.'], young:['The Founder', 'You want to be there from chapter one.'],
+  home:['The Local', 'Your club should be a drive away.']};
+// Second-strongest trait, as a tail: "The Founder, with a taste for trophies".
+const TAILS = {C:'with a loud singing voice', V:'with a big heart', H:'with a love of old stories', O:'who wants the fans in charge', S:'who loves a hard-working team',
+  P:'with a taste for trophies', under:'who roots for the little guy', young:'who likes new things', home:'who likes to stay close to home'};
+
+// ---------------------------------------------------------------- state
+const LS = 'family-club-draft';
+let S = load() || {stage:'start', players:[], q:0, ans:{}, tab:0};
+function load() { try { return JSON.parse(localStorage.getItem(LS)); } catch (e) { return null; } }
+function keep() { try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) {} }
+let db = null, past = [];
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;'}[c]));
+const slug = s => s.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'player';
+const $ = s => document.querySelector(s);
+
+// ---------------------------------------------------------------- scoring
+function profile(a) {
+  const p = {w:{C:1, V:1, H:1, O:.5, S:.6, P:1}, big:0, under:0, young:0, sens:.6, lower:-1, home:0, us:0, eu:0, women:0, family:0, me:0, where:[], hue:null, stars:[]};
+  let sens = [];
+  for (const q of BANK) {
+    const v = a[q.id];
+    if (v == null) continue;
+    if (q.slot === 'where') { p.where = v; continue; }
+    if (q.slot === 'colour') { p.hue = (q.opts[v] || {}).v || null; continue; }
+    if (q.slot === 'stars') { p.stars = v.filter(x => x !== 'none'); continue; }
+    const fx = q.opts[v].fx || {};
+    for (const [f, d] of Object.entries(fx.w || {})) p.w[f] = Math.max(0.1, p.w[f] + d);
+    for (const t of ['big', 'under', 'young', 'lower', 'home', 'us', 'eu', 'women', 'family', 'me']) if (fx[t]) p[t] += fx[t];
+    if (fx.sens != null) sens.push(fx.sens);
+  }
+  if (sens.length) p.sens = sens.reduce((s, x) => s + x, 0) / sens.length;
+  return p;
+}
+function hsl(hex) {
+  const n = parseInt(hex.slice(1), 16), r = (n >> 16) / 255, g = (n >> 8 & 255) / 255, b = (n & 255) / 255;
+  const mx = Math.max(r, g, b), mn = Math.min(r, g, b), l = (mx + mn) / 2, d = mx - mn;
+  if (!d) return [0, 0, l];
+  const s = d / (1 - Math.abs(2 * l - 1));
+  let h = mx === r ? ((g - b) / d) % 6 : mx === g ? (b - r) / d + 2 : (r - g) / d + 4;
+  return [(h * 60 + 360) % 360, s, l];
+}
+const EUROPE = ['England', 'Germany', 'Spain', 'Italy', 'France'];
+function scoreClub(c, p) {
+  const f = {C:c.C / 10, V:c.V / 10, H:c.H / 10, O:c.O / 10, S:c.S / 10, P:c.P / 10};
+  const W = Object.values(p.w).reduce((s, x) => s + x, 0);
+  let base = 0; const parts = {};
+  for (const k of Object.keys(p.w)) { parts[k] = p.w[k] * f[k] / W * 100; base += parts[k]; }
+  const why = [];
+  const add = (x, label) => { if (x) { bonus += x; if (label && x >= 2) why.push(label); } };
+  let bonus = 0;
+  bonus += p.sens * c.adj * .8;
+  const isBig = c.H >= 9 && c.P >= 6, us = c.co === 'USA' || c.co === 'Canada';
+  add(p.big * (isBig ? 5 : 0), 'A giant of the game');
+  add(p.under * (!isBig && c.P < 5.5 ? 4 : 0), 'An underdog');
+  add(p.young * (c.H <= 3 ? 5 : c.H >= 8 ? -2 : 0), 'A young club');
+  if (['ch', 'cup', 'usl'].includes(c.k)) add(p.lower * 3, 'A true neighbourhood club');
+  if (p.where.length) {
+    // picking every place says little: the bonus shrinks with the number picked (8 places on offer)
+    const hit = p.where.includes(c.co) || (p.where.includes('other') && !EUROPE.includes(c.co) && !us) || (p.where.includes('home') && c.mi != null);
+    const ww = Math.min(1, 3 / p.where.length), near = p.where.includes('home') && c.mi != null;
+    add((hit ? 8 : -3) * ww, near ? (c.mi ? `${c.mi} miles from Sacramento` : 'In Sacramento') : p.where.length <= 4 ? 'Somewhere you want to go' : null);
+  }
+  if (c.mi != null) add(p.home * (c.mi <= 150 ? 8 : c.mi <= 750 ? 4 : 0), c.mi <= 150 ? 'Close to home' : null);
+  add(us ? p.us * 3 : 0, null);
+  add(!us ? p.eu * 2.5 : 0, null);
+  if (c.k === 'nwsl') add(p.women * 5, "A women's team");
+  if (KEVIN.includes(c.n)) add(p.family * 5, "One of Kevin's clubs");
+  // Kevin's own items (his rivals, the Republic link) count fully for Kevin, half for anyone who wants to share
+  // a club with him, and otherwise only show as a warning.
+  if (c.kv) {
+    // a rival is never Kevin's pick
+    const k = p.me ? (c.kv < 0 ? 5 : 1) : c.kv < 0 && p.family > 0 ? .5 : 0;
+    bonus += c.kv * k / .7;
+    if (c.kv < 0) why.push(p.me ? 'Your rival' : "Kevin's rival");
+  }
+  // Knowing a player adds a little; someone who knows them all gets the same total as someone who knows two.
+  const sw = Math.min(1, 2 / Math.max(1, p.stars.length));
+  for (const s of p.stars) { const st = STARS[s]; if (!st) continue; if ((st.cur || []).includes(c.n)) add(5 * sw, `${STAR_NAME[s]} plays here`); else if ((st.own || []).includes(c.n)) add(4 * sw, `${STAR_NAME[s]} is an owner`); else if ((st.old || []).includes(c.n)) add(2 * sw, `${STAR_NAME[s]} played here`); }
+  if (p.hue) {
+    const [h, s, l] = hsl(c.col), [th, ts] = HUES[p.hue];
+    let hit = false;
+    if (!ts) hit = s < .18 || l < .12 || l > .9; else { const dh = Math.min(Math.abs(h - th), 360 - Math.abs(h - th)); hit = s >= .25 && l > .12 && l < .9 && dh < (p.hue === 'red' || p.hue === 'orange' ? 16 : 28); }
+    add(hit ? 4 : 0, 'Wears your colour');
+  }
+  // ranked on the uncapped score; shown out of 99
+  // Distinct picks: part of each club's all-round quality (what anyone would score it) is taken back out, so
+  // answers decide more than Kevin's ratings do. Kevin's own run keeps the plain score.
+  const total = Math.max(0, base + bonus * .7 - (p.me ? 0 : DISTINCT * (NEUTRAL[c.n] - NEUTRAL_AVG)));
+  const top = Object.entries(parts).filter(([k]) => f[k] >= .75).sort((a, b) => b[1] - a[1]).slice(0, 2);
+  const LBL = {C:'Famous atmosphere', V:'A club with values', H:'Deep history', O:'Fans have a real say', S:'Plays with heart', P:'Wins a lot lately'};
+  return {c, total, why:[...why, ...top.map(([k]) => LBL[k])].slice(0, 4)};
+}
+const DISTINCT = .45;
+const NEUTRAL = {}; let NEUTRAL_AVG = 0;
+{ const w = {C:1, V:1, H:1, O:.5, S:.6, P:1}, W = 5.1;
+  for (const c of CLUBS) { const f = {C:c.C, V:c.V, H:c.H, O:c.O, S:c.S, P:c.P}; NEUTRAL[c.n] = Object.keys(w).reduce((s, k) => s + w[k] * f[k] / 10 / W * 100, 0) + .6 * c.adj * .8 * .7; }
+  NEUTRAL_AVG = CLUBS.reduce((s, c) => s + NEUTRAL[c.n], 0) / CLUBS.length; }
+function rank(a) { const p = profile(a); return {p, list:CLUBS.map(c => scoreClub(c, p)).sort((x, y) => y.total - x.total)}; }
+function persona(p) {
+  const W = Object.values(p.w).reduce((s, x) => s + x, 0), rel = {};
+  const avg = {C:1, V:1, H:1, O:.5, S:.6, P:1};
+  for (const k in p.w) rel[k] = p.w[k] / W - avg[k] / 5.1;
+  rel.P += p.big * .02; rel.under = p.under * .05; rel.young = p.young * .05; rel.home = (p.home + (p.where.includes('home') ? .5 : 0)) * .025;
+  const [a, b] = Object.entries(rel).sort((x, y) => y[1] - x[1]);
+  return [`${PERSONAS[a[0]][0]}, ${TAILS[b[0]]}`, PERSONAS[a[0]][1], PERSONAS[a[0]][0], TAILS[b[0]]];
+}
+
+// ---------------------------------------------------------------- views
+function render() {
+  keep();
+  const el = $('#app');
+  if (S.stage === 'start') el.innerHTML = viewStart();
+  else if (S.stage === 'q') el.innerHTML = viewQ();
+  else el.innerHTML = viewResults();
+  const f = document.querySelector('[data-focus]'); if (f) f.focus();
+}
+function viewStart() {
+  const ps = S.players.length ? S.players : [];
+  return `<div class="stack">
+  <section class="hero">
+    <div class="scarf" style="--c1:var(--pitch);--c2:var(--flood)"></div>
+    <p class="eyebrow">A game for the whole family</p>
+    <h1>Family Club Draft</h1>
+    <p>Sixteen quick questions about what you'd enjoy, no football knowledge needed. Each one comes with a short story from the game, and every new draft asks different questions (three versions of each), so you can play again. At the end, everyone gets a club (or five) that fits them, out of ${CLUBS.length} clubs in England, Europe and the US.</p>
+    <p class="muted">Play alone, or add everyone and answer together on one phone: each person taps their own name on the answer they pick. Tap Kid next to a young player's name and every question switches to simpler words, with the grown-up version underneath.</p>
+  </section>
+  <section class="card stack">
+    <h3>Who's playing?</h3>
+    <div class="players">${ps.map((p, i) => `<div class="pl"><span class="dot" style="--pc:${p.col}"></span><input id="pn-${i}" value="${esc(p.name)}" aria-label="Player ${i + 1} name" data-pn="${i}"><button class="btn small kidb" data-kid="${i}" aria-pressed="${!!p.kid}" title="Simpler words for young players">Kid</button><button class="x" data-del="${i}" aria-label="Remove ${esc(p.name)}">×</button></div>`).join('')}
+      <div class="pl"><span class="dot" style="--pc:${PCOL[ps.length % PCOL.length]}"></span><input id="pn-new" placeholder="Add a name" aria-label="Add a player"${ps.length ? '' : ' data-focus'}><button class="btn small" data-add>Add</button></div></div>
+    <div class="row"><button class="btn go" data-start ${ps.length ? '' : 'disabled'}>Kick off</button>${S.q || Object.keys(S.ans).length ? '<button class="btn small" data-reset>Start over</button>' : ''}</div>
+  </section>
+  ${past.length ? `<section class="stack"><h3>Past drafts</h3><div class="past">${past.map((r, i) => `<button class="li" data-past="${i}" style="--cc:${r.col || 'var(--pitch)'}"><i></i><div><strong>${esc(r.name)}</strong><span class="meta">${esc((r.top || []).slice(0, 3).join(' · '))}</span></div><span class="meta">${r.at ? new Date(r.at).toLocaleDateString() : ''}</span></button>`).join('')}</div></section>` : ''}
+  </div>`;
+}
+function answeredAll(q) { return S.players.every((_, i) => { const v = (S.ans[i] || {})[q.id]; return q.multi ? Array.isArray(v) && v.length : v != null; }); }
+function viewQ() {
+  const q = Q[S.q], multi = !!q.multi, solo = S.players.length === 1, done = answeredAll(q), kid = S.players.some(p => p.kid);
+  const ot = o => esc(kid && o.k ? o.k : o.t);
+  const picked = (i, o) => { const v = (S.ans[i] || {})[q.id]; return multi ? Array.isArray(v) && v.includes(q.opts[o].v) : v === o; };
+  const opts = q.opts.map((o, oi) => {
+    const sel = S.players.some((_, i) => picked(i, oi));
+    return solo ? `<button class="opt ${picked(0, oi) ? 'sel' : ''}" data-pick="0:${oi}" aria-pressed="${picked(0, oi)}"><b>${ot(o)}</b></button>`
+      : `<div class="opt ${sel ? 'sel' : ''}"><b>${ot(o)}</b><div class="who">${S.players.map((p, i) => `<button style="--pc:${p.col}" data-pick="${i}:${oi}" aria-pressed="${picked(i, oi)}">${esc(p.name)}</button>`).join('')}</div></div>`;
+  }).join('');
+  const left = S.players.filter((_, i) => { const v = (S.ans[i] || {})[q.id]; return multi ? !(Array.isArray(v) && v.length) : v == null; }).map(p => p.name);
+  return `<div class="stack ${kid ? 'kid' : ''}">
+    <div class="prog" aria-label="Question ${S.q + 1} of ${Q.length}">${Q.map((_, i) => `<i class="${i <= S.q ? 'on' : ''}"></i>`).join('')}</div>
+    <p class="eyebrow">Question ${S.q + 1} of ${Q.length}${multi ? ' · pick as many as you like' : ''}</p>
+    <h2>${esc(kid ? q.kq : q.q)}</h2>${kid ? `<p class="grown">For grown-ups: ${esc(q.q)}</p>` : ''}
+    <div class="opts">${opts}</div>
+    ${done ? `<div class="fact"><span class="eyebrow">Did you know?</span><p>${esc(kid ? q.kf : q.fact)}</p>${kid ? `<p class="grown">For grown-ups: ${esc(q.fact)}</p>` : ''}</div>` : `<p class="waiting">${solo ? '' : 'Still to answer: ' + left.map(esc).join(', ')}</p>`}
+    <div class="nav"><button class="btn small" data-back>${S.q ? 'Back' : 'Players'}</button><button class="btn go" data-next ${done ? '' : 'disabled'}>${S.q === Q.length - 1 ? 'See my clubs' : 'Next'}</button></div>
+  </div>`;
+}
+function viewResults() {
+  const res = S.players.map((p, i) => Object.assign({pl:p, i}, rank(S.ans[i] || {})));
+  const tab = S.tab ?? 0, fam = S.players.length > 1;
+  const tabs = `<div class="tabs">${res.map(r => `<button style="--pc:${r.pl.col}" data-tab="${r.i}" aria-pressed="${tab === r.i}">${esc(r.pl.name)}</button>`).join('')}${fam ? `<button data-tab="-1" aria-pressed="${tab === -1}">Family</button>` : ''}</div>`;
+  let body = '';
+  if (tab === -1) body = viewFamily(res);
+  else {
+    const r = res[tab] || res[0], [, pd, pn, ptail] = persona(r.p), top = r.list[0], rest = r.list.slice(1, 5);
+    const topCo = new Set(r.list.slice(0, 5).map(x => x.c.co));
+    const wild = r.list.find(x => !topCo.has(x.c.co));
+    body = `<section class="stack"><p class="eyebrow">${esc(r.pl.name)}'s football personality</p><p class="persona">${esc(pn)}</p><p class="ptail">${esc(ptail)}</p><p>${esc(pd)}</p></section>
+    ${clubCard(top, 'Your club')}
+    <section class="stack"><h3>Also a great fit</h3><div class="list">${rest.map(x => row(x)).join('')}</div></section>
+    ${wild ? `<section class="stack"><h3>Wildcard</h3><p class="muted">The best match outside the countries above.</p><div class="list">${row(wild)}</div></section>` : ''}
+    <details class="card"><summary>How the matching works</summary><p>Every club has five ratings out of 10 (fan culture, values, history, ownership, team) plus a track record of recent results. Your answers decide how much each one matters to you. Places you'd like to go, your colour, players you know, women's teams and sharing a club with Kevin add a few points. Bad behaviour (racism, violent fans, cheating on spending) takes points off, more if you said it matters.</p></details>`;
+  }
+  return `<div class="stack">
+    <div class="scarf" style="--c1:var(--pitch);--c2:var(--flood)"></div>
+    <h1>Your clubs</h1>${tabs}${body}
+    <div class="row"><button class="btn small" data-back>Change answers</button><button class="btn small" data-reset>New draft</button><span class="note" id="saved">${S.saved ? 'Saved.' : ''}</span></div>
+  </div>`;
+}
+function clubCard(x, label) {
+  const c = x.c;
+  return `<article class="card top" style="--cc:${c.col}">
+    <div class="scarf"></div>
+    <p class="eyebrow">${esc(label)}</p>
+    <div class="row" style="justify-content:space-between;align-items:flex-end"><span class="big">${esc(c.n)}</span><span class="score">${Math.min(99, Math.round(x.total))}</span></div>
+    <p class="meta">${esc(c.lg)} · ${esc(c.co)}</p>
+    ${x.why.length ? `<div class="chips">${x.why.map(w => `<span>${esc(w)}</span>`).join('')}</div>` : ''}
+    ${c.hist ? `<p class="story"><b>The story</b>${esc(c.hist)}</p>` : ''}
+    ${c.cult ? `<p class="story"><b>The fans</b>${esc(c.cult)}</p>` : ''}
+  </article>`;
+}
+function row(x) {
+  const c = x.c;
+  return `<button class="li" data-club="${esc(c.n)}" style="--cc:${c.col}" aria-expanded="${S.open === c.n}"><i></i><div><strong>${esc(c.n)}</strong><span class="meta">${esc(c.lg)} · ${esc(c.co)}${x.why.length ? ' · ' + esc(x.why.slice(0, 2).join(', ')) : ''}</span>${S.open === c.n ? `<span class="story" style="display:block;margin-top:8px">${esc(c.hist)}</span><span class="story muted" style="display:block;margin-top:6px">${esc(c.cult)}</span>` : ''}</div><span class="score">${Math.min(99, Math.round(x.total))}</span></button>`;
+}
+function viewFamily(res) {
+  // A club everyone could back: best average score across the family.
+  const avg = CLUBS.map((c, ci) => ({c, total:res.reduce((s, r) => s + r.list.find(x => x.c === c).total, 0) / res.length, why:[]})).sort((a, b) => b.total - a.total);
+  const tops = res.map(r => new Set(r.list.slice(0, 10).map(x => x.c.n)));
+  const shared = CLUBS.filter(c => tops.filter(t => t.has(c.n)).length >= 2).map(c => ({c, who:res.filter((r, i) => tops[i].has(c.n)).map(r => r.pl.name)}));
+  return `<section class="fam">${res.map(r => `<div class="card" style="--pc:${r.pl.col}"><p class="eyebrow">${esc(r.pl.name)}</p><h3>${esc(r.list[0].c.n)}</h3><p class="meta">${esc(persona(r.p)[0])}</p></div>`).join('')}</section>
+    ${clubCard(avg[0], 'A club you could all back')}
+    <section class="stack"><h3>In more than one top 10</h3>${shared.length ? `<div class="list">${shared.map(s => `<button class="li" data-club="${esc(s.c.n)}" style="--cc:${s.c.col}"><i></i><div><strong>${esc(s.c.n)}</strong><span class="meta">${esc(s.who.join(', '))}</span></div><span class="meta">${esc(s.c.co)}</span></button>`).join('')}</div>` : '<p class="muted">No overlap in anyone\'s top 10. A house divided!</p>'}</section>`;
+}
+
+// ---------------------------------------------------------------- actions
+function addPlayer() {
+  const el = $('#pn-new'), n = el && el.value.trim();
+  if (!n) return;
+  S.players.push({name:n, col:PCOL[S.players.length % PCOL.length]}); render();
+  const nx = $('#pn-new'); if (nx) nx.focus();
+}
+document.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.id === 'pn-new') { e.preventDefault(); addPlayer(); } });
+document.addEventListener('change', e => { const i = e.target.dataset.pn; if (i != null) { const v = e.target.value.trim(); if (v) S.players[+i].name = v; keep(); } });
+document.addEventListener('click', e => {
+  const t = e.target.closest('button'); if (!t) return;
+  const d = t.dataset;
+  if ('add' in d) return addPlayer();
+  if (d.kid != null) { const pl = S.players[+d.kid]; pl.kid = !pl.kid; return render(); }
+  if (d.del != null) { S.players.splice(+d.del, 1); const a = {}; S.players.forEach((_, i) => a[i] = S.ans[i >= +d.del ? i + 1 : i]); S.ans = a; return render(); }
+  if ('start' in d) { const pending = $('#pn-new'); if (pending && pending.value.trim()) addPlayer(); if (!S.players.length) return; S.stage = 'q'; S.saved = false; if (!S.qs || !Object.keys(S.ans).length) { S.qs = pickSet(); S.q = 0; } setQ(); window.scrollTo(0, 0); return render(); }
+  if ('reset' in d) { S = {stage:'start', players:S.players, q:0, ans:{}, tab:0}; setQ(); return render(); }
+  if (d.pick) {
+    const [pi, oi] = d.pick.split(':').map(Number), q = Q[S.q], a = S.ans[pi] = S.ans[pi] || {};
+    if (q.multi) {
+      const v = q.opts[oi].v; let cur = Array.isArray(a[q.id]) ? a[q.id] : [];
+      cur = cur.includes(v) ? cur.filter(x => x !== v) : v === 'none' ? ['none'] : [...cur.filter(x => x !== 'none'), v];
+      a[q.id] = cur;
+    } else a[q.id] = oi;
+    return render();
+  }
+  if ('next' in d) { if (S.q < Q.length - 1) { S.q++; window.scrollTo(0, 0); return render(); } S.stage = 'r'; S.tab = 0; window.scrollTo(0, 0); render(); return saveAll(); }
+  if ('back' in d) { if (S.stage === 'r') { S.stage = 'q'; S.q = Q.length - 1; } else if (S.q) S.q--; else S.stage = 'start'; return render(); }
+  if (d.tab != null) { S.tab = +d.tab; S.open = null; return render(); }
+  if (d.club) { S.open = S.open === d.club ? null : d.club; return render(); }
+  if (d.past != null) { const r = past[+d.past]; if (!r || !r.answers) return; S = {stage:'r', players:[{name:r.name, col:r.col || PCOL[0]}], ans:{0:r.answers}, qs:SLOTS.map(sl => Object.keys(r.answers).find(id => (BYID[id] || {}).slot === sl) || sl), tab:0, saved:true}; setQ(); S.q = Q.length - 1; window.scrollTo(0, 0); return render(); }
+});
+
+// ---------------------------------------------------------------- saving (claude.ai db when available; this device otherwise)
+async function saveAll() {
+  if (!db) return;
+  try {
+    for (const [i, p] of S.players.entries()) {
+      const r = rank(S.ans[i] || {});
+      await db.collection('drafts').doc(slug(p.name) + '-' + Date.now()).set({name:p.name, col:p.col, answers:S.ans[i] || {}, top:r.list.slice(0, 5).map(x => x.c.n), persona:persona(r.p)[0], at:Date.now()});
+    }
+    S.saved = true; keep(); const el = $('#saved'); if (el) el.textContent = 'Saved.';
+  } catch (e) { const el = $('#saved'); if (el) el.textContent = 'Saved on this device only.'; }
+}
+setQ();
+render();
+(async () => {
+  try {
+    db = window.claude && await window.claude.use('db');
+    if (!db) return;
+    db.collection('drafts').orderBy('at', 'desc').limit(30).onSnapshot(snap => {
+      past = snap.docs.map(d => d.data()).filter(Boolean);
+      if (S.stage === 'start') render();
+    }, () => {});
+  } catch (e) {}
+})();
+</script>

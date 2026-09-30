@@ -1028,6 +1028,9 @@ function affBreakdown(k, t) {
   if (fs * (h.k ?? 1) + h.adj + (h.usTot || 0) + (h.assoc || 0) > 100) sum.push('(capped at 100)');
   return `<h4 style="margin-top:18px">Affinity ${affOf(t).toFixed(1)}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
     ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${h[key]}</b></div>`).join('')}
+    ${h.tb ? `<div class="hb hb-adj"><span>${h.dom ? 'Homegrown' : 'Club links'} <small style="display:block">Team ${h.S0} ${signed(h.tb)}</small></span><span>${h.dom
+      ? `${Math.round(h.dom[0] * 100)}% of the squad from ${k === 'unl' ? 'home' : 'the club\'s own country'}, league average ${Math.round(h.dom[1] * 100)}% (recent seasons count most)`
+      : (h.clubs || []).map(([c, n, v]) => `${esc(c)} (${n} call-up${n === 1 ? '' : 's'}) ${signed(v)}`).join(' · ') + '<br><small>Players at tournaments since 2016, weighted by how you rate their clubs</small>'}</span><b class="num ${h.tb < 0 ? 'neg' : ''}">${signed(h.tb)}</b></div>` : ''}
     ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>
       <p class="hb-note">Last 10 league seasons, oldest to newest, recent ones counting most.</p>` : ''}
     ${h.adj ? `<div class="hb hb-adj"><span>Adjustments</span><span>${esc(h.note)}</span><b class="num ${h.adj < 0 ? 'neg' : ''}">${signed(h.adj)}</b></div>` : h.note ? `<p class="hb-note">${esc(h.note)}</p>` : ''}

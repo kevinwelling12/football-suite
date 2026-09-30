@@ -61,9 +61,33 @@
     "V": 4,
     "H": 6,
     "O": 2,
-    "S": 5,
+    "S": 5.0,
     "adj": -20,
-    "note": "Government record -20"
+    "note": "Government record -20",
+    "S0": 5,
+    "tb": -0.0,
+    "clubs": [
+     [
+      "Manchester City",
+      4,
+      -0.22
+     ],
+     [
+      "Borussia Dortmund",
+      3,
+      0.21
+     ],
+     [
+      "Nice",
+      6,
+      -0.18
+     ],
+     [
+      "Eintracht Frankfurt",
+      3,
+      0.06
+     ]
+    ]
    },
    "base": 35.8,
    "bonus": 0,
@@ -80,11 +104,35 @@
     "V": 3,
     "H": 10,
     "O": 2,
-    "S": 9,
+    "S": 9.2,
     "adj": -12,
-    "note": "Racism -12"
+    "note": "Racism -12",
+    "S0": 9,
+    "tb": 0.2,
+    "clubs": [
+     [
+      "Manchester City",
+      9,
+      -0.23
+     ],
+     [
+      "Real Betis",
+      7,
+      0.19
+     ],
+     [
+      "Liverpool",
+      2,
+      0.15
+     ],
+     [
+      "Barcelona",
+      5,
+      0.12
+     ]
+    ]
    },
-   "base": 57.2,
+   "base": 57.5,
    "bonus": 0,
    "region": ""
   },
@@ -99,11 +147,35 @@
     "V": 7,
     "H": 5,
     "O": 6,
-    "S": 7,
+    "S": 7.1,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 7,
+    "tb": 0.1,
+    "clubs": [
+     [
+      "New York City Football Club",
+      2,
+      -0.08
+     ],
+     [
+      "PSV Eindhoven",
+      2,
+      0.05
+     ],
+     [
+      "Viking",
+      1,
+      0.04
+     ],
+     [
+      "Feyenoord",
+      2,
+      0.03
+     ]
+    ]
    },
-   "base": 62.8,
+   "base": 63.0,
    "bonus": 0,
    "region": ""
   },
@@ -118,11 +190,35 @@
     "V": 5,
     "H": 10,
     "O": 3,
-    "S": 5,
+    "S": 5.4,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 5,
+    "tb": 0.4,
+    "clubs": [
+     [
+      "Liverpool",
+      11,
+      0.46
+     ],
+     [
+      "Manchester City",
+      10,
+      -0.25
+     ],
+     [
+      "Barcelona",
+      8,
+      0.21
+     ],
+     [
+      "Paris Saint-Germain",
+      15,
+      -0.17
+     ]
+    ]
    },
-   "base": 59.2,
+   "base": 59.9,
    "bonus": 0,
    "region": ""
   },
@@ -137,11 +233,35 @@
     "V": 6,
     "H": 4,
     "O": 4,
-    "S": 8,
+    "S": 8.3,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 8,
+    "tb": 0.3,
+    "clubs": [
+     [
+      "Portland Timbers",
+      5,
+      0.17
+     ],
+     [
+      "Bayern Munich",
+      4,
+      0.16
+     ],
+     [
+      "Porto",
+      3,
+      0.06
+     ],
+     [
+      "Inter Miami CF",
+      2,
+      -0.04
+     ]
+    ]
    },
-   "base": 57.6,
+   "base": 58.1,
    "bonus": 0,
    "region": ""
   },
@@ -156,11 +276,30 @@
     "V": 7,
     "H": 4,
     "O": 5,
-    "S": 8,
+    "S": 8.1,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 8,
+    "tb": 0.1,
+    "clubs": [
+     [
+      "Columbus Crew",
+      2,
+      0.06
+     ],
+     [
+      "Philadelphia Union",
+      1,
+      0.02
+     ],
+     [
+      "Rayo Vallecano",
+      1,
+      0.01
+     ]
+    ]
    },
-   "base": 64.1,
+   "base": 64.3,
    "bonus": 0,
    "region": ""
   },
@@ -175,11 +314,35 @@
     "V": 4,
     "H": 6,
     "O": 3,
-    "S": 8,
+    "S": 8.7,
     "adj": -13,
-    "note": "Racism -5; Fan violence -8"
+    "note": "Racism -5; Fan violence -8",
+    "S0": 8,
+    "tb": 0.7,
+    "clubs": [
+     [
+      "Bayern Munich",
+      3,
+      0.12
+     ],
+     [
+      "Sporting CP",
+      2,
+      0.08
+     ],
+     [
+      "Liverpool",
+      1,
+      0.07
+     ],
+     [
+      "Napoli",
+      2,
+      0.05
+     ]
+    ]
    },
-   "base": 48.9,
+   "base": 50.1,
    "bonus": 0,
    "region": ""
   },
@@ -194,11 +357,30 @@
     "V": 6,
     "H": 3,
     "O": 4,
-    "S": 5,
+    "S": 5.1,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 5,
+    "tb": 0.1,
+    "clubs": [
+     [
+      "PSV Eindhoven",
+      2,
+      0.13
+     ],
+     [
+      "Miami FC",
+      2,
+      -0.07
+     ],
+     [
+      "Feyenoord",
+      1,
+      0.01
+     ]
+    ]
    },
-   "base": 48.2,
+   "base": 48.4,
    "bonus": 0,
    "region": ""
   },
@@ -213,11 +395,35 @@
     "V": 6,
     "H": 6,
     "O": 3,
-    "S": 7,
+    "S": 7.3,
     "adj": -20,
-    "note": "Government record -20"
+    "note": "Government record -20",
+    "S0": 7,
+    "tb": 0.3,
+    "clubs": [
+     [
+      "Real Betis",
+      2,
+      0.1
+     ],
+     [
+      "VfB Stuttgart",
+      2,
+      0.06
+     ],
+     [
+      "Lens",
+      1,
+      0.04
+     ],
+     [
+      "Sunderland",
+      3,
+      0.03
+     ]
+    ]
    },
-   "base": 43.4,
+   "base": 43.9,
    "bonus": 0,
    "region": ""
   },
@@ -232,11 +438,35 @@
     "V": 4,
     "H": 4,
     "O": 3,
-    "S": 6,
+    "S": 6.1,
     "adj": -15,
-    "note": "Racism -5; Government record -10"
+    "note": "Racism -5; Government record -10",
+    "S0": 6,
+    "tb": 0.1,
+    "clubs": [
+     [
+      "Club Brugge",
+      2,
+      0.07
+     ],
+     [
+      "Seattle Sounders FC",
+      3,
+      0.06
+     ],
+     [
+      "VfB Stuttgart",
+      1,
+      0.06
+     ],
+     [
+      "Troyes",
+      1,
+      -0.04
+     ]
+    ]
    },
-   "base": 34.9,
+   "base": 35.1,
    "bonus": 0,
    "region": ""
   },
@@ -251,11 +481,35 @@
     "V": 3,
     "H": 7,
     "O": 3,
-    "S": 6,
+    "S": 6.3,
     "adj": -22,
-    "note": "Government record -22"
+    "note": "Government record -22",
+    "S0": 6,
+    "tb": 0.3,
+    "clubs": [
+     [
+      "Liverpool",
+      6,
+      0.41
+     ],
+     [
+      "Manchester City",
+      2,
+      -0.13
+     ],
+     [
+      "Nice",
+      1,
+      -0.04
+     ],
+     [
+      "VfB Stuttgart",
+      1,
+      0.02
+     ]
+    ]
    },
-   "base": 27.8,
+   "base": 28.3,
    "bonus": 0,
    "region": ""
   },
@@ -270,11 +524,35 @@
     "V": 6,
     "H": 7,
     "O": 4,
-    "S": 4,
+    "S": 4.4,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 4,
+    "tb": 0.4,
+    "clubs": [
+     [
+      "Athletic Club",
+      3,
+      0.22
+     ],
+     [
+      "Manchester City",
+      1,
+      -0.09
+     ],
+     [
+      "Club Brugge",
+      3,
+      0.07
+     ],
+     [
+      "Nice",
+      1,
+      -0.05
+     ]
+    ]
    },
-   "base": 56.2,
+   "base": 56.9,
    "bonus": 0,
    "region": ""
   },
@@ -289,11 +567,35 @@
     "V": 4,
     "H": 4,
     "O": 2,
-    "S": 6,
+    "S": 6.1,
     "adj": -10,
-    "note": "Government record -10"
+    "note": "Government record -10",
+    "S0": 6,
+    "tb": 0.1,
+    "clubs": [
+     [
+      "Philadelphia Union",
+      2,
+      0.05
+     ],
+     [
+      "AEK Athens",
+      1,
+      0.03
+     ],
+     [
+      "Inter Miami CF",
+      1,
+      -0.03
+     ],
+     [
+      "Sunderland",
+      1,
+      0.01
+     ]
+    ]
    },
-   "base": 38.8,
+   "base": 39.0,
    "bonus": 0,
    "region": ""
   },
@@ -308,11 +610,35 @@
     "V": 2,
     "H": 5,
     "O": 1,
-    "S": 5,
+    "S": 5.2,
     "adj": -25,
-    "note": "Government record -25"
+    "note": "Government record -25",
+    "S0": 5,
+    "tb": 0.2,
+    "clubs": [
+     [
+      "AEK Athens",
+      5,
+      0.14
+     ],
+     [
+      "Porto",
+      2,
+      0.04
+     ],
+     [
+      "Feyenoord",
+      2,
+      0.02
+     ],
+     [
+      "Roma",
+      1,
+      0.01
+     ]
+    ]
    },
-   "base": 19.6,
+   "base": 19.9,
    "bonus": 0,
    "region": ""
   },
@@ -327,9 +653,23 @@
     "V": 6,
     "H": 6,
     "O": 3,
-    "S": 4,
+    "S": 4.0,
     "adj": -20,
-    "note": "Government record -20"
+    "note": "Government record -20",
+    "S0": 4,
+    "tb": 0.0,
+    "clubs": [
+     [
+      "AFC Wimbledon",
+      1,
+      0.02
+     ],
+     [
+      "Atalanta",
+      1,
+      0.02
+     ]
+    ]
    },
    "base": 38.4,
    "bonus": 0,
@@ -346,11 +686,35 @@
     "V": 6,
     "H": 7,
     "O": 4,
-    "S": 6,
+    "S": 6.3,
     "adj": -10,
-    "note": "Government record -10"
+    "note": "Government record -10",
+    "S0": 6,
+    "tb": 0.3,
+    "clubs": [
+     [
+      "Sporting CP",
+      3,
+      0.13
+     ],
+     [
+      "Nice",
+      2,
+      -0.07
+     ],
+     [
+      "Atalanta",
+      2,
+      0.06
+     ],
+     [
+      "Borussia Dortmund",
+      1,
+      0.05
+     ]
+    ]
    },
-   "base": 52.1,
+   "base": 52.6,
    "bonus": 0,
    "region": ""
   },
@@ -365,11 +729,35 @@
     "V": 8,
     "H": 6,
     "O": 7,
-    "S": 8,
+    "S": 9.0,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 8,
+    "tb": 1.0,
+    "clubs": [
+     [
+      "Real Sociedad",
+      3,
+      0.15
+     ],
+     [
+      "SC Freiburg",
+      3,
+      0.14
+     ],
+     [
+      "VfB Stuttgart",
+      3,
+      0.09
+     ],
+     [
+      "Liverpool",
+      1,
+      0.09
+     ]
+    ]
    },
-   "base": 72.8,
+   "base": 74.5,
    "bonus": 0,
    "region": ""
   },
@@ -384,9 +772,12 @@
     "V": 6,
     "H": 3,
     "O": 4,
-    "S": 6,
+    "S": 6.0,
     "adj": -15,
-    "note": "Government record -15"
+    "note": "Government record -15",
+    "S0": 6,
+    "tb": 0.0,
+    "clubs": []
    },
    "base": 40.0,
    "bonus": 0,
@@ -403,11 +794,35 @@
     "V": 3,
     "H": 7,
     "O": 3,
-    "S": 6,
+    "S": 6.4,
     "adj": -20,
-    "note": "Racism -10; Government record -10"
+    "note": "Racism -10; Government record -10",
+    "S0": 6,
+    "tb": 0.4,
+    "clubs": [
+     [
+      "AEK Athens",
+      5,
+      0.09
+     ],
+     [
+      "PSV Eindhoven",
+      6,
+      0.09
+     ],
+     [
+      "Real Betis",
+      4,
+      0.08
+     ],
+     [
+      "Porto",
+      7,
+      0.05
+     ]
+    ]
    },
-   "base": 34.9,
+   "base": 35.6,
    "bonus": 0,
    "region": ""
   },
@@ -422,11 +837,35 @@
     "V": 5,
     "H": 8,
     "O": 3,
-    "S": 7,
+    "S": 7.6,
     "adj": -15,
-    "note": "Government record -15"
+    "note": "Government record -15",
+    "S0": 7,
+    "tb": 0.6,
+    "clubs": [
+     [
+      "PSV Eindhoven",
+      5,
+      0.23
+     ],
+     [
+      "Real Betis",
+      5,
+      0.14
+     ],
+     [
+      "Paris Saint-Germain",
+      5,
+      -0.08
+     ],
+     [
+      "VfB Stuttgart",
+      2,
+      0.08
+     ]
+    ]
    },
-   "base": 51.7,
+   "base": 52.7,
    "bonus": 0,
    "region": ""
   },
@@ -441,11 +880,25 @@
     "V": 7,
     "H": 4,
     "O": 7,
-    "S": 6,
+    "S": 6.4,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 6,
+    "tb": 0.4,
+    "clubs": [
+     [
+      "Portland Timbers",
+      1,
+      0.2
+     ],
+     [
+      "Viking",
+      1,
+      0.18
+     ]
+    ]
    },
-   "base": 55.3,
+   "base": 56.0,
    "bonus": 0,
    "region": ""
   },
@@ -460,9 +913,18 @@
     "V": 6,
     "H": 3,
     "O": 5,
-    "S": 7,
+    "S": 7.0,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 7,
+    "tb": 0.0,
+    "clubs": [
+     [
+      "Seattle Sounders FC",
+      2,
+      0.03
+     ]
+    ]
    },
    "base": 57.8,
    "bonus": 0,
@@ -479,9 +941,33 @@
     "V": 5,
     "H": 5,
     "O": 4,
-    "S": 7,
+    "S": 7.0,
     "adj": -10,
-    "note": "Government record -10"
+    "note": "Government record -10",
+    "S0": 7,
+    "tb": 0.0,
+    "clubs": [
+     [
+      "Inter Miami CF",
+      1,
+      -0.03
+     ],
+     [
+      "Sunderland",
+      1,
+      0.01
+     ],
+     [
+      "Seattle Sounders FC",
+      1,
+      0.01
+     ],
+     [
+      "Portsmouth",
+      1,
+      0.01
+     ]
+    ]
    },
    "base": 47.3,
    "bonus": 0,
@@ -498,9 +984,12 @@
     "V": 2,
     "H": 3,
     "O": 1,
-    "S": 3,
+    "S": 3.0,
     "adj": -20,
-    "note": "Government record -20"
+    "note": "Government record -20",
+    "S0": 3,
+    "tb": 0.0,
+    "clubs": []
    },
    "base": 2.3,
    "bonus": 0,
@@ -517,9 +1006,23 @@
     "V": 2,
     "H": 5,
     "O": 1,
-    "S": 3,
+    "S": 3.0,
     "adj": -25,
-    "note": "Government record -25"
+    "note": "Government record -25",
+    "S0": 3,
+    "tb": 0.0,
+    "clubs": [
+     [
+      "Lens",
+      1,
+      0.03
+     ],
+     [
+      "Roma",
+      1,
+      0.01
+     ]
+    ]
    },
    "base": 6.0,
    "bonus": 0,
@@ -536,11 +1039,35 @@
     "V": 4,
     "H": 7,
     "O": 4,
-    "S": 6,
+    "S": 6.2,
     "adj": -8,
-    "note": "Fan violence -8"
+    "note": "Fan violence -8",
+    "S0": 6,
+    "tb": 0.2,
+    "clubs": [
+     [
+      "Bayern Munich",
+      4,
+      0.17
+     ],
+     [
+      "Nice",
+      4,
+      -0.14
+     ],
+     [
+      "Liverpool",
+      3,
+      0.08
+     ],
+     [
+      "Chelsea",
+      5,
+      -0.05
+     ]
+    ]
    },
-   "base": 50.9,
+   "base": 51.2,
    "bonus": 0,
    "region": ""
   },
@@ -555,11 +1082,25 @@
     "V": 5,
     "H": 6,
     "O": 3,
-    "S": 7,
+    "S": 7.1,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 7,
+    "tb": 0.1,
+    "clubs": [
+     [
+      "Philadelphia Union",
+      1,
+      0.03
+     ],
+     [
+      "Club Brugge",
+      1,
+      0.03
+     ]
+    ]
    },
-   "base": 55.4,
+   "base": 55.6,
    "bonus": 0,
    "region": ""
   },
@@ -574,11 +1115,35 @@
     "V": 5,
     "H": 7,
     "O": 3,
-    "S": 5,
+    "S": 5.3,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 5,
+    "tb": 0.3,
+    "clubs": [
+     [
+      "Bayern Munich",
+      2,
+      0.12
+     ],
+     [
+      "Mainz 05",
+      3,
+      0.06
+     ],
+     [
+      "Paris Saint-Germain",
+      2,
+      -0.05
+     ],
+     [
+      "Borussia Mönchengladbach",
+      1,
+      0.04
+     ]
+    ]
    },
-   "base": 56.4,
+   "base": 56.9,
    "bonus": 0,
    "region": ""
   },
@@ -593,9 +1158,33 @@
     "V": 5,
     "H": 5,
     "O": 3,
-    "S": 3,
+    "S": 3.0,
     "adj": -15,
-    "note": "Government record -15"
+    "note": "Government record -15",
+    "S0": 3,
+    "tb": 0.0,
+    "clubs": [
+     [
+      "Nice",
+      5,
+      -0.11
+     ],
+     [
+      "Union Berlin",
+      2,
+      0.1
+     ],
+     [
+      "Eintracht Frankfurt",
+      3,
+      0.06
+     ],
+     [
+      "Troyes",
+      2,
+      -0.05
+     ]
+    ]
    },
    "base": 34.6,
    "bonus": 0,
@@ -612,11 +1201,35 @@
     "V": 7,
     "H": 6,
     "O": 6,
-    "S": 6,
+    "S": 6.7,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 6,
+    "tb": 0.7,
+    "clubs": [
+     [
+      "PSV Eindhoven",
+      5,
+      0.2
+     ],
+     [
+      "Seattle Sounders FC",
+      9,
+      0.17
+     ],
+     [
+      "New York City Football Club",
+      7,
+      -0.1
+     ],
+     [
+      "Borussia Mönchengladbach",
+      5,
+      0.09
+     ]
+    ]
    },
-   "base": 65.4,
+   "base": 66.6,
    "bonus": 10.0,
    "region": "Home nation"
   },
@@ -631,11 +1244,35 @@
     "V": 5,
     "H": 10,
     "O": 5,
-    "S": 4,
+    "S": 4.6,
     "adj": 0,
-    "note": ""
+    "note": "",
+    "S0": 4,
+    "tb": 0.6,
+    "clubs": [
+     [
+      "Barcelona",
+      7,
+      0.2
+     ],
+     [
+      "Sporting CP",
+      7,
+      0.2
+     ],
+     [
+      "Napoli",
+      3,
+      0.11
+     ],
+     [
+      "Liverpool",
+      2,
+      0.11
+     ]
+    ]
    },
-   "base": 64.9,
+   "base": 65.9,
    "bonus": 0,
    "region": ""
   },
@@ -650,11 +1287,25 @@
     "V": 5,
     "H": 3,
     "O": 2,
-    "S": 4,
+    "S": 3.9,
     "adj": -22,
-    "note": "Government record -22"
+    "note": "Government record -22",
+    "S0": 4,
+    "tb": -0.1,
+    "clubs": [
+     [
+      "Manchester City",
+      1,
+      -0.13
+     ],
+     [
+      "Lens",
+      1,
+      0.04
+     ]
+    ]
    },
-   "base": 22.0,
+   "base": 21.8,
    "bonus": 0,
    "region": ""
   }

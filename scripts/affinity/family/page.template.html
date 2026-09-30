@@ -88,6 +88,12 @@ button:focus-visible,input:focus-visible{outline:3px solid var(--flood);outline-
 details summary{cursor:pointer;font-weight:700}
 details p{margin-top:8px;font-size:15px;color:var(--muted)}
 .note{font-size:14px;color:var(--muted)}
+.ptail{font-family:var(--display);font-size:22px;font-weight:700;text-transform:uppercase;margin-top:-8px}
+.grown{font-size:15px;color:var(--muted)}
+.kid h2{font-size:clamp(28px,7vw,40px)}
+.kid .opt b{font-size:20px}
+.kidb{padding:8px 12px}
+.kidb[aria-pressed="true"]{background:var(--flood);color:var(--on-flood)}
 @media (prefers-reduced-motion:no-preference){.opt,.who button{transition:border-color .12s,background .12s}}
 </style>
 
@@ -113,93 +119,110 @@ const STAR_NAME = {messi:'Messi', ronaldo:'Ronaldo', mbappe:'Mbappé', haaland:'
 const HUES = {red:[355, 1], blue:[222, 1], sky:[205, 1], yellow:[48, 1], green:[145, 1], purple:[275, 1], orange:[25, 1], bw:[0, 0]};
 
 // Each option nudges a profile: w = factor weights (Culture, Values, History, Ownership, Team, winning),
-// plus tags. Facts show once everyone has answered.
+// plus tags. Facts show once everyone has answered. kq / k / kf are the kid versions (about age 8), shown
+// whenever a kid is playing; grown-ups see the full question in small type underneath.
 const Q = [
- {id:'day', q:'Picture your first match. Where are you?', opts:[
-   {t:'A giant stadium, 75,000 people, world-famous players', fx:{w:{H:1, P:1}, big:1}},
-   {t:'In a wall of fans who sing for the whole 90 minutes', fx:{w:{C:2}}},
-   {t:'A small neighbourhood ground where everyone knows each other', fx:{under:1, lower:1.5, home:.5}},
-   {t:'A relaxed family day out with good food', fx:{w:{V:1}, us:1, women:.5}}],
-  fact:"Borussia Dortmund's south stand, the Yellow Wall, holds about 25,000 standing fans. It is the biggest standing terrace in European football."},
- {id:'story', q:'Which story would you rather be part of?', opts:[
-   {t:'A dynasty that wins trophies year after year', fx:{w:{P:2}, big:1}},
-   {t:'A miracle: the underdog beats the giants', fx:{under:2}},
-   {t:'A club that collapsed and its own fans rebuilt it', fx:{w:{O:2, C:1}}},
-   {t:'A brand-new club writing its first chapter', fx:{young:2, us:.5}}],
-  fact:'Leicester City won the 2015-16 Premier League. Bookmakers had them at 5,000 to 1 before the season started.'},
- {id:'win', q:'Your team loses more than it wins this year. How do you feel?', opts:[
-   {t:"I still love them. That's what being a fan is", fx:{w:{P:-.5, C:.5}}},
-   {t:'A bit sad, but I stick around', fx:{w:{P:.5}}},
-   {t:'Frustrated. I want to see us win', fx:{w:{P:1.5}}},
-   {t:"Honestly, I'd probably drift to another team", fx:{w:{P:2.5}, big:1}}],
-  fact:'Fans who pick a team because it is winning right now get teased as "glory hunters." Most fans stick with a club for life, through relegations and all.'},
- {id:'own', q:'Who should own a football club?', opts:[
-   {t:'The fans themselves, as members with a vote', fx:{w:{O:2.5}}},
-   {t:'A local family or businessperson who cares about the town', fx:{w:{O:1.2}, home:.3}},
-   {t:'A billionaire who spends big to win', fx:{w:{O:-1, P:1}}},
-   {t:"I don't mind, as long as it's run well", fx:{}}],
-  fact:'In Germany the "50+1 rule" gives members a majority of the votes at most clubs. A season ticket at Dortmund costs a fraction of one at Liverpool.'},
- {id:'wash', q:'A club gets bought by a foreign government trying to improve its image. You:', opts:[
-   {t:"Walk away. That's not a club I'd back", fx:{w:{V:1.5}, sens:1.2}},
-   {t:"Feel uneasy, but it wouldn't be a deal-breaker", fx:{w:{V:.6}, sens:.7}},
-   {t:"Don't care if the team is good", fx:{sens:.25, w:{P:.5}}}],
-  fact:'Manchester City is owned by a member of Abu Dhabi\'s ruling family, and Newcastle United by Saudi Arabia\'s sovereign wealth fund. Critics call it "sportswashing."'},
- {id:'cause', q:'Some clubs stand for something off the pitch: welcoming refugees, fighting racism, big community programmes. That is:', opts:[
-   {t:'A big reason to pick a club', fx:{w:{V:2}}},
-   {t:'Nice to have', fx:{w:{V:.7}}},
-   {t:'Not why I watch sport', fx:{w:{V:-.3}}}],
-  fact:"Hamburg's St. Pauli flies a skull-and-crossbones flag and is known worldwide for anti-racist fan culture. Its fans voted to turn the club into a member-owned co-operative in 2024."},
- {id:'old', q:'How old should your club be?', opts:[
-   {t:'Ancient. I want 140 years of stories', fx:{w:{H:2}}},
-   {t:'Some history is nice, not essential', fx:{w:{H:.7}}},
-   {t:'New is exciting. Be there from the start', fx:{young:2, w:{H:-.5}}}],
-  fact:'Notts County, founded in 1862, is the oldest professional club in the world. Sacramento Republic FC was founded in 2012 and won its league in its very first season.'},
- {id:'where', multi:true, q:'Where would you most like to go to a match? Pick any.', opts:[
+ {id:'day', q:'Picture your first match. Where are you?', kq:'Your first game! Where do you want to be?', opts:[
+   {t:'A giant stadium, 75,000 people, world-famous players', k:'A giant stadium with the most famous players', fx:{w:{H:1, P:1}, big:1}},
+   {t:'In a wall of fans who sing for the whole 90 minutes', k:'Right in the middle of fans singing and jumping', fx:{w:{C:2}}},
+   {t:'A small neighbourhood ground where everyone knows each other', k:'A small stadium where everyone knows each other', fx:{under:1, lower:1.5, home:.5}},
+   {t:'A relaxed family day out with good food', k:'A fun family day with yummy food', fx:{w:{V:1}, us:1, women:.5}}],
+  fact:"Borussia Dortmund's south stand, the Yellow Wall, holds about 25,000 standing fans. It is the biggest standing terrace in European football.",
+  kf:'In Dortmund, Germany, 25,000 fans stand together on one giant stand called the Yellow Wall. It is the biggest in Europe!'},
+ {id:'story', q:'Which story would you rather be part of?', kq:'Which story sounds best?', opts:[
+   {t:'A dynasty that wins trophies year after year', k:'A team that wins trophies again and again', fx:{w:{P:2}, big:1}},
+   {t:'A miracle: the underdog beats the giants', k:'The little team that beats the giants', fx:{under:2}},
+   {t:'A club that collapsed and its own fans rebuilt it', k:'A team that got saved by its own fans', fx:{w:{O:2, C:1}}},
+   {t:'A brand-new club writing its first chapter', k:'A brand-new team starting from zero', fx:{young:2, us:.5}}],
+  fact:'Leicester City won the 2015-16 Premier League. Bookmakers had them at 5,000 to 1 before the season started.',
+  kf:'Leicester City was a small team nobody thought could win. In 2016 they won the whole Premier League!'},
+ {id:'win', q:'Your team loses more than it wins this year. How do you feel?', kq:'Your team loses a lot this year. How do you feel?', opts:[
+   {t:"I still love them. That's what being a fan is", k:'I still love them!', fx:{w:{P:-.5, C:.5}}},
+   {t:'A bit sad, but I stick around', k:'A little sad, but I stay', fx:{w:{P:.5}}},
+   {t:'Frustrated. I want to see us win', k:'Grumpy. I want to win!', fx:{w:{P:1.5}}},
+   {t:"Honestly, I'd probably drift to another team", k:"I'd pick a new team", fx:{w:{P:2.5}, big:1}}],
+  fact:'Fans who pick a team because it is winning right now get teased as "glory hunters." Most fans stick with a club for life, through relegations and all.',
+  kf:'Most fans keep the same team their whole life, even when it loses. Lots of kids get their team from their mom, dad or grandparents.'},
+ {id:'own', q:'Who should own a football club?', kq:'Who should be the boss of a team?', opts:[
+   {t:'The fans themselves, as members with a vote', k:'The fans! Everyone gets a vote', fx:{w:{O:2.5}}},
+   {t:'A local family or businessperson who cares about the town', k:"A family from the team's town", fx:{w:{O:1.2}, home:.3}},
+   {t:'A billionaire who spends big to win', k:'A super-rich person who buys great players', fx:{w:{O:-1, P:1}}},
+   {t:"I don't mind, as long as it's run well", k:"I don't mind", fx:{}}],
+  fact:'In Germany the "50+1 rule" gives members a majority of the votes at most clubs. A season ticket at Dortmund costs a fraction of one at Liverpool.',
+  kf:'In Germany, fans are the bosses of most big teams. They get to vote, like a club at school.'},
+ {id:'wash', q:'A club gets bought by a foreign government trying to improve its image. You:', kq:'A faraway country buys a team so people will like that country more. What do you think?', opts:[
+   {t:"Walk away. That's not a club I'd back", k:"Not okay. I wouldn't cheer for them", fx:{w:{V:1.5}, sens:1.2}},
+   {t:"Feel uneasy, but it wouldn't be a deal-breaker", k:'Hmm, that feels a little weird', fx:{w:{V:.6}, sens:.7}},
+   {t:"Don't care if the team is good", k:"It's fine if the team is good", fx:{sens:.25, w:{P:.5}}}],
+  fact:'Manchester City is owned by a member of Abu Dhabi\'s ruling family, and Newcastle United by Saudi Arabia\'s sovereign wealth fund. Critics call it "sportswashing."',
+  kf:'Two big teams in England, Manchester City and Newcastle, are owned by rulers of faraway countries. Some fans do not like that.'},
+ {id:'cause', q:'Some clubs stand for something off the pitch: welcoming refugees, fighting racism, big community programmes. That is:', kq:'Some teams help people. They welcome families who had to leave their homes, and they stand up to bullies. Is that important?', opts:[
+   {t:'A big reason to pick a club', k:'Very important!', fx:{w:{V:2}}},
+   {t:'Nice to have', k:'Kind of nice', fx:{w:{V:.7}}},
+   {t:'Not why I watch sport', k:'I just want to watch the game', fx:{w:{V:-.3}}}],
+  fact:"Hamburg's St. Pauli flies a skull-and-crossbones flag and is known worldwide for anti-racist fan culture. Its fans voted to turn the club into a member-owned co-operative in 2024.",
+  kf:'St. Pauli, a team in Hamburg, Germany, uses a pirate flag. Its fans are famous for standing up against racism.'},
+ {id:'old', q:'How old should your club be?', kq:'Old team or new team?', opts:[
+   {t:'Ancient. I want 140 years of stories', k:'Super old! Over 100 years of stories', fx:{w:{H:2}}},
+   {t:'Some history is nice, not essential', k:'A little old is fine', fx:{w:{H:.7}}},
+   {t:'New is exciting. Be there from the start', k:'Brand new! I want to be there from the start', fx:{young:2, w:{H:-.5}}}],
+  fact:'Notts County, founded in 1862, is the oldest professional club in the world. Sacramento Republic FC was founded in 2012 and won its league in its very first season.',
+  kf:'The oldest pro team in the world, Notts County, started in 1862, before cars were invented! Sacramento Republic started in 2012 and won its league the very first year.'},
+ {id:'where', multi:true, q:'Where would you most like to go to a match? Pick any.', kq:'Where would you like to go see a game? Pick any.', opts:[
    {t:'England', v:'England'}, {t:'Germany', v:'Germany'}, {t:'Spain', v:'Spain'}, {t:'Italy', v:'Italy'},
-   {t:'France', v:'France'}, {t:'Somewhere unusual (Norway, Türkiye, Portugal…)', v:'other'},
-   {t:'A US road trip', v:'USA'}, {t:'Close to home (California and the West Coast)', v:'home'}],
-  fact:"Norway's Bodø/Glimt plays north of the Arctic Circle, on artificial grass, and knocked Roma out of Europe with a 6-1 win in 2021."},
- {id:'when', q:'When would you actually watch?', opts:[
-   {t:'Weekend mornings with coffee or pancakes', fx:{eu:1}},
-   {t:'Evenings after school or work', fx:{us:1.2}},
-   {t:'Whenever it fits', fx:{}}],
-  fact:'A 3pm Saturday kickoff in England is 7am in Sacramento. In the UK those 3pm matches are not shown on TV at all, so fans go to the ground instead.'},
- {id:'style', q:'What kind of team do you want to watch?', opts:[
-   {t:'Beautiful passing, like a dance', fx:{w:{S:1.5}, big:.3}},
-   {t:'All-out energy: chase every ball', fx:{w:{S:1, C:.5}}},
-   {t:'Scrappy fighters who never give up', fx:{w:{S:.5}, under:1}},
-   {t:'Superstars who can win it alone', fx:{big:1.2, w:{P:.8}}}],
-  fact:'Jürgen Klopp called his style "heavy metal football": win the ball back within seconds of losing it. He coached both Dortmund and Liverpool, which is part of why those two clubs have a friendship.'},
- {id:'colour', q:'Pick a colour to wear on match day.', opts:[
+   {t:'France', v:'France'}, {t:'Somewhere unusual (Norway, Türkiye, Portugal…)', k:'Somewhere far away and surprising', v:'other'},
+   {t:'A US road trip', k:'A road trip in the USA', v:'USA'}, {t:'Close to home (California and the West Coast)', k:'Close to home in California', v:'home'}],
+  fact:"Norway's Bodø/Glimt plays north of the Arctic Circle, on artificial grass, and knocked Roma out of Europe with a 6-1 win in 2021.",
+  kf:'Bodø/Glimt, a team in Norway, plays so far north that in the middle of winter the sun does not come up at all!'},
+ {id:'when', q:'When would you actually watch?', kq:'When would you watch games?', opts:[
+   {t:'Weekend mornings with coffee or pancakes', k:'Weekend mornings with pancakes', fx:{eu:1}},
+   {t:'Evenings after school or work', k:'After school or at dinner time', fx:{us:1.2}},
+   {t:'Whenever it fits', k:'Anytime!', fx:{}}],
+  fact:'A 3pm Saturday kickoff in England is 7am in Sacramento. In the UK those 3pm matches are not shown on TV at all, so fans go to the ground instead.',
+  kf:'Games in England often start while Sacramento is still waking up, at 7 in the morning!'},
+ {id:'style', q:'What kind of team do you want to watch?', kq:'How should your team play?', opts:[
+   {t:'Beautiful passing, like a dance', k:'Fancy passing, like a dance', fx:{w:{S:1.5}, big:.3}},
+   {t:'All-out energy: chase every ball', k:'Run, run, run! Chase every ball', fx:{w:{S:1, C:.5}}},
+   {t:'Scrappy fighters who never give up', k:'Tough fighters who never give up', fx:{w:{S:.5}, under:1}},
+   {t:'Superstars who can win it alone', k:'Superstars doing amazing tricks', fx:{big:1.2, w:{P:.8}}}],
+  fact:'Jürgen Klopp called his style "heavy metal football": win the ball back within seconds of losing it. He coached both Dortmund and Liverpool, which is part of why those two clubs have a friendship.',
+  kf:'Coach Jürgen Klopp called his style "heavy metal football": get the ball back super fast! He coached both Dortmund and Liverpool.'},
+ {id:'colour', q:'Pick a colour to wear on match day.', kq:'Pick a colour for your jersey!', opts:[
    {t:'Red', v:'red'}, {t:'Royal blue', v:'blue'}, {t:'Sky blue', v:'sky'}, {t:'Yellow', v:'yellow'},
    {t:'Green', v:'green'}, {t:'Purple', v:'purple'}, {t:'Orange', v:'orange'}, {t:'Black and white', v:'bw'}],
-  fact:"Juventus plays in black and white stripes because in 1903 a friend in England shipped them Notts County's shirts. They never changed back."},
- {id:'women', q:"Would you like a women's team to follow too?", opts:[
-   {t:'Yes, I want one of my clubs to be a women\'s team', fx:{women:2}},
-   {t:'Maybe, if the club has both', fx:{women:.5}},
-   {t:'Not right now', fx:{women:-1.5}}],
-  fact:"The US women's team has won four World Cups (1991, 1999, 2015, 2019). The NWSL is the top women's league in the country, and the Portland Thorns have won it three times."},
- {id:'stars', multi:true, q:'Which of these players have you heard of? Pick any.', opts:[
+  fact:"Juventus plays in black and white stripes because in 1903 a friend in England shipped them Notts County's shirts. They never changed back.",
+  kf:'Juventus, a team in Italy, wears black and white stripes because over 100 years ago a team in England mailed them its shirts.'},
+ {id:'women', q:"Would you like a women's team to follow too?", kq:"Do you want to cheer for a women's team too?", opts:[
+   {t:'Yes, I want one of my clubs to be a women\'s team', k:'Yes!', fx:{women:2}},
+   {t:'Maybe, if the club has both', k:'Maybe', fx:{women:.5}},
+   {t:'Not right now', k:'Not now', fx:{women:-1.5}}],
+  fact:"The US women's team has won four World Cups (1991, 1999, 2015, 2019). The NWSL is the top women's league in the country, and the Portland Thorns have won it three times.",
+  kf:"The US women's team has won the World Cup four times! The Portland Thorns have won their league three times."},
+ {id:'stars', multi:true, q:'Which of these players have you heard of? Pick any.', kq:'Which players do you know? Pick any.', opts:[
    {t:'Lionel Messi', v:'messi'}, {t:'Cristiano Ronaldo', v:'ronaldo'}, {t:'Kylian Mbappé', v:'mbappe'}, {t:'Erling Haaland', v:'haaland'},
    {t:'Mohamed Salah', v:'salah'}, {t:'Harry Kane', v:'kane'}, {t:'Son Heung-min', v:'son'}, {t:'Christian Pulisic', v:'pulisic'},
-   {t:'David Beckham', v:'beckham'}, {t:'Alex Morgan', v:'morgan'}, {t:'None of them', v:'none'}],
-  fact:'Messi joined Inter Miami in 2023 and won the Leagues Cup within five weeks. David Beckham is one of the club\'s owners.'},
- {id:'song', q:"Before kickoff, 50,000 people sing the same song, scarves held high. That gives you:", opts:[
-   {t:'Goosebumps. Sign me up', fx:{w:{C:2}}},
-   {t:"It's pretty cool", fx:{w:{C:.8}}},
-   {t:'Mostly I want the game to start', fx:{w:{S:.5, P:.3}}}],
-  fact:'Liverpool fans sing "You\'ll Never Walk Alone" before every home match. The song comes from a 1945 Broadway musical, Carousel. Dortmund fans sing it too.'},
- {id:'trouble', q:'Clubs sometimes get in trouble: racist chants, cheating on spending rules, violent fans. How much should that count against a club?', opts:[
-   {t:'A lot. I want a club I can be proud of', fx:{sens:1.2, w:{V:.8}}},
-   {t:'Some, depending on what happened', fx:{sens:.7}},
-   {t:'Not much. Every big club has something', fx:{sens:.3}}],
-  fact:'Union Berlin fans rebuilt their own stadium in 2008 and 2009, putting in about 140,000 volunteer hours. Some even donated blood to raise money for the club.'},
- {id:'family', q:'Kevin follows Liverpool, Borussia Dortmund, the Portland Timbers and Thorns, and Sacramento Republic. Would you like to share a club with him?', opts:[
-   {t:"Yes, I'd like at least one in common", fx:{family:2}},
-   {t:'Maybe, if it fits', fx:{family:.8}},
-   {t:"No, I'll find my own", fx:{family:-.5}},
-   {t:"I'm Kevin", fx:{me:1}}],
-  fact:'Portland Timbers fans have a lumberjack, Timber Joey. Every time the Timbers score, he cuts a slice off a log with a chainsaw and gives it to the goal scorer.'},
+   {t:'David Beckham', v:'beckham'}, {t:'Alex Morgan', v:'morgan'}, {t:'None of them', k:'None', v:'none'}],
+  fact:'Messi joined Inter Miami in 2023 and won the Leagues Cup within five weeks. David Beckham is one of the club\'s owners.',
+  kf:'Lionel Messi plays for Inter Miami in Florida. David Beckham, a famous player from England, helps own the team.'},
+ {id:'song', q:"Before kickoff, 50,000 people sing the same song, scarves held high. That gives you:", kq:'Before the game, 50,000 fans sing the same song and hold up their scarves. How does that feel?', opts:[
+   {t:'Goosebumps. Sign me up', k:'Goosebumps! Awesome!', fx:{w:{C:2}}},
+   {t:"It's pretty cool", k:'Pretty cool', fx:{w:{C:.8}}},
+   {t:'Mostly I want the game to start', k:"Let's just play!", fx:{w:{S:.5, P:.3}}}],
+  fact:'Liverpool fans sing "You\'ll Never Walk Alone" before every home match. The song comes from a 1945 Broadway musical, Carousel. Dortmund fans sing it too.',
+  kf:'Liverpool fans sing "You\'ll Never Walk Alone" before every home game. It means your friends are always with you.'},
+ {id:'trouble', q:'Clubs sometimes get in trouble: racist chants, cheating on spending rules, violent fans. How much should that count against a club?', kq:"Sometimes teams do bad things. Fans are mean to players because of their skin colour, or a team cheats. How much should that matter?", opts:[
+   {t:'A lot. I want a club I can be proud of', k:"A lot. I want a team I'm proud of", fx:{sens:1.2, w:{V:.8}}},
+   {t:'Some, depending on what happened', k:'Some', fx:{sens:.7}},
+   {t:'Not much. Every big club has something', k:'Not much', fx:{sens:.3}}],
+  fact:'Union Berlin fans rebuilt their own stadium in 2008 and 2009, putting in about 140,000 volunteer hours. Some even donated blood to raise money for the club.',
+  kf:'Union Berlin fans fixed up their own stadium with their own hands. Some even gave blood to raise money for the team!'},
+ {id:'family', q:'Kevin follows Liverpool, Borussia Dortmund, the Portland Timbers and Thorns, and Sacramento Republic. Would you like to share a club with him?', kq:'Dad (Kevin) cheers for Liverpool, Dortmund, the Portland Timbers and Thorns, and Sacramento Republic. Do you want to share a team with him?', opts:[
+   {t:"Yes, I'd like at least one in common", k:"Yes, let's share one!", fx:{family:2}},
+   {t:'Maybe, if it fits', k:'Maybe', fx:{family:.8}},
+   {t:"No, I'll find my own", k:"No, I'll find my own", fx:{family:-.5}},
+   {t:"I'm Kevin", k:"I'm Kevin", fx:{me:1}}],
+  fact:'Portland Timbers fans have a lumberjack, Timber Joey. Every time the Timbers score, he cuts a slice off a log with a chainsaw and gives it to the goal scorer.',
+  kf:'The Portland Timbers have a real lumberjack. Every time they score, he cuts a slice off a log with a chainsaw and gives it to the player who scored!'},
 ];
 
 const PERSONAS = {C:['The Terrace Singer', 'You want noise, songs and a crowd that never sits down.'], V:['The Idealist', 'You want a club you can be proud of off the pitch too.'],
@@ -207,6 +230,9 @@ const PERSONAS = {C:['The Terrace Singer', 'You want noise, songs and a crowd th
   S:['The Tactician', 'You care how the team plays, and how hard it tries.'], P:['The Trophy Hunter', 'You want to celebrate. Often.'],
   under:['The Underdog Romantic', 'You root for the small club that punches above its weight.'], young:['The Founder', 'You want to be there from chapter one.'],
   home:['The Local', 'Your club should be a drive away.']};
+// Second-strongest trait, as a tail: "The Founder, with a taste for trophies".
+const TAILS = {C:'with a loud singing voice', V:'with a big heart', H:'with a love of old stories', O:'who wants the fans in charge', S:'who loves a hard-working team',
+  P:'with a taste for trophies', under:'who roots for the little guy', young:'who likes new things', home:'who likes to stay close to home'};
 
 // ---------------------------------------------------------------- state
 const LS = 'family-club-draft';
@@ -261,12 +287,14 @@ function scoreClub(c, p) {
   add(p.young * (c.H <= 3 ? 5 : c.H >= 8 ? -2 : 0), 'A young club');
   if (['ch', 'cup', 'usl'].includes(c.k)) add(p.lower * 3, 'A true neighbourhood club');
   if (p.where.length) {
+    // picking every place says little: the bonus shrinks with the number picked (8 places on offer)
     const hit = p.where.includes(c.co) || (p.where.includes('other') && !EUROPE.includes(c.co) && !us) || (p.where.includes('home') && c.mi != null);
-    add(hit ? 8 : -3, p.where.includes('home') && c.mi != null ? (c.mi ? `${c.mi} miles from Sacramento` : 'In Sacramento') : 'Somewhere you want to go');
+    const ww = Math.min(1, 3 / p.where.length), near = p.where.includes('home') && c.mi != null;
+    add((hit ? 8 : -3) * ww, near ? (c.mi ? `${c.mi} miles from Sacramento` : 'In Sacramento') : p.where.length <= 4 ? 'Somewhere you want to go' : null);
   }
   if (c.mi != null) add(p.home * (c.mi <= 150 ? 8 : c.mi <= 750 ? 4 : 0), c.mi <= 150 ? 'Close to home' : null);
-  add(us ? p.us * 3 : 0, 'Easy to watch in the evening');
-  add(!us ? p.eu * 2.5 : 0, 'Weekend-morning football');
+  add(us ? p.us * 3 : 0, null);
+  add(!us ? p.eu * 2.5 : 0, null);
   if (c.k === 'nwsl') add(p.women * 5, "A women's team");
   if (KEVIN.includes(c.n)) add(p.family * 5, "One of Kevin's clubs");
   // Kevin's own items (his rivals, the Republic link) count fully for Kevin, half for anyone who wants to share
@@ -287,18 +315,26 @@ function scoreClub(c, p) {
     add(hit ? 4 : 0, 'Wears your colour');
   }
   // ranked on the uncapped score; shown out of 99
-  const total = Math.max(0, base + bonus * .7);
+  // Distinct picks: part of each club's all-round quality (what anyone would score it) is taken back out, so
+  // answers decide more than Kevin's ratings do. Kevin's own run keeps the plain score.
+  const total = Math.max(0, base + bonus * .7 - (p.me ? 0 : DISTINCT * (NEUTRAL[c.n] - NEUTRAL_AVG)));
   const top = Object.entries(parts).filter(([k]) => f[k] >= .75).sort((a, b) => b[1] - a[1]).slice(0, 2);
   const LBL = {C:'Famous atmosphere', V:'A club with values', H:'Deep history', O:'Fans have a real say', S:'Plays with heart', P:'Wins a lot lately'};
   return {c, total, why:[...why, ...top.map(([k]) => LBL[k])].slice(0, 4)};
 }
+const DISTINCT = .45;
+const NEUTRAL = {}; let NEUTRAL_AVG = 0;
+{ const w = {C:1, V:1, H:1, O:.5, S:.6, P:1}, W = 5.1;
+  for (const c of CLUBS) { const f = {C:c.C, V:c.V, H:c.H, O:c.O, S:c.S, P:c.P}; NEUTRAL[c.n] = Object.keys(w).reduce((s, k) => s + w[k] * f[k] / 10 / W * 100, 0) + .6 * c.adj * .8 * .7; }
+  NEUTRAL_AVG = CLUBS.reduce((s, c) => s + NEUTRAL[c.n], 0) / CLUBS.length; }
 function rank(a) { const p = profile(a); return {p, list:CLUBS.map(c => scoreClub(c, p)).sort((x, y) => y.total - x.total)}; }
 function persona(p) {
   const W = Object.values(p.w).reduce((s, x) => s + x, 0), rel = {};
   const avg = {C:1, V:1, H:1, O:.5, S:.6, P:1};
   for (const k in p.w) rel[k] = p.w[k] / W - avg[k] / 5.1;
-  rel.under = p.under * .05; rel.young = p.young * .05; rel.home = (p.home + (p.where.includes('home') ? .5 : 0)) * .025;
-  return PERSONAS[Object.entries(rel).sort((a, b) => b[1] - a[1])[0][0]];
+  rel.P += p.big * .02; rel.under = p.under * .05; rel.young = p.young * .05; rel.home = (p.home + (p.where.includes('home') ? .5 : 0)) * .025;
+  const [a, b] = Object.entries(rel).sort((x, y) => y[1] - x[1]);
+  return [`${PERSONAS[a[0]][0]}, ${TAILS[b[0]]}`, PERSONAS[a[0]][1], PERSONAS[a[0]][0], TAILS[b[0]]];
 }
 
 // ---------------------------------------------------------------- views
@@ -318,11 +354,11 @@ function viewStart() {
     <p class="eyebrow">A game for the whole family</p>
     <h1>Family Club Draft</h1>
     <p>Sixteen quick questions about what you'd enjoy, no football knowledge needed. Each one comes with a short story from the game. At the end, everyone gets a club (or five) that fits them, out of ${CLUBS.length} clubs in England, Europe and the US.</p>
-    <p class="muted">Play alone, or add everyone and answer together on one phone: each person taps their own name on the answer they pick.</p>
+    <p class="muted">Play alone, or add everyone and answer together on one phone: each person taps their own name on the answer they pick. Tap Kid next to a young player's name and every question switches to simpler words, with the grown-up version underneath.</p>
   </section>
   <section class="card stack">
     <h3>Who's playing?</h3>
-    <div class="players">${ps.map((p, i) => `<div class="pl"><span class="dot" style="--pc:${p.col}"></span><input id="pn-${i}" value="${esc(p.name)}" aria-label="Player ${i + 1} name" data-pn="${i}"><button class="x" data-del="${i}" aria-label="Remove ${esc(p.name)}">×</button></div>`).join('')}
+    <div class="players">${ps.map((p, i) => `<div class="pl"><span class="dot" style="--pc:${p.col}"></span><input id="pn-${i}" value="${esc(p.name)}" aria-label="Player ${i + 1} name" data-pn="${i}"><button class="btn small kidb" data-kid="${i}" aria-pressed="${!!p.kid}" title="Simpler words for young players">Kid</button><button class="x" data-del="${i}" aria-label="Remove ${esc(p.name)}">×</button></div>`).join('')}
       <div class="pl"><span class="dot" style="--pc:${PCOL[ps.length % PCOL.length]}"></span><input id="pn-new" placeholder="Add a name" aria-label="Add a player"${ps.length ? '' : ' data-focus'}><button class="btn small" data-add>Add</button></div></div>
     <div class="row"><button class="btn go" data-start ${ps.length ? '' : 'disabled'}>Kick off</button>${S.q || Object.keys(S.ans).length ? '<button class="btn small" data-reset>Start over</button>' : ''}</div>
   </section>
@@ -331,20 +367,21 @@ function viewStart() {
 }
 function answeredAll(q) { return S.players.every((_, i) => { const v = (S.ans[i] || {})[q.id]; return q.multi ? Array.isArray(v) && v.length : v != null; }); }
 function viewQ() {
-  const q = Q[S.q], multi = !!q.multi, solo = S.players.length === 1, done = answeredAll(q);
+  const q = Q[S.q], multi = !!q.multi, solo = S.players.length === 1, done = answeredAll(q), kid = S.players.some(p => p.kid);
+  const ot = o => esc(kid && o.k ? o.k : o.t);
   const picked = (i, o) => { const v = (S.ans[i] || {})[q.id]; return multi ? Array.isArray(v) && v.includes(q.opts[o].v) : v === o; };
   const opts = q.opts.map((o, oi) => {
     const sel = S.players.some((_, i) => picked(i, oi));
-    return solo ? `<button class="opt ${picked(0, oi) ? 'sel' : ''}" data-pick="0:${oi}" aria-pressed="${picked(0, oi)}"><b>${esc(o.t)}</b></button>`
-      : `<div class="opt ${sel ? 'sel' : ''}"><b>${esc(o.t)}</b><div class="who">${S.players.map((p, i) => `<button style="--pc:${p.col}" data-pick="${i}:${oi}" aria-pressed="${picked(i, oi)}">${esc(p.name)}</button>`).join('')}</div></div>`;
+    return solo ? `<button class="opt ${picked(0, oi) ? 'sel' : ''}" data-pick="0:${oi}" aria-pressed="${picked(0, oi)}"><b>${ot(o)}</b></button>`
+      : `<div class="opt ${sel ? 'sel' : ''}"><b>${ot(o)}</b><div class="who">${S.players.map((p, i) => `<button style="--pc:${p.col}" data-pick="${i}:${oi}" aria-pressed="${picked(i, oi)}">${esc(p.name)}</button>`).join('')}</div></div>`;
   }).join('');
   const left = S.players.filter((_, i) => { const v = (S.ans[i] || {})[q.id]; return multi ? !(Array.isArray(v) && v.length) : v == null; }).map(p => p.name);
-  return `<div class="stack">
+  return `<div class="stack ${kid ? 'kid' : ''}">
     <div class="prog" aria-label="Question ${S.q + 1} of ${Q.length}">${Q.map((_, i) => `<i class="${i <= S.q ? 'on' : ''}"></i>`).join('')}</div>
     <p class="eyebrow">Question ${S.q + 1} of ${Q.length}${multi ? ' · pick as many as you like' : ''}</p>
-    <h2>${esc(q.q)}</h2>
+    <h2>${esc(kid ? q.kq : q.q)}</h2>${kid ? `<p class="grown">For grown-ups: ${esc(q.q)}</p>` : ''}
     <div class="opts">${opts}</div>
-    ${done ? `<div class="fact"><span class="eyebrow">Did you know?</span><p>${esc(q.fact)}</p></div>` : `<p class="waiting">${solo ? '' : 'Still to answer: ' + left.map(esc).join(', ')}</p>`}
+    ${done ? `<div class="fact"><span class="eyebrow">Did you know?</span><p>${esc(kid ? q.kf : q.fact)}</p>${kid ? `<p class="grown">For grown-ups: ${esc(q.fact)}</p>` : ''}</div>` : `<p class="waiting">${solo ? '' : 'Still to answer: ' + left.map(esc).join(', ')}</p>`}
     <div class="nav"><button class="btn small" data-back>${S.q ? 'Back' : 'Players'}</button><button class="btn go" data-next ${done ? '' : 'disabled'}>${S.q === Q.length - 1 ? 'See my clubs' : 'Next'}</button></div>
   </div>`;
 }
@@ -355,10 +392,10 @@ function viewResults() {
   let body = '';
   if (tab === -1) body = viewFamily(res);
   else {
-    const r = res[tab] || res[0], [pn, pd] = persona(r.p), top = r.list[0], rest = r.list.slice(1, 5);
+    const r = res[tab] || res[0], [, pd, pn, ptail] = persona(r.p), top = r.list[0], rest = r.list.slice(1, 5);
     const topCo = new Set(r.list.slice(0, 5).map(x => x.c.co));
     const wild = r.list.find(x => !topCo.has(x.c.co));
-    body = `<section class="stack"><p class="eyebrow">${esc(r.pl.name)}'s football personality</p><p class="persona">${esc(pn)}</p><p>${esc(pd)}</p></section>
+    body = `<section class="stack"><p class="eyebrow">${esc(r.pl.name)}'s football personality</p><p class="persona">${esc(pn)}</p><p class="ptail">${esc(ptail)}</p><p>${esc(pd)}</p></section>
     ${clubCard(top, 'Your club')}
     <section class="stack"><h3>Also a great fit</h3><div class="list">${rest.map(x => row(x)).join('')}</div></section>
     ${wild ? `<section class="stack"><h3>Wildcard</h3><p class="muted">The best match outside the countries above.</p><div class="list">${row(wild)}</div></section>` : ''}
@@ -409,6 +446,7 @@ document.addEventListener('click', e => {
   const t = e.target.closest('button'); if (!t) return;
   const d = t.dataset;
   if ('add' in d) return addPlayer();
+  if (d.kid != null) { const pl = S.players[+d.kid]; pl.kid = !pl.kid; return render(); }
   if (d.del != null) { S.players.splice(+d.del, 1); const a = {}; S.players.forEach((_, i) => a[i] = S.ans[i >= +d.del ? i + 1 : i]); S.ans = a; return render(); }
   if ('start' in d) { const pending = $('#pn-new'); if (pending && pending.value.trim()) addPlayer(); if (!S.players.length) return; S.stage = 'q'; S.saved = false; window.scrollTo(0, 0); return render(); }
   if ('reset' in d) { S = {stage:'start', players:S.players, q:0, ans:{}, tab:0}; return render(); }

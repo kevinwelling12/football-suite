@@ -131,3 +131,18 @@ consequences, no repeat -> +1; R2 announced stadium move (+1 welcomed upgrade, -
 3+ permanent coaches in 3 seasons -> Team -1; R4 uncounted casino-with-sportsbook sponsor -> Values -1.
 43 hits on 40 clubs (26 coach churn, 12 stadium, 2 sale, 1 owner-past, 2 casino); 3 rejected on review
 (Austin R1, Shrewsbury R2, Detroit City R2). Gut fit on the 26 vignettes 0.723 -> 0.728.
+
+Squad interplay (2026-09-30, Kevin's idea; scripts/affinity/interplay.py, applied in rescore.py): an additive bump of up
+to +/-2 on the Team factor, recency-weighted with the track record's 4-year half-life.
+- Nations, club links: every national-team squad at 20 tournaments since 2016 (World Cups, Euros, Copa América, Gold Cup,
+  AFCON, Asian Cup; research/squads.json, parsed from Wikipedia by interplay/parse_squads.py). A player counts by how
+  Kevin rates his club: above 63 Affinity up to +1 (at 90), below 35 down to -1 (at 15), neutral between; captains 1.5x;
+  per squad scaled to 23. bump = link / 3. Netherlands +1.6 (Liverpool, van Dijk captain; PSV), Germany +2 (Bundesliga
+  clubs), United States +0.7, England -0.2 (Man City call-ups outweigh Liverpool's). Small UEFA nations with no
+  tournament squads: none.
+- Clubs, homegrown share: share of the squad from the club's own country (Welsh clubs count England too, Canadian
+  clubs the US), current squad plus every other season back to 2016 (research/domestic.json from Wikipedia squad
+  lists: interplay/fetch_squads.py, parse_domestic.py). z-score against the club's own league x 0.8, scaled down when
+  only the current squad is known. Athletic Club 90% (league 60%) +1.6, Bodø/Glimt +1.1, Liverpool 27% (league 34%)
+  -0.6, LAFC and FC Cincinnati about -1.8.
+Gut fit on the 26 vignettes 0.728 -> 0.732.

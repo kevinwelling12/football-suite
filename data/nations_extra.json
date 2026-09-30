@@ -65,7 +65,7 @@
     "adj": -20,
     "note": "Government record -20",
     "S0": 5,
-    "tb": 0.0,
+    "tb": -0.0,
     "clubs": [
      [
       "Manchester City",
@@ -128,7 +128,7 @@
      [
       "Barcelona",
       5,
-      0.13
+      0.12
      ]
     ]
    },
@@ -161,7 +161,7 @@
      [
       "PSV Eindhoven",
       2,
-      0.06
+      0.05
      ],
      [
       "Viking",
@@ -209,12 +209,12 @@
      [
       "Barcelona",
       8,
-      0.23
+      0.21
      ],
      [
       "Paris Saint-Germain",
       15,
-      -0.13
+      -0.17
      ]
     ]
    },
@@ -233,16 +233,16 @@
     "V": 6,
     "H": 4,
     "O": 4,
-    "S": 8.4,
+    "S": 8.3,
     "adj": 0,
     "note": "",
     "S0": 8,
-    "tb": 0.4,
+    "tb": 0.3,
     "clubs": [
      [
       "Portland Timbers",
       5,
-      0.18
+      0.17
      ],
      [
       "Bayern Munich",
@@ -255,13 +255,13 @@
       0.06
      ],
      [
-      "Nice",
-      1,
+      "Inter Miami CF",
+      2,
       -0.04
      ]
     ]
    },
-   "base": 58.3,
+   "base": 58.1,
    "bonus": 0,
    "region": ""
   },
@@ -295,7 +295,7 @@
      [
       "Rayo Vallecano",
       1,
-      0.02
+      0.01
      ]
     ]
    },
@@ -338,7 +338,7 @@
      [
       "Napoli",
       2,
-      0.06
+      0.05
      ]
     ]
    },
@@ -366,12 +366,12 @@
      [
       "PSV Eindhoven",
       2,
-      0.14
+      0.13
      ],
      [
       "Miami FC",
       2,
-      -0.04
+      -0.07
      ],
      [
       "Feyenoord",
@@ -419,7 +419,7 @@
      [
       "Sunderland",
       3,
-      0.04
+      0.03
      ]
     ]
    },
@@ -457,12 +457,12 @@
      [
       "VfB Stuttgart",
       1,
-      0.05
+      0.06
      ],
      [
       "Troyes",
       1,
-      -0.05
+      -0.04
      ]
     ]
    },
@@ -500,7 +500,7 @@
      [
       "Nice",
       1,
-      -0.05
+      -0.04
      ],
      [
       "VfB Stuttgart",
@@ -586,7 +586,7 @@
      [
       "Inter Miami CF",
       1,
-      -0.02
+      -0.03
      ],
      [
       "Sunderland",
@@ -619,12 +619,12 @@
      [
       "AEK Athens",
       5,
-      0.16
+      0.14
      ],
      [
       "Porto",
       2,
-      0.05
+      0.04
      ],
      [
       "Feyenoord",
@@ -695,12 +695,12 @@
      [
       "Sporting CP",
       3,
-      0.14
+      0.13
      ],
      [
       "Nice",
       2,
-      -0.08
+      -0.07
      ],
      [
       "Atalanta",
@@ -738,12 +738,12 @@
      [
       "Real Sociedad",
       3,
-      0.14
+      0.15
      ],
      [
       "SC Freiburg",
       3,
-      0.13
+      0.14
      ],
      [
       "VfB Stuttgart",
@@ -803,7 +803,7 @@
      [
       "AEK Athens",
       5,
-      0.1
+      0.09
      ],
      [
       "PSV Eindhoven",
@@ -851,17 +851,17 @@
      [
       "Real Betis",
       5,
-      0.15
+      0.14
+     ],
+     [
+      "Paris Saint-Germain",
+      5,
+      -0.08
      ],
      [
       "VfB Stuttgart",
       2,
       0.08
-     ],
-     [
-      "Paris Saint-Germain",
-      5,
-      -0.06
      ]
     ]
    },
@@ -889,12 +889,12 @@
      [
       "Portland Timbers",
       1,
-      0.21
+      0.2
      ],
      [
       "Viking",
       1,
-      0.17
+      0.18
      ]
     ]
    },
@@ -950,7 +950,7 @@
      [
       "Inter Miami CF",
       1,
-      -0.02
+      -0.03
      ],
      [
       "Sunderland",
@@ -958,12 +958,12 @@
       0.01
      ],
      [
-      "Brighton",
-      2,
+      "Seattle Sounders FC",
+      1,
       0.01
      ],
      [
-      "Seattle Sounders FC",
+      "Portsmouth",
       1,
       0.01
      ]
@@ -1039,11 +1039,11 @@
     "V": 4,
     "H": 7,
     "O": 4,
-    "S": 6.1,
+    "S": 6.2,
     "adj": -8,
     "note": "Fan violence -8",
     "S0": 6,
-    "tb": 0.1,
+    "tb": 0.2,
     "clubs": [
      [
       "Bayern Munich",
@@ -1063,11 +1063,11 @@
      [
       "Chelsea",
       5,
-      -0.06
+      -0.05
      ]
     ]
    },
-   "base": 51.1,
+   "base": 51.2,
    "bonus": 0,
    "region": ""
   },
@@ -1089,19 +1089,14 @@
     "tb": 0.1,
     "clubs": [
      [
-      "Club Brugge",
-      1,
-      0.04
-     ],
-     [
       "Philadelphia Union",
       1,
       0.03
      ],
      [
-      "Brentford",
+      "Club Brugge",
       1,
-      0.0
+      0.03
      ]
     ]
    },
@@ -1129,7 +1124,7 @@
      [
       "Bayern Munich",
       2,
-      0.13
+      0.12
      ],
      [
       "Mainz 05",
@@ -1137,12 +1132,12 @@
       0.06
      ],
      [
-      "Borussia Mönchengladbach",
-      1,
-      0.04
+      "Paris Saint-Germain",
+      2,
+      -0.05
      ],
      [
-      "VfB Stuttgart",
+      "Borussia Mönchengladbach",
       1,
       0.04
      ]
@@ -1215,12 +1210,12 @@
      [
       "PSV Eindhoven",
       5,
-      0.21
+      0.2
      ],
      [
       "Seattle Sounders FC",
       9,
-      0.15
+      0.17
      ],
      [
       "New York City Football Club",
@@ -1249,16 +1244,16 @@
     "V": 5,
     "H": 10,
     "O": 5,
-    "S": 4.7,
+    "S": 4.6,
     "adj": 0,
     "note": "",
     "S0": 4,
-    "tb": 0.7,
+    "tb": 0.6,
     "clubs": [
      [
       "Barcelona",
       7,
-      0.22
+      0.2
      ],
      [
       "Sporting CP",
@@ -1268,7 +1263,7 @@
      [
       "Napoli",
       3,
-      0.12
+      0.11
      ],
      [
       "Liverpool",
@@ -1277,7 +1272,7 @@
      ]
     ]
    },
-   "base": 66.1,
+   "base": 65.9,
    "bonus": 0,
    "region": ""
   },
@@ -1306,7 +1301,7 @@
      [
       "Lens",
       1,
-      0.03
+      0.04
      ]
     ]
    },

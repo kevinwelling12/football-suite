@@ -1013,6 +1013,8 @@ function openDetail(k, id) {
 }
 
 
+// Component ratings read to the tenth (7.0, 6.4), except the ends of the scale (0, 10).
+const fmtR = v => v === 0 || v === 10 ? String(v) : Number(v).toFixed(1);
 const FACTORS = [['Values', 'V', 26], ['Culture', 'C', 23], ['History', 'H', 16], ['Team', 'S', 15], ['Ownership', 'O', 10]];
 function affBreakdown(k, t) {
   const h = t.hai, fs = FACTORS.reduce((s, [, key, w]) => s + w * h[key], 0) / 90 * 10;
@@ -1027,8 +1029,8 @@ function affBreakdown(k, t) {
   if (h.assoc) sum.push(`${h.assoc < 0 ? '−' : '+'} ${Math.abs(h.assoc)} association`);
   if (fs * (h.k ?? 1) + h.adj + (h.usTot || 0) + (h.assoc || 0) > 100) sum.push('(capped at 100)');
   return `<h4 style="margin-top:18px">Affinity ${affOf(t).toFixed(1)}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
-    ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${h[key]}</b></div>`).join('')}
-    ${h.tb ? `<div class="hb hb-adj"><span>${h.dom ? 'Homegrown' : 'Club links'} <small style="display:block">Team ${h.S0} ${signed(h.tb)}</small></span><span>${h.dom
+    ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${fmtR(h[key])}</b></div>`).join('')}
+    ${h.tb ? `<div class="hb hb-adj"><span>${h.dom ? 'Homegrown' : 'Club links'} <small style="display:block">Team ${fmtR(h.S0)} ${signed(h.tb)}</small></span><span>${h.dom
       ? `${Math.round(h.dom[0] * 100)}% of the squad from ${k === 'unl' ? 'home' : 'the club\'s own country'}, league average ${Math.round(h.dom[1] * 100)}% (recent seasons count most)`
       : (h.clubs || []).map(([c, n, v]) => `${esc(c)} (${n} call-up${n === 1 ? '' : 's'}) ${signed(v)}`).join(' · ') + '<br><small>Players at tournaments since 2016, weighted by how you rate their clubs</small>'}</span><b class="num ${h.tb < 0 ? 'neg' : ''}">${signed(h.tb)}</b></div>` : ''}
     ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>

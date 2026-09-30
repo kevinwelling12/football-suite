@@ -93,6 +93,8 @@ function picksNow(k) {
 const report = [];
 async function syncComp(k) {
   const L = D[k], cup = !!COMPS_CFG[k].cup, T = L.teams, F = L.fixtures, kick = L.kick = L.kick || {};
+  // Date each moved fixture had before its first move: the app drops a postponed mark from before the move.
+  const markMoved = id => { L.moved = L.moved || {}; if (L.moved[id] == null) L.moved[id] = F[id][I.date]; };
   const I = cup ? { date: 2, h: 3, a: 4, hs: 5, as: 6 } : { date: 1, h: 2, a: 3, hs: 4, as: 5 };
   const evs = await events(LEAGUE[k], today - BACK * DAY, today + AHEAD * DAY);
   const team = teamMatcher(k, T), used = new Set();
@@ -121,7 +123,7 @@ async function syncComp(k) {
     if (e.status === 'STATUS_POSTPONED' || e.status === 'STATUS_CANCELED') { R.skipped.push(`${lab(f)} ${f[I.date]}: ${e.detail}`); continue; }
     if (e.state !== 'pre') continue;
     const d = localDate(k, e.date);
-    if (d !== f[I.date]) { R.dates.push(`${lab(f)}: ${f[I.date]} → ${d}`); f[I.date] = d; }
+    if (d !== f[I.date]) { R.dates.push(`${lab(f)}: ${f[I.date]} → ${d}`); markMoved(id); f[I.date] = d; }
     if (e.timeValid) {
       const iso = new Date(e.date).toISOString().slice(0, 16) + 'Z', old = kick[id];
       if (!old || old[0] !== iso || !old[1]) { R.times.push(`${lab(f)}: ${old ? old[0] + (old[1] ? '' : ' (TBC)') : 'none'} → ${iso}`); kick[id] = [iso, 1]; }
@@ -133,7 +135,7 @@ async function syncComp(k) {
       const f = F[id];
       f[I.hs] = e.hs; f[I.as] = e.as;
       const d = localDate(k, e.date);
-      if (d !== f[I.date]) { R.dates.push(`${lab(f)}: ${f[I.date]} → ${d} (played)`); f[I.date] = d; }
+      if (d !== f[I.date]) { R.dates.push(`${lab(f)}: ${f[I.date]} → ${d} (played)`); markMoved(id); f[I.date] = d; }
       if (cup) f[7] = e.hs === e.as ? (e.hso > e.aso || e.hw ? f[I.h] : f[I.a]) : null;
       else if (fx[id].pick) { f.length = 6; f.push(fx[id].pick[0], fx[id].pick[1], fx[id].favored || 'H'); }
       R.results.push(`${lab(f)} ${e.hs}–${e.as}${cup && f[7] != null ? ` (${T[f[7]].short || T[f[7]].name} on pens)` : ''}`);
@@ -164,9 +166,9 @@ async function syncComp(k) {
   if (REPORT) fs.writeFileSync(REPORT, text);
   if (!DRY && changed) {
     // Python writes the file so the rest of it stays byte-identical (Python keeps floats like 0.0; JSON.stringify doesn't).
-    // Only fixtures, kick and synced change; they hold no floats.
+    // Only fixtures, kick, moved and synced change; they hold no floats.
     const patch = Object.fromEntries(report.filter(r => !r.error && (r.results.length || r.times.length || r.dates.length))
-      .map(r => [r.k, { fixtures: D[r.k].fixtures, kick: D[r.k].kick, synced: D[r.k].synced }]));
+      .map(r => [r.k, { fixtures: D[r.k].fixtures, kick: D[r.k].kick, synced: D[r.k].synced, ...(D[r.k].moved ? { moved: D[r.k].moved } : {}) }]));
     require('child_process').execFileSync('python3', ['-c', `import json,sys
 f=sys.argv[1]; D=json.load(open(f)); P=json.load(sys.stdin)
 for k,v in P.items(): D[k].update(v)

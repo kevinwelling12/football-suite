@@ -668,7 +668,7 @@ function viewClubs(k) {
     <div class="card" style="margin-top:10px">${order.map((i, n) => `<div class="hai-row"><span class="num rk">${n + 1}</span>
       <span class="who"><button class="club-link" data-club="${i}">${tchip(k, i)}${esc(t[i].name)}</button><small>${affLine(t[i], cup ? t[i].tier : t[i].region)}${fitTag(t[i].name)}</small></span>
       <span class="stack"><span class="b" style="width:${t[i].base / mx * 100}%"></span><span class="x" style="width:${t[i].bonus / mx * 100}%"></span></span>
-      <span class="num sc">${affOf(t[i]).toFixed(1)}</span></div>`).join('')}</div></section>${ratings}`;
+      <span class="num sc">${fmtA(affOf(t[i]))}</span></div>`).join('')}</div></section>${ratings}`;
 }
 // Nations: the Nations League's 54 plus the rest of the 2026 World Cup field, filterable.
 function viewNations() {
@@ -690,7 +690,7 @@ function viewNations() {
     <div class="card" style="margin-top:10px">${list.map(e => `<div class="hai-row"><span class="num rk">${e.n}</span>
       <span class="who"><button class="club-link" ${e.attr}>${e.chip}${esc(e.t.name)}</button><small>${esc(sub(e))}${e.t.hai && e.t.hai.adj ? ` · <b class="adj">Adjustments ${signed(e.t.hai.adj)}</b>` : ''}${e.t.bonus ? ` · ${e.t.region === 'Home nation' ? 'Home nation' : 'Heritage'} +${e.t.bonus}` : ''}</small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, e.t.base) / mx * 100}%"></span><span class="x" style="width:${e.t.bonus / mx * 100}%"></span></span>
-      <span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>${ratings}`;
+      <span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>${ratings}`;
 }
 // A World Cup nation outside the Nations League: Affinity breakdown only.
 function openNation(j) {
@@ -738,7 +738,7 @@ function viewRank() {
     <div class="card rank" style="margin-top:12px">${list.map(e => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${e.n}</span>
       <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i><span>${esc(rankLabel(e.k))}${e.t.hai && e.t.hai.P != null ? ` · Track record ${e.t.hai.P.toFixed(1)}` : ''}</span>${fitTag(e.t.name)}</small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, affOf(e.t)) / mx * 100}%"></span></span>
-      <span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>`;
+      <span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>`;
 }
 function field(k, key, label, help, step, global) { const v = global ? state.suite[key] : Sfor(k)[key]; return `<div class="field"><label for="f-${key}">${label}</label><p>${help}</p><input id="f-${key}" data-set="${key}" data-global="${global ? 1 : 0}" type="number" step="${step}" value="${v}"></div>`; }
 function viewSettings(k) {
@@ -846,7 +846,7 @@ function cupLeft(k) {
   const out = t.map((x, i) => i).filter(i => !r.alive.includes(i)).sort((a, b) => (t[b].base + t[b].bonus) - (t[a].base + t[a].bonus));
   return `<section class="section"><h2>Clubs left</h2><p class="sub">Chances from 1,000 simulated cups; undrawn rounds are drawn at random each time.</p>
     <div class="card scroll" style="margin-top:14px"><table><thead><tr><th class="club">Club</th><th class="sm-hide">Tier</th><th class="sm-hide">Affinity</th><th>QF</th><th>SF</th><th>Final</th><th>Win</th></tr></thead>
-    <tbody>${alive.map(i => `<tr><td class="club"><button class="club-link" data-club="${i}">${dual(k, i)}</button></td><td class="sm-hide" style="color:var(--muted)">${esc(t[i].tier)}</td><td class="num sm-hide">${(t[i].base + t[i].bonus).toFixed(0)}</td><td>${mini(r.odds[i].qf)}</td><td>${mini(r.odds[i].sf)}</td><td>${mini(r.odds[i].final)}</td><td>${mini(r.odds[i].win)}</td></tr>`).join('')}</tbody></table></div>
+    <tbody>${alive.map(i => `<tr><td class="club"><button class="club-link" data-club="${i}">${dual(k, i)}</button></td><td class="sm-hide" style="color:var(--muted)">${esc(t[i].tier)}</td><td class="num sm-hide">${fmtA(t[i].base + t[i].bonus)}</td><td>${mini(r.odds[i].qf)}</td><td>${mini(r.odds[i].sf)}</td><td>${mini(r.odds[i].final)}</td><td>${mini(r.odds[i].win)}</td></tr>`).join('')}</tbody></table></div>
     <div class="race" style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap"><div><h3 style="margin:0">Affinity satisfaction</h3><p class="sub" style="margin:4px 0 0">How well the likely runs of the clubs left match your Affinity order.</p></div><div class="mw-title num">${Math.round(r.satisfaction)}</div></div>
     <h3 class="grp">Knocked out (${out.length})</h3><div class="card out-list">${out.map(i => `<div>${esc(t[i].name)}</div>`).join('')}</div></section>`;
 }
@@ -938,7 +938,7 @@ function viewHome() {
     <section class="section"><h2>Competitions</h2><p class="sub">Tap one to open it.</p><div class="tiles">${tiles}</div></section>
     <section class="section"><div class="sec-head"><h2>Affinity ranking</h2><button class="linkish" data-view="rank">All ${rankList().length} →</button></div><p class="sub">Your top 10 across every competition, coloured by league.</p>
       <div class="card rank" style="margin-top:12px">${rankList().slice(0, 10).map((e, n) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${n + 1}</span>
-      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}</small></span><span></span><span class="num sc">${affOf(e.t).toFixed(1)}</span></div>`).join('')}</div></section>
+      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}</small></span><span></span><span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>
     <section class="section"><h2>Biggest match left in each competition</h2><p class="sub">The most important match left in each competition, soonest first.</p>
       <div class="card" style="margin-top:12px">${big.map(x => row(x, true)).join('')}</div></section>`;
 }
@@ -987,7 +987,7 @@ function openDetail(k, id) {
     heat += `<div class="c${cls}" style="background:color-mix(in srgb, var(--head) ${Math.round(al * 100)}%, transparent);color:${al > 0.5 ? '#fff' : 'var(--ink)'}">${(p * 100).toFixed(1)}</div>`; } }
   const zones = COMP[k].cfg && COMP[k].cfg.zones ? COMP[k].cfg.zones.filter(z => z.w) : [];
   const zoneRows = side => f.imp ? zones.map(z => `<div class="kv"><span>${esc(z.label)}</span><b class="num">${(f.imp[side].parts[z.key] * 100).toFixed(0)}-point swing</b></div>`).join('') : '';
-  const hai = i => (T(k)[i].base + T(k)[i].bonus).toFixed(1);
+  const hai = i => fmtA(T(k)[i].base + T(k)[i].bonus);
   $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(COMPS_CFG[k].name)} · ${fmtDateK(f, {weekday:'long', month:'long', day:'numeric'})}${f.played ? '' : ' · ' + (f.kt ? fmtTime(f.kt) + ' your time' : 'time TBC')}</div>
       <h2 style="margin-top:4px">${esc(full(k, f.h))} v ${esc(full(k, f.a))}</h2></div><button class="close" aria-label="Close" id="close">✕</button></div>
     ${f.played ? '' : `<div class="tv" style="margin-top:8px">Watch: ${esc(tvLabel(k))}</div>`}
@@ -1015,6 +1015,8 @@ function openDetail(k, id) {
 
 // Component ratings read to the tenth (7.0, 6.4), except the ends of the scale (0, 10).
 const fmtR = v => v === 0 || v === 10 ? String(v) : Number(v).toFixed(1);
+// Overall Affinity reads to the tenth too, except the ends of its scale (0, 100).
+const fmtA = v => { const r = Math.round(v * 10) / 10; return r === 0 || r === 100 ? String(r) : r.toFixed(1); };
 const FACTORS = [['Values', 'V', 26], ['Culture', 'C', 23], ['History', 'H', 16], ['Team', 'S', 15], ['Ownership', 'O', 10]];
 function affBreakdown(k, t) {
   const h = t.hai, fs = FACTORS.reduce((s, [, key, w]) => s + w * h[key], 0) / 90 * 10;
@@ -1028,7 +1030,7 @@ function affBreakdown(k, t) {
   if (h.usTot) sum.push(`${h.usTot < 0 ? '−' : '+'} ${Math.abs(h.usTot)} location & big‑4`);
   if (h.assoc) sum.push(`${h.assoc < 0 ? '−' : '+'} ${Math.abs(h.assoc)} association`);
   if (fs * (h.k ?? 1) + h.adj + (h.usTot || 0) + (h.assoc || 0) > 100) sum.push('(capped at 100)');
-  return `<h4 style="margin-top:18px">Affinity ${affOf(t).toFixed(1)}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
+  return `<h4 style="margin-top:18px">Affinity ${fmtA(affOf(t))}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
     ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${fmtR(h[key])}</b></div>`).join('')}
     ${h.tb ? `<div class="hb hb-adj"><span>${h.dom ? 'Homegrown' : 'Club links'} <small style="display:block">Team ${fmtR(h.S0)} ${signed(h.tb)}</small></span><span>${h.dom
       ? `${Math.round(h.dom[0] * 100)}% of the squad from ${k === 'unl' ? 'home' : 'the club\'s own country'}, league average ${Math.round(h.dom[1] * 100)}% (recent seasons count most)`
@@ -1064,12 +1066,12 @@ function openClub(k, i) {
     stats = `<div class="club-stats"><div><div class="k">Now</div><div class="v">${row.pos}${ord(row.pos)} · ${row.Pts} pts</div></div>
       <div><div class="k">Projected</div><div class="v">${row.projPos}${ord(row.projPos)} · ${row.projPts.toFixed(0)} pts</div></div>
       ${cfg.cols.map(c => `<div><div class="k">${esc(colLabel(k, c))}</div><div class="v">${pct(row.odds[c] || 0)}</div></div>`).join('')}
-      <div><div class="k">Affinity</div><div class="v">${(t.base + t.bonus).toFixed(1)}</div></div></div>`;
+      <div><div class="k">Affinity</div><div class="v">${fmtA(t.base + t.bonus)}</div></div></div>`;
   } else {
     const o = r.odds[i];
     stats = `<div class="club-stats"><div><div class="k">Status</div><div class="v">${r.alive.includes(i) ? 'Still in' : 'Knocked out'}</div></div>
       ${r.alive.includes(i) ? `<div><div class="k">Win the cup</div><div class="v">${pct(o.win)}</div></div><div><div class="k">Reach final</div><div class="v">${pct(o.final)}</div></div>` : ''}
-      <div><div class="k">Affinity</div><div class="v">${(t.base + t.bonus).toFixed(1)}</div></div></div>`;
+      <div><div class="k">Affinity</div><div class="v">${fmtA(t.base + t.bonus)}</div></div></div>`;
   }
   $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(COMPS_CFG[k].name)}${t.group ? ' · ' + (k === 'mls' ? esc(t.group) + 'ern Conference' : 'Group ' + esc(t.group)) : ''}</div>
       <h2 style="margin-top:4px">${tchip(k, i)}${esc(t.name)}</h2>

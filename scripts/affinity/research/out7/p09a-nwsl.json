@@ -1,0 +1,18 @@
+[
+ {"name": "Angel City FC", "C": 6.8, "V": 6.8, "H": 2.0, "O": 5.0, "why": "C -0.2 crowds down from 19,756 to 15,321 since 2023; V -0.2 2024 salary-cap fine and points deduction"},
+ {"name": "Bay FC", "C": 5.7, "V": 6.2, "H": 1.8, "O": 4.0, "why": "C -0.3 crowds fell to 11,677 in 2026, shared ground, supporters' section still forming; V +0.2 founded by ex-USWNT players, investing in a training centre; H -0.2 first season 2024, no trophies"},
+ {"name": "Boston Legacy", "C": 4.8, "V": 5.0, "H": 1.7, "O": 5.0, "why": "C -0.2 first season split across an NFL stadium and a Rhode Island ground; H -0.3 first season 2026, no Breakers lineage"},
+ {"name": "Chicago Stars", "C": 3.0, "V": 4.2, "H": 5.8, "O": 4.9, "why": "V +0.2 Yates-era owner sold, club under new ownership since 2023; H -0.2 two NWSL finals but no major trophy; O -0.1 temporary college venue"},
+ {"name": "Denver Summit", "C": 6.7, "V": 6.0, "H": 1.0, "O": 6.0, "why": "C -0.3 one season, average inflated by a one-off 63,004 NFL-stadium crowd, temporary 12,000-seat venue"},
+ {"name": "Gotham FC", "C": 6.0, "V": 6.0, "H": 8.3, "O": 6.0, "why": "H +0.3 WPS 2009 plus NWSL titles 2023 and 2025 and CONCACAF W Champions Cup 2025"},
+ {"name": "Houston Dash", "C": 4.0, "V": 5.0, "H": 3.8, "O": 5.0, "why": "H -0.2 only a 2020 Challenge Cup in twelve seasons"},
+ {"name": "Kansas City Current", "C": 9.2, "V": 8.0, "H": 4.2, "O": 8.0, "why": "C +0.2 sold out every match in the first stadium built for a women's team; H +0.2 young club carrying the FC Kansas City fan base, recent Shield"},
+ {"name": "North Carolina Courage", "C": 5.0, "V": 5.0, "H": 6.3, "O": 4.0, "why": "H +0.3 three Shields, two Championships and two Challenge Cups, plus Flash titles"},
+ {"name": "Orlando Pride", "C": 4.8, "V": 6.0, "H": 4.3, "O": 5.0, "why": "C -0.2 about 8,000 in a 25,500 shared stadium, falling; H +0.3 2024 Shield and Championship double, Marta era"},
+ {"name": "Portland Thorns", "C": 10.0, "V": 7.8, "H": 9.0, "O": 6.0, "why": "V -0.2 Yates obstruction findings still recent, though under a previous owner"},
+ {"name": "Racing Louisville", "C": 3.8, "V": 5.0, "H": 2.0, "O": 3.8, "why": "C -0.2 crowds falling to 5,548 (15th of 16); O -0.2 owner exploring a sale, relocation to Cincinnati discussed"},
+ {"name": "San Diego Wave", "C": 5.8, "V": 5.0, "H": 2.3, "O": 5.0, "why": "C -0.2 average fell from 19,575 to 12,040 in a 35,000 stadium; H +0.3 2023 Shield and 2024 Challenge Cup within three seasons"},
+ {"name": "Seattle Reign", "C": 4.2, "V": 6.0, "H": 7.0, "O": 5.0, "why": "C +0.2 Royal Guard since 2013, crowds above other 4s despite the NFL stadium"},
+ {"name": "Utah Royals", "C": 5.0, "V": 6.0, "H": 2.0, "O": 6.2, "why": "O +0.2 respected local owner (Gail Miller) since 2025"},
+ {"name": "Washington Spirit", "C": 8.0, "V": 5.0, "H": 7.2, "O": 5.0, "why": "H +0.2 2021 champion and three more finals, ahead of trophy-less Shield-only 7s"}
+]

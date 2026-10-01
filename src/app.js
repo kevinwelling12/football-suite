@@ -584,18 +584,13 @@ function liveTable(k) {
   for (const x of t) { const peers = cfg.grouped ? t.filter(o => o.group === x.group) : t; x.moved = x.pos; x.pos = 1 + peers.filter(o => key(o) > key(x)).length; x.moved = x.moved - x.pos; x.status = ''; }
   return t;
 }
-// Nations League: nations in the same group position ranked across a league's groups (points, goal difference,
+// Nations League A: 3rd- and 4th-placed nations ranked across the groups (points, goal difference,
 // goals scored: the order the model uses for relegation and play-off places), each tagged with where that spot leads.
 const UNL_RACES = {
   A: [{p: 4, title: '4th-placed nations', sub: 'The best two play off to stay up; the worst two go down to League B.', fate: n => n < 2 ? 'po' : 'down', cols: ['po', 'down']},
       {p: 3, title: '3rd-placed nations', sub: 'The worst two play off to stay up against League B runners-up.', fate: n => n < 2 ? 'safe' : 'po', cols: ['po', 'down']}],
-  B: [{p: 1, title: 'Group winners', sub: 'Promoted to League A.', fate: () => 'up', cols: ['up']},
-      {p: 2, title: 'Runners-up', sub: 'Play off for promotion against League A nations.', fate: () => 'po', cols: ['po', 'up']},
-      {p: 4, title: '4th-placed nations', sub: 'Play off to stay up against League C runners-up.', fate: () => 'po', cols: ['po', 'down']}],
-  C: [{p: 1, title: 'Group winners', sub: 'Promoted to League B.', fate: () => 'up', cols: ['up']},
-      {p: 2, title: 'Runners-up', sub: "Play off for promotion against League B's 4th-placed nations.", fate: () => 'po', cols: ['po', 'up']}],
 };
-const UNL_FATE = {up: ['Promoted', 'var(--mint)'], safe: ['Safe', 'var(--mint)'], po: ['Play-off', '#F29D0C'], down: ['Relegated', 'var(--magenta)']};
+const UNL_FATE = {safe: ['Safe', 'var(--mint)'], po: ['Play-off', '#F29D0C'], down: ['Relegated', 'var(--magenta)']};
 function unlRaces(k, base, proj, lg) {
   const specs = UNL_RACES[lg]; if (!specs) return '';
   const pts = r => proj ? r.projPts : r.Pts, gd = r => proj ? r.projGD : r.GF - r.GA, gf = r => proj ? 0 : r.GF;
@@ -613,7 +608,7 @@ function unlRaces(k, base, proj, lg) {
       <td class="num">${g > 0.5 ? '+' : ''}${proj ? g.toFixed(0) : g}</td><td class="num"><b>${proj ? pts(r).toFixed(0) : pts(r)}</b></td>${sp.cols.map(c => `<td>${mini(r, c)}</td>`).join('')}
       <td><span class="status-tag ${({down: "rel", po: "po"})[sp.fate(n)] || ""}">${lab}</span></td></tr>`; }).join('')}</tbody></table></div>`;
   };
-  return `<h3 style="margin-top:26px">League ${lg}: promotion and relegation</h3>${specs.map(table).join('')}`;
+  return `<h3 style="margin-top:26px">League ${lg}: relegation race</h3>${specs.map(table).join('')}`;
 }
 function leagueSeg() { const lg = state.unlLeague || 'A'; return `<div class="seg" role="group" aria-label="League" style="margin-top:12px">${['A', 'B', 'C', 'D'].map(x => `<button data-unllg="${x}" aria-pressed="${lg === x}">League ${x}</button>`).join('')}</div>`; }
 function viewTable(k) {

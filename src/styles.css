@@ -731,3 +731,9 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .hb-item span{min-width:0}
 .hb-item b{color:var(--ink);font-weight:600}
 .hb-items .neg{color:#FF453A}
+
+/* Ranking filtered to one league: "3 (61)" = league rank, overall rank */
+.rank.by-league .rank-row{grid-template-columns:64px minmax(0,220px) 1fr 52px}
+.rank.by-league .rk{white-space:nowrap}
+.rank.by-league .rk small{font-size:11px;font-weight:600;opacity:.8}
+@media (max-width:600px){.rank.by-league .rank-row{grid-template-columns:56px 1fr 46px}}

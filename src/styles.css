@@ -718,3 +718,16 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .lc-bar span{text-shadow:0 0 3px rgba(0,0,0,.7)}
 .match.lc .live-ctl{margin:8px 0 0}
 .match.lc .live-ctl .btn{height:36px;font-size:13px;padding:0 4px}
+
+/* Affinity breakdown: squad bump under Team, one adjustments list */
+.hb-sub{font-size:12.5px;color:var(--muted);margin-top:-3px}
+.hb-sub span:first-child{padding-left:12px}
+.hb-sub span:nth-child(2){min-width:0}
+.hb-sub b{font-weight:700}
+.hb-items{margin-top:6px;padding-top:8px;border-top:.5px solid var(--line);display:flex;flex-direction:column;gap:4px;font-size:13px}
+.hb-items-head,.hb-item{display:flex;justify-content:space-between;gap:12px}
+.hb-items-head{font-weight:650;font-size:13.5px}
+.hb-item{color:var(--muted)}
+.hb-item span{min-width:0}
+.hb-item b{color:var(--ink);font-weight:600}
+.hb-items .neg{color:#FF453A}

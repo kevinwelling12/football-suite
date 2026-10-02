@@ -674,23 +674,7 @@ function viewRaces(k) {
 const affOf = t => t.base + t.bonus;
 const signed = v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v);
 // One-line summary under a club's name: track record and adjustments (the factors are on the club card).
-function affLine(t, fallback) {
-  const h = t.hai; if (!h) return esc(fallback || '');
-  const bits = [];
-  if (h.P != null) bits.push(`Track record ${h.P.toFixed(1)}`);
-  if (h.adj) bits.push(`<b class="${h.adj < 0 ? 'adj' : 'adj pos'}">Adjustments ${signed(h.adj)}</b>`);
-  if (h.usTot) bits.push(`<b class="${h.usTot < 0 ? 'adj' : 'adj pos'}">Location & big‑4 ${signed(h.usTot)}</b>`);
-  if (h.assoc) bits.push(`<b class="${h.assoc < 0 ? 'adj' : 'adj pos'}">Association ${signed(h.assoc)}</b>`);
-  if (t.bonus) bits.push(`Hometown ${signed(t.bonus)}`);
-  return bits.join(' · ') || 'No adjustments';
-}
-const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five factors from your supporter profile, each out of 10: values 26%, supporter culture 23%, history and identity 16%, team 15%, ownership 10% (how they play, the squad's bond with fans, long-serving captains and coaches).</p>
-  <p>Track record multiplies that score by 0.85 to 1.15: the last 10 league seasons, judged against the top flight for clubs outside North America and against their own tier for USL Championship clubs, with recent seasons counting most (a season four years ago counts half). Steady top-half finishes score almost as well as titles; a relegation fight scores low. Nations have no track record.</p>
-  <p>Then adjustments for your hard lines (state ownership, racism and fan violence, private equity, multi-club networks, Super League) and for rivals and Republic links.</p>
-  <p>Association: clubs with real ties (a shared supporter base like the Timbers and Thorns, a formal fan friendship, a shared ritual like You'll Never Walk Alone) pull each other's Affinity part of the way together: 15%, 8% or 4% of the gap by how strong the tie is, up to 5 points. A club gains from friends rated above it and only loses points to friends you rate below 50, so a friendship with Lazio costs, one with Mainz doesn't. Ownership ties don't count (multi-club networks have their own penalty), and rivals of your clubs aren't linked.</p>
-  <p>Location & big-4: North American clubs get up to +4 for being close to Sacramento. A US club sharing a market with the Giants, 49ers or Sharks gets +1 (Bay Area clubs +0.5 net, as the Warriors count as a half rival); one sharing a market with their rivals (Lakers, Dodgers, Rams, LA Kings, Ducks, Cowboys, Golden Knights; A's, Raiders and Warriors at half) loses up to 2. Any club whose owners also own or hold a stake in the Kings, Giants, 49ers or Sharks gains (Leeds +2); one tied to a rival loses (Arsenal −5 for the Rams). Capped at ±6.</p>
-  <p>"Your leagues" and "Meets your clubs" mark what you can follow without taking on a new competition: a club in the Premier League, Bundesliga, MLS, NWSL or USL Championship, or one that only meets your clubs in the Champions League or is still in the Carabao Cup. It's shown next to Affinity and never changes the score.</p>
-  <p>Sacramento Republic gets a +4 hometown bonus; nations get a heritage tiebreaker of up to 10.</p></details>`;
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five ratings out of 10: Values 26%, Culture 23%, History 16%, Team 15%, Ownership 10%. Recent results scale that by 0.85 to 1.15 (clubs only). Then adjustments: ownership and conduct, rivals, local ties, linked clubs, hometown or heritage.</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
 function viewClubs(k) {
@@ -701,10 +685,10 @@ function viewClubs(k) {
     <div class="card scroll" style="margin-top:14px"><table><thead><tr><th class="club">${esc(COMPS_CFG[k].noun || 'Club')}</th><th>Attack</th><th>Defense</th><th>Avg finish</th></tr></thead>
     <tbody>${[...t.keys()].sort((a, b) => (r.att[b] / r.def[b]) - (r.att[a] / r.def[a])).map(i => `<tr><td class="club"><button class="club-link" data-club="${i}">${dual(k, i)}</button></td><td class="num">${r.att[i].toFixed(2)}</td><td class="num">${r.def[i].toFixed(2)}</td><td class="num">${r.tab[i].avgSimPos.toFixed(1)}</td></tr>`).join('')}</tbody></table></div></section>`;
   return `<section class="section"><div class="sec-head"><h2>Your Affinity</h2><button class="linkish" data-view="rank">All ${rankList().length} ranked →</button></div>
-    <p class="sub">How well each ${esc((COMPS_CFG[k].noun || 'club').toLowerCase())} fits your supporter profile. Tap one for the breakdown.</p>${AFF_HOW}
+    ${AFF_HOW}
     ${anyBonus ? '<div class="legend"><span style="--c:var(--accent)">Affinity</span><span style="--c:var(--magenta)">Heritage bonus</span></div>' : ''}
     <div class="card" style="margin-top:10px">${order.map((i, n) => `<div class="hai-row"><span class="num rk">${n + 1}</span>
-      <span class="who"><button class="club-link" data-club="${i}">${tchip(k, i)}${esc(t[i].name)}</button><small>${affLine(t[i], cup ? t[i].tier : t[i].region)}${fitTag(t[i].name)}</small></span>
+      <span class="who"><button class="club-link" data-club="${i}">${tchip(k, i)}${esc(t[i].name)}</button><small>${esc((cup ? t[i].tier : t[i].region) || '')}</small></span>
       <span class="stack"><span class="b" style="width:${t[i].base / mx * 100}%"></span><span class="x" style="width:${t[i].bonus / mx * 100}%"></span></span>
       <span class="num sc">${fmtA(affOf(t[i]))}</span></div>`).join('')}</div></section>${ratings}`;
 }
@@ -722,11 +706,11 @@ function viewNations() {
     <div class="card scroll" style="margin-top:14px"><table><thead><tr><th class="club">Nation</th><th>Attack</th><th>Defense</th><th>Avg finish</th></tr></thead>
     <tbody>${[...t.keys()].sort((a, b) => (r.att[b] / r.def[b]) - (r.att[a] / r.def[a])).map(i => `<tr><td class="club"><button class="club-link" data-club="${i}">${dual(k, i)}</button></td><td class="num">${r.att[i].toFixed(2)}</td><td class="num">${r.def[i].toFixed(2)}</td><td class="num">${r.tab[i].avgSimPos.toFixed(1)}</td></tr>`).join('')}</tbody></table></div></section>`;
   return `<section class="section"><div class="sec-head"><h2>Your Affinity</h2><button class="linkish" data-view="rank">All ${rankList().length} ranked →</button></div>
-    <p class="sub">Every Nations League side plus the rest of the 2026 World Cup field. Tap one for the breakdown.</p>${AFF_HOW}
+    ${AFF_HOW}
     <div class="rank-chips">${chips.map(([f, l]) => `<button class="rchip" data-natf="${f}" aria-pressed="${natF === f}">${esc(l)}</button>`).join('')}</div>
     <div class="legend"><span style="--c:var(--accent)">Affinity</span><span style="--c:var(--magenta)">Heritage bonus</span></div>
     <div class="card" style="margin-top:10px">${list.map(e => `<div class="hai-row"><span class="num rk">${e.n}</span>
-      <span class="who"><button class="club-link" ${e.attr}>${e.chip}${esc(e.t.name)}</button><small>${esc(sub(e))}${e.t.hai && e.t.hai.adj ? ` · <b class="adj">Adjustments ${signed(e.t.hai.adj)}</b>` : ''}${e.t.bonus ? ` · ${e.t.region === 'Home nation' ? 'Home nation' : 'Heritage'} +${e.t.bonus}` : ''}</small></span>
+      <span class="who"><button class="club-link" ${e.attr}>${e.chip}${esc(e.t.name)}</button><small>${esc(sub(e))}</small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, e.t.base) / mx * 100}%"></span><span class="x" style="width:${e.t.bonus / mx * 100}%"></span></span>
       <span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>${ratings}`;
 }
@@ -756,7 +740,6 @@ function fitOf(name) {
   if (cs.has('cup') && R.cup && R.cup.alive.some(i => T('cup')[i].name === name)) return 'meets';
   return '';
 }
-const fitTag = name => { const f = fitOf(name); return f === 'league' ? '<span class="fit-tag">Your leagues</span>' : f === 'meets' ? '<span class="fit-tag light">Meets your clubs</span>' : ''; };
 function rankList() {
   if (rankCache) return rankCache;
   const by = {};
@@ -770,11 +753,10 @@ function viewRank() {
   const nFit = all.filter(e => fitOf(e.t.name)).length;
   const chips = [['all', `All ${all.length}`], ['fit', `In your competitions ${nFit}`]].concat(RANK_PRIMARY.filter(k => counts[k]).map(k => [k, `${rankLabel(k)} ${counts[k]}`]));
   const list = all.map((e, n) => Object.assign({n: n + 1}, e)).filter(e => rankF === 'all' || (rankF === 'fit' ? fitOf(e.t.name) : e.k === rankF));
-  return `<section class="section"><h2>Every club, one ranking</h2>
-    <p class="sub">All ${all.length} clubs and nations in the tracker, by Affinity, coloured by their main league. Clubs in more than one competition show once. Tap one for the breakdown.</p>${AFF_HOW}
+  return `<section class="section">${AFF_HOW}
     <div class="rank-chips">${chips.map(([k, l]) => `<button class="rchip" data-rankf="${k}" aria-pressed="${rankF === k}" style="--c:${k === 'all' || k === 'fit' ? '#fff' : DOT[k]}">${k === 'all' || k === 'fit' ? '' : '<i></i>'}${esc(l)}</button>`).join('')}</div>
     <div class="card rank" style="margin-top:12px">${list.map(e => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${e.n}</span>
-      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i><span>${esc(rankLabel(e.k))}${e.t.hai && e.t.hai.P != null ? ` · Track record ${e.t.hai.P.toFixed(1)}` : ''}</span>${fitTag(e.t.name)}</small></span>
+      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i><span>${esc(rankLabel(e.k))}</span></small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, affOf(e.t)) / mx * 100}%"></span></span>
       <span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>`;
 }
@@ -1061,24 +1043,28 @@ function affBreakdown(k, t) {
   const spark = h.ps ? (() => { const last = h.pl || '', cal = !last.includes('-'), y = parseInt(last, 10);
     const lab = j => cal ? String(y - 9 + j) : `${String(y - 9 + j).slice(2)}/${String(y - 8 + j).slice(2)}`;
     return `<span class="spark" aria-label="Season scores, oldest to newest">${h.ps.map((x, j) => `<i title="${lab(j)}: ${x == null ? 'no season' : x.toFixed(1)}" class="${x == null ? 'none' : ''}" style="height:${x == null ? 8 : Math.max(8, x * 10)}%"></i>`).join('')}</span>`; })() : '';
+  // Everything added after the factors and track record, as one list: conduct and ownership items (from the note;
+  // the note's other lines are research history and stay out), local ties, linked clubs, hometown or heritage.
+  const items = [];
+  if (h.adj) {
+    let left = h.adj;
+    for (const part of (h.note || '').split(';')) { const m = part.trim().match(/^(.*?)\s*([+−-]\d+(?:\.\d+)?)$/); if (m && m[1]) { const v = parseFloat(m[2].replace('−', '-')); items.push([m[1], v]); left -= v; } }
+    if (Math.abs(left) > 0.05) items.push([items.length ? 'Other' : 'Adjustments', Math.round(left * 10) / 10]);
+  }
+  for (const [l, v] of h.us || []) items.push([l, v]);
+  for (const [y, v] of h.links || []) items.push([`Linked to ${y}`, v]);
+  if (t.bonus) items.push([k === 'unl' ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown', t.bonus]);
+  const extra = Math.round(items.reduce((x, [, v]) => x + v, 0) * 10) / 10;
   const sum = [`${fs.toFixed(1)} factors`];
   if (h.k != null) sum.push(`× ${h.k.toFixed(2)} track record`);
-  if (h.adj) sum.push(`${h.adj < 0 ? '−' : '+'} ${Math.abs(h.adj)} adjustments`);
-  if (t.bonus) sum.push(`+ ${t.bonus} ${k === 'unl' ? (t.region === 'Home nation' ? 'home nation' : 'heritage') : 'hometown'}`);
-  if (h.usTot) sum.push(`${h.usTot < 0 ? '−' : '+'} ${Math.abs(h.usTot)} location & big‑4`);
-  if (h.assoc) sum.push(`${h.assoc < 0 ? '−' : '+'} ${Math.abs(h.assoc)} association`);
-  if (fs * (h.k ?? 1) + h.adj + (h.usTot || 0) + (h.assoc || 0) > 100) sum.push('(capped at 100)');
+  if (extra) sum.push(`${extra < 0 ? '−' : '+'} ${Math.abs(extra)} adjustments`);
+  if (fs * (h.k ?? 1) + h.adj > 100) sum.push('(capped at 100)');
+  const squad = h.tb ? (h.dom ? `${Math.round(h.dom[0] * 100)}% · league ${Math.round(h.dom[1] * 100)}%` : (h.clubs || []).slice(0, 2).map(([c]) => esc(c)).join(', ')) : '';
   return `<h4 style="margin-top:18px">Affinity ${fmtA(affOf(t))}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
-    ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${fmtR(h[key])}</b></div>`).join('')}
-    ${h.tb ? `<div class="hb hb-adj"><span>${h.dom ? 'Homegrown' : 'Club links'} <small style="display:block">Team ${fmtR(h.S0)} ${signed(h.tb)}</small></span><span>${h.dom
-      ? `${Math.round(h.dom[0] * 100)}% of the squad from ${k === 'unl' ? 'home' : 'the club\'s own country'}, league average ${Math.round(h.dom[1] * 100)}% (recent seasons count most)`
-      : (h.clubs || []).map(([c, n, v]) => `${esc(c)} (${n} call-up${n === 1 ? '' : 's'}) ${signed(v)}`).join(' · ') + '<br><small>Players at tournaments since 2016, weighted by how you rate their clubs</small>'}</span><b class="num ${h.tb < 0 ? 'neg' : ''}">${signed(h.tb)}</b></div>` : ''}
-    ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>
-      <p class="hb-note">Last 10 league seasons, oldest to newest, recent ones counting most.</p>` : ''}
-    ${h.adj ? `<div class="hb hb-adj"><span>Adjustments</span><span>${esc(h.note)}</span><b class="num ${h.adj < 0 ? 'neg' : ''}">${signed(h.adj)}</b></div>` : h.note ? `<p class="hb-note">${esc(h.note)}</p>` : ''}
-    ${h.usTot ? `<div class="hb hb-adj"><span>Location & big‑4</span><span>${h.us.map(([l, v]) => `${esc(l)} ${signed(v)}`).join('<br>')}</span><b class="num ${h.usTot < 0 ? 'neg' : ''}">${signed(h.usTot)}</b></div>` : ''}
-    ${h.assoc ? `<div class="hb hb-adj"><span>Association</span><span>${h.links.map(([y, v]) => `${esc(y)} ${signed(v)}`).join(' · ')}</span><b class="num ${h.assoc < 0 ? 'neg' : ''}">${signed(h.assoc)}</b></div>` : ''}
-    ${t.bonus ? `<div class="hb hb-adj"><span>${k === 'unl' ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown'}</span><span>${esc(t.region === 'Home nation' ? 'Your country' : t.region || '')}</span><b class="num">+${t.bonus}</b></div>` : ''}</div>`;
+    ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${fmtR(h[key])}</b></div>` +
+      (key === 'S' && h.tb ? `<div class="hb hb-sub"><span>${h.dom ? 'Homegrown' : 'Club links'}</span><span>${squad}</span><b class="num ${h.tb < 0 ? 'neg' : ''}">${signed(h.tb)}</b></div>` : '')).join('')}
+    ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>` : ''}
+    ${items.length ? `<div class="hb-items"><div class="hb-items-head"><span>Adjustments</span><b class="num ${extra < 0 ? 'neg' : ''}">${signed(extra)}</b></div>${items.map(([l, v]) => `<div class="hb-item"><span>${esc(l)}</span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('')}</div>` : ''}</div>`;
 }
 function openClub(k, i) {
   const r = R[k], cup = COMPS_CFG[k].cup, t = T(k)[i];

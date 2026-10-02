@@ -76,7 +76,18 @@ function liveAt(h, a, raw, now = Date.now()) {
 // background worker so taps never freeze the page. update(k) first does a quick 150-season run on the page
 // so a change shows at once, then swaps in the full result when the worker sends it back.
 const QUICK_SIMS = 150;
-const runArgs = (k, sims) => ({results:state.results[k], draws:state.draws.cup, S:Object.assign(Sfor(k), sims ? {sims} : {}), status:state.status[k], live:liveFor(k)});
+// A postponed mark stops counting once the fixture has a newer date than the one it was marked on
+// (new marks store that date; older marks are plain 1 and give way when the ESPN sync moved the fixture).
+const baseDate = (k, id) => DATA[k].fixtures[id][COMPS_CFG[k].cup ? 2 : 1];
+function statusFor(k) {
+  const st = state.status[k] || {}, mv = DATA[k].moved || {}, out = {};
+  for (const [id, s] of Object.entries(st)) {
+    const stale = s && s.p && !s.d && (typeof s.p === 'string' ? s.p !== baseDate(k, id) : mv[id] != null);
+    if (stale) { out[id] = Object.assign({}, s); delete out[id].p; } else out[id] = s;
+  }
+  return out;
+}
+const runArgs = (k, sims) => ({results:state.results[k], draws:state.draws.cup, S:Object.assign(Sfor(k), sims ? {sims} : {}), status:statusFor(k), live:liveFor(k)});
 function runModel(k, a) { return COMPS_CFG[k].cup ? MODEL.runCup(COMP[k], a.results, a.draws, a.S) : MODEL.run(COMP[k], a.results, a.S, a.status, a.live); }
 let worker = null; const jobs = {}; let jobSeq = 0;
 function workerMain() {
@@ -126,7 +137,7 @@ function update(k) { if (worker) { finish(k, runModel(k, runArgs(k, QUICK_SIMS))
 function compute(k) { finish(k, runModel(k, runArgs(k))); }
 function finish(k, r, quick) {
   R[k] = r;
-  const km = DATA[k].kick || {}, st = state.status[k] || {}, src = DATA[k].fixtures, mine = state.results[k] || {}, si = COMPS_CFG[k].cup ? 5 : 4;
+  const km = DATA[k].kick || {}, st = statusFor(k), mv = DATA[k].moved || {}, src = DATA[k].fixtures, mine = state.results[k] || {}, si = COMPS_CFG[k].cup ? 5 : 4;
   for (const f of R[k].fx) {
     // One of Kevin's entries that disagrees with the tracker's data (nightly ESPN sync): flag it, never replace it.
     const b = src[f.id], r = mine[f.id];
@@ -134,6 +145,7 @@ function finish(k, r, quick) {
     const s = st[f.id] || {}, x = km[f.id];
     if (s.d) { f.date = s.d; f.kt = s.t ? new Date(s.d + 'T' + s.t).getTime() : null; f.moved = true; }
     else f.kt = x && x[1] ? Date.parse(x[0]) : null;
+    if (!s.d && mv[f.id] != null && !f.played) f.moved = true;
     f.postponed = !f.played && !!s.p; f.awarded = f.played && !!s.aw;
     f.sortT = f.kt || Date.parse(f.date + 'T19:00:00Z');
   }
@@ -572,6 +584,32 @@ function liveTable(k) {
   for (const x of t) { const peers = cfg.grouped ? t.filter(o => o.group === x.group) : t; x.moved = x.pos; x.pos = 1 + peers.filter(o => key(o) > key(x)).length; x.moved = x.moved - x.pos; x.status = ''; }
   return t;
 }
+// Nations League A: 3rd- and 4th-placed nations ranked across the groups (points, goal difference,
+// goals scored: the order the model uses for relegation and play-off places), each tagged with where that spot leads.
+const UNL_RACES = {
+  A: [{p: 4, title: '4th-placed nations', sub: 'The best two play off to stay up; the worst two go down to League B.', fate: n => n < 2 ? 'po' : 'down', cols: ['po', 'down']},
+      {p: 3, title: '3rd-placed nations', sub: 'The worst two play off to stay up against League B runners-up.', fate: n => n < 2 ? 'safe' : 'po', cols: ['po', 'down']}],
+};
+const UNL_FATE = {safe: ['Safe', 'var(--mint)'], po: ['Play-off', '#F29D0C'], down: ['Relegated', 'var(--magenta)']};
+function unlRaces(k, base, proj, lg) {
+  const specs = UNL_RACES[lg]; if (!specs) return '';
+  const pts = r => proj ? r.projPts : r.Pts, gd = r => proj ? r.projGD : r.GF - r.GA, gf = r => proj ? 0 : r.GF;
+  const mini = (r, key) => { const v = r.odds[key] || 0; return `<span class="mini ${key === 'down' ? 'bad' : ''}"><i style="width:${Math.max(2, v * 48)}px"></i><span class="num">${pct(v)}</span></span>`; };
+  const table = sp => {
+    const order = (a, b) => pts(b) - pts(a) || gd(b) - gd(a) || gf(b) - gf(a);
+    // Exactly one nation per group for each place, even when two are level on the group's own tiebreakers.
+    const groups = [...new Set(base.filter(r => (r.group || '')[0] === lg).map(r => r.group))];
+    const rows = groups.map(g => base.filter(r => r.group === g).sort((a, b) => (proj ? a.projPos - b.projPos : a.pos - b.pos) || order(a, b) || a.i - b.i)[sp.p - 1]).filter(Boolean).sort(order);
+    return `<div class="grp">${esc(sp.title)}</div><p class="sub" style="margin:0">${esc(sp.sub)}</p>
+    <div class="card scroll" style="margin-top:10px"><table><thead><tr><th>#</th><th class="club">Nation</th><th class="sm-hide">Group</th><th class="sm-hide">P</th><th>GD</th><th>Pts</th>${sp.cols.map(c => `<th>${colHead(k, c)}</th>`).join('')}<th></th></tr></thead><tbody>
+    ${rows.map((r, n) => { const [lab, col] = UNL_FATE[sp.fate(n)], g = gd(r);
+      return `<tr class="${isFav(k, r.i) ? 'fav-row' : ''}" ${T(k)[r.i].color ? `style="--fc:${T(k)[r.i].color}"` : ''}><td class="pos num" style="--zone:${col}">${n + 1}</td>
+      <td class="club"><button class="club-link" data-club="${r.i}">${tchip(k, r.i)}${star(k, r.i)}${dual(k, r.i)}</button></td><td class="num sm-hide">${esc(r.group)}</td><td class="num sm-hide">${r.P}</td>
+      <td class="num">${g > 0.5 ? '+' : ''}${proj ? g.toFixed(0) : g}</td><td class="num"><b>${proj ? pts(r).toFixed(0) : pts(r)}</b></td>${sp.cols.map(c => `<td>${mini(r, c)}</td>`).join('')}
+      <td><span class="status-tag ${({down: "rel", po: "po"})[sp.fate(n)] || ""}">${lab}</span></td></tr>`; }).join('')}</tbody></table></div>`;
+  };
+  return `<h3 style="margin-top:26px">League ${lg}: relegation race</h3>${specs.map(table).join('')}`;
+}
 function leagueSeg() { const lg = state.unlLeague || 'A'; return `<div class="seg" role="group" aria-label="League" style="margin-top:12px">${['A', 'B', 'C', 'D'].map(x => `<button data-unllg="${x}" aria-pressed="${lg === x}">League ${x}</button>`).join('')}</div>`; }
 function viewTable(k) {
   const r = R[k], cfg = COMP[k].cfg, proj = state.tmode[k] === 'proj';
@@ -580,7 +618,7 @@ function viewTable(k) {
   const rowsFor = g => { const base = src || r.tab; const rs = base.filter(x => !cfg.grouped || x.group === g); return rs.sort((a, b) => a.pos - b.pos); };
   const lg = k === 'unl' ? (state.unlLeague || 'A') : null;
   const body = cfg.grouped ? Object.keys(r.byGroup).sort().filter(g => !lg || g[0] === lg).map(g => `<div class="grp">${['mls', 'usl'].includes(k) ? esc(g) + 'ern Conference' : 'Group ' + esc(g)}</div>${tableHTML(k, rowsFor(g), proj, g)}`).join('')
-    + (lg && cfg.leagueNotes ? `<p class="note">${esc(cfg.leagueNotes[lg])}</p>` : '') : tableHTML(k, rowsFor(''), proj);
+    + (lg && cfg.leagueNotes ? `<p class="note">${esc(cfg.leagueNotes[lg])}</p>` : '') + (lg ? unlRaces(k, src || r.tab, proj, lg) : '') : tableHTML(k, rowsFor(''), proj);
   const toggle = `<div class="seg" role="group" aria-label="Table view"><button data-tmode="now" aria-pressed="${!proj && !live}">Current</button>${anyLive ? `<button data-tmode="live" aria-pressed="${live}"><span class="live-dot"></span>As it stands</button>` : ''}<button data-tmode="proj" aria-pressed="${proj}">Projected</button></div>`;
   return `<section class="section"><div class="mw-head"><h2>${cfg.grouped ? (['mls', 'usl'].includes(k) ? 'Conferences' : 'Groups') : 'Table'}</h2>${toggle}</div>${k === 'unl' ? leagueSeg() : ''}
     <p class="sub">${live ? 'The table if every live match finished at its current score. Odds already account for the live scores. ' : ''}${proj ? 'Final table if every remaining match plays out at its expected value: projected points, the middle-80% range from 1,000 simulated seasons, and where each club sits now.' : 'Live from your results. Projected points and odds come from 1,000 simulated seasons; the range covers the middle 80%.'} Tap a club for its fixtures.</p>
@@ -1139,7 +1177,7 @@ document.addEventListener('click', e => {
   if (t.dataset.unlive) { delete state.live[k][+t.dataset.unlive]; update(k); render(); save(k); return; }
   if (t.dataset.pp || t.dataset.unpp || t.dataset.move) {
     const id = +(t.dataset.pp || t.dataset.unpp || t.dataset.move), st = state.status[k][id] = Object.assign({}, state.status[k][id]);
-    if (t.dataset.pp) { st.p = 1; delete st.d; delete st.t; }
+    if (t.dataset.pp) { st.p = baseDate(k, id); delete st.d; delete st.t; }
     else if (t.dataset.unpp) delete st.p;
     else { const d = $('#nd-' + id).value, tm = $('#nt-' + id).value; if (!d) return; st.d = d; if (tm) st.t = tm; else delete st.t; delete st.p; }
     update(k); render(); save(k); return;

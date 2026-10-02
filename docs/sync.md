@@ -8,6 +8,9 @@ Automatic (default): ESPN's public scoreboard API (site.api.espn.com, free, no k
   (local date: US leagues Eastern, the rest UK) for unplayed fixtures. Stamps `synced` on the competition.
 - Never replaces a base result. Disagreements, extra time, penalties outside the cup, postponements,
   unknown team names and API errors go to one open GitHub issue, "ESPN sync needs a look".
+- Date moves are recorded in `moved` ({fixture id: date before the first move}). A postponed mark
+  Kevin set before the move stops counting, so the rescheduled match shows again everywhere
+  (new marks store the fixture date they were set on; old marks are plain 1).
 - Kevin's own entries override base results in the app as before. If one disagrees with the base
   result, the match card shows "Tracker data x–y · Differs from yours" and Settings > Your data counts them.
 - Commits data/suite_data.json to main, then starts pages.yml (bot pushes don't trigger it).

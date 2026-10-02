@@ -115,6 +115,7 @@ tr.cut td{border-bottom:2px solid var(--magenta)}
 .mini.bad i{background:var(--magenta)}
 .status-tag{font-size:12px;font-weight:700;color:var(--mint)}
 .status-tag.rel{color:var(--magenta)}
+.status-tag.po{color:#F29D0C}
 
 /* ---------- races ---------- */
 .races{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;margin-top:14px}
@@ -397,6 +398,7 @@ tr.fav-row td.club{font-weight:800}
 :root.bc .imp-fill{background:#FF9F0A}
 :root.bc .status-tag{color:#30D158}
 :root.bc .status-tag.rel{color:#FF453A}
+:root.bc .status-tag.po{color:#FF9F0A}
 :root.bc .badge{border-radius:999px;font-weight:600;letter-spacing:0;font-size:11.5px}
 :root.bc .b-motw{background:rgba(255,214,10,.16);color:#FFD60A}
 :root.bc .match.is-motw{border:1px solid rgba(255,214,10,.55);padding:14px 16px 12px}

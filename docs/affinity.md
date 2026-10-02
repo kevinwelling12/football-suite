@@ -154,3 +154,9 @@ score across the tracker (research/decimal_bands.json). 641 of 1,360 values move
 Affinity change 0.55; biggest: Arsenal and Shakhtar +2.1, Angers -2.0. History drifted up slightly in every batch
 (+0.02 to +0.17 on average), too small and too even to recentre. Gut fit on the 26 vignettes 0.732 -> 0.723.
 Team keeps its whole-number base plus the squad-interplay bump.
+
+Rival penalties removed (2026-10-02, Kevin): the flat club penalties for his teams' rivals are gone (Bayern Munich,
+Schalke 04, Seattle Sounders, Seattle Reign, Vancouver Whitecaps -5; Everton -2). Local-market and ownership items
+(big-4) stay. With no rival flags left, association now links Sounders and Reign, and the big-4 market items apply to
+those clubs like any other. Effect: Sounders 78.6 -> 83.6 (now above the Timbers, 81.3), Bayern 83.2 -> 88.2.
+Gut fit unchanged (0.723).

@@ -233,20 +233,20 @@
     "V": 5.7,
     "H": 4.1,
     "O": 4.2,
-    "S": 8.4,
+    "S": 8.5,
     "adj": 0,
     "note": "",
     "S0": 8,
-    "tb": 0.4,
+    "tb": 0.5,
     "clubs": [
-     [
-      "Portland Timbers",
-      5,
-      0.17
-     ],
      [
       "Bayern Munich",
       4,
+      0.21
+     ],
+     [
+      "Portland Timbers",
+      5,
       0.17
      ],
      [
@@ -255,13 +255,13 @@
       0.06
      ],
      [
-      "Inter Miami CF",
-      2,
-      -0.04
+      "Vancouver Whitecaps FC",
+      12,
+      0.04
      ]
     ]
    },
-   "base": 57.8,
+   "base": 57.9,
    "bonus": 0,
    "region": ""
   },
@@ -314,16 +314,16 @@
     "V": 3.8,
     "H": 6.2,
     "O": 2.7,
-    "S": 8.7,
+    "S": 8.8,
     "adj": -13,
     "note": "Racism -5; Fan violence -8",
     "S0": 8,
-    "tb": 0.7,
+    "tb": 0.8,
     "clubs": [
      [
       "Bayern Munich",
       3,
-      0.13
+      0.16
      ],
      [
       "Sporting CP",
@@ -342,7 +342,7 @@
      ]
     ]
    },
-   "base": 49.5,
+   "base": 49.6,
    "bonus": 0,
    "region": ""
   },
@@ -447,7 +447,7 @@
      [
       "Seattle Sounders FC",
       3,
-      0.07
+      0.09
      ],
      [
       "Club Brugge",
@@ -746,13 +746,13 @@
       0.15
      ],
      [
-      "VfB Stuttgart",
-      3,
+      "Bayern Munich",
+      1,
       0.09
      ],
      [
-      "Liverpool",
-      1,
+      "VfB Stuttgart",
+      3,
       0.09
      ]
     ]
@@ -859,9 +859,9 @@
       0.08
      ],
      [
-      "Paris Saint-Germain",
-      5,
-      -0.06
+      "Bayern Munich",
+      2,
+      0.08
      ]
     ]
    },
@@ -922,7 +922,12 @@
      [
       "Seattle Sounders FC",
       2,
-      0.03
+      0.04
+     ],
+     [
+      "Vancouver Whitecaps FC",
+      1,
+      0.0
      ]
     ]
    },
@@ -941,11 +946,11 @@
     "V": 4.8,
     "H": 5.4,
     "O": 4.2,
-    "S": 7.0,
+    "S": 7.1,
     "adj": -10,
     "note": "Government record -10",
     "S0": 7,
-    "tb": 0.0,
+    "tb": 0.1,
     "clubs": [
      [
       "Inter Miami CF",
@@ -953,23 +958,23 @@
       -0.03
      ],
      [
-      "Sunderland",
-      1,
-      0.01
-     ],
-     [
-      "Portsmouth",
-      1,
-      0.01
+      "Vancouver Whitecaps FC",
+      2,
+      0.02
      ],
      [
       "Seattle Sounders FC",
+      1,
+      0.02
+     ],
+     [
+      "Sunderland",
       1,
       0.01
      ]
     ]
    },
-   "base": 47.7,
+   "base": 47.9,
    "bonus": 0,
    "region": ""
   },
@@ -1039,16 +1044,16 @@
     "V": 3.8,
     "H": 7,
     "O": 3.8,
-    "S": 6.2,
+    "S": 6.3,
     "adj": -8,
     "note": "Fan violence -8",
     "S0": 6,
-    "tb": 0.2,
+    "tb": 0.3,
     "clubs": [
      [
       "Bayern Munich",
       4,
-      0.18
+      0.22
      ],
      [
       "Nice",
@@ -1061,13 +1066,13 @@
       0.08
      ],
      [
-      "Napoli",
-      3,
-      0.05
+      "Everton",
+      8,
+      0.07
      ]
     ]
    },
-   "base": 50.4,
+   "base": 50.6,
    "bonus": 0,
    "region": ""
   },
@@ -1124,7 +1129,7 @@
      [
       "Bayern Munich",
       2,
-      0.13
+      0.17
      ],
      [
       "Mainz 05",
@@ -1208,14 +1213,14 @@
     "tb": 0.8,
     "clubs": [
      [
+      "Seattle Sounders FC",
+      9,
+      0.23
+     ],
+     [
       "PSV Eindhoven",
       5,
       0.21
-     ],
-     [
-      "Seattle Sounders FC",
-      9,
-      0.17
      ],
      [
       "New York City Football Club",

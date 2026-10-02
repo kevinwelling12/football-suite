@@ -30,7 +30,7 @@ for key, comp in D.items():
     for t in comp['teams']: comps.setdefault(t['name'], []).append(key)
 TR = {}  # name -> (P, season scores)
 for name, cs in comps.items():
-    if 'unl' not in cs and name in PERF: TR[name] = perf.track(PERF[name], perf.BAND[perf.primary(cs)])
+    if 'unl' not in cs and name in PERF and perf.primary(cs) in perf.APPLIES: TR[name] = perf.track(PERF[name], perf.BAND[perf.primary(cs)])
 DOM = interplay.domestic({n: perf.primary(cs) for n, cs in comps.items() if 'unl' not in cs})
 for key, comp in D.items():
     for t in comp['teams']:

@@ -9,7 +9,7 @@ Half weight: Athletics (Bay Bridge), Raiders, Packers, Warriors (Kings).
 Items, all added like adjustments (not scaled), before the association pull:
 - distance from Sacramento (proximity.py): up to +4 for North American clubs (+3 until quiz round 5).
 - market: a US club sharing a metro with Kevin's teams +1 (Bay Area: +1 - 0.5 for the Warriors = +0.5); with his rivals -1 per full rival,
-  -0.5 per half rival, at most -2. Clubs that already carry a rival penalty (Seattle) are skipped.
+  -0.5 per half rival, at most -2. (Seattle was skipped while it carried a rival penalty; that penalty went on 2026-10-02.)
 - ownership ties (research in research/big4, BRIEF in BIG4_BRIEF.md): the club's owners also own
   (ownership) or hold a stake in (minority) one of the teams. Kevin's team: +2 ownership, +1 minority.
   Rival: -5 ownership, -2.5 minority, -1 when the club's current owner used to own the rival; half for
@@ -29,7 +29,10 @@ MARKET = {
     'San Jose Earthquakes': (BAY, 0.5), 'Bay FC': (BAY, 0.5), 'Oakland Roots SC': (BAY, 0.5),
     'Los Angeles Football Club': (LA, -2), 'LA Galaxy': (LA, -2), 'Angel City FC': (LA, -2), 'Orange County SC': (LA, -2),
     'FC Dallas': ('Dallas (Cowboys)', -1), 'Las Vegas Lights FC': ('Las Vegas (Golden Knights, Raiders)', -1.5),
+    'Seattle Sounders FC': ('Seattle (Seahawks)', -1), 'Seattle Reign': ('Seattle (Seahawks)', -1),
 }
+# Republic link (was an adjustment until 2026-10-02): a former Republic player who is a regular at a higher-tier club.
+LINKS = {'Los Angeles Football Club': ('Republic link: Aaron Long, a former Republic player', 2.0)}
 # (club, team, kind, why)
 TIES = [
     ('Leeds United', 'San Francisco 49ers', 'ownership', 'Owned by 49ers Enterprises'),
@@ -65,6 +68,8 @@ def items(name, has_rival_penalty=False):
         out.append((f'{p[1]} mi from Sacramento', p[0]))
     if name in MARKET and not has_rival_penalty:
         out.append(MARKET[name])
+    if name in LINKS:
+        out.append(LINKS[name])
     for club, team, kind, why in TIES:
         if club != name:
             continue

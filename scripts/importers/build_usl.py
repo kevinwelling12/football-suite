@@ -17,7 +17,7 @@ SHORT={"Louisville City FC":"Louisville City","Charleston Battery":"Charleston",
 A={ # (Culture, Values, History, Ownership, Style, adj, note)
 "Sacramento Republic FC":(9.6,8.2,6.1,8,6,0,"Rules re-rate 2026-09-30: R2 Culture 9->10"),"Louisville City FC":(7.9,7,6.3,6.9,7,0,""),"Detroit City FC":(9,9,4.7,8.2,7,0,""),"Charleston Battery":(4.8,6,7.2,4.8,7,0,""),
 "Pittsburgh Riverhounds":(7.2,6,6.2,6.3,7,0,""),"Tampa Bay Rowdies":(5.9,6,6.8,5,6,0,""),"Indy Eleven":(7.1,6.2,5,3.8,5,0,""),"Hartford Athletic":(4.8,6,3.9,5,6,0,""),"Birmingham Legion FC":(3.8,6,3.2,5,4,0,""),
-"Miami FC":(0.8,6,3.1,2.9,3,0,""),"Rhode Island FC":(6.9,6,2.2,6,5,0,""),"Loudoun United FC":(2,6.1,1.7,4,3,-4,"Multi-club -4"),"Brooklyn FC":(3,7.1,1,4.8,3,0,""),
+"Miami FC":(0.8,6,3.1,2.9,3,0,""),"Rhode Island FC":(6.9,6,2.2,6,5,0,""),"Loudoun United FC":(2,6.1,1.7,0.4,3,0,"Folded 2026-10-02: Multi-club -4 -> Ownership -3.6"),"Brooklyn FC":(3,7.1,1,4.8,3,0,""),
 "Sporting JAX":(2.8,7,1,4.8,2,0,"Rules re-rate 2026-09-30: R2 Culture 2->3"),"Lexington SC":(4.8,7,1.2,6.2,5,0,""),"Monterey Bay FC":(4,6,2,5,3,0,""),"Oakland Roots SC":(6,10,3.6,5.8,5,0,""),"FC Tulsa":(4.8,6,3.7,5,6,0,""),
 "Orange County SC":(4.2,6,4.2,5.2,5,0,""),"Las Vegas Lights FC":(2.8,6,2,3.8,4,0,""),"San Antonio FC":(6,6,4.1,6,6,0,""),"Phoenix Rising FC":(4.8,5.4,4.3,5,5,0,""),"El Paso Locomotive FC":(5,6,3.2,5,6,0,""),
 "Colorado Springs Switchbacks FC":(6,6,4.1,6.2,6,0,""),"New Mexico United":(8.7,7.4,3.9,7,6,0,"Rules re-rate 2026-09-30: R4 Values 8->7, R2 Culture 8->9")}

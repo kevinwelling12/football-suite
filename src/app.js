@@ -674,7 +674,7 @@ function viewRaces(k) {
 const affOf = t => t.base + t.bonus;
 const signed = v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v);
 // One-line summary under a club's name: track record and adjustments (the factors are on the club card).
-const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five ratings out of 10: Values 26%, Culture 23%, History 16%, Team 15%, Ownership 10%. Recent results scale that by 0.85 to 1.15 (clubs only). Then adjustments: ownership and conduct, rivals, local ties, linked clubs, hometown or heritage.</p></details>`;
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five ratings out of 10: Values 26%, Culture 23%, History 16%, Team 15%, Ownership 10%. Recent results scale that by 0.95 to 1.05 (top-flight clubs). Then hard lines (racism, state ownership, fan violence, private equity, Super League) and connection (distance, local teams, linked clubs, hometown or heritage).</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
 function viewClubs(k) {
@@ -1045,28 +1045,30 @@ function affBreakdown(k, t) {
   const spark = h.ps ? (() => { const last = h.pl || '', cal = !last.includes('-'), y = parseInt(last, 10);
     const lab = j => cal ? String(y - 9 + j) : `${String(y - 9 + j).slice(2)}/${String(y - 8 + j).slice(2)}`;
     return `<span class="spark" aria-label="Season scores, oldest to newest">${h.ps.map((x, j) => `<i title="${lab(j)}: ${x == null ? 'no season' : x.toFixed(1)}" class="${x == null ? 'none' : ''}" style="height:${x == null ? 8 : Math.max(8, x * 10)}%"></i>`).join('')}</span>`; })() : '';
-  // Everything added after the factors and track record, as one list: conduct and ownership items (from the note;
-  // the note's other lines are research history and stay out), local ties, linked clubs, hometown or heritage.
-  const items = [];
+  // Added after the factors and track record, in two groups: hard lines (the penalties left in the note; its other
+  // lines are research history and stay out) and connection (distance, local teams, linked clubs, hometown or heritage).
+  const hard = [], conn = [];
   if (h.adj) {
     let left = h.adj;
-    for (const part of (h.note || '').split(';')) { const m = part.trim().match(/^(.*?)\s*([+−-]\d+(?:\.\d+)?)$/); if (m && m[1]) { const v = parseFloat(m[2].replace('−', '-')); items.push([m[1], v]); left -= v; } }
-    if (Math.abs(left) > 0.05) items.push([items.length ? 'Other' : 'Adjustments', Math.round(left * 10) / 10]);
+    for (const part of (h.note || '').split(';')) { const m = part.trim().match(/^(.*?)\s*([+−-]\d+(?:\.\d+)?)$/); if (m && m[1] && !/^(Rules|Folded|Cascadia)/.test(m[1])) { const v = parseFloat(m[2].replace('−', '-')); hard.push([m[1], v]); left -= v; } }
+    if (Math.abs(left) > 0.05) hard.push([hard.length ? 'Other' : 'Hard lines', Math.round(left * 10) / 10]);
   }
-  for (const [l, v] of h.us || []) items.push([l, v]);
-  for (const [y, v] of h.links || []) items.push([`Linked to ${y}`, v]);
-  if (t.bonus) items.push([k === 'unl' ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown', t.bonus]);
-  const extra = Math.round(items.reduce((x, [, v]) => x + v, 0) * 10) / 10;
+  for (const [l, v] of h.us || []) conn.push([l, v]);
+  for (const [y, v] of h.links || []) conn.push([`Linked to ${y}`, v]);
+  if (t.bonus) conn.push([k === 'unl' ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown', t.bonus]);
+  const tot = xs => Math.round(xs.reduce((x, [, v]) => x + v, 0) * 10) / 10, hardT = tot(hard), connT = tot(conn);
   const sum = [`${fs.toFixed(1)} factors`];
   if (h.k != null) sum.push(`× ${h.k.toFixed(2)} track record`);
-  if (extra) sum.push(`${extra < 0 ? '−' : '+'} ${Math.abs(extra)} adjustments`);
+  if (hardT) sum.push(`${hardT < 0 ? '−' : '+'} ${Math.abs(hardT)} hard lines`);
+  if (connT) sum.push(`${connT < 0 ? '−' : '+'} ${Math.abs(connT)} connection`);
   if (fs * (h.k ?? 1) + h.adj > 100) sum.push('(capped at 100)');
+  const group = (title, xs, total) => xs.length ? `<div class="hb-items"><div class="hb-items-head"><span>${title}</span><b class="num ${total < 0 ? 'neg' : ''}">${signed(total)}</b></div>${xs.map(([l, v]) => `<div class="hb-item"><span>${esc(l)}</span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('')}</div>` : '';
   const squad = h.tb ? (h.dom ? `${Math.round(h.dom[0] * 100)}% · league ${Math.round(h.dom[1] * 100)}%` : (h.clubs || []).slice(0, 2).map(([c]) => esc(c)).join(', ')) : '';
   return `<h4 style="margin-top:18px">Affinity ${fmtA(affOf(t))}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
     ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${fmtR(h[key])}</b></div>` +
       (key === 'S' && h.tb ? `<div class="hb hb-sub"><span>${h.dom ? 'Homegrown' : 'Club links'}</span><span>${squad}</span><b class="num ${h.tb < 0 ? 'neg' : ''}">${signed(h.tb)}</b></div>` : '')).join('')}
     ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>` : ''}
-    ${items.length ? `<div class="hb-items"><div class="hb-items-head"><span>Adjustments</span><b class="num ${extra < 0 ? 'neg' : ''}">${signed(extra)}</b></div>${items.map(([l, v]) => `<div class="hb-item"><span>${esc(l)}</span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('')}</div>` : ''}</div>`;
+    ${group('Hard lines', hard, hardT)}${group('Connection', conn, connT)}</div>`;
 }
 function openClub(k, i) {
   const r = R[k], cup = COMPS_CFG[k].cup, t = T(k)[i];

@@ -161,3 +161,17 @@ Schalke 04, Seattle Sounders, Seattle Reign, Vancouver Whitecaps -5; Everton -2)
 those clubs like any other: Seattle clubs now take the Seahawks market item (-1, as Dallas for the Cowboys).
 Effect: Sounders 78.6 -> 82.6 (above the Timbers, 81.3, on track record and homegrown share), Bayern 83.2 -> 88.2.
 Gut fit unchanged (0.723).
+
+Add-on review (2026-10-02, Kevin; each add-on tested by removing it and rerunning the gut test):
+- Track record: +/-5% (k = 0.95 + 0.01 P), top-flight clubs only, the USL Championship counted as top flight (no
+  promotion/relegation in the US). Championship and lower English clubs get no coefficient: judged against the top
+  flight they scored near zero and took the full x0.85 (AFC Wimbledon, Wrexham). Gut fit: +/-15% everyone 0.723,
+  +/-5% top flight 0.776, none 0.788.
+- Minor penalties folded into factors (fold_minor.py): multi-club and overspend -> Ownership, franchise -> History,
+  betting owner and 'Other' conduct -> Values, converted at the factor's weight; what a factor at 0 cannot absorb spills
+  into Values. Hard lines stay as adjustments (racism, state ownership, fan violence, private equity, leveraged
+  buyouts, Super League, government record): without them the gut fit drops to 0.560.
+- Connection = distance, rival/local markets, ownership ties to Kevin's teams, association links, Republic link (now a
+  big4.py item), hometown and heritage. Shown as one group; kept as adjustments, not a weighted factor: a Connection
+  factor (5-10%) fitted worse (0.77-0.78), as three quarters of clubs have no connection data.
+- Result: Timbers 79.7 (13th) above Sounders 78.6 (17th) on merit; Republic 4th; AFC Wimbledon 11th.

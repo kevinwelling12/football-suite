@@ -31,6 +31,8 @@ MARKET = {
     'FC Dallas': ('Dallas (Cowboys)', -1), 'Las Vegas Lights FC': ('Las Vegas (Golden Knights, Raiders)', -1.5),
     'Seattle Sounders FC': ('Seattle (Seahawks)', -1), 'Seattle Reign': ('Seattle (Seahawks)', -1),
 }
+# Republic link (was an adjustment until 2026-10-02): a former Republic player who is a regular at a higher-tier club.
+LINKS = {'Los Angeles Football Club': ('Republic link: Aaron Long, a former Republic player', 2.0)}
 # (club, team, kind, why)
 TIES = [
     ('Leeds United', 'San Francisco 49ers', 'ownership', 'Owned by 49ers Enterprises'),
@@ -66,6 +68,8 @@ def items(name, has_rival_penalty=False):
         out.append((f'{p[1]} mi from Sacramento', p[0]))
     if name in MARKET and not has_rival_penalty:
         out.append(MARKET[name])
+    if name in LINKS:
+        out.append(LINKS[name])
     for club, team, kind, why in TIES:
         if club != name:
             continue

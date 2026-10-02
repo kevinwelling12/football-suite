@@ -11,7 +11,7 @@ const pct = x => (x > 0 && x * 100 < 0.5 ? '<1' : Math.round(x * 100)) + '%';
 const fmtDate = (iso, o = {weekday:'short', month:'short', day:'numeric'}) => new Date(iso + 'T12:00:00').toLocaleDateString('en-US', o);
 const TODAY = new Date(); const todayISO = TODAY.toISOString().slice(0, 10);
 
-let state = {view:'home', tab:{}, mw:{}, results:{}, draws:{}, settings:{}, suite:{peOutcome:2, peExact:3, motwW:0.5}, tmode:{}, favs:{}, status:{}, live:{}, motw:{}, ko:{}};
+let state = {view:'home', tab:{}, mw:{}, results:{}, draws:{}, settings:{}, suite:{peOutcome:2, peExact:3, motwW:0.5}, tmode:{}, favs:{}, status:{}, live:{}, motw:{}, ko:{}, heart:{}};
 const COMP = {}, R = {};
 let db = null, saveMode = 'device';
 for (const k of ORDER) for (const t of DATA[k].teams) {
@@ -21,7 +21,7 @@ for (const k of ORDER) for (const t of DATA[k].teams) {
 for (const k of ORDER) {
   const d = DATA[k], c = COMPS_CFG[k];
   COMP[k] = {teams:d.teams, fixtures:d.fixtures, params:d.params || {}, cfg:compCfg(k, d.params)};
-  state.results[k] = {}; state.settings[k] = {}; state.tab[k] = 'week'; state.favs[k] = []; state.status[k] = {}; state.live[k] = {}; state.motw[k] = {}; state.ko[k] = {};
+  state.results[k] = {}; state.settings[k] = {}; state.tab[k] = 'week'; state.favs[k] = []; state.status[k] = {}; state.live[k] = {}; state.motw[k] = {}; state.ko[k] = {}; state.heart[k] = {};
 }
 state.draws.cup = {};
 for (const k of ORDER) Object.assign(state.status[k], DATA[k].statusDefault || {});
@@ -183,9 +183,9 @@ function bgRender(k) {
 
 // ---------------------------------------------------------------- persistence
 function loadLocal() {
-  try { const j = JSON.parse(localStorage.getItem(STORE) || 'null'); if (j) { Object.assign(state.results, j.results || {}); Object.assign(state.settings, j.settings || {}); Object.assign(state.favs, j.favs || {}); Object.assign(state.status, j.status || {}); Object.assign(state.live, j.live || {}); Object.assign(state.motw, j.motw || {}); Object.assign(state.ko, j.ko || {}); state.draws = j.draws || {cup:{}}; state.suite = Object.assign(state.suite, j.suite || {}); } } catch (e) {}
+  try { const j = JSON.parse(localStorage.getItem(STORE) || 'null'); if (j) { Object.assign(state.results, j.results || {}); Object.assign(state.settings, j.settings || {}); Object.assign(state.favs, j.favs || {}); Object.assign(state.status, j.status || {}); Object.assign(state.live, j.live || {}); Object.assign(state.motw, j.motw || {}); Object.assign(state.ko, j.ko || {}); Object.assign(state.heart, j.heart || {}); state.draws = j.draws || {cup:{}}; state.suite = Object.assign(state.suite, j.suite || {}); } } catch (e) {}
 }
-function saveLocal() { try { localStorage.setItem(STORE, JSON.stringify({results:state.results, settings:state.settings, draws:state.draws, suite:state.suite, favs:state.favs, status:state.status, live:state.live, motw:state.motw, ko:state.ko})); } catch (e) {} }
+function saveLocal() { try { localStorage.setItem(STORE, JSON.stringify({results:state.results, settings:state.settings, draws:state.draws, suite:state.suite, favs:state.favs, status:state.status, live:state.live, motw:state.motw, ko:state.ko, heart:state.heart})); } catch (e) {} }
 // ---------------------------------------------------------------- cloud sync
 // One document per competition (plus "suite"), fields stored as JSON strings. The same layout is used
 // by every backend: claude.ai artifact db, Firebase Firestore (users/{uid}/trackers/{key}) or none.
@@ -194,7 +194,7 @@ function docFor(k) {
   if (k === 'suite') return {suite:JSON.stringify(state.suite), updated:Date.now()};
   return {results:JSON.stringify(state.results[k] || {}), settings:JSON.stringify(state.settings[k] || {}), draws:JSON.stringify(k === 'cup' ? state.draws.cup : {}),
     favs:JSON.stringify(state.favs[k] || []), status:JSON.stringify(state.status[k] || {}), live:JSON.stringify(state.live[k] || {}),
-    motw:JSON.stringify(state.motw[k] || {}), ko:JSON.stringify(state.ko[k] || {}), updated:Date.now()};
+    motw:JSON.stringify(state.motw[k] || {}), ko:JSON.stringify(state.ko[k] || {}), heart:JSON.stringify(state.heart[k] || {}), updated:Date.now()};
 }
 const docSig = d => JSON.stringify(Object.assign({}, d, {updated:0}));
 function applyDoc(k, d) {
@@ -204,7 +204,7 @@ function applyDoc(k, d) {
     state.results[k] = JSON.parse(d.results || '{}'); state.settings[k] = JSON.parse(d.settings || '{}');
     if (k === 'cup') state.draws.cup = JSON.parse(d.draws || '{}');
     if (d.favs) state.favs[k] = JSON.parse(d.favs); if (d.status) state.status[k] = JSON.parse(d.status);
-    if (d.live) state.live[k] = JSON.parse(d.live); if (d.motw) state.motw[k] = JSON.parse(d.motw); if (d.ko) state.ko[k] = JSON.parse(d.ko);
+    if (d.live) state.live[k] = JSON.parse(d.live); if (d.motw) state.motw[k] = JSON.parse(d.motw); if (d.ko) state.ko[k] = JSON.parse(d.ko); if (d.heart) state.heart[k] = JSON.parse(d.heart);
     return true;
   } catch (e) { return false; }
 }
@@ -278,7 +278,7 @@ function setBrand(k) {
   const r = document.documentElement.style; r.setProperty('--head', b.head); r.setProperty('--accent', b.accent); r.setProperty('--glow', b.glow); r.setProperty('--tag', b.tag);
 }
 function tabShort(k, t, l) {
-  const S = {'Matchweek':'Matches', 'Matchday':'Matches', 'Round':'Matches', 'Week':'Matches', 'Rounds':'Matches', 'Conferences':'Table', 'Groups':'Table', 'Clubs left':'Left', 'Trophy race':'Race', 'Your Affinity':'Affinity'};
+  const S = {'Matchweek':'Matches', 'Matchday':'Matches', 'Round':'Matches', 'Week':'Matches', 'Rounds':'Matches', 'Conferences':'Table', 'Groups':'Table', 'Clubs left':'Left', 'Trophy race':'Race', 'Your Affinity':'Affinity', "Pick 'em":'Picks'};
   return S[l] || l;
 }
 function renderChrome() {
@@ -294,12 +294,16 @@ function renderChrome() {
   $('#comps').innerHTML = reg ? reg.comps.map(c => `<button data-view="${c}" aria-pressed="${k === c}" aria-label="${esc(COMPS_CFG[c].name)}"><i style="--c:${DOT[c]}"></i>${chip(c)}</button>`).join('') : '';
   $('#comps').hidden = !reg;
   $('#regions').style.setProperty('--dot', reg ? DOT[k] : '#fff');
-  const tabs = hub ? [] : cup ? [['week', 'Rounds'], ['table', 'Clubs left'], ['races', 'Trophy race'], ['clubs', 'Your Affinity'], ['settings', 'Settings']]
+  const tabs = hub ? [] : cup ? [['week', 'Rounds'], ['table', 'Clubs left'], ['races', 'Trophy race'], ['clubs', 'Your Affinity'], ['picks', "Pick 'em"], ['settings', 'Settings']]
     : [['week', COMPS_CFG[k].round], ['table', COMPS_CFG[k].grouped ? (['mls', 'usl'].includes(k) ? 'Conferences' : 'Groups') : 'Table'], ['races', 'Races'],
-       ...(['nwsl', 'mls', 'usl'].includes(k) ? [['bracket', 'Playoffs']] : []), ['clubs', 'Clubs'], ['settings', 'Settings']];
+       ...(['nwsl', 'mls', 'usl'].includes(k) ? [['bracket', 'Playoffs']] : []), ['clubs', 'Clubs'], ['picks', "Pick 'em"], ['settings', 'Settings']];
   $('#tabs').innerHTML = tabs.map(([t, l]) => t === 'settings'
     ? `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="Settings" title="Settings" class="gear"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.3 7.3 0 0 0-1.7-1l-.4-2.6h-4l-.4 2.6a7.3 7.3 0 0 0-1.7 1l-2.4-1-2 3.4 2 1.6a7.6 7.6 0 0 0 0 2l-2 1.6 2 3.4 2.4-1c.5.4 1.1.7 1.7 1l.4 2.6h4l.4-2.6c.6-.3 1.2-.6 1.7-1l2.4 1 2-3.4-2-1.6ZM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Z"/></svg></button>`
     : `<button role="tab" data-tab="${t}" aria-selected="${state.tab[k] === t}" aria-label="${esc(l)}">${tabShort(k, t, l) === l ? esc(l) : `<span class="nm-full">${esc(l)}</span><span class="nm-short">${esc(tabShort(k, t, l))}</span>`}</button>`).join('');
+  // The tab bar scrolls sideways on a phone when a league has many tabs: keep the selected one in view.
+  { const nav = $('#tabs'), sel = nav.querySelector('[aria-selected="true"]');
+    if (sel && sel.offsetLeft + sel.offsetWidth > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = sel.offsetLeft + sel.offsetWidth - nav.clientWidth + 4;
+    else if (sel && sel.offsetLeft < nav.scrollLeft) nav.scrollLeft = Math.max(0, sel.offsetLeft - 4); }
   $('#tabs').hidden = hub;
   // Slim bar that slides in once the header's nav scrolls away: regions on Home, else competition + sections.
   $('#topbar').innerHTML = hub ? `<nav class="regions topbar-regions">${$('#regions').innerHTML}</nav>`
@@ -340,8 +344,8 @@ function render() {
   else if (k === 'rank') html = viewRank();
   else if (k === 'live') html = viewLive();
   else if (!R[k]) html = '<div class="loading">Crunching the numbers…</div>';
-  else if (COMPS_CFG[k].cup) html = {week:cupRounds, table:cupLeft, races:cupRaces, clubs:viewClubs, settings:viewSettings}[state.tab[k]](k);
-  else html = {week:viewWeek, table:viewTable, races:viewRaces, clubs:viewClubs, settings:viewSettings, bracket:viewBracket}[state.tab[k]](k);
+  else if (COMPS_CFG[k].cup) html = {week:cupRounds, table:cupLeft, races:cupRaces, clubs:viewClubs, picks:viewPicks, settings:viewSettings}[state.tab[k]](k);
+  else html = {week:viewWeek, table:viewTable, races:viewRaces, clubs:viewClubs, picks:viewPicks, settings:viewSettings, bracket:viewBracket}[state.tab[k]](k);
   $('#main').innerHTML = html;
   if (anchor) { holdAnchor(anchor); const a = anchor; anchor = null; requestAnimationFrame(() => holdAnchor(a)); }
 }
@@ -410,13 +414,10 @@ function liveBtns(k, f) {
     <button class="btn ghost rc-btn" data-ev="ra" data-id="${f.id}" aria-label="Red card ${esc(full(k, f.a))}"><i class="rc"></i></button>
     <button class="btn ghost" data-ev="ga" data-id="${f.id}" aria-label="Goal ${esc(full(k, f.a))}">+1 ${ab(f.a)}</button></div>`;
 }
-// Compact card for the Live tab (about 150px, so 4-5 fit on a phone): competition and pick 'em outlook, the
-// score bug with red cards, live odds in one bar, one-tap events. Tap the bug for the full card.
+// Compact card for the Live tab (about 150px, so 4-5 fit on a phone): competition, the score bug with red cards,
+// live odds in one bar, one-tap events. Tap the bug for the full card. No Affinity or pick 'em here (their own tabs).
 function liveCard(k, f) {
-  const L = f.live, P = L || f, t = i => T(k)[i], ab = i => esc(t(i).abbr || nm(k, i)), pk = f.pick;
-  const aff = side => f.favored === side ? '<span class="lc-aff" title="Affinity pick">◆</span>' : '';
-  const now = L && pk ? (L.h === pk[0] && L.a === pk[1] ? state.suite.peExact : Math.sign(L.h - L.a) === Math.sign(pk[0] - pk[1]) ? state.suite.peOutcome : 0) : null;
-  const out = pk ? (L ? `Pick ${pk[0]}–${pk[1]} · <b>${now}</b> now · <b class="num">${L.ev.toFixed(2)}</b> exp` : `Pick ${pk[0]}–${pk[1]}`) : '';
+  const L = f.live, P = L || f, t = i => T(k)[i], ab = i => esc(t(i).abbr || nm(k, i));
   const seg = (p, cls) => `<span class="${cls}" style="flex:${p}">${p >= 0.14 ? pct(p) : ''}</span>`;
   const bar = f.pH != null ? `<div class="lc-bar num" aria-label="Win chances ${pct(P.pH)} home, ${pct(P.pD)} draw, ${pct(P.pA)} away${L ? ', live' : ''}">${seg(P.pH, 'h')}${seg(P.pD, 'd')}${seg(P.pA, 'a')}</div>` : '';
   let ctl = '';
@@ -424,36 +425,38 @@ function liveCard(k, f) {
   else if (COMPS_CFG[k].cup) ctl = `<div class="live-ctl one"><button class="btn ghost" data-go="${k}:${f.id}">Enter the result</button></div>`;
   else if (!f.played && !f.postponed) ctl = `<div class="live-ctl one"><button class="btn live-btn" data-ev="ko" data-id="${f.id}">${Date.now() - f.kt > 5 * 6e4 ? `Live now (clock from ${fmtTime(f.kt)})` : 'Kicked off'}</button></div>`;
   return `<article data-fx="${k}:${f.id}" class="match lc ${L ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''}" style="--hc:${t(f.h).color};--ac:${t(f.a).color}">
-    <div class="lc-top"><button class="live-comp" data-go="${k}:${f.id}" style="--c:${DOT[k]}"><i></i>${esc(COMPS_CFG[k].name)}</button><span class="lc-pe">${out}</span></div>
+    <div class="lc-top"><button class="live-comp" data-go="${k}:${f.id}" style="--c:${DOT[k]}"><i></i>${esc(COMPS_CFG[k].name)}</button></div>
     <div class="lc-bug" role="button" tabindex="0" data-go="${k}:${f.id}" aria-label="Open ${esc(full(k, f.h))} v ${esc(full(k, f.a))}">
-      <span class="lc-t" style="--tc:${t(f.h).color}"><i></i><b>${ab(f.h)}</b>${star(k, f.h)}${aff('H')}${L ? reds(L.rc[0]) : ''}</span>
+      <span class="lc-t" style="--tc:${t(f.h).color}"><i></i><b>${ab(f.h)}</b>${star(k, f.h)}${L ? reds(L.rc[0]) : ''}</span>
       <span class="lc-s num">${L ? L.h : ''}</span><span class="lc-clock ${L ? 'on' : ''}">${L ? liveLabel(k, f) : fmtTime(f.kt)}</span><span class="lc-s num">${L ? L.a : ''}</span>
-      <span class="lc-t away" style="--tc:${t(f.a).color}">${L ? reds(L.rc[1]) : ''}${aff('A')}${star(k, f.a)}<b>${ab(f.a)}</b><i></i></span></div>
-    ${bar}${ctl}</article>`;
+      <span class="lc-t away" style="--tc:${t(f.a).color}">${L ? reds(L.rc[1]) : ''}${star(k, f.a)}<b>${ab(f.a)}</b><i></i></span></div>
+    ${bar}${ctl}${heartRow(k, f)}</article>`;
+}
+// Heart over head: on a neutral match (none of the followed clubs), once it's under way, who you found yourself
+// pulling for and a note on players or coaches you enjoyed or didn't. Saved per competition, synced like results.
+const isNeutral = (k, f) => f.h != null && f.a != null && !hasFav(k, f) && (f.played || f.live || (f.kt && Date.now() >= f.kt));
+function heartRow(k, f) {
+  if (!isNeutral(k, f)) return '';
+  const e = (state.heart[k] || {})[f.id] || {}, ab = i => esc(T(k)[i].abbr || nm(k, i));
+  const b = (v, l) => `<button class="hp" data-heart="${f.id}:${v}" aria-pressed="${e.s === v}">${l}</button>`;
+  return `<div class="heart"><span class="hl">Pulled for</span>${b('H', ab(f.h))}${b('A', ab(f.a))}${b('N', 'Neither')}
+    ${e.s ? `<div class="hn"><input id="hn-${f.id}" value="${esc(e.note || '')}" placeholder="Players or coaches you enjoyed (or didn't)" aria-label="Note on players or coaches"><button class="btn ghost" data-heartnote="${f.id}">${e.note ? 'Update' : 'Save'}</button></div>` : ''}</div>`;
 }
 function matchCard(k, f, motw) {
   const bcTeams = f.h != null && f.a != null && !!T(k)[f.h].abbr && document.documentElement.classList.contains('bc');
   const fin = f.played, cup = COMPS_CFG[k].cup, known = f.h != null && f.a != null, rated = f.pH != null;
   let scoreHtml;
-  if (f.live) scoreHtml = `<div class="score live num">${f.live.h}<span class="dash">–</span>${f.live.a}</div><div class="score-cap"><span class="live-dot"></span>${liveLabel(k, f)} · pick ${f.pick[0]}–${f.pick[1]}</div>`;
+  if (f.live) scoreHtml = `<div class="score live num">${f.live.h}<span class="dash">–</span>${f.live.a}</div><div class="score-cap"><span class="live-dot"></span>${liveLabel(k, f)}</div>`;
   else if (fin) scoreHtml = `<div class="score final num">${f.hs}<span class="dash">–</span>${f.as}</div><div class="score-cap">${f.awarded ? 'Awarded' : ''}${f.awarded ? '' : ''}${f.pens != null && f.hs === f.as && !f.round?.endsWith('leg 1') ? esc(nm(k, f.pens)) + ' on pens' : 'Full time'}</div>`;
-  else if (rated) scoreHtml = `<div class="score num">${f.pick[0]}<span class="dash">–</span>${f.pick[1]}</div><div class="score-cap">Your pick 'em</div>`;
   else scoreHtml = `<div class="score num" style="color:var(--faint)">v</div><div class="score-cap">${known ? 'No prediction' : 'Awaiting draw'}</div>`;
   const imp = !fin && f.importance !== undefined ? impMeter(f.importance) : '';
   const wlab = side => cup && f.advH != null ? `${pct(side === 'h' ? f.advH : 1 - f.advH)} to go through` : rated ? `${pct(side === 'h' ? f.pH : f.pA)} win` : '';
   let foot = '';
   if (fin) {
     const bits = [];
-    if (f.pickPts !== undefined) bits.push(`<span class="res-row"><span>Pick 'em <b>${f.pick[0]}–${f.pick[1]}</b></span><span class="chip ${f.pickPts === state.suite.peExact ? 'p3' : f.pickPts > 0 ? 'hit' : 'miss'}">${f.pickPts} pt${f.pickPts === 1 ? '' : 's'}</span></span>`);
     if (f.baseDiff) bits.push(`<span class="res-row"><span>Tracker data <b>${f.baseDiff[0]}–${f.baseDiff[1]}</b></span><span class="chip fav">Differs from yours</span></span>`);
-    if (f.favorHit !== undefined) bits.push(`<span class="res-row"><span>Affinity pick <b>${esc(favLabel(k, f))}</b></span><span class="chip ${f.favorHit ? 'hit' : 'miss'}">${f.favorHit ? 'Came through' : 'Missed'}</span></span>`);
     foot = bits.length ? `<div class="res-stack">${bits.join('')}</div>` : '';
-  } else if (f.live) {
-    const L = f.live, now = (L.h === f.pick[0] && L.a === f.pick[1]) ? state.suite.peExact : Math.sign(L.h - L.a) === Math.sign(f.pick[0] - f.pick[1]) ? state.suite.peOutcome : 0;
-    foot = `<span>Pick 'em ${f.pick[0]}–${f.pick[1]}: <b>${now}</b> pts if it ends now · <b class="num">${L.ev.toFixed(2)}</b> expected</span><span>Was ${pct(f.pH)} · ${pct(f.pD)} · ${pct(f.pA)} before kickoff</span>`;
-  } else if (rated) foot = `<span>Predicted ${f.pred[0]}–${f.pred[1]} · worth <b class="num">${f.pickEV.toFixed(2)}</b> pts</span>`;
-  const affCol = f.favored === 'H' ? T(k)[f.h].color : f.favored === 'A' ? T(k)[f.a].color : '#8E8E93';
-  const affRow = !fin && known && f.favored ? `<div class="aff-row"><span class="aff-pill" style="--fc:${affCol}"><span class="aff-lab">◆ Affinity pick</span><b>${esc(favLabel(k, f))}</b></span></div>` : '';
+  } else if (f.live) foot = `<span>Was ${pct(f.pH)} · ${pct(f.pD)} · ${pct(f.pA)} before kickoff</span>`;
   const P = f.live || f;
   const probs = rated ? `<div class="probs" aria-hidden="true"><span style="flex:${P.pH}"></span><span style="flex:${P.pD}"></span><span style="flex:${P.pA}"></span></div>
     <div class="prob-lab num"><span><b>${pct(P.pH)}</b> ${bcTeams ? esc(T(k)[f.h].abbr) : 'Home'}</span><span><b>${pct(P.pD)}</b> ${f.live ? 'Draw · live' : 'Draw'}</span><span><b>${pct(P.pA)}</b> ${bcTeams ? esc(T(k)[f.a].abbr) : 'Away'}</span></div>` : '';
@@ -484,22 +487,22 @@ function matchCard(k, f, motw) {
     ${badges ? `<div class="badges">${badges}</div>` : ''}
     <div class="m-top"><span>${fin ? fmtDateK(f) : whenLabel(f)}${cup ? ' · ' + esc(f.round) + (f.round.startsWith('Semi') ? '' : ` ${f.tie}`) : ''}</span>${imp}</div>
     ${bcTeams ? (() => {
-      const sh = fin ? f.hs : f.live ? f.live.h : rated ? f.pick[0] : '', sa = fin ? f.as : f.live ? f.live.a : rated ? f.pick[1] : '';
+      const sh = fin ? f.hs : f.live ? f.live.h : '', sa = fin ? f.as : f.live ? f.live.a : '';
       const mid = f.live ? `<span class="bug-mid-seg live">${liveLabel(k, f)}</span>` : fin ? '<span class="bug-mid-seg">FT</span>'
         : f.postponed ? '<span class="bug-mid-seg">PPD</span>' : '<span class="bug-mid-seg dim">–</span>';
       return `<div class="bugwrap" ${rated || fin ? `role="button" tabindex="0" data-open="${f.id}"` : ''}>
         <div class="bug ${!fin && !f.live ? 'is-pick' : ''}"><span class="bug-team" style="--tc:${T(k)[f.h].color}"><i></i>${esc(T(k)[f.h].abbr)}${star(k, f.h)}${f.live ? reds(f.live.rc[0]) : ''}</span>
         <span class="bug-score num">${sh}</span>${mid}<span class="bug-score num">${sa}</span>
         <span class="bug-team away" style="--tc:${T(k)[f.a].color}">${f.live ? reds(f.live.rc[1]) : ''}${star(k, f.a)}${esc(T(k)[f.a].abbr)}<i></i></span></div>
-        <div class="bug-sub"><span>${esc(nm(k, f.h))}</span><span class="bug-mid">${fin ? (f.awarded ? 'Awarded' : '') : f.live ? `Pick ${f.pick[0]}–${f.pick[1]}` : rated ? "Your pick 'em"  : ''}</span><span>${esc(nm(k, f.a))}</span></div></div>`;
+        <div class="bug-sub"><span>${esc(nm(k, f.h))}</span><span class="bug-mid">${fin ? (f.awarded ? 'Awarded' : '') : ''}</span><span>${esc(nm(k, f.a))}</span></div></div>`;
     })() : `<div class="board" ${rated || fin ? `role="button" tabindex="0" data-open="${f.id}"` : ''}>
-      ${bcTeams ? `<div class="team h bc-team"><span class="t-abbr">${star(k, f.h)}${esc(T(k)[f.h].abbr)}${tchip(k, f.h)}</span><small>${esc(nm(k, f.h))}${wlab('h') ? ' · ' + wlab('h') : ''}</small></div>` : `<div class="team h"><span class="${f.favored === 'H' ? 'fav' : ''}">${star(k, f.h)}${esc(nm(k, f.h))}</span><small>${wlab('h')}</small></div>`}
+      ${bcTeams ? `<div class="team h bc-team"><span class="t-abbr">${star(k, f.h)}${esc(T(k)[f.h].abbr)}${tchip(k, f.h)}</span><small>${esc(nm(k, f.h))}${wlab('h') ? ' · ' + wlab('h') : ''}</small></div>` : `<div class="team h"><span>${star(k, f.h)}${esc(nm(k, f.h))}</span><small>${wlab('h')}</small></div>`}
       <div>${scoreHtml}</div>
-      ${bcTeams ? `<div class="team bc-team"><span class="t-abbr">${tchip(k, f.a)}${esc(T(k)[f.a].abbr)}${star(k, f.a)}</span><small>${esc(nm(k, f.a))}${wlab('a') ? ' · ' + wlab('a') : ''}</small></div>` : `<div class="team"><span class="${f.favored === 'A' ? 'fav' : ''}">${esc(nm(k, f.a))}${star(k, f.a)}</span><small>${wlab('a')}</small></div>`}
+      ${bcTeams ? `<div class="team bc-team"><span class="t-abbr">${tchip(k, f.a)}${esc(T(k)[f.a].abbr)}${star(k, f.a)}</span><small>${esc(nm(k, f.a))}${wlab('a') ? ' · ' + wlab('a') : ''}</small></div>` : `<div class="team"><span>${esc(nm(k, f.a))}${star(k, f.a)}</span><small>${wlab('a')}</small></div>`}
     </div>`}
 ${probs}${liveCtl}
     ${!fin && known ? `<div class="tv">Watch: ${esc(TV_SHORT[k] || DATA[k].tv)}</div>` : ''}
-    ${foot ? `<div class="m-foot">${foot}</div>` : ''}${affRow}${drawUI}
+    ${foot ? `<div class="m-foot">${foot}</div>` : ''}${heartRow(k, f)}${drawUI}
     ${canEnter ? `<div class="m-act"><button class="enter wide" data-enter="${f.id}">${fin ? 'Edit result' : f.live ? 'Update score' : 'Enter score'}</button></div>
     <div class="entry" id="entry-${f.id}" hidden>
       <input inputmode="numeric" aria-label="${esc(full(k, f.h))} goals" value="${fin ? f.hs : f.live ? f.live.h : ''}" id="hs-${f.id}"><span>–</span>
@@ -528,15 +531,13 @@ function viewWeek(k) {
   const lgw = k === 'unl' ? (state.unlLeague || 'A') : null;
   const list = r.fx.filter(f => f.mw === mw && (!lgw || (T(k)[f.h].group || '')[0] === lgw)).sort((a, b) => a.sortT - b.sortT || a.id - b.id), dates = list.map(f => f.date).sort();
   const up = list.filter(f => !f.played), done = list.filter(f => f.played);
-  const ev = up.reduce((s, f) => s + (f.pickEV || 0), 0), got = done.reduce((s, f) => s + (f.pickPts || 0), 0);
   const i = rounds.indexOf(mw);
   return `<section class="section"><div class="mw-head">
       <div><div class="mw-title">${esc(COMPS_CFG[k].round)} ${mw}</div><div class="mw-dates">${dates.length ? fmtDate(dates[0], {month:'long', day:'numeric'}) + (dates[0] !== dates[dates.length - 1] ? ' to ' + fmtDate(dates[dates.length - 1], {month:'long', day:'numeric'}) : '') : ''}</div></div>
       <div class="mw-nav"><button data-step="-1" aria-label="Previous" ${i <= 0 ? 'disabled' : ''}>‹</button><button data-step="1" aria-label="Next" ${i >= rounds.length - 1 ? 'disabled' : ''}>›</button></div></div>
     ${k === 'unl' ? leagueSeg() : ''}
-    <div class="slate">${up.length ? `<span class="pill">Pick 'em slate <b class="num">${ev.toFixed(1)}</b> expected pts</span>` : ''}${done.length ? `<span class="pill">Picks scored <b class="num">${got}</b> of ${done.length * state.suite.peExact}</span>` : ''}<span class="pill">Season pick 'em <b class="num">${r.pickemPts}</b> pts in ${r.nPlayed} matches</span></div>
     <div class="matches">${(() => { const m = motwFor(k, list); return list.map(f => matchCard(k, f, m && m.id === f.id ? 'Match of the week' : '')).join(''); })()}</div>
-    <p class="note">Match of the week blends importance with how evenly matched the sides are, as the round begins; it's fixed once the first match kicks off. Entering a result locks in the pick 'em score and affinity pick shown before kickoff. Results that came with the tracker are scored with the picks as of September 26; results added by the nightly ESPN sync, with the picks from before the match. Tap a match for the full scoreline grid.</p></section>`;
+    <p class="note">Match of the week blends importance with how evenly matched the sides are; it's fixed once the round's first match kicks off. Tap a match for the full scoreline grid.</p></section>`;
 }
 function zoneColor(k, pos) { const c = COMP[k].cfg.colors.find(([a, b]) => pos >= a && pos <= b); return c ? c[2] : 'transparent'; }
 const COL_SHORT = {'Promoted':'Up', 'Play-offs':'PO', 'Relegated':'Rel', 'Quarter-finals':'QF', 'Win it':'Win', 'Top 8':'Top 8', 'Title':'Title', 'Top 4':'Top 4', 'Top 3':'Top 3', 'Shield':'Shield', 'Bye':'Bye', 'Playoffs':'PO',
@@ -659,7 +660,7 @@ function raceSpecs(k) {
 function bigList(k, list, cup) {
   return `<div class="card big">${list.map(f => `<div class="big-row" data-open="${f.id}" role="button" tabindex="0">
       <span class="wk">${cup ? esc(f.round.replace('Semi-final', 'SF')) : esc(COMPS_CFG[k].abbr) + ' ' + f.mw}<br>${fmtDate(f.date, {month:'short', day:'numeric'})}</span>
-      <span class="mt">${esc(full(k, f.h))} v ${esc(full(k, f.a))}<small>Matters most to ${f.mattersTo == null ? 'nobody' : esc(full(k, f.mattersTo))}${f.pick ? ` · pick 'em ${f.pick[0]}–${f.pick[1]}` : ''}</small></span>
+      <span class="mt">${esc(full(k, f.h))} v ${esc(full(k, f.a))}<small>Matters most to ${f.mattersTo == null ? 'nobody' : esc(full(k, f.mattersTo))}</small></span>
       ${impMeter(f.importance).replace('Importance ', '')}</div>`).join('') || '<div class="empty">No matches left.</div>'}</div>`;
 }
 function viewRaces(k) {
@@ -850,17 +851,31 @@ function viewBracket(k) {
     ${rounds.map(rd => `<h3 class="grp">${esc(rd)}</h3><div class="ties">${B.ties.filter(t => t.round === rd).map(t => tieCard(k, t, B)).join('')}</div>`).join('')}</section>`;
 }
 
+// ---------------------------------------------------------------- pick 'em (its own tab, kept off the match cards)
+function viewPicks(k) {
+  const r = R[k], cup = COMPS_CFG[k].cup, known = f => f.h != null && f.a != null;
+  const up = r.fx.filter(f => !f.played && !f.postponed && known(f) && f.pick).sort((a, b) => a.sortT - b.sortT).slice(0, 30);
+  const done = r.fx.filter(f => f.played && f.pickPts !== undefined).sort((a, b) => b.sortT - a.sortT).slice(0, 30);
+  const ev = up.reduce((s, f) => s + (f.pickEV || 0), 0), hits = done.filter(f => f.favorHit).length, favN = done.filter(f => f.favorHit !== undefined).length;
+  const when = f => `${fmtDateK(f, {month:'short', day:'numeric'})}${cup ? ' · ' + esc(f.round) : ''}`;
+  const aff = f => f.favored ? esc(favLabel(k, f)) : '';
+  return `<section class="section"><h2>Pick 'em</h2>
+    <div class="slate"><span class="pill">Season <b class="num">${r.pickemPts}</b> pts in ${r.nPlayed} matches</span>${up.length ? `<span class="pill">Next ${up.length}: <b class="num">${ev.toFixed(1)}</b> expected pts</span>` : ''}${favN ? `<span class="pill">Affinity picks <b class="num">${hits}</b> of ${favN}</span>` : ''}</div>
+    ${up.length ? `<h3 style="margin-top:16px">Upcoming</h3><div class="card scroll" style="margin-top:8px"><table class="picks"><thead><tr><th>Date</th><th class="club">Match</th><th>Pick</th><th>Exp.</th><th class="sm-hide">Affinity pick</th></tr></thead>
+      <tbody>${up.map(f => `<tr data-open="${f.id}"><td>${when(f)}</td><td class="club">${esc(nm(k, f.h))} v ${esc(nm(k, f.a))}</td><td class="num"><b>${f.pick[0]}–${f.pick[1]}</b></td><td class="num">${f.pickEV.toFixed(2)}</td><td class="sm-hide">${aff(f)}</td></tr>`).join('')}</tbody></table></div>` : ''}
+    ${done.length ? `<h3 style="margin-top:16px">Scored</h3><div class="card scroll" style="margin-top:8px"><table class="picks"><thead><tr><th>Date</th><th class="club">Match</th><th>Score</th><th>Pick</th><th>Pts</th><th class="sm-hide">Affinity pick</th></tr></thead>
+      <tbody>${done.map(f => `<tr><td>${when(f)}</td><td class="club">${esc(nm(k, f.h))} v ${esc(nm(k, f.a))}</td><td class="num">${f.hs}–${f.as}</td><td class="num">${f.pick[0]}–${f.pick[1]}</td><td class="num"><b>${f.pickPts}</b></td><td class="sm-hide">${f.favorHit === undefined ? '' : `${aff(f)} ${f.favorHit ? '✓' : '✗'}`}</td></tr>`).join('')}</tbody></table></div>` : ''}
+    <p class="note">Scored on the 90-minute score: ${state.suite.peOutcome} for the right result, ${state.suite.peExact} for the exact score. Entering a result locks in the pick and Affinity pick from before kickoff.</p></section>`;
+}
 // ---------------------------------------------------------------- cup views
 const CUP_ROUNDS = ['Preliminary round', 'First round', 'Second round', 'Third round', 'Fourth round', 'Quarter-final', 'Semi-finals', 'Final'];
 function cupRounds(k) {
   const r = R[k], rd = state.mw[k] && state.mw[k].startsWith('Semi') ? 'Semi-finals' : state.mw[k], i = CUP_ROUNDS.indexOf(rd);
   const list = r.fx.filter(f => rd === 'Semi-finals' ? f.round.startsWith('Semi') : f.round === rd).sort((a, b) => a.tie - b.tie || a.t - b.t);
-  const up = list.filter(f => !f.played && f.pickEV), ev = up.reduce((s, f) => s + f.pickEV, 0);
   return `<section class="section"><div class="mw-head"><div><div class="mw-title">${esc(rd)}</div><div class="mw-dates">${list.length} tie${list.length === 1 ? '' : 's'}${list[0] ? ', ' + fmtDate(list[0].date, {month:'long', day:'numeric'}) : ''}</div></div>
     <div class="mw-nav"><button data-cstep="-1" aria-label="Previous round" ${i <= 0 ? 'disabled' : ''}>‹</button><button data-cstep="1" aria-label="Next round" ${i >= CUP_ROUNDS.length - 1 ? 'disabled' : ''}>›</button></div></div>
-    <div class="slate">${up.length ? `<span class="pill">Pick 'em slate <b class="num">${ev.toFixed(1)}</b> expected pts</span>` : ''}<span class="pill">Favored clubs went through <b class="num">${r.favHits}</b> of ${r.favTotal}</span></div>
     <div class="matches">${(() => { const m = motwFor(k, list.filter(f => !f.round.endsWith('leg 1'))); return list.map(f => matchCard(k, f, m && m.id === f.id ? 'Tie of the round' : '')).join(''); })()}</div>
-    <p class="note">Ties level after 90 minutes go straight to penalties (the final has extra time first): enter the 90-minute score and pick the shootout winner. Pick 'em uses the ordinary-time score, so a tie heading for penalties counts as a draw. After each draw, set the pairings on the next round.</p></section>`;
+    <p class="note">Ties level after 90 minutes go straight to penalties (the final has extra time first): enter the 90-minute score and pick the shootout winner. After each draw, set the pairings on the next round.</p></section>`;
 }
 function cupLeft(k) {
   const r = R[k], t = T(k), alive = [...r.alive].sort((a, b) => r.odds[b].win - r.odds[a].win);
@@ -909,22 +924,22 @@ function viewLive() {
   if (!ORDER.every(k => R[k])) return '<div class="loading">Crunching the numbers…</div>';
   if (!live.length && !ko.length) {
     const next = ORDER.flatMap(k => R[k].fx.filter(f => !f.played && !f.postponed && f.kt && f.kt > Date.now() && f.h != null && f.a != null).map(f => ({k, f}))).sort(byTime).slice(0, 5);
-    return `<section class="section"><h2>Nothing live right now</h2><p class="sub">Matches show up here when they kick off. Mark one in progress (Update live on its card) to track the score, live win chances and your pick 'em outlook.</p>
+    return `<section class="section"><h2>Nothing live right now</h2><p class="sub">Matches show up here when they kick off. Mark one in progress (Update live on its card) to track the score and live win chances.</p>
       ${next.length ? `<h3 style="margin-top:18px">Next kickoffs</h3><div class="card" style="margin-top:10px">${next.map(({k, f}) => `<div class="feed-row" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
-        <span class="d">${whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span><span class="m">${star(k, f.h)}${esc(nm(k, f.h))} v ${esc(nm(k, f.a))}${star(k, f.a)}</span><span class="p num">${f.pick ? f.pick[0] + '–' + f.pick[1] : ''}</span><span class="imp"></span></div>`).join('')}</div>` : ''}</section>`;
+        <span class="d">${whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span><span class="m">${star(k, f.h)}${esc(nm(k, f.h))} v ${esc(nm(k, f.a))}${star(k, f.a)}</span><span class="p num"></span><span class="imp"></span></div>`).join('')}</div>` : ''}</section>`;
   }
   return `${live.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Tap +1 for a goal, the red card for a sending-off, and Half-time or Full time as the match goes on. Tap a scoreboard for the full card.</p>${cards(live)}</section>` : ''}
     ${ko.length ? `<section class="section"><h2>Kicked off</h2><p class="sub">Past their kickoff time with no live score yet. Enter the minute and score to follow one live, or the final score when it's over.</p>${cards(ko)}</section>` : ''}`;
 }
 function viewHome() {
-  // Compact competition tiles (2 per row on a phone): colour, name, the headline race and pick 'em per match.
+  // Compact competition tiles (2 per row on a phone): colour, name and the headline race.
   const tiles = ORDER.map(k => {
     const d = tileData(k), c = COMPS_CFG[k];
     const head = `<div class="tile-top"><i style="--c:${DOT[k]}"></i><b>${esc(c.name)}</b></div>`;
     if (!d) return `<div class="tile">${head}<div class="tile-body"><span class="tile-sub">Crunching…</span></div></div>`;
     return `<button class="tile" data-view="${k}">${head}<div class="tile-body">
       <span class="tile-k">${esc(d.h1[0])}</span><span class="tile-v">${esc(d.h1[1])}</span><span class="tile-sub">${esc(d.h1[2])}</span>
-      <span class="tile-pe">Pick 'em <b class="num">${d.peN ? (d.pe / d.peN).toFixed(2) : '—'}</b>${d.peN ? ' avg' : ''}</span></div></button>`;
+</div></button>`;
   }).join('');
   const feed = ORDER.filter(k => R[k]).flatMap(k => R[k].fx.filter(f => !f.played && !f.postponed && f.h != null && f.a != null && f.pick).map(f => ({k, f}))).sort((a, b) => a.f.sortT - b.f.sortT || ORDER.indexOf(a.k) - ORDER.indexOf(b.k)).slice(0, 20);
   const big = ORDER.filter(k => R[k]).map(k => { const f = R[k].fx.filter(x => !x.played && x.importance !== undefined && !(x.round || '').endsWith('leg 1')).sort((a, b) => b.importance - a.importance)[0]; return f ? {k, f} : null; }).filter(Boolean)
@@ -934,7 +949,7 @@ function viewHome() {
   const row = ({k, f}, bigMode) => `<div class="feed-row ${hasFav(k, f) ? 'fav-feed' : ''} ${!bigMode && isMotd(k, f) ? 'motd' : ''}" ${!bigMode && isMotd(k, f) ? 'title="Match of the day"' : ''} data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
     <span class="d ${!bigMode && isPast(f) ? 'past' : ''}">${bigMode ? fmtDateK(f) : whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
     <span class="m">${star(k, f.h)}${esc(nm(k, f.h))} v ${esc(nm(k, f.a))}${star(k, f.a)}${bigMode && f.mattersTo != null ? ` <span style="color:var(--muted);font-weight:500">· matters most to ${esc(nm(k, f.mattersTo))}</span>` : ''}</span>
-    <span class="p num">${f.pick[0]}–${f.pick[1]}</span><span class="imp">${f.importance !== undefined ? `<span class="imp-track"><span class="imp-fill" style="width:${f.importance * 100}%"></span></span>` : ''}</span></div>`;
+    <span class="p num"></span><span class="imp">${f.importance !== undefined ? `<span class="imp-track"><span class="imp-fill" style="width:${f.importance * 100}%"></span></span>` : ''}</span></div>`;
   const byClub = {};
   for (const k of ORDER.filter(c => R[c])) for (const i of (state.favs[k] || [])) {
     const name = T(k)[i].name, e = byClub[name] = byClub[name] || {name, comps:new Set(), best:null};
@@ -947,15 +962,15 @@ function viewHome() {
     ${mine.length ? `<div class="card" style="margin-top:12px">${mine.map(({k, i, f, also}) => `<div class="feed-row fav-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
       <span class="d ${isPast(f) ? 'past' : ''}">${whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
       <span class="m">★ ${esc(nm(k, i))} ${f.h === i ? 'v' : 'at'} ${esc(nm(k, f.h === i ? f.a : f.h))}${also.length ? `<small class="also">Also following in ${also.map(c => esc(COMPS_CFG[c].name)).join(', ')}</small>` : ''}</span>
-      <span class="p num">${f.pick[0]}–${f.pick[1]}</span><span class="imp">${f.importance !== undefined ? `<span class="imp-track"><span class="imp-fill" style="width:${f.importance * 100}%"></span></span>` : ''}</span></div>`).join('')}</div>` : ''}</section>`;
+      <span class="p num"></span><span class="imp">${f.importance !== undefined ? `<span class="imp-track"><span class="imp-fill" style="width:${f.importance * 100}%"></span></span>` : ''}</span></div>`).join('')}</div>` : ''}</section>`;
   const lives = ORDER.filter(k => R[k]).flatMap(k => R[k].fx.filter(f => f.live).map(f => ({k, f})));
-  const liveSec = lives.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Matches you've marked in progress, with live win chances and your pick 'em outlook.</p>
+  const liveSec = lives.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Matches you've marked in progress, with live win chances.</p>
     <div class="card" style="margin-top:12px">${lives.map(({k, f}) => `<div class="feed-row live-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
       <span class="d">${liveLabel(k, f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
       <span class="m">${star(k, f.h)}${esc(nm(k, f.h))}${reds(f.live.rc[0])} <b class="num">${f.live.h}–${f.live.a}</b> ${reds(f.live.rc[1])}${esc(nm(k, f.a))}${star(k, f.a)} <span style="color:var(--muted);font-weight:500">· ${pct(f.live.pH)} / ${pct(f.live.pD)} / ${pct(f.live.pA)}</span></span>
-      <span class="p num">${f.pick[0]}–${f.pick[1]}</span><span class="imp" style="font-size:12px;color:var(--muted)">${f.live.ev.toFixed(2)} pts</span></div>`).join('')}</div></section>` : '';
+      <span class="p num"></span><span class="imp"></span></div>`).join('')}</div></section>` : '';
   return `${liveSec}${yours}
-    <section class="section"><h2>What's next</h2><p class="sub">The next 20 unplayed matches everywhere, with your pick 'em score. The highlighted row is each day's match of the day: the best blend of what's at stake and how evenly matched the sides are. Greyed dates have passed: enter those results in their competition.</p>
+    <section class="section"><h2>What's next</h2><p class="sub">The next 20 unplayed matches everywhere. The highlighted row is each day's match of the day: the best blend of what's at stake and how evenly matched the sides are. Greyed dates have passed: enter those results in their competition.</p>
       <div class="card" style="margin-top:12px">${feed.map(x => row(x)).join('') || '<div class="loading">Crunching…</div>'}</div></section>
     <section class="section"><h2>Competitions</h2><p class="sub">Tap one to open it.</p><div class="tiles">${tiles}</div></section>
     <section class="section"><div class="sec-head"><h2>Affinity ranking</h2><button class="linkish" data-view="rank">All ${rankList().length} →</button></div><p class="sub">Your top 10 across every competition, coloured by league.</p>
@@ -1005,32 +1020,28 @@ function openDetail(k, id) {
   const mx = Math.max(...[0, 1, 2, 3, 4, 5].flatMap(h => [0, 1, 2, 3, 4, 5].map(a => f.g[h][a])));
   let heat = `<div class="ax"></div>${[0, 1, 2, 3, 4, 5].map(a => `<div class="ax">${a}</div>`).join('')}`;
   for (let h = 0; h <= 5; h++) { heat += `<div class="ax">${h}</div>`; for (let a = 0; a <= 5; a++) { const p = f.g[h][a], al = 0.08 + 0.85 * p / mx;
-    const cls = (f.pick[0] === h && f.pick[1] === a ? ' pick' : '') + (f.pred && f.pred[0] === h && f.pred[1] === a ? ' pred' : '');
+    const cls = (f.pred && f.pred[0] === h && f.pred[1] === a ? ' pred' : '');
     heat += `<div class="c${cls}" style="background:color-mix(in srgb, var(--head) ${Math.round(al * 100)}%, transparent);color:${al > 0.5 ? '#fff' : 'var(--ink)'}">${(p * 100).toFixed(1)}</div>`; } }
   const zones = COMP[k].cfg && COMP[k].cfg.zones ? COMP[k].cfg.zones.filter(z => z.w) : [];
   const zoneRows = side => f.imp ? zones.map(z => `<div class="kv"><span>${esc(z.label)}</span><b class="num">${(f.imp[side].parts[z.key] * 100).toFixed(0)}-point swing</b></div>`).join('') : '';
-  const hai = i => fmtA(T(k)[i].base + T(k)[i].bonus);
   $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(COMPS_CFG[k].name)} · ${fmtDateK(f, {weekday:'long', month:'long', day:'numeric'})}${f.played ? '' : ' · ' + (f.kt ? fmtTime(f.kt) + ' your time' : 'time TBC')}</div>
       <h2 style="margin-top:4px">${esc(full(k, f.h))} v ${esc(full(k, f.a))}</h2></div><button class="close" aria-label="Close" id="close">✕</button></div>
     ${f.played ? '' : `<div class="tv" style="margin-top:8px">Watch: ${esc(tvLabel(k))}</div>`}
     ${f.live ? `<div class="why" style="border-left-color:#E5484D"><h4><span class="live-dot"></span>Live: ${esc(nm(k, f.h))} ${f.live.h}–${f.live.a} ${esc(nm(k, f.a))}, ${liveLabel(k, f)}</h4>
       <p>Win chances now: <b>${esc(nm(k, f.h))} ${pct(f.live.pH)}</b>, draw ${pct(f.live.pD)}, <b>${esc(nm(k, f.a))} ${pct(f.live.pA)}</b> (before kickoff: ${pct(f.pH)} / ${pct(f.pD)} / ${pct(f.pA)}). Expected goals still to come: ${f.live.rh.toFixed(2)} and ${f.live.ra.toFixed(2)}.</p>
-      <p>Your pick 'em ${f.pick[0]}–${f.pick[1]}: ${pct(f.live.pExact)} chance of the exact score, ${pct(f.live.pOutcome)} chance of the right result, <b>${f.live.ev.toFixed(2)}</b> expected points (was ${f.pickEV.toFixed(2)}).</p></div>` : ''}
+</div>` : ''}
     ${!f.played && (f.imp || f.rawH != null) ? `<div class="why"><h4>Why it matters</h4>${narrative(k, f)}</div>` : ''}
     ${f.g ? `<div class="stat-tiles">
       <div class="st"><span class="sv num">${pct((f.live || f).pH)}</span><span class="sl">${esc(nm(k, f.h))} win${f.live ? ' · live' : ''}</span></div>
       <div class="st"><span class="sv num">${pct((f.live || f).pD)}</span><span class="sl">Draw</span></div>
       <div class="st"><span class="sv num">${pct((f.live || f).pA)}</span><span class="sl">${esc(nm(k, f.a))} win</span></div>
       <div class="st"><span class="sv num">${f.lh.toFixed(2)}<small> – </small>${f.la.toFixed(2)}</span><span class="sl">Expected goals</span></div>
-      <div class="st"><span class="sv num">${f.pick[0]}–${f.pick[1]}</span><span class="sl">Your pick 'em · ${(f.live ? f.live.ev : f.pickEV || 0).toFixed(2)} pts</span></div>
       ${f.importance !== undefined ? `<div class="st"><span class="sv num">${f.importance.toFixed(2)}</span><span class="sl">Importance</span></div>` : ''}</div>` : ''}
-    <div class="two"><div><h4>Scoreline chances (%)</h4><div class="sub" style="margin:0">Home goals down, away across. Magenta box = pick 'em, outlined = predicted score.</div><div class="heat num">${heat}</div></div>
-      <div><h4>Best pick 'em scores</h4>${f.evList.map(e => `<div class="kv"><span>${e.h}–${e.a}</span><b class="num">${e.e.toFixed(2)} pts</b></div>`).join('')}
-      <h4 style="margin-top:16px">Expected goals</h4><div class="kv"><span>${esc(nm(k, f.h))}</span><b class="num">${f.lh.toFixed(2)}</b></div><div class="kv"><span>${esc(nm(k, f.a))}</span><b class="num">${f.la.toFixed(2)}</b></div>
+    <div class="two"><div><h4>Scoreline chances (%)</h4><div class="sub" style="margin:0">Home goals down, away across. Outlined = most likely score.</div><div class="heat num">${heat}</div></div>
+      <div><h4>Expected goals</h4><div class="kv"><span>${esc(nm(k, f.h))}</span><b class="num">${f.lh.toFixed(2)}</b></div><div class="kv"><span>${esc(nm(k, f.a))}</span><b class="num">${f.la.toFixed(2)}</b></div>
       ${f.advH != null ? `<div class="kv"><span>${esc(nm(k, f.h))} goes through</span><b class="num">${pct(f.advH)}</b></div>` : ''}</div></div>
     ${f.imp ? `<div class="two"><div><h4>What ${esc(nm(k, f.h))} has riding on it</h4><div class="sub" style="margin:0 0 4px">Change in odds between winning and losing</div>${zoneRows('h')}</div><div><h4>What ${esc(nm(k, f.a))} has riding on it</h4><div class="sub" style="margin:0 0 4px">Change in odds between winning and losing</div>${zoneRows('a')}</div></div>` : ''}
-    ${f.favored ? `<div style="margin-top:18px"><h4>Affinity pick: ${esc(favLabel(k, f))}</h4><div class="sub" style="margin:0">Affinity ${hai(f.h)} v ${hai(f.a)}${f.favorScores ? '. Each outcome\'s score = Affinity × (1 + β × stakes).' : '. In the cup the higher Affinity is favored.'}</div>
-      ${f.favorScores ? `<div class="kv"><span>${esc(nm(k, f.h))} win</span><b class="num">${f.favorScores.H.toFixed(1)}</b></div><div class="kv"><span>Draw</span><b class="num">${f.favorScores.D.toFixed(1)}</b></div><div class="kv"><span>${esc(nm(k, f.a))} win</span><b class="num">${f.favorScores.A.toFixed(1)}</b></div>` : ''}</div>` : ''}`;
+    `;
   if (!$('#detail').open) $('#detail').showModal(); $('#close').onclick = () => $('#detail').close();
 }
 
@@ -1082,12 +1093,12 @@ function openClub(k, i) {
     return `<div class="cf-row" data-open="${f.id}" role="button" tabindex="0"><span class="d">${fmtDateK(f)}<small>${f.kt ? fmtTime(f.kt) : 'TBC'}</small></span>
       <span class="o">${home(f) ? 'v' : 'at'} <b>${esc(f.h == null || f.a == null ? 'TBD' : nm(k, opp(f)))}</b>${cup ? `<small>${esc(f.round)}</small>` : ''}</span>
       <span class="wdl num">${w == null ? '' : `<span class="w">${pct(w)}</span> <span class="dr">${pct(f.pD)}</span> <span class="l">${pct(l)}</span>`}</span>
-      <span class="pk num ${f.pick ? 'o' + Math.sign(home(f) ? f.pick[0] - f.pick[1] : f.pick[1] - f.pick[0]) : ''}">${f.pick ? (home(f) ? f.pick[0] + '–' + f.pick[1] : f.pick[1] + '–' + f.pick[0]) : ''}</span>
+      <span class="pk num"></span>
       <span class="imp">${f.importance !== undefined ? `<span class="imp-track"><span class="imp-fill" style="width:${f.importance * 100}%"></span></span>` : ''}</span></div>`;
   };
   const rowDone = f => `<div class="cf-row" ${f.g ? `data-open="${f.id}" role="button" tabindex="0"` : ''}><span class="d">${fmtDate(f.date)}</span>
       <span class="o">${home(f) ? 'v' : 'at'} <b>${esc(nm(k, opp(f)))}</b>${cup ? `<small>${esc(f.round)}</small>` : ''}</span>
-      <span class="wdl num"><span class="form f${res(f)}">${res(f)}</span> ${home(f) ? f.hs + '–' + f.as : f.as + '–' + f.hs}</span><span class="pk num">${f.pickPts !== undefined ? f.pickPts + ' pts' : ''}</span><span></span></div>`;
+      <span class="wdl num"><span class="form f${res(f)}">${res(f)}</span> ${home(f) ? f.hs + '–' + f.as : f.as + '–' + f.hs}</span><span class="pk num"></span><span></span></div>`;
   let stats = '';
   if (!cup) {
     const row = r.tab[i], cfg = COMP[k].cfg;
@@ -1107,7 +1118,7 @@ function openClub(k, i) {
     ${stats}
     ${t.hai ? affBreakdown(k, t) : ''}
     <h4 style="margin-top:18px">Upcoming (${up.length})</h4>
-    ${up.length ? `<div class="cf-head"><span>Date</span><span>Opponent</span><span>Win · Draw · Loss</span><span>Pick 'em</span><span>Importance</span></div><p class="note" style="margin:6px 0 0">Scores are shown with ${esc(t.short || t.name)} first.</p>${up.map(rowUp).join('')}` : '<p class="note">No fixtures left.</p>'}
+    ${up.length ? `<div class="cf-head"><span>Date</span><span>Opponent</span><span>Win · Draw · Loss</span><span></span><span>Importance</span></div><p class="note" style="margin:6px 0 0">Scores are shown with ${esc(t.short || t.name)} first.</p>${up.map(rowUp).join('')}` : '<p class="note">No fixtures left.</p>'}
     ${done.length ? `<h4 style="margin-top:18px">Results (${done.length})</h4>${done.slice().reverse().map(rowDone).join('')}` : ''}`;
   if (!$('#detail').open) $('#detail').showModal(); $('#close').onclick = () => $('#detail').close();
 }
@@ -1150,7 +1161,7 @@ function liveEvent(k, id, ev) {
 }
 // ---------------------------------------------------------------- events
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-rankf],[data-natf],[data-xnat],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
+  const t = e.target.closest('[data-heart],[data-heartnote],[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-rankf],[data-natf],[data-xnat],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
   if (!t) return;
   const card = t.closest('#main [data-fx]');
   // On Live, a match card's buttons act on that card's competition.
@@ -1158,6 +1169,10 @@ document.addEventListener('click', e => {
   scopeEl = card; queueMicrotask(() => { scopeEl = null; });
   anchor = card ? {key:card.dataset.fx, top:card.getBoundingClientRect().top} : null; queueMicrotask(() => { anchor = null; });
   if (t.dataset.top) { window.scrollTo({top:0, behavior:'smooth'}); return; }
+  if (t.dataset.heart) { const [id, v] = t.dataset.heart.split(':'); const h = state.heart[k] = state.heart[k] || {}, e = h[id] || {};
+    h[id] = e.s === v ? Object.assign({}, e, {s:null}) : Object.assign({}, e, {s:v, t:Date.now()}); if (!h[id].s && !h[id].note) delete h[id]; render(); save(k); return; }
+  if (t.dataset.heartnote) { const id = t.dataset.heartnote, el = document.getElementById('hn-' + id), h = state.heart[k] = state.heart[k] || {};
+    h[id] = Object.assign({}, h[id], {note:(el ? el.value : '').trim().slice(0, 300)}); render(); save(k); return; }
   if (t.dataset.signin) { signIn(); return; }
   if (t.dataset.signout) { signOut(); return; }
   if (t.dataset.adjadd) { const i = +$('#adj-club').value, p = +$('#adj-sign').value * Math.abs(parseInt(String($('#adj-pts').value).replace(/[^0-9]/g, ''), 10)), n = $('#adj-note').value.trim();

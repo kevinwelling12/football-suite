@@ -753,9 +753,11 @@ function viewRank() {
   const nFit = all.filter(e => fitOf(e.t.name)).length;
   const chips = [['all', `All ${all.length}`], ['fit', `In your competitions ${nFit}`]].concat(RANK_PRIMARY.filter(k => counts[k]).map(k => [k, `${rankLabel(k)} ${counts[k]}`]));
   const list = all.map((e, n) => Object.assign({n: n + 1}, e)).filter(e => rankF === 'all' || (rankF === 'fit' ? fitOf(e.t.name) : e.k === rankF));
+  // Filtered to one league: rank within the league, overall rank in parentheses.
+  const byLeague = rankF !== 'all' && rankF !== 'fit';
   return `<section class="section">${AFF_HOW}
     <div class="rank-chips">${chips.map(([k, l]) => `<button class="rchip" data-rankf="${k}" aria-pressed="${rankF === k}" style="--c:${k === 'all' || k === 'fit' ? '#fff' : DOT[k]}">${k === 'all' || k === 'fit' ? '' : '<i></i>'}${esc(l)}</button>`).join('')}</div>
-    <div class="card rank" style="margin-top:12px">${list.map(e => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${e.n}</span>
+    <div class="card rank ${byLeague ? 'by-league' : ''}" style="margin-top:12px">${list.map((e, j) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${byLeague ? `${j + 1} <small>(${e.n})</small>` : e.n}</span>
       <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i><span>${esc(rankLabel(e.k))}</span></small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, affOf(e.t)) / mx * 100}%"></span></span>
       <span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>`;

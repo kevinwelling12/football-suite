@@ -550,6 +550,10 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
   :root.bc nav.tabs button{padding:7px 11px;font-size:13.5px}
   :root.bc nav.tabs button.gear{padding:7px 10px}
 }
+@media (max-width:430px){
+  :root.bc nav.tabs button{padding:7px 7px;font-size:13px;letter-spacing:-.01em}
+  :root.bc nav.tabs button.gear{padding:7px 6px}
+}
 
 .ties{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
 .tie{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
@@ -737,3 +741,16 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 .rank.by-league .rk{white-space:nowrap}
 .rank.by-league .rk small{font-size:11px;font-weight:600;opacity:.8}
 @media (max-width:600px){.rank.by-league .rank-row{grid-template-columns:56px 1fr 46px}}
+
+/* Heart over head: who you pulled for in a neutral match */
+.heart{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px;padding-top:10px;border-top:.5px solid var(--line);font-size:13px}
+.heart .hl{color:var(--muted);font-weight:600;margin-right:2px}
+.heart .hp{border:0;border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;font-weight:650;cursor:pointer;background:rgba(118,118,128,.24);color:var(--ink)}
+.heart .hp[aria-pressed="true"]{background:#fff;color:#000}
+.heart .hn{flex-basis:100%;display:flex;gap:6px}
+.heart .hn input{flex:1;min-width:0;font:inherit;font-size:14px;padding:8px 10px;border-radius:10px;border:.5px solid var(--line);background:rgba(118,118,128,.16);color:var(--ink)}
+.heart .hn .btn{height:36px;padding:0 14px}
+.match.lc .heart{margin-top:8px;padding-top:8px}
+/* Pick 'em tab */
+table.picks td,table.picks th{white-space:nowrap}
+table.picks tr[data-open]{cursor:pointer}

@@ -56,3 +56,13 @@ undrawn rounds, draw entry supported. MODEL.poResolve/poProbs: bracket resolutio
   races, playoffs bracket, clubs (Affinity breakdown), settings, club sheet, match detail
   ("Why it matters" narrative, stat tiles, scoreline heatmap).
 - Match of the week: blend motwW*importance + (1-motwW)*competitiveness; locked when the round starts.
+
+## Silos (2026-10-02)
+- Match cards (full, compact live, detail sheet), home feeds and club fixture lists show no Affinity and no pick 'em,
+  so neither colours a neutral viewing. Pick 'em lives in each competition's Pick 'em tab (viewPicks: upcoming picks
+  with expected points and the Affinity pick, scored picks, season totals); Affinity in the Clubs tab, club cards and
+  the Affinity ranking.
+- Heart over head: on a neutral match (no followed club) once it's under way, a "Pulled for" row (home / away /
+  neither) and an optional note on players or coaches. Stored as state.heart[k][fixtureId] = {s:'H'|'A'|'N', t, note},
+  synced in the competition doc's `heart` field like results, cached in localStorage. Meant as the next calibration
+  set for Affinity (each pull is a head-to-head preference).

@@ -158,5 +158,6 @@ Team keeps its whole-number base plus the squad-interplay bump.
 Rival penalties removed (2026-10-02, Kevin): the flat club penalties for his teams' rivals are gone (Bayern Munich,
 Schalke 04, Seattle Sounders, Seattle Reign, Vancouver Whitecaps -5; Everton -2). Local-market and ownership items
 (big-4) stay. With no rival flags left, association now links Sounders and Reign, and the big-4 market items apply to
-those clubs like any other. Effect: Sounders 78.6 -> 83.6 (now above the Timbers, 81.3), Bayern 83.2 -> 88.2.
+those clubs like any other: Seattle clubs now take the Seahawks market item (-1, as Dallas for the Cowboys).
+Effect: Sounders 78.6 -> 82.6 (above the Timbers, 81.3, on track record and homegrown share), Bayern 83.2 -> 88.2.
 Gut fit unchanged (0.723).

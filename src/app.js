@@ -544,19 +544,27 @@ const COL_SHORT = {'Promoted':'Up', 'Play-offs':'PO', 'Relegated':'Rel', 'Quarte
   "Players' Shield":'Shield', "Supporters' Shield":'Shield', 'Home QF':'Home', 'Group winner':'1st', 'Play-off':'PO'};
 const colHead = (k, key) => { const l = colLabel(k, key), s = COL_SHORT[l] || l; return s === l ? esc(l) : `<span class="nm-full">${esc(l)}</span><span class="nm-short">${esc(s)}</span>`; };
 function colLabel(k, key) { const cfg = COMP[k].cfg; return (cfg.colLabels && cfg.colLabels[key]) || (cfg.zones.find(z => z.key === key) || {}).label || key; }
+// Playoff leagues mark clinched and eliminated clubs beside the name (x, y, z, e) instead of a status column.
+const hasMarks = k => (COMP[k].cfg.status || []).some(s => s.mark);
+function markLegend(k, rows) {
+  const seen = new Set(rows.map(r => r.mark).filter(Boolean));
+  return COMP[k].cfg.status.filter(s => s.mark && seen.has(s.mark)).sort((a, b) => (a.type === 'doom') - (b.type === 'doom')).map(s => `<span class="mk"><sup class="smark ${s.type === 'doom' ? 'bad' : ''}">${s.mark}</sup>${esc(s.label)}</span>`).join('');
+}
 function tableRows(k, rows, proj, colsOverride) {
   const cfg = colsOverride ? Object.assign({}, COMP[k].cfg, {cols: colsOverride}) : COMP[k].cfg, bad = key => (cfg.zones.find(z => z.key === key) || {}).bad;
   const mini = (r, key) => { const v = r.odds[key] || 0; return `<span class="mini ${bad(key) || key === 'down' ? 'bad' : ''}"><i style="width:${Math.max(2, v * 48)}px"></i><span class="num">${pct(v)}</span></span>`; };
+  const marked = hasMarks(k);
   return rows.map(r => {
-    const pos = proj ? r.projPos : r.pos, mv = r.moved ? `<span class="mv-arrow ${r.moved > 0 ? 'up' : 'down'}">${r.moved > 0 ? '▲' : '▼'}${Math.abs(r.moved)}</span>` : '', club = `<button class="club-link" data-club="${r.i}">${tchip(k, r.i)}${star(k, r.i)}${dual(k, r.i)}</button>${mv}`;
+    const mk = marked && r.mark ? `<sup class="smark ${r.statusBad ? 'bad' : ''}" title="${esc(r.status)}">${r.mark}</sup>` : '';
+    const pos = proj ? r.projPos : r.pos, mv = r.moved ? `<span class="mv-arrow ${r.moved > 0 ? 'up' : 'down'}">${r.moved > 0 ? '▲' : '▼'}${Math.abs(r.moved)}</span>` : '', club = `<button class="club-link" data-club="${r.i}">${tchip(k, r.i)}${star(k, r.i)}${dual(k, r.i)}${mk}</button>${mv}`;
     const st = r.status ? `<span class="status-tag ${r.statusBad ? 'rel' : ''}">${esc(r.status)}</span>` : '';
     const mid = proj
       ? `<td class="num sm-hide">${wdl(r).join('-')}</td><td class="num sm-hide">${r.projGD > 0.5 ? '+' : ''}${r.projGD.toFixed(0)}</td>
          <td class="num"><b>${r.projPts.toFixed(0)}</b><span class="sm-hide" style="color:var(--faint)"> (${r.projLow}–${r.projHigh})</span></td><td class="num">${r.pos}${ord(r.pos)}<span class="sm-hide" style="color:var(--faint)"> · ${r.Pts} pts</span></td>`
       : `<td class="num sm-hide">${r.P}</td><td class="num sm-hide">${r.W}-${r.D}-${r.L}</td><td class="num">${r.GF - r.GA > 0 ? '+' : ''}${r.GF - r.GA}</td><td class="num"><b>${r.Pts}</b>${r.adj ? `<span class="adj-chip" title="${esc(r.adjNote || 'Points adjustment')}">${r.adj > 0 ? '+' : ''}${r.adj}</span>` : ''}</td>
          <td class="num sm-hide">${r.projPts.toFixed(0)} <span style="color:var(--faint)">(${r.projLow}–${r.projHigh})</span></td>`;
- return `<tr class="${cfg.cuts.includes(pos) ? 'cut' : ''} ${isFav(k, r.i) ? 'fav-row' : ''}" ${T(k)[r.i].color ? `style="--fc:${T(k)[r.i].color}"` : ''}><td class="pos num" style="--zone:${zoneColor(k, pos)}">${pos}</td><td class="club">${club}</td>${mid}
-      ${cfg.cols.map(c => `<td>${mini(r, c)}</td>`).join('')}<td class="sm-hide">${proj ? '' : st}</td></tr>`;
+ return `<tr class="${cfg.cuts.includes(pos) ? 'cut' : ''} ${isFav(k, r.i) ? 'fav-row' : ''} ${marked && r.statusBad ? 'out' : ''}" ${T(k)[r.i].color ? `style="--fc:${T(k)[r.i].color}"` : ''}><td class="pos num" style="--zone:${zoneColor(k, pos)}">${pos}</td><td class="club">${club}</td>${mid}
+      ${cfg.cols.map(c => `<td>${mini(r, c)}</td>`).join('')}${marked ? '' : `<td class="sm-hide">${proj ? '' : st}</td>`}</tr>`;
   }).join('');
 }
 function wdl(r) {
@@ -571,7 +579,7 @@ function tableHTML(k, rows, proj, grp) {
   const cfg0 = COMP[k].cfg, cfg = cfg0.colsByLeague && grp ? Object.assign({}, cfg0, {cols: cfg0.colsByLeague[grp[0]]}) : cfg0;
   const head = proj ? '<th class="sm-hide">Proj W-D-L</th><th class="sm-hide">GD</th><th>Proj</th><th>Now</th>' : '<th class="sm-hide">P</th><th class="sm-hide">W-D-L</th><th>GD</th><th>Pts</th><th class="sm-hide">Projected</th>';
   const sorted = proj ? [...rows].sort((a, b) => a.projPos - b.projPos) : rows;
-  return `<div class="card scroll" style="margin-top:10px"><table><thead><tr><th>#</th><th class="club">${esc(COMPS_CFG[k].noun || 'Club')}</th>${head}${cfg.cols.map(c => `<th>${colHead(k, c)}</th>`).join('')}<th class="sm-hide"></th></tr></thead><tbody>${tableRows(k, sorted, proj, cfg.cols)}</tbody></table></div>`;
+  return `<div class="card scroll" style="margin-top:10px"><table><thead><tr><th>#</th><th class="club">${esc(COMPS_CFG[k].noun || 'Club')}</th>${head}${cfg.cols.map(c => `<th>${colHead(k, c)}</th>`).join('')}${hasMarks(k) ? '' : '<th class="sm-hide"></th>'}</tr></thead><tbody>${tableRows(k, sorted, proj, cfg.cols)}</tbody></table></div>`;
 }
 
 function liveTable(k) {
@@ -623,7 +631,7 @@ function viewTable(k) {
   const toggle = `<div class="seg" role="group" aria-label="Table view"><button data-tmode="now" aria-pressed="${!proj && !live}">Current</button>${anyLive ? `<button data-tmode="live" aria-pressed="${live}"><span class="live-dot"></span>As it stands</button>` : ''}<button data-tmode="proj" aria-pressed="${proj}">Projected</button></div>`;
   return `<section class="section"><div class="mw-head"><h2>${cfg.grouped ? (['mls', 'usl'].includes(k) ? 'Conferences' : 'Groups') : 'Table'}</h2>${toggle}</div>${k === 'unl' ? leagueSeg() : ''}
     <p class="sub">${live ? 'The table if every live match finished at its current score. Odds already account for the live scores. ' : ''}${proj ? 'Final table if every remaining match plays out at its expected value: projected points, the middle-80% range from 1,000 simulated seasons, and where each club sits now.' : 'Live from your results. Projected points and odds come from 1,000 simulated seasons; the range covers the middle 80%.'} Tap a club for its fixtures.</p>
-    ${body}<div class="legend">${cfg.legend.map(([l, c]) => `<span style="--c:${c}">${esc(l)}</span>`).join('')}</div>
+    ${body}<div class="legend">${cfg.legend.map(([l, c]) => `<span style="--c:${c}">${esc(l)}</span>`).join('')}</div>${hasMarks(k) && !live && markLegend(k, r.tab) ? `<div class="legend marks">${markLegend(k, r.tab)}</div>` : ''}
     <div class="race" style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
       <div><h3 style="margin:0">Affinity satisfaction</h3><p class="sub" style="margin:4px 0 0">How closely the standings follow your Affinity order. 0 is the worst possible order, 100 the best.</p></div>
       <div class="mw-title num">${Math.round(r.satisfaction)}</div></div></section>`;

@@ -754,3 +754,13 @@ nav.tabs button.gear{display:inline-flex;align-items:center;justify-content:cent
 /* Pick 'em tab */
 table.picks td,table.picks th{white-space:nowrap}
 table.picks tr[data-open]{cursor:pointer}
+/* clinch / eliminated marks beside the club name */
+.smark{font-size:10px;font-weight:800;text-transform:none;white-space:nowrap;color:var(--mint);margin-left:3px;vertical-align:super;line-height:0}
+.smark.bad{color:var(--magenta)}
+:root.bc .smark{color:#30D158}
+:root.bc .smark.bad{color:#FF453A}
+tr.out .club-link{opacity:.5}
+.legend .mk::before{display:none}
+.legend .mk .smark{margin:0 5px 0 0;vertical-align:baseline;font-size:12px}
+.legend.marks{margin-top:6px}
+td.club .club-link .smark{align-self:flex-start;line-height:1;margin-top:-1px}

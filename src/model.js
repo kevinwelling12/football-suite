@@ -158,8 +158,8 @@ const MODEL = (() => {
       const out = peers.filter(o => o.Pts > r.max).length, catch_ = peers.filter(o => o !== r && o.max > r.Pts).length;
       r.status = '';
       for (const s of C.status) {
-        if (s.type === 'doom' && out >= s.k) { r.status = s.label; r.statusBad = true; break; }
-        if (s.type === 'clinch' && catch_ < s.k) { r.status = s.label; break; }
+        if (s.type === 'doom' && out >= s.k) { r.status = s.label; r.statusBad = true; r.mark = s.mark; break; }
+        if (s.type === 'clinch' && catch_ < s.k) { r.status = s.label; r.mark = s.mark; break; }
       }
     }
     const byGroup = {}; for (const r of tab) (byGroup[r.group] = byGroup[r.group] || []).push(r);

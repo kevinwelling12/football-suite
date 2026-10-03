@@ -25,14 +25,14 @@ const COMPS_CFG = {
   ch: { drawPrior: 0.27, name: 'Championship', season: '26/27', round: 'Matchweek', abbr: 'MW', brand: { head: '#0B1F3A', accent: '#C9A227', glow: 'rgba(201,162,39,.5)', tag: '#E7C65A' }, source: 'openfootball',
     build: zw => ({
       zones: [Z('title', 'Title', r => r === 1, zw['Title']), Z('auto', 'Promoted', r => r <= 2, zw['Automatic promotion']), Z('po', 'Play-offs', r => r <= 6, zw['Play-offs (top 6)']), Z('rel', 'Relegated', r => r >= 22, zw['Relegation'], { bad: true })],
-      status: [{ type: 'doom', k: 21, label: 'Relegated' }, { type: 'clinch', k: 2, label: 'Promoted' }, { type: 'clinch', k: 6, label: 'Play-offs clinched' }, { type: 'clinch', k: 21, label: 'Safe' }],
+      status: [{ type: 'doom', k: 21, label: 'Relegated', mark: 'r' }, { type: 'clinch', k: 2, label: 'Promoted', mark: 'p' }, { type: 'clinch', k: 6, label: 'Play-offs clinched', mark: 'x' }, { type: 'clinch', k: 21, label: 'Safe' }],
       lines: [[2.5, 1], [6.5, 0.85], [21.5, 1], [1.5, 0.3]], cols: ['auto', 'po', 'rel'], colors: [[1, 1, GOLD], [2, 2, GREEN], [3, 6, CYAN], [22, 24, RED]], cuts: [2, 6, 21],
       legend: [['Champion', GOLD], ['Promoted', GREEN], ['Play-offs', CYAN], ['Relegation', RED]],
       headline: ['Promotion race', 'auto', 'to go up automatically'], line: ['Play-off line', 6, 'Projected 6th place'] }) },
   nwsl: { drawPrior: 0.24, name: 'NWSL', season: '2026', round: 'Week', abbr: 'Wk', brand: { head: '#0A1F44', accent: '#E03A3E', glow: 'rgba(224,58,62,.5)', tag: '#FF8A8D' }, source: 'FBref',
     build: zw => ({
       zones: [Z('shield', 'Shield', r => r === 1, zw['NWSL Shield']), Z('top4', 'Top 4', r => r <= 4, zw['Top 4 (home quarterfinal)']), Z('po', 'Playoffs', r => r <= 8, zw['Playoffs (top 8)'])],
-      status: [{ type: 'doom', k: 8, label: 'Eliminated' }, { type: 'clinch', k: 1, label: 'Shield clinched' }, { type: 'clinch', k: 4, label: 'Home QF clinched' }, { type: 'clinch', k: 8, label: 'Playoffs clinched' }],
+      status: [{ type: 'doom', k: 8, label: 'Eliminated', mark: 'e' }, { type: 'clinch', k: 1, label: 'Shield clinched', mark: 'z' }, { type: 'clinch', k: 4, label: 'Home QF clinched', mark: 'y' }, { type: 'clinch', k: 8, label: 'Playoffs clinched', mark: 'x' }],
       knockout: 'nwslpo', lines: [[8.5, 1], [1.5, 0.6], [4.5, 0.5]], cols: ['shield', 'top4', 'po'], colLabels: { champ: 'Champion', final: 'Final', sf: 'Semifinal' }, colors: [[1, 1, GOLD], [2, 4, GREEN], [5, 8, CYAN]], cuts: [8],
       legend: [['Shield', GOLD], ['Home quarterfinal', GREEN], ['Playoffs', CYAN]],
       headline: ['Shield race', 'shield', 'to win the Shield'], line: ['Playoff line', 8, 'Projected 8th place'] }) },
@@ -40,7 +40,7 @@ const COMPS_CFG = {
     build: zw => ({
       zones: [Z('po', 'Playoffs', r => r <= 9, zw['Playoffs (top 9 in conference)'], { scope: 'group' }), Z('bye', 'Bye', r => r <= 7, zw['Round-one bye (top 7)'], { scope: 'group' }),
         Z('conf', 'Conf 1st', r => r === 1, zw['Conference 1st'], { scope: 'group' }), Z('shield', 'Shield', r => r === 1, zw["Supporters' Shield"])],
-      status: [{ type: 'doom', k: 9, label: 'Eliminated' }, { type: 'clinch', k: 9, label: 'Playoffs clinched' }],
+      status: [{ type: 'doom', k: 9, label: 'Eliminated', mark: 'e' }, { type: 'clinch', k: 7, label: 'Bye clinched', mark: 'y' }, { type: 'clinch', k: 9, label: 'Playoffs clinched', mark: 'x' }],
       knockout: 'mlspo', lines: [[9.5, 1], [7.5, 0.6], [1.5, 0.4]], cols: ['shield', 'bye', 'po'], colLabels: { champ: 'MLS Cup', final: 'Cup final', cf: 'Conf final', csf: 'Conf semis' }, colors: [[1, 7, GREEN], [8, 9, CYAN]], cuts: [9],
       legend: [['Round-one bye', GREEN], ['Wild card', CYAN]],
       headline: ["Supporters' Shield", 'shield', "to win the Supporters' Shield"], line: ['Playoff line', 9, '9th in each conference'] }) },
@@ -48,14 +48,14 @@ const COMPS_CFG = {
     build: zw => ({
       zones: [Z('po', 'Playoffs', r => r <= 8, 1, { scope: 'group' }), Z('top4', 'Top 4', r => r <= 4, 0.5, { scope: 'group' }),
         Z('conf', 'Conf 1st', r => r === 1, 0.3, { scope: 'group' }), Z('shield', "Players' Shield", r => r === 1, 0.5)],
-      knockout: 'uslpo', status: [{ type: 'doom', k: 8, label: 'Eliminated' }, { type: 'clinch', k: 8, label: 'Playoffs clinched' }],
+      knockout: 'uslpo', status: [{ type: 'doom', k: 8, label: 'Eliminated', mark: 'e' }, { type: 'clinch', k: 4, label: 'Home QF clinched', mark: 'y' }, { type: 'clinch', k: 8, label: 'Playoffs clinched', mark: 'x' }],
       lines: [[8.5, 1], [4.5, 0.5], [1.5, 0.4]], cols: ['shield', 'top4', 'po'], colLabels: { champ: 'Champion', final: 'Final', cf: 'Conf final', csf: 'Conf semis', top4: 'Home QF' },
       colors: [[1, 4, GREEN], [5, 8, CYAN]], cuts: [8], legend: [['Home quarterfinal', GREEN], ['Playoffs', CYAN]],
       headline: ["Players' Shield", 'shield', "to win the Players' Shield"], line: ['Playoff line', 8, '8th in each conference'] }) },
   ucl: { drawPrior: 0.2, name: 'Champions League', season: '26/27', round: 'Matchday', abbr: 'MD', brand: { head: '#0B1446', accent: '#2F6FED', glow: 'rgba(47,111,237,.55)', tag: '#8FB0FF' }, source: 'UEFA',
     build: zw => ({
       zones: [Z('top8', 'Top 8', r => r <= 8, zw['Top 8 (round of 16 bye)']), Z('top24', 'Top 24', r => r <= 24, zw['Top 24 (knockout play-off)'])],
-      knockout: 'ucl', status: [{ type: 'doom', k: 24, label: 'Eliminated' }, { type: 'clinch', k: 8, label: 'Top 8 clinched' }, { type: 'clinch', k: 24, label: 'Knockouts clinched' }],
+      knockout: 'ucl', status: [{ type: 'doom', k: 24, label: 'Eliminated', mark: 'e' }, { type: 'clinch', k: 8, label: 'Top 8 clinched', mark: 'y' }, { type: 'clinch', k: 24, label: 'Knockouts clinched', mark: 'x' }],
       lines: [[8.5, 1], [24.5, 1], [16.5, 0.5]], cols: ['top8', 'qf', 'win'], colLabels: { qf: 'Quarter-finals', win: 'Win it' },
       colors: [[1, 8, GREEN], [9, 24, CYAN]], cuts: [8, 24], legend: [['Round of 16', GREEN], ['Knockout play-off', CYAN]],
       headline: ['Title race', 'win', 'to lift the trophy'], line: ['Top-8 line', 8, 'Projected 8th place'] }) },

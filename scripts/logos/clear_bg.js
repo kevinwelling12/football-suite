@@ -1,5 +1,5 @@
 // Make a logo's solid background transparent: near-white pixels connected to the image edge are cleared
-// (flood fill from the border, so white inside the crest stays), with a soft edge, then the result is scaled to 128px.
+// (flood fill from the border, so white inside the crest stays), with a soft edge, then the result is scaled onto a 128px square.
 // Works from ESPN's 500px original for a clean edge. Needs Playwright's Chromium (used for canvas).
 //
 //   node scripts/logos/clear_bg.js 17828-d 17850-d ...     # file names under src/logos, without .png
@@ -33,8 +33,9 @@ const OUT = path.resolve(__dirname, '../../src/logos');
         } else if (f < 160) d[o + 3] = Math.round(d[o + 3] * (f - 60) / 100);   // anti-aliased rim: fade
       }
       x.putImageData(im, 0, 0);
-      const s = 128 / Math.max(W, H), o = document.createElement('canvas'); o.width = Math.round(W * s); o.height = Math.round(H * s);
-      const y = o.getContext('2d'); y.imageSmoothingQuality = 'high'; y.drawImage(c, 0, 0, o.width, o.height);
+      // Centred on a transparent 128px square, the same shape as every other logo file.
+      const s = 128 / Math.max(W, H), w = Math.round(W * s), h = Math.round(H * s), o = document.createElement('canvas'); o.width = o.height = 128;
+      const y = o.getContext('2d'); y.imageSmoothingQuality = 'high'; y.drawImage(c, (128 - w) >> 1, (128 - h) >> 1, w, h);
       return o.toDataURL('image/png').split(',')[1];
     }, buf.toString('base64'));
     fs.writeFileSync(path.join(OUT, name + '.png'), Buffer.from(png, 'base64'));

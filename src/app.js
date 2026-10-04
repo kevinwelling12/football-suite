@@ -274,8 +274,10 @@ function setBrand(k) {
   if (isHub(k)) k = 'home';
   const b = k === 'home' ? {head:'#1A1033', accent:'#7C5CFF', glow:'rgba(124,92,255,.5)', tag:'#B9A6FF'}
     : COMPS_CFG[k].brand;
-  if (document.documentElement.classList.contains('bc') || true) { const r0 = document.documentElement.style; r0.setProperty('--head', '#000000'); r0.setProperty('--accent', '#FF453A'); r0.setProperty('--glow', 'transparent'); r0.setProperty('--tag', 'rgba(235,235,245,.6)'); r0.setProperty('--brand', k === 'home' ? 'rgba(235,235,245,.6)' : b.accent); return; }
-  const r = document.documentElement.style; r.setProperty('--head', b.head); r.setProperty('--accent', b.accent); r.setProperty('--glow', b.glow); r.setProperty('--tag', b.tag);
+  // The page is washed in the competition's colour (Home, Live and Affinity stay neutral graphite).
+  const r = document.documentElement.style; r.setProperty('--tint', k === 'home' ? '#3A3A3C' : b.accent); r.setProperty('--brand', k === 'home' ? 'rgba(235,235,245,.6)' : b.accent);
+  const top = '#' + [0, 2, 4].map(j => Math.round(parseInt((k === 'home' ? '#3A3A3C' : b.accent).slice(1 + j, 3 + j), 16) * (k === 'home' ? 0.7 : 0.42)).toString(16).padStart(2, '0')).join('');
+  r.setProperty('--top', top); const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = top;
 }
 function tabShort(k, t, l) {
   const S = {'Matchweek':'Matches', 'Matchday':'Matches', 'Round':'Matches', 'Week':'Matches', 'Rounds':'Matches', 'Conferences':'Table', 'Groups':'Table', 'Clubs left':'Left', 'Trophy race':'Race', 'Your Affinity':'Affinity', "Pick 'em":'Picks'};
@@ -284,7 +286,6 @@ function tabShort(k, t, l) {
 function renderChrome() {
   const k = state.view, hub = isHub(k), cup = !hub && COMPS_CFG[k].cup;
   setBrand(k);
-  document.documentElement.classList.add('bc');
   $('#title').innerHTML = k === 'live' ? 'Live<span class="season">Now</span>' : k === 'rank' ? 'Affinity<span class="season">Ranking</span>' : hub ? 'Football Tracker<span class="season">Suite</span>' : `${esc(COMPS_CFG[k].name)}<span class="season">${esc(COMPS_CFG[k].season)}</span>`;
   const reg = regionOf(k); if (reg) lastIn[reg.key] = k;
   $('#regions').innerHTML = `<button data-view="home" aria-pressed="${k === 'home'}">Home</button><button data-view="live" aria-pressed="${k === 'live'}" class="nav-live">${liveNow().length ? '<span class="live-dot"></span>' : ''}Live</button>` +
@@ -293,6 +294,7 @@ function renderChrome() {
   const chip = c => { const [f, s] = CHIP[c] || [COMPS_CFG[c].name]; return s ? `<span class="nm-full">${esc(f)}</span><span class="nm-short">${esc(s)}</span>` : esc(f); };
   $('#comps').innerHTML = reg ? reg.comps.map(c => `<button data-view="${c}" aria-pressed="${k === c}" aria-label="${esc(COMPS_CFG[c].name)}"><i style="--c:${DOT[c]}"></i>${chip(c)}</button>`).join('') : '';
   $('#comps').hidden = !reg;
+  { const sel = $('#comps').querySelector('[aria-pressed="true"]'); if (sel) $('#comps').scrollLeft = Math.max(0, sel.offsetLeft + sel.offsetWidth - $('#comps').clientWidth + 4); }
   $('#regions').style.setProperty('--dot', reg ? DOT[k] : '#fff');
   const tabs = hub ? [] : cup ? [['week', 'Rounds'], ['table', 'Clubs left'], ['races', 'Trophy race'], ['clubs', 'Your Affinity'], ['picks', "Pick 'em"], ['settings', 'Settings']]
     : [['week', COMPS_CFG[k].round], ['table', COMPS_CFG[k].grouped ? (['mls', 'usl'].includes(k) ? 'Conferences' : 'Groups') : 'Table'], ['races', 'Races'],
@@ -368,6 +370,10 @@ const fmtDateK = (f, o) => f.kt ? new Date(f.kt).toLocaleDateString('en-US', o |
 const whenLabel = f => f.postponed ? 'Postponed · new date TBA' : `${fmtDateK(f)} · ${f.kt ? fmtTime(f.kt) : 'time TBC'}`;
 const isPast = f => f.kt ? f.kt < Date.now() : f.date < todayISO;
 const tvLabel = k => DATA[k].tv + (k === 'epl' ? ' (channel announced weekly)' : '');
+// A club "crest": a disc in the club colour with its short code (the app has no logos). Text flips dark on light colours.
+const inkOn = hex => { const n = parseInt((hex || '#48484A').slice(1), 16), [r, g, b] = [n >> 16, n >> 8 & 255, n & 255].map(v => (v /= 255) <= 0.04 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4); return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.36 ? '#000' : '#fff'; };
+const crest = (k, i, size) => { if (i == null) return `<i class="crest tbd" style="--cs:${size || 40}px">?</i>`; const t = T(k)[i], c = t.color || '#48484A', a = t.abbr || (t.short || t.name).replace(/[^A-Za-z]/g, '').slice(0, 3).toUpperCase();
+  return `<i class="crest" style="--cs:${size || 40}px;--tc:${c};--ti:${inkOn(c)}" aria-hidden="true">${esc(a)}</i>`; };
 const tchip = (k, i) => i != null && T(k)[i].color ? `<i class="tchip" style="--tc:${T(k)[i].color}"></i>` : '';
 const isFav = (k, i) => i != null && (state.favs[k] || []).includes(i);
 const star = (k, i) => isFav(k, i) ? '<span class="star" aria-label="Your club">★</span>' : '';
@@ -424,12 +430,11 @@ function liveCard(k, f) {
   if (L) ctl = liveBtns(k, f);
   else if (COMPS_CFG[k].cup) ctl = `<div class="live-ctl one"><button class="btn ghost" data-go="${k}:${f.id}">Enter the result</button></div>`;
   else if (!f.played && !f.postponed) ctl = `<div class="live-ctl one"><button class="btn live-btn" data-ev="ko" data-id="${f.id}">${Date.now() - f.kt > 5 * 6e4 ? `Live now (clock from ${fmtTime(f.kt)})` : 'Kicked off'}</button></div>`;
-  return `<article data-fx="${k}:${f.id}" class="match lc ${L ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''}" style="--hc:${t(f.h).color};--ac:${t(f.a).color}">
-    <div class="lc-top"><button class="live-comp" data-go="${k}:${f.id}" style="--c:${DOT[k]}"><i></i>${esc(COMPS_CFG[k].name)}</button></div>
-    <div class="lc-bug" role="button" tabindex="0" data-go="${k}:${f.id}" aria-label="Open ${esc(full(k, f.h))} v ${esc(full(k, f.a))}">
-      <span class="lc-t" style="--tc:${t(f.h).color}"><i></i><b>${ab(f.h)}</b>${star(k, f.h)}${L ? reds(L.rc[0]) : ''}</span>
-      <span class="lc-s num">${L ? L.h : ''}</span><span class="lc-clock ${L ? 'on' : ''}">${L ? liveLabel(k, f) : fmtTime(f.kt)}</span><span class="lc-s num">${L ? L.a : ''}</span>
-      <span class="lc-t away" style="--tc:${t(f.a).color}">${L ? reds(L.rc[1]) : ''}${star(k, f.a)}<b>${ab(f.a)}</b><i></i></span></div>
+  const team = (sd, i) => `<span class="mr-t ${sd}">${crest(k, i)}<span class="mr-n">${sd === 'a' ? star(k, i) : ''}${esc(nm(k, i))}${sd === 'h' ? star(k, i) : ''}${L ? reds(L.rc[sd === 'h' ? 0 : 1]) : ''}</span></span>`;
+  return `<article data-fx="${k}:${f.id}" class="match mrow lc ${L ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''}" style="--hc:${t(f.h).color};--ac:${t(f.a).color}">
+    <div class="mr-cap"><button class="live-comp" data-go="${k}:${f.id}" style="--c:${DOT[k]}"><i></i>${esc(COMPS_CFG[k].name)}</button></div>
+    <div class="mr" role="button" tabindex="0" data-go="${k}:${f.id}" aria-label="Open ${esc(full(k, f.h))} v ${esc(full(k, f.a))}">
+      ${team('h', f.h)}<span class="mr-v sc num">${L ? L.h : ''}</span><span class="mr-c">${L ? `<b class="mr-live num"><span class="live-dot"></span>${liveLabel(k, f)}</b>` : `<b class="num">${fmtTime(f.kt)}</b><small>Kicked off</small>`}</span><span class="mr-v sc num">${L ? L.a : ''}</span>${team('a', f.a)}</div>
     ${bar}${ctl}${heartRow(k, f)}</article>`;
 }
 // Heart over head: on a neutral match (none of the followed clubs), once it's under way, who you found yourself
@@ -443,23 +448,13 @@ function heartRow(k, f) {
     ${e.s ? `<div class="hn"><input id="hn-${f.id}" value="${esc(e.note || '')}" placeholder="Players or coaches you enjoyed (or didn't)" aria-label="Note on players or coaches"><button class="btn ghost" data-heartnote="${f.id}">${e.note ? 'Update' : 'Save'}</button></div>` : ''}</div>`;
 }
 function matchCard(k, f, motw) {
-  const bcTeams = f.h != null && f.a != null && !!T(k)[f.h].abbr && document.documentElement.classList.contains('bc');
   const fin = f.played, cup = COMPS_CFG[k].cup, known = f.h != null && f.a != null, rated = f.pH != null;
-  let scoreHtml;
-  if (f.live) scoreHtml = `<div class="score live num">${f.live.h}<span class="dash">–</span>${f.live.a}</div><div class="score-cap"><span class="live-dot"></span>${liveLabel(k, f)}</div>`;
-  else if (fin) scoreHtml = `<div class="score final num">${f.hs}<span class="dash">–</span>${f.as}</div><div class="score-cap">${f.awarded ? 'Awarded' : ''}${f.awarded ? '' : ''}${f.pens != null && f.hs === f.as && !f.round?.endsWith('leg 1') ? esc(nm(k, f.pens)) + ' on pens' : 'Full time'}</div>`;
-  else scoreHtml = `<div class="score num" style="color:var(--faint)">v</div><div class="score-cap">${known ? 'No prediction' : 'Awaiting draw'}</div>`;
-  const imp = !fin && f.importance !== undefined ? impMeter(f.importance) : '';
-  const wlab = side => cup && f.advH != null ? `${pct(side === 'h' ? f.advH : 1 - f.advH)} to go through` : rated ? `${pct(side === 'h' ? f.pH : f.pA)} win` : '';
   let foot = '';
   if (fin) {
     const bits = [];
     if (f.baseDiff) bits.push(`<span class="res-row"><span>Tracker data <b>${f.baseDiff[0]}–${f.baseDiff[1]}</b></span><span class="chip fav">Differs from yours</span></span>`);
     foot = bits.length ? `<div class="res-stack">${bits.join('')}</div>` : '';
-  } else if (f.live) foot = `<span>Was ${pct(f.pH)} · ${pct(f.pD)} · ${pct(f.pA)} before kickoff</span>`;
-  const P = f.live || f;
-  const probs = rated ? `<div class="probs" aria-hidden="true"><span style="flex:${P.pH}"></span><span style="flex:${P.pD}"></span><span style="flex:${P.pA}"></span></div>
-    <div class="prob-lab num"><span><b>${pct(P.pH)}</b> ${bcTeams ? esc(T(k)[f.h].abbr) : 'Home'}</span><span><b>${pct(P.pD)}</b> ${f.live ? 'Draw · live' : 'Draw'}</span><span><b>${pct(P.pA)}</b> ${bcTeams ? esc(T(k)[f.a].abbr) : 'Away'}</span></div>` : '';
+  }
   // Live controls: goals, red cards and the next match event, one tap each. Before a match, "Kicked off" appears from
   // 10 minutes before the listed kickoff; tapped more than 5 minutes after it, the clock starts at kickoff.
   let liveCtl = '';
@@ -475,35 +470,29 @@ function matchCard(k, f, motw) {
   const drawUI = canDraw ? drawPicker(k, f) : '';
   const canEnter = known && !(cup && f.round.startsWith('Semi-final') && false);
   const needPens = cup && !['Semi-final leg 1'].includes(f.round);
-  const favAway = isFav(k, f.a) && !isFav(k, f.h);
-  const favBadge = hasFav(k, f) ? '<span class="badge b-fav">★ Your club</span>' : '';
-  const midBadges = [motw ? `<span class="badge b-motw">${motw}</span>` : '',
-    f.live ? `<span class="badge b-live"><span class="live-dot"></span>LIVE</span>` : '',
-    f.postponed ? '<span class="badge b-pp">Postponed</span>' : '', f.moved && !f.played ? '<span class="badge b-mv">Rescheduled</span>' : '', f.awarded ? '<span class="badge b-pp">Awarded</span>' : ''].join('');
-  const badges = (favBadge || midBadges) ? `<span class="bslot l">${favAway ? '' : favBadge}</span><span class="bslot c">${midBadges}</span><span class="bslot r">${favAway ? favBadge : ''}</span>` : '';
   const fcol = isFav(k, f.h) ? T(k)[f.h].color : isFav(k, f.a) ? T(k)[f.a].color : null;
   const tc = f.h != null && f.a != null && T(k)[f.h].color ? `style="--hc:${T(k)[f.h].color};--ac:${T(k)[f.a].color}${fcol ? ';--fc:' + fcol : ''}"` : '';
-  return `<article ${tc} data-fx="${k}:${f.id}" class="match ${f.live ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''} ${favAway ? 'fav-away' : ''} ${motw ? 'is-motw' : ''} ${f.postponed ? 'is-pp' : ''}">
-    ${badges ? `<div class="badges">${badges}</div>` : ''}
-    <div class="m-top"><span>${fin ? fmtDateK(f) : whenLabel(f)}${cup ? ' · ' + esc(f.round) + (f.round.startsWith('Semi') ? '' : ` ${f.tie}`) : ''}</span>${imp}</div>
-    ${bcTeams ? (() => {
-      const sh = fin ? f.hs : f.live ? f.live.h : '', sa = fin ? f.as : f.live ? f.live.a : '';
-      const mid = f.live ? `<span class="bug-mid-seg live">${liveLabel(k, f)}</span>` : fin ? '<span class="bug-mid-seg">FT</span>'
-        : f.postponed ? '<span class="bug-mid-seg">PPD</span>' : '<span class="bug-mid-seg dim">–</span>';
-      return `<div class="bugwrap" ${rated || fin ? `role="button" tabindex="0" data-open="${f.id}"` : ''}>
-        <div class="bug ${!fin && !f.live ? 'is-pick' : ''}"><span class="bug-team" style="--tc:${T(k)[f.h].color}"><i></i>${esc(T(k)[f.h].abbr)}${star(k, f.h)}${f.live ? reds(f.live.rc[0]) : ''}</span>
-        <span class="bug-score num">${sh}</span>${mid}<span class="bug-score num">${sa}</span>
-        <span class="bug-team away" style="--tc:${T(k)[f.a].color}">${f.live ? reds(f.live.rc[1]) : ''}${star(k, f.a)}${esc(T(k)[f.a].abbr)}<i></i></span></div>
-        <div class="bug-sub"><span>${esc(nm(k, f.h))}</span><span class="bug-mid">${fin ? (f.awarded ? 'Awarded' : '') : ''}</span><span>${esc(nm(k, f.a))}</span></div></div>`;
-    })() : `<div class="board" ${rated || fin ? `role="button" tabindex="0" data-open="${f.id}"` : ''}>
-      ${bcTeams ? `<div class="team h bc-team"><span class="t-abbr">${star(k, f.h)}${esc(T(k)[f.h].abbr)}${tchip(k, f.h)}</span><small>${esc(nm(k, f.h))}${wlab('h') ? ' · ' + wlab('h') : ''}</small></div>` : `<div class="team h"><span>${star(k, f.h)}${esc(nm(k, f.h))}</span><small>${wlab('h')}</small></div>`}
-      <div>${scoreHtml}</div>
-      ${bcTeams ? `<div class="team bc-team"><span class="t-abbr">${tchip(k, f.a)}${esc(T(k)[f.a].abbr)}${star(k, f.a)}</span><small>${esc(nm(k, f.a))}${wlab('a') ? ' · ' + wlab('a') : ''}</small></div>` : `<div class="team"><span>${esc(nm(k, f.a))}${star(k, f.a)}</span><small>${wlab('a')}</small></div>`}
-    </div>`}
-${probs}${liveCtl}
-    ${!fin && known ? `<div class="tv">Watch: ${esc(TV_SHORT[k] || DATA[k].tv)}</div>` : ''}
-    ${foot ? `<div class="m-foot">${foot}</div>` : ''}${heartRow(k, f)}${drawUI}
-    ${canEnter ? `<div class="m-act"><button class="enter wide" data-enter="${f.id}">${fin ? 'Edit result' : f.live ? 'Update score' : 'Enter score'}</button></div>
+  // Apple Sports-style row: crest and name either side, win chances (or the score) inside them, kickoff or status in the middle.
+  const side = s => {
+    const team = s === 'h' ? f.h : f.a;
+    if (f.live) return `<span class="mr-v sc num">${s === 'h' ? f.live.h : f.live.a}</span>`;
+    if (fin) { const me = s === 'h' ? f.hs : f.as, op = s === 'h' ? f.as : f.hs, lose = me < op || (me === op && f.pens != null && f.pens !== team); return `<span class="mr-v sc num ${lose ? 'lose' : ''}">${me}</span>`; }
+    const v = cup && f.advH != null ? (s === 'h' ? f.advH : 1 - f.advH) : rated ? (s === 'h' ? f.pH : f.pA) : null;
+    return `<span class="mr-v num">${v == null ? '' : pct(v)}</span>`;
+  };
+  const mid = f.live ? `<b class="mr-live num"><span class="live-dot"></span>${liveLabel(k, f)}</b><small>Draw ${pct(f.live.pD)}</small>`
+    : fin ? `<b>Final</b><small>${f.awarded ? 'Awarded' : f.pens != null && f.hs === f.as && !(f.round || '').endsWith('leg 1') ? esc(nm(k, f.pens)) + ' on pens' : ''}</small>`
+    : f.postponed ? '<b>Postponed</b><small>New date TBA</small>'
+    : `<b class="num">${f.kt ? fmtTime(f.kt) : 'TBC'}</b><small>${cup && f.advH != null ? 'to go through' : rated ? 'Draw ' + pct(f.pD) : known ? '' : 'Awaiting draw'}</small>`;
+  const team = (s, i) => `<span class="mr-t ${s}">${crest(k, i)}<span class="mr-n">${i == null ? 'TBD' : `${s === 'a' ? star(k, i) : ''}${esc(nm(k, i))}${s === 'h' ? star(k, i) : ''}`}${f.live ? reds(f.live.rc[s === 'h' ? 0 : 1]) : ''}</span></span>`;
+  const cap = [motw ? `<span class="cap-motw">${motw}</span>` : '', hasFav(k, f) ? '<span class="cap-fav">★ Your club</span>' : '',
+    cup ? esc(f.round) + (f.round.startsWith('Semi') ? '' : ` ${f.tie}`) : '', f.moved && !f.played ? 'Rescheduled' : ''].filter(Boolean).join('<i>·</i>');
+  return `<article ${tc} data-fx="${k}:${f.id}" class="match mrow ${f.live ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''} ${motw ? 'is-motw' : ''} ${f.postponed ? 'is-pp' : ''} ${fin ? 'is-fin' : ''}">
+    ${cap ? `<div class="mr-cap">${cap}</div>` : ''}
+    <div class="mr" ${rated || fin ? `role="button" tabindex="0" data-open="${f.id}" aria-label="Open ${esc(full(k, f.h))} v ${esc(full(k, f.a))}"` : ''}>
+      ${team('h', f.h)}${side('h')}<span class="mr-c">${mid}${canEnter ? `<button class="enter" data-enter="${f.id}">${fin ? 'Edit' : f.live ? 'Update' : 'Enter score'}</button>` : ''}</span>${side('a')}${team('a', f.a)}</div>
+    ${liveCtl}${foot ? `<div class="m-foot">${foot}</div>` : ''}${heartRow(k, f)}${drawUI}
+    ${canEnter ? `
     <div class="entry" id="entry-${f.id}" hidden>
       <input inputmode="numeric" aria-label="${esc(full(k, f.h))} goals" value="${fin ? f.hs : f.live ? f.live.h : ''}" id="hs-${f.id}"><span>–</span>
       <input inputmode="numeric" aria-label="${esc(full(k, f.a))} goals" value="${fin ? f.as : f.live ? f.live.a : ''}" id="as-${f.id}">
@@ -517,6 +506,28 @@ ${probs}${liveCtl}
       ${fin ? '' : `<div class="st-row">${f.postponed ? `<button class="btn ghost" data-unpp="${f.id}">Not postponed</button>` : `<button class="btn ghost" data-pp="${f.id}">Mark postponed</button>`}
         <span class="mv">New date <input type="date" id="nd-${f.id}" value="${f.moved ? f.date : ''}"> <input type="time" id="nt-${f.id}" value="${f.moved && f.kt ? new Date(f.kt).toTimeString().slice(0, 5) : ''}"> <button class="btn ghost" data-move="${f.id}">Reschedule</button></span></div>`}` : ''}</div>` : ''}
   </article>`;
+}
+// A round's matches in one grouped panel, with a date line each time the day changes.
+function matchList(k, list, m, label) {
+  let last = '', out = '';
+  for (const f of list) { const d = f.postponed ? 'Postponed' : fmtDateK(f, {weekday:'long', month:'short', day:'numeric'}); if (d !== last) { out += `${last ? '</div>' : ''}<div class="mdate">${esc(d)}</div><div class="mday">`; last = d; } out += matchCard(k, f, m && m.id === f.id ? label : ''); }
+  return `<div class="mlist">${out}${last ? '</div>' : ''}</div>`;
+}
+// Read-only row for lists that span competitions (Home): the competition as the caption, tap to open the match in its competition.
+function feedRow(k, f, extra) {
+  const L = f.live, rated = f.pH != null, P = L || f;
+  const team = (sd, i) => `<span class="mr-t ${sd}">${crest(k, i, 34)}<span class="mr-n">${sd === 'a' ? star(k, i) : ''}${esc(nm(k, i))}${sd === 'h' ? star(k, i) : ''}${L ? reds(L.rc[sd === 'h' ? 0 : 1]) : ''}</span></span>`;
+  const v = sd => L ? `<span class="mr-v sc num">${sd === 'h' ? L.h : L.a}</span>` : `<span class="mr-v num">${rated ? pct(sd === 'h' ? P.pH : P.pA) : ''}</span>`;
+  const mid = L ? `<b class="mr-live num"><span class="live-dot"></span>${liveLabel(k, f)}</b><small>Draw ${pct(L.pD)}</small>`
+    : `<b class="num ${isPast(f) ? 'past' : ''}">${f.kt ? fmtTime(f.kt) : 'TBC'}</b><small>${rated ? 'Draw ' + pct(f.pD) : ''}</small>`;
+  return `<article class="match mrow feed ${hasFav(k, f) ? 'is-fav' : ''} ${L ? 'is-live' : ''} ${extra && extra.motd ? 'is-motw' : ''}" data-fx="${k}:${f.id}">
+    <div class="mr-cap"><span style="color:${DOT[k]}">${esc(COMPS_CFG[k].name)}</span>${extra && extra.cap ? `<i>·</i>${extra.cap}` : ''}</div>
+    <div class="mr" role="button" tabindex="0" data-go="${k}:${f.id}" aria-label="Open ${esc(full(k, f.h))} v ${esc(full(k, f.a))}">${team('h', f.h)}${v('h')}<span class="mr-c">${mid}</span>${v('a')}${team('a', f.a)}</div></article>`;
+}
+function feedList(items, capFn, byDate) {
+  let last = '', out = '';
+  for (const x of items) { const d = byDate ? fmtDateK(x.f, {weekday:'long', month:'short', day:'numeric'}) : '-'; if (d !== last) { out += `${last ? '</div>' : ''}${byDate ? `<div class="mdate">${esc(d)}</div>` : ''}<div class="mday">`; last = d; } out += feedRow(x.k, x.f, capFn ? capFn(x) : null); }
+  return `<div class="mlist">${out}${last ? '</div>' : ''}</div>`;
 }
 function drawPicker(k, f) {
   const r = R[k], taken = new Set(r.fx.filter(x => x.round === f.round && x.id !== f.id).flatMap(x => [x.h, x.a]).filter(x => x != null));
@@ -536,7 +547,7 @@ function viewWeek(k) {
       <div><div class="mw-title">${esc(COMPS_CFG[k].round)} ${mw}</div><div class="mw-dates">${dates.length ? fmtDate(dates[0], {month:'long', day:'numeric'}) + (dates[0] !== dates[dates.length - 1] ? ' to ' + fmtDate(dates[dates.length - 1], {month:'long', day:'numeric'}) : '') : ''}</div></div>
       <div class="mw-nav"><button data-step="-1" aria-label="Previous" ${i <= 0 ? 'disabled' : ''}>‹</button><button data-step="1" aria-label="Next" ${i >= rounds.length - 1 ? 'disabled' : ''}>›</button></div></div>
     ${k === 'unl' ? leagueSeg() : ''}
-    <div class="matches">${(() => { const m = motwFor(k, list); return list.map(f => matchCard(k, f, m && m.id === f.id ? 'Match of the week' : '')).join(''); })()}</div>
+    ${matchList(k, list, motwFor(k, list), 'Match of the week')}
     <p class="note">Match of the week blends importance with how evenly matched the sides are; it's fixed once the round's first match kicks off. Tap a match for the full scoreline grid.</p></section>`;
 }
 function zoneColor(k, pos) { const c = COMP[k].cfg.colors.find(([a, b]) => pos >= a && pos <= b); return c ? c[2] : 'transparent'; }
@@ -726,6 +737,7 @@ function viewNations() {
 // A World Cup nation outside the Nations League: Affinity breakdown only.
 function openNation(j) {
   const t = EXTRA.teams[j];
+  $('#sheet').style.cssText = '';
   $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(t.confed)}${wcOf(t.name) ? ` · World Cup 2026: ${esc(wcOf(t.name))}` : ''}</div>
       <h2 style="margin-top:4px"><i class="tchip" style="--tc:${t.color}"></i>${esc(t.name)}</h2></div><button class="close" aria-label="Close" id="close">✕</button></div>
     ${affBreakdown('unl', t)}<p class="note">Not in the Nations League, so there are no matches or ratings to show.</p>`;
@@ -879,10 +891,10 @@ function viewPicks(k) {
 const CUP_ROUNDS = ['Preliminary round', 'First round', 'Second round', 'Third round', 'Fourth round', 'Quarter-final', 'Semi-finals', 'Final'];
 function cupRounds(k) {
   const r = R[k], rd = state.mw[k] && state.mw[k].startsWith('Semi') ? 'Semi-finals' : state.mw[k], i = CUP_ROUNDS.indexOf(rd);
-  const list = r.fx.filter(f => rd === 'Semi-finals' ? f.round.startsWith('Semi') : f.round === rd).sort((a, b) => a.tie - b.tie || a.t - b.t);
+  const list = r.fx.filter(f => rd === 'Semi-finals' ? f.round.startsWith('Semi') : f.round === rd).sort((a, b) => (a.sortT || 0) - (b.sortT || 0) || a.tie - b.tie || a.t - b.t);
   return `<section class="section"><div class="mw-head"><div><div class="mw-title">${esc(rd)}</div><div class="mw-dates">${list.length} tie${list.length === 1 ? '' : 's'}${list[0] ? ', ' + fmtDate(list[0].date, {month:'long', day:'numeric'}) : ''}</div></div>
     <div class="mw-nav"><button data-cstep="-1" aria-label="Previous round" ${i <= 0 ? 'disabled' : ''}>‹</button><button data-cstep="1" aria-label="Next round" ${i >= CUP_ROUNDS.length - 1 ? 'disabled' : ''}>›</button></div></div>
-    <div class="matches">${(() => { const m = motwFor(k, list.filter(f => !f.round.endsWith('leg 1'))); return list.map(f => matchCard(k, f, m && m.id === f.id ? 'Tie of the round' : '')).join(''); })()}</div>
+    ${matchList(k, list, motwFor(k, list.filter(f => !f.round.endsWith('leg 1'))), 'Tie of the round')}
     <p class="note">Ties level after 90 minutes go straight to penalties (the final has extra time first): enter the 90-minute score and pick the shootout winner. After each draw, set the pairings on the next round.</p></section>`;
 }
 function cupLeft(k) {
@@ -928,7 +940,7 @@ const kickedOff = () => { const now = Date.now(); return ORDER.filter(k => R[k])
 function viewLive() {
   const byTime = (a, b) => (a.f.kt || 0) - (b.f.kt || 0) || ORDER.indexOf(a.k) - ORDER.indexOf(b.k);
   const live = liveNow().sort(byTime), ko = kickedOff().sort(byTime);
-  const cards = list => `<div class="matches live-list">${list.map(({k, f}) => liveCard(k, f)).join('')}</div>`;
+  const cards = list => `<div class="mlist live-list"><div class="mday">${list.map(({k, f}) => liveCard(k, f)).join('')}</div></div>`;
   if (!ORDER.every(k => R[k])) return '<div class="loading">Crunching the numbers…</div>';
   if (!live.length && !ko.length) {
     const next = ORDER.flatMap(k => R[k].fx.filter(f => !f.played && !f.postponed && f.kt && f.kt > Date.now() && f.h != null && f.a != null).map(f => ({k, f}))).sort(byTime).slice(0, 5);
@@ -954,10 +966,6 @@ function viewHome() {
     .sort((a, b) => a.f.sortT - b.f.sortT || ORDER.indexOf(a.k) - ORDER.indexOf(b.k));
   const motd = {}; for (const {k, f} of feed) { const d = fmtDateK(f); if (f.importance !== undefined && (!motd[d] || headline(f) > headline(motd[d].f))) motd[d] = {k, f}; }
   const isMotd = (k, f) => { const m = motd[fmtDateK(f)]; return m && m.k === k && m.f.id === f.id; };
-  const row = ({k, f}, bigMode) => `<div class="feed-row ${hasFav(k, f) ? 'fav-feed' : ''} ${!bigMode && isMotd(k, f) ? 'motd' : ''}" ${!bigMode && isMotd(k, f) ? 'title="Match of the day"' : ''} data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
-    <span class="d ${!bigMode && isPast(f) ? 'past' : ''}">${bigMode ? fmtDateK(f) : whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
-    <span class="m">${star(k, f.h)}${esc(nm(k, f.h))} v ${esc(nm(k, f.a))}${star(k, f.a)}${bigMode && f.mattersTo != null ? ` <span style="color:var(--muted);font-weight:500">· matters most to ${esc(nm(k, f.mattersTo))}</span>` : ''}</span>
-    <span class="p num"></span><span class="imp">${f.importance !== undefined ? `<span class="imp-track"><span class="imp-fill" style="width:${f.importance * 100}%"></span></span>` : ''}</span></div>`;
   const byClub = {};
   for (const k of ORDER.filter(c => R[c])) for (const i of (state.favs[k] || [])) {
     const name = T(k)[i].name, e = byClub[name] = byClub[name] || {name, comps:new Set(), best:null};
@@ -967,25 +975,19 @@ function viewHome() {
   }
   const mine = Object.values(byClub).filter(e => e.best).map(e => Object.assign({}, e.best, {also:[...e.comps].filter(c => c !== e.best.k)})).sort((a, b) => a.f.sortT - b.f.sortT);
   const yours = `<section class="section"><h2>Your clubs</h2><p class="sub">${mine.length ? 'The very next match for each club you follow, whichever competition it\'s in. Following a club in one competition follows it everywhere it plays.' : 'Follow clubs from any club card (tap a club name) or a competition\'s Settings tab, and their next matches show up here.'}</p>
-    ${mine.length ? `<div class="card" style="margin-top:12px">${mine.map(({k, i, f, also}) => `<div class="feed-row fav-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
-      <span class="d ${isPast(f) ? 'past' : ''}">${whenLabel(f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
-      <span class="m">★ ${esc(nm(k, i))} ${f.h === i ? 'v' : 'at'} ${esc(nm(k, f.h === i ? f.a : f.h))}${also.length ? `<small class="also">Also following in ${also.map(c => esc(COMPS_CFG[c].name)).join(', ')}</small>` : ''}</span>
-      <span class="p num"></span><span class="imp">${f.importance !== undefined ? `<span class="imp-track"><span class="imp-fill" style="width:${f.importance * 100}%"></span></span>` : ''}</span></div>`).join('')}</div>` : ''}</section>`;
+    ${mine.length ? feedList(mine, x => x.also.length ? {cap:`also following in ${x.also.map(c => esc(COMPS_CFG[c].name)).join(', ')}`} : null, true) : ''}</section>`;
   const lives = ORDER.filter(k => R[k]).flatMap(k => R[k].fx.filter(f => f.live).map(f => ({k, f})));
   const liveSec = lives.length ? `<section class="section"><h2><span class="live-dot"></span>Live now</h2><p class="sub">Matches you've marked in progress, with live win chances.</p>
-    <div class="card" style="margin-top:12px">${lives.map(({k, f}) => `<div class="feed-row live-feed" data-go="${k}:${f.id}" role="button" tabindex="0" style="--c:${DOT[k]}">
-      <span class="d">${liveLabel(k, f)}</span><span class="c">${esc(COMPS_CFG[k].name)}</span>
-      <span class="m">${star(k, f.h)}${esc(nm(k, f.h))}${reds(f.live.rc[0])} <b class="num">${f.live.h}–${f.live.a}</b> ${reds(f.live.rc[1])}${esc(nm(k, f.a))}${star(k, f.a)} <span style="color:var(--muted);font-weight:500">· ${pct(f.live.pH)} / ${pct(f.live.pD)} / ${pct(f.live.pA)}</span></span>
-      <span class="p num"></span><span class="imp"></span></div>`).join('')}</div></section>` : '';
+    ${feedList(lives)}</section>` : '';
   return `${liveSec}${yours}
-    <section class="section"><h2>What's next</h2><p class="sub">The next 20 unplayed matches everywhere. The highlighted row is each day's match of the day: the best blend of what's at stake and how evenly matched the sides are. Greyed dates have passed: enter those results in their competition.</p>
-      <div class="card" style="margin-top:12px">${feed.map(x => row(x)).join('') || '<div class="loading">Crunching…</div>'}</div></section>
+    <section class="section"><h2>What's next</h2><p class="sub">The next 20 unplayed matches everywhere. Each day's match of the day is marked in gold: the best blend of what's at stake and how evenly matched the sides are. Dimmed kickoff times have passed: enter those results in their competition.</p>
+      ${feed.length ? feedList(feed, x => isMotd(x.k, x.f) ? {motd:true, cap:'<span class="cap-motw">Match of the day</span>'} : null, true) : '<div class="loading">Crunching…</div>'}</section>
     <section class="section"><h2>Competitions</h2><p class="sub">Tap one to open it.</p><div class="tiles">${tiles}</div></section>
     <section class="section"><div class="sec-head"><h2>Affinity ranking</h2><button class="linkish" data-view="rank">All ${rankList().length} →</button></div><p class="sub">Your top 10 across every competition, coloured by league.</p>
       <div class="card rank" style="margin-top:12px">${rankList().slice(0, 10).map((e, n) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${n + 1}</span>
       <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}</small></span><span></span><span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>
     <section class="section"><h2>Biggest match left in each competition</h2><p class="sub">The most important match left in each competition, soonest first.</p>
-      <div class="card" style="margin-top:12px">${big.map(x => row(x, true)).join('')}</div></section>`;
+      ${feedList(big, x => ({cap:`${esc(fmtDateK(x.f))}${x.f.mattersTo != null ? ` · matters most to ${esc(nm(x.k, x.f.mattersTo))}` : ''}`}))}</section>`;
 }
 
 
@@ -1029,27 +1031,38 @@ function openDetail(k, id) {
   let heat = `<div class="ax"></div>${[0, 1, 2, 3, 4, 5].map(a => `<div class="ax">${a}</div>`).join('')}`;
   for (let h = 0; h <= 5; h++) { heat += `<div class="ax">${h}</div>`; for (let a = 0; a <= 5; a++) { const p = f.g[h][a], al = 0.08 + 0.85 * p / mx;
     const cls = (f.pred && f.pred[0] === h && f.pred[1] === a ? ' pred' : '');
-    heat += `<div class="c${cls}" style="background:color-mix(in srgb, var(--head) ${Math.round(al * 100)}%, transparent);color:${al > 0.5 ? '#fff' : 'var(--ink)'}">${(p * 100).toFixed(1)}</div>`; } }
+    heat += `<div class="c${cls}" style="background:color-mix(in srgb, #0A84FF ${Math.round(al * 100)}%, transparent);color:#fff">${(p * 100).toFixed(1)}</div>`; } }
   const zones = COMP[k].cfg && COMP[k].cfg.zones ? COMP[k].cfg.zones.filter(z => z.w) : [];
-  const zoneRows = side => f.imp ? zones.map(z => `<div class="kv"><span>${esc(z.label)}</span><b class="num">${(f.imp[side].parts[z.key] * 100).toFixed(0)}-point swing</b></div>`).join('') : '';
-  $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(COMPS_CFG[k].name)} · ${fmtDateK(f, {weekday:'long', month:'long', day:'numeric'})}${f.played ? '' : ' · ' + (f.kt ? fmtTime(f.kt) + ' your time' : 'time TBC')}</div>
-      <h2 style="margin-top:4px">${esc(full(k, f.h))} v ${esc(full(k, f.a))}</h2></div><button class="close" aria-label="Close" id="close">✕</button></div>
-    ${f.played ? '' : `<div class="tv" style="margin-top:8px">Watch: ${esc(tvLabel(k))}</div>`}
-    ${f.live ? `<div class="why" style="border-left-color:#E5484D"><h4><span class="live-dot"></span>Live: ${esc(nm(k, f.h))} ${f.live.h}–${f.live.a} ${esc(nm(k, f.a))}, ${liveLabel(k, f)}</h4>
-      <p>Win chances now: <b>${esc(nm(k, f.h))} ${pct(f.live.pH)}</b>, draw ${pct(f.live.pD)}, <b>${esc(nm(k, f.a))} ${pct(f.live.pA)}</b> (before kickoff: ${pct(f.pH)} / ${pct(f.pD)} / ${pct(f.pA)}). Expected goals still to come: ${f.live.rh.toFixed(2)} and ${f.live.ra.toFixed(2)}.</p>
-</div>` : ''}
-    ${!f.played && (f.imp || f.rawH != null) ? `<div class="why"><h4>Why it matters</h4>${narrative(k, f)}</div>` : ''}
-    ${f.g ? `<div class="stat-tiles">
-      <div class="st"><span class="sv num">${pct((f.live || f).pH)}</span><span class="sl">${esc(nm(k, f.h))} win${f.live ? ' · live' : ''}</span></div>
-      <div class="st"><span class="sv num">${pct((f.live || f).pD)}</span><span class="sl">Draw</span></div>
-      <div class="st"><span class="sv num">${pct((f.live || f).pA)}</span><span class="sl">${esc(nm(k, f.a))} win</span></div>
-      <div class="st"><span class="sv num">${f.lh.toFixed(2)}<small> – </small>${f.la.toFixed(2)}</span><span class="sl">Expected goals</span></div>
-      ${f.importance !== undefined ? `<div class="st"><span class="sv num">${f.importance.toFixed(2)}</span><span class="sl">Importance</span></div>` : ''}</div>` : ''}
-    <div class="two"><div><h4>Scoreline chances (%)</h4><div class="sub" style="margin:0">Home goals down, away across. Outlined = most likely score.</div><div class="heat num">${heat}</div></div>
-      <div><h4>Expected goals</h4><div class="kv"><span>${esc(nm(k, f.h))}</span><b class="num">${f.lh.toFixed(2)}</b></div><div class="kv"><span>${esc(nm(k, f.a))}</span><b class="num">${f.la.toFixed(2)}</b></div>
-      ${f.advH != null ? `<div class="kv"><span>${esc(nm(k, f.h))} goes through</span><b class="num">${pct(f.advH)}</b></div>` : ''}</div></div>
-    ${f.imp ? `<div class="two"><div><h4>What ${esc(nm(k, f.h))} has riding on it</h4><div class="sub" style="margin:0 0 4px">Change in odds between winning and losing</div>${zoneRows('h')}</div><div><h4>What ${esc(nm(k, f.a))} has riding on it</h4><div class="sub" style="margin:0 0 4px">Change in odds between winning and losing</div>${zoneRows('a')}</div></div>` : ''}
-    `;
+  const t = i => T(k)[i], P = f.live || f, fin = f.played, cup = COMPS_CFG[k].cup;
+  // Head-to-head bar, Apple Sports style: the two numbers either side of the label, one bar split in the club colours.
+  const sbar = (label, a, b, fmt) => `<div class="srow"><div class="sl"><b class="num">${fmt(a)}</b><span>${label}</span><b class="num">${fmt(b)}</b></div>
+    <div class="sb"><i style="flex:${a + b > 0 ? Math.round(1000 * a / (a + b)) : 1} 1 0"></i><i style="flex:${a + b > 0 ? Math.round(1000 * b / (a + b)) : 1} 1 0"></i></div></div>`;
+  const sc = s => fin ? (s === 'h' ? f.hs : f.as) : f.live ? (s === 'h' ? f.live.h : f.live.a) : '';
+  const lose = s => fin && (s === 'h' ? f.hs < f.as || (f.hs === f.as && f.pens != null && f.pens !== f.h) : f.as < f.hs || (f.hs === f.as && f.pens != null && f.pens !== f.a));
+  const status = f.live ? `<b class="hero-live"><span class="live-dot"></span>${liveLabel(k, f)}</b>` : fin ? `<b>Final</b>${f.pens != null && f.hs === f.as ? `<small>${esc(nm(k, f.pens))} on pens</small>` : f.awarded ? '<small>Awarded</small>' : ''}`
+    : `<b class="num">${f.kt ? fmtTime(f.kt) : 'TBC'}</b>`;
+  const side = s => { const i = s === 'h' ? f.h : f.a, w = cup && f.advH != null ? (s === 'h' ? f.advH : 1 - f.advH) : (s === 'h' ? P.pH : P.pA);
+    return `<div class="hero-team">${fin || f.live ? `<span class="hero-s num ${lose(s) ? 'lose' : ''}">${sc(s)}</span>` : ''}${crest(k, i, 64)}<b>${esc(nm(k, i))}${f.live ? reds(f.live.rc[s === 'h' ? 0 : 1]) : ''}</b>${w != null ? `<small class="num">${pct(w)} ${cup && f.advH != null ? 'to go through' : 'win'}</small>` : ''}</div>`; };
+  $('#sheet').style.cssText = `--hc:${t(f.h).color || '#8E8E93'};--ac:${t(f.a).color || '#8E8E93'}`;
+  $('#sheet').innerHTML = `<div class="hero">
+      <div class="hero-top"><span>${esc(COMPS_CFG[k].name)}</span><button class="close" aria-label="Close" id="close">✕</button></div>
+      <div class="hero-date">${fmtDateK(f, {weekday:'long', month:'long', day:'numeric'})}</div>
+      <div class="hero-grid">${side('h')}<div class="hero-mid">${status}</div>${side('a')}</div>
+      ${fin ? '' : `<div class="hero-tv">Watch on ${esc(tvLabel(k))}</div>`}</div>
+    <div class="sheet-body">
+    ${f.live ? `<div class="why live"><h4><span class="live-dot"></span>Live, ${liveLabel(k, f)}</h4>
+      <p>Before kickoff it was ${pct(f.pH)} / ${pct(f.pD)} / ${pct(f.pA)}. Expected goals still to come: ${f.live.rh.toFixed(2)} and ${f.live.ra.toFixed(2)}.</p></div>` : ''}
+    ${!fin && (f.imp || f.rawH != null) ? `<div class="why"><h4>Why it matters</h4>${narrative(k, f)}</div>` : ''}
+    <div class="scard"><h4>${fin ? 'Before kickoff' : 'Match odds'}</h4>
+      ${sbar(fin ? 'Win chance' : 'Win chance' + (f.live ? ' (live)' : ''), (fin ? f : P).pH, (fin ? f : P).pA, pct)}
+      <div class="sdraw num">Draw ${pct((fin ? f : P).pD)}</div>
+      ${sbar('Expected goals', f.lh, f.la, v => v.toFixed(2))}
+      ${f.advH != null ? sbar('Goes through', f.advH, 1 - f.advH, pct) : ''}
+      ${f.importance !== undefined ? `<div class="sdraw num">Importance ${f.importance.toFixed(2)}</div>` : ''}</div>
+    ${f.imp && zones.length ? `<div class="scard"><h4>What's riding on it</h4><p class="sub" style="margin:-4px 0 6px">Change in each club's odds between winning and losing.</p>
+      ${zones.map(z => sbar(esc(z.label), f.imp.h.parts[z.key] || 0, f.imp.a.parts[z.key] || 0, v => (v * 100).toFixed(0))).join('')}</div>` : ''}
+    <div class="scard"><h4>Scoreline chances (%)</h4><div class="sub" style="margin:0">${esc(nm(k, f.h))} goals down, ${esc(nm(k, f.a))} across. Outlined = most likely score.</div><div class="heat num">${heat}</div></div>
+    </div>`;
   if (!$('#detail').open) $('#detail').showModal(); $('#close').onclick = () => $('#detail').close();
 }
 
@@ -1120,14 +1133,15 @@ function openClub(k, i) {
       ${r.alive.includes(i) ? `<div><div class="k">Win the cup</div><div class="v">${pct(o.win)}</div></div><div><div class="k">Reach final</div><div class="v">${pct(o.final)}</div></div>` : ''}
       <div><div class="k">Affinity</div><div class="v">${fmtA(t.base + t.bonus)}</div></div></div>`;
   }
-  $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(COMPS_CFG[k].name)}${t.group ? ' · ' + (k === 'mls' ? esc(t.group) + 'ern Conference' : 'Group ' + esc(t.group)) : ''}</div>
-      <h2 style="margin-top:4px">${tchip(k, i)}${esc(t.name)}</h2>
-      <div class="club-meta">${form ? `<div class="form-row">Form ${form}</div>` : '<span></span>'}<button class="follow ${isFav(k, i) ? 'on' : ''}" ${t.color ? `style="--fc:${t.color}"` : ''} data-fk="${k}" data-follow="${i}">${isFav(k, i) ? '★ Following' : '☆ Follow'}</button></div></div><button class="close" aria-label="Close" id="close">✕</button></div>
-    ${stats}
+  $('#sheet').style.cssText = `--hc:${t.color || '#8E8E93'};--ac:${t.color || '#8E8E93'}`;
+  $('#sheet').innerHTML = `<div class="hero club"><div class="hero-top"><span>${esc(COMPS_CFG[k].name)}${t.group ? ' · ' + (k === 'mls' ? esc(t.group) + 'ern Conference' : 'Group ' + esc(t.group)) : ''}</span><button class="close" aria-label="Close" id="close">✕</button></div>
+      <div class="club-hero">${crest(k, i, 72)}<h2>${esc(t.name)}</h2>
+      <div class="club-meta">${form ? `<div class="form-row">${form}</div>` : ''}<button class="follow ${isFav(k, i) ? 'on' : ''}" data-fk="${k}" data-follow="${i}">${isFav(k, i) ? '★ Following' : '☆ Follow'}</button></div></div></div>
+    <div class="sheet-pad">${stats}
     ${t.hai ? affBreakdown(k, t) : ''}
     <h4 style="margin-top:18px">Upcoming (${up.length})</h4>
     ${up.length ? `<div class="cf-head"><span>Date</span><span>Opponent</span><span>Win · Draw · Loss</span><span></span><span>Importance</span></div><p class="note" style="margin:6px 0 0">Scores are shown with ${esc(t.short || t.name)} first.</p>${up.map(rowUp).join('')}` : '<p class="note">No fixtures left.</p>'}
-    ${done.length ? `<h4 style="margin-top:18px">Results (${done.length})</h4>${done.slice().reverse().map(rowDone).join('')}` : ''}`;
+    ${done.length ? `<h4 style="margin-top:18px">Results (${done.length})</h4>${done.slice().reverse().map(rowDone).join('')}` : ''}</div>`;
   if (!$('#detail').open) $('#detail').showModal(); $('#close').onclick = () => $('#detail').close();
 }
 

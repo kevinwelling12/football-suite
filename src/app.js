@@ -170,8 +170,13 @@ function computeAll() {
 }
 // Re-render for a background change (worker result, cloud sync, clock tick) without disturbing the reader:
 // the first card on screen stays put, and an open score entry keeps its typed values and focus.
+// Background changes arrive in bursts (twelve simulations finishing at start-up), so they're batched: one redraw per burst.
+let bgTimer = 0;
 function bgRender(k) {
   if (k && state.view !== k && !isHub(state.view)) { renderStatus(); return; }
+  if (!bgTimer) bgTimer = setTimeout(() => { bgTimer = 0; bgRenderNow(); }, 250);
+}
+function bgRenderNow() {
   const open = [...document.querySelectorAll('#main .entry:not([hidden])')];
   const vals = open.flatMap(e => [...e.querySelectorAll('input[id],select[id]')]).map(x => [x.id, x.type === 'checkbox' ? x.checked : x.value]);
   const foc = document.activeElement && document.activeElement.id;
@@ -350,8 +355,36 @@ function render() {
   else if (!R[k]) html = '<div class="loading">Crunching the numbers…</div>';
   else if (COMPS_CFG[k].cup) html = {week:cupRounds, table:cupLeft, races:cupRaces, clubs:viewClubs, picks:viewPicks, settings:viewSettings}[state.tab[k]](k);
   else html = {week:viewWeek, table:viewTable, races:viewRaces, clubs:viewClubs, picks:viewPicks, settings:viewSettings, bracket:viewBracket}[state.tab[k]](k);
-  $('#main').innerHTML = html;
+  if (html !== lastHtml) { morph($('#main'), html); lastHtml = html; }
   if (anchor) { holdAnchor(anchor); const a = anchor; anchor = null; requestAnimationFrame(() => holdAnchor(a)); }
+}
+// Patch the page in place rather than replacing it: unchanged rows, logos and images keep their DOM nodes,
+// so a background update (a simulation finishing, a sync, the live clock) doesn't redraw or reload them.
+let lastHtml = null;
+function morph(el, html) { const t = document.createElement('template'); t.innerHTML = html; morphKids(el, t.content); }
+// Children are paired by position, except match rows, which pair by their match (data-fx) so a list that gains or
+// loses a row in the middle moves the existing rows instead of rewriting every row below.
+function morphKids(a, b) {
+  const keyOf = n => n.nodeType === 1 ? n.getAttribute('data-fx') : null;
+  const pool = new Map(); for (const x of a.childNodes) { const k = keyOf(x); if (k) pool.set(k, x); }
+  let cur = a.firstChild;
+  for (const y of [...b.childNodes]) {
+    const k = keyOf(y), x = k ? pool.get(k) : cur && !keyOf(cur) ? cur : null;
+    if (!x) { a.insertBefore(y, cur); continue; }
+    if (k) pool.delete(k);
+    if (x === cur) cur = cur.nextSibling; else a.insertBefore(x, cur);
+    morphNode(a, x, y);
+  }
+  while (cur) { const n = cur.nextSibling; cur.remove(); cur = n; }
+}
+function morphNode(parent, x, y) {
+  // A different kind of node, or a changed form field (its typed value lives outside the markup): swap it whole.
+  if (x.nodeType !== y.nodeType || x.nodeName !== y.nodeName || (/^(INPUT|SELECT|TEXTAREA)$/.test(x.nodeName) && !x.isEqualNode(y))) { parent.replaceChild(y, x); return; }
+  if (x.nodeType !== 1) { if (x.nodeValue !== y.nodeValue) x.nodeValue = y.nodeValue; return; }
+  if (x.isEqualNode(y)) return;
+  for (const {name} of [...x.attributes]) if (!y.hasAttribute(name) && !(name === 'open' && x.nodeName === 'DETAILS')) x.removeAttribute(name);
+  for (const {name, value} of [...y.attributes]) if (x.getAttribute(name) !== value) x.setAttribute(name, value);
+  morphKids(x, y);
 }
 // Keep the match card you just tapped at the same spot on screen after a re-render,
 // so saving or updating a score doesn't make the page jump.
@@ -376,7 +409,7 @@ const tvLabel = k => DATA[k].tv + (k === 'epl' ? ' (channel announced weekly)' :
 const inkOn = hex => { const n = parseInt((hex || '#48484A').slice(1), 16), [r, g, b] = [n >> 16, n >> 8 & 255, n & 255].map(v => (v /= 255) <= 0.04 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4); return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.36 ? '#000' : '#fff'; };
 const logoFor = (name, k) => (LOGOS[k] || {})[name] || LOGOS.flags[name] || Object.values(LOGOS).map(m => m[name]).find(Boolean);
 // A logo that fails to load falls back to the colour disc with the short code.
-const logoImg = (src, cls) => `<img class="${cls}" src="${src}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('nologo');this.remove()">`;
+const logoImg = (src, cls) => `<img class="${cls}" src="${src}" alt="" decoding="async" onerror="this.parentNode.classList.add('nologo');this.remove()">`;
 const crest = (k, i, size) => { if (i == null) return `<i class="crest tbd" style="--cs:${size || 40}px">?</i>`; const t = T(k)[i], c = t.color || '#48484A', a = t.abbr || (t.short || t.name).replace(/[^A-Za-z]/g, '').slice(0, 3).toUpperCase(), lg = logoFor(t.name, k);
   return `<i class="crest${lg ? ' has-logo' + (LOGOS.flags[t.name] ? ' flag' : '') : ''}${isFav(k, i) ? ' fav' : ''}" style="--cs:${size || 40}px;--tc:${c};--ti:${inkOn(c)}" aria-hidden="true"><span>${esc(a)}</span>${lg ? logoImg(lg, 'cl') : ''}</i>`; };
 // Small logo (or colour dot) before a name in tables and lists.

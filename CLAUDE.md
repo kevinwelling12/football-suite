@@ -30,6 +30,10 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 - `python3 scripts/build.py --claude` builds the claude.ai artifact version (no external scripts;
   uses window.claude.use('db')). Both backends share docFor()/applyDoc() in app.js.
 - localStorage (`football-suite-2627`) is always kept as a local cache/fallback.
+- Service worker (src/sw.js, web build only, https only): images cache-first under a version hashed from the image
+  files (build.py), the page network-first with an offline fallback.
+- Rendering: render() patches #main in place (morph(), match rows keyed by data-fx) instead of replacing it, and
+  background updates are batched (bgRender, 250 ms). Keep panels free of backdrop-filter: it made scrolling lag on iPhone.
 - One-time account setup steps: docs/firebase-setup.md.
 
 ## Working agreements (Kevin's preferences, learned over many sessions)

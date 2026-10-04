@@ -22,7 +22,8 @@ if not claude:
                   for m in ('app', 'auth', 'firestore'))
     seed = {p.stem: json.loads(p.read_text()) for p in sorted((root / 'user-data').glob('*.json'))}
     head = (sdk + '<script>' + (src / 'firebase-config.js').read_text() + '</script>\n'
-            + '<script>window.SEED = ' + json.dumps(seed, ensure_ascii=False, separators=(',', ':')) + ';</script>')
+            + '<script>window.SEED = ' + json.dumps(seed, ensure_ascii=False, separators=(',', ':')) + ';</script>\n'
+            + "<script>if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});</script>")
 # Icons: the web build links files copied next to the page (iOS needs a real apple-touch-icon file);
 # the claude.ai build inlines the small favicon.
 icons = src / 'icons'
@@ -45,4 +46,9 @@ if not claude:
     import shutil
     for f in ('icon.svg', 'favicon-32.png', 'apple-touch-icon.png'): shutil.copyfile(icons / f, dest.parent / f)
     shutil.copytree(src / 'logos', dest.parent / 'logos', dirs_exist_ok=True)
+    # Service worker: its cache version is a hash of every image it serves, so new or fixed logos replace old copies.
+    import hashlib
+    h = hashlib.sha1()
+    for f in sorted([*(src / 'logos').rglob('*.png'), *icons.glob('*')]): h.update(f.name.encode()); h.update(f.read_bytes())
+    (dest.parent / 'sw.js').write_text((src / 'sw.js').read_text().replace('__VERSION__', h.hexdigest()[:12]))
 print(f'wrote {dest.relative_to(root)} ({len(out):,} bytes)')

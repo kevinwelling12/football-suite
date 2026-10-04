@@ -532,3 +532,19 @@ dialog::backdrop{background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);bac
 .mrow.feed .mr-v{margin-top:6px;font-size:15.5px}
 .mrow.feed .mr-v.sc{margin-top:0;font-size:30px}
 .mrow.feed .mr-c b{font-size:17px}
+
+/* club logos and national flags (fall back to the colour disc if a file fails) */
+.crest > *{grid-area:1/1}
+.crest.has-logo:not(.nologo){background:none;box-shadow:none}
+.crest.has-logo:not(.nologo) > span{visibility:hidden}
+.crest img.cl{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 2px 5px rgba(0,0,0,.45))}
+.crest.flag img.cl{border-radius:50%;object-fit:cover;filter:none;box-shadow:inset 0 0 0 1px rgba(255,255,255,.2), 0 3px 10px -4px rgba(0,0,0,.7)}
+.crest.flag:not(.nologo){box-shadow:0 0 0 1.5px rgba(255,255,255,.18)}
+.tchip.has-logo{display:inline-grid;place-items:center;width:20px;height:20px;background:none;box-shadow:none;vertical-align:-.3em;margin:0 8px 0 0}
+.tchip.has-logo.nologo{width:11px;height:11px;background:var(--tc)}
+.tchip img.tl{width:100%;height:100%;object-fit:contain}
+.tchip.flag img.tl{width:18px;height:18px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1px rgba(255,255,255,.2)}
+.rank-row .who .club-link,.bar-row .t{display:inline-flex;align-items:center;max-width:100%}
+.bar-row .t{display:flex;min-width:0}
+.bar-row .t .tt{overflow:hidden;text-overflow:ellipsis;min-width:0}
+@media (max-width:600px){.tchip.has-logo{width:18px;height:18px;margin-right:6px}.tchip.flag img.tl{width:16px;height:16px}}

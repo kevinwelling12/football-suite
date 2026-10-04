@@ -28,6 +28,10 @@ const ISO = { Albania: 'al', Andorra: 'ad', Armenia: 'am', Austria: 'at', Azerba
   Jordan: 'jo', Mexico: 'mx', Morocco: 'ma', 'New Zealand': 'nz', Panama: 'pa', Paraguay: 'py', Qatar: 'qa', 'Saudi Arabia': 'sa', Senegal: 'sn',
   'South Africa': 'za', 'South Korea': 'kr', Tunisia: 'tn', 'United States': 'us', Uruguay: 'uy', Uzbekistan: 'uz' };
 
+// ESPN ids whose dark variant has a solid white square; the standard logo is transparent.
+const LIGHT = new Set(['345']);
+// Files whose white square was cleared by clear_bg.js (no transparent version at ESPN): never re-downloaded.
+const CLEARED = new Set(['17828-d.png', '17850-d.png', '18265-d.png', '303-d.png']);
 const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ø/gi, 'o').replace(/ß/g, 'ss').toLowerCase()
   .replace(/\b(fc|afc|cf|sc|ac|club|de|the|cd|ud|sd|rc|ca|ssc|as|us|sv|vfb|vfl|tsg|1)\b/g, '').replace(/[^a-z0-9]/g, '');
 async function get(url, json = true, tries = 4) {
@@ -57,7 +61,7 @@ function pick(teams, t) {
 }
 async function save(file, url) {
   const dest = path.join(OUT, file);
-  if (!FORCE && fs.existsSync(dest)) return true;
+  if ((!FORCE || CLEARED.has(file)) && fs.existsSync(dest)) return true;
   const buf = await get(url, false); if (!buf) return false;
   fs.mkdirSync(path.dirname(dest), { recursive: true }); fs.writeFileSync(dest, buf); return true;
 }
@@ -70,7 +74,7 @@ async function save(file, url) {
     for (const t of D[k].teams) {
       const x = pick(pool, t);
       if (x && process.argv.includes('--check') && norm(x.displayName) !== norm(t.name)) console.log(`  ${k}: ${t.name} <- ${x.displayName}`);
-      const logo = x && x.logos && (x.logos.find(l => (l.rel || []).includes('dark')) || x.logos[0]);
+      const logo = x && x.logos && ((!LIGHT.has(x.id) && x.logos.find(l => (l.rel || []).includes('dark'))) || x.logos.find(l => !(l.rel || []).includes('dark')) || x.logos[0]);
       if (!logo) { missing.push(`${k}: ${t.name}`); continue; }
       const dark = (logo.rel || []).includes('dark'), file = `${x.id}${dark ? '-d' : ''}.png`;
       // ESPN's image combiner serves a 128px copy (about a tenth of the 500px original).

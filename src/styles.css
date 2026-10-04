@@ -548,3 +548,8 @@ dialog::backdrop{background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);bac
 .bar-row .t{display:flex;min-width:0}
 .bar-row .t .tt{overflow:hidden;text-overflow:ellipsis;min-width:0}
 @media (max-width:600px){.tchip.has-logo{width:18px;height:18px;margin-right:6px}.tchip.flag img.tl{width:16px;height:16px}}
+/* followed club: gold star badge on the logo's top-right */
+.crest,.tchip{position:relative}
+.crest.fav::after,.tchip.fav::after{content:"★";position:absolute;top:-4px;right:-6px;font-style:normal;font-weight:400;line-height:1;color:var(--gold);
+  font-size:max(11px, calc(var(--cs,40px) * .36));text-shadow:0 0 2px #000, 0 0 4px rgba(0,0,0,.8);pointer-events:none}
+.tchip.fav::after{font-size:11px;top:-5px;right:-5px}

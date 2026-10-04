@@ -12,7 +12,7 @@ FULL={"Lexington SC":("Lexington SC","West","LEX","#2E8BC0"),"Louisville City":(
 "Miami FC":("Miami FC","East","MIA","#2BA0E0"),"Rhode Island FC":("Rhode Island FC","East","RI","#F59E0B"),"Detroit City":("Detroit City FC","East","DET","#B83A5A"),
 "New Mexico Utd":("New Mexico United","West","NM","#FACC15")}
 SHORT={"Louisville City FC":"Louisville City","Charleston Battery":"Charleston","Pittsburgh Riverhounds":"Pittsburgh","Monterey Bay FC":"Monterey Bay","Oakland Roots SC":"Oakland Roots",
-"Sacramento Republic FC":"Sacramento Republic","Orange County SC":"Orange County","Las Vegas Lights FC":"Las Vegas Lights","Phoenix Rising FC":"Phoenix Rising","El Paso Locomotive FC":"El Paso",
+"Sacramento Republic FC":"Sac Republic","Orange County SC":"Orange County","Las Vegas Lights FC":"Las Vegas Lights","Phoenix Rising FC":"Phoenix Rising","El Paso Locomotive FC":"El Paso",
 "Colorado Springs Switchbacks FC":"Colorado Springs","Birmingham Legion FC":"Birmingham Legion","Tampa Bay Rowdies":"Tampa Bay","Loudoun United FC":"Loudoun United","Detroit City FC":"Detroit City"}
 A={ # (Culture, Values, History, Ownership, Style, adj, note)
 "Sacramento Republic FC":(9.6,8.2,6.1,8,6,0,"Rules re-rate 2026-09-30: R2 Culture 9->10"),"Louisville City FC":(7.9,7,6.3,6.9,7,0,""),"Detroit City FC":(9,9,4.7,8.2,7,0,""),"Charleston Battery":(4.8,6,7.2,4.8,7,0,""),

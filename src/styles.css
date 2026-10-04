@@ -553,3 +553,15 @@ dialog::backdrop{background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);bac
 .crest.fav::after,.tchip.fav::after{content:"★";position:absolute;top:-4px;right:-6px;font-style:normal;font-weight:400;line-height:1;color:var(--gold);
   font-size:max(11px, calc(var(--cs,40px) * .36));text-shadow:0 0 2px #000, 0 0 4px rgba(0,0,0,.8);pointer-events:none}
 .tchip.fav::after{font-size:11px;top:-5px;right:-5px}
+.why-lead{color:var(--muted);font-size:13.5px}
+/* why it matters: one small table, a line per race */
+.why-t{margin-top:4px;font-size:14px}
+.why-t th{padding:4px 4px 2px;font-size:10.5px;text-align:right}
+.why-t th:first-child{text-align:left}
+.why-t td{padding:5px 4px;border-top:0;text-align:right;color:var(--muted)}
+.why-t td:first-child{text-align:left;padding-left:26px}
+.why-t td b{color:#fff}
+.why-t tr.wt-club th{text-align:left;text-transform:none;letter-spacing:-.01em;font-size:14.5px;color:#fff;font-weight:700;padding:10px 4px 2px;border-top:.5px solid var(--line)}
+.why-t tr.wt-club th span{color:var(--muted);font-weight:500}
+.why-t tbody tr.wt-club:first-child th{border-top:0}
+.why-t td.wt-name{padding-left:4px;color:#fff;font-weight:600}

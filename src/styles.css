@@ -564,3 +564,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);bac
 .why-t tr.wt-club th span{color:var(--muted);font-weight:500}
 .why-t tbody tr.wt-club:first-child th{border-top:0}
 .why-t td.wt-name{padding-left:4px;color:#fff;font-weight:600}
+/* live clock nudges under the minute */
+.mr-adj{display:flex;gap:10px;margin-top:6px}
+.mr-adj button{width:38px;height:32px;border:0;border-radius:999px;background:rgba(255,255,255,.12);color:#fff;font-size:20px;line-height:1;cursor:pointer;display:grid;place-items:center;padding:0 0 2px}
+.mr-adj button:active{background:rgba(255,255,255,.25)}

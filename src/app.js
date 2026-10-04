@@ -999,37 +999,28 @@ function viewHome() {
 }
 
 
-const PHRASE = {title:'winning the title', top4:'a top-4 finish', top3:'a top-3 finish', europe:'a top-6 finish', rel:'relegation', auto:'automatic promotion',
-  shield:'the Shield', bye:'a round-one bye', conf:'finishing first in the conference', top8:'a top-8 finish', top24:'a top-24 finish', winner:'winning the group', qf:'the quarter-finals', safe:'staying up'};
-function zonePhrase(k, z) {
-  if (z.key === 'po') return k === 'ch' ? 'a play-off place' : (k === 'bl' || k === 'fra') ? 'the relegation play-off spot' : 'the playoffs';
-  if (z.key === 'shield' && k === 'mls') return "the Supporters' Shield";
-  return PHRASE[z.key] || z.label.toLowerCase();
-}
+// "Why it matters" as one small table: each club's biggest race or two, its chance now and after a win,
+// a draw or a loss does to it. Importance itself is on the match odds card just below.
 function narrative(k, f) {
-  const r = R[k], cfg = COMP[k].cfg, p = x => pct(x);
+  const r = R[k], cfg = COMP[k].cfg;
   if (COMPS_CFG[k].cup) {
     if (f.rawH == null) return '';
-    const side = (i, raw) => `Win and ${esc(nm(k, i))}'s chance of lifting the trophy is <b>${p(raw)}</b> (${p(r.odds[i].win)} now); lose and they're out.`;
-    return `<p>${side(f.h, f.rawH)} ${side(f.a, f.rawA)}</p><p class="note" style="margin-top:6px">In a knockout every tie is do-or-die, so importance measures how much trophy chance is riding on getting through. It's ${f.importance.toFixed(2)} on a scale where the biggest tie left is 1.00.</p>`;
+    const row = (i, raw) => `<tr><td class="wt-name">${tchip(k, i)}${esc(nm(k, i))}</td><td class="num">${pct(r.odds[i].win)}</td><td class="num"><b>${pct(raw)}</b></td></tr>`;
+    return `<p class="why-lead">Chance of winning the cup. Lose and they're out.</p><table class="why-t"><thead><tr><th></th><th>Now</th><th>If through</th></tr></thead><tbody>${row(f.h, f.rawH)}${row(f.a, f.rawA)}</tbody></table>`;
   }
   if (!f.imp) return '';
   const left = r.fx.filter(x => !x.played && x.importance !== undefined).sort((a, b) => b.importance - a.importance);
   const rank = left.findIndex(x => x.id === f.id) + 1, roundRank = r.fx.filter(x => x.mw === f.mw && !x.played && x.importance > f.importance).length + 1;
-  const lead = `<p>${rank === 1 ? 'This is the <b>most important match left</b>' : `This ranks <b>#${rank} of the ${left.length}</b> matches left`} in ${['mls', 'nwsl', 'esp', 'ita', 'fra'].includes(k) ? '' : 'the '}${esc(COMPS_CFG[k].name)}${roundRank === 1 && rank !== 1 ? `, and it's the biggest of ${esc(COMPS_CFG[k].round === 'Week' ? 'the week' : 'the round')}` : ''}. Importance ${f.importance.toFixed(2)}${f.mattersTo != null ? `, and it matters most to <b>${esc(nm(k, f.mattersTo))}</b>` : ''}.</p>`;
-  const sideText = (side, i) => {
+  const lead = `<p class="why-lead">${rank === 1 ? 'The biggest match left' : `#${rank} of ${left.length} matches left`}${roundRank === 1 && rank !== 1 ? `, the biggest ${COMPS_CFG[k].round === 'Week' ? 'this week' : 'this round'}` : ''}.</p>`;
+  const anyDraw = ['h', 'a'].some(sd => Object.values(f.imp[sd].cond).some(c => c && c.pd != null));
+  const rows = (side, i) => {
     const t = r.tab[i], im = f.imp[side];
     const zs = cfg.zones.filter(z => z.w && im.parts[z.key] >= 0.05).sort((a, b) => b.w * im.parts[b.key] - a.w * im.parts[a.key]).slice(0, 2);
-    if (!zs.length) return `<p><b>${esc(nm(k, i))}</b> have little riding on it: none of their races moves more than 5 points whatever happens.</p>`;
-    const bits = zs.map((z, n) => {
-      const c = im.cond[z.key], now = t.odds[z.key] || 0, what = zonePhrase(k, z);
-      const draw = c.pd != null ? `, and a draw leaves ${z.bad || z.key === 'rel' ? 'it' : 'them'} near <b>${p(c.pd)}</b>` : '';
-      if (z.bad) return `${n ? 'Their' : 'The'} ${what} risk is <b>${p(now)}</b> now: a win cuts it to <b>${p(c.pw)}</b>, a loss raises it to <b>${p(c.pl)}</b>${draw}.`;
-      return `${n ? 'Their' : 'Their'} chance of ${what} is <b>${p(now)}</b> now: a win takes it to <b>${p(c.pw)}</b>, a loss drops it to <b>${p(c.pl)}</b>${draw}.`;
-    });
-    return `<p><b>${esc(nm(k, i))}.</b> ${bits.join(' ')}</p>`;
+    const head = `<tr class="wt-club"><th colspan="${anyDraw ? 5 : 4}">${tchip(k, i)}${esc(nm(k, i))}${zs.length ? '' : ' <span>· little riding on it</span>'}</th></tr>`;
+    return head + zs.map(z => { const c = im.cond[z.key];
+      return `<tr><td>${esc(z.label)}</td><td class="num">${pct(t.odds[z.key] || 0)}</td><td class="num"><b>${pct(c.pw)}</b></td>${anyDraw ? `<td class="num">${c.pd != null ? pct(c.pd) : ''}</td>` : ''}<td class="num">${pct(c.pl)}</td></tr>`; }).join('');
   };
-  return lead + sideText('h', f.h) + sideText('a', f.a);
+  return lead + `<table class="why-t"><thead><tr><th></th><th>Now</th><th>Win</th>${anyDraw ? '<th>Draw</th>' : ''}<th>Lose</th></tr></thead><tbody>${rows('h', f.h)}${rows('a', f.a)}</tbody></table>`;
 }
 
 // ---------------------------------------------------------------- detail

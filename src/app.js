@@ -475,7 +475,7 @@ function liveCard(k, f) {
   return `<article data-fx="${k}:${f.id}" class="match mrow lc ${L ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''}" style="--hc:${t(f.h).color};--ac:${t(f.a).color}">
     <div class="mr-cap"><button class="live-comp" data-go="${k}:${f.id}" style="--c:${DOT[k]}"><i></i>${esc(COMPS_CFG[k].name)}</button></div>
     <div class="mr" role="button" tabindex="0" data-go="${k}:${f.id}" aria-label="Open ${esc(full(k, f.h))} v ${esc(full(k, f.a))}">
-      ${team('h', f.h)}<span class="mr-v sc num">${L ? L.h : ''}</span><span class="mr-c">${L ? `<b class="mr-live num"><span class="live-dot"></span>${liveLabel(k, f)}</b>` : `<b class="num">${fmtTime(f.kt)}</b><small>Kicked off</small>`}</span><span class="mr-v sc num">${L ? L.a : ''}</span>${team('a', f.a)}</div>
+      ${team('h', f.h)}<span class="mr-v sc num">${L ? L.h : ''}</span><span class="mr-c">${L ? `<b class="mr-live num"><span class="live-dot"></span>${liveLabel(k, f)}</b>${(c => c.ht || c.stale ? '' : `<span class="mr-adj"><button data-ev="mm" data-id="${f.id}" aria-label="Clock back a minute">‹</button><button data-ev="mp" data-id="${f.id}" aria-label="Clock forward a minute">›</button></span>`)(clockOf(k, f.id) || {})}` : `<b class="num">${fmtTime(f.kt)}</b><small>Kicked off</small>`}</span><span class="mr-v sc num">${L ? L.a : ''}</span>${team('a', f.a)}</div>
     ${bar}${ctl}${heartRow(k, f)}</article>`;
 }
 // Heart over head: on a neutral match (none of the followed clubs), once it's under way, who you found yourself
@@ -1204,6 +1204,20 @@ function liveEvent(k, id, ev) {
   if (ev === 'ko') state.live[k][id] = {h:0, a:0, ph:'1H', t:f.kt && now - f.kt > 5 * 6e4 ? f.kt : now, m0:1};
   else if (!L) return;
   else if (ev === 'ht') state.live[k][id] = {h:L.h, a:L.a, ph:'HT', t:now, rc:L.rc};
+  else if (ev === 'mm' || ev === 'mp') {
+    // Nudge the clock a minute back or forward. A running clock shifts its start; a guessed or fixed one restarts
+    // from the minute shown, so the nudge always moves what's on screen. Never before 1' (first half) or 46' (second).
+    const c = clock(L, f.kt, now), d = ev === 'mp' ? 1 : -1;
+    if (c.ht || c.stale) return;
+    if (L.t && !c.est && L.ph === c.ph) {
+      const m = L.m0 + (now - L.t) / 6e4, floor = c.ph === '1H' ? 1 : 46;
+      if (d < 0 && Math.floor(m) <= floor) return;
+      state.live[k][id] = Object.assign({}, L, {t:L.t - d * 6e4});
+    } else {
+      const m = Math.max(c.ph === '1H' ? 1 : 46, (c.ph === '1H' ? Math.min(c.min, 45) : c.min) + d);
+      state.live[k][id] = {h:L.h, a:L.a, ph:c.ph, t:now, m0:m, rc:L.rc};
+    }
+  }
   else if (ev === 'sh') state.live[k][id] = {h:L.h, a:L.a, ph:'2H', t:now, m0:46, rc:L.rc};
   else if (ev === 'gh' || ev === 'ga' || ev === 'rh' || ev === 'ra') {
     // goals and red cards keep the clock; an old fixed-minute entry starts running from its minute

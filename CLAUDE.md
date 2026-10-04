@@ -10,6 +10,9 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 ## Build / run
 - `python3 scripts/build.py` -> `dist/web/index.html` (web). `--claude` -> `dist/football_suite.html`. Rebuild after editing src/ or data/.
   dist/ is git-ignored: the Pages workflow builds it on every push to main, so commit only src/, data/ and scripts/.
+- Club logos (ESPN, dark variant) and national flags (flagcdn) live in src/logos/, mapped by data/logos.json.
+  Refresh with `node scripts/logos/fetch.js` (new clubs after promotion, a new UCL field); add name pairings it can't make
+  to scripts/logos/aliases.json. build.py copies them next to the page; the --claude build keeps colour discs.
 - App icon: src/icons/icon.svg (football in a ring of the 12 competition colours). PNGs are rendered from it with
   `node scripts/icons/render.js` and committed; build.py copies them next to the page.
 - Verify in a headless browser (Playwright was used) at 390px and 1100px widths, dark colour scheme;

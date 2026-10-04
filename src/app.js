@@ -1,6 +1,8 @@
 const DATA = /*__DATA__*/;
 // Nations outside the Nations League (2026 World Cup), for the Affinity pages only: {wc: {name: result}, teams: [...]}.
 const EXTRA = /*__EXTRA__*/;
+// Club logos and national flags (files next to the page; data/logos.json, made by scripts/logos/fetch.js). Empty in the claude.ai build.
+const LOGOS = /*__LOGOS__*/;
 const DEF = {sims:1000, impFloor:0.05, impRamp:0.25, drawAuto:1, drawW0:60};
 const STORE = 'football-suite-2627';
 // In views that mix competitions (Live), fixture ids repeat, so a click looks up ids inside its own card first.
@@ -372,9 +374,14 @@ const isPast = f => f.kt ? f.kt < Date.now() : f.date < todayISO;
 const tvLabel = k => DATA[k].tv + (k === 'epl' ? ' (channel announced weekly)' : '');
 // A club "crest": a disc in the club colour with its short code (the app has no logos). Text flips dark on light colours.
 const inkOn = hex => { const n = parseInt((hex || '#48484A').slice(1), 16), [r, g, b] = [n >> 16, n >> 8 & 255, n & 255].map(v => (v /= 255) <= 0.04 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4); return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.36 ? '#000' : '#fff'; };
-const crest = (k, i, size) => { if (i == null) return `<i class="crest tbd" style="--cs:${size || 40}px">?</i>`; const t = T(k)[i], c = t.color || '#48484A', a = t.abbr || (t.short || t.name).replace(/[^A-Za-z]/g, '').slice(0, 3).toUpperCase();
-  return `<i class="crest" style="--cs:${size || 40}px;--tc:${c};--ti:${inkOn(c)}" aria-hidden="true">${esc(a)}</i>`; };
-const tchip = (k, i) => i != null && T(k)[i].color ? `<i class="tchip" style="--tc:${T(k)[i].color}"></i>` : '';
+const logoFor = (name, k) => (LOGOS[k] || {})[name] || LOGOS.flags[name] || Object.values(LOGOS).map(m => m[name]).find(Boolean);
+// A logo that fails to load falls back to the colour disc with the short code.
+const logoImg = (src, cls) => `<img class="${cls}" src="${src}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('nologo');this.remove()">`;
+const crest = (k, i, size) => { if (i == null) return `<i class="crest tbd" style="--cs:${size || 40}px">?</i>`; const t = T(k)[i], c = t.color || '#48484A', a = t.abbr || (t.short || t.name).replace(/[^A-Za-z]/g, '').slice(0, 3).toUpperCase(), lg = logoFor(t.name, k);
+  return `<i class="crest${lg ? ' has-logo' + (LOGOS.flags[t.name] ? ' flag' : '') : ''}" style="--cs:${size || 40}px;--tc:${c};--ti:${inkOn(c)}" aria-hidden="true"><span>${esc(a)}</span>${lg ? logoImg(lg, 'cl') : ''}</i>`; };
+// Small logo (or colour dot) before a name in tables and lists.
+const nchip = (name, color, k) => { const lg = logoFor(name, k); return lg ? `<i class="tchip has-logo${LOGOS.flags[name] ? ' flag' : ''}" style="--tc:${color || '#48484A'}">${logoImg(lg, 'tl')}</i>` : color ? `<i class="tchip" style="--tc:${color}"></i>` : ''; };
+const tchip = (k, i) => i != null ? nchip(T(k)[i].name, T(k)[i].color, k) : '';
 const isFav = (k, i) => i != null && (state.favs[k] || []).includes(i);
 const star = (k, i) => isFav(k, i) ? '<span class="star" aria-label="Your club">★</span>' : '';
 const hasFav = (k, f) => isFav(k, f.h) || isFav(k, f.a);
@@ -662,7 +669,7 @@ function raceList(k, key, title, bad, group) {
       <div class="clinched"><span class="cl-tag">✓ Wrapped up</span><button class="club-link cl-name" data-club="${clinched.i}">${tchip(k, clinched.i)}${esc(c.name)}</button>
       <span class="cl-sub">No one else finishes there in any of the 1,000 simulated seasons.</span></div></div>`;
   }
-  const body = live.length ? live.slice(0, 10).map(x => `<div class="bar-row"><button class="t club-link ${isFav(k, x.i) ? 'fav-name' : ''}" data-club="${x.i}">${tchip(k, x.i)}${star(k, x.i)}${esc(nm(k, x.i))}</button><span class="bar"><i style="width:${x.v * 100}%"></i></span><span class="v num">${pct(x.v)}</span></div>`).join('')
+  const body = live.length ? live.slice(0, 10).map(x => `<div class="bar-row"><button class="t club-link ${isFav(k, x.i) ? 'fav-name' : ''}" data-club="${x.i}">${tchip(k, x.i)}${star(k, x.i)}<span class="tt">${esc(nm(k, x.i))}</span></button><span class="bar"><i style="width:${x.v * 100}%"></i></span><span class="v num">${pct(x.v)}</span></div>`).join('')
     : `<div class="race-done">${inn.length && !bad && inn.length === 1 ? esc(nm(k, inn[0].i)) + ' has it wrapped up.' : 'Settled: no club is between 1% and 99%.'}</div>`;
   return `<div class="race ${bad ? 'bad' : ''} ${group ? '' : 'solo'}"><h3>${esc(title)}</h3>${body}${summary}</div>`;
 }
@@ -716,7 +723,7 @@ function viewClubs(k) {
 function viewNations() {
   const k = 'unl', r = R[k], t = T(k);
   const all = t.map((x, i) => ({t: x, attr: `data-club="${i}"`, chip: tchip(k, i)}))
-    .concat(EXTRA.teams.map((x, j) => ({t: x, attr: `data-xnat="${j}"`, chip: `<i class="tchip" style="--tc:${x.color}"></i>`})))
+    .concat(EXTRA.teams.map((x, j) => ({t: x, attr: `data-xnat="${j}"`, chip: nchip(x.name, x.color)})))
     .sort((a, b) => affOf(b.t) - affOf(a.t) || a.t.name.localeCompare(b.t.name));
   const nWc = all.filter(e => wcOf(e.t.name)).length;
   const list = all.map((e, n) => Object.assign({n: n + 1}, e)).filter(e => natF === 'all' || (natF === 'wc' ? wcOf(e.t.name) : !e.t.confed));
@@ -779,7 +786,7 @@ function viewRank() {
   return `<section class="section">${AFF_HOW}
     <div class="rank-chips">${chips.map(([k, l]) => `<button class="rchip" data-rankf="${k}" aria-pressed="${rankF === k}" style="--c:${k === 'all' || k === 'fit' ? '#fff' : DOT[k]}">${k === 'all' || k === 'fit' ? '' : '<i></i>'}${esc(l)}</button>`).join('')}</div>
     <div class="card rank ${byLeague ? 'by-league' : ''}" style="margin-top:12px">${list.map((e, j) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${byLeague ? `${j + 1} <small>(${e.n})</small>` : e.n}</span>
-      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i><span>${esc(rankLabel(e.k))}</span></small></span>
+      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${nchip(e.t.name, e.t.color, e.k)}${esc(e.t.name)}</button><small><i></i><span>${esc(rankLabel(e.k))}</span></small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, affOf(e.t)) / mx * 100}%"></span></span>
       <span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>`;
 }
@@ -866,7 +873,7 @@ function viewBracket(k) {
   const intro = B.done ? 'The regular season is over. Enter each playoff result as it happens; the bracket and title odds update automatically.'
     : `Projected bracket. Seeds come from the projected final ${k === 'nwsl' ? 'table' : 'conference tables'} and update with every result; the bracket locks in once every regular-season result is entered. Percentages are each side's chance of winning the tie if these pairings hold.`;
   return `<section class="section"><h2>${k === 'mls' ? 'MLS Cup Playoffs' : k === 'usl' ? 'USL Championship Playoffs' : 'NWSL Playoffs'}</h2><p class="sub">${intro}</p>
-    <div class="race" style="margin-top:14px"><h3>${k === 'mls' ? 'Win MLS Cup' : k === 'usl' ? 'Win the USL Championship' : 'Win the championship'}</h3>${top.map(t => `<div class="bar-row"><button class="t club-link" data-club="${t.i}">${tchip(k, t.i)}${esc(nm(k, t.i))}</button><span class="bar"><i style="width:${(t.odds[champKey] || 0) * 100 / Math.max(top[0].odds[champKey] || 0.01, 0.01)}%"></i></span><span class="v num">${pct(t.odds[champKey] || 0)}</span></div>`).join('')}
+    <div class="race" style="margin-top:14px"><h3>${k === 'mls' ? 'Win MLS Cup' : k === 'usl' ? 'Win the USL Championship' : 'Win the championship'}</h3>${top.map(t => `<div class="bar-row"><button class="t club-link" data-club="${t.i}">${tchip(k, t.i)}<span class="tt">${esc(nm(k, t.i))}</span></button><span class="bar"><i style="width:${(t.odds[champKey] || 0) * 100 / Math.max(top[0].odds[champKey] || 0.01, 0.01)}%"></i></span><span class="v num">${pct(t.odds[champKey] || 0)}</span></div>`).join('')}
       <p class="note" style="margin-top:8px">From 1,000 simulated seasons, playoffs included.</p></div>
     ${rounds.map(rd => `<h3 class="grp">${esc(rd)}</h3><div class="ties">${B.ties.filter(t => t.round === rd).map(t => tieCard(k, t, B)).join('')}</div>`).join('')}</section>`;
 }
@@ -985,7 +992,7 @@ function viewHome() {
     <section class="section"><h2>Competitions</h2><p class="sub">Tap one to open it.</p><div class="tiles">${tiles}</div></section>
     <section class="section"><div class="sec-head"><h2>Affinity ranking</h2><button class="linkish" data-view="rank">All ${rankList().length} →</button></div><p class="sub">Your top 10 across every competition, coloured by league.</p>
       <div class="card rank" style="margin-top:12px">${rankList().slice(0, 10).map((e, n) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${n + 1}</span>
-      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}</small></span><span></span><span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>
+      <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${nchip(e.t.name, e.t.color, e.k)}${esc(e.t.name)}</button><small><i></i>${esc(rankLabel(e.k))}</small></span><span></span><span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>
     <section class="section"><h2>Biggest match left in each competition</h2><p class="sub">The most important match left in each competition, soonest first.</p>
       ${feedList(big, x => ({cap:`${esc(fmtDateK(x.f))}${x.f.mattersTo != null ? ` · matters most to ${esc(nm(x.k, x.f.mattersTo))}` : ''}`}))}</section>`;
 }

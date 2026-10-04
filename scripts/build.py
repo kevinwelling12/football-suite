@@ -13,6 +13,9 @@ html = (src / 'index.template.html').read_text()
 app = (src / 'app.js').read_text().replace('/*__DATA__*/', (root / 'data' / 'suite_data.json').read_text())
 extra = root / 'data' / 'nations_extra.json'
 app = app.replace('/*__EXTRA__*/', extra.read_text() if extra.exists() else '{"wc":{},"teams":[]}')
+# Logos are files next to the web page; the claude.ai artifact can't load them, so it keeps the colour discs.
+logos = root / 'data' / 'logos.json'
+app = app.replace('/*__LOGOS__*/', logos.read_text() if logos.exists() and not claude else '{"flags":{}}')
 head = ''
 if not claude:
     sdk = ''.join(f'<script src="https://www.gstatic.com/firebasejs/{FIREBASE_SDK}/firebase-{m}-compat.js"></script>\n'
@@ -41,4 +44,5 @@ dest.write_text(out)
 if not claude:
     import shutil
     for f in ('icon.svg', 'favicon-32.png', 'apple-touch-icon.png'): shutil.copyfile(icons / f, dest.parent / f)
+    shutil.copytree(src / 'logos', dest.parent / 'logos', dirs_exist_ok=True)
 print(f'wrote {dest.relative_to(root)} ({len(out):,} bytes)')

@@ -378,10 +378,11 @@ const logoFor = (name, k) => (LOGOS[k] || {})[name] || LOGOS.flags[name] || Obje
 // A logo that fails to load falls back to the colour disc with the short code.
 const logoImg = (src, cls) => `<img class="${cls}" src="${src}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('nologo');this.remove()">`;
 const crest = (k, i, size) => { if (i == null) return `<i class="crest tbd" style="--cs:${size || 40}px">?</i>`; const t = T(k)[i], c = t.color || '#48484A', a = t.abbr || (t.short || t.name).replace(/[^A-Za-z]/g, '').slice(0, 3).toUpperCase(), lg = logoFor(t.name, k);
-  return `<i class="crest${lg ? ' has-logo' + (LOGOS.flags[t.name] ? ' flag' : '') : ''}" style="--cs:${size || 40}px;--tc:${c};--ti:${inkOn(c)}" aria-hidden="true"><span>${esc(a)}</span>${lg ? logoImg(lg, 'cl') : ''}</i>`; };
+  return `<i class="crest${lg ? ' has-logo' + (LOGOS.flags[t.name] ? ' flag' : '') : ''}${isFav(k, i) ? ' fav' : ''}" style="--cs:${size || 40}px;--tc:${c};--ti:${inkOn(c)}" aria-hidden="true"><span>${esc(a)}</span>${lg ? logoImg(lg, 'cl') : ''}</i>`; };
 // Small logo (or colour dot) before a name in tables and lists.
-const nchip = (name, color, k) => { const lg = logoFor(name, k); return lg ? `<i class="tchip has-logo${LOGOS.flags[name] ? ' flag' : ''}" style="--tc:${color || '#48484A'}">${logoImg(lg, 'tl')}</i>` : color ? `<i class="tchip" style="--tc:${color}"></i>` : ''; };
-const tchip = (k, i) => i != null ? nchip(T(k)[i].name, T(k)[i].color, k) : '';
+// A followed club gets a small gold star on its logo instead of one beside the name, so names keep their width.
+const nchip = (name, color, k, fav) => { const lg = logoFor(name, k), f = fav ? ' fav' : ''; return lg ? `<i class="tchip has-logo${LOGOS.flags[name] ? ' flag' : ''}${f}" style="--tc:${color || '#48484A'}">${logoImg(lg, 'tl')}</i>` : color ? `<i class="tchip${f}" style="--tc:${color}"></i>` : ''; };
+const tchip = (k, i) => i != null ? nchip(T(k)[i].name, T(k)[i].color, k, isFav(k, i)) : '';
 const isFav = (k, i) => i != null && (state.favs[k] || []).includes(i);
 const star = (k, i) => isFav(k, i) ? '<span class="star" aria-label="Your club">★</span>' : '';
 const hasFav = (k, f) => isFav(k, f.h) || isFav(k, f.a);
@@ -437,7 +438,7 @@ function liveCard(k, f) {
   if (L) ctl = liveBtns(k, f);
   else if (COMPS_CFG[k].cup) ctl = `<div class="live-ctl one"><button class="btn ghost" data-go="${k}:${f.id}">Enter the result</button></div>`;
   else if (!f.played && !f.postponed) ctl = `<div class="live-ctl one"><button class="btn live-btn" data-ev="ko" data-id="${f.id}">${Date.now() - f.kt > 5 * 6e4 ? `Live now (clock from ${fmtTime(f.kt)})` : 'Kicked off'}</button></div>`;
-  const team = (sd, i) => `<span class="mr-t ${sd}">${crest(k, i)}<span class="mr-n">${sd === 'a' ? star(k, i) : ''}${esc(nm(k, i))}${sd === 'h' ? star(k, i) : ''}${L ? reds(L.rc[sd === 'h' ? 0 : 1]) : ''}</span></span>`;
+  const team = (sd, i) => `<span class="mr-t ${sd}">${crest(k, i)}<span class="mr-n">${esc(nm(k, i))}${L ? reds(L.rc[sd === 'h' ? 0 : 1]) : ''}</span></span>`;
   return `<article data-fx="${k}:${f.id}" class="match mrow lc ${L ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''}" style="--hc:${t(f.h).color};--ac:${t(f.a).color}">
     <div class="mr-cap"><button class="live-comp" data-go="${k}:${f.id}" style="--c:${DOT[k]}"><i></i>${esc(COMPS_CFG[k].name)}</button></div>
     <div class="mr" role="button" tabindex="0" data-go="${k}:${f.id}" aria-label="Open ${esc(full(k, f.h))} v ${esc(full(k, f.a))}">
@@ -491,7 +492,7 @@ function matchCard(k, f, motw) {
     : fin ? `<b>Final</b><small>${f.awarded ? 'Awarded' : f.pens != null && f.hs === f.as && !(f.round || '').endsWith('leg 1') ? esc(nm(k, f.pens)) + ' on pens' : ''}</small>`
     : f.postponed ? '<b>Postponed</b><small>New date TBA</small>'
     : `<b class="num">${f.kt ? fmtTime(f.kt) : 'TBC'}</b><small>${cup && f.advH != null ? 'to go through' : rated ? 'Draw ' + pct(f.pD) : known ? '' : 'Awaiting draw'}</small>`;
-  const team = (s, i) => `<span class="mr-t ${s}">${crest(k, i)}<span class="mr-n">${i == null ? 'TBD' : `${s === 'a' ? star(k, i) : ''}${esc(nm(k, i))}${s === 'h' ? star(k, i) : ''}`}${f.live ? reds(f.live.rc[s === 'h' ? 0 : 1]) : ''}</span></span>`;
+  const team = (s, i) => `<span class="mr-t ${s}">${crest(k, i)}<span class="mr-n">${i == null ? 'TBD' : esc(nm(k, i))}${f.live ? reds(f.live.rc[s === 'h' ? 0 : 1]) : ''}</span></span>`;
   const cap = [motw ? `<span class="cap-motw">${motw}</span>` : '', hasFav(k, f) ? '<span class="cap-fav">★ Your club</span>' : '',
     cup ? esc(f.round) + (f.round.startsWith('Semi') ? '' : ` ${f.tie}`) : '', f.moved && !f.played ? 'Rescheduled' : ''].filter(Boolean).join('<i>·</i>');
   return `<article ${tc} data-fx="${k}:${f.id}" class="match mrow ${f.live ? 'is-live' : ''} ${hasFav(k, f) ? 'is-fav' : ''} ${motw ? 'is-motw' : ''} ${f.postponed ? 'is-pp' : ''} ${fin ? 'is-fin' : ''}">
@@ -523,7 +524,7 @@ function matchList(k, list, m, label) {
 // Read-only row for lists that span competitions (Home): the competition as the caption, tap to open the match in its competition.
 function feedRow(k, f, extra) {
   const L = f.live, rated = f.pH != null, P = L || f;
-  const team = (sd, i) => `<span class="mr-t ${sd}">${crest(k, i, 34)}<span class="mr-n">${sd === 'a' ? star(k, i) : ''}${esc(nm(k, i))}${sd === 'h' ? star(k, i) : ''}${L ? reds(L.rc[sd === 'h' ? 0 : 1]) : ''}</span></span>`;
+  const team = (sd, i) => `<span class="mr-t ${sd}">${crest(k, i, 34)}<span class="mr-n">${esc(nm(k, i))}${L ? reds(L.rc[sd === 'h' ? 0 : 1]) : ''}</span></span>`;
   const v = sd => L ? `<span class="mr-v sc num">${sd === 'h' ? L.h : L.a}</span>` : `<span class="mr-v num">${rated ? pct(sd === 'h' ? P.pH : P.pA) : ''}</span>`;
   const mid = L ? `<b class="mr-live num"><span class="live-dot"></span>${liveLabel(k, f)}</b><small>Draw ${pct(L.pD)}</small>`
     : `<b class="num ${isPast(f) ? 'past' : ''}">${f.kt ? fmtTime(f.kt) : 'TBC'}</b><small>${rated ? 'Draw ' + pct(f.pD) : ''}</small>`;
@@ -574,7 +575,7 @@ function tableRows(k, rows, proj, colsOverride) {
   const marked = hasMarks(k);
   return rows.map(r => {
     const mk = marked && r.mark ? `<sup class="smark ${r.statusBad ? 'bad' : ''}" title="${esc(r.status)}">${r.mark}</sup>` : '';
-    const pos = proj ? r.projPos : r.pos, mv = r.moved ? `<span class="mv-arrow ${r.moved > 0 ? 'up' : 'down'}">${r.moved > 0 ? '▲' : '▼'}${Math.abs(r.moved)}</span>` : '', club = `<button class="club-link" data-club="${r.i}">${tchip(k, r.i)}${star(k, r.i)}${dual(k, r.i)}${mk}</button>${mv}`;
+    const pos = proj ? r.projPos : r.pos, mv = r.moved ? `<span class="mv-arrow ${r.moved > 0 ? 'up' : 'down'}">${r.moved > 0 ? '▲' : '▼'}${Math.abs(r.moved)}</span>` : '', club = `<button class="club-link" data-club="${r.i}">${tchip(k, r.i)}${dual(k, r.i)}${mk}</button>${mv}`;
     const st = r.status ? `<span class="status-tag ${r.statusBad ? 'rel' : ''}">${esc(r.status)}</span>` : '';
     const mid = proj
       ? `<td class="num sm-hide">${wdl(r).join('-')}</td><td class="num sm-hide">${r.projGD > 0.5 ? '+' : ''}${r.projGD.toFixed(0)}</td>
@@ -631,7 +632,7 @@ function unlRaces(k, base, proj, lg) {
     <div class="card scroll" style="margin-top:10px"><table><thead><tr><th>#</th><th class="club">Nation</th><th class="sm-hide">Group</th><th class="sm-hide">P</th><th>GD</th><th>Pts</th>${sp.cols.map(c => `<th>${colHead(k, c)}</th>`).join('')}<th></th></tr></thead><tbody>
     ${rows.map((r, n) => { const [lab, col] = UNL_FATE[sp.fate(n)], g = gd(r);
       return `<tr class="${isFav(k, r.i) ? 'fav-row' : ''}" ${T(k)[r.i].color ? `style="--fc:${T(k)[r.i].color}"` : ''}><td class="pos num" style="--zone:${col}">${n + 1}</td>
-      <td class="club"><button class="club-link" data-club="${r.i}">${tchip(k, r.i)}${star(k, r.i)}${dual(k, r.i)}</button></td><td class="num sm-hide">${esc(r.group)}</td><td class="num sm-hide">${r.P}</td>
+      <td class="club"><button class="club-link" data-club="${r.i}">${tchip(k, r.i)}${dual(k, r.i)}</button></td><td class="num sm-hide">${esc(r.group)}</td><td class="num sm-hide">${r.P}</td>
       <td class="num">${g > 0.5 ? '+' : ''}${proj ? g.toFixed(0) : g}</td><td class="num"><b>${proj ? pts(r).toFixed(0) : pts(r)}</b></td>${sp.cols.map(c => `<td>${mini(r, c)}</td>`).join('')}
       <td><span class="status-tag ${({down: "rel", po: "po"})[sp.fate(n)] || ""}">${lab}</span></td></tr>`; }).join('')}</tbody></table></div>`;
   };
@@ -669,7 +670,7 @@ function raceList(k, key, title, bad, group) {
       <div class="clinched"><span class="cl-tag">✓ Wrapped up</span><button class="club-link cl-name" data-club="${clinched.i}">${tchip(k, clinched.i)}${esc(c.name)}</button>
       <span class="cl-sub">No one else finishes there in any of the 1,000 simulated seasons.</span></div></div>`;
   }
-  const body = live.length ? live.slice(0, 10).map(x => `<div class="bar-row"><button class="t club-link ${isFav(k, x.i) ? 'fav-name' : ''}" data-club="${x.i}">${tchip(k, x.i)}${star(k, x.i)}<span class="tt">${esc(nm(k, x.i))}</span></button><span class="bar"><i style="width:${x.v * 100}%"></i></span><span class="v num">${pct(x.v)}</span></div>`).join('')
+  const body = live.length ? live.slice(0, 10).map(x => `<div class="bar-row"><button class="t club-link ${isFav(k, x.i) ? 'fav-name' : ''}" data-club="${x.i}">${tchip(k, x.i)}<span class="tt">${esc(nm(k, x.i))}</span></button><span class="bar"><i style="width:${x.v * 100}%"></i></span><span class="v num">${pct(x.v)}</span></div>`).join('')
     : `<div class="race-done">${inn.length && !bad && inn.length === 1 ? esc(nm(k, inn[0].i)) + ' has it wrapped up.' : 'Settled: no club is between 1% and 99%.'}</div>`;
   return `<div class="race ${bad ? 'bad' : ''} ${group ? '' : 'solo'}"><h3>${esc(title)}</h3>${body}${summary}</div>`;
 }
@@ -847,7 +848,7 @@ function tieCard(k, t, B) {
   const team = (i, isH) => {
     if (i == null) return `<div class="tie-team tbd"><span class="seed"></span><span class="tn">To be decided</span><span></span></div>`;
     const tm = T(k)[i], won = t.winner === i, lost = t.winner != null && !won, p = t.pH == null ? null : isH ? t.pH : 1 - t.pH;
-    return `<div class="tie-team ${won ? 'won' : ''} ${lost ? 'lost' : ''}"><span class="seed">${B.seedNum[i]}</span><button class="club-link tn" data-club="${i}">${tchip(k, i)}${star(k, i)}${esc(nm(k, i))}</button>
+    return `<div class="tie-team ${won ? 'won' : ''} ${lost ? 'lost' : ''}"><span class="seed">${B.seedNum[i]}</span><button class="club-link tn" data-club="${i}">${tchip(k, i)}${esc(nm(k, i))}</button>
       <span class="tp num">${won ? '✓' : lost ? '' : p == null ? '' : pct(p)}</span></div>`;
   };
   const games = t.kind === 'bo3' ? [1, 2, 3] : [0];

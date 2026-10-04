@@ -35,7 +35,7 @@ claude.ai artifact; this repo is the transfer to Claude Code.
   never by index (a past renumbering corrupted Nations League entries).
 - Pick 'em is scored on the 90-minute score only (2 pts result, 3 exact).
 - Terminology: "Affinity" (not HAI), "Matches" (not "Games"), "Affinity pick", "Match of the week".
-- The broadcast theme (Apple TV MLS-inspired) applies to every competition; keep it consistent.
+- The visual theme (Apple Sports-inspired: page tinted in the competition's colour, dark translucent panels, club colour discs as crests, big plain numbers) applies to every competition; keep it consistent. One dark stylesheet, src/styles.css.
 - Excel trackers are deprecated. Don't recreate them.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 

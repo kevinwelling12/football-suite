@@ -181,14 +181,15 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
 - Pool: ~300 players researched (facts: clubs and years, captaincy, moments, style, causes, incidents, money moves; research/BRIEF.md)
   and scored on six factors 0-10 against fixed anchors (SCORING_BRIEF.md): Character, Team player, Loyalty & bond, Greatness,
   Joy to watch, Legacy.
-- Weights come from choices only (round 7's 100-point budget was dropped: Kevin found it hard to use). fit.py fits one logit model to
-  round 8's 30 real-player head-to-heads and 20 mystery-player trade-offs, plus his 18 round-7 gut ratings, with a ridge pull toward
-  equal weights. Result in fit.json (in-sample 76% of 49 choices, leave-one-out 65%, gut r 0.52): Greatness 31, Character 23, Team 14, Joy 13, Legacy 12, Loyalty 7; connection x0.48,
-  penalties x1.5. The sources disagree: the mystery profiles alone put Team player first (32) and Greatness last (7); the real
-  head-to-heads and gut ratings lean on Greatness (53, 67). The joint fit sits between.
-- Connection (adjustment, then x0.48): +1.2 per season at Liverpool, Dortmund, Timbers, Thorns, Republic (max +8); -0.3 per season at clubs he
+- Weights come from anonymous choices only (round 7's 100-point budget was dropped: Kevin found it hard to use). Round 8's
+  real-player head-to-heads turned out to follow name recognition (familiar names won; no factor explained more than 55% of
+  those picks), so fit.py fits a logit model to the 50 mystery-player pairs of rounds 8 and 9 (round 9: 30 pairs chosen for
+  information, plus a baggage trait and a "can't split them" answer). Result in fit.json: Team player 29, Character 25,
+  Loyalty 16, Joy 14, Legacy 12, Greatness 4.5; connection x1.09, penalties x2.54. Leave-one-out 77% of 48 decided pairs
+  (round-8 fit with names: 65%). As checks: it calls 17 of 29 named head-to-heads and tracks the gut ratings at r 0.36.
+- Connection (adjustment, then x1.09): +1.2 per season at Liverpool, Dortmund, Timbers, Thorns, Republic (max +8); -0.3 per season at clubs he
   rates under 35 (max -3); US international +2.
-- Penalties (then x1.5) from his best-worst ranking: abuse allegations 18, racist abuse 14, match-fixing 14, violent conduct 7, authoritarian
+- Penalties (then x2.54) from his best-worst ranking: abuse allegations 18, racist abuse 14, match-fixing 14, violent conduct 7, authoritarian
   ambassador 7, tax fraud 5, doping 4, Saudi move 3, forced transfer 3, rival move 2. Dropped/acquitted 30%, apology 60%,
   a move made as a coach half. Diving and general conduct sit in Character.
 - No era discount: Kevin has followed closely for under a year, so past players are judged on the record alone.

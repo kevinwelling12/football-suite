@@ -19,13 +19,12 @@ Usage: python3 scripts/affinity/players/model.py [--fit]
 import json, glob, pathlib, re, sys, unicodedata
 root = pathlib.Path(__file__).resolve().parents[3]
 here = pathlib.Path(__file__).resolve().parent
-# Weights fitted to Kevin's choices (quiz round 8: real-player head-to-heads and mystery-player trade-offs) and gut ratings
-# (round 7) by fit.py, read from fit.json; connection and penalties are scaled by the fit too. No 100-point budget (round 7's
+# Weights fitted to Kevin's mystery-player choices (quiz rounds 8 and 9) by fit.py, read from fit.json; connection and penalties are scaled by the fit too. No 100-point budget (round 7's
 # budget was dropped: Kevin found it hard to use). Fallback values if fit.json is missing.
 _fit = json.loads((pathlib.Path(__file__).resolve().parent / 'fit.json').read_text()) if (pathlib.Path(__file__).resolve().parent / 'fit.json').exists() else None
-W = _fit['W'] if _fit else {'CH': 23, 'WK': 14, 'LO': 7, 'AB': 31, 'ST': 13, 'LE': 12}
-CONN_X = _fit['conn'] if _fit else 0.48
-PEN_X = _fit['pen'] if _fit else 1.5
+W = _fit['W'] if _fit else {'CH': 25, 'WK': 29, 'LO': 16, 'AB': 4.5, 'ST': 14, 'LE': 12}
+CONN_X = _fit['conn'] if _fit else 1.09
+PEN_X = _fit['pen'] if _fit else 2.54
 SEV = {'b02': 18, 'b01': 14, 'b04': 14, 'b06': 7, 'b12': 7, 'b05': 5, 'b03': 4, 'b08': 3, 'b10': 3, 'b09': 2}
 KEVIN = ['liverpool', 'borussia dortmund', 'dortmund', 'portland timbers', 'portland thorns', 'sacramento republic']
 GUT = {'Cristiano Ronaldo': 6, 'Erling Haaland': 9, 'Harry Kane': 7, 'Jude Bellingham': 8, 'Kylian Mbappé': 7, 'Lamine Yamal': 7,

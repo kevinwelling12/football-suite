@@ -199,4 +199,6 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
 - Independent audit (audit/): a second set of scorers re-scored all 306 blind from the facts plus web checks (AUDIT_BRIEF.md);
   scores are averaged, gaps over 1.5 settled by a third pass (adjudicated.json). They also checked every incident: 31
   corrections (victims filed as offenders, wrong types, dropped or acquitted cases) and 18 added, applied by model.load().
+  Borderline additions kept (Claude's call, Kevin had no view): Keegan 1974 fight with Bremner (b06, both sent off and
+  banned), Matthäus 1984 Gladbach to Bayern (b09, the 1970s title rivalry; he had signed before the 1984 cup final vs Bayern).
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

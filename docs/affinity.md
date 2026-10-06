@@ -187,7 +187,8 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   information, plus a baggage trait and a "can't split them" answer). Result in fit.json: Team player 29, Character 25,
   Loyalty 16, Joy 14, Legacy 12, Greatness 4.5; connection x1.09, penalties x2.54. Leave-one-out 77% of 48 decided pairs
   (round-8 fit with names: 65%). As checks: it calls 17 of 29 named head-to-heads and tracks the gut ratings at r 0.36.
-- Connection (adjustment, then x1.09): +1.2 per season at Liverpool, Dortmund, Timbers, Thorns, Republic (max +8); -0.3 per season at clubs he
+- Connection (adjustment, then x1.02): +1.2 per season at Liverpool, Timbers, Thorns, Republic, +0.6 at Dortmund (half weight
+  from 2026-10-06: Kevin's pull to Dortmund hasn't materialised like Liverpool's) (max +8); -0.3 per season at clubs he
   rates under 35 (max -3); US international +2.
 - Penalties (then x2.54) from his best-worst ranking: abuse allegations 18, racist abuse 14, match-fixing 14, violent conduct 7, authoritarian
   ambassador 7, tax fraud 5, doping 4, Saudi move 3, forced transfer 3, rival move 2. Dropped/acquitted 30%, apology 60%,

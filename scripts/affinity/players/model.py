@@ -68,7 +68,8 @@ def connection(p):
     plus = minus = 0.0
     for c in p.get('clubs', []):
         n = ' '.join(norm(c.get('club')))
-        if any(k in n for k in KEVIN) and 'ii' not in n.split(): plus += 1.2 * seasons(c)
+        # Dortmund at half weight (Kevin, 2026-10-06: drawn to them like Liverpool, but the affinity hasn't materialised)
+        if any(k in n for k in KEVIN) and 'ii' not in n.split(): plus += (0.6 if 'dortmund' in n else 1.2) * seasons(c)
         else:
             a = club_aff(c.get('club'))
             if a is not None and a < 35: minus += 0.3 * seasons(c)

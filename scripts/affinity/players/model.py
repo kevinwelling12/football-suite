@@ -1,8 +1,9 @@
-"""Player Affinity (quiz round 7, 2026-10-06).
+"""Player Affinity (quiz rounds 7 and 8, 2026-10-06).
 
-Player Affinity = factor score + connection + penalties - era, capped 0-100.
-- Factor score: six factors 0-10 (scores/*.json, from research/out/*.json and SCORING_BRIEF.md), weighted by Kevin's
-  blend of his 100-point budget and the fit to his gut ratings (see W). Sum / total * 10.
+Player Affinity = factor score + connection + penalties, capped 0-100.
+- Factor score: six factors 0-10 (scores/*.json, from research/out/*.json and SCORING_BRIEF.md), weighted by the fit to
+  Kevin's choices and gut ratings (fit.py -> fit.json, see W). Sum / total * 10. Connection and penalties are scaled by the
+  fitted CONN_X and PEN_X.
 - Connection (quiz s05 "big boost", s04 "a little", s07 "small boost"): seasons at Kevin's clubs (Liverpool, Dortmund,
   Timbers, Thorns, Republic) +1.2 each up to +8; seasons at clubs he rates under 35 (Man City, PSG, NYCFC, Inter Miami,
   Chelsea, RB Leipzig, Lazio...) -0.3 each down to -3; a US international +2.
@@ -18,9 +19,13 @@ Usage: python3 scripts/affinity/players/model.py [--fit]
 import json, glob, pathlib, re, sys, unicodedata
 root = pathlib.Path(__file__).resolve().parents[3]
 here = pathlib.Path(__file__).resolve().parent
-# Half his 100-point budget (CH 30, WK 20, LO 15, AB 10, ST 10, LE 10), half the weights that best fit his 18 gut ratings
-# (CH 20, WK 5, AB 76; leave-one-out r 0.81): the same stated/revealed split as the club rounds. Gut fit r 0.62.
-W = {'CH': 25, 'WK': 12.5, 'LO': 7.5, 'AB': 43, 'ST': 5, 'LE': 5}
+# Weights fitted to Kevin's choices (quiz round 8: real-player head-to-heads and mystery-player trade-offs) and gut ratings
+# (round 7) by fit.py, read from fit.json; connection and penalties are scaled by the fit too. No 100-point budget (round 7's
+# budget was dropped: Kevin found it hard to use). Fallback values if fit.json is missing.
+_fit = json.loads((pathlib.Path(__file__).resolve().parent / 'fit.json').read_text()) if (pathlib.Path(__file__).resolve().parent / 'fit.json').exists() else None
+W = _fit['W'] if _fit else {'CH': 23, 'WK': 14, 'LO': 7, 'AB': 31, 'ST': 13, 'LE': 12}
+CONN_X = _fit['conn'] if _fit else 0.48
+PEN_X = _fit['pen'] if _fit else 1.5
 SEV = {'b02': 18, 'b01': 14, 'b04': 14, 'b06': 7, 'b12': 7, 'b05': 5, 'b03': 4, 'b08': 3, 'b10': 3, 'b09': 2}
 KEVIN = ['liverpool', 'borussia dortmund', 'dortmund', 'portland timbers', 'portland thorns', 'sacramento republic']
 GUT = {'Cristiano Ronaldo': 6, 'Erling Haaland': 9, 'Harry Kane': 7, 'Jude Bellingham': 8, 'Kylian Mbappé': 7, 'Lamine Yamal': 7,
@@ -100,7 +105,7 @@ def load():
 
 def rate(p, s, w=W):
     base = sum(w[k] * s[k] for k in w) / sum(w.values()) * 10
-    c, pen, e = connection(p), penalties(p), era(p)
+    c, pen, e = CONN_X * connection(p), PEN_X * penalties(p), era(p)
     return dict(name=p['name'], gender=p.get('gender'), active=bool(p.get('active')), base=round(base, 1), conn=round(c, 1),
                 pen=round(pen, 1), era=round(e, 1), aff=round(max(0, min(100, base + c + pen + e)), 1), **{k: s[k] for k in W})
 

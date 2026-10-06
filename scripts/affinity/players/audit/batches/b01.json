@@ -1,0 +1,2509 @@
+[
+ {
+  "name": "Alessia Russo",
+  "full_name": "Alessia Mia Teresa Russo",
+  "gender": "W",
+  "active": true,
+  "born": 2000,
+  "nation": "England",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Chelsea",
+    "from": null,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester United",
+    "from": 2020,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Arsenal",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "Euro 2022, 2025; UWCL 2025",
+  "awards": "",
+  "moments": [
+   "Back-heel goal vs Sweden, Euro 2022 semi"
+  ],
+  "style": [
+   "link-up striker",
+   "pressing"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Arsenal favourite",
+  "loyalty_notes": "Left Man United on a free (2023) after United rejected Arsenal's record bid",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "England (74)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alessia_Russo"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kylian Mbappé",
+  "full_name": "Kylian Mbappé Lottin",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "France",
+  "positions": [
+   "CF",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Monaco",
+    "from": 2015,
+    "to": 2017,
+    "apps": 60,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2017,
+    "to": 2024,
+    "apps": 308,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Paris Saint-Germain",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "France captain 2023-",
+  "national": {
+   "team": "France",
+   "caps": 86,
+   "goals": 48,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Ligue 1 x7 (1 Monaco, 6 PSG); World Cup 2018; Nations League 2021; Real Madrid: Intercontinental Cup 2024",
+  "awards": "World Cup Golden Boot 2022; European Golden Shoe 2025",
+  "moments": [
+   "World Cup 2018 final goal aged 19",
+   "Hat-trick in 2022 World Cup final (lost on pens)"
+  ],
+  "style": [
+   "pace",
+   "elite finisher",
+   "inside forward"
+  ],
+  "work_rate": "low (criticised for low pressing)",
+  "ego": "big (dominated PSG decisions, public contract sagas)",
+  "fan_bond": "Hero at PSG statistically but strained relationship; ended on bad terms",
+  "loyalty_notes": "Strung PSG along 2022 then left on a free 2024; legal dispute with PSG over unpaid wages",
+  "causes": [
+   "Inspired by Bondy roots; funds Premiers de Cordée (sport for hospitalised children)",
+   "Refused to promote betting/fast food in France team photo shoots"
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "b02",
+    "what": "Swedish media named him in a Stockholm rape investigation; prosecutors closed it Dec 2024 for insufficient evidence; he was never notified as suspect",
+    "outcome": "case closed; denied",
+    "source": "https://www.thelocal.se/20241212/swedish-police-drop-rape-inquiry-against-kylian-mbappe"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://www.thelocal.se/20241212/swedish-police-drop-rape-inquiry-against-kylian-mbappe"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Real Madrid"
+ },
+ {
+  "name": "Briana Scurry",
+  "full_name": "Briana Collette Scurry",
+  "gender": "W",
+  "active": false,
+  "born": 1971,
+  "nation": "USA",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Atlanta Beat",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Washington Freedom",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Atlanta Beat",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 175,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "World Cup 1999; Olympic gold 1996, 2004",
+  "awards": "First Black woman and first female GK in National Soccer Hall of Fame (2017)",
+  "moments": [
+   "Saved Liu Ying's penalty in 1999 World Cup final shootout"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Revered pioneer",
+  "loyalty_notes": "",
+  "causes": [
+   "Concussion/brain-injury awareness after career-ending 2010 concussion",
+   "Pioneer for Black and LGBTQ athletes"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Briana_Scurry"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Fabio Cannavaro",
+  "full_name": "Fabio Cannavaro",
+  "gender": "M",
+  "active": false,
+  "born": 1973,
+  "nation": "Italy",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Napoli",
+    "from": 1992,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Parma",
+    "from": 1995,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Ahli Dubai",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Parma",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "Italy captain 2006",
+  "national": {
+   "team": "Italy",
+   "caps": 136,
+   "goals": 2,
+   "captain": true
+  },
+  "honours": "2006 World Cup (captain), 2 La Liga, UEFA Cup 1999",
+  "awards": "2006 Ballon d'Or and FIFA World Player",
+  "moments": [
+   "Lifted 2006 World Cup as captain"
+  ],
+  "style": [
+   "small, quick centre-back",
+   "timing"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Napoli native; left Juve after Calciopoli relegation",
+  "loyalty_notes": "Left Juve for Real Madrid 2006 instead of staying in Serie B",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1999,
+    "type": "other",
+    "what": "video of him being injected with neoton before 1999 UEFA Cup final",
+    "outcome": "legal substance, no ban",
+    "source": ""
+   },
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "10-month suspended sentence for violating seal on his villa",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2010,
+    "what": "played for Al-Ahli Dubai (UAE)",
+    "type": "other"
+   },
+   {
+    "year": 2025,
+    "what": "coaching Uzbekistan national team (2026 WC)",
+    "type": "other"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fabio_Cannavaro",
+   "https://www.flashscore.com/news/soccer-world-championship-italy-world-cup-winner-fabio-cannavaro-to-lead-uzbekistan-at-2026-world-cup/ChZvznR8"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Landon Donovan",
+  "full_name": "Landon Timothy Donovan",
+  "gender": "M",
+  "active": false,
+  "born": 1982,
+  "nation": "USA",
+  "positions": [
+   "AM",
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "Bayer Leverkusen",
+    "from": 1999,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Jose Earthquakes",
+    "from": 2001,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2009,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2005,
+    "to": 2016,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "León",
+    "from": 2018,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "LA Galaxy",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "LA Galaxy captain",
+  "national": {
+   "team": "USA",
+   "caps": 157,
+   "goals": 57,
+   "captain": true
+  },
+  "honours": "6 MLS Cups (record: 2 San Jose, 4 Galaxy)",
+  "awards": "MLS MVP 2009; US Soccer Athlete of the Year (multiple)",
+  "moments": [
+   "91st-minute winner vs Algeria, 2010 World Cup",
+   "Left out of 2014 World Cup squad"
+  ],
+  "style": [
+   "playmaker",
+   "pace",
+   "creator"
+  ],
+  "work_rate": "high",
+  "ego": "humble: open about mental health and burnout (2013 sabbatical)",
+  "fan_bond": "Face of MLS for a generation; MLS MVP award renamed in his honour (Landon Donovan MVP)",
+  "loyalty_notes": "Chose MLS over Europe; retired 2014, came back 2016 and 2018 (León)",
+  "causes": [
+   "As San Diego Loyal coach 2020: team walked off and forfeited after a homophobic slur at Collin Martin, and forfeited a point after a racist slur at Elijah Martin",
+   "Mental-health openness"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Landon_Donovan",
+   "https://www.mlssoccer.com/news/landon-donovan-explains-why-san-diego-loyal-walked-and-forfeited-match-against"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Marco van Basten",
+  "full_name": "Marcel van Basten",
+  "gender": "M",
+  "active": false,
+  "born": 1964,
+  "nation": "Netherlands",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Ajax",
+    "from": 1981,
+    "to": 1987,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "AC Milan",
+    "from": 1987,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Ajax captain",
+  "national": {
+   "team": "Netherlands",
+   "caps": 58,
+   "goals": 24,
+   "captain": false
+  },
+  "honours": "Euro 1988, 2 European Cups, 3 Serie A",
+  "awards": "3 Ballon d'Or (1988, 1989, 1992)",
+  "moments": [
+   "Volley in Euro 1988 final vs USSR"
+  ],
+  "style": [
+   "complete striker",
+   "acrobatic finisher"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Milan and Ajax hero",
+  "loyalty_notes": "Ankle injury ended career at 28 (last match 1993)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2020,
+    "type": "other",
+    "what": "said 'Sieg Heil' on live Dutch TV mocking a German coach",
+    "outcome": "apologised; Fox Sports NL docked his pay",
+    "source": "https://www.bbc.com/sport/football/50959626"
+   }
+  ],
+  "money_moves": [],
+  "links": "Netherlands (80)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marco_van_Basten"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Uwe Seeler",
+  "full_name": "Uwe Seeler",
+  "gender": "M",
+  "active": false,
+  "born": 1936,
+  "nation": "Germany",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Hamburger SV",
+    "from": 1953,
+    "to": 1972,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Hamburger SV",
+  "longest_years": 19,
+  "one_club": true,
+  "captaincy": "HSV and West Germany captain",
+  "national": {
+   "team": "West Germany",
+   "caps": 72,
+   "goals": 43,
+   "captain": true
+  },
+  "honours": "German champion 1960, DFB-Pokal 1963",
+  "awards": "German Footballer of the Year 1960, 1964, 1970",
+  "moments": [
+   "Back-header vs England, 1970 WC",
+   "Rejected a big Inter offer 1961"
+  ],
+  "style": [
+   "centre-forward",
+   "acrobatic"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "'Uns Uwe'; died 2022",
+  "loyalty_notes": "One-club man; refused Inter",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "HSV",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Uwe_Seeler"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Eric Wynalda",
+  "full_name": "Eric Wynalda",
+  "gender": "M",
+  "active": false,
+  "born": 1969,
+  "nation": "USA",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "1. FC Saarbrücken",
+    "from": 1992,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Bochum",
+    "from": 1994,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Jose Clash",
+    "from": 1996,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Miami Fusion",
+    "from": 1999,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "León",
+    "from": 1999,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2000,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New England Revolution",
+    "from": 2001,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "San Jose Clash",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 106,
+   "goals": 34,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Scored MLS's first-ever goal (1996)",
+   "Free kick vs Switzerland, 1994 World Cup",
+   "Red card vs Czechoslovakia, 1990 World Cup"
+  ],
+  "style": [
+   "finisher",
+   "free kicks"
+  ],
+  "work_rate": "medium",
+  "ego": "big: outspoken pundit",
+  "fan_bond": "",
+  "loyalty_notes": "First American in the Bundesliga (Saarbrücken)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Eric_Wynalda"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Evander",
+  "full_name": "Evander da Silva Ferreira",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Brazil",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Vasco da Gama",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Midtjylland",
+    "from": 2019,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2024,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "FC Cincinnati",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Midtjylland",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "Danish Superliga (Midtjylland)",
+  "awards": "",
+  "moments": [
+   "Third straight 10-goal/10-assist MLS season 2026"
+  ],
+  "style": [
+   "creative no. 10",
+   "set-piece taker"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Traded by Portland to Cincinnati after one season (early 2025)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2024",
+  "sources": [
+   "https://www.beinsports.com/en-nz/football/mls/articles/cincinnati-need-to-have-more-urgency-after-leagues-cup-exit-says-evander-2026-08-13"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Mary Earps",
+  "full_name": "Mary Alexandra Earps",
+  "gender": "W",
+  "active": true,
+  "born": 1993,
+  "nation": "England",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Reading",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Wolfsburg",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2019,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2024,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "London City Lionesses",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": null,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "Euro 2022",
+  "awards": "The Best FIFA GK 2022, 2023; BBC Sports Personality of the Year 2023",
+  "moments": [
+   "Penalty save in 2023 WC final"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (memoir 2025 caused friction with England camp)",
+  "fan_bond": "Lionesses fan favourite",
+  "loyalty_notes": "Retired from England May 2025; joined PSG 2024, London City 2026",
+  "causes": [
+   "2023 campaign forcing Nike to sell her GK shirt (equality for women's kit)"
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2024,
+    "what": "PSG 2024-26 (Qatar-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "England (74)",
+  "sources": [
+   "https://www.skysports.com/football/news/11065/13555695/mary-earps-joins-london-city-lionesses-former-england-goalkeeper-returns-to-the-wsl-after-psg-exit",
+   "https://en.wikipedia.org/wiki/Mary_Earps"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kenan Yıldız",
+  "full_name": "Kenan Yıldız",
+  "gender": "M",
+  "active": true,
+  "born": 2005,
+  "nation": "Turkey",
+  "positions": [
+   "LW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Juventus",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Juventus",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Turkey",
+   "caps": 30,
+   "goals": 5,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "dribbler"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Juventus No.10",
+  "loyalty_notes": "Renewed to 2030",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Bayern youth",
+  "sources": [
+   "https://www.sofascore.com/news/juventus-e-yildiz-la-storia-continua"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Juventus"
+ },
+ {
+  "name": "Miroslav Klose",
+  "full_name": "Miroslav Josef Klose",
+  "gender": "M",
+  "active": false,
+  "born": 1978,
+  "nation": "Germany",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Kaiserslautern",
+    "from": 1999,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Werder Bremen",
+    "from": 2004,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2007,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lazio",
+    "from": 2011,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Lazio",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 137,
+   "goals": 71,
+   "captain": false
+  },
+  "honours": "2014 World Cup, 2 Bundesliga",
+  "awards": "",
+  "moments": [
+   "Record 16 World Cup goals",
+   "Told referee of his handball goal vs Napoli, 2012"
+  ],
+  "style": [
+   "poacher",
+   "header"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Respected widely for fair play",
+  "loyalty_notes": "Kaiserslautern 1999-2004, Werder 2004-07, Bayern 2007-11, Lazio 2011-16; head coach of 1. FC Nürnberg since 2025",
+  "causes": [
+   "Fair play: 2005 waived a penalty; 2012 admitted handball goal"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Werder (77); Bayern; Germany",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Miroslav_Klose"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Thibaut Courtois",
+  "full_name": "Thibaut Nicolas Marc Courtois",
+  "gender": "M",
+  "active": true,
+  "born": 1992,
+  "nation": "Belgium",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Genk",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Chelsea",
+    "from": 2011,
+    "to": 2018,
+    "apps": 154,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2011,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2018,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Belgium",
+   "caps": 102,
+   "goals": 0,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Real Madrid: 2 UCL; Atlético: La Liga 2014; Chelsea: 2 PL",
+  "awards": "Yashin Trophy 2022",
+  "moments": [
+   "Man of the match 2022 UCL final"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium",
+  "ego": "big (public spats with Belgium coach Tedesco 2023)",
+  "fan_bond": "Hated by Atlético fans after joining Real Madrid",
+  "loyalty_notes": "Atlético loanee 2011-14 then joined rivals Real Madrid 2018; skipped Chelsea training to force move",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2018,
+    "type": "b08",
+    "what": "skipped Chelsea training to force move to Real Madrid",
+    "outcome": "transferred",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2018,
+    "what": "joined Real Madrid after 3 years at Atlético (city rival)",
+    "type": "b09"
+   }
+  ],
+  "links": "",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Real Madrid"
+ },
+ {
+  "name": "Hany Mukhtar",
+  "full_name": "Hany Mukhtar",
+  "gender": "M",
+  "active": true,
+  "born": 1995,
+  "nation": "Germany",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Hertha BSC",
+    "from": 2013,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Benfica",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Brøndby",
+    "from": 2017,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Nashville SC",
+    "from": 2020,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Nashville SC",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "MLS MVP and Golden Boot 2022",
+  "moments": [],
+  "style": [
+   "creative no. 10",
+   "goalscoring midfielder"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Nashville's face since its MLS debut",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://www.fotmob.com/players/394462/hany-mukhtar"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Lucy Bronze",
+  "full_name": "Lucia Roberta Tough Bronze",
+  "gender": "W",
+  "active": true,
+  "born": 1991,
+  "nation": "England",
+  "positions": [
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Sunderland",
+    "from": 2007,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2012,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2014,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lyon",
+    "from": 2017,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2020,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2022,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Lyon",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "Euro 2022, 2025; 5 UWCL (3 Lyon, 2 Barcelona); 2 WSL titles with Liverpool (2013, 2014)",
+  "awards": "The Best FIFA Women's Player 2020",
+  "moments": [
+   "Played Euro 2025 knockout run with a fractured tibia",
+   "Long-range strike vs Norway, 2019 WC QF"
+  ],
+  "style": [
+   "attacking fullback",
+   "power"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Respected everywhere; English icon",
+  "loyalty_notes": "",
+  "causes": [
+   "Disclosed autism and ADHD diagnoses (2025), advocacy on neurodiversity"
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2014,
+    "what": "Manchester City 2014-17 and 2020-22 (Abu Dhabi-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Liverpool 2012-2014 (2 WSL titles); England",
+  "sources": [
+   "https://www.beinsports.com/en-us/soccer/articles/bronze-pens-new-one-year-contract-extension-at-chelsea-2026-07-02",
+   "https://en.wikipedia.org/wiki/Lucy_Bronze"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Philipp Lahm",
+  "full_name": "Philipp Lahm",
+  "gender": "M",
+  "active": false,
+  "born": 1983,
+  "nation": "Germany",
+  "positions": [
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 2002,
+    "to": 2017,
+    "apps": 517,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "VfB Stuttgart",
+    "from": 2003,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Bayern captain 2011-17; Germany captain",
+  "national": {
+   "team": "Germany",
+   "caps": 113,
+   "goals": 5,
+   "captain": true
+  },
+  "honours": "2014 World Cup (captain), 2013 UCL, 8 Bundesliga",
+  "awards": "",
+  "moments": [
+   "Lifted 2014 World Cup",
+   "Opening goal of 2006 WC"
+  ],
+  "style": [
+   "full-back",
+   "intelligent",
+   "clean tackler"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Bayern academy captain; retired at 33 at peak",
+  "loyalty_notes": "Bayern academy; loan at Stuttgart 2003-05; Euro 2024 tournament director",
+  "causes": [
+   "Philipp Lahm Foundation (children in South Africa, Germany)",
+   "Criticised FIFA/Qatar 2022 human rights"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Bayern; Stuttgart (78)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Philipp_Lahm"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Roman Weidenfeller",
+  "full_name": "Roman Weidenfeller",
+  "gender": "M",
+  "active": false,
+  "born": 1980,
+  "nation": "Germany",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "1. FC Kaiserslautern",
+    "from": 1998,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2002,
+    "to": 2018,
+    "apps": 453,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 16,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 5,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "World Cup 2014 (squad), 2 Bundesliga, 1 DFB-Pokal",
+  "awards": "",
+  "moments": [
+   "2013 UCL final vs Bayern"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Long-serving, popular keeper; farewell 2018",
+  "loyalty_notes": "16 years at BVB incl. near-bankruptcy era",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2007,
+    "type": "other",
+    "what": "insulted Gerald Asamoah during a Schalke match (Asamoah alleged racist abuse; Weidenfeller said he used a homophobic insult)",
+    "outcome": "DFB 3-match ban for insult",
+    "source": "https://en.wikipedia.org/wiki/Roman_Weidenfeller"
+   }
+  ],
+  "money_moves": [],
+  "links": "Dortmund 2002-18",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Roman_Weidenfeller"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Meghan Klingenberg",
+  "full_name": "Meghan Elizabeth Klingenberg",
+  "gender": "W",
+  "active": false,
+  "born": 1988,
+  "nation": "USA",
+  "positions": [
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "magicJack",
+    "from": 2011,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tyresö FF",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Houston Dash",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Thorns",
+    "from": 2016,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Thorns",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Thorns co-captain at times",
+  "national": {
+   "team": "USA",
+   "caps": 73,
+   "goals": 3,
+   "captain": false
+  },
+  "honours": "World Cup 2015; NWSL Championship 2017, 2022; Shield 2016, 2021",
+  "awards": "",
+  "moments": [
+   "2015 World Cup goal-line clearance vs Sweden (header off the bar)"
+  ],
+  "style": [
+   "overlapping fullback",
+   "energetic"
+  ],
+  "work_rate": "high",
+  "ego": "humble (joker, team spirit)",
+  "fan_bond": "Big Thorns fan favourite",
+  "loyalty_notes": "Long Thorns servant 2016 to retirement (2023)",
+  "causes": [
+   "Outspoken in support of abuse survivors in 2021-22; LGBTQ ally; equal-pay generation"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Thorns 2016-2023",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Meghan_Klingenberg"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Garrincha",
+  "full_name": "Manuel Francisco dos Santos",
+  "gender": "M",
+  "active": false,
+  "born": 1933,
+  "nation": "Brazil",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Botafogo",
+    "from": 1953,
+    "to": 1965,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians",
+    "from": 1966,
+    "to": 1966,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1968,
+    "to": 1969,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Botafogo",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 50,
+   "goals": 12,
+   "captain": false
+  },
+  "honours": "1958 and 1962 World Cups",
+  "awards": "1962 WC Golden Ball and joint top scorer",
+  "moments": [
+   "Carried Brazil to 1962 World Cup with Pelé injured"
+  ],
+  "style": [
+   "dribbler",
+   "genius",
+   "flair winger"
+  ],
+  "work_rate": "medium",
+  "ego": "humble ('Joy of the People')",
+  "fan_bond": "Botafogo's idol; Brazil lost only once with him and Pelé together",
+  "loyalty_notes": "Died 1983 of alcoholism, aged 49",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1969,
+    "type": "other",
+    "what": "drink-driving crash that killed his mother-in-law",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Garrincha"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Garrincha"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Caroline Graham Hansen",
+  "full_name": "Caroline Graham Hansen",
+  "gender": "W",
+  "active": true,
+  "born": 1995,
+  "nation": "Norway",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Stabæk",
+    "from": 2011,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tyresö FF",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Wolfsburg",
+    "from": 2014,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2019,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Norway",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "UWCL 2021, 2023, 2024, 2026; many Liga F titles",
+  "awards": "",
+  "moments": [
+   "Dribbling masterclass in 2021 UWCL final"
+  ],
+  "style": [
+   "genius winger",
+   "dribbler"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (outspoken)",
+  "fan_bond": "Barcelona favourite; extended to 2028",
+  "loyalty_notes": "",
+  "causes": [
+   "Critic of fixture overload and of Norway federation"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Barcelona (73); Norway (76)",
+  "sources": [
+   "https://www.fcbarcelona.com/en/news/4536341/agreement-for-contract-extension-for-caroline-graham-hansen-until-30-june-2028"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lee Desmond",
+  "full_name": "Lee Desmond",
+  "gender": "M",
+  "active": true,
+  "born": 1995,
+  "nation": "Ireland",
+  "positions": [
+   "CB",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "St Patrick's Athletic",
+    "from": 2015,
+    "to": 2021,
+    "apps": 225,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sacramento Republic FC",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "St Patrick's Athletic",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "Republic co-captain 2022-25; captain 2026 (after López retired)",
+  "national": {
+   "team": "Ireland",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "FAI Cup 2021 (St Pat's)",
+  "awards": "",
+  "moments": [
+   "2022 U.S. Open Cup final run",
+   "100th Republic appearance June 2025"
+  ],
+  "style": [
+   "organiser",
+   "centre-back"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "leader of the 2025 defence (club-record 17 clean sheets)",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Sacramento Republic 2022-, captain 2026",
+  "sources": [
+   "https://www.sacrepublicfc.com/?p=45558",
+   "https://www.sacrepublicfc.com/news/2021/12/23/irish-international-lee-desmond-added-to-republic-fc-roster-for-2022-season"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ian Wright",
+  "full_name": "Ian Edward Wright",
+  "gender": "M",
+  "active": false,
+  "born": 1963,
+  "nation": "England",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Crystal Palace",
+    "from": 1985,
+    "to": 1991,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 1991,
+    "to": 1998,
+    "apps": 288,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "West Ham United",
+    "from": 1998,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Nottingham Forest",
+    "from": 1999,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 1999,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Burnley",
+    "from": 2000,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Arsenal",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 33,
+   "goals": 9,
+   "captain": false
+  },
+  "honours": "PL 1998, 2 FA Cup (1993, 1998), League Cup 1993, Cup Winners' Cup 1994",
+  "awards": "",
+  "moments": [
+   "Signed from non-league Greenwich Borough at 21 (1985)",
+   "Broke Arsenal's scoring record (185) in 1997"
+  ],
+  "style": [
+   "finisher",
+   "explosive"
+  ],
+  "work_rate": "high",
+  "ego": "neutral: exuberant, emotional",
+  "fan_bond": "Beloved at Palace and Arsenal; national treasure as broadcaster",
+  "loyalty_notes": "Late starter after rejections and a spell in prison (young adult, driving offences) before turning pro",
+  "causes": [
+   "Long-time anti-racism voice (incl. on online abuse)",
+   "'Home Truths' BBC documentary 2021 on domestic abuse he witnessed as a child, with Women's Aid",
+   "supports youth/education charities"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ian_Wright"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Lindsey Horan",
+  "full_name": "Lindsey Michelle Heaps (née Horan)",
+  "gender": "W",
+  "active": true,
+  "born": 1994,
+  "nation": "USA",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2012,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Thorns",
+    "from": 2016,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lyon",
+    "from": 2022,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Denver Summit FC",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Thorns",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "USWNT captain 2023-",
+  "national": {
+   "team": "USA",
+   "caps": null,
+   "goals": null,
+   "captain": true
+  },
+  "honours": "World Cup 2019; Olympic gold 2024; NWSL Championship 2017; Shield 2016, 2021; UWCL 2022; French titles with Lyon",
+  "awards": "2018 NWSL MVP; U.S. Soccer Female Player of the Year 2018",
+  "moments": [
+   "Skipped college to turn pro at PSG at 18 (2012)",
+   "Captained USWNT to 2024 Olympic gold"
+  ],
+  "style": [
+   "box-to-box",
+   "aerial",
+   "combative"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (fiery competitor, sometimes outspoken with referees)",
+  "fan_bond": "Thorns fan favourite 2016-22; now signed for hometown Denver expansion club she helped campaign for",
+  "loyalty_notes": "Thorns sold her to Lyon in 2023 after loan; joined Denver Summit (home state) June 2026",
+  "causes": [
+   "USWNT equal-pay fight: plaintiff in 2019 gender-discrimination lawsuit (settled 2022, $24m + equal pay in CBA)",
+   "Supported 'For Denver FC' grassroots bid for a Colorado NWSL team"
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2012,
+    "what": "PSG 2012-16 (Qatar-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Portland Thorns 2016-2022",
+  "sources": [
+   "https://www.denvergazette.com/2026/01/12/uswnt-captain-lindsey-heaps-signs-with-hometown-denver-summit-fc/",
+   "https://en.wikipedia.org/wiki/Lindsey_Horan"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alexander Isak",
+  "full_name": "Alexander Isak",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Sweden",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "AIK",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Willem II (loan)",
+    "from": 2019,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Sociedad",
+    "from": 2019,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 2022,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Sociedad",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Sweden",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "Copa del Rey 2020 (Real Sociedad), League Cup 2025 (Newcastle)",
+  "awards": "",
+  "moments": [
+   "Scored in Newcastle's 2025 League Cup final win",
+   "British-record move to Liverpool Sept 2025 (~£125m)"
+  ],
+  "style": [
+   "elegant striker",
+   "dribbling no. 9"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Newcastle fans turned on him after the 2025 strike; Liverpool first season disrupted by broken leg (Dec 2025), 4 goals in 22 games",
+  "loyalty_notes": "Refused to train/play for Newcastle in summer 2025 to force move to Liverpool",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2025,
+    "type": "b08",
+    "what": "went on strike at Newcastle (missed pre-season, refused to play) to force Liverpool move",
+    "outcome": "sold to Liverpool on deadline day",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2022,
+    "what": "joined Newcastle (PIF-owned since 2021)",
+    "type": "b11"
+   }
+  ],
+  "links": "Liverpool 2025-; Dortmund 2017-19; Real Sociedad 2019-22",
+  "sources": [
+   "https://www.lfchistory.net/players/2438",
+   "https://www.soccernews.com/isak-confident-of-better-second-season-with-liverpool/403102/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Andrés Iniesta",
+  "full_name": "Andrés Iniesta Luján",
+  "gender": "M",
+  "active": false,
+  "born": 1984,
+  "nation": "Spain",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2002,
+    "to": 2018,
+    "apps": 674,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Vissel Kobe",
+    "from": 2018,
+    "to": 2023,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Emirates Club",
+    "from": 2023,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 16,
+  "one_club": false,
+  "captaincy": "Barcelona captain 2015-18",
+  "national": {
+   "team": "Spain",
+   "caps": 131,
+   "goals": 13,
+   "captain": false
+  },
+  "honours": "2010 World Cup, Euro 2008 and 2012, 4 UCL, 9 La Liga, 2019 Emperor's Cup",
+  "awards": "2010 Ballon d'Or runner-up",
+  "moments": [
+   "Winning goal in 2010 World Cup final, revealing tribute shirt to Dani Jarque",
+   "Late away goal at Stamford Bridge, 2009 UCL semi"
+  ],
+  "style": [
+   "playmaker",
+   "dribbler",
+   "press resistance"
+  ],
+  "work_rate": "high",
+  "ego": "humble (applauded at rival grounds incl. Espanyol's)",
+  "fan_bond": "Universally loved; ovations from rival fans across Spain",
+  "loyalty_notes": "Barça academy 1996-2018; Vissel Kobe 2018-23; retired Oct 2024",
+  "causes": [
+   "Spoke openly about his depression (2009) to destigmatise mental health"
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "played for Emirates Club (UAE)",
+    "type": "other"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andrés_Iniesta"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Julian Brandt",
+  "full_name": "Julian Brandt",
+  "gender": "M",
+  "active": true,
+  "born": 1996,
+  "nation": "Germany",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2014,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2019,
+    "to": 2026,
+    "apps": 300,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ajax",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 48,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "DFB-Pokal 2021",
+  "awards": "",
+  "moments": [
+   "2024 UCL final run with BVB"
+  ],
+  "style": [
+   "creative playmaker",
+   "flair passer"
+  ],
+  "work_rate": "low",
+  "ego": "neutral: criticised for inconsistency",
+  "fan_bond": "divisive; respected for 300+ games",
+  "loyalty_notes": "Contract not renewed; left BVB summer 2026 and joined Ajax (to 2029)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2019-26",
+  "sources": [
+   "https://www.qatar-tribune.com/article/247084/sports/germany-midfielder-julian-brandt-joins-ajax"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Riqui Puig",
+  "full_name": "Ricard Puig Martí",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Spain",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2018,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "LA Galaxy",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Spain",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "MLS Cup 2024 (injured in the conference final)",
+  "awards": "",
+  "moments": [
+   "Solo goal vs Houston, 2023"
+  ],
+  "style": [
+   "La Masia playmaker",
+   "flair"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Galaxy favourite",
+  "loyalty_notes": "Missed 2025 and 2026 seasons after two ACL surgeries; expected back for 2027",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://www.messenger-inquirer.com/news/national/galaxys-puig-to-miss-2026-mls-season-after-second-knee-op/article_4c14a193-c0e4-5419-89e0-fad67a60b5e8.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Clint Dempsey",
+  "full_name": "Clinton Drew Dempsey",
+  "gender": "M",
+  "active": false,
+  "born": 1983,
+  "nation": "USA",
+  "positions": [
+   "AM",
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "New England Revolution",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fulham",
+    "from": 2007,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Seattle Sounders",
+    "from": 2013,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Seattle Sounders",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "USA captain 2013-14",
+  "national": {
+   "team": "USA",
+   "caps": 141,
+   "goals": 57,
+   "captain": true
+  },
+  "honours": "Supporters' Shield 2014, US Open Cup 2014 (Seattle)",
+  "awards": "",
+  "moments": [
+   "Goal after 29 seconds vs Ghana, 2014 World Cup",
+   "Chip vs Juventus in 2010 Europa League comeback for Fulham"
+  ],
+  "style": [
+   "finisher",
+   "flair",
+   "street-ball creativity"
+  ],
+  "work_rate": "high",
+  "ego": "neutral: combative competitor",
+  "fan_bond": "Fulham's top PL scorer at the time; Sounders hero",
+  "loyalty_notes": "Retired 2018 after heart arrhythmia (2016)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2014,
+    "type": "other",
+    "what": "ripped up the referee's notebook in Seattle's Open Cup match at Portland",
+    "outcome": "suspended for Open Cup games by US Soccer",
+    "source": "https://en.wikipedia.org/wiki/Clint_Dempsey"
+   }
+  ],
+  "money_moves": [],
+  "links": "USA; Sounders (Timbers' rival)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Clint_Dempsey"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Barbra Banda",
+  "full_name": "Barbra Banda",
+  "gender": "W",
+  "active": true,
+  "born": 2000,
+  "nation": "Zambia",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "EDF Logroño",
+    "from": 2018,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Shanghai Shengli",
+    "from": 2020,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Orlando Pride",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Shanghai Shengli",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "Zambia captain",
+  "national": {
+   "team": "Zambia",
+   "caps": null,
+   "goals": null,
+   "captain": true
+  },
+  "honours": "NWSL Shield & Championship 2024",
+  "awards": "BBC Women's Footballer of the Year 2024; 2024 NWSL Championship MVP",
+  "moments": [
+   "Only woman with hat-tricks at two Olympics (2021, 2024)",
+   "Winning goal in 2024 NWSL final"
+  ],
+  "style": [
+   "power striker",
+   "pace"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Orlando favourite; contract to 2029; club-record 16 goals 2026",
+  "loyalty_notes": "",
+  "causes": [
+   "Pioneer for Zambian/African women's football"
+  ],
+  "incidents": [
+   {
+    "year": 2022,
+    "type": "other",
+    "what": "excluded from 2022 WAFCON on gender-eligibility (testosterone) grounds",
+    "outcome": "not a misconduct finding; later cleared to play 2023 WC",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://mynews13.com/fl/orlando/sports/2026/09/14/pride-ink-banda-to-contract-through-2029-nwsl-season",
+   "https://en.wikipedia.org/wiki/Barbra_Banda"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Brian McBride",
+  "full_name": "Brian Robert McBride",
+  "gender": "M",
+  "active": false,
+  "born": 1972,
+  "nation": "USA",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Columbus Crew",
+    "from": 1996,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Preston North End",
+    "from": 2000,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2003,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fulham",
+    "from": 2004,
+    "to": 2008,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2008,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Columbus Crew",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Fulham captain",
+  "national": {
+   "team": "USA",
+   "caps": 96,
+   "goals": 30,
+   "captain": false
+  },
+  "honours": "US Open Cup 2002 (Columbus)",
+  "awards": "",
+  "moments": [
+   "Goals at 1998 and 2002 World Cups",
+   "Fractured eye socket from De Rossi's elbow, 2006 World Cup"
+  ],
+  "style": [
+   "target man",
+   "aerial"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Fulham cult hero: Craven Cottage bar named 'McBride's'",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brian_McBride"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sócrates",
+  "full_name": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira",
+  "gender": "M",
+  "active": false,
+  "born": 1954,
+  "nation": "Brazil",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Botafogo-SP",
+    "from": 1974,
+    "to": 1978,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians",
+    "from": 1978,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fiorentina",
+    "from": 1984,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1985,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Corinthians",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "Brazil captain 1982",
+  "national": {
+   "team": "Brazil",
+   "caps": 60,
+   "goals": 22,
+   "captain": true
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Corinthians Democracy",
+   "1982 World Cup"
+  ],
+  "style": [
+   "playmaker",
+   "backheel"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Corinthians icon",
+  "loyalty_notes": "Qualified doctor; died 2011",
+  "causes": [
+   "Corinthians Democracy (1982) against the military dictatorship"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sócrates"
+  ],
+  "confidence": "high"
+ }
+]

@@ -7,6 +7,9 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 var(--sans);padding-inline:16px;-webkit-font-smoothing:antialiased}
 .wrap{max-width:720px;margin:0 auto;padding-block:20px 48px;display:flex;flex-direction:column;gap:14px}
 h1{margin:0;font-size:32px;letter-spacing:-.03em;font-weight:800}
+.nwb{border:1px solid var(--line);border-radius:999px;background:none;color:var(--muted);font:inherit;font-size:13.5px;font-weight:650;padding:7px 13px;cursor:pointer;align-self:flex-start}
+.nwb[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+.tag{display:inline-block;margin-left:6px;font-size:11px;font-weight:800;letter-spacing:.04em;color:var(--accent);vertical-align:1px}
 .lead{margin:0;color:var(--muted);max-width:62ch}
 .tabs{display:flex;gap:6px;flex-wrap:wrap}
 .tabs button{border:0;border-radius:999px;background:var(--card2);color:var(--muted);font:inherit;font-weight:650;padding:8px 14px;cursor:pointer}
@@ -46,18 +49,21 @@ h1{margin:0;font-size:32px;letter-spacing:-.03em;font-weight:800}
     <button type="button" data-l="ma" aria-pressed="true">Men · Active</button><button type="button" data-l="mt" aria-pressed="false">Men · All-time</button>
     <button type="button" data-l="wa" aria-pressed="false">Women · Active</button><button type="button" data-l="wt" aria-pressed="false">Women · All-time</button>
   </div>
+  <button type="button" class="nwb" id="nw" aria-pressed="false" hidden>NWSL only</button>
   <div class="list" id="list"></div>
 </div>
 <script>
 const L = /*__LISTS__*/;
 const F = ['Character', 'Team player', 'Loyalty & bond', 'Greatness', 'Joy to watch', 'Legacy'];
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
-let cur = 'ma', open = null;
+let cur = 'ma', open = null, nwOnly = false;
 try { cur = localStorage.getItem('pa-list') || 'ma'; if (!L[cur]) cur = 'ma'; } catch (e) {}
 function draw() {
   document.querySelectorAll('[data-l]').forEach(b => b.setAttribute('aria-pressed', b.dataset.l === cur));
-  document.getElementById('list').innerHTML = L[cur].map((p, i) => `<div class="row"><button type="button" data-i="${i}" aria-expanded="${open === i}">
-    <span class="rk">${i + 1}</span><span class="nm">${esc(p.n)}<small>${esc([p.pos, p.nat, p.clubs.slice(-2).join(', ')].filter(Boolean).join(' · '))}</small></span><span class="sc">${p.a.toFixed(1)}</span></button>
+  const nwb = document.getElementById('nw'); nwb.hidden = cur[0] !== 'w'; nwb.setAttribute('aria-pressed', nwOnly);
+  const rows = L[cur].map((p, i) => [p, i]).filter(([p]) => !(nwOnly && cur[0] === 'w') || p.nw);
+  document.getElementById('list').innerHTML = rows.map(([p, i]) => `<div class="row"><button type="button" data-i="${i}" aria-expanded="${open === i}">
+    <span class="rk">${i + 1}</span><span class="nm">${esc(p.n)}${p.nw ? '<span class="tag">NWSL</span>' : ''}<small>${esc([p.pos, p.nat, p.clubs.slice(-2).join(', ')].filter(Boolean).join(' · '))}</small></span><span class="sc">${p.a.toFixed(1)}</span></button>
     ${open === i ? `<div class="det"><div class="bars">${p.f.map((v, k) => `<span>${F[k]}</span><i><b style="width:${v * 10}%"></b></i><span>${v.toFixed(1)}</span>`).join('')}</div>
       <div class="adj">${p.c ? `<span>Connection <b class="${p.c > 0 ? 'pos' : 'neg'}">${p.c > 0 ? '+' : ''}${p.c.toFixed(1)}</b></span>` : ''}
       ${p.ps ? `<span>Favourite position <b class="pos">+${p.ps.toFixed(1)}</b></span>` : ''}
@@ -65,6 +71,7 @@ function draw() {
       ${p.why ? `<p class="why">${esc(p.why)}</p>` : ''}</div>` : ''}</div>`).join('');
   document.querySelectorAll('[data-i]').forEach(b => b.onclick = () => { const i = +b.dataset.i; open = open === i ? null : i; draw(); });
 }
+document.getElementById('nw').onclick = () => { nwOnly = !nwOnly; open = null; draw(); };
 document.querySelectorAll('[data-l]').forEach(b => b.onclick = () => { cur = b.dataset.l; open = null; try { localStorage.setItem('pa-list', cur); } catch (e) {} draw(); });
 draw();
 </script>

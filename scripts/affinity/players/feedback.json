@@ -65,5 +65,12 @@
  {
   "name": "(rule)",
   "note": "Dortmund connection at half weight in the player model; club tracker rating for Dortmund to be judged like any non-favourite club"
+ },
+ {
+  "name": "Marco Reus",
+  "rank": 2,
+  "aff": 91.8,
+  "verdict": "agree",
+  "note": "seems about right; a sunset move (Galaxy) isn't held against a player"
  }
 ]

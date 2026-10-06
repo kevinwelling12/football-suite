@@ -2,8 +2,7 @@
 
 Player Affinity = factor score + connection + penalties - era, capped 0-100.
 - Factor score: six factors 0-10 (scores/*.json, from research/out/*.json and SCORING_BRIEF.md), weighted by Kevin's
-  100-point budget (Connection's 5 points go to the connection adjustment): Character 30, Team player 20, Loyalty & bond 15,
-  Greatness 10, Joy to watch 10, Legacy 10. Sum / 95 * 10.
+  blend of his 100-point budget and the fit to his gut ratings (see W). Sum / total * 10.
 - Connection (quiz s05 "big boost", s04 "a little", s07 "small boost"): seasons at Kevin's clubs (Liverpool, Dortmund,
   Timbers, Thorns, Republic) +1.2 each up to +8; seasons at clubs he rates under 35 (Man City, PSG, NYCFC, Inter Miami,
   Chelsea, RB Leipzig, Lazio...) -0.3 each down to -3; a US international +2.
@@ -11,14 +10,17 @@ Player Affinity = factor score + connection + penalties - era, capped 0-100.
   conduct = authoritarian ambassador, tax fraud, then doping = forced transfer = Saudi move, then rival move. Diving and
   general conduct live in Character. An acquittal or dropped charges cuts a penalty to 30%; an apology to 60% (s06 "counts
   less"); a move made as a coach counts half.
-- Era (s02 "count a bit less"; he knows few pre-2015 players): -1 per 5 years a career ended before 2015, at most -4.
+- Era: none. Quiz s02 said "count a bit less", but Kevin has followed closely for under a year and asked that past players
+  not be judged through that lens.
 
 Usage: python3 scripts/affinity/players/model.py [--fit]
 """
 import json, glob, pathlib, re, sys, unicodedata
 root = pathlib.Path(__file__).resolve().parents[3]
 here = pathlib.Path(__file__).resolve().parent
-W = {'CH': 30, 'WK': 20, 'LO': 15, 'AB': 10, 'ST': 10, 'LE': 10}
+# Half his 100-point budget (CH 30, WK 20, LO 15, AB 10, ST 10, LE 10), half the weights that best fit his 18 gut ratings
+# (CH 20, WK 5, AB 76; leave-one-out r 0.81): the same stated/revealed split as the club rounds. Gut fit r 0.62.
+W = {'CH': 25, 'WK': 12.5, 'LO': 7.5, 'AB': 43, 'ST': 5, 'LE': 5}
 SEV = {'b02': 18, 'b01': 14, 'b04': 14, 'b06': 7, 'b12': 7, 'b05': 5, 'b03': 4, 'b08': 3, 'b10': 3, 'b09': 2}
 KEVIN = ['liverpool', 'borussia dortmund', 'dortmund', 'portland timbers', 'portland thorns', 'sacramento republic']
 GUT = {'Cristiano Ronaldo': 6, 'Erling Haaland': 9, 'Harry Kane': 7, 'Jude Bellingham': 8, 'Kylian Mbappé': 7, 'Lamine Yamal': 7,
@@ -69,7 +71,7 @@ def penalties(p):
         if not s: continue
         txt = (' '.join(str(e.get(k, '')) for k in ('what', 'outcome'))).lower()
         f = 1.0
-        if re.search(r'acquit|dismiss|dropped|cleared|not guilty|no charges|charges were', txt): f = 0.3
+        if re.search(r'acquit|dismiss|dropped|cleared|closed|not guilty|no charges|charges were', txt): f = 0.3
         elif re.search(r'apolog', txt): f = 0.6
         if t == 'b10' and re.search(r'manag|coach', txt): f *= 0.5
         items.append((t, round(s * f, 1))); tot += s * f
@@ -81,9 +83,9 @@ def penalties(p):
     return -out
 
 def era(p):
-    if p.get('active'): return 0
-    end = max([c.get('to') or NOW for c in p.get('clubs', [])] or [NOW])
-    return -min(4, max(0, (2015 - end) / 5))
+    # Dropped (Kevin, 2026-10-06): he has followed closely for under a year, so not knowing a past player says nothing
+    # about the player. All-time players are judged on the record alone.
+    return 0
 
 def load():
     facts = {}

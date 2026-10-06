@@ -175,3 +175,19 @@ Add-on review (2026-10-02, Kevin; each add-on tested by removing it and rerunnin
   big4.py item), hometown and heritage. Shown as one group; kept as adjustments, not a weighted factor: a Connection
   factor (5-10%) fitted worse (0.77-0.78), as three quarters of clubs have no connection data.
 - Result: Timbers 79.7 (13th) above Sounders 78.6 (17th) on merit; Republic 4th; AFC Wimbledon 11th.
+
+Player Affinity (2026-10-06; scripts/affinity/players: model.py, research/, scores/, ratings.json, lists.json; quiz round 7 in
+scripts/affinity/quiz7; page: claude.ai artifact "Player Affinity"):
+- Pool: ~300 players researched (facts: clubs and years, captaincy, moments, style, causes, incidents, money moves; research/BRIEF.md)
+  and scored on six factors 0-10 against fixed anchors (SCORING_BRIEF.md): Character, Team player, Loyalty & bond, Greatness,
+  Joy to watch, Legacy.
+- Weights: half Kevin's 100-point budget (CH 30, WK 20, LO 15, AB 10, ST 10, LE 10, Connection 5), half the weights that best fit his
+  18 gut ratings (CH 20, WK 5, AB 76; leave-one-out r 0.81): Greatness 43, Character 25, Team 12.5, Loyalty 7.5, Joy 5, Legacy 5.
+  Gut fit r 0.62 (budget alone 0.37).
+- Connection (adjustment): +1.2 per season at Liverpool, Dortmund, Timbers, Thorns, Republic (max +8); -0.3 per season at clubs he
+  rates under 35 (max -3); US international +2.
+- Penalties from his best-worst ranking: abuse allegations 18, racist abuse 14, match-fixing 14, violent conduct 7, authoritarian
+  ambassador 7, tax fraud 5, doping 4, Saudi move 3, forced transfer 3, rival move 2. Dropped/acquitted 30%, apology 60%,
+  a move made as a coach half. Diving and general conduct sit in Character.
+- No era discount: Kevin has followed closely for under a year, so past players are judged on the record alone.
+- Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

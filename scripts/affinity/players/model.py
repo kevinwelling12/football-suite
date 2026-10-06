@@ -119,6 +119,9 @@ def load(raw=False):
     if (a / 'merged.json').exists():
         for n, m in json.loads((a / 'merged.json').read_text()).items():
             if n in scores: scores[n] = {**scores[n], **{k: m[k] for k in W}}
+    for f in sorted(a.glob('lo_out*.json')):  # Loyalty re-scored from when a player settles (Kevin, 2026-10-06; LO_BRIEF.md)
+        for n, v in json.loads(f.read_text()).items():
+            if n in scores: scores[n] = {**scores[n], 'LO': v['LO']}
     if (a / 'incidents.json').exists():
         for n, fx in json.loads((a / 'incidents.json').read_text()).items():
             if n not in facts: continue

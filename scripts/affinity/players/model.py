@@ -87,7 +87,7 @@ def penalties(p):  # stacks with no cap (Kevin chose this: several incidents can
         if not s: continue
         txt = (' '.join(str(e.get(k, '')) for k in ('what', 'outcome'))).lower()
         f = 1.0
-        if re.search(r'acquit|dismiss|dropped|cleared|closed|not guilty|no charges|charges were', txt): f = 0.3
+        if re.search(r'acquit|dismiss|dropped|cleared|closed|not guilty|no charges|charges were|overturned|annulled|quashed', txt): f = 0.3
         elif re.search(r'apolog', txt): f = 0.6
         if t == 'b10' and re.search(r'manag|coach', txt): f *= 0.5
         items.append((t, round(s * f, 1))); tot += s * f
@@ -103,7 +103,9 @@ def era(p):
     # about the player. All-time players are judged on the record alone.
     return 0
 
-def load():
+def load(raw=False):
+    """Facts and scores. Unless raw, the independent audit is applied: merged scores (audit/merged.json) and incident
+    corrections (audit/incidents.json: dropped, retyped, new outcomes, missing incidents added)."""
     facts = {}
     for f in sorted(glob.glob(str(here / 'research' / 'out' / '*.json'))):
         for p in json.load(open(f)):
@@ -112,6 +114,26 @@ def load():
     scores = {}
     for f in sorted(glob.glob(str(here / 'scores' / '*.json'))):
         for s in json.load(open(f)): scores.setdefault(s['name'], s)
+    if raw: return facts, scores
+    a = here / 'audit'
+    if (a / 'merged.json').exists():
+        for n, m in json.loads((a / 'merged.json').read_text()).items():
+            if n in scores: scores[n] = {**scores[n], **{k: m[k] for k in W}}
+    if (a / 'incidents.json').exists():
+        for n, fx in json.loads((a / 'incidents.json').read_text()).items():
+            if n not in facts: continue
+            p = dict(facts[n]); inc, mon = list(p.get('incidents') or []), list(p.get('money_moves') or [])
+            allv = inc + mon; drop = set()
+            for v in fx.get('verdicts', []):
+                i = v.get('i')
+                if not isinstance(i, int) or i >= len(allv): continue
+                e = allv[i] = dict(allv[i])
+                if v['verdict'] == 'wrong': drop.add(i)
+                elif v['verdict'] == 'retype' and v.get('type'): e['type'] = v['type']
+                elif v['verdict'] == 'outcome' and v.get('outcome'): e['outcome'] = v['outcome']
+            p['incidents'] = [e for i, e in enumerate(allv[:len(inc)]) if i not in drop] + list(fx.get('missing', []))
+            p['money_moves'] = [e for i, e in enumerate(allv[len(inc):], len(inc)) if i not in drop]
+            facts[n] = p
     return facts, scores
 
 def rate(p, s, w=W):

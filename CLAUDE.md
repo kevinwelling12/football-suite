@@ -44,6 +44,10 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 - Pick 'em is scored on the 90-minute score only (2 pts result, 3 exact).
 - Terminology: "Affinity" (not HAI), "Matches" (not "Games"), "Affinity pick", "Match of the week".
 - The visual theme (Apple Sports-inspired: page tinted in the competition's colour, dark translucent panels, club colour discs as crests, big plain numbers) applies to every competition; keep it consistent. One dark stylesheet, src/styles.css.
+- Kevin started following the sport closely with the 2026 World Cup (about 4-6 months before Oct 2026). He knows his clubs'
+  current players and the biggest stars; older players and most others he knows by name only. Don't judge players or clubs
+  by whether he has heard of them, offer a pass/"don't know" option in quizzes, and lean on research for history. He is reading
+  Ruud Gullit's "How to Watch Soccer" (done) and "The Soccer 100" (in progress).
 - Excel trackers are deprecated. Don't recreate them.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 

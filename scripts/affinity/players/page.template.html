@@ -58,6 +58,7 @@ function draw() {
     <span class="rk">${i + 1}</span><span class="nm">${esc(p.n)}<small>${esc([p.pos, p.nat, p.clubs.slice(-2).join(', ')].filter(Boolean).join(' · '))}</small></span><span class="sc">${p.a.toFixed(1)}</span></button>
     ${open === i ? `<div class="det"><div class="bars">${p.f.map((v, k) => `<span>${F[k]}</span><i><b style="width:${v * 10}%"></b></i><span>${v.toFixed(1)}</span>`).join('')}</div>
       <div class="adj">${p.c ? `<span>Connection <b class="${p.c > 0 ? 'pos' : 'neg'}">${p.c > 0 ? '+' : ''}${p.c.toFixed(1)}</b></span>` : ''}
+      ${p.ps ? `<span>Favourite position <b class="pos">+${p.ps.toFixed(1)}</b></span>` : ''}
       ${p.p ? `<span>Penalties <b class="neg">${p.p.toFixed(1)}</b></span>${p.pen.map(x => `<span>· ${esc(x)}</span>`).join('')}` : ''}</div>
       ${p.why ? `<p class="why">${esc(p.why)}</p>` : ''}</div>` : ''}</div>`).join('');
   document.querySelectorAll('[data-i]').forEach(b => b.onclick = () => { const i = +b.dataset.i; open = open === i ? null : i; draw(); });

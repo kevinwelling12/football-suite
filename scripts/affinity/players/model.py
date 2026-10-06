@@ -25,6 +25,13 @@ _fit = json.loads((pathlib.Path(__file__).resolve().parent / 'fit.json').read_te
 W = _fit['W'] if _fit else {'CH': 25, 'WK': 29, 'LO': 16, 'AB': 4.5, 'ST': 14, 'LE': 12}
 CONN_X = _fit['conn'] if _fit else 1.09
 PEN_X = _fit['pen'] if _fit else 2.54
+# Kevin's own corrections (fixes/): the boost for his favourite positions and factor scores he changed. Fixes win over scores/.
+_fx = here / 'fixes' / 'raw' / 'responses' / 'kevin.json'
+_fx = json.loads(_fx.read_text()) if _fx.exists() else {}
+_fx = _fx.get('data', _fx)
+POS_BOOST = _fx.get('pos', 0) or 0
+FIXES = _fx.get('fix', {})
+FAV_POS = {'AM', 'DLP', 'RB', 'LB', 'RWB', 'LWB'}  # quiz 7 s03: playmaker / No. 10 and full-back
 SEV = {'b02': 18, 'b01': 14, 'b04': 14, 'b06': 7, 'b12': 7, 'b05': 5, 'b03': 4, 'b08': 3, 'b10': 3, 'b09': 2}
 KEVIN = ['liverpool', 'borussia dortmund', 'dortmund', 'portland timbers', 'portland thorns', 'sacramento republic']
 GUT = {'Cristiano Ronaldo': 6, 'Erling Haaland': 9, 'Harry Kane': 7, 'Jude Bellingham': 8, 'Kylian Mbappé': 7, 'Lamine Yamal': 7,
@@ -68,6 +75,11 @@ def connection(p):
     us = 2.0 if (p.get('national') or {}).get('team') in ('USA', 'United States') and ((p.get('national') or {}).get('caps') or 1) else 0
     return min(plus, 8) - min(minus, 3) + us
 
+def fav_pos(p):
+    # 1 if his main position is a playmaker or full-back, 0.5 if it's a second position, else 0
+    ps = p.get('positions') or []
+    return 1.0 if ps and ps[0] in FAV_POS else 0.5 if FAV_POS & set(ps) else 0.0
+
 def penalties(p):  # stacks with no cap (Kevin chose this: several incidents can take a player to 0)
     tot, items = 0.0, []
     for e in (p.get('incidents') or []) + (p.get('money_moves') or []):
@@ -103,10 +115,12 @@ def load():
     return facts, scores
 
 def rate(p, s, w=W):
+    s = {**s, **FIXES.get(p['name'], {})}
     base = sum(w[k] * s[k] for k in w) / sum(w.values()) * 10
-    c, pen, e = CONN_X * connection(p), PEN_X * penalties(p), era(p)
+    c, ps, pen, e = CONN_X * connection(p), POS_BOOST * fav_pos(p), PEN_X * penalties(p), era(p)
     return dict(name=p['name'], gender=p.get('gender'), active=bool(p.get('active')), base=round(base, 1), conn=round(c, 1),
-                pen=round(pen, 1), era=round(e, 1), aff=round(max(0, min(100, base + c + pen + e)), 1), **{k: s[k] for k in W})
+                pos=round(ps, 1), pen=round(pen, 1), era=round(e, 1), aff=round(max(0, min(100, base + c + ps + pen + e)), 1),
+                **{k: s[k] for k in W})
 
 def pearson(x, y):
     n = len(x); mx, my = sum(x) / n, sum(y) / n

@@ -16,7 +16,7 @@ def entry(r, p, s):
     pen = [f"{LABEL[e['type']]} ({e.get('year', '?')}): {e.get('what', '')}" for e in (p.get('incidents') or []) + (p.get('money_moves') or [])
            if e.get('type') in M.SEV]
     why = re.sub(r'\(?\banchors?\b\)?\s*', '', s.get('why', ''))
-    return dict(n=r['name'], a=r['aff'], f=[s[k] for k in ['CH', 'WK', 'LO', 'AB', 'ST', 'LE']], c=r['conn'], p=r['pen'],
+    return dict(n=r['name'], a=r['aff'], f=[s[k] for k in ['CH', 'WK', 'LO', 'AB', 'ST', 'LE']], c=r['conn'], ps=r.get('pos', 0), p=r['pen'],
                 nat=(p.get('national') or {}).get('team') or p.get('nation'), pos='/'.join(p.get('positions') or []), clubs=clubs,
                 why=why, pen=pen)
 

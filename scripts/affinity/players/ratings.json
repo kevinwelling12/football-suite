@@ -629,23 +629,6 @@
   "LE": 8.25
  },
  {
-  "name": "Roberto Firmino",
-  "gender": "M",
-  "active": true,
-  "base": 79.8,
-  "conn": 8.2,
-  "pos": 3.6,
-  "pen": -8.2,
-  "era": 0,
-  "aff": 83.3,
-  "CH": 7.5,
-  "WK": 9.25,
-  "LO": 6.75,
-  "AB": 8.0,
-  "ST": 8.5,
-  "LE": 7.0
- },
- {
   "name": "Tobin Heath",
   "gender": "W",
   "active": false,
@@ -952,6 +935,23 @@
   "LE": 9.0
  },
  {
+  "name": "Roberto Firmino",
+  "gender": "M",
+  "active": true,
+  "base": 79.8,
+  "conn": 8.2,
+  "pos": 3.6,
+  "pen": -11.0,
+  "era": 0,
+  "aff": 80.6,
+  "CH": 7.5,
+  "WK": 9.25,
+  "LO": 6.75,
+  "AB": 8.0,
+  "ST": 8.5,
+  "LE": 7.0
+ },
+ {
   "name": "Son Heung-min",
   "gender": "M",
   "active": true,
@@ -1086,23 +1086,6 @@
   "AB": 6.25,
   "ST": 6.25,
   "LE": 5.75
- },
- {
-  "name": "Raúl",
-  "gender": "M",
-  "active": false,
-  "base": 80.0,
-  "conn": 0.0,
-  "pos": 0.0,
-  "pen": -0.0,
-  "era": 0,
-  "aff": 80.0,
-  "CH": 7.5,
-  "WK": 8.5,
-  "LO": 8.5,
-  "AB": 8.5,
-  "ST": 7.0,
-  "LE": 8.25
  },
  {
   "name": "Lucy Bronze",
@@ -1700,23 +1683,6 @@
   "LE": 8.5
  },
  {
-  "name": "Gabriel Batistuta",
-  "gender": "M",
-  "active": false,
-  "base": 76.3,
-  "conn": 0.0,
-  "pos": 0.0,
-  "pen": -0.0,
-  "era": 0,
-  "aff": 76.3,
-  "CH": 7.0,
-  "WK": 7.25,
-  "LO": 8.25,
-  "AB": 9.0,
-  "ST": 8.0,
-  "LE": 8.0
- },
- {
   "name": "Abby Wambach",
   "gender": "W",
   "active": false,
@@ -1989,6 +1955,23 @@
   "LE": 6.0
  },
  {
+  "name": "Raúl",
+  "gender": "M",
+  "active": false,
+  "base": 80.0,
+  "conn": 0.0,
+  "pos": 0.0,
+  "pen": -5.5,
+  "era": 0,
+  "aff": 74.5,
+  "CH": 7.5,
+  "WK": 8.5,
+  "LO": 8.5,
+  "AB": 8.5,
+  "ST": 7.0,
+  "LE": 8.25
+ },
+ {
   "name": "Matthias Sammer",
   "gender": "M",
   "active": false,
@@ -2125,23 +2108,6 @@
   "LE": 4.5
  },
  {
-  "name": "Jordan Henderson",
-  "gender": "M",
-  "active": true,
-  "base": 73.7,
-  "conn": 8.2,
-  "pos": 0.0,
-  "pen": -8.2,
-  "era": 0,
-  "aff": 73.6,
-  "CH": 7.5,
-  "WK": 9.0,
-  "LO": 6.75,
-  "AB": 7.0,
-  "ST": 5.0,
-  "LE": 7.25
- },
- {
   "name": "Clint Dempsey",
   "gender": "M",
   "active": false,
@@ -2225,23 +2191,6 @@
   "AB": 9.0,
   "ST": 5.75,
   "LE": 8.75
- },
- {
-  "name": "Didier Drogba",
-  "gender": "M",
-  "active": false,
-  "base": 76.0,
-  "conn": -2.8,
-  "pos": 0.0,
-  "pen": -0.0,
-  "era": 0,
-  "aff": 73.2,
-  "CH": 7.75,
-  "WK": 7.75,
-  "LO": 6.5,
-  "AB": 8.75,
-  "ST": 7.25,
-  "LE": 8.5
  },
  {
   "name": "Wayne Rooney",
@@ -2754,6 +2703,23 @@
   "LE": 6.75
  },
  {
+  "name": "Jordan Henderson",
+  "gender": "M",
+  "active": true,
+  "base": 73.7,
+  "conn": 8.2,
+  "pos": 0.0,
+  "pen": -11.0,
+  "era": 0,
+  "aff": 70.9,
+  "CH": 7.5,
+  "WK": 9.0,
+  "LO": 6.75,
+  "AB": 7.0,
+  "ST": 5.0,
+  "LE": 7.25
+ },
+ {
   "name": "Luis Díaz",
   "gender": "M",
   "active": true,
@@ -2769,6 +2735,23 @@
   "AB": 7.75,
   "ST": 7.75,
   "LE": 4.75
+ },
+ {
+  "name": "Gabriel Batistuta",
+  "gender": "M",
+  "active": false,
+  "base": 76.3,
+  "conn": 0.0,
+  "pos": 0.0,
+  "pen": -5.5,
+  "era": 0,
+  "aff": 70.8,
+  "CH": 7.0,
+  "WK": 7.25,
+  "LO": 8.25,
+  "AB": 9.0,
+  "ST": 8.0,
+  "LE": 8.0
  },
  {
   "name": "Brian McBride",
@@ -3264,6 +3247,23 @@
   "LE": 6.5
  },
  {
+  "name": "Didier Drogba",
+  "gender": "M",
+  "active": false,
+  "base": 76.0,
+  "conn": -2.8,
+  "pos": 0.0,
+  "pen": -5.5,
+  "era": 0,
+  "aff": 67.7,
+  "CH": 7.75,
+  "WK": 7.75,
+  "LO": 6.5,
+  "AB": 8.75,
+  "ST": 7.25,
+  "LE": 8.5
+ },
+ {
   "name": "Martin Zubimendi",
   "gender": "M",
   "active": true,
@@ -3415,23 +3415,6 @@
   "AB": 6.5,
   "ST": 4.5,
   "LE": 6.5
- },
- {
-  "name": "N'Golo Kanté",
-  "gender": "M",
-  "active": true,
-  "base": 77.3,
-  "conn": -2.1,
-  "pos": 0.0,
-  "pen": -8.2,
-  "era": 0,
-  "aff": 66.9,
-  "CH": 8.25,
-  "WK": 10.0,
-  "LO": 5.5,
-  "AB": 8.5,
-  "ST": 5.0,
-  "LE": 7.5
  },
  {
   "name": "Lee Desmond",
@@ -3757,6 +3740,23 @@
   "LE": 3.0
  },
  {
+  "name": "N'Golo Kanté",
+  "gender": "M",
+  "active": true,
+  "base": 77.3,
+  "conn": -2.1,
+  "pos": 0.0,
+  "pen": -11.0,
+  "era": 0,
+  "aff": 64.2,
+  "CH": 8.25,
+  "WK": 10.0,
+  "LO": 5.5,
+  "AB": 8.5,
+  "ST": 5.0,
+  "LE": 7.5
+ },
+ {
   "name": "Lauren James",
   "gender": "W",
   "active": true,
@@ -3893,23 +3893,6 @@
   "LE": 5.5
  },
  {
-  "name": "Asisat Oshoala",
-  "gender": "W",
-  "active": true,
-  "base": 70.4,
-  "conn": 1.2,
-  "pos": 0.0,
-  "pen": -8.2,
-  "era": 0,
-  "aff": 63.4,
-  "CH": 7.75,
-  "WK": 7.75,
-  "LO": 4.25,
-  "AB": 8.0,
-  "ST": 7.0,
-  "LE": 7.5
- },
- {
   "name": "Carlos Bocanegra",
   "gender": "M",
   "active": false,
@@ -3993,23 +3976,6 @@
   "AB": 6.25,
   "ST": 4.75,
   "LE": 4.25
- },
- {
-  "name": "Philippe Coutinho",
-  "gender": "M",
-  "active": true,
-  "base": 57.1,
-  "conn": 6.1,
-  "pos": 7.2,
-  "pen": -8.2,
-  "era": 0,
-  "aff": 62.2,
-  "CH": 5.75,
-  "WK": 5.25,
-  "LO": 3.0,
-  "AB": 7.75,
-  "ST": 9.0,
-  "LE": 5.5
  },
  {
   "name": "Waldemar Anton",
@@ -4284,6 +4250,23 @@
   "LE": 2.75
  },
  {
+  "name": "Asisat Oshoala",
+  "gender": "W",
+  "active": true,
+  "base": 70.4,
+  "conn": 1.2,
+  "pos": 0.0,
+  "pen": -11.0,
+  "era": 0,
+  "aff": 60.7,
+  "CH": 7.75,
+  "WK": 7.75,
+  "LO": 4.25,
+  "AB": 8.0,
+  "ST": 7.0,
+  "LE": 7.5
+ },
+ {
   "name": "Racheal Kundananji",
   "gender": "W",
   "active": true,
@@ -4335,23 +4318,6 @@
   "LE": 3.0
  },
  {
-  "name": "Xavi",
-  "gender": "M",
-  "active": false,
-  "base": 79.0,
-  "conn": 0.0,
-  "pos": 0.0,
-  "pen": -19.2,
-  "era": 0,
-  "aff": 59.7,
-  "CH": 5.0,
-  "WK": 8.5,
-  "LO": 9.0,
-  "AB": 9.25,
-  "ST": 9.0,
-  "LE": 9.25
- },
- {
   "name": "Kasey Keller",
   "gender": "M",
   "active": false,
@@ -4401,23 +4367,6 @@
   "AB": 6.75,
   "ST": 7.25,
   "LE": 4.5
- },
- {
-  "name": "Fabio Cannavaro",
-  "gender": "M",
-  "active": false,
-  "base": 62.5,
-  "conn": 0.0,
-  "pos": 0.0,
-  "pen": -4.1,
-  "era": 0,
-  "aff": 58.4,
-  "CH": 5.25,
-  "WK": 8.0,
-  "LO": 3.75,
-  "AB": 9.0,
-  "ST": 5.25,
-  "LE": 8.0
  },
  {
   "name": "Sydney Collins",
@@ -4488,6 +4437,23 @@
   "LE": 3.25
  },
  {
+  "name": "Fabio Cannavaro",
+  "gender": "M",
+  "active": false,
+  "base": 62.5,
+  "conn": 0.0,
+  "pos": 0.0,
+  "pen": -5.5,
+  "era": 0,
+  "aff": 57.0,
+  "CH": 5.25,
+  "WK": 8.0,
+  "LO": 3.75,
+  "AB": 9.0,
+  "ST": 5.25,
+  "LE": 8.0
+ },
+ {
   "name": "Lothar Matthäus",
   "gender": "M",
   "active": false,
@@ -4503,23 +4469,6 @@
   "AB": 9.0,
   "ST": 7.0,
   "LE": 8.25
- },
- {
-  "name": "George Weah",
-  "gender": "M",
-  "active": false,
-  "base": 69.6,
-  "conn": -1.2,
-  "pos": 0.0,
-  "pen": -11.6,
-  "era": 0,
-  "aff": 56.8,
-  "CH": 7.0,
-  "WK": 6.75,
-  "LO": 4.25,
-  "AB": 9.0,
-  "ST": 8.5,
-  "LE": 8.5
  },
  {
   "name": "Antoine Griezmann",
@@ -4639,6 +4588,23 @@
   "AB": 5.0,
   "ST": 4.0,
   "LE": 2.5
+ },
+ {
+  "name": "Xavi",
+  "gender": "M",
+  "active": false,
+  "base": 79.0,
+  "conn": 0.0,
+  "pos": 0.0,
+  "pen": -24.8,
+  "era": 0,
+  "aff": 54.2,
+  "CH": 5.0,
+  "WK": 8.5,
+  "LO": 9.0,
+  "AB": 9.25,
+  "ST": 9.0,
+  "LE": 9.25
  },
  {
   "name": "Kristoffer Velde",
@@ -4777,6 +4743,40 @@
   "LE": 2.5
  },
  {
+  "name": "George Weah",
+  "gender": "M",
+  "active": false,
+  "base": 69.6,
+  "conn": -1.2,
+  "pos": 0.0,
+  "pen": -17.1,
+  "era": 0,
+  "aff": 51.3,
+  "CH": 7.0,
+  "WK": 6.75,
+  "LO": 4.25,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 8.5
+ },
+ {
+  "name": "Philippe Coutinho",
+  "gender": "M",
+  "active": true,
+  "base": 57.1,
+  "conn": 6.1,
+  "pos": 7.2,
+  "pen": -19.2,
+  "era": 0,
+  "aff": 51.2,
+  "CH": 5.75,
+  "WK": 5.25,
+  "LO": 3.0,
+  "AB": 7.75,
+  "ST": 9.0,
+  "LE": 5.5
+ },
+ {
   "name": "Jadon Sancho",
   "gender": "M",
   "active": true,
@@ -4792,23 +4792,6 @@
   "AB": 7.5,
   "ST": 8.5,
   "LE": 4.75
- },
- {
-  "name": "Darwin Núñez",
-  "gender": "M",
-  "active": true,
-  "base": 55.2,
-  "conn": 3.7,
-  "pos": 0.0,
-  "pen": -8.2,
-  "era": 0,
-  "aff": 50.6,
-  "CH": 4.75,
-  "WK": 7.25,
-  "LO": 3.75,
-  "AB": 6.5,
-  "ST": 6.5,
-  "LE": 3.75
  },
  {
   "name": "Karl-Heinz Rummenigge",
@@ -4930,21 +4913,21 @@
   "LE": 7.0
  },
  {
-  "name": "Hristo Stoichkov",
+  "name": "Darwin Núñez",
   "gender": "M",
-  "active": false,
-  "base": 59.9,
-  "conn": 0.0,
+  "active": true,
+  "base": 55.2,
+  "conn": 3.7,
   "pos": 0.0,
-  "pen": -27.5,
+  "pen": -19.2,
   "era": 0,
-  "aff": 32.4,
-  "CH": 3.25,
-  "WK": 6.5,
-  "LO": 5.0,
-  "AB": 9.0,
-  "ST": 8.5,
-  "LE": 7.75
+  "aff": 39.6,
+  "CH": 4.75,
+  "WK": 7.25,
+  "LO": 3.75,
+  "AB": 6.5,
+  "ST": 6.5,
+  "LE": 3.75
  },
  {
   "name": "Ousmane Dembélé",
@@ -4981,6 +4964,23 @@
   "LE": 6.0
  },
  {
+  "name": "Hristo Stoichkov",
+  "gender": "M",
+  "active": false,
+  "base": 59.9,
+  "conn": 0.0,
+  "pos": 0.0,
+  "pen": -30.2,
+  "era": 0,
+  "aff": 29.7,
+  "CH": 3.25,
+  "WK": 6.5,
+  "LO": 5.0,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 7.75
+ },
+ {
   "name": "Zinedine Zidane",
   "gender": "M",
   "active": false,
@@ -4996,6 +4996,23 @@
   "AB": 9.5,
   "ST": 9.5,
   "LE": 9.5
+ },
+ {
+  "name": "Karim Benzema",
+  "gender": "M",
+  "active": true,
+  "base": 66.9,
+  "conn": 0.0,
+  "pos": 0.0,
+  "pen": -39.6,
+  "era": 0,
+  "aff": 27.3,
+  "CH": 4.25,
+  "WK": 6.75,
+  "LO": 7.25,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 7.75
  },
  {
   "name": "Jamie Vardy",
@@ -5066,32 +5083,15 @@
   "LE": 7.75
  },
  {
-  "name": "Karim Benzema",
-  "gender": "M",
-  "active": true,
-  "base": 66.9,
-  "conn": 0.0,
-  "pos": 0.0,
-  "pen": -42.4,
-  "era": 0,
-  "aff": 24.5,
-  "CH": 4.25,
-  "WK": 6.75,
-  "LO": 7.25,
-  "AB": 9.0,
-  "ST": 8.5,
-  "LE": 7.75
- },
- {
   "name": "Cristiano Ronaldo",
   "gender": "M",
   "active": true,
   "base": 58.0,
   "conn": 0.0,
   "pos": 0.0,
-  "pen": -36.9,
+  "pen": -34.1,
   "era": 0,
-  "aff": 21.1,
+  "aff": 23.9,
   "CH": 4.75,
   "WK": 4.0,
   "LO": 4.0,
@@ -5140,9 +5140,9 @@
   "base": 44.8,
   "conn": -1.8,
   "pos": 3.6,
-  "pen": -42.4,
+  "pen": -45.1,
   "era": 0,
-  "aff": 4.2,
+  "aff": 1.5,
   "CH": 3.5,
   "WK": 2.5,
   "LO": 1.5,

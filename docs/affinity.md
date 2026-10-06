@@ -207,4 +207,9 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   position 4 of 5, Team player only 3 of 7): his picks between players he watches weekly follow his own impressions more than
   the researched scores. fit.py adds these 15 to the 48 mystery pairs; weights barely moved (CH 25, WK 28, LO 17, AB 5,
   ST 15, LE 11; connection x1.02, penalties x2.75); leave-one-out 73% overall.
+- Money leagues (Kevin, 2026-10-06, after Firmino: "I want guys that want to compete at the highest level, not collect a fat
+  paycheck against minor leaguers"): a move to a Saudi, Qatari, Emirati or Chinese Super League club costs by age at the move,
+  7 at 29 or younger, 4 at 30-33, 2 at 34+ (before x2.75), found from the club list too (Coutinho, Xavi, Raúl, Drogba,
+  Batistuta, Weah). Coaches keep 3 x 0.5. Men only.
+- Top-10 walkthrough feedback (Kevin's verdicts and notes, player by player): players/feedback.json.
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

@@ -181,34 +181,6 @@
    "pen": []
   },
   {
-   "n": "Roberto Firmino",
-   "a": 83.3,
-   "f": [
-    7.5,
-    9.25,
-    6.75,
-    8.0,
-    8.5,
-    7.0
-   ],
-   "c": 8.2,
-   "ps": 3.6,
-   "p": -8.2,
-   "nat": "Brazil",
-   "pos": "ST/AM",
-   "clubs": [
-    "Figueirense",
-    "Hoffenheim",
-    "Liverpool",
-    "Al-Ahli",
-    "Al-Sadd"
-   ],
-   "why": "CH 7.5 humble, joyful, no issues; WK 9 led Klopp's press; LO 6.5 eight years, loved send-off; AB 8 elite false nine; ST 8.5 no-look finishes, creativity; LE 7 defined the false-nine press role",
-   "pen": [
-    "Saudi move (2023): joined Al-Ahli (Saudi PIF-owned)"
-   ]
-  },
-  {
    "n": "Christopher Trimmel",
    "a": 82.5,
    "f": [
@@ -302,6 +274,34 @@
    ],
    "why": "CH humble, tactical-foul reputation; WK tireless destroyer; LO Portland since 2011, captain, all-time apps leader, playing at 40; AB top MLS DM; ST destroyer; LE Timbers icon, 2015 MLS Cup",
    "pen": []
+  },
+  {
+   "n": "Roberto Firmino",
+   "a": 80.6,
+   "f": [
+    7.5,
+    9.25,
+    6.75,
+    8.0,
+    8.5,
+    7.0
+   ],
+   "c": 8.2,
+   "ps": 3.6,
+   "p": -11.0,
+   "nat": "Brazil",
+   "pos": "ST/AM",
+   "clubs": [
+    "Figueirense",
+    "Hoffenheim",
+    "Liverpool",
+    "Al-Ahli",
+    "Al-Sadd"
+   ],
+   "why": "CH 7.5 humble, joyful, no issues; WK 9 led Klopp's press; LO 6.5 eight years, loved send-off; AB 8 elite false nine; ST 8.5 no-look finishes, creativity; LE 7 defined the false-nine press role",
+   "pen": [
+    "Saudi move (2023): joined Al-Ahli (Saudi PIF-owned)"
+   ]
   },
   {
    "n": "Son Heung-min",
@@ -848,34 +848,6 @@
    "pen": []
   },
   {
-   "n": "Jordan Henderson",
-   "a": 73.6,
-   "f": [
-    7.5,
-    9.0,
-    6.75,
-    7.0,
-    5.0,
-    7.25
-   ],
-   "c": 8.2,
-   "ps": 0.0,
-   "p": -8.2,
-   "nat": "England",
-   "pos": "CM",
-   "clubs": [
-    "Sunderland",
-    "Liverpool",
-    "Al-Ettifaq",
-    "Ajax",
-    "Brentford"
-   ],
-   "why": "CH +2 PlayersTogether, LGBTQ+ allyship (Saudi move applied separately); WK 9 ; LO 7 twelve years, eight as captain; AB 7 good international midfielder; ST 5 functional; LE 7 lifted 2019 UCL and first title in 30 years; FIX: England caps missing (80+)",
-   "pen": [
-    "Saudi move (2023): joined Al-Ettifaq (Saudi Pro League) after LGBTQ+ advocacy"
-   ]
-  },
-  {
    "n": "Curtis Jones",
    "a": 73.3,
    "f": [
@@ -1207,6 +1179,34 @@
    ],
    "why": "CH humble, no issues; WK high work rate; LO PSV from age 7 to captain, then Liverpool; AB Dutch Footballer of the Year 2022; ST long-range shooter, inside forward; LE World Cup 2022 goals, Euro 2024 joint top scorer",
    "pen": []
+  },
+  {
+   "n": "Jordan Henderson",
+   "a": 70.9,
+   "f": [
+    7.5,
+    9.0,
+    6.75,
+    7.0,
+    5.0,
+    7.25
+   ],
+   "c": 8.2,
+   "ps": 0.0,
+   "p": -11.0,
+   "nat": "England",
+   "pos": "CM",
+   "clubs": [
+    "Sunderland",
+    "Liverpool",
+    "Al-Ettifaq",
+    "Ajax",
+    "Brentford"
+   ],
+   "why": "CH +2 PlayersTogether, LGBTQ+ allyship (Saudi move applied separately); WK 9 ; LO 7 twelve years, eight as captain; AB 7 good international midfielder; ST 5 functional; LE 7 lifted 2019 UCL and first title in 30 years; FIX: England caps missing (80+)",
+   "pen": [
+    "Saudi move (2023): joined Al-Ettifaq (Saudi Pro League) after LGBTQ+ advocacy"
+   ]
   },
   {
    "n": "Luis Díaz",
@@ -1666,35 +1666,6 @@
    "pen": []
   },
   {
-   "n": "N'Golo Kanté",
-   "a": 66.9,
-   "f": [
-    8.25,
-    10.0,
-    5.5,
-    8.5,
-    5.0,
-    7.5
-   ],
-   "c": -2.1,
-   "ps": 0.0,
-   "p": -8.2,
-   "nat": "France",
-   "pos": "DM",
-   "clubs": [
-    "Boulogne",
-    "Caen",
-    "Leicester City",
-    "Chelsea",
-    "Al-Ittihad",
-    "Fenerbahçe"
-   ],
-   "why": "CH widely praised humility and kindness; WK 10; LO several moves; AB elite; ST 5; LE Leicester 2016, World Cup 2018",
-   "pen": [
-    "Saudi move (2023): joined Al-Ittihad (Saudi PIF-owned)"
-   ]
-  },
-  {
    "n": "Lee Desmond",
    "a": 66.6,
    "f": [
@@ -1817,6 +1788,29 @@
     "Borussia Mönchengladbach"
    ],
    "why": "CH 2022 World Cup effort row and family's report on Berhalter, apologised; WK low work-rate reputation; LO BVB academy, injury-hit, moved 2025; AB gifted, injury-limited; ST flair creator; LE little",
+   "pen": []
+  },
+  {
+   "n": "David Da Costa",
+   "a": 65.4,
+   "f": [
+    6.0,
+    5.75,
+    5.0,
+    5.5,
+    7.25,
+    2.75
+   ],
+   "c": 2.4,
+   "ps": 7.2,
+   "p": -0.0,
+   "nat": "Portugal",
+   "pos": "AM",
+   "clubs": [
+    "RC Lens",
+    "Portland Timbers"
+   ],
+   "why": "CH thin record, baseline; WK medium; LO Lens academy, now Portland; AB MLS DP level; ST creative No. 10; LE little",
    "pen": []
   }
  ],
@@ -2453,34 +2447,6 @@
    "pen": []
   },
   {
-   "n": "Roberto Firmino",
-   "a": 83.3,
-   "f": [
-    7.5,
-    9.25,
-    6.75,
-    8.0,
-    8.5,
-    7.0
-   ],
-   "c": 8.2,
-   "ps": 3.6,
-   "p": -8.2,
-   "nat": "Brazil",
-   "pos": "ST/AM",
-   "clubs": [
-    "Figueirense",
-    "Hoffenheim",
-    "Liverpool",
-    "Al-Ahli",
-    "Al-Sadd"
-   ],
-   "why": "CH 7.5 humble, joyful, no issues; WK 9 led Klopp's press; LO 6.5 eight years, loved send-off; AB 8 elite false nine; ST 8.5 no-look finishes, creativity; LE 7 defined the false-nine press role",
-   "pen": [
-    "Saudi move (2023): joined Al-Ahli (Saudi PIF-owned)"
-   ]
-  },
-  {
    "n": "Lev Yashin",
    "a": 82.8,
    "f": [
@@ -2697,6 +2663,34 @@
    "pen": []
   },
   {
+   "n": "Roberto Firmino",
+   "a": 80.6,
+   "f": [
+    7.5,
+    9.25,
+    6.75,
+    8.0,
+    8.5,
+    7.0
+   ],
+   "c": 8.2,
+   "ps": 3.6,
+   "p": -11.0,
+   "nat": "Brazil",
+   "pos": "ST/AM",
+   "clubs": [
+    "Figueirense",
+    "Hoffenheim",
+    "Liverpool",
+    "Al-Ahli",
+    "Al-Sadd"
+   ],
+   "why": "CH 7.5 humble, joyful, no issues; WK 9 led Klopp's press; LO 6.5 eight years, loved send-off; AB 8 elite false nine; ST 8.5 no-look finishes, creativity; LE 7 defined the false-nine press role",
+   "pen": [
+    "Saudi move (2023): joined Al-Ahli (Saudi PIF-owned)"
+   ]
+  },
+  {
    "n": "Son Heung-min",
    "a": 80.3,
    "f": [
@@ -2838,31 +2832,6 @@
     "Athletic Club"
    ],
    "why": "CH anti-racism, humble; WK workhorse; LO one-club, Athletic captain; AB solid forward; ST pace; LE consecutive-games record",
-   "pen": []
-  },
-  {
-   "n": "Raúl",
-   "a": 80.0,
-   "f": [
-    7.5,
-    8.5,
-    8.5,
-    8.5,
-    7.0,
-    8.25
-   ],
-   "c": 0.0,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Spain",
-   "pos": "CF",
-   "clubs": [
-    "Real Madrid",
-    "Schalke 04",
-    "Al Sadd",
-    "New York Cosmos"
-   ],
-   "why": "CH humble, clean; WK high; LO 16 years Real academy and captain, Schalke bond; AB elite forward; ST intelligent movement; LE 2000 final goal, Camp Nou 'shhh'",
    "pen": []
   },
   {
@@ -3545,34 +3514,6 @@
    "pen": []
   },
   {
-   "n": "Gabriel Batistuta",
-   "a": 76.3,
-   "f": [
-    7.0,
-    7.25,
-    8.25,
-    9.0,
-    8.0,
-    8.0
-   ],
-   "c": 0.0,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Argentina",
-   "pos": "CF",
-   "clubs": [
-    "Newell's Old Boys",
-    "River Plate",
-    "Boca Juniors",
-    "Fiorentina",
-    "Roma",
-    "Inter Milan",
-    "Al-Arabi"
-   ],
-   "why": "CH humble, no issues; WK high; LO 9 years Fiorentina incl. Serie B; AB elite striker; ST power shots; LE Batigol, tears vs Fiorentina",
-   "pen": []
-  },
-  {
    "n": "Johan Cruyff",
    "a": 75.5,
    "f": [
@@ -3648,6 +3589,53 @@
     "Lazio"
    ],
    "why": "CH exemplary fair play; WK high; LO four clubs, none longer than 5 years; AB elite striker; ST poacher, headers; LE record 16 World Cup goals",
+   "pen": []
+  },
+  {
+   "n": "Dennis Bergkamp",
+   "a": 75.0,
+   "f": [
+    6.75,
+    6.75,
+    7.0,
+    9.0,
+    9.5,
+    8.5
+   ],
+   "c": 0.0,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Netherlands",
+   "pos": "SS",
+   "clubs": [
+    "Ajax",
+    "Inter Milan",
+    "Arsenal"
+   ],
+   "why": "CH quiet perfectionist, no issues; WK medium; LO 11 years at Arsenal; AB elite second striker; ST first touch, creator; LE Argentina 1998 and Newcastle turn",
+   "pen": []
+  },
+  {
+   "n": "Pedri",
+   "a": 74.9,
+   "f": [
+    6.5,
+    7.75,
+    8.0,
+    8.5,
+    9.0,
+    5.75
+   ],
+   "c": 0.0,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Spain",
+   "pos": "CM",
+   "clubs": [
+    "Las Palmas",
+    "Barcelona"
+   ],
+   "why": "CH humble, no issues of note; WK high, press-resistant; LO Barcelona since 2020, renewed to 2030; AB elite playmaker; ST creative No. 8; LE young, Euro and World Cup winner",
    "pen": []
   }
  ],

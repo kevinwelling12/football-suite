@@ -80,17 +80,31 @@ def fav_pos(p):
     ps = p.get('positions') or []
     return 1.0 if ps and ps[0] in FAV_POS else 0.5 if FAV_POS & set(ps) else 0.0
 
+# Money leagues (Kevin, 2026-10-06: "top players jumping to a 3rd-tier league for oil money ... I want guys that want to
+# compete at the highest level"): Saudi, Qatari, Emirati and Chinese Super League clubs. A move there costs by age at the
+# move: 29 or younger 7, 30-33 4, 34+ 2 (before scaling). Moves found in the club list count even when the research
+# didn't file them as b10. A coach's move keeps the old 3 x 0.5. Counted once per player (the worst).
+MONEY = re.compile(r"\bal[- ](nassr|hilal|ittihad|ahli|ettifaq|diriyah|qadsiah|shabab|sadd|duhail|arabi|gharafa|rayyan|wasl|ain|jazira|wahda)\b|"
+                   r"shanghai (shenhua|sipg|port)|guangzhou (evergrande|fc)|jiangsu suning|hebei|beijing guoan|tianjin|dalian (yifang|pro)|shandong")
+def money_sev(age): return 7 if age <= 29 else 4 if age <= 33 else 2
+
 def penalties(p):  # stacks with no cap (Kevin chose this: several incidents can take a player to 0)
     tot, items = 0.0, []
+    born = p.get('born')
     for e in (p.get('incidents') or []) + (p.get('money_moves') or []):
         t = e.get('type'); s = SEV.get(t)
         if not s: continue
         txt = (' '.join(str(e.get(k, '')) for k in ('what', 'outcome'))).lower()
+        coach = re.search(r'manag|coach', txt)
+        if t == 'b10' and not coach and born and e.get('year'): s = money_sev(e['year'] - born)
         f = 1.0
         if re.search(r'acquit|dismiss|dropped|cleared|closed|not guilty|no charges|charges were|overturned|annulled|quashed', txt): f = 0.3
         elif re.search(r'apolog', txt): f = 0.6
-        if t == 'b10' and re.search(r'manag|coach', txt): f *= 0.5
-        items.append((t, round(s * f, 1))); tot += s * f
+        if t == 'b10' and coach: f *= 0.5
+        items.append((t, round(s * f, 1)))
+    if born and p.get('gender') != 'W':
+        for c in p.get('clubs', []):
+            if c.get('from') and MONEY.search((c.get('club') or '').lower()): items.append(('b10', money_sev(c['from'] - born)))
     # one Saudi move or one ambassadorship counts once, however many entries
     seen, out = set(), 0.0
     for t, v in sorted(items, key=lambda x: -x[1]):

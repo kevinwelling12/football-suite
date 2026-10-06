@@ -194,4 +194,9 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   a move made as a coach half. Diving and general conduct sit in Character. Penalties stack with no cap (Kevin, 2026-10-06:
   "shitheads need not apply"), so several incidents can take a player to 0.
 - No era discount: Kevin has followed closely for under a year, so past players are judged on the record alone.
+- Position: +3 for a main position of playmaker or full-back (quiz 7 s03), half for a second position (POS_BOOST; size
+  set by Claude, about one Team player point; Kevin can change it on the fixes/ page).
+- Independent audit (audit/): a second set of scorers re-scored all 306 blind from the facts plus web checks (AUDIT_BRIEF.md);
+  scores are averaged, gaps over 1.5 settled by a third pass (adjudicated.json). They also checked every incident: 31
+  corrections (victims filed as offenders, wrong types, dropped or acquitted cases) and 18 added, applied by model.load().
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

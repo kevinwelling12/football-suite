@@ -1,0 +1,510 @@
+[
+ {
+  "name": "Alessandro Del Piero",
+  "CH": 7.5,
+  "WK": 7.5,
+  "LO": 9.0,
+  "AB": 9.0,
+  "ST": 9.0,
+  "LE": 8.5,
+  "why": "CH respected gentleman, no causes on record; WK hard-working forward, no ego; LO 19 seasons at Juve, captain, stayed through 2006 Serie B relegation; AB elite second striker; ST fantasista, free kicks; LE Juve icon, 2006 WC semi goal, Bernabeu ovation",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Stefan Frei",
+  "CH": 7.0,
+  "WK": 7.0,
+  "LO": 8.0,
+  "AB": 5.5,
+  "ST": 4.5,
+  "LE": 5.0,
+  "why": "CH humble, artist, no issues; WK steady team-first keeper; LO 12 seasons at Seattle, re-signed; AB good MLS keeper; ST shot-stopper only; LE 2016 MLS Cup final save, regional",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "George Weah",
+  "CH": 7.0,
+  "WK": 6.5,
+  "LO": 4.5,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 8.5,
+  "why": "CH funded Liberia team, UNICEF, peaceful 2023 concession; corruption concerns in his government; WK hard-running striker; LO five clubs, five years max at Milan; AB 1995 Ballon d'Or level; ST pace, power, solo goals (Verona 1996); LE only African Ballon d'Or winner, became president",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "US Treasury sanctioned three senior officials Aug 2022; not a hard-line type"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 1996,
+    "what": "headbutted Porto's Jorge Costa in the tunnel after a UCL match, breaking his nose; alleged racist abuse by Costa (unproven)",
+    "outcome": "UEFA six-match ban; Weah tried to apologise, Costa refused and sued",
+    "source": "https://en.wikipedia.org/wiki/Jorge_Costa"
+   }
+  ]
+ },
+ {
+  "name": "Luka Modrić",
+  "CH": 6.5,
+  "WK": 8.5,
+  "LO": 6.5,
+  "AB": 9.5,
+  "ST": 9.0,
+  "LE": 9.0,
+  "why": "CH humble, refugee story; dented by Mamić-trial testimony; WK tireless, leads by example; LO 13 seasons and captain at Madrid, Croatia captain ~10 years, but forced Spurs exit; AB 2018 Ballon d'Or; ST outside-of-boot playmaker; LE 2018 WC Golden Ball, Croatia's greatest",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "indicted for perjury 2018; court dismissed the charge (2018-19); prosecution dropped 2024",
+    "note": "type 'other' fits"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "also handed in a transfer request in 2011; missed 2012 US tour"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Jessie Fleming",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 5.0,
+  "AB": 7.0,
+  "ST": 6.5,
+  "LE": 6.0,
+  "why": "CH equal-pay fight, Aramco letter, no issues; WK hard-working two-way midfielder; LO four years at Chelsea, now Thorns; AB good international midfielder; ST technical, tidy; LE Olympic gold penalties 2021, Canada captain. FIX: named Canada captain Feb 2024, not 2023",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Michelle Akers",
+  "CH": 7.5,
+  "WK": 9.0,
+  "LO": 5.5,
+  "AB": 9.0,
+  "ST": 7.0,
+  "LE": 9.0,
+  "why": "CH pioneer, played through chronic fatigue, early pay fights; WK relentless, moved to holding mid for team; LO no pro league for most of her career, long USWNT service; AB co-Player of the Century; ST powerful striker, not a trickster; LE 1991 Golden Boot, founding figure of the US women's game",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Iago Aspas",
+  "CH": 5.5,
+  "WK": 6.5,
+  "LO": 9.0,
+  "AB": 7.5,
+  "ST": 8.5,
+  "LE": 6.5,
+  "why": "CH fiery, dissent and provocation; WK moderate work rate; LO academy, returned, Celta record scorer and appearance leader, captain; AB top Spanish scorer several seasons; ST creative, cheeky finisher; LE Celta's greatest, WC 2018 back-heel",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Jadon Sancho",
+  "CH": 5.5,
+  "WK": 4.5,
+  "LO": 3.5,
+  "AB": 7.5,
+  "ST": 8.5,
+  "LE": 4.5,
+  "why": "CH community pitch funding; public Ten Hag row, professionalism questions; WK low work rate; LO forced City exit, banished at United, loans; loved at BVB; AB peak at BVB 2019-20; ST flair dribbler; LE breakout at BVB, little beyond",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "he was the victim; not a penalty item"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok",
+    "note": "City academy 2015-17, no senior apps"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b08",
+    "year": 2017,
+    "what": "refused a new Man City deal, missed the US pre-season tour and stopped training to force a move",
+    "outcome": "sold to Dortmund Aug 2017",
+    "source": "https://www.si.com/soccer/2017/08/03/arsenal-spurs-target-jadon-sancho-refuses-train-man-city-order-force-move"
+   }
+  ]
+ },
+ {
+  "name": "Mohamed Salah",
+  "CH": 8.5,
+  "WK": 6.5,
+  "LO": 7.0,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 8.5,
+  "why": "CH village donations, Gaza/al-Obeid stance; Dec 2025 public row; WK decent, low pressing late; LO nine seasons at Liverpool, left 2026 after row; AB elite finisher; ST inventive winger; LE Liverpool great, Egyptian icon, 4 Golden Boots",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "Trabzonspor move confirmed Aug 2026"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Matt Turner",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 5.0,
+  "AB": 6.0,
+  "ST": 4.5,
+  "LE": 4.5,
+  "why": "CH humble late-starter, no issues; WK team-first; LO seven years New England, returned; AB solid international keeper; ST shot-stopper; LE USA starter at two World Cups",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Alisson Becker",
+  "CH": 7.5,
+  "WK": 7.5,
+  "LO": 7.0,
+  "AB": 9.0,
+  "ST": 6.0,
+  "LE": 7.5,
+  "why": "CH humble, quiet, no issues; WK team-first, organiser; LO eight seasons at Liverpool, stayed; AB best keeper in the world 2019; ST distribution, sweeper; LE 2021 headed winner, 2019 UCL",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Hristo Stoichkov",
+  "CH": 3.0,
+  "WK": 6.0,
+  "LO": 5.0,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 8.0,
+  "why": "CH confrontational: brawls, stamped on referee, 2003 tackle broke a student's leg (2-match ban, suit settled); WK aggressive, hard-running; LO two Barça spells, then many clubs; AB 1994 Ballon d'Or; ST lethal left foot; LE Dream Team, USA 94 Golden Boot",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "Dec 1990 Supercopa, stamp on referee's foot, ban of about 10 weeks"
+   },
+   {
+    "i": 2,
+    "verdict": "ok",
+    "note": "brief 1998 spell for the Asian Cup Winners' Cup; pre-PIF"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Sam Coffey",
+  "CH": 6.5,
+  "WK": 9.0,
+  "LO": 5.5,
+  "AB": 7.5,
+  "ST": 7.0,
+  "LE": 5.0,
+  "why": "CH no causes or issues on record; WK tireless anchor; LO four years at Thorns, captain, left Jan 2026; AB Olympic gold starter, Best XI x3; ST deep playmaker, range of passing; LE young career",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "Jan 2026, 3.5-year deal"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Naomi Girma",
+  "CH": 8.5,
+  "WK": 8.0,
+  "LO": 5.0,
+  "AB": 8.5,
+  "ST": 6.0,
+  "LE": 6.0,
+  "why": "CH mental-health advocacy, Aramco letter; WK composed, team-first; LO three years at Wave, then record move; AB best young CB in the world; ST ball-playing defender; LE first $1m women's transfer",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Tab Ramos",
+  "CH": 6.5,
+  "WK": 6.5,
+  "LO": 5.0,
+  "AB": 6.5,
+  "ST": 8.0,
+  "LE": 6.5,
+  "why": "CH no issues; WK moderate; LO journeyman, MetroStars six years; AB best US playmaker of his era; ST dribbler, creator; LE first MLS signing, 1994 WC",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Abby Wambach",
+  "CH": 7.5,
+  "WK": 8.5,
+  "LO": 5.5,
+  "AB": 9.0,
+  "ST": 7.0,
+  "LE": 9.0,
+  "why": "CH LGBTQ+ advocacy, turf suit, equal pay; 2016 DUII; WK physical team leader; LO short club spells; AB 2012 World Player; ST aerial power more than flair; LE 2011 122nd-minute header, record scorer",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Chris Richards",
+  "CH": 6.5,
+  "WK": 7.5,
+  "LO": 4.5,
+  "AB": 6.5,
+  "ST": 5.0,
+  "LE": 4.0,
+  "why": "CH no issues; WK reliable; LO four years Palace; AB solid PL centre-back; ST ball-playing CB; LE FA Cup winner",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Virgil van Dijk",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 7.0,
+  "AB": 9.0,
+  "ST": 5.5,
+  "LE": 8.0,
+  "why": "CH decent pro, no causes; WK anchor 8; LO Liverpool captain, renewed 2025, but transfer request at Southampton; AB anchor 9; ST calm ball-playing CB; LE 2019 UCL, 2025 title as captain",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "not a b08: he did not strike"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Trinity Rodman",
+  "CH": 6.0,
+  "WK": 7.0,
+  "LO": 7.5,
+  "AB": 8.0,
+  "ST": 8.5,
+  "LE": 5.5,
+  "why": "CH no causes on record; WK high; LO one club, re-signed over abroad; AB top winger; ST explosive 1v1; LE 2024 Olympic QF winner",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Hugo Ekitiké",
+  "CH": 6.0,
+  "WK": 6.5,
+  "LO": 3.5,
+  "AB": 7.5,
+  "ST": 8.0,
+  "LE": 4.0,
+  "why": "CH no issues; WK medium; LO four clubs in five years; AB strong debut Liverpool season; ST flair striker; LE young",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Łukasz Piszczek",
+  "CH": 7.0,
+  "WK": 9.0,
+  "LO": 8.5,
+  "AB": 7.0,
+  "ST": 7.0,
+  "LE": 6.0,
+  "why": "CH humble, hometown academy; WK tireless full-back; LO 11 seasons BVB, stayed, returned home; AB top Bundesliga right-back; ST overlapping full-back; LE Klopp double side",
+  "incidents": [],
+  "missing": [
+   {
+    "type": "b04",
+    "year": 2006,
+    "what": "part of the Zagłębie Lubin match-fixing affair (fixed 2006 match vs Cracovia, while on loan from Hertha); he did not play in it",
+    "outcome": "PZPN six-month ban July 2011 (lifted Sept 2011); Wrocław court: one-year suspended sentence and PLN 100,000 fine",
+    "source": "https://trivela.com.br/europa/polones-de-borussia-dortmund-tem-sentenca-de-prisao/"
+   }
+  ]
+ },
+ {
+  "name": "Thierry Henry",
+  "CH": 6.5,
+  "WK": 6.5,
+  "LO": 6.5,
+  "AB": 9.5,
+  "ST": 9.5,
+  "LE": 9.0,
+  "why": "CH anti-racism campaigns; aloof, 2009 handball; WK fair; LO eight years Arsenal, captain, returned 2012, left for Barça; AB elite; ST pace and elegance; LE Invincibles, Arsenal statue",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "admitted the handball; called for replay rather than a formal apology"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Emre Can",
+  "CH": 5.5,
+  "WK": 8.0,
+  "LO": 5.5,
+  "AB": 6.5,
+  "ST": 5.5,
+  "LE": 4.5,
+  "why": "CH outspoken; 2019 'like' of Turkish salute post, apologised; WK combative; LO BVB captain, left Liverpool on a free; AB solid international; ST combative midfielder; LE overhead kick, 2024 UCL final",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Iñaki Williams",
+  "CH": 8.5,
+  "WK": 9.0,
+  "LO": 9.5,
+  "AB": 6.5,
+  "ST": 6.5,
+  "LE": 6.5,
+  "why": "CH anti-racism voice, humble; WK workhorse; LO academy, one club, captain; AB good La Liga forward; ST pace, direct; LE consecutive-apps record, symbol of Athletic",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Xavi",
+  "CH": 4.5,
+  "WK": 8.5,
+  "LO": 8.5,
+  "AB": 9.5,
+  "ST": 9.0,
+  "LE": 9.5,
+  "why": "CH praised Qatar's system over democracy (2019); WK selfless tempo-setter; LO 17 seasons Barça, academy, captain; AB all-time great midfielder; ST passer, control; LE Barça/Spain golden era",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "official Qatar 2022 ambassador"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "DaMarcus Beasley",
+  "CH": 6.5,
+  "WK": 8.0,
+  "LO": 4.0,
+  "AB": 6.5,
+  "ST": 7.0,
+  "LE": 6.0,
+  "why": "CH no issues; WK converted to full-back; LO journeyman; AB solid international; ST pacey winger; LE four World Cups, UCL semi",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Nico Williams",
+  "CH": 7.5,
+  "WK": 7.5,
+  "LO": 8.0,
+  "AB": 8.0,
+  "ST": 9.0,
+  "LE": 6.0,
+  "why": "CH anti-racism stance with Iñaki; WK hard-working; LO academy, one club, rejected Barça; AB elite winger at peak; ST explosive dribbler; LE Euro 2024 final goal",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Kasey Keller",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 4.0,
+  "AB": 7.0,
+  "ST": 4.5,
+  "LE": 6.0,
+  "why": "CH no issues; WK team-first; LO journeyman; AB top US keeper; ST shot-stopper; LE 1998 Gold Cup v Brazil",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Bobby Charlton",
+  "CH": 9.0,
+  "WK": 8.5,
+  "LO": 9.0,
+  "AB": 9.5,
+  "ST": 8.5,
+  "LE": 9.5,
+  "why": "CH gentleman, landmine charity; WK selfless; LO 17 seasons Man Utd, academy, captain; AB 1966 Ballon d'Or; ST long-range shooting; LE Munich survivor, 1966 and 1968",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Ousmane Dembélé",
+  "CH": 5.0,
+  "WK": 7.0,
+  "LO": 2.5,
+  "AB": 9.0,
+  "ST": 9.0,
+  "LE": 7.0,
+  "why": "CH unprofessional spells at Barça; WK transformed under Luis Enrique; LO strike at BVB, chased moves; AB 2025 Ballon d'Or; ST two-footed dribbler; LE late-career Ballon d'Or",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "apologised"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Asisat Oshoala",
+  "CH": 7.5,
+  "WK": 7.5,
+  "LO": 4.0,
+  "AB": 8.0,
+  "ST": 7.0,
+  "LE": 7.5,
+  "why": "CH foundation for girls' football; WK high; LO many clubs, Saudi move; AB record 6x African player; ST poacher; LE African pioneer",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "Al Hilal women's team, Sept 2025"
+   }
+  ],
+  "missing": []
+ }
+]

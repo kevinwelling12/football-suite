@@ -1,0 +1,6599 @@
+[
+ {
+  "name": "Abby Dahlkemper",
+  "born": 1993,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "North Carolina Courage",
+    "from": 2017,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2020,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Diego Wave",
+    "from": 2022,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bay FC",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Bay Area native",
+  "loyalty_notes": "On maternity leave start of 2026",
+  "money_moves": [
+   {
+    "year": 2020,
+    "what": "Manchester City 2020-22 (Abu Dhabi-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Achraf Hakimi",
+  "born": 1998,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Real Madrid",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2018,
+    "to": 2020,
+    "apps": 73,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2020,
+    "to": 2021,
+    "apps": 45,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2021,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Morocco captain",
+  "fan_bond": "Popular at PSG and in Morocco",
+  "loyalty_notes": "Loan at Dortmund 2018-20",
+  "money_moves": [
+   {
+    "year": 2021,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Adrianna Franch",
+  "born": 1990,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Portland Thorns",
+    "from": 2015,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Kansas City Current",
+    "from": 2022,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Birmingham City",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Thorns fan favourite ('AD')",
+  "loyalty_notes": "Traded to KC Current 2022 (played in 2022 final vs Thorns); Birmingham City 2025-",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Alan Shearer",
+  "born": 1970,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Southampton",
+    "from": 1988,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Blackburn Rovers",
+    "from": 1992,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 1996,
+    "to": 2006,
+    "apps": 404,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Newcastle captain 1999-2006; England captain",
+  "fan_bond": "Newcastle icon",
+  "loyalty_notes": "Turned down Man Utd to join hometown Newcastle 1996",
+  "money_moves": [],
+  "LO_now": 7.75
+ },
+ {
+  "name": "Alessia Russo",
+  "born": 2000,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Chelsea",
+    "from": null,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester United",
+    "from": 2020,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Arsenal favourite",
+  "loyalty_notes": "Left Man United on a free (2023) after United rejected Arsenal's record bid",
+  "money_moves": [],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Alexander Isak",
+  "born": 1999,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "AIK",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Willem II (loan)",
+    "from": 2019,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Sociedad",
+    "from": 2019,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 2022,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Newcastle fans turned on him after the 2025 strike; Liverpool first season disrupted by broken leg (Dec 2025), 4 goals in 22 games",
+  "loyalty_notes": "Refused to train/play for Newcastle in summer 2025 to force move to Liverpool",
+  "money_moves": [
+   {
+    "year": 2022,
+    "what": "joined Newcastle (PIF-owned since 2021)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 2.5
+ },
+ {
+  "name": "Alexis Mac Allister",
+  "born": 1998,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Argentinos Juniors",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Brighton",
+    "from": 2019,
+    "to": 2023,
+    "apps": 112,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "",
+  "loyalty_notes": "Liverpool",
+  "money_moves": [],
+  "LO_now": 5.25
+ },
+ {
+  "name": "Alisson Becker",
+  "born": 1992,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Internacional",
+    "from": 2013,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Roma",
+    "from": 2016,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2018,
+    "to": null,
+    "apps": 300,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Fan favourite",
+  "loyalty_notes": "Stayed 2026 despite Juventus links",
+  "money_moves": [],
+  "LO_now": 7.0
+ },
+ {
+  "name": "Alyssa Naeher",
+  "born": 1988,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Turbine Potsdam",
+    "from": 2011,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Boston Breakers",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Red Stars / Chicago Stars",
+    "from": 2016,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Chicago lifer; 11 seasons",
+  "loyalty_notes": "Retired from USWNT Dec 2024; re-signed with Chicago for 2026",
+  "money_moves": [],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Andrés Iniesta",
+  "born": 1984,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2002,
+    "to": 2018,
+    "apps": 674,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Vissel Kobe",
+    "from": 2018,
+    "to": 2023,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Emirates Club",
+    "from": 2023,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Barcelona captain 2015-18",
+  "fan_bond": "Universally loved; ovations from rival fans across Spain",
+  "loyalty_notes": "Barça academy 1996-2018; Vissel Kobe 2018-23; retired Oct 2024",
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "played for Emirates Club (UAE)",
+    "type": "other"
+   }
+  ],
+  "LO_now": 9.0
+ },
+ {
+  "name": "Antoine Griezmann",
+  "born": 1991,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 2009,
+    "to": 2014,
+    "apps": 202,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2014,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2019,
+    "to": 2021,
+    "apps": 102,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2021,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Orlando City",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Atlético legend after return; booed on return in 2021 initially",
+  "loyalty_notes": "Rejected by French academies; Real Sociedad academy; 'La Decisión' move to Barcelona 2019; retired from France 2024; joined MLS 2026",
+  "money_moves": [],
+  "LO_now": 6.0
+ },
+ {
+  "name": "Aritz Aduriz",
+  "born": 1981,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Valladolid",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Athletic Club",
+    "from": 2006,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Mallorca",
+    "from": 2008,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Valencia",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Athletic Club",
+    "from": 2012,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Huge Athletic favourite; three spells",
+  "loyalty_notes": "Basque (San Sebastián); returned to Athletic twice",
+  "money_moves": [],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Asisat Oshoala",
+  "born": 1994,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Dalian Quanjian",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2019,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bay FC",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al Hilal",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Nigeria captain at times",
+  "fan_bond": "",
+  "loyalty_notes": "Left Bay FC for Saudi Al Hilal Sept 2025",
+  "money_moves": [
+   {
+    "year": 2025,
+    "what": "joined Al Hilal (Saudi PIF-owned club)",
+    "type": "b10"
+   }
+  ],
+  "LO_now": 4.25
+ },
+ {
+  "name": "Bastian Schweinsteiger",
+  "born": 1984,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 2002,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester United",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Germany captain 2016",
+  "fan_bond": "Bayern academy legend",
+  "loyalty_notes": "Bayern 2002-15 (academy since 1998)",
+  "money_moves": [],
+  "LO_now": 7.75
+ },
+ {
+  "name": "Bernardo Silva",
+  "born": 1994,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Benfica",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Monaco",
+    "from": 2014,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2017,
+    "to": 2026,
+    "apps": 460,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Man City captain 2025-26",
+  "fan_bond": "",
+  "loyalty_notes": "Left City 2026 for Real Madrid",
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "joined Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 6.25
+ },
+ {
+  "name": "Blake Willey",
+  "born": null,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Sacramento Republic FC",
+    "from": null,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "homegrown Republic academy product",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 6.25
+ },
+ {
+  "name": "Bobby Moore",
+  "born": 1941,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "West Ham United",
+    "from": 1958,
+    "to": 1974,
+    "apps": 647,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Fulham",
+    "from": 1974,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Antonio Thunder",
+    "from": 1976,
+    "to": 1976,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Seattle Sounders",
+    "from": 1978,
+    "to": 1978,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "West Ham captain ~10 yrs; England captain 90 times",
+  "fan_bond": "West Ham's greatest; statue at Wembley",
+  "loyalty_notes": "16 years at West Ham; played for Seattle Sounders 1978",
+  "money_moves": [],
+  "LO_now": 8.5
+ },
+ {
+  "name": "Brandi Chastain",
+  "born": 1968,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "San Jose CyberRays",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Iconic Bay Area figure",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 6.0
+ },
+ {
+  "name": "Briana Scurry",
+  "born": 1971,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Atlanta Beat",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Washington Freedom",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Revered pioneer",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 4.75
+ },
+ {
+  "name": "Bukayo Saka",
+  "born": 2001,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Arsenal",
+    "from": 2018,
+    "to": null,
+    "apps": 270,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Academy darling, beloved by Arsenal fans",
+  "loyalty_notes": "Arsenal academy since age 7; signed long extension",
+  "money_moves": [],
+  "LO_now": 8.75
+ },
+ {
+  "name": "Carles Puyol",
+  "born": 1978,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 1999,
+    "to": 2014,
+    "apps": 593,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "captaincy": "Barcelona captain 2004-14",
+  "fan_bond": "One-club captain; symbol of Catalan identity",
+  "loyalty_notes": "One club 1999-2014 (academy from 1995)",
+  "money_moves": [],
+  "LO_now": 9.75
+ },
+ {
+  "name": "Carlos Bocanegra",
+  "born": 1979,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Chicago Fire",
+    "from": 2000,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fulham",
+    "from": 2004,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rennes",
+    "from": 2008,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Saint-Étienne",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rangers",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Racing Santander",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chivas USA",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "USA captain (incl. 2010 World Cup)",
+  "fan_bond": "",
+  "loyalty_notes": "Later Atlanta United technical director (MLS Cup 2018)",
+  "money_moves": [],
+  "LO_now": 3.75
+ },
+ {
+  "name": "Chloe Kelly",
+  "born": 1998,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Arsenal",
+    "from": 2015,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Everton",
+    "from": 2018,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2020,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "England hero",
+  "loyalty_notes": "Publicly criticised City over blocked loan (Jan 2025), moved to Arsenal",
+  "money_moves": [
+   {
+    "year": 2020,
+    "what": "Manchester City 2020-25 (Abu Dhabi-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 4.25
+ },
+ {
+  "name": "Christian Günter",
+  "born": 1993,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "SC Freiburg",
+    "from": 2012,
+    "to": null,
+    "apps": 453,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "captaincy": "Freiburg captain 2020-",
+  "fan_bond": "Freiburg one-club captain",
+  "loyalty_notes": "Stayed through 2015 relegation; extended to 2027",
+  "money_moves": [],
+  "LO_now": 9.5
+ },
+ {
+  "name": "Christine Sinclair",
+  "born": 1983,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "FC Gold Pride",
+    "from": 2010,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Western New York Flash",
+    "from": 2011,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Thorns",
+    "from": 2013,
+    "to": 2024,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Thorns captain c.2015-2024; Canada captain c.2008-2023",
+  "fan_bond": "Thorns' founding icon; 12 seasons, retired at Providence Park in Nov 2024 to huge ovations; statue-level status in Portland",
+  "loyalty_notes": "Stayed with Thorns from the 2013 founding to retirement despite the 2021-22 ownership scandal",
+  "money_moves": [],
+  "LO_now": 9.5
+ },
+ {
+  "name": "Claire Hutton",
+  "born": 2005,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Kansas City Current",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bay FC",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Bay FC vice-captain 2026",
+  "fan_bond": "Called the move 'one of the hardest decisions'",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Clint Dempsey",
+  "born": 1983,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "New England Revolution",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fulham",
+    "from": 2007,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Seattle Sounders",
+    "from": 2013,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "USA captain 2013-14",
+  "fan_bond": "Fulham's top PL scorer at the time; Sounders hero",
+  "loyalty_notes": "Retired 2018 after heart arrhythmia (2016)",
+  "money_moves": [],
+  "LO_now": 5.0
+ },
+ {
+  "name": "Cobi Jones",
+  "born": 1970,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Coventry City",
+    "from": 1994,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vasco da Gama",
+    "from": 1995,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 1996,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Galaxy icon, one MLS club",
+  "loyalty_notes": "Spent his entire MLS career at the Galaxy",
+  "money_moves": [],
+  "LO_now": 7.5
+ },
+ {
+  "name": "Cole Palmer",
+  "born": 2002,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Manchester City",
+    "from": 2020,
+    "to": 2023,
+    "apps": 41,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Chelsea",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Chelsea fan favourite",
+  "loyalty_notes": "Left City for more minutes 2023",
+  "money_moves": [
+   {
+    "year": 2020,
+    "what": "Manchester City academy/first team (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Cristiano Ronaldo",
+  "born": 1985,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Sporting CP",
+    "from": 2002,
+    "to": 2003,
+    "apps": 31,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester United",
+    "from": 2003,
+    "to": 2009,
+    "apps": 292,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2009,
+    "to": 2018,
+    "apps": 438,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2018,
+    "to": 2021,
+    "apps": 134,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2021,
+    "to": 2022,
+    "apps": 54,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Nassr",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Portugal captain 2008-; Al-Nassr captain",
+  "fan_bond": "Idolised by fans everywhere; acrimonious second exit from Man United",
+  "loyalty_notes": "Sporting academy; left United 2022 after public interview criticising the club; Saudi move 2023; says 2026-27 is 'probably my last year'",
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Nassr (Saudi PIF-owned)",
+    "type": "b10"
+   },
+   {
+    "year": 2023,
+    "what": "Al-Nassr is PIF-owned",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 4.0
+ },
+ {
+  "name": "Cucho Hernández",
+  "born": 1999,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Watford",
+    "from": 2017,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Columbus Crew",
+    "from": 2022,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Betis",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "",
+  "loyalty_notes": "Left MLS for Betis Jan 2025; Betis in UCL 2026-27",
+  "money_moves": [],
+  "LO_now": 4.25
+ },
+ {
+  "name": "DaMarcus Beasley",
+  "born": 1982,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Chicago Fire",
+    "from": 2000,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV",
+    "from": 2004,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2006,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rangers",
+    "from": 2007,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hannover 96",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Puebla",
+    "from": 2011,
+    "to": 2014,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Houston Dynamo",
+    "from": 2014,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Puebla captain",
+  "fan_bond": "Respected",
+  "loyalty_notes": "Man City loan 2006-07 predates state ownership",
+  "money_moves": [],
+  "LO_now": 4.0
+ },
+ {
+  "name": "Danny Vitiello",
+  "born": null,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Sacramento Republic FC",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Republic's all-time clean-sheet leader",
+  "loyalty_notes": "Multi-year extension July 2025",
+  "money_moves": [],
+  "LO_now": 7.25
+ },
+ {
+  "name": "Darwin Núñez",
+  "born": 1999,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Peñarol",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Almería",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Benfica",
+    "from": 2020,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2022,
+    "to": 2025,
+    "apps": 143,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Hilal",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Diriyah",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Cult figure at Liverpool",
+  "loyalty_notes": "Al-Hilal froze him out; loaned to Al-Diriyah 2026-27",
+  "money_moves": [
+   {
+    "year": 2025,
+    "what": "joined Al-Hilal (Saudi PIF-owned)",
+    "type": "b10"
+   }
+  ],
+  "LO_now": 3.25
+ },
+ {
+  "name": "David Da Costa",
+  "born": 2001,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "RC Lens",
+    "from": 2019,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Timbers DP playmaker",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Declan Rice",
+  "born": 1999,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "West Ham United",
+    "from": 2017,
+    "to": 2023,
+    "apps": 245,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Arsenal",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "West Ham captain 2022-23",
+  "fan_bond": "Left West Ham on good terms as a hero",
+  "loyalty_notes": "Chelsea academy released at 14; West Ham academy; record sale to Arsenal 2023",
+  "money_moves": [],
+  "LO_now": 6.5
+ },
+ {
+  "name": "Deniz Undav",
+  "born": 1996,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "SV Meppen",
+    "from": 2017,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Saint-Gilloise",
+    "from": 2020,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Brighton",
+    "from": 2022,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfB Stuttgart",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Stuttgart captain 2026-27",
+  "fan_bond": "loan then permanent; Stuttgart favourite",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 5.5
+ },
+ {
+  "name": "Didier Drogba",
+  "born": 1978,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Le Mans",
+    "from": 1998,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Guingamp",
+    "from": 2002,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Marseille",
+    "from": 2003,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2004,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Shanghai Shenhua",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Galatasaray",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Montreal Impact",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Phoenix Rising",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Ivory Coast captain",
+  "fan_bond": "Chelsea legend; returned 2014",
+  "loyalty_notes": "Chelsea 2004-12 and 2014-15",
+  "money_moves": [],
+  "LO_now": 6.5
+ },
+ {
+  "name": "Diego Maradona",
+  "born": 1960,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Argentinos Juniors",
+    "from": 1976,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Boca Juniors",
+    "from": 1981,
+    "to": 1982,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1982,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Napoli",
+    "from": 1984,
+    "to": 1991,
+    "apps": 259,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Sevilla",
+    "from": 1992,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newell's Old Boys",
+    "from": 1993,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Boca Juniors",
+    "from": 1995,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Napoli captain; Argentina captain 1986 World Cup",
+  "fan_bond": "Near-religious bond with Napoli fans; murals, stadium renamed Stadio Diego Armando Maradona in 2020",
+  "loyalty_notes": "Carried unfashionable Napoli to two titles; died Nov 2020",
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "coached Al-Fujairah (UAE) and earlier Al-Wasl 2011-12; chairman of Dinamo Brest (Belarus) 2018",
+    "type": "other"
+   }
+  ],
+  "LO_now": 7.5
+ },
+ {
+  "name": "Dominik Szoboszlai",
+  "born": 2000,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Liefering",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Red Bull Salzburg",
+    "from": 2018,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "RB Leipzig",
+    "from": 2021,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Hungary captain",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 4.25
+ },
+ {
+  "name": "Emre Can",
+  "born": 1994,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2014,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2018,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2020,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Dortmund captain 2023- (succeeded Reus)",
+  "fan_bond": "divisive at BVB but backed as leader; club extended his deal to 2027 after his ACL tear (March 2026)",
+  "loyalty_notes": "Left Liverpool on a free 2018",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Eric Wynalda",
+  "born": 1969,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "1. FC Saarbrücken",
+    "from": 1992,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Bochum",
+    "from": 1994,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Jose Clash",
+    "from": 1996,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Miami Fusion",
+    "from": 1999,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "León",
+    "from": 1999,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2000,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New England Revolution",
+    "from": 2001,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "",
+  "loyalty_notes": "First American in the Bundesliga (Saarbrücken)",
+  "money_moves": [],
+  "LO_now": 3.5
+ },
+ {
+  "name": "Eusébio",
+  "born": 1942,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Sporting Lourenço Marques",
+    "from": 1957,
+    "to": 1960,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Benfica",
+    "from": 1961,
+    "to": 1975,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Boston Minutemen",
+    "from": 1975,
+    "to": 1975,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Monterrey",
+    "from": 1975,
+    "to": 1976,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Beira-Mar",
+    "from": 1976,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Benfica captain",
+  "fan_bond": "Benfica ambassador for life; statue at Estádio da Luz",
+  "loyalty_notes": "Salazar regime blocked moves abroad (declared 'national asset'); stayed at Benfica 15 years",
+  "money_moves": [],
+  "LO_now": 8.25
+ },
+ {
+  "name": "Fabio Cannavaro",
+  "born": 1973,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Napoli",
+    "from": 1992,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Parma",
+    "from": 1995,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Ahli Dubai",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Italy captain 2006",
+  "fan_bond": "Napoli native; left Juve after Calciopoli relegation",
+  "loyalty_notes": "Left Juve for Real Madrid 2006 instead of staying in Serie B",
+  "money_moves": [
+   {
+    "year": 2010,
+    "what": "played for Al-Ahli Dubai (UAE)",
+    "type": "other"
+   },
+   {
+    "year": 2025,
+    "what": "coaching Uzbekistan national team (2026 WC)",
+    "type": "other"
+   }
+  ],
+  "LO_now": 3.75
+ },
+ {
+  "name": "Federico Valverde",
+  "born": 1998,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Peñarol",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2016,
+    "to": null,
+    "apps": 300,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Real Madrid captain 2025-",
+  "fan_bond": "Admired by Madrid fans for engine",
+  "loyalty_notes": "Long-term Madrid player",
+  "money_moves": [],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Ferenc Puskás",
+  "born": 1927,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Budapest Honvéd",
+    "from": 1943,
+    "to": 1956,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 1958,
+    "to": 1966,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Honvéd and Hungary captain",
+  "fan_bond": "Hungarian national hero; FIFA's goal of the year award is named after him",
+  "loyalty_notes": "Did not return to Hungary after the 1956 revolution; banned 2 years by UEFA/FIFA; returned home 1991",
+  "money_moves": [],
+  "LO_now": 6.75
+ },
+ {
+  "name": "Florian Wirtz",
+  "born": 2003,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2020,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "slow first season adaptation; seen as the new creative core",
+  "loyalty_notes": "Came through Köln academy, moved to Leverkusen youth 2020 (controversial with Köln at the time)",
+  "money_moves": [],
+  "LO_now": 4.75
+ },
+ {
+  "name": "Francesco Totti",
+  "born": 1976,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Roma",
+    "from": 1992,
+    "to": 2017,
+    "apps": 786,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "captaincy": "Roma captain 1998-2017",
+  "fan_bond": "'Il Capitano', Roman born and bred; turned down Real Madrid",
+  "loyalty_notes": "One club 25 years, rejected Real Madrid 2004",
+  "money_moves": [],
+  "LO_now": 10.0
+ },
+ {
+  "name": "Frank Rijkaard",
+  "born": 1962,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Ajax",
+    "from": 1980,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Sporting CP",
+    "from": 1987,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Zaragoza",
+    "from": 1987,
+    "to": 1988,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1988,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ajax",
+    "from": 1993,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Respected at Ajax, Milan and later Barça as coach",
+  "loyalty_notes": "Left Ajax 1987 after row with Cruyff; returned 1993",
+  "money_moves": [
+   {
+    "year": 2011,
+    "what": "coached Saudi Arabia national team 2011-13",
+    "type": "b10"
+   }
+  ],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Fridolina Rolfö",
+  "born": 1993,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Linköpings FC",
+    "from": 2013,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Wolfsburg",
+    "from": 2019,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2021,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Garrincha",
+  "born": 1933,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Botafogo",
+    "from": 1953,
+    "to": 1965,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians",
+    "from": 1966,
+    "to": 1966,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1968,
+    "to": 1969,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Botafogo's idol; Brazil lost only once with him and Pelé together",
+  "loyalty_notes": "Died 1983 of alcoholism, aged 49",
+  "money_moves": [],
+  "LO_now": 7.25
+ },
+ {
+  "name": "George Best",
+  "born": 1946,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 1963,
+    "to": 1974,
+    "apps": 470,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Fulham",
+    "from": 1976,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Aztecs",
+    "from": 1976,
+    "to": 1978,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hibernian",
+    "from": 1979,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Jose Earthquakes",
+    "from": 1980,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Adored at Man Utd; walked out on the club repeatedly in 1972-74",
+  "loyalty_notes": "Quit Man Utd aged 27 amid alcoholism; drifted through many clubs",
+  "money_moves": [],
+  "LO_now": 5.0
+ },
+ {
+  "name": "Gerd Müller",
+  "born": 1945,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "TSV 1861 Nördlingen",
+    "from": 1963,
+    "to": 1964,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 1964,
+    "to": 1979,
+    "apps": 607,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fort Lauderdale Strikers",
+    "from": 1979,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Bayern legend; Bayern gave him a coaching job and helped him overcome alcoholism",
+  "loyalty_notes": "15 years at Bayern; died 2021",
+  "money_moves": [],
+  "LO_now": 8.25
+ },
+ {
+  "name": "Gianluigi Buffon",
+  "born": 1978,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Parma",
+    "from": 1995,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Juventus",
+    "from": 2001,
+    "to": 2018,
+    "apps": 656,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2019,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Parma",
+    "from": 2021,
+    "to": 2023,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Juventus captain 2012-18; Italy captain",
+  "fan_bond": "Juve icon; returned to Parma",
+  "loyalty_notes": "Stayed with Juve in Serie B; PSG move 2018",
+  "money_moves": [
+   {
+    "year": 2018,
+    "what": "joined Paris Saint-Germain (Qatar)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 8.5
+ },
+ {
+  "name": "Gio Reyna",
+  "born": 2002,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Borussia Dortmund",
+    "from": 2019,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Nottingham Forest (loan)",
+    "from": 2024,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "",
+  "loyalty_notes": "Injury-hit at BVB; moved to Gladbach Aug 2025",
+  "money_moves": [],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Giulia Gwinn",
+  "born": 1999,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "SC Freiburg",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2019,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Germany captain 2025-",
+  "fan_bond": "Popular German star",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 6.5
+ },
+ {
+  "name": "Hany Mukhtar",
+  "born": 1995,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Hertha BSC",
+    "from": 2013,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Benfica",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Brøndby",
+    "from": 2017,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Nashville SC",
+    "from": 2020,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Nashville's face since its MLS debut",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 6.5
+ },
+ {
+  "name": "Henrik Larsson",
+  "born": 1971,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Helsingborg",
+    "from": 1992,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Feyenoord",
+    "from": 1993,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 1997,
+    "to": 2004,
+    "apps": 315,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Helsingborg",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2007,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "'King of Kings' at Celtic; came back from a broken leg (1999) to score 53 goals the next season",
+  "loyalty_notes": "Returned to hometown Helsingborg",
+  "money_moves": [],
+  "LO_now": 7.0
+ },
+ {
+  "name": "Hope Solo",
+  "born": 1981,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Philadelphia Charge",
+    "from": 2003,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Kopparbergs/Göteborg",
+    "from": 2004,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lyon",
+    "from": 2005,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Saint Louis Athletica",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlanta Beat",
+    "from": 2010,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "magicJack",
+    "from": 2011,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Seattle Reign",
+    "from": 2013,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Divisive: admired for ability, criticised for conduct",
+  "loyalty_notes": "Contract terminated by US Soccer 2016",
+  "money_moves": [],
+  "LO_now": 3.75
+ },
+ {
+  "name": "Hugo Ekitiké",
+  "born": 2002,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Reims",
+    "from": 2020,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2022,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Eintracht Frankfurt",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "quick fan favourite in 2025-26",
+  "loyalty_notes": "Out with Achilles injury until about January 2027",
+  "money_moves": [
+   {
+    "year": 2022,
+    "what": "played for PSG (Qatar state-owned) 2022-24",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 3.75
+ },
+ {
+  "name": "Ian Rush",
+  "born": 1961,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Chester City",
+    "from": 1979,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1980,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1987,
+    "to": 1988,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1988,
+    "to": 1996,
+    "apps": 660,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 1997,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Wrexham",
+    "from": 1998,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Liverpool captain 1993-1996",
+  "fan_bond": "Legend; returned from Juventus after one year",
+  "loyalty_notes": "Left for Juventus 1987, came back 1988",
+  "money_moves": [],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Ibrahima Konaté",
+  "born": 1999,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Sochaux",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "RB Leipzig",
+    "from": 2017,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2021,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "popular at Anfield; some fan frustration over contract stand-off",
+  "loyalty_notes": "Ran down his contract and left Liverpool for Real Madrid on a free (announced June 2026)",
+  "money_moves": [],
+  "LO_now": 4.0
+ },
+ {
+  "name": "Iker Muniain",
+  "born": 1992,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 2009,
+    "to": 2024,
+    "apps": 561,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "San Lorenzo",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Athletic captain; lifted 2024 Copa del Rey",
+  "fan_bond": "Athletic idol; emotional farewell 2024",
+  "loyalty_notes": "Stayed through ACL injuries; retired 2025 at San Lorenzo; became San Lorenzo head coach June 2026",
+  "money_moves": [],
+  "LO_now": 9.0
+ },
+ {
+  "name": "Jack Gurr",
+  "born": null,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Sacramento Republic FC",
+    "from": null,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Jadon Sancho",
+  "born": 2000,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Manchester City (academy)",
+    "from": 2015,
+    "to": 2017,
+    "apps": 0,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2017,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2021,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund (loan)",
+    "from": 2024,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea (loan)",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Aston Villa (loan)",
+    "from": 2025,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "much loved at Dortmund (two spells)",
+  "loyalty_notes": "Forced move from Man City academy to BVB 2017 by refusing a new deal and skipping a tour; banished by Man United 2023; free agent since contract ended June 2026, still unattached late Sept 2026 (BVB return discussed)",
+  "money_moves": [
+   {
+    "year": 2015,
+    "what": "Manchester City academy (Abu Dhabi-owned), no senior apps",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 3.75
+ },
+ {
+  "name": "James Pantemis",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "CF Montréal",
+    "from": 2018,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Timbers starting keeper",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 4.75
+ },
+ {
+  "name": "Jamie Vardy",
+  "born": 1987,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Stocksbridge Park Steels",
+    "from": 2007,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "FC Halifax Town",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fleetwood Town",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leicester City",
+    "from": 2012,
+    "to": 2025,
+    "apps": 500,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Cremonese",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Leicester captain (latter years)",
+  "fan_bond": "Leicester icon; 200 goals in 500 apps; stayed through relegation to Championship 2023-24",
+  "loyalty_notes": "STILL ACTIVE: Cremonese (Serie A) 2025-, contract to 2027. Turned down Arsenal 2016",
+  "money_moves": [],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Jeremie Frimpong",
+  "born": 2000,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Manchester City (academy)",
+    "from": 2010,
+    "to": 2019,
+    "apps": 0,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Celtic",
+    "from": 2019,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2021,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "popular at Celtic and Leverkusen",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Joaquín",
+  "born": 1981,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Real Betis",
+    "from": 2000,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Valencia",
+    "from": 2006,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Málaga",
+    "from": 2011,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fiorentina",
+    "from": 2013,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Betis",
+    "from": 2015,
+    "to": 2023,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Betis captain late career",
+  "fan_bond": "Betis icon; retired 2023 with a huge farewell",
+  "loyalty_notes": "Returned to boyhood Betis 2015",
+  "money_moves": [],
+  "LO_now": 8.25
+ },
+ {
+  "name": "Joe Gomez",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Charlton Athletic",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Liverpool",
+    "from": 2015,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Liverpool vice-captain 2026-27",
+  "fan_bond": "respected long-server; stayed through serious injuries (ACL 2020, Achilles)",
+  "loyalty_notes": "Liverpool since 2015; repeatedly linked away (e.g., Newcastle 2024) but stayed",
+  "money_moves": [],
+  "LO_now": 8.0
+ },
+ {
+  "name": "John Barnes",
+  "born": 1963,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Watford",
+    "from": 1981,
+    "to": 1987,
+    "apps": 296,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1987,
+    "to": 1997,
+    "apps": 407,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 1997,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Charlton Athletic",
+    "from": 1999,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Liverpool captain c.1993-1997",
+  "fan_bond": "Adored at Anfield despite racist abuse from some opponents' fans when he arrived as Liverpool's first high-profile Black player",
+  "loyalty_notes": "Moved Watford to Liverpool 1987; reinvented as a midfielder after Achilles injury",
+  "money_moves": [],
+  "LO_now": 7.0
+ },
+ {
+  "name": "Joseba Etxeberria",
+  "born": 1977,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 1994,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Athletic Club",
+    "from": 1995,
+    "to": 2010,
+    "apps": 514,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Athletic captain late career",
+  "fan_bond": "Athletic legend",
+  "loyalty_notes": "Move from Real Sociedad caused a bitter compensation dispute; played last season unpaid",
+  "money_moves": [],
+  "LO_now": 8.25
+ },
+ {
+  "name": "Juan Román Riquelme",
+  "born": 1978,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Boca Juniors",
+    "from": 1996,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2002,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Villarreal",
+    "from": 2003,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Boca Juniors",
+    "from": 2007,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Boca idol; club president 2023-",
+  "loyalty_notes": "Boca 1996-2002, 2007-14",
+  "money_moves": [],
+  "LO_now": 7.75
+ },
+ {
+  "name": "Julen Guerrero",
+  "born": 1974,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 1992,
+    "to": 2006,
+    "apps": 430,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "captaincy": "Athletic captain",
+  "fan_bond": "Athletic poster boy of the 90s",
+  "loyalty_notes": "One-club man",
+  "money_moves": [],
+  "LO_now": 9.5
+ },
+ {
+  "name": "Julian Ryerson",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Viking",
+    "from": 2015,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2018,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "well liked at Union and BVB",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Julie Foudy",
+  "born": 1971,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "San Diego Spirit",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "USWNT captain 2000-2004",
+  "fan_bond": "Beloved; now ESPN voice of the women's game",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 6.0
+ },
+ {
+  "name": "Kaká",
+  "born": 1982,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "São Paulo",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "AC Milan",
+    "from": 2003,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2009,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "São Paulo",
+    "from": 2014,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Orlando City",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Orlando City captain",
+  "fan_bond": "Milan fans protested his 2009 sale; stayed in Jan 2009 rejecting Man City",
+  "loyalty_notes": "Rejected record Man City bid Jan 2009, then sold to Real that summer",
+  "money_moves": [],
+  "LO_now": 6.0
+ },
+ {
+  "name": "Karim Adeyemi",
+  "born": 2002,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "SpVgg Unterhaching",
+    "from": 2018,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Red Bull Salzburg",
+    "from": 2018,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2022,
+    "to": 2026,
+    "apps": 146,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "mixed; inconsistent at BVB",
+  "loyalty_notes": "Sold to Barcelona July 2026 for ~€29m",
+  "money_moves": [],
+  "LO_now": 4.0
+ },
+ {
+  "name": "Karl-Heinz Rummenigge",
+  "born": 1955,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 1974,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1984,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Servette",
+    "from": 1987,
+    "to": 1989,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Bayern CEO 2002-21",
+  "loyalty_notes": "Bayern 1974-84",
+  "money_moves": [],
+  "LO_now": 6.25
+ },
+ {
+  "name": "Kelly Smith",
+  "born": 1978,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Arsenal",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Philadelphia Charge",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2005,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Boston Breakers",
+    "from": 2009,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2012,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Arsenal legend; returned three times",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 7.0
+ },
+ {
+  "name": "Kenny Dalglish",
+  "born": 1951,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Celtic",
+    "from": 1969,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1977,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "'King Kenny', Liverpool's favourite; returned as manager 2011",
+  "loyalty_notes": "Celtic 1969-77; Liverpool 1977-90; resigned 1991 citing stress after Hillsborough",
+  "money_moves": [],
+  "LO_now": 8.5
+ },
+ {
+  "name": "Kevin Keegan",
+  "born": 1951,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Scunthorpe United",
+    "from": 1968,
+    "to": 1971,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1971,
+    "to": 1977,
+    "apps": 323,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hamburger SV",
+    "from": 1977,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Southampton",
+    "from": 1980,
+    "to": 1982,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 1982,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "England captain",
+  "fan_bond": "Loved at Liverpool and Hamburg",
+  "loyalty_notes": "Left Liverpool for Hamburg 1977",
+  "money_moves": [],
+  "LO_now": 5.0
+ },
+ {
+  "name": "Kristine Lilly",
+  "born": 1971,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Boston Breakers",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Boston Breakers",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "USWNT captain mid-2000s",
+  "fan_bond": "Revered as the iron woman of US soccer",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 7.0
+ },
+ {
+  "name": "Kyle Edwards",
+  "born": null,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Sacramento Republic FC",
+    "from": null,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 4.25
+ },
+ {
+  "name": "Lamine Yamal",
+  "born": 2007,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Academy hero; celebrates Rocafonda (Mataró) roots with '304' postcode",
+  "loyalty_notes": "La Masia; renewed to 2031",
+  "money_moves": [],
+  "LO_now": 7.25
+ },
+ {
+  "name": "Lars Ricken",
+  "born": 1976,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Borussia Dortmund",
+    "from": 1993,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Dortmund-born; club icon; later youth director and BVB executive",
+  "loyalty_notes": "One-club man incl. BVB II at the end",
+  "money_moves": [],
+  "LO_now": 9.5
+ },
+ {
+  "name": "Lautaro Martínez",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Racing Club",
+    "from": 2015,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2018,
+    "to": null,
+    "apps": 330,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Inter captain 2023-",
+  "fan_bond": "Inter captain and fan favourite",
+  "loyalty_notes": "Committed to Inter; rejected Barcelona speculation 2026",
+  "money_moves": [],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Lee Desmond",
+  "born": 1995,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "St Patrick's Athletic",
+    "from": 2015,
+    "to": 2021,
+    "apps": 225,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sacramento Republic FC",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Republic co-captain 2022-25; captain 2026 (after López retired)",
+  "fan_bond": "leader of the 2025 defence (club-record 17 clean sheets)",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 7.0
+ },
+ {
+  "name": "Lev Yashin",
+  "born": 1929,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Dynamo Moscow",
+    "from": 1950,
+    "to": 1970,
+    "apps": 326,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "captaincy": "Dynamo captain",
+  "fan_bond": "Dynamo one-club legend",
+  "loyalty_notes": "One club his whole career (also played ice hockey for Dynamo)",
+  "money_moves": [],
+  "LO_now": 9.75
+ },
+ {
+  "name": "Lionel Messi",
+  "born": 1987,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2004,
+    "to": 2021,
+    "apps": 778,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2021,
+    "to": 2023,
+    "apps": 75,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Miami",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Barcelona captain 2018-21; Argentina captain 2011-",
+  "fan_bond": "Adored at Barcelona; tearful exit 2021; mixed at PSG (booed by ultras 2023); global icon in MLS",
+  "loyalty_notes": "Barcelona academy (La Masia) from age 13; left 2021 only because the club could not register his contract; chose MLS over Saudi offer 2023",
+  "money_moves": [
+   {
+    "year": 2021,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   },
+   {
+    "year": 2022,
+    "what": "paid Visit Saudi tourism ambassador (since 2022)",
+    "type": "b12"
+   }
+  ],
+  "LO_now": 8.25
+ },
+ {
+  "name": "Lothar Matthäus",
+  "born": 1961,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 1979,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 1984,
+    "to": 1988,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1988,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 1992,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "MetroStars",
+    "from": 2000,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Germany captain (1990 WC)",
+  "fan_bond": "Respected; not a fan-favourite type",
+  "loyalty_notes": "Moved Gladbach to Bayern 1984 (direct rival then); missed penalty for Gladbach in 1984 cup final vs Bayern after agreeing move",
+  "money_moves": [],
+  "LO_now": 4.25
+ },
+ {
+  "name": "Luis Díaz",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Barranquilla",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Junior",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Porto",
+    "from": 2019,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2022,
+    "to": 2025,
+    "apps": 148,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Liked at Liverpool",
+  "loyalty_notes": "Moved to Bayern 2025",
+  "money_moves": [],
+  "LO_now": 4.5
+ },
+ {
+  "name": "Luka Modrić",
+  "born": 1985,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Dinamo Zagreb",
+    "from": 2003,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2008,
+    "to": 2012,
+    "apps": 160,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2012,
+    "to": 2025,
+    "apps": 597,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Real Madrid captain 2023-25; Croatia captain 2016-26",
+  "fan_bond": "Revered at Real Madrid; emotional 2025 farewell",
+  "loyalty_notes": "Forced Tottenham exit 2012 (refused preseason tour); stayed 13 seasons at Madrid; retiring from Croatia after Oct 6 2026 match",
+  "money_moves": [],
+  "LO_now": 6.5
+ },
+ {
+  "name": "Mallory Swanson",
+  "born": 1998,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Washington Spirit",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Red Stars / Chicago Stars",
+    "from": 2020,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Chicago favourite",
+  "loyalty_notes": "Stayed in Chicago through ownership turmoil",
+  "money_moves": [],
+  "LO_now": 6.5
+ },
+ {
+  "name": "Marco Reus",
+  "born": 1989,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Rot Weiss Ahlen",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2009,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2012,
+    "to": 2024,
+    "apps": 429,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Dortmund captain 2018-23",
+  "fan_bond": "BVB icon: Dortmund-born, stayed when Götze/Lewandowski/Hummels left for Bayern",
+  "loyalty_notes": "Released by BVB youth 2006, returned 2012 and stayed 12 seasons; Galaxy extension to Dec 2027",
+  "money_moves": [],
+  "LO_now": 9.0
+ },
+ {
+  "name": "Marcus Rashford",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 2015,
+    "to": null,
+    "apps": 426,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Aston Villa",
+    "from": 2025,
+    "to": 2025,
+    "apps": 17,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2025,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Local academy hero; relationship soured 2024",
+  "loyalty_notes": "Loaned out 2025 and 2025-26; Barcelona didn't buy; back at United 2026",
+  "money_moves": [],
+  "LO_now": 6.25
+ },
+ {
+  "name": "Martin Zubimendi",
+  "born": 1999,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 2019,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Arsenal",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "",
+  "loyalty_notes": "Rejected Liverpool 2024, joined Arsenal 2025",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Mary Earps",
+  "born": 1993,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Reading",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Wolfsburg",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2019,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2024,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "London City Lionesses",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Lionesses fan favourite",
+  "loyalty_notes": "Retired from England May 2025; joined PSG 2024, London City 2026",
+  "money_moves": [
+   {
+    "year": 2024,
+    "what": "PSG 2024-26 (Qatar-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 4.75
+ },
+ {
+  "name": "Matt Le Tissier",
+  "born": 1968,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Southampton",
+    "from": 1986,
+    "to": 2002,
+    "apps": 540,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "'Le God'",
+  "loyalty_notes": "One-club man",
+  "money_moves": [],
+  "LO_now": 9.5
+ },
+ {
+  "name": "Matthias Sammer",
+  "born": 1967,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Dynamo Dresden",
+    "from": 1985,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfB Stuttgart",
+    "from": 1990,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter",
+    "from": 1992,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 1993,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Last East Germany captain",
+  "fan_bond": "BVB icon; later BVB coach (2002 title) and Bayern director",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 5.5
+ },
+ {
+  "name": "Meghan Klingenberg",
+  "born": 1988,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "magicJack",
+    "from": 2011,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tyresö FF",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Houston Dash",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Thorns",
+    "from": 2016,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Thorns co-captain at times",
+  "fan_bond": "Big Thorns fan favourite",
+  "loyalty_notes": "Long Thorns servant 2016 to retirement (2023)",
+  "money_moves": [],
+  "LO_now": 7.5
+ },
+ {
+  "name": "Michael Bradley",
+  "born": 1987,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "MetroStars",
+    "from": 2004,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Heerenveen",
+    "from": 2006,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2008,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Aston Villa",
+    "from": 2011,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chievo",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Roma",
+    "from": 2012,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Toronto FC",
+    "from": 2014,
+    "to": 2023,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Toronto FC captain; USA captain",
+  "fan_bond": "TFC captain through highs and lows",
+  "loyalty_notes": "Retired end 2023; NY Red Bulls II coach 2025 (NEXT Pro title), NY Red Bulls head coach 2026",
+  "money_moves": [],
+  "LO_now": 7.0
+ },
+ {
+  "name": "Michael Owen",
+  "born": 1979,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 1996,
+    "to": 2004,
+    "apps": 297,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2004,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 2005,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2009,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Stoke City",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Cooled considerably after he joined Man Utd; Liverpool fans' view mixed",
+  "loyalty_notes": "Let contract run down and left for Real Madrid 2004 for a low fee; joined Man Utd 2009",
+  "money_moves": [],
+  "LO_now": 3.75
+ },
+ {
+  "name": "Michel Platini",
+  "born": 1955,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Nancy",
+    "from": 1972,
+    "to": 1979,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Saint-Étienne",
+    "from": 1979,
+    "to": 1982,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1982,
+    "to": 1987,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "France captain (Euro 1984)",
+  "fan_bond": "Juve idol; criticised for celebrating at Heysel where 39 died",
+  "loyalty_notes": "Retired at 32",
+  "money_moves": [],
+  "LO_now": 4.75
+ },
+ {
+  "name": "Mikel Oyarzabal",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 2015,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "captaincy": "Real Sociedad captain",
+  "fan_bond": "Eibar-born academy captain",
+  "loyalty_notes": "Has repeatedly turned down bigger clubs; 'you can say no to Barcelona' (July 2026)",
+  "money_moves": [],
+  "LO_now": 9.25
+ },
+ {
+  "name": "Miroslav Klose",
+  "born": 1978,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Kaiserslautern",
+    "from": 1999,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Werder Bremen",
+    "from": 2004,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2007,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lazio",
+    "from": 2011,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Respected widely for fair play",
+  "loyalty_notes": "Kaiserslautern 1999-2004, Werder 2004-07, Bayern 2007-11, Lazio 2011-16; head coach of 1. FC Nürnberg since 2025",
+  "money_moves": [],
+  "LO_now": 4.75
+ },
+ {
+  "name": "N'Golo Kanté",
+  "born": 1991,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Boulogne",
+    "from": 2011,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Caen",
+    "from": 2013,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leicester City",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2016,
+    "to": 2023,
+    "apps": 269,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Ittihad",
+    "from": 2023,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fenerbahçe",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Beloved everywhere",
+  "loyalty_notes": "Saudi then Turkey",
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Ittihad (Saudi PIF-owned)",
+    "type": "b10"
+   }
+  ],
+  "LO_now": 4.75
+ },
+ {
+  "name": "Nat Borchers",
+  "born": 1981,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Colorado Rapids",
+    "from": 2003,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Odd Grenland",
+    "from": 2007,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Salt Lake",
+    "from": 2008,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Cult hero for his beard and character",
+  "loyalty_notes": "Retired 2016 after Achilles injury; broadcaster",
+  "money_moves": [],
+  "LO_now": 5.0
+ },
+ {
+  "name": "Neymar",
+  "born": 1992,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Santos",
+    "from": 2009,
+    "to": 2013,
+    "apps": 225,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Barcelona",
+    "from": 2013,
+    "to": 2017,
+    "apps": 186,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2017,
+    "to": 2023,
+    "apps": 173,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Hilal",
+    "from": 2023,
+    "to": 2025,
+    "apps": 7,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Santos",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Brazil captain at times",
+  "fan_bond": "Mixed; cherished at Santos",
+  "loyalty_notes": "Forced PSG move 2017 via EUR 222m release clause; Saudi move 2023; returned to boyhood club Santos 2025 (extended to Dec 2026)",
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   },
+   {
+    "year": 2023,
+    "what": "joined Al-Hilal (Saudi PIF-owned)",
+    "type": "b10"
+   }
+  ],
+  "LO_now": 1.5
+ },
+ {
+  "name": "Nico Williams",
+  "born": 2002,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 2021,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "San Mamés idol; brother of Iñaki",
+  "loyalty_notes": "Rejected Barcelona 2025; injuries (pubalgia) in 2025-26",
+  "money_moves": [],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Oliver Kahn",
+  "born": 1969,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Karlsruher SC",
+    "from": 1987,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 1994,
+    "to": 2008,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Bayern and Germany captain",
+  "fan_bond": "Bayern icon",
+  "loyalty_notes": "Bayern CEO 2021-23",
+  "money_moves": [],
+  "LO_now": 7.5
+ },
+ {
+  "name": "Ousmane Dembélé",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Rennes",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2016,
+    "to": 2017,
+    "apps": 50,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2017,
+    "to": 2023,
+    "apps": 185,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Popular at PSG; Dortmund fans resent 2017 strike",
+  "loyalty_notes": "Went on strike at Dortmund 2017 to force Barcelona move; extended at PSG to 2030",
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 2.5
+ },
+ {
+  "name": "Paolo Maldini",
+  "born": 1968,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "AC Milan",
+    "from": 1985,
+    "to": 2009,
+    "apps": 902,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "captaincy": "Milan captain 1997-2009; Italy captain",
+  "fan_bond": "Milan's ultimate one-club captain; but ultras booed him at his farewell 2009 over a long-running feud",
+  "loyalty_notes": "One club 25 seasons; later Milan technical director (sacked 2023)",
+  "money_moves": [],
+  "LO_now": 10.0
+ },
+ {
+  "name": "Paul Scholes",
+  "born": 1974,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 1994,
+    "to": 2013,
+    "apps": 718,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Man Utd one-club academy legend ('Class of 92'); Salford lad",
+  "loyalty_notes": "One club 1994-2013 incl. brief 2011 retirement; co-owner of Salford City; quit England at 29 (2004)",
+  "money_moves": [],
+  "LO_now": 9.5
+ },
+ {
+  "name": "Pelé",
+  "born": 1940,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Santos",
+    "from": 1956,
+    "to": 1974,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "New York Cosmos",
+    "from": 1975,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Santos idol; declared a 'national treasure' by Brazil's government to keep him from moving abroad",
+  "loyalty_notes": "Stayed at Santos 18 years despite offers from Europe; finished career in the US",
+  "money_moves": [
+   {
+    "year": 1975,
+    "what": "joined New York Cosmos (Warner Communications)",
+    "type": "other"
+   }
+  ],
+  "LO_now": 8.75
+ },
+ {
+  "name": "Phil Foden",
+  "born": 2000,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Manchester City",
+    "from": 2017,
+    "to": null,
+    "apps": 300,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Local hero at City",
+  "loyalty_notes": "City academy; one club",
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "plays for Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Philippe Coutinho",
+  "born": 1992,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Vasco da Gama",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Inter",
+    "from": 2010,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Espanyol",
+    "from": 2012,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2013,
+    "to": 2018,
+    "apps": 201,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2018,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Aston Villa",
+    "from": 2022,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Duhail",
+    "from": 2023,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vasco da Gama",
+    "from": 2024,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Santos",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Liverpool favourite until the Barcelona saga; booed by Vasco fans in 2026",
+  "loyalty_notes": "STILL ACTIVE: Santos 2026. Handed in a transfer request Aug 2017 and missed early-season games (back injury) as Barcelona pursued him; left Vasco Feb 2026 citing mental health",
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "loan to Al-Duhail (Qatar)",
+    "type": "other"
+   }
+  ],
+  "LO_now": 3.0
+ },
+ {
+  "name": "Raphinha",
+  "born": 1996,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Avaí",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vitória Guimarães",
+    "from": 2016,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sporting CP",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rennes",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2020,
+    "to": 2022,
+    "apps": 67,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Barcelona captain 2025-",
+  "fan_bond": "Leeds fan favourite; Barcelona captain",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Raúl",
+  "born": 1977,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Real Madrid",
+    "from": 1994,
+    "to": 2010,
+    "apps": 741,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Schalke 04",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al Sadd",
+    "from": 2012,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New York Cosmos",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Real captain; Spain captain",
+  "fan_bond": "Real Madrid academy icon; Schalke cult hero (farewell 2012 standing ovation)",
+  "loyalty_notes": "Came from Atlético youth, joined Real 1992; Real 1994-2010",
+  "money_moves": [
+   {
+    "year": 2012,
+    "what": "joined Al Sadd (Qatar)",
+    "type": "other"
+   }
+  ],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Riqui Puig",
+  "born": 1999,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2018,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Galaxy favourite",
+  "loyalty_notes": "Missed 2025 and 2026 seasons after two ACL surgeries; expected back for 2027",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Robbie Fowler",
+  "born": 1975,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 1993,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Leeds United",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2003,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2006,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Cardiff City",
+    "from": 2007,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Blackburn Rovers",
+    "from": 2008,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "North Queensland Fury",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Perth Glory",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Muangthong United",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Liverpool captain on occasion (vice-captain c.2000-01)",
+  "fan_bond": "'God' to the Kop; local Toxteth lad and boyhood Everton fan; emotional return in 2006",
+  "loyalty_notes": "Sold to Leeds 2001 after falling out of favour; returned to Liverpool on a free 2006",
+  "money_moves": [],
+  "LO_now": 7.0
+ },
+ {
+  "name": "Roberto Baggio",
+  "born": 1967,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Vicenza",
+    "from": 1982,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Fiorentina",
+    "from": 1985,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1990,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1995,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bologna",
+    "from": 1997,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1998,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Brescia",
+    "from": 2000,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Fiorentina fans rioted at his 1990 sale to Juve",
+  "loyalty_notes": "Sold to Juve against his will; later revived Brescia",
+  "money_moves": [],
+  "LO_now": 5.0
+ },
+ {
+  "name": "Rodri",
+  "born": 1996,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Villarreal",
+    "from": 2015,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2018,
+    "to": 2019,
+    "apps": 47,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester City",
+    "from": 2019,
+    "to": 2026,
+    "apps": 260,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Man City vice-captain; Spain captain at 2026 WC per reports",
+  "fan_bond": "Respected; unflashy",
+  "loyalty_notes": "Atlético youth (released then Villarreal), back to Atlético 2018; left City for Barcelona Aug 2026",
+  "money_moves": [
+   {
+    "year": 2019,
+    "what": "joined Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 5.0
+ },
+ {
+  "name": "Roman Weidenfeller",
+  "born": 1980,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "1. FC Kaiserslautern",
+    "from": 1998,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2002,
+    "to": 2018,
+    "apps": 453,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Long-serving, popular keeper; farewell 2018",
+  "loyalty_notes": "16 years at BVB incl. near-bankruptcy era",
+  "money_moves": [],
+  "LO_now": 8.5
+ },
+ {
+  "name": "Ronald Koeman",
+  "born": 1963,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Groningen",
+    "from": 1980,
+    "to": 1983,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ajax",
+    "from": 1983,
+    "to": 1986,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV",
+    "from": 1986,
+    "to": 1989,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1989,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Feyenoord",
+    "from": 1995,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Barcelona and PSV icon",
+  "loyalty_notes": "Played for all three Dutch giants (Ajax, PSV, Feyenoord); later Netherlands head coach (2018-20, 2023-)",
+  "money_moves": [],
+  "LO_now": 3.5
+ },
+ {
+  "name": "Ronaldo (Brazilian)",
+  "born": 1976,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Cruzeiro",
+    "from": 1993,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV",
+    "from": 1994,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1997,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2002,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2007,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Loved for his brilliance; Inter fans resented his departures",
+  "loyalty_notes": "Left Inter for Real 2002 after pushing for exit; joined Inter's rival Milan 2007",
+  "money_moves": [
+   {
+    "year": 2018,
+    "what": "owned Real Valladolid 2018-24 and Cruzeiro 2021-24 (sold both)",
+    "type": "other"
+   }
+  ],
+  "LO_now": 3.0
+ },
+ {
+  "name": "Roy Keane",
+  "born": 1971,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Cobh Ramblers",
+    "from": 1989,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Nottingham Forest",
+    "from": 1990,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 1993,
+    "to": 2005,
+    "apps": 480,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 2005,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Man Utd captain 1997-2005; Ireland captain",
+  "fan_bond": "Man Utd cult hero as captain; criticised club in 2005 MUTV interview, leading to exit",
+  "loyalty_notes": "Left Man Utd Nov 2005 by mutual consent after MUTV rant; finished at Celtic (boyhood club)",
+  "money_moves": [],
+  "LO_now": 7.0
+ },
+ {
+  "name": "Ryan Giggs",
+  "born": 1973,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 1990,
+    "to": 2014,
+    "apps": 963,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "captaincy": "Man Utd captain occasionally",
+  "fan_bond": "Man Utd one-club legend",
+  "loyalty_notes": "One club 24 years",
+  "money_moves": [],
+  "LO_now": 9.75
+ },
+ {
+  "name": "Rúben Dias",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Benfica",
+    "from": 2017,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester City",
+    "from": 2020,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "money_moves": [
+   {
+    "year": 2020,
+    "what": "joined Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 5.0
+ },
+ {
+  "name": "Sam Hiatt",
+  "born": 1998,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "OL Reign / Seattle Reign",
+    "from": 2021,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Thorns",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Portland Thorns captain 2026-",
+  "fan_bond": "New Thorns captain 2026; signed extension",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Sami Hyypiä",
+  "born": 1973,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "MyPa",
+    "from": 1992,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Willem II",
+    "from": 1995,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1999,
+    "to": 2009,
+    "apps": 464,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Liverpool captain 2001-2003 (before Gerrard); Finland captain",
+  "fan_bond": "Beloved; emotional Anfield send-off 2009 (captain's armband handed to him by Gerrard)",
+  "loyalty_notes": "Ten seasons at Liverpool",
+  "money_moves": [],
+  "LO_now": 7.75
+ },
+ {
+  "name": "Scott Brown",
+  "born": 1985,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Hibernian",
+    "from": 2002,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Celtic",
+    "from": 2007,
+    "to": 2021,
+    "apps": 620,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Aberdeen",
+    "from": 2021,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Celtic captain 2010-2021; Scotland captain",
+  "fan_bond": "Celtic icon; hated by rivals",
+  "loyalty_notes": "14 years at Celtic; player-coach at Aberdeen then retired 2022; managed Fleetwood 2022-23, Ayr United 2024-26",
+  "money_moves": [],
+  "LO_now": 8.5
+ },
+ {
+  "name": "Sebastián Blanco",
+  "born": 1988,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Lanús",
+    "from": 2006,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Metalist Kharkiv",
+    "from": 2011,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "West Bromwich Albion",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Lorenzo",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2017,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Lorenzo",
+    "from": 2024,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Pilar",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Timbers favourite",
+  "loyalty_notes": "STILL ACTIVE per Wikipedia (Real Pilar, Argentina); left Portland end of 2023",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Serhou Guirassy",
+  "born": 1996,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Laval",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "1. FC Köln",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Amiens",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rennes",
+    "from": 2019,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfB Stuttgart",
+    "from": 2022,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "valued goalscorer",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 4.0
+ },
+ {
+  "name": "Son Heung-min",
+  "born": 1992,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Hamburger SV",
+    "from": 2010,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2013,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2015,
+    "to": 2025,
+    "apps": 454,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "LAFC",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Spurs captain 2023-25; South Korea captain 2018-",
+  "fan_bond": "Spurs legend; stayed 10 years without trophies",
+  "loyalty_notes": "Joined LAFC Aug 2025 for MLS record fee",
+  "money_moves": [],
+  "LO_now": 7.5
+ },
+ {
+  "name": "Stefan Frei",
+  "born": 1986,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Toronto FC",
+    "from": 2009,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Seattle Sounders",
+    "from": 2014,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Sounders legend",
+  "loyalty_notes": "Briefly a free agent end of 2025, re-signed through 2027; aims to play to 40",
+  "money_moves": [],
+  "LO_now": 8.0
+ },
+ {
+  "name": "Sun Wen",
+  "born": 1973,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Shanghai",
+    "from": null,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlanta Beat",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "China captain",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 5.5
+ },
+ {
+  "name": "Sócrates",
+  "born": 1954,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Botafogo-SP",
+    "from": 1974,
+    "to": 1978,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians",
+    "from": 1978,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fiorentina",
+    "from": 1984,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1985,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Brazil captain 1982",
+  "fan_bond": "Corinthians icon",
+  "loyalty_notes": "Qualified doctor; died 2011",
+  "money_moves": [],
+  "LO_now": 6.5
+ },
+ {
+  "name": "Temwa Chawinga",
+  "born": 1998,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Kvarnsvedens IK",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Jiangsu / Wuhan Jianghan",
+    "from": 2020,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Kansas City Current",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "KC favourite",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 5.0
+ },
+ {
+  "name": "Thierry Henry",
+  "born": 1977,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Monaco",
+    "from": 1994,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Juventus",
+    "from": 1999,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 1999,
+    "to": 2007,
+    "apps": 377,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2007,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New York Red Bulls",
+    "from": 2010,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2012,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Arsenal captain 2005-07",
+  "fan_bond": "Arsenal statue; record scorer",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 6.5
+ },
+ {
+  "name": "Tim Howard",
+  "born": 1979,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "MetroStars",
+    "from": 1998,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2003,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2007,
+    "to": 2016,
+    "apps": 414,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Colorado Rapids",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Memphis 901",
+    "from": 2020,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Everton favourite",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Tobin Heath",
+  "born": 1988,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Atlanta Beat",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sky Blue FC",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Thorns",
+    "from": 2013,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2020,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2021,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "OL Reign",
+    "from": 2022,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Huge Thorns fan favourite ('Tobin Heath' chants); fans embraced her creativity",
+  "loyalty_notes": "Long Thorns spell; left for Europe in 2020; career ended by knee injury, last match Aug 2022, formally retired July 2025",
+  "money_moves": [
+   {
+    "year": 2013,
+    "what": "loan spell at PSG (Qatar-owned since 2011)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 6.25
+ },
+ {
+  "name": "Trinity Rodman",
+  "born": 2002,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "Washington Spirit",
+    "from": 2021,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Spirit's homegrown-era star; chose to stay in DC on record deal",
+  "loyalty_notes": "One club; turned down overseas interest to re-sign 2026-2028",
+  "money_moves": [],
+  "LO_now": 7.75
+ },
+ {
+  "name": "Unai Simón",
+  "born": 1997,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 2018,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Basque academy keeper; first-choice since 2020",
+  "loyalty_notes": "Contract to 2029",
+  "money_moves": [],
+  "LO_now": 8.75
+ },
+ {
+  "name": "Victor Osimhen",
+  "born": 1998,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Wolfsburg",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Charleroi",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lille",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Napoli",
+    "from": 2020,
+    "to": 2025,
+    "apps": 133,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Galatasaray",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Napoli hero, ugly exit",
+  "loyalty_notes": "Frozen out at Napoli 2024; permanent move to Galatasaray 2025",
+  "money_moves": [],
+  "LO_now": 4.25
+ },
+ {
+  "name": "Virgil van Dijk",
+  "born": 1991,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Groningen",
+    "from": 2011,
+    "to": 2013,
+    "apps": 62,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 2013,
+    "to": 2015,
+    "apps": 115,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Southampton",
+    "from": 2015,
+    "to": 2018,
+    "apps": 80,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2018,
+    "to": null,
+    "apps": 330,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "captaincy": "Liverpool captain 2023-; Netherlands captain 2018-",
+  "fan_bond": "Fan favourite and captain; renewed 2025 instead of leaving",
+  "loyalty_notes": "Late developer (washed dishes at Willem II academy); handed in transfer request at Southampton 2017 then moved to Liverpool 2018; extended to 2027",
+  "money_moves": [],
+  "LO_now": 6.75
+ },
+ {
+  "name": "Vivianne Miedema",
+  "born": 1996,
+  "gender": "W",
+  "clubs": [
+   {
+    "club": "SC Heerenveen",
+    "from": 2011,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2014,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2017,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Arsenal legend 2017-24",
+  "loyalty_notes": "Left Arsenal at contract end for Man City (2024)",
+  "money_moves": [
+   {
+    "year": 2024,
+    "what": "joined Manchester City (Abu Dhabi-owned)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 5.75
+ },
+ {
+  "name": "Wayne Rooney",
+  "born": 1985,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Everton",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester United",
+    "from": 2004,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "DC United",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Derby County",
+    "from": 2020,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Man Utd captain 2014-17; England captain",
+  "fan_bond": "Man Utd record scorer; Everton fans resented 2004 exit, welcomed him back 2017",
+  "loyalty_notes": "Left boyhood Everton 2004; handed in Man Utd transfer request 2010 (citing ambition), then signed new deal; returned to Everton 2017",
+  "money_moves": [],
+  "LO_now": 6.0
+ },
+ {
+  "name": "Weston McKennie",
+  "born": 1998,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Schalke 04",
+    "from": 2016,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Juventus",
+    "from": 2020,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United (loan)",
+    "from": 2023,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "survived repeated Juve sell attempts to become a favourite",
+  "loyalty_notes": "",
+  "money_moves": [],
+  "LO_now": 6.5
+ },
+ {
+  "name": "Xabi Alonso",
+  "born": 1981,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 1999,
+    "to": 2004,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Eibar",
+    "from": 2000,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2004,
+    "to": 2009,
+    "apps": 210,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2009,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2014,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Real Sociedad captain at 21",
+  "fan_bond": "Much loved at Anfield and Anoeta; Liverpool fans protested his near-sale in 2008",
+  "loyalty_notes": "Left Liverpool 2009 after Benítez tried to sell him in 2008; as coach led Leverkusen to an unbeaten double 2023-24 (Freiburg/Real Sociedad B coaching path)",
+  "money_moves": [],
+  "LO_now": 6.25
+ },
+ {
+  "name": "Xavi",
+  "born": 1980,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 1998,
+    "to": 2015,
+    "apps": 767,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Al Sadd",
+    "from": 2015,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Barcelona captain 2014-15",
+  "fan_bond": "La Masia icon; managed Barcelona 2021-24",
+  "loyalty_notes": "Barça academy, 17 seasons; then Qatar (Al Sadd player and coach 2015-21); defended Qatar's system in 2019 interview",
+  "money_moves": [
+   {
+    "year": 2015,
+    "what": "joined Al Sadd (Qatar; not state-owned by PIF but royal-family club), later coached there",
+    "type": "other"
+   },
+   {
+    "year": 2022,
+    "what": "Qatar 2022 global ambassador",
+    "type": "b12"
+   }
+  ],
+  "LO_now": 8.5
+ },
+ {
+  "name": "Zico",
+  "born": 1953,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Flamengo",
+    "from": 1971,
+    "to": 1983,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Udinese",
+    "from": 1983,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1985,
+    "to": 1989,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Kashima Antlers",
+    "from": 1991,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "",
+  "fan_bond": "Flamengo idol; Kashima founding father",
+  "loyalty_notes": "Flamengo 1971-83, 1985-89",
+  "money_moves": [],
+  "LO_now": 8.25
+ },
+ {
+  "name": "Zlatan Ibrahimović",
+  "born": 1981,
+  "gender": "M",
+  "clubs": [
+   {
+    "club": "Malmö FF",
+    "from": 1999,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Ajax",
+    "from": 2001,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2012,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2016,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2020,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "captaincy": "Sweden captain",
+  "fan_bond": "Polarising; Milan fan favourite, led 2022 Scudetto as veteran",
+  "loyalty_notes": "Joined rival clubs: Juve->Inter 2006, Inter->Milan 2010; Milan senior advisor since 2023",
+  "money_moves": [
+   {
+    "year": 2012,
+    "what": "joined PSG (Qatar)",
+    "type": "b11"
+   }
+  ],
+  "LO_now": 2.25
+ }
+]

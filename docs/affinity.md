@@ -183,7 +183,7 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   Joy to watch, Legacy.
 - Weights come from choices only (round 7's 100-point budget was dropped: Kevin found it hard to use). fit.py fits one logit model to
   round 8's 30 real-player head-to-heads and 20 mystery-player trade-offs, plus his 18 round-7 gut ratings, with a ridge pull toward
-  equal weights. Result in fit.json: Greatness 31, Character 23, Team 14, Joy 13, Legacy 12, Loyalty 7; connection x0.48,
+  equal weights. Result in fit.json (in-sample 76% of 49 choices, leave-one-out 65%, gut r 0.52): Greatness 31, Character 23, Team 14, Joy 13, Legacy 12, Loyalty 7; connection x0.48,
   penalties x1.5. The sources disagree: the mystery profiles alone put Team player first (32) and Greatness last (7); the real
   head-to-heads and gut ratings lean on Greatness (53, 67). The joint fit sits between.
 - Connection (adjustment, then x0.48): +1.2 per season at Liverpool, Dortmund, Timbers, Thorns, Republic (max +8); -0.3 per season at clubs he

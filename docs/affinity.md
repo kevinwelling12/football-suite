@@ -194,11 +194,17 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   a move made as a coach half. Diving and general conduct sit in Character. Penalties stack with no cap (Kevin, 2026-10-06:
   "shitheads need not apply"), so several incidents can take a player to 0.
 - No era discount: Kevin has followed closely for under a year, so past players are judged on the record alone.
-- Position: +3 for a main position of playmaker or full-back (quiz 7 s03), half for a second position (POS_BOOST; size
-  set by Claude, about one Team player point; Kevin can change it on the fixes/ page).
+- Position: a boost for a main position of playmaker or full-back (quiz 7 s03), half for a second position (POS_BOOST).
+  Fitted to round 10 at +7.2 (it went his way in 4 of 5 pairs where position differed); was +3 before.
 - Independent audit (audit/): a second set of scorers re-scored all 306 blind from the facts plus web checks (AUDIT_BRIEF.md);
   scores are averaged, gaps over 1.5 settled by a third pass (adjudicated.json). They also checked every incident: 31
   corrections (victims filed as offenders, wrong types, dropped or acquitted cases) and 18 added, applied by model.load().
   Borderline additions kept (Claude's call, Kevin had no view): Keegan 1974 fight with Bremner (b06, both sent off and
   banned), Matthäus 1984 Gladbach to Bayern (b09, the 1970s title rivalry; he had signed before the 1984 cup final vs Bayern).
+- Round 10 (quiz10/, 2026-10-06): 30 named pairs from one setting each (two Liverpool players, two stars with no link to his
+  clubs...), one or two factors apart, with pass buttons. He passed on 15 (all the Liverpool greats, most stars and women),
+  so he knows his clubs' current players and a few stars. On the 15 he answered, the factors called 8 (Joy to watch 5 of 7,
+  position 4 of 5, Team player only 3 of 7): his picks between players he watches weekly follow his own impressions more than
+  the researched scores. fit.py adds these 15 to the 48 mystery pairs; weights barely moved (CH 25, WK 28, LO 17, AB 5,
+  ST 15, LE 11; connection x1.02, penalties x2.75); leave-one-out 73% overall.
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

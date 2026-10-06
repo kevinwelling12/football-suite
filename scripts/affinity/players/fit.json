@@ -1,18 +1,20 @@
 {
  "W": {
   "CH": 25.0,
-  "WK": 28.9,
-  "LO": 16.1,
-  "AB": 4.5,
-  "ST": 13.9,
-  "LE": 11.6
+  "WK": 27.8,
+  "LO": 16.6,
+  "AB": 5.0,
+  "ST": 14.8,
+  "LE": 10.7
  },
- "conn": 1.09,
- "pen": 2.54,
- "source": "mystery profiles, quiz rounds 8-9",
- "choices": 50,
- "acc": 0.812,
- "loo": 0.771,
- "named_acc": 0.586,
- "gut_r": 0.359
+ "conn": 1.02,
+ "pen": 2.75,
+ "pos": 7.2,
+ "source": "mystery profiles (rounds 8-9) and controlled named pairs (round 10)",
+ "choices": 65,
+ "acc": 0.778,
+ "loo": 0.73,
+ "loo_named": "8/15",
+ "named_acc": 0.655,
+ "gut_r": 0.3
 }

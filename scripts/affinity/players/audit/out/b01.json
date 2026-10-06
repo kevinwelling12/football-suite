@@ -1,0 +1,488 @@
+[
+ {
+  "name": "Alessia Russo",
+  "CH": 6.5,
+  "WK": 8,
+  "LO": 4.5,
+  "AB": 7.5,
+  "ST": 7,
+  "LE": 5.5,
+  "why": "CH decent pro, no causes; WK high-pressing link-up 9; LO left Man United on a free for Arsenal; AB top WSL/England striker; ST back-heel flair; LE two Euros, iconic 2022 back-heel",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Kylian Mbappé",
+  "CH": 5.5,
+  "WK": 4,
+  "LO": 3,
+  "AB": 9.5,
+  "ST": 8.5,
+  "LE": 8.5,
+  "why": "CH children's charity vs ego and contract sagas; WK low pressing; LO forced PSG sagas, left on a free (anchor 3); AB elite; ST pace and finishing; LE WC winner, WC-final hat-trick",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "closed Dec 2024, never a suspect"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Briana Scurry",
+  "CH": 8.5,
+  "WK": 8,
+  "LO": 4.5,
+  "AB": 8,
+  "ST": 5,
+  "LE": 8,
+  "why": "CH pioneer for Black/LGBTQ athletes, concussion advocacy; WK humble keeper; LO short club career in folding leagues; AB top GK of era; ST goalkeeper; LE 1999 final save, Hall of Fame first",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Fabio Cannavaro",
+  "CH": 5,
+  "WK": 8,
+  "LO": 4,
+  "AB": 9,
+  "ST": 5,
+  "LE": 8.5,
+  "why": "CH neoton video, seal-breach case, left Juve after Calciopoli; WK committed leader; LO six clubs, left Juve for Real 2006; AB 2006 Ballon d'Or; ST no-frills CB; LE WC-winning captain",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "outcome",
+    "outcome": "first-instance 10-month sentence Feb 2015 for breaching seals on villa seized in tax probe; suspended pending appeal",
+    "note": "year was 2015, not 2017"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   },
+   {
+    "i": 3,
+    "verdict": "ok"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b10",
+    "year": 2015,
+    "what": "head coach of Saudi club Al-Nassr Oct 2015 - Feb 2016",
+    "outcome": "sacked after four months",
+    "source": "https://www.ansa.it/english/news/2016/02/12/soccer-saudi-club-al-nassr-fires-cannavaro-as-coach_db6b0e68-2801-43b0-afd9-fcdab1eb44c6.html"
+   }
+  ]
+ },
+ {
+  "name": "Landon Donovan",
+  "CH": 8.5,
+  "WK": 8,
+  "LO": 6.5,
+  "AB": 7,
+  "ST": 7.5,
+  "LE": 8.5,
+  "why": "CH mental-health openness, San Diego Loyal walk-offs vs slurs; WK hard-working; LO Galaxy decade and captain, Europe loans; AB best US attacker; ST creative and quick; LE Algeria goal, face of MLS",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Marco van Basten",
+  "CH": 5,
+  "WK": 6,
+  "LO": 6.5,
+  "AB": 9.5,
+  "ST": 9.5,
+  "LE": 9,
+  "why": "CH 2020 'Sieg Heil' on TV, apologised; WK pure finisher; LO Ajax academy captain then Milan; AB three Ballon d'Ors; ST acrobatic finishing; LE Euro 88 volley",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Uwe Seeler",
+  "CH": 8,
+  "WK": 9,
+  "LO": 10,
+  "AB": 8.5,
+  "ST": 7.5,
+  "LE": 8.5,
+  "why": "CH humble 'Uns Uwe'; WK tireless; LO one-club HSV, refused Inter; AB elite centre-forward; ST acrobatic goals; LE German icon, 1970 back-header",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Eric Wynalda",
+  "CH": 4.5,
+  "WK": 6,
+  "LO": 3.5,
+  "AB": 6.5,
+  "ST": 6.5,
+  "LE": 6,
+  "why": "CH outspoken, 1990 WC red; WK selfish finisher rep; LO journeyman; AB good US striker; ST free kicks; LE first MLS goal, 1994 free kick",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Evander",
+  "CH": 6,
+  "WK": 6,
+  "LO": 4,
+  "AB": 6.5,
+  "ST": 8,
+  "LE": 4,
+  "why": "CH no issues or causes; WK medium; LO traded by Portland after one season; AB MLS-level star; ST creative No.10, set pieces; LE limited",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Mary Earps",
+  "CH": 8,
+  "WK": 7.5,
+  "LO": 4.5,
+  "AB": 8,
+  "ST": 5.5,
+  "LE": 7.5,
+  "why": "CH forced Nike to sell GK shirt; WK team spirit, memoir friction; LO several clubs, retired from England early; AB Best FIFA GK twice; ST goalkeeper; LE 2023 WC final penalty save, SPOTY",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Kenan Yıldız",
+  "CH": 6,
+  "WK": 6.5,
+  "LO": 7,
+  "AB": 7.5,
+  "ST": 8.5,
+  "LE": 4,
+  "why": "CH humble, no causes; WK medium; LO Juve since 2022, No.10, renewed to 2030; AB rising star; ST dribbler; LE still early",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Miroslav Klose",
+  "CH": 9,
+  "WK": 9,
+  "LO": 5,
+  "AB": 8,
+  "ST": 6,
+  "LE": 8.5,
+  "why": "CH famed fair play (admitted handball 2012); WK selfless; LO four clubs, no long tenure; AB elite poacher; ST headers, somersault; LE WC record 16 goals, 2014 winner",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Thibaut Courtois",
+  "CH": 4.5,
+  "WK": 6,
+  "LO": 3,
+  "AB": 9,
+  "ST": 5,
+  "LE": 7.5,
+  "why": "CH spats with Belgium coach; WK medium; LO went AWOL to force Real move; AB world-class GK; ST goalkeeper; LE 2022 UCL final display",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "wrong",
+    "note": "not direct: returned to Chelsea 2014, joined Real 2018 from Chelsea; was only an Atlético loanee"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Hany Mukhtar",
+  "CH": 6,
+  "WK": 6.5,
+  "LO": 6.5,
+  "AB": 6.5,
+  "ST": 8,
+  "LE": 5,
+  "why": "CH no issues; WK medium; LO Nashville face since 2020; AB MLS MVP; ST creative goalscoring No.10; LE Nashville icon only",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Lucy Bronze",
+  "CH": 7.5,
+  "WK": 8.5,
+  "LO": 3.5,
+  "AB": 9,
+  "ST": 7.5,
+  "LE": 8.5,
+  "why": "CH neurodiversity openness; WK relentless; LO eight clubs; AB Best FIFA player 2020; ST attacking full-back; LE 5 UWCL, Euros, Euro 2025 on fractured tibia",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Philipp Lahm",
+  "CH": 8.5,
+  "WK": 9,
+  "LO": 9,
+  "AB": 9,
+  "ST": 7,
+  "LE": 8.5,
+  "why": "CH foundation, Qatar criticism; WK model pro; LO Bayern academy, captain, retired there; AB best full-back of era; ST intelligent attacking FB; LE WC-winning captain",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Roman Weidenfeller",
+  "CH": 5.5,
+  "WK": 7,
+  "LO": 8.5,
+  "AB": 6.5,
+  "ST": 4.5,
+  "LE": 5.5,
+  "why": "CH 2007 Asamoah insult ban; WK reliable; LO 16 years at BVB incl. crisis; AB good Bundesliga GK; ST goalkeeper; LE 2012 double, 2013 final",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "DFB 3-match ban + EUR 10,000 fine; racist wording not proven, admitted a homophobic insult and apologised",
+    "note": "type other fits; racism alleged but not established"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Meghan Klingenberg",
+  "CH": 8.5,
+  "WK": 9,
+  "LO": 7.5,
+  "AB": 6.5,
+  "ST": 7,
+  "LE": 5.5,
+  "why": "CH spoke up for abuse survivors, LGBTQ ally; WK energetic team spirit; LO 8 years Thorns to retirement; AB solid international; ST overlapping FB; LE 2015 WC clearance",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Garrincha",
+  "CH": 4.5,
+  "WK": 5,
+  "LO": 7.5,
+  "AB": 10,
+  "ST": 10,
+  "LE": 9.5,
+  "why": "CH alcoholism, fatal drink-driving crash; WK free spirit; LO Botafogo 12 years; AB all-time great; ST greatest dribbler; LE 1962 WC, 'Joy of the People'",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b02",
+    "year": 1970,
+    "what": "Elza Soares, his wife 1966-77, said he repeatedly beat her during his alcoholism (broke her teeth)",
+    "outcome": "never charged; publicly described by Soares",
+    "source": "https://www.thenewfeminist.co.uk/2022/04/the-voice-of-the-millennium-resists-being-silent/"
+   }
+  ]
+ },
+ {
+  "name": "Caroline Graham Hansen",
+  "CH": 7,
+  "WK": 7,
+  "LO": 6.5,
+  "AB": 9,
+  "ST": 9.5,
+  "LE": 7,
+  "why": "CH outspoken on workload and federation; WK good; LO Barça since 2019, extended; AB elite winger; ST dribbling genius; LE multiple UWCL, not a Ballon d'Or",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Lee Desmond",
+  "CH": 6.5,
+  "WK": 8.5,
+  "LO": 7.5,
+  "AB": 4.5,
+  "ST": 4,
+  "LE": 3.5,
+  "why": "CH humble, no causes; WK organiser; LO 7 years St Pat's, Republic captain 2026; AB lower-league CB; ST no-frills; LE local only",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Ian Wright",
+  "CH": 8,
+  "WK": 7.5,
+  "LO": 6,
+  "AB": 8,
+  "ST": 8,
+  "LE": 7.5,
+  "why": "CH anti-racism voice, domestic-abuse doc; WK energetic; LO Palace and Arsenal hero; AB prolific; ST explosive finishing; LE late-bloomer story, broadcaster",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Lindsey Horan",
+  "CH": 8,
+  "WK": 8.5,
+  "LO": 6,
+  "AB": 8.5,
+  "ST": 7,
+  "LE": 7.5,
+  "why": "CH equal-pay plaintiff; WK box-to-box; LO Thorns 6 years then sold, hometown Denver; AB 2018 MVP, elite CM; ST combative; LE USWNT captain, 2024 gold",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Alexander Isak",
+  "CH": 4.5,
+  "WK": 5.5,
+  "LO": 2.5,
+  "AB": 8.5,
+  "ST": 8,
+  "LE": 5,
+  "why": "CH strike at Newcastle; WK medium; LO forced 2025 move; AB elite striker; ST elegant dribbling 9; LE record fee, 2025 LC final goal",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Andrés Iniesta",
+  "CH": 9,
+  "WK": 9,
+  "LO": 9,
+  "AB": 9.5,
+  "ST": 9.5,
+  "LE": 9.5,
+  "why": "CH humble, depression openness, applauded by rivals; WK team-first; LO 16 years Barça, captain; AB all-time great; ST anchor 9.5; LE 2010 WC-final winner",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Julian Brandt",
+  "CH": 6,
+  "WK": 5,
+  "LO": 6.5,
+  "AB": 7,
+  "ST": 8,
+  "LE": 4.5,
+  "why": "CH no issues; WK inconsistent effort; LO 7 years BVB, left on free; AB good international; ST creative flair; LE 2024 UCL final run",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Riqui Puig",
+  "CH": 6,
+  "WK": 6,
+  "LO": 5.5,
+  "AB": 6,
+  "ST": 8.5,
+  "LE": 4,
+  "why": "CH no issues; WK medium; LO Galaxy since 2022; AB MLS star; ST La Masia flair; LE MLS Cup 2024",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Clint Dempsey",
+  "CH": 5,
+  "WK": 7.5,
+  "LO": 5,
+  "AB": 7.5,
+  "ST": 8,
+  "LE": 7.5,
+  "why": "CH 2015 notebook-ripping ban, combative; WK hard-working; LO several clubs; AB top US attacker; ST street-ball flair; LE WC goals, Fulham vs Juventus chip",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "red card; MLS 3-game ban and fine; Open Cup ban 6 games or 2 years",
+    "note": "June 2015, not 2014"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Barbra Banda",
+  "CH": 7,
+  "WK": 8,
+  "LO": 5,
+  "AB": 8.5,
+  "ST": 8,
+  "LE": 7,
+  "why": "CH pioneer for African women's game; WK hard-working; LO Orlando to 2029; AB BBC player of year; ST power and pace; LE Olympic hat-tricks, NWSL final winner",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "eligibility ruling, not misconduct; should carry no penalty"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Brian McBride",
+  "CH": 7,
+  "WK": 9,
+  "LO": 6.5,
+  "AB": 6.5,
+  "ST": 5,
+  "LE": 6.5,
+  "why": "CH humble, honest; WK tireless target man; LO Crew 8 years, Fulham captain; AB solid international; ST aerial target man; LE Fulham cult hero, WC goals",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Sócrates",
+  "CH": 9.5,
+  "WK": 6,
+  "LO": 7,
+  "AB": 9,
+  "ST": 9.5,
+  "LE": 9,
+  "why": "CH Corinthians Democracy vs dictatorship; WK languid; LO Corinthians icon; AB great playmaker; ST backheels; LE 1982 Brazil, political legacy",
+  "incidents": [],
+  "missing": []
+ }
+]

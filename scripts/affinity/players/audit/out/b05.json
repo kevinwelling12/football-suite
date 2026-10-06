@@ -1,0 +1,497 @@
+[
+ {
+  "name": "Nuri Şahin",
+  "CH": 6.5,
+  "WK": 6.5,
+  "LO": 7.0,
+  "AB": 7.0,
+  "ST": 7.0,
+  "LE": 5.0,
+  "why": "CH decent pro, no causes or issues; WK tidy, medium work rate; LO BVB academy ~11 yrs over two spells, left at peak for Madrid; AB 2011 Bundesliga player of season; ST deep passer; LE youngest Bundesliga debutant, 2011 title",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "James Pantemis",
+  "CH": 6.0,
+  "WK": 6.0,
+  "LO": 4.5,
+  "AB": 5.0,
+  "ST": 4.0,
+  "LE": 2.0,
+  "why": "CH no issues or causes known; WK neutral; LO Montréal academy ~6 yrs then Portland; AB MLS starter; ST keeper; LE none yet",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Michael Zorc",
+  "CH": 6.5,
+  "WK": 7.5,
+  "LO": 9.5,
+  "AB": 6.5,
+  "ST": 5.5,
+  "LE": 7.0,
+  "why": "CH quiet club servant; WK organiser, high work rate; LO one-club 17 yrs, captain, then director to 2022; AB few Germany caps; ST functional; LE captained 1997 UCL, club apps record",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Julie Ertz",
+  "CH": 7.5,
+  "WK": 9.0,
+  "LO": 6.0,
+  "AB": 8.0,
+  "ST": 5.0,
+  "LE": 7.0,
+  "why": "CH equal-pay plaintiff; WK destroyer, selfless position switches; LO Chicago ~7 yrs; AB elite DM/CB; ST physical, low flair; LE two World Cups, 2x US player of year",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "N'Golo Kanté",
+  "CH": 8.0,
+  "WK": 10.0,
+  "LO": 5.0,
+  "AB": 8.5,
+  "ST": 5.0,
+  "LE": 7.5,
+  "why": "CH famously humble and kind; WK anchor 10; LO Leicester 1 yr, Chelsea 7, then Saudi and Turkey; AB elite ball-winner; ST anchor 5; LE Leicester title, WC 2018, UCL 2021",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Jamie Vardy",
+  "CH": 4.5,
+  "WK": 8.0,
+  "LO": 8.0,
+  "AB": 7.5,
+  "ST": 6.5,
+  "LE": 7.5,
+  "why": "CH brash, taunting rivals' fans; WK relentless presser; LO 13 yrs Leicester, captain, stayed through relegation, turned down Arsenal; AB Golden Boot 2020; ST pace and runs, simple; LE non-league to champion, 11-game streak",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "outcome": "convicted of assault 2007 (says he was defending a deaf friend); wore tag/curfew 6 months",
+    "note": "street assault conviction fits b06"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Claudio Reyna",
+  "CH": 5.0,
+  "WK": 7.0,
+  "LO": 4.0,
+  "AB": 6.5,
+  "ST": 7.0,
+  "LE": 6.0,
+  "why": "CH 2023 report called his conduct bullying (Berhalter episode); WK steady leader; LO six clubs, none long; AB 2002 WC all-star; ST press-resistant passer; LE Captain America, US pioneer in Europe",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Khvicha Kvaratskhelia",
+  "CH": 6.5,
+  "WK": 7.5,
+  "LO": 4.0,
+  "AB": 8.5,
+  "ST": 9.0,
+  "LE": 7.0,
+  "why": "CH no issues, low profile; WK works back; LO asked to be sold mid-season 2025 after 2.5 yrs Napoli; AB Serie A MVP, elite winger; ST dribbler, 'Kvaradona'; LE Napoli title 2023, Georgia Euro run, PSG UCL",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Sebastián Blanco",
+  "CH": 6.5,
+  "WK": 8.0,
+  "LO": 6.0,
+  "AB": 6.0,
+  "ST": 7.5,
+  "LE": 4.5,
+  "why": "CH no issues; WK high-energy creator; LO 7 seasons Portland; AB strong MLS level; ST creator, dribbler; LE MLS is Back MVP, two Cup finals",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Sun Wen",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 5.0,
+  "AB": 9.0,
+  "ST": 8.0,
+  "LE": 9.0,
+  "why": "CH pioneer, first woman CFA vice-president; WK team captain; LO club record thin; AB co-Player of the Century; ST creative forward; LE 1999 WC Golden Ball and Boot",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Sydney Collins",
+  "CH": 6.0,
+  "WK": 6.0,
+  "LO": 5.5,
+  "AB": 5.0,
+  "ST": 4.5,
+  "LE": 2.0,
+  "why": "CH no issues or causes known; WK neutral; LO Bay FC since founding, captain 2026; AB starter-level; ST defender; LE none yet",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Gregor Kobel",
+  "CH": 6.0,
+  "WK": 6.5,
+  "LO": 6.5,
+  "AB": 7.5,
+  "ST": 5.0,
+  "LE": 4.5,
+  "why": "CH no issues; WK vocal; LO 5 yrs BVB, vice-captain; AB top Bundesliga keeper; ST keeper; LE 2024 UCL final run",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Joshua Kimmich",
+  "CH": 7.0,
+  "WK": 8.5,
+  "LO": 7.5,
+  "AB": 8.5,
+  "ST": 7.0,
+  "LE": 7.0,
+  "why": "CH #WeKickCorona fund, minus vaccine row; WK intense leader; LO 11 yrs Bayern, Germany captain; AB elite DM/RB; ST range of passing; LE UCL 2020, Bayern era",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Rodri",
+  "CH": 7.0,
+  "WK": 9.0,
+  "LO": 5.0,
+  "AB": 9.0,
+  "ST": 6.5,
+  "LE": 8.5,
+  "why": "CH humble, unflashy; WK tempo-setter for team; LO 7 yrs City, moved to Barcelona 2026; AB Ballon d'Or 2024; ST controller, not flair; LE UCL-final winner, Ballon d'Or, captained Spain to 2026 WC (Golden Ball)",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Sami Hyypiä",
+  "CH": 7.5,
+  "WK": 8.0,
+  "LO": 8.0,
+  "AB": 7.5,
+  "ST": 4.5,
+  "LE": 7.0,
+  "why": "CH dignified, quiet; WK reliable leader; LO 10 yrs Liverpool, captain 2001-03, Gerrard armband send-off; AB top CB; ST no-frills CB; LE Istanbul 2005, bargain signing",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "David Beckham",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 5.5,
+  "AB": 8.0,
+  "ST": 7.5,
+  "LE": 8.5,
+  "why": "CH UNICEF 7 Fund, PSG wages to charity; WK high work rate; LO Utd academy 11 yrs, then many clubs; AB Ballon d'Or runner-up 1999; ST crossing, free kicks; LE global icon, halfway-line goal, MLS DP era",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Racheal Kundananji",
+  "CH": 6.0,
+  "WK": 6.5,
+  "LO": 4.5,
+  "AB": 6.5,
+  "ST": 6.5,
+  "LE": 4.0,
+  "why": "CH no issues or causes known; WK works hard; LO two clubs, short; AB prolific NWSL forward; ST pace and finishing; LE record fee 2024",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "John Barnes",
+  "CH": 8.0,
+  "WK": 6.5,
+  "LO": 7.0,
+  "AB": 8.5,
+  "ST": 9.0,
+  "LE": 8.0,
+  "why": "CH long voice on racism, banana back-heel; WK winger turned playmaker; LO 10 yrs Liverpool, captain; AB PFA/FWA player of year; ST flair winger; LE Maracanã goal, Black pioneer at Liverpool",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Roberto Baggio",
+  "CH": 8.0,
+  "WK": 5.5,
+  "LO": 5.0,
+  "AB": 9.5,
+  "ST": 9.5,
+  "LE": 9.0,
+  "why": "CH FAO ambassador, Suu Kyi advocacy, humble; WK free role; LO seven clubs, sold against his will; AB 1993 Ballon d'Or; ST fantasista; LE 1994 WC carry and penalty miss",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Federico Valverde",
+  "CH": 6.0,
+  "WK": 9.5,
+  "LO": 8.0,
+  "AB": 8.5,
+  "ST": 7.0,
+  "LE": 6.5,
+  "why": "CH no causes; Baena incident scored separately; WK engine, plays anywhere; LO 10 yrs Madrid, captain 2025-; AB elite box-to-box; ST long shots, drive; LE 2 UCL, Supercopa foul",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "outcome": "criminal complaint archived July 2023 for lack of evidence; RFEF closed case, no sanction",
+    "note": "alleged off-pitch punch; case closed, see https://www.90min.com/posts/federico-valverde-cleared-alleged-assault-villarreal-alex-baena"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Lo'eau LaBonta",
+  "CH": 6.5,
+  "WK": 8.0,
+  "LO": 8.0,
+  "AB": 6.0,
+  "ST": 6.5,
+  "LE": 4.0,
+  "why": "CH no issues; WK box-to-box; LO KC lineage since 2017, captain, stayed through lean years; AB NWSL standout, late USWNT cap; ST celebrations, penalties; LE 2025 Shield",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Hope Solo",
+  "CH": 3.5,
+  "WK": 5.0,
+  "LO": 3.5,
+  "AB": 9.0,
+  "ST": 5.0,
+  "LE": 8.0,
+  "why": "CH equal-pay complaint and Blatter disclosure vs repeated clashes, 'cowards' remark, DWI; WK individualist; LO many clubs, US contract terminated; AB greatest US keeper; ST keeper; LE 2 Olympic golds, WC 2015, Golden Gloves",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "outcome",
+    "outcome": "charges dropped by Kirkland prosecutors May 2018 (witnesses declined to testify); she denied wrongdoing",
+    "note": "https://www.krem.com/article/news/crime/hope-solo-assault-charges-dismissed/281-558047761"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   },
+   {
+    "i": 3,
+    "verdict": "ok"
+   },
+   {
+    "i": 4,
+    "verdict": "ok"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b03",
+    "year": 2012,
+    "what": "tested positive for canrenone (diuretic) before London Olympics",
+    "outcome": "USADA public warning only, no ban; accepted as prescribed pre-menstrual medication",
+    "source": "https://www.mprnews.org/story/2012/07/09/hope-solo-gets-warning-from-usada-after-drug-test"
+   }
+  ]
+ },
+ {
+  "name": "Zinedine Zidane",
+  "CH": 6.0,
+  "WK": 6.5,
+  "LO": 4.5,
+  "AB": 9.5,
+  "ST": 9.5,
+  "LE": 9.5,
+  "why": "CH ELA/UNDP charity, temper and 14 reds; WK medium; LO four clubs, no long stay; AB anchor 9.5; ST elegant genius; LE anchor 9.5",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 2000,
+    "what": "headbutted Hamburg's Jochen Kientz in a Champions League match for Juventus, sent off",
+    "outcome": "UEFA 5-match ban",
+    "source": "https://hurriyet.com.tr/gundem/zidanes-career-dotted-by-headbutting-incidents-4731561"
+   }
+  ]
+ },
+ {
+  "name": "Rodrigo López",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 8.0,
+  "AB": 5.0,
+  "ST": 6.5,
+  "LE": 4.0,
+  "why": "CH charity farewell merch; WK high-energy captain; LO Republic first signing, two spells, captain; AB USL level; ST playmaker, set pieces; LE Republic legend, 2022 Cup final",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Mallory Swanson",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 6.5,
+  "AB": 8.0,
+  "ST": 7.5,
+  "LE": 6.0,
+  "why": "CH no issues known; WK direct, works; LO Chicago since 2020 through turmoil; AB 2023 US player of year; ST direct winger; LE 2024 Olympic final winner",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Lionel Messi",
+  "CH": 7.0,
+  "WK": 6.0,
+  "LO": 8.5,
+  "AB": 10.0,
+  "ST": 10.0,
+  "LE": 10.0,
+  "why": "CH UNICEF, foundation, quiet; some on-field edge; WK anchor 6; LO 17 yrs Barça from age 13, left only on finances; AB anchor 10; ST anchor 10; LE anchor 10",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   },
+   {
+    "i": 3,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Gianfranco Zola",
+  "CH": 8.5,
+  "WK": 6.5,
+  "LO": 6.0,
+  "AB": 8.0,
+  "ST": 8.5,
+  "LE": 7.0,
+  "why": "CH universally liked, kept Cagliari promise; WK medium; LO 7 yrs Chelsea, returned home; AB FWA 1997; ST creator, back-heel flicks; LE Chelsea icon, CWC final winner",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Dennis Bergkamp",
+  "CH": 6.5,
+  "WK": 6.5,
+  "LO": 7.0,
+  "AB": 9.0,
+  "ST": 9.5,
+  "LE": 8.5,
+  "why": "CH quiet pro with a few stamps/elbows; WK medium; LO 11 yrs Arsenal, Ajax academy; AB elite SS; ST first touch genius; LE Argentina 1998, Newcastle turn, statue",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Danny Barrera",
+  "CH": 6.0,
+  "WK": 7.5,
+  "LO": 5.5,
+  "AB": 4.5,
+  "ST": 6.0,
+  "LE": 3.0,
+  "why": "CH no issues; WK hardworking; LO 3 seasons Republic, captain; AB USL level; ST playmaker; LE local only",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Andy Robertson",
+  "CH": 8.5,
+  "WK": 9.0,
+  "LO": 7.0,
+  "AB": 8.0,
+  "ST": 7.5,
+  "LE": 7.5,
+  "why": "CH AR26 foundation, food banks, replies to fans; WK chases lost causes; LO 9 yrs Liverpool, Scotland captain, left on free to Spurs 2026; AB top LB; ST attacking FB, crosser; LE 2019 UCL, 2020 PL, Scotland WC captain",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Diego Valeri",
+  "CH": 7.5,
+  "WK": 7.0,
+  "LO": 8.0,
+  "AB": 6.5,
+  "ST": 8.5,
+  "LE": 6.0,
+  "why": "CH community work as ambassador; WK medium; LO 9 yrs Portland, captain, boyhood Lanús; AB MLS MVP 2017; ST classic No. 10; LE fastest MLS Cup final goal, Timbers icon",
+  "incidents": [],
+  "missing": []
+ }
+]

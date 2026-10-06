@@ -191,6 +191,7 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   rates under 35 (max -3); US international +2.
 - Penalties (then x2.54) from his best-worst ranking: abuse allegations 18, racist abuse 14, match-fixing 14, violent conduct 7, authoritarian
   ambassador 7, tax fraud 5, doping 4, Saudi move 3, forced transfer 3, rival move 2. Dropped/acquitted 30%, apology 60%,
-  a move made as a coach half. Diving and general conduct sit in Character.
+  a move made as a coach half. Diving and general conduct sit in Character. Penalties stack with no cap (Kevin, 2026-10-06:
+  "shitheads need not apply"), so several incidents can take a player to 0.
 - No era discount: Kevin has followed closely for under a year, so past players are judged on the record alone.
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

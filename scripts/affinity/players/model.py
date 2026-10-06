@@ -68,7 +68,7 @@ def connection(p):
     us = 2.0 if (p.get('national') or {}).get('team') in ('USA', 'United States') and ((p.get('national') or {}).get('caps') or 1) else 0
     return min(plus, 8) - min(minus, 3) + us
 
-def penalties(p):
+def penalties(p):  # stacks with no cap (Kevin chose this: several incidents can take a player to 0)
     tot, items = 0.0, []
     for e in (p.get('incidents') or []) + (p.get('money_moves') or []):
         t = e.get('type'); s = SEV.get(t)

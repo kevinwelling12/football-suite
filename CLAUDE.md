@@ -48,6 +48,7 @@ claude.ai artifact; this repo is the transfer to Claude Code.
   current players and the biggest stars; older players and most others he knows by name only. Don't judge players or clubs
   by whether he has heard of them, offer a pass/"don't know" option in quizzes, and lean on research for history. He is reading
   Ruud Gullit's "How to Watch Soccer" (done) and "The Soccer 100" (in progress).
+  Women's game: he has watched only NWSL, mostly Thorns matches, plus past World Cups casually.
 - Excel trackers are deprecated. Don't recreate them.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 

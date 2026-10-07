@@ -4760,6 +4760,23 @@
   "LE": 6.5
  },
  {
+  "name": "Philippe Coutinho",
+  "gender": "M",
+  "active": true,
+  "base": 57.2,
+  "conn": 3.7,
+  "pos": 8.2,
+  "pen": -20.6,
+  "era": 0,
+  "aff": 48.6,
+  "CH": 5.75,
+  "WK": 5.25,
+  "LO": 3.0,
+  "AB": 7.75,
+  "ST": 9.0,
+  "LE": 5.5
+ },
+ {
   "name": "Fanendo Adi",
   "gender": "M",
   "active": false,
@@ -4775,23 +4792,6 @@
   "AB": 5.0,
   "ST": 5.25,
   "LE": 3.75
- },
- {
-  "name": "Philippe Coutinho",
-  "gender": "M",
-  "active": true,
-  "base": 54.2,
-  "conn": 3.7,
-  "pos": 8.2,
-  "pen": -20.6,
-  "era": 0,
-  "aff": 45.5,
-  "CH": 4.55,
-  "WK": 5.25,
-  "LO": 3.0,
-  "AB": 7.75,
-  "ST": 9.0,
-  "LE": 5.5
  },
  {
   "name": "Jadon Sancho",
@@ -4879,6 +4879,23 @@
   "LE": 8.0
  },
  {
+  "name": "Thibaut Courtois",
+  "gender": "M",
+  "active": true,
+  "base": 47.6,
+  "conn": -2.3,
+  "pos": 0.0,
+  "pen": -8.8,
+  "era": 0,
+  "aff": 36.5,
+  "CH": 3.11,
+  "WK": 5.75,
+  "LO": 2.75,
+  "AB": 8.75,
+  "ST": 5.0,
+  "LE": 7.0
+ },
+ {
   "name": "Zlatan Ibrahimović",
   "gender": "M",
   "active": false,
@@ -4894,23 +4911,6 @@
   "AB": 9.0,
   "ST": 9.0,
   "LE": 8.0
- },
- {
-  "name": "Thibaut Courtois",
-  "gender": "M",
-  "active": true,
-  "base": 44.5,
-  "conn": -2.3,
-  "pos": 0.0,
-  "pen": -8.8,
-  "era": 0,
-  "aff": 33.5,
-  "CH": 1.91,
-  "WK": 5.75,
-  "LO": 2.75,
-  "AB": 8.75,
-  "ST": 5.0,
-  "LE": 7.0
  },
  {
   "name": "Darwin Núñez",

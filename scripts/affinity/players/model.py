@@ -152,15 +152,18 @@ def load(raw=False):
     # Character = research score shifted by Kevin's values (quiz round 11 weights x the values tags in values/out*.json):
     # + VALUES_X * sum(weight * tag), clipped 0-10 (Kevin, 2026-10-07; VALUES_X 0.3 -> 0.6 when he asked to strengthen it). A shift, not an average: an untagged player keeps his
     # research score (averaging with a neutral 6 dragged good characters down and lifted bad ones).
-    vw = here.parent / 'quiz11' / 'fit.json'
-    if vw.exists():
+    # Rounds 11 and 12 (values/, values2/) add up.
+    shift = {}
+    for quiz, folder in (('quiz11', 'values'), ('quiz12', 'values2')):
+        vw = here.parent / quiz / 'fit.json'
+        if not vw.exists(): continue
         VW = json.loads(vw.read_text())['w']
-        for f in sorted((here / 'values').glob('out*.json')):
+        for f in sorted((here / folder).glob('out*.json')):
             for n, tg in json.loads(f.read_text()).items():
-                if n not in scores: continue
-                v = sum(VW[k] * float(tg.get(k) or 0) for k in VW)
-                ch = max(0.0, min(10.0, scores[n]['CH'] + VALUES_X * v))
-                scores[n] = {**scores[n], 'CH_research': scores[n]['CH'], 'CH_values': round(VALUES_X * v, 2), 'CH': round(ch, 2)}
+                if n in scores: shift[n] = shift.get(n, 0) + sum(VW[k] * float(tg.get(k) or 0) for k in VW)
+    for n, v in shift.items():
+        ch = max(0.0, min(10.0, scores[n]['CH'] + VALUES_X * v))
+        scores[n] = {**scores[n], 'CH_research': scores[n]['CH'], 'CH_values': round(VALUES_X * v, 2), 'CH': round(ch, 2)}
     if (a / 'incidents.json').exists():
         for n, fx in json.loads((a / 'incidents.json').read_text()).items():
             if n not in facts: continue

@@ -150,30 +150,6 @@
    "nw": null
   },
   {
-   "n": "Joshua Kimmich",
-   "a": 87.3,
-   "f": [
-    8.55,
-    8.5,
-    8.25,
-    8.5,
-    6.75,
-    6.5
-   ],
-   "c": 3.1,
-   "ps": 4.1,
-   "p": -0.0,
-   "nat": "Germany",
-   "pos": "DM/RB",
-   "clubs": [
-    "RB Leipzig",
-    "Bayern Munich"
-   ],
-   "why": "CH WeKickCorona, OneLove protest; vaccine debate; WK leader, high work; LO 11 years Bayern after Leipzig; AB elite DM/RB; ST passer, not flashy; LE Germany captain, 2020 UCL",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Jamal Musiala",
    "a": 87.2,
    "f": [
@@ -193,6 +169,30 @@
     "Bayern Munich"
    ],
    "why": "CH humble, no issues of note; WK high; LO Bayern since 2019, extended to 2030; AB elite dribbler; ST dribbling No. 10; LE young, 2023 title goal",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Joshua Kimmich",
+   "a": 87.2,
+   "f": [
+    8.55,
+    8.5,
+    8.25,
+    8.5,
+    6.75,
+    6.5
+   ],
+   "c": 3.1,
+   "ps": 4.1,
+   "p": -0.0,
+   "nat": "Germany",
+   "pos": "DM/RB",
+   "clubs": [
+    "RB Leipzig",
+    "Bayern Munich"
+   ],
+   "why": "CH WeKickCorona, OneLove protest; vaccine debate; WK leader, high work; LO 11 years Bayern after Leipzig; AB elite DM/RB; ST passer, not flashy; LE Germany captain, 2020 UCL",
    "pen": [],
    "nw": null
   },
@@ -295,55 +295,6 @@
    "nw": null
   },
   {
-   "n": "Harry Kane",
-   "a": 82.5,
-   "f": [
-    9.51,
-    8.0,
-    6.75,
-    8.75,
-    7.25,
-    7.5
-   ],
-   "c": 2.0,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "England",
-   "pos": "CF",
-   "clubs": [
-    "Tottenham Hotspur",
-    "Bayern Munich"
-   ],
-   "why": "CH low-key, mental health foundation, OneLove attempt; WK drops deep, creates for others; LO Spurs academy 14 years but tried to force City move 2021; AB elite striker; ST complete forward, passing range; LE England record scorer, long trophy wait",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Giovanni Di Lorenzo",
-   "a": 82.2,
-   "f": [
-    6.15,
-    8.5,
-    7.5,
-    7.0,
-    6.5,
-    6.25
-   ],
-   "c": 2.7,
-   "ps": 8.2,
-   "p": -0.0,
-   "nat": "Italy",
-   "pos": "RB",
-   "clubs": [
-    "Matera",
-    "Empoli",
-    "Napoli"
-   ],
-   "why": "CH humble, no issues; WK high; LO Napoli captain since 2022, agent sought exit 2024, then stayed; AB Euro-winning full-back; ST overlapping full-back; LE lifted Napoli's first scudetto since Maradona",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Antonee Robinson",
    "a": 81.9,
    "f": [
@@ -365,6 +316,30 @@
     "Fulham"
    ],
    "why": "CH humble, no issues; WK high; LO Fulham since 2020, stayed through links; AB among PL's best left-backs 2024-25; ST attacking full-back; LE little",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Harry Kane",
+   "a": 81.0,
+   "f": [
+    8.91,
+    8.0,
+    6.75,
+    8.75,
+    7.25,
+    7.5
+   ],
+   "c": 2.0,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "England",
+   "pos": "CF",
+   "clubs": [
+    "Tottenham Hotspur",
+    "Bayern Munich"
+   ],
+   "why": "CH low-key, mental health foundation, OneLove attempt; WK drops deep, creates for others; LO Spurs academy 14 years but tried to force City move 2021; AB elite striker; ST complete forward, passing range; LE England record scorer, long trophy wait",
    "pen": [],
    "nw": null
   },
@@ -394,6 +369,31 @@
     "Sint-Truiden"
    ],
    "why": "CH 7 humble, no issues; WK 6.5; LO 6 two BVB spells, back at boyhood Cerezo; AB 7 elite in 2011-12; ST 8.5 creative 10; LE 6 BVB cult hero, Japan pioneer",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Giovanni Di Lorenzo",
+   "a": 80.7,
+   "f": [
+    5.55,
+    8.5,
+    7.5,
+    7.0,
+    6.5,
+    6.25
+   ],
+   "c": 2.7,
+   "ps": 8.2,
+   "p": -0.0,
+   "nat": "Italy",
+   "pos": "RB",
+   "clubs": [
+    "Matera",
+    "Empoli",
+    "Napoli"
+   ],
+   "why": "CH humble, no issues; WK high; LO Napoli captain since 2022, agent sought exit 2024, then stayed; AB Euro-winning full-back; ST overlapping full-back; LE lifted Napoli's first scudetto since Maradona",
    "pen": [],
    "nw": null
   },
@@ -654,35 +654,6 @@
    "nw": null
   },
   {
-   "n": "Mohamed Salah",
-   "a": 77.4,
-   "f": [
-    7.89,
-    6.25,
-    7.0,
-    9.0,
-    8.25,
-    8.25
-   ],
-   "c": 3.0,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Egypt",
-   "pos": "RW",
-   "clubs": [
-    "El Mokawloon",
-    "Basel",
-    "Chelsea",
-    "Fiorentina",
-    "Roma",
-    "Liverpool",
-    "Trabzonspor"
-   ],
-   "why": "CH 8.5, Nagrig school and hospital, Gaza statements; public spats Klopp 2024, Slot Dec 2025; WK prolific, limited pressing, spats; LO 7, nine years, left 2026; AB 9; ST inverted winger, flair; LE Liverpool icon, 2019 and 2025 titles",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Diego Chará",
    "a": 76.5,
    "f": [
@@ -708,7 +679,7 @@
   },
   {
    "n": "Cristian Roldan",
-   "a": 76.4,
+   "a": 76.5,
    "f": [
     6.5,
     9.0,
@@ -884,6 +855,35 @@
    "nw": null
   },
   {
+   "n": "Mohamed Salah",
+   "a": 74.4,
+   "f": [
+    6.69,
+    6.25,
+    7.0,
+    9.0,
+    8.25,
+    8.25
+   ],
+   "c": 3.0,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Egypt",
+   "pos": "RW",
+   "clubs": [
+    "El Mokawloon",
+    "Basel",
+    "Chelsea",
+    "Fiorentina",
+    "Roma",
+    "Liverpool",
+    "Trabzonspor"
+   ],
+   "why": "CH 8.5, Nagrig school and hospital, Gaza statements; public spats Klopp 2024, Slot Dec 2025; WK prolific, limited pressing, spats; LO 7, nine years, left 2026; AB 9; ST inverted winger, flair; LE Liverpool icon, 2019 and 2025 titles",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Hany Mukhtar",
    "a": 74.2,
    "f": [
@@ -935,31 +935,6 @@
    "nw": null
   },
   {
-   "n": "Jude Bellingham",
-   "a": 73.9,
-   "f": [
-    4.39,
-    7.25,
-    6.0,
-    8.75,
-    8.0,
-    6.0
-   ],
-   "c": 1.8,
-   "ps": 8.2,
-   "p": -0.0,
-   "nat": "England",
-   "pos": "AM/CM",
-   "clubs": [
-    "Birmingham City",
-    "Borussia Dortmund",
-    "Real Madrid"
-   ],
-   "why": "CH anti-racism voice vs groin gesture 2024, referee comments 2021, swagger; WK box-to-box engine, some ego; LO three years at each club, warm Dortmund bond; AB elite young midfielder; ST goals, dribbles; LE Euro 2024 overhead kick, young career",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Joe Gomez",
    "a": 73.8,
    "f": [
@@ -980,6 +955,31 @@
     "Liverpool"
    ],
    "why": "CH decent pro, no causes or issues on record; WK accepted rotation for years; LO 11 seasons, longest-serving, stayed through ACL/Achilles; AB title-winning partner of van Dijk; ST versatile defender, no-frills; LE squad member of a great era",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Jude Bellingham",
+   "a": 73.8,
+   "f": [
+    4.39,
+    7.25,
+    6.0,
+    8.75,
+    8.0,
+    6.0
+   ],
+   "c": 1.8,
+   "ps": 8.2,
+   "p": -0.0,
+   "nat": "England",
+   "pos": "AM/CM",
+   "clubs": [
+    "Birmingham City",
+    "Borussia Dortmund",
+    "Real Madrid"
+   ],
+   "why": "CH anti-racism voice vs groin gesture 2024, referee comments 2021, swagger; WK box-to-box engine, some ego; LO three years at each club, warm Dortmund bond; AB elite young midfielder; ST goals, dribbles; LE Euro 2024 overhead kick, young career",
    "pen": [],
    "nw": null
   },
@@ -1110,31 +1110,6 @@
    "nw": null
   },
   {
-   "n": "Marcus Rashford",
-   "a": 71.8,
-   "f": [
-    9.79,
-    5.5,
-    6.25,
-    7.25,
-    7.5,
-    7.0
-   ],
-   "c": -0.7,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "England",
-   "pos": "LW/CF",
-   "clubs": [
-    "Manchester United",
-    "Aston Villa",
-    "Barcelona"
-   ],
-   "why": "CH 9.5; WK inconsistent, 2023 night out; LO United academy, loaned out 2025-26; AB good forward; ST pace and dribbling; LE food poverty campaign cultural impact",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Julian Brandt",
    "a": 71.7,
    "f": [
@@ -1183,8 +1158,32 @@
    "nw": null
   },
   {
+   "n": "Cody Gakpo",
+   "a": 71.6,
+   "f": [
+    6.58,
+    7.75,
+    6.25,
+    7.25,
+    7.0,
+    5.0
+   ],
+   "c": 3.8,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Netherlands",
+   "pos": "LW/ST",
+   "clubs": [
+    "PSV",
+    "Liverpool"
+   ],
+   "why": "CH humble, no issues; WK high work rate; LO PSV from age 7 to captain, then Liverpool; AB Dutch Footballer of the Year 2022; ST long-range shooter, inside forward; LE World Cup 2022 goals, Euro 2024 joint top scorer",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Raphinha",
-   "a": 71.7,
+   "a": 71.6,
    "f": [
     5.75,
     8.5,
@@ -1207,30 +1206,6 @@
     "Barcelona"
    ],
    "why": "CH humble, Leeds affection; 2025 trash talk; WK high presser; LO journeyman then Barcelona captain; AB Ballon top 5 2025; ST direct winger; LE kept Leeds up 2022",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Cody Gakpo",
-   "a": 71.6,
-   "f": [
-    6.58,
-    7.75,
-    6.25,
-    7.25,
-    7.0,
-    5.0
-   ],
-   "c": 3.8,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Netherlands",
-   "pos": "LW/ST",
-   "clubs": [
-    "PSV",
-    "Liverpool"
-   ],
-   "why": "CH humble, no issues; WK high work rate; LO PSV from age 7 to captain, then Liverpool; AB Dutch Footballer of the Year 2022; ST long-range shooter, inside forward; LE World Cup 2022 goals, Euro 2024 joint top scorer",
    "pen": [],
    "nw": null
   },
@@ -1554,6 +1529,31 @@
    "nw": null
   },
   {
+   "n": "Marcus Rashford",
+   "a": 68.8,
+   "f": [
+    8.59,
+    5.5,
+    6.25,
+    7.25,
+    7.5,
+    7.0
+   ],
+   "c": -0.7,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "England",
+   "pos": "LW/CF",
+   "clubs": [
+    "Manchester United",
+    "Aston Villa",
+    "Barcelona"
+   ],
+   "why": "CH 9.5; WK inconsistent, 2023 night out; LO United academy, loaned out 2025-26; AB good forward; ST pace and dribbling; LE food poverty campaign cultural impact",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Cole Palmer",
    "a": 68.6,
    "f": [
@@ -1713,33 +1713,6 @@
    "nw": null
   },
   {
-   "n": "Khvicha Kvaratskhelia",
-   "a": 66.4,
-   "f": [
-    5.3,
-    7.75,
-    4.0,
-    8.25,
-    9.0,
-    6.25
-   ],
-   "c": 0.7,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Georgia",
-   "pos": "LW",
-   "clubs": [
-    "Dinamo Tbilisi",
-    "Rubin Kazan",
-    "Dinamo Batumi",
-    "Napoli",
-    "Paris Saint-Germain"
-   ],
-   "why": "CH humble, no issues of note; WK high; LO pushed January exit from Napoli; AB top winger; ST dribbling showman; LE Napoli's 2023 title, Georgia Euro 2024",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Jan Oblak",
    "a": 66.2,
    "f": [
@@ -1814,61 +1787,6 @@
    "nw": null
   },
   {
-   "n": "Robert Lewandowski",
-   "a": 65.5,
-   "f": [
-    7.05,
-    7.0,
-    4.0,
-    9.25,
-    7.0,
-    8.25
-   ],
-   "c": 3.8,
-   "ps": 0.0,
-   "p": -5.9,
-   "nat": "Poland",
-   "pos": "CF",
-   "clubs": [
-    "Znicz Pruszków",
-    "Lech Poznań",
-    "Borussia Dortmund",
-    "Bayern Munich",
-    "Barcelona",
-    "Chicago Fire"
-   ],
-   "why": "CH Ukraine support, no issues; WK high; LO left Dortmund for Bayern 2014, forced Bayern exit 2022; AB -level striker; ST finisher; LE five in nine minutes, record 41",
-   "pen": [
-    "Rival move (2014): joined Bayern from Dortmund (rival)"
-   ],
-   "nw": null
-  },
-  {
-   "n": "Gregor Kobel",
-   "a": 65.1,
-   "f": [
-    6.0,
-    6.75,
-    7.0,
-    7.5,
-    5.0,
-    4.75
-   ],
-   "c": 3.3,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Switzerland",
-   "pos": "GK",
-   "clubs": [
-    "Hoffenheim",
-    "VfB Stuttgart",
-    "Borussia Dortmund"
-   ],
-   "why": "CH no causes or issues on record; WK reliable; LO 5 years BVB, vice-captain; AB one of Europe's better keepers; ST goalkeeper; LE 2024 UCL final run",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "David Da Costa",
    "a": 65.1,
    "f": [
@@ -1889,6 +1807,82 @@
     "Portland Timbers"
    ],
    "why": "CH thin record, baseline; WK medium; LO Lens academy, now Portland; AB MLS DP level; ST creative No. 10; LE little",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Chris Richards",
+   "a": 65.1,
+   "f": [
+    6.5,
+    7.25,
+    5.5,
+    6.25,
+    4.75,
+    4.25
+   ],
+   "c": 4.7,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "USA",
+   "pos": "CB",
+   "clubs": [
+    "FC Dallas",
+    "Bayern Munich",
+    "Hoffenheim (loan)",
+    "Crystal Palace"
+   ],
+   "why": "CH humble, no issues; WK high; LO Palace since 2022; AB solid PL CB; ST ball-playing but plain; LE 2025 FA Cup with Palace",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Ryan Gravenberch",
+   "a": 65.1,
+   "f": [
+    6.0,
+    7.5,
+    5.5,
+    7.25,
+    7.0,
+    3.5
+   ],
+   "c": 2.2,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Netherlands",
+   "pos": "CM",
+   "clubs": [
+    "Ajax",
+    "Bayern Munich",
+    "Liverpool"
+   ],
+   "why": "CH no causes or issues of note; WK high; LO three clubs; AB good midfielder; ST press-resistant carrier; LE limited",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Gregor Kobel",
+   "a": 65.0,
+   "f": [
+    6.0,
+    6.75,
+    7.0,
+    7.5,
+    5.0,
+    4.75
+   ],
+   "c": 3.3,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Switzerland",
+   "pos": "GK",
+   "clubs": [
+    "Hoffenheim",
+    "VfB Stuttgart",
+    "Borussia Dortmund"
+   ],
+   "why": "CH no causes or issues on record; WK reliable; LO 5 years BVB, vice-captain; AB one of Europe's better keepers; ST goalkeeper; LE 2024 UCL final run",
    "pen": [],
    "nw": null
   }
@@ -1943,29 +1937,6 @@
    "nw": null
   },
   {
-   "n": "Paolo Maldini",
-   "a": 97.7,
-   "f": [
-    9.6,
-    8.75,
-    10.0,
-    9.5,
-    7.0,
-    9.25
-   ],
-   "c": -0.5,
-   "ps": 8.2,
-   "p": -0.0,
-   "nat": "Italy",
-   "pos": "LB/CB",
-   "clubs": [
-    "AC Milan"
-   ],
-   "why": "CH clean, never feuded with fans publicly, no causes; WK high; LO 10, 25 seasons one club; AB elite defender; ST elegant attacking left-back; LE 5 European Cups. FIX: 3rd in Ballon d'Or 1994 and 2003, never runner-up",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Andy Robertson",
    "a": 97.6,
    "f": [
@@ -1989,6 +1960,29 @@
     "Tottenham Hotspur"
    ],
    "why": "CH AR26 foundation, Covid food-bank donations, kind to young fans; WK relentless presser; LO 9 seasons, vice-captain, Kop favourite, left on a free after losing his place (sought Spurs move Jan 2026); AB elite PL left-back at peak; ST overlapping crosser, assist machine; LE 2019 UCL, record assists, long-time Scotland captain",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Paolo Maldini",
+   "a": 97.6,
+   "f": [
+    9.6,
+    8.75,
+    10.0,
+    9.5,
+    7.0,
+    9.25
+   ],
+   "c": -0.5,
+   "ps": 8.2,
+   "p": -0.0,
+   "nat": "Italy",
+   "pos": "LB/CB",
+   "clubs": [
+    "AC Milan"
+   ],
+   "why": "CH clean, never feuded with fans publicly, no causes; WK high; LO 10, 25 seasons one club; AB elite defender; ST elegant attacking left-back; LE 5 European Cups. FIX: 3rd in Ballon d'Or 1994 and 2003, never runner-up",
    "pen": [],
    "nw": null
   },
@@ -2314,30 +2308,6 @@
    "nw": null
   },
   {
-   "n": "Joshua Kimmich",
-   "a": 87.3,
-   "f": [
-    8.55,
-    8.5,
-    8.25,
-    8.5,
-    6.75,
-    6.5
-   ],
-   "c": 3.1,
-   "ps": 4.1,
-   "p": -0.0,
-   "nat": "Germany",
-   "pos": "DM/RB",
-   "clubs": [
-    "RB Leipzig",
-    "Bayern Munich"
-   ],
-   "why": "CH WeKickCorona, OneLove protest; vaccine debate; WK leader, high work; LO 11 years Bayern after Leipzig; AB elite DM/RB; ST passer, not flashy; LE Germany captain, 2020 UCL",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Jamal Musiala",
    "a": 87.2,
    "f": [
@@ -2357,6 +2327,30 @@
     "Bayern Munich"
    ],
    "why": "CH humble, no issues of note; WK high; LO Bayern since 2019, extended to 2030; AB elite dribbler; ST dribbling No. 10; LE young, 2023 title goal",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Joshua Kimmich",
+   "a": 87.2,
+   "f": [
+    8.55,
+    8.5,
+    8.25,
+    8.5,
+    6.75,
+    6.5
+   ],
+   "c": 3.1,
+   "ps": 4.1,
+   "p": -0.0,
+   "nat": "Germany",
+   "pos": "DM/RB",
+   "clubs": [
+    "RB Leipzig",
+    "Bayern Munich"
+   ],
+   "why": "CH WeKickCorona, OneLove protest; vaccine debate; WK leader, high work; LO 11 years Bayern after Leipzig; AB elite DM/RB; ST passer, not flashy; LE Germany captain, 2020 UCL",
    "pen": [],
    "nw": null
   },
@@ -2462,7 +2456,7 @@
   },
   {
    "n": "Kaká",
-   "a": 85.5,
+   "a": 85.4,
    "f": [
     7.67,
     7.75,
@@ -2809,30 +2803,6 @@
    "nw": null
   },
   {
-   "n": "Harry Kane",
-   "a": 82.5,
-   "f": [
-    9.51,
-    8.0,
-    6.75,
-    8.75,
-    7.25,
-    7.5
-   ],
-   "c": 2.0,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "England",
-   "pos": "CF",
-   "clubs": [
-    "Tottenham Hotspur",
-    "Bayern Munich"
-   ],
-   "why": "CH low-key, mental health foundation, OneLove attempt; WK drops deep, creates for others; LO Spurs academy 14 years but tried to force City move 2021; AB elite striker; ST complete forward, passing range; LE England record scorer, long trophy wait",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Jamie Carragher",
    "a": 82.5,
    "f": [
@@ -2852,31 +2822,6 @@
     "Liverpool"
    ],
    "why": "CH 6 23 Foundation offset by 2018 spitting incident; WK 9.5 relentless, self-made; LO 9.5 one-club 17 years, local; AB 7 top defender of his era; ST 4 no-frills blocker; LE 6.5 Istanbul cramp, 737 apps",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Giovanni Di Lorenzo",
-   "a": 82.2,
-   "f": [
-    6.15,
-    8.5,
-    7.5,
-    7.0,
-    6.5,
-    6.25
-   ],
-   "c": 2.7,
-   "ps": 8.2,
-   "p": -0.0,
-   "nat": "Italy",
-   "pos": "RB",
-   "clubs": [
-    "Matera",
-    "Empoli",
-    "Napoli"
-   ],
-   "why": "CH humble, no issues; WK high; LO Napoli captain since 2022, agent sought exit 2024, then stayed; AB Euro-winning full-back; ST overlapping full-back; LE lifted Napoli's first scudetto since Maradona",
    "pen": [],
    "nw": null
   },
@@ -3010,6 +2955,30 @@
    "nw": null
   },
   {
+   "n": "Harry Kane",
+   "a": 81.0,
+   "f": [
+    8.91,
+    8.0,
+    6.75,
+    8.75,
+    7.25,
+    7.5
+   ],
+   "c": 2.0,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "England",
+   "pos": "CF",
+   "clubs": [
+    "Tottenham Hotspur",
+    "Bayern Munich"
+   ],
+   "why": "CH low-key, mental health foundation, OneLove attempt; WK drops deep, creates for others; LO Spurs academy 14 years but tried to force City move 2021; AB elite striker; ST complete forward, passing range; LE England record scorer, long trophy wait",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Ian Wright",
    "a": 81.0,
    "f": [
@@ -3093,6 +3062,31 @@
    "nw": null
   },
   {
+   "n": "Giovanni Di Lorenzo",
+   "a": 80.7,
+   "f": [
+    5.55,
+    8.5,
+    7.5,
+    7.0,
+    6.5,
+    6.25
+   ],
+   "c": 2.7,
+   "ps": 8.2,
+   "p": -0.0,
+   "nat": "Italy",
+   "pos": "RB",
+   "clubs": [
+    "Matera",
+    "Empoli",
+    "Napoli"
+   ],
+   "why": "CH humble, no issues; WK high; LO Napoli captain since 2022, agent sought exit 2024, then stayed; AB Euro-winning full-back; ST overlapping full-back; LE lifted Napoli's first scudetto since Maradona",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Ian Rush",
    "a": 80.4,
    "f": [
@@ -3168,31 +3162,6 @@
    "nw": null
   },
   {
-   "n": "Dennis Bergkamp",
-   "a": 80.3,
-   "f": [
-    8.12,
-    6.75,
-    7.0,
-    9.0,
-    9.5,
-    8.5
-   ],
-   "c": 1.7,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Netherlands",
-   "pos": "SS",
-   "clubs": [
-    "Ajax",
-    "Inter Milan",
-    "Arsenal"
-   ],
-   "why": "CH quiet perfectionist, no issues; WK medium; LO 11 years at Arsenal; AB elite second striker; ST first touch, creator; LE Argentina 1998 and Newcastle turn",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Florian Wirtz",
    "a": 80.2,
    "f": [
@@ -3213,6 +3182,31 @@
     "Liverpool"
    ],
    "why": "CH quiet, low-key, no issues; WK presses for a creator; LO 5 years Leverkusen, youth switch from Köln; AB elite creator; ST genius-type No. 10; LE title-clinching hat-trick for unbeaten Leverkusen, British-record fee",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Dennis Bergkamp",
+   "a": 80.2,
+   "f": [
+    8.12,
+    6.75,
+    7.0,
+    9.0,
+    9.5,
+    8.5
+   ],
+   "c": 1.7,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Netherlands",
+   "pos": "SS",
+   "clubs": [
+    "Ajax",
+    "Inter Milan",
+    "Arsenal"
+   ],
+   "why": "CH quiet perfectionist, no issues; WK medium; LO 11 years at Arsenal; AB elite second striker; ST first touch, creator; LE Argentina 1998 and Newcastle turn",
    "pen": [],
    "nw": null
   },
@@ -3344,7 +3338,7 @@
   },
   {
    "n": "Roberto Baggio",
-   "a": 78.7,
+   "a": 78.6,
    "f": [
     7.93,
     5.75,
@@ -3535,35 +3529,6 @@
    "nw": null
   },
   {
-   "n": "Mohamed Salah",
-   "a": 77.4,
-   "f": [
-    7.89,
-    6.25,
-    7.0,
-    9.0,
-    8.25,
-    8.25
-   ],
-   "c": 3.0,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Egypt",
-   "pos": "RW",
-   "clubs": [
-    "El Mokawloon",
-    "Basel",
-    "Chelsea",
-    "Fiorentina",
-    "Roma",
-    "Liverpool",
-    "Trabzonspor"
-   ],
-   "why": "CH 8.5, Nagrig school and hospital, Gaza statements; public spats Klopp 2024, Slot Dec 2025; WK prolific, limited pressing, spats; LO 7, nine years, left 2026; AB 9; ST inverted winger, flair; LE Liverpool icon, 2019 and 2025 titles",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Aritz Aduriz",
    "a": 77.2,
    "f": [
@@ -3671,7 +3636,7 @@
   },
   {
    "n": "Cristian Roldan",
-   "a": 76.4,
+   "a": 76.5,
    "f": [
     6.5,
     9.0,
@@ -3791,6 +3756,34 @@
     "Seattle Sounders"
    ],
    "why": "CH 5.5 combative, ripped referee's notebook; WK 7; LO 5 six Sounders years; AB 7 PL-level goalscorer; ST 7.5 street-ball creativity; LE 6.5 Ghana goal, Fulham vs Juventus",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Kevin De Bruyne",
+   "a": 75.4,
+   "f": [
+    4.33,
+    7.25,
+    7.25,
+    9.0,
+    9.0,
+    7.75
+   ],
+   "c": -2.0,
+   "ps": 8.2,
+   "p": -0.0,
+   "nat": "Belgium",
+   "pos": "AM/CM",
+   "clubs": [
+    "Genk",
+    "Chelsea",
+    "Werder Bremen",
+    "VfL Wolfsburg",
+    "Manchester City",
+    "Napoli"
+   ],
+   "why": "CH decent pro, blunt, no causes or issues of note; WK high work rate; LO ten years at City as captain, released 2025; AB peak elite creator; ST elite passer and crosser; LE treble 2023, assist record. FIX: Napoli's Serie A 2025 title came before he joined (summer 2025)",
    "pen": [],
    "nw": null
   }

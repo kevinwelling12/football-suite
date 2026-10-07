@@ -228,6 +228,7 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
 - Values round 12 (quiz12/, 2026-10-07): pairs (agree 24 of 24): indiscipline -2.8, feuds -2.3, rows with fans -2.0,
   taunts -1.7, women's game +1.3, time with fans +1.2, private jet -0.9, mental health +0.9, climate +0.2, Common Goal 0
   (fitted -0.5, floored). Direct (as stated): refugees, union, honest, fan-owned club, outside interests, youth mentor +2;
-  badge-kiss exit, contract via media, referee disputes -2. Tags in players/values2/ (cited). The shift adds to round 11's.
+  badge-kiss exit, referee disputes -2; contract or move pushed through the media -4 (Kevin: "one is business, the other
+  is manipulation"; talks behind closed doors are not penalised). Tags in players/values2/ (cited). The shift adds to round 11's.
   Note: forcing a move is also a b08 penalty, so contract_media double-counts a little for strikers like Isak, Dembélé.
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

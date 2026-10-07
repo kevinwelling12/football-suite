@@ -1754,6 +1754,14 @@
    {
     "club": "Portland Timbers",
     "from": 2020,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético de San Luis",
+    "from": 2026,
     "to": null,
     "apps": null,
     "captain": false,
@@ -1790,7 +1798,8 @@
   "sources": [
    "https://www.timbers.com/news/timbers-announce-roster-status-ahead-of-2026-mls-season"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "status_oct_2026": "Atlético de San Luis (transferred from Portland 2026)"
  },
  {
   "name": "James Pantemis",

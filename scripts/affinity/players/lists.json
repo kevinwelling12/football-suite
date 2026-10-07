@@ -1567,6 +1567,30 @@
    "nw": null
   },
   {
+   "n": "Brandon Bye",
+   "a": 66.6,
+   "f": [
+    8.02,
+    7.0,
+    6.0,
+    4.5,
+    6.0,
+    3.0
+   ],
+   "c": 2.6,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "USA",
+   "pos": "RB/RWB",
+   "clubs": [
+    "New England Revolution",
+    "Portland Timbers"
+   ],
+   "why": "CH +1 Aspiras Foundation, BPC; WK hard-running full-back; LO 8 seasons at New England; AB solid MLS full-back; ST attacking full-back; LE 2021 Shield",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Hany Mukhtar",
    "a": 66.1,
    "f": [
@@ -1619,7 +1643,7 @@
   },
   {
    "n": "Felipe Mora",
-   "a": 65.9,
+   "a": 65.8,
    "f": [
     6.25,
     7.75,
@@ -1628,7 +1652,7 @@
     5.25,
     4.5
    ],
-   "c": 2.8,
+   "c": 2.7,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Chile",
@@ -1637,7 +1661,8 @@
     "Audax Italiano",
     "Cruz Azul",
     "Pumas UNAM",
-    "Portland Timbers"
+    "Portland Timbers",
+    "Atlético de San Luis"
    ],
    "why": "CH humble, no issues; WK hard-working; LO Portland since 2020; AB MLS striker; ST poacher; LE 2021 MLS Cup final equaliser",
    "pen": [],
@@ -1860,30 +1885,6 @@
     "LA Galaxy"
    ],
    "why": "CH no issues on record; WK medium; LO La Masia, stayed with Galaxy through two ACL surgeries; AB MLS star; ST flair playmaker; LE 2023 solo goal, MLS Cup 2024",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Lee Desmond",
-   "a": 63.8,
-   "f": [
-    6.5,
-    8.0,
-    7.0,
-    4.25,
-    4.0,
-    3.25
-   ],
-   "c": 2.2,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Ireland",
-   "pos": "CB/DM",
-   "clubs": [
-    "St Patrick's Athletic",
-    "Sacramento Republic FC"
-   ],
-   "why": "CH humble, leads by example; WK organiser; LO Republic since 2022, co-captain then captain; AB USL level; ST organiser CB; LE 2022 Open Cup run, local only",
    "pen": [],
    "nw": null
   }

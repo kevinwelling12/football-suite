@@ -3,6 +3,8 @@ const DATA = /*__DATA__*/;
 const EXTRA = /*__EXTRA__*/;
 // Club logos and national flags (files next to the page; data/logos.json, made by scripts/logos/fetch.js). Empty in the claude.ai build.
 const LOGOS = /*__LOGOS__*/;
+// Player Affinity lists (data/players.json, made by scripts/affinity/unified.py): {ma, mt, wa, wt: [{n, a, f, c, p, ...}]}.
+const PLAYERS = /*__PLAYERS__*/;
 const DEF = {sims:1000, impFloor:0.05, impRamp:0.25, drawAuto:1, drawW0:60};
 const STORE = 'football-suite-2627';
 // In views that mix competitions (Live), fixture ids repeat, so a click looks up ids inside its own card first.
@@ -330,7 +332,7 @@ const lastIn = {};
 function renderStatus() {
   const k = state.view;
   let s;
-  if (k === 'rank') s = `<b>${rankList().length}</b> clubs and nations, ranked by Affinity`;
+  if (k === 'rank') s = rankMode === 'players' && PLAYERS.ma ? `Players ranked by your Affinity` : `<b>${rankList().length}</b> clubs and nations, ranked by Affinity`;
   else if (k === 'live') { const a = liveNow().length, b = kickedOff().length; s = a || b ? `<b>${a}</b> live${b ? `, <b>${b}</b> kicked off without a live score` : ''}` : 'Nothing live right now'; }
   else if (k === 'home') {
     const done = ORDER.filter(c => R[c]).length;
@@ -788,7 +790,7 @@ function openNation(j) {
 const RANK_PRIMARY = ['epl', 'esp', 'ita', 'bl', 'fra', 'mls', 'nwsl', 'ch', 'usl', 'ucl', 'cup', 'unl'];
 const RANK_LABEL = { cup: 'League One / Two', ucl: 'Other European leagues', unl: 'Nations' };
 const rankLabel = k => RANK_LABEL[k] || COMPS_CFG[k].name;
-let rankF = 'all', rankCache = null;
+let rankF = 'all', rankCache = null, rankMode = 'clubs', plF = 'ma', plOpen = null;
 // What Kevin can realistically follow (bandwidth): the leagues he follows, and the competitions where his clubs meet
 // others (Champions League, Carabao Cup). Shown next to Affinity, never added to it.
 const YOUR_LEAGUES = ['epl', 'bl', 'mls', 'nwsl', 'usl'];
@@ -809,7 +811,23 @@ function rankList() {
   EXTRA.teams.forEach((t, j) => { if (!by[t.name]) by[t.name] = {k: 'unl', x: j, t}; });
   return rankCache = Object.values(by).sort((a, b) => affOf(b.t) - affOf(a.t) || a.t.name.localeCompare(b.t.name));
 }
+const PL_TABS = [['ma', 'Men · Active'], ['mt', 'Men · All-time'], ['wa', 'Women · Active'], ['wt', 'Women · All-time']];
+const PL_F = ['Character', 'Team player', 'Loyalty & bond', 'Greatness', 'Joy to watch', 'Legacy'];
+const rankModes = () => PLAYERS.ma ? `<div class="rank-chips">${[['clubs', 'Clubs & nations'], ['players', 'Players']].map(([m, l]) => `<button class="rchip" data-rankmode="${m}" aria-pressed="${rankMode === m}" style="--c:#fff">${l}</button>`).join('')}</div>` : '';
+const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>Six ratings out of 10, weighted by your quiz choices: Team player 27%, Character 25%, Loyalty 17%, Joy to watch 16%, Legacy 10%, Greatness 5%. Character includes your values (rounds 11 and 12). Then connection (your Affinity for each club they played for) and hard lines (abuse, racism, match-fixing, violence, money-league moves and the like). The two sides feed each other: a club's best players and icons lift its Team and History ratings.</p></details>`;
+function viewPlayers() {
+  const L = PLAYERS[plF] || [], mx = L.length ? L[0].a : 100;
+  return `<section class="section">${rankModes()}${PL_HOW}
+    <div class="rank-chips">${PL_TABS.map(([k, l]) => `<button class="rchip" data-plf="${k}" aria-pressed="${plF === k}" style="--c:#fff">${l}</button>`).join('')}</div>
+    <div class="card rank" style="margin-top:12px">${L.map((p, n) => `<div class="rank-row pl-row" data-plopen="${n}" role="button" tabindex="0" aria-expanded="${plOpen === n}"><span class="num rk">${n + 1}</span>
+      <span class="who">${esc(p.n)}${p.nw ? ' <span class="pl-tag">NWSL</span>' : ''}<small><span>${esc([p.pos, p.nat, (p.clubs || []).slice(-1)[0]].filter(Boolean).join(' · '))}</span></small></span>
+      <span class="stack"><span class="b" style="width:${Math.max(0, p.a) / mx * 100}%"></span></span>
+      <span class="num sc">${p.a.toFixed(1)}</span></div>${plOpen === n ? `<div class="pl-det">${p.f.map((v, j) => `<div class="hb"><span>${PL_F[j]}</span><span class="bar"><i style="width:${v * 10}%"></i></span><b class="num">${v.toFixed(1)}</b></div>`).join('')}
+        <div class="hb-items">${p.c ? `<div class="hb-item"><span>Connection</span><b class="num ${p.c < 0 ? 'neg' : ''}">${signed(p.c)}</b></div>` : ''}${p.p ? `<div class="hb-item"><span>Hard lines</span><b class="num neg">${signed(p.p)}</b></div>${(p.pen || []).map(x => `<div class="hb-item"><span>${esc(x)}</span></div>`).join('')}` : ''}</div>
+        ${p.why ? `<p class="note">${esc(p.why)}</p>` : ''}</div>` : ''}`).join('')}</div></section>`;
+}
 function viewRank() {
+  if (rankMode === 'players' && PLAYERS.ma) return viewPlayers();
   const all = rankList(), mx = affOf(all[0].t);
   const counts = {}; all.forEach(e => counts[e.k] = (counts[e.k] || 0) + 1);
   const nFit = all.filter(e => fitOf(e.t.name)).length;
@@ -817,7 +835,7 @@ function viewRank() {
   const list = all.map((e, n) => Object.assign({n: n + 1}, e)).filter(e => rankF === 'all' || (rankF === 'fit' ? fitOf(e.t.name) : e.k === rankF));
   // Filtered to one league: rank within the league, overall rank in parentheses.
   const byLeague = rankF !== 'all' && rankF !== 'fit';
-  return `<section class="section">${AFF_HOW}
+  return `<section class="section">${rankModes()}${AFF_HOW}
     <div class="rank-chips">${chips.map(([k, l]) => `<button class="rchip" data-rankf="${k}" aria-pressed="${rankF === k}" style="--c:${k === 'all' || k === 'fit' ? '#fff' : DOT[k]}">${k === 'all' || k === 'fit' ? '' : '<i></i>'}${esc(l)}</button>`).join('')}</div>
     <div class="card rank ${byLeague ? 'by-league' : ''}" style="margin-top:12px">${list.map((e, j) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${byLeague ? `${j + 1} <small>(${e.n})</small>` : e.n}</span>
       <span class="who"><button class="club-link" ${e.x != null ? `data-xnat="${e.x}"` : `data-club="${e.k}:${e.i}"`}>${nchip(e.t.name, e.t.color, e.k)}${esc(e.t.name)}</button><small><i></i><span>${esc(rankLabel(e.k))}</span></small></span>
@@ -1130,7 +1148,9 @@ function affBreakdown(k, t) {
   const squad = h.tb ? (h.dom ? `${Math.round(h.dom[0] * 100)}% · league ${Math.round(h.dom[1] * 100)}%` : (h.clubs || []).slice(0, 2).map(([c]) => esc(c)).join(', ')) : '';
   return `<h4 style="margin-top:18px">Affinity ${fmtA(affOf(t))}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
     ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${fmtR(h[key])}</b></div>` +
-      (key === 'S' && h.tb ? `<div class="hb hb-sub"><span>${h.dom ? 'Homegrown' : 'Club links'}</span><span>${squad}</span><b class="num ${h.tb < 0 ? 'neg' : ''}">${signed(h.tb)}</b></div>` : '')).join('')}
+      (key === 'S' && h.tb ? `<div class="hb hb-sub"><span>${h.dom ? 'Homegrown' : 'Club links'}</span><span>${squad}</span><b class="num ${h.tb < 0 ? 'neg' : ''}">${signed(h.tb)}</b></div>` : '') +
+      (key === 'S' && h.py && h.py.t ? `<div class="hb hb-sub"><span>Players</span><span>${(h.py.sq || []).map(esc).join(', ')}</span><b class="num ${h.py.t < 0 ? 'neg' : ''}">${signed(h.py.t)}</b></div>` : '') +
+      (key === 'H' && h.py && h.py.h ? `<div class="hb hb-sub"><span>Icons</span><span>${(h.py.ic || []).map(esc).join(', ')}</span><b class="num ${h.py.h < 0 ? 'neg' : ''}">${signed(h.py.h)}</b></div>` : '')).join('')}
     ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>` : ''}
     ${group('Hard lines', hard, hardT)}${group('Connection', conn, connT)}</div>`;
 }
@@ -1229,7 +1249,7 @@ function liveEvent(k, id, ev) {
 }
 // ---------------------------------------------------------------- events
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-heart],[data-heartnote],[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-rankf],[data-natf],[data-xnat],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
+  const t = e.target.closest('[data-heart],[data-heartnote],[data-signin],[data-signout],[data-ev],[data-top],[data-adjadd],[data-adjdel],[data-koenter],[data-kosave],[data-koclear],[data-unllg],[data-live],[data-unlive],[data-pp],[data-unpp],[data-move],[data-follow],[data-club],[data-rankf],[data-rankmode],[data-plf],[data-plopen],[data-natf],[data-xnat],[data-tmode],[data-region],[data-view],[data-tab],[data-open],[data-enter],[data-save],[data-clear],[data-step],[data-cstep],[data-reset],[data-go],[data-draw]');
   if (!t) return;
   const card = t.closest('#main [data-fx]');
   // On Live, a match card's buttons act on that card's competition.
@@ -1277,6 +1297,9 @@ document.addEventListener('click', e => {
     save(k); if ($('#detail').open) openClub(k, i); render(); return; }
   if (t.dataset.club) { const [kk, i] = t.dataset.club.includes(':') ? t.dataset.club.split(':') : [k, t.dataset.club]; if (R[kk]) openClub(kk, +i); return; }
   if (t.dataset.rankf) { rankF = t.dataset.rankf; render(); return; }
+  if (t.dataset.rankmode) { rankMode = t.dataset.rankmode; plOpen = null; render(); return; }
+  if (t.dataset.plf) { plF = t.dataset.plf; plOpen = null; render(); return; }
+  if (t.dataset.plopen) { const n = +t.dataset.plopen; plOpen = plOpen === n ? null : n; render(); return; }
   if (t.dataset.natf) { natF = t.dataset.natf; render(); return; }
   if (t.dataset.xnat) { openNation(+t.dataset.xnat); return; }
   if (t.dataset.tmode) { state.tmode[k] = t.dataset.tmode; render(); return; }

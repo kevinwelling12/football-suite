@@ -234,3 +234,17 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
 - Position boost removed (Kevin, 2026-10-07: position "matters very little"): POS_BOOST 0, fit.py fixes it at 0. Refit:
   CH 25, WK 27, LO 17, AB 5, ST 16, LE 10; connection x0.93, penalties x2.93; leave-one-out 71% (73% with the boost).
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).
+
+Clubs and players together (2026-10-07, Kevin: "full integration of the player and club sides with bilateral influence"):
+- One run: `python3 scripts/affinity/unified.py [--fit]` rescores every club (rescore.py), rates every player
+  (players/model.py, --fit refits the weights first), rebuilds the lists and writes data/players.json for the app.
+- Club -> player: a player's connection is the Affinity of each club he played for (players/model.py, per_season).
+- Player -> club (scripts/affinity/players_link.py): the best 5 current players move Team by 1.5 * sum(x) / (n + 4),
+  the best 5 icons (4+ seasons there) move History by 1.0 * sum(x) / (n + 3), x = (A - 60) / 15 clipped to +/-1.
+  A leaves out connection, so neither side echoes the other and one pass is exact. Best 5 only, because the pool
+  covers Kevin's clubs down to the third keeper but other clubs only through their stars. hai.py in suite_data
+  records the applied amounts (a factor at 10 can't go higher), shown as "Players" and "Icons" in the club sheet.
+- First run: 87 of 308 clubs moved, by at most about 2: Thorns 88 -> 90, Kansas City Current 75.7 -> 77.1,
+  Liverpool 84.6 -> 85.8, Dortmund 83.1 -> 84.4, Bayern 80.9 -> 82.0, Arsenal 59.9 -> 61.3; PSG 26.1 -> 24.9,
+  Inter Miami 28.1 -> 27.3.
+- App: Affinity view has a Clubs & nations / Players switch; Players shows the four lists with each player's breakdown.

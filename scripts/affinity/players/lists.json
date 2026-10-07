@@ -76,7 +76,7 @@
   },
   {
    "n": "Bukayo Saka",
-   "a": 87.4,
+   "a": 87.6,
    "f": [
     10.0,
     8.5,
@@ -85,7 +85,7 @@
     8.25,
     6.0
    ],
-   "c": 1.3,
+   "c": 1.4,
    "ps": 0.0,
    "p": -0.0,
    "nat": "England",
@@ -99,7 +99,7 @@
   },
   {
    "n": "Son Heung-min",
-   "a": 86.0,
+   "a": 86.2,
    "f": [
     9.8,
     8.0,
@@ -108,7 +108,7 @@
     8.0,
     7.5
    ],
-   "c": 1.8,
+   "c": 2.0,
    "ps": 0.0,
    "p": -0.0,
    "nat": "South Korea",
@@ -196,7 +196,7 @@
   },
   {
    "n": "Harry Kane",
-   "a": 80.9,
+   "a": 81.2,
    "f": [
     8.91,
     8.0,
@@ -205,7 +205,7 @@
     7.25,
     7.5
    ],
-   "c": 2.0,
+   "c": 2.3,
    "ps": 0.0,
    "p": -0.0,
    "nat": "England",
@@ -243,7 +243,7 @@
   },
   {
    "n": "Martin Ødegaard",
-   "a": 79.9,
+   "a": 80.1,
    "f": [
     7.08,
     8.5,
@@ -252,7 +252,7 @@
     8.75,
     5.75
    ],
-   "c": 1.7,
+   "c": 1.9,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Norway",
@@ -271,7 +271,7 @@
   },
   {
    "n": "Jamal Musiala",
-   "a": 79.2,
+   "a": 79.3,
    "f": [
     7.91,
     7.25,
@@ -280,7 +280,7 @@
     9.0,
     5.0
    ],
-   "c": 3.0,
+   "c": 3.1,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Germany",
@@ -320,7 +320,7 @@
   },
   {
    "n": "Pedri",
-   "a": 77.8,
+   "a": 77.9,
    "f": [
     6.67,
     7.75,
@@ -329,7 +329,7 @@
     9.0,
     5.75
    ],
-   "c": 2.2,
+   "c": 2.3,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Spain",
@@ -426,7 +426,7 @@
     5.0,
     5.5
    ],
-   "c": 3.4,
+   "c": 3.5,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Japan",
@@ -551,7 +551,7 @@
     8.25,
     8.25
    ],
-   "c": 2.9,
+   "c": 3.0,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Egypt",
@@ -580,9 +580,9 @@
     8.5,
     7.0
    ],
-   "c": 3.1,
+   "c": 3.2,
    "ps": 0.0,
-   "p": -11.7,
+   "p": -11.8,
    "nat": "Brazil",
    "pos": "ST/AM",
    "clubs": [
@@ -625,7 +625,7 @@
   },
   {
    "n": "Antonee Robinson",
-   "a": 73.7,
+   "a": 73.8,
    "f": [
     7.04,
     8.5,
@@ -634,7 +634,7 @@
     7.25,
     4.0
    ],
-   "c": 2.9,
+   "c": 3.0,
    "ps": 0.0,
    "p": -0.0,
    "nat": "USA",
@@ -650,7 +650,7 @@
   },
   {
    "n": "Rodri",
-   "a": 73.6,
+   "a": 73.7,
    "f": [
     7.75,
     9.0,
@@ -700,7 +700,7 @@
   },
   {
    "n": "Shinji Kagawa",
-   "a": 72.7,
+   "a": 72.8,
    "f": [
     7.0,
     6.75,
@@ -778,7 +778,7 @@
   },
   {
    "n": "Florian Wirtz",
-   "a": 72.2,
+   "a": 72.3,
    "f": [
     6.67,
     7.5,
@@ -787,7 +787,7 @@
     9.0,
     6.25
    ],
-   "c": 0.9,
+   "c": 1.0,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Germany",
@@ -826,7 +826,7 @@
   },
   {
    "n": "Gavi",
-   "a": 71.7,
+   "a": 71.8,
    "f": [
     5.25,
     8.75,
@@ -835,7 +835,7 @@
     7.0,
     4.5
    ],
-   "c": 1.8,
+   "c": 1.9,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Spain",
@@ -849,7 +849,7 @@
   },
   {
    "n": "Raphinha",
-   "a": 71.7,
+   "a": 71.8,
    "f": [
     5.75,
     8.5,
@@ -872,6 +872,32 @@
     "Barcelona"
    ],
    "why": "CH humble, Leeds affection; 2025 trash talk; WK high presser; LO journeyman then Barcelona captain; AB Ballon top 5 2025; ST direct winger; LE kept Leeds up 2022",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Ronald Araújo",
+   "a": 71.7,
+   "f": [
+    7.54,
+    8.0,
+    7.0,
+    7.5,
+    4.5,
+    5.0
+   ],
+   "c": 3.3,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Uruguay",
+   "pos": "CB/RB",
+   "clubs": [
+    "Rentistas",
+    "Boston River",
+    "Barcelona",
+    "Liverpool (loan)"
+   ],
+   "why": "CH humble, open about mental health (Copa 2024 brawl applied separately); WK committed leader; LO Barcelona 2018-26 from 19, became captain, loaned out after losing place; AB top-class defender at peak; ST physical CB; LE Barça captain, Clásico goal",
    "pen": [],
    "nw": null
   },
@@ -926,7 +952,7 @@
   },
   {
    "n": "Jordan Henderson",
-   "a": 71.6,
+   "a": 71.5,
    "f": [
     10.0,
     9.0,
@@ -937,7 +963,7 @@
    ],
    "c": 3.7,
    "ps": 0.0,
-   "p": -11.7,
+   "p": -11.8,
    "nat": "England",
    "pos": "CM",
    "clubs": [
@@ -951,32 +977,6 @@
    "pen": [
     "Saudi move (2023): joined Al-Ettifaq (Saudi Pro League) after LGBTQ+ advocacy"
    ],
-   "nw": null
-  },
-  {
-   "n": "Ronald Araújo",
-   "a": 71.6,
-   "f": [
-    7.54,
-    8.0,
-    7.0,
-    7.5,
-    4.5,
-    5.0
-   ],
-   "c": 3.2,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Uruguay",
-   "pos": "CB/RB",
-   "clubs": [
-    "Rentistas",
-    "Boston River",
-    "Barcelona",
-    "Liverpool (loan)"
-   ],
-   "why": "CH humble, open about mental health (Copa 2024 brawl applied separately); WK committed leader; LO Barcelona 2018-26 from 19, became captain, loaned out after losing place; AB top-class defender at peak; ST physical CB; LE Barça captain, Clásico goal",
-   "pen": [],
    "nw": null
   },
   {
@@ -1027,6 +1027,30 @@
    "nw": null
   },
   {
+   "n": "Declan Rice",
+   "a": 71.0,
+   "f": [
+    6.75,
+    9.0,
+    6.5,
+    8.0,
+    6.25,
+    5.25
+   ],
+   "c": -0.6,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "England",
+   "pos": "DM/CM",
+   "clubs": [
+    "West Ham United",
+    "Arsenal"
+   ],
+   "why": "CH humble, well liked, no causes of note; WK engine, leads by example; LO West Ham academy and captain, left on good terms; AB top midfielder; ST functional, free-kick night vs Madrid; LE Conference League captain",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Kostas Tsimikas",
    "a": 71.0,
    "f": [
@@ -1048,30 +1072,6 @@
     "Roma (loan)"
    ],
    "why": "CH warm, no issues, no causes on record; WK accepted backup role for years; LO six years at Liverpool from 24, loaned out once; AB solid backup left-back; ST attacking crosser; LE 2022 FA Cup winning penalty",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Declan Rice",
-   "a": 70.9,
-   "f": [
-    6.75,
-    9.0,
-    6.5,
-    8.0,
-    6.25,
-    5.25
-   ],
-   "c": -0.7,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "England",
-   "pos": "DM/CM",
-   "clubs": [
-    "West Ham United",
-    "Arsenal"
-   ],
-   "why": "CH humble, well liked, no causes of note; WK engine, leads by example; LO West Ham academy and captain, left on good terms; AB top midfielder; ST functional, free-kick night vs Madrid; LE Conference League captain",
    "pen": [],
    "nw": null
   },
@@ -1102,7 +1102,7 @@
   },
   {
    "n": "Martin Zubimendi",
-   "a": 70.5,
+   "a": 70.6,
    "f": [
     6.25,
     8.75,
@@ -1111,7 +1111,7 @@
     6.0,
     5.0
    ],
-   "c": 3.1,
+   "c": 3.2,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Spain",
@@ -1162,7 +1162,7 @@
     8.25,
     6.25
    ],
-   "c": -2.8,
+   "c": -2.7,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Portugal",
@@ -1179,7 +1179,7 @@
   },
   {
    "n": "Sebastián Blanco",
-   "a": 70.3,
+   "a": 70.4,
    "f": [
     6.5,
     8.0,
@@ -1188,7 +1188,7 @@
     7.75,
     4.25
    ],
-   "c": 3.0,
+   "c": 3.1,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Argentina",
@@ -1216,7 +1216,7 @@
     6.0,
     4.5
    ],
-   "c": 3.8,
+   "c": 3.9,
    "ps": 0.0,
    "p": -0.0,
    "nat": "USA",
@@ -1241,7 +1241,7 @@
     8.25,
     6.0
    ],
-   "c": 0.8,
+   "c": 0.9,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Portugal",
@@ -1307,30 +1307,6 @@
    "nw": null
   },
   {
-   "n": "Vitinha",
-   "a": 69.2,
-   "f": [
-    6.0,
-    8.5,
-    5.5,
-    8.25,
-    8.0,
-    6.0
-   ],
-   "c": -1.2,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Portugal",
-   "pos": "CM",
-   "clubs": [
-    "Porto",
-    "Paris Saint-Germain"
-   ],
-   "why": "CH no causes or issues of note; WK high; LO Porto academy then PSG; AB top midfielder; ST tempo playmaker; LE PSG UCLs",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Curtis Jones",
    "a": 69.1,
    "f": [
@@ -1355,8 +1331,32 @@
    "nw": null
   },
   {
+   "n": "Vitinha",
+   "a": 69.1,
+   "f": [
+    6.0,
+    8.5,
+    5.5,
+    8.25,
+    8.0,
+    6.0
+   ],
+   "c": -1.3,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Portugal",
+   "pos": "CM",
+   "clubs": [
+    "Porto",
+    "Paris Saint-Germain"
+   ],
+   "why": "CH no causes or issues of note; WK high; LO Porto academy then PSG; AB top midfielder; ST tempo playmaker; LE PSG UCLs",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Marcus Rashford",
-   "a": 68.8,
+   "a": 69.0,
    "f": [
     8.59,
     5.5,
@@ -1365,7 +1365,7 @@
     7.5,
     7.0
    ],
-   "c": -0.7,
+   "c": -0.6,
    "ps": 0.0,
    "p": -0.0,
    "nat": "England",
@@ -1404,6 +1404,34 @@
    "nw": null
   },
   {
+   "n": "Luka Modrić",
+   "a": 68.0,
+   "f": [
+    4.74,
+    8.75,
+    7.0,
+    9.25,
+    9.0,
+    9.0
+   ],
+   "c": 1.3,
+   "ps": 0.0,
+   "p": -8.8,
+   "nat": "Croatia",
+   "pos": "CM",
+   "clubs": [
+    "Dinamo Zagreb",
+    "Tottenham Hotspur",
+    "Real Madrid",
+    "AC Milan"
+   ],
+   "why": "CH humble, refugee story; Mamic testimony case; WK tireless; LO 13 years Madrid but forced Spurs exit 2012; AB Ballon d'Or 2018; ST 9; LE Croatia 2018, six UCL",
+   "pen": [
+    "Forced transfer (2012): skipped Tottenham preseason tour to force Real Madrid move"
+   ],
+   "nw": null
+  },
+  {
    "n": "Dominik Szoboszlai",
    "a": 67.9,
    "f": [
@@ -1427,34 +1455,6 @@
    ],
    "why": "CH no causes or issues of note; WK high; LO Red Bull system, Liverpool 2023; AB good midfielder; ST shooting, energy; LE limited",
    "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Luka Modrić",
-   "a": 67.8,
-   "f": [
-    4.74,
-    8.75,
-    7.0,
-    9.25,
-    9.0,
-    9.0
-   ],
-   "c": 1.1,
-   "ps": 0.0,
-   "p": -8.8,
-   "nat": "Croatia",
-   "pos": "CM",
-   "clubs": [
-    "Dinamo Zagreb",
-    "Tottenham Hotspur",
-    "Real Madrid",
-    "AC Milan"
-   ],
-   "why": "CH humble, refugee story; Mamic testimony case; WK tireless; LO 13 years Madrid but forced Spurs exit 2012; AB Ballon d'Or 2018; ST 9; LE Croatia 2018, six UCL",
-   "pen": [
-    "Forced transfer (2012): skipped Tottenham preseason tour to force Real Madrid move"
-   ],
    "nw": null
   },
   {
@@ -1522,7 +1522,7 @@
     8.0,
     4.75
    ],
-   "c": 0.8,
+   "c": 0.9,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Netherlands",
@@ -1547,9 +1547,9 @@
     5.0,
     7.5
    ],
-   "c": -2.8,
+   "c": -2.7,
    "ps": 0.0,
-   "p": -11.7,
+   "p": -11.8,
    "nat": "France",
    "pos": "DM",
    "clubs": [
@@ -1592,7 +1592,7 @@
   },
   {
    "n": "Hany Mukhtar",
-   "a": 66.1,
+   "a": 66.2,
    "f": [
     6.0,
     6.5,
@@ -1643,7 +1643,7 @@
   },
   {
    "n": "Felipe Mora",
-   "a": 65.8,
+   "a": 65.9,
    "f": [
     6.25,
     7.75,
@@ -1652,7 +1652,7 @@
     5.25,
     4.5
    ],
-   "c": 2.7,
+   "c": 2.8,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Chile",
@@ -1670,7 +1670,7 @@
   },
   {
    "n": "Jude Bellingham",
-   "a": 65.8,
+   "a": 65.9,
    "f": [
     4.39,
     7.25,
@@ -1679,7 +1679,7 @@
     8.0,
     6.0
    ],
-   "c": 1.7,
+   "c": 1.8,
    "ps": 0.0,
    "p": -0.0,
    "nat": "England",
@@ -1727,7 +1727,7 @@
     7.0,
     3.5
    ],
-   "c": 2.1,
+   "c": 2.2,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Netherlands",
@@ -1743,7 +1743,7 @@
   },
   {
    "n": "Gregor Kobel",
-   "a": 64.9,
+   "a": 65.0,
    "f": [
     6.0,
     6.75,
@@ -1752,7 +1752,7 @@
     5.0,
     4.75
    ],
-   "c": 3.2,
+   "c": 3.4,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Switzerland",
@@ -1768,7 +1768,7 @@
   },
   {
    "n": "Chris Richards",
-   "a": 64.9,
+   "a": 65.0,
    "f": [
     6.5,
     7.25,
@@ -1777,7 +1777,7 @@
     4.75,
     4.25
    ],
-   "c": 4.6,
+   "c": 4.7,
    "ps": 0.0,
    "p": -0.0,
    "nat": "USA",
@@ -1794,7 +1794,7 @@
   },
   {
    "n": "Vinícius Júnior",
-   "a": 64.2,
+   "a": 64.3,
    "f": [
     3.49,
     6.0,
@@ -1803,7 +1803,7 @@
     9.0,
     6.75
    ],
-   "c": 0.6,
+   "c": 0.7,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Brazil",
@@ -1818,7 +1818,7 @@
   },
   {
    "n": "Cucho Hernández",
-   "a": 64.1,
+   "a": 64.2,
    "f": [
     6.0,
     7.5,
@@ -1827,7 +1827,7 @@
     7.5,
     4.75
    ],
-   "c": 0.5,
+   "c": 0.6,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Colombia",
@@ -1838,6 +1838,30 @@
     "Real Betis"
    ],
    "why": "CH no issues on record; WK high; LO three clubs; AB MLS star; ST flair striker; LE 2023 MLS Cup MVP",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Riqui Puig",
+   "a": 64.1,
+   "f": [
+    6.0,
+    6.0,
+    6.25,
+    6.0,
+    8.25,
+    4.25
+   ],
+   "c": 1.8,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Spain",
+   "pos": "CM",
+   "clubs": [
+    "Barcelona",
+    "LA Galaxy"
+   ],
+   "why": "CH no issues on record; WK medium; LO La Masia, stayed with Galaxy through two ACL surgeries; AB MLS star; ST flair playmaker; LE 2023 solo goal, MLS Cup 2024",
    "pen": [],
    "nw": null
   },
@@ -1861,30 +1885,6 @@
     "Manchester City"
    ],
    "why": "CH humble, Covid breach 2020; WK medium; LO local academy, one club; AB PFA POTY 2024; ST creative dribbler; LE many titles, few defining moments",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Riqui Puig",
-   "a": 63.9,
-   "f": [
-    6.0,
-    6.0,
-    6.25,
-    6.0,
-    8.25,
-    4.25
-   ],
-   "c": 1.7,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Spain",
-   "pos": "CM",
-   "clubs": [
-    "Barcelona",
-    "LA Galaxy"
-   ],
-   "why": "CH no issues on record; WK medium; LO La Masia, stayed with Galaxy through two ACL surgeries; AB MLS star; ST flair playmaker; LE 2023 solo goal, MLS Cup 2024",
    "pen": [],
    "nw": null
   }
@@ -2062,7 +2062,7 @@
   },
   {
    "n": "Paolo Maldini",
-   "a": 89.2,
+   "a": 89.3,
    "f": [
     9.6,
     8.75,
@@ -2085,7 +2085,7 @@
   },
   {
    "n": "Bobby Charlton",
-   "a": 88.5,
+   "a": 88.7,
    "f": [
     10.0,
     8.5,
@@ -2094,7 +2094,7 @@
     8.25,
     9.25
    ],
-   "c": -1.8,
+   "c": -1.6,
    "ps": 0.0,
    "p": -0.0,
    "nat": "England",
@@ -2132,7 +2132,7 @@
   },
   {
    "n": "Bukayo Saka",
-   "a": 87.4,
+   "a": 87.6,
    "f": [
     10.0,
     8.5,
@@ -2141,7 +2141,7 @@
     8.25,
     6.0
    ],
-   "c": 1.3,
+   "c": 1.4,
    "ps": 0.0,
    "p": -0.0,
    "nat": "England",
@@ -2155,7 +2155,7 @@
   },
   {
    "n": "Son Heung-min",
-   "a": 86.0,
+   "a": 86.2,
    "f": [
     9.8,
     8.0,
@@ -2164,7 +2164,7 @@
     8.0,
     7.5
    ],
-   "c": 1.8,
+   "c": 2.0,
    "ps": 0.0,
    "p": -0.0,
    "nat": "South Korea",
@@ -2228,7 +2228,7 @@
   },
   {
    "n": "Landon Donovan",
-   "a": 84.9,
+   "a": 85.2,
    "f": [
     10.0,
     7.75,
@@ -2237,7 +2237,7 @@
     7.5,
     8.0
    ],
-   "c": 3.9,
+   "c": 4.1,
    "ps": 0.0,
    "p": -0.0,
    "nat": "USA",
@@ -2251,6 +2251,32 @@
     "León"
    ],
    "why": "CH +2.5 mental-health openness, walk-offs against slurs; WK 7.5; LO 7 chose MLS, ten Galaxy years; AB 7.5 best US player of his era; ST 7.5 pace, creation; LE 7.5 Algeria winner, MVP award named for him",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Alessandro Del Piero",
+   "a": 83.9,
+   "f": [
+    7.49,
+    7.75,
+    9.25,
+    8.75,
+    9.0,
+    8.5
+   ],
+   "c": 1.3,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Italy",
+   "pos": "SS",
+   "clubs": [
+    "Padova",
+    "Juventus",
+    "Sydney FC",
+    "Delhi Dynamos"
+   ],
+   "why": "CH gentleman, humble; WK high; LO 19 years, captain 11, stayed in Serie B 2006; AB elite second striker; ST fantasista, Del Piero zone; LE Bernabéu ovation, 2006 semi goal",
    "pen": [],
    "nw": null
   },
@@ -2278,32 +2304,6 @@
     "Beira-Mar"
    ],
    "why": "CH gracious, known for sportsmanship; WK high; LO 15 years at Benfica, statue; AB 1965 Ballon d'Or; ST explosive pace and long shots; LE four goals vs North Korea 1966",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Alessandro Del Piero",
-   "a": 83.8,
-   "f": [
-    7.49,
-    7.75,
-    9.25,
-    8.75,
-    9.0,
-    8.5
-   ],
-   "c": 1.2,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Italy",
-   "pos": "SS",
-   "clubs": [
-    "Padova",
-    "Juventus",
-    "Sydney FC",
-    "Delhi Dynamos"
-   ],
-   "why": "CH gentleman, humble; WK high; LO 19 years, captain 11, stayed in Serie B 2006; AB elite second striker; ST fantasista, Del Piero zone; LE Bernabéu ovation, 2006 semi goal",
    "pen": [],
    "nw": null
   },
@@ -2407,7 +2407,7 @@
   },
   {
    "n": "Henrik Larsson",
-   "a": 82.7,
+   "a": 82.8,
    "f": [
     8.6,
     8.5,
@@ -2416,7 +2416,7 @@
     8.0,
     7.75
    ],
-   "c": 1.5,
+   "c": 1.6,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Sweden",
@@ -2481,7 +2481,7 @@
   },
   {
    "n": "Raúl",
-   "a": 81.2,
+   "a": 81.3,
    "f": [
     9.6,
     8.5,
@@ -2490,7 +2490,7 @@
     7.0,
     8.25
    ],
-   "c": 1.9,
+   "c": 2.1,
    "ps": 0.0,
    "p": -5.9,
    "nat": "Spain",
@@ -2506,8 +2506,32 @@
    "nw": null
   },
   {
+   "n": "Harry Kane",
+   "a": 81.2,
+   "f": [
+    8.91,
+    8.0,
+    6.75,
+    8.75,
+    7.25,
+    7.5
+   ],
+   "c": 2.3,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "England",
+   "pos": "CF",
+   "clubs": [
+    "Tottenham Hotspur",
+    "Bayern Munich"
+   ],
+   "why": "CH low-key, mental health foundation, OneLove attempt; WK drops deep, creates for others; LO Spurs academy 14 years but tried to force City move 2021; AB elite striker; ST complete forward, passing range; LE England record scorer, long trophy wait",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Ian Wright",
-   "a": 81.0,
+   "a": 81.2,
    "f": [
     10.0,
     7.25,
@@ -2516,7 +2540,7 @@
     8.0,
     7.25
    ],
-   "c": 2.1,
+   "c": 2.3,
    "ps": 0.0,
    "p": -0.0,
    "nat": "England",
@@ -2534,32 +2558,8 @@
    "nw": null
   },
   {
-   "n": "Harry Kane",
-   "a": 80.9,
-   "f": [
-    8.91,
-    8.0,
-    6.75,
-    8.75,
-    7.25,
-    7.5
-   ],
-   "c": 2.0,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "England",
-   "pos": "CF",
-   "clubs": [
-    "Tottenham Hotspur",
-    "Bayern Munich"
-   ],
-   "why": "CH low-key, mental health foundation, OneLove attempt; WK drops deep, creates for others; LO Spurs academy 14 years but tried to force City move 2021; AB elite striker; ST complete forward, passing range; LE England record scorer, long trophy wait",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "John Barnes",
-   "a": 80.8,
+   "a": 80.9,
    "f": [
     8.96,
     6.5,
@@ -2568,7 +2568,7 @@
     9.0,
     8.0
    ],
-   "c": 2.3,
+   "c": 2.4,
    "ps": 0.0,
    "p": -0.0,
    "nat": "England",
@@ -2580,6 +2580,31 @@
     "Charlton Athletic"
    ],
    "why": "CH +2.5 decades on racism, dignity under abuse; WK 6.5 winger turned tempo setter; LO 7 ten years, captain; AB 8.5 two-time FWA winner; ST 9 flair dribbler; LE 8 Maracanã goal, banana back-heel, Liverpool's first Black star",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Dennis Bergkamp",
+   "a": 80.6,
+   "f": [
+    8.12,
+    6.75,
+    7.0,
+    9.0,
+    9.5,
+    8.5
+   ],
+   "c": 2.0,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Netherlands",
+   "pos": "SS",
+   "clubs": [
+    "Ajax",
+    "Inter Milan",
+    "Arsenal"
+   ],
+   "why": "CH quiet perfectionist, no issues; WK medium; LO 11 years at Arsenal; AB elite second striker; ST first touch, creator; LE Argentina 1998 and Newcastle turn",
    "pen": [],
    "nw": null
   },
@@ -2610,27 +2635,25 @@
    "nw": null
   },
   {
-   "n": "Dennis Bergkamp",
-   "a": 80.4,
+   "n": "Paul Scholes",
+   "a": 80.3,
    "f": [
-    8.12,
-    6.75,
-    7.0,
-    9.0,
+    7.37,
+    8.25,
     9.5,
-    8.5
+    8.5,
+    8.5,
+    7.5
    ],
-   "c": 1.7,
+   "c": -1.9,
    "ps": 0.0,
    "p": -0.0,
-   "nat": "Netherlands",
-   "pos": "SS",
+   "nat": "England",
+   "pos": "CM",
    "clubs": [
-    "Ajax",
-    "Inter Milan",
-    "Arsenal"
+    "Manchester United"
    ],
-   "why": "CH quiet perfectionist, no issues; WK medium; LO 11 years at Arsenal; AB elite second striker; ST first touch, creator; LE Argentina 1998 and Newcastle turn",
+   "why": "CH humble, shunned celebrity, minus reckless tackling; WK high; LO one club, academy, Class of 92; AB elite passer; ST passing and long shots; LE 2008 semi winner",
    "pen": [],
    "nw": null
   },
@@ -2686,25 +2709,30 @@
    "nw": null
   },
   {
-   "n": "Paul Scholes",
+   "n": "Martin Ødegaard",
    "a": 80.1,
    "f": [
-    7.37,
+    7.08,
+    8.5,
+    8.0,
     8.25,
-    9.5,
-    8.5,
-    8.5,
-    7.5
+    8.75,
+    5.75
    ],
-   "c": -2.0,
+   "c": 1.9,
    "ps": 0.0,
    "p": -0.0,
-   "nat": "England",
-   "pos": "CM",
+   "nat": "Norway",
+   "pos": "AM",
    "clubs": [
-    "Manchester United"
+    "Strømsgodset",
+    "Real Madrid",
+    "Heerenveen",
+    "Vitesse",
+    "Real Sociedad",
+    "Arsenal"
    ],
-   "why": "CH humble, shunned celebrity, minus reckless tackling; WK high; LO one club, academy, Class of 92; AB elite passer; ST passing and long shots; LE 2008 semi winner",
+   "why": "CH humble, respected, no causes of note; WK presses, leads; LO Arsenal captain since 2022 after many loans; AB elite playmaker; ST No. 10 creativity; LE 2026 title captain",
    "pen": [],
    "nw": null
   },
@@ -2735,36 +2763,8 @@
    "nw": null
   },
   {
-   "n": "Martin Ødegaard",
-   "a": 79.9,
-   "f": [
-    7.08,
-    8.5,
-    8.0,
-    8.25,
-    8.75,
-    5.75
-   ],
-   "c": 1.7,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Norway",
-   "pos": "AM",
-   "clubs": [
-    "Strømsgodset",
-    "Real Madrid",
-    "Heerenveen",
-    "Vitesse",
-    "Real Sociedad",
-    "Arsenal"
-   ],
-   "why": "CH humble, respected, no causes of note; WK presses, leads; LO Arsenal captain since 2022 after many loans; AB elite playmaker; ST No. 10 creativity; LE 2026 title captain",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Miroslav Klose",
-   "a": 79.5,
+   "a": 79.6,
    "f": [
     9.9,
     8.75,
@@ -2790,7 +2790,7 @@
   },
   {
    "n": "Jamal Musiala",
-   "a": 79.2,
+   "a": 79.3,
    "f": [
     7.91,
     7.25,
@@ -2799,7 +2799,7 @@
     9.0,
     5.0
    ],
-   "c": 3.0,
+   "c": 3.1,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Germany",
@@ -2912,7 +2912,7 @@
   },
   {
    "n": "Pedri",
-   "a": 77.8,
+   "a": 77.9,
    "f": [
     6.67,
     7.75,
@@ -2921,7 +2921,7 @@
     9.0,
     5.75
    ],
-   "c": 2.2,
+   "c": 2.3,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Spain",
@@ -2936,7 +2936,7 @@
   },
   {
    "n": "Johan Cruyff",
-   "a": 77.8,
+   "a": 77.9,
    "f": [
     8.32,
     7.25,
@@ -2945,7 +2945,7 @@
     10.0,
     10.0
    ],
-   "c": 2.1,
+   "c": 2.2,
    "ps": 0.0,
    "p": -5.9,
    "nat": "Netherlands",
@@ -3016,6 +3016,32 @@
    "nw": null
   },
   {
+   "n": "Kaká",
+   "a": 77.4,
+   "f": [
+    7.67,
+    7.75,
+    6.0,
+    9.25,
+    8.75,
+    8.0
+   ],
+   "c": 0.3,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Brazil",
+   "pos": "AM",
+   "clubs": [
+    "São Paulo",
+    "AC Milan",
+    "Real Madrid",
+    "Orlando City"
+   ],
+   "why": "CH humble, WFP ambassador; WK high; LO rejected Man City 2009 then sold to Real; AB 2007 Ballon d'Or; ST surging runs; LE last Ballon d'Or before Messi-Ronaldo",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Michael Bradley",
    "a": 77.4,
    "f": [
@@ -3041,32 +3067,6 @@
     "Toronto FC"
    ],
    "why": "CH 7 private, team-first; WK 9 engine; LO 7 ten TFC years as captain; AB 6.5 Roma-level midfielder; ST 5.5 tempo setter; LE 6 2017 treble",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Kaká",
-   "a": 77.3,
-   "f": [
-    7.67,
-    7.75,
-    6.0,
-    9.25,
-    8.75,
-    8.0
-   ],
-   "c": 0.3,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Brazil",
-   "pos": "AM",
-   "clubs": [
-    "São Paulo",
-    "AC Milan",
-    "Real Madrid",
-    "Orlando City"
-   ],
-   "why": "CH humble, WFP ambassador; WK high; LO rejected Man City 2009 then sold to Real; AB 2007 Ballon d'Or; ST surging runs; LE last Ballon d'Or before Messi-Ronaldo",
    "pen": [],
    "nw": null
   },
@@ -3098,7 +3098,7 @@
   },
   {
    "n": "Gianfranco Zola",
-   "a": 77.1,
+   "a": 77.2,
    "f": [
     8.87,
     6.75,
@@ -3107,7 +3107,7 @@
     9.0,
     7.25
    ],
-   "c": -0.1,
+   "c": -0.0,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Italy",
@@ -3119,6 +3119,33 @@
     "Cagliari"
    ],
    "why": "CH 8.5 universally liked, kept promise to Cagliari; WK 7; LO 7 seven Chelsea years, home to Cagliari; AB 8.5 elite creator; ST 9.5 back-heels, free kicks; LE 7.5 PL foreign pioneer, 1998 CWC winner",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Alfredo Di Stéfano",
+   "a": 77.1,
+   "f": [
+    5.25,
+    9.0,
+    6.25,
+    9.75,
+    8.5,
+    9.75
+   ],
+   "c": 0.6,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Spain",
+   "pos": "CF",
+   "clubs": [
+    "River Plate",
+    "Huracán",
+    "Millonarios",
+    "Real Madrid",
+    "Espanyol"
+   ],
+   "why": "CH domineering dressing-room boss, no causes; WK covered the whole pitch; LO 11 years at Real, honorary president, several clubs and nations; AB 2 Ballon d'Or; ST all-action total forward; LE five straight European Cups",
    "pen": [],
    "nw": null
   },
@@ -3145,33 +3172,6 @@
     "LA Galaxy"
    ],
    "why": "CH humble; 2014 fine for driving without a licence; WK high; LO , Dortmund-born, stayed when stars left; AB ; ST technician, free kicks; LE BVB icon, Wembley farewell",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Alfredo Di Stéfano",
-   "a": 77.0,
-   "f": [
-    5.25,
-    9.0,
-    6.25,
-    9.75,
-    8.5,
-    9.75
-   ],
-   "c": 0.5,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Spain",
-   "pos": "CF",
-   "clubs": [
-    "River Plate",
-    "Huracán",
-    "Millonarios",
-    "Real Madrid",
-    "Espanyol"
-   ],
-   "why": "CH domineering dressing-room boss, no causes; WK covered the whole pitch; LO 11 years at Real, honorary president, several clubs and nations; AB 2 Ballon d'Or; ST all-action total forward; LE five straight European Cups",
    "pen": [],
    "nw": null
   },
@@ -3287,7 +3287,7 @@
     5.0,
     5.5
    ],
-   "c": 3.4,
+   "c": 3.5,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Japan",
@@ -3564,7 +3564,7 @@
     8.25,
     8.25
    ],
-   "c": 2.9,
+   "c": 3.0,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Egypt",
@@ -3583,6 +3583,33 @@
    "nw": null
   },
   {
+   "n": "Thierry Henry",
+   "a": 74.4,
+   "f": [
+    5.65,
+    6.5,
+    7.0,
+    9.5,
+    9.25,
+    9.0
+   ],
+   "c": 2.2,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "France",
+   "pos": "CF/LW",
+   "clubs": [
+    "Monaco",
+    "Juventus",
+    "Arsenal",
+    "Barcelona",
+    "New York Red Bulls"
+   ],
+   "why": "CH anti-racism stance, minus aloofness and Ireland handball; WK high; LO 8 years at Arsenal plus return, statue; AB 4 Golden Boots; ST pace and creativity; LE Invincibles",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Roberto Firmino",
    "a": 74.3,
    "f": [
@@ -3593,9 +3620,9 @@
     8.5,
     7.0
    ],
-   "c": 3.1,
+   "c": 3.2,
    "ps": 0.0,
-   "p": -11.7,
+   "p": -11.8,
    "nat": "Brazil",
    "pos": "ST/AM",
    "clubs": [
@@ -3637,33 +3664,6 @@
    "nw": null
   },
   {
-   "n": "Thierry Henry",
-   "a": 74.1,
-   "f": [
-    5.65,
-    6.5,
-    7.0,
-    9.5,
-    9.25,
-    9.0
-   ],
-   "c": 2.0,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "France",
-   "pos": "CF/LW",
-   "clubs": [
-    "Monaco",
-    "Juventus",
-    "Arsenal",
-    "Barcelona",
-    "New York Red Bulls"
-   ],
-   "why": "CH anti-racism stance, minus aloofness and Ireland handball; WK high; LO 8 years at Arsenal plus return, statue; AB 4 Golden Boots; ST pace and creativity; LE Invincibles",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Gabriel Batistuta",
    "a": 74.0,
    "f": [
@@ -3694,7 +3694,7 @@
   },
   {
    "n": "Antonee Robinson",
-   "a": 73.7,
+   "a": 73.8,
    "f": [
     7.04,
     8.5,
@@ -3703,7 +3703,7 @@
     7.25,
     4.0
    ],
-   "c": 2.9,
+   "c": 3.0,
    "ps": 0.0,
    "p": -0.0,
    "nat": "USA",
@@ -3719,7 +3719,7 @@
   },
   {
    "n": "Rodri",
-   "a": 73.6,
+   "a": 73.7,
    "f": [
     7.75,
     9.0,
@@ -3770,7 +3770,7 @@
   },
   {
    "n": "Brian McBride",
-   "a": 73.5,
+   "a": 73.6,
    "f": [
     7.0,
     8.75,
@@ -3779,7 +3779,7 @@
     5.0,
     6.0
    ],
-   "c": 4.9,
+   "c": 5.0,
    "ps": 0.0,
    "p": -0.0,
    "nat": "USA",
@@ -3848,7 +3848,7 @@
   },
   {
    "n": "Marta",
-   "a": 86.9,
+   "a": 87.0,
    "f": [
     10.0,
     7.25,
@@ -3857,7 +3857,7 @@
     9.75,
     9.75
    ],
-   "c": 0.4,
+   "c": 0.5,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Brazil",
@@ -3952,7 +3952,7 @@
   },
   {
    "n": "Crystal Dunn",
-   "a": 82.0,
+   "a": 82.1,
    "f": [
     10.0,
     8.5,
@@ -4079,7 +4079,7 @@
   },
   {
    "n": "Rose Lavelle",
-   "a": 79.3,
+   "a": 79.4,
    "f": [
     9.51,
     6.5,
@@ -4256,7 +4256,7 @@
   },
   {
    "n": "Trinity Rodman",
-   "a": 74.8,
+   "a": 74.9,
    "f": [
     6.0,
     7.25,
@@ -4303,6 +4303,31 @@
    "nw": "Chicago Red Stars / Chicago Stars"
   },
   {
+   "n": "Lo'eau LaBonta",
+   "a": 74.3,
+   "f": [
+    6.5,
+    8.0,
+    8.0,
+    6.5,
+    6.75,
+    4.5
+   ],
+   "c": 4.3,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "USA",
+   "pos": "CM/AM",
+   "clubs": [
+    "FC Kansas City",
+    "Utah Royals",
+    "Kansas City Current"
+   ],
+   "why": "CH no causes on record, exuberant; WK box-to-box; LO KC since 2017, captain; AB solid NWSL star; ST box-to-box, celebrations; LE oldest USWNT debutant",
+   "pen": [],
+   "nw": "Kansas City Current"
+  },
+  {
    "n": "Raquel Rodríguez",
    "a": 74.2,
    "f": [
@@ -4329,33 +4354,8 @@
    "nw": "Kansas City Current"
   },
   {
-   "n": "Lo'eau LaBonta",
-   "a": 74.2,
-   "f": [
-    6.5,
-    8.0,
-    8.0,
-    6.5,
-    6.75,
-    4.5
-   ],
-   "c": 4.2,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "USA",
-   "pos": "CM/AM",
-   "clubs": [
-    "FC Kansas City",
-    "Utah Royals",
-    "Kansas City Current"
-   ],
-   "why": "CH no causes on record, exuberant; WK box-to-box; LO KC since 2017, captain; AB solid NWSL star; ST box-to-box, celebrations; LE oldest USWNT debutant",
-   "pen": [],
-   "nw": "Kansas City Current"
-  },
-  {
    "n": "Barbra Banda",
-   "a": 73.7,
+   "a": 73.8,
    "f": [
     7.4,
     8.0,
@@ -4606,7 +4606,7 @@
   },
   {
    "n": "Mia Hamm",
-   "a": 90.1,
+   "a": 90.2,
    "f": [
     10.0,
     8.75,
@@ -4706,7 +4706,7 @@
   },
   {
    "n": "Marta",
-   "a": 86.9,
+   "a": 87.0,
    "f": [
     10.0,
     7.25,
@@ -4715,7 +4715,7 @@
     9.75,
     9.75
    ],
-   "c": 0.4,
+   "c": 0.5,
    "ps": 0.0,
    "p": -0.0,
    "nat": "Brazil",
@@ -4887,7 +4887,7 @@
   },
   {
    "n": "Abby Wambach",
-   "a": 83.9,
+   "a": 84.0,
    "f": [
     10.0,
     8.25,
@@ -4896,7 +4896,7 @@
     6.75,
     8.75
    ],
-   "c": 3.7,
+   "c": 3.8,
    "ps": 0.0,
    "p": -0.0,
    "nat": "USA",
@@ -4912,7 +4912,7 @@
   },
   {
    "n": "Homare Sawa",
-   "a": 83.0,
+   "a": 83.1,
    "f": [
     7.9,
     9.0,
@@ -4964,7 +4964,7 @@
   },
   {
    "n": "Crystal Dunn",
-   "a": 82.0,
+   "a": 82.1,
    "f": [
     10.0,
     8.5,
@@ -5190,31 +5190,8 @@
    "nw": null
   },
   {
-   "n": "Brandi Chastain",
-   "a": 79.3,
-   "f": [
-    10.0,
-    7.5,
-    6.0,
-    7.0,
-    6.25,
-    8.5
-   ],
-   "c": 1.9,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "USA",
-   "pos": "LB/CB",
-   "clubs": [
-    "San Jose CyberRays"
-   ],
-   "why": "CH CTE campaign, Bay FC, youth coaching; WK solid, exuberant; LO one WUSA club, Bay Area figure; AB versatile defender; ST two-footed defender; LE 1999 winning penalty and celebration",
-   "pen": [],
-   "nw": null
-  },
-  {
    "n": "Rose Lavelle",
-   "a": 79.3,
+   "a": 79.4,
    "f": [
     9.51,
     6.5,
@@ -5238,6 +5215,29 @@
    "why": "CH equal-pay plaintiff, humble; WK medium; LO turned down offers to stay at Gotham to 2029; AB WC Bronze Ball; ST creative dribbler, line-breaker; LE 2019 WC final solo goal, 2025 NWSL final winner",
    "pen": [],
    "nw": "NJ/NY Gotham FC"
+  },
+  {
+   "n": "Brandi Chastain",
+   "a": 79.3,
+   "f": [
+    10.0,
+    7.5,
+    6.0,
+    7.0,
+    6.25,
+    8.5
+   ],
+   "c": 1.9,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "USA",
+   "pos": "LB/CB",
+   "clubs": [
+    "San Jose CyberRays"
+   ],
+   "why": "CH CTE campaign, Bay FC, youth coaching; WK solid, exuberant; LO one WUSA club, Bay Area figure; AB versatile defender; ST two-footed defender; LE 1999 winning penalty and celebration",
+   "pen": [],
+   "nw": null
   },
   {
    "n": "Lucy Bronze",

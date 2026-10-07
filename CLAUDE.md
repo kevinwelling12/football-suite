@@ -54,6 +54,8 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 
 ## Where the logic lives
 - Affinity rubric & rules: docs/affinity.md and scripts/affinity/scores.py (+ USL in build_usl.py).
+  Clubs and players run together: `python3 scripts/affinity/unified.py [--fit]` (club rescore with player influence,
+  Player Affinity in scripts/affinity/players/, data/players.json for the app's Affinity > Players view).
   Track record coefficient: scripts/affinity/performance.py. Overall ranking of every club: the Affinity view (view 'rank').
 - Model details: docs/architecture.md (Dixon-Coles, draw calibration, importance, favour/Affinity picks).
 - Data sources and sync: docs/sync.md (nightly ESPN sync: .github/workflows/espn-sync.yml, scripts/sync/espn.js).

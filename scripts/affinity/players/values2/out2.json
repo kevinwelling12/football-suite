@@ -486,7 +486,7 @@
  "David Beckham": {
   "wgame": 0,
   "climate": 0,
-  "private_jet": 0.5,
+  "private_jet": 0,
   "mental_health": 0,
   "fans_close": 0,
   "fans_rows": 0,
@@ -503,7 +503,7 @@
   "outside_interests": 1,
   "ref_disputes": 0,
   "youth_mentor": 0,
-  "notes": "fan_owned_club: 10% stake in then non-league Salford City 2019; outside_interests: fashion and business, Inter Miami owner; private_jet: celebrity lifestyle"
+  "notes": "fan_owned_club: 10% stake in then non-league Salford City 2019; outside_interests: fashion and business, Inter Miami owner"
  },
  "Declan Rice": {
   "wgame": 0,
@@ -557,7 +557,7 @@
   "fans_close": 0,
   "fans_rows": 0.5,
   "taunts": 0.5,
-  "feuds": 0.5,
+  "feuds": 0,
   "indiscipline": 1,
   "common_goal": 0,
   "refugees": 0,
@@ -569,7 +569,7 @@
   "outside_interests": 0,
   "ref_disputes": 0,
   "youth_mentor": 0,
-  "notes": "union: co-founded players' association AIFP with Cantona 1995; taunts: obscene gestures in stands at 2018 WC; indiscipline: cocaine bans 1991, 1994; honest: outspoken anti-FIFA voice; fans_rows: fired air rifle at journalists 1994; feuds: clashes with federations and coaches"
+  "notes": "union: co-founded players' association AIFP with Cantona 1995; taunts: obscene gestures in stands at 2018 WC; indiscipline: cocaine bans 1991, 1994; honest: outspoken anti-FIFA voice; fans_rows: fired air rifle at journalists 1994"
  },
  "Emily Fox": {
   "wgame": 0,
@@ -2119,7 +2119,7 @@
   "fans_close": 0,
   "fans_rows": 0.5,
   "taunts": 1,
-  "feuds": 0.5,
+  "feuds": 0,
   "indiscipline": 0,
   "common_goal": 0,
   "refugees": 0,
@@ -2228,19 +2228,19 @@
   "mental_health": 0,
   "fans_close": 0,
   "fans_rows": 0,
-  "taunts": 0.5,
+  "taunts": 0,
   "feuds": 1,
   "indiscipline": 0,
   "common_goal": 0,
   "refugees": 0,
   "union": 0,
   "badge_kiss_exit": 0,
-  "contract_media": 0.5,
+  "contract_media": 0,
   "honest": 1,
   "fan_owned_club": 0,
-  "outside_interests": 0.5,
+  "outside_interests": 0,
   "ref_disputes": 0,
   "youth_mentor": 0,
-  "notes": "feuds: public feud with Guardiola 2010; taunts: provocations; contract_media: agent-driven moves; honest: unfiltered; outside_interests: business ventures"
+  "notes": "feuds: public feud with Guardiola in autobiography 2011; honest: unfiltered interviews"
  }
 }

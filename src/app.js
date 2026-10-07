@@ -814,7 +814,7 @@ function rankList() {
 const PL_TABS = [['ma', 'Men · Active'], ['mt', 'Men · All-time'], ['wa', 'Women · Active'], ['wt', 'Women · All-time']];
 const PL_F = ['Character', 'Team player', 'Loyalty & bond', 'Greatness', 'Joy to watch', 'Legacy'];
 const rankModes = () => PLAYERS.ma ? `<div class="rank-chips">${[['clubs', 'Clubs & nations'], ['players', 'Players']].map(([m, l]) => `<button class="rchip" data-rankmode="${m}" aria-pressed="${rankMode === m}" style="--c:#fff">${l}</button>`).join('')}</div>` : '';
-const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>Six ratings out of 10, weighted by your quiz choices: Team player 27%, Character 25%, Loyalty 17%, Joy to watch 16%, Legacy 10%, Greatness 5%. Character includes your values (rounds 11 and 12). Then connection (your Affinity for each club they played for) and hard lines (abuse, racism, match-fixing, violence, money-league moves and the like). The two sides feed each other: a club's best players and icons lift its Team and History ratings.</p></details>`;
+const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>Two halves, and a player needs both. Role model: Character, Team player and Loyalty (weighted by your quiz choices), your values, hard lines (abuse, racism, match-fixing, violence, money-league moves and the like) and connection to the clubs they played for. Performance: Greatness 40%, Legacy 35%, Joy to watch 25%. Affinity combines them 60/40 so a weak half pulls the total down. A club's best players and icons also lift its own Affinity.</p></details>`;
 function viewPlayers() {
   const L = PLAYERS[plF] || [], mx = L.length ? L[0].a : 100;
   return `<section class="section">${rankModes()}${PL_HOW}
@@ -823,7 +823,7 @@ function viewPlayers() {
       <span class="who">${esc(p.n)}${p.nw ? ' <span class="pl-tag">NWSL</span>' : ''}<small><span>${esc([p.pos, p.nat, (p.clubs || []).slice(-1)[0]].filter(Boolean).join(' · '))}</span></small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, p.a) / mx * 100}%"></span></span>
       <span class="num sc">${p.a.toFixed(1)}</span></div>${plOpen === n ? `<div class="pl-det">${p.f.map((v, j) => `<div class="hb"><span>${PL_F[j]}</span><span class="bar"><i style="width:${v * 10}%"></i></span><b class="num">${v.toFixed(1)}</b></div>`).join('')}
-        <div class="hb-items">${p.c ? `<div class="hb-item"><span>Connection</span><b class="num ${p.c < 0 ? 'neg' : ''}">${signed(p.c)}</b></div>` : ''}${p.p ? `<div class="hb-item"><span>Hard lines</span><b class="num neg">${signed(p.p)}</b></div>${(p.pen || []).map(x => `<div class="hb-item"><span>${esc(x)}</span></div>`).join('')}` : ''}</div>
+        <div class="hb-items">${p.rm != null ? `<div class="hb-item"><span>Role model</span><b class="num">${p.rm.toFixed(1)}</b></div><div class="hb-item"><span>Performance</span><b class="num">${p.pf.toFixed(1)}</b></div>` : ''}${p.c ? `<div class="hb-item"><span>Connection</span><b class="num ${p.c < 0 ? 'neg' : ''}">${signed(p.c)}</b></div>` : ''}${p.p ? `<div class="hb-item"><span>Hard lines</span><b class="num neg">${signed(p.p)}</b></div>${(p.pen || []).map(x => `<div class="hb-item"><span>${esc(x)}</span></div>`).join('')}` : ''}</div>
         ${p.why ? `<p class="note">${esc(p.why)}</p>` : ''}</div>` : ''}`).join('')}</div></section>`;
 }
 function viewRank() {

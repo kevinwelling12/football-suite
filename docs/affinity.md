@@ -214,9 +214,9 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   7 at 29 or younger, 4 at 30-33, 2 at 34+ (before x2.75), found from the club list too (Coutinho, Xavi, Raúl, Drogba,
   Batistuta, Weah). Coaches keep 3 x 0.5. Men only.
 - Top-10 walkthrough feedback (Kevin's verdicts and notes, player by player): players/feedback.json.
-- Connection follows club Affinity (Kevin, 2026-10-07): followed clubs (Liverpool, Timbers, Thorns, Republic) +1.2 a season, max +8;
-  any other club by its Affinity, 0.6 * (a - 50) / 35 a season up to +0.6 (Dortmund lands here, about the half weight it had),
-  -0.3 * (50 - a) / 15 down to -0.6; other-club gains capped at +2 (OTHER_CAP; +4 tried: leave-one-out 71%, +2: 73%), losses at -3.
-  Women's clubs read only NWSL ratings; a woman's spell at a European club rated only for its men's side is neutral.
+- Connection follows club Affinity alone (Kevin, 2026-10-07: "apply the Dortmund change to all clubs; base it solely on
+  Affinity rating, not my stated favourites"): every club 0.6 * (a - 50) / 35 a season up to +0.6, -0.3 * (50 - a) / 15 down to
+  -0.6; gains capped at +4 (CONN_CAP; +8 tried: leave-one-out 70%, +4: 71%; the version with followed clubs at +1.2 scored 73-75%),
+  losses at -3. Women's clubs read only NWSL ratings; a woman's spell at a European club rated only for its men's side is neutral.
   Refit: CH 25, WK 28, LO 16.5, AB 5, ST 15, LE 10.5; connection x0.98, penalties x2.83, position +7.2.
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

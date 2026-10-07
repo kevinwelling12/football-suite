@@ -66,25 +66,24 @@ def seasons(c):
     a, b = c.get('from'), c.get('to') or NOW
     return max(0.5, (b - a)) if a else 0
 
-OTHER_CAP = 2  # most a player can gain from clubs Kevin doesn't follow (followed clubs: +8)
-FOLLOWED = ['liverpool', 'portland timbers', 'portland thorns', 'sacramento republic']
+CONN_CAP = 4  # most a player can gain from club seasons
 def per_season(a):
-    """Connection per season at a club Kevin doesn't follow, from its Affinity (Kevin, 2026-10-07: follow the club ratings).
-    50 is neutral; up to +0.6 at 85+ (half a followed club, the same weight Dortmund had); down to -0.6 at 20 or below."""
+    """Connection per club season, from Kevin's Affinity for the club alone (Kevin, 2026-10-07: "base it solely on Affinity
+    rating, not my stated favourites"; every club now gets what Dortmund got). 50 is neutral; up to +0.6 at 85+;
+    down to -0.6 at 20 or below."""
     if a is None: return 0.0
     return min(0.6, 0.6 * (a - 50) / 35) if a >= 50 else max(-0.6, -0.3 * (50 - a) / 15)
 
 def connection(p):
     women = p.get('gender') == 'W'
-    fol = oth = minus = 0.0
+    plus = minus = 0.0
     for c in p.get('clubs', []):
         n = ' '.join(norm(c.get('club')))
         if 'ii' in n.split() or re.search(r'\b(u\d+|youth|academy|reserves)\b', n): continue
-        if any(k in n for k in FOLLOWED) and (not women or 'thorns' in n): fol += 1.2 * seasons(c); continue
         v = per_season(club_aff(c.get('club'), women))
-        if v > 0: oth += v * seasons(c)
+        if v > 0: plus += v * seasons(c)
         else: minus -= v * seasons(c)
-    plus = min(fol, 8) + min(oth, OTHER_CAP)  # clubs he doesn't follow add at most OTHER_CAP
+    plus = min(plus, CONN_CAP)
     us = 2.0 if (p.get('national') or {}).get('team') in ('USA', 'United States') and ((p.get('national') or {}).get('caps') or 1) else 0
     return min(plus, 8) - min(minus, 3) + us
 

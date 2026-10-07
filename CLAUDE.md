@@ -49,6 +49,10 @@ claude.ai artifact; this repo is the transfer to Claude Code.
   by whether he has heard of them, offer a pass/"don't know" option in quizzes, and lean on research for history. He is reading
   Ruud Gullit's "How to Watch Soccer" (done) and "The Soccer 100" (in progress).
   Women's game: he has watched only NWSL, mostly Thorns matches, plus past World Cups casually.
+- Player Affinity's goal, in Kevin's words: the lists should be topped by players he'd like his son to look up to. Humble,
+  unselfish, play the game the right way, respect opponents and officials, make time for fans, stand up and speak out
+  for what is right, avoid legal trouble and controversy, live a respectable life on and off the pitch, all while
+  delivering performances worthy of the highlight reels and the history books. Judge model changes against this.
 - Excel trackers are deprecated. Don't recreate them.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 

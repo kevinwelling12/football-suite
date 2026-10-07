@@ -40,8 +40,7 @@ def scores():
     out = {}
     for n, p in facts.items():
         if n not in sc: continue
-        r = M.rate(p, sc[n])
-        out[n] = (max(0.0, min(100.0, r['base'] + r['pen'] + r['pos'])), p)
+        out[n] = (M.rate(p, sc[n], with_conn=False)['aff'], p)
     return out
 
 def bumps(D):

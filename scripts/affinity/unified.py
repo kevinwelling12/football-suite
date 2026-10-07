@@ -19,7 +19,7 @@ if '--fit' in sys.argv: run(A / 'players' / 'fit.py')
 run(A / 'players' / 'model.py')
 run(A / 'players' / 'build_lists.py')
 L = json.loads((A / 'players' / 'lists.json').read_text())
-keep = lambda p: dict(n=p['n'], a=p['a'], f=p['f'], c=p['c'], p=p['p'], nat=p.get('nat'), pos=p.get('pos'), clubs=p['clubs'][-2:],
+keep = lambda p: dict(n=p['n'], a=p['a'], f=p['f'], c=p['c'], p=p['p'], rm=p.get('rm'), pf=p.get('pf'), nat=p.get('nat'), pos=p.get('pos'), clubs=p['clubs'][-2:],
                       why=(p.get('why') or '')[:240], pen=[x[:90] for x in p.get('pen', [])][:3], nw=p.get('nw'))
 (root / 'data' / 'players.json').write_text(json.dumps({k: [keep(p) for p in v] for k, v in L.items()}, ensure_ascii=False, separators=(',', ':')))
 print('unified: clubs rescored, players rated,', sum(map(len, L.values())), 'list entries written to data/players.json')

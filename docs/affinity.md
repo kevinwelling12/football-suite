@@ -248,3 +248,13 @@ Clubs and players together (2026-10-07, Kevin: "full integration of the player a
   Liverpool 84.6 -> 85.8, Dortmund 83.1 -> 84.4, Bayern 80.9 -> 82.0, Arsenal 59.9 -> 61.3; PSG 26.1 -> 24.9,
   Inter Miami 28.1 -> 27.3.
 - App: Affinity view has a Clubs & nations / Players switch; Players shows the four lists with each player's breakdown.
+
+Role model x performance (2026-10-07, Kevin: "these lists should be topped by players that I'd like my son to look up
+to ... all while delivering performances on the pitch worthy of the highlight reels and the history books"):
+- Player Affinity = 100 * (role/100)^0.6 * (perf/100)^0.4 (players/model.py rate). A player needs both halves.
+- role = Character, Team player, Loyalty weighted by the fitted W, x10, + connection + hard lines (0-100).
+- perf = (0.40 Greatness + 0.35 Legacy + 0.25 Joy to watch) x10. Fixed shares, not fitted: the quizzes undervalued
+  talent once names were hidden, and Kevin's goal names performance as a requirement.
+- Effect: role models with modest careers drop (Trimmel 82 -> 76, Chara 76 -> 71, Inaki Williams 88 -> 81); stars with
+  baggage gain a little (Messi 36 -> 41); top: Muller 89, Iniesta 95, Bonmati 94, Sinclair 94.
+- players_link.py uses the same score without connection, so clubs and players still don't echo.

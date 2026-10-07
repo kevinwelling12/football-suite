@@ -181,13 +181,24 @@ def load(raw=False):
             facts[n] = p
     return facts, scores
 
-def rate(p, s, w=W):
+# Role model x performance (Kevin, 2026-10-07: the lists should be topped by players he'd like his son to look up to,
+# "all while delivering performances worthy of the highlight reels and the history books"). Both halves are needed:
+# a weighted geometric mean, so a weak side drags the total down instead of being made up by the other.
+ROLE = ('CH', 'WK', 'LO')                        # weighted by the fitted W (fit.json)
+PERF = {'AB': .40, 'LE': .35, 'ST': .25}         # history books (Greatness, Legacy) and highlight reels (Joy to watch)
+ROLE_SHARE = 0.6
+
+def rate(p, s, w=W, with_conn=True):
     s = {**s, **FIXES.get(p['name'], {})}
-    base = sum(w[k] * s[k] for k in w) / sum(w.values()) * 10
+    base = sum(w[k] * s[k] for k in w) / sum(w.values()) * 10   # the old additive score, kept for reference
     c, ps, pen, e = CONN_X * connection(p), POS_BOOST * fav_pos(p), PEN_X * penalties(p), era(p)
+    if not with_conn: c = 0.0
+    role = max(0.0, min(100.0, sum(w[k] * s[k] for k in ROLE) / sum(w[k] for k in ROLE) * 10 + c + ps + pen + e))
+    perf = max(0.0, min(100.0, sum(v * s[k] for k, v in PERF.items()) * 10))
+    aff = 100 * (role / 100) ** ROLE_SHARE * (perf / 100) ** (1 - ROLE_SHARE) if role > 0 and perf > 0 else 0.0
     return dict(name=p['name'], gender=p.get('gender'), active=bool(p.get('active')), base=round(base, 1), conn=round(c, 1),
-                pos=round(ps, 1), pen=round(pen, 1), era=round(e, 1), aff=round(max(0, min(100, base + c + ps + pen + e)), 1),
-                **{k: s[k] for k in W})
+                pos=round(ps, 1), pen=round(pen, 1), era=round(e, 1), role=round(role, 1), perf=round(perf, 1),
+                aff=round(aff, 1), **{k: s[k] for k in W})
 
 def pearson(x, y):
     n = len(x); mx, my = sum(x) / n, sum(y) / n

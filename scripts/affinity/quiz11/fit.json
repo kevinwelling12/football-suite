@@ -1,0 +1,28 @@
+{
+ "w": {
+  "causes": 2.26,
+  "armband": 2.45,
+  "refused_pride": -2.79,
+  "left": 2.17,
+  "right": -1.8,
+  "gives": 1.13,
+  "fair": 1.22,
+  "private": 0.28,
+  "speaks_up": -0.19,
+  "betting": -3.07
+ },
+ "prior": {
+  "causes": 2.0,
+  "armband": 2.0,
+  "refused_pride": -1.0,
+  "left": 2.0,
+  "right": -2.0,
+  "gives": 2.0,
+  "fair": 1.0,
+  "private": 0.0,
+  "speaks_up": 0.0,
+  "betting": -2.0
+ },
+ "acc": 0.958,
+ "n": 24
+}

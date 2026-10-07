@@ -231,4 +231,6 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   badge-kiss exit, referee disputes -2; contract or move pushed through the media -4 (Kevin: "one is business, the other
   is manipulation"; talks behind closed doors are not penalised). Tags in players/values2/ (cited). The shift adds to round 11's.
   Note: forcing a move is also a b08 penalty, so contract_media double-counts a little for strikers like Isak, Dembélé.
+- Position boost removed (Kevin, 2026-10-07: position "matters very little"): POS_BOOST 0, fit.py fixes it at 0. Refit:
+  CH 25, WK 27, LO 17, AB 5, ST 16, LE 10; connection x0.93, penalties x2.93; leave-one-out 71% (73% with the boost).
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

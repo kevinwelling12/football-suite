@@ -44,7 +44,8 @@ gut = [(feats(n), M.GUT[n]) for n in M.GUT if n in scores]
 
 NP = 10  # 6 weights, connection, penalty, position boost (points), choice sharpness
 def unpack(t):
-    w = np.exp(t[:6]); w /= w.sum(); return w, np.exp(t[6]), np.exp(t[7]), t[8], np.exp(t[9])
+    # position boost fixed at 0 (Kevin, 2026-10-07: position "matters very little"); t[8] is unused
+    w = np.exp(t[:6]); w /= w.sum(); return w, np.exp(t[6]), np.exp(t[7]), 0.0, np.exp(t[9])
 def score(X, w, c, p, q=0.0): return 10 * X[..., :6] @ w + c * X[..., 6] + p * X[..., 7] + q * X[..., 8]
 def stack(P): return np.array([a for a, *_ in P]), np.array([b for _, b, *_ in P]), np.array([y for _, _, y, _ in P])
 def loss(t, S, lam):

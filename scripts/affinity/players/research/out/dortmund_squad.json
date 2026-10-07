@@ -1,0 +1,1684 @@
+[
+ {
+  "name": "Ramy Bensebaini",
+  "full_name": "Ramy Bensebaini",
+  "gender": "M",
+  "active": true,
+  "born": 1995,
+  "nation": "Algeria",
+  "positions": [
+   "LB",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Paradou AC",
+    "from": 2013,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Lierse (loan)",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Montpellier (loan)",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rennes",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2019,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Mönchengladbach",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Algeria",
+   "caps": 81,
+   "goals": 7,
+   "captain": false
+  },
+  "honours": "1 Africa Cup of Nations (2019), 1 Coupe de France (2019, Rennes)",
+  "awards": "Reported Fennec d'Or (Algerian player of the year) 2025",
+  "moments": [
+   "2019: started for Algeria in their Africa Cup of Nations win",
+   "2020-21: among Europe's highest-scoring defenders at Gladbach"
+  ],
+  "style": [
+   "left-back",
+   "aerial threat",
+   "penalty taker"
+  ],
+  "work_rate": "medium: steady defender",
+  "ego": "neutral: low public profile",
+  "fan_bond": "regular at Gladbach and Dortmund, no special fan-favourite status reported",
+  "loyalty_notes": "Left Gladbach on a free when his contract ended (2023) and joined Dortmund, a Bundesliga rival but not a bitter one",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2023-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ramy_Bensebaini",
+   "https://www.bundesliga.com/en/bundesliga/news/world-cup-stars-borussia-dortmund-ramy-bensebaini-algeria-37171"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Felix Nmecha",
+  "full_name": "Felix Kalu Nmecha",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Germany",
+  "positions": [
+   "CM",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester City",
+    "from": 2019,
+    "to": 2021,
+    "apps": 3,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "VfL Wolfsburg",
+    "from": 2021,
+    "to": 2023,
+    "apps": 50,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 14,
+   "goals": 3,
+   "captain": false
+  },
+  "honours": "none major",
+  "awards": "",
+  "moments": [
+   "2024: reached the Champions League final with Dortmund",
+   "14 Jun 2026: scored Germany's first goal of the World Cup v Curaçao (7-1)"
+  ],
+  "style": [
+   "box-to-box midfielder",
+   "ball carrier"
+  ],
+  "work_rate": "medium-high: covers ground, injury-hit spells",
+  "ego": "neutral: says playing is about glorifying God, not himself",
+  "fan_bond": "his 2023 signing was protested by Dortmund fan groups (incl. LGBTQ+ fan club Rainbow Borussen); relationship has since been mainly about his play",
+  "loyalty_notes": "Came through Man City's academy, moved to Wolfsburg at 20, Dortmund at 22; five-year contract from 2023",
+  "causes": [
+   "Devout evangelical Christian; figurehead of 'Ballers in God' (founded by John Bostock); World Cup 2026 goal celebration was a religious crown gesture, led a post-match prayer with Curaçao players"
+  ],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "other",
+    "what": "shared a Matt Walsh Instagram post describing trans people as mentally ill and a post linking Pride with 'the devil'; Dortmund fan groups protested his signing",
+    "outcome": "Club said he convinced them he holds no transphobic or homophobic beliefs and 'respects and loves all people'; no public apology from Nmecha himself recorded",
+    "source": "https://www.thescore.com/bund/news/2652911"
+   }
+  ],
+  "money_moves": [],
+  "links": "Dortmund 2023-; Germany",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Felix_Nmecha",
+   "https://www.thescore.com/bund/news/2652911",
+   "https://www.zdfheute.de/sport/fussball-wm/fussball-wm-2026-felix-nmecha-glaube-tore-100.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Maximilian Beier",
+  "full_name": "Maximilian Beier",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Germany",
+  "positions": [
+   "ST",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "TSG Hoffenheim",
+    "from": 2018,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Hannover 96 (loan)",
+    "from": 2021,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "TSG Hoffenheim",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "none",
+  "awards": "Bundesliga Rookie of the Month Feb and Mar 2024",
+  "moments": [
+   "2023-24: 16 goals for Hoffenheim, earned Euro 2024 call-up",
+   "2026: in Germany's World Cup squad"
+  ],
+  "style": [
+   "pacy forward",
+   "runs in behind",
+   "presser"
+  ],
+  "work_rate": "high: known for pressing and runs",
+  "ego": "humble: low-key",
+  "fan_bond": "",
+  "loyalty_notes": "Joined Hoffenheim's academy at 15 (from Energie Cottbus); Dortmund since Aug 2024 on a five-year deal",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2024-; Germany",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Maximilian_Beier"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Carney Chukwuemeka",
+  "full_name": "Carney Chukwuemeka",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "Austria",
+  "positions": [
+   "AM",
+   "LW",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Aston Villa",
+    "from": 2021,
+    "to": 2022,
+    "apps": 13,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Chelsea",
+    "from": 2022,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Chelsea",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Austria",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "UEFA U19 Euro 2022 winner with England (top scorer, team of the tournament)",
+  "moments": [
+   "2022: England's top scorer as they won the U19 Euros",
+   "2026: switched to Austria (born in Vienna), named in their World Cup squad"
+  ],
+  "style": [
+   "attacking midfielder",
+   "ball carrier"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Left Aston Villa at 18 for Chelsea (2022) instead of extending; injury-hit at Chelsea; Dortmund on loan Feb 2025, permanent Aug 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carney_Chukwuemeka",
+   "https://global.espn.com/football/story/_/id/48161069/borussia-dortmund-carney-chukwuemeka-switches-allegiance-england-austria"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ethan Nwaneri",
+  "full_name": "Ethan Chidiebere Nwaneri",
+  "gender": "M",
+  "active": true,
+  "born": 2007,
+  "nation": "England",
+  "positions": [
+   "AM",
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Arsenal",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Marseille (loan)",
+    "from": 2026,
+    "to": 2026,
+    "apps": 9,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund (loan)",
+    "from": 2026,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Arsenal",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "UEFA U21 Euro 2025 (England)",
+  "awards": "",
+  "moments": [
+   "18 Sep 2022: youngest player in Premier League history (15 years 181 days) v Brentford",
+   "2024-25: third player to score 5+ senior goals before 18, after Owen and Rooney"
+  ],
+  "style": [
+   "inside forward",
+   "dribbler",
+   "left-footed creator"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Arsenal academy graduate; loaned to Dortmund Sep 2026 after Konstantelias' ACL injury",
+  "loyalty_notes": "Arsenal academy since childhood; loans to Marseille (spring 2026) and Dortmund (2026-27, no buy option reported); not a Dortmund player beyond the loan",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund (loan) 2026-; England youth",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ethan_Nwaneri",
+   "https://arseblog.news/2026/09/confirmed-ethan-nwaneri-joins-dortmund-on-loan/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Konstantinos Karetsas",
+  "full_name": "Konstantinos Karetsas",
+  "gender": "M",
+  "active": true,
+  "born": 2007,
+  "nation": "Greece",
+  "positions": [
+   "RW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Genk",
+    "from": 2023,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Genk",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Greece",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Guardian Next Generation 2024",
+  "moments": [
+   "1 Sep 2023: youngest goalscorer in Belgian professional football (Jong Genk, aged 15)",
+   "23 Mar 2025: youngest scorer in Greece's history, aged 17, v Scotland"
+  ],
+  "style": [
+   "playmaker",
+   "dribbler",
+   "left-footed winger"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Genk youth, then Anderlecht youth 2020-23, back to Genk 2023; born in Genk to Greek parents, chose Greece over Belgium (2025); Dortmund Aug 2026 (reported €30m)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Konstantinos_Karetsas"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Marcel Sabitzer",
+  "full_name": "Marcel Sabitzer",
+  "gender": "M",
+  "active": true,
+  "born": 1994,
+  "nation": "Austria",
+  "positions": [
+   "CM",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Admira Wacker",
+    "from": 2010,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rapid Wien",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Red Bull Salzburg (loan)",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "RB Leipzig",
+    "from": 2014,
+    "to": 2021,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2021,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United (loan)",
+    "from": 2023,
+    "to": 2023,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "RB Leipzig",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "RB Leipzig captain 2020-21",
+  "national": {
+   "team": "Austria",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "1 Bundesliga (2022), 1 EFL Cup (2023), 1 Austrian title (2015)",
+  "awards": "Austrian Footballer of the Year 2017; UCL team of the season 2023-24",
+  "moments": [
+   "25 Jun 2024: winner as Austria beat the Netherlands 3-2 to top their Euro 2024 group",
+   "2024: key in Dortmund's run to the Champions League final"
+  ],
+  "style": [
+   "box-to-box midfielder",
+   "long-range shooter"
+  ],
+  "work_rate": "high: hard-running midfielder",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "2014: left Rapid Wien via a release clause valid only for foreign clubs: RB Leipzig signed him and loaned him to Salzburg, angering Rapid; seven years at Leipzig (captain), then Bayern 2021, Dortmund 2023",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2023-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marcel_Sabitzer",
+   "https://www.goal.com/de/meldungen/fc-bayern-sabitzer-transfer-ftr-rapid-red-bull-trick-leipzig-salzburg/8z79zoxqdduf1vd5a4xqnday9"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Fábio Silva",
+  "full_name": "Fábio Daniel Ferreira Silva",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Portugal",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Porto",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Wolverhampton Wanderers",
+    "from": 2020,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Anderlecht (loan)",
+    "from": 2022,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV (loan)",
+    "from": 2023,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rangers (loan)",
+    "from": 2024,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Las Palmas (loan)",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Wolverhampton Wanderers",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Portugal",
+   "caps": null,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 Primeira Liga and 1 Taça (2020, Porto), 1 KNVB Cup (2023, PSV)",
+  "awards": "",
+  "moments": [
+   "2020: Wolves' club-record signing (£35m) at 18",
+   "2023: scored the winning shoot-out penalty for PSV in the KNVB Cup final v Ajax"
+  ],
+  "style": [
+   "centre-forward"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Left Porto at 18; five years at Wolves mostly on loan (four loans); revived career at Las Palmas 2024-25 (10 league goals); Dortmund Aug 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/F%C3%A1bio_Silva_(footballer,_born_2002)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Joane Gadou",
+  "full_name": "Joane Gadou",
+  "gender": "M",
+  "active": true,
+  "born": 2007,
+  "nation": "France",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2020,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Red Bull Salzburg",
+    "from": 2024,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Paris Saint-Germain",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "France U17 captain at the 2024 U17 Euros",
+  "national": {
+   "team": "France",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Guardian Next Generation 2024",
+  "moments": [
+   "2026-27: started for Dortmund while Schlotterbeck was injured"
+  ],
+  "style": [
+   "tall athletic centre-back",
+   "one-v-one defender"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "PSG academy from 2020 (ES Nangis before); Salzburg Sep 2024 (~€10m); Dortmund signed May 2026 (reported €19.5m, five-year deal)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2024,
+    "what": "PSG academy player, senior debut Aug 2024 at 17 (Qatar-owned club), left within weeks",
+    "type": "b11"
+   }
+  ],
+  "links": "Dortmund 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Joane_Gadou",
+   "https://ianslive.in/football-dortmund-sign-defender-gadou-from-salzburg--20260512221658"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Daniel Svensson",
+  "full_name": "Daniel Jonathan Svensson",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Sweden",
+  "positions": [
+   "LB",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "IF Brommapojkarna",
+    "from": 2020,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "FC Nordsjælland",
+    "from": 2020,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "FC Nordsjælland",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Sweden",
+   "caps": 19,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Bundesliga Rookie of the Month Apr 2025; Swedish Defender of the Year 2025",
+  "moments": [
+   "2025: loan to Dortmund made permanent after a strong spring",
+   "2026: in Sweden's World Cup squad"
+  ],
+  "style": [
+   "wing-back",
+   "converted midfielder"
+  ],
+  "work_rate": "high: two-way left-back",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "Nearly five years at Nordsjælland (120+ league apps) before Dortmund (loan Feb 2025, permanent May 2025)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Daniel_Svensson_(footballer,_born_2002)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Joey Veerman",
+  "full_name": "Johannes Cornelis Maria Veerman",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "Netherlands",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "FC Volendam",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "SC Heerenveen",
+    "from": 2019,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV",
+    "from": 2022,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "PSV",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Netherlands",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "3 Eredivisie (2024, 2025, 2026), 2 KNVB Cups (PSV)",
+  "awards": "Led the Eredivisie in chances created 2023-24",
+  "moments": [
+   "26 Mar 2024: first Netherlands goal, v Germany",
+   "Euro 2024: subbed after 35 minutes v Austria, heavily criticised; backed publicly by Van Dijk and Aké"
+  ],
+  "style": [
+   "deep playmaker",
+   "passer",
+   "set-piece taker"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral: blunt, self-critical",
+  "fan_bond": "PSV fans and teammates sang about him at the 2025 title celebrations",
+  "loyalty_notes": "Volendam-born, came through at Volendam; Heerenveen 3 years, PSV 4 years (3 titles); Dortmund Aug 2026 (reported €22m)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2026-; Netherlands",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Joey_Veerman",
+   "https://www.flashscore.com/news/soccer-eredivisie-let-them-figure-it-out-joey-veerman-takes-shot-at-netherlands-boss-koeman/KvC1ZmEr",
+   "https://www.nhnieuws.nl/nieuws/337784/van-dijk-en-ake-steunen-bekritiseerde-veerman-commentaar-in-de-media-ging-te-ver"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Justin Lerma",
+  "full_name": "Justin Lerma",
+  "gender": "M",
+  "active": true,
+  "born": 2008,
+  "nation": "Ecuador",
+  "positions": [
+   "AM",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Independiente del Valle",
+    "from": 2024,
+    "to": 2026,
+    "apps": 30,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Independiente del Valle",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Ecuador",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "14 Apr 2024: first-team debut for Independiente del Valle at 15"
+  ],
+  "style": [
+   "attacking midfielder"
+  ],
+  "work_rate": "unknown: early career",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Dortmund agreed his signing in 2024; he stayed in Ecuador until 18 (FIFA age rule), joined mid-2026, contract to 2031",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Justin_Lerma"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Patrick Drewes",
+  "full_name": "Patrick Drewes",
+  "gender": "M",
+  "active": true,
+  "born": 1993,
+  "nation": "Germany",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "VfL Wolfsburg",
+    "from": 2012,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "FC Wil (loan)",
+    "from": 2015,
+    "to": 2016,
+    "apps": 32,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Würzburger Kickers",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Bochum",
+    "from": 2019,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SV Sandhausen",
+    "from": 2021,
+    "to": 2023,
+    "apps": 63,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Karlsruher SC",
+    "from": 2023,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Bochum",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "VfL Wolfsburg",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "14 Dec 2024: struck by a lighter thrown from the crowd at Union Berlin, had to come off"
+  ],
+  "style": [
+   "goalkeeper"
+  ],
+  "work_rate": "medium: backup keeper",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Seven clubs; two spells at Bochum; Dortmund backup since Jun 2025 (two-year deal)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Patrick_Drewes"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Silas Ostrzinski",
+  "full_name": "Silas Ostrzinski",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "Germany",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Borussia Dortmund",
+    "from": 2018,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 8,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "goalkeeper"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Joined Dortmund youth in 2018 from SpVg Hagen 11; mostly Dortmund II (53 apps); in the 2025 Club World Cup squad; no Bundesliga apps",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund academy 2018-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Silas_Ostrzinski"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Alexander Meyer",
+  "full_name": "Alexander Meyer",
+  "gender": "M",
+  "active": true,
+  "born": 1991,
+  "nation": "Germany",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Hamburger SV",
+    "from": null,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "TSV Havelse",
+    "from": null,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Energie Cottbus",
+    "from": null,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfB Stuttgart",
+    "from": null,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Jahn Regensburg",
+    "from": 2019,
+    "to": 2022,
+    "apps": 94,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2022,
+    "to": null,
+    "apps": 17,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "2022: clean sheet on his top-flight debut, Dortmund 3-0 Copenhagen in the Champions League"
+  ],
+  "style": [
+   "goalkeeper"
+  ],
+  "work_rate": "medium: long-time backup",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "First professional debut at 28 (Regensburg 2019); Dortmund backup since 2022",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2022-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alexander_Meyer_(footballer,_born_1991)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kauã Prates",
+  "full_name": "Kauã Prates",
+  "gender": "M",
+  "active": true,
+  "born": 2008,
+  "nation": "Brazil",
+  "positions": [
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Cruzeiro",
+    "from": 2019,
+    "to": 2026,
+    "apps": 21,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Cruzeiro",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "attacking left-back"
+  ],
+  "work_rate": "unknown: early career",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Cruzeiro academy from 2019; Dortmund signing announced Feb 2026, effective Aug 2026 after turning 18 (five-year deal)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kau%C3%A3_Prates"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Filippo Mané",
+  "full_name": "Filippo Mané",
+  "gender": "M",
+  "active": true,
+  "born": 2005,
+  "nation": "Italy",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Novara (youth)",
+    "from": 2013,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Sampdoria (youth)",
+    "from": 2019,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2022,
+    "to": null,
+    "apps": 9,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "Captained Dortmund's youth team",
+  "national": {
+   "team": "Italy",
+   "caps": 2,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "23 Aug 2025: Bundesliga debut v St. Pauli, conceded a penalty and was sent off"
+  ],
+  "style": [
+   "centre-back"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Joined Dortmund's academy from Sampdoria (2022); first pro contract Jan 2025 (3.5 years)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund academy 2022-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Filippo_Man%C3%A9"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Samuele Inácio",
+  "full_name": "Samuele Inácio",
+  "gender": "M",
+  "active": true,
+  "born": 2008,
+  "nation": "Italy",
+  "positions": [
+   "ST",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Atalanta (youth)",
+    "from": null,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2024,
+    "to": null,
+    "apps": 12,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Italy",
+   "caps": 1,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "28 Feb 2026: first-team debut, aged 17, in Der Klassiker v Bayern"
+  ],
+  "style": [
+   "forward",
+   "second striker"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "son of former Atalanta forward Piá",
+  "loyalty_notes": "Atalanta academy to 2024, joined Dortmund's youth at 16",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2024-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Samuele_In%C3%A1cio"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Mathis Albert",
+  "full_name": "Mathis Albert",
+  "gender": "M",
+  "active": true,
+  "born": 2009,
+  "nation": "United States",
+  "positions": [
+   "RW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "LA Galaxy (youth)",
+    "from": 2024,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "United States",
+   "caps": null,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "26 Apr 2026: youngest American to play in the Bundesliga (16y 340d), passing Gio Reyna",
+   "29 Sep 2026: scored for the USMNT v Chile, briefly the youngest US scorer"
+  ],
+  "style": [
+   "winger",
+   "dribbler",
+   "pace"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "From Greenville, South Carolina; LA Galaxy academy, joined Dortmund U17 Aug 2024; also eligible for France and Germany",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2024-; USA (USMNT debut Sep 2026)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mathis_Albert",
+   "https://youthsportsbusinessreport.com/youngest-american-bundesliga-player-mathis-albert-debuts-at-16/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Enzo dos Santos",
+  "full_name": "Enzo de Pina Duarte dos Santos",
+  "gender": "M",
+  "active": true,
+  "born": 2009,
+  "nation": "Luxembourg",
+  "positions": [
+   "CM",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Swift Hesperange (youth)",
+    "from": null,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 1,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Luxembourg",
+   "caps": 5,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "Premier League International Cup (Dortmund youth)",
+  "awards": "",
+  "moments": [
+   "Senior Luxembourg debut at 16, youngest national-team player in Dortmund's history"
+  ],
+  "style": [
+   "holding midfielder",
+   "combative"
+  ],
+  "work_rate": "high: club cites 'great commitment' and discipline",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Joined Dortmund's academy Jan 2025; professional contract Aug 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2025-",
+  "sources": [
+   "https://www.bvb.de/de/en/news/news-overview/news.html/2026/8/19/BVB-signs-Enzo-dos-Santos-to-a-professional-contract.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Giannis Konstantelias",
+  "full_name": "Ioannis Konstantelias",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "Greece",
+  "positions": [
+   "AM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "PAOK",
+    "from": 2013,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Eupen (loan)",
+    "from": 2022,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "PAOK",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Greece",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "1 Super League Greece (2024), 1 Greek Cup (2021)",
+  "awards": "PAOK player of the season 2022-23; Greek Footballer of the Year 2025",
+  "moments": [
+   "23 Mar 2025: goal and two assists as Greece beat Scotland in the Nations League play-off",
+   "2026: scored on his Bundesliga debut v Hamburg, then tore his ACL"
+  ],
+  "style": [
+   "No. 10",
+   "creator",
+   "left-footed"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "PAOK academy from age 9 to 23 (one short loan); left for Dortmund Aug 2026 in PAOK's record sale (€26m + €6m)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Giannis_Konstantelias"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Mussa Kaba",
+  "full_name": "Mussa Kaba",
+  "gender": "M",
+  "active": true,
+  "born": 2008,
+  "nation": "Germany",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Borussia Dortmund",
+    "from": 2018,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 8,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "Premier League International Cup (Dortmund youth)",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "tall central midfielder"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "At Dortmund since U11 (2018); injury-hit 2025-26 (ankle, muscle, knee); professional contract May 2026 to 2031; 16 Germany U17 caps",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund academy 2018-",
+  "sources": [
+   "https://www.bvb.de/de/de/aktuelles/news/news.html/2026/5/14/BVB-stattet-Mussa-Kaba-mit-Profivertrag-aus.html",
+   "https://www.90min.de/happy-end-nach-horror-saison-bvb-juwel-erhalt-profivertrag"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Luca Reggiani",
+  "full_name": "Luca Reggiani",
+  "gender": "M",
+  "active": true,
+  "born": 2008,
+  "nation": "Italy",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Sassuolo (youth)",
+    "from": 2016,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Sassuolo (youth)",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Italy",
+   "caps": null,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Third place, 2025 FIFA U-17 World Cup (Italy)",
+  "moments": [
+   "Feb 2026: Bundesliga debut v Wolfsburg and Champions League start v Atalanta",
+   "14 Mar 2026: first Bundesliga goal v Augsburg"
+  ],
+  "style": [
+   "centre-back"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Eight years in Sassuolo's academy, joined Dortmund youth in 2024; senior Italy debut reported Jun 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2024-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Luca_Reggiani"
+  ],
+  "confidence": "medium"
+ }
+]

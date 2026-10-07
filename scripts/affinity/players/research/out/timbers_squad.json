@@ -1,0 +1,1796 @@
+[
+ {
+  "name": "Antony",
+  "full_name": "Antony Alves Santos",
+  "gender": "M",
+  "active": true,
+  "born": 2001,
+  "nation": "Brazil",
+  "positions": [
+   "RW",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Joinville",
+    "from": 2019,
+    "to": 2022,
+    "apps": 10,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians (loan)",
+    "from": 2021,
+    "to": 2021,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arouca",
+    "from": 2021,
+    "to": 2023,
+    "apps": 54,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2023,
+    "to": null,
+    "apps": 70,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "27 Nov 2021: last-minute winner on Arouca debut v Boavista"
+  ],
+  "style": [
+   "dribbling winger",
+   "inverted winger"
+  ],
+  "work_rate": "medium: attacking winger",
+  "ego": "neutral: twice replied 'Bla bla bla' with a middle-finger emoji to a Timbers reporter's posts about him (May 2026)",
+  "fan_bond": "Timbers starter since 2023; his May 2026 replies drew many negative fan responses",
+  "loyalty_notes": "Joined Portland from Arouca in 2023 at 21; at the club since",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2026,
+    "type": "other",
+    "what": "after a 1-3 home loss (23 May 2026) replied 'Bla bla bla' with a middle-finger emoji to an X post about him by Timbers reporter Jeremy Peterman, a week after a similar reply",
+    "outcome": "negative fan reaction; no club sanction reported",
+    "source": "https://en.wikipedia.org/wiki/Antony_(footballer,_born_2001)"
+   }
+  ],
+  "money_moves": [],
+  "links": "Portland Timbers 2023-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Antony_(footballer,_born_2001)",
+   "https://www.timbers.com/roster/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Alexander Aravena",
+  "full_name": "Alexander Ernesto Aravena Guzmán",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Chile",
+  "positions": [
+   "FW",
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Universidad Católica",
+    "from": 2020,
+    "to": 2024,
+    "apps": 46,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Ñublense (loan)",
+    "from": 2022,
+    "to": 2022,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Grêmio",
+    "from": 2024,
+    "to": null,
+    "apps": 50,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers (loan)",
+    "from": 2026,
+    "to": null,
+    "apps": 12,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Universidad Católica",
+  "longest_years": 14,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Chile",
+   "caps": 17,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "2 Chilean Primera División (2020, 2021), 2 Supercopa de Chile, Recopa Gaúcha 2025; Pan American Games silver 2023",
+  "awards": "Chilean Primera División best U-21 player 2022",
+  "moments": [
+   "2023 Pan American Games silver with Chile U23"
+  ],
+  "style": [
+   "forward",
+   "wide forward"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "season-long loan, 0 goals in first 12 Timbers apps",
+  "loyalty_notes": "Universidad Católica academy 2010-2024; joined Portland on loan from Grêmio 25 Feb 2026 with a purchase option",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2026 (loan)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alexander_Aravena",
+   "https://www.mlssoccer.com/news/portland-timbers-acquire-alexander-aravena-from-gremio"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Cole Bassett",
+  "full_name": "Cole John Bassett",
+  "gender": "M",
+  "active": true,
+  "born": 2001,
+  "nation": "USA",
+  "positions": [
+   "CM",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Colorado Rapids",
+    "from": 2018,
+    "to": 2026,
+    "apps": 127,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Feyenoord (loan)",
+    "from": 2021,
+    "to": 2022,
+    "apps": 8,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fortuna Sittard (loan)",
+    "from": 2022,
+    "to": 2023,
+    "apps": 10,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2026,
+    "to": null,
+    "apps": 15,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Colorado Rapids",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 1,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Rapids team MVP and Young Player of the Year 2020; MLS 22 Under 22 No. 7 (2020)",
+  "moments": [
+   "18 Dec 2021: scored on USMNT debut, 1-0 v Bosnia and Herzegovina",
+   "2024: 9 goals, 7 assists for Colorado, his best MLS season"
+  ],
+  "style": [
+   "goalscoring midfielder",
+   "late runs into the box"
+  ],
+  "work_rate": "high: box-to-box",
+  "ego": "neutral",
+  "fan_bond": "Colorado-born Rapids homegrown; his move to Portland surprised Rapids fans",
+  "loyalty_notes": "Colorado academy and homegrown 2018-2026 apart from two Eredivisie loans; traded to Portland 2 Feb 2026 for $2.65M (+$1.05M conditional); GM cited his ambitions",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cole_Bassett",
+   "https://burgundywave.com/2026/02/02/cole-bassett-traded-to-portland-timbers/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alex Bonetig",
+  "full_name": "Alexander Bonetig",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Australia",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Western Sydney Wanderers",
+    "from": 2021,
+    "to": 2026,
+    "apps": 54,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2026,
+    "to": null,
+    "apps": 8,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Western Sydney Wanderers",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Australia",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "8 Jan 2026: joined Portland for a Western Sydney club-record fee"
+  ],
+  "style": [
+   "centre-back"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "",
+  "loyalty_notes": "Western Sydney academy from 2016, first team 2023-2026; moved to Portland at 23",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alex_Bonetig",
+   "https://www.mlssoccer.com/news/portland-timbers-acquire-australian-defender-alex-bonetig"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Brandon Bye",
+  "full_name": "Brandon Scott Bye",
+  "gender": "M",
+  "active": true,
+  "born": 1995,
+  "nation": "USA",
+  "positions": [
+   "RB",
+   "RWB"
+  ],
+  "clubs": [
+   {
+    "club": "New England Revolution",
+    "from": 2018,
+    "to": 2025,
+    "apps": 189,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2026,
+    "to": null,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "New England Revolution",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "Supporters' Shield 2021",
+  "awards": "2017 NCAA first-team All-American; MAC Player of the Year 2017",
+  "moments": [
+   "2021 Supporters' Shield with New England (record points total)"
+  ],
+  "style": [
+   "attacking full-back",
+   "former college forward"
+  ],
+  "work_rate": "high: up-and-down full-back",
+  "ego": "humble",
+  "fan_bond": "eight seasons and 150+ starts at New England",
+  "loyalty_notes": "Revolution 2018-2025 (drafted, 8 seasons); joined Portland as a free agent Dec 2025",
+  "causes": [
+   "Co-founded the Aspiras Foundation (2016) giving soccer equipment to low-income communities in the Dominican Republic",
+   "Spoke on his role with Black Players for Change (c. 2020)"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brandon_Bye",
+   "https://nersoccer.deltatre.net/news/bye-joins-anibaba-talk-black-players-change-and-his-aspiras-foundation"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "José Caicedo",
+  "full_name": "José Luis Caicedo Barrera",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Colombia",
+  "positions": [
+   "DM",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Independiente Santa Fe",
+    "from": 2019,
+    "to": 2019,
+    "apps": 4,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barranquilla",
+    "from": 2020,
+    "to": 2020,
+    "apps": 1,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Pumas Tabasco",
+    "from": 2020,
+    "to": 2021,
+    "apps": 13,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "UNAM",
+    "from": 2022,
+    "to": 2026,
+    "apps": 86,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "UNAM",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Colombia",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "defensive midfielder",
+   "ball-winner"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "",
+  "loyalty_notes": "Pumas 2020-2026 incl. reserve side; joined Portland 13 Mar 2026 (contract to 2029-30)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/José_Caicedo",
+   "https://www.mlssoccer.com/news/portland-timbers-acquire-jose-caicedo-from-pumas"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Omir Fernandez",
+  "full_name": "Omir Guadalupe Fernandez Mosso",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "USA",
+  "positions": [
+   "AM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "New York Red Bulls",
+    "from": 2019,
+    "to": 2023,
+    "apps": 112,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Colorado Rapids",
+    "from": 2024,
+    "to": 2025,
+    "apps": 41,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2025,
+    "to": null,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "New York Red Bulls",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "2018 NCAA first-team All-American, ACC Offensive Player of the Year (Wake Forest)",
+  "moments": [
+   "2021: winning goal v NYCFC in the Hudson River Derby at Yankee Stadium",
+   "19 Jul 2025: 90th-minute equaliser for Portland v Minnesota"
+  ],
+  "style": [
+   "attacking midfielder",
+   "dribbler"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Bronx-born Red Bulls academy product",
+  "loyalty_notes": "Red Bulls academy 2011-2016, first team 2019-2023; Colorado 2024-25; traded to Portland 18 Apr 2025 for up to $250k GAM",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Omir_Fernandez",
+   "https://www.timbers.com/roster/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jimer Fory",
+  "full_name": "Jimer Esteban Fory Mejía",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Colombia",
+  "positions": [
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Atlético Nacional",
+    "from": 2020,
+    "to": 2024,
+    "apps": 19,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Deportivo Pereira (loan)",
+    "from": 2022,
+    "to": 2024,
+    "apps": 48,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Independiente Medellín",
+    "from": 2024,
+    "to": 2025,
+    "apps": 27,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2025,
+    "to": null,
+    "apps": 42,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Atlético Nacional",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Colombia",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "left-back"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "",
+  "loyalty_notes": "Signed with Portland Feb 2025 on a four-year deal",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "sent off for Colombia U23 v Ecuador (Jan 2024)",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Jimer_Fory"
+   }
+  ],
+  "money_moves": [],
+  "links": "Portland Timbers 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jimer_Fory"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Gage Guerra",
+  "full_name": "Andrew Gage Guerra",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "USA",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Army Black Knights (college)",
+    "from": 2021,
+    "to": 2022,
+    "apps": 33,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Louisville Cardinals (college)",
+    "from": 2023,
+    "to": 2024,
+    "apps": 29,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers 2",
+    "from": 2025,
+    "to": 2025,
+    "apps": 19,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2025,
+    "to": null,
+    "apps": 6,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "2022 Patriot League Offensive Player of the Year (Army)",
+  "moments": [],
+  "style": [
+   "striker"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "",
+  "loyalty_notes": "Drafted 69th by Portland in 2024; scored 11 for T2 before first-team contract 26 Jun 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gage_Guerra",
+   "https://www.mlssoccer.com/news/portland-timbers-sign-forward-gage-guerra"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ronald Hernández",
+  "full_name": "Ronald José Hernández Pimentel",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Venezuela",
+  "positions": [
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Zamora",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Stabæk",
+    "from": 2017,
+    "to": 2019,
+    "apps": 57,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Aberdeen",
+    "from": 2020,
+    "to": 2021,
+    "apps": 6,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlanta United",
+    "from": 2021,
+    "to": 2026,
+    "apps": 77,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Atlanta United",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Venezuela",
+   "caps": 35,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "FIFA U-20 World Cup runner-up 2017; Kirin Cup 2019",
+  "awards": "",
+  "moments": [
+   "20 Jun 2021: scored v Ecuador at the Copa América (2-2)",
+   "2017 U-20 World Cup final with Venezuela"
+  ],
+  "style": [
+   "attacking right-back"
+  ],
+  "work_rate": "",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Aberdeen's first Venezuelan player (2020), left on compassionate leave after 6 apps; Atlanta 2021-Sep 2026; traded to Portland Sep 2026 amid Timbers right-back injuries",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ronald_Hernández",
+   "https://atlutd.com/news/ronald-hernandez-trade-general-allocation-money-september-2026"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Eric Izoita",
+  "full_name": "Eric Izoita",
+  "gender": "M",
+  "active": true,
+  "born": 2007,
+  "nation": "USA",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Portland Timbers 2",
+    "from": 2025,
+    "to": 2026,
+    "apps": 22,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 8,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Generation adidas Cup 2022 with Timbers U15 (club's first major academy trophy)",
+  "moments": [
+   "7 Mar 2026: scored from outside the box on his MLS debut v Vancouver, youngest goalscorer in club history and first Timbers academy player to score on MLS debut"
+  ],
+  "style": [
+   "midfielder"
+  ],
+  "work_rate": "",
+  "ego": "humble: 'I'm just grateful that they believe in me'",
+  "fan_bond": "Vancouver, WA native in the Timbers academy since age 10",
+  "loyalty_notes": "Timbers academy from age 10; hybrid T2 contract, then first-team homegrown deal to 2027-28 in March 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers academy and first team",
+  "sources": [
+   "https://www.timbers.com/news/timbers-sign-homegrown-player-eric-izoita-to-first-team-contract",
+   "https://www.timbers.com/news/academy-product-eric-izoita-s-journey-through-club-ranks-leads-to-pro-contract-i-m-just-grateful-that-they-believe-in-me"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Vincent Janssen",
+  "full_name": "Vincent Petrus Anna Sebastiaan Janssen",
+  "gender": "M",
+  "active": true,
+  "born": 1994,
+  "nation": "Netherlands",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Almere City",
+    "from": 2013,
+    "to": 2015,
+    "apps": 69,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AZ",
+    "from": 2015,
+    "to": 2016,
+    "apps": 34,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2016,
+    "to": 2019,
+    "apps": 31,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fenerbahçe (loan)",
+    "from": 2017,
+    "to": 2018,
+    "apps": 16,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Monterrey",
+    "from": 2019,
+    "to": 2022,
+    "apps": 77,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Royal Antwerp",
+    "from": 2022,
+    "to": 2026,
+    "apps": 139,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2026,
+    "to": null,
+    "apps": 4,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Royal Antwerp",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Netherlands",
+   "caps": 22,
+   "goals": 7,
+   "captain": false
+  },
+  "honours": "Belgian Pro League 2022-23, Belgian Cup 2022-23, CONCACAF Champions League 2021, Liga MX Apertura 2019, Copa MX 2019-20",
+  "awards": "Eredivisie top scorer 2015-16 (27), Johan Cruyff Trophy 2016",
+  "moments": [
+   "2015-16: 27 Eredivisie goals for AZ at 21",
+   "2023: scored in the playoff that took Antwerp to its first Champions League group stage",
+   "5 Sep 2026: first Timbers MLS regular-season hat-trick, 5-4 v Minnesota, in his first start"
+  ],
+  "style": [
+   "hold-up striker",
+   "two-footed finisher"
+  ],
+  "work_rate": "high: works the line",
+  "ego": "neutral",
+  "fan_bond": "scored on his first starts in Portland; signed partly to settle in the US (wife Mexican-American)",
+  "loyalty_notes": "Spurs £17M move 2016 did not work out; Monterrey 3 years, Antwerp 4 years; joined Portland on a free 29 Jul 2026; retired from Netherlands duty at 28 (2023) citing club schedule, criticised by some ex-internationals",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2026-; Netherlands",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Vincent_Janssen",
+   "https://www.timbers.com/news/it-s-very-special-vincent-janssen-becomes-first-timbers-player-in-mls-era-to-score-hat-trick-in-regular-season-play"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sawyer Jura",
+  "full_name": "Sawyer Jura",
+  "gender": "M",
+  "active": true,
+  "born": 2006,
+  "nation": "USA",
+  "positions": [
+   "RB",
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Portland Timbers 2",
+    "from": 2022,
+    "to": 2025,
+    "apps": 10,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 5,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Feb 2023: part of the US U-17 side that clinched a U-17 World Cup berth, 5-3 v Guatemala"
+  ],
+  "style": [
+   "full-back"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "Bend, Oregon native, Timbers academy product",
+  "loyalty_notes": "Timbers academy, T2 debut 2022; homegrown first-team contract from 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers academy and first team",
+  "sources": [
+   "https://www.timbers.com/news/timbers-sign-academy-player-sawyer-jura-to-homegrown-contract"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ariel Lassiter",
+  "full_name": "Ariel Daniel Lassiter Acuña",
+  "gender": "M",
+  "active": true,
+  "born": 1994,
+  "nation": "Costa Rica",
+  "positions": [
+   "LW",
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "GAIS",
+    "from": 2014,
+    "to": 2014,
+    "apps": 12,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2015,
+    "to": 2018,
+    "apps": 25,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Alajuelense",
+    "from": 2018,
+    "to": 2020,
+    "apps": 64,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Houston Dynamo",
+    "from": 2020,
+    "to": 2021,
+    "apps": 35,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Miami",
+    "from": 2022,
+    "to": 2023,
+    "apps": 38,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "CF Montréal",
+    "from": 2023,
+    "to": 2024,
+    "apps": 45,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2024,
+    "to": 2024,
+    "apps": 7,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2025,
+    "to": null,
+    "apps": 21,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "LA Galaxy",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Costa Rica",
+   "caps": 33,
+   "goals": 2,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "12 Jul 2021: first Costa Rica goal, 3-1 v Guadeloupe at the Gold Cup"
+  ],
+  "style": [
+   "winger",
+   "direct runner"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Journeyman: eight senior clubs; joined Portland as a free agent Dec 2024. Son of former MLS forward Roy Lassiter",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ariel_Lassiter"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Zac McGraw",
+  "full_name": "Zachery Louis McGraw",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Canada",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Army Black Knights (college)",
+    "from": 2016,
+    "to": 2019,
+    "apps": 68,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2020,
+    "to": null,
+    "apps": 78,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 7,
+  "one_club": true,
+  "captaincy": "Army West Point captain (two seasons)",
+  "national": {
+   "team": "Canada",
+   "caps": 4,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Patriot League Defensive Player of the Year (Army)",
+  "moments": [
+   "2020: first Army West Point player drafted into MLS",
+   "1 Sep 2022: first MLS goal, a winner v Austin"
+  ],
+  "style": [
+   "tall centre-back",
+   "aerial defender"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "with Portland since 2020",
+  "loyalty_notes": "Only pro club Portland (2020-), incl. a 2022 T2 stint; US-born, plays for Canada (mother Canadian)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2020-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Zac_McGraw",
+   "https://goarmywestpoint.com/news/2020/6/23/mens-soccer-portland-timbers-sign-zac-mcgraw"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Eric Miller",
+  "full_name": "Eric Miller",
+  "gender": "M",
+  "active": true,
+  "born": 1993,
+  "nation": "USA",
+  "positions": [
+   "RB",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Montreal Impact",
+    "from": 2014,
+    "to": 2015,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Colorado Rapids",
+    "from": 2016,
+    "to": 2018,
+    "apps": 56,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Minnesota United",
+    "from": 2018,
+    "to": 2019,
+    "apps": 24,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New York City FC",
+    "from": 2019,
+    "to": 2019,
+    "apps": 5,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Nashville SC",
+    "from": 2020,
+    "to": 2022,
+    "apps": 43,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2023,
+    "to": null,
+    "apps": 51,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "Canadian Championship 2014",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "defensive full-back",
+   "utility defender"
+  ],
+  "work_rate": "",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "Journeyman MLS defender (six clubs); Portland since Feb 2023, re-signed; played for Portland Timbers U23s in 2012-13",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2023- (and U23s 2012-13)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Eric_Miller_(soccer)",
+   "https://www.timbers.com/news/topics/timbers-roster-news/1"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Juan Mosquera",
+  "full_name": "Juan David Mosquera López",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Colombia",
+  "positions": [
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Independiente Medellín",
+    "from": 2020,
+    "to": 2022,
+    "apps": 60,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2022,
+    "to": null,
+    "apps": 36,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Colombia",
+   "caps": 2,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "attacking right-back"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "",
+  "loyalty_notes": "Portland since 2022 (joined at 19); 2026 limited to 3 apps, then ankle and knee surgery (Jul 2026), out until about spring 2027",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2022-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Juan_David_Mosquera",
+   "https://www.timbers.com/news/timbers-defender-juan-mosquera-undergoes-successful-surgery"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Joao Ortiz",
+  "full_name": "Julio Joao Ortiz Landázuri",
+  "gender": "M",
+  "active": true,
+  "born": 1996,
+  "nation": "Ecuador",
+  "positions": [
+   "CM",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Universidad Católica (Ecuador)",
+    "from": 2014,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Plaza Colonia",
+    "from": 2015,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Deportivo Quito",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Clan Juvenil",
+    "from": 2017,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Deportivo Cuenca",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Delfín",
+    "from": 2020,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LDU Quito",
+    "from": 2022,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Independiente del Valle",
+    "from": 2022,
+    "to": 2024,
+    "apps": 103,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Independiente del Valle",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Ecuador",
+   "caps": 9,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Copa América 2024 squad with Ecuador"
+  ],
+  "style": [
+   "physical central midfielder"
+  ],
+  "work_rate": "high: 'strong, physical' (Neville)",
+  "ego": "neutral: little public profile",
+  "fan_bond": "",
+  "loyalty_notes": "Journeyman in Ecuador (eight clubs); joined Portland Jan 2025 for a reported ~$1.5M",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2025-",
+  "sources": [
+   "https://www.timbers.com/news/timbers-acquire-midfielder-joao-ortiz",
+   "https://www.mlssoccer.com/news/portland-timbers-sign-ecuador-international-midfielder-joao-ortiz"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Trey Muse",
+  "full_name": "John David Muse III",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "USA",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Seattle Sounders",
+    "from": 2019,
+    "to": 2021,
+    "apps": 0,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Tacoma Defiance (loan)",
+    "from": 2019,
+    "to": 2020,
+    "apps": 24,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Diego Loyal (loan)",
+    "from": 2021,
+    "to": 2021,
+    "apps": 15,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Memphis 901 (loan)",
+    "from": 2022,
+    "to": 2022,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Charleston Battery",
+    "from": 2023,
+    "to": 2024,
+    "apps": 33,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Seattle Sounders",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "MLS Cup 2019 (Seattle, no apps); USL Eastern Conference 2023 (Charleston)",
+  "awards": "2018 Big Ten Goalkeeper of the Year",
+  "moments": [
+   "2023: 12 regular-season clean sheets for Charleston, joint league best"
+  ],
+  "style": [
+   "goalkeeper"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "backup keeper",
+  "loyalty_notes": "Sounders academy and homegrown (no MLS apps); USL loans; joined Portland Jan 2024",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2024- (ex-Seattle academy)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Trey_Muse"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ian Smith",
+  "full_name": "Ian Smith",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "USA",
+  "positions": [
+   "RB",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Denver Pioneers (college)",
+    "from": 2021,
+    "to": 2024,
+    "apps": 61,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 2,
+  "one_club": true,
+  "captaincy": "University of Denver captain 2023-24",
+  "national": {
+   "team": "USA",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Summit League first team 2023, 2024",
+  "moments": [
+   "2024: helped Denver to the College Cup; 10 assists"
+  ],
+  "style": [
+   "defender",
+   "crosser"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "",
+  "loyalty_notes": "Drafted 14th overall by Portland in the 2025 SuperDraft after training with T2 in 2024",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2025-",
+  "sources": [
+   "https://www.timbers.com/news/timbers-sign-defender-ian-smith"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Hunter Sulte",
+  "full_name": "Hunter Pendleton Sulte",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "USA",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Portland Timbers 2",
+    "from": 2018,
+    "to": 2021,
+    "apps": 26,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2021,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Indy Eleven (loan)",
+    "from": 2024,
+    "to": 2025,
+    "apps": 49,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 10,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "1 May 2021: MLS debut, second-youngest goalkeeper to start an MLS match",
+   "First Alaskan to sign an MLS homegrown contract (2020)"
+  ],
+  "style": [
+   "goalkeeper",
+   "6 ft 7 in, tallest goalkeeper to play in MLS"
+  ],
+  "work_rate": "",
+  "ego": "neutral: little public profile",
+  "fan_bond": "Timbers academy product",
+  "loyalty_notes": "Timbers academy since 2016, homegrown 2020; loans to Indy Eleven 2024-25; new Portland contract Dec 2025 to 2028",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers academy 2016-, first team 2021-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hunter_Sulte"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Finn Surman",
+  "full_name": "Finn Surman",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "New Zealand",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Wellington Phoenix",
+    "from": 2021,
+    "to": 2024,
+    "apps": 45,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2024,
+    "to": null,
+    "apps": 56,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Wellington Phoenix",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "New Zealand",
+   "caps": 22,
+   "goals": 3,
+   "captain": false
+  },
+  "honours": "OFC Nations Cup 2024; OFC U-19 Championship 2022",
+  "awards": "OFC Nations Cup best young player 2024",
+  "moments": [
+   "21 Jun 2026: headed New Zealand's first-ever World Cup lead, v Egypt (lost 1-3)",
+   "2024 Paris Olympics with New Zealand"
+  ],
+  "style": [
+   "centre-back",
+   "set-piece threat"
+  ],
+  "work_rate": "",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Wellington Phoenix academy and first team to 2024; joined Portland Jul 2024 at 20. Born in Cardiff, Wales; only Welsh-born player at the 2026 World Cup",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2024-; Wales-born",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Finn_Surman"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Joel Waterman",
+  "full_name": "Joel Robert Waterman",
+  "gender": "M",
+  "active": true,
+  "born": 1996,
+  "nation": "Canada",
+  "positions": [
+   "CB",
+   "RB",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Trinity Western Spartans (college)",
+    "from": 2014,
+    "to": 2019,
+    "apps": 56,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Cavalry FC",
+    "from": 2019,
+    "to": 2019,
+    "apps": 21,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "CF Montréal",
+    "from": 2020,
+    "to": 2025,
+    "apps": 130,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2025,
+    "to": 2026,
+    "apps": 21,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2026,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "CF Montréal",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Canada",
+   "caps": 17,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "Canadian Championship 2021 (Montréal); CPL Spring and Fall 2019 (Cavalry)",
+  "awards": "",
+  "moments": [
+   "2020: first Canadian Premier League player sold to an MLS club",
+   "Canada squads at the 2022 and 2026 World Cups"
+  ],
+  "style": [
+   "centre-back",
+   "versatile defender"
+  ],
+  "work_rate": "",
+  "ego": "humble: late bloomer from Canadian university soccer",
+  "fan_bond": "",
+  "loyalty_notes": "Montréal 2020-2025, Chicago 2025-26, traded to Portland Sep 2026 for $100k GAM (+ up to $100k)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Joel_Waterman",
+   "https://www.timbers.com/news/timbers-acquire-canadian-international-defender-joel-waterman-from-chicago-fire-fc"
+  ],
+  "confidence": "medium"
+ }
+]

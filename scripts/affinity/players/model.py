@@ -148,6 +148,17 @@ def load(raw=False):
     for f in sorted(a.glob('lo_out*.json')):  # Loyalty re-scored from when a player settles (Kevin, 2026-10-06; LO_BRIEF.md)
         for n, v in json.loads(f.read_text()).items():
             if n in scores: scores[n] = {**scores[n], 'LO': v['LO']}
+    # Character = half the research score, half Kevin's values (quiz round 11 weights x the values tags in values/out*.json):
+    # 6 + 0.6 * sum(weight * tag), clipped 0-10 (Kevin, 2026-10-07).
+    vw = here.parent / 'quiz11' / 'fit.json'
+    if vw.exists():
+        VW = json.loads(vw.read_text())['w']
+        for f in sorted((here / 'values').glob('out*.json')):
+            for n, tg in json.loads(f.read_text()).items():
+                if n not in scores: continue
+                v = sum(VW[k] * float(tg.get(k) or 0) for k in VW)
+                cv = max(0.0, min(10.0, 6 + 0.6 * v))
+                scores[n] = {**scores[n], 'CH_research': scores[n]['CH'], 'CH_values': round(cv, 2), 'CH': round((scores[n]['CH'] + cv) / 2, 2)}
     if (a / 'incidents.json').exists():
         for n, fx in json.loads((a / 'incidents.json').read_text()).items():
             if n not in facts: continue

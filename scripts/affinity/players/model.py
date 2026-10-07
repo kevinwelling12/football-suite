@@ -43,36 +43,48 @@ def norm(s):
     s = unicodedata.normalize('NFD', s or '').encode('ascii', 'ignore').decode().lower()
     return re.sub(r'\b(fc|cf|sc|afc|ac|the)\b', '', re.sub(r'[^a-z0-9 ]', ' ', s)).split()
 
-# club Affinity from the tracker (every club and its short name)
+# club Affinity from the tracker (every club and its short name). Women's clubs (NWSL) and men's clubs are kept apart:
+# a woman's spell at a European club the tracker only rates for its men's side counts as unrated (Kevin, 2026-10-07).
 D = json.loads((root / 'data' / 'suite_data.json').read_text())
-CLUB = {}
+CLUB, CLUB_W = {}, {}
 for k, L in D.items():
     if not isinstance(L, dict) or k == 'unl': continue
     for t in L.get('teams', []):
         a = t['base'] + t.get('bonus', 0)
-        for n in {t['name'], t.get('short') or t['name']}: CLUB.setdefault(' '.join(norm(n)), a)
+        for n in {t['name'], t.get('short') or t['name']}: (CLUB_W if k == 'nwsl' else CLUB).setdefault(' '.join(norm(n)), a)
 ALIAS = {'man city': 'manchester city', 'man utd': 'manchester united', 'man united': 'manchester united', 'psg': 'paris saint germain',
          'inter miami': 'inter miami', 'nycfc': 'new york city football club', 'new york city': 'new york city football club',
          'leipzig': 'rb leipzig', 'bayern': 'bayern munich', 'bayern munchen': 'bayern munich', 'spurs': 'tottenham hotspur'}
-def club_aff(name):
+def club_aff(name, women=False):
+    T = CLUB_W if women else CLUB
     n = ' '.join(norm(name)); n = ALIAS.get(n, n)
-    if n in CLUB: return CLUB[n]
-    hits = [v for c, v in CLUB.items() if n and (c.startswith(n) or n.startswith(c)) and min(len(c), len(n)) >= 5]
+    if n in T: return T[n]
+    hits = [v for c, v in T.items() if n and (c.startswith(n) or n.startswith(c)) and min(len(c), len(n)) >= 5]
     return hits[0] if len(hits) == 1 else None
 
 def seasons(c):
     a, b = c.get('from'), c.get('to') or NOW
     return max(0.5, (b - a)) if a else 0
 
+OTHER_CAP = 2  # most a player can gain from clubs Kevin doesn't follow (followed clubs: +8)
+FOLLOWED = ['liverpool', 'portland timbers', 'portland thorns', 'sacramento republic']
+def per_season(a):
+    """Connection per season at a club Kevin doesn't follow, from its Affinity (Kevin, 2026-10-07: follow the club ratings).
+    50 is neutral; up to +0.6 at 85+ (half a followed club, the same weight Dortmund had); down to -0.6 at 20 or below."""
+    if a is None: return 0.0
+    return min(0.6, 0.6 * (a - 50) / 35) if a >= 50 else max(-0.6, -0.3 * (50 - a) / 15)
+
 def connection(p):
-    plus = minus = 0.0
+    women = p.get('gender') == 'W'
+    fol = oth = minus = 0.0
     for c in p.get('clubs', []):
         n = ' '.join(norm(c.get('club')))
-        # Dortmund at half weight (Kevin, 2026-10-06: drawn to them like Liverpool, but the affinity hasn't materialised)
-        if any(k in n for k in KEVIN) and 'ii' not in n.split(): plus += (0.6 if 'dortmund' in n else 1.2) * seasons(c)
-        else:
-            a = club_aff(c.get('club'))
-            if a is not None and a < 35: minus += 0.3 * seasons(c)
+        if 'ii' in n.split() or re.search(r'\b(u\d+|youth|academy|reserves)\b', n): continue
+        if any(k in n for k in FOLLOWED) and (not women or 'thorns' in n): fol += 1.2 * seasons(c); continue
+        v = per_season(club_aff(c.get('club'), women))
+        if v > 0: oth += v * seasons(c)
+        else: minus -= v * seasons(c)
+    plus = min(fol, 8) + min(oth, OTHER_CAP)  # clubs he doesn't follow add at most OTHER_CAP
     us = 2.0 if (p.get('national') or {}).get('team') in ('USA', 'United States') and ((p.get('national') or {}).get('caps') or 1) else 0
     return min(plus, 8) - min(minus, 3) + us
 

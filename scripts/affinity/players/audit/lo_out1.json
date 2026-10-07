@@ -1,0 +1,614 @@
+{
+ "Abby Dahlkemper": {
+  "LO": 4.5,
+  "why": "unchanged"
+ },
+ "Achraf Hakimi": {
+  "LO": 5.5,
+  "why": "pre-23 loans/moves no longer count; PSG since 2021, extended"
+ },
+ "Adrianna Franch": {
+  "LO": 5.75,
+  "why": "unchanged"
+ },
+ "Alan Shearer": {
+  "LO": 8.25,
+  "why": "Blackburn move at 21 no longer counts; 10 yrs Newcastle captain, turned down Man Utd"
+ },
+ "Alessia Russo": {
+  "LO": 5.0,
+  "why": "youth/college moves no longer count; contested free exit at 23, Arsenal since"
+ },
+ "Alexander Isak": {
+  "LO": 2.5,
+  "why": "unchanged"
+ },
+ "Alexis Mac Allister": {
+  "LO": 5.75,
+  "why": "early moves no longer count; Brighton 4 yrs, Liverpool since 2023"
+ },
+ "Alisson Becker": {
+  "LO": 7.5,
+  "why": "Roma step-up only real move; 8 yrs at Liverpool"
+ },
+ "Alyssa Naeher": {
+  "LO": 8.0,
+  "why": "unchanged"
+ },
+ "Andrés Iniesta": {
+  "LO": 9.25,
+  "why": "16 yrs Barça captain; late move to Japan not disloyal"
+ },
+ "Antoine Griezmann": {
+  "LO": 6.0,
+  "why": "unchanged"
+ },
+ "Aritz Aduriz": {
+  "LO": 8.0,
+  "why": "unchanged"
+ },
+ "Asisat Oshoala": {
+  "LO": 4.25,
+  "why": "unchanged"
+ },
+ "Bastian Schweinsteiger": {
+  "LO": 8.25,
+  "why": "13 yrs Bayern academy; late moves to Utd/MLS not disloyal"
+ },
+ "Bernardo Silva": {
+  "LO": 7.0,
+  "why": "Monaco move at 20 no longer counts; 9 yrs City, captain, left at 32"
+ },
+ "Blake Willey": {
+  "LO": 6.25,
+  "why": "unchanged"
+ },
+ "Bobby Moore": {
+  "LO": 8.75,
+  "why": "16 yrs West Ham captain; late moves not disloyal"
+ },
+ "Brandi Chastain": {
+  "LO": 6.0,
+  "why": "unchanged"
+ },
+ "Briana Scurry": {
+  "LO": 4.75,
+  "why": "unchanged"
+ },
+ "Bukayo Saka": {
+  "LO": 8.75,
+  "why": "unchanged"
+ },
+ "Carles Puyol": {
+  "LO": 9.75,
+  "why": "unchanged"
+ },
+ "Carlos Bocanegra": {
+  "LO": 3.75,
+  "why": "unchanged"
+ },
+ "Chloe Kelly": {
+  "LO": 4.25,
+  "why": "unchanged"
+ },
+ "Christian Günter": {
+  "LO": 9.5,
+  "why": "unchanged"
+ },
+ "Christine Sinclair": {
+  "LO": 9.5,
+  "why": "unchanged"
+ },
+ "Claire Hutton": {
+  "LO": 5.5,
+  "why": "move at 20 no longer counts; not yet settled"
+ },
+ "Clint Dempsey": {
+  "LO": 5.0,
+  "why": "unchanged"
+ },
+ "Cobi Jones": {
+  "LO": 7.5,
+  "why": "unchanged"
+ },
+ "Cole Palmer": {
+  "LO": 6.0,
+  "why": "left City at 21 for minutes, no longer counts; Chelsea since 2023, long deal"
+ },
+ "Cristiano Ronaldo": {
+  "LO": 4.0,
+  "why": "unchanged"
+ },
+ "Cucho Hernández": {
+  "LO": 4.75,
+  "why": "Watford loans pre-23 no longer count; Columbus 2.5 yrs then Betis"
+ },
+ "DaMarcus Beasley": {
+  "LO": 4.0,
+  "why": "unchanged"
+ },
+ "Danny Vitiello": {
+  "LO": 7.25,
+  "why": "unchanged"
+ },
+ "Darwin Núñez": {
+  "LO": 3.75,
+  "why": "pre-23 moves no longer count; 3 yrs Liverpool then money move"
+ },
+ "David Da Costa": {
+  "LO": 5.0,
+  "why": "Lens academy to 23; Portland since 2024"
+ },
+ "Declan Rice": {
+  "LO": 6.5,
+  "why": "unchanged"
+ },
+ "Deniz Undav": {
+  "LO": 5.5,
+  "why": "unchanged"
+ },
+ "Didier Drogba": {
+  "LO": 6.5,
+  "why": "unchanged"
+ },
+ "Diego Maradona": {
+  "LO": 7.5,
+  "why": "unchanged"
+ },
+ "Dominik Szoboszlai": {
+  "LO": 5.75,
+  "why": "all moves before 23 no longer count; Liverpool since 2023"
+ },
+ "Emre Can": {
+  "LO": 6.25,
+  "why": "pre-23 moves no longer count; Dortmund 6 yrs, captain"
+ },
+ "Eric Wynalda": {
+  "LO": 3.5,
+  "why": "unchanged"
+ },
+ "Eusébio": {
+  "LO": 8.25,
+  "why": "unchanged"
+ },
+ "Fabio Cannavaro": {
+  "LO": 3.75,
+  "why": "unchanged"
+ },
+ "Federico Valverde": {
+  "LO": 8.0,
+  "why": "unchanged"
+ },
+ "Ferenc Puskás": {
+  "LO": 6.75,
+  "why": "unchanged"
+ },
+ "Florian Wirtz": {
+  "LO": 5.5,
+  "why": "youth switch and move at 22 no longer count; not yet settled"
+ },
+ "Francesco Totti": {
+  "LO": 10.0,
+  "why": "unchanged"
+ },
+ "Frank Rijkaard": {
+  "LO": 5.75,
+  "why": "unchanged"
+ },
+ "Fridolina Rolfö": {
+  "LO": 4.5,
+  "why": "unchanged"
+ },
+ "Garrincha": {
+  "LO": 7.25,
+  "why": "unchanged"
+ },
+ "George Best": {
+  "LO": 5.0,
+  "why": "unchanged"
+ },
+ "Gerd Müller": {
+  "LO": 8.25,
+  "why": "unchanged"
+ },
+ "Gianluigi Buffon": {
+  "LO": 8.5,
+  "why": "unchanged"
+ },
+ "Gio Reyna": {
+  "LO": 5.5,
+  "why": "all moves before 23 no longer count"
+ },
+ "Giulia Gwinn": {
+  "LO": 7.25,
+  "why": "Bayern since 20, 7 yrs, Germany captain"
+ },
+ "Hany Mukhtar": {
+  "LO": 7.25,
+  "why": "early moves no longer count; Nashville's face since 2020"
+ },
+ "Henrik Larsson": {
+  "LO": 7.0,
+  "why": "unchanged"
+ },
+ "Hope Solo": {
+  "LO": 3.75,
+  "why": "unchanged"
+ },
+ "Hugo Ekitiké": {
+  "LO": 5.0,
+  "why": "moves at 20-23 no longer count; pushed Liverpool move"
+ },
+ "Ian Rush": {
+  "LO": 8.0,
+  "why": "unchanged"
+ },
+ "Ibrahima Konaté": {
+  "LO": 4.0,
+  "why": "unchanged"
+ },
+ "Iker Muniain": {
+  "LO": 9.0,
+  "why": "unchanged"
+ },
+ "Jack Gurr": {
+  "LO": 5.75,
+  "why": "unchanged"
+ },
+ "Jadon Sancho": {
+  "LO": 4.5,
+  "why": "forced exit from City academy at 17 no longer counts; loans since 2024 after feud"
+ },
+ "James Pantemis": {
+  "LO": 5.5,
+  "why": "Montréal academy to 27; Portland since 2024"
+ },
+ "Jamie Vardy": {
+  "LO": 8.0,
+  "why": "unchanged"
+ },
+ "Jeremie Frimpong": {
+  "LO": 5.25,
+  "why": "academy exit at 19 no longer counts; Leverkusen 4 yrs, Liverpool"
+ },
+ "Joaquín": {
+  "LO": 8.25,
+  "why": "unchanged"
+ },
+ "Joe Gomez": {
+  "LO": 8.25,
+  "why": "Charlton move at 18 no longer counts; 11 yrs Liverpool, vice-captain"
+ },
+ "John Barnes": {
+  "LO": 7.0,
+  "why": "unchanged"
+ },
+ "Joseba Etxeberria": {
+  "LO": 9.0,
+  "why": "move at 18 no longer counts; 15 yrs Athletic, captain, last season unpaid"
+ },
+ "Juan Román Riquelme": {
+  "LO": 7.75,
+  "why": "unchanged"
+ },
+ "Julen Guerrero": {
+  "LO": 9.5,
+  "why": "unchanged"
+ },
+ "Julian Ryerson": {
+  "LO": 5.75,
+  "why": "unchanged"
+ },
+ "Julie Foudy": {
+  "LO": 6.0,
+  "why": "unchanged"
+ },
+ "Kaká": {
+  "LO": 6.0,
+  "why": "unchanged"
+ },
+ "Karim Adeyemi": {
+  "LO": 4.75,
+  "why": "youth moves no longer count; 4 yrs BVB, sold to Barcelona"
+ },
+ "Karl-Heinz Rummenigge": {
+  "LO": 6.25,
+  "why": "unchanged"
+ },
+ "Kelly Smith": {
+  "LO": 7.0,
+  "why": "unchanged"
+ },
+ "Kenny Dalglish": {
+  "LO": 8.5,
+  "why": "unchanged"
+ },
+ "Kevin Keegan": {
+  "LO": 5.0,
+  "why": "unchanged"
+ },
+ "Kristine Lilly": {
+  "LO": 7.0,
+  "why": "unchanged"
+ },
+ "Kyle Edwards": {
+  "LO": 4.25,
+  "why": "unchanged"
+ },
+ "Lamine Yamal": {
+  "LO": 7.25,
+  "why": "unchanged"
+ },
+ "Lars Ricken": {
+  "LO": 9.5,
+  "why": "unchanged"
+ },
+ "Lautaro Martínez": {
+  "LO": 8.0,
+  "why": "unchanged"
+ },
+ "Lee Desmond": {
+  "LO": 7.0,
+  "why": "unchanged"
+ },
+ "Lev Yashin": {
+  "LO": 9.75,
+  "why": "unchanged"
+ },
+ "Lionel Messi": {
+  "LO": 8.25,
+  "why": "unchanged"
+ },
+ "Lothar Matthäus": {
+  "LO": 4.25,
+  "why": "unchanged"
+ },
+ "Luis Díaz": {
+  "LO": 4.5,
+  "why": "unchanged"
+ },
+ "Luka Modrić": {
+  "LO": 7.0,
+  "why": "13 yrs Madrid captain; Spurs exit forced, Milan late move not disloyal"
+ },
+ "Mallory Swanson": {
+  "LO": 6.5,
+  "why": "unchanged"
+ },
+ "Marco Reus": {
+  "LO": 9.0,
+  "why": "unchanged"
+ },
+ "Marcus Rashford": {
+  "LO": 6.25,
+  "why": "unchanged"
+ },
+ "Martin Zubimendi": {
+  "LO": 5.75,
+  "why": "unchanged"
+ },
+ "Mary Earps": {
+  "LO": 4.75,
+  "why": "unchanged"
+ },
+ "Matt Le Tissier": {
+  "LO": 9.5,
+  "why": "unchanged"
+ },
+ "Matthias Sammer": {
+  "LO": 5.5,
+  "why": "unchanged"
+ },
+ "Meghan Klingenberg": {
+  "LO": 7.5,
+  "why": "unchanged"
+ },
+ "Michael Bradley": {
+  "LO": 7.0,
+  "why": "unchanged"
+ },
+ "Michael Owen": {
+  "LO": 3.75,
+  "why": "unchanged"
+ },
+ "Michel Platini": {
+  "LO": 4.75,
+  "why": "unchanged"
+ },
+ "Mikel Oyarzabal": {
+  "LO": 9.25,
+  "why": "unchanged"
+ },
+ "Miroslav Klose": {
+  "LO": 4.75,
+  "why": "unchanged"
+ },
+ "N'Golo Kanté": {
+  "LO": 5.5,
+  "why": "7 yrs Chelsea; late move abroad not disloyal (Saudi scored separately)"
+ },
+ "Nat Borchers": {
+  "LO": 5.0,
+  "why": "unchanged"
+ },
+ "Neymar": {
+  "LO": 1.5,
+  "why": "unchanged"
+ },
+ "Nico Williams": {
+  "LO": 8.0,
+  "why": "unchanged"
+ },
+ "Oliver Kahn": {
+  "LO": 7.5,
+  "why": "unchanged"
+ },
+ "Ousmane Dembélé": {
+  "LO": 3.5,
+  "why": "Dortmund strike at 20 counts less; 6 yrs Barça, PSG since 2023"
+ },
+ "Paolo Maldini": {
+  "LO": 10.0,
+  "why": "unchanged"
+ },
+ "Paul Scholes": {
+  "LO": 9.5,
+  "why": "unchanged"
+ },
+ "Pelé": {
+  "LO": 9.0,
+  "why": "18 yrs Santos despite offers; late Cosmos move not disloyal"
+ },
+ "Phil Foden": {
+  "LO": 8.0,
+  "why": "unchanged"
+ },
+ "Philippe Coutinho": {
+  "LO": 3.0,
+  "why": "unchanged"
+ },
+ "Raphinha": {
+  "LO": 5.75,
+  "why": "unchanged"
+ },
+ "Raúl": {
+  "LO": 8.5,
+  "why": "16 yrs Real captain; late moves not disloyal"
+ },
+ "Riqui Puig": {
+  "LO": 6.25,
+  "why": "Galaxy since 23, stayed through two ACL surgeries"
+ },
+ "Robbie Fowler": {
+  "LO": 7.0,
+  "why": "unchanged"
+ },
+ "Roberto Baggio": {
+  "LO": 5.0,
+  "why": "unchanged"
+ },
+ "Rodri": {
+  "LO": 5.5,
+  "why": "pre-23 moves no longer count; 7 yrs City, left at 30"
+ },
+ "Roman Weidenfeller": {
+  "LO": 8.5,
+  "why": "unchanged"
+ },
+ "Ronald Koeman": {
+  "LO": 3.5,
+  "why": "unchanged"
+ },
+ "Ronaldo (Brazilian)": {
+  "LO": 3.0,
+  "why": "unchanged"
+ },
+ "Roy Keane": {
+  "LO": 7.5,
+  "why": "early moves no longer count; 12 yrs Utd captain"
+ },
+ "Ryan Giggs": {
+  "LO": 9.75,
+  "why": "unchanged"
+ },
+ "Rúben Dias": {
+  "LO": 6.0,
+  "why": "Benfica academy to 23; City since 2020"
+ },
+ "Sam Hiatt": {
+  "LO": 5.75,
+  "why": "unchanged"
+ },
+ "Sami Hyypiä": {
+  "LO": 7.75,
+  "why": "unchanged"
+ },
+ "Scott Brown": {
+  "LO": 8.75,
+  "why": "Hibs exit at 22 no longer counts; 14 yrs Celtic captain"
+ },
+ "Sebastián Blanco": {
+  "LO": 5.75,
+  "why": "unchanged"
+ },
+ "Serhou Guirassy": {
+  "LO": 4.0,
+  "why": "unchanged"
+ },
+ "Son Heung-min": {
+  "LO": 8.0,
+  "why": "early moves no longer count; 10 yrs Spurs captain, late MLS move"
+ },
+ "Stefan Frei": {
+  "LO": 8.0,
+  "why": "unchanged"
+ },
+ "Sun Wen": {
+  "LO": 5.5,
+  "why": "unchanged"
+ },
+ "Sócrates": {
+  "LO": 6.5,
+  "why": "unchanged"
+ },
+ "Temwa Chawinga": {
+  "LO": 5.0,
+  "why": "unchanged"
+ },
+ "Thierry Henry": {
+  "LO": 7.0,
+  "why": "Juve stint at 21 no longer counts; 8 yrs Arsenal captain; Barça move counts"
+ },
+ "Tim Howard": {
+  "LO": 5.75,
+  "why": "unchanged"
+ },
+ "Tobin Heath": {
+  "LO": 6.25,
+  "why": "unchanged"
+ },
+ "Trinity Rodman": {
+  "LO": 7.75,
+  "why": "unchanged"
+ },
+ "Unai Simón": {
+  "LO": 8.75,
+  "why": "unchanged"
+ },
+ "Victor Osimhen": {
+  "LO": 4.75,
+  "why": "pre-22 moves no longer count; Napoli 4 yrs, frozen out"
+ },
+ "Virgil van Dijk": {
+  "LO": 7.25,
+  "why": "early moves no longer count; 8 yrs Liverpool captain; transfer request counts"
+ },
+ "Vivianne Miedema": {
+  "LO": 6.0,
+  "why": "teen moves no longer count; 7 yrs Arsenal, free exit to City"
+ },
+ "Wayne Rooney": {
+  "LO": 6.75,
+  "why": "Everton exit at 18 no longer counts; 13 yrs Utd captain; 2010 request counts"
+ },
+ "Weston McKennie": {
+  "LO": 6.5,
+  "why": "unchanged"
+ },
+ "Xabi Alonso": {
+  "LO": 6.25,
+  "why": "unchanged"
+ },
+ "Xavi": {
+  "LO": 9.0,
+  "why": "17 yrs Barça captain; late move abroad not disloyal (Qatar scored separately)"
+ },
+ "Zico": {
+  "LO": 8.25,
+  "why": "unchanged"
+ },
+ "Zlatan Ibrahimović": {
+  "LO": 2.25,
+  "why": "unchanged"
+ }
+}

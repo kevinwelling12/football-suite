@@ -1,0 +1,495 @@
+[
+ {
+  "name": "Sam Hiatt",
+  "CH": 6.0,
+  "WK": 7.5,
+  "LO": 5.5,
+  "AB": 5.5,
+  "ST": 4.0,
+  "LE": 2.5,
+  "why": "CH no causes or issues on record; WK reliable starter, leads backline; LO 2nd Thorns season, captain 2026, extended to 2027; AB NWSL starting CB, fringe USWNT; ST no-frills CB; LE no landmark moments yet",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Erling Haaland",
+  "CH": 6.0,
+  "WK": 5.5,
+  "LO": 3.0,
+  "AB": 9.0,
+  "ST": 6.0,
+  "LE": 6.0,
+  "why": "CH no causes, no conduct issues; WK goal-focused, little defensive work; LO release-clause moves, long City deal; AB elite scorer (anchor); ST anchor; LE records, anchor",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Gerd Müller",
+  "CH": 6.5,
+  "WK": 6.5,
+  "LO": 8.5,
+  "AB": 9.5,
+  "ST": 7.0,
+  "LE": 9.0,
+  "why": "CH shy, modest, no issues; WK pure box striker; LO 15 years at Bayern; AB all-time great finisher; ST functional rather than flamboyant goals; LE 1974 WC winner, scoring records",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Folarin Balogun",
+  "CH": 5.5,
+  "WK": 6.0,
+  "LO": 3.5,
+  "AB": 6.5,
+  "ST": 6.0,
+  "LE": 3.5,
+  "why": "CH no causes, messy 2026 exit saga; WK mobile but not a presser; LO left Arsenal, asked to leave Monaco; AB good Ligue 1 scorer; ST direct finisher; LE first US WC brace since 1930 (2026)",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Weston McKennie",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 6.5,
+  "AB": 6.5,
+  "ST": 6.0,
+  "LE": 4.0,
+  "why": "CH George Floyd armband 2020, Covid breaches 2021; WK high-energy box-to-box; LO decade at Juve, extended to 2030; AB solid Serie A regular; ST energetic not flair; LE limited",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Mikel Oyarzabal",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 9.0,
+  "AB": 7.5,
+  "ST": 7.0,
+  "LE": 6.5,
+  "why": "CH humble, no issues; WK hard-working forward; LO academy captain, one club, turned down Barcelona 2026; AB Spain international starter; ST intelligent forward; LE Euro 2024 final winner, 2021 Copa derby penalty",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Lamine Yamal",
+  "CH": 5.0,
+  "WK": 5.5,
+  "LO": 7.0,
+  "AB": 9.5,
+  "ST": 9.5,
+  "LE": 6.5,
+  "why": "CH Rocafonda pride, but 2025 party row and taunting Madrid; WK limited defensive work; LO La Masia, renewed to 2031, young; AB Ballon d'Or runner-up at 18; ST anchor; LE Euro 2024 goal, WC 2026 winner at 19",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "Ministry of Social Rights asked prosecutors to look into it"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Ian Rush",
+  "CH": 7.0,
+  "WK": 8.5,
+  "LO": 8.0,
+  "AB": 8.5,
+  "ST": 6.5,
+  "LE": 8.0,
+  "why": "CH quiet, no issues; WK Liverpool's first defender; LO 15 seasons at Liverpool, captain 1993-96, returned from Juventus; AB 1984 Golden Shoe; ST finisher not flair; LE club record 346 goals, derby record",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Paul Scholes",
+  "CH": 6.0,
+  "WK": 8.0,
+  "LO": 9.5,
+  "AB": 8.5,
+  "ST": 8.5,
+  "LE": 7.5,
+  "why": "CH shunned celebrity, reckless tackles, sharp pundit; WK selfless; LO one-club academy player 19 years; AB elite passer; ST range of passing and long shots; LE Class of 92, 2008 semi winner",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Matt Le Tissier",
+  "CH": 3.5,
+  "WK": 3.5,
+  "LO": 9.5,
+  "AB": 7.5,
+  "ST": 9.5,
+  "LE": 7.0,
+  "why": "CH vaccine misinformation, Bucha false-flag retweets, lost ambassador role; WK famously unathletic; LO one-club, refused Spurs/Chelsea; AB genius but 8 caps; ST spectacular goals and free kicks; LE 'Le God', cult icon",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Roy Keane",
+  "CH": 4.0,
+  "WK": 8.0,
+  "LO": 7.0,
+  "AB": 8.5,
+  "ST": 5.5,
+  "LE": 8.0,
+  "why": "CH abrasive, feuds, Saipan walkout; WK drove teams by example; LO 12 years at Utd, captain, acrimonious exit; AB elite midfielder; ST combative not creative; LE Turin 1999, Saipan",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 1999,
+    "what": "arrested over alleged assault on a woman in a Manchester bar",
+    "outcome": "not prosecuted; case dropped",
+    "source": "https://www.rte.ie/news/1999/0628/2296-sport"
+   }
+  ]
+ },
+ {
+  "name": "Jan Oblak",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 8.5,
+  "AB": 8.5,
+  "ST": 5.0,
+  "LE": 6.0,
+  "why": "CH quiet, no issues; WK steady professional; LO 12 years at Atlético, captain; AB five Zamoras; ST goalkeeper; LE great keeper, few iconic moments",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Pelé",
+  "CH": 6.0,
+  "WK": 7.5,
+  "LO": 9.0,
+  "AB": 10.0,
+  "ST": 9.5,
+  "LE": 10.0,
+  "why": "CH UN ambassador, Pelé Law, but dictatorship silence and paternity denial; WK all-round; LO 18 years at Santos; AB anchor; ST dazzling; LE anchor",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Clint Mathis",
+  "CH": 5.0,
+  "WK": 5.0,
+  "LO": 4.0,
+  "AB": 6.0,
+  "ST": 8.0,
+  "LE": 4.5,
+  "why": "CH party-boy reputation; WK inconsistent; LO many clubs; AB peak early-2000s MLS star; ST flair, mohawk; LE 2002 WC goal vs South Korea",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Lothar Matthäus",
+  "CH": 4.0,
+  "WK": 7.5,
+  "LO": 4.5,
+  "AB": 9.0,
+  "ST": 7.0,
+  "LE": 8.5,
+  "why": "CH big ego, media feuds; WK dynamic box-to-box; LO Gladbach to Bayern, Inter, back; AB 1990 Ballon d'Or; ST powerful runner and shooter; LE 1990 WC captain, 150 caps",
+  "incidents": [],
+  "missing": [
+   {
+    "type": "b09",
+    "year": 1984,
+    "what": "agreed and made direct move from Borussia Mönchengladbach to their main title rival Bayern Munich, then missed a penalty for Gladbach against Bayern in the 1984 DFB-Pokal final",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us"
+   }
+  ]
+ },
+ {
+  "name": "Yunus Musah",
+  "CH": 6.0,
+  "WK": 7.5,
+  "LO": 3.5,
+  "AB": 6.0,
+  "ST": 6.5,
+  "LE": 2.5,
+  "why": "CH humble, no issues; WK high work rate; LO Valencia, Milan, loans; AB squad-level top-flight; ST ball-carrier; LE little",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Kristine Lilly",
+  "CH": 8.0,
+  "WK": 9.5,
+  "LO": 8.0,
+  "AB": 8.5,
+  "ST": 7.0,
+  "LE": 8.5,
+  "why": "CH pioneer, 1995-96 pay holdout, WUSA founder; WK tireless iron woman; LO 23 years with USWNT, captain; AB elite winger in women's game; ST direct winger; LE caps record, 1999 final clearance",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Giulia Gwinn",
+  "CH": 6.5,
+  "WK": 8.0,
+  "LO": 6.5,
+  "AB": 7.5,
+  "ST": 7.5,
+  "LE": 5.0,
+  "why": "CH no issues; WK hard-working full-back; LO Bayern since 2019, Germany captain; AB top Frauen-Bundesliga full-back; ST attacking full-back, set pieces; LE limited",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Gavi",
+  "CH": 5.0,
+  "WK": 9.0,
+  "LO": 8.0,
+  "AB": 7.5,
+  "ST": 7.0,
+  "LE": 5.0,
+  "why": "CH fiery, cards, provocations; WK relentless presser; LO La Masia, renewed through injuries; AB Golden Boy 2022; ST combative creator; LE young, WC 2026 squad",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Ferenc Puskás",
+  "CH": 6.5,
+  "WK": 6.0,
+  "LO": 7.0,
+  "AB": 9.5,
+  "ST": 9.0,
+  "LE": 9.5,
+  "why": "CH jovial, popular; WK forward, not a runner; LO Honvéd captain, exile after 1956; AB all-time great; ST left-footed artist; LE Magical Magyars, award named after him",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Ronaldo (Brazilian)",
+  "CH": 6.0,
+  "WK": 4.5,
+  "LO": 3.0,
+  "AB": 10.0,
+  "ST": 10.0,
+  "LE": 9.5,
+  "why": "CH UNDP ambassador, 2008 scandal; WK little pressing; LO pushed exits, joined Milan; AB all-time great at peak; ST explosive dribbling; LE 2002 WC, two Ballon d'Ors",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Debinha",
+  "CH": 6.5,
+  "WK": 7.5,
+  "LO": 5.5,
+  "AB": 8.0,
+  "ST": 8.5,
+  "LE": 6.0,
+  "why": "CH humble, no issues; WK hard-working forward; LO five years Courage, KC extended to 2027; AB NWSL elite creator; ST creative dribbler; LE Courage dynasty",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Raphinha",
+  "CH": 6.5,
+  "WK": 8.5,
+  "LO": 6.0,
+  "AB": 8.5,
+  "ST": 8.0,
+  "LE": 6.0,
+  "why": "CH no causes, 2025 'beat them' remarks on Argentina; WK tireless presser; LO Leeds favourite, Barça captain; AB Ballon d'Or top five 2025; ST direct winger; LE Leeds survival, Barça titles",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Ricardo Pepi",
+  "CH": 6.0,
+  "WK": 7.0,
+  "LO": 4.5,
+  "AB": 6.0,
+  "ST": 5.5,
+  "LE": 3.0,
+  "why": "CH no issues; WK hard-working; LO moves from Dallas; AB Eredivisie striker; ST poacher; LE limited",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Karim Benzema",
+  "CH": 3.5,
+  "WK": 6.5,
+  "LO": 6.5,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 8.0,
+  "why": "CH Valbuena blackmail conviction; WK selfless link play; LO 14 years at Real, captain, then Saudi moves; AB 2022 Ballon d'Or; ST elegant complete striker; LE 5 UCL, 2022 season",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "conviction upheld on appeal 2022"
+   },
+   {
+    "i": 1,
+    "verdict": "retype",
+    "type": "b02",
+    "note": "soliciting an underage prostitute allegation; acquitted 2014"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   },
+   {
+    "i": 3,
+    "verdict": "ok"
+   },
+   {
+    "i": 4,
+    "verdict": "ok",
+    "note": "Saudi tourism / 2034 WC ambassador deal to 2030 confirmed in Aug 2026 reporting"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Antoine Griezmann",
+  "CH": 6.0,
+  "WK": 9.0,
+  "LO": 6.0,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 8.0,
+  "why": "CH Huawei stance, 2017 blackface photo; WK workhorse playmaker; LO 'La Decisión', returned to Atlético; AB elite second striker; ST creative; LE 2018 WC winner, Euro 2016 star",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "remarks mainly Dembélé's; Konami ended Griezmann's ambassador deal July 2021; Griezmann denied racism"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Kenny Dalglish",
+  "CH": 9.0,
+  "WK": 8.5,
+  "LO": 9.0,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 9.0,
+  "why": "CH Hillsborough support; WK selfless link player; LO 13 years Liverpool, returned as manager; AB 1983 Ballon d'Or runner-up; ST clever creator; LE 'King Kenny', 1978 winner",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Florian Wirtz",
+  "CH": 6.5,
+  "WK": 7.5,
+  "LO": 4.5,
+  "AB": 8.5,
+  "ST": 9.0,
+  "LE": 6.0,
+  "why": "CH quiet, no issues; WK presses; LO Köln youth to Leverkusen, record move; AB elite creator; ST genius-type creator; LE unbeaten Leverkusen title",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Michael Olise",
+  "CH": 6.0,
+  "WK": 6.0,
+  "LO": 4.0,
+  "AB": 8.5,
+  "ST": 8.5,
+  "LE": 4.5,
+  "why": "CH quiet, no issues; WK medium; LO Reading, Palace, Bayern; AB top winger; ST creative left foot; LE limited",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Nat Borchers",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 5.5,
+  "AB": 5.5,
+  "ST": 4.0,
+  "LE": 4.5,
+  "why": "CH beloved character, no issues; WK committed defender; LO 7 years RSL, 2 at Portland; AB solid MLS CB; ST no-frills CB; LE two MLS Cups",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Bruno Fernandes",
+  "CH": 5.5,
+  "WK": 8.0,
+  "LO": 7.5,
+  "AB": 8.5,
+  "ST": 8.5,
+  "LE": 6.5,
+  "why": "CH complaining reputation; WK tireless; LO captain through bad seasons, rejected Al-Hilal; AB elite creator; ST playmaker; LE United's best of an era",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ }
+]

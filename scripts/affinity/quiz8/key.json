@@ -1,0 +1,638 @@
+{
+ "att": [
+  [
+   "AB",
+   "Ability",
+   [
+    [
+     "World-class",
+     9.5
+    ],
+    [
+     "Very good",
+     7.5
+    ],
+    [
+     "Solid regular",
+     5.5
+    ]
+   ]
+  ],
+  [
+   "CH",
+   "Character",
+   [
+    [
+     "Known for charity and speaking up",
+     9
+    ],
+    [
+     "Quiet, no issues",
+     6
+    ],
+    [
+     "Dives, picks fights",
+     3
+    ]
+   ]
+  ],
+  [
+   "WK",
+   "Effort",
+   [
+    [
+     "Runs for the team, no ego",
+     9
+    ],
+    [
+     "Coasts at times, big ego",
+     4
+    ]
+   ]
+  ],
+  [
+   "LO",
+   "Career",
+   [
+    [
+     "One-club captain",
+     9.5
+    ],
+    [
+     "Moves every few years",
+     4
+    ]
+   ]
+  ],
+  [
+   "ST",
+   "Style",
+   [
+    [
+     "Flair that makes you gasp",
+     9.5
+    ],
+    [
+     "Efficient, unspectacular",
+     5
+    ]
+   ]
+  ],
+  [
+   "LE",
+   "Moments",
+   [
+    [
+     "Iconic goals and trophies",
+     9
+    ],
+    [
+     "No big moments yet",
+     4
+    ]
+   ]
+  ],
+  [
+   "CO",
+   "Club",
+   [
+    [
+     "Plays for one of your clubs",
+     8
+    ],
+    [
+     "No link to your clubs",
+     0
+    ],
+    [
+     "Plays for a club you dislike",
+     -3
+    ]
+   ]
+  ]
+ ],
+ "conj": [
+  [
+   [
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  ],
+  [
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    0,
+    2,
+    1,
+    0,
+    0,
+    1,
+    2
+   ]
+  ],
+  [
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    2
+   ],
+   [
+    2,
+    2,
+    0,
+    0,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  ],
+  [
+   [
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    1,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    2
+   ]
+  ],
+  [
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    2
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  ],
+  [
+   [
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    2,
+    0,
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    1,
+    2,
+    1,
+    0,
+    1,
+    0,
+    2
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    2
+   ]
+  ],
+  [
+   [
+    2,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    2,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    2,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    2,
+    2,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  ],
+  [
+   [
+    2,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    2,
+    0,
+    0,
+    1,
+    0,
+    1,
+    2
+   ]
+  ],
+  [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    2
+   ],
+   [
+    1,
+    2,
+    1,
+    0,
+    1,
+    0,
+    2
+   ]
+  ],
+  [
+   [
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    2,
+    2,
+    1,
+    0,
+    1,
+    0,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  [
+   [
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    2,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ]
+ ],
+ "pairs": [
+  [
+   "Mohamed Salah",
+   "Marco Reus"
+  ],
+  [
+   "Virgil van Dijk",
+   "Darwin Núñez"
+  ],
+  [
+   "Zinedine Zidane",
+   "Tyler Adams"
+  ],
+  [
+   "Cody Gakpo",
+   "Jadon Sancho"
+  ],
+  [
+   "Lionel Messi",
+   "Dominik Szoboszlai"
+  ],
+  [
+   "Virgil van Dijk",
+   "Neymar"
+  ],
+  [
+   "Luis Díaz",
+   "Declan Rice"
+  ],
+  [
+   "Erling Haaland",
+   "Julian Brandt"
+  ],
+  [
+   "Sophia Wilson",
+   "Christine Sinclair"
+  ],
+  [
+   "Lamine Yamal",
+   "Jordan Henderson"
+  ],
+  [
+   "Cristiano Ronaldo",
+   "Bruno Fernandes"
+  ],
+  [
+   "Kylian Mbappé",
+   "Julian Brandt"
+  ],
+  [
+   "Luis Díaz",
+   "Robert Lewandowski"
+  ],
+  [
+   "Jude Bellingham",
+   "Kylian Mbappé"
+  ],
+  [
+   "Zinedine Zidane",
+   "Roberto Firmino"
+  ],
+  [
+   "Alexander Isak",
+   "Jadon Sancho"
+  ],
+  [
+   "Jude Bellingham",
+   "Tyler Adams"
+  ],
+  [
+   "David Beckham",
+   "Bukayo Saka"
+  ],
+  [
+   "Cristiano Ronaldo",
+   "Declan Rice"
+  ],
+  [
+   "Harry Kane",
+   "Lamine Yamal"
+  ],
+  [
+   "Landon Donovan",
+   "Rodri"
+  ],
+  [
+   "Christian Pulisic",
+   "Cole Palmer"
+  ],
+  [
+   "Sophia Wilson",
+   "Sam Kerr"
+  ],
+  [
+   "Luis Suárez",
+   "Martin Ødegaard"
+  ],
+  [
+   "Mohamed Salah",
+   "Ryan Gravenberch"
+  ],
+  [
+   "Rodri",
+   "Luis Suárez"
+  ],
+  [
+   "Alisson Becker",
+   "Jordan Henderson"
+  ],
+  [
+   "Vinícius Júnior",
+   "Alexis Mac Allister"
+  ],
+  [
+   "Florian Wirtz",
+   "N'Golo Kanté"
+  ],
+  [
+   "Darwin Núñez",
+   "Neymar"
+  ]
+ ]
+}

@@ -1,0 +1,83 @@
+<title>Player Affinity</title>
+<style>
+/* Layout: one column of ranked rows under a pill switcher; a row opens in place to show its factor bars. Dark, like the tracker. */
+:root{color-scheme:dark;--bg:#07090c;--card:#121519;--card2:#1c2127;--line:#262c34;--ink:#f3f5f7;--muted:#99a2ac;--faint:#5b646e;
+  --accent:#2fbf71;--bad:#ff6b5e;--gold:#ffd60a;--sans:-apple-system,"SF Pro Text",system-ui,"Helvetica Neue",Arial,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 var(--sans);padding-inline:16px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding-block:20px 48px;display:flex;flex-direction:column;gap:14px}
+h1{margin:0;font-size:32px;letter-spacing:-.03em;font-weight:800}
+.nwb{border:1px solid var(--line);border-radius:999px;background:none;color:var(--muted);font:inherit;font-size:13.5px;font-weight:650;padding:7px 13px;cursor:pointer;align-self:flex-start}
+.nwb[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+.tag{display:inline-block;margin-left:6px;font-size:11px;font-weight:800;letter-spacing:.04em;color:var(--accent);vertical-align:1px}
+.lead{margin:0;color:var(--muted);max-width:62ch}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tabs button{border:0;border-radius:999px;background:var(--card2);color:var(--muted);font:inherit;font-weight:650;padding:8px 14px;cursor:pointer}
+.tabs button[aria-pressed="true"]{background:#fff;color:#000}
+.list{display:flex;flex-direction:column;background:var(--card);border-radius:22px;overflow:hidden}
+.row{border-top:1px solid var(--line)}.row:first-child{border-top:0}
+.row>button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:2.4em 1fr auto;gap:10px;align-items:center;padding:12px 16px;cursor:pointer}
+.row>button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.rk{color:var(--faint);font-weight:700;font-variant-numeric:tabular-nums}
+.nm{font-weight:650;min-width:0}.nm small{display:block;color:var(--muted);font-weight:400;font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sc{font-weight:800;font-size:20px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.det{padding:0 16px 16px 16px;display:flex;flex-direction:column;gap:10px}
+.bars{display:grid;grid-template-columns:7.5em 1fr 2.4em;gap:6px 10px;align-items:center;font-size:13.5px}
+.bars i{display:block;height:7px;border-radius:4px;background:var(--card2);overflow:hidden}.bars i b{display:block;height:100%;background:var(--accent);border-radius:4px}
+.bars span:nth-child(3n){text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.adj{font-size:13.5px;color:var(--muted);display:flex;flex-direction:column;gap:3px}.adj b{color:var(--ink);font-weight:650}
+.adj .neg{color:var(--bad)}.adj .pos{color:var(--accent)}
+.why{font-size:13px;color:var(--muted);margin:0}
+.how{font-size:13px;color:var(--muted)}.how summary{cursor:pointer;color:var(--ink);font-weight:650}
+.how p{margin:8px 0 0}
+</style>
+<div class="wrap">
+  <h1>Player Affinity</h1>
+  <p class="lead">Your Affinity ratings, applied to players. Tap a player for the breakdown.</p>
+  <details class="how"><summary>How it's scored</summary>
+    <p>Six factors from 0 to 10, scored twice by independent researchers and averaged, weighted by your choices between 50 pairs
+    of mystery players and 15 fair-fight pairs of real players: Team player 28%, Character 25%, Loyalty &amp; bond 17%,
+    Joy to watch 15%, Legacy 11%, Greatness 5%.</p>
+    <p>Character starts from the research score and shifts with your values (round 11): betting or crypto deals, refusing Pride
+    or backing a right-leaning candidate pull it down; the rainbow armband, speaking out on racism, backing a left-leaning
+    candidate, fair play and funding schools or clinics lift it. Round 12 adds conduct: drink-driving or partying, feuds, rows with fans or referees, taunting and pushing for moves
+    through the media pull it down; championing the women's game, time with fans, honesty, refugees, the players' union, interests
+    outside football and giving back to fan-owned or youth clubs lift it.</p>
+    <p>Connection is added on top, from your Affinity for each club a player has played for: up to +0.6 a season at clubs you
+    rate 85 or more, nothing at 50, down to −0.6 at clubs you rate 20 or less (gains capped at +4, losses at −3). No club gets
+    extra for being one you follow. Women's spells at European clubs you've only rated for the men's side count as neutral.
+    +2 for US internationals.</p>
+    <p>Penalties follow your baggage ranking, scaled by your choices: abuse allegations −50, racist abuse and match-fixing −39,
+    violent conduct and authoritarian ambassadorships −19, tax fraud −14, doping −11, a forced transfer −8, a move to a Saudi, Gulf or Chinese money league −19 at 29 or younger, −11 at 30 to 33, −5.5 at 34 or older,
+    joining a rival −5.5. Dropped or acquitted cases count 30%, apologies 60%. No cap. Past players aren't marked down for being before your time.</p>
+  </details>
+  <div class="tabs" role="group" aria-label="List">
+    <button type="button" data-l="ma" aria-pressed="true">Men · Active</button><button type="button" data-l="mt" aria-pressed="false">Men · All-time</button>
+    <button type="button" data-l="wa" aria-pressed="false">Women · Active</button><button type="button" data-l="wt" aria-pressed="false">Women · All-time</button>
+  </div>
+  <button type="button" class="nwb" id="nw" aria-pressed="false" hidden>NWSL only</button>
+  <div class="list" id="list"></div>
+</div>
+<script>
+const L = /*__LISTS__*/;
+const F = ['Character', 'Team player', 'Loyalty & bond', 'Greatness', 'Joy to watch', 'Legacy'];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+let cur = 'ma', open = null, nwOnly = false;
+try { cur = localStorage.getItem('pa-list') || 'ma'; if (!L[cur]) cur = 'ma'; } catch (e) {}
+function draw() {
+  document.querySelectorAll('[data-l]').forEach(b => b.setAttribute('aria-pressed', b.dataset.l === cur));
+  const nwb = document.getElementById('nw'); nwb.hidden = cur[0] !== 'w'; nwb.setAttribute('aria-pressed', nwOnly);
+  const rows = L[cur].map((p, i) => [p, i]).filter(([p]) => !(nwOnly && cur[0] === 'w') || p.nw);
+  document.getElementById('list').innerHTML = rows.map(([p, i]) => `<div class="row"><button type="button" data-i="${i}" aria-expanded="${open === i}">
+    <span class="rk">${i + 1}</span><span class="nm">${esc(p.n)}${p.nw ? '<span class="tag">NWSL</span>' : ''}<small>${esc([p.pos, p.nat, p.clubs.slice(-2).join(', ')].filter(Boolean).join(' · '))}</small></span><span class="sc">${p.a.toFixed(1)}</span></button>
+    ${open === i ? `<div class="det"><div class="bars">${p.f.map((v, k) => `<span>${F[k]}</span><i><b style="width:${v * 10}%"></b></i><span>${v.toFixed(1)}</span>`).join('')}</div>
+      <div class="adj">${p.c ? `<span>Connection <b class="${p.c > 0 ? 'pos' : 'neg'}">${p.c > 0 ? '+' : ''}${p.c.toFixed(1)}</b></span>` : ''}
+      ${p.ps ? `<span>Favourite position <b class="pos">+${p.ps.toFixed(1)}</b></span>` : ''}
+      ${p.p ? `<span>Penalties <b class="neg">${p.p.toFixed(1)}</b></span>${p.pen.map(x => `<span>· ${esc(x)}</span>`).join('')}` : ''}</div>
+      ${p.why ? `<p class="why">${esc(p.why)}</p>` : ''}</div>` : ''}</div>`).join('');
+  document.querySelectorAll('[data-i]').forEach(b => b.onclick = () => { const i = +b.dataset.i; open = open === i ? null : i; draw(); });
+}
+document.getElementById('nw').onclick = () => { nwOnly = !nwOnly; open = null; draw(); };
+document.querySelectorAll('[data-l]').forEach(b => b.onclick = () => { cur = b.dataset.l; open = null; try { localStorage.setItem('pa-list', cur); } catch (e) {} draw(); });
+draw();
+</script>

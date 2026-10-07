@@ -1,0 +1,542 @@
+[
+ {
+  "name": "Adrianna Franch",
+  "CH": 6.0,
+  "WK": 6.5,
+  "LO": 6.0,
+  "AB": 6.5,
+  "ST": 4.5,
+  "LE": 3.5,
+  "why": "CH no causes or issues; WK steady keeper; LO 7 years Thorns then traded, now Birmingham (joined Mar 2025); AB NWSL GK of the Year 2018, USWNT backup; ST goalkeeper; LE 2017 title run",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Carles Puyol",
+  "CH": 9.0,
+  "WK": 9.5,
+  "LO": 10.0,
+  "AB": 8.5,
+  "ST": 4.5,
+  "LE": 8.5,
+  "why": "CH famously sporting, handed Abidal the 2011 armband; WK total commitment; LO one club, captain a decade; AB elite CB; ST no-frills defender; LE 2010 WC semi header, Barça-Spain era",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Tim Howard",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 5.5,
+  "AB": 7.0,
+  "ST": 5.0,
+  "LE": 6.5,
+  "why": "CH Tourette advocacy, but 2017 fan altercation and dual-national remarks; WK solid pro; LO 9 years Everton; AB top PL keeper; ST goalkeeper; LE 16 saves vs Belgium 2014",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Neymar",
+  "CH": 3.5,
+  "WK": 2.5,
+  "LO": 1.5,
+  "AB": 9.0,
+  "ST": 9.5,
+  "LE": 7.5,
+  "why": "CH anchor: antics, diving, backed Bolsonaro; WK anchor; LO anchor, Santos return; AB elite peak; ST elite dribbler; LE MSN, Brazil record scorer",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "police closed case 2019, no charges"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok",
+    "note": "acquitted in Spain Dec 2022 (DIS case)"
+   },
+   {
+    "i": 3,
+    "verdict": "ok"
+   },
+   {
+    "i": 4,
+    "verdict": "ok"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 2019,
+    "what": "punched a Rennes fan after the Coupe de France final",
+    "outcome": "FFF 3-match ban (+2 suspended); PSG appealed",
+    "source": "https://www.skysports.com/football/news/11820/11716058/neymar-handed-three-match-ban-by-french-football-federation-after-fan-punch"
+   }
+  ]
+ },
+ {
+  "name": "Cristiano Ronaldo",
+  "CH": 4.5,
+  "WK": 4.0,
+  "LO": 4.0,
+  "AB": 10.0,
+  "ST": 8.5,
+  "LE": 10.0,
+  "why": "CH hospital donations, but ego, gestures, 2022 United interview; WK anchor; LO no long stay, acrimonious exits; AB anchor; ST power and finishing over flair; LE all-time scorer, 5 Ballon d'Or",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   },
+   {
+    "i": 3,
+    "verdict": "ok"
+   },
+   {
+    "i": 4,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Cristian Roldan",
+  "CH": 6.5,
+  "WK": 9.0,
+  "LO": 8.5,
+  "AB": 5.5,
+  "ST": 5.5,
+  "LE": 4.0,
+  "why": "CH decent pro, humble; WK engine, plays anywhere; LO one club since 2015 draft; AB MLS-level star, USMNT fringe; ST functional; LE MLS Cups, Leagues Cup",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Zico",
+  "CH": 7.0,
+  "WK": 6.5,
+  "LO": 8.0,
+  "AB": 9.0,
+  "ST": 9.5,
+  "LE": 8.5,
+  "why": "CH respected, humble (Italian tax charges 1985 noted, outcome unverified); WK creator; LO Flamengo idol two spells; AB one of the best No. 10s; ST free kicks, playmaking; LE 1982 Brazil, founded modern Kashima/J-League",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Marta",
+  "CH": 9.0,
+  "WK": 7.0,
+  "LO": 6.5,
+  "AB": 10.0,
+  "ST": 9.5,
+  "LE": 9.5,
+  "why": "CH UN Women ambassador, equality boots, 2019 speech; WK leads, works; LO Orlando 9 seasons after many clubs; AB anchor; ST genius dribbler; LE 6x World Player, WC record scorer",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Thomas Müller",
+  "CH": 8.0,
+  "WK": 9.0,
+  "LO": 9.0,
+  "AB": 8.0,
+  "ST": 7.0,
+  "LE": 8.0,
+  "why": "CH humble humour, team voice; WK anchor; LO Bayern academy, 17 seasons; AB elite creator-scorer; ST unorthodox Raumdeuter; LE 2014 WC, record Bayern apps",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Phil Foden",
+  "CH": 6.0,
+  "WK": 7.0,
+  "LO": 7.5,
+  "AB": 8.0,
+  "ST": 8.0,
+  "LE": 5.5,
+  "why": "CH quiet, 2020 Covid breach apologised; WK good not elite; LO local academy one club; AB PFA POTY 2024; ST creative dribbler; LE City dynasty, England not yet",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Zlatan Ibrahimović",
+  "CH": 4.0,
+  "WK": 3.0,
+  "LO": 2.0,
+  "AB": 9.0,
+  "ST": 9.0,
+  "LE": 8.0,
+  "why": "CH arrogance, feuds, Lukaku clash, betting stake; WK anchor; LO many clubs incl. rivals; AB elite striker; ST acrobatic goals; LE iconic goals and persona, no UCL",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "wrong",
+    "note": "not direct: Inter->Barcelona 2009, Barcelona->Milan 2010"
+   },
+   {
+    "i": 2,
+    "verdict": "retype",
+    "type": "other",
+    "note": "UEFA EUR 50k fine 2021 for ~10% stake in Bethard; betting-interest breach, not match-fixing"
+   },
+   {
+    "i": 3,
+    "verdict": "ok"
+   },
+   {
+    "i": 4,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Kelly Smith",
+  "CH": 7.5,
+  "WK": 6.5,
+  "LO": 7.0,
+  "AB": 9.0,
+  "ST": 9.0,
+  "LE": 8.0,
+  "why": "CH openness on addiction and mental health; WK creator; LO Arsenal three spells; AB best English player of her era; ST genius playmaker; LE pioneer, record scorer",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Ronaldinho",
+  "CH": 5.0,
+  "WK": 4.0,
+  "LO": 3.5,
+  "AB": 9.5,
+  "ST": 10.0,
+  "LE": 9.0,
+  "why": "CH joyful sportsman, but backed Bolsonaro and passport case; WK low; LO disputed Grêmio exit, 5 years Barça; AB 2005 Ballon d'Or peak; ST anchor; LE Bernabéu ovation, changed Barça",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Vinícius Júnior",
+  "CH": 6.5,
+  "WK": 6.0,
+  "LO": 6.0,
+  "AB": 9.0,
+  "ST": 9.0,
+  "LE": 7.0,
+  "why": "CH leading anti-racism voice, offset by provocations/outbursts; WK works but individualist; LO 8 years Madrid, to 2032; AB FIFA Best 2024; ST elite dribbler; LE two UCL final goals",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Eric Cantona",
+  "CH": 5.5,
+  "WK": 5.0,
+  "LO": 4.0,
+  "AB": 8.5,
+  "ST": 9.0,
+  "LE": 8.5,
+  "why": "CH causes (Abbé Pierre, Qatar boycott) vs repeated tantrums and insults; WK talisman, not a runner; LO 5 years United, Leeds move, quit at 30; AB elite; ST genius flair; LE changed United and the PL",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 1987,
+    "what": "dangerous kung-fu tackle on Nantes' Michel Der Zakarian",
+    "outcome": "3-month ban, reduced to 2 months",
+    "source": "https://en.wikipedia.org/wiki/Eric_Cantona"
+   }
+  ]
+ },
+ {
+  "name": "Julie Foudy",
+  "CH": 9.5,
+  "WK": 9.0,
+  "LO": 6.0,
+  "AB": 7.5,
+  "ST": 6.0,
+  "LE": 8.0,
+  "why": "CH Reebok child-labour stand, Fair Play award, Title IX, equal-pay holdout; WK midfield organiser, captain; LO USWNT career, short club career; AB top midfielder; ST organiser; LE 99ers, women's sport advocate",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Franz Beckenbauer",
+  "CH": 4.5,
+  "WK": 6.0,
+  "LO": 7.0,
+  "AB": 9.5,
+  "ST": 8.0,
+  "LE": 10.0,
+  "why": "CH foundation, but 2006 bid scandal, Qatar 'no slaves' remark, imperious; WK leader not runner; LO Bayern academy 13 years, later president; AB 2 Ballon d'Or; ST elegant libero; LE invented the modern libero, WC as captain and coach",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "Swiss case closed 2020 (time-barred), never convicted",
+    "note": "2016 FIFA fine was for non-cooperation with the 2018/22 bid probe, not the 2006 payment"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Ruud Gullit",
+  "CH": 8.0,
+  "WK": 7.5,
+  "LO": 3.5,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 8.0,
+  "why": "CH Mandela dedication, anti-racism; Terek Grozny job a small minus; WK powerful all-rounder; LO many clubs; AB 1987 Ballon d'Or; ST flair; LE Milan trio, Euro 88",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Michel Platini",
+  "CH": 4.0,
+  "WK": 5.5,
+  "LO": 4.5,
+  "AB": 9.5,
+  "ST": 9.5,
+  "LE": 9.0,
+  "why": "CH Heysel celebration, Blatter payment ban (later acquitted); WK playmaker; LO no long spell; AB 3 straight Ballon d'Or; ST elite playmaker, free kicks; LE Euro 84 nine goals",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Fridolina Rolfö",
+  "CH": 6.0,
+  "WK": 7.5,
+  "LO": 4.0,
+  "AB": 7.5,
+  "ST": 7.0,
+  "LE": 5.0,
+  "why": "CH no issues or causes; WK versatile, works; LO many moves; AB top European winger/LB; ST good left foot; LE 2023 UWCL final winner",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Allie Long",
+  "CH": 6.0,
+  "WK": 7.5,
+  "LO": 5.0,
+  "AB": 6.0,
+  "ST": 5.0,
+  "LE": 3.5,
+  "why": "CH no issues; WK physical holder; LO 4 years Thorns; AB NWSL regular, 2019 WC squad; ST functional; LE minor",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Temwa Chawinga",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 5.0,
+  "AB": 8.5,
+  "ST": 8.5,
+  "LE": 6.0,
+  "why": "CH humble; WK presses; LO 3 years KC; AB record 20-goal MVP season; ST pace and finishing; LE record, Malawi pioneer",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Joseba Etxeberria",
+  "CH": 8.0,
+  "WK": 8.0,
+  "LO": 8.5,
+  "AB": 6.5,
+  "ST": 6.5,
+  "LE": 5.5,
+  "why": "CH played final season unpaid; WK hard-working winger; LO 15 years Athletic (left Real Sociedad at 18); AB Spain international; ST direct winger; LE unpaid season story",
+  "incidents": [],
+  "missing": [
+   {
+    "type": "b09",
+    "year": 1995,
+    "what": "left Real Sociedad for Basque rival Athletic via release clause aged 18",
+    "outcome": "clubs broke relations for years",
+    "source": "https://thesefootballtimes.co/2017/08/29/why-football-needs-more-selfless-heroes-like-joseba-etxeberria/"
+   }
+  ]
+ },
+ {
+  "name": "Carlos Bocanegra",
+  "CH": 6.5,
+  "WK": 7.5,
+  "LO": 4.0,
+  "AB": 6.0,
+  "ST": 4.5,
+  "LE": 5.0,
+  "why": "CH decent pro; WK leader by example; LO journeyman; AB solid European regular; ST no-frills defender; LE USA captain 2010",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Paolo Maldini",
+  "CH": 8.0,
+  "WK": 8.5,
+  "LO": 10.0,
+  "AB": 9.5,
+  "ST": 7.0,
+  "LE": 9.5,
+  "why": "CH dignified, clean (ultras feud); WK model pro; LO anchor; AB greatest of defenders; ST elegant, attacking LB early; LE 25 seasons, 5 European Cups",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Jack Jewsbury",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 6.5,
+  "AB": 5.0,
+  "ST": 5.0,
+  "LE": 4.0,
+  "why": "CH respected, no issues; WK utility, team-first; LO 8 years KC, Timbers captain, stayed in Portland; AB MLS regular; ST set pieces; LE first Timbers MLS captain, 2015 MLS Cup",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Bobby Moore",
+  "CH": 8.0,
+  "WK": 8.0,
+  "LO": 8.5,
+  "AB": 9.0,
+  "ST": 5.5,
+  "LE": 9.5,
+  "why": "CH gentleman, Pelé embrace; WK leader; LO West Ham academy 16 years, captain; AB elite reader of game; ST composed defender; LE lifted 1966 WC",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Julian Ryerson",
+  "CH": 6.5,
+  "WK": 9.0,
+  "LO": 6.0,
+  "AB": 6.5,
+  "ST": 6.5,
+  "LE": 4.0,
+  "why": "CH no issues; WK tireless; LO Union 5 years, BVB since 2023; AB solid Bundesliga full-back; ST attacking two-footed full-back; LE Union rise",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Nico Schlotterbeck",
+  "CH": 6.0,
+  "WK": 7.5,
+  "LO": 6.5,
+  "AB": 7.0,
+  "ST": 5.0,
+  "LE": 4.0,
+  "why": "CH emotional, outspoken; WK committed; LO BVB vice-captain, extended to 2031; AB Germany CB; ST ball-playing CB; LE little yet",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Sam Kerr",
+  "CH": 6.5,
+  "WK": 7.5,
+  "LO": 6.0,
+  "AB": 9.0,
+  "ST": 8.5,
+  "LE": 8.0,
+  "why": "CH LGBTQ visibility vs 2023 taxi incident (acquitted); WK presses, team-first; LO Chelsea 7 years, Perth long; AB elite striker; ST backflips, spectacular goals; LE 2023 WC semi goal, Matildas face",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ }
+]

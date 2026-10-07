@@ -1,0 +1,112 @@
+<title>Player Score Fixes</title>
+<style>
+/* Layout: one column. A position-boost card on top, then players grouped (your clubs, players you know), each row opens
+   to six steppers. Dark, like the Player Affinity page. */
+:root{color-scheme:dark;--bg:#07090c;--card:#121519;--card2:#1c2127;--line:#262c34;--ink:#f3f5f7;--muted:#99a2ac;--faint:#5b646e;
+  --accent:#2fbf71;--pick:#3d8bfd;--bad:#ff6b5e;--sans:-apple-system,"SF Pro Text",system-ui,"Helvetica Neue",Arial,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 var(--sans);padding-inline:16px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding-block:20px 48px;display:flex;flex-direction:column;gap:14px}
+h1{margin:0;font-size:30px;letter-spacing:-.03em;font-weight:800}
+h2{margin:6px 0 0;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:750}
+.lead{margin:0;color:var(--muted);max-width:62ch}
+.card{background:var(--card);border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.card b{font-weight:700}
+.seg{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.seg button{border:1px solid var(--line);background:var(--card2);color:var(--ink);border-radius:12px;font:inherit;font-weight:700;padding:10px 0;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--pick);border-color:var(--pick)}
+.hint{font-size:13px;color:var(--muted);margin:0}
+input[type=search]{width:100%;background:var(--card2);border:1px solid var(--line);border-radius:12px;color:var(--ink);font:inherit;padding:11px 14px}
+.list{display:flex;flex-direction:column;background:var(--card);border-radius:20px;overflow:hidden}
+.row{border-top:1px solid var(--line)}.row:first-child{border-top:0}
+.row>button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:12px 16px;cursor:pointer}
+.row>button:focus-visible{outline:2px solid var(--pick);outline-offset:-2px}
+.nm{font-weight:650;min-width:0}.nm small{display:block;color:var(--muted);font-weight:400;font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sc{font-weight:800;font-size:19px;font-variant-numeric:tabular-nums;text-align:right}.sc small{display:block;font-size:12px;font-weight:700}
+.up{color:var(--accent)}.dn{color:var(--bad)}
+.ed{color:var(--pick);font-size:12px;font-weight:800;margin-left:6px}
+.det{padding:0 16px 16px;display:flex;flex-direction:column;gap:8px}
+.f{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px}
+.f span small{color:var(--faint);margin-left:6px;font-size:12px}
+.step{display:flex;align-items:center;gap:8px}
+.step button{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--card2);color:var(--ink);font-size:20px;cursor:pointer}
+.step output{font-variant-numeric:tabular-nums;font-weight:800;min-width:3ch;text-align:center}
+.step output.chg{color:var(--pick)}
+.why{font-size:13px;color:var(--muted);margin:0}
+.reset{align-self:start;background:none;border:0;color:var(--muted);font:inherit;font-size:13px;text-decoration:underline;cursor:pointer;padding:4px 0}
+.save{font-size:13px;color:var(--faint);text-align:right;min-height:1.2em}
+.more{background:none;border:0;color:var(--muted);font:inherit;text-decoration:underline;cursor:pointer;padding:8px 0;align-self:center}
+</style>
+<div class="wrap">
+  <h1>Player Score Fixes</h1>
+  <p class="lead">I scored every player on six factors from research. Fix any that feel wrong for players you know. Scores update as you go.</p>
+  <div class="card">
+    <b>Boost for playmakers and full-backs</b>
+    <p class="hint">In round 7 you said these are the positions you most love watching. Half the boost goes to players for whom it's a second position.</p>
+    <div class="seg" role="group" aria-label="Position boost" id="seg"></div>
+  </div>
+  <input type="search" id="q" placeholder="Search all players" aria-label="Search all players">
+  <div id="out" style="display:flex;flex-direction:column;gap:10px"></div>
+  <div class="save" id="save"></div>
+</div>
+<script>
+const D = /*__DATA__*/;
+const K = ['CH', 'WK', 'LO', 'AB', 'ST', 'LE'], F = ['Character', 'Team player', 'Loyalty & bond', 'Greatness', 'Joy to watch', 'Legacy'];
+const STORE = 'player-fixes-v1', $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+let st = {pos: null, fix: {}}, open = null, showAll = false, ref = null, timer = null;
+try { const j = JSON.parse(localStorage.getItem(STORE) || 'null'); if (j) st = j; } catch (e) {}
+const wsum = K.reduce((a, k) => a + D.W[k], 0);
+const fv = (p, i) => (st.fix[p.n] || {})[K[i]] ?? p.f[i];
+const aff = (p, pos) => Math.max(0, Math.min(100, K.reduce((a, k, i) => a + D.W[k] * fv(p, i), 0) / wsum * 10 + p.c + p.p + (pos || 0) * p.fav));
+const orig = p => Math.max(0, Math.min(100, K.reduce((a, k, i) => a + D.W[k] * p.f[i], 0) / wsum * 10 + p.c + p.p));
+function save() {
+  try { localStorage.setItem(STORE, JSON.stringify(st)); } catch (e) {}
+  clearTimeout(timer); timer = setTimeout(async () => { if (!ref) return;
+    try { await ref.set({pos: st.pos, fix: st.fix, updated: new Date().toISOString()}); $('#save').textContent = 'Saved'; }
+    catch (e) { $('#save').textContent = 'Saved on this device'; } }, 600);
+}
+function seg() {
+  $('#seg').innerHTML = [0, 2, 4, 6].map(v => `<button type="button" data-v="${v}" aria-pressed="${st.pos === v}">${v ? '+' + v : 'None'}</button>`).join('');
+  $('#seg').querySelectorAll('button').forEach(b => b.onclick = () => { st.pos = +b.dataset.v; save(); seg(); draw(); });
+}
+function row(p) {
+  const a = aff(p, st.pos), d = a - orig(p), fixed = st.fix[p.n] && Object.keys(st.fix[p.n]).length;
+  const sub = [p.w ? 'W' : '', p.pos, p.clubs.join(', ')].filter(Boolean).join(' · ');
+  return `<div class="row"><button type="button" data-n="${esc(p.n)}" aria-expanded="${open === p.n}">
+    <span class="nm">${esc(p.n)}${fixed ? '<span class="ed">edited</span>' : ''}<small>${esc(sub)}</small></span>
+    <span class="sc">${a.toFixed(1)}${Math.abs(d) >= .05 ? `<small class="${d > 0 ? 'up' : 'dn'}">${d > 0 ? '+' : ''}${d.toFixed(1)}</small>` : ''}</span></button>
+    ${open === p.n ? `<div class="det">${K.map((k, i) => { const v = fv(p, i), c = v !== p.f[i];
+      return `<div class="f"><span>${F[i]}${c ? `<small>was ${p.f[i].toFixed(1)}</small>` : ''}</span><span class="step">
+        <button type="button" data-k="${i}" data-d="-0.5" aria-label="Lower ${F[i]}">−</button><output class="${c ? 'chg' : ''}">${v.toFixed(1)}</output>
+        <button type="button" data-k="${i}" data-d="0.5" aria-label="Raise ${F[i]}">+</button></span></div>`; }).join('')}
+      ${p.why ? `<p class="why">${esc(p.why)}</p>` : ''}${fixed ? '<button type="button" class="reset" data-reset>Reset to my scores</button>' : ''}</div>` : ''}</div>`;
+}
+function draw() {
+  const q = $('#q').value.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const m = p => p.n.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').includes(q);
+  let html = '';
+  if (q) { const L = D.players.filter(m).slice(0, 40); html = L.length ? `<div class="list">${L.map(row).join('')}</div>` : '<p class="hint">No player by that name.</p>'; }
+  else {
+    const g = (n, t) => { const L = D.players.filter(p => p.g === n); return L.length ? `<h2>${t}</h2><div class="list">${L.map(row).join('')}</div>` : ''; };
+    html = g(0, 'Active, played for your clubs') + g(1, 'Players you know');
+    const ed = D.players.filter(p => p.g === 2 && st.fix[p.n]);
+    if (ed.length) html += `<h2>Others you edited</h2><div class="list">${ed.map(row).join('')}</div>`;
+  }
+  $('#out').innerHTML = html;
+  $('#out').querySelectorAll('[data-n]').forEach(b => b.onclick = () => { open = open === b.dataset.n ? null : b.dataset.n; draw(); });
+  $('#out').querySelectorAll('[data-k]').forEach(b => b.onclick = () => {
+    const p = D.players.find(x => x.n === open), i = +b.dataset.k, v = Math.max(0, Math.min(10, fv(p, i) + +b.dataset.d));
+    const f = st.fix[p.n] = st.fix[p.n] || {}; if (v === p.f[i]) delete f[K[i]]; else f[K[i]] = v;
+    if (!Object.keys(f).length) delete st.fix[p.n]; save(); draw(); });
+  const r = $('#out').querySelector('[data-reset]'); if (r) r.onclick = () => { delete st.fix[open]; save(); draw(); };
+}
+$('#q').oninput = () => { open = null; draw(); };
+seg(); draw();
+(async () => { try {
+  const db = window.claude && await window.claude.use('db'); if (!db) return;
+  ref = db.doc('responses/kevin'); const s = await ref.get(), r = s.exists ? s.data() : null;
+  if (r && (Object.keys(r.fix || {}).length > Object.keys(st.fix).length || (st.pos == null && r.pos != null))) { st = {pos: r.pos ?? null, fix: r.fix || {}}; seg(); draw(); }
+  else if (st.pos != null || Object.keys(st.fix).length) save();
+} catch (e) {} })();
+</script>

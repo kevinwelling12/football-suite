@@ -9,7 +9,9 @@ k = 0.85 + 0.03 * P before adjustments; base is capped at 100. Then Kevin's big-
 (scripts/affinity/big4.py: distance, rival markets, ownership ties). Then association pulls
 (scripts/affinity/association.py) move linked clubs toward each other, P = recency-weighted success over the last 10 seasons (0-10).
 Squad interplay (scripts/affinity/interplay.py) adds up to +/-2 to Team: clubs by homegrown share against their league,
-nations by how Kevin rates the clubs their internationals play for."""
+nations by how Kevin rates the clubs their internationals play for.
+Players (scripts/affinity/players_link.py): Kevin's Player Affinity for a club's best 5 current players moves Team
+(up to +/-1.5) and for its best 5 icons moves History (up to +/-1). Run everything with scripts/affinity/unified.py."""
 import ast, json, pathlib, sys
 root = pathlib.Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(root / 'scripts' / 'affinity'))
@@ -18,6 +20,7 @@ import performance as perf
 import association as assoc
 import big4
 import interplay
+import players_link
 for node in ast.parse((root / 'scripts' / 'importers' / 'build_usl.py').read_text()).body:
     if isinstance(node, ast.Assign) and getattr(node.targets[0], 'id', '') == 'A':
         S = {**S, **ast.literal_eval(node.value)}
@@ -31,6 +34,7 @@ for key, comp in D.items():
 TR = {}  # name -> (P, season scores)
 for name, cs in comps.items():
     if 'unl' not in cs and name in PERF and perf.primary(cs) in perf.APPLIES: TR[name] = perf.track(PERF[name], perf.BAND[perf.primary(cs)])
+PL = players_link.bumps(D)  # Player Affinity -> Team (current squad) and History (icons); see players_link.py
 DOM = interplay.domestic({n: perf.primary(cs) for n, cs in comps.items() if 'unl' not in cs})
 for key, comp in D.items():
     for t in comp['teams']:
@@ -41,6 +45,11 @@ for key, comp in D.items():
                 b, sh, m = DOM[t['name']]
                 St = round(min(10, max(0, St + b)), 1)
                 t['hai'].update(S=St, S0=S[t['name']][4], tb=b, dom=[sh, m])
+            if key != 'unl' and t['name'] in PL:
+                b = PL[t['name']]
+                s1 = round(min(10, max(0, St + b['team'])), 1); h1 = round(min(10, max(0, H + b['hist'])), 1)
+                dt, dh = round(s1 - St, 2), round(h1 - H, 2); St, H = s1, h1  # what was applied (a 10 can't go higher)
+                t['hai'].update(S=St, H=H, H0=S[t['name']][2], py=dict(t=dt, h=dh, sq=[n for n, _ in b['squad'][:3]], ic=[n for n, _ in b['icons'][:3]]))
             k = 1.0
             if key != 'unl' and t['name'] in TR:
                 P, xs = TR[t['name']]; k = perf.coef(P)

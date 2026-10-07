@@ -1,0 +1,5793 @@
+[
+ {
+  "name": "Pelé",
+  "full_name": "Edson Arantes do Nascimento",
+  "gender": "M",
+  "active": false,
+  "born": 1940,
+  "nation": "Brazil",
+  "positions": [
+   "FW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Santos",
+    "from": 1956,
+    "to": 1974,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "New York Cosmos",
+    "from": 1975,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Santos",
+  "longest_years": 18,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 92,
+   "goals": 77,
+   "captain": false
+  },
+  "honours": "3 World Cups (1958, 1962, 1970), 2 Copa Libertadores, 2 Intercontinental Cups, 6 Brazilian titles (Taça/Brasileiro)",
+  "awards": "FIFA Player of the Century (shared, 2000); Ballon d'Or honorary 2014",
+  "moments": [
+   "Scored twice in 1958 WC final aged 17",
+   "1970 World Cup with the great Brazil side",
+   "Joined NY Cosmos 1975, popularising soccer in the US"
+  ],
+  "style": [
+   "complete forward",
+   "elite finisher",
+   "dribbler",
+   "two-footed"
+  ],
+  "work_rate": "high (all-round, tireless)",
+  "ego": "neutral (global superstar, gracious public image, spoke of himself in third person)",
+  "fan_bond": "Santos idol; declared a 'national treasure' by Brazil's government to keep him from moving abroad",
+  "loyalty_notes": "Stayed at Santos 18 years despite offers from Europe; finished career in the US",
+  "causes": [
+   "UNICEF goodwill/UN ambassador for ecology and environment (1992); Brazil Extraordinary Minister of Sport 1995-98 (Pelé Law against corruption in clubs)"
+  ],
+  "incidents": [
+   {
+    "year": 1960,
+    "type": "other",
+    "what": "refused for years to recognise daughter Sandra Regina, proven by DNA/court 1996",
+    "outcome": "never met her; she died 2006",
+    "source": "https://en.wikipedia.org/wiki/Pelé"
+   },
+   {
+    "year": 1969,
+    "type": "other",
+    "what": "criticised for silence on Brazil's military dictatorship; posed with generals",
+    "outcome": "said in 2021 documentary he saw no torture; widely criticised",
+    "source": "https://www.theguardian.com/football/2021/feb/23/pele-netflix-documentary-dictatorship"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 1975,
+    "what": "joined New York Cosmos (Warner Communications)",
+    "type": "other"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pelé"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Diego Maradona",
+  "full_name": "Diego Armando Maradona",
+  "gender": "M",
+  "active": false,
+  "born": 1960,
+  "nation": "Argentina",
+  "positions": [
+   "AM",
+   "SS"
+  ],
+  "clubs": [
+   {
+    "club": "Argentinos Juniors",
+    "from": 1976,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Boca Juniors",
+    "from": 1981,
+    "to": 1982,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1982,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Napoli",
+    "from": 1984,
+    "to": 1991,
+    "apps": 259,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Sevilla",
+    "from": 1992,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newell's Old Boys",
+    "from": 1993,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Boca Juniors",
+    "from": 1995,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Napoli",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "Napoli captain; Argentina captain 1986 World Cup",
+  "national": {
+   "team": "Argentina",
+   "caps": 91,
+   "goals": 34,
+   "captain": true
+  },
+  "honours": "1986 World Cup, 2 Serie A (Napoli), UEFA Cup 1989, Copa del Rey 1983",
+  "awards": "1986 World Cup Golden Ball; FIFA Player of the Century (shared, 2000)",
+  "moments": [
+   "'Hand of God' and 'Goal of the Century' vs England, 1986",
+   "Napoli's first Scudetto, 1987",
+   "1990 World Cup semi-final in Naples"
+  ],
+  "style": [
+   "dribbler",
+   "playmaker",
+   "genius",
+   "free-kick taker"
+  ],
+  "work_rate": "medium (bursts of brilliance)",
+  "ego": "big (larger-than-life, self-mythologising)",
+  "fan_bond": "Near-religious bond with Napoli fans; murals, stadium renamed Stadio Diego Armando Maradona in 2020",
+  "loyalty_notes": "Carried unfashionable Napoli to two titles; died Nov 2020",
+  "causes": [
+   "Openly anti-imperialist; supported Castro, Chávez and Maduro"
+  ],
+  "incidents": [
+   {
+    "year": 1991,
+    "type": "b03",
+    "what": "cocaine positive in Serie A, 15-month ban",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Diego_Maradona"
+   },
+   {
+    "year": 1994,
+    "type": "b03",
+    "what": "ephedrine positive at World Cup, sent home, 15-month ban",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Diego_Maradona"
+   },
+   {
+    "year": 1994,
+    "type": "b06",
+    "what": "fired an air rifle at journalists outside his home",
+    "outcome": "convicted 1998, suspended sentence",
+    "source": "https://en.wikipedia.org/wiki/Diego_Maradona"
+   },
+   {
+    "year": 2014,
+    "type": "b02",
+    "what": "video appeared to show him striking partner Rocío Oliva; she later accused him of violence",
+    "outcome": "no conviction",
+    "source": "https://www.tribuneindia.com/news/sports/former-partner-in-argentina-accuses-maradona-of-physical-and-sexual-violence-341875/amp"
+   },
+   {
+    "year": 2001,
+    "type": "b02",
+    "what": "Mavys Álvarez says he raped her when she was 16 (relationship 2000-2005)",
+    "outcome": "alleged after his death 2021; trafficking case vs entourage reopened",
+    "source": "https://batimes.com.ar/news/argentina/ex-girlfriend-of-maradona-testifies-in-underage-trafficking-case.phtml"
+   },
+   {
+    "year": 1990,
+    "type": "other",
+    "what": "Italian tax-evasion claims dogged him for decades",
+    "outcome": "Italian court ruled in his favour 2021",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "coached Al-Fujairah (UAE) and earlier Al-Wasl 2011-12; chairman of Dinamo Brest (Belarus) 2018",
+    "type": "other"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Diego_Maradona"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Johan Cruyff",
+  "full_name": "Hendrik Johannes Cruijff",
+  "gender": "M",
+  "active": false,
+  "born": 1947,
+  "nation": "Netherlands",
+  "positions": [
+   "FW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Ajax",
+    "from": 1964,
+    "to": 1973,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Barcelona",
+    "from": 1973,
+    "to": 1978,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Los Angeles Aztecs",
+    "from": 1979,
+    "to": 1979,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Washington Diplomats",
+    "from": 1980,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Levante",
+    "from": 1981,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ajax",
+    "from": 1981,
+    "to": 1983,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Feyenoord",
+    "from": 1983,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Ajax",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "Ajax captain; Netherlands captain 1974",
+  "national": {
+   "team": "Netherlands",
+   "caps": 48,
+   "goals": 33,
+   "captain": true
+  },
+  "honours": "3 European Cups (Ajax), 9 Eredivisie, 1 La Liga; Barcelona coach: 4 La Liga, 1992 European Cup",
+  "awards": "3 Ballon d'Or (1971, 1973, 1974); 1974 WC Golden Ball",
+  "moments": [
+   "'Cruyff turn' vs Sweden, 1974 World Cup",
+   "Total Football and the 1974 WC final",
+   "Barcelona 'Dream Team' as coach, Wembley 1992"
+  ],
+  "style": [
+   "genius",
+   "playmaker",
+   "total football",
+   "visionary"
+  ],
+  "work_rate": "high",
+  "ego": "big (opinionated, combative, but idealistic)",
+  "fan_bond": "Revered at Ajax and Barcelona; shaped both clubs' identities (La Masia, Camp Nou legacy)",
+  "loyalty_notes": "Joined Feyenoord, Ajax's rival, in 1983 after Ajax declined to renew; won the double there",
+  "causes": [
+   "Johan Cruyff Foundation (1997): Cruyff Courts for children and disabled sport",
+   "Anti-smoking campaign after his 1991 heart surgery"
+  ],
+  "incidents": [
+   {
+    "year": 1983,
+    "type": "b09",
+    "what": "joined Feyenoord, Ajax's arch-rival, after Ajax didn't renew his deal",
+    "outcome": "won the double",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Netherlands (80)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Johan_Cruyff"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Franz Beckenbauer",
+  "full_name": "Franz Anton Beckenbauer",
+  "gender": "M",
+  "active": false,
+  "born": 1945,
+  "nation": "Germany",
+  "positions": [
+   "SW",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 1964,
+    "to": 1977,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "New York Cosmos",
+    "from": 1977,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hamburger SV",
+    "from": 1980,
+    "to": 1982,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New York Cosmos",
+    "from": 1983,
+    "to": 1983,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "Bayern captain; West Germany captain (1974 WC)",
+  "national": {
+   "team": "West Germany",
+   "caps": 103,
+   "goals": 14,
+   "captain": true
+  },
+  "honours": "1974 World Cup (captain), 1990 World Cup (coach), Euro 1972, 3 European Cups, 5 Bundesliga",
+  "awards": "2 Ballon d'Or (1972, 1976)",
+  "moments": [
+   "Played with his arm strapped vs Italy, 1970 WC semi",
+   "Lifted 1974 World Cup as captain",
+   "Won 1990 WC as coach"
+  ],
+  "style": [
+   "libero",
+   "elegant",
+   "ball-playing defender",
+   "leader"
+  ],
+  "work_rate": "medium",
+  "ego": "big ('Der Kaiser'; patrician, dominant in German football politics)",
+  "fan_bond": "Bayern icon; later Bayern president",
+  "loyalty_notes": "Bayern through rise from Regionalliga; played in NY and Hamburg late",
+  "causes": [
+   "Franz Beckenbauer Foundation (helps disabled people)"
+  ],
+  "incidents": [
+   {
+    "year": 2016,
+    "type": "other",
+    "what": "2006 World Cup bid corruption allegations (€6.7m payment)",
+    "outcome": "Swiss case lapsed 2020; FIFA ethics fine 2016",
+    "source": "https://en.wikipedia.org/wiki/Franz_Beckenbauer"
+   },
+   {
+    "year": 2013,
+    "type": "other",
+    "what": "said he had 'not seen a single slave' in Qatar",
+    "outcome": "widely criticised",
+    "source": "https://en.wikipedia.org/wiki/Franz_Beckenbauer"
+   },
+   {
+    "year": 2014,
+    "type": "other",
+    "what": "90-day FIFA ban for refusing to cooperate with Qatar/Russia bid probe",
+    "outcome": "lifted after cooperation",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Bayern 1964-77 (Bayern 81); HSV 1980-82 (HSV 75); Germany",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Franz_Beckenbauer"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alfredo Di Stéfano",
+  "full_name": "Alfredo Stéfano Di Stéfano Laulhé",
+  "gender": "M",
+  "active": false,
+  "born": 1926,
+  "nation": "Spain/Argentina",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "River Plate",
+    "from": 1945,
+    "to": 1949,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Huracán",
+    "from": 1946,
+    "to": 1946,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Millonarios",
+    "from": 1949,
+    "to": 1953,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 1953,
+    "to": 1964,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Espanyol",
+    "from": 1964,
+    "to": 1966,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "Real Madrid captain",
+  "national": {
+   "team": "Spain",
+   "caps": 31,
+   "goals": 23,
+   "captain": false
+  },
+  "honours": "5 straight European Cups (1956-60), 8 La Liga",
+  "awards": "2 Ballon d'Or (1957, 1959); 'Super Ballon d'Or' 1989",
+  "moments": [
+   "Hat-trick in 7-3 European Cup final vs Eintracht Frankfurt, 1960",
+   "Disputed 1953 signing that both Barcelona and Real claimed"
+  ],
+  "style": [
+   "all-action centre-forward",
+   "leader",
+   "total footballer"
+  ],
+  "work_rate": "high (famous for covering whole pitch)",
+  "ego": "big (domineering dressing-room boss)",
+  "fan_bond": "Real Madrid honorary president; stadium named after him",
+  "loyalty_notes": "Played for 3 nations (Argentina, Colombia unofficially, Spain); never played a World Cup",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1963,
+    "type": "other",
+    "what": "kidnapped in Venezuela by FALN guerrillas, released unharmed",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alfredo_Di_Stéfano"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ferenc Puskás",
+  "full_name": "Ferenc Puskás Bíró",
+  "gender": "M",
+  "active": false,
+  "born": 1927,
+  "nation": "Hungary",
+  "positions": [
+   "SS",
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Budapest Honvéd",
+    "from": 1943,
+    "to": 1956,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 1958,
+    "to": 1966,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Budapest Honvéd",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "Honvéd and Hungary captain",
+  "national": {
+   "team": "Hungary",
+   "caps": 85,
+   "goals": 84,
+   "captain": true
+  },
+  "honours": "1952 Olympic gold, 3 European Cups, 5 La Liga, 5 Hungarian titles",
+  "awards": "",
+  "moments": [
+   "Hungary 6-3 England at Wembley, 1953",
+   "Four goals in 1960 European Cup final",
+   "1954 WC final played injured"
+  ],
+  "style": [
+   "left-footed finisher",
+   "playmaking forward"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral (jovial, popular)",
+  "fan_bond": "Hungarian national hero; FIFA's goal of the year award is named after him",
+  "loyalty_notes": "Did not return to Hungary after the 1956 revolution; banned 2 years by UEFA/FIFA; returned home 1991",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ferenc_Puskás"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Eusébio",
+  "full_name": "Eusébio da Silva Ferreira",
+  "gender": "M",
+  "active": false,
+  "born": 1942,
+  "nation": "Portugal (born Mozambique)",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Sporting Lourenço Marques",
+    "from": 1957,
+    "to": 1960,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Benfica",
+    "from": 1961,
+    "to": 1975,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Boston Minutemen",
+    "from": 1975,
+    "to": 1975,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Monterrey",
+    "from": 1975,
+    "to": 1976,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Beira-Mar",
+    "from": 1976,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Benfica",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Benfica captain",
+  "national": {
+   "team": "Portugal",
+   "caps": 64,
+   "goals": 41,
+   "captain": false
+  },
+  "honours": "1962 European Cup, 11 Portuguese titles",
+  "awards": "1965 Ballon d'Or; 1966 WC Golden Boot",
+  "moments": [
+   "Four goals vs North Korea from 0-3 down, 1966 WC",
+   "Two goals in 1962 European Cup final vs Real Madrid"
+  ],
+  "style": [
+   "powerful striker",
+   "explosive pace",
+   "long-range shot"
+  ],
+  "work_rate": "high",
+  "ego": "humble ('Black Panther', gracious, known for sportsmanship)",
+  "fan_bond": "Benfica ambassador for life; statue at Estádio da Luz",
+  "loyalty_notes": "Salazar regime blocked moves abroad (declared 'national asset'); stayed at Benfica 15 years",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Eusébio"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "George Best",
+  "full_name": "George Best",
+  "gender": "M",
+  "active": false,
+  "born": 1946,
+  "nation": "Northern Ireland",
+  "positions": [
+   "W"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 1963,
+    "to": 1974,
+    "apps": 470,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Fulham",
+    "from": 1976,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Aztecs",
+    "from": 1976,
+    "to": 1978,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hibernian",
+    "from": 1979,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Jose Earthquakes",
+    "from": 1980,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Northern Ireland",
+   "caps": 37,
+   "goals": 9,
+   "captain": false
+  },
+  "honours": "1968 European Cup, 2 First Division",
+  "awards": "1968 Ballon d'Or",
+  "moments": [
+   "Goal in 1968 European Cup final",
+   "Six goals vs Northampton in FA Cup, 1970"
+  ],
+  "style": [
+   "dribbler",
+   "genius",
+   "flair"
+  ],
+  "work_rate": "medium",
+  "ego": "big (celebrity lifestyle, 'fifth Beatle')",
+  "fan_bond": "Adored at Man Utd; walked out on the club repeatedly in 1972-74",
+  "loyalty_notes": "Quit Man Utd aged 27 amid alcoholism; drifted through many clubs",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1984,
+    "type": "other",
+    "what": "drink-driving and assaulting a police officer; jailed 3 months",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/George_Best"
+   },
+   {
+    "year": 2004,
+    "type": "b02",
+    "what": "ex-wife Alex Best alleged he beat her during their marriage",
+    "outcome": "no charges; he died 2005",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/George_Best"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Bobby Charlton",
+  "full_name": "Sir Robert Charlton",
+  "gender": "M",
+  "active": false,
+  "born": 1937,
+  "nation": "England",
+  "positions": [
+   "AM",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 1956,
+    "to": 1973,
+    "apps": 758,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Preston North End",
+    "from": 1974,
+    "to": 1975,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 17,
+  "one_club": false,
+  "captaincy": "Man Utd captain (1968 European Cup final)",
+  "national": {
+   "team": "England",
+   "caps": 106,
+   "goals": 49,
+   "captain": false
+  },
+  "honours": "1966 World Cup, 1968 European Cup, 3 First Division",
+  "awards": "1966 Ballon d'Or",
+  "moments": [
+   "Survived Munich air disaster, 1958",
+   "1966 World Cup winner",
+   "Two goals in 1968 European Cup final"
+  ],
+  "style": [
+   "long-range shooting",
+   "attacking midfielder",
+   "sportsman"
+  ],
+  "work_rate": "high",
+  "ego": "humble (gentleman, never sent off)",
+  "fan_bond": "Man Utd's soul after Munich; stand at Old Trafford named after him",
+  "loyalty_notes": "Played 17 seasons for the club that nearly died with him; director later; died 2023",
+  "causes": [
+   "Find A Better Way (landmine clearance charity, 2011)"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "England (74)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bobby_Charlton"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bobby Moore",
+  "full_name": "Robert Frederick Chelsea Moore",
+  "gender": "M",
+  "active": false,
+  "born": 1941,
+  "nation": "England",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "West Ham United",
+    "from": 1958,
+    "to": 1974,
+    "apps": 647,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Fulham",
+    "from": 1974,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Antonio Thunder",
+    "from": 1976,
+    "to": 1976,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Seattle Sounders",
+    "from": 1978,
+    "to": 1978,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "West Ham United",
+  "longest_years": 16,
+  "one_club": false,
+  "captaincy": "West Ham captain ~10 yrs; England captain 90 times",
+  "national": {
+   "team": "England",
+   "caps": 108,
+   "goals": 2,
+   "captain": true
+  },
+  "honours": "1966 World Cup, 1964 FA Cup, 1965 Cup Winners' Cup",
+  "awards": "",
+  "moments": [
+   "Lifted the 1966 World Cup",
+   "Tackle and embrace with Pelé, 1970 WC"
+  ],
+  "style": [
+   "reading of game",
+   "composed defender",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "humble (calm, respected)",
+  "fan_bond": "West Ham's greatest; statue at Wembley",
+  "loyalty_notes": "16 years at West Ham; played for Seattle Sounders 1978",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1970,
+    "type": "other",
+    "what": "falsely accused of stealing a bracelet in Bogotá before 1970 WC",
+    "outcome": "released; widely seen as a set-up",
+    "source": "https://en.wikipedia.org/wiki/Bogotá_Bracelet_incident"
+   }
+  ],
+  "money_moves": [],
+  "links": "England captain; Seattle Sounders 1978 (Sounders 79)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bobby_Moore"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gerd Müller",
+  "full_name": "Gerhard Müller",
+  "gender": "M",
+  "active": false,
+  "born": 1945,
+  "nation": "Germany",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "TSV 1861 Nördlingen",
+    "from": 1963,
+    "to": 1964,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 1964,
+    "to": 1979,
+    "apps": 607,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fort Lauderdale Strikers",
+    "from": 1979,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "West Germany",
+   "caps": 62,
+   "goals": 68,
+   "captain": false
+  },
+  "honours": "1974 World Cup, Euro 1972, 3 European Cups, 4 Bundesliga",
+  "awards": "1970 Ballon d'Or; 1970 WC Golden Boot; record 365 Bundesliga goals",
+  "moments": [
+   "Winner in the 1974 World Cup final",
+   "85 goals in calendar year 1972"
+  ],
+  "style": [
+   "poacher",
+   "penalty-box finisher"
+  ],
+  "work_rate": "medium",
+  "ego": "humble (shy, modest)",
+  "fan_bond": "Bayern legend; Bayern gave him a coaching job and helped him overcome alcoholism",
+  "loyalty_notes": "15 years at Bayern; died 2021",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Bayern (81); Germany",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gerd_Müller"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lev Yashin",
+  "full_name": "Lev Ivanovich Yashin",
+  "gender": "M",
+  "active": false,
+  "born": 1929,
+  "nation": "Soviet Union",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Dynamo Moscow",
+    "from": 1950,
+    "to": 1970,
+    "apps": 326,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Dynamo Moscow",
+  "longest_years": 20,
+  "one_club": true,
+  "captaincy": "Dynamo captain",
+  "national": {
+   "team": "Soviet Union",
+   "caps": 74,
+   "goals": 0,
+   "captain": true
+  },
+  "honours": "1960 European Nations' Cup, 1956 Olympic gold, 5 Soviet titles",
+  "awards": "1963 Ballon d'Or (only goalkeeper)",
+  "moments": [
+   "Over 150 penalty saves",
+   "1963 Ballon d'Or"
+  ],
+  "style": [
+   "commanding goalkeeper",
+   "sweeper-keeper pioneer"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Dynamo one-club legend",
+  "loyalty_notes": "One club his whole career (also played ice hockey for Dynamo)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lev_Yashin"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Garrincha",
+  "full_name": "Manuel Francisco dos Santos",
+  "gender": "M",
+  "active": false,
+  "born": 1933,
+  "nation": "Brazil",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Botafogo",
+    "from": 1953,
+    "to": 1965,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians",
+    "from": 1966,
+    "to": 1966,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1968,
+    "to": 1969,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Botafogo",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 50,
+   "goals": 12,
+   "captain": false
+  },
+  "honours": "1958 and 1962 World Cups",
+  "awards": "1962 WC Golden Ball and joint top scorer",
+  "moments": [
+   "Carried Brazil to 1962 World Cup with Pelé injured"
+  ],
+  "style": [
+   "dribbler",
+   "genius",
+   "flair winger"
+  ],
+  "work_rate": "medium",
+  "ego": "humble ('Joy of the People')",
+  "fan_bond": "Botafogo's idol; Brazil lost only once with him and Pelé together",
+  "loyalty_notes": "Died 1983 of alcoholism, aged 49",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1969,
+    "type": "other",
+    "what": "drink-driving crash that killed his mother-in-law",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Garrincha"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Garrincha"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Michel Platini",
+  "full_name": "Michel François Platini",
+  "gender": "M",
+  "active": false,
+  "born": 1955,
+  "nation": "France",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Nancy",
+    "from": 1972,
+    "to": 1979,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Saint-Étienne",
+    "from": 1979,
+    "to": 1982,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1982,
+    "to": 1987,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Nancy",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "France captain (Euro 1984)",
+  "national": {
+   "team": "France",
+   "caps": 72,
+   "goals": 41,
+   "captain": true
+  },
+  "honours": "Euro 1984, 1985 European Cup, 2 Serie A",
+  "awards": "3 straight Ballon d'Or (1983-85)",
+  "moments": [
+   "9 goals at Euro 1984",
+   "Scored the penalty in the 1985 European Cup final at Heysel and celebrated"
+  ],
+  "style": [
+   "playmaker",
+   "free-kick specialist",
+   "goalscoring midfielder"
+  ],
+  "work_rate": "medium",
+  "ego": "big (later UEFA president, imperious)",
+  "fan_bond": "Juve idol; criticised for celebrating at Heysel where 39 died",
+  "loyalty_notes": "Retired at 32",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1985,
+    "type": "other",
+    "what": "celebrated his winning penalty in the Heysel final (Juve v Liverpool) after 39 deaths",
+    "outcome": "later said he regretted it",
+    "source": "https://en.wikipedia.org/wiki/Heysel_Stadium_disaster"
+   },
+   {
+    "year": 2015,
+    "type": "other",
+    "what": "banned from football over CHF 2m payment from Blatter",
+    "outcome": "ban served (to 2019); acquitted of fraud by Swiss courts 2022 and on appeal 2025",
+    "source": "https://www.aljazeera.com/amp/sports/2025/3/25/sepp-blatter-michele-platini-cleared-by-swiss-court-in-corruption-case"
+   },
+   {
+    "year": 2019,
+    "type": "other",
+    "what": "questioned in French probe over 2022 World Cup vote for Qatar",
+    "outcome": "released without charge",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Heysel 1985 (vs Liverpool)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Michel_Platini",
+   "https://www.aljazeera.com/amp/sports/2025/3/25/sepp-blatter-michele-platini-cleared-by-swiss-court-in-corruption-case"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Marco van Basten",
+  "full_name": "Marcel van Basten",
+  "gender": "M",
+  "active": false,
+  "born": 1964,
+  "nation": "Netherlands",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Ajax",
+    "from": 1981,
+    "to": 1987,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "AC Milan",
+    "from": 1987,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Ajax captain",
+  "national": {
+   "team": "Netherlands",
+   "caps": 58,
+   "goals": 24,
+   "captain": false
+  },
+  "honours": "Euro 1988, 2 European Cups, 3 Serie A",
+  "awards": "3 Ballon d'Or (1988, 1989, 1992)",
+  "moments": [
+   "Volley in Euro 1988 final vs USSR"
+  ],
+  "style": [
+   "complete striker",
+   "acrobatic finisher"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Milan and Ajax hero",
+  "loyalty_notes": "Ankle injury ended career at 28 (last match 1993)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2020,
+    "type": "other",
+    "what": "said 'Sieg Heil' on live Dutch TV mocking a German coach",
+    "outcome": "apologised; Fox Sports NL docked his pay",
+    "source": "https://www.bbc.com/sport/football/50959626"
+   }
+  ],
+  "money_moves": [],
+  "links": "Netherlands (80)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marco_van_Basten"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ruud Gullit",
+  "full_name": "Rudi Dil",
+  "gender": "M",
+  "active": false,
+  "born": 1962,
+  "nation": "Netherlands",
+  "positions": [
+   "AM",
+   "SW",
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "HFC Haarlem",
+    "from": 1979,
+    "to": 1982,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Feyenoord",
+    "from": 1982,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV",
+    "from": 1985,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1987,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sampdoria",
+    "from": 1993,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1994,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sampdoria",
+    "from": 1994,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 1995,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "Netherlands captain (Euro 1988)",
+  "national": {
+   "team": "Netherlands",
+   "caps": 66,
+   "goals": 17,
+   "captain": true
+  },
+  "honours": "Euro 1988, 2 European Cups, 3 Serie A; FA Cup 1997 as Chelsea player-manager",
+  "awards": "1987 Ballon d'Or",
+  "moments": [
+   "Dedicated 1987 Ballon d'Or to Nelson Mandela",
+   "Header in Euro 1988 final"
+  ],
+  "style": [
+   "versatile",
+   "powerful",
+   "flair"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (charismatic)",
+  "fan_bond": "Popular at Milan and Chelsea",
+  "loyalty_notes": "PSV 1985-87 (PSV 77)",
+  "causes": [
+   "Anti-apartheid: dedicated Ballon d'Or to Mandela 1987",
+   "Anti-racism campaigning; Dutch anti-racism ambassador"
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2011,
+    "what": "coached Terek Grozny, owned by Chechen leader Ramzan Kadyrov; sacked after months",
+    "type": "other"
+   }
+  ],
+  "links": "PSV 1985-87; Netherlands",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ruud_Gullit"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Frank Rijkaard",
+  "full_name": "Franklin Edmundo Rijkaard",
+  "gender": "M",
+  "active": false,
+  "born": 1962,
+  "nation": "Netherlands",
+  "positions": [
+   "DM",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Ajax",
+    "from": 1980,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Sporting CP",
+    "from": 1987,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Zaragoza",
+    "from": 1987,
+    "to": 1988,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1988,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ajax",
+    "from": 1993,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Ajax",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Netherlands",
+   "caps": 73,
+   "goals": 10,
+   "captain": false
+  },
+  "honours": "Euro 1988, 3 European Cups (2 Milan, 1 Ajax 1995); as coach UCL 2006 with Barcelona",
+  "awards": "",
+  "moments": [
+   "Winner in 1990 European Cup final",
+   "Assist in Ajax's 1995 UCL final"
+  ],
+  "style": [
+   "holding midfielder",
+   "powerful",
+   "ball-playing"
+  ],
+  "work_rate": "high",
+  "ego": "humble (calm)",
+  "fan_bond": "Respected at Ajax, Milan and later Barça as coach",
+  "loyalty_notes": "Left Ajax 1987 after row with Cruyff; returned 1993",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1990,
+    "type": "b06",
+    "what": "spat at Rudi Völler at 1990 World Cup; both sent off",
+    "outcome": "apologised; reconciled",
+    "source": "https://en.wikipedia.org/wiki/Frank_Rijkaard"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2011,
+    "what": "coached Saudi Arabia national team 2011-13",
+    "type": "b12"
+   }
+  ],
+  "links": "Sporting CP 1987 (briefly, loaned out); Netherlands",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Frank_Rijkaard"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Lothar Matthäus",
+  "full_name": "Lothar Herbert Matthäus",
+  "gender": "M",
+  "active": false,
+  "born": 1961,
+  "nation": "Germany",
+  "positions": [
+   "CM",
+   "SW"
+  ],
+  "clubs": [
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 1979,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 1984,
+    "to": 1988,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1988,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 1992,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "MetroStars",
+    "from": 2000,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "Germany captain (1990 WC)",
+  "national": {
+   "team": "West Germany/Germany",
+   "caps": 150,
+   "goals": 23,
+   "captain": true
+  },
+  "honours": "1990 World Cup (captain), Euro 1980, 1991 UEFA Cup, 7 Bundesliga",
+  "awards": "1990 Ballon d'Or; 1991 FIFA World Player",
+  "moments": [
+   "Lifted 1990 World Cup",
+   "Record 25 World Cup matches"
+  ],
+  "style": [
+   "box-to-box",
+   "powerful shot",
+   "libero later"
+  ],
+  "work_rate": "high",
+  "ego": "big (outspoken, media-hungry)",
+  "fan_bond": "Respected; not a fan-favourite type",
+  "loyalty_notes": "Moved Gladbach to Bayern 1984 (direct rival then); missed penalty for Gladbach in 1984 cup final vs Bayern after agreeing move",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Gladbach 1979-84 (74); Bayern (81); Germany",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lothar_Matthäus"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Zinedine Zidane",
+  "full_name": "Zinedine Yazid Zidane",
+  "gender": "M",
+  "active": false,
+  "born": 1972,
+  "nation": "France",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Cannes",
+    "from": 1989,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bordeaux",
+    "from": 1992,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1996,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2001,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Juventus",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "France captain 2004-06",
+  "national": {
+   "team": "France",
+   "caps": 108,
+   "goals": 31,
+   "captain": true
+  },
+  "honours": "1998 World Cup, Euro 2000, 2002 UCL, 2 Serie A, 1 La Liga; 3 UCL as Real coach",
+  "awards": "1998 Ballon d'Or; 3 FIFA World Player",
+  "moments": [
+   "Two headers in 1998 WC final",
+   "Volley in 2002 UCL final",
+   "Headbutt on Materazzi in 2006 WC final"
+  ],
+  "style": [
+   "genius",
+   "playmaker",
+   "close control",
+   "elegant"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral (quiet but temperamental)",
+  "fan_bond": "Adored in France, Madrid; symbol of multicultural France 1998",
+  "loyalty_notes": "",
+  "causes": [
+   "Ambassador for ELA (leukodystrophy charity)",
+   "UNDP goodwill ambassador (Match Against Poverty)"
+  ],
+  "incidents": [
+   {
+    "year": 2006,
+    "type": "b06",
+    "what": "headbutted Materazzi in 2006 WC final, sent off; 14 career red cards",
+    "outcome": "apologised to fans, not to Materazzi; 3-match ban",
+    "source": "https://en.wikipedia.org/wiki/Zinedine_Zidane"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2010,
+    "what": "Qatar 2022 bid ambassador; reportedly paid ~$15m",
+    "type": "b12"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Zinedine_Zidane",
+   "https://www.arabianbusiness.com/industries/sport/zidane-was-paid-15m-support-qatar-bid-report-365745"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ronaldo (Brazilian)",
+  "full_name": "Ronaldo Luís Nazário de Lima",
+  "gender": "M",
+  "active": false,
+  "born": 1976,
+  "nation": "Brazil",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Cruzeiro",
+    "from": 1993,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV",
+    "from": 1994,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1997,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2002,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2007,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Inter Milan",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 98,
+   "goals": 62,
+   "captain": false
+  },
+  "honours": "1994 and 2002 World Cups, 1998 UEFA Cup, 2 La Liga",
+  "awards": "2 Ballon d'Or (1997, 2002); 3 FIFA World Player; 2002 WC Golden Boot",
+  "moments": [
+   "8 goals incl. both in final, 2002 World Cup",
+   "Convulsion before 1998 WC final"
+  ],
+  "style": [
+   "explosive dribbler",
+   "elite finisher"
+  ],
+  "work_rate": "low (famously little pressing)",
+  "ego": "neutral",
+  "fan_bond": "Loved for his brilliance; Inter fans resented his departures",
+  "loyalty_notes": "Left Inter for Real 2002 after pushing for exit; joined Inter's rival Milan 2007",
+  "causes": [
+   "UNDP goodwill ambassador (Match Against Poverty, with Zidane)"
+  ],
+  "incidents": [
+   {
+    "year": 2007,
+    "type": "b09",
+    "what": "joined AC Milan, rival of former club Inter",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2008,
+    "type": "other",
+    "what": "incident with transvestite sex workers in Rio hotel",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2018,
+    "what": "owned Real Valladolid 2018-24 and Cruzeiro 2021-24 (sold both)",
+    "type": "other"
+   }
+  ],
+  "links": "PSV 1994-96 (77)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ronaldinho",
+  "full_name": "Ronaldo de Assis Moreira",
+  "gender": "M",
+  "active": false,
+  "born": 1980,
+  "nation": "Brazil",
+  "positions": [
+   "AM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Grêmio",
+    "from": 1998,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2003,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2008,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Mineiro",
+    "from": 2012,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Querétaro",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fluminense",
+    "from": 2015,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 97,
+   "goals": 33,
+   "captain": false
+  },
+  "honours": "2002 World Cup, 2006 UCL, 2 La Liga, 2013 Copa Libertadores",
+  "awards": "2005 Ballon d'Or; 2 FIFA World Player",
+  "moments": [
+   "Standing ovation from Real Madrid fans at the Bernabéu, 2005",
+   "Free kick over Seaman, 2002 WC"
+  ],
+  "style": [
+   "genius",
+   "dribbler",
+   "flair",
+   "no-look passes"
+  ],
+  "work_rate": "low",
+  "ego": "neutral (joyful showman)",
+  "fan_bond": "Universally loved, joy of the game",
+  "loyalty_notes": "Left Grêmio for PSG in disputed free move 2001 (Grêmio fans angry)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2020,
+    "type": "other",
+    "what": "detained 5 months in Paraguay for entering on a forged passport",
+    "outcome": "suspended sentence, fine; prosecutors said he did not make the passports",
+    "source": "https://www.batimes.com.ar/news/amp/latin-america/ronaldinho-released-from-paraguay-detention-after-five-months.phtml"
+   },
+   {
+    "year": 2018,
+    "type": "other",
+    "what": "publicly backed Jair Bolsonaro",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2001,
+    "what": "joined PSG (pre-Qatar ownership)",
+    "type": "other"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ronaldinho",
+   "https://www.batimes.com.ar/news/amp/latin-america/ronaldinho-released-from-paraguay-detention-after-five-months.phtml"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Rivaldo",
+  "full_name": "Rivaldo Vítor Borba Ferreira",
+  "gender": "M",
+  "active": false,
+  "born": 1972,
+  "nation": "Brazil",
+  "positions": [
+   "AM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Palmeiras",
+    "from": 1994,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Deportivo La Coruña",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1997,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Olympiacos",
+    "from": 2004,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bunyodkor",
+    "from": 2008,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Mogi Mirim",
+    "from": 2011,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 74,
+   "goals": 34,
+   "captain": false
+  },
+  "honours": "2002 World Cup, 2003 UCL, 2 La Liga",
+  "awards": "1999 Ballon d'Or and FIFA World Player",
+  "moments": [
+   "Bicycle-kick hat-trick vs Valencia to reach UCL, 2001"
+  ],
+  "style": [
+   "left-footed",
+   "long-range shot",
+   "playmaker"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Barcelona favourite",
+  "loyalty_notes": "Played into his 40s",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2002,
+    "type": "b07",
+    "what": "feigned being hit in face by ball vs Turkey, 2002 WC",
+    "outcome": "fined by FIFA",
+    "source": "https://en.wikipedia.org/wiki/Rivaldo"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rivaldo"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Romário",
+  "full_name": "Romário de Souza Faria",
+  "gender": "M",
+  "active": false,
+  "born": 1966,
+  "nation": "Brazil",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Vasco da Gama",
+    "from": 1985,
+    "to": 1988,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "PSV",
+    "from": 1988,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1993,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1995,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Valencia",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1997,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vasco da Gama",
+    "from": 2000,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fluminense",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vasco da Gama",
+    "from": 2005,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "PSV",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 70,
+   "goals": 55,
+   "captain": false
+  },
+  "honours": "1994 World Cup, 3 Eredivisie, 1 La Liga",
+  "awards": "1994 FIFA World Player; 1994 WC Golden Ball",
+  "moments": [
+   "Led Brazil to 1994 World Cup"
+  ],
+  "style": [
+   "poacher",
+   "close control",
+   "toe-poke finisher"
+  ],
+  "work_rate": "low",
+  "ego": "big (outspoken, partygoer, famously disdained training)",
+  "fan_bond": "Idol at Vasco and PSV",
+  "loyalty_notes": "",
+  "causes": [
+   "Advocate for people with Down syndrome and disabilities (daughter Ivy); elected federal deputy 2010, senator 2014-"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "PSV 1988-93 (77)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Romário"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kaká",
+  "full_name": "Ricardo Izecson dos Santos Leite",
+  "gender": "M",
+  "active": false,
+  "born": 1982,
+  "nation": "Brazil",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "São Paulo",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "AC Milan",
+    "from": 2003,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2009,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "São Paulo",
+    "from": 2014,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Orlando City",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "Orlando City captain",
+  "national": {
+   "team": "Brazil",
+   "caps": 92,
+   "goals": 29,
+   "captain": false
+  },
+  "honours": "2002 World Cup, 2007 UCL, 1 Serie A",
+  "awards": "2007 Ballon d'Or and FIFA World Player",
+  "moments": [
+   "Dominant 2007 UCL run incl. semi vs Man Utd"
+  ],
+  "style": [
+   "attacking midfielder",
+   "surging runs"
+  ],
+  "work_rate": "high",
+  "ego": "humble (devout, clean-living)",
+  "fan_bond": "Milan fans protested his 2009 sale; stayed in Jan 2009 rejecting Man City",
+  "loyalty_notes": "Rejected record Man City bid Jan 2009, then sold to Real that summer",
+  "causes": [
+   "UN World Food Programme ambassador (from 2004)"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kaká"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Roberto Baggio",
+  "full_name": "Roberto Baggio",
+  "gender": "M",
+  "active": false,
+  "born": 1967,
+  "nation": "Italy",
+  "positions": [
+   "SS",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Vicenza",
+    "from": 1982,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Fiorentina",
+    "from": 1985,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1990,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1995,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bologna",
+    "from": 1997,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1998,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Brescia",
+    "from": 2000,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Fiorentina",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Italy",
+   "caps": 56,
+   "goals": 27,
+   "captain": false
+  },
+  "honours": "1993 UEFA Cup, 2 Serie A",
+  "awards": "1993 Ballon d'Or and FIFA World Player",
+  "moments": [
+   "Missed penalty in 1994 World Cup final",
+   "Refused to take a penalty vs Fiorentina for Juve, 1991"
+  ],
+  "style": [
+   "genius",
+   "fantasista",
+   "free kicks"
+  ],
+  "work_rate": "medium",
+  "ego": "humble (Buddhist, quiet)",
+  "fan_bond": "Fiorentina fans rioted at his 1990 sale to Juve",
+  "loyalty_notes": "Sold to Juve against his will; later revived Brescia",
+  "causes": [
+   "FAO goodwill ambassador; Peace Summit award 2010 for Aung San Suu Kyi advocacy"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Roberto_Baggio"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Paolo Maldini",
+  "full_name": "Paolo Cesare Maldini",
+  "gender": "M",
+  "active": false,
+  "born": 1968,
+  "nation": "Italy",
+  "positions": [
+   "LB",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "AC Milan",
+    "from": 1985,
+    "to": 2009,
+    "apps": 902,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 25,
+  "one_club": true,
+  "captaincy": "Milan captain 1997-2009; Italy captain",
+  "national": {
+   "team": "Italy",
+   "caps": 126,
+   "goals": 7,
+   "captain": true
+  },
+  "honours": "5 European Cups/UCL, 7 Serie A",
+  "awards": "1994 Ballon d'Or runner-up (podium 2003 3rd)",
+  "moments": [
+   "25 seasons at one club",
+   "Lifted 2003 UCL at Old Trafford",
+   "Goal after 50 seconds in 2005 UCL final vs Liverpool"
+  ],
+  "style": [
+   "elite defender",
+   "clean tackler",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Milan's ultimate one-club captain; but ultras booed him at his farewell 2009 over a long-running feud",
+  "loyalty_notes": "One club 25 seasons; later Milan technical director (sacked 2023)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Lost 2005 Istanbul final to Liverpool",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paolo_Maldini"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Franco Baresi",
+  "full_name": "Franchino Baresi",
+  "gender": "M",
+  "active": false,
+  "born": 1960,
+  "nation": "Italy",
+  "positions": [
+   "SW",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "AC Milan",
+    "from": 1977,
+    "to": 1997,
+    "apps": 719,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 20,
+  "one_club": true,
+  "captaincy": "Milan captain ~15 years",
+  "national": {
+   "team": "Italy",
+   "caps": 81,
+   "goals": 1,
+   "captain": true
+  },
+  "honours": "1982 World Cup (squad), 3 European Cups, 6 Serie A",
+  "awards": "1989 Ballon d'Or runner-up",
+  "moments": [
+   "Played 1994 WC final 24 days after knee surgery",
+   "Stayed after Milan's relegations 1980 (betting scandal) and 1982"
+  ],
+  "style": [
+   "libero",
+   "offside-trap organiser",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Milan's No. 6 retired in his honour",
+  "loyalty_notes": "Stayed through two Serie B seasons",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Franco_Baresi"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alessandro Del Piero",
+  "full_name": "Alessandro Del Piero",
+  "gender": "M",
+  "active": false,
+  "born": 1974,
+  "nation": "Italy",
+  "positions": [
+   "SS"
+  ],
+  "clubs": [
+   {
+    "club": "Padova",
+    "from": 1991,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Juventus",
+    "from": 1993,
+    "to": 2012,
+    "apps": 705,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Sydney FC",
+    "from": 2012,
+    "to": 2014,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Delhi Dynamos",
+    "from": 2014,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Juventus",
+  "longest_years": 19,
+  "one_club": false,
+  "captaincy": "Juventus captain 2001-12",
+  "national": {
+   "team": "Italy",
+   "caps": 91,
+   "goals": 27,
+   "captain": false
+  },
+  "honours": "2006 World Cup, 1996 UCL, 6 Serie A (2 stripped)",
+  "awards": "",
+  "moments": [
+   "Stayed with Juve in Serie B 2006-07 and was top scorer",
+   "Goal in 2006 WC semi vs Germany",
+   "Standing ovation at the Bernabéu, 2008"
+  ],
+  "style": [
+   "fantasista",
+   "free kicks",
+   "'Del Piero zone' curler"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Juve's captain icon; famous farewell lap 2012",
+  "loyalty_notes": "Stayed after Calciopoli relegation 2006",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alessandro_Del_Piero"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Francesco Totti",
+  "full_name": "Francesco Totti",
+  "gender": "M",
+  "active": false,
+  "born": 1976,
+  "nation": "Italy",
+  "positions": [
+   "SS",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Roma",
+    "from": 1992,
+    "to": 2017,
+    "apps": 786,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Roma",
+  "longest_years": 25,
+  "one_club": true,
+  "captaincy": "Roma captain 1998-2017",
+  "national": {
+   "team": "Italy",
+   "caps": 58,
+   "goals": 9,
+   "captain": false
+  },
+  "honours": "2006 World Cup, 1 Serie A (2001)",
+  "awards": "2007 European Golden Shoe",
+  "moments": [
+   "Emotional farewell at the Olimpico, 2017",
+   "Penalty vs Australia, 2006 WC"
+  ],
+  "style": [
+   "genius",
+   "playmaker",
+   "chipped penalties ('cucchiaio')"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral (local hero, temperamental)",
+  "fan_bond": "'Il Capitano', Roman born and bred; turned down Real Madrid",
+  "loyalty_notes": "One club 25 years, rejected Real Madrid 2004",
+  "causes": [
+   "UNICEF goodwill ambassador; charity joke books"
+  ],
+  "incidents": [
+   {
+    "year": 2004,
+    "type": "b06",
+    "what": "spat at Christian Poulsen, Euro 2004; 3-match ban",
+    "outcome": "apologised",
+    "source": "https://en.wikipedia.org/wiki/Francesco_Totti"
+   },
+   {
+    "year": 2010,
+    "type": "b06",
+    "what": "kicked Mario Balotelli, red card, 2010 Coppa final",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Francesco_Totti"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Francesco_Totti"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Andrea Pirlo",
+  "full_name": "Andrea Pirlo",
+  "gender": "M",
+  "active": false,
+  "born": 1979,
+  "nation": "Italy",
+  "positions": [
+   "DLP"
+  ],
+  "clubs": [
+   {
+    "club": "Brescia",
+    "from": 1995,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1998,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2001,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2011,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New York City FC",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Italy",
+   "caps": 116,
+   "goals": 13,
+   "captain": false
+  },
+  "honours": "2006 World Cup, 2 UCL, 6 Serie A",
+  "awards": "",
+  "moments": [
+   "Panenka penalty vs England, Euro 2012",
+   "Assist for Grosso, 2006 WC semi"
+  ],
+  "style": [
+   "deep-lying playmaker",
+   "passing genius",
+   "free kicks"
+  ],
+  "work_rate": "low",
+  "ego": "humble (laconic)",
+  "fan_bond": "Beloved by Milan, Juve fans",
+  "loyalty_notes": "Moved Inter to rival Milan 2001",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2001,
+    "type": "b09",
+    "what": "moved from Inter to city rival AC Milan",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2015,
+    "what": "joined New York City FC (City Football Group, Abu Dhabi majority-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andrea_Pirlo"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gianluigi Buffon",
+  "full_name": "Gianluigi Buffon",
+  "gender": "M",
+  "active": false,
+  "born": 1978,
+  "nation": "Italy",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Parma",
+    "from": 1995,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Juventus",
+    "from": 2001,
+    "to": 2018,
+    "apps": 656,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2019,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Parma",
+    "from": 2021,
+    "to": 2023,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Juventus",
+  "longest_years": 19,
+  "one_club": false,
+  "captaincy": "Juventus captain 2012-18; Italy captain",
+  "national": {
+   "team": "Italy",
+   "caps": 176,
+   "goals": 0,
+   "captain": true
+  },
+  "honours": "2006 World Cup, 10 Serie A, 1999 UEFA Cup",
+  "awards": "2006 Ballon d'Or runner-up",
+  "moments": [
+   "2006 World Cup",
+   "Stayed with Juve in Serie B 2006-07",
+   "Tears after missing 2018 World Cup"
+  ],
+  "style": [
+   "shot-stopper",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "humble (gracious, consoled opponents)",
+  "fan_bond": "Juve icon; returned to Parma",
+  "loyalty_notes": "Stayed with Juve in Serie B; PSG move 2018",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2000,
+    "type": "other",
+    "what": "wore '88' shirt (neo-Nazi code) and 'Boia chi molla' fascist slogan",
+    "outcome": "changed number; said ignorance",
+    "source": "https://en.wikipedia.org/wiki/Gianluigi_Buffon"
+   },
+   {
+    "year": 2006,
+    "type": "b04",
+    "what": "investigated for betting via a tobacconist",
+    "outcome": "cleared",
+    "source": "https://en.wikipedia.org/wiki/Gianluigi_Buffon"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2018,
+    "what": "joined Paris Saint-Germain (Qatar)",
+    "type": "b11"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gianluigi_Buffon"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Fabio Cannavaro",
+  "full_name": "Fabio Cannavaro",
+  "gender": "M",
+  "active": false,
+  "born": 1973,
+  "nation": "Italy",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Napoli",
+    "from": 1992,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Parma",
+    "from": 1995,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Ahli Dubai",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Parma",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "Italy captain 2006",
+  "national": {
+   "team": "Italy",
+   "caps": 136,
+   "goals": 2,
+   "captain": true
+  },
+  "honours": "2006 World Cup (captain), 2 La Liga, UEFA Cup 1999",
+  "awards": "2006 Ballon d'Or and FIFA World Player",
+  "moments": [
+   "Lifted 2006 World Cup as captain"
+  ],
+  "style": [
+   "small, quick centre-back",
+   "timing"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Napoli native; left Juve after Calciopoli relegation",
+  "loyalty_notes": "Left Juve for Real Madrid 2006 instead of staying in Serie B",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1999,
+    "type": "other",
+    "what": "video of him being injected with neoton before 1999 UEFA Cup final",
+    "outcome": "legal substance, no ban",
+    "source": ""
+   },
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "10-month suspended sentence for violating seal on his villa",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2010,
+    "what": "played for Al-Ahli Dubai (UAE)",
+    "type": "other"
+   },
+   {
+    "year": 2025,
+    "what": "coaching Uzbekistan national team (2026 WC)",
+    "type": "other"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fabio_Cannavaro",
+   "https://www.flashscore.com/news/soccer-world-championship-italy-world-cup-winner-fabio-cannavaro-to-lead-uzbekistan-at-2026-world-cup/ChZvznR8"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Thierry Henry",
+  "full_name": "Thierry Daniel Henry",
+  "gender": "M",
+  "active": false,
+  "born": 1977,
+  "nation": "France",
+  "positions": [
+   "CF",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Monaco",
+    "from": 1994,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Juventus",
+    "from": 1999,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 1999,
+    "to": 2007,
+    "apps": 377,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2007,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New York Red Bulls",
+    "from": 2010,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2012,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Arsenal",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Arsenal captain 2005-07",
+  "national": {
+   "team": "France",
+   "caps": 123,
+   "goals": 51,
+   "captain": false
+  },
+  "honours": "1998 World Cup, Euro 2000, 2009 UCL, 2 Premier League (Invincibles 2004)",
+  "awards": "2003 Ballon d'Or runner-up; 4 PL Golden Boots",
+  "moments": [
+   "Invincibles season 2003-04",
+   "Goal on Arsenal return, 2012",
+   "Handball assist vs Ireland, 2009"
+  ],
+  "style": [
+   "pace",
+   "finisher",
+   "creative forward"
+  ],
+  "work_rate": "high",
+  "ego": "big (confident, sometimes aloof)",
+  "fan_bond": "Arsenal statue; record scorer",
+  "loyalty_notes": "",
+  "causes": [
+   "Nike 'Stand Up Speak Up' anti-racism campaign (2005)",
+   "Quit social media 2021 over racist abuse"
+  ],
+  "incidents": [
+   {
+    "year": 2009,
+    "type": "other",
+    "what": "handball to set up France's WC play-off winner vs Ireland",
+    "outcome": "admitted; apologised",
+    "source": "https://en.wikipedia.org/wiki/Thierry_Henry"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Thierry_Henry"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Dennis Bergkamp",
+  "full_name": "Dennis Nicolaas Maria Bergkamp",
+  "gender": "M",
+  "active": false,
+  "born": 1969,
+  "nation": "Netherlands",
+  "positions": [
+   "SS"
+  ],
+  "clubs": [
+   {
+    "club": "Ajax",
+    "from": 1986,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1993,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 1995,
+    "to": 2006,
+    "apps": 423,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Arsenal",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Netherlands",
+   "caps": 79,
+   "goals": 37,
+   "captain": false
+  },
+  "honours": "3 PL, 1992 UEFA Cup",
+  "awards": "",
+  "moments": [
+   "Goal vs Argentina, 1998 WC",
+   "Turn and goal vs Newcastle, 2002"
+  ],
+  "style": [
+   "genius",
+   "first touch",
+   "creator"
+  ],
+  "work_rate": "medium",
+  "ego": "humble (quiet perfectionist)",
+  "fan_bond": "Arsenal statue; fan favourite",
+  "loyalty_notes": "Fear of flying",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Netherlands",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dennis_Bergkamp"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Eric Cantona",
+  "full_name": "Eric Daniel Pierre Cantona",
+  "gender": "M",
+  "active": false,
+  "born": 1966,
+  "nation": "France",
+  "positions": [
+   "SS"
+  ],
+  "clubs": [
+   {
+    "club": "Auxerre",
+    "from": 1983,
+    "to": 1988,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Marseille",
+    "from": 1988,
+    "to": 1991,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 1992,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 1992,
+    "to": 1997,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Man Utd captain 1996-97",
+  "national": {
+   "team": "France",
+   "caps": 45,
+   "goals": 20,
+   "captain": true
+  },
+  "honours": "4 PL (1 with Leeds), 2 FA Cups",
+  "awards": "",
+  "moments": [
+   "Kung-fu kick at Selhurst Park, 1995",
+   "Chip vs Sunderland, 1996"
+  ],
+  "style": [
+   "genius",
+   "flair",
+   "creator"
+  ],
+  "work_rate": "medium",
+  "ego": "big ('King Eric', collar up)",
+  "fan_bond": "Man Utd cult hero; Leeds fans resented move",
+  "loyalty_notes": "Moved Leeds to rival Man Utd 1992; retired at 30",
+  "causes": [
+   "Abbé Pierre Foundation (homelessness)",
+   "Called for Qatar 2022 boycott"
+  ],
+  "incidents": [
+   {
+    "year": 1995,
+    "type": "b06",
+    "what": "kung-fu kick at a fan who abused him",
+    "outcome": "8-month ban, community service",
+    "source": "https://en.wikipedia.org/wiki/Eric_Cantona"
+   },
+   {
+    "year": 1992,
+    "type": "b09",
+    "what": "moved from Leeds to bitter rival Man Utd",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Leeds (72) 1992",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Eric_Cantona"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ryan Giggs",
+  "full_name": "Ryan Joseph Giggs",
+  "gender": "M",
+  "active": false,
+  "born": 1973,
+  "nation": "Wales",
+  "positions": [
+   "LW",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 1990,
+    "to": 2014,
+    "apps": 963,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 24,
+  "one_club": true,
+  "captaincy": "Man Utd captain occasionally",
+  "national": {
+   "team": "Wales",
+   "caps": 64,
+   "goals": 12,
+   "captain": true
+  },
+  "honours": "13 PL, 2 UCL",
+  "awards": "",
+  "moments": [
+   "FA Cup semi-final solo goal vs Arsenal, 1999"
+  ],
+  "style": [
+   "winger",
+   "dribbler",
+   "longevity"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Man Utd one-club legend",
+  "loyalty_notes": "One club 24 years",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2020,
+    "type": "b02",
+    "what": "charged with assault and coercive control of ex-partner",
+    "outcome": "hung jury 2022; charges dropped 2023",
+    "source": "https://lbc.co.uk/news/ryan-giggs-retrial-dropped"
+   },
+   {
+    "year": 2011,
+    "type": "other",
+    "what": "privacy injunction over affair scandal",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Ryan_Giggs"
+   }
+  ],
+  "money_moves": [],
+  "links": "Wales (79)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ryan_Giggs",
+   "https://lbc.co.uk/news/ryan-giggs-retrial-dropped"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Paul Scholes",
+  "full_name": "Paul Scholes",
+  "gender": "M",
+  "active": false,
+  "born": 1974,
+  "nation": "England",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 1994,
+    "to": 2013,
+    "apps": 718,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 19,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 66,
+   "goals": 14,
+   "captain": false
+  },
+  "honours": "11 PL, 2 UCL (1999, 2008), 3 FA Cups",
+  "awards": "",
+  "moments": [
+   "Winner vs Barcelona in 2008 UCL semi",
+   "Missed 1999 UCL final through suspension",
+   "Came out of retirement Jan 2012"
+  ],
+  "style": [
+   "passer",
+   "long-range shot",
+   "late runs into box"
+  ],
+  "work_rate": "high",
+  "ego": "humble (shunned media and celebrity)",
+  "fan_bond": "Man Utd one-club academy legend ('Class of 92'); Salford lad",
+  "loyalty_notes": "One club 1994-2013 incl. brief 2011 retirement; co-owner of Salford City; quit England at 29 (2004)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2010,
+    "type": "other",
+    "what": "reputation for reckless tackles; 99 career yellows in PL",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paul_Scholes"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Roy Keane",
+  "full_name": "Roy Maurice Keane",
+  "gender": "M",
+  "active": false,
+  "born": 1971,
+  "nation": "Ireland",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Cobh Ramblers",
+    "from": 1989,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Nottingham Forest",
+    "from": 1990,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 1993,
+    "to": 2005,
+    "apps": 480,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 2005,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "Man Utd captain 1997-2005; Ireland captain",
+  "national": {
+   "team": "Republic of Ireland",
+   "caps": 67,
+   "goals": 9,
+   "captain": true
+  },
+  "honours": "7 PL, 1999 UCL, 4 FA Cups, 1 SPL",
+  "awards": "",
+  "moments": [
+   "Dragged Man Utd past Juventus in 1999 UCL semi despite suspension for final",
+   "Walked out of Ireland's 2002 WC camp in Saipan"
+  ],
+  "style": [
+   "box-to-box",
+   "leader",
+   "tackler"
+  ],
+  "work_rate": "high",
+  "ego": "big (abrasive)",
+  "fan_bond": "Man Utd cult hero as captain; criticised club in 2005 MUTV interview, leading to exit",
+  "loyalty_notes": "Left Man Utd Nov 2005 by mutual consent after MUTV rant; finished at Celtic (boyhood club)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2001,
+    "type": "b06",
+    "what": "admitted deliberate tackle on Haaland",
+    "outcome": "fined £150k, 5-match ban",
+    "source": "https://en.wikipedia.org/wiki/Roy_Keane"
+   },
+   {
+    "year": 2002,
+    "type": "other",
+    "what": "walked out of Ireland's World Cup squad in Saipan",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Roy_Keane"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "David Beckham",
+  "full_name": "David Robert Joseph Beckham",
+  "gender": "M",
+  "active": false,
+  "born": 1975,
+  "nation": "England",
+  "positions": [
+   "RM"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 1992,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2003,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2007,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2013,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "England captain 2000-06",
+  "national": {
+   "team": "England",
+   "caps": 115,
+   "goals": 17,
+   "captain": true
+  },
+  "honours": "6 PL, 1999 UCL, 2 FA Cups, 1 La Liga, 2 MLS Cups, Ligue 1 2013",
+  "awards": "1999 Ballon d'Or runner-up",
+  "moments": [
+   "Halfway-line goal vs Wimbledon, 1996",
+   "Red card vs Argentina at 1998 WC, then vilified",
+   "Last-minute free kick vs Greece to qualify for 2002 WC"
+  ],
+  "style": [
+   "crosser",
+   "free kicks"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (global celebrity brand, but hard-working and polite)",
+  "fan_bond": "Man Utd academy favourite; donated PSG wages to charity 2013",
+  "loyalty_notes": "Sold to Real 2003 after rift with Ferguson; Inter Miami co-owner (founded 2018)",
+  "causes": [
+   "UNICEF goodwill ambassador since 2005 (7 Fund)",
+   "Donated PSG salary to children's charity 2013",
+   "Malaria No More"
+  ],
+  "incidents": [
+   {
+    "year": 1998,
+    "type": "other",
+    "what": "red card vs Argentina at 1998 World Cup",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2013,
+    "what": "played for PSG (Qatar)",
+    "type": "b11"
+   },
+   {
+    "year": 2022,
+    "what": "Qatar 2022 ambassador (reported £150m deal)",
+    "type": "b12"
+   }
+  ],
+  "links": "Inter Miami co-owner (Kevin's Affinity 28)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/David_Beckham",
+   "https://www.eurosport.co.uk/football/world-cup/2022/eric-cantona-david-beckham-is-making-a-big-big-mistake-to-be-qatar-world-cup-ambassador_sto9162838/story.shtml"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Wayne Rooney",
+  "full_name": "Wayne Mark Rooney",
+  "gender": "M",
+  "active": false,
+  "born": 1985,
+  "nation": "England",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Everton",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester United",
+    "from": 2004,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "DC United",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Derby County",
+    "from": 2020,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "Man Utd captain 2014-17; England captain",
+  "national": {
+   "team": "England",
+   "caps": 120,
+   "goals": 53,
+   "captain": true
+  },
+  "honours": "5 PL, 2008 UCL, 1 FA Cup, 2017 Europa League",
+  "awards": "",
+  "moments": [
+   "Wonder goal vs Arsenal for Everton aged 16, 2002",
+   "Overhead kick vs Man City, 2011",
+   "Became Man Utd and England record scorer (253; 53)"
+  ],
+  "style": [
+   "striker",
+   "work rate",
+   "versatile forward"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (combative, emotional)",
+  "fan_bond": "Man Utd record scorer; Everton fans resented 2004 exit, welcomed him back 2017",
+  "loyalty_notes": "Left boyhood Everton 2004; handed in Man Utd transfer request 2010 (citing ambition), then signed new deal; returned to Everton 2017",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "drink-driving",
+    "outcome": "2-year driving ban, 100 hours community service",
+    "source": ""
+   },
+   {
+    "year": 2006,
+    "type": "other",
+    "what": "red card for stamp on Carvalho, 2006 WC QF",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wayne_Rooney"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Xavi",
+  "full_name": "Xavier Hernández Creus",
+  "gender": "M",
+  "active": false,
+  "born": 1980,
+  "nation": "Spain",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 1998,
+    "to": 2015,
+    "apps": 767,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Al Sadd",
+    "from": 2015,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 17,
+  "one_club": false,
+  "captaincy": "Barcelona captain 2014-15",
+  "national": {
+   "team": "Spain",
+   "caps": 133,
+   "goals": 13,
+   "captain": false
+  },
+  "honours": "2010 World Cup, Euro 2008 and 2012, 4 UCL, 8 La Liga",
+  "awards": "Ballon d'Or 3rd 2009, 2010, 2011",
+  "moments": [
+   "Euro 2008 player of the tournament",
+   "Heart of Guardiola's Barcelona 2008-12"
+  ],
+  "style": [
+   "passer",
+   "tempo controller",
+   "press resistance"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (outspoken about football philosophy)",
+  "fan_bond": "La Masia icon; managed Barcelona 2021-24",
+  "loyalty_notes": "Barça academy, 17 seasons; then Qatar (Al Sadd player and coach 2015-21); defended Qatar's system in 2019 interview",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2015,
+    "what": "joined Al Sadd (Qatar; not state-owned by PIF but royal-family club), later coached there",
+    "type": "other"
+   },
+   {
+    "year": 2022,
+    "what": "Qatar 2022 global ambassador",
+    "type": "b12"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Xavi",
+   "https://www.qna.org.qa/en/News-Area/News/2022-07/31/0035-qatar-legacy-ambassadors-to-fifa-world-cup-qatar-2022-sports-legends-promoting-the-qatari-vision"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Andrés Iniesta",
+  "full_name": "Andrés Iniesta Luján",
+  "gender": "M",
+  "active": false,
+  "born": 1984,
+  "nation": "Spain",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2002,
+    "to": 2018,
+    "apps": 674,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Vissel Kobe",
+    "from": 2018,
+    "to": 2023,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Emirates Club",
+    "from": 2023,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 16,
+  "one_club": false,
+  "captaincy": "Barcelona captain 2015-18",
+  "national": {
+   "team": "Spain",
+   "caps": 131,
+   "goals": 13,
+   "captain": false
+  },
+  "honours": "2010 World Cup, Euro 2008 and 2012, 4 UCL, 9 La Liga, 2019 Emperor's Cup",
+  "awards": "2010 Ballon d'Or runner-up",
+  "moments": [
+   "Winning goal in 2010 World Cup final, revealing tribute shirt to Dani Jarque",
+   "Late away goal at Stamford Bridge, 2009 UCL semi"
+  ],
+  "style": [
+   "playmaker",
+   "dribbler",
+   "press resistance"
+  ],
+  "work_rate": "high",
+  "ego": "humble (applauded at rival grounds incl. Espanyol's)",
+  "fan_bond": "Universally loved; ovations from rival fans across Spain",
+  "loyalty_notes": "Barça academy 1996-2018; Vissel Kobe 2018-23; retired Oct 2024",
+  "causes": [
+   "Spoke openly about his depression (2009) to destigmatise mental health"
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "played for Emirates Club (UAE)",
+    "type": "other"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andrés_Iniesta"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Carles Puyol",
+  "full_name": "Carles Puyol Saforcada",
+  "gender": "M",
+  "active": false,
+  "born": 1978,
+  "nation": "Spain",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 1999,
+    "to": 2014,
+    "apps": 593,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 15,
+  "one_club": true,
+  "captaincy": "Barcelona captain 2004-14",
+  "national": {
+   "team": "Spain",
+   "caps": 100,
+   "goals": 3,
+   "captain": false
+  },
+  "honours": "2010 World Cup, Euro 2008, 3 UCL, 6 La Liga",
+  "awards": "",
+  "moments": [
+   "Header winner vs Germany, 2010 WC semi",
+   "Let Abidal lift 2011 UCL trophy after his cancer"
+  ],
+  "style": [
+   "leader",
+   "tackler",
+   "aerial"
+  ],
+  "work_rate": "high",
+  "ego": "humble (team-first, famously sporting)",
+  "fan_bond": "One-club captain; symbol of Catalan identity",
+  "loyalty_notes": "One club 1999-2014 (academy from 1995)",
+  "causes": [
+   "Handed captain's armband to Abidal to lift the 2011 UCL after his liver tumour"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carles_Puyol"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Iker Casillas",
+  "full_name": "Iker Casillas Fernández",
+  "gender": "M",
+  "active": false,
+  "born": 1981,
+  "nation": "Spain",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Real Madrid",
+    "from": 1999,
+    "to": 2015,
+    "apps": 725,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Porto",
+    "from": 2015,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 16,
+  "one_club": false,
+  "captaincy": "Real captain; Spain captain",
+  "national": {
+   "team": "Spain",
+   "caps": 167,
+   "goals": 0,
+   "captain": true
+  },
+  "honours": "2010 World Cup (captain), Euro 2008 and 2012, 3 UCL, 5 La Liga",
+  "awards": "",
+  "moments": [
+   "Save from Robben in 2010 WC final",
+   "Lifted 2010 WC as captain"
+  ],
+  "style": [
+   "shot-stopper",
+   "reflexes"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Real academy icon; split Madrid fans during Mourinho feud",
+  "loyalty_notes": "Real 1999-2015 then Porto; retired 2020 after heart attack (2019)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2022,
+    "type": "other",
+    "what": "posted 'I'm gay' tweet, said it was a hack",
+    "outcome": "apologised to LGBTQ+ community",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Iker_Casillas"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Raúl",
+  "full_name": "Raúl González Blanco",
+  "gender": "M",
+  "active": false,
+  "born": 1977,
+  "nation": "Spain",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Real Madrid",
+    "from": 1994,
+    "to": 2010,
+    "apps": 741,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Schalke 04",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al Sadd",
+    "from": 2012,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New York Cosmos",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 16,
+  "one_club": false,
+  "captaincy": "Real captain; Spain captain",
+  "national": {
+   "team": "Spain",
+   "caps": 102,
+   "goals": 44,
+   "captain": true
+  },
+  "honours": "3 UCL, 6 La Liga, 2011 DFB-Pokal",
+  "awards": "",
+  "moments": [
+   "Goal in 2000 UCL final",
+   "'Shhh' celebration at Camp Nou, 1999"
+  ],
+  "style": [
+   "poacher",
+   "intelligent movement"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Real Madrid academy icon; Schalke cult hero (farewell 2012 standing ovation)",
+  "loyalty_notes": "Came from Atlético youth, joined Real 1992; Real 1994-2010",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2012,
+    "what": "joined Al Sadd (Qatar)",
+    "type": "other"
+   }
+  ],
+  "links": "Schalke (75)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Raúl_(footballer)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Zlatan Ibrahimović",
+  "full_name": "Zlatan Ibrahimović",
+  "gender": "M",
+  "active": false,
+  "born": 1981,
+  "nation": "Sweden",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Malmö FF",
+    "from": 1999,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Ajax",
+    "from": 2001,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2012,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2016,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2020,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Paris Saint-Germain",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "Sweden captain",
+  "national": {
+   "team": "Sweden",
+   "caps": 122,
+   "goals": 62,
+   "captain": true
+  },
+  "honours": "~12 league titles in 4 countries (some stripped/revoked: Juve 2005, 2006), 2017 Europa League; no UCL",
+  "awards": "Ballon d'Or 4th 2013",
+  "moments": [
+   "Bicycle kick from 30 yards vs England, 2012",
+   "Back-heel goal vs Italy, Euro 2004"
+  ],
+  "style": [
+   "striker",
+   "acrobatic",
+   "physical"
+  ],
+  "work_rate": "medium",
+  "ego": "big (speaks of himself in third person)",
+  "fan_bond": "Polarising; Milan fan favourite, led 2022 Scudetto as veteran",
+  "loyalty_notes": "Joined rival clubs: Juve->Inter 2006, Inter->Milan 2010; Milan senior advisor since 2023",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2006,
+    "type": "b09",
+    "what": "moved from Juventus to Inter after Calciopoli",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2010,
+    "type": "b09",
+    "what": "moved from Inter (via Barça) to city rival AC Milan",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2021,
+    "type": "b04",
+    "what": "UEFA €50k fine for ~10% stake in betting firm Bethard",
+    "outcome": "ordered to cut ties",
+    "source": "https://insideworldfootball.com/2021/05/27/ibrahimovic-fined-told-cut-links-bethard-can-keep-playing"
+   },
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "'go do your voodoo shit' clash with Lukaku",
+    "outcome": "1-match ban; FIGC found no racial discrimination",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2012,
+    "what": "joined PSG (Qatar)",
+    "type": "b11"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Zlatan_Ibrahimović",
+   "https://insideworldfootball.com/2021/05/27/ibrahimovic-fined-told-cut-links-bethard-can-keep-playing"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Didier Drogba",
+  "full_name": "Didier Yves Drogba Tébily",
+  "gender": "M",
+  "active": false,
+  "born": 1978,
+  "nation": "Ivory Coast",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Le Mans",
+    "from": 1998,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Guingamp",
+    "from": 2002,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Marseille",
+    "from": 2003,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2004,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Shanghai Shenhua",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Galatasaray",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Montreal Impact",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Phoenix Rising",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Chelsea",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Ivory Coast captain",
+  "national": {
+   "team": "Ivory Coast",
+   "caps": 105,
+   "goals": 65,
+   "captain": true
+  },
+  "honours": "4 PL, 2012 UCL, 4 FA Cups",
+  "awards": "2 African Footballer of the Year",
+  "moments": [
+   "Header and winning penalty, 2012 UCL final",
+   "2005 televised plea for ceasefire in Ivory Coast"
+  ],
+  "style": [
+   "target man",
+   "big-game player"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Chelsea legend; returned 2014",
+  "loyalty_notes": "Chelsea 2004-12 and 2014-15",
+  "causes": [
+   "2005 televised plea for peace helped Ivory Coast ceasefire",
+   "Didier Drogba Foundation (hospital in Abidjan); UNDP goodwill ambassador"
+  ],
+  "incidents": [
+   {
+    "year": 2009,
+    "type": "other",
+    "what": "ranted at referee on camera after Barcelona UCL semi",
+    "outcome": "6-match UEFA ban (reduced)",
+    "source": ""
+   },
+   {
+    "year": 2006,
+    "type": "b07",
+    "what": "diving reputation early at Chelsea; admitted to diving in 2006 interview",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Phoenix Rising co-owner (USL)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Didier_Drogba"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Samuel Eto'o",
+  "full_name": "Samuel Eto'o Fils",
+  "gender": "M",
+  "active": false,
+  "born": 1981,
+  "nation": "Cameroon",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Real Madrid",
+    "from": 1997,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Mallorca",
+    "from": 2000,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2004,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Anzhi Makhachkala",
+    "from": 2011,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sampdoria",
+    "from": 2015,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Antalyaspor",
+    "from": 2015,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Cameroon captain",
+  "national": {
+   "team": "Cameroon",
+   "caps": 118,
+   "goals": 56,
+   "captain": true
+  },
+  "honours": "3 UCL (2006, 2009, 2010), 3 La Liga, 2 AFCON, 2000 Olympic gold",
+  "awards": "4 African Footballer of the Year",
+  "moments": [
+   "Scored in 2006 and 2009 UCL finals",
+   "Treble with Barça 2009 and Inter 2010"
+  ],
+  "style": [
+   "striker",
+   "pace",
+   "work rate"
+  ],
+  "work_rate": "high",
+  "ego": "big (combative, outspoken)",
+  "fan_bond": "Popular at Mallorca, Barça, Inter",
+  "loyalty_notes": "FECAFOOT president 2021-, re-elected 2025",
+  "causes": [
+   "Spoke out against racist abuse; threatened to walk off at Zaragoza 2006",
+   "Fundación Privada Samuel Eto'o"
+  ],
+  "incidents": [
+   {
+    "year": 2022,
+    "type": "b05",
+    "what": "tax fraud (image rights 2006-09)",
+    "outcome": "22-month suspended sentence, €1.8m fine",
+    "source": "https://www.euronews.com/2022/06/21/samuel-etoo-ex-footballer-given-suspended-prison-sentence-for-tax-fraud-in-spain"
+   },
+   {
+    "year": 2022,
+    "type": "b06",
+    "what": "assaulted a YouTuber outside Qatar WC stadium",
+    "outcome": "apologised",
+    "source": ""
+   },
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "CAF ban for betting ambassador role",
+    "outcome": "overturned by CAS",
+    "source": "https://citizen.digital/sports/motsepe-tells-etoo-past-remains-past-after-clearance-by-cas-n359102"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2011,
+    "what": "joined Anzhi (oligarch Kerimov), world-record wages",
+    "type": "other"
+   },
+   {
+    "year": 2022,
+    "what": "Qatar 2022 global ambassador",
+    "type": "b12"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Samuel_Eto'o"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "George Weah",
+  "full_name": "George Tawlon Manneh Oppong Ousman Weah",
+  "gender": "M",
+  "active": false,
+  "born": 1966,
+  "nation": "Liberia",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Monaco",
+    "from": 1988,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 1992,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1995,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2000,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2000,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Marseille",
+    "from": 2000,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Jazira",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Liberia",
+   "caps": 75,
+   "goals": 18,
+   "captain": false
+  },
+  "honours": "2 Serie A (1996, 1999), Ligue 1 1994 (PSG), Coupe de France 1991, 1993, 1995",
+  "awards": "1995 Ballon d'Or and FIFA World Player (only African winner)",
+  "moments": [
+   "Length-of-pitch solo goal vs Verona, 1996",
+   "Elected President of Liberia 2017"
+  ],
+  "style": [
+   "striker",
+   "pace",
+   "power"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Milan legend",
+  "loyalty_notes": "Funded Liberia national team himself in 1990s",
+  "causes": [
+   "UNICEF goodwill ambassador",
+   "Elected president of Liberia 2018-24, conceded defeat peacefully 2023"
+  ],
+  "incidents": [
+   {
+    "year": 2022,
+    "type": "other",
+    "what": "as president: corruption concerns in his administration (US sanctions on officials)",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/George_Weah"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Hristo Stoichkov",
+  "full_name": "Hristo Stoichkov",
+  "gender": "M",
+  "active": false,
+  "born": 1966,
+  "nation": "Bulgaria",
+  "positions": [
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "CSKA Sofia",
+    "from": 1984,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1990,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Parma",
+    "from": 1995,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1996,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Nassr",
+    "from": 1998,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Bulgaria",
+   "caps": 83,
+   "goals": 37,
+   "captain": false
+  },
+  "honours": "1992 European Cup, 4 La Liga, 1997 Cup Winners' Cup",
+  "awards": "1994 Ballon d'Or",
+  "moments": [
+   "1994 WC joint top scorer, Bulgaria to semis"
+  ],
+  "style": [
+   "striker",
+   "left foot",
+   "aggressive"
+  ],
+  "work_rate": "high",
+  "ego": "big (fiery, confrontational)",
+  "fan_bond": "Barça Dream Team idol",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1985,
+    "type": "other",
+    "what": "life ban (later reduced) after brawl in Bulgarian cup final",
+    "outcome": "reduced to one month",
+    "source": ""
+   },
+   {
+    "year": 1990,
+    "type": "b06",
+    "what": "stamped on a referee's foot; 2-month ban",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 1998,
+    "what": "brief spell at Al-Nassr (Saudi; pre-PIF era)",
+    "type": "b10"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hristo_Stoichkov"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Luís Figo",
+  "full_name": "Luís Filipe Madeira Caeiro Figo",
+  "gender": "M",
+  "active": false,
+  "born": 1972,
+  "nation": "Portugal",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Sporting CP",
+    "from": 1989,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1995,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2000,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2005,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Portugal captain",
+  "national": {
+   "team": "Portugal",
+   "caps": 127,
+   "goals": 32,
+   "captain": true
+  },
+  "honours": "2002 UCL, 4 La Liga, 4 Serie A",
+  "awards": "2000 Ballon d'Or; 2001 FIFA World Player",
+  "moments": [
+   "Pig's head thrown at him at Camp Nou, 2002",
+   "Portugal 'golden generation' captain, Euro 2004 final"
+  ],
+  "style": [
+   "winger",
+   "dribbler",
+   "crosser"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Hero at Barça turned hate figure after 2000 move",
+  "loyalty_notes": "Barça captain who moved to Real Madrid via release clause 2000",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2000,
+    "type": "b09",
+    "what": "moved from Barcelona to Real Madrid",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Sporting CP (75)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Luís_Figo"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kenny Dalglish",
+  "full_name": "Sir Kenneth Mathieson Dalglish",
+  "gender": "M",
+  "active": false,
+  "born": 1951,
+  "nation": "Scotland",
+  "positions": [
+   "SS"
+  ],
+  "clubs": [
+   {
+    "club": "Celtic",
+    "from": 1969,
+    "to": 1977,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1977,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Scotland",
+   "caps": 102,
+   "goals": 30,
+   "captain": false
+  },
+  "honours": "3 European Cups, 6 English titles, 4 Scottish titles; as manager 3 titles with Liverpool, 1995 PL with Blackburn",
+  "awards": "1983 Ballon d'Or runner-up",
+  "moments": [
+   "Winner in 1978 European Cup final",
+   "Player-manager double 1986",
+   "Attended funerals and supported Hillsborough families, 1989"
+  ],
+  "style": [
+   "creator",
+   "link-up",
+   "intelligent forward"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "'King Kenny', Liverpool's favourite; returned as manager 2011",
+  "loyalty_notes": "Celtic 1969-77; Liverpool 1977-90; resigned 1991 citing stress after Hillsborough",
+  "causes": [
+   "Supported Hillsborough families; attended funerals; Marina Dalglish breast cancer appeal"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool (85); Scotland (84)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kenny_Dalglish"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ian Rush",
+  "full_name": "Ian James Rush",
+  "gender": "M",
+  "active": false,
+  "born": 1961,
+  "nation": "Wales",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Chester City",
+    "from": 1978,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1980,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1987,
+    "to": 1988,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1988,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Liverpool captain 1993-96",
+  "national": {
+   "team": "Wales",
+   "caps": 73,
+   "goals": 28,
+   "captain": false
+  },
+  "honours": "2 European Cups, 5 league titles, 3 FA Cups",
+  "awards": "",
+  "moments": [
+   "Two goals in 1986 FA Cup final vs Everton",
+   "Record 25 Merseyside derby goals"
+  ],
+  "style": [
+   "poacher",
+   "presser from front"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Liverpool record scorer (346)",
+  "loyalty_notes": "One-year spell at Juventus 1987-88, returned to Liverpool",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool; Wales (79)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ian_Rush"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bastian Schweinsteiger",
+  "full_name": "Bastian Schweinsteiger",
+  "gender": "M",
+  "active": false,
+  "born": 1984,
+  "nation": "Germany",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 2002,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester United",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "Germany captain 2016",
+  "national": {
+   "team": "Germany",
+   "caps": 121,
+   "goals": 24,
+   "captain": true
+  },
+  "honours": "2014 World Cup, 2013 UCL, 8 Bundesliga",
+  "awards": "",
+  "moments": [
+   "Bloodied display in 2014 WC final"
+  ],
+  "style": [
+   "box-to-box",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Bayern academy legend",
+  "loyalty_notes": "Bayern 2002-15 (academy since 1998)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Bayern (81); Germany",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Philipp Lahm",
+  "full_name": "Philipp Lahm",
+  "gender": "M",
+  "active": false,
+  "born": 1983,
+  "nation": "Germany",
+  "positions": [
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 2002,
+    "to": 2017,
+    "apps": 517,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "VfB Stuttgart",
+    "from": 2003,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Bayern captain 2011-17; Germany captain",
+  "national": {
+   "team": "Germany",
+   "caps": 113,
+   "goals": 5,
+   "captain": true
+  },
+  "honours": "2014 World Cup (captain), 2013 UCL, 8 Bundesliga",
+  "awards": "",
+  "moments": [
+   "Lifted 2014 World Cup",
+   "Opening goal of 2006 WC"
+  ],
+  "style": [
+   "full-back",
+   "intelligent",
+   "clean tackler"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Bayern academy captain; retired at 33 at peak",
+  "loyalty_notes": "Bayern academy; loan at Stuttgart 2003-05; Euro 2024 tournament director",
+  "causes": [
+   "Philipp Lahm Foundation (children in South Africa, Germany)",
+   "Criticised FIFA/Qatar 2022 human rights"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Bayern; Stuttgart (78)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Philipp_Lahm"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Miroslav Klose",
+  "full_name": "Miroslav Josef Klose",
+  "gender": "M",
+  "active": false,
+  "born": 1978,
+  "nation": "Germany",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Kaiserslautern",
+    "from": 1999,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Werder Bremen",
+    "from": 2004,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2007,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lazio",
+    "from": 2011,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Lazio",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 137,
+   "goals": 71,
+   "captain": false
+  },
+  "honours": "2014 World Cup, 2 Bundesliga",
+  "awards": "",
+  "moments": [
+   "Record 16 World Cup goals",
+   "Told referee of his handball goal vs Napoli, 2012"
+  ],
+  "style": [
+   "poacher",
+   "header"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Respected widely for fair play",
+  "loyalty_notes": "Kaiserslautern 1999-2004, Werder 2004-07, Bayern 2007-11, Lazio 2011-16; head coach of 1. FC Nürnberg since 2025",
+  "causes": [
+   "Fair play: 2005 waived a penalty; 2012 admitted handball goal"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Werder (77); Bayern; Germany",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Miroslav_Klose"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Arjen Robben",
+  "full_name": "Arjen Robben",
+  "gender": "M",
+  "active": false,
+  "born": 1984,
+  "nation": "Netherlands",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Groningen",
+    "from": 2000,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2004,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2007,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2009,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Groningen",
+    "from": 2020,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Netherlands",
+   "caps": 96,
+   "goals": 37,
+   "captain": false
+  },
+  "honours": "2013 UCL, 8 Bundesliga, 2 PL, 1 La Liga",
+  "awards": "",
+  "moments": [
+   "Winner in 2013 UCL final",
+   "Missed 1-v-1 vs Casillas, 2010 WC final"
+  ],
+  "style": [
+   "inverted winger",
+   "cut inside"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Bayern legend",
+  "loyalty_notes": "Came out of retirement for boyhood Groningen 2020",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2014,
+    "type": "b07",
+    "what": "diving reputation",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Arjen_Robben"
+   }
+  ],
+  "money_moves": [],
+  "links": "PSV (77); Bayern",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arjen_Robben"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gabriel Batistuta",
+  "full_name": "Gabriel Omar Batistuta",
+  "gender": "M",
+  "active": false,
+  "born": 1969,
+  "nation": "Argentina",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Newell's Old Boys",
+    "from": 1988,
+    "to": 1989,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "River Plate",
+    "from": 1989,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Boca Juniors",
+    "from": 1990,
+    "to": 1991,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fiorentina",
+    "from": 1991,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Roma",
+    "from": 2000,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2003,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Arabi",
+    "from": 2003,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Fiorentina",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Argentina",
+   "caps": 77,
+   "goals": 54,
+   "captain": false
+  },
+  "honours": "2001 Serie A, 1991 Copa América, 1993 Copa América",
+  "awards": "",
+  "moments": [
+   "Stayed with Fiorentina in Serie B 1993-94",
+   "Wept after scoring for Roma vs Fiorentina, 2000"
+  ],
+  "style": [
+   "striker",
+   "power shot"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Fiorentina statue; 'Batigol'",
+  "loyalty_notes": "Stayed in Serie B 1993-94; left for Roma 2000 to win title",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2003,
+    "what": "joined Al-Arabi (Qatar)",
+    "type": "other"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gabriel_Batistuta"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Juan Román Riquelme",
+  "full_name": "Juan Román Riquelme",
+  "gender": "M",
+  "active": false,
+  "born": 1978,
+  "nation": "Argentina",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Boca Juniors",
+    "from": 1996,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2002,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Villarreal",
+    "from": 2003,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Boca Juniors",
+    "from": 2007,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Boca Juniors",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Argentina",
+   "caps": 51,
+   "goals": 17,
+   "captain": false
+  },
+  "honours": "3 Copa Libertadores, 2000 Intercontinental Cup",
+  "awards": "",
+  "moments": [
+   "2000 Intercontinental Cup vs Real Madrid",
+   "Missed penalty vs Arsenal, 2006 UCL semi"
+  ],
+  "style": [
+   "playmaker",
+   "slow tempo",
+   "genius"
+  ],
+  "work_rate": "low",
+  "ego": "neutral",
+  "fan_bond": "Boca idol; club president 2023-",
+  "loyalty_notes": "Boca 1996-2002, 2007-14",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Juan_Román_Riquelme"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Zico",
+  "full_name": "Arthur Antunes Coimbra",
+  "gender": "M",
+  "active": false,
+  "born": 1953,
+  "nation": "Brazil",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Flamengo",
+    "from": 1971,
+    "to": 1983,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Udinese",
+    "from": 1983,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1985,
+    "to": 1989,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Kashima Antlers",
+    "from": 1991,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Flamengo",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 71,
+   "goals": 48,
+   "captain": false
+  },
+  "honours": "1981 Copa Libertadores, 1981 Intercontinental Cup",
+  "awards": "",
+  "moments": [
+   "1982 World Cup"
+  ],
+  "style": [
+   "playmaker",
+   "free kicks"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Flamengo idol; Kashima founding father",
+  "loyalty_notes": "Flamengo 1971-83, 1985-89",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Zico"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sócrates",
+  "full_name": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira",
+  "gender": "M",
+  "active": false,
+  "born": 1954,
+  "nation": "Brazil",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Botafogo-SP",
+    "from": 1974,
+    "to": 1978,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians",
+    "from": 1978,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fiorentina",
+    "from": 1984,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Flamengo",
+    "from": 1985,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Corinthians",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "Brazil captain 1982",
+  "national": {
+   "team": "Brazil",
+   "caps": 60,
+   "goals": 22,
+   "captain": true
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Corinthians Democracy",
+   "1982 World Cup"
+  ],
+  "style": [
+   "playmaker",
+   "backheel"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Corinthians icon",
+  "loyalty_notes": "Qualified doctor; died 2011",
+  "causes": [
+   "Corinthians Democracy (1982) against the military dictatorship"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sócrates"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Karl-Heinz Rummenigge",
+  "full_name": "Karl-Heinz Rummenigge",
+  "gender": "M",
+  "active": false,
+  "born": 1955,
+  "nation": "Germany",
+  "positions": [
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 1974,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 1984,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Servette",
+    "from": 1987,
+    "to": 1989,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "West Germany",
+   "caps": 95,
+   "goals": 45,
+   "captain": true
+  },
+  "honours": "2 European Cups, 2 Bundesliga",
+  "awards": "2 Ballon d'Or (1980, 1981)",
+  "moments": [],
+  "style": [
+   "forward",
+   "pace"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Bayern CEO 2002-21",
+  "loyalty_notes": "Bayern 1974-84",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2013,
+    "type": "other",
+    "what": "undeclared Rolex watches from Qatar",
+    "outcome": "fined ~€250k",
+    "source": "https://www.lto.de/recht/nachrichten/n/karl-heinz-rummenigge-vorbestraft-steuerhinterziehung-flughafen-zoll-uhren"
+   }
+  ],
+  "money_moves": [],
+  "links": "Bayern",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Steven Gerrard",
+  "full_name": "Steven George Gerrard",
+  "gender": "M",
+  "active": false,
+  "born": 1980,
+  "nation": "England",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 1998,
+    "to": 2015,
+    "apps": 710,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 17,
+  "one_club": false,
+  "captaincy": "Liverpool captain 2003-15",
+  "national": {
+   "team": "England",
+   "caps": 114,
+   "goals": 21,
+   "captain": true
+  },
+  "honours": "2005 UCL, 2 FA Cups, 3 League Cups",
+  "awards": "",
+  "moments": [
+   "Istanbul 2005",
+   "2006 FA Cup final",
+   "Slip vs Chelsea, 2014"
+  ],
+  "style": [
+   "box-to-box",
+   "long-range shot"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Liverpool legend",
+  "loyalty_notes": "Rejected Chelsea 2004 and 2005 (handed in transfer request then withdrew)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2008,
+    "type": "b06",
+    "what": "charged with affray after bar fight in Southport",
+    "outcome": "acquitted",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "managed Al-Ettifaq (Saudi) until Jan 2025",
+    "type": "b10"
+   }
+  ],
+  "links": "Liverpool",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Steven_Gerrard",
+   "https://www.tntsports.co.uk/football/saudi-arabian-premier-league/2024-2025/steven-gerrard-leaves-al-ettifaq-mutual-consent-saudi-pro-league_sto20076461/story.shtml"
+  ],
+  "confidence": "high"
+ }
+]

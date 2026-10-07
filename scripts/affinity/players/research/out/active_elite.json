@@ -1,0 +1,4880 @@
+[
+ {
+  "name": "Lionel Messi",
+  "full_name": "Lionel Andrés Messi Cuccittini",
+  "gender": "M",
+  "active": true,
+  "born": 1987,
+  "nation": "Argentina",
+  "positions": [
+   "RW",
+   "AM",
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2004,
+    "to": 2021,
+    "apps": 778,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2021,
+    "to": 2023,
+    "apps": 75,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Miami",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 17,
+  "one_club": false,
+  "captaincy": "Barcelona captain 2018-21; Argentina captain 2011-",
+  "national": {
+   "team": "Argentina",
+   "caps": 190,
+   "goals": 112,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Barcelona: 10 La Liga, 4 UCL; PSG: 2 Ligue 1; Inter Miami: Leagues Cup 2023, MLS Cup 2025; Argentina: World Cup 2022, 2 Copa América (2021, 2024)",
+  "awards": "8 Ballon d'Or (record); 2 World Cup Golden Balls (2014, 2022); 6 European Golden Shoes",
+  "moments": [
+   "2022 World Cup final vs France, two goals and the trophy",
+   "91 goals in calendar year 2012",
+   "2026 World Cup final lost 0-1 aet to Spain, aged 39"
+  ],
+  "style": [
+   "playmaker",
+   "dribbler",
+   "elite finisher",
+   "free-kick taker"
+  ],
+  "work_rate": "low (famously walks a lot; decisive in bursts)",
+  "ego": "neutral (quiet, introverted; some on-field edge since 2021, e.g. 'qué mirás, bobo' 2022)",
+  "fan_bond": "Adored at Barcelona; tearful exit 2021; mixed at PSG (booed by ultras 2023); global icon in MLS",
+  "loyalty_notes": "Barcelona academy (La Masia) from age 13; left 2021 only because the club could not register his contract; chose MLS over Saudi offer 2023",
+  "causes": [
+   "UNICEF goodwill ambassador since 2010",
+   "Leo Messi Foundation (children's health, education; Barcelona children's cancer centre)"
+  ],
+  "incidents": [
+   {
+    "year": 2016,
+    "type": "b05",
+    "what": "convicted in Spain of tax fraud with father (image rights), 21-month suspended sentence later converted to a fine",
+    "outcome": "paid; conviction stands",
+    "source": "https://en.wikipedia.org/wiki/Lionel_Messi"
+   },
+   {
+    "year": 2019,
+    "type": "other",
+    "what": "3-month CONMEBOL ban for alleging Copa América corruption",
+    "outcome": "served",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2021,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   },
+   {
+    "year": 2022,
+    "what": "paid Visit Saudi tourism ambassador (since 2022)",
+    "type": "b12"
+   }
+  ],
+  "links": "Plays for Inter Miami (club Affinity 28); MLS (Kevin is in Sacramento)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lionel_Messi",
+   "https://www.nbcmiami.com/world-cup/spain-argentina-final-messi-yamal-score/3835882/"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Inter Miami (contract extended through 2028)"
+ },
+ {
+  "name": "Cristiano Ronaldo",
+  "full_name": "Cristiano Ronaldo dos Santos Aveiro",
+  "gender": "M",
+  "active": true,
+  "born": 1985,
+  "nation": "Portugal",
+  "positions": [
+   "CF",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Sporting CP",
+    "from": 2002,
+    "to": 2003,
+    "apps": 31,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester United",
+    "from": 2003,
+    "to": 2009,
+    "apps": 292,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2009,
+    "to": 2018,
+    "apps": 438,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2018,
+    "to": 2021,
+    "apps": 134,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2021,
+    "to": 2022,
+    "apps": 54,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Nassr",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Portugal captain 2008-; Al-Nassr captain",
+  "national": {
+   "team": "Portugal",
+   "caps": 220,
+   "goals": 140,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "3 PL, 2 La Liga, 2 Serie A, 5 UCL; Portugal: Euro 2016, 2 Nations League (2019, 2025)",
+  "awards": "5 Ballon d'Or; all-time top international and official goalscorer (~976 career goals by Aug 2026)",
+  "moments": [
+   "Euro 2016 final, injured early, coaching from the touchline as Portugal won",
+   "Bicycle kick vs Juventus 2018",
+   "Record 5 World Cups scored in (2006-2022)"
+  ],
+  "style": [
+   "elite finisher",
+   "aerial threat",
+   "athlete"
+  ],
+  "work_rate": "medium (huge personal drive; low pressing late in career)",
+  "ego": "big (self-proclaimed best ever; walked out of Man United with a Piers Morgan interview 2022)",
+  "fan_bond": "Idolised by fans everywhere; acrimonious second exit from Man United",
+  "loyalty_notes": "Sporting academy; left United 2022 after public interview criticising the club; Saudi move 2023; says 2026-27 is 'probably my last year'",
+  "causes": [
+   "Donations to Portuguese hospitals (e.g. ICU units 2020) and children's causes"
+  ],
+  "incidents": [
+   {
+    "year": 2009,
+    "type": "b02",
+    "what": "Kathryn Mayorga alleged rape in Las Vegas; police reopened 2018, no charges 2019 (could not be proven); civil suit dismissed 2022",
+    "outcome": "denied; no charges",
+    "source": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+   },
+   {
+    "year": 2019,
+    "type": "b05",
+    "what": "convicted in Spain of tax fraud, 23-month suspended sentence + ~EUR 18.8m fine",
+    "outcome": "accepted plea deal",
+    "source": ""
+   },
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "obscene gesture to fans chanting Messi's name (Al-Nassr), 1-match ban",
+    "outcome": "banned",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Nassr (Saudi PIF-owned)",
+    "type": "b10"
+   },
+   {
+    "year": 2023,
+    "what": "Al-Nassr is PIF-owned",
+    "type": "b11"
+   }
+  ],
+  "links": "Sporting CP academy (club Affinity 75)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+   "https://www.wlox.com/2026/08/17/cristiano-ronaldo-hints-last-year-football/"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Al-Nassr, contract to June 2027; said Aug 2026 it is 'probably my last year'"
+ },
+ {
+  "name": "Kylian Mbappé",
+  "full_name": "Kylian Mbappé Lottin",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "France",
+  "positions": [
+   "CF",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Monaco",
+    "from": 2015,
+    "to": 2017,
+    "apps": 60,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2017,
+    "to": 2024,
+    "apps": 308,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Paris Saint-Germain",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "France captain 2023-",
+  "national": {
+   "team": "France",
+   "caps": 86,
+   "goals": 48,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Ligue 1 x7 (1 Monaco, 6 PSG); World Cup 2018; Nations League 2021; Real Madrid: Intercontinental Cup 2024",
+  "awards": "World Cup Golden Boot 2022; European Golden Shoe 2025",
+  "moments": [
+   "World Cup 2018 final goal aged 19",
+   "Hat-trick in 2022 World Cup final (lost on pens)"
+  ],
+  "style": [
+   "pace",
+   "elite finisher",
+   "inside forward"
+  ],
+  "work_rate": "low (criticised for low pressing)",
+  "ego": "big (dominated PSG decisions, public contract sagas)",
+  "fan_bond": "Hero at PSG statistically but strained relationship; ended on bad terms",
+  "loyalty_notes": "Strung PSG along 2022 then left on a free 2024; legal dispute with PSG over unpaid wages",
+  "causes": [
+   "Inspired by Bondy roots; funds Premiers de Cordée (sport for hospitalised children)",
+   "Refused to promote betting/fast food in France team photo shoots"
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "b02",
+    "what": "Swedish media named him in a Stockholm rape investigation; prosecutors closed it Dec 2024 for insufficient evidence; he was never notified as suspect",
+    "outcome": "case closed; denied",
+    "source": "https://www.thelocal.se/20241212/swedish-police-drop-rape-inquiry-against-kylian-mbappe"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://www.thelocal.se/20241212/swedish-police-drop-rape-inquiry-against-kylian-mbappe"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Real Madrid"
+ },
+ {
+  "name": "Erling Haaland",
+  "full_name": "Erling Braut Haaland",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Norway",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Bryne",
+    "from": 2016,
+    "to": 2017,
+    "apps": 16,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Molde",
+    "from": 2017,
+    "to": 2019,
+    "apps": 50,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Red Bull Salzburg",
+    "from": 2019,
+    "to": 2020,
+    "apps": 27,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2020,
+    "to": 2022,
+    "apps": 89,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester City",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Norway",
+   "caps": 45,
+   "goals": 45,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Man City: 2 PL, UCL 2023, treble 2023; Salzburg: Austrian titles",
+  "awards": "PL single-season record 36 goals (2022-23); European Golden Shoe 2023",
+  "moments": [
+   "9 goals in one match for Norway U20 vs Honduras 2019",
+   "36 PL goals 2022-23"
+  ],
+  "style": [
+   "poacher",
+   "pace",
+   "aerial"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral (laid-back persona, confident)",
+  "fan_bond": "Popular at Dortmund (yellow wall 'walk' celebrations); City fan favourite",
+  "loyalty_notes": "Release-clause moves; signed 9.5-year City contract 2025 (to 2034)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2022,
+    "what": "joined Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Borussia Dortmund 2020-22; Norway (nation Affinity 76)",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Manchester City (contract to 2034)"
+ },
+ {
+  "name": "Harry Kane",
+  "full_name": "Harry Edward Kane",
+  "gender": "M",
+  "active": true,
+  "born": 1993,
+  "nation": "England",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2009,
+    "to": 2023,
+    "apps": 435,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Tottenham Hotspur",
+  "longest_years": 14,
+  "one_club": false,
+  "captaincy": "England captain 2018-; Tottenham captain (vice/club) to 2023",
+  "national": {
+   "team": "England",
+   "caps": 103,
+   "goals": 71,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Bayern: Bundesliga 2025, 2026; DFB-Pokal 2026 (first trophies of his career came at Bayern)",
+  "awards": "England record goalscorer; World Cup Golden Boot 2018; 3 PL Golden Boots",
+  "moments": [
+   "Became England's record scorer 2023",
+   "First major trophy Bundesliga 2025"
+  ],
+  "style": [
+   "complete forward",
+   "elite finisher",
+   "drops deep playmaker"
+  ],
+  "work_rate": "high",
+  "ego": "humble (low-key, family man)",
+  "fan_bond": "Spurs legend and academy graduate; some Spurs fans upset at 2021 attempt to leave for City",
+  "loyalty_notes": "Spurs academy, loans at Orient, Millwall, Norwich, Leicester; tried to force move to Man City 2021 (skipped first days of preseason), stayed; left 2023",
+  "causes": [
+   "Planned to wear OneLove armband at 2022 WC; dropped after FIFA sanction threat",
+   "Harry Kane Foundation (mental health, 2023)"
+  ],
+  "incidents": [
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "missed start of Spurs preseason amid push to join Man City",
+    "outcome": "returned, stayed 2 more seasons",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Bayern Munich (club Affinity 81); England (74)",
+  "sources": [
+   "https://www.getfootballnewsgermany.com/2026/harry-kane-extension/"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Bayern Munich (let EUR 65m release clause lapse Jan 2026; extension talks)"
+ },
+ {
+  "name": "Mohamed Salah",
+  "full_name": "Mohamed Salah Hamed Mahrous Ghaly",
+  "gender": "M",
+  "active": true,
+  "born": 1992,
+  "nation": "Egypt",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "El Mokawloon",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Basel",
+    "from": 2012,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2014,
+    "to": 2016,
+    "apps": 19,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fiorentina",
+    "from": 2015,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Roma",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2017,
+    "to": 2026,
+    "apps": 435,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Trabzonspor",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Liverpool vice-captain; Egypt captain",
+  "national": {
+   "team": "Egypt",
+   "caps": 105,
+   "goals": 60,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Liverpool: 2 PL (2020, 2025), UCL 2019, FA Cup, 2 League Cups, Club World Cup",
+  "awards": "4 PL Golden Boots; 2x CAF African Player of the Year; PL Player of the Season 2018, 2025",
+  "moments": [
+   "44 goals in 2017-18 debut season",
+   "Penalty in 2019 UCL final",
+   "Farewell to Anfield May 2026"
+  ],
+  "style": [
+   "inverted winger",
+   "elite finisher",
+   "creator"
+  ],
+  "work_rate": "medium (prolific, limited pressing later)",
+  "ego": "neutral (low-key but public spats: Klopp touchline 2024, Slot 'thrown under the bus' Dec 2025)",
+  "fan_bond": "Liverpool icon ('Egyptian King'); 255 goals in 435 apps",
+  "loyalty_notes": "Left Liverpool summer 2026, a year early by agreement, after being dropped late 2025; chose Trabzonspor (Turkey) over Saudi offers",
+  "causes": [
+   "Large donations to home village Nagrig (school, hospital, ambulance)",
+   "Called on UEFA 2025: 'how did he die?' re Palestinian footballer Suleiman al-Obeid; earlier criticised for slow Gaza statement (Oct 2023)"
+  ],
+  "incidents": [
+   {
+    "year": 2025,
+    "type": "other",
+    "what": "public interview Dec 2025 saying Liverpool 'threw me under the bus' after being dropped",
+    "outcome": "left club end of season",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Liverpool 2017-2026 (club Affinity 85); also Chelsea 2014-16",
+  "sources": [
+   "https://www.aljazeera.com/sports/2026/3/25/why-is-mohamed-salah-leaving-liverpool-and-which-club-will-he-join-next",
+   "https://www.thescore.com/news/3574990/salah-arrives-in-istanbul-to-sign-with-trabzonspor"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Trabzonspor (free transfer, Aug 2026, 2-year deal)"
+ },
+ {
+  "name": "Virgil van Dijk",
+  "full_name": "Virgil van Dijk",
+  "gender": "M",
+  "active": true,
+  "born": 1991,
+  "nation": "Netherlands",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Groningen",
+    "from": 2011,
+    "to": 2013,
+    "apps": 62,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 2013,
+    "to": 2015,
+    "apps": 115,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Southampton",
+    "from": 2015,
+    "to": 2018,
+    "apps": 80,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2018,
+    "to": null,
+    "apps": 330,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Liverpool captain 2023-; Netherlands captain 2018-",
+  "national": {
+   "team": "Netherlands",
+   "caps": 82,
+   "goals": 10,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Liverpool: 2 PL, UCL 2019, FA Cup, 2 League Cups; Celtic: 2 Scottish titles",
+  "awards": "Ballon d'Or runner-up 2019; UEFA Men's Player of the Year 2019; PFA POTY 2019",
+  "moments": [
+   "2019 UCL win",
+   "Lifted PL trophy as captain 2025"
+  ],
+  "style": [
+   "ball-playing CB",
+   "aerial",
+   "leader"
+  ],
+  "work_rate": "medium (calm, economical)",
+  "ego": "neutral (confident leader)",
+  "fan_bond": "Fan favourite and captain; renewed 2025 instead of leaving",
+  "loyalty_notes": "Late developer (washed dishes at Willem II academy); handed in transfer request at Southampton 2017 then moved to Liverpool 2018; extended to 2027",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "submitted transfer request at Southampton (tapping-up row with Liverpool)",
+    "outcome": "moved Jan 2018",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Liverpool 2018- captain (club Affinity 85); Netherlands (80); Celtic 2013-15",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Liverpool captain (contract to 2027)"
+ },
+ {
+  "name": "Kevin De Bruyne",
+  "full_name": "Kevin De Bruyne",
+  "gender": "M",
+  "active": true,
+  "born": 1991,
+  "nation": "Belgium",
+  "positions": [
+   "AM",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Genk",
+    "from": 2008,
+    "to": 2012,
+    "apps": 113,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Chelsea",
+    "from": 2012,
+    "to": 2014,
+    "apps": 9,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Werder Bremen",
+    "from": 2012,
+    "to": 2013,
+    "apps": 34,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Wolfsburg",
+    "from": 2014,
+    "to": 2015,
+    "apps": 73,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2015,
+    "to": 2025,
+    "apps": 422,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Napoli",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester City",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "Man City captain 2023-25; Belgium captain",
+  "national": {
+   "team": "Belgium",
+   "caps": 108,
+   "goals": 30,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Man City: 6 PL, UCL 2023, 2 FA Cups, 5 League Cups; Napoli: Serie A 2025",
+  "awards": "2x PFA POTY (2020, 2021); PL assists record joint",
+  "moments": [
+   "Treble 2023",
+   "20 PL assists 2019-20 (record-tying)"
+  ],
+  "style": [
+   "playmaker",
+   "crossing",
+   "long shots"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (quiet, blunt)",
+  "fan_bond": "City legend; emotional farewell 2025",
+  "loyalty_notes": "City did not renew 2025; joined Napoli",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2015,
+    "what": "joined Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Werder Bremen loan 2012-13 (club Affinity 77); Napoli 2025- (74)",
+  "sources": [
+   "https://www.beinsports.com/en-us/soccer/serie-a/articles/de-bruyne-part-of-the-project-at-napoli-despite-conte-criticism-2026-07-24"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Napoli (injury-hit 2025-26; staying 2026-27)"
+ },
+ {
+  "name": "Jude Bellingham",
+  "full_name": "Jude Victor William Bellingham",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "England",
+  "positions": [
+   "AM",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Birmingham City",
+    "from": 2019,
+    "to": 2020,
+    "apps": 44,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2020,
+    "to": 2023,
+    "apps": 132,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "Occasional Dortmund captain 2022-23",
+  "national": {
+   "team": "England",
+   "caps": 45,
+   "goals": 6,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Real Madrid: La Liga 2024, UCL 2024; Dortmund: DFB-Pokal 2021",
+  "awards": "Kopa Trophy 2023; Golden Boy 2023; La Liga Player of the Season 2024",
+  "moments": [
+   "Overhead kick vs Slovakia, Euro 2024",
+   "Birmingham retired his No.22 shirt aged 17"
+  ],
+  "style": [
+   "box-to-box",
+   "goal-scoring midfielder"
+  ],
+  "work_rate": "high",
+  "ego": "big (swagger; celebrated with arms out)",
+  "fan_bond": "Very popular at Dortmund; Birmingham retired his number",
+  "loyalty_notes": "Left Birmingham at 17 for Dortmund; left Dortmund for Real Madrid 2023",
+  "causes": [
+   "Spoke out against online racist abuse of England team-mates (2021)"
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "Euro 2024 groin gesture vs Slovakia, UEFA fine + suspended 1-match ban",
+    "outcome": "fined",
+    "source": ""
+   },
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "fined by DFB for saying referee who'd fixed matches would referee Klassiker",
+    "outcome": "fined",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Borussia Dortmund 2020-23 (club Affinity 83); England (74)",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Real Madrid"
+ },
+ {
+  "name": "Lamine Yamal",
+  "full_name": "Lamine Yamal Nasraoui Ebana",
+  "gender": "M",
+  "active": true,
+  "born": 2007,
+  "nation": "Spain",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 3,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "Spain",
+   "caps": 25,
+   "goals": 6,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Barcelona: La Liga 2025, 2026 (club champions); Copa del Rey 2025; Spain: Euro 2024, World Cup 2026",
+  "awards": "Euro 2024 Young Player; Kopa Trophy 2024, 2025; Golden Boy 2024; Ballon d'Or runner-up 2025",
+  "moments": [
+   "Wonder goal vs France, Euro 2024 semi, aged 16",
+   "World Cup winner 2026 aged 19"
+  ],
+  "style": [
+   "inverted winger",
+   "dribbler",
+   "creator"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral-to-big (social-media flair, mocked Real Madrid pre-Clásico 2025)",
+  "fan_bond": "Academy hero; celebrates Rocafonda (Mataró) roots with '304' postcode",
+  "loyalty_notes": "La Masia; renewed to 2031",
+  "causes": [
+   "Pride in Rocafonda neighbourhood; Moroccan-Equatoguinean roots (target of racist abuse)"
+  ],
+  "incidents": [
+   {
+    "year": 2025,
+    "type": "other",
+    "what": "controversial 18th birthday party (reports of hired performers with dwarfism; Spain's equality ministry asked for investigation)",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Barcelona (club Affinity 73)",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/48870392/"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Barcelona"
+ },
+ {
+  "name": "Vinícius Júnior",
+  "full_name": "Vinícius José Paixão de Oliveira Júnior",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Brazil",
+  "positions": [
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Flamengo",
+    "from": 2017,
+    "to": 2018,
+    "apps": 70,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2018,
+    "to": null,
+    "apps": 330,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 40,
+   "goals": 6,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Real Madrid: 3 La Liga, 2 UCL (2022, 2024)",
+  "awards": "FIFA The Best 2024; Ballon d'Or runner-up 2024",
+  "moments": [
+   "Winner in 2022 UCL final",
+   "Goal in 2024 UCL final"
+  ],
+  "style": [
+   "dribbler",
+   "pace",
+   "inside forward"
+  ],
+  "work_rate": "high",
+  "ego": "big (provocative with opponents; Madrid boycotted 2024 Ballon d'Or gala)",
+  "fan_bond": "Real Madrid fans love him; opposing fans often hostile",
+  "loyalty_notes": "Signed to 2032 Aug 2026 after long talks and Arsenal interest",
+  "causes": [
+   "Leading campaigner against racism in Spanish football (Valencia 2023 abuse led to convictions)",
+   "Instituto Vini Jr. (education in Brazil)"
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "repeated touchline provocations and 2025 Clásico outburst at substitution",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://www.football-espana.net/2026/08/07/vinicius-real-madrid-renewal"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Real Madrid (contract to 2032)"
+ },
+ {
+  "name": "Rodri",
+  "full_name": "Rodrigo Hernández Cascante",
+  "gender": "M",
+  "active": true,
+  "born": 1996,
+  "nation": "Spain",
+  "positions": [
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Villarreal",
+    "from": 2015,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2018,
+    "to": 2019,
+    "apps": 47,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester City",
+    "from": 2019,
+    "to": 2026,
+    "apps": 260,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester City",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "Man City vice-captain; Spain captain at 2026 WC per reports",
+  "national": {
+   "team": "Spain",
+   "caps": 60,
+   "goals": 4,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Man City: 4 PL, UCL 2023 (scored winner); Spain: Euro 2024, Nations League 2023, World Cup 2026",
+  "awards": "Ballon d'Or 2024; Euro 2024 Player of the Tournament; 2026 World Cup Golden Ball",
+  "moments": [
+   "Winner in 2023 UCL final",
+   "Ballon d'Or 2024",
+   "World Cup 2026 Golden Ball"
+  ],
+  "style": [
+   "deep-lying playmaker",
+   "tempo controller"
+  ],
+  "work_rate": "high",
+  "ego": "humble (studied business degree, no flash)",
+  "fan_bond": "Respected; unflashy",
+  "loyalty_notes": "Atlético youth (released then Villarreal), back to Atlético 2018; left City for Barcelona Aug 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2019,
+    "what": "joined Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Barcelona 2026- (club Affinity 73)",
+  "sources": [
+   "https://www.irishnews.com/sport/soccer/rodri-completes-barcelona-switch-after-glittering-career-at-manchester-city-NFCD7C2I2FNOFOVXI7I7IMWM7U/"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Barcelona (signed Aug 2026 from Man City)"
+ },
+ {
+  "name": "Pedri",
+  "full_name": "Pedro González López",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Spain",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Las Palmas",
+    "from": 2019,
+    "to": 2020,
+    "apps": 37,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Barcelona",
+    "from": 2020,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Spain",
+   "caps": 40,
+   "goals": 4,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Barcelona: La Liga (2023, 2025, 2026); Spain: Euro 2024, World Cup 2026",
+  "awards": "Golden Boy 2021; Kopa Trophy 2021; Euro 2020 Young Player",
+  "moments": [
+   "Played 73 matches in 2020-21 aged 18"
+  ],
+  "style": [
+   "playmaker",
+   "press resistant"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Fan favourite at Barcelona",
+  "loyalty_notes": "Renewed to 2030",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Barcelona (73)",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Barcelona"
+ },
+ {
+  "name": "Gavi",
+  "full_name": "Pablo Martín Páez Gavira",
+  "gender": "M",
+  "active": true,
+  "born": 2004,
+  "nation": "Spain",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2021,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 5,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "Spain",
+   "caps": 28,
+   "goals": 5,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Barcelona: La Liga; Spain: Nations League 2023, World Cup 2026 (squad)",
+  "awards": "Golden Boy 2022; Kopa Trophy 2022",
+  "moments": [
+   "Youngest Spain scorer 2022"
+  ],
+  "style": [
+   "combative midfielder",
+   "presser"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (fiery temperament)",
+  "fan_bond": "Academy hero, loved for intensity",
+  "loyalty_notes": "La Masia; renewed to 2030 despite ACL 2023 and knee surgery 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Barcelona (73)",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/48870392/"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Barcelona"
+ },
+ {
+  "name": "Bukayo Saka",
+  "full_name": "Bukayo Ayoyinka T. M. Saka",
+  "gender": "M",
+  "active": true,
+  "born": 2001,
+  "nation": "England",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Arsenal",
+    "from": 2018,
+    "to": null,
+    "apps": 270,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Arsenal",
+  "longest_years": 8,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 45,
+   "goals": 12,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Arsenal: FA Cup 2020, Premier League 2026",
+  "awards": "Arsenal Player of the Season 2021, 2022; England Player of the Year 2022, 2023",
+  "moments": [
+   "Missed Euro 2020 final penalty, racially abused, returned stronger",
+   "PL title 2026"
+  ],
+  "style": [
+   "inverted winger",
+   "creator"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Academy darling, beloved by Arsenal fans",
+  "loyalty_notes": "Arsenal academy since age 7; signed long extension",
+  "causes": [
+   "Spoke on racist abuse after Euro 2020; funded surgeries for 120 children in Nigeria (2022)"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "England (74)",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Arsenal"
+ },
+ {
+  "name": "Martin Ødegaard",
+  "full_name": "Martin Ødegaard",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "Norway",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Strømsgodset",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2015,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Heerenveen",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vitesse",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Sociedad",
+    "from": 2019,
+    "to": 2020,
+    "apps": 36,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 2021,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Arsenal",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Arsenal captain 2022-; Norway captain",
+  "national": {
+   "team": "Norway",
+   "caps": 65,
+   "goals": 4,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Arsenal: PL 2026; Real Sociedad: Copa del Rey 2020 (2021 final)",
+  "awards": "PL Team of the Season 2023",
+  "moments": [
+   "Arsenal's PL title as captain 2026"
+  ],
+  "style": [
+   "playmaker",
+   "presser"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Respected captain; well-liked at Real Sociedad",
+  "loyalty_notes": "Child prodigy at Real Madrid; loans; settled at Arsenal",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Real Sociedad 2019-20 (club Affinity 81); Norway (76)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Arsenal captain"
+ },
+ {
+  "name": "Declan Rice",
+  "full_name": "Declan Rice",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "England",
+  "positions": [
+   "DM",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "West Ham United",
+    "from": 2017,
+    "to": 2023,
+    "apps": 245,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Arsenal",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "West Ham United",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "West Ham captain 2022-23",
+  "national": {
+   "team": "England",
+   "caps": 65,
+   "goals": 5,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "West Ham: Europa Conference League 2023 (captain); Arsenal: PL 2026",
+  "awards": "Arsenal Player of the Season 2024",
+  "moments": [
+   "Lifted Conference League as West Ham captain 2023",
+   "Two direct free kicks vs Real Madrid UCL 2025"
+  ],
+  "style": [
+   "box-to-box",
+   "set-piece taker"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Left West Ham on good terms as a hero",
+  "loyalty_notes": "Chelsea academy released at 14; West Ham academy; record sale to Arsenal 2023",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "England (74)",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Arsenal"
+ },
+ {
+  "name": "Phil Foden",
+  "full_name": "Philip Walter Foden",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "England",
+  "positions": [
+   "AM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester City",
+    "from": 2017,
+    "to": null,
+    "apps": 300,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Manchester City",
+  "longest_years": 9,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 47,
+   "goals": 4,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Man City: 6 PL, UCL 2023, FA Cups",
+  "awards": "PFA POTY 2024; FWA Footballer of the Year 2024",
+  "moments": [
+   "Stockport boy to City star"
+  ],
+  "style": [
+   "playmaker",
+   "dribbler"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Local hero at City",
+  "loyalty_notes": "City academy; one club",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2020,
+    "type": "other",
+    "what": "sent home from England camp in Iceland for breaching Covid rules with guests",
+    "outcome": "apologised",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "plays for Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "England (74)",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Manchester City"
+ },
+ {
+  "name": "Cole Palmer",
+  "full_name": "Cole Jermaine Palmer",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "England",
+  "positions": [
+   "AM",
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester City",
+    "from": 2020,
+    "to": 2023,
+    "apps": 41,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Chelsea",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Chelsea",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 15,
+   "goals": 2,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Man City: UCL 2023, PL; Chelsea: Conference League 2025, Club World Cup 2025",
+  "awards": "PL Young Player 2024; Club World Cup Golden Ball 2025",
+  "moments": [
+   "Two goals + assist in 2025 Club World Cup final vs PSG"
+  ],
+  "style": [
+   "playmaker",
+   "penalty taker",
+   "cool finisher"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral ('cold' celebration persona, quiet)",
+  "fan_bond": "Chelsea fan favourite",
+  "loyalty_notes": "Left City for more minutes 2023",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2020,
+    "what": "Manchester City academy/first team (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Chelsea (club Affinity 29); England (74)",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Chelsea"
+ },
+ {
+  "name": "Florian Wirtz",
+  "full_name": "Florian Richard Wirtz",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "Germany",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2020,
+    "to": 2025,
+    "apps": 197,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayer Leverkusen",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 33,
+   "goals": 7,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Leverkusen: unbeaten Bundesliga + DFB-Pokal double 2024",
+  "awards": "Bundesliga Player of the Season 2024",
+  "moments": [
+   "Hat-trick to clinch Leverkusen's first Bundesliga 2024",
+   "Record GBP ~116m move to Liverpool 2025"
+  ],
+  "style": [
+   "playmaker",
+   "dribbler"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Leverkusen hero; slow start at Liverpool",
+  "loyalty_notes": "Left 1. FC Köln academy for Leverkusen in Jan 2020 (rival; Köln complained of poaching); joined Liverpool 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2025- (club Affinity 85); 1. FC Köln youth to 2020 (78); Germany (75)",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Liverpool"
+ },
+ {
+  "name": "Jamal Musiala",
+  "full_name": "Jamal Musiala",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "Germany",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 2020,
+    "to": null,
+    "apps": 200,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 40,
+   "goals": 7,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Bayern: multiple Bundesliga (incl. 2025, 2026), DFB-Pokal 2026",
+  "awards": "Bundesliga Young Player",
+  "moments": [
+   "Title-winning goal on final day 2023 vs Köln",
+   "Broke leg at 2025 Club World Cup"
+  ],
+  "style": [
+   "dribbler",
+   "playmaker"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Bayern fan favourite",
+  "loyalty_notes": "Chelsea academy (England youth) then Bayern 2019; chose Germany over England 2021; extended to 2030",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Bayern Munich (81); Germany (75)",
+  "sources": [],
+  "confidence": "high",
+  "status_oct_2026": "Bayern Munich"
+ },
+ {
+  "name": "Joshua Kimmich",
+  "full_name": "Joshua Walter Kimmich",
+  "gender": "M",
+  "active": true,
+  "born": 1995,
+  "nation": "Germany",
+  "positions": [
+   "DM",
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "RB Leipzig",
+    "from": 2013,
+    "to": 2015,
+    "apps": 53,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2015,
+    "to": null,
+    "apps": 400,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "Germany captain 2024-; Bayern vice-captain",
+  "national": {
+   "team": "Germany",
+   "caps": 105,
+   "goals": 8,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Bayern: 9+ Bundesliga, UCL 2020; DFB-Pokal",
+  "awards": "",
+  "moments": [
+   "2020 UCL final assist"
+  ],
+  "style": [
+   "deep-lying playmaker",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (outspoken, intense)",
+  "fan_bond": "Respected; extended to 2029",
+  "loyalty_notes": "VfB Stuttgart academy; RB Leipzig 2013-15",
+  "causes": [
+   "#WeKickCorona fund with Goretzka (2020)"
+  ],
+  "incidents": [
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "unvaccinated during Covid, public debate in Germany; later got Covid and vaccinated",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "VfB Stuttgart youth (78); Bayern (81); RB Leipzig 2013-15 (32); Germany (75)",
+  "sources": [
+   "https://www.bluewin.ch/en/sport/football/joshua-kimmich-extends-his-contract-with-bayern-munich-until-2603894.html"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Bayern Munich (contract to 2029)"
+ },
+ {
+  "name": "Robert Lewandowski",
+  "full_name": "Robert Lewandowski",
+  "gender": "M",
+  "active": true,
+  "born": 1988,
+  "nation": "Poland",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Znicz Pruszków",
+    "from": 2006,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lech Poznań",
+    "from": 2008,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2010,
+    "to": 2014,
+    "apps": 187,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2014,
+    "to": 2022,
+    "apps": 375,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2022,
+    "to": 2026,
+    "apps": 190,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Poland captain 2014-25, quit national team June 2025 when stripped of captaincy, returned as captain under new coach",
+  "national": {
+   "team": "Poland",
+   "caps": 158,
+   "goals": 85,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Dortmund: 2 Bundesliga; Bayern: 8 Bundesliga, UCL 2020; Barcelona: La Liga (2023, 2025, 2026)",
+  "awards": "2x FIFA The Best (2020, 2021); Bundesliga record 41 goals 2020-21",
+  "moments": [
+   "5 goals in 9 minutes vs Wolfsburg 2015",
+   "4 goals vs Real Madrid for Dortmund, 2013 UCL semi"
+  ],
+  "style": [
+   "poacher",
+   "complete striker"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Respected; not cherished at Dortmund after Bayern move",
+  "loyalty_notes": "Left Dortmund for rival Bayern on a free 2014; publicly forced exit from Bayern 2022",
+  "causes": [
+   "Supported Ukraine refugees 2022; refused to play Russia (Poland boycott)"
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2014,
+    "what": "joined Bayern from Dortmund (rival)",
+    "type": "b09"
+   }
+  ],
+  "links": "Borussia Dortmund 2010-14 (83); now MLS (Chicago Fire)",
+  "sources": [
+   "https://www.fanatik.com.tr/en/robert-lewandowski-has-signed-heres-his-new-team-2630849"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Chicago Fire (MLS), joined summer 2026 after Barcelona deal expired"
+ },
+ {
+  "name": "Antoine Griezmann",
+  "full_name": "Antoine Griezmann",
+  "gender": "M",
+  "active": true,
+  "born": 1991,
+  "nation": "France",
+  "positions": [
+   "SS",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 2009,
+    "to": 2014,
+    "apps": 202,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2014,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2019,
+    "to": 2021,
+    "apps": 102,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2021,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Orlando City",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Atlético Madrid",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France",
+   "caps": 137,
+   "goals": 44,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Atlético: Europa League 2018; France: World Cup 2018, Nations League 2021",
+  "awards": "Euro 2016 Golden Boot + Player of Tournament; Atlético all-time top scorer",
+  "moments": [
+   "Scored in 2018 World Cup final",
+   "6 goals Euro 2016"
+  ],
+  "style": [
+   "second striker",
+   "workhorse playmaker"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (playful; 'La Decisión' 2019 video)",
+  "fan_bond": "Atlético legend after return; booed on return in 2021 initially",
+  "loyalty_notes": "Rejected by French academies; Real Sociedad academy; 'La Decisión' move to Barcelona 2019; retired from France 2024; joined MLS 2026",
+  "causes": [
+   "Ended Huawei sponsorship 2020 over Uyghur surveillance reports"
+  ],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "posted photo in blackface costume as Harlem Globetrotter",
+    "outcome": "deleted, apologised",
+    "source": ""
+   },
+   {
+    "year": 2021,
+    "type": "b01",
+    "what": "video in Japan with Dembélé mocking Asian hotel staff (Dembélé's remarks; Griezmann laughing)",
+    "outcome": "apologised; Konami/Rakuten criticism",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Real Sociedad academy/2009-14 (81); now MLS (Orlando City)",
+  "sources": [
+   "https://www.orlandocitysc.com/news/global-soccer-icon-and-world-cup-winner-antoine-griezmann-to-join-orlando-city-sc"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Orlando City (MLS) from July 2026"
+ },
+ {
+  "name": "Luka Modrić",
+  "full_name": "Luka Modrić",
+  "gender": "M",
+  "active": true,
+  "born": 1985,
+  "nation": "Croatia",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Dinamo Zagreb",
+    "from": 2003,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2008,
+    "to": 2012,
+    "apps": 160,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2012,
+    "to": 2025,
+    "apps": 597,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "Real Madrid captain 2023-25; Croatia captain 2016-26",
+  "national": {
+   "team": "Croatia",
+   "caps": 194,
+   "goals": 28,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Real Madrid: 6 UCL, 4 La Liga (28 trophies, club record)",
+  "awards": "Ballon d'Or 2018; 2018 World Cup Golden Ball",
+  "moments": [
+   "Croatia to 2018 World Cup final",
+   "Grew up a refugee in the Croatian war"
+  ],
+  "style": [
+   "playmaker",
+   "outside-of-boot passer"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Revered at Real Madrid; emotional 2025 farewell",
+  "loyalty_notes": "Forced Tottenham exit 2012 (refused preseason tour); stayed 13 seasons at Madrid; retiring from Croatia after Oct 6 2026 match",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "charged with false testimony over evidence in Zdravko Mamić fraud trial",
+    "outcome": "not convicted",
+    "source": ""
+   },
+   {
+    "year": 2012,
+    "type": "b08",
+    "what": "skipped Tottenham preseason tour to force Real Madrid move",
+    "outcome": "transferred",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://www.foxsports.com/articles/soccer/luka-modric-set-to-retire-from-croatia-duty-after-agreeing-ac-milan-contract-extension"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "AC Milan (extended through 2026-27, age 41); retiring from Croatia Oct 2026"
+ },
+ {
+  "name": "Neymar",
+  "full_name": "Neymar da Silva Santos Júnior",
+  "gender": "M",
+  "active": true,
+  "born": 1992,
+  "nation": "Brazil",
+  "positions": [
+   "LW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Santos",
+    "from": 2009,
+    "to": 2013,
+    "apps": 225,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Barcelona",
+    "from": 2013,
+    "to": 2017,
+    "apps": 186,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2017,
+    "to": 2023,
+    "apps": 173,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Hilal",
+    "from": 2023,
+    "to": 2025,
+    "apps": 7,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Santos",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "Brazil captain at times",
+  "national": {
+   "team": "Brazil",
+   "caps": 128,
+   "goals": 79,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Barcelona: UCL 2015, 2 La Liga; PSG: 5 Ligue 1; Brazil: Olympic gold 2016, Confed Cup 2013",
+  "awards": "Brazil joint/top scorer (79); Puskás Award 2011",
+  "moments": [
+   "MSN trio, 2015 UCL",
+   "Penalty for Olympic gold 2016"
+  ],
+  "style": [
+   "dribbler",
+   "playmaker"
+  ],
+  "work_rate": "low",
+  "ego": "big (flamboyant; diving reputation)",
+  "fan_bond": "Mixed; cherished at Santos",
+  "loyalty_notes": "Forced PSG move 2017 via EUR 222m release clause; Saudi move 2023; returned to boyhood club Santos 2025 (extended to Dec 2026)",
+  "causes": [
+   "Instituto Neymar Jr. (social project in Praia Grande)"
+  ],
+  "incidents": [
+   {
+    "year": 2019,
+    "type": "b02",
+    "what": "accused of rape by Najila Trindade; police closed case for lack of evidence",
+    "outcome": "no charges; denied",
+    "source": ""
+   },
+   {
+    "year": 2018,
+    "type": "b07",
+    "what": "widely mocked for play-acting at 2018 World Cup",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2016,
+    "type": "other",
+    "what": "tax/fraud cases over Barcelona transfer; acquitted in Spain 2022",
+    "outcome": "acquitted",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   },
+   {
+    "year": 2023,
+    "what": "joined Al-Hilal (Saudi PIF-owned)",
+    "type": "b10"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://africa.espn.com/football/story/_/id/47533505/neymar-signs-santos-renewal-2026-world-cup"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Santos (contract to Dec 2026)"
+ },
+ {
+  "name": "Raphinha",
+  "full_name": "Raphael Dias Belloli",
+  "gender": "M",
+  "active": true,
+  "born": 1996,
+  "nation": "Brazil",
+  "positions": [
+   "RW",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Avaí",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vitória Guimarães",
+    "from": 2016,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sporting CP",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rennes",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2020,
+    "to": 2022,
+    "apps": 67,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "Barcelona captain 2025-",
+  "national": {
+   "team": "Brazil",
+   "caps": 30,
+   "goals": 10,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Barcelona: La Liga (2023, 2025, 2026), Copa del Rey 2025",
+  "awards": "Ballon d'Or top 5 2025",
+  "moments": [
+   "Kept Leeds up in 2022 (scored final-day pen at Brentford)"
+  ],
+  "style": [
+   "inverted winger",
+   "presser"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Leeds fan favourite; Barcelona captain",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2020-22 (72); Sporting CP 2018-19 (75); Barcelona (73)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Barcelona captain"
+ },
+ {
+  "name": "Federico Valverde",
+  "full_name": "Federico Santiago Valverde Dipetta",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "Uruguay",
+  "positions": [
+   "CM",
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Peñarol",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2016,
+    "to": null,
+    "apps": 300,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Real Madrid captain 2025-",
+  "national": {
+   "team": "Uruguay",
+   "caps": 65,
+   "goals": 7,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Real Madrid: 2 UCL, 3 La Liga",
+  "awards": "",
+  "moments": [
+   "Tactical foul on Morata in 2020 Supercopa final (sent off, won)"
+  ],
+  "style": [
+   "box-to-box",
+   "long shots"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Admired by Madrid fans for engine",
+  "loyalty_notes": "Long-term Madrid player",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "other",
+    "what": "punched Álex Baena in car park after alleged comments about his son",
+    "outcome": "no sanction",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Real Madrid"
+ },
+ {
+  "name": "Alisson Becker",
+  "full_name": "Alisson Ramsés Becker",
+  "gender": "M",
+  "active": true,
+  "born": 1992,
+  "nation": "Brazil",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Internacional",
+    "from": 2013,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Roma",
+    "from": 2016,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2018,
+    "to": null,
+    "apps": 300,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 70,
+   "goals": 0,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Liverpool: 2 PL, UCL 2019, FA Cup, League Cup",
+  "awards": "Yashin Trophy 2019; Best FIFA Goalkeeper 2019",
+  "moments": [
+   "Headed winner vs West Brom 2021, weeks after his father drowned"
+  ],
+  "style": [
+   "shot-stopper",
+   "distributor"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Fan favourite",
+  "loyalty_notes": "Stayed 2026 despite Juventus links",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2018- (85)",
+  "sources": [
+   "https://en.thairath.co.th/sport/eurofootball/2947975"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Liverpool"
+ },
+ {
+  "name": "Thibaut Courtois",
+  "full_name": "Thibaut Nicolas Marc Courtois",
+  "gender": "M",
+  "active": true,
+  "born": 1992,
+  "nation": "Belgium",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Genk",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Chelsea",
+    "from": 2011,
+    "to": 2018,
+    "apps": 154,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2011,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2018,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Belgium",
+   "caps": 102,
+   "goals": 0,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Real Madrid: 2 UCL; Atlético: La Liga 2014; Chelsea: 2 PL",
+  "awards": "Yashin Trophy 2022",
+  "moments": [
+   "Man of the match 2022 UCL final"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium",
+  "ego": "big (public spats with Belgium coach Tedesco 2023)",
+  "fan_bond": "Hated by Atlético fans after joining Real Madrid",
+  "loyalty_notes": "Atlético loanee 2011-14 then joined rivals Real Madrid 2018; skipped Chelsea training to force move",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2018,
+    "type": "b08",
+    "what": "skipped Chelsea training to force move to Real Madrid",
+    "outcome": "transferred",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2018,
+    "what": "joined Real Madrid after 3 years at Atlético (city rival)",
+    "type": "b09"
+   }
+  ],
+  "links": "",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Real Madrid"
+ },
+ {
+  "name": "Achraf Hakimi",
+  "full_name": "Achraf Hakimi Mouh",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "Morocco",
+  "positions": [
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Real Madrid",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2018,
+    "to": 2020,
+    "apps": 73,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2020,
+    "to": 2021,
+    "apps": 45,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2021,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Paris Saint-Germain",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Morocco captain",
+  "national": {
+   "team": "Morocco",
+   "caps": 85,
+   "goals": 10,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "PSG: UCL 2025, 2026; Ligue 1; Inter: Serie A 2021",
+  "awards": "African Player of the Year 2025",
+  "moments": [
+   "Panenka penalty to knock Spain out of 2022 World Cup"
+  ],
+  "style": [
+   "attacking full-back",
+   "pace"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Popular at PSG and in Morocco",
+  "loyalty_notes": "Loan at Dortmund 2018-20",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "b02",
+    "what": "charged with rape (alleged Feb 2023); ordered to stand trial; Court of Cassation upheld trial Sept 2026",
+    "outcome": "denies; trial pending",
+    "source": "https://citizen.digital/article/french-court-confirms-rape-trial-for-psg-and-morocco-star-hakimi-n390732"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2021,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Borussia Dortmund 2018-20 loan (83)",
+  "sources": [
+   "https://citizen.digital/article/french-court-confirms-rape-trial-for-psg-and-morocco-star-hakimi-n390732"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "PSG; rape trial pending"
+ },
+ {
+  "name": "Ousmane Dembélé",
+  "full_name": "Masour Ousmane Dembélé",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "France",
+  "positions": [
+   "RW",
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Rennes",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2016,
+    "to": 2017,
+    "apps": 50,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2017,
+    "to": 2023,
+    "apps": 185,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France",
+   "caps": 55,
+   "goals": 6,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "PSG: UCL 2025, 2026; Ligue 1; France: World Cup 2018",
+  "awards": "Ballon d'Or 2025",
+  "moments": [
+   "Ballon d'Or 2025 after converting to false nine"
+  ],
+  "style": [
+   "two-footed dribbler",
+   "false nine"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Popular at PSG; Dortmund fans resent 2017 strike",
+  "loyalty_notes": "Went on strike at Dortmund 2017 to force Barcelona move; extended at PSG to 2030",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "b08",
+    "what": "skipped Dortmund training (strike) to force Barcelona transfer",
+    "outcome": "transferred",
+    "source": ""
+   },
+   {
+    "year": 2021,
+    "type": "b01",
+    "what": "video in Japan mocking Asian hotel staff's language/appearance",
+    "outcome": "apologised; Konami criticised",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Borussia Dortmund 2016-17 (83)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ousmane_Demb%C3%A9l%C3%A9"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "PSG (extended to 2030)"
+ },
+ {
+  "name": "Khvicha Kvaratskhelia",
+  "full_name": "Khvicha Kvaratskhelia",
+  "gender": "M",
+  "active": true,
+  "born": 2001,
+  "nation": "Georgia",
+  "positions": [
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Dinamo Tbilisi",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Rubin Kazan",
+    "from": 2019,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Dinamo Batumi",
+    "from": 2022,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Napoli",
+    "from": 2022,
+    "to": 2025,
+    "apps": 107,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Napoli",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Georgia",
+   "caps": 45,
+   "goals": 19,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Napoli: Serie A 2023; PSG: UCL 2025, 2026",
+  "awards": "Serie A MVP 2023",
+  "moments": [
+   "Napoli's first title in 33 years 2023",
+   "Georgia's Euro 2024 run"
+  ],
+  "style": [
+   "dribbler",
+   "inside forward"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Napoli icon ('Kvaradona'); left mid-season",
+  "loyalty_notes": "Refused Napoli renewal and pushed for January 2025 move",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2025,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Napoli 2022-25 (74)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "PSG"
+ },
+ {
+  "name": "Lautaro Martínez",
+  "full_name": "Lautaro Javier Martínez",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Argentina",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Racing Club",
+    "from": 2015,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Inter Milan",
+    "from": 2018,
+    "to": null,
+    "apps": 330,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Inter Milan",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Inter captain 2023-",
+  "national": {
+   "team": "Argentina",
+   "caps": 70,
+   "goals": 32,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Inter: 2 Serie A; Argentina: World Cup 2022, 2 Copa América",
+  "awards": "Copa América 2024 top scorer",
+  "moments": [
+   "Winner in 2024 Copa América final"
+  ],
+  "style": [
+   "striker",
+   "presser"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Inter captain and fan favourite",
+  "loyalty_notes": "Committed to Inter; rejected Barcelona speculation 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://sundayguardianlive.com/sports/fc-barcelona-transfer-news-live-update-argentina-national-football-team-star-lautaro-martinez-shuts-down-barca-rumors-and-commits-future-to-inter-milan-275817/"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Inter captain"
+ },
+ {
+  "name": "Victor Osimhen",
+  "full_name": "Victor James Osimhen",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "Nigeria",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Wolfsburg",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Charleroi",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lille",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Napoli",
+    "from": 2020,
+    "to": 2025,
+    "apps": 133,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Galatasaray",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Napoli",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Nigeria",
+   "caps": 45,
+   "goals": 25,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Napoli: Serie A 2023; Galatasaray: Süper Lig",
+  "awards": "African Player of the Year 2023; Serie A top scorer 2023",
+  "moments": [
+   "26 goals in Napoli's 2023 title"
+  ],
+  "style": [
+   "striker",
+   "aerial"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Napoli hero, ugly exit",
+  "loyalty_notes": "Frozen out at Napoli 2024; permanent move to Galatasaray 2025",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "other",
+    "what": "Napoli's TikTok mocked him (penalty miss); fallout with club",
+    "outcome": "club apologised",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Napoli (74)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Galatasaray"
+ },
+ {
+  "name": "Alexander Isak",
+  "full_name": "Alexander Isak",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Sweden",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "AIK",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2017,
+    "to": 2019,
+    "apps": 5,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Sociedad",
+    "from": 2019,
+    "to": 2022,
+    "apps": 132,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 2022,
+    "to": 2025,
+    "apps": 109,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Sociedad",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Sweden",
+   "caps": 55,
+   "goals": 16,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Newcastle: League Cup 2025 (scored in final)",
+  "awards": "",
+  "moments": [
+   "Goal in 2025 League Cup final, Newcastle's first major trophy in 70 years"
+  ],
+  "style": [
+   "striker",
+   "dribbler"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Was Newcastle hero; now resented there",
+  "loyalty_notes": "Refused to play/train Aug 2025 to force British-record move to Liverpool; broke leg Dec 2025, returned Apr 2026",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2025,
+    "type": "b08",
+    "what": "went on strike at Newcastle to force Liverpool transfer",
+    "outcome": "transferred",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2022,
+    "what": "joined Newcastle (Saudi PIF-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "Liverpool 2025- (85); Dortmund 2017-19 (83); Real Sociedad 2019-22 (81)",
+  "sources": [
+   "https://www.malaymail.com/news/sports/2026/04/02/isak-set-for-liverpool-training-return-after-broken-leg-in-boost-to-liverpool-and-sweden-ahead-of-world-cup/214829"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Liverpool"
+ },
+ {
+  "name": "Bruno Fernandes",
+  "full_name": "Bruno Miguel Borges Fernandes",
+  "gender": "M",
+  "active": true,
+  "born": 1994,
+  "nation": "Portugal",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Novara",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Udinese",
+    "from": 2013,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sampdoria",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sporting CP",
+    "from": 2017,
+    "to": 2020,
+    "apps": 137,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2020,
+    "to": null,
+    "apps": 290,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "Man United captain 2023-; Sporting captain",
+  "national": {
+   "team": "Portugal",
+   "caps": 75,
+   "goals": 25,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Man United: FA Cup 2024, League Cup 2023; Portugal: 2 Nations League",
+  "awards": "Sir Matt Busby Player of the Year x5",
+  "moments": [],
+  "style": [
+   "playmaker",
+   "durable"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (demonstrative on pitch, criticised for complaining)",
+  "fan_bond": "Captain through bad seasons; fan favourite",
+  "loyalty_notes": "Rejected large Al-Hilal offer 2025 to stay at United; stayed again 2026",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2018,
+    "type": "other",
+    "what": "Sporting training-ground attack by ultras; he terminated contract then returned",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Sporting CP 2017-20 (75)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Manchester United captain"
+ },
+ {
+  "name": "Marcus Rashford",
+  "full_name": "Marcus Rashford",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "England",
+  "positions": [
+   "LW",
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester United",
+    "from": 2015,
+    "to": null,
+    "apps": 426,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Aston Villa",
+    "from": 2025,
+    "to": 2025,
+    "apps": 17,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2025,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 62,
+   "goals": 17,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Man United: FA Cups, League Cups, Europa League 2017",
+  "awards": "MBE 2020",
+  "moments": [
+   "Debut double vs Midtjylland 2016"
+  ],
+  "style": [
+   "inside forward",
+   "pace"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Local academy hero; relationship soured 2024",
+  "loyalty_notes": "Loaned out 2025 and 2025-26; Barcelona didn't buy; back at United 2026",
+  "causes": [
+   "Child food poverty campaign: forced UK free school meals U-turn 2020",
+   "Books for children"
+  ],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "other",
+    "what": "dropped for night out (Belfast) and missed training",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "England (74)",
+  "sources": [
+   "https://www.beinsports.com/en-us/soccer/premier-league/articles/rashford-thanks-barca-for-special-memories-ahead-of-man-utd-return-2026-07-30"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Manchester United (returned after Barcelona loan)"
+ },
+ {
+  "name": "Son Heung-min",
+  "full_name": "Son Heung-min",
+  "gender": "M",
+  "active": true,
+  "born": 1992,
+  "nation": "South Korea",
+  "positions": [
+   "LW",
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Hamburger SV",
+    "from": 2010,
+    "to": 2013,
+    "apps": 78,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2013,
+    "to": 2015,
+    "apps": 87,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2015,
+    "to": 2025,
+    "apps": 454,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "LAFC",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Tottenham Hotspur",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "Tottenham captain 2023-25; South Korea captain",
+  "national": {
+   "team": "South Korea",
+   "caps": 135,
+   "goals": 52,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Tottenham: Europa League 2025 (as captain); South Korea: Asian Games gold 2018",
+  "awards": "PL Golden Boot 2022 (shared); Puskás Award 2020",
+  "moments": [
+   "Solo goal vs Burnley 2019",
+   "Lifted Europa League 2025"
+  ],
+  "style": [
+   "inside forward",
+   "two-footed finisher"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Beloved at Spurs; emotional exit 2025",
+  "loyalty_notes": "10 years at Spurs; HSV academy",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Hamburger SV (75); now MLS (LAFC)",
+  "sources": [
+   "https://www.mlssoccer.com/news/lafc-son-heung-min-headlines-south-korea-2026-world-cup-roster"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "LAFC"
+ },
+ {
+  "name": "Trent Alexander-Arnold",
+  "full_name": "Trent John Alexander-Arnold",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "England",
+  "positions": [
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 2016,
+    "to": 2025,
+    "apps": 354,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Liverpool vice-captain",
+  "national": {
+   "team": "England",
+   "caps": 34,
+   "goals": 4,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Liverpool: 2 PL, UCL 2019",
+  "awards": "",
+  "moments": [
+   "Corner taken quickly vs Barcelona 2019"
+  ],
+  "style": [
+   "creative full-back",
+   "passing range"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Local hero, then booed by some Liverpool fans on announcing exit 2025",
+  "loyalty_notes": "Let contract run down to join Real Madrid on free 2025; left out of England 2026 WC",
+  "causes": [
+   "Supports Liverpool community programmes"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2016-25 (85); England (74)",
+  "sources": [
+   "https://www.thestar.com.my/sport/football/2026/07/17/soccer-alexander-arnold-relishes-chance-to-work-with-mourinho-at-real-madrid"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Real Madrid"
+ },
+ {
+  "name": "Alexis Mac Allister",
+  "full_name": "Alexis Mac Allister",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "Argentina",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Argentinos Juniors",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Brighton",
+    "from": 2019,
+    "to": 2023,
+    "apps": 112,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Brighton",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Argentina",
+   "caps": 35,
+   "goals": 3,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Argentina: World Cup 2022; Liverpool: PL 2025",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "box-to-box",
+   "passer"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "Liverpool",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool (85)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Liverpool"
+ },
+ {
+  "name": "Dominik Szoboszlai",
+  "full_name": "Dominik Szoboszlai",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Hungary",
+  "positions": [
+   "AM",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Liefering",
+    "from": 2017,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Red Bull Salzburg",
+    "from": 2018,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "RB Leipzig",
+    "from": 2021,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Red Bull Salzburg",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "Hungary captain",
+  "national": {
+   "team": "Hungary",
+   "caps": 50,
+   "goals": 12,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Liverpool: PL 2025",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "box-to-box",
+   "shooter"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool (85); RB Leipzig 2021-23 (32)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Liverpool"
+ },
+ {
+  "name": "Ryan Gravenberch",
+  "full_name": "Ryan Gravenberch",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Netherlands",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Ajax",
+    "from": 2018,
+    "to": 2022,
+    "apps": 103,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2022,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Ajax",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Netherlands",
+   "caps": 20,
+   "goals": 1,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Liverpool: PL 2025; Ajax titles",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "box-to-box",
+   "press resistant"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool (85); Netherlands (80)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Liverpool"
+ },
+ {
+  "name": "Luis Díaz",
+  "full_name": "Luis Fernando Díaz Marulanda",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Colombia",
+  "positions": [
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Barranquilla",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Junior",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Porto",
+    "from": 2019,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2022,
+    "to": 2025,
+    "apps": 148,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Porto",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Colombia",
+   "caps": 65,
+   "goals": 19,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Liverpool: PL 2025",
+  "awards": "",
+  "moments": [
+   "Father kidnapped 2023 then freed"
+  ],
+  "style": [
+   "winger"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Liked at Liverpool",
+  "loyalty_notes": "Moved to Bayern 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2022-25 (85); Bayern (81)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Bayern Munich"
+ },
+ {
+  "name": "Darwin Núñez",
+  "full_name": "Darwin Gabriel Núñez Ribeiro",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Uruguay",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Peñarol",
+    "from": 2017,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Almería",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Benfica",
+    "from": 2020,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2022,
+    "to": 2025,
+    "apps": 143,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Hilal",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Diriyah",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Uruguay",
+   "caps": 30,
+   "goals": 13,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Liverpool: PL 2025",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "striker",
+   "chaotic"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Cult figure at Liverpool",
+  "loyalty_notes": "Al-Hilal froze him out; loaned to Al-Diriyah 2026-27",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "involved in brawl with Colombian fans in stands after Copa América semi, banned",
+    "outcome": "banned",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2025,
+    "what": "joined Al-Hilal (Saudi PIF-owned)",
+    "type": "b10"
+   }
+  ],
+  "links": "Liverpool 2022-25 (85)",
+  "sources": [
+   "https://www.beinsports.com/en-us/soccer/articles/darwin-n%C3%BA%C3%B1ez-to-leave-al-hilal-on-loan-for-saudi-newcomers-2026-08-19"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Al-Diriyah loan"
+ },
+ {
+  "name": "Karim Benzema",
+  "full_name": "Karim Mostafa Benzema",
+  "gender": "M",
+  "active": true,
+  "born": 1987,
+  "nation": "France",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Lyon",
+    "from": 2004,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2009,
+    "to": 2023,
+    "apps": 648,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Al-Ittihad",
+    "from": 2023,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Hilal",
+    "from": 2026,
+    "to": 2026,
+    "apps": 16,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 14,
+  "one_club": false,
+  "captaincy": "Real Madrid captain 2021-23",
+  "national": {
+   "team": "France",
+   "caps": 97,
+   "goals": 37,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Real Madrid: 5 UCL, 4 La Liga",
+  "awards": "Ballon d'Or 2022",
+  "moments": [
+   "2022 UCL hat-tricks vs PSG/Chelsea"
+  ],
+  "style": [
+   "complete striker"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Real Madrid legend",
+  "loyalty_notes": "Terminated Al-Hilal deal Aug 2026; free agent",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "convicted of complicity in Valbuena sex-tape blackmail, 1-year suspended",
+    "outcome": "convicted",
+    "source": ""
+   },
+   {
+    "year": 2014,
+    "type": "other",
+    "what": "acquitted in underage prostitution case (Zahia)",
+    "outcome": "acquitted",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Ittihad (Saudi PIF-owned)",
+    "type": "b10"
+   },
+   {
+    "year": 2026,
+    "what": "joined Al-Hilal (Saudi PIF-owned)",
+    "type": "b10"
+   },
+   {
+    "year": 2026,
+    "what": "Saudi league ambassador to 2030",
+    "type": "b12"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://www.sportsmole.co.uk/football/feature/best-players-still-available-as-free-agents-after-deadline-day_604437.html"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Free agent; Saudi ambassador"
+ },
+ {
+  "name": "N'Golo Kanté",
+  "full_name": "N'Golo Kanté",
+  "gender": "M",
+  "active": true,
+  "born": 1991,
+  "nation": "France",
+  "positions": [
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Boulogne",
+    "from": 2011,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Caen",
+    "from": 2013,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leicester City",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2016,
+    "to": 2023,
+    "apps": 269,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Ittihad",
+    "from": 2023,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fenerbahçe",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Chelsea",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France",
+   "caps": 65,
+   "goals": 2,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Leicester: PL 2016; Chelsea: PL 2017, UCL 2021; France: World Cup 2018",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "ball-winner",
+   "tireless"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Beloved everywhere",
+  "loyalty_notes": "Saudi then Turkey",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Ittihad (Saudi PIF-owned)",
+    "type": "b10"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://www.beinsports.com/en-us/soccer/sper-lig/articles/n-golo-kant%C3%A9-returns-to-european-football-with-fenerbah%C3%A7e-2026-02-04"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Fenerbahçe"
+ },
+ {
+  "name": "Rúben Dias",
+  "full_name": "Rúben dos Santos Gato Alves Dias",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Portugal",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Benfica",
+    "from": 2017,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Manchester City",
+    "from": 2020,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester City",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Portugal",
+   "caps": 65,
+   "goals": 3,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Man City: PL, UCL 2023",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2020,
+    "what": "joined Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Manchester City"
+ },
+ {
+  "name": "Bernardo Silva",
+  "full_name": "Bernardo Mota Veiga de Carvalho e Silva",
+  "gender": "M",
+  "active": true,
+  "born": 1994,
+  "nation": "Portugal",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Benfica",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Monaco",
+    "from": 2014,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2017,
+    "to": 2026,
+    "apps": 460,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester City",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Man City captain 2025-26",
+  "national": {
+   "team": "Portugal",
+   "caps": 100,
+   "goals": 13,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Man City: 6 PL, UCL 2023",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "playmaker"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "Left City 2026 for Real Madrid",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2019,
+    "type": "other",
+    "what": "tweet comparing Mendy to Conguitos mascot; FA ban 1 match",
+    "outcome": "banned",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "joined Manchester City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://kdhnews.com/sports/soccer/bernardo-silva-joins-real-madrid-on-two-year-deal-following-manchester-city-exit/article_d7189204-aa15-537e-92fa-795d9657ef00.html"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Real Madrid"
+ },
+ {
+  "name": "Jan Oblak",
+  "full_name": "Jan Oblak",
+  "gender": "M",
+  "active": true,
+  "born": 1993,
+  "nation": "Slovenia",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Olimpija",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Benfica",
+    "from": 2010,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2014,
+    "to": null,
+    "apps": 538,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Atlético Madrid",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "Atlético captain",
+  "national": {
+   "team": "Slovenia",
+   "caps": 70,
+   "goals": 0,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Atlético: La Liga 2021, Europa League",
+  "awards": "Zamora x5",
+  "moments": [],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Atlético favourite",
+  "loyalty_notes": "12 years at Atlético",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.nogomania.com/read/Jan-Oblak-faces-biggest-Atletico-decision-after-12-years-in-Madrid"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Atlético Madrid"
+ },
+ {
+  "name": "Nico Williams",
+  "full_name": "Nicholas Williams Arthuer",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Spain",
+  "positions": [
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 2021,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Athletic Club",
+  "longest_years": 5,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "Spain",
+   "caps": 30,
+   "goals": 6,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Athletic: Copa del Rey 2024; Spain: Euro 2024, World Cup 2026 (squad, injury doubts)",
+  "awards": "",
+  "moments": [
+   "Goal in Euro 2024 final"
+  ],
+  "style": [
+   "winger",
+   "dribbler"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Athletic fans' pride",
+  "loyalty_notes": "Rejected Barcelona 2025 to renew to 2035",
+  "causes": [
+   "Spoke on racism abuse"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Athletic Club (99)",
+  "sources": [
+   "https://www.football-espana.net/2026/05/11/world-cup-nico-williams-injury-blow"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Athletic Club"
+ },
+ {
+  "name": "Iñaki Williams",
+  "full_name": "Iñaki Williams Arthuer",
+  "gender": "M",
+  "active": true,
+  "born": 1994,
+  "nation": "Ghana",
+  "positions": [
+   "RW",
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 2014,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Athletic Club",
+  "longest_years": 12,
+  "one_club": true,
+  "captaincy": "Athletic captain",
+  "national": {
+   "team": "Ghana",
+   "caps": 28,
+   "goals": 2,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Athletic: Copa del Rey 2024",
+  "awards": "Record consecutive La Liga appearances (251)",
+  "moments": [],
+  "style": [
+   "pace",
+   "workhorse"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Athletic captain and fan icon",
+  "loyalty_notes": "One-club Athletic; retired from Ghana Sept 2026",
+  "causes": [
+   "Anti-racism voice"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Athletic Club (99)",
+  "sources": [
+   "https://www.thestar.com.my/sport/football/2026/09/11/soccer-ghana039s-inaki-williams-announces-international-retirement"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Athletic Club captain"
+ },
+ {
+  "name": "Mikel Oyarzabal",
+  "full_name": "Mikel Oyarzabal Ugarte",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Spain",
+  "positions": [
+   "CF",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 2016,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Real Sociedad",
+  "longest_years": 10,
+  "one_club": true,
+  "captaincy": "Real Sociedad captain",
+  "national": {
+   "team": "Spain",
+   "caps": 45,
+   "goals": 20,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Real Sociedad: Copa del Rey 2020; Spain: Euro 2024, World Cup 2026",
+  "awards": "",
+  "moments": [
+   "Euro 2024 winning goal"
+  ],
+  "style": [
+   "forward"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Real Sociedad icon",
+  "loyalty_notes": "One-club, academy graduate",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Real Sociedad (81)",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/48870392/"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Real Sociedad captain"
+ },
+ {
+  "name": "Martin Zubimendi",
+  "full_name": "Martín Zubimendi Ibáñez",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Spain",
+  "positions": [
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 2019,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Arsenal",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Sociedad",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Spain",
+   "caps": 25,
+   "goals": 2,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Arsenal: PL 2026; Spain: Euro 2024, World Cup 2026",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "DM"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "Rejected Liverpool 2024, joined Arsenal 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Real Sociedad (81)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Arsenal"
+ },
+ {
+  "name": "Kenan Yıldız",
+  "full_name": "Kenan Yıldız",
+  "gender": "M",
+  "active": true,
+  "born": 2005,
+  "nation": "Turkey",
+  "positions": [
+   "LW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Juventus",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Juventus",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Turkey",
+   "caps": 30,
+   "goals": 5,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "dribbler"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Juventus No.10",
+  "loyalty_notes": "Renewed to 2030",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Bayern youth",
+  "sources": [
+   "https://www.sofascore.com/news/juventus-e-yildiz-la-storia-continua"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "Juventus"
+ },
+ {
+  "name": "Michael Olise",
+  "full_name": "Michael Olise",
+  "gender": "M",
+  "active": true,
+  "born": 2001,
+  "nation": "France",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Reading",
+    "from": 2019,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Crystal Palace",
+    "from": 2021,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Crystal Palace",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France",
+   "caps": 15,
+   "goals": 3,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Bayern: Bundesliga 2025, 2026",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "winger"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Bayern (81)",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Bayern Munich"
+ },
+ {
+  "name": "Thomas Müller",
+  "full_name": "Thomas Müller",
+  "gender": "M",
+  "active": true,
+  "born": 1989,
+  "nation": "Germany",
+  "positions": [
+   "AM",
+   "SS"
+  ],
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 2008,
+    "to": 2025,
+    "apps": 756,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Vancouver Whitecaps",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 17,
+  "one_club": false,
+  "captaincy": "Bayern vice-captain",
+  "national": {
+   "team": "Germany",
+   "caps": 131,
+   "goals": 45,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Bayern: 13 Bundesliga, 2 UCL; Germany: World Cup 2014",
+  "awards": "World Cup Golden Boot 2010",
+  "moments": [
+   "2014 World Cup winner"
+  ],
+  "style": [
+   "Raumdeuter"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Bayern legend",
+  "loyalty_notes": "Extended to 2027 with Whitecaps",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Bayern Munich (81); Germany (75); MLS Vancouver",
+  "sources": [
+   "https://www.mlssoccer.com/news/thomas-muller-signs-contract-extension-with-vancouver-whitecaps"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "Vancouver Whitecaps"
+ },
+ {
+  "name": "Marco Reus",
+  "full_name": "Marco Reus",
+  "gender": "M",
+  "active": true,
+  "born": 1989,
+  "nation": "Germany",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Rot Weiss Ahlen",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2009,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2012,
+    "to": 2024,
+    "apps": 429,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "Dortmund captain 2018-23",
+  "national": {
+   "team": "Germany",
+   "caps": 48,
+   "goals": 15,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Dortmund: 2 DFB-Pokal; LA Galaxy: MLS Cup 2024",
+  "awards": "",
+  "moments": [
+   "Farewell at Dortmund 2024"
+  ],
+  "style": [
+   "playmaker"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Dortmund legend",
+  "loyalty_notes": "Stayed despite Bayern offers",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2014,
+    "type": "other",
+    "what": "fined €540k for driving without licence",
+    "outcome": "fined",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Borussia Dortmund 2012-24 (83); Gladbach (74)",
+  "sources": [
+   "https://www.arabnews.pk/node/2634830"
+  ],
+  "confidence": "high",
+  "status_oct_2026": "LA Galaxy"
+ },
+ {
+  "name": "Christian Pulisic",
+  "full_name": "Christian Mate Pulisic",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "USA",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Borussia Dortmund",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Chelsea",
+    "from": 2019,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "USA captain",
+  "national": {
+   "team": "USA",
+   "caps": 75,
+   "goals": 32,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Chelsea: UCL 2021",
+  "awards": "",
+  "moments": [
+   "UCL semi goal 2021"
+  ],
+  "style": [
+   "winger"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Borussia Dortmund (83); USA (77)",
+  "sources": [
+   "https://worldsoccertalk.com/news/christian-pulisic-gives-major-future-update-with-his-intentions-revealed-as-milan-plots-huge-contract-extension/"
+  ],
+  "confidence": "medium",
+  "status_oct_2026": "AC Milan"
+ },
+ {
+  "name": "Vitinha",
+  "full_name": "Vitor Machado Ferreira",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Portugal",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Porto",
+    "from": 2020,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2022,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Paris Saint-Germain",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Portugal",
+   "caps": 30,
+   "goals": 2,
+   "captain": false,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "PSG: UCL 2025, 2026",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "playmaker"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2022,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "PSG"
+ },
+ {
+  "name": "Gianluigi Donnarumma",
+  "full_name": "Gianluigi Donnarumma",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Italy",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "AC Milan",
+    "from": 2015,
+    "to": 2021,
+    "apps": 251,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2021,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "Italy captain",
+  "national": {
+   "team": "Italy",
+   "caps": 75,
+   "goals": 0,
+   "captain": true,
+   "asof": "approx, mid-2025 unless stated"
+  },
+  "honours": "Italy: Euro 2020; PSG: UCL 2025",
+  "awards": "Euro 2020 Player of the Tournament",
+  "moments": [
+   "Euro 2020 final penalty save"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Milan fans hostile after free exit",
+  "loyalty_notes": "Left Milan on a free 2021",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2021,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   },
+   {
+    "year": 2025,
+    "what": "joined Man City (Abu Dhabi state-owned)",
+    "type": "b11"
+   }
+  ],
+  "links": "",
+  "sources": [],
+  "confidence": "medium",
+  "status_oct_2026": "Manchester City"
+ }
+]

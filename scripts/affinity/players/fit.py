@@ -1,0 +1,81 @@
+"""Fit the player Affinity weights to Kevin's mystery-player choices (quiz rounds 8 and 9). No budget, no names.
+
+Round 8 showed name recognition steering the real-player head-to-heads (familiar names won; no single factor explained
+more than 55% of those picks) while the anonymous profiles matched the factors (80%). So the weights come from the
+anonymous profiles plus round 10's controlled named pairs (one setting per pair, one or two factors apart; passes left
+out), which also set the playmaker/full-back boost. Round 8's head-to-heads and the round-7 gut ratings are checks only.
+
+Score S = 10 * sum(w_k * F_k) / sum(w) + c * connection + p * penalty   (factors F_k 0-10, w on the simplex)
+P(a over b) = sigmoid(beta * (S_a - S_b)); a "can't split them" answer counts half to each side. Profile values come from
+each round's key.json (round 8 had no baggage trait, so its penalty is 0). A ridge pull toward equal weights keeps the fit
+stable. Leave-one-out accuracy is reported.
+
+Usage: python3 scripts/affinity/players/fit.py
+"""
+import json, pathlib, sys, numpy as np
+here = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(here)); import model as M
+K = ['CH', 'WK', 'LO', 'AB', 'ST', 'LE']
+facts, scores = M.load()
+def answers(r):
+    A = json.load(open(here.parent / r / 'raw' / 'responses' / 'kevin.json')); return A.get('data', A)['answers']
+Y = {'l': 1.0, 'r': 0.0, 't': 0.5}
+
+def profiles(r):
+    key = json.load(open(here.parent / r / 'key.json')); A = answers(r); out = []
+    def prof(lv):
+        v = {a[0]: a[2][x][1] for a, x in zip(key['att'], lv)}
+        return np.array([v[k] for k in K] + [v['CO'], v.get('PE', 0.0), 0.0], float)
+    for i, (la, lb) in enumerate(key['conj']):
+        y = Y.get(A.get(f'c{i+1:02d}'))
+        if y is not None: out.append((prof(la), prof(lb), y, f'{r} c{i+1:02d}'))
+    return out
+def feats(n): return np.array([scores[n][k] for k in K] + [M.connection(facts[n]), M.penalties(facts[n]), M.fav_pos(facts[n])], float)
+def controlled():  # round 10: named pairs from one setting, differing on one or two factors; passes are left out
+    A = answers('quiz10'); out = []
+    for it in json.load(open(here.parent / 'quiz10' / 'key.json')):
+        y = Y.get(A.get(it['id']))
+        if y is not None: out.append((feats(it['l']), feats(it['r']), y, f"quiz10 {it['id']} {it['l']} v {it['r']}"))
+    return out
+pairs = profiles('quiz8') + profiles('quiz9') + controlled()
+k8, A8 = json.load(open(here.parent / 'quiz8' / 'key.json')), answers('quiz8')
+named = [(feats(a), feats(b), Y[A8[f'h{i+1:02d}']], f'{a} v {b}') for i, (a, b) in enumerate(k8['pairs']) if A8.get(f'h{i+1:02d}') in Y]
+gut = [(feats(n), M.GUT[n]) for n in M.GUT if n in scores]
+
+NP = 10  # 6 weights, connection, penalty, position boost (points), choice sharpness
+def unpack(t):
+    # position boost fixed at 0 (Kevin, 2026-10-07: position "matters very little"); t[8] is unused
+    w = np.exp(t[:6]); w /= w.sum(); return w, np.exp(t[6]), np.exp(t[7]), 0.0, np.exp(t[9])
+def score(X, w, c, p, q=0.0): return 10 * X[..., :6] @ w + c * X[..., 6] + p * X[..., 7] + q * X[..., 8]
+def stack(P): return np.array([a for a, *_ in P]), np.array([b for _, b, *_ in P]), np.array([y for _, _, y, _ in P])
+def loss(t, S, lam):
+    w, c, p, q, beta = unpack(t); Xa, Xb, y = S
+    z = beta * (score(Xa, w, c, p, q) - score(Xb, w, c, p, q))
+    return (y * np.logaddexp(0, -z) + (1 - y) * np.logaddexp(0, z)).sum() + lam * ((t[:6] - t[:6].mean()) ** 2).sum()
+def fit(P, lam=0.5, iters=3000):
+    S = stack(P); t = np.zeros(NP); t[9] = np.log(0.2); m = np.zeros(NP); v = np.zeros(NP)
+    for i in range(1, iters + 1):  # Adam with numerical gradients
+        g = np.array([(loss(t + e, S, lam) - loss(t - e, S, lam)) / 2e-4 for e in np.eye(NP) * 1e-4])
+        m = .9 * m + .1 * g; v = .999 * v + .001 * g * g; t -= .03 * (m / (1 - .9 ** i)) / (np.sqrt(v / (1 - .999 ** i)) + 1e-8)
+    return t
+def acc(P, w, c, p, q):  # toss-ups left out of accuracy
+    h = [(score(a, w, c, p, q) > score(b, w, c, p, q)) == (y > .5) for a, b, y, _ in P if y != .5]; return sum(h), len(h)
+
+if __name__ == '__main__':
+    w, c, p, q, beta = unpack(fit(pairs))
+    W = {k: round(float(x) * 100, 1) for k, x in zip(K, w)}
+    print('weights', W, 'connection x%.2f' % c, 'penalty x%.2f' % p, 'position %+.1f' % q)
+    a = acc(pairs, w, c, p, q); n = acc(named, w, c, p, q)
+    r = np.corrcoef([score(x, w, c, p, q) for x, _ in gut], [g for _, g in gut])[0, 1]
+    print('profiles in-sample %d of %d; named head-to-heads %d of %d; gut r %.2f' % (*a, *n, r))
+    hits = tot = nh = nt = 0
+    for j in range(len(pairs)):
+        if pairs[j][2] == .5: continue
+        wj, cj, pj, qj, _ = unpack(fit(pairs[:j] + pairs[j + 1:], iters=1500)); xa, xb, y, lab = pairs[j]
+        h = (score(xa, wj, cj, pj, qj) > score(xb, wj, cj, pj, qj)) == (y > .5); hits += h; tot += 1
+        if lab.startswith('quiz10'): nh += h; nt += 1
+    print('leave-one-out: %d of %d (%.0f%%); round-10 named pairs %d of %d' % (hits, tot, hits / tot * 100, nh, nt))
+    json.dump(dict(W=W, conn=round(float(c), 2), pen=round(float(p), 2), pos=round(float(q), 1),
+                   source='mystery profiles (rounds 8-9) and controlled named pairs (round 10)',
+                   choices=len(pairs), acc=round(a[0] / a[1], 3), loo=round(hits / tot, 3), loo_named=f'{nh}/{nt}', named_acc=round(n[0] / n[1], 3),
+                   gut_r=round(float(r), 3)), open(here / 'fit.json', 'w'), indent=1)

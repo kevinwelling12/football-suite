@@ -1,0 +1,5731 @@
+[
+ {
+  "name": "Steven Gerrard",
+  "full_name": "Steven George Gerrard",
+  "gender": "M",
+  "active": false,
+  "born": 1980,
+  "nation": "England",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 1998,
+    "to": 2015,
+    "apps": 710,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2015,
+    "to": 2016,
+    "apps": 34,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 17,
+  "one_club": false,
+  "captaincy": "Liverpool captain 2003-2015; England captain 2010-2014",
+  "national": {
+   "team": "England",
+   "caps": 114,
+   "goals": 21,
+   "captain": true
+  },
+  "honours": "1 UCL (2005), 1 UEFA Cup, 2 FA Cup, 3 League Cup; never won the league",
+  "awards": "PFA Player of the Year 2006; FWA 2009; Ballon d'Or 3rd 2005",
+  "moments": [
+   "2005 UCL final Istanbul: header started comeback from 3-0 down",
+   "2006 FA Cup final 'Gerrard final' 91st-min equaliser vs West Ham",
+   "2014 slip vs Chelsea in title run-in"
+  ],
+  "style": [
+   "box-to-box",
+   "long-range shooting",
+   "leader"
+  ],
+  "work_rate": "high: drove the team, famed for carrying games",
+  "ego": "neutral: hugely driven, team-first public persona",
+  "fan_bond": "Local lad from Huyton; ultimate Kop icon, 'Captain Fantastic'",
+  "loyalty_notes": "Handed in transfer request to join Chelsea July 2005, withdrew within a day; also nearly left 2004; then stayed to 2015; left for MLS rather than another PL club",
+  "causes": [
+   "Steven Gerrard Foundation (children's charities, 2011-)",
+   "lost cousin Jon-Paul Gilhooley in Hillsborough 1989; Hillsborough justice advocate"
+  ],
+  "incidents": [
+   {
+    "year": 2008,
+    "type": "other",
+    "what": "bar fight in Southport, charged with affray",
+    "outcome": "acquitted 2009 (jury accepted self-defence); co-defendants convicted",
+    "source": "https://en.wikipedia.org/wiki/Steven_Gerrard"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "became manager of Al-Ettifaq in Saudi Pro League (as manager, not player); left Jan 2025",
+    "type": "b10"
+   }
+  ],
+  "links": "Liverpool 1998-2015 (academy, captain); England",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Steven_Gerrard"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jamie Carragher",
+  "full_name": "James Lee Duncan Carragher",
+  "gender": "M",
+  "active": false,
+  "born": 1978,
+  "nation": "England",
+  "positions": [
+   "CB",
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 1996,
+    "to": 2013,
+    "apps": 737,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 17,
+  "one_club": true,
+  "captaincy": "Liverpool vice-captain (to Gerrard) for most of the 2000s",
+  "national": {
+   "team": "England",
+   "caps": 38,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 UCL (2005), 1 UEFA Cup, 2 FA Cup, 3 League Cup",
+  "awards": "",
+  "moments": [
+   "2005 UCL final: played through cramp in extra time",
+   "2nd-most Liverpool appearances (737)"
+  ],
+  "style": [
+   "no-nonsense defender",
+   "organiser",
+   "blocker"
+  ],
+  "work_rate": "high: relentless, famously vocal",
+  "ego": "humble: self-made squad player who became a mainstay",
+  "fan_bond": "Huge fan favourite ('we all dream of a team of Carraghers'); grew up an Everton fan yet became a Liverpool one-club man",
+  "loyalty_notes": "One-club man 1996-2013; stayed through lean years",
+  "causes": [
+   "23 Foundation (Merseyside children's charity, 2009-)"
+  ],
+  "incidents": [
+   {
+    "year": 2018,
+    "type": "other",
+    "what": "spat from his car at a man and his 14-year-old daughter after taunts on the motorway",
+    "outcome": "suspended by Sky Sports for the season; apologised publicly and personally",
+    "source": "https://en.wikipedia.org/wiki/Jamie_Carragher"
+   }
+  ],
+  "money_moves": [],
+  "links": "Liverpool 1996-2013 (one club); England",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jamie_Carragher"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "John Barnes",
+  "full_name": "John Charles Bryan Barnes",
+  "gender": "M",
+  "active": false,
+  "born": 1963,
+  "nation": "England",
+  "positions": [
+   "LW",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Watford",
+    "from": 1981,
+    "to": 1987,
+    "apps": 296,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1987,
+    "to": 1997,
+    "apps": 407,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 1997,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Charlton Athletic",
+    "from": 1999,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "Liverpool captain c.1993-1997",
+  "national": {
+   "team": "England",
+   "caps": 79,
+   "goals": 11,
+   "captain": false
+  },
+  "honours": "2 English league titles (1988, 1990), 1 FA Cup, 1 League Cup",
+  "awards": "PFA Player of the Year 1988; FWA Footballer of the Year 1988, 1990",
+  "moments": [
+   "1984 solo goal vs Brazil at the Maracanã",
+   "1988 back-heeled a banana thrown at him off the pitch in the Merseyside derby"
+  ],
+  "style": [
+   "flair winger",
+   "dribbler",
+   "later deep-lying playmaker"
+  ],
+  "work_rate": "medium: winger turned tempo-setting midfielder",
+  "ego": "humble: soft-spoken, measured",
+  "fan_bond": "Adored at Anfield despite racist abuse from some opponents' fans when he arrived as Liverpool's first high-profile Black player",
+  "loyalty_notes": "Moved Watford to Liverpool 1987; reinvented as a midfielder after Achilles injury",
+  "causes": [
+   "Prominent, long-standing voice on racism in football and society (books, interviews, Kick It Out era)"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 1987-1997; England",
+  "sources": [
+   "https://en.wikipedia.org/wiki/John_Barnes_(footballer)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Robbie Fowler",
+  "full_name": "Robert Bernard Fowler",
+  "gender": "M",
+  "active": false,
+  "born": 1975,
+  "nation": "England",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 1993,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Leeds United",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2003,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2006,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Cardiff City",
+    "from": 2007,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Blackburn Rovers",
+    "from": 2008,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "North Queensland Fury",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Perth Glory",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Muangthong United",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Liverpool captain on occasion (vice-captain c.2000-01)",
+  "national": {
+   "team": "England",
+   "caps": 26,
+   "goals": 7,
+   "captain": false
+  },
+  "honours": "1 UEFA Cup, 1 FA Cup, 2 League Cup (Liverpool)",
+  "awards": "PFA Young Player of the Year 1995, 1996",
+  "moments": [
+   "4 min 33 s hat-trick vs Arsenal 1994",
+   "1997 revealed 'support the dockers' T-shirt after scoring vs Brann",
+   "1997 told the referee he was not fouled by Seaman and asked for no penalty"
+  ],
+  "style": [
+   "natural finisher",
+   "poacher",
+   "left-footed"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral: cheeky, local joker",
+  "fan_bond": "'God' to the Kop; local Toxteth lad and boyhood Everton fan; emotional return in 2006",
+  "loyalty_notes": "Sold to Leeds 2001 after falling out of favour; returned to Liverpool on a free 2006",
+  "causes": [
+   "1997 showed support for 500 sacked Liverpool dock workers (fined by UEFA)",
+   "later charitable work in Liverpool"
+  ],
+  "incidents": [
+   {
+    "year": 1999,
+    "type": "other",
+    "what": "mimicked snorting the goal line vs Everton (responding to drug taunts); also taunted Graeme Le Saux with homophobic gestures",
+    "outcome": "4-match ban for the celebration, 2-match ban for Le Saux taunts; fined",
+    "source": "https://en.wikipedia.org/wiki/Robbie_Fowler"
+   }
+  ],
+  "money_moves": [],
+  "links": "Liverpool 1993-2001, 2006-07 (academy)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Robbie_Fowler"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Michael Owen",
+  "full_name": "Michael James Owen",
+  "gender": "M",
+  "active": false,
+  "born": 1979,
+  "nation": "England",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 1996,
+    "to": 2004,
+    "apps": 297,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2004,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 2005,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2009,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Stoke City",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 89,
+   "goals": 40,
+   "captain": true
+  },
+  "honours": "1 UEFA Cup, 1 FA Cup, 2 League Cup (Liverpool); 1 PL (Man Utd 2011)",
+  "awards": "Ballon d'Or 2001; PFA Young Player 1998",
+  "moments": [
+   "1998 World Cup solo goal vs Argentina",
+   "2001 FA Cup final: two late goals beat Arsenal",
+   "2001 hat-trick in 5-1 win in Munich"
+  ],
+  "style": [
+   "pace",
+   "finisher"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral: reserved, sometimes seen as detached",
+  "fan_bond": "Cooled considerably after he joined Man Utd; Liverpool fans' view mixed",
+  "loyalty_notes": "Let contract run down and left for Real Madrid 2004 for a low fee; joined Man Utd 2009",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2009,
+    "type": "b09",
+    "what": "joined Manchester United, Liverpool's bitter rival",
+    "outcome": "many Liverpool fans never forgave it",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Liverpool 1996-2004 (academy); England",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Michael_Owen"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Xabi Alonso",
+  "full_name": "Xabier Alonso Olano",
+  "gender": "M",
+  "active": false,
+  "born": 1981,
+  "nation": "Spain",
+  "positions": [
+   "DM",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 1999,
+    "to": 2004,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Eibar",
+    "from": 2000,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2004,
+    "to": 2009,
+    "apps": 210,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2009,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2014,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Sociedad",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Real Sociedad captain at 21",
+  "national": {
+   "team": "Spain",
+   "caps": 114,
+   "goals": 16,
+   "captain": false
+  },
+  "honours": "World Cup 2010, 2 Euros (2008, 2012), 2 UCL (2005, 2014), 1 FA Cup, 3 Bundesliga, 1 La Liga",
+  "awards": "",
+  "moments": [
+   "2005 UCL final Istanbul: scored the equaliser on the penalty rebound",
+   "2006 goal from his own half vs Luton"
+  ],
+  "style": [
+   "deep-lying playmaker",
+   "long passing",
+   "positional intelligence"
+  ],
+  "work_rate": "medium: covered ground by positioning",
+  "ego": "humble: understated, cerebral",
+  "fan_bond": "Much loved at Anfield and Anoeta; Liverpool fans protested his near-sale in 2008",
+  "loyalty_notes": "Left Liverpool 2009 after Benítez tried to sell him in 2008; as coach led Leverkusen to an unbeaten double 2023-24 (Freiburg/Real Sociedad B coaching path)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2018,
+    "type": "b05",
+    "what": "charged in Spain with tax fraud over image rights (~2 million euros)",
+    "outcome": "acquitted (2022); not a conviction",
+    "source": "https://en.wikipedia.org/wiki/Xabi_Alonso"
+   }
+  ],
+  "money_moves": [],
+  "links": "Liverpool 2004-09; Real Sociedad academy; Bayern 2014-17",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Xabi_Alonso"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Fernando Torres",
+  "full_name": "Fernando José Torres Sanz",
+  "gender": "M",
+  "active": false,
+  "born": 1984,
+  "nation": "Spain",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Atlético Madrid",
+    "from": 2001,
+    "to": 2007,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Liverpool",
+    "from": 2007,
+    "to": 2011,
+    "apps": 142,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2011,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 2015,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sagan Tosu",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Atlético Madrid",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Atlético captain at 19",
+  "national": {
+   "team": "Spain",
+   "caps": 110,
+   "goals": 38,
+   "captain": false
+  },
+  "honours": "World Cup 2010, 2 Euros (scored winner in 2008 final), 1 UCL (Chelsea), 2 Europa League",
+  "awards": "",
+  "moments": [
+   "Euro 2008 final winner vs Germany",
+   "2009 skinned Vidić at Old Trafford in 4-1 win",
+   "2018 farewell double for Atlético"
+  ],
+  "style": [
+   "pace",
+   "finisher"
+  ],
+  "work_rate": "medium",
+  "ego": "humble: shy, well liked",
+  "fan_bond": "Idol at Atlético; Liverpool fans burned shirts after his move to Chelsea",
+  "loyalty_notes": "Handed in a transfer request Jan 2011 and joined Chelsea for 50m pounds",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2011,
+    "type": "other",
+    "what": "submitted transfer request to force move from Liverpool to Chelsea",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Fernando_Torres"
+   }
+  ],
+  "money_moves": [],
+  "links": "Liverpool 2007-11",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fernando_Torres"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sami Hyypiä",
+  "full_name": "Sami Tuomas Hyypiä",
+  "gender": "M",
+  "active": false,
+  "born": 1973,
+  "nation": "Finland",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "MyPa",
+    "from": 1992,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Willem II",
+    "from": 1995,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1999,
+    "to": 2009,
+    "apps": 464,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "Liverpool captain 2001-2003 (before Gerrard); Finland captain",
+  "national": {
+   "team": "Finland",
+   "caps": 105,
+   "goals": 5,
+   "captain": true
+  },
+  "honours": "1 UCL (2005), 1 UEFA Cup, 2 FA Cup, 2 League Cup",
+  "awards": "",
+  "moments": [
+   "2005 UCL quarter-final volley vs Juventus",
+   "Signed for 2.6m pounds, one of Liverpool's great bargains"
+  ],
+  "style": [
+   "aerial dominance",
+   "calm",
+   "reading of the game"
+  ],
+  "work_rate": "medium",
+  "ego": "humble: quiet, dignified",
+  "fan_bond": "Beloved; emotional Anfield send-off 2009 (captain's armband handed to him by Gerrard)",
+  "loyalty_notes": "Ten seasons at Liverpool",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 1999-2009",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sami_Hyypi%C3%A4"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jordan Henderson",
+  "full_name": "Jordan Brian Henderson",
+  "gender": "M",
+  "active": true,
+  "born": 1990,
+  "nation": "England",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Sunderland",
+    "from": 2008,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Liverpool",
+    "from": 2011,
+    "to": 2023,
+    "apps": 492,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Al-Ettifaq",
+    "from": 2023,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ajax",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Brentford",
+    "from": 2025,
+    "to": 2026,
+    "apps": 34,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "Liverpool captain 2015-2023 (lifted UCL 2019, PL 2020)",
+  "national": {
+   "team": "England",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "1 PL, 1 UCL, 1 FA Cup, 1 League Cup, Club World Cup",
+  "awards": "FWA Footballer of the Year 2020",
+  "moments": [
+   "Lifted the 2019 UCL in Madrid",
+   "Lifted Liverpool's first league title in 30 years, 2020"
+  ],
+  "style": [
+   "box-to-box",
+   "presser",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Grew from early criticism into a respected captain; bond badly damaged by Saudi move",
+  "loyalty_notes": "Joined Al-Ettifaq 2023 after public LGBTQ+ allyship; left after 6 months; STILL ACTIVE: left Brentford July 2026, reported move to Chelsea",
+  "causes": [
+   "Organised #PlayersTogether NHS fund 2020",
+   "Vocal LGBTQ+ ally (rainbow laces)"
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Ettifaq (Saudi Pro League) after LGBTQ+ advocacy",
+    "type": "b10"
+   }
+  ],
+  "links": "Liverpool 2011-23 (captain)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jordan_Henderson",
+   "https://www.brentfordfc.com/en/news/article/first-team-jordan-henderson-leaves-brentford"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Roberto Firmino",
+  "full_name": "Roberto Firmino Barbosa de Oliveira",
+  "gender": "M",
+  "active": true,
+  "born": 1991,
+  "nation": "Brazil",
+  "positions": [
+   "ST",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Figueirense",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hoffenheim",
+    "from": 2011,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2015,
+    "to": 2023,
+    "apps": 362,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Ahli",
+    "from": 2023,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Sadd",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 55,
+   "goals": 17,
+   "captain": false
+  },
+  "honours": "1 PL, 1 UCL, 1 FA Cup, 1 League Cup, Club World Cup; Copa América 2019; AFC Champions League Elite 2025",
+  "awards": "",
+  "moments": [
+   "No-look goals; Club World Cup 2019 final winner"
+  ],
+  "style": [
+   "false nine",
+   "presser",
+   "creator"
+  ],
+  "work_rate": "high: led Klopp's press",
+  "ego": "humble",
+  "fan_bond": "Huge Anfield favourite ('Si Señor'); emotional send-off 2023",
+  "loyalty_notes": "STILL ACTIVE: Al-Sadd (Qatar) since 2025; became an ordained evangelical pastor",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Ahli (Saudi PIF-owned)",
+    "type": "b10"
+   },
+   {
+    "year": 2023,
+    "what": "Al-Ahli is a PIF club",
+    "type": "b11"
+   }
+  ],
+  "links": "Liverpool 2015-23",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Roberto_Firmino",
+   "https://thesun.my/sports/roberto-firmino-joins-al-sadd-from-al-ahli-on-two-year-deal-id14533658/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ian Rush",
+  "full_name": "Ian James Rush",
+  "gender": "M",
+  "active": false,
+  "born": 1961,
+  "nation": "Wales",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Chester City",
+    "from": 1979,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1980,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1987,
+    "to": 1988,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1988,
+    "to": 1996,
+    "apps": 660,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 1997,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Wrexham",
+    "from": 1998,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Liverpool captain 1993-1996",
+  "national": {
+   "team": "Wales",
+   "caps": 73,
+   "goals": 28,
+   "captain": false
+  },
+  "honours": "5 league titles, 2 European Cups, 3 FA Cups, 5 League Cups",
+  "awards": "European Golden Shoe 1984; PFA & FWA Player of the Year 1984",
+  "moments": [
+   "Club record 346 goals",
+   "1989 FA Cup final: two goals vs Everton weeks after Hillsborough",
+   "Record 25 goals in Merseyside derbies"
+  ],
+  "style": [
+   "finisher",
+   "first defender"
+  ],
+  "work_rate": "high: Liverpool's first defender",
+  "ego": "humble",
+  "fan_bond": "Legend; returned from Juventus after one year",
+  "loyalty_notes": "Left for Juventus 1987, came back 1988",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 1980-87, 1988-96; Wales",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ian_Rush"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Marco Reus",
+  "full_name": "Marco Reus",
+  "gender": "M",
+  "active": true,
+  "born": 1989,
+  "nation": "Germany",
+  "positions": [
+   "AM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Rot Weiss Ahlen",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2009,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2012,
+    "to": 2024,
+    "apps": 429,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "Dortmund captain 2018-2023",
+  "national": {
+   "team": "Germany",
+   "caps": 48,
+   "goals": 15,
+   "captain": false
+  },
+  "honours": "2 DFB-Pokal (2017, 2021); MLS Cup 2024",
+  "awards": "German Footballer of the Year 2012, 2019",
+  "moments": [
+   "Missed the 2014 World Cup (injury on eve)",
+   "2024 UCL final run in last BVB season"
+  ],
+  "style": [
+   "creator",
+   "finisher",
+   "technical"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Dortmund-born, BVB youth (released at 16); turned down Bayern repeatedly; emotional 2024 farewell",
+  "loyalty_notes": "STILL ACTIVE: LA Galaxy, extended through 2027",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2014,
+    "type": "other",
+    "what": "drove for years without a valid licence",
+    "outcome": "fined 540,000 euros",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Dortmund 2012-24 (captain)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marco_Reus",
+   "https://worldsoccertalk.com/news/marco-reus-makes-decision-on-his-future-with-la-galaxy-beyond-2026-mls-season/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mats Hummels",
+  "full_name": "Mats Julian Hummels",
+  "gender": "M",
+  "active": false,
+  "born": 1988,
+  "nation": "Germany",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2008,
+    "to": 2016,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2019,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Roma",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "Dortmund captain 2014-2016",
+  "national": {
+   "team": "Germany",
+   "caps": 78,
+   "goals": 5,
+   "captain": false
+  },
+  "honours": "World Cup 2014; 2 Bundesliga with BVB (2011, 2012), 3 with Bayern; DFB-Pokal 2012 (and Bayern)",
+  "awards": "",
+  "moments": [
+   "Header winner vs France, 2014 World Cup QF",
+   "2024 UCL final run at 35"
+  ],
+  "style": [
+   "ball-playing CB",
+   "reading of the game"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral: outspoken, confident",
+  "fan_bond": "BVB fan favourite, though his 2016 move to Bayern hurt; welcomed back 2019",
+  "loyalty_notes": "Left Dortmund for Bayern 2016 as captain; returned 2019; retired after Roma 2025",
+  "causes": [
+   "Joined Common Goal (1% of wages) 2017 as the first German player"
+  ],
+  "incidents": [
+   {
+    "year": 2016,
+    "type": "b09",
+    "what": "left as BVB captain to join Bayern Munich, Dortmund's main rival",
+    "outcome": "returned 2019",
+    "source": "https://en.wikipedia.org/wiki/Mats_Hummels"
+   }
+  ],
+  "money_moves": [],
+  "links": "Dortmund 2008-16, 2019-24",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mats_Hummels",
+   "https://www.bundesliga.com/en/bundesliga/news/mats-hummels-announces-retirement-dortmund-bayern-roma-last-match-31590"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Łukasz Piszczek",
+  "full_name": "Łukasz Piszczek",
+  "gender": "M",
+  "active": false,
+  "born": 1985,
+  "nation": "Poland",
+  "positions": [
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Hertha BSC",
+    "from": 2004,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2010,
+    "to": 2021,
+    "apps": 382,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LKS Goczałkowice-Zdrój",
+    "from": 2021,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Poland",
+   "caps": 66,
+   "goals": 3,
+   "captain": false
+  },
+  "honours": "2 Bundesliga, 3 DFB-Pokal",
+  "awards": "",
+  "moments": [
+   "Part of Klopp's double-winning side 2012",
+   "2013 UCL final"
+  ],
+  "style": [
+   "overlapping full-back",
+   "consistent"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Deeply loved at BVB; farewell in empty stadium (COVID) 2021",
+  "loyalty_notes": "Converted from striker to RB; returned to hometown club he helped found an academy for",
+  "causes": [
+   "Founded a football academy in his hometown Goczałkowice-Zdrój"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2010-21",
+  "sources": [
+   "https://en.wikipedia.org/wiki/%C5%81ukasz_Piszczek"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jürgen Kohler",
+  "full_name": "Jürgen Kohler",
+  "gender": "M",
+  "active": false,
+  "born": 1965,
+  "nation": "Germany",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Waldhof Mannheim",
+    "from": 1983,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "1. FC Köln",
+    "from": 1987,
+    "to": 1989,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 1989,
+    "to": 1991,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1991,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 1995,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 105,
+   "goals": 2,
+   "captain": false
+  },
+  "honours": "World Cup 1990, Euro 1996; UCL 1997, UEFA Cup 1993, Serie A 1995, 2 Bundesliga with BVB",
+  "awards": "German Footballer of the Year 1997",
+  "moments": [
+   "1997 UCL final win with BVB",
+   "Man-marked van Basten in 1990 World Cup"
+  ],
+  "style": [
+   "man-marker",
+   "tough"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Respected; career ended with red card in 2002 UEFA Cup final, his last match",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 1995-2002; Köln 1987-89",
+  "sources": [
+   "https://en.wikipedia.org/wiki/J%C3%BCrgen_Kohler"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Michael Zorc",
+  "full_name": "Michael Zorc",
+  "gender": "M",
+  "active": false,
+  "born": 1962,
+  "nation": "Germany",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Borussia Dortmund",
+    "from": 1981,
+    "to": 1998,
+    "apps": 463,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 17,
+  "one_club": true,
+  "captaincy": "BVB captain through the 1990s (lifted 1997 UCL)",
+  "national": {
+   "team": "Germany",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "UCL 1997, 2 Bundesliga (1995, 1996), DFB-Pokal 1989",
+  "awards": "",
+  "moments": [
+   "Captained BVB to 1997 UCL",
+   "Club-record 463 Bundesliga appearances"
+  ],
+  "style": [
+   "midfield organiser",
+   "penalty taker"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "'Susi'; BVB lifer, then sporting director 1998-2022",
+  "loyalty_notes": "One-club man; stayed through near-bankruptcy 2005 as director",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 1981-98 player, director to 2022",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Michael_Zorc"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Lars Ricken",
+  "full_name": "Lars Ricken",
+  "gender": "M",
+  "active": false,
+  "born": 1976,
+  "nation": "Germany",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Borussia Dortmund",
+    "from": 1993,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 16,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 16,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "UCL 1997, 3 Bundesliga",
+  "awards": "",
+  "moments": [
+   "1997 UCL final: chipped a goal 16 seconds after coming on vs Juventus"
+  ],
+  "style": [
+   "attacking midfielder"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Dortmund-born; club icon; later youth director and BVB executive",
+  "loyalty_notes": "One-club man incl. BVB II at the end",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 1993-2009",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lars_Ricken"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Roman Weidenfeller",
+  "full_name": "Roman Weidenfeller",
+  "gender": "M",
+  "active": false,
+  "born": 1980,
+  "nation": "Germany",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "1. FC Kaiserslautern",
+    "from": 1998,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2002,
+    "to": 2018,
+    "apps": 453,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 16,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 5,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "World Cup 2014 (squad), 2 Bundesliga, 1 DFB-Pokal",
+  "awards": "",
+  "moments": [
+   "2013 UCL final vs Bayern"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Long-serving, popular keeper; farewell 2018",
+  "loyalty_notes": "16 years at BVB incl. near-bankruptcy era",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2007,
+    "type": "other",
+    "what": "insulted Gerald Asamoah during a Schalke match (Asamoah alleged racist abuse; Weidenfeller said he used a homophobic insult)",
+    "outcome": "DFB 3-match ban for insult",
+    "source": "https://en.wikipedia.org/wiki/Roman_Weidenfeller"
+   }
+  ],
+  "money_moves": [],
+  "links": "Dortmund 2002-18",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Roman_Weidenfeller"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Neven Subotić",
+  "full_name": "Neven Subotić",
+  "gender": "M",
+  "active": false,
+  "born": 1988,
+  "nation": "Serbia",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Mainz 05",
+    "from": 2006,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2008,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "1. FC Köln",
+    "from": 2017,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Saint-Étienne",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Denizlispor",
+    "from": 2020,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rheindorf Altach",
+    "from": 2021,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Serbia",
+   "caps": 36,
+   "goals": 2,
+   "captain": false
+  },
+  "honours": "2 Bundesliga, 1 DFB-Pokal",
+  "awards": "",
+  "moments": [
+   "Klopp's young centre-back pairing with Hummels, 2011-12 double"
+  ],
+  "style": [
+   "athletic CB"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Popular at BVB; also at Union Berlin",
+  "loyalty_notes": "Grew up partly in the US (US youth teams) before choosing Serbia; retired c.2022",
+  "causes": [
+   "Neven Subotić Foundation: wells and sanitation in Ethiopia since 2012",
+   "Outspoken on inequality, said he was ashamed of his old pro lifestyle"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2008-18; Union Berlin 2019-20; USA youth",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Neven_Suboti%C4%87",
+   "https://www.sport1.de/news/fussball/2022/06/subotic-zu-profi-lebensstil-im-ruckblick-schame-ich-mich"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Nuri Şahin",
+  "full_name": "Nuri Şahin",
+  "gender": "M",
+  "active": false,
+  "born": 1988,
+  "nation": "Turkey",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Borussia Dortmund",
+    "from": 2005,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Feyenoord",
+    "from": 2007,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2011,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2013,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Werder Bremen",
+    "from": 2018,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Antalyaspor",
+    "from": 2020,
+    "to": 2021,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Turkey",
+   "caps": 52,
+   "goals": 2,
+   "captain": false
+  },
+  "honours": "Bundesliga 2011, DFB-Pokal 2017",
+  "awards": "Bundesliga Player of the Season 2010-11",
+  "moments": [
+   "Youngest Bundesliga debutant (16) in 2005",
+   "2011 title-winning playmaker"
+  ],
+  "style": [
+   "deep playmaker",
+   "passer"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "BVB academy product; returned after Madrid; coached BVB 2024-25 (sacked Jan 2025)",
+  "loyalty_notes": "Left for Real Madrid at peak 2011, came back 2013; brief Liverpool loan",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2005-11, 2013-18; Liverpool loan 2012",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nuri_%C5%9Eahin"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sebastian Kehl",
+  "full_name": "Sebastian Kehl",
+  "gender": "M",
+  "active": false,
+  "born": 1980,
+  "nation": "Germany",
+  "positions": [
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Hannover 96",
+    "from": 1998,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SC Freiburg",
+    "from": 2000,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2002,
+    "to": 2015,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "BVB captain 2008-2014",
+  "national": {
+   "team": "Germany",
+   "caps": 31,
+   "goals": 3,
+   "captain": false
+  },
+  "honours": "2 Bundesliga, 1 DFB-Pokal; 2002 World Cup runner-up",
+  "awards": "",
+  "moments": [
+   "Captain of Klopp's title sides"
+  ],
+  "style": [
+   "holding midfielder"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Stayed through BVB's 2005 crisis and long injuries; later BVB sporting director",
+  "loyalty_notes": "Took a signing advance from Bayern in 2001 then joined Dortmund (Bayern got compensation)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2001,
+    "type": "other",
+    "what": "accepted advance from Bayern then signed for Dortmund",
+    "outcome": "clubs settled",
+    "source": "https://en.wikipedia.org/wiki/Sebastian_Kehl"
+   }
+  ],
+  "money_moves": [],
+  "links": "Dortmund 2002-15; Freiburg 2000-02",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sebastian_Kehl"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Shinji Kagawa",
+  "full_name": "Shinji Kagawa",
+  "gender": "M",
+  "active": true,
+  "born": 1989,
+  "nation": "Japan",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Cerezo Osaka",
+    "from": 2006,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2012,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 2014,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Beşiktaş",
+    "from": 2019,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Zaragoza",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PAOK",
+    "from": 2021,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sint-Truiden",
+    "from": 2022,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Cerezo Osaka",
+    "from": 2023,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Japan",
+   "caps": 97,
+   "goals": 31,
+   "captain": false
+  },
+  "honours": "2 Bundesliga, 2 DFB-Pokal, 1 PL",
+  "awards": "",
+  "moments": [
+   "Derby goals vs Schalke 2010",
+   "Key in 2011-12 double"
+  ],
+  "style": [
+   "creative 10"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Cult hero at BVB; returned 2014",
+  "loyalty_notes": "STILL ACTIVE: Cerezo Osaka 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 2010-12, 2014-19; Japan",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shinji_Kagawa"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Aritz Aduriz",
+  "full_name": "Aritz Aduriz Zubeldia",
+  "gender": "M",
+  "active": false,
+  "born": 1981,
+  "nation": "Spain",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 2002,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Valladolid",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Athletic Club",
+    "from": 2006,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Mallorca",
+    "from": 2008,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Valencia",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Athletic Club",
+    "from": 2012,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Athletic Club",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Spain",
+   "caps": 13,
+   "goals": 2,
+   "captain": false
+  },
+  "honours": "Supercopa 2015",
+  "awards": "Europa League top scorer 2015-16",
+  "moments": [
+   "2015 Supercopa: hat-trick vs Barcelona",
+   "Prolific into late 30s; retired May 2020 (hip)"
+  ],
+  "style": [
+   "aerial striker",
+   "volleys"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Huge Athletic favourite; three spells",
+  "loyalty_notes": "Basque (San Sebastián); returned to Athletic twice",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Athletic Club (3 spells)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Aritz_Aduriz"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Iker Muniain",
+  "full_name": "Iker Muniain Goñi",
+  "gender": "M",
+  "active": false,
+  "born": 1992,
+  "nation": "Spain",
+  "positions": [
+   "LW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 2009,
+    "to": 2024,
+    "apps": 561,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "San Lorenzo",
+    "from": 2024,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Athletic Club",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Athletic captain; lifted 2024 Copa del Rey",
+  "national": {
+   "team": "Spain",
+   "caps": 3,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "Copa del Rey 2024, Supercopa 2015, 2021",
+  "awards": "",
+  "moments": [
+   "Youngest Athletic scorer (16)",
+   "2024 Copa del Rey: Athletic's first in 40 years"
+  ],
+  "style": [
+   "dribbler",
+   "creator"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Athletic idol; emotional farewell 2024",
+  "loyalty_notes": "Stayed through ACL injuries; retired 2025 at San Lorenzo; became San Lorenzo head coach June 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Athletic Club 2009-24 (academy, captain)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Iker_Muniain",
+   "https://diariopanorama.com/noticia/557537/iker-muniain-se-convirtio-nuevo-director-tecnico-san-lorenzo"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Joseba Etxeberria",
+  "full_name": "Joseba Etxeberria Lizardi",
+  "gender": "M",
+  "active": false,
+  "born": 1977,
+  "nation": "Spain",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 1994,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Athletic Club",
+    "from": 1995,
+    "to": 2010,
+    "apps": 514,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Athletic Club",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Athletic captain late career",
+  "national": {
+   "team": "Spain",
+   "caps": 53,
+   "goals": 12,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Played his final 2009-10 season for Athletic without a salary"
+  ],
+  "style": [
+   "winger"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Athletic legend",
+  "loyalty_notes": "Move from Real Sociedad caused a bitter compensation dispute; played last season unpaid",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Athletic Club 1995-2010",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Joseba_Etxeberria"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Xabi Prieto",
+  "full_name": "Xabier Prieto Argarate",
+  "gender": "M",
+  "active": false,
+  "born": 1983,
+  "nation": "Spain",
+  "positions": [
+   "AM",
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Real Sociedad",
+    "from": 2003,
+    "to": 2018,
+    "apps": 532,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Real Sociedad",
+  "longest_years": 15,
+  "one_club": true,
+  "captaincy": "Real Sociedad captain",
+  "national": {
+   "team": "Spain",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "Segunda División 2010",
+  "awards": "",
+  "moments": [
+   "Stayed through 3 Segunda seasons 2007-10"
+  ],
+  "style": [
+   "elegant creator",
+   "penalties"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "'Rey de Anoeta'",
+  "loyalty_notes": "One-club man; stayed after relegation 2007",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Real Sociedad 2003-18",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Xabi_Prieto"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Joaquín",
+  "full_name": "Joaquín Sánchez Rodríguez",
+  "gender": "M",
+  "active": false,
+  "born": 1981,
+  "nation": "Spain",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Real Betis",
+    "from": 2000,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Valencia",
+    "from": 2006,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Málaga",
+    "from": 2011,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fiorentina",
+    "from": 2013,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Betis",
+    "from": 2015,
+    "to": 2023,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Betis",
+  "longest_years": 14,
+  "one_club": false,
+  "captaincy": "Betis captain late career",
+  "national": {
+   "team": "Spain",
+   "caps": 51,
+   "goals": 4,
+   "captain": false
+  },
+  "honours": "2 Copa del Rey with Betis (2005, 2022), 1 with Valencia",
+  "awards": "",
+  "moments": [
+   "Lifted 2022 Copa del Rey as captain at 40",
+   "Hat-trick vs Athletic at 37 (2019)"
+  ],
+  "style": [
+   "winger",
+   "dribbler"
+  ],
+  "work_rate": "medium",
+  "ego": "humble: joker, adored personality",
+  "fan_bond": "Betis icon; retired 2023 with a huge farewell",
+  "loyalty_notes": "Returned to boyhood Betis 2015",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Betis 2000-06, 2015-23",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Joaqu%C3%ADn_(footballer,_born_1981)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Julen Guerrero",
+  "full_name": "Julen Guerrero López",
+  "gender": "M",
+  "active": false,
+  "born": 1974,
+  "nation": "Spain",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Athletic Club",
+    "from": 1992,
+    "to": 2006,
+    "apps": 430,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Athletic Club",
+  "longest_years": 14,
+  "one_club": true,
+  "captaincy": "Athletic captain",
+  "national": {
+   "team": "Spain",
+   "caps": 41,
+   "goals": 13,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Turned down Real Madrid and others in the 1990s to stay at Athletic"
+  ],
+  "style": [
+   "attacking midfielder"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Athletic poster boy of the 90s",
+  "loyalty_notes": "One-club man",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Athletic Club 1992-2006",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Julen_Guerrero"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Carles Puyol",
+  "full_name": "Carles Puyol i Saforcada",
+  "gender": "M",
+  "active": false,
+  "born": 1978,
+  "nation": "Spain",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 1999,
+    "to": 2014,
+    "apps": 593,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 15,
+  "one_club": true,
+  "captaincy": "Barcelona captain 2004-2014",
+  "national": {
+   "team": "Spain",
+   "caps": 100,
+   "goals": 3,
+   "captain": false
+  },
+  "honours": "World Cup 2010, Euro 2008, 3 UCL, 6 La Liga",
+  "awards": "",
+  "moments": [
+   "2010 WC semi header vs Germany",
+   "Handed armband to Abidal (after liver cancer) to lift 2011 UCL"
+  ],
+  "style": [
+   "defender",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "One-club captain; famed sportsmanship",
+  "loyalty_notes": "One-club man",
+  "causes": [
+   "Offered part of his liver to Abidal (2012)"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carles_Puyol"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Uwe Seeler",
+  "full_name": "Uwe Seeler",
+  "gender": "M",
+  "active": false,
+  "born": 1936,
+  "nation": "Germany",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Hamburger SV",
+    "from": 1953,
+    "to": 1972,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Hamburger SV",
+  "longest_years": 19,
+  "one_club": true,
+  "captaincy": "HSV and West Germany captain",
+  "national": {
+   "team": "West Germany",
+   "caps": 72,
+   "goals": 43,
+   "captain": true
+  },
+  "honours": "German champion 1960, DFB-Pokal 1963",
+  "awards": "German Footballer of the Year 1960, 1964, 1970",
+  "moments": [
+   "Back-header vs England, 1970 WC",
+   "Rejected a big Inter offer 1961"
+  ],
+  "style": [
+   "centre-forward",
+   "acrobatic"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "'Uns Uwe'; died 2022",
+  "loyalty_notes": "One-club man; refused Inter",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "HSV",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Uwe_Seeler"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Matthias Sammer",
+  "full_name": "Matthias Sammer",
+  "gender": "M",
+  "active": false,
+  "born": 1967,
+  "nation": "Germany",
+  "positions": [
+   "SW",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Dynamo Dresden",
+    "from": 1985,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfB Stuttgart",
+    "from": 1990,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter",
+    "from": 1992,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Dortmund",
+    "from": 1993,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Dortmund",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Last East Germany captain",
+  "national": {
+   "team": "Germany",
+   "caps": 51,
+   "goals": 8,
+   "captain": true
+  },
+  "honours": "Euro 1996, UCL 1997, 2 Bundesliga with BVB, 1 with Stuttgart",
+  "awards": "Ballon d'Or 1996",
+  "moments": [
+   "Euro 96 player of the tournament"
+  ],
+  "style": [
+   "sweeper",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "neutral: fiery",
+  "fan_bond": "BVB icon; later BVB coach (2002 title) and Bayern director",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Dortmund 1993-98; Stuttgart",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Matthias_Sammer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Oliver Kahn",
+  "full_name": "Oliver Rolf Kahn",
+  "gender": "M",
+  "active": false,
+  "born": 1969,
+  "nation": "Germany",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Karlsruher SC",
+    "from": 1987,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 1994,
+    "to": 2008,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich",
+  "longest_years": 14,
+  "one_club": false,
+  "captaincy": "Bayern and Germany captain",
+  "national": {
+   "team": "Germany",
+   "caps": 86,
+   "goals": 0,
+   "captain": true
+  },
+  "honours": "UCL 2001, UEFA Cup 1996, 8 Bundesliga",
+  "awards": "2002 World Cup Golden Ball",
+  "moments": [
+   "Saved three penalties in 2001 UCL final"
+  ],
+  "style": [
+   "shot-stopper",
+   "intensity"
+  ],
+  "work_rate": "high",
+  "ego": "big: famously intense",
+  "fan_bond": "Bayern icon",
+  "loyalty_notes": "Bayern CEO 2021-23",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1999,
+    "type": "b06",
+    "what": "jump-kicked at Chapuisat (Dortmund)",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2001,
+    "type": "b06",
+    "what": "bit Heiko Herrlich's neck",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Bayern 1994-2008",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Oliver_Kahn"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Gianfranco Zola",
+  "full_name": "Gianfranco Zola",
+  "gender": "M",
+  "active": false,
+  "born": 1966,
+  "nation": "Italy",
+  "positions": [
+   "AM",
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Napoli",
+    "from": 1989,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Parma",
+    "from": 1993,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 1996,
+    "to": 2003,
+    "apps": 312,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Cagliari",
+    "from": 2003,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Chelsea",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Italy",
+   "caps": 35,
+   "goals": 10,
+   "captain": false
+  },
+  "honours": "Cup Winners' Cup 1998, 2 FA Cup; Serie A 1990 (Napoli)",
+  "awards": "FWA 1997; honorary OBE 2004",
+  "moments": [
+   "Back-heel flick goal vs Norwich 2002",
+   "1998 CWC final winner"
+  ],
+  "style": [
+   "creator",
+   "free kicks"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Universally liked; returned home to Cagliari",
+  "loyalty_notes": "Kept promise to Cagliari despite Abramovich offer 2003",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gianfranco_Zola"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Paolo Di Canio",
+  "full_name": "Paolo Di Canio",
+  "gender": "M",
+  "active": false,
+  "born": 1968,
+  "nation": "Italy",
+  "positions": [
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "Lazio",
+    "from": 1985,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1990,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Napoli",
+    "from": 1993,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1994,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sheffield Wednesday",
+    "from": 1997,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "West Ham United",
+    "from": 1999,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Charlton Athletic",
+    "from": 2003,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lazio",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "West Ham United",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Italy",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "FIFA Fair Play award 2001",
+  "moments": [
+   "2000 caught ball instead of scoring vs Everton (keeper injured)",
+   "2000 scissor-kick goal vs Wimbledon"
+  ],
+  "style": [
+   "volleys",
+   "flair"
+  ],
+  "work_rate": "high",
+  "ego": "big: volatile",
+  "fan_bond": "West Ham cult hero",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1998,
+    "type": "other",
+    "what": "pushed referee Paul Alcock to the ground",
+    "outcome": "11-match ban",
+    "source": ""
+   },
+   {
+    "year": 2005,
+    "type": "other",
+    "what": "fascist salutes to Lazio ultras; called himself 'a fascist, not a racist'",
+    "outcome": "1-match ban, fined",
+    "source": "https://en.wikipedia.org/wiki/Paolo_Di_Canio"
+   },
+   {
+    "year": 2016,
+    "type": "other",
+    "what": "Sky Italia dropped him after showing a fascist-linked tattoo",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "Celtic 1996-97",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paolo_Di_Canio"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Matt Le Tissier",
+  "full_name": "Matthew Paul Le Tissier",
+  "gender": "M",
+  "active": false,
+  "born": 1968,
+  "nation": "England",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Southampton",
+    "from": 1986,
+    "to": 2002,
+    "apps": 540,
+    "captain": true,
+    "academy": true
+   }
+  ],
+  "longest_club": "Southampton",
+  "longest_years": 16,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 8,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "PFA Young Player 1990",
+  "moments": [
+   "Scored 47 of 48 penalties",
+   "Stayed loyal despite Spurs/Chelsea interest"
+  ],
+  "style": [
+   "genius",
+   "free kicks"
+  ],
+  "work_rate": "low: famously unathletic",
+  "ego": "humble",
+  "fan_bond": "'Le God'",
+  "loyalty_notes": "One-club man",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "spread COVID-19 vaccine misinformation",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2022,
+    "type": "other",
+    "what": "retweeted Bucha 'false flag' claims",
+    "outcome": "resigned as Southampton ambassador",
+    "source": "https://en.wikipedia.org/wiki/Matt_Le_Tissier"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Matt_Le_Tissier"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Alan Shearer",
+  "full_name": "Alan Shearer",
+  "gender": "M",
+  "active": false,
+  "born": 1970,
+  "nation": "England",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Southampton",
+    "from": 1988,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Blackburn Rovers",
+    "from": 1992,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 1996,
+    "to": 2006,
+    "apps": 404,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Newcastle United",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "Newcastle captain 1999-2006; England captain",
+  "national": {
+   "team": "England",
+   "caps": 63,
+   "goals": 30,
+   "captain": true
+  },
+  "honours": "PL 1995",
+  "awards": "PL record 260 goals",
+  "moments": [
+   "Euro 96 Golden Boot"
+  ],
+  "style": [
+   "finisher",
+   "target man"
+  ],
+  "work_rate": "high",
+  "ego": "neutral: blunt",
+  "fan_bond": "Newcastle icon",
+  "loyalty_notes": "Turned down Man Utd to join hometown Newcastle 1996",
+  "causes": [
+   "Alan Shearer Foundation (disability centre)"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "England",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alan_Shearer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kevin Keegan",
+  "full_name": "Joseph Kevin Keegan",
+  "gender": "M",
+  "active": false,
+  "born": 1951,
+  "nation": "England",
+  "positions": [
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "Scunthorpe United",
+    "from": 1968,
+    "to": 1971,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1971,
+    "to": 1977,
+    "apps": 323,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hamburger SV",
+    "from": 1977,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Southampton",
+    "from": 1980,
+    "to": 1982,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Newcastle United",
+    "from": 1982,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "England captain",
+  "national": {
+   "team": "England",
+   "caps": 63,
+   "goals": 21,
+   "captain": true
+  },
+  "honours": "3 league titles, European Cup 1977, 2 UEFA Cups, FA Cup 1974; Bundesliga 1979",
+  "awards": "Ballon d'Or 1978, 1979",
+  "moments": [
+   "1977 European Cup final"
+  ],
+  "style": [
+   "forward",
+   "work rate"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Loved at Liverpool and Hamburg",
+  "loyalty_notes": "Left Liverpool for Hamburg 1977",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 1971-77; HSV 1977-80",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kevin_Keegan"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Henrik Larsson",
+  "full_name": "Henrik Edward Larsson",
+  "gender": "M",
+  "active": false,
+  "born": 1971,
+  "nation": "Sweden",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Helsingborg",
+    "from": 1992,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Feyenoord",
+    "from": 1993,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 1997,
+    "to": 2004,
+    "apps": 315,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Helsingborg",
+    "from": 2006,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2007,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Celtic",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Sweden",
+   "caps": 106,
+   "goals": 37,
+   "captain": false
+  },
+  "honours": "4 Scottish titles, UCL 2006",
+  "awards": "European Golden Shoe 2001",
+  "moments": [
+   "Two goals in 2003 UEFA Cup final",
+   "Two assists in 2006 UCL final"
+  ],
+  "style": [
+   "finisher",
+   "aerial threat",
+   "link play"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "'King of Kings' at Celtic; came back from a broken leg (1999) to score 53 goals the next season",
+  "loyalty_notes": "Returned to hometown Helsingborg",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Celtic 1997-2004 (Scottish football); Barcelona 2004-06",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Henrik_Larsson"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ian Wright",
+  "full_name": "Ian Edward Wright",
+  "gender": "M",
+  "active": false,
+  "born": 1963,
+  "nation": "England",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Crystal Palace",
+    "from": 1985,
+    "to": 1991,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 1991,
+    "to": 1998,
+    "apps": 288,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "West Ham United",
+    "from": 1998,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Nottingham Forest",
+    "from": 1999,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 1999,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Burnley",
+    "from": 2000,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Arsenal",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 33,
+   "goals": 9,
+   "captain": false
+  },
+  "honours": "PL 1998, 2 FA Cup (1993, 1998), League Cup 1993, Cup Winners' Cup 1994",
+  "awards": "",
+  "moments": [
+   "Signed from non-league Greenwich Borough at 21 (1985)",
+   "Broke Arsenal's scoring record (185) in 1997"
+  ],
+  "style": [
+   "finisher",
+   "explosive"
+  ],
+  "work_rate": "high",
+  "ego": "neutral: exuberant, emotional",
+  "fan_bond": "Beloved at Palace and Arsenal; national treasure as broadcaster",
+  "loyalty_notes": "Late starter after rejections and a spell in prison (young adult, driving offences) before turning pro",
+  "causes": [
+   "Long-time anti-racism voice (incl. on online abuse)",
+   "'Home Truths' BBC documentary 2021 on domestic abuse he witnessed as a child, with Women's Aid",
+   "supports youth/education charities"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ian_Wright"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ronald Koeman",
+  "full_name": "Ronald Koeman",
+  "gender": "M",
+  "active": false,
+  "born": 1963,
+  "nation": "Netherlands",
+  "positions": [
+   "CB",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Groningen",
+    "from": 1980,
+    "to": 1983,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ajax",
+    "from": 1983,
+    "to": 1986,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV",
+    "from": 1986,
+    "to": 1989,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1989,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Feyenoord",
+    "from": 1995,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Netherlands",
+   "caps": 78,
+   "goals": 14,
+   "captain": false
+  },
+  "honours": "Euro 1988; European Cup 1988 (PSV) and 1992 (Barcelona); 4 La Liga; Eredivisie with Ajax and PSV",
+  "awards": "",
+  "moments": [
+   "1992 European Cup final: extra-time free kick at Wembley, Barcelona's first European Cup"
+  ],
+  "style": [
+   "ball-playing defender",
+   "free kicks",
+   "long passing"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral: self-assured",
+  "fan_bond": "Barcelona and PSV icon",
+  "loyalty_notes": "Played for all three Dutch giants (Ajax, PSV, Feyenoord); later Netherlands head coach (2018-20, 2023-)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "PSV 1986-89; Netherlands",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ronald_Koeman"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jamie Vardy",
+  "full_name": "Jamie Richard Vardy",
+  "gender": "M",
+  "active": true,
+  "born": 1987,
+  "nation": "England",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Stocksbridge Park Steels",
+    "from": 2007,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "FC Halifax Town",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fleetwood Town",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leicester City",
+    "from": 2012,
+    "to": 2025,
+    "apps": 500,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Cremonese",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Leicester City",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "Leicester captain (latter years)",
+  "national": {
+   "team": "England",
+   "caps": 26,
+   "goals": 7,
+   "captain": false
+  },
+  "honours": "PL 2016, FA Cup 2021",
+  "awards": "PL Golden Boot 2020; FWA 2016",
+  "moments": [
+   "11 PL games scoring in a row, 2015",
+   "Non-league to PL champion 2016"
+  ],
+  "style": [
+   "pace",
+   "runs in behind",
+   "presser"
+  ],
+  "work_rate": "high",
+  "ego": "neutral: brash",
+  "fan_bond": "Leicester icon; 200 goals in 500 apps; stayed through relegation to Championship 2023-24",
+  "loyalty_notes": "STILL ACTIVE: Cremonese (Serie A) 2025-, contract to 2027. Turned down Arsenal 2016",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2007,
+    "type": "other",
+    "what": "assault conviction (played with an electronic tag/curfew in non-league)",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Jamie_Vardy"
+   },
+   {
+    "year": 2015,
+    "type": "b01",
+    "what": "filmed racially abusing a man of East Asian heritage in a casino",
+    "outcome": "fined by Leicester; apologised",
+    "source": "https://en.wikipedia.org/wiki/Jamie_Vardy"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jamie_Vardy",
+   "https://thesun.my/sport/former-leicester-striker-vardy-joins-serie-a-side-cremonese-LN14808740"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Philippe Coutinho",
+  "full_name": "Philippe Coutinho Correia",
+  "gender": "M",
+  "active": true,
+  "born": 1992,
+  "nation": "Brazil",
+  "positions": [
+   "AM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Vasco da Gama",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Inter",
+    "from": 2010,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Espanyol",
+    "from": 2012,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2013,
+    "to": 2018,
+    "apps": 201,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2018,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Aston Villa",
+    "from": 2022,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Al-Duhail",
+    "from": 2023,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vasco da Gama",
+    "from": 2024,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Santos",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 68,
+   "goals": 21,
+   "captain": false
+  },
+  "honours": "UCL 2020 and Bundesliga (Bayern loan); 2 La Liga; Copa América 2019",
+  "awards": "",
+  "moments": [
+   "Long-range curlers ('Little Magician') at Liverpool"
+  ],
+  "style": [
+   "creator",
+   "long-range shooting",
+   "dribbler"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Liverpool favourite until the Barcelona saga; booed by Vasco fans in 2026",
+  "loyalty_notes": "STILL ACTIVE: Santos 2026. Handed in a transfer request Aug 2017 and missed early-season games (back injury) as Barcelona pursued him; left Vasco Feb 2026 citing mental health",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "b08",
+    "what": "transfer request and absence while Liverpool refused Barcelona bids; moved Jan 2018",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Philippe_Coutinho"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "loan to Al-Duhail (Qatar)",
+    "type": "other"
+   }
+  ],
+  "links": "Liverpool 2013-18",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Philippe_Coutinho",
+   "https://africasoccer.com/?p=615091",
+   "https://www.band.com.br/esportes/vasco-diz-que-philippe-coutinho-saiu-apos-dialogo-respeitoso-202602202157"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Scott Brown",
+  "full_name": "Scott Brown",
+  "gender": "M",
+  "active": false,
+  "born": 1985,
+  "nation": "Scotland",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Hibernian",
+    "from": 2002,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Celtic",
+    "from": 2007,
+    "to": 2021,
+    "apps": 620,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Aberdeen",
+    "from": 2021,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Celtic",
+  "longest_years": 14,
+  "one_club": false,
+  "captaincy": "Celtic captain 2010-2021; Scotland captain",
+  "national": {
+   "team": "Scotland",
+   "caps": 55,
+   "goals": 4,
+   "captain": true
+  },
+  "honours": "10 Scottish titles (9 as captain in a row), 6 Scottish Cups, 6 League Cups",
+  "awards": "SPFL/PFA Scotland Player of the Year 2009 and 2018 (PFA)",
+  "moments": [
+   "Arms-out 'Broony' celebration in front of El-Hadji Diouf, 2011 Old Firm",
+   "Captained Celtic's 'invincible' treble 2016-17"
+  ],
+  "style": [
+   "ball-winner",
+   "enforcer",
+   "leader"
+  ],
+  "work_rate": "high",
+  "ego": "big: provocative, wind-up merchant",
+  "fan_bond": "Celtic icon; hated by rivals",
+  "loyalty_notes": "14 years at Celtic; player-coach at Aberdeen then retired 2022; managed Fleetwood 2022-23, Ayr United 2024-26",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Scotland (captain); Celtic",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Scott_Brown_(footballer,_born_June_1985)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Landon Donovan",
+  "full_name": "Landon Timothy Donovan",
+  "gender": "M",
+  "active": false,
+  "born": 1982,
+  "nation": "USA",
+  "positions": [
+   "AM",
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "Bayer Leverkusen",
+    "from": 1999,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Jose Earthquakes",
+    "from": 2001,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2009,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2005,
+    "to": 2016,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2010,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "León",
+    "from": 2018,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "LA Galaxy",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "LA Galaxy captain",
+  "national": {
+   "team": "USA",
+   "caps": 157,
+   "goals": 57,
+   "captain": true
+  },
+  "honours": "6 MLS Cups (record: 2 San Jose, 4 Galaxy)",
+  "awards": "MLS MVP 2009; US Soccer Athlete of the Year (multiple)",
+  "moments": [
+   "91st-minute winner vs Algeria, 2010 World Cup",
+   "Left out of 2014 World Cup squad"
+  ],
+  "style": [
+   "playmaker",
+   "pace",
+   "creator"
+  ],
+  "work_rate": "high",
+  "ego": "humble: open about mental health and burnout (2013 sabbatical)",
+  "fan_bond": "Face of MLS for a generation; MLS MVP award renamed in his honour (Landon Donovan MVP)",
+  "loyalty_notes": "Chose MLS over Europe; retired 2014, came back 2016 and 2018 (León)",
+  "causes": [
+   "As San Diego Loyal coach 2020: team walked off and forfeited after a homophobic slur at Collin Martin, and forfeited a point after a racist slur at Elijah Martin",
+   "Mental-health openness"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Landon_Donovan",
+   "https://www.mlssoccer.com/news/landon-donovan-explains-why-san-diego-loyal-walked-and-forfeited-match-against"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Clint Dempsey",
+  "full_name": "Clinton Drew Dempsey",
+  "gender": "M",
+  "active": false,
+  "born": 1983,
+  "nation": "USA",
+  "positions": [
+   "AM",
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "New England Revolution",
+    "from": 2004,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fulham",
+    "from": 2007,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Seattle Sounders",
+    "from": 2013,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Seattle Sounders",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "USA captain 2013-14",
+  "national": {
+   "team": "USA",
+   "caps": 141,
+   "goals": 57,
+   "captain": true
+  },
+  "honours": "Supporters' Shield 2014, US Open Cup 2014 (Seattle)",
+  "awards": "",
+  "moments": [
+   "Goal after 29 seconds vs Ghana, 2014 World Cup",
+   "Chip vs Juventus in 2010 Europa League comeback for Fulham"
+  ],
+  "style": [
+   "finisher",
+   "flair",
+   "street-ball creativity"
+  ],
+  "work_rate": "high",
+  "ego": "neutral: combative competitor",
+  "fan_bond": "Fulham's top PL scorer at the time; Sounders hero",
+  "loyalty_notes": "Retired 2018 after heart arrhythmia (2016)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2014,
+    "type": "other",
+    "what": "ripped up the referee's notebook in Seattle's Open Cup match at Portland",
+    "outcome": "suspended for Open Cup games by US Soccer",
+    "source": "https://en.wikipedia.org/wiki/Clint_Dempsey"
+   }
+  ],
+  "money_moves": [],
+  "links": "USA; Sounders (Timbers' rival)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Clint_Dempsey"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Michael Bradley",
+  "full_name": "Michael Sheehan Bradley",
+  "gender": "M",
+  "active": false,
+  "born": 1987,
+  "nation": "USA",
+  "positions": [
+   "CM",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "MetroStars",
+    "from": 2004,
+    "to": 2005,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Heerenveen",
+    "from": 2006,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2008,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Aston Villa",
+    "from": 2011,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chievo",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Roma",
+    "from": 2012,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Toronto FC",
+    "from": 2014,
+    "to": 2023,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Toronto FC",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "Toronto FC captain; USA captain",
+  "national": {
+   "team": "USA",
+   "caps": 151,
+   "goals": 17,
+   "captain": true
+  },
+  "honours": "MLS Cup 2017 (domestic treble), Supporters' Shield 2017",
+  "awards": "",
+  "moments": [
+   "2017 Toronto treble as captain",
+   "2010 World Cup equaliser vs Slovenia"
+  ],
+  "style": [
+   "deep-lying midfielder",
+   "engine"
+  ],
+  "work_rate": "high",
+  "ego": "humble: private, team-first",
+  "fan_bond": "TFC captain through highs and lows",
+  "loyalty_notes": "Retired end 2023; NY Red Bulls II coach 2025 (NEXT Pro title), NY Red Bulls head coach 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA (captain); Gladbach 2008-11",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Michael_Bradley_(soccer)",
+   "https://www.mlssoccer.com/news/red-bull-new-york-name-michael-bradley-head-coach"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Tim Howard",
+  "full_name": "Timothy Matthew Howard",
+  "gender": "M",
+  "active": false,
+  "born": 1979,
+  "nation": "USA",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "MetroStars",
+    "from": 1998,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 2003,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2007,
+    "to": 2016,
+    "apps": 414,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Colorado Rapids",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Memphis 901",
+    "from": 2020,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Everton",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 121,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "FA Cup 2004 (Man Utd)",
+  "awards": "",
+  "moments": [
+   "16 saves vs Belgium, 2014 World Cup (WC record)",
+   "Scored from his own box vs Bolton 2012"
+  ],
+  "style": [
+   "shot-stopper",
+   "reflexes"
+  ],
+  "work_rate": "high",
+  "ego": "neutral: outspoken",
+  "fan_bond": "Everton favourite",
+  "loyalty_notes": "",
+  "causes": [
+   "Tourette syndrome awareness advocate"
+  ],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "verbal altercations with fans at Sporting KC",
+    "outcome": "3-game ban, fined",
+    "source": "https://www.si.com/soccer/2017/04/14/tim-howard-suspension-fan-altercation-rapids-mls"
+   },
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "questioned the commitment of US dual nationals; teammate Jermaine Jones called it 'dangerous'",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tim_Howard"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Brad Friedel",
+  "full_name": "Bradley Howard Friedel",
+  "gender": "M",
+  "active": false,
+  "born": 1971,
+  "nation": "USA",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Brøndby",
+    "from": 1995,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Galatasaray",
+    "from": 1995,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Columbus Crew",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 1997,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Blackburn Rovers",
+    "from": 2000,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Aston Villa",
+    "from": 2008,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2011,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Blackburn Rovers",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 82,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "League Cup 2002 (Blackburn)",
+  "awards": "",
+  "moments": [
+   "Saved two penalties at the 2002 World Cup",
+   "PL record 310 consecutive appearances"
+  ],
+  "style": [
+   "shot-stopper",
+   "longevity"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Blackburn favourite",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 1997-2000; USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brad_Friedel"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kasey Keller",
+  "full_name": "Kasey C. Keller",
+  "gender": "M",
+  "active": false,
+  "born": 1969,
+  "nation": "USA",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Millwall",
+    "from": 1992,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leicester City",
+    "from": 1996,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rayo Vallecano",
+    "from": 1999,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 2001,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Southampton",
+    "from": 2004,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2005,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fulham",
+    "from": 2007,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Seattle Sounders",
+    "from": 2009,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Millwall",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "Gladbach captain (first American)",
+  "national": {
+   "team": "USA",
+   "caps": 102,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "League Cup 1997 (Leicester); US Open Cup 2009-11 (Seattle)",
+  "awards": "",
+  "moments": [
+   "1998 Gold Cup shutout of Brazil",
+   "Four World Cup squads"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Well regarded at every club",
+  "loyalty_notes": "University of Portland alumnus; ended career in his home state with Seattle",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "University of Portland; USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kasey_Keller"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Claudio Reyna",
+  "full_name": "Claudio Reyna",
+  "gender": "M",
+  "active": false,
+  "born": 1973,
+  "nation": "USA",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Bayer Leverkusen",
+    "from": 1994,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Wolfsburg",
+    "from": 1997,
+    "to": 1999,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Rangers",
+    "from": 1999,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sunderland",
+    "from": 2001,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2003,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New York Red Bulls",
+    "from": 2007,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester City",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "USA captain; Wolfsburg captain (first American in Bundesliga)",
+  "national": {
+   "team": "USA",
+   "caps": 112,
+   "goals": 8,
+   "captain": true
+  },
+  "honours": "2 Scottish titles (Rangers)",
+  "awards": "2002 World Cup All-Star team",
+  "moments": [
+   "2002 World Cup quarter-final run"
+  ],
+  "style": [
+   "playmaker",
+   "press-resistant"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "'Captain America'; respected rather than idolised",
+  "loyalty_notes": "Man City spell predates state ownership (2008)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2022,
+    "type": "other",
+    "what": "he and his wife pressured US Soccer over son Gio's treatment and raised Berhalter's 1991 domestic incident",
+    "outcome": "2023 investigation described his conduct as 'bullying'; no policy breach",
+    "source": "https://www.espn.com/soccer/united-states-usa/story/4900172/explained-usmnt-future-claudio-reyna-bullying-report-berhalter"
+   }
+  ],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Claudio_Reyna"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Brian McBride",
+  "full_name": "Brian Robert McBride",
+  "gender": "M",
+  "active": false,
+  "born": 1972,
+  "nation": "USA",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Columbus Crew",
+    "from": 1996,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Preston North End",
+    "from": 2000,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 2003,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fulham",
+    "from": 2004,
+    "to": 2008,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2008,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Columbus Crew",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Fulham captain",
+  "national": {
+   "team": "USA",
+   "caps": 96,
+   "goals": 30,
+   "captain": false
+  },
+  "honours": "US Open Cup 2002 (Columbus)",
+  "awards": "",
+  "moments": [
+   "Goals at 1998 and 2002 World Cups",
+   "Fractured eye socket from De Rossi's elbow, 2006 World Cup"
+  ],
+  "style": [
+   "target man",
+   "aerial"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Fulham cult hero: Craven Cottage bar named 'McBride's'",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brian_McBride"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "DaMarcus Beasley",
+  "full_name": "DaMarcus Lamont Beasley",
+  "gender": "M",
+  "active": false,
+  "born": 1982,
+  "nation": "USA",
+  "positions": [
+   "LW",
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Chicago Fire",
+    "from": 2000,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PSV",
+    "from": 2004,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2006,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rangers",
+    "from": 2007,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hannover 96",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Puebla",
+    "from": 2011,
+    "to": 2014,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Houston Dynamo",
+    "from": 2014,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Houston Dynamo",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Puebla captain",
+  "national": {
+   "team": "USA",
+   "caps": 126,
+   "goals": 17,
+   "captain": false
+  },
+  "honours": "Eredivisie 2005 (PSV); 2 Scottish titles",
+  "awards": "",
+  "moments": [
+   "First American to play in a UCL semi-final (PSV 2005)",
+   "First American man named to four World Cup squads"
+  ],
+  "style": [
+   "pace",
+   "winger to full-back"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Respected",
+  "loyalty_notes": "Man City loan 2006-07 predates state ownership",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/DaMarcus_Beasley"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Tab Ramos",
+  "full_name": "Tabaré Ramos Ricciardi",
+  "gender": "M",
+  "active": false,
+  "born": 1966,
+  "nation": "USA",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Figueres",
+    "from": 1988,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Betis",
+    "from": 1992,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tigres UANL",
+    "from": 1995,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "MetroStars",
+    "from": 1996,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "MetroStars",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 81,
+   "goals": 8,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Fractured skull from Leonardo's elbow on July 4, 1994 World Cup",
+   "First player signed by MLS (1995)"
+  ],
+  "style": [
+   "playmaker",
+   "dribbler"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "Uruguay-born, raised in New Jersey; Betis 1992-95",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Betis 1992-95; USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tab_Ramos"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Carlos Bocanegra",
+  "full_name": "Carlos Bocanegra",
+  "gender": "M",
+  "active": false,
+  "born": 1979,
+  "nation": "USA",
+  "positions": [
+   "CB",
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Chicago Fire",
+    "from": 2000,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fulham",
+    "from": 2004,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rennes",
+    "from": 2008,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Saint-Étienne",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rangers",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Racing Santander",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chivas USA",
+    "from": 2013,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Fulham",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "USA captain (incl. 2010 World Cup)",
+  "national": {
+   "team": "USA",
+   "caps": 110,
+   "goals": 14,
+   "captain": true
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Captained USA at 2010 World Cup"
+  ],
+  "style": [
+   "defender",
+   "leader"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "",
+  "loyalty_notes": "Later Atlanta United technical director (MLS Cup 2018)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carlos_Bocanegra"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Cobi Jones",
+  "full_name": "Cobi N'Gai Jones",
+  "gender": "M",
+  "active": false,
+  "born": 1970,
+  "nation": "USA",
+  "positions": [
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Coventry City",
+    "from": 1994,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vasco da Gama",
+    "from": 1995,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 1996,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "LA Galaxy",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 164,
+   "goals": 15,
+   "captain": false
+  },
+  "honours": "2 MLS Cups (2002, 2005)",
+  "awards": "",
+  "moments": [
+   "Record 164 USA caps",
+   "Galaxy's first retired number (13)"
+  ],
+  "style": [
+   "winger",
+   "pace"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Galaxy icon, one MLS club",
+  "loyalty_notes": "Spent his entire MLS career at the Galaxy",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cobi_Jones"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Clint Mathis",
+  "full_name": "Clint Mathis",
+  "gender": "M",
+  "active": false,
+  "born": 1976,
+  "nation": "USA",
+  "positions": [
+   "FW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "LA Galaxy",
+    "from": 1998,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "MetroStars",
+    "from": 2000,
+    "to": 2003,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hannover 96",
+    "from": 2003,
+    "to": 2004,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Salt Lake",
+    "from": 2005,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Colorado Rapids",
+    "from": 2006,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ergotelis",
+    "from": 2007,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LA Galaxy",
+    "from": 2009,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "MetroStars",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 46,
+   "goals": 12,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Mohawk and goal vs South Korea, 2002 World Cup",
+   "5 goals in one MLS game, 2000"
+  ],
+  "style": [
+   "flair",
+   "finisher"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral: party-boy reputation",
+  "fan_bond": "Cult MetroStars favourite",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Clint_Mathis"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Eric Wynalda",
+  "full_name": "Eric Wynalda",
+  "gender": "M",
+  "active": false,
+  "born": 1969,
+  "nation": "USA",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "1. FC Saarbrücken",
+    "from": 1992,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Bochum",
+    "from": 1994,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Jose Clash",
+    "from": 1996,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Miami Fusion",
+    "from": 1999,
+    "to": 1999,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "León",
+    "from": 1999,
+    "to": 2000,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chicago Fire",
+    "from": 2000,
+    "to": 2001,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "New England Revolution",
+    "from": 2001,
+    "to": 2002,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "San Jose Clash",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 106,
+   "goals": 34,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Scored MLS's first-ever goal (1996)",
+   "Free kick vs Switzerland, 1994 World Cup",
+   "Red card vs Czechoslovakia, 1990 World Cup"
+  ],
+  "style": [
+   "finisher",
+   "free kicks"
+  ],
+  "work_rate": "medium",
+  "ego": "big: outspoken pundit",
+  "fan_bond": "",
+  "loyalty_notes": "First American in the Bundesliga (Saarbrücken)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Eric_Wynalda"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Diego Valeri",
+  "full_name": "Diego Hernán Valeri",
+  "gender": "M",
+  "active": false,
+  "born": 1986,
+  "nation": "Argentina",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Lanús",
+    "from": 2003,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Porto",
+    "from": 2009,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Almería",
+    "from": 2010,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lanús",
+    "from": 2010,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2013,
+    "to": 2021,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Lanús",
+    "from": 2022,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Timbers captain (rotated with Chará)",
+  "national": {
+   "team": "Argentina",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "MLS Cup 2015, MLS is Back 2020; Copa Sudamericana 2013 (Lanús)",
+  "awards": "MLS MVP 2017",
+  "moments": [
+   "Goal 27 seconds into 2015 MLS Cup final, fastest in Cup history",
+   "2017 MVP; Timbers' regular-season leader in goals (86) and assists (91)"
+  ],
+  "style": [
+   "number 10",
+   "creator",
+   "set pieces"
+  ],
+  "work_rate": "medium",
+  "ego": "humble",
+  "fan_bond": "Timbers' all-time icon; Timbers Army tifos; testimonial at Providence Park 2023 (one half for each club)",
+  "loyalty_notes": "Nine seasons in Portland; returned to boyhood Lanús 2022; retired 2023; Timbers ambassador",
+  "causes": [
+   "Active in Portland community programmes as Timbers ambassador"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2013-21",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Diego_Valeri",
+   "https://www.timbers.com/news/portland-timbers-transfer-club-legend-diego-valeri-to-club-atletico-lanus"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Darlington Nagbe",
+  "full_name": "Darlington Jephthah Nagbe",
+  "gender": "M",
+  "active": false,
+  "born": 1990,
+  "nation": "USA",
+  "positions": [
+   "CM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Portland Timbers",
+    "from": 2011,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlanta United",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Columbus Crew",
+    "from": 2020,
+    "to": 2025,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "Columbus Crew captain 2020s",
+  "national": {
+   "team": "USA",
+   "caps": 25,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "4 MLS Cups (2015 Portland, 2018 Atlanta, 2020 and 2023 Columbus); Leagues Cup 2024",
+  "awards": "MLS Goal of the Year 2011",
+  "moments": [
+   "2011 volley Goal of the Year",
+   "Only player with 4 MLS Cups for three different clubs"
+  ],
+  "style": [
+   "press-resistant",
+   "ball retention"
+  ],
+  "work_rate": "high",
+  "ego": "humble: quiet, private",
+  "fan_bond": "Timbers' first draft pick; fan favourite in Portland and Columbus",
+  "loyalty_notes": "Born in Liberia, refugee childhood; US citizen 2015; traded by Portland 2017 (left at his request for a new challenge); retired after 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2011-17; USA",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Darlington_Nagbe",
+   "https://www.columbuscrew.com/news/columbus-crew-captain-and-midfielder-darlington-nagbe-announces-retirement-following-2025-postseason"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jack Jewsbury",
+  "full_name": "Jack Jewsbury",
+  "gender": "M",
+  "active": false,
+  "born": 1981,
+  "nation": "USA",
+  "positions": [
+   "CM",
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Kansas City Wizards",
+    "from": 2003,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2011,
+    "to": 2015,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Kansas City Wizards",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "First Timbers MLS captain (2011)",
+  "national": {
+   "team": "USA",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "MLS Cup 2015 (Portland)",
+  "awards": "MLS All-Star 2011",
+  "moments": [
+   "Captained the Timbers in their first MLS season"
+  ],
+  "style": [
+   "utility",
+   "set pieces"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "'Captain Jack'; Timbers fan favourite",
+  "loyalty_notes": "Stayed in Portland after retiring (club staff/broadcast)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2011-15 (captain)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jack_Jewsbury"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Nat Borchers",
+  "full_name": "Nathaniel Borchers",
+  "gender": "M",
+  "active": false,
+  "born": 1981,
+  "nation": "USA",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Colorado Rapids",
+    "from": 2003,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Odd Grenland",
+    "from": 2007,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Salt Lake",
+    "from": 2008,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Salt Lake",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "USA",
+   "caps": 2,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "MLS Cup 2009 (RSL), MLS Cup 2015 (Portland)",
+  "awards": "",
+  "moments": [
+   "Anchored Portland's 2015 MLS Cup win in his first Timbers season"
+  ],
+  "style": [
+   "centre-back",
+   "aerial"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Cult hero for his beard and character",
+  "loyalty_notes": "Retired 2016 after Achilles injury; broadcaster",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2015-16",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nat_Borchers"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Will Johnson",
+  "full_name": "William Johnson",
+  "gender": "M",
+  "active": false,
+  "born": 1987,
+  "nation": "Canada",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Chicago Fire",
+    "from": 2005,
+    "to": 2007,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Heerenveen",
+    "from": 2007,
+    "to": 2008,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Salt Lake",
+    "from": 2008,
+    "to": 2012,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2013,
+    "to": 2015,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Toronto FC",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Orlando City",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Salt Lake",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Timbers captain 2013-15",
+  "national": {
+   "team": "Canada",
+   "caps": 45,
+   "goals": 4,
+   "captain": false
+  },
+  "honours": "MLS Cup 2009 (RSL), 2015 (Portland, injured), 2017 (Toronto)",
+  "awards": "",
+  "moments": [
+   "Captained 2013 Timbers to the Western Conference title"
+  ],
+  "style": [
+   "box-to-box",
+   "combative"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Popular Timbers captain",
+  "loyalty_notes": "Broke his leg 2015; traded to Toronto",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2013-15 (captain)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Will_Johnson_(soccer)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Fanendo Adi",
+  "full_name": "Fanendo Adi",
+  "gender": "M",
+  "active": false,
+  "born": 1990,
+  "nation": "Nigeria",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Portland Timbers",
+    "from": 2014,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "FC Cincinnati",
+    "from": 2018,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Columbus Crew",
+    "from": 2020,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Nigeria",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "MLS Cup 2015 (Portland)",
+  "awards": "",
+  "moments": [
+   "Timbers' leading MLS scorer at the time of his departure",
+   "Scored in 2015 playoff run"
+  ],
+  "style": [
+   "target man",
+   "physical"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Popular in Portland",
+  "loyalty_notes": "",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2019,
+    "type": "other",
+    "what": "cited for impaired driving (BAC 0.124, 102 mph)",
+    "outcome": "pleaded guilty to reduced reckless-operation charge; suspended by MLS pending substance-abuse programme",
+    "source": "https://en.wikipedia.org/wiki/Fanendo_Adi"
+   }
+  ],
+  "money_moves": [],
+  "links": "Portland Timbers 2014-18",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fanendo_Adi",
+   "https://www.mlssoccer.com/news/fanendo-adi-undergo-assessment-pursuant-mls-sabh-policy"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Diego Chará",
+  "full_name": "Diego Fernando Chará",
+  "gender": "M",
+  "active": true,
+  "born": 1986,
+  "nation": "Colombia",
+  "positions": [
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Deportes Tolima",
+    "from": 2006,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2011,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Timbers captain",
+  "national": {
+   "team": "Colombia",
+   "caps": 1,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "MLS Cup 2015, MLS is Back 2020",
+  "awards": "",
+  "moments": [
+   "Timbers' all-time appearance leader"
+  ],
+  "style": [
+   "ball-winner",
+   "tireless"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Beloved Timbers lifer",
+  "loyalty_notes": "STILL ACTIVE: club option exercised for 2026; still playing in 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2011-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Diego_Char%C3%A1",
+   "https://www.timbers.com/players/Diego-Chara"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sebastián Blanco",
+  "full_name": "Sebastián Blanco",
+  "gender": "M",
+  "active": true,
+  "born": 1988,
+  "nation": "Argentina",
+  "positions": [
+   "AM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Lanús",
+    "from": 2006,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Metalist Kharkiv",
+    "from": 2011,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "West Bromwich Albion",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Lorenzo",
+    "from": 2015,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portland Timbers",
+    "from": 2017,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "San Lorenzo",
+    "from": 2024,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Pilar",
+    "from": 2025,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Portland Timbers",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Argentina",
+   "caps": 2,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "MLS is Back 2020",
+  "awards": "MLS is Back Tournament MVP 2020",
+  "moments": [
+   "41 goals, 51 assists for Portland; MLS Cup finals 2018, 2021"
+  ],
+  "style": [
+   "creator",
+   "dribbler"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Timbers favourite",
+  "loyalty_notes": "STILL ACTIVE per Wikipedia (Real Pilar, Argentina); left Portland end of 2023",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Portland Timbers 2017-23",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Blanco",
+   "https://www.mlssoccer.com/news/portland-timbers-part-ways-with-club-legend-sebastian-blanco"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Rodrigo López",
+  "full_name": "Rodrigo López",
+  "gender": "M",
+  "active": false,
+  "born": 1987,
+  "nation": "",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Sacramento Republic",
+    "from": 2014,
+    "to": 2015,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Sacramento Republic",
+    "from": 2021,
+    "to": 2025,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Sacramento Republic",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "Republic captain",
+  "national": {
+   "team": "",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "USL Pro title 2014; 2022 US Open Cup final",
+  "awards": "2014 USL final MVP; 2022 Open Cup Player of the Tournament",
+  "moments": [
+   "Republic's first-ever signing",
+   "2022 Open Cup run to the final",
+   "2014 hat-trick vs LA Galaxy II"
+  ],
+  "style": [
+   "playmaker",
+   "set pieces"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "'C8ptain'; Republic legend with farewell ceremony 2025",
+  "loyalty_notes": "Retired after 2025 after 22-year career; Republic player development role 2026",
+  "causes": [
+   "Farewell merchandise benefited American Heart Association and GiGi's Playhouse"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Sacramento Republic 2014-15, 2021-25",
+  "sources": [
+   "https://www.cbsnews.com/sacramento/news/sacramento-republic-rodrigo-lopez-retire-after-2025",
+   "https://www.sacrepublicfc.com/news/2022/11/01/republic-fc-midfielder-rodrigo-lopez-named-to-usl-championship-all-league-first-team"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Danny Barrera",
+  "full_name": "Daniel Francisco Barrera",
+  "gender": "M",
+  "active": false,
+  "born": 1990,
+  "nation": "USA",
+  "positions": [
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Sacramento Republic",
+    "from": 2015,
+    "to": 2017,
+    "apps": 62,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Fresno FC",
+    "from": 2018,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hartford Athletic",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Sacramento Republic",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "Republic captain",
+  "national": {
+   "team": "",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "USL All-League First Team 2016",
+  "moments": [
+   "2nd in USL assists 2016"
+  ],
+  "style": [
+   "playmaker"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Republic favourite",
+  "loyalty_notes": "Born in Bogotá; now coaches Hartford Athletic women",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Sacramento Republic 2015-17",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Danny_Barrera"
+  ],
+  "confidence": "low"
+ }
+]

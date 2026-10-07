@@ -1,0 +1,347 @@
+{
+  "answers": {
+    "budget": {
+      "F_AB": 10,
+      "F_CH": 30,
+      "F_CO": 5,
+      "F_LE": 10,
+      "F_LO": 15,
+      "F_ST": 10,
+      "F_WK": 20
+    },
+    "m1": {
+      "best": "b03",
+      "worst": "b02"
+    },
+    "m2": {
+      "best": "b07",
+      "worst": "b06"
+    },
+    "m3": {
+      "best": "b11",
+      "worst": "b12"
+    },
+    "m4": {
+      "best": "b09",
+      "worst": "b01"
+    },
+    "m5": {
+      "best": "b10",
+      "worst": "b02"
+    },
+    "m6": {
+      "best": "b11",
+      "worst": "b04"
+    },
+    "m7": {
+      "best": "b07",
+      "worst": "b01"
+    },
+    "m8": {
+      "best": "b08",
+      "worst": "b02"
+    },
+    "m9": {
+      "best": "b09",
+      "worst": "b04"
+    },
+    "p01": "r",
+    "p02": "l",
+    "p03": "l",
+    "p04": "l",
+    "p05": "l",
+    "p06": "l",
+    "p07": "l",
+    "p08": "r",
+    "p09": "l",
+    "p10": "l",
+    "p11": "r",
+    "p12": "l",
+    "p13": "l",
+    "p14": "l",
+    "p15": "l",
+    "p16": "r",
+    "p17": "l",
+    "p18": "r",
+    "p19": "r",
+    "p20": "l",
+    "p21": "l",
+    "p22": "l",
+    "p23": "r",
+    "p24": "l",
+    "r1": {
+      "Cristiano Ronaldo": 6,
+      "Erling Haaland": 9,
+      "Harry Kane": 7,
+      "Jude Bellingham": 8,
+      "Kylian Mbappé": 7,
+      "Lamine Yamal": 7,
+      "Lionel Messi": 6,
+      "Mohamed Salah": 9,
+      "Vinícius Júnior": 6,
+      "Virgil van Dijk": 9
+    },
+    "r2": {
+      "Aitana Bonmatí": "dk",
+      "Christian Pulisic": 4,
+      "Lindsey Horan": "dk",
+      "Luka Modrić": 8,
+      "Marco Reus": 6,
+      "Marcus Rashford": "dk",
+      "Neymar": "dk",
+      "Son Heung-min": "dk",
+      "Sophia Wilson": 8,
+      "Thomas Müller": "dk"
+    },
+    "r3": {
+      "Diego Maradona": "dk",
+      "Eric Cantona": "dk",
+      "Francesco Totti": "dk",
+      "Johan Cruyff": "dk",
+      "Paolo Maldini": "dk",
+      "Ronaldinho": "dk",
+      "Roy Keane": "dk",
+      "Steven Gerrard": "dk",
+      "Thierry Henry": "dk",
+      "Zinedine Zidane": 7
+    },
+    "r4": {
+      "Andrés Iniesta": "dk",
+      "Christine Sinclair": "dk",
+      "David Beckham": 5,
+      "Didier Drogba": "dk",
+      "Kenny Dalglish": "dk",
+      "Landon Donovan": 7,
+      "Luis Suárez": "dk",
+      "Megan Rapinoe": 8,
+      "Wayne Rooney": "dk",
+      "Xavi": "dk"
+    },
+    "s01": 1,
+    "s02": 1,
+    "s03": [
+      0,
+      6
+    ],
+    "s04": 1,
+    "s05": 0,
+    "s06": 1,
+    "s07": 1,
+    "s08": 1
+  },
+  "done": true,
+  "idx": 46,
+  "order": [
+    {
+      "flip": 0,
+      "id": "p02"
+    },
+    {
+      "flip": 1,
+      "id": "p14"
+    },
+    {
+      "flip": 0,
+      "id": "p16"
+    },
+    {
+      "flip": 1,
+      "id": "p20"
+    },
+    {
+      "flip": 0,
+      "id": "p04"
+    },
+    {
+      "flip": 1,
+      "id": "p17"
+    },
+    {
+      "flip": 1,
+      "id": "p05"
+    },
+    {
+      "flip": 0,
+      "id": "p10"
+    },
+    {
+      "flip": 1,
+      "id": "p08"
+    },
+    {
+      "flip": 0,
+      "id": "p19"
+    },
+    {
+      "flip": 1,
+      "id": "p22"
+    },
+    {
+      "flip": 1,
+      "id": "p15"
+    },
+    {
+      "flip": 0,
+      "id": "p09"
+    },
+    {
+      "flip": 0,
+      "id": "p12"
+    },
+    {
+      "flip": 1,
+      "id": "p24"
+    },
+    {
+      "flip": 1,
+      "id": "p06"
+    },
+    {
+      "flip": 1,
+      "id": "p21"
+    },
+    {
+      "flip": 0,
+      "id": "p07"
+    },
+    {
+      "flip": 1,
+      "id": "p23"
+    },
+    {
+      "flip": 1,
+      "id": "p03"
+    },
+    {
+      "flip": 0,
+      "id": "p13"
+    },
+    {
+      "flip": 0,
+      "id": "p11"
+    },
+    {
+      "flip": 1,
+      "id": "p18"
+    },
+    {
+      "flip": 1,
+      "id": "p01"
+    },
+    {
+      "id": "r1"
+    },
+    {
+      "id": "r2"
+    },
+    {
+      "id": "r3"
+    },
+    {
+      "id": "r4"
+    },
+    {
+      "id": "m4"
+    },
+    {
+      "id": "m1"
+    },
+    {
+      "id": "m6"
+    },
+    {
+      "id": "m7"
+    },
+    {
+      "id": "m9"
+    },
+    {
+      "id": "m5"
+    },
+    {
+      "id": "m2"
+    },
+    {
+      "id": "m3"
+    },
+    {
+      "id": "m8"
+    },
+    {
+      "id": "s01"
+    },
+    {
+      "id": "s02"
+    },
+    {
+      "id": "s03"
+    },
+    {
+      "id": "s04"
+    },
+    {
+      "id": "s05"
+    },
+    {
+      "id": "s06"
+    },
+    {
+      "id": "s07"
+    },
+    {
+      "id": "s08"
+    },
+    {
+      "id": "budget"
+    }
+  ],
+  "times": {
+    "budget": 71690,
+    "m1": 28792,
+    "m2": 13400,
+    "m3": 14252,
+    "m4": 24071,
+    "m5": 9351,
+    "m6": 18384,
+    "m7": 19570,
+    "m8": 12306,
+    "m9": 7420,
+    "p01": 2300,
+    "p02": 6066,
+    "p03": 3854,
+    "p04": 3499,
+    "p05": 4217,
+    "p06": 5140,
+    "p07": 6299,
+    "p08": 4584,
+    "p09": 4570,
+    "p10": 3166,
+    "p11": 3726,
+    "p12": 3316,
+    "p13": 4474,
+    "p14": 3317,
+    "p15": 3332,
+    "p16": 2553,
+    "p17": 2569,
+    "p18": 10502,
+    "p19": 3919,
+    "p20": 3152,
+    "p21": 3679,
+    "p22": 4884,
+    "p23": 5486,
+    "p24": 8565,
+    "r1": 47136,
+    "r2": 25303,
+    "r3": 19420,
+    "r4": 18416,
+    "s01": 6151,
+    "s02": 8533,
+    "s03": 19786,
+    "s04": 12887,
+    "s05": 6516,
+    "s06": 6386,
+    "s07": 5000,
+    "s08": 2717
+  },
+  "updated": "2026-10-06T14:45:50.631Z"
+}

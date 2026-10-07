@@ -1,0 +1,2301 @@
+[
+ {
+  "name": "Abby Wambach",
+  "gender": "W",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "Washington Freedom",
+   "magicJack",
+   "Western New York Flash"
+  ],
+  "causes": [
+   "Led 2014-15 lawsuit vs FIFA over artificial turf at 2015 WC (gender discrimination)",
+   "LGBTQ advocacy",
+   "Equal-pay and leadership advocacy (Wolfpack)"
+  ],
+  "stances": [
+   "2014-15: led turf lawsuit vs FIFA",
+   "LGBTQ+ and equal-pay advocacy"
+  ],
+  "incidents": [
+   {
+    "year": 2016,
+    "type": "other",
+    "what": "arrested for DUII in Portland; later admitted prescription painkiller, Adderall and marijuana misuse",
+    "outcome": "pleaded guilty, diversion programme; publicly apologised",
+    "source": "https://en.wikipedia.org/wiki/Abby_Wambach"
+   }
+  ],
+  "ego": "neutral (strong personality, team leader)"
+ },
+ {
+  "name": "Adrianna Franch",
+  "gender": "W",
+  "active": true,
+  "nation": "USA",
+  "clubs": [
+   "Portland Thorns",
+   "Kansas City Current",
+   "Birmingham City"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Alessandro Del Piero",
+  "gender": "M",
+  "active": false,
+  "nation": "Italy",
+  "clubs": [
+   "Padova",
+   "Juventus",
+   "Sydney FC",
+   "Delhi Dynamos"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Alexander Isak",
+  "gender": "M",
+  "active": true,
+  "nation": "Sweden",
+  "clubs": [
+   "AIK",
+   "Borussia Dortmund",
+   "Willem II (loan)",
+   "Real Sociedad",
+   "Newcastle United",
+   "Liverpool"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2025,
+    "type": "b08",
+    "what": "went on strike at Newcastle (missed pre-season, refused to play) to force Liverpool move",
+    "outcome": "sold to Liverpool on deadline day",
+    "source": ""
+   }
+  ],
+  "ego": "neutral"
+ },
+ {
+  "name": "Alfredo Di Stéfano",
+  "gender": "M",
+  "active": false,
+  "nation": "Spain",
+  "clubs": [
+   "River Plate",
+   "Huracán",
+   "Millonarios",
+   "Real Madrid",
+   "Espanyol"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "big (domineering dressing-room boss)"
+ },
+ {
+  "name": "Alyssa Naeher",
+  "gender": "W",
+  "active": true,
+  "nation": "USA",
+  "clubs": [
+   "Turbine Potsdam",
+   "Boston Breakers",
+   "Chicago Red Stars / Chicago Stars"
+  ],
+  "causes": [
+   "USWNT equal-pay fight: plaintiff in 2019 gender-discrimination lawsuit (settled 2022, $24m + equal pay in CBA)"
+  ],
+  "stances": [
+   "2019: plaintiff in USWNT equal-pay lawsuit"
+  ],
+  "incidents": [],
+  "ego": "humble (famously private)"
+ },
+ {
+  "name": "Andy Robertson",
+  "gender": "M",
+  "active": true,
+  "nation": "Scotland",
+  "clubs": [
+   "Queen's Park",
+   "Dundee United",
+   "Hull City",
+   "Liverpool",
+   "Tottenham Hotspur"
+  ],
+  "causes": [
+   "AR26 foundation supporting young people/children in Scotland",
+   "food bank donations in Glasgow and Liverpool during Covid (2020)",
+   "known for personal replies/gifts to young fans"
+  ],
+  "stances": [
+   "2020: food-bank donations during Covid",
+   "AR26 foundation for young people in Scotland"
+  ],
+  "incidents": [],
+  "ego": "humble: released by Celtic as a teen, worked non-league/part-time jobs on the way up"
+ },
+ {
+  "name": "Aritz Aduriz",
+  "gender": "M",
+  "active": false,
+  "nation": "Spain",
+  "clubs": [
+   "Athletic Club",
+   "Valladolid",
+   "Athletic Club",
+   "Mallorca",
+   "Valencia",
+   "Athletic Club"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Barbra Banda",
+  "gender": "W",
+  "active": true,
+  "nation": "Zambia",
+  "clubs": [
+   "EDF Logroño",
+   "Shanghai Shengli",
+   "Orlando Pride"
+  ],
+  "causes": [
+   "Pioneer for Zambian/African women's football"
+  ],
+  "stances": [
+   "Pioneer for African women's football"
+  ],
+  "incidents": [
+   {
+    "year": 2022,
+    "type": "other",
+    "what": "excluded from 2022 WAFCON on gender-eligibility (testosterone) grounds",
+    "outcome": "not a misconduct finding; later cleared to play 2023 WC",
+    "source": ""
+   }
+  ],
+  "ego": "humble"
+ },
+ {
+  "name": "Bernardo Silva",
+  "gender": "M",
+  "active": true,
+  "nation": "Portugal",
+  "clubs": [
+   "Benfica",
+   "Monaco",
+   "Manchester City",
+   "Real Madrid"
+  ],
+  "causes": [],
+  "stances": [
+   "2019: tweet comparing Mendy to Conguitos mascot, FA 1-match ban"
+  ],
+  "incidents": [
+   {
+    "year": 2019,
+    "type": "other",
+    "what": "tweet comparing Mendy to Conguitos mascot; FA ban 1 match",
+    "outcome": "FA 1-match ban, £50,000 fine, education course; commission found no racist intent (joke between friends); tweet deleted and apologised",
+    "source": ""
+   }
+  ],
+  "ego": "humble"
+ },
+ {
+  "name": "Bobby Charlton",
+  "gender": "M",
+  "active": false,
+  "nation": "England",
+  "clubs": [
+   "Manchester United",
+   "Preston North End"
+  ],
+  "causes": [
+   "Find A Better Way (landmine clearance charity, 2011)"
+  ],
+  "stances": [
+   "Landmine clearance charity Find A Better Way"
+  ],
+  "incidents": [],
+  "ego": "humble (gentleman, never sent off)"
+ },
+ {
+  "name": "Brandi Chastain",
+  "gender": "W",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "San Jose CyberRays"
+  ],
+  "causes": [
+   "Pledged brain to CTE research (2016); campaigns against heading for young children",
+   "Bay FC co-founder (2023)",
+   "Equal-pay generation; youth coaching (Santa Clara)"
+  ],
+  "stances": [
+   "2016: pledged brain to CTE research, against heading for children",
+   "Bay FC co-founder"
+  ],
+  "incidents": [],
+  "ego": "neutral (exuberant)"
+ },
+ {
+  "name": "Bruno Fernandes",
+  "gender": "M",
+  "active": true,
+  "nation": "Portugal",
+  "clubs": [
+   "Novara",
+   "Udinese",
+   "Sampdoria",
+   "Sporting CP",
+   "Manchester United"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2018,
+    "type": "other",
+    "what": "Sporting training-ground attack by ultras; he terminated contract then returned",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "ego": "neutral (demonstrative on pitch, criticised for complaining)"
+ },
+ {
+  "name": "Carles Puyol",
+  "gender": "M",
+  "active": false,
+  "nation": "Spain",
+  "clubs": [
+   "Barcelona"
+  ],
+  "causes": [
+   "Handed captain's armband to Abidal to lift the 2011 UCL after his liver tumour"
+  ],
+  "stances": [
+   "2011: gave captain's armband to Abidal to lift the UCL trophy"
+  ],
+  "incidents": [],
+  "ego": "humble (team-first, famously sporting)"
+ },
+ {
+  "name": "Caroline Graham Hansen",
+  "gender": "W",
+  "active": true,
+  "nation": "Norway",
+  "clubs": [
+   "Stabæk",
+   "Tyresö FF",
+   "VfL Wolfsburg",
+   "Barcelona"
+  ],
+  "causes": [
+   "Critic of fixture overload and of Norway federation"
+  ],
+  "stances": [
+   "Critic of fixture overload and Norway federation"
+  ],
+  "incidents": [],
+  "ego": "neutral (outspoken)"
+ },
+ {
+  "name": "Christian Günter",
+  "gender": "M",
+  "active": true,
+  "nation": "Germany",
+  "clubs": [
+   "SC Freiburg"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Christopher Trimmel",
+  "gender": "M",
+  "active": true,
+  "nation": "Austria",
+  "clubs": [
+   "Rapid Wien",
+   "Union Berlin"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Clint Dempsey",
+  "gender": "M",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "New England Revolution",
+   "Fulham",
+   "Tottenham Hotspur",
+   "Seattle Sounders"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2014,
+    "type": "other",
+    "what": "ripped up the referee's notebook in Seattle's Open Cup match at Portland",
+    "outcome": "red card; MLS 3-game ban and fine; Open Cup ban 6 games or 2 years",
+    "source": "https://en.wikipedia.org/wiki/Clint_Dempsey"
+   }
+  ],
+  "ego": "neutral: combative competitor"
+ },
+ {
+  "name": "Cody Gakpo",
+  "gender": "M",
+  "active": true,
+  "nation": "Netherlands",
+  "clubs": [
+   "PSV",
+   "Liverpool"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble: religious, low-key"
+ },
+ {
+  "name": "Cristiano Ronaldo",
+  "gender": "M",
+  "active": true,
+  "nation": "Portugal",
+  "clubs": [
+   "Sporting CP",
+   "Manchester United",
+   "Real Madrid",
+   "Juventus",
+   "Manchester United",
+   "Al-Nassr"
+  ],
+  "causes": [
+   "Donations to Portuguese hospitals (e.g. ICU units 2020) and children's causes"
+  ],
+  "stances": [
+   "Nov 2025: attended White House dinner for Saudi crown prince, met President Trump"
+  ],
+  "incidents": [
+   {
+    "year": 2009,
+    "type": "b02",
+    "what": "Kathryn Mayorga alleged rape in Las Vegas; police reopened 2018, no charges 2019 (could not be proven); civil suit dismissed 2022",
+    "outcome": "denied; no charges",
+    "source": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+   },
+   {
+    "year": 2019,
+    "type": "b05",
+    "what": "convicted in Spain of tax fraud, 23-month suspended sentence + ~EUR 18.8m fine",
+    "outcome": "accepted plea deal",
+    "source": ""
+   },
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "obscene gesture to fans chanting Messi's name (Al-Nassr), 1-match ban",
+    "outcome": "banned",
+    "source": ""
+   }
+  ],
+  "ego": "big (self-proclaimed best ever; walked out of Man United with a Piers Morgan interview 2022)"
+ },
+ {
+  "name": "Curtis Jones",
+  "gender": "M",
+  "active": true,
+  "nation": "England",
+  "clubs": [
+   "Liverpool",
+   "Inter Milan"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Danny Vitiello",
+  "gender": "M",
+  "active": true,
+  "nation": "USA",
+  "clubs": [
+   "Sacramento Republic FC"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "David Beckham",
+  "gender": "M",
+  "active": false,
+  "nation": "England",
+  "clubs": [
+   "Manchester United",
+   "Real Madrid",
+   "LA Galaxy",
+   "AC Milan",
+   "Paris Saint-Germain"
+  ],
+  "causes": [
+   "UNICEF goodwill ambassador since 2005 (7 Fund)",
+   "Donated PSG salary to children's charity 2013",
+   "Malaria No More"
+  ],
+  "stances": [
+   "UNICEF goodwill ambassador since 2005",
+   "2013: donated PSG wages to children's charity"
+  ],
+  "incidents": [
+   {
+    "year": 1998,
+    "type": "other",
+    "what": "red card vs Argentina at 1998 World Cup",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "ego": "neutral (global celebrity brand, but hard-working and polite)"
+ },
+ {
+  "name": "Declan Rice",
+  "gender": "M",
+  "active": true,
+  "nation": "England",
+  "clubs": [
+   "West Ham United",
+   "Arsenal"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Dennis Bergkamp",
+  "gender": "M",
+  "active": false,
+  "nation": "Netherlands",
+  "clubs": [
+   "Ajax",
+   "Inter Milan",
+   "Arsenal"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble (quiet perfectionist)"
+ },
+ {
+  "name": "Diego Maradona",
+  "gender": "M",
+  "active": false,
+  "nation": "Argentina",
+  "clubs": [
+   "Argentinos Juniors",
+   "Boca Juniors",
+   "Barcelona",
+   "Napoli",
+   "Sevilla",
+   "Newell's Old Boys",
+   "Boca Juniors"
+  ],
+  "causes": [
+   "Openly anti-imperialist; supported Castro, Chávez and Maduro"
+  ],
+  "stances": [
+   "Openly backed Castro, Chávez and Maduro",
+   "Anti-FIFA, anti-establishment voice for players"
+  ],
+  "incidents": [
+   {
+    "year": 1991,
+    "type": "b03",
+    "what": "cocaine positive in Serie A, 15-month ban",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Diego_Maradona"
+   },
+   {
+    "year": 1994,
+    "type": "b03",
+    "what": "ephedrine positive at World Cup, sent home, 15-month ban",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Diego_Maradona"
+   },
+   {
+    "year": 1994,
+    "type": "b06",
+    "what": "fired an air rifle at journalists outside his home",
+    "outcome": "convicted 1998, suspended sentence",
+    "source": "https://en.wikipedia.org/wiki/Diego_Maradona"
+   },
+   {
+    "year": 2014,
+    "type": "b02",
+    "what": "video appeared to show him striking partner Rocío Oliva; she later accused him of violence",
+    "outcome": "no conviction",
+    "source": "https://www.tribuneindia.com/news/sports/former-partner-in-argentina-accuses-maradona-of-physical-and-sexual-violence-341875/amp"
+   },
+   {
+    "year": 2001,
+    "type": "b02",
+    "what": "Mavys Álvarez says he raped her when she was 16 (relationship 2000-2005)",
+    "outcome": "alleged after his death 2021; trafficking case vs entourage reopened",
+    "source": "https://batimes.com.ar/news/argentina/ex-girlfriend-of-maradona-testifies-in-underage-trafficking-case.phtml"
+   },
+   {
+    "year": 1990,
+    "type": "other",
+    "what": "Italian tax-evasion claims dogged him for decades",
+    "outcome": "Italian court ruled in his favour 2021",
+    "source": ""
+   },
+   {
+    "type": "b12",
+    "year": 2012,
+    "what": "Honorary sports ambassador for the Dubai Sports Council (UAE government body), renewed for several years",
+    "outcome": "paid role, 2012-2016 approx.",
+    "source": "https://gulfnews.com/sport/football/maradona-to-be-retained-as-dubai-sports-council-ambassador-1.1206739"
+   },
+   {
+    "type": "b03",
+    "year": 1997,
+    "what": "Third positive test for cocaine after Boca v Argentinos Juniors, August 1997",
+    "outcome": "suspension lifted by a judge pending tampering claim; retired October 1997",
+    "source": "https://www.deseret.com/1997/10/30/19342611/maradona-done-playing-soccer/"
+   }
+  ],
+  "ego": "big (larger-than-life, self-mythologising)"
+ },
+ {
+  "name": "Emily Fox",
+  "gender": "W",
+  "active": true,
+  "nation": "USA",
+  "clubs": [
+   "Racing Louisville",
+   "North Carolina Courage",
+   "Arsenal"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Eric Wynalda",
+  "gender": "M",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "1. FC Saarbrücken",
+   "VfL Bochum",
+   "San Jose Clash",
+   "Miami Fusion",
+   "León",
+   "Chicago Fire",
+   "New England Revolution"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "big: outspoken pundit"
+ },
+ {
+  "name": "Evander",
+  "gender": "M",
+  "active": true,
+  "nation": "Brazil",
+  "clubs": [
+   "Vasco da Gama",
+   "Midtjylland",
+   "Portland Timbers",
+   "FC Cincinnati"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Federico Valverde",
+  "gender": "M",
+  "active": true,
+  "nation": "Uruguay",
+  "clubs": [
+   "Peñarol",
+   "Real Madrid"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "b06",
+    "what": "punched Álex Baena in car park after alleged comments about his son",
+    "outcome": "no sanction",
+    "source": ""
+   }
+  ],
+  "ego": "humble"
+ },
+ {
+  "name": "Fernando Torres",
+  "gender": "M",
+  "active": false,
+  "nation": "Spain",
+  "clubs": [
+   "Atlético Madrid",
+   "Liverpool",
+   "Chelsea",
+   "AC Milan",
+   "Atlético Madrid",
+   "Sagan Tosu"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2011,
+    "type": "other",
+    "what": "submitted transfer request to force move from Liverpool to Chelsea",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Fernando_Torres"
+   }
+  ],
+  "ego": "humble: shy, well liked"
+ },
+ {
+  "name": "Francesco Totti",
+  "gender": "M",
+  "active": false,
+  "nation": "Italy",
+  "clubs": [
+   "Roma"
+  ],
+  "causes": [
+   "UNICEF goodwill ambassador; charity joke books"
+  ],
+  "stances": [
+   "UNICEF goodwill ambassador"
+  ],
+  "incidents": [
+   {
+    "year": 2010,
+    "type": "b06",
+    "what": "kicked Mario Balotelli, red card, 2010 Coppa final",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Francesco_Totti"
+   }
+  ],
+  "ego": "neutral (local hero, temperamental)"
+ },
+ {
+  "name": "Franz Beckenbauer",
+  "gender": "M",
+  "active": false,
+  "nation": "West Germany",
+  "clubs": [
+   "Bayern Munich",
+   "New York Cosmos",
+   "Hamburger SV",
+   "New York Cosmos"
+  ],
+  "causes": [
+   "Franz Beckenbauer Foundation (helps disabled people)"
+  ],
+  "stances": [
+   "2013: said he had 'not seen a single slave' in Qatar"
+  ],
+  "incidents": [
+   {
+    "year": 2016,
+    "type": "other",
+    "what": "2006 World Cup bid corruption allegations (€6.7m payment)",
+    "outcome": "Swiss case closed 2020 (time-barred), never convicted",
+    "source": "https://en.wikipedia.org/wiki/Franz_Beckenbauer"
+   },
+   {
+    "year": 2013,
+    "type": "other",
+    "what": "said he had 'not seen a single slave' in Qatar",
+    "outcome": "widely criticised",
+    "source": "https://en.wikipedia.org/wiki/Franz_Beckenbauer"
+   },
+   {
+    "year": 2014,
+    "type": "other",
+    "what": "90-day FIFA ban for refusing to cooperate with Qatar/Russia bid probe",
+    "outcome": "lifted after cooperation",
+    "source": ""
+   }
+  ],
+  "ego": "big ('Der Kaiser'; patrician, dominant in German football politics)"
+ },
+ {
+  "name": "Garrincha",
+  "gender": "M",
+  "active": false,
+  "nation": "Brazil",
+  "clubs": [
+   "Botafogo",
+   "Corinthians",
+   "Flamengo"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 1969,
+    "type": "other",
+    "what": "drink-driving crash that killed his mother-in-law",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Garrincha"
+   },
+   {
+    "type": "b02",
+    "year": 1970,
+    "what": "Elza Soares, his wife 1966-77, said he repeatedly beat her during his alcoholism (broke her teeth)",
+    "outcome": "never charged; publicly described by Soares",
+    "source": "https://www.thenewfeminist.co.uk/2022/04/the-voice-of-the-millennium-resists-being-silent/"
+   }
+  ],
+  "ego": "humble ('Joy of the People')"
+ },
+ {
+  "name": "George Weah",
+  "gender": "M",
+  "active": false,
+  "nation": "Liberia",
+  "clubs": [
+   "Monaco",
+   "Paris Saint-Germain",
+   "AC Milan",
+   "Chelsea",
+   "Manchester City",
+   "Marseille",
+   "Al-Jazira"
+  ],
+  "causes": [
+   "UNICEF goodwill ambassador",
+   "Elected president of Liberia 2018-24, conceded defeat peacefully 2023"
+  ],
+  "stances": [
+   "Funded Liberia national team himself in 1990s",
+   "President of Liberia 2018-24, conceded peacefully 2023"
+  ],
+  "incidents": [
+   {
+    "year": 2022,
+    "type": "other",
+    "what": "as president: corruption concerns in his administration (US sanctions on officials)",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "type": "b06",
+    "year": 1996,
+    "what": "headbutted Porto's Jorge Costa in the tunnel after a UCL match, breaking his nose; alleged racist abuse by Costa (unproven)",
+    "outcome": "UEFA six-match ban; Weah tried to apologise, Costa refused and sued",
+    "source": "https://en.wikipedia.org/wiki/Jorge_Costa"
+   }
+  ],
+  "ego": "humble"
+ },
+ {
+  "name": "Gianluigi Buffon",
+  "gender": "M",
+  "active": false,
+  "nation": "Italy",
+  "clubs": [
+   "Parma",
+   "Juventus",
+   "Paris Saint-Germain",
+   "Juventus",
+   "Parma"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2000,
+    "type": "other",
+    "what": "wore '88' shirt (neo-Nazi code) and 'Boia chi molla' fascist slogan",
+    "outcome": "changed number; said ignorance",
+    "source": "https://en.wikipedia.org/wiki/Gianluigi_Buffon"
+   },
+   {
+    "year": 2006,
+    "type": "b04",
+    "what": "investigated for betting via a tobacconist",
+    "outcome": "cleared",
+    "source": "https://en.wikipedia.org/wiki/Gianluigi_Buffon"
+   }
+  ],
+  "ego": "humble (gracious, consoled opponents)"
+ },
+ {
+  "name": "Giovanni Di Lorenzo",
+  "gender": "M",
+  "active": true,
+  "nation": "Italy",
+  "clubs": [
+   "Matera",
+   "Empoli",
+   "Napoli"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Hany Mukhtar",
+  "gender": "M",
+  "active": true,
+  "nation": "Germany",
+  "clubs": [
+   "Hertha BSC",
+   "Benfica",
+   "Brøndby",
+   "Nashville SC"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Homare Sawa",
+  "gender": "W",
+  "active": false,
+  "nation": "Japan",
+  "clubs": [
+   "Yomiuri Beleza / NTV Beleza",
+   "Atlanta Beat",
+   "Washington Freedom",
+   "INAC Kobe Leonessa"
+  ],
+  "causes": [
+   "Pioneer for women's football in Japan"
+  ],
+  "stances": [
+   "Pioneer for women's football in Japan"
+  ],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Hugo Ekitiké",
+  "gender": "M",
+  "active": true,
+  "nation": "France",
+  "clubs": [
+   "Reims",
+   "Paris Saint-Germain",
+   "Eintracht Frankfurt",
+   "Liverpool"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Ian Wright",
+  "gender": "M",
+  "active": false,
+  "nation": "England",
+  "clubs": [
+   "Crystal Palace",
+   "Arsenal",
+   "West Ham United",
+   "Nottingham Forest",
+   "Celtic",
+   "Burnley"
+  ],
+  "causes": [
+   "Long-time anti-racism voice (incl. on online abuse)",
+   "'Home Truths' BBC documentary 2021 on domestic abuse he witnessed as a child, with Women's Aid",
+   "supports youth/education charities"
+  ],
+  "stances": [
+   "Long-time anti-racism voice incl. online abuse",
+   "2021: 'Home Truths' documentary on domestic abuse with Women's Aid"
+  ],
+  "incidents": [],
+  "ego": "neutral: exuberant, emotional"
+ },
+ {
+  "name": "Iker Muniain",
+  "gender": "M",
+  "active": false,
+  "nation": "Spain",
+  "clubs": [
+   "Athletic Club",
+   "San Lorenzo"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Jack Jewsbury",
+  "gender": "M",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "Kansas City Wizards",
+   "Portland Timbers"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "James Pantemis",
+  "gender": "M",
+  "active": true,
+  "nation": "Canada",
+  "clubs": [
+   "CF Montréal",
+   "Portland Timbers"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Jan Oblak",
+  "gender": "M",
+  "active": true,
+  "nation": "Slovenia",
+  "clubs": [
+   "Olimpija",
+   "Benfica",
+   "Atlético Madrid"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Joaquín",
+  "gender": "M",
+  "active": false,
+  "nation": "Spain",
+  "clubs": [
+   "Real Betis",
+   "Valencia",
+   "Málaga",
+   "Fiorentina",
+   "Real Betis"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble: joker, adored personality"
+ },
+ {
+  "name": "Johan Cruyff",
+  "gender": "M",
+  "active": false,
+  "nation": "Netherlands",
+  "clubs": [
+   "Ajax",
+   "Barcelona",
+   "Los Angeles Aztecs",
+   "Washington Diplomats",
+   "Levante",
+   "Ajax",
+   "Feyenoord"
+  ],
+  "causes": [
+   "Johan Cruyff Foundation (1997): Cruyff Courts for children and disabled sport",
+   "Anti-smoking campaign after his 1991 heart surgery"
+  ],
+  "stances": [
+   "Anti-smoking campaign after 1991 heart surgery"
+  ],
+  "incidents": [
+   {
+    "year": 1983,
+    "type": "b09",
+    "what": "joined Feyenoord, Ajax's arch-rival, after Ajax didn't renew his deal",
+    "outcome": "won the double",
+    "source": ""
+   }
+  ],
+  "ego": "big (opinionated, combative, but idealistic)"
+ },
+ {
+  "name": "Joseba Etxeberria",
+  "gender": "M",
+  "active": false,
+  "nation": "Spain",
+  "clubs": [
+   "Real Sociedad",
+   "Athletic Club"
+  ],
+  "causes": [],
+  "stances": [
+   "Played final 2009-10 season unpaid"
+  ],
+  "incidents": [
+   {
+    "type": "b09",
+    "year": 1995,
+    "what": "left Real Sociedad for Basque rival Athletic via release clause aged 18",
+    "outcome": "clubs broke relations for years",
+    "source": "https://thesefootballtimes.co/2017/08/29/why-football-needs-more-selfless-heroes-like-joseba-etxeberria/"
+   }
+  ],
+  "ego": "humble"
+ },
+ {
+  "name": "Jude Bellingham",
+  "gender": "M",
+  "active": true,
+  "nation": "England",
+  "clubs": [
+   "Birmingham City",
+   "Borussia Dortmund",
+   "Real Madrid"
+  ],
+  "causes": [
+   "Spoke out against online racist abuse of England team-mates (2021)"
+  ],
+  "stances": [
+   "2021: spoke against racist abuse of England team-mates"
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "Euro 2024 groin gesture vs Slovakia, UEFA fine + suspended 1-match ban",
+    "outcome": "fined",
+    "source": ""
+   },
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "fined by DFB for saying referee who'd fixed matches would referee Klassiker",
+    "outcome": "fined",
+    "source": ""
+   }
+  ],
+  "ego": "big (swagger; celebrated with arms out)"
+ },
+ {
+  "name": "Julian Ryerson",
+  "gender": "M",
+  "active": true,
+  "nation": "Norway",
+  "clubs": [
+   "Viking",
+   "Union Berlin",
+   "Borussia Dortmund"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Jürgen Kohler",
+  "gender": "M",
+  "active": false,
+  "nation": "Germany",
+  "clubs": [
+   "Waldhof Mannheim",
+   "1. FC Köln",
+   "Bayern Munich",
+   "Juventus",
+   "Borussia Dortmund"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Karim Adeyemi",
+  "gender": "M",
+  "active": true,
+  "nation": "Germany",
+  "clubs": [
+   "SpVgg Unterhaching",
+   "Red Bull Salzburg",
+   "Borussia Dortmund",
+   "Barcelona"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2025,
+    "type": "other",
+    "what": "fined (reported ~€450k) by a German court over buying a prohibited weapon (knuckle-duster with taser) online",
+    "outcome": "penalty order of 60 daily fines x 7,500 EUR (450k) binding Oct 2025; no criminal record entry; publicly apologised",
+    "source": ""
+   }
+  ],
+  "ego": "neutral"
+ },
+ {
+  "name": "Kasey Keller",
+  "gender": "M",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "Millwall",
+   "Leicester City",
+   "Rayo Vallecano",
+   "Tottenham Hotspur",
+   "Southampton",
+   "Borussia Mönchengladbach",
+   "Fulham",
+   "Seattle Sounders"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Kenny Dalglish",
+  "gender": "M",
+  "active": false,
+  "nation": "Scotland",
+  "clubs": [
+   "Celtic",
+   "Liverpool"
+  ],
+  "causes": [
+   "Supported Hillsborough families; attended funerals; Marina Dalglish breast cancer appeal"
+  ],
+  "stances": [
+   "1989: supported Hillsborough families, attended funerals"
+  ],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Khvicha Kvaratskhelia",
+  "gender": "M",
+  "active": true,
+  "nation": "Georgia",
+  "clubs": [
+   "Dinamo Tbilisi",
+   "Rubin Kazan",
+   "Dinamo Batumi",
+   "Napoli",
+   "Paris Saint-Germain"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Kyle Edwards",
+  "gender": "M",
+  "active": true,
+  "nation": "USA",
+  "clubs": [
+   "Sacramento Republic FC"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": ""
+ },
+ {
+  "name": "Landon Donovan",
+  "gender": "M",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "Bayer Leverkusen",
+   "San Jose Earthquakes",
+   "Bayern Munich",
+   "LA Galaxy",
+   "Everton",
+   "León"
+  ],
+  "causes": [
+   "As San Diego Loyal coach 2020: team walked off and forfeited after a homophobic slur at Collin Martin, and forfeited a point after a racist slur at Elijah Martin",
+   "Mental-health openness"
+  ],
+  "stances": [
+   "Open about mental health and burnout (2013 sabbatical)",
+   "2020: San Diego Loyal walked off over homophobic and racist slurs"
+  ],
+  "incidents": [],
+  "ego": "humble: open about mental health and burnout (2013 sabbatical)"
+ },
+ {
+  "name": "Lautaro Martínez",
+  "gender": "M",
+  "active": true,
+  "nation": "Argentina",
+  "clubs": [
+   "Racing Club",
+   "Inter Milan"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Lena Oberdorf",
+  "gender": "W",
+  "active": true,
+  "nation": "Germany",
+  "clubs": [
+   "SGS Essen",
+   "VfL Wolfsburg",
+   "Bayern Munich"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Lionel Messi",
+  "gender": "M",
+  "active": true,
+  "nation": "Argentina",
+  "clubs": [
+   "Barcelona",
+   "Paris Saint-Germain",
+   "Inter Miami"
+  ],
+  "causes": [
+   "UNICEF goodwill ambassador since 2010",
+   "Leo Messi Foundation (children's health, education; Barcelona children's cancer centre)"
+  ],
+  "stances": [
+   "2019: accused CONMEBOL of corruption at Copa America, 3-month ban"
+  ],
+  "incidents": [
+   {
+    "year": 2016,
+    "type": "b05",
+    "what": "convicted in Spain of tax fraud with father (image rights), 21-month suspended sentence later converted to a fine",
+    "outcome": "paid; conviction stands",
+    "source": "https://en.wikipedia.org/wiki/Lionel_Messi"
+   },
+   {
+    "year": 2019,
+    "type": "other",
+    "what": "3-month CONMEBOL ban for alleging Copa América corruption",
+    "outcome": "served",
+    "source": ""
+   }
+  ],
+  "ego": "neutral (quiet, introverted; some on-field edge since 2021, e.g. 'qué mirás, bobo' 2022)"
+ },
+ {
+  "name": "Lucy Bronze",
+  "gender": "W",
+  "active": true,
+  "nation": "England",
+  "clubs": [
+   "Sunderland",
+   "Everton",
+   "Liverpool",
+   "Manchester City",
+   "Lyon",
+   "Manchester City",
+   "Barcelona",
+   "Chelsea"
+  ],
+  "causes": [
+   "Disclosed autism and ADHD diagnoses (2025), advocacy on neurodiversity"
+  ],
+  "stances": [
+   "2025: neurodiversity advocacy (autism, ADHD)"
+  ],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Luka Modrić",
+  "gender": "M",
+  "active": true,
+  "nation": "Croatia",
+  "clubs": [
+   "Dinamo Zagreb",
+   "Tottenham Hotspur",
+   "Real Madrid",
+   "AC Milan"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "charged with false testimony over evidence in Zdravko Mamić fraud trial",
+    "outcome": "indicted for perjury 2018; court dismissed the charge (2018-19); prosecution dropped 2024",
+    "source": ""
+   },
+   {
+    "year": 2012,
+    "type": "b08",
+    "what": "skipped Tottenham preseason tour to force Real Madrid move",
+    "outcome": "transferred",
+    "source": ""
+   }
+  ],
+  "ego": "humble"
+ },
+ {
+  "name": "Marco Friedl",
+  "gender": "M",
+  "active": true,
+  "nation": "Austria",
+  "clubs": [
+   "Bayern Munich",
+   "Werder Bremen"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Marcus Rashford",
+  "gender": "M",
+  "active": true,
+  "nation": "England",
+  "clubs": [
+   "Manchester United",
+   "Aston Villa",
+   "Barcelona"
+  ],
+  "causes": [
+   "Child food poverty campaign: forced UK free school meals U-turn 2020",
+   "Books for children"
+  ],
+  "stances": [
+   "2020: free school meals campaign forced UK government U-turn",
+   "children's book clubs"
+  ],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "other",
+    "what": "dropped for night out (Belfast) and missed training",
+    "outcome": "Jan 2024 (not 2023); fined about two weeks' wages, dropped vs Newport; took responsibility, club called matter closed",
+    "source": ""
+   }
+  ],
+  "ego": "neutral"
+ },
+ {
+  "name": "Martin Ødegaard",
+  "gender": "M",
+  "active": true,
+  "nation": "Norway",
+  "clubs": [
+   "Strømsgodset",
+   "Real Madrid",
+   "Heerenveen",
+   "Vitesse",
+   "Real Sociedad",
+   "Arsenal"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Matt Le Tissier",
+  "gender": "M",
+  "active": false,
+  "nation": "England",
+  "clubs": [
+   "Southampton"
+  ],
+  "causes": [],
+  "stances": [
+   "2021: spread COVID vaccine misinformation",
+   "2022: shared Bucha 'false flag' claims"
+  ],
+  "incidents": [
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "spread COVID-19 vaccine misinformation",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2022,
+    "type": "other",
+    "what": "retweeted Bucha 'false flag' claims",
+    "outcome": "resigned as Southampton ambassador",
+    "source": "https://en.wikipedia.org/wiki/Matt_Le_Tissier"
+   }
+  ],
+  "ego": "humble"
+ },
+ {
+  "name": "Megan Rapinoe",
+  "gender": "W",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "Chicago Red Stars",
+   "Philadelphia Independence",
+   "magicJack",
+   "Sydney FC",
+   "Lyon",
+   "Seattle Reign / OL Reign"
+  ],
+  "causes": [
+   "USWNT equal-pay fight: plaintiff in 2019 gender-discrimination lawsuit (settled 2022, $24m + equal pay in CBA) (leading voice)",
+   "Knelt for anthem 2016 in solidarity with Colin Kaepernick (racial justice)",
+   "LGBTQ+ and trans-inclusion advocacy",
+   "Presidential Medal of Freedom 2022"
+  ],
+  "stances": [
+   "2016: knelt in solidarity with Kaepernick",
+   "2019: plaintiff in USWNT equal-pay lawsuit (leading voice)",
+   "LGBTQ+ and trans-inclusion advocacy",
+   "2022: Presidential Medal of Freedom"
+  ],
+  "incidents": [],
+  "ego": "big (charismatic, outspoken; also deeply team-loyal)"
+ },
+ {
+  "name": "Michael Bradley",
+  "gender": "M",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "MetroStars",
+   "Heerenveen",
+   "Borussia Mönchengladbach",
+   "Aston Villa",
+   "Chievo",
+   "Roma",
+   "Toronto FC"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble: private, team-first"
+ },
+ {
+  "name": "Michael Zorc",
+  "gender": "M",
+  "active": false,
+  "nation": "Germany",
+  "clubs": [
+   "Borussia Dortmund"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Mikel Oyarzabal",
+  "gender": "M",
+  "active": true,
+  "nation": "Spain",
+  "clubs": [
+   "Real Sociedad"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Mohamed Salah",
+  "gender": "M",
+  "active": true,
+  "nation": "Egypt",
+  "clubs": [
+   "El Mokawloon",
+   "Basel",
+   "Chelsea",
+   "Fiorentina",
+   "Roma",
+   "Liverpool",
+   "Trabzonspor"
+  ],
+  "causes": [
+   "Large donations to home village Nagrig (school, hospital, ambulance)",
+   "Called on UEFA 2025: 'how did he die?' re Palestinian footballer Suleiman al-Obeid; earlier criticised for slow Gaza statement (Oct 2023)"
+  ],
+  "stances": [
+   "Oct 2023: called for Gaza aid and end to killing (criticised as slow)",
+   "2025: asked UEFA how Palestinian player Suleiman al-Obeid died"
+  ],
+  "incidents": [
+   {
+    "year": 2025,
+    "type": "other",
+    "what": "public interview Dec 2025 saying Liverpool 'threw me under the bus' after being dropped",
+    "outcome": "left club end of season",
+    "source": ""
+   }
+  ],
+  "ego": "neutral (low-key but public spats: Klopp touchline 2024, Slot 'thrown under the bus' Dec 2025)"
+ },
+ {
+  "name": "Nat Borchers",
+  "gender": "M",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "Colorado Rapids",
+   "Odd Grenland",
+   "Real Salt Lake",
+   "Portland Timbers"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Nico Schlotterbeck",
+  "gender": "M",
+  "active": true,
+  "nation": "Germany",
+  "clubs": [
+   "SC Freiburg",
+   "Union Berlin (loan)",
+   "Borussia Dortmund"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral: emotional, outspoken"
+ },
+ {
+  "name": "Oliver Kahn",
+  "gender": "M",
+  "active": false,
+  "nation": "Germany",
+  "clubs": [
+   "Karlsruher SC",
+   "Bayern Munich"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "big: famously intense"
+ },
+ {
+  "name": "Paolo Di Canio",
+  "gender": "M",
+  "active": false,
+  "nation": "Italy",
+  "clubs": [
+   "Lazio",
+   "Juventus",
+   "Napoli",
+   "AC Milan",
+   "Celtic",
+   "Sheffield Wednesday",
+   "West Ham United",
+   "Charlton Athletic",
+   "Lazio"
+  ],
+  "causes": [],
+  "stances": [
+   "2005: fascist salutes to Lazio ultras, described himself as 'a fascist, not a racist'",
+   "2016: dropped by Sky Italia over fascist-linked tattoo"
+  ],
+  "incidents": [
+   {
+    "year": 1998,
+    "type": "b06",
+    "what": "pushed referee Paul Alcock to the ground",
+    "outcome": "11-match ban",
+    "source": ""
+   },
+   {
+    "year": 2005,
+    "type": "other",
+    "what": "fascist salutes to Lazio ultras; called himself 'a fascist, not a racist'",
+    "outcome": "1-match ban, fined",
+    "source": "https://en.wikipedia.org/wiki/Paolo_Di_Canio"
+   },
+   {
+    "year": 2016,
+    "type": "other",
+    "what": "Sky Italia dropped him after showing a fascist-linked tattoo",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "ego": "big: volatile"
+ },
+ {
+  "name": "Paul Scholes",
+  "gender": "M",
+  "active": false,
+  "nation": "England",
+  "clubs": [
+   "Manchester United"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2010,
+    "type": "other",
+    "what": "reputation for reckless tackles; 99 career yellows in PL",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "ego": "humble (shunned media and celebrity)"
+ },
+ {
+  "name": "Pernille Harder",
+  "gender": "W",
+  "active": true,
+  "nation": "Denmark",
+  "clubs": [
+   "Linköpings FC",
+   "VfL Wolfsburg",
+   "Chelsea",
+   "Bayern Munich"
+  ],
+  "causes": [
+   "Led Denmark players' 2017 strike over pay/conditions (cancelled WC qualifier vs Sweden)",
+   "LGBTQ visibility; fan-education campaigns"
+  ],
+  "stances": [
+   "2017: led Denmark players' strike over pay",
+   "LGBTQ+ visibility"
+  ],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Philippe Coutinho",
+  "gender": "M",
+  "active": true,
+  "nation": "Brazil",
+  "clubs": [
+   "Vasco da Gama",
+   "Inter",
+   "Espanyol",
+   "Liverpool",
+   "Barcelona",
+   "Bayern Munich",
+   "Aston Villa",
+   "Al-Duhail",
+   "Vasco da Gama",
+   "Santos"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "b08",
+    "what": "transfer request and absence while Liverpool refused Barcelona bids; moved Jan 2018",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Philippe_Coutinho"
+   }
+  ],
+  "ego": "neutral"
+ },
+ {
+  "name": "Raquel Rodríguez",
+  "gender": "W",
+  "active": true,
+  "nation": "Costa Rica",
+  "clubs": [
+   "Sky Blue FC",
+   "Portland Thorns",
+   "Angel City FC",
+   "Kansas City Current"
+  ],
+  "causes": [
+   "Trailblazer for Costa Rican women's football"
+  ],
+  "stances": [
+   "Trailblazer for Costa Rican women's football"
+  ],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Riqui Puig",
+  "gender": "M",
+  "active": true,
+  "nation": "Spain",
+  "clubs": [
+   "Barcelona",
+   "LA Galaxy"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Robert Lewandowski",
+  "gender": "M",
+  "active": true,
+  "nation": "Poland",
+  "clubs": [
+   "Znicz Pruszków",
+   "Lech Poznań",
+   "Borussia Dortmund",
+   "Bayern Munich",
+   "Barcelona",
+   "Chicago Fire"
+  ],
+  "causes": [
+   "Supported Ukraine refugees 2022; refused to play Russia (Poland boycott)"
+  ],
+  "stances": [
+   "2022: backed Ukraine, wore Ukraine armband, Poland refused to play Russia"
+  ],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Rodri",
+  "gender": "M",
+  "active": true,
+  "nation": "Spain",
+  "clubs": [
+   "Villarreal",
+   "Atlético Madrid",
+   "Manchester City",
+   "Barcelona"
+  ],
+  "causes": [],
+  "stances": [
+   "July 2024: 'Gibraltar is Spanish' chant at Euro celebrations with Morata, UEFA 1-match ban"
+  ],
+  "incidents": [],
+  "ego": "humble (studied business degree, no flash)"
+ },
+ {
+  "name": "Romário",
+  "gender": "M",
+  "active": false,
+  "nation": "Brazil",
+  "clubs": [
+   "Vasco da Gama",
+   "PSV",
+   "Barcelona",
+   "Flamengo",
+   "Valencia",
+   "Flamengo",
+   "Vasco da Gama",
+   "Fluminense",
+   "Vasco da Gama"
+  ],
+  "causes": [
+   "Advocate for people with Down syndrome and disabilities (daughter Ivy); elected federal deputy 2010, senator 2014-"
+  ],
+  "stances": [
+   "Disability and Down syndrome advocate; federal deputy 2010, senator 2014-"
+  ],
+  "incidents": [
+   {
+    "type": "b03",
+    "year": 2007,
+    "what": "tested positive for finasteride (hair-loss drug, masking agent) after Vasco v Palmeiras; 120-day ban",
+    "outcome": "ban overturned on appeal, 2008",
+    "source": "https://www.aljazeera.com/sports/2007/12/19/romario-hit-with-doping-suspension"
+   }
+  ],
+  "ego": "big (outspoken, partygoer, famously disdained training)"
+ },
+ {
+  "name": "Ronaldo (Brazilian)",
+  "gender": "M",
+  "active": false,
+  "nation": "Brazil",
+  "clubs": [
+   "Cruzeiro",
+   "PSV",
+   "Barcelona",
+   "Inter Milan",
+   "Real Madrid",
+   "AC Milan",
+   "Corinthians"
+  ],
+  "causes": [
+   "UNDP goodwill ambassador (Match Against Poverty, with Zidane)"
+  ],
+  "stances": [
+   "UNDP Match Against Poverty"
+  ],
+  "incidents": [
+   {
+    "year": 2007,
+    "type": "b09",
+    "what": "joined AC Milan, rival of former club Inter",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2008,
+    "type": "other",
+    "what": "incident with transvestite sex workers in Rio hotel",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)"
+   }
+  ],
+  "ego": "neutral"
+ },
+ {
+  "name": "Ruud Gullit",
+  "gender": "M",
+  "active": false,
+  "nation": "Netherlands",
+  "clubs": [
+   "HFC Haarlem",
+   "Feyenoord",
+   "PSV",
+   "AC Milan",
+   "Sampdoria",
+   "AC Milan",
+   "Sampdoria",
+   "Chelsea"
+  ],
+  "causes": [
+   "Anti-apartheid: dedicated Ballon d'Or to Mandela 1987",
+   "Anti-racism campaigning; Dutch anti-racism ambassador"
+  ],
+  "stances": [
+   "1987: dedicated Ballon d'Or to Nelson Mandela",
+   "Anti-racism ambassador in the Netherlands"
+  ],
+  "incidents": [],
+  "ego": "neutral (charismatic)"
+ },
+ {
+  "name": "Rúben Dias",
+  "gender": "M",
+  "active": true,
+  "nation": "Portugal",
+  "clubs": [
+   "Benfica",
+   "Manchester City"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Sam Kerr",
+  "gender": "W",
+  "active": true,
+  "nation": "Australia",
+  "clubs": [
+   "Perth Glory",
+   "Sky Blue FC",
+   "Chicago Red Stars",
+   "Chelsea",
+   "NJ/NY Gotham FC"
+  ],
+  "causes": [
+   "LGBTQ visibility (engaged to Kristie Mewis)"
+  ],
+  "stances": [
+   "LGBTQ+ visibility"
+  ],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "other",
+    "what": "Jan 2023 Twickenham taxi incident: charged with racially aggravated harassment of a police officer (called him 'stupid and white')",
+    "outcome": "acquitted by jury Feb 2025; admitted being 'stupid' and drunk",
+    "source": "https://en.wikipedia.org/wiki/Sam_Kerr"
+   }
+  ],
+  "ego": "neutral (playful; Matildas' face)"
+ },
+ {
+  "name": "Scott Brown",
+  "gender": "M",
+  "active": false,
+  "nation": "Scotland",
+  "clubs": [
+   "Hibernian",
+   "Celtic",
+   "Aberdeen"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "big: provocative, wind-up merchant"
+ },
+ {
+  "name": "Sergiño Dest",
+  "gender": "M",
+  "active": true,
+  "nation": "USA",
+  "clubs": [
+   "Ajax",
+   "Barcelona",
+   "AC Milan (loan)",
+   "PSV"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Son Heung-min",
+  "gender": "M",
+  "active": true,
+  "nation": "South Korea",
+  "clubs": [
+   "Hamburger SV",
+   "Bayer Leverkusen",
+   "Tottenham Hotspur",
+   "LAFC"
+  ],
+  "causes": [],
+  "stances": [
+   "2024: publicly forgave teammate Bentancur's racist remark"
+  ],
+  "incidents": [],
+  "ego": "humble: famously gracious"
+ },
+ {
+  "name": "Steven Gerrard",
+  "gender": "M",
+  "active": false,
+  "nation": "England",
+  "clubs": [
+   "Liverpool",
+   "LA Galaxy"
+  ],
+  "causes": [
+   "Steven Gerrard Foundation (children's charities, 2011-)",
+   "lost cousin Jon-Paul Gilhooley in Hillsborough 1989; Hillsborough justice advocate"
+  ],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2008,
+    "type": "b06",
+    "what": "bar fight in Southport, charged with affray",
+    "outcome": "acquitted 2009 (jury accepted self-defence); co-defendants convicted",
+    "source": "https://en.wikipedia.org/wiki/Steven_Gerrard"
+   }
+  ],
+  "ego": "neutral: hugely driven, team-first public persona"
+ },
+ {
+  "name": "Sócrates",
+  "gender": "M",
+  "active": false,
+  "nation": "Brazil",
+  "clubs": [
+   "Botafogo-SP",
+   "Corinthians",
+   "Fiorentina",
+   "Flamengo"
+  ],
+  "causes": [
+   "Corinthians Democracy (1982) against the military dictatorship"
+  ],
+  "stances": [
+   "1982: Corinthians Democracy against the military dictatorship",
+   "Left-wing political voice, doctor"
+  ],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Thibaut Courtois",
+  "gender": "M",
+  "active": true,
+  "nation": "Belgium",
+  "clubs": [
+   "Genk",
+   "Chelsea",
+   "Atlético Madrid",
+   "Real Madrid"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2018,
+    "type": "b08",
+    "what": "skipped Chelsea training to force move to Real Madrid",
+    "outcome": "transferred",
+    "source": ""
+   }
+  ],
+  "ego": "big (public spats with Belgium coach Tedesco 2023)"
+ },
+ {
+  "name": "Tim Howard",
+  "gender": "M",
+  "active": false,
+  "nation": "USA",
+  "clubs": [
+   "MetroStars",
+   "Manchester United",
+   "Everton",
+   "Colorado Rapids",
+   "Memphis 901"
+  ],
+  "causes": [
+   "Tourette syndrome awareness advocate"
+  ],
+  "stances": [
+   "Tourette syndrome awareness",
+   "2017: questioned dual-national US players"
+  ],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "verbal altercations with fans at Sporting KC",
+    "outcome": "3-game ban, fined",
+    "source": "https://www.si.com/soccer/2017/04/14/tim-howard-suspension-fan-altercation-rapids-mls"
+   },
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "questioned the commitment of US dual nationals; teammate Jermaine Jones called it 'dangerous'",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "ego": "neutral: outspoken"
+ },
+ {
+  "name": "Trent Alexander-Arnold",
+  "gender": "M",
+  "active": true,
+  "nation": "England",
+  "clubs": [
+   "Liverpool",
+   "Real Madrid"
+  ],
+  "causes": [
+   "Supports Liverpool community programmes"
+  ],
+  "stances": [],
+  "incidents": [],
+  "ego": "neutral"
+ },
+ {
+  "name": "Unai Simón",
+  "gender": "M",
+  "active": true,
+  "nation": "Spain",
+  "clubs": [
+   "Athletic Club"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Vinícius Júnior",
+  "gender": "M",
+  "active": true,
+  "nation": "Brazil",
+  "clubs": [
+   "Flamengo",
+   "Real Madrid"
+  ],
+  "causes": [
+   "Leading campaigner against racism in Spanish football (Valencia 2023 abuse led to convictions)",
+   "Instituto Vini Jr. (education in Brazil)"
+  ],
+  "stances": [
+   "Leading voice against racism in Spanish football; Valencia 2023 abuse led to convictions"
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "repeated touchline provocations and 2025 Clásico outburst at substitution",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "ego": "big (provocative with opponents; Madrid boycotted 2024 Ballon d'Or gala)"
+ },
+ {
+  "name": "Vivianne Miedema",
+  "gender": "W",
+  "active": true,
+  "nation": "Netherlands",
+  "clubs": [
+   "SC Heerenveen",
+   "Bayern Munich",
+   "Arsenal",
+   "Manchester City"
+  ],
+  "causes": [
+   "Outspoken on ACL epidemic and fixture overload (player welfare)",
+   "Signed 2024 letter urging FIFA to end Aramco sponsorship",
+   "LGBTQ visibility"
+  ],
+  "stances": [
+   "Player-welfare voice on ACLs and fixtures",
+   "2024: signed letter urging FIFA to drop Aramco",
+   "LGBTQ+ visibility"
+  ],
+  "incidents": [],
+  "ego": "humble (introverted; team-focused)"
+ },
+ {
+  "name": "Wendie Renard",
+  "gender": "W",
+  "active": true,
+  "nation": "France",
+  "clubs": [
+   "Lyon / OL Lyonnes"
+  ],
+  "causes": [
+   "Withdrew from 2023 WC campaign in Feb 2023 to protest France's set-up under Diacre (coach sacked)"
+  ],
+  "stances": [
+   "2023: stepped away from France to protest Diacre set-up"
+  ],
+  "incidents": [],
+  "ego": "neutral (strong leader)"
+ },
+ {
+  "name": "Xabi Alonso",
+  "gender": "M",
+  "active": false,
+  "nation": "Spain",
+  "clubs": [
+   "Real Sociedad",
+   "Eibar",
+   "Liverpool",
+   "Real Madrid",
+   "Bayern Munich"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2018,
+    "type": "b05",
+    "what": "charged in Spain with tax fraud over image rights (~2 million euros)",
+    "outcome": "acquitted (first 2018; retrial acquittal 2022); Supreme Court confirmed the acquittal Oct 2023",
+    "source": "https://en.wikipedia.org/wiki/Xabi_Alonso"
+   }
+  ],
+  "ego": "humble: understated, cerebral"
+ },
+ {
+  "name": "Yunus Musah",
+  "gender": "M",
+  "active": true,
+  "nation": "USA",
+  "clubs": [
+   "Valencia",
+   "AC Milan",
+   "Atalanta (loan)"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [],
+  "ego": "humble"
+ },
+ {
+  "name": "Zlatan Ibrahimović",
+  "gender": "M",
+  "active": false,
+  "nation": "Sweden",
+  "clubs": [
+   "Malmö FF",
+   "Ajax",
+   "Juventus",
+   "Inter Milan",
+   "Barcelona",
+   "AC Milan",
+   "Paris Saint-Germain",
+   "Manchester United",
+   "LA Galaxy",
+   "AC Milan"
+  ],
+  "causes": [],
+  "stances": [],
+  "incidents": [
+   {
+    "year": 2006,
+    "type": "b09",
+    "what": "moved from Juventus to Inter after Calciopoli",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "UEFA €50k fine for ~10% stake in betting firm Bethard",
+    "outcome": "ordered to cut ties",
+    "source": "https://insideworldfootball.com/2021/05/27/ibrahimovic-fined-told-cut-links-bethard-can-keep-playing"
+   },
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "'go do your voodoo shit' clash with Lukaku",
+    "outcome": "1-match ban; FIGC found no racial discrimination",
+    "source": ""
+   }
+  ],
+  "ego": "big (speaks of himself in third person)"
+ }
+]

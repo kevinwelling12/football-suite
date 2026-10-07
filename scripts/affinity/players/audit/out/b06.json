@@ -1,0 +1,478 @@
+[
+ {
+  "name": "Christian Pulisic",
+  "CH": 5.5,
+  "WK": 7.0,
+  "LO": 4.5,
+  "AB": 6.5,
+  "ST": 7.5,
+  "LE": 6.0,
+  "why": "CH no causes, 2024 'Trump dance' celebration drew partisan criticism, skipped 2025 Gold Cup; WK hard-working two-way winger; LO BVB 2016-19 then Chelsea, Milan, no long bond; AB anchor 6.5; ST direct dribbler; LE first American UCL winner, 'Captain America', Iran goal 2022",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Cobi Jones",
+  "CH": 6.5,
+  "WK": 7.5,
+  "LO": 7.5,
+  "AB": 5.5,
+  "ST": 6.5,
+  "LE": 6.0,
+  "why": "CH clean, well-liked, no notable causes; WK tireless winger; LO 12 seasons Galaxy, first retired number, stayed as coach; AB solid international winger; ST pace and dreadlocks era showman; LE USA caps record, 1994 WC face of US soccer",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Gio Reyna",
+  "CH": 4.5,
+  "WK": 4.0,
+  "LO": 4.0,
+  "AB": 5.5,
+  "ST": 7.5,
+  "LE": 3.0,
+  "why": "CH 2022 WC effort row and family fallout with Berhalter; WK effort questioned by coach; LO six injury-hit years at BVB (from NYCFC academy), moved on 2025; AB talented but rarely fit; ST creative dribbler; LE little yet",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "Reyna issued a statement admitting he was emotional; parents' role confirmed by US Soccer report 2023"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Kyle Edwards",
+  "CH": 6.0,
+  "WK": 6.5,
+  "LO": 3.5,
+  "AB": 3.5,
+  "ST": 5.5,
+  "LE": 2.0,
+  "why": "CH no known issues or causes; WK impact sub; LO FIX: joined Republic only Jan 2026 from Hartford Athletic, journeyman; AB USL Championship level; ST poacher; LE tied USL record 18 goals as substitute",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Lev Yashin",
+  "CH": 8.0,
+  "WK": 8.5,
+  "LO": 10.0,
+  "AB": 9.5,
+  "ST": 7.0,
+  "LE": 9.5,
+  "why": "CH humble, sporting, respected; WK organiser who led by example; LO one club Dynamo 1950-70, captain; AB best keeper of his era; ST innovative sweeper-keeper, but a keeper; LE only goalkeeper Ballon d'Or, FIFA award named after him",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Claire Hutton",
+  "CH": 6.5,
+  "WK": 8.0,
+  "LO": 4.5,
+  "AB": 6.0,
+  "ST": 5.5,
+  "LE": 2.5,
+  "why": "CH no issues, no notable causes yet; WK ball-winning midfielder; LO two seasons KC then traded; AB young USWNT midfielder, 2025 Best XI; ST functional; LE early career",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Rivaldo",
+  "CH": 4.5,
+  "WK": 5.0,
+  "LO": 3.0,
+  "AB": 9.5,
+  "ST": 9.0,
+  "LE": 8.0,
+  "why": "CH 2002 WC feigning, public row with van Gaal over position; WK individualist; LO many clubs, left Barca acrimoniously; AB 1999 Ballon d'Or; ST left-foot volleys and bicycle kicks; LE 2001 Valencia hat-trick, 2002 WC winner",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "fined CHF 11,670 by FIFA"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Eusébio",
+  "CH": 8.5,
+  "WK": 7.5,
+  "LO": 8.5,
+  "AB": 9.5,
+  "ST": 8.5,
+  "LE": 9.5,
+  "why": "CH gracious, applauded opponents, humble; WK powerful runner; LO 15 years Benfica, club ambassador for life (moves blocked by regime); AB 1965 Ballon d'Or; ST explosive pace and shots; LE 1966 four goals vs North Korea, first African-born global star",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Karim Adeyemi",
+  "CH": 5.0,
+  "WK": 5.5,
+  "LO": 3.5,
+  "AB": 6.5,
+  "ST": 7.0,
+  "LE": 3.0,
+  "why": "CH illegal weapons fine 2025, apologised; WK inconsistent effort; LO four years BVB, sold 2026; AB fast but inconsistent; ST pace and direct running; LE little yet",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "penalty order of 60 daily fines x 7,500 EUR (450k) binding Oct 2025; no criminal record entry; publicly apologised",
+    "note": "bundesliga.com: Adeyemi apologises for illegal weapon possession"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Robbie Fowler",
+  "CH": 5.0,
+  "WK": 6.0,
+  "LO": 7.0,
+  "AB": 8.0,
+  "ST": 7.5,
+  "LE": 7.0,
+  "why": "CH dockers T-shirt and Seaman honesty vs homophobic taunts at Le Saux and line-sniff celebration; WK poacher, moderate; LO Liverpool academy, 'God' to the Kop, returned 2006 but sold 2001; AB elite finisher at peak; ST instinctive finishing; LE 4:33 hat-trick, Kop cult hero",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "bans: 4 matches (celebration) + 2 (Le Saux)"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Martin Zubimendi",
+  "CH": 6.5,
+  "WK": 9.0,
+  "LO": 6.0,
+  "AB": 7.5,
+  "ST": 6.5,
+  "LE": 5.5,
+  "why": "CH humble, no issues; WK selfless holding midfielder; LO Real Sociedad academy, turned down Liverpool 2024, left 2025; AB elite DM; ST tidy tempo passer; LE Euro 2024, WC 2026 and PL 2026 winner",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Alex Morgan",
+  "CH": 8.5,
+  "WK": 7.0,
+  "LO": 5.0,
+  "AB": 8.5,
+  "ST": 7.0,
+  "LE": 8.5,
+  "why": "CH named lead plaintiff in equal-pay suit, backed NWSL abuse survivors, motherhood advocacy; WK team-first striker; LO many clubs, short Thorns spell; AB elite striker, 123 USWNT goals; ST runs in behind; LE 2012 Olympic winner header, two WCs, face of US women's game",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Alan Shearer",
+  "CH": 6.0,
+  "WK": 8.0,
+  "LO": 8.0,
+  "AB": 8.5,
+  "ST": 6.5,
+  "LE": 8.5,
+  "why": "CH foundation work, blunt; physical edge (Lennon kick 1998); WK led the line; LO hometown club 10 years, captain, turned down Man Utd; AB top striker of the 90s; ST power finisher; LE PL record 260 goals, Euro 96 Golden Boot",
+  "incidents": [],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 1998,
+    "what": "accused of deliberately kicking Neil Lennon in the face, Leicester v Newcastle",
+    "outcome": "cleared by FA disciplinary commission; Shearer said it was not deliberate",
+    "source": "https://irishnews.com/sport/footballsoccer/2018/05/01/news/in-the-irish-news---may-1-1998-alan-shearer-denies-deliberate-kick-at-neil-lennon-1317274"
+   }
+  ]
+ },
+ {
+  "name": "Johan Cruyff",
+  "CH": 7.0,
+  "WK": 7.0,
+  "LO": 6.5,
+  "AB": 9.5,
+  "ST": 10.0,
+  "LE": 10.0,
+  "why": "CH Cruyff Foundation, anti-smoking, idealist but combative; WK total-football organiser, demanding ego; LO Ajax academy and captain, but Barca and Feyenoord; AB three Ballons d'Or; ST Cruyff turn, total football; LE shaped Ajax, Barcelona and modern football",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Serhou Guirassy",
+  "CH": 6.5,
+  "WK": 6.5,
+  "LO": 3.5,
+  "AB": 7.5,
+  "ST": 6.0,
+  "LE": 4.0,
+  "why": "CH quiet, no issues; WK box striker, moderate press; LO journeyman, many clubs; AB 28-goal Bundesliga season, UCL top scorer 2025; ST clinical not flashy; LE limited",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Victor Osimhen",
+  "CH": 5.5,
+  "WK": 8.0,
+  "LO": 4.5,
+  "AB": 8.5,
+  "ST": 7.0,
+  "LE": 6.0,
+  "why": "CH outspoken, public rows with Napoli and Nigeria setup; WK relentless runner; LO Napoli hero but bitter exit, FIX: loan to Galatasaray 2024-25 then permanent 2025; AB elite striker, 2023 African POY; ST athletic finisher; LE 2023 scudetto talisman",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "Napoli said no offence was intended rather than a full apology; videos removed"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Crystal Dunn",
+  "CH": 8.0,
+  "WK": 8.5,
+  "LO": 4.5,
+  "AB": 7.5,
+  "ST": 7.5,
+  "LE": 6.5,
+  "why": "CH equal-pay plaintiff, racial justice and maternity advocacy; WK played out of position at left back for USWNT; LO many clubs, left Thorns 2023; AB 2015 MVP, WC and Olympic winner; ST dribbling two-way player; LE 2019 WC, 2024 Olympic gold",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "George Best",
+  "CH": 4.0,
+  "WK": 4.5,
+  "LO": 5.0,
+  "AB": 9.5,
+  "ST": 10.0,
+  "LE": 9.0,
+  "why": "CH alcoholism, walked out on club, prison 1984, but warm public figure; WK individualist; LO Man Utd academy, 11 years, then drifted; AB 1968 Ballon d'Or; ST ultimate dribbler; LE 1968 European Cup, pop-culture icon",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "note": "convicted of assaulting a police officer (with drink-driving, bail breach), 3 months, served ~2 months"
+   },
+   {
+    "i": 1,
+    "verdict": "outcome",
+    "outcome": "no charges; Dec 2003 arrest released without charge; Alex Best said he did not beat her and that they 'lashed out at each other'",
+    "note": "irishexaminer.com/news/arid-10081391.html; she later framed it as mutual drunken rows"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Cody Gakpo",
+  "CH": 6.5,
+  "WK": 8.0,
+  "LO": 6.0,
+  "AB": 7.5,
+  "ST": 7.0,
+  "LE": 5.0,
+  "why": "CH humble, faith, no issues; WK diligent, plays wherever asked; LO PSV academy from age 7 to captain, at Liverpool since 2023; AB strong forward; ST long-range shooting; LE Euro 2024 joint top scorer, 2025 PL",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Pernille Harder",
+  "CH": 8.5,
+  "WK": 7.5,
+  "LO": 5.0,
+  "AB": 9.0,
+  "ST": 8.0,
+  "LE": 7.5,
+  "why": "CH led Denmark pay strike 2017, LGBTQ visibility; WK hard-working forward; LO several clubs, Denmark captain; AB two UEFA POY awards; ST creative forward; LE pay fight and 2019 kiss as visibility moment",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Xabi Alonso",
+  "CH": 7.5,
+  "WK": 8.0,
+  "LO": 6.0,
+  "AB": 8.5,
+  "ST": 8.5,
+  "LE": 8.5,
+  "why": "CH classy, understated; WK positional anchor; LO Real Sociedad academy and captain, five years Liverpool, left 2009; AB elite deep playmaker; ST long passing, halfway-line goals; LE Istanbul equaliser, WC/Euros, Leverkusen unbeaten double as coach",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "acquitted (first 2018; retrial acquittal 2022); Supreme Court confirmed the acquittal Oct 2023",
+    "note": "https://www.elindependiente.com/espana/tribunales/2023/10/25/el-tribunal-supremo-confirma-la-absolucion-de-xabi-alonso-por-un-delito-contra-la-hacienda-publica/amp/"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Michael Owen",
+  "CH": 5.5,
+  "WK": 6.0,
+  "LO": 4.5,
+  "AB": 9.0,
+  "ST": 7.5,
+  "LE": 7.5,
+  "why": "CH reserved, no causes; WK poacher; LO Liverpool academy but ran contract down 2004, later Man Utd; AB 2001 Ballon d'Or; ST pace and solo goals; LE 1998 Argentina goal, 2001 FA Cup final",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "other",
+    "note": "not a direct move: Liverpool -> Real Madrid 2004 -> Newcastle 2005 -> Man Utd 2009"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Julen Guerrero",
+  "CH": 7.0,
+  "WK": 7.0,
+  "LO": 9.5,
+  "AB": 7.5,
+  "ST": 7.5,
+  "LE": 6.0,
+  "why": "CH clean, humble; WK attacking midfielder; LO one club Athletic 14 years, captain, refused Real Madrid; AB early-90s prodigy, faded; ST goalscoring No. 10; LE Athletic poster boy, 1994 WC",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Martin Ødegaard",
+  "CH": 7.0,
+  "WK": 8.5,
+  "LO": 6.5,
+  "AB": 8.5,
+  "ST": 9.0,
+  "LE": 6.5,
+  "why": "CH humble, respected captain; WK leads the press; LO Arsenal captain since 2022 after nomadic youth; AB elite playmaker; ST creative No. 10; LE 2026 PL title captain, Norway captain",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Fanendo Adi",
+  "CH": 4.5,
+  "WK": 6.0,
+  "LO": 4.5,
+  "AB": 5.0,
+  "ST": 5.5,
+  "LE": 4.0,
+  "why": "CH 2019 DUI at 102 mph; WK target man; LO 4.5 years Portland, left for DP deal; AB MLS level; ST physical; LE 2015 MLS Cup run, Timbers scoring record at the time",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "$250 fine, 30-day suspended sentence; MLS reinstated him after plea"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Steven Gerrard",
+  "CH": 7.0,
+  "WK": 9.0,
+  "LO": 9.5,
+  "AB": 8.5,
+  "ST": 8.0,
+  "LE": 8.5,
+  "why": "CH foundation, Hillsborough advocacy, 2005 transfer request; WK anchor 9; LO anchor 9.5, 17 years captain; AB elite box-to-box; ST long-range thunderbolts; LE anchor 8.5, Istanbul",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "note": "street fight (affray); acquitted 2008 on self-defence, keep outcome acquitted"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "Al-Ettifaq manager July 2023 - Jan 2025"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Tyler Adams",
+  "CH": 8.0,
+  "WK": 9.5,
+  "LO": 4.5,
+  "AB": 7.0,
+  "ST": 5.5,
+  "LE": 4.5,
+  "why": "CH composed answer on US racism 2022, humble; WK tireless ball-winner; LO several clubs; AB good PL midfielder; ST functional; LE youngest USA WC captain",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Vitinha",
+  "CH": 6.0,
+  "WK": 8.5,
+  "LO": 4.0,
+  "AB": 8.5,
+  "ST": 8.5,
+  "LE": 6.5,
+  "why": "CH low-key, no issues; WK tireless metronome; LO Porto academy, PSG since 2022; AB 2025 Ballon d'Or podium; ST press-resistant playmaker; LE two UCLs, Nations League 2025",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Blake Willey",
+  "CH": 6.0,
+  "WK": 7.0,
+  "LO": 6.5,
+  "AB": 3.0,
+  "ST": 5.0,
+  "LE": 1.5,
+  "why": "CH no issues; WK midfielder; LO Sacramento native, Republic academy since age 10, homegrown records; AB USL Championship youth; ST unknown; LE first goal 2026",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Giovanni Di Lorenzo",
+  "CH": 6.5,
+  "WK": 8.5,
+  "LO": 7.5,
+  "AB": 7.0,
+  "ST": 7.0,
+  "LE": 6.0,
+  "why": "CH steady captain, no issues; WK overlapping runner; LO seven years Napoli, captain since 2022, 2024 exit push then stayed; AB good full-back; ST attacking full-back; LE 2023 and 2025 scudetti, Euro 2020",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Kristoffer Velde",
+  "CH": 6.0,
+  "WK": 6.0,
+  "LO": 3.0,
+  "AB": 5.0,
+  "ST": 7.0,
+  "LE": 2.0,
+  "why": "CH no issues; WK medium; LO journeyman, Timbers since 2025; AB MLS level; ST direct dribbler; LE little",
+  "incidents": [],
+  "missing": []
+ }
+]

@@ -1,0 +1,566 @@
+[
+ {
+  "id": "n01",
+  "g": "Two Liverpool players",
+  "l": "Alexis Mac Allister",
+  "r": "Dominik Szoboszlai",
+  "test": [
+   "LE",
+   "POS"
+  ],
+  "d": {
+   "CH": 0.25,
+   "WK": 0.25,
+   "LO": 1.0,
+   "AB": 0.25,
+   "ST": -0.5,
+   "LE": 1.5,
+   "POS": -1.0
+  }
+ },
+ {
+  "id": "n02",
+  "g": "Two Liverpool players",
+  "l": "Cody Gakpo",
+  "r": "Dominik Szoboszlai",
+  "test": [
+   "LO",
+   "POS"
+  ],
+  "d": {
+   "CH": 0.5,
+   "WK": -0.5,
+   "LO": 2.0,
+   "AB": 0.0,
+   "ST": -0.25,
+   "LE": 0.5,
+   "POS": -1.0
+  }
+ },
+ {
+  "id": "n03",
+  "g": "Two Liverpool players",
+  "l": "Cody Gakpo",
+  "r": "Ryan Gravenberch",
+  "test": [
+   "LO",
+   "LE"
+  ],
+  "d": {
+   "CH": 0.5,
+   "WK": 0.25,
+   "LO": 1.75,
+   "AB": 0.0,
+   "ST": 0.0,
+   "LE": 1.5,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n04",
+  "g": "Two Liverpool players",
+  "l": "Alexis Mac Allister",
+  "r": "Ryan Gravenberch",
+  "test": [
+   "LE"
+  ],
+  "d": {
+   "CH": 0.25,
+   "WK": 1.0,
+   "LO": 0.75,
+   "AB": 0.25,
+   "ST": -0.25,
+   "LE": 2.5,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n05",
+  "g": "Two Dortmund players",
+  "l": "Nico Schlotterbeck",
+  "r": "Julian Ryerson",
+  "test": [
+   "WK",
+   "POS"
+  ],
+  "d": {
+   "CH": -0.5,
+   "WK": -1.25,
+   "LO": 0.75,
+   "AB": 0.75,
+   "ST": -0.75,
+   "LE": 0.25,
+   "POS": -1.0
+  }
+ },
+ {
+  "id": "n06",
+  "g": "Two Dortmund players",
+  "l": "Waldemar Anton",
+  "r": "Jobe Bellingham",
+  "test": [
+   "ST"
+  ],
+  "d": {
+   "CH": 0.25,
+   "WK": 0.25,
+   "LO": 0.25,
+   "AB": 0.25,
+   "ST": -2.25,
+   "LE": 0.5,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n07",
+  "g": "Two Dortmund players",
+  "l": "Waldemar Anton",
+  "r": "Julian Ryerson",
+  "test": [
+   "ST",
+   "POS"
+  ],
+  "d": {
+   "CH": -0.25,
+   "WK": -0.75,
+   "LO": -0.5,
+   "AB": 0.0,
+   "ST": -2.25,
+   "LE": -0.5,
+   "POS": -1.0
+  }
+ },
+ {
+  "id": "n08",
+  "g": "Two from Portland or Sacramento",
+  "l": "Kristoffer Velde",
+  "r": "Kyle Edwards",
+  "test": [
+   "AB",
+   "ST"
+  ],
+  "d": {
+   "CH": 0.0,
+   "WK": -0.25,
+   "LO": -0.75,
+   "AB": 1.25,
+   "ST": 1.25,
+   "LE": 0.0,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n09",
+  "g": "Two from Portland or Sacramento",
+  "l": "Diego Chará",
+  "r": "Felipe Mora",
+  "test": [
+   "WK",
+   "LO"
+  ],
+  "d": {
+   "CH": 0.25,
+   "WK": 1.5,
+   "LO": 2.75,
+   "AB": 0.5,
+   "ST": -0.5,
+   "LE": 0.75,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n10",
+  "g": "Two from Portland or Sacramento",
+  "l": "Lee Desmond",
+  "r": "Danny Vitiello",
+  "test": [
+   "WK"
+  ],
+  "d": {
+   "CH": 0.25,
+   "WK": 1.5,
+   "LO": -0.25,
+   "AB": -0.25,
+   "ST": -0.25,
+   "LE": -0.5,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n11",
+  "g": "Two from Portland or Sacramento",
+  "l": "David Da Costa",
+  "r": "Kamal Miller",
+  "test": [
+   "ST",
+   "POS"
+  ],
+  "d": {
+   "CH": 0.0,
+   "WK": -1.0,
+   "LO": 0.75,
+   "AB": 0.25,
+   "ST": 3.25,
+   "LE": -0.75,
+   "POS": 1.0
+  }
+ },
+ {
+  "id": "n12",
+  "g": "Two from Portland or Sacramento",
+  "l": "Kristoffer Velde",
+  "r": "James Pantemis",
+  "test": [
+   "LO",
+   "ST"
+  ],
+  "d": {
+   "CH": 0.0,
+   "WK": 0.0,
+   "LO": -1.25,
+   "AB": 0.25,
+   "ST": 2.75,
+   "LE": 0.0,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n13",
+  "g": "Same kind of player, different level",
+  "l": "Stefan Frei",
+  "r": "Unai Simón",
+  "test": [
+   "AB"
+  ],
+  "d": {
+   "CH": 0.5,
+   "WK": -0.25,
+   "LO": -0.75,
+   "AB": -1.75,
+   "ST": -0.25,
+   "LE": -1.0,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n14",
+  "g": "Same kind of player, different level",
+  "l": "Stefan Frei",
+  "r": "Jan Oblak",
+  "test": [
+   "AB"
+  ],
+  "d": {
+   "CH": 0.75,
+   "WK": -0.5,
+   "LO": -0.5,
+   "AB": -2.75,
+   "ST": -0.5,
+   "LE": -0.5,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n15",
+  "g": "Two stars, no link to your clubs",
+  "l": "Gavi",
+  "r": "Declan Rice",
+  "test": [
+   "CH",
+   "LO"
+  ],
+  "d": {
+   "CH": -1.5,
+   "WK": -0.25,
+   "LO": 1.5,
+   "AB": -0.5,
+   "ST": 0.75,
+   "LE": -0.75,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n16",
+  "g": "Two stars, no link to your clubs",
+  "l": "Son Heung-min",
+  "r": "Mikel Oyarzabal",
+  "test": [
+   "CH",
+   "LO"
+  ],
+  "d": {
+   "CH": 1.25,
+   "WK": 0.0,
+   "LO": -1.75,
+   "AB": 1.0,
+   "ST": 1.0,
+   "LE": 0.75,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n17",
+  "g": "Two stars, no link to your clubs",
+  "l": "Nico Williams",
+  "r": "Bruno Fernandes",
+  "test": [
+   "CH",
+   "POS"
+  ],
+  "d": {
+   "CH": 2.0,
+   "WK": -0.5,
+   "LO": 0.5,
+   "AB": -0.25,
+   "ST": 0.75,
+   "LE": 0.25,
+   "POS": -1.0
+  }
+ },
+ {
+  "id": "n18",
+  "g": "Two stars, no link to your clubs",
+  "l": "Harry Kane",
+  "r": "Vinícius Júnior",
+  "test": [
+   "WK",
+   "ST"
+  ],
+  "d": {
+   "CH": 0.5,
+   "WK": 2.0,
+   "LO": 0.5,
+   "AB": 0.0,
+   "ST": -1.75,
+   "LE": 0.75,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n19",
+  "g": "Two stars, no link to your clubs",
+  "l": "Ada Hegerberg",
+  "r": "Leah Williamson",
+  "test": [
+   "LO",
+   "AB"
+  ],
+  "d": {
+   "CH": -0.25,
+   "WK": -1.0,
+   "LO": -1.5,
+   "AB": 1.25,
+   "ST": 0.0,
+   "LE": 0.75,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n20",
+  "g": "Two stars, no link to your clubs",
+  "l": "Barbra Banda",
+  "r": "Fridolina Rolfö",
+  "test": [
+   "LE",
+   "POS"
+  ],
+  "d": {
+   "CH": 1.0,
+   "WK": 0.0,
+   "LO": 0.5,
+   "AB": 0.75,
+   "ST": 0.75,
+   "LE": 1.5,
+   "POS": -0.5
+  }
+ },
+ {
+  "id": "n21",
+  "g": "Two stars, no link to your clubs",
+  "l": "Lamine Yamal",
+  "r": "Pedri",
+  "test": [
+   "CH",
+   "WK"
+  ],
+  "d": {
+   "CH": -1.5,
+   "WK": -2.0,
+   "LO": 0.25,
+   "AB": 0.75,
+   "ST": 0.5,
+   "LE": 0.0,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n22",
+  "g": "Two stars, no link to your clubs",
+  "l": "Lucy Bronze",
+  "r": "Debinha",
+  "test": [
+   "LO",
+   "LE"
+  ],
+  "d": {
+   "CH": 1.0,
+   "WK": 0.75,
+   "LO": -1.5,
+   "AB": 1.0,
+   "ST": -1.0,
+   "LE": 2.25,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n23",
+  "g": "Two stars, no link to your clubs",
+  "l": "Bukayo Saka",
+  "r": "Lautaro Martínez",
+  "test": [
+   "CH",
+   "ST"
+  ],
+  "d": {
+   "CH": 2.75,
+   "WK": 0.0,
+   "LO": 0.75,
+   "AB": 0.0,
+   "ST": 1.25,
+   "LE": -0.25,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n24",
+  "g": "Two stars, no link to your clubs",
+  "l": "Temwa Chawinga",
+  "r": "Lena Oberdorf",
+  "test": [
+   "WK",
+   "ST"
+  ],
+  "d": {
+   "CH": 0.25,
+   "WK": -1.75,
+   "LO": 0.5,
+   "AB": 0.25,
+   "ST": 2.75,
+   "LE": 0.75,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n25",
+  "g": "Two stars, no link to your clubs",
+  "l": "Mikel Oyarzabal",
+  "r": "Harry Kane",
+  "test": [
+   "LO",
+   "AB"
+  ],
+  "d": {
+   "CH": -0.25,
+   "WK": 0.0,
+   "LO": 2.5,
+   "AB": -1.25,
+   "ST": -0.25,
+   "LE": -0.75,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n26",
+  "g": "Two stars, no link to your clubs",
+  "l": "Nico Williams",
+  "r": "Jamal Musiala",
+  "test": [
+   "LE",
+   "POS"
+  ],
+  "d": {
+   "CH": 1.0,
+   "WK": 0.25,
+   "LO": 1.0,
+   "AB": -0.5,
+   "ST": 0.0,
+   "LE": 1.25,
+   "POS": -1.0
+  }
+ },
+ {
+  "id": "n27",
+  "g": "Two Liverpool greats",
+  "l": "Kenny Dalglish",
+  "r": "Ian Rush",
+  "test": [
+   "CH",
+   "ST"
+  ],
+  "d": {
+   "CH": 2.0,
+   "WK": -0.25,
+   "LO": 0.5,
+   "AB": 0.5,
+   "ST": 2.0,
+   "LE": 1.0,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n28",
+  "g": "Two Liverpool greats",
+  "l": "Ian Rush",
+  "r": "Sami Hyypiä",
+  "test": [
+   "ST",
+   "LE"
+  ],
+  "d": {
+   "CH": -0.25,
+   "WK": 0.75,
+   "LO": 0.25,
+   "AB": 1.0,
+   "ST": 2.0,
+   "LE": 1.25,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n29",
+  "g": "Two Liverpool greats",
+  "l": "Kenny Dalglish",
+  "r": "John Barnes",
+  "test": [
+   "WK",
+   "LO"
+  ],
+  "d": {
+   "CH": 0.75,
+   "WK": 1.75,
+   "LO": 1.5,
+   "AB": 0.5,
+   "ST": -0.5,
+   "LE": 1.0,
+   "POS": 0.0
+  }
+ },
+ {
+  "id": "n30",
+  "g": "Two Liverpool greats",
+  "l": "Robbie Fowler",
+  "r": "Michael Owen",
+  "test": [
+   "LO"
+  ],
+  "d": {
+   "CH": 0.0,
+   "WK": 0.0,
+   "LO": 3.25,
+   "AB": -0.75,
+   "ST": 0.25,
+   "LE": -0.75,
+   "POS": 0.0
+  }
+ }
+]

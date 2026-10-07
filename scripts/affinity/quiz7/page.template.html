@@ -1,0 +1,179 @@
+<title>Player Round</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+/* Layout: one question per screen, a thin progress bar on top, big tap targets; single dark look (like the earlier rounds). */
+:root{color-scheme:dark;--bg:#07090c;--card:#15191f;--card2:#222831;--line:#2e3540;--ink:#f3f5f7;--muted:#9aa3ad;--faint:#5c6570;
+  --pitch:#2fbf71;--pick:#3d8bfd;--warn:#ff6b5e;--display:"Archivo",-apple-system,"Segoe UI",system-ui,sans-serif}
+*{box-sizing:border-box}html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 var(--display);padding-inline:16px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:560px;margin:0 auto;padding-block:18px 36px;display:flex;flex-direction:column;gap:16px;min-height:100%}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.brand{font-weight:900;font-size:24px;font-variation-settings:"wdth" 118;letter-spacing:-.01em}
+.count{font-variant-numeric:tabular-nums;color:var(--muted);font-size:14px}
+.bar{height:4px;border-radius:2px;background:var(--card2);overflow:hidden}.bar i{display:block;height:100%;width:0;background:var(--pitch);transition:width .2s}
+.kind{font-size:12px;text-transform:uppercase;letter-spacing:.1em;font-weight:800;color:var(--muted)}
+h1{font-size:28px;line-height:1.15;margin:0;font-variation-settings:"wdth" 110;text-wrap:balance}
+h2{font-size:21px;line-height:1.25;margin:0;text-wrap:balance}
+.lead{color:var(--muted);margin:0;max-width:62ch}
+.pick{display:flex;flex-direction:column;gap:10px}
+.pick button,.opt{width:100%;text-align:left;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:16px;
+  padding:20px 18px;font:inherit;font-size:18px;font-weight:650;cursor:pointer;line-height:1.3}
+.pick button:active,.opt:active{background:var(--card2)}
+.pick .or{text-align:center;color:var(--faint);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
+.opt{padding:15px 16px;font-size:16px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.opt[aria-pressed="true"]{border-color:var(--pick);background:color-mix(in srgb,var(--pick) 18%,var(--card))}
+.opts{display:flex;flex-direction:column;gap:8px}
+.cta{align-self:stretch;border:0;border-radius:14px;background:var(--pitch);color:#04130b;font:inherit;font-weight:800;font-size:17px;padding:15px;cursor:pointer}
+.cta:disabled{opacity:.35;cursor:default}
+.rows{display:flex;flex-direction:column;gap:6px}
+.row{background:var(--card);border-radius:14px;padding:12px 14px;display:grid;grid-template-columns:1fr auto;gap:6px 12px;align-items:center}
+.row .nm{font-weight:700;min-width:0}
+.row .val{font-variant-numeric:tabular-nums;font-weight:800;font-size:18px;min-width:2.2ch;text-align:right}
+.row input[type=range]{grid-column:1/-1;width:100%;accent-color:var(--pitch)}
+.row.unset .val{color:var(--faint)}
+.row.dk{opacity:.55}
+.row .dkb{grid-column:1/-1;justify-self:start;background:none;border:0;color:var(--muted);font:inherit;font-size:13px;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.md{display:flex;flex-direction:column;gap:8px}
+.md .it{background:var(--card);border-radius:14px;padding:12px 14px;display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center}
+.md .it span{min-width:0;font-weight:600}
+.md button{border:1px solid var(--line);background:var(--card2);color:var(--muted);border-radius:10px;font:inherit;font-size:13px;font-weight:800;padding:8px 10px;cursor:pointer;white-space:nowrap}
+.md button.w[aria-pressed="true"]{background:var(--warn);border-color:var(--warn);color:#1a0402}
+.md button.b[aria-pressed="true"]{background:var(--pitch);border-color:var(--pitch);color:#04130b}
+.bud{display:flex;flex-direction:column;gap:8px}
+.bud .it{background:var(--card);border-radius:14px;padding:12px 14px;display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center}
+.bud .it b{font-weight:750}.bud .it small{color:var(--muted);grid-column:1;min-width:0}
+.step{grid-row:1/3;grid-column:2;display:flex;align-items:center;gap:8px}
+.step button{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--card2);color:var(--ink);font-size:20px;cursor:pointer}
+.step output{font-variant-numeric:tabular-nums;font-weight:800;font-size:18px;min-width:3ch;text-align:center}
+.left{font-variant-numeric:tabular-nums;font-weight:800;color:var(--pitch)}.left.over{color:var(--warn)}
+.foot{display:flex;justify-content:space-between;align-items:center;margin-top:auto;color:var(--faint);font-size:13px}
+.foot button{background:none;border:0;color:var(--muted);font:inherit;cursor:pointer;padding:8px 0}
+:focus-visible{outline:2px solid var(--pick);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+</style>
+<div class="wrap">
+  <div class="top"><span class="brand">Player Round</span><span class="count num" id="count"></span></div>
+  <div class="bar"><i id="fill"></i></div>
+  <main id="main" aria-live="polite" style="display:flex;flex-direction:column;gap:16px"></main>
+  <div class="foot"><button id="back" type="button">← Back</button><span id="save"></span></div>
+</div>
+<script>
+const DATA = /*__QUESTIONS__*/, BAG = DATA.bag;
+const STORE = 'player-round-v1', $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+let st = {order: null, answers: {}, times: {}, idx: -1};
+try { const j = JSON.parse(localStorage.getItem(STORE) || 'null'); if (j && j.order) st = j; } catch (e) {}
+const byId = Object.fromEntries(DATA.items.map(q => [q.id, q]));
+let shown = Date.now(), ref = null, chain = Promise.resolve(), dirty = false;
+// Quick picks shuffled and sides flipped at random; then the rating screens, best-worst sets, setup questions and the budget.
+function newOrder() {
+  const of = t => DATA.items.filter(q => q.t === t);
+  return [...shuffle(of('pick')).map(q => ({id: q.id, flip: Math.random() < .5 ? 1 : 0})), ...of('rate').map(q => ({id: q.id})),
+    ...shuffle(of('maxdiff')).map(q => ({id: q.id})), ...of('choice').map(q => ({id: q.id})), ...of('budget').map(q => ({id: q.id}))];
+}
+const N = DATA.items.length, done = () => Object.keys(st.answers).length;
+function persist() {
+  try { localStorage.setItem(STORE, JSON.stringify(st)); } catch (e) {}
+  if (!ref) return; dirty = true;
+  chain = chain.then(async () => { if (!dirty) return; dirty = false;
+    try { await ref.set({answers: st.answers, times: st.times, order: st.order, idx: st.idx, done: done() === N, updated: new Date().toISOString()}); $('#save').textContent = 'Saved'; }
+    catch (e) { $('#save').textContent = 'Saved on this device'; } });
+}
+function answer(id, v) { st.answers[id] = v; st.times[id] = Date.now() - shown; }
+function go(i) { st.idx = Math.max(0, Math.min(i, N)); shown = Date.now(); persist(); render(); window.scrollTo(0, 0); }
+const next = () => go(st.idx + 1);
+
+function render() {
+  $('#fill').style.width = `${Math.round(done() / N * 100)}%`;
+  $('#count').textContent = st.idx >= 0 && st.idx < N ? `${st.idx + 1} / ${N}` : '';
+  $('#back').hidden = st.idx <= 0;
+  const m = $('#main');
+  if (st.idx < 0) {
+    m.innerHTML = `<h1>Players: what pulls you in?</h1>
+      <p class="lead">This sets up a player version of your Affinity ratings. About ten minutes: quick this-or-that picks (gut only), then rate 40 players from 0 to 10, rank some baggage, a few setup questions, and a 100-point budget at the end.</p>
+      <p class="lead">Rate players on how you feel about them, not how good they are. Skip anyone you don't know enough about.</p>
+      <button class="cta" id="go" type="button">${done() ? 'Resume' : 'Start'}</button>`;
+    $('#go').onclick = () => { if (!st.order) st.order = newOrder(); const k = st.order.findIndex(x => !(x.id in st.answers)); go(k < 0 ? N : k); };
+    return;
+  }
+  if (st.idx >= N) {
+    const miss = N - done();
+    m.innerHTML = `<h1>${miss ? `${miss} left` : 'Done. Thanks.'}</h1><p class="lead">${miss ? '' : "Tell Claude you're finished."}</p>${miss ? '<button class="cta" id="gap" type="button">Finish the rest</button>' : ''}`;
+    if (miss) $('#gap').onclick = () => go(st.order.findIndex(x => !(x.id in st.answers)));
+    return;
+  }
+  const it = st.order[st.idx], q = byId[it.id];
+  ({pick: rPick, rate: rRate, maxdiff: rMax, choice: rChoice, budget: rBudget})[q.t](m, q, it);
+}
+function rPick(m, q, it) {
+  const [L, R] = it.flip ? [q.r, q.l] : [q.l, q.r];
+  m.innerHTML = `<div class="kind">Which pulls you in more?</div>
+    <div class="pick"><button type="button" data-s="l">${esc(L)}</button><div class="or">or</div><button type="button" data-s="r">${esc(R)}</button></div>`;
+  m.querySelectorAll('[data-s]').forEach(b => b.onclick = () => { const s = b.dataset.s; answer(q.id, it.flip ? (s === 'l' ? 'r' : 'l') : s); next(); });
+}
+function rRate(m, q) {
+  const cur = Object.assign({}, st.answers[q.id] || {});
+  m.innerHTML = `<div class="kind">${esc(q.title)}</div><h2>How do you feel about each player?</h2>
+    <p class="lead">0 = can't stand him/her, 10 = one of your favorites. Drag each slider; tap "Don't know" to skip.</p>
+    <div class="rows">${q.players.map((p, i) => { const v = cur[p];
+      return `<div class="row ${v == null ? 'unset' : ''} ${v === 'dk' ? 'dk' : ''}" id="row-${i}"><span class="nm">${esc(p)}</span><output class="val" id="val-${i}">${v == null ? '–' : v === 'dk' ? '?' : v}</output>
+      <input type="range" id="rng-${i}" min="0" max="10" step="1" value="${typeof v === 'number' ? v : 5}" aria-label="${esc(p)}">
+      <button class="dkb" type="button" data-dk="${i}">${v === 'dk' ? 'I know this player' : "Don't know"}</button></div>`; }).join('')}</div>
+    <button class="cta" id="ok" type="button">Next</button>`;
+  const ok = () => { $('#ok').disabled = q.players.some(p => cur[p] == null); $('#ok').textContent = $('#ok').disabled ? `Rate or skip all ${q.players.length}` : 'Next'; };
+  q.players.forEach((p, i) => {
+    // A tap on the slider at its starting point (5) counts too, not only a drag.
+    const set = e => { cur[p] = +e.target.value; $(`#val-${i}`).textContent = cur[p]; $(`#row-${i}`).classList.remove('unset', 'dk'); $(`[data-dk="${i}"]`).textContent = "Don't know"; ok(); };
+    ['input', 'change', 'pointerup', 'keyup'].forEach(ev => $(`#rng-${i}`).addEventListener(ev, set));
+    $(`[data-dk="${i}"]`).onclick = () => { if (cur[p] === 'dk') { delete cur[p]; $(`#row-${i}`).classList.add('unset'); $(`#row-${i}`).classList.remove('dk'); $(`#val-${i}`).textContent = '–'; $(`[data-dk="${i}"]`).textContent = "Don't know"; }
+      else { cur[p] = 'dk'; $(`#row-${i}`).classList.add('dk'); $(`#row-${i}`).classList.remove('unset'); $(`#val-${i}`).textContent = '?'; $(`[data-dk="${i}"]`).textContent = 'I know this player'; } ok(); };
+  });
+  ok(); $('#ok').onclick = () => { answer(q.id, cur); next(); };
+}
+function rMax(m, q) {
+  const cur = Object.assign({}, st.answers[q.id] || {});
+  m.innerHTML = `<div class="kind">Baggage</div><h2>Which of these puts you off a player most, and which least?</h2>
+    <div class="md">${q.opts.map(o => `<div class="it"><button class="w" type="button" data-w="${o}" aria-pressed="${cur.worst === o}">Most</button><span>${esc(BAG[o])}</span><button class="b" type="button" data-b="${o}" aria-pressed="${cur.best === o}">Least</button></div>`).join('')}</div>
+    <button class="cta" id="ok" type="button">Next</button>`;
+  const draw = () => { m.querySelectorAll('[data-w]').forEach(b => b.setAttribute('aria-pressed', cur.worst === b.dataset.w)); m.querySelectorAll('[data-b]').forEach(b => b.setAttribute('aria-pressed', cur.best === b.dataset.b)); $('#ok').disabled = !(cur.worst && cur.best); };
+  m.querySelectorAll('[data-w]').forEach(b => b.onclick = () => { cur.worst = b.dataset.w; if (cur.best === cur.worst) delete cur.best; draw(); });
+  m.querySelectorAll('[data-b]').forEach(b => b.onclick = () => { cur.best = b.dataset.b; if (cur.worst === cur.best) delete cur.worst; draw(); });
+  draw(); $('#ok').onclick = () => { answer(q.id, cur); next(); };
+}
+function rChoice(m, q) {
+  let cur = [].concat(st.answers[q.id] ?? []);
+  m.innerHTML = `<div class="kind">Setup</div><h2>${esc(q.q)}</h2><div class="opts">${q.opts.map((o, i) => `<button class="opt" type="button" data-o="${i}" aria-pressed="${cur.includes(i)}">${esc(o)}</button>`).join('')}</div>
+    ${q.multi > 1 ? '<button class="cta" id="ok" type="button">Next</button>' : ''}`;
+  m.querySelectorAll('[data-o]').forEach(b => b.onclick = () => {
+    const i = +b.dataset.o;
+    if (q.multi > 1) { cur = cur.includes(i) ? cur.filter(x => x !== i) : [...cur, i].slice(-q.multi); m.querySelectorAll('[data-o]').forEach(x => x.setAttribute('aria-pressed', cur.includes(+x.dataset.o))); $('#ok').disabled = !cur.length; }
+    else { answer(q.id, i); next(); }
+  });
+  if (q.multi > 1) { $('#ok').disabled = !cur.length; $('#ok').onclick = () => { answer(q.id, cur); next(); }; }
+}
+function rBudget(m, q) {
+  const cur = Object.assign(Object.fromEntries(q.factors.map(f => [f.k, 0])), st.answers[q.id] || {});
+  m.innerHTML = `<div class="kind">Last one</div><h2>Split 100 points by how much each matters to how you feel about a player.</h2>
+    <p class="lead">Steps of 5. <span class="left" id="left"></span></p>
+    <div class="bud">${q.factors.map(f => `<div class="it"><b>${esc(f.label)}</b><small>${esc(f.hint)}</small>
+      <span class="step"><button type="button" data-d="-5" data-k="${f.k}" aria-label="Less ${esc(f.label)}">−</button><output id="o-${f.k}">${cur[f.k]}</output><button type="button" data-d="5" data-k="${f.k}" aria-label="More ${esc(f.label)}">+</button></span></div>`).join('')}</div>
+    <button class="cta" id="ok" type="button">Finish</button>`;
+  const draw = () => { const s = Object.values(cur).reduce((a, b) => a + b, 0), l = $('#left');
+    l.textContent = s === 100 ? 'All 100 placed.' : s < 100 ? `${100 - s} left to place.` : `${s - 100} over.`; l.classList.toggle('over', s > 100);
+    q.factors.forEach(f => $(`#o-${f.k}`).textContent = cur[f.k]); $('#ok').disabled = s !== 100; };
+  m.querySelectorAll('[data-d]').forEach(b => b.onclick = () => { const k = b.dataset.k; cur[k] = Math.max(0, Math.min(100, cur[k] + +b.dataset.d)); draw(); });
+  draw(); $('#ok').onclick = () => { answer(q.id, cur); next(); };
+}
+addEventListener('keydown', e => { if (st.idx < 0 || st.idx >= N) return; const q = byId[st.order[st.idx].id]; if (q.t !== 'pick') return;
+  const b = document.querySelector(`[data-s="${e.key === 'ArrowLeft' ? 'l' : e.key === 'ArrowRight' ? 'r' : ''}"]`); if (b) b.click(); });
+$('#back').onclick = () => go(st.idx - 1);
+render();
+(async () => { try {
+  const db = window.claude && await window.claude.use('db'); if (!db) return;
+  ref = db.doc('responses/kevin'); const s = await ref.get(), r = s.exists ? s.data() : null;
+  if (r && r.order && Object.keys(r.answers || {}).length > done()) { st = {order: r.order, answers: {...r.answers}, times: {...(r.times || {})}, idx: r.idx ?? -1}; render(); }
+  else if (done()) persist();
+} catch (e) {} })();
+</script>

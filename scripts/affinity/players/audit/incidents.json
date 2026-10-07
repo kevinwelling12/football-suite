@@ -1,0 +1,515 @@
+{
+ "Fabio Cannavaro": {
+  "verdicts": [
+   {
+    "i": 1,
+    "verdict": "outcome",
+    "outcome": "first-instance 10-month sentence Feb 2015 for breaching seals on villa seized in tax probe; suspended pending appeal",
+    "note": "year was 2015, not 2017"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b10",
+    "year": 2015,
+    "what": "head coach of Saudi club Al-Nassr Oct 2015 - Feb 2016",
+    "outcome": "sacked after four months",
+    "source": "https://www.ansa.it/english/news/2016/02/12/soccer-saudi-club-al-nassr-fires-cannavaro-as-coach_db6b0e68-2801-43b0-afd9-fcdab1eb44c6.html"
+   }
+  ]
+ },
+ "Thibaut Courtois": {
+  "verdicts": [
+   {
+    "i": 1,
+    "verdict": "wrong",
+    "note": "not direct: returned to Chelsea 2014, joined Real 2018 from Chelsea; was only an Atlético loanee"
+   }
+  ],
+  "missing": []
+ },
+ "Roman Weidenfeller": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "DFB 3-match ban + EUR 10,000 fine; racist wording not proven, admitted a homophobic insult and apologised",
+    "note": "type other fits; racism alleged but not established"
+   }
+  ],
+  "missing": []
+ },
+ "Garrincha": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b02",
+    "year": 1970,
+    "what": "Elza Soares, his wife 1966-77, said he repeatedly beat her during his alcoholism (broke her teeth)",
+    "outcome": "never charged; publicly described by Soares",
+    "source": "https://www.thenewfeminist.co.uk/2022/04/the-voice-of-the-millennium-resists-being-silent/"
+   }
+  ]
+ },
+ "Clint Dempsey": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "red card; MLS 3-game ban and fine; Open Cup ban 6 games or 2 years",
+    "note": "June 2015, not 2014"
+   }
+  ],
+  "missing": []
+ },
+ "Roy Keane": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 1999,
+    "what": "arrested over alleged assault on a woman in a Manchester bar",
+    "outcome": "not prosecuted; case dropped",
+    "source": "https://www.rte.ie/news/1999/0628/2296-sport"
+   }
+  ]
+ },
+ "Lothar Matthäus": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b09",
+    "year": 1984,
+    "what": "agreed and made direct move from Borussia Mönchengladbach to their main title rival Bayern Munich, then missed a penalty for Gladbach against Bayern in the 1984 DFB-Pokal final",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us"
+   }
+  ]
+ },
+ "Karim Benzema": {
+  "verdicts": [
+   {
+    "i": 1,
+    "verdict": "retype",
+    "type": "b02",
+    "note": "soliciting an underage prostitute allegation; acquitted 2014"
+   }
+  ],
+  "missing": []
+ },
+ "George Weah": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 1996,
+    "what": "headbutted Porto's Jorge Costa in the tunnel after a UCL match, breaking his nose; alleged racist abuse by Costa (unproven)",
+    "outcome": "UEFA six-match ban; Weah tried to apologise, Costa refused and sued",
+    "source": "https://en.wikipedia.org/wiki/Jorge_Costa"
+   }
+  ]
+ },
+ "Luka Modrić": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "indicted for perjury 2018; court dismissed the charge (2018-19); prosecution dropped 2024",
+    "note": "type 'other' fits"
+   }
+  ],
+  "missing": []
+ },
+ "Jadon Sancho": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b08",
+    "year": 2017,
+    "what": "refused a new Man City deal, missed the US pre-season tour and stopped training to force a move",
+    "outcome": "sold to Dortmund Aug 2017",
+    "source": "https://www.si.com/soccer/2017/08/03/arsenal-spurs-target-jadon-sancho-refuses-train-man-city-order-force-move"
+   }
+  ]
+ },
+ "Łukasz Piszczek": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b04",
+    "year": 2006,
+    "what": "part of the Zagłębie Lubin match-fixing affair (fixed 2006 match vs Cracovia, while on loan from Hertha); he did not play in it",
+    "outcome": "PZPN six-month ban July 2011 (lifted Sept 2011); Wrocław court: one-year suspended sentence and PLN 100,000 fine",
+    "source": "https://trivela.com.br/europa/polones-de-borussia-dortmund-tem-sentenca-de-prisao/"
+   }
+  ]
+ },
+ "Kevin Keegan": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 1974,
+    "what": "traded punches with Billy Bremner in the Charity Shield at Wembley; both sent off and threw shirts off",
+    "outcome": "FA ban (suspended to end of Sept 1974, about 11 matches) and GBP 500 fine; borderline for b06: a mutual brawl after Giles punched him, not an injuring tackle",
+    "source": "https://lfchistory.net/articles/2853"
+   }
+  ]
+ },
+ "Son Heung-min": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "Son was the target of Bentancur's remark, not the perpetrator; nothing to hold against Son"
+   }
+  ],
+  "missing": []
+ },
+ "Alfredo Di Stéfano": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "he was the kidnap victim; no misconduct by him"
+   }
+  ],
+  "missing": []
+ },
+ "Jamie Vardy": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "outcome": "convicted of assault 2007 (says he was defending a deaf friend); wore tag/curfew 6 months",
+    "note": "street assault conviction fits b06"
+   }
+  ],
+  "missing": []
+ },
+ "Federico Valverde": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "outcome": "criminal complaint archived July 2023 for lack of evidence; RFEF closed case, no sanction",
+    "note": "alleged off-pitch punch; case closed, see https://www.90min.com/posts/federico-valverde-cleared-alleged-assault-villarreal-alex-baena"
+   }
+  ],
+  "missing": []
+ },
+ "Hope Solo": {
+  "verdicts": [
+   {
+    "i": 1,
+    "verdict": "outcome",
+    "outcome": "charges dropped by Kirkland prosecutors May 2018 (witnesses declined to testify); she denied wrongdoing",
+    "note": "https://www.krem.com/article/news/crime/hope-solo-assault-charges-dismissed/281-558047761"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b03",
+    "year": 2012,
+    "what": "tested positive for canrenone (diuretic) before London Olympics",
+    "outcome": "USADA public warning only, no ban; accepted as prescribed pre-menstrual medication",
+    "source": "https://www.mprnews.org/story/2012/07/09/hope-solo-gets-warning-from-usada-after-drug-test"
+   }
+  ]
+ },
+ "Zinedine Zidane": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 2000,
+    "what": "headbutted Hamburg's Jochen Kientz in a Champions League match for Juventus, sent off",
+    "outcome": "UEFA 5-match ban",
+    "source": "https://hurriyet.com.tr/gundem/zidanes-career-dotted-by-headbutting-incidents-4731561"
+   }
+  ]
+ },
+ "Karim Adeyemi": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "penalty order of 60 daily fines x 7,500 EUR (450k) binding Oct 2025; no criminal record entry; publicly apologised",
+    "note": "bundesliga.com: Adeyemi apologises for illegal weapon possession"
+   }
+  ],
+  "missing": []
+ },
+ "Alan Shearer": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 1998,
+    "what": "accused of deliberately kicking Neil Lennon in the face, Leicester v Newcastle",
+    "outcome": "cleared by FA disciplinary commission; Shearer said it was not deliberate",
+    "source": "https://irishnews.com/sport/footballsoccer/2018/05/01/news/in-the-irish-news---may-1-1998-alan-shearer-denies-deliberate-kick-at-neil-lennon-1317274"
+   }
+  ]
+ },
+ "George Best": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "note": "convicted of assaulting a police officer (with drink-driving, bail breach), 3 months, served ~2 months"
+   },
+   {
+    "i": 1,
+    "verdict": "outcome",
+    "outcome": "no charges; Dec 2003 arrest released without charge; Alex Best said he did not beat her and that they 'lashed out at each other'",
+    "note": "irishexaminer.com/news/arid-10081391.html; she later framed it as mutual drunken rows"
+   }
+  ],
+  "missing": []
+ },
+ "Xabi Alonso": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "acquitted (first 2018; retrial acquittal 2022); Supreme Court confirmed the acquittal Oct 2023",
+    "note": "https://www.elindependiente.com/espana/tribunales/2023/10/25/el-tribunal-supremo-confirma-la-absolucion-de-xabi-alonso-por-un-delito-contra-la-hacienda-publica/amp/"
+   }
+  ],
+  "missing": []
+ },
+ "Michael Owen": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "other",
+    "note": "not a direct move: Liverpool -> Real Madrid 2004 -> Newcastle 2005 -> Man Utd 2009"
+   }
+  ],
+  "missing": []
+ },
+ "Steven Gerrard": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "note": "street fight (affray); acquitted 2008 on self-defence, keep outcome acquitted"
+   }
+  ],
+  "missing": []
+ },
+ "Neymar": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 2019,
+    "what": "punched a Rennes fan after the Coupe de France final",
+    "outcome": "FFF 3-match ban (+2 suspended); PSG appealed",
+    "source": "https://www.skysports.com/football/news/11820/11716058/neymar-handed-three-match-ban-by-french-football-federation-after-fan-punch"
+   }
+  ]
+ },
+ "Zlatan Ibrahimović": {
+  "verdicts": [
+   {
+    "i": 1,
+    "verdict": "wrong",
+    "note": "not direct: Inter->Barcelona 2009, Barcelona->Milan 2010"
+   },
+   {
+    "i": 2,
+    "verdict": "retype",
+    "type": "other",
+    "note": "UEFA EUR 50k fine 2021 for ~10% stake in Bethard; betting-interest breach, not match-fixing"
+   }
+  ],
+  "missing": []
+ },
+ "Eric Cantona": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b06",
+    "year": 1987,
+    "what": "dangerous kung-fu tackle on Nantes' Michel Der Zakarian",
+    "outcome": "3-month ban, reduced to 2 months",
+    "source": "https://en.wikipedia.org/wiki/Eric_Cantona"
+   }
+  ]
+ },
+ "Franz Beckenbauer": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "Swiss case closed 2020 (time-barred), never convicted",
+    "note": "2016 FIFA fine was for non-cooperation with the 2018/22 bid probe, not the 2006 payment"
+   }
+  ],
+  "missing": []
+ },
+ "Joseba Etxeberria": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b09",
+    "year": 1995,
+    "what": "left Real Sociedad for Basque rival Athletic via release clause aged 18",
+    "outcome": "clubs broke relations for years",
+    "source": "https://thesefootballtimes.co/2017/08/29/why-football-needs-more-selfless-heroes-like-joseba-etxeberria/"
+   }
+  ]
+ },
+ "Romário": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b03",
+    "year": 2007,
+    "what": "tested positive for finasteride (hair-loss drug, masking agent) after Vasco v Palmeiras; 120-day ban",
+    "outcome": "ban overturned on appeal, 2008",
+    "source": "https://www.aljazeera.com/sports/2007/12/19/romario-hit-with-doping-suspension"
+   }
+  ]
+ },
+ "Oliver Kahn": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "Happened (3 Apr 1999 BVB-Bayern, jumping kick at Chapuisat) but no card and no ban; too minor for b06"
+   },
+   {
+    "i": 1,
+    "verdict": "wrong",
+    "note": "Same match, 3 Apr 1999 (not 2001): mock bite at Herrlich's neck, no card, no ban; too minor for b06"
+   }
+  ],
+  "missing": []
+ },
+ "Bernardo Silva": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "FA 1-match ban, £50,000 fine, education course; commission found no racist intent (joke between friends); tweet deleted and apologised",
+    "note": "Type other is right; not b01"
+   }
+  ],
+  "missing": []
+ },
+ "Francesco Totti": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "Happened (spat at Poulsen, Euro 2004, 3-match UEFA ban, apologised) but spitting is not an injuring act; too minor for b06"
+   }
+  ],
+  "missing": []
+ },
+ "Marcus Rashford": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "Jan 2024 (not 2023); fined about two weeks' wages, dropped vs Newport; took responsibility, club called matter closed",
+    "note": "Year wrong"
+   }
+  ],
+  "missing": []
+ },
+ "Paolo Di Canio": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "note": "pushed referee Paul Alcock over in 1998, 11-match ban and fine: physical assault on a referee with a long ban"
+   }
+  ],
+  "missing": []
+ },
+ "Samuel Eto'o": {
+  "verdicts": [
+   {
+    "i": 2,
+    "verdict": "outcome",
+    "outcome": "CAF fined him $200k in 2024 for the 1xBet ambassador deal (match-fixing charge not proven); CAS in March 2025 overturned only his exclusion from CAF ExCo elections",
+    "note": "not a ban that was overturned"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b04",
+    "year": 2023,
+    "what": "Leaked voice notes allegedly about fixing Cameroon lower-league matches (Victoria United); CAF investigation",
+    "outcome": "CAF found insufficient proof of match manipulation (2024); fined $200k for betting ambassador deal; further Cameroonian complaints 2025",
+    "source": "https://africanews.com/2024/06/27/samuel-etoo-questioned-by-caf-over-match-fixing"
+   }
+  ]
+ },
+ "Karl-Heinz Rummenigge": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b05",
+    "note": "accepted a penalty order (Strafbefehl) for tax evasion, ~EUR 250k, for undeclared Rolex watches from Qatar; a criminal record for tax evasion"
+   }
+  ],
+  "missing": []
+ },
+ "Lauren James": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "one red card for a stamp, 2-match ban (lower end), no injury; too minor for b06; apologised"
+   }
+  ],
+  "missing": []
+ },
+ "Diego Maradona": {
+  "verdicts": [],
+  "missing": [
+   {
+    "type": "b12",
+    "year": 2012,
+    "what": "Honorary sports ambassador for the Dubai Sports Council (UAE government body), renewed for several years",
+    "outcome": "paid role, 2012-2016 approx.",
+    "source": "https://gulfnews.com/sport/football/maradona-to-be-retained-as-dubai-sports-council-ambassador-1.1206739"
+   },
+   {
+    "type": "b03",
+    "year": 1997,
+    "what": "Third positive test for cocaine after Boca v Argentinos Juniors, August 1997",
+    "outcome": "suspension lifted by a judge pending tampering claim; retired October 1997",
+    "source": "https://www.deseret.com/1997/10/30/19342611/maradona-done-playing-soccer/"
+   }
+  ]
+ },
+ "Frank Rijkaard": {
+  "verdicts": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "spitting at Völler: red card only, no long ban, no injury; too minor for b06; apologised and reconciled"
+   },
+   {
+    "i": 1,
+    "verdict": "retype",
+    "type": "b10",
+    "note": "was Saudi national team head coach 2011-13 (paid job in Saudi football), not an ambassadorship"
+   }
+  ],
+  "missing": []
+ }
+}

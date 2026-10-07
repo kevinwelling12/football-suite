@@ -175,3 +175,76 @@ Add-on review (2026-10-02, Kevin; each add-on tested by removing it and rerunnin
   big4.py item), hometown and heritage. Shown as one group; kept as adjustments, not a weighted factor: a Connection
   factor (5-10%) fitted worse (0.77-0.78), as three quarters of clubs have no connection data.
 - Result: Timbers 79.7 (13th) above Sounders 78.6 (17th) on merit; Republic 4th; AFC Wimbledon 11th.
+
+Player Affinity (2026-10-06; scripts/affinity/players: model.py, fit.py, fit.json, research/, scores/, ratings.json, lists.json;
+quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "Player Affinity"):
+- Pool: ~300 players researched (facts: clubs and years, captaincy, moments, style, causes, incidents, money moves; research/BRIEF.md)
+  and scored on six factors 0-10 against fixed anchors (SCORING_BRIEF.md): Character, Team player, Loyalty & bond, Greatness,
+  Joy to watch, Legacy.
+- Weights come from anonymous choices only (round 7's 100-point budget was dropped: Kevin found it hard to use). Round 8's
+  real-player head-to-heads turned out to follow name recognition (familiar names won; no factor explained more than 55% of
+  those picks), so fit.py fits a logit model to the 50 mystery-player pairs of rounds 8 and 9 (round 9: 30 pairs chosen for
+  information, plus a baggage trait and a "can't split them" answer). Result in fit.json: Team player 29, Character 25,
+  Loyalty 16, Joy 14, Legacy 12, Greatness 4.5; connection x1.09, penalties x2.54. Leave-one-out 77% of 48 decided pairs
+  (round-8 fit with names: 65%). As checks: it calls 17 of 29 named head-to-heads and tracks the gut ratings at r 0.36.
+- Connection (adjustment, then x1.02): +1.2 per season at Liverpool, Timbers, Thorns, Republic, +0.6 at Dortmund (half weight
+  from 2026-10-06: Kevin's pull to Dortmund hasn't materialised like Liverpool's) (max +8); -0.3 per season at clubs he
+  rates under 35 (max -3); US international +2.
+- Penalties (then x2.54) from his best-worst ranking: abuse allegations 18, racist abuse 14, match-fixing 14, violent conduct 7, authoritarian
+  ambassador 7, tax fraud 5, doping 4, Saudi move 3, forced transfer 3, rival move 2. Dropped/acquitted 30%, apology 60%,
+  a move made as a coach half. Diving and general conduct sit in Character. Penalties stack with no cap (Kevin, 2026-10-06:
+  "shitheads need not apply"), so several incidents can take a player to 0.
+- No era discount: Kevin has followed closely for under a year, so past players are judged on the record alone.
+- Position: a boost for a main position of playmaker or full-back (quiz 7 s03), half for a second position (POS_BOOST).
+  Fitted to round 10 at +7.2 (it went his way in 4 of 5 pairs where position differed); was +3 before. Refit after the
+  loyalty and money-league changes (2026-10-06): +5.9, weights unchanged, leave-one-out 75% (named pairs 9 of 15).
+- Independent audit (audit/): a second set of scorers re-scored all 306 blind from the facts plus web checks (AUDIT_BRIEF.md);
+  scores are averaged, gaps over 1.5 settled by a third pass (adjudicated.json). They also checked every incident: 31
+  corrections (victims filed as offenders, wrong types, dropped or acquitted cases) and 18 added, applied by model.load().
+  Borderline additions kept (Claude's call, Kevin had no view): Keegan 1974 fight with Bremner (b06, both sent off and
+  banned), Matthäus 1984 Gladbach to Bayern (b09, the 1970s title rivalry; he had signed before the 1984 cup final vs Bayern).
+- Round 10 (quiz10/, 2026-10-06): 30 named pairs from one setting each (two Liverpool players, two stars with no link to his
+  clubs...), one or two factors apart, with pass buttons. He passed on 15 (all the Liverpool greats, most stars and women),
+  so he knows his clubs' current players and a few stars. On the 15 he answered, the factors called 8 (Joy to watch 5 of 7,
+  position 4 of 5, Team player only 3 of 7): his picks between players he watches weekly follow his own impressions more than
+  the researched scores. fit.py adds these 15 to the 48 mystery pairs; weights barely moved (CH 25, WK 28, LO 17, AB 5,
+  ST 15, LE 11; connection x1.02, penalties x2.75); leave-one-out 73% overall.
+- Money leagues (Kevin, 2026-10-06, after Firmino: "I want guys that want to compete at the highest level, not collect a fat
+  paycheck against minor leaguers"): a move to a Saudi, Qatari, Emirati or Chinese Super League club costs by age at the move,
+  7 at 29 or younger, 4 at 30-33, 2 at 34+ (before x2.75), found from the club list too (Coutinho, Xavi, Raúl, Drogba,
+  Batistuta, Weah). Coaches keep 3 x 0.5. Men only.
+- Top-10 walkthrough feedback (Kevin's verdicts and notes, player by player): players/feedback.json.
+- Connection follows club Affinity alone (Kevin, 2026-10-07: "apply the Dortmund change to all clubs; base it solely on
+  Affinity rating, not my stated favourites"): every club 0.6 * (a - 50) / 35 a season up to +0.6, -0.3 * (50 - a) / 15 down to
+  -0.6; gains capped at +4 (CONN_CAP; +8 tried: leave-one-out 70%, +4: 71%; the version with followed clubs at +1.2 scored 73-75%),
+  losses at -3. Women's clubs read only NWSL ratings; a woman's spell at a European club rated only for its men's side is neutral.
+  Refit: CH 25, WK 28, LO 16.5, AB 5, ST 15, LE 10.5; connection x0.98, penalties x2.83, position +7.2.
+- Values (quiz round 11, quiz11/, 2026-10-07): 24 mystery pairs differing only off the pitch + 12 direct questions; logit
+  weights (quiz11/fit.json; agree with 23 of 24 picks): betting -3.1, refused Pride -2.8, rainbow armband +2.5, speaks on
+  racism +2.3, left campaign +2.2, right campaign -1.8, fair play +1.2, funds schools +1.1, private life +0.3, criticises
+  FIFA/owners -0.2. Every player tagged on these by research agents (players/values/, BRIEF.md, cited). Character =
+  research score + VALUES_X * sum(weight * tag), clipped 0-10 (VALUES_X 0.3, doubled to 0.6 at Kevin's request; LOO 73%) (an average with a neutral 6 was tried and dropped: it pulled
+  untagged good characters down). Refit: leave-one-out 75%.
+- Values round 12 (quiz12/, 2026-10-07): pairs (agree 24 of 24): indiscipline -2.8, feuds -2.3, rows with fans -2.0,
+  taunts -1.7, women's game +1.3, time with fans +1.2, private jet -0.9, mental health +0.9, climate +0.2, Common Goal 0
+  (fitted -0.5, floored). Direct (as stated): refugees, union, honest, fan-owned club, outside interests, youth mentor +2;
+  badge-kiss exit, referee disputes -2; contract or move pushed through the media -4 (Kevin: "one is business, the other
+  is manipulation"; talks behind closed doors are not penalised). Tags in players/values2/ (cited). The shift adds to round 11's.
+  Note: forcing a move is also a b08 penalty, so contract_media double-counts a little for strikers like Isak, Dembélé.
+- Position boost removed (Kevin, 2026-10-07: position "matters very little"): POS_BOOST 0, fit.py fixes it at 0. Refit:
+  CH 25, WK 27, LO 17, AB 5, ST 16, LE 10; connection x0.93, penalties x2.93; leave-one-out 71% (73% with the boost).
+- Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).
+
+Clubs and players together (2026-10-07, Kevin: "full integration of the player and club sides with bilateral influence"):
+- One run: `python3 scripts/affinity/unified.py [--fit]` rescores every club (rescore.py), rates every player
+  (players/model.py, --fit refits the weights first), rebuilds the lists and writes data/players.json for the app.
+- Club -> player: a player's connection is the Affinity of each club he played for (players/model.py, per_season).
+- Player -> club (scripts/affinity/players_link.py): the best 5 current players move Team by 1.5 * sum(x) / (n + 4),
+  the best 5 icons (4+ seasons there) move History by 1.0 * sum(x) / (n + 3), x = (A - 60) / 15 clipped to +/-1.
+  A leaves out connection, so neither side echoes the other and one pass is exact. Best 5 only, because the pool
+  covers Kevin's clubs down to the third keeper but other clubs only through their stars. hai.py in suite_data
+  records the applied amounts (a factor at 10 can't go higher), shown as "Players" and "Icons" in the club sheet.
+- First run: 87 of 308 clubs moved, by at most about 2: Thorns 88 -> 90, Kansas City Current 75.7 -> 77.1,
+  Liverpool 84.6 -> 85.8, Dortmund 83.1 -> 84.4, Bayern 80.9 -> 82.0, Arsenal 59.9 -> 61.3; PSG 26.1 -> 24.9,
+  Inter Miami 28.1 -> 27.3.
+- App: Affinity view has a Clubs & nations / Players switch; Players shows the four lists with each player's breakdown.

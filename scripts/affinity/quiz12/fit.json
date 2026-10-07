@@ -1,0 +1,27 @@
+{
+ "w": {
+  "wgame": 1.32,
+  "climate": 0.2,
+  "private_jet": -0.91,
+  "mental_health": 0.9,
+  "fans_close": 1.22,
+  "fans_rows": -2.0,
+  "taunts": -1.67,
+  "feuds": -2.32,
+  "indiscipline": -2.8,
+  "common_goal": 0.0,
+  "refugees": 2.0,
+  "union": 2.0,
+  "badge_kiss_exit": -2.0,
+  "contract_media": -4.0,
+  "honest": 2.0,
+  "fan_owned_club": 2.0,
+  "outside_interests": 2.0,
+  "ref_disputes": -2.0,
+  "youth_mentor": 2.0
+ },
+ "acc": 1.0,
+ "n": 24,
+ "note": "common_goal fitted -0.5 (it lost every pair it was in) and floored to 0: giving is not held against anyone",
+ "note_contract_media": "-2 stated, doubled to -4 (Kevin, 2026-10-07): pushing a transfer or contract through the media is manipulation, far worse than talks behind closed doors (business, not penalised)"
+}

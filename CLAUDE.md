@@ -44,11 +44,18 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 - Pick 'em is scored on the 90-minute score only (2 pts result, 3 exact).
 - Terminology: "Affinity" (not HAI), "Matches" (not "Games"), "Affinity pick", "Match of the week".
 - The visual theme (Apple Sports-inspired: page tinted in the competition's colour, dark translucent panels, club colour discs as crests, big plain numbers) applies to every competition; keep it consistent. One dark stylesheet, src/styles.css.
+- Kevin started following the sport closely with the 2026 World Cup (about 4-6 months before Oct 2026). He knows his clubs'
+  current players and the biggest stars; older players and most others he knows by name only. Don't judge players or clubs
+  by whether he has heard of them, offer a pass/"don't know" option in quizzes, and lean on research for history. He is reading
+  Ruud Gullit's "How to Watch Soccer" (done) and "The Soccer 100" (in progress).
+  Women's game: he has watched only NWSL, mostly Thorns matches, plus past World Cups casually.
 - Excel trackers are deprecated. Don't recreate them.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 
 ## Where the logic lives
 - Affinity rubric & rules: docs/affinity.md and scripts/affinity/scores.py (+ USL in build_usl.py).
+  Clubs and players run together: `python3 scripts/affinity/unified.py [--fit]` (club rescore with player influence,
+  Player Affinity in scripts/affinity/players/, data/players.json for the app's Affinity > Players view).
   Track record coefficient: scripts/affinity/performance.py. Overall ranking of every club: the Affinity view (view 'rank').
 - Model details: docs/architecture.md (Dixon-Coles, draw calibration, importance, favour/Affinity picks).
 - Data sources and sync: docs/sync.md (nightly ESPN sync: .github/workflows/espn-sync.yml, scripts/sync/espn.js).

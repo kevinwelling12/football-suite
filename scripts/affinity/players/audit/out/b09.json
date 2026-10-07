@@ -1,0 +1,486 @@
+[
+ {
+  "name": "Brandi Chastain",
+  "CH": 8.0,
+  "WK": 7.5,
+  "LO": 6.0,
+  "AB": 7.0,
+  "ST": 6.0,
+  "LE": 8.5,
+  "why": "CH CTE brain pledge, anti-heading campaign, Bay FC co-founder; WK hard-working converted defender; LO long USWNT service, short club career; AB top international defender; ST two-footed, not a creator; LE 1999 winning penalty and celebration is iconic",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Neven Subotić",
+  "CH": 9.5,
+  "WK": 8.0,
+  "LO": 7.0,
+  "AB": 6.5,
+  "ST": 4.5,
+  "LE": 5.0,
+  "why": "CH foundation building wells in Ethiopia, rejected pro lifestyle; WK humble athletic defender; LO ten years at BVB, popular at Union; AB solid Bundesliga title-winning CB; ST no-frills CB; LE part of Klopp's double side",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Wendie Renard",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 9.5,
+  "AB": 8.5,
+  "ST": 5.0,
+  "LE": 8.0,
+  "why": "CH 2023 stand against France set-up; WK leader by example; LO 20 years at Lyon, long-time captain; AB elite CB of her era; ST aerial, set pieces; LE 8 UWCL as captain, record appearances",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Declan Rice",
+  "CH": 6.5,
+  "WK": 9.0,
+  "LO": 6.5,
+  "AB": 8.5,
+  "ST": 6.5,
+  "LE": 6.0,
+  "why": "CH humble, no notable causes; WK tireless, team-first; LO West Ham academy captain, left on good terms for record fee; AB elite DM; ST free kicks vs Real Madrid, mostly functional; LE Conference League as captain, PL 2026",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Joe Gomez",
+  "CH": 6.5,
+  "WK": 8.0,
+  "LO": 8.0,
+  "AB": 6.5,
+  "ST": 4.5,
+  "LE": 4.5,
+  "why": "CH quiet decent pro; WK accepts rotation, plays anywhere; LO 11 years at Liverpool, stayed through injuries, now a club captain; AB good PL defender, injury-hit; ST functional; LE squad member of title sides",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Diego Chará",
+  "CH": 6.5,
+  "WK": 9.5,
+  "LO": 9.5,
+  "AB": 5.5,
+  "ST": 5.0,
+  "LE": 5.5,
+  "why": "CH humble, but tactical fouling; WK tireless destroyer; LO 15+ seasons at Portland, captain, Timbers Army icon; AB top MLS DM; ST destroyer; LE MLS club legend, 2015 MLS Cup",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Oliver Kahn",
+  "CH": 4.5,
+  "WK": 7.0,
+  "LO": 7.5,
+  "AB": 9.0,
+  "ST": 5.5,
+  "LE": 8.5,
+  "why": "CH intense outbursts, confrontations, defended Qatar sponsor as CEO; WK driven leader, big personality; LO 14 years Bayern captain; AB one of the best GKs; ST shot-stopper; LE 2002 Golden Ball, 2001 UCL final saves",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "Happened (3 Apr 1999 BVB-Bayern, jumping kick at Chapuisat) but no card and no ban; too minor for b06"
+   },
+   {
+    "i": 1,
+    "verdict": "wrong",
+    "note": "Same match, 3 Apr 1999 (not 2001): mock bite at Herrlich's neck, no card, no ban; too minor for b06"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Alexia Putellas",
+  "CH": 8.5,
+  "WK": 7.5,
+  "LO": 8.0,
+  "AB": 9.5,
+  "ST": 9.0,
+  "LE": 9.0,
+  "why": "CH stood with teammates after Rubiales, 2023 strike, pioneer; WK leader, star; LO 14 years Barça, captain, left at contract end 2026; AB two Ballons d'Or; ST genius playmaker; LE defining figure of Spain's women's boom",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Darwin Núñez",
+  "CH": 5.0,
+  "WK": 7.0,
+  "LO": 3.5,
+  "AB": 6.5,
+  "ST": 6.5,
+  "LE": 4.0,
+  "why": "CH erratic, 2022 headbutt red, dissent; WK high effort; LO short stays, Saudi move; AB raw, inconsistent striker; ST chaotic, entertaining; LE cult figure, few lasting moments",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "July 2024 Copa semi vs Colombia; climbed into stands saying he was protecting family; CONMEBOL 5-match ban and fine"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "Joined Al-Hilal Aug 2025; loaned to Al-Diriyah 2026-27"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Gabriel Batistuta",
+  "CH": 7.0,
+  "WK": 7.0,
+  "LO": 8.5,
+  "AB": 9.0,
+  "ST": 8.0,
+  "LE": 8.0,
+  "why": "CH humble, respected, emotional towards old club; WK honest worker; LO nine years Fiorentina incl. Serie B, statue; AB elite striker; ST thunderous finishing; LE Batigol icon, Argentina record scorer for years",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "Qatar not Saudi; type other is right"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Jude Bellingham",
+  "CH": 5.5,
+  "WK": 7.5,
+  "LO": 4.5,
+  "AB": 9.0,
+  "ST": 8.0,
+  "LE": 6.5,
+  "why": "CH spoke on online racism, but swagger, dissent, gesture; WK works hard, big ego; LO moved on at 17 and 20; AB world-class midfielder; ST goals, drive, flair; LE Euro 2024 overhead, Birmingham number retired",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "UEFA fine EUR 30,000 and 1-match ban suspended for a year"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "DFB fine EUR 40,000 for Zwayer comments, Dec 2021"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Robert Lewandowski",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 4.0,
+  "AB": 9.5,
+  "ST": 7.0,
+  "LE": 8.5,
+  "why": "CH supported Ukraine, pro conduct; WK professional, not selfless; LO left BVB for Bayern on a free, pushed for Bayern exit 2022; AB one of the best strikers ever; ST complete finisher; LE 5 in 9 minutes, 41-goal record",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Bernardo Silva",
+  "CH": 5.5,
+  "WK": 9.0,
+  "LO": 6.0,
+  "AB": 8.5,
+  "ST": 8.5,
+  "LE": 6.5,
+  "why": "CH humble, but Mendy tweet; WK relentless worker for team; LO nine years City, captain, left 2026; AB elite creative midfielder; ST technical playmaker; LE key part of City's era",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "FA 1-match ban, £50,000 fine, education course; commission found no racist intent (joke between friends); tweet deleted and apologised",
+    "note": "Type other is right; not b01"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Jordan Henderson",
+  "CH": 7.0,
+  "WK": 9.0,
+  "LO": 6.5,
+  "AB": 7.0,
+  "ST": 5.0,
+  "LE": 7.5,
+  "why": "CH PlayersTogether NHS fund, LGBTQ+ allyship, credibility hit by Saudi move; WK anchor-level team player; LO 12 years Liverpool captain, then four clubs in three years; AB good box-to-box; ST functional; LE lifted 2019 UCL and 2020 title",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "Left Brentford and joined Chelsea July 2026"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Francesco Totti",
+  "CH": 6.0,
+  "WK": 6.0,
+  "LO": 10.0,
+  "AB": 9.0,
+  "ST": 9.5,
+  "LE": 9.0,
+  "why": "CH UNICEF ambassador, charity, but temper; WK genius not runner; LO one club 25 years, turned down Real; AB elite No. 10; ST cucchiaio, vision, flair; LE Roma icon, 2006 WC",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "Happened (spat at Poulsen, Euro 2004, 3-match UEFA ban, apologised) but spitting is not an injuring act; too minor for b06"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "Deliberate kick at Balotelli, red card, 4-match Coppa Italia ban; Totti later called it a regret"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Ada Hegerberg",
+  "CH": 8.5,
+  "WK": 7.0,
+  "LO": 8.0,
+  "AB": 9.0,
+  "ST": 6.5,
+  "LE": 8.5,
+  "why": "CH five-year Norway boycott for equal treatment, outspoken; WK good worker, focused scorer; LO 12 years at Lyon; AB elite striker, UWCL record scorer; ST poacher; LE first Ballon d'Or Féminin",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Gianluigi Buffon",
+  "CH": 5.5,
+  "WK": 8.0,
+  "LO": 8.5,
+  "AB": 9.5,
+  "ST": 6.0,
+  "LE": 9.0,
+  "why": "CH gracious with opponents, but 88/Boia chi molla and 2018 referee rant; WK leader, team-first; LO stayed in Serie B, 17 years Juve captain; AB GOAT-level GK; ST keeper; LE 2006 WC, record caps",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "Investigated in 2006 betting probe, cleared of betting on football"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Rose Lavelle",
+  "CH": 7.5,
+  "WK": 6.5,
+  "LO": 5.0,
+  "AB": 8.0,
+  "ST": 9.0,
+  "LE": 6.5,
+  "why": "CH equal-pay plaintiff, humble; WK creative, medium work rate; LO five clubs, now committed to Gotham to 2029; AB elite creator; ST dribbler, line-breaker; LE 2019 WC final goal, Bronze Ball",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Will Johnson",
+  "CH": 6.0,
+  "WK": 8.5,
+  "LO": 5.0,
+  "AB": 5.0,
+  "ST": 5.0,
+  "LE": 4.0,
+  "why": "CH decent pro, no notable causes; WK combative leader; LO journeyman, three years Timbers captain; AB solid MLS midfielder; ST combative; LE 2015 MLS Cup squad",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Deniz Undav",
+  "CH": 6.0,
+  "WK": 7.0,
+  "LO": 5.5,
+  "AB": 7.0,
+  "ST": 7.5,
+  "LE": 4.0,
+  "why": "CH outspoken, cheeky; WK works for team; LO loan then permanent, captain 2026, extended to 2029; AB Germany international forward; ST creative, playful finisher; LE 2025 Pokal",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Lars Ricken",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 9.5,
+  "AB": 6.5,
+  "ST": 6.5,
+  "LE": 6.5,
+  "why": "CH quiet club servant; WK steady; LO Dortmund-born one-club man, now club executive; AB good AM, career cut by injuries; ST attacking midfielder; LE 16-second chip in 1997 UCL final",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Kaká",
+  "CH": 7.0,
+  "WK": 7.5,
+  "LO": 6.0,
+  "AB": 9.5,
+  "ST": 9.0,
+  "LE": 8.5,
+  "why": "CH WFP ambassador, humble; endorsed Bolsonaro 2018; WK selfless runner; LO Milan bond, turned down City then joined Real; AB 2007 Ballon d'Or; ST surging runs; LE last pre-Messi/CR7 Ballon d'Or",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Wayne Rooney",
+  "CH": 5.0,
+  "WK": 8.5,
+  "LO": 6.0,
+  "AB": 9.0,
+  "ST": 8.0,
+  "LE": 8.5,
+  "why": "CH temper, drink-driving, off-field issues; WK famed work rate; LO 13 years United captain, two transfer requests; AB elite forward; ST spectacular goals; LE United and England record scorer",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok",
+    "note": "Red card, 2-match ban; correctly typed other"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Jamie Carragher",
+  "CH": 6.5,
+  "WK": 9.0,
+  "LO": 9.5,
+  "AB": 7.0,
+  "ST": 3.5,
+  "LE": 7.5,
+  "why": "CH 23 Foundation, but 2018 spitting incident; WK relentless organiser; LO one-club 17 years; AB good top-level CB; ST no-frills; LE Istanbul 2005, 737 apps",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Jeremie Frimpong",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 4.5,
+  "AB": 7.5,
+  "ST": 8.0,
+  "LE": 4.5,
+  "why": "CH upbeat, no issues; WK hard-working wing-back; LO four clubs; AB top attacking wing-back; ST pace and attacking runs; LE unbeaten Leverkusen double",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Luís Figo",
+  "CH": 5.5,
+  "WK": 7.0,
+  "LO": 4.0,
+  "AB": 9.5,
+  "ST": 9.0,
+  "LE": 9.0,
+  "why": "CH no causes, cool persona; WK worked for team; LO left Barça captaincy for Real; AB 2000 Ballon d'Or; ST elite dribbler; LE pig's head, transfer of the century",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Marcus Rashford",
+  "CH": 9.5,
+  "WK": 5.5,
+  "LO": 6.0,
+  "AB": 7.5,
+  "ST": 7.5,
+  "LE": 7.5,
+  "why": "CH free school meals campaign, child poverty work; WK inconsistent effort; LO United academy, soured, loans; AB good England forward; ST pace, direct running; LE cultural impact beyond football",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "outcome",
+    "outcome": "Jan 2024 (not 2023); fined about two weeks' wages, dropped vs Newport; took responsibility, club called matter closed",
+    "note": "Year wrong"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Arjen Robben",
+  "CH": 5.0,
+  "WK": 5.5,
+  "LO": 6.0,
+  "AB": 9.0,
+  "ST": 9.0,
+  "LE": 8.0,
+  "why": "CH diving reputation, admitted a 2014 dive; WK selfish reputation; LO ten years Bayern, returned to Groningen; AB elite winger; ST cut inside and shoot; LE 2013 UCL winner",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok",
+    "note": "Admitted and apologised for a dive vs Mexico, 2014 WC"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Christian Günter",
+  "CH": 6.5,
+  "WK": 8.5,
+  "LO": 9.5,
+  "AB": 6.0,
+  "ST": 5.5,
+  "LE": 4.5,
+  "why": "CH quiet pro; WK reliable; LO Freiburg academy, one-club captain, stayed through 2015 relegation; AB solid Bundesliga LB; ST crosser; LE Freiburg appearance record",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Marco Friedl",
+  "CH": 6.5,
+  "WK": 8.0,
+  "LO": 8.5,
+  "AB": 5.5,
+  "ST": 4.0,
+  "LE": 3.5,
+  "why": "CH no issues; WK leads by example; LO stayed through relegation, captain five seasons; AB solid Bundesliga defender; ST no-frills; LE 2022 promotion captain",
+  "incidents": [],
+  "missing": []
+ }
+]

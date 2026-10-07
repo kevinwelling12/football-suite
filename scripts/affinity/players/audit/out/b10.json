@@ -1,0 +1,529 @@
+[
+ {
+  "name": "Pedri",
+  "CH": 6.5,
+  "WK": 7.5,
+  "LO": 7.0,
+  "AB": 8.5,
+  "ST": 9.0,
+  "LE": 6.5,
+  "why": "CH humble, no causes or issues; WK presses and recycles, no ego; LO six years at Barça, renewed to 2030, not academy; AB elite playmaker; ST press-resistant creator; LE Euro 2024 and World Cup 2026 winner, Golden Boy, still young",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Sophia Wilson",
+  "CH": 6.5,
+  "WK": 6.5,
+  "LO": 8.0,
+  "AB": 8.0,
+  "ST": 8.0,
+  "LE": 6.5,
+  "why": "CH no issues, some voice for Black players; WK direct forward, moderate defensive work; LO one club (Thorns since 2020), stayed through maternity; AB 2022 NWSL MVP; ST pace and 1v1 dribbling; LE 2022 title MVP, 2024 Olympic gold",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Jürgen Kohler",
+  "CH": 6.0,
+  "WK": 8.5,
+  "LO": 4.5,
+  "AB": 8.0,
+  "ST": 4.5,
+  "LE": 6.5,
+  "why": "CH decent pro, no causes; WK tireless man-marker; LO five clubs, 7 years BVB; AB world-class stopper; ST no-frills defender; LE World Cup 1990, Euro 1996, UCL 1997",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Mia Hamm",
+  "CH": 8.5,
+  "WK": 8.5,
+  "LO": 6.0,
+  "AB": 9.5,
+  "ST": 8.0,
+  "LE": 9.5,
+  "why": "CH foundation for bone-marrow causes, humble, pay fight; WK credited teammates, two-way; LO 17 years USWNT, founding WUSA player, little club career; AB two-time World Player of the Year; ST pace and finishing; LE face of the 99ers, grew the women's game",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Tim Weah",
+  "CH": 5.5,
+  "WK": 7.5,
+  "LO": 3.5,
+  "AB": 6.0,
+  "ST": 6.0,
+  "LE": 4.0,
+  "why": "CH quiet, Copa 2024 punch red card (apologised); WK hard-running wide player; LO five clubs by 26; AB solid top-flight regular; ST pace, direct; LE World Cup goal vs Wales",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Aritz Aduriz",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 8.5,
+  "AB": 7.0,
+  "ST": 7.0,
+  "LE": 6.5,
+  "why": "CH humble, respected; WK selfless target man; LO three Athletic spells, Basque, club icon; AB prolific late bloomer; ST acrobatic volleys; LE Supercopa hat-trick vs Barça, scoring into late 30s",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Danny Vitiello",
+  "CH": 6.0,
+  "WK": 7.0,
+  "LO": 7.5,
+  "AB": 4.5,
+  "ST": 4.5,
+  "LE": 4.0,
+  "why": "CH no issues; WK steady keeper; LO five seasons at Republic, extension 2025, club clean-sheet records; AB USL Championship GK of the Year 2023; ST shot-stopper; LE 2022 Open Cup run and shootout saves",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Kevin De Bruyne",
+  "CH": 6.0,
+  "WK": 7.5,
+  "LO": 6.0,
+  "AB": 9.0,
+  "ST": 9.0,
+  "LE": 8.0,
+  "why": "CH quiet, blunt, no causes; WK works hard but individual star; LO ten years City, captain, nomadic early career; AB among best PL midfielders ever; ST passing and long shots; LE treble 2023, assists record. FIX: Napoli won Serie A 2025 before he joined",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Paolo Di Canio",
+  "CH": 2.5,
+  "WK": 5.5,
+  "LO": 4.0,
+  "AB": 7.0,
+  "ST": 8.5,
+  "LE": 6.0,
+  "why": "CH fascist salutes and tattoo, referee push, but Fair Play award 2001; WK volatile, individualist; LO nine clubs, Lazio/West Ham bond; AB gifted, never capped; ST scissor-kick flair; LE Wimbledon volley and the Everton catch",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b06",
+    "note": "pushed referee Paul Alcock over in 1998, 11-match ban and fine: physical assault on a referee with a long ban"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Curtis Jones",
+  "CH": 6.0,
+  "WK": 7.0,
+  "LO": 7.0,
+  "AB": 6.5,
+  "ST": 7.0,
+  "LE": 4.0,
+  "why": "CH no issues; WK diligent squad player; LO local academy, 17 years at Liverpool, asked to leave 2026; AB good PL midfielder; ST press-resistant carrier; LE derby winner 2020 FA Cup, two PL titles",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Patrick Berg",
+  "CH": 6.5,
+  "WK": 8.5,
+  "LO": 9.0,
+  "AB": 6.5,
+  "ST": 6.0,
+  "LE": 5.5,
+  "why": "CH no issues; WK engine and leader; LO third-generation Glimt, captain since 2020, came back after half a season at Lens; AB good Norway international; ST tidy deep playmaker; LE captain of Glimt's European rise, UCL last 16 2026",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Alexis Mac Allister",
+  "CH": 6.5,
+  "WK": 8.5,
+  "LO": 5.5,
+  "AB": 8.0,
+  "ST": 7.0,
+  "LE": 6.5,
+  "why": "CH no issues; WK runner, humble; LO three clubs, Liverpool since 2023; AB World Cup and PL starter; ST neat passer; LE World Cup 2022 winner",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Carli Lloyd",
+  "CH": 5.5,
+  "WK": 6.0,
+  "LO": 4.0,
+  "AB": 9.0,
+  "ST": 8.0,
+  "LE": 9.0,
+  "why": "CH equal-pay plaintiff but feuds and public criticism of teammates; WK self-styled individualist; LO six clubs, short spells; AB two-time World Player of the Year; ST halfway-line goal, big-game scorer; LE 2015 final hat-trick",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Lena Oberdorf",
+  "CH": 6.0,
+  "WK": 9.0,
+  "LO": 4.5,
+  "AB": 8.0,
+  "ST": 5.5,
+  "LE": 5.0,
+  "why": "CH no issues; WK destroyer, covers ground; LO left Wolfsburg for title rival Bayern 2024; AB world-class DM when fit; ST physical, not flair; LE Euro 2022 Young Player",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Joaquín",
+  "CH": 7.5,
+  "WK": 6.5,
+  "LO": 8.5,
+  "AB": 7.0,
+  "ST": 8.5,
+  "LE": 6.5,
+  "why": "CH joker, warm, widely loved; WK winger, moderate tracking; LO boyhood Betis, returned 2015 and captained to 2023; AB fine Spain winger; ST dribbler, entertainer; LE Copa del Rey 2022 at 40, Betis icon",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Samuel Eto'o",
+  "CH": 4.0,
+  "WK": 7.5,
+  "LO": 3.0,
+  "AB": 9.0,
+  "ST": 7.5,
+  "LE": 8.5,
+  "why": "CH anti-racism stance, combative, FECAFOOT controversies; WK ran wide for Mourinho in 2010; LO nine clubs; AB elite striker, 4x African POTY; ST pace and finishing; LE two trebles, scored in two UCL finals",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "outcome",
+    "outcome": "CAF fined him $200k in 2024 for the 1xBet ambassador deal (match-fixing charge not proven); CAS in March 2025 overturned only his exclusion from CAF ExCo elections",
+    "note": "not a ban that was overturned"
+   },
+   {
+    "i": 3,
+    "verdict": "ok"
+   },
+   {
+    "i": 4,
+    "verdict": "ok"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b04",
+    "year": 2023,
+    "what": "Leaked voice notes allegedly about fixing Cameroon lower-league matches (Victoria United); CAF investigation",
+    "outcome": "CAF found insufficient proof of match manipulation (2024); fined $200k for betting ambassador deal; further Cameroonian complaints 2025",
+    "source": "https://africanews.com/2024/06/27/samuel-etoo-questioned-by-caf-over-match-fixing"
+   }
+  ]
+ },
+ {
+  "name": "Leah Williamson",
+  "CH": 9.0,
+  "WK": 8.0,
+  "LO": 9.5,
+  "AB": 7.5,
+  "ST": 6.5,
+  "LE": 7.5,
+  "why": "CH white-shorts and endometriosis advocacy, inclusion; WK leads by example; LO Arsenal academy, one club, captain; AB high-class ball-playing CB; ST composed passer; LE lifted Euro 2022 at Wembley as captain",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Unai Simón",
+  "CH": 6.5,
+  "WK": 7.0,
+  "LO": 8.5,
+  "AB": 7.5,
+  "ST": 4.5,
+  "LE": 6.5,
+  "why": "CH no issues; WK steady; LO Athletic academy, one club; AB Spain No. 1; ST sweeper keeper; LE Euro 2024, 2023 Nations League shootout",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Karl-Heinz Rummenigge",
+  "CH": 4.5,
+  "WK": 6.0,
+  "LO": 6.0,
+  "AB": 9.0,
+  "ST": 8.0,
+  "LE": 8.0,
+  "why": "CH executive with Qatar ties and blunt feuds; WK forward, moderate work; LO ten years at Bayern as player, later CEO; AB two Ballon d'Or; ST pace and dribbling; LE two European Cups, Bayern figurehead",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "retype",
+    "type": "b05",
+    "note": "accepted a penalty order (Strafbefehl) for tax evasion, ~EUR 250k, for undeclared Rolex watches from Qatar; a criminal record for tax evasion"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Roberto Firmino",
+  "CH": 7.5,
+  "WK": 9.5,
+  "LO": 7.0,
+  "AB": 8.0,
+  "ST": 8.5,
+  "LE": 7.0,
+  "why": "CH humble, cheerful, faith; WK led Klopp's press; LO eight years at Liverpool, huge bond; AB elite false nine; ST no-look goals, flicks; LE Club World Cup winner, front-three legend",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Sebastian Kehl",
+  "CH": 6.5,
+  "WK": 8.5,
+  "LO": 8.5,
+  "AB": 6.5,
+  "ST": 4.5,
+  "LE": 5.5,
+  "why": "CH steady, but took Bayern's advance in 2001; WK holding-midfield workhorse; LO 13 years BVB, captain through the crisis and injuries, later director; AB good Germany international; ST no-frills; LE captain of Klopp's title teams",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Felipe Mora",
+  "CH": 6.0,
+  "WK": 8.0,
+  "LO": 6.5,
+  "AB": 5.0,
+  "ST": 5.5,
+  "LE": 4.5,
+  "why": "CH no issues; WK hard-working striker; LO six seasons at Timbers; AB MLS regular; ST poacher; LE 2021 MLS Cup final equaliser",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Lauren James",
+  "CH": 5.0,
+  "WK": 5.0,
+  "LO": 4.0,
+  "AB": 8.0,
+  "ST": 9.0,
+  "LE": 5.0,
+  "why": "CH stamp on Alozie 2023 (apologised), spoke on online racism; WK flair player, low tracking; LO left Arsenal academy, then United to Chelsea; AB top-class creator; ST genius dribbler; LE Euro 2025 winner, 2023 WC breakout",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "one red card for a stamp, 2-match ban (lower end), no injury; too minor for b06; apologised"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Sergiño Dest",
+  "CH": 5.5,
+  "WK": 5.5,
+  "LO": 3.5,
+  "AB": 6.5,
+  "ST": 7.5,
+  "LE": 3.5,
+  "why": "CH no issues; WK attacking full-back, defensive lapses; LO four clubs, chose USA over Netherlands; AB solid regular; ST dribbling full-back; LE little yet",
+  "incidents": [],
+  "missing": []
+ },
+ {
+  "name": "Diego Maradona",
+  "CH": 3.5,
+  "WK": 5.0,
+  "LO": 8.0,
+  "AB": 10.0,
+  "ST": 10.0,
+  "LE": 10.0,
+  "why": "CH chaotic, feuds, autocrat friendships, champion of the poor; WK genius, not a runner; LO near-religious Napoli bond, Boca, but many clubs; AB anchor 10; ST dribbling genius; LE anchor 10",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   },
+   {
+    "i": 2,
+    "verdict": "ok"
+   },
+   {
+    "i": 3,
+    "verdict": "ok"
+   },
+   {
+    "i": 4,
+    "verdict": "ok"
+   },
+   {
+    "i": 5,
+    "verdict": "ok"
+   },
+   {
+    "i": 6,
+    "verdict": "ok"
+   }
+  ],
+  "missing": [
+   {
+    "type": "b12",
+    "year": 2012,
+    "what": "Honorary sports ambassador for the Dubai Sports Council (UAE government body), renewed for several years",
+    "outcome": "paid role, 2012-2016 approx.",
+    "source": "https://gulfnews.com/sport/football/maradona-to-be-retained-as-dubai-sports-council-ambassador-1.1206739"
+   },
+   {
+    "type": "b03",
+    "year": 1997,
+    "what": "Third positive test for cocaine after Boca v Argentinos Juniors, August 1997",
+    "outcome": "suspension lifted by a judge pending tampering claim; retired October 1997",
+    "source": "https://www.deseret.com/1997/10/30/19342611/maradona-done-playing-soccer/"
+   }
+  ]
+ },
+ {
+  "name": "Philippe Coutinho",
+  "CH": 6.0,
+  "WK": 5.5,
+  "LO": 3.0,
+  "AB": 7.5,
+  "ST": 9.0,
+  "LE": 5.5,
+  "why": "CH quiet, open about mental health; WK low defensive output; LO Barcelona saga, ten clubs; AB peak at Liverpool; ST long-range curlers, creator; LE Little Magician, UCL 2020 vs Barça",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   },
+   {
+    "i": 1,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Frank Rijkaard",
+  "CH": 6.0,
+  "WK": 8.5,
+  "LO": 6.0,
+  "AB": 9.0,
+  "ST": 7.0,
+  "LE": 8.5,
+  "why": "CH calm, but spat at Völler 1990 (later reconciled); WK selfless holding player; LO Ajax academy and return, left 1987 after Cruyff row; AB world-class all-rounder; ST elegant ball-player; LE Milan trio, 3 European Cups, coached Barça to 2006 UCL",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "wrong",
+    "note": "spitting at Völler: red card only, no long ban, no injury; too minor for b06; apologised and reconciled"
+   },
+   {
+    "i": 1,
+    "verdict": "retype",
+    "type": "b10",
+    "note": "was Saudi national team head coach 2011-13 (paid job in Saudi football), not an ambassadorship"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Harry Kane",
+  "CH": 7.0,
+  "WK": 8.0,
+  "LO": 7.0,
+  "AB": 9.0,
+  "ST": 7.5,
+  "LE": 8.0,
+  "why": "CH foundation, OneLove plan, low-key, but 2021 preseason no-show; WK drops deep, team-first; LO 14 years Spurs academy, captain, left 2023; AB elite complete forward; ST deep playmaking, finishing; LE England record scorer, trophies at Bayern",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Iker Casillas",
+  "CH": 7.0,
+  "WK": 7.0,
+  "LO": 8.5,
+  "AB": 9.0,
+  "ST": 5.5,
+  "LE": 9.0,
+  "why": "CH humble, peacemaker with Barça players 2012, 2022 tweet apologised; WK steady leader; LO 16 years Real academy, captain, sour exit; AB all-time great keeper; ST reflex saves; LE captain of 2010 World Cup, Robben save",
+  "incidents": [
+   {
+    "i": 0,
+    "verdict": "ok"
+   }
+  ],
+  "missing": []
+ },
+ {
+  "name": "Christine Sinclair",
+  "CH": 9.0,
+  "WK": 9.0,
+  "LO": 9.5,
+  "AB": 9.0,
+  "ST": 7.0,
+  "LE": 9.0,
+  "why": "CH equal-pay fight, NWSL accountability, humble; WK relentless two-way leader; LO anchor 9.5: Thorns 2013-24 captain, Canada; AB anchor 9; ST complete striker more than flair; LE all-time international top scorer, Olympic gold 2021",
+  "incidents": [],
+  "missing": []
+ }
+]

@@ -344,6 +344,30 @@
    "nw": null
   },
   {
+   "n": "Conor Bradley",
+   "a": 80.9,
+   "f": [
+    7.37,
+    8.0,
+    7.0,
+    6.5,
+    7.0,
+    3.5
+   ],
+   "c": 2.8,
+   "ps": 8.2,
+   "p": -0.0,
+   "nat": "Northern Ireland",
+   "pos": "RB",
+   "clubs": [
+    "Liverpool",
+    "Bolton Wanderers (loan)"
+   ],
+   "why": "CH humble, children's hospital visits, dignified after father's death; WK energetic, aggressive; LO Liverpool academy at 16, new long deal 2025, NI captain; AB PL title squad right-back; ST attacking full-back; LE Chelsea 4-1 breakout, NI captain",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Shinji Kagawa",
    "a": 80.8,
    "f": [
@@ -491,6 +515,31 @@
     "Liverpool"
    ],
    "why": "CH respected captain, no issues of note; WK 8; LO eight years, captain, renewed 2025; forced Southampton exit; AB 9; ST ball-playing CB, long passing; LE transformed Liverpool, 2019 Ballon d'Or runner-up",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Kostas Tsimikas",
+   "a": 79.2,
+   "f": [
+    6.5,
+    8.0,
+    6.5,
+    6.0,
+    7.0,
+    4.5
+   ],
+   "c": 3.4,
+   "ps": 8.2,
+   "p": -0.0,
+   "nat": "Greece",
+   "pos": "LB",
+   "clubs": [
+    "Olympiacos",
+    "Liverpool",
+    "Roma (loan)"
+   ],
+   "why": "CH warm, no issues, no causes on record; WK accepted backup role for years; LO six years at Liverpool from 24, loaned out once; AB solid backup left-back; ST attacking crosser; LE 2022 FA Cup winning penalty",
    "pen": [],
    "nw": null
   },
@@ -701,6 +750,33 @@
    "nw": null
   },
   {
+   "n": "Wataru Endo",
+   "a": 76.3,
+   "f": [
+    8.18,
+    9.0,
+    6.5,
+    6.5,
+    5.0,
+    5.5
+   ],
+   "c": 3.5,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Japan",
+   "pos": "DM/CB",
+   "clubs": [
+    "Shonan Bellmare",
+    "Urawa Red Diamonds",
+    "Sint-Truiden",
+    "VfB Stuttgart",
+    "Liverpool"
+   ],
+   "why": "CH model pro, humble, founded children's study-abroad project; WK duel-winner, accepted bit-part role; LO steady progression moves after 23, Stuttgart and Japan captain; AB elite ball-winner at peak; ST no-frills; LE Stuttgart survival winner, Japan captain, PL title",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Alisson Becker",
    "a": 76.1,
    "f": [
@@ -748,6 +824,32 @@
     "Liverpool"
    ],
    "why": "CH no causes or issues of note; WK high; LO Red Bull system, Liverpool 2023; AB good midfielder; ST shooting, energy; LE limited",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Ronald Araújo",
+   "a": 75.9,
+   "f": [
+    7.54,
+    8.0,
+    7.0,
+    7.5,
+    4.5,
+    5.0
+   ],
+   "c": 3.3,
+   "ps": 4.1,
+   "p": -0.0,
+   "nat": "Uruguay",
+   "pos": "CB/RB",
+   "clubs": [
+    "Rentistas",
+    "Boston River",
+    "Barcelona",
+    "Liverpool (loan)"
+   ],
+   "why": "CH humble, open about mental health (Copa 2024 brawl applied separately); WK committed leader; LO Barcelona 2018-26 from 19, became captain, loaned out after losing place; AB top-class defender at peak; ST physical CB; LE Barça captain, Clásico goal",
    "pen": [],
    "nw": null
   },
@@ -1783,106 +1885,6 @@
     "Sacramento Republic FC"
    ],
    "why": "CH thin record, baseline; WK unknown; LO tenure unknown; AB USL full-back; ST attacking full-back; LE none yet",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "David Da Costa",
-   "a": 65.1,
-   "f": [
-    6.0,
-    5.75,
-    5.0,
-    5.5,
-    7.25,
-    2.75
-   ],
-   "c": 1.0,
-   "ps": 8.2,
-   "p": -0.0,
-   "nat": "Portugal",
-   "pos": "AM",
-   "clubs": [
-    "RC Lens",
-    "Portland Timbers"
-   ],
-   "why": "CH thin record, baseline; WK medium; LO Lens academy, now Portland; AB MLS DP level; ST creative No. 10; LE little",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Chris Richards",
-   "a": 65.1,
-   "f": [
-    6.5,
-    7.25,
-    5.5,
-    6.25,
-    4.75,
-    4.25
-   ],
-   "c": 4.7,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "USA",
-   "pos": "CB",
-   "clubs": [
-    "FC Dallas",
-    "Bayern Munich",
-    "Hoffenheim (loan)",
-    "Crystal Palace"
-   ],
-   "why": "CH humble, no issues; WK high; LO Palace since 2022; AB solid PL CB; ST ball-playing but plain; LE 2025 FA Cup with Palace",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Ryan Gravenberch",
-   "a": 65.1,
-   "f": [
-    6.0,
-    7.5,
-    5.5,
-    7.25,
-    7.0,
-    3.5
-   ],
-   "c": 2.2,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Netherlands",
-   "pos": "CM",
-   "clubs": [
-    "Ajax",
-    "Bayern Munich",
-    "Liverpool"
-   ],
-   "why": "CH no causes or issues of note; WK high; LO three clubs; AB good midfielder; ST press-resistant carrier; LE limited",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Gregor Kobel",
-   "a": 65.0,
-   "f": [
-    6.0,
-    6.75,
-    7.0,
-    7.5,
-    5.0,
-    4.75
-   ],
-   "c": 3.3,
-   "ps": 0.0,
-   "p": -0.0,
-   "nat": "Switzerland",
-   "pos": "GK",
-   "clubs": [
-    "Hoffenheim",
-    "VfB Stuttgart",
-    "Borussia Dortmund"
-   ],
-   "why": "CH no causes or issues on record; WK reliable; LO 5 years BVB, vice-captain; AB one of Europe's better keepers; ST goalkeeper; LE 2024 UCL final run",
    "pen": [],
    "nw": null
   }
@@ -3007,6 +3009,30 @@
    "nw": null
   },
   {
+   "n": "Conor Bradley",
+   "a": 80.9,
+   "f": [
+    7.37,
+    8.0,
+    7.0,
+    6.5,
+    7.0,
+    3.5
+   ],
+   "c": 2.8,
+   "ps": 8.2,
+   "p": -0.0,
+   "nat": "Northern Ireland",
+   "pos": "RB",
+   "clubs": [
+    "Liverpool",
+    "Bolton Wanderers (loan)"
+   ],
+   "why": "CH humble, children's hospital visits, dignified after father's death; WK energetic, aggressive; LO Liverpool academy at 16, new long deal 2025, NI captain; AB PL title squad right-back; ST attacking full-back; LE Chelsea 4-1 breakout, NI captain",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "John Barnes",
    "a": 80.8,
    "f": [
@@ -3282,6 +3308,31 @@
     "Liverpool"
    ],
    "why": "CH respected captain, no issues of note; WK 8; LO eight years, captain, renewed 2025; forced Southampton exit; AB 9; ST ball-playing CB, long passing; LE transformed Liverpool, 2019 Ballon d'Or runner-up",
+   "pen": [],
+   "nw": null
+  },
+  {
+   "n": "Kostas Tsimikas",
+   "a": 79.2,
+   "f": [
+    6.5,
+    8.0,
+    6.5,
+    6.0,
+    7.0,
+    4.5
+   ],
+   "c": 3.4,
+   "ps": 8.2,
+   "p": -0.0,
+   "nat": "Greece",
+   "pos": "LB",
+   "clubs": [
+    "Olympiacos",
+    "Liverpool",
+    "Roma (loan)"
+   ],
+   "why": "CH warm, no issues, no causes on record; WK accepted backup role for years; LO six years at Liverpool from 24, loaned out once; AB solid backup left-back; ST attacking crosser; LE 2022 FA Cup winning penalty",
    "pen": [],
    "nw": null
   },
@@ -3683,6 +3734,33 @@
    "nw": null
   },
   {
+   "n": "Wataru Endo",
+   "a": 76.3,
+   "f": [
+    8.18,
+    9.0,
+    6.5,
+    6.5,
+    5.0,
+    5.5
+   ],
+   "c": 3.5,
+   "ps": 0.0,
+   "p": -0.0,
+   "nat": "Japan",
+   "pos": "DM/CB",
+   "clubs": [
+    "Shonan Bellmare",
+    "Urawa Red Diamonds",
+    "Sint-Truiden",
+    "VfB Stuttgart",
+    "Liverpool"
+   ],
+   "why": "CH model pro, humble, founded children's study-abroad project; WK duel-winner, accepted bit-part role; LO steady progression moves after 23, Stuttgart and Japan captain; AB elite ball-winner at peak; ST no-frills; LE Stuttgart survival winner, Japan captain, PL title",
+   "pen": [],
+   "nw": null
+  },
+  {
    "n": "Alisson Becker",
    "a": 76.1,
    "f": [
@@ -3704,86 +3782,6 @@
     "Liverpool"
    ],
    "why": "CH humble, no issues of note; WK reliable; LO eight years, stayed 2026; AB elite GK; ST distribution; LE 2021 header after father's death",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Dominik Szoboszlai",
-   "a": 76.0,
-   "f": [
-    6.0,
-    8.25,
-    5.75,
-    7.25,
-    7.25,
-    4.5
-   ],
-   "c": 1.0,
-   "ps": 8.2,
-   "p": -0.0,
-   "nat": "Hungary",
-   "pos": "AM/CM",
-   "clubs": [
-    "Liefering",
-    "Red Bull Salzburg",
-    "RB Leipzig",
-    "Liverpool"
-   ],
-   "why": "CH no causes or issues of note; WK high; LO Red Bull system, Liverpool 2023; AB good midfielder; ST shooting, energy; LE limited",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Clint Dempsey",
-   "a": 75.6,
-   "f": [
-    4.65,
-    7.25,
-    5.0,
-    7.25,
-    7.75,
-    7.0
-   ],
-   "c": 4.7,
-   "ps": 8.2,
-   "p": -0.0,
-   "nat": "USA",
-   "pos": "AM/ST",
-   "clubs": [
-    "New England Revolution",
-    "Fulham",
-    "Tottenham Hotspur",
-    "Seattle Sounders"
-   ],
-   "why": "CH 5.5 combative, ripped referee's notebook; WK 7; LO 5 six Sounders years; AB 7 PL-level goalscorer; ST 7.5 street-ball creativity; LE 6.5 Ghana goal, Fulham vs Juventus",
-   "pen": [],
-   "nw": null
-  },
-  {
-   "n": "Kevin De Bruyne",
-   "a": 75.4,
-   "f": [
-    4.33,
-    7.25,
-    7.25,
-    9.0,
-    9.0,
-    7.75
-   ],
-   "c": -2.0,
-   "ps": 8.2,
-   "p": -0.0,
-   "nat": "Belgium",
-   "pos": "AM/CM",
-   "clubs": [
-    "Genk",
-    "Chelsea",
-    "Werder Bremen",
-    "VfL Wolfsburg",
-    "Manchester City",
-    "Napoli"
-   ],
-   "why": "CH decent pro, blunt, no causes or issues of note; WK high work rate; LO ten years at City as captain, released 2025; AB peak elite creator; ST elite passer and crosser; LE treble 2023, assist record. FIX: Napoli's Serie A 2025 title came before he joined (summer 2025)",
    "pen": [],
    "nw": null
   }

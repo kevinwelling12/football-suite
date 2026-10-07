@@ -1,0 +1,1462 @@
+[
+ {
+  "name": "Giorgi Mamardashvili",
+  "full_name": "Giorgi Mamardashvili",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Georgia",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Dinamo Tbilisi",
+    "from": 2018,
+    "to": 2021,
+    "apps": 0,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Rustavi (loan)",
+    "from": 2019,
+    "to": 2019,
+    "apps": 28,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Locomotive Tbilisi (loan)",
+    "from": 2020,
+    "to": 2021,
+    "apps": 29,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Valencia",
+    "from": 2021,
+    "to": 2025,
+    "apps": 127,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": 10,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Valencia",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Georgia",
+   "caps": 42,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "none major",
+  "awards": "7th in 2024 Yashin Trophy (best goalkeeper); Valencia fans' player of the year 2023",
+  "moments": [
+   "2024: saved the first kick as Georgia beat Greece on penalties to reach their first major tournament (Euro 2024)",
+   "Euro 2024: most saves of the group stage, clean sheet in 2-0 win over Portugal"
+  ],
+  "style": [
+   "shot-stopper",
+   "tall sweeper-keeper"
+  ],
+  "work_rate": "medium: goalkeeper, reliable trainer",
+  "ego": "neutral: has said he wants to compete with Alisson for No. 1",
+  "fan_bond": "popular at Valencia (fans' player of the year 2023); national hero in Georgia after Euro 2024; limited bond yet at Liverpool as backup",
+  "loyalty_notes": "Agreed Liverpool move Aug 2024, stayed on loan at Valencia 2024-25; backup to Alisson since 2025; considered a loan for 2026-27 (Nottingham Forest interest) but stayed",
+  "causes": [
+   "April 2024: with Kvaratskhelia posted support for Georgia's pro-EU protests against the 'foreign influence' bill ('Georgia's path is to Europe')"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Giorgi_Mamardashvili",
+   "https://www.ilpost.it/2024/04/17/georgia-calciatori-unione-europea-protesta/",
+   "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/09/liverpool-transfer-newslucca-brughmans-giorgi-mamardashvilis"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Freddie Woodman",
+  "full_name": "Frederick John Woodman",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "England",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Newcastle United",
+    "from": 2014,
+    "to": 2022,
+    "apps": 4,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Swansea City (loan)",
+    "from": 2019,
+    "to": 2021,
+    "apps": 88,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Preston North End",
+    "from": 2022,
+    "to": 2025,
+    "apps": 127,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Newcastle United",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "FIFA U-20 World Cup 2017, UEFA U-17 Euro 2014 (England youth)",
+  "awards": "U-20 World Cup Golden Glove 2017; Championship Golden Glove 2020-21; Preston Player of the Year 2022-23",
+  "moments": [
+   "2017: Golden Glove as England won the U-20 World Cup"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium: third-choice goalkeeper",
+  "ego": "neutral: little public profile",
+  "fan_bond": "Preston Player of the Year 2022-23; third-choice at Liverpool, no notable bond",
+  "loyalty_notes": "Newcastle academy/first-team books 2013-22 with six loans; Preston 2022-25; joined Liverpool on a free 2025 as third keeper, new contract July 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2021,
+    "what": "on Newcastle United's books when the PIF-led takeover completed (Oct 2021) until leaving in 2022; loaned to Bournemouth Jan 2022",
+    "type": "b11"
+   }
+  ],
+  "links": "Liverpool 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Freddie_Woodman",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Liverpool_F.C._season"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Vítězslav Jaroš",
+  "full_name": "Vítězslav Jaroš",
+  "gender": "M",
+  "active": true,
+  "born": 2001,
+  "nation": "Czech Republic",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 2020,
+    "to": null,
+    "apps": 1,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "St Patrick's Athletic (loan)",
+    "from": 2021,
+    "to": 2021,
+    "apps": 34,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Notts County (loan)",
+    "from": 2022,
+    "to": 2022,
+    "apps": 15,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Stockport County (loan)",
+    "from": 2022,
+    "to": 2023,
+    "apps": 11,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sturm Graz (loan)",
+    "from": 2024,
+    "to": 2024,
+    "apps": 14,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ajax (loan)",
+    "from": 2025,
+    "to": 2026,
+    "apps": 19,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Czech Republic",
+   "caps": 2,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "none major",
+  "awards": "St Patrick's Athletic Player of the Year 2021",
+  "moments": [
+   "2025-26: six Champions League starts on loan at Ajax before a knee injury"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium: goalkeeper",
+  "ego": "neutral: little public profile",
+  "fan_bond": "no notable bond yet; backup keeper",
+  "loyalty_notes": "Joined Liverpool academy from Slavia Prague at 16 (2017); signed new deal 2025 then loaned to Ajax, loan ended early by knee surgery (Feb 2026)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2017-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/V%C3%ADt%C4%9Bzslav_Jaro%C5%A1",
+   "https://www.liverpoolfc.com/news/vitezslav-jaros-signs-new-lfc-deal-and-joins-ajax-season-long-loan"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Harvey Davies",
+  "full_name": "Harvey Peter Davies",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "England",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 2020,
+    "to": null,
+    "apps": 0,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Crewe Alexandra (loan)",
+    "from": 2023,
+    "to": 2024,
+    "apps": 27,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Crawley Town (loan)",
+    "from": 2025,
+    "to": 2026,
+    "apps": 17,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 15,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "none",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "goalkeeper"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral: little public profile",
+  "fan_bond": "Liverpool-born academy keeper since age 8; no first-team appearances",
+  "loyalty_notes": "At Liverpool since 2011 (age 8); only loans away",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool academy 2011-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Harvey_Davies",
+   "https://en.wikipedia.org/wiki/2026%E2%80%9327_Liverpool_F.C._season"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jérémy Jacquet",
+  "full_name": "Jérémy Jacquet",
+  "gender": "M",
+  "active": true,
+  "born": 2005,
+  "nation": "France",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Rennes",
+    "from": 2022,
+    "to": 2026,
+    "apps": 31,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Clermont (loan)",
+    "from": 2024,
+    "to": 2025,
+    "apps": 23,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2026,
+    "to": null,
+    "apps": 5,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Rennes",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France",
+   "caps": 2,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "none",
+  "awards": "UEFA U-19 Euro Team of the Tournament 2024",
+  "moments": [
+   "2026: France senior debut"
+  ],
+  "style": [
+   "ball-playing centre-back",
+   "athletic defender"
+  ],
+  "work_rate": "medium: young starter",
+  "ego": "neutral: little public profile",
+  "fan_bond": "new arrival; no notable bond yet",
+  "loyalty_notes": "Rennes academy from 2019; extended to 2029 in May 2025, then sold to Liverpool (agreed Feb 2026, joined July) for £55m plus £5m add-ons",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/J%C3%A9r%C3%A9my_Jacquet",
+   "https://www.skysports.com/football/news/11669/13502234/jeremy-jacquet-transfer-news-liverpool-sign-rennes-defender-in-60m-deal-with-20-year-old-moving-to-anfield-this-summer"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Conor Bradley",
+  "full_name": "Conor Bradley",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "Northern Ireland",
+  "positions": [
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Dungannon Swifts (youth)",
+    "from": 2016,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Liverpool",
+    "from": 2021,
+    "to": null,
+    "apps": 45,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bolton Wanderers (loan)",
+    "from": 2022,
+    "to": 2023,
+    "apps": 41,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "Northern Ireland captain (first captained 2024); captained NI U16 to the Victory Shield",
+  "national": {
+   "team": "Northern Ireland",
+   "caps": 30,
+   "goals": 4,
+   "captain": true
+  },
+  "honours": "1 PL (2025), 2 League Cups (2022, 2024); EFL Trophy 2023 (Bolton)",
+  "awards": "Bolton Player of the Year 2022-23; PFA Fans' Player of the Month Jan 2024",
+  "moments": [
+   "31 Jan 2024: goal and two assists in 4-1 win over Chelsea",
+   "Feb 2024: started the League Cup final win days after his father's death"
+  ],
+  "style": [
+   "attacking right-back",
+   "overlapping runner"
+  ],
+  "work_rate": "high: energetic, aggressive full-back",
+  "ego": "humble: low-key, close to home community in Co. Tyrone",
+  "fan_bond": "Kop favourite since his 2024 breakthrough; hero in Tyrone (local kids wear 'Bradley' shirts)",
+  "loyalty_notes": "Liverpool academy from 2019 (age 16); signed new long-term deal May 2025; knee injury Jan 2026 ended his 2025-26 season",
+  "causes": [
+   "visits to the Royal Belfast Hospital for Sick Children (Irish News)"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2019-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Conor_Bradley",
+   "https://irishnews.com/sport/soccer/conor-bradley-a-welcome-visitor-at-the-royal-belfast-hospital-for-sick-children-ONNZQO67INDSFE6IJFNALT4XJU",
+   "https://ianslive.in/liverpools-defender-conor-bradley-out-of-the-season-with-knee-injury--20260111182531"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Giovanni Leoni",
+  "full_name": "Giovanni Leoni",
+  "gender": "M",
+  "active": true,
+  "born": 2006,
+  "nation": "Italy",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Padova",
+    "from": 2023,
+    "to": 2024,
+    "apps": 1,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Sampdoria",
+    "from": 2024,
+    "to": 2024,
+    "apps": 12,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Parma",
+    "from": 2024,
+    "to": 2025,
+    "apps": 17,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2025,
+    "to": null,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 1,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Italy",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "none",
+  "awards": "",
+  "moments": [
+   "Sep 2025: tore his ACL on his Liverpool debut (League Cup v Southampton)"
+  ],
+  "style": [
+   "tall ball-playing centre-back"
+  ],
+  "work_rate": "unknown: little senior football",
+  "ego": "neutral: little public profile",
+  "fan_bond": "no notable bond yet; out injured almost all of his first year",
+  "loyalty_notes": "Three clubs in a year as a teenager (Padova, Sampdoria, Parma) before a £26m move to Liverpool in Aug 2025; back in training Aug 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Giovanni_Leoni",
+   "https://www.beinsports.com/en-us/soccer/premier-league/articles/leoni-cant-wait-to-play-under-liverpool-boss-iraola-after-injury-return-2026-08-05"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kostas Tsimikas",
+  "full_name": "Konstantinos Tsimikas",
+  "gender": "M",
+  "active": true,
+  "born": 1996,
+  "nation": "Greece",
+  "positions": [
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Olympiacos",
+    "from": 2015,
+    "to": 2020,
+    "apps": 46,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Willem II (loan)",
+    "from": 2017,
+    "to": 2018,
+    "apps": 33,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2020,
+    "to": null,
+    "apps": 66,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Roma (loan)",
+    "from": 2025,
+    "to": 2026,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Greece",
+   "caps": 55,
+   "goals": 2,
+   "captain": false
+  },
+  "honours": "1 PL (2025), 1 FA Cup (2022), 2 League Cups (2022, 2024), 3 Greek titles",
+  "awards": "Greek Footballer of the Season 2019-20",
+  "moments": [
+   "14 May 2022: scored the winning penalty in the FA Cup final shoot-out v Chelsea"
+  ],
+  "style": [
+   "attacking left-back",
+   "crosser",
+   "set pieces"
+  ],
+  "work_rate": "high: energetic backup full-back",
+  "ego": "humble: accepted a long backup role behind Robertson; playful dressing-room character",
+  "fan_bond": "fan favourite, the 'Greek Scouser'; popular for humour and enthusiasm",
+  "loyalty_notes": "Liverpool since 2020, mostly as backup; loaned to Roma 2025-26; returned 2026 as backup to Kerkez with one year left on his contract",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2020-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kostas_Tsimikas",
+   "https://www.liverpoolfc.com/news/how-kostas-tsimikas-got-his-greek-scouser-nickname",
+   "https://anfieldindex.com/?p=93961"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ronald Araújo",
+  "full_name": "Ronald Federico Araújo da Silva",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Uruguay",
+  "positions": [
+   "CB",
+   "RB"
+  ],
+  "clubs": [
+   {
+    "club": "Rentistas",
+    "from": 2016,
+    "to": 2017,
+    "apps": 17,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Boston River",
+    "from": 2017,
+    "to": 2018,
+    "apps": 27,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 2018,
+    "to": null,
+    "apps": 143,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Liverpool (loan)",
+    "from": 2026,
+    "to": null,
+    "apps": 5,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Barcelona third captain 2023, club captain Jan 2026",
+  "national": {
+   "team": "Uruguay",
+   "caps": 29,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "3 La Liga, 2 Copa del Rey, 3 Supercopa (Barcelona)",
+  "awards": "La Liga Team of the Season 2021-22, 2023-24",
+  "moments": [
+   "2022: headed goal in 4-0 Clásico win at the Bernabéu",
+   "Nov 2025: sent off v Chelsea, then took a mental-health break and later spoke openly about anxiety and depression"
+  ],
+  "style": [
+   "fast, physical centre-back",
+   "aerial threat",
+   "one-v-one defender"
+  ],
+  "work_rate": "high: committed defender",
+  "ego": "humble: devout Christian, private family man",
+  "fan_bond": "popular at Barcelona as a long-serving captain, though criticised for red cards in big games (PSG 2024, Chelsea 2025)",
+  "loyalty_notes": "Barcelona 2018-26, extended to 2031 in Jan 2025; became club captain Jan 2026; loaned to Liverpool Aug 2026 (option to buy €55m) after losing his place to Cubarsí",
+  "causes": [
+   "Feb 2026: spoke publicly about 18 months of anxiety and depression and seeking professional help"
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "Copa América semi-final: Uruguay players went into the stands where their families were being confronted by Colombia fans; CONMEBOL banned Araújo 3 matches and fined him $12,000",
+    "outcome": "CAS upheld the bans (2025)",
+    "source": "https://www.thescore.com/news/3062313"
+   }
+  ],
+  "money_moves": [],
+  "links": "Liverpool 2026- (loan)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ronald_Ara%C3%BAjo",
+   "https://www.football-espana.net/2026/02/11/barcelona-defender-ronald-araujo-opens-up-on-anxiety-mental-health-battle-over-last-18-months",
+   "https://www.beinsports.com/en-us/soccer/premier-league/articles/liverpool-announce-arrival-of-araujo-on-season-long-loan-2026-08-10",
+   "https://insideworldfootball.com/2025/05/14/uruguay-lose-cas-appeal-overturn-player-bans-2024-copa-america-melee"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Luke Chambers",
+  "full_name": "Luke Chambers",
+  "gender": "M",
+  "active": true,
+  "born": 2004,
+  "nation": "England",
+  "positions": [
+   "LB",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 2022,
+    "to": null,
+    "apps": 0,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Kilmarnock (loan)",
+    "from": 2023,
+    "to": 2023,
+    "apps": 14,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Wigan Athletic (loan)",
+    "from": 2024,
+    "to": 2025,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Charlton Athletic (loan)",
+    "from": 2026,
+    "to": 2026,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 16,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "UEFA U-19 Euro 2022 (England)",
+  "awards": "",
+  "moments": [
+   "2023: turned down the U-20 World Cup to finish Kilmarnock's relegation fight"
+  ],
+  "style": [
+   "left-sided defender"
+  ],
+  "work_rate": "medium: reliable loan performer",
+  "ego": "humble: little public profile",
+  "fan_bond": "Liverpool academy since age 6; no first-team league appearances",
+  "loyalty_notes": "At Liverpool since 2010 (age 6), four loans; widely reported to be heading out on loan in summer 2026 but listed in the senior squad (1 Sep 2026)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool academy 2010-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Luke_Chambers_(footballer,_born_2004)",
+   "https://anfieldindex.com/?p=95753"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Wataru Endo",
+  "full_name": "Wataru Endo",
+  "gender": "M",
+  "active": true,
+  "born": 1993,
+  "nation": "Japan",
+  "positions": [
+   "DM",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Shonan Bellmare",
+    "from": 2010,
+    "to": 2015,
+    "apps": 158,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Urawa Red Diamonds",
+    "from": 2016,
+    "to": 2018,
+    "apps": 75,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sint-Truiden",
+    "from": 2018,
+    "to": 2020,
+    "apps": 29,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfB Stuttgart",
+    "from": 2019,
+    "to": 2023,
+    "apps": 120,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2023,
+    "to": null,
+    "apps": 57,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Shonan Bellmare",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "Japan captain 2023-26; VfB Stuttgart captain 2021-23",
+  "national": {
+   "team": "Japan",
+   "caps": 73,
+   "goals": 4,
+   "captain": true
+  },
+  "honours": "1 PL (2025), 1 League Cup (2024), AFC Champions League 2017",
+  "awards": "Bundesliga duels leader; AFC Asian Cup Team of the Tournament 2023",
+  "moments": [
+   "14 May 2022: stoppage-time winner v Köln that kept Stuttgart up",
+   "2024-25: Slot's late-game 'closer' in the title-winning season"
+  ],
+  "style": [
+   "ball-winning defensive midfielder",
+   "duel winner"
+  ],
+  "work_rate": "high: famed duel-winner and model professional",
+  "ego": "humble: accepted a reduced role without complaint",
+  "fan_bond": "well liked at Liverpool and Stuttgart for professionalism; Japan captain",
+  "loyalty_notes": "Six years at Shonan, then steady moves; captained Stuttgart; at Liverpool since 2023 mostly as a squad player; foot injury Feb 2026 ruled him out of the 2026 World Cup and he retired from internationals (June 2026)",
+  "causes": [
+   "2025: founded the SEKAI NI WATARU Project, tuition-free study-abroad programme for children aged 7-12",
+   "LFC Foundation school visits"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2023-; Japan; Stuttgart",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wataru_Endo",
+   "https://www.aljazeera.com/sports/2026/6/12/japans-wataru-endo-retires-after-injury-ends-world-cup-2026-dream",
+   "https://prtimes.jp/main/html/rd/p/000000002.000172106.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Trey Nyoni",
+  "full_name": "Treymaurice Nyoni",
+  "gender": "M",
+  "active": true,
+  "born": 2007,
+  "nation": "England",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Leicester City (youth)",
+    "from": 2013,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Liverpool",
+    "from": 2023,
+    "to": null,
+    "apps": 9,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "none",
+  "awards": "",
+  "moments": [
+   "Feb 2024: Liverpool's youngest FA Cup player (16y 243d)",
+   "Jan 2025: club's youngest player in European competition"
+  ],
+  "style": [
+   "technical midfielder",
+   "ball carrier"
+  ],
+  "work_rate": "unknown: early career",
+  "ego": "neutral: little public profile",
+  "fan_bond": "no notable bond yet",
+  "loyalty_notes": "Left Leicester academy for Liverpool at 16 (2023); first professional deal Oct 2024",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2023-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Trey_Nyoni"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "James McConnell",
+  "full_name": "James William McConnell",
+  "gender": "M",
+  "active": true,
+  "born": 2004,
+  "nation": "England",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Sunderland (youth)",
+    "from": null,
+    "to": 2019,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Liverpool",
+    "from": 2019,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Ajax (loan)",
+    "from": 2025,
+    "to": 2026,
+    "apps": 4,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 League Cup (2024)",
+  "awards": "",
+  "moments": [
+   "Feb 2024: came off the bench in the League Cup final win"
+  ],
+  "style": [
+   "neat passing midfielder"
+  ],
+  "work_rate": "unknown: early career",
+  "ego": "neutral: little public profile",
+  "fan_bond": "no notable bond yet",
+  "loyalty_notes": "Liverpool academy from 2019; five-year deal Aug 2025; Ajax loan cut short Feb 2026; Iraola kept him in summer 2026, cancelling a Preston loan",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2019-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/James_McConnell_(footballer,_born_2004)",
+   "https://anfieldindex.com/?p=98313"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Federico Chiesa",
+  "full_name": "Federico Chiesa",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Italy",
+  "positions": [
+   "RW",
+   "LW",
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "Fiorentina",
+    "from": 2016,
+    "to": 2020,
+    "apps": 137,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Juventus",
+    "from": 2020,
+    "to": 2024,
+    "apps": 98,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2024,
+    "to": null,
+    "apps": 32,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Fiorentina",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Italy",
+   "caps": 51,
+   "goals": 7,
+   "captain": false
+  },
+  "honours": "1 PL (2025), Euro 2020, 2 Coppa Italia, 1 Supercoppa",
+  "awards": "Euro 2020 Team of the Tournament; Serie A Team of the Year 2020-21; Cavaliere OMRI 2021",
+  "moments": [
+   "Euro 2020: goals v Austria (R16) and Spain (semi-final) as Italy won the tournament"
+  ],
+  "style": [
+   "direct dribbler",
+   "fast winger",
+   "presser"
+  ],
+  "work_rate": "high: known for energy and pressing",
+  "ego": "neutral: has said he wanted to stay at Juventus and at Liverpool despite little game time",
+  "fan_bond": "Fiorentina academy product; Liverpool fans warm to him despite limited minutes",
+  "loyalty_notes": "Fiorentina from age 9; moved to Juventus 2020 (age 22), Fiorentina's fiercest rival; frozen out by Thiago Motta 2024 after not renewing; chose to stay at Liverpool 2026 but left out of the UCL squad (Sep 2026)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2020,
+    "type": "b09",
+    "what": "left Fiorentina (his boyhood/academy club) for rivals Juventus on loan with obligation",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Federico_Chiesa"
+   }
+  ],
+  "money_moves": [],
+  "links": "Liverpool 2024-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Federico_Chiesa",
+   "https://www.fotmob.com/fi/news/mgmah6rts8il1kg10x8bigcn4-chiesa-told-find-new-club-soon-possible-motta",
+   "https://www.beinsports.com/en-au/football/premier-league/articles-video/chiesa-wants-to-stay-at-liverpool-2026-07-26",
+   "https://www.fichajes.net/en/news/liverpool-sacks-chiesa-20260904.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Víctor Muñoz",
+  "full_name": "Víctor Muñoz Villanueva",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "Spain",
+  "positions": [
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Real Madrid Castilla",
+    "from": 2023,
+    "to": 2025,
+    "apps": 63,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2024,
+    "to": 2025,
+    "apps": 2,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Osasuna",
+    "from": 2025,
+    "to": 2026,
+    "apps": 34,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2026,
+    "to": null,
+    "apps": 5,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Spain",
+   "caps": 5,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "FIFA World Cup 2026 (unused in final)",
+  "awards": "La Liga U23 Player of the Month Feb and Mar 2026",
+  "moments": [
+   "2026: World Cup winner with Spain in his first year as an international"
+  ],
+  "style": [
+   "direct left winger",
+   "dribbler"
+  ],
+  "work_rate": "medium: early career",
+  "ego": "neutral: little public profile",
+  "fan_bond": "new arrival; no notable bond yet",
+  "loyalty_notes": "Youth spells at Barcelona, Damm and Real Madrid; one season at Osasuna before Liverpool paid his €40m release clause (June 2026)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2026-; Osasuna 2025-26",
+  "sources": [
+   "https://en.wikipedia.org/wiki/V%C3%ADctor_Mu%C3%B1oz_(footballer,_born_2003)",
+   "https://www.liverpoolfc.com/news/world-cup-victor-munoz-champion-spain-beat-argentina-final",
+   "https://www.football365.com/news/real-madrid-liverpool-victor-munoz-osasuna-newcastle-united"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bradley Barcola",
+  "full_name": "Bradley Jean-Manuel Essolisam Addo Barcola",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "France",
+  "positions": [
+   "LW",
+   "FW"
+  ],
+  "clubs": [
+   {
+    "club": "Lyon",
+    "from": 2021,
+    "to": 2023,
+    "apps": 40,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2023,
+    "to": 2026,
+    "apps": 88,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Liverpool",
+    "from": 2026,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Lyon",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France",
+   "caps": 32,
+   "goals": 6,
+   "captain": false
+  },
+  "honours": "2 UCL (2025, 2026), 3 Ligue 1, 2 Coupe de France, Intercontinental Cup 2025",
+  "awards": "",
+  "moments": [
+   "2024-25: part of PSG's treble season",
+   "2026: Liverpool's third £100m+ signing"
+  ],
+  "style": [
+   "fast inside forward",
+   "dribbler"
+  ],
+  "work_rate": "medium-high: pressing forward under Luis Enrique",
+  "ego": "neutral: answered critics calmly, but taunted former club Lyon",
+  "fan_bond": "soured with Lyon fans after taunting them in 2024; new at Liverpool",
+  "loyalty_notes": "Lyon academy from age 8; joined PSG 2023 (age 20); turned down a PSG extension in 2026 over playing time and moved to Liverpool (£106m + £17m add-ons)",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "after being insulted by Lyon fans, celebrated in front of them in PSG's 4-1 win and posted 'the justice of God'",
+    "outcome": "criticised by Lyon players (Tolisso)",
+    "source": "https://www.maxifoot.fr/football/article-57520.htm"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Paris Saint-Germain (Qatar Sports Investments) 2023-26",
+    "type": "b11"
+   }
+  ],
+  "links": "Liverpool 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bradley_Barcola",
+   "https://www.itv.com/news/granada/2026-08-31/liverpool-complete-123million-signing-of-bradley-barcola-from-psg",
+   "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/07/liverpool-and-arsenal-target-bradley-barcola-refuses-psg-contract-extension"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lewis Koumas",
+  "full_name": "Lewis Terence Koumas",
+  "gender": "M",
+  "active": true,
+  "born": 2005,
+  "nation": "Wales",
+  "positions": [
+   "FW",
+   "W"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 2023,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Stoke City (loan)",
+    "from": 2024,
+    "to": 2025,
+    "apps": 43,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Birmingham City (loan)",
+    "from": 2025,
+    "to": 2026,
+    "apps": 23,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hull City (loan)",
+    "from": 2026,
+    "to": 2026,
+    "apps": 17,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Wales",
+   "caps": 16,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "1 League Cup (2024)",
+  "awards": "",
+  "moments": [
+   "28 Feb 2024: scored on his Liverpool debut, FA Cup v Southampton"
+  ],
+  "style": [
+   "forward",
+   "winger"
+  ],
+  "work_rate": "unknown: early career",
+  "ego": "neutral: little public profile",
+  "fan_bond": "Liverpool academy since 2016; son of Wales international Jason Koumas",
+  "loyalty_notes": "Liverpool academy from age 10 (2016); three Championship loans 2024-26",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2016-; Wales",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lewis_Koumas"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Rio Ngumoha",
+  "full_name": "Rio Chima Ngumoha",
+  "gender": "M",
+  "active": true,
+  "born": 2008,
+  "nation": "England",
+  "positions": [
+   "LW",
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Chelsea (youth)",
+    "from": 2016,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Liverpool",
+    "from": 2024,
+    "to": null,
+    "apps": 22,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 3,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "none",
+  "awards": "",
+  "moments": [
+   "Aug 2025: stoppage-time winner at Newcastle on his PL debut, Liverpool's youngest-ever scorer (16y 361d)",
+   "Apr 2026: youngest Liverpool scorer at Anfield"
+  ],
+  "style": [
+   "dribbling winger"
+  ],
+  "work_rate": "unknown: early career",
+  "ego": "neutral: little public profile",
+  "fan_bond": "excited fans since his Newcastle winner; no long bond yet",
+  "loyalty_notes": "Left Chelsea academy for Liverpool at 15 (2024); new five-year deal expected after turning 18 (Aug 2026)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool 2024-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rio_Ngumoha",
+   "https://www.empireofthekop.com/2026/08/18/liverpool-livewire-set-for-bumper-pay-rise-new-long-term-contract/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jayden Danns",
+  "full_name": "Jayden Alexander Danns",
+  "gender": "M",
+  "active": true,
+  "born": 2006,
+  "nation": "England",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Liverpool",
+    "from": 2023,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Sunderland (loan)",
+    "from": 2025,
+    "to": 2025,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Liverpool",
+  "longest_years": 12,
+  "one_club": true,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 League Cup (2024)",
+  "awards": "",
+  "moments": [
+   "28 Feb 2024: two goals and player of the match v Southampton in the FA Cup"
+  ],
+  "style": [
+   "striker"
+  ],
+  "work_rate": "unknown: early career",
+  "ego": "neutral: little public profile",
+  "fan_bond": "Liverpool academy since age 8; son of former Guyana international Neil Danns",
+  "loyalty_notes": "At Liverpool since 2014; back injury kept him out of most of 2024-25 including the whole Sunderland loan; loan reported likely in summer 2026 but listed in the senior squad (1 Sep 2026)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Liverpool academy 2014-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jayden_Danns",
+   "https://www.empireofthekop.com/2026/08/05/jayden-danns-hope-emerges-as-andoni-iraola-decision-becomes-clear/"
+  ],
+  "confidence": "medium"
+ }
+]

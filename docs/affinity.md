@@ -219,4 +219,10 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   -0.6; gains capped at +4 (CONN_CAP; +8 tried: leave-one-out 70%, +4: 71%; the version with followed clubs at +1.2 scored 73-75%),
   losses at -3. Women's clubs read only NWSL ratings; a woman's spell at a European club rated only for its men's side is neutral.
   Refit: CH 25, WK 28, LO 16.5, AB 5, ST 15, LE 10.5; connection x0.98, penalties x2.83, position +7.2.
+- Values (quiz round 11, quiz11/, 2026-10-07): 24 mystery pairs differing only off the pitch + 12 direct questions; logit
+  weights (quiz11/fit.json; agree with 23 of 24 picks): betting -3.1, refused Pride -2.8, rainbow armband +2.5, speaks on
+  racism +2.3, left campaign +2.2, right campaign -1.8, fair play +1.2, funds schools +1.1, private life +0.3, criticises
+  FIFA/owners -0.2. Every player tagged on these by research agents (players/values/, BRIEF.md, cited). Character =
+  research score + 0.3 * sum(weight * tag), clipped 0-10 (an average with a neutral 6 was tried and dropped: it pulled
+  untagged good characters down). Refit: leave-one-out 75%.
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

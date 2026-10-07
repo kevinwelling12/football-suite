@@ -223,6 +223,6 @@ quiz rounds 7 and 8 in scripts/affinity/quiz7, quiz8; page: claude.ai artifact "
   weights (quiz11/fit.json; agree with 23 of 24 picks): betting -3.1, refused Pride -2.8, rainbow armband +2.5, speaks on
   racism +2.3, left campaign +2.2, right campaign -1.8, fair play +1.2, funds schools +1.1, private life +0.3, criticises
   FIFA/owners -0.2. Every player tagged on these by research agents (players/values/, BRIEF.md, cited). Character =
-  research score + 0.3 * sum(weight * tag), clipped 0-10 (an average with a neutral 6 was tried and dropped: it pulled
+  research score + VALUES_X * sum(weight * tag), clipped 0-10 (VALUES_X 0.3, doubled to 0.6 at Kevin's request; LOO 73%) (an average with a neutral 6 was tried and dropped: it pulled
   untagged good characters down). Refit: leave-one-out 75%.
 - Lists: separate men's and women's (his choice), active and all-time (all-time includes active players).

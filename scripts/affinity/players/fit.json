@@ -1,20 +1,20 @@
 {
  "W": {
   "CH": 25.5,
-  "WK": 27.6,
-  "LO": 16.6,
+  "WK": 27.5,
+  "LO": 16.7,
   "AB": 5.1,
   "ST": 14.8,
-  "LE": 10.4
+  "LE": 10.3
  },
  "conn": 0.97,
  "pen": 2.84,
- "pos": 7.4,
+ "pos": 7.6,
  "source": "mystery profiles (rounds 8-9) and controlled named pairs (round 10)",
  "choices": 65,
  "acc": 0.778,
- "loo": 0.746,
+ "loo": 0.73,
  "loo_named": "9/15",
  "named_acc": 0.69,
- "gut_r": 0.312
+ "gut_r": 0.325
 }

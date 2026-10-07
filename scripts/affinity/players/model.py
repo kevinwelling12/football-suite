@@ -31,6 +31,7 @@ _fx = json.loads(_fx.read_text()) if _fx.exists() else {}
 _fx = _fx.get('data', _fx)
 POS_BOOST = _fx['pos'] if _fx.get('pos') is not None else (_fit or {}).get('pos', 3)  # fitted to round 10 (fit.json); 3 before that
 FIXES = _fx.get('fix', {})
+VALUES_X = 0.6  # how far Kevin's values tags move Character
 FAV_POS = {'AM', 'DLP', 'RB', 'LB', 'RWB', 'LWB'}  # quiz 7 s03: playmaker / No. 10 and full-back
 SEV = {'b02': 18, 'b01': 14, 'b04': 14, 'b06': 7, 'b12': 7, 'b05': 5, 'b03': 4, 'b08': 3, 'b10': 3, 'b09': 2}
 KEVIN = ['liverpool', 'borussia dortmund', 'dortmund', 'portland timbers', 'portland thorns', 'sacramento republic']
@@ -149,7 +150,7 @@ def load(raw=False):
         for n, v in json.loads(f.read_text()).items():
             if n in scores: scores[n] = {**scores[n], 'LO': v['LO']}
     # Character = research score shifted by Kevin's values (quiz round 11 weights x the values tags in values/out*.json):
-    # + 0.3 * sum(weight * tag), clipped 0-10 (Kevin, 2026-10-07). A shift, not an average: an untagged player keeps his
+    # + VALUES_X * sum(weight * tag), clipped 0-10 (Kevin, 2026-10-07; VALUES_X 0.3 -> 0.6 when he asked to strengthen it). A shift, not an average: an untagged player keeps his
     # research score (averaging with a neutral 6 dragged good characters down and lifted bad ones).
     vw = here.parent / 'quiz11' / 'fit.json'
     if vw.exists():
@@ -158,8 +159,8 @@ def load(raw=False):
             for n, tg in json.loads(f.read_text()).items():
                 if n not in scores: continue
                 v = sum(VW[k] * float(tg.get(k) or 0) for k in VW)
-                ch = max(0.0, min(10.0, scores[n]['CH'] + 0.3 * v))
-                scores[n] = {**scores[n], 'CH_research': scores[n]['CH'], 'CH_values': round(0.3 * v, 2), 'CH': round(ch, 2)}
+                ch = max(0.0, min(10.0, scores[n]['CH'] + VALUES_X * v))
+                scores[n] = {**scores[n], 'CH_research': scores[n]['CH'], 'CH_values': round(VALUES_X * v, 2), 'CH': round(ch, 2)}
     if (a / 'incidents.json').exists():
         for n, fx in json.loads((a / 'incidents.json').read_text()).items():
             if n not in facts: continue

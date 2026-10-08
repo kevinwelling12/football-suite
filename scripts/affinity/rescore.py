@@ -34,6 +34,12 @@ for key, comp in D.items():
 TR = {}  # name -> (P, season scores)
 for name, cs in comps.items():
     if 'unl' not in cs and name in PERF and perf.primary(cs) in perf.APPLIES: TR[name] = perf.track(PERF[name], perf.BAND[perf.primary(cs)])
+# Heritage: AncestryDNA shares by nation (scripts/affinity/heritage.json), bonus 0.4 per % up to +10.
+_H = json.loads((root / 'scripts' / 'affinity' / 'heritage.json').read_text()); HERITAGE = {}
+for _r, _pct in _H['regions'].items():
+    for _n, _sh in _H['split'][_r].items(): HERITAGE[_n] = HERITAGE.get(_n, 0) + _pct * _sh
+for _k, _v in _H['previous'].items():
+    if _k != 'note': HERITAGE.setdefault(_k, 0)  # nations that dropped out of the estimate go to 0
 PL = players_link.bumps(D)  # Player Affinity -> Team (current squad) and History (icons); see players_link.py
 DOM = interplay.domestic({n: perf.primary(cs) for n, cs in comps.items() if 'unl' not in cs})
 for key, comp in D.items():
@@ -58,6 +64,9 @@ for key, comp in D.items():
         if key != 'unl':
             t['bonus'] = 4.0 if t['name'] == HOMETOWN else 0
             if 'bonus0' in t: t['bonus0'] = t['bonus'] / 0.4
+        elif t['name'] in HERITAGE:
+            pct = HERITAGE[t['name']]; t['bonus0'] = round(min(25, pct), 1); t['bonus'] = round(min(10, 0.4 * pct), 1)
+            t['region'] = 'Heritage' if t['bonus'] else ''
 # Kevin's big-4 teams: distance from Sacramento, rival markets, ownership ties (big4.py). hai.us = items.
 for key, comp in D.items():
     for t in comp['teams']:
@@ -102,7 +111,7 @@ if px.exists():
         C, V, H, O, St, adj, note = S[t['name']]
         t['hai'] = dict(C=C, V=V, H=H, O=O, S=St, adj=adj, note=note)
         t['base'] = min(100, max(0, round((W['C']*C + W['V']*V + W['H']*H + W['O']*O + W['S']*St) / 0.90 * 10 + adj, 1)))
-        t['bonus'], t['region'] = NATION_BONUS.get(t['name'], (0, ''))
+        t['bonus'], t['region'] = NATION_BONUS.get(t['name'], (round(min(10, 0.4 * HERITAGE.get(t['name'], 0)), 1), 'Heritage' if HERITAGE.get(t['name']) else ''))
         nation_bump(t)
     px.write_text(json.dumps(X, ensure_ascii=False, indent=1))
 p.write_text(json.dumps(D, ensure_ascii=False, separators=(',', ':')))

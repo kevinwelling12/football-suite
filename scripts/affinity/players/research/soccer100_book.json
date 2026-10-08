@@ -1,0 +1,418 @@
+{
+ "book": "The Soccer 100: The Story of the Greatest Players in History (The Athletic; companion to The Football 100 / The Basketball 100)",
+ "author": "Oliver Kay and James Horncastle, with The Athletic staff",
+ "publisher": "HarperCollins (ISBN 9780063412675)",
+ "year": 2025,
+ "ranked": true,
+ "players": [
+  {
+   "rank": 1,
+   "name": "Lionel Messi"
+  },
+  {
+   "rank": 2,
+   "name": "Diego Maradona"
+  },
+  {
+   "rank": 3,
+   "name": "Pelé"
+  },
+  {
+   "rank": 4,
+   "name": "Johan Cruyff"
+  },
+  {
+   "rank": 5,
+   "name": "Cristiano Ronaldo"
+  },
+  {
+   "rank": 6,
+   "name": "Alfredo Di Stéfano"
+  },
+  {
+   "rank": 7,
+   "name": "Franz Beckenbauer"
+  },
+  {
+   "rank": 8,
+   "name": "Zinedine Zidane"
+  },
+  {
+   "rank": 9,
+   "name": "Ferenc Puskás"
+  },
+  {
+   "rank": 10,
+   "name": "Michel Platini"
+  },
+  {
+   "rank": 11,
+   "name": "Eusébio"
+  },
+  {
+   "rank": 12,
+   "name": "Ronaldo (Brazil, R9)"
+  },
+  {
+   "rank": 13,
+   "name": "Gerd Müller"
+  },
+  {
+   "rank": 14,
+   "name": "Garrincha"
+  },
+  {
+   "rank": 15,
+   "name": "George Best"
+  },
+  {
+   "rank": 16,
+   "name": "Marco van Basten"
+  },
+  {
+   "rank": 17,
+   "name": "Paolo Maldini"
+  },
+  {
+   "rank": 18,
+   "name": "Lev Yashin"
+  },
+  {
+   "rank": 19,
+   "name": "Franco Baresi"
+  },
+  {
+   "rank": 20,
+   "name": "Bobby Charlton"
+  },
+  {
+   "rank": 21,
+   "name": "Xavi"
+  },
+  {
+   "rank": 22,
+   "name": "Ronaldinho"
+  },
+  {
+   "rank": 23,
+   "name": "Thierry Henry"
+  },
+  {
+   "rank": 24,
+   "name": "Jairzinho"
+  },
+  {
+   "rank": 25,
+   "name": "Andrés Iniesta"
+  },
+  {
+   "rank": 26,
+   "name": "Lothar Matthäus"
+  },
+  {
+   "rank": 27,
+   "name": "Zico"
+  },
+  {
+   "rank": 28,
+   "name": "Bobby Moore"
+  },
+  {
+   "rank": 29,
+   "name": "Kylian Mbappé"
+  },
+  {
+   "rank": 30,
+   "name": "Carlos Alberto"
+  },
+  {
+   "rank": 31,
+   "name": "Ruud Gullit"
+  },
+  {
+   "rank": 32,
+   "name": "Romário"
+  },
+  {
+   "rank": 33,
+   "name": "Gianluigi Buffon"
+  },
+  {
+   "rank": 34,
+   "name": "Dino Zoff"
+  },
+  {
+   "rank": 35,
+   "name": "Jimmy Greaves"
+  },
+  {
+   "rank": 36,
+   "name": "Luka Modrić"
+  },
+  {
+   "rank": 37,
+   "name": "Andrea Pirlo"
+  },
+  {
+   "rank": 38,
+   "name": "Manuel Neuer"
+  },
+  {
+   "rank": 39,
+   "name": "Roberto Baggio"
+  },
+  {
+   "rank": 40,
+   "name": "Francisco 'Paco' Gento"
+  },
+  {
+   "rank": 41,
+   "name": "Karim Benzema"
+  },
+  {
+   "rank": 42,
+   "name": "Luís Figo"
+  },
+  {
+   "rank": 43,
+   "name": "Cafu"
+  },
+  {
+   "rank": 44,
+   "name": "Kaká"
+  },
+  {
+   "rank": 45,
+   "name": "Fabio Cannavaro"
+  },
+  {
+   "rank": 46,
+   "name": "Neymar"
+  },
+  {
+   "rank": 47,
+   "name": "Raymond Kopa"
+  },
+  {
+   "rank": 48,
+   "name": "Rivaldo"
+  },
+  {
+   "rank": 49,
+   "name": "Dennis Bergkamp"
+  },
+  {
+   "rank": 50,
+   "name": "Kenny Dalglish"
+  },
+  {
+   "rank": 51,
+   "name": "Sándor Kocsis"
+  },
+  {
+   "rank": 52,
+   "name": "Toni Kroos"
+  },
+  {
+   "rank": 53,
+   "name": "Wayne Rooney"
+  },
+  {
+   "rank": 54,
+   "name": "Hristo Stoichkov"
+  },
+  {
+   "rank": 55,
+   "name": "Johan Neeskens"
+  },
+  {
+   "rank": 56,
+   "name": "George Weah"
+  },
+  {
+   "rank": 57,
+   "name": "Giuseppe Meazza"
+  },
+  {
+   "rank": 58,
+   "name": "Sergio Busquets"
+  },
+  {
+   "rank": 59,
+   "name": "Stanley Matthews"
+  },
+  {
+   "rank": 60,
+   "name": "Just Fontaine"
+  },
+  {
+   "rank": 61,
+   "name": "Sócrates"
+  },
+  {
+   "rank": 62,
+   "name": "Ryan Giggs"
+  },
+  {
+   "rank": 63,
+   "name": "Mario Kempes"
+  },
+  {
+   "rank": 64,
+   "name": "Frank Rijkaard"
+  },
+  {
+   "rank": 65,
+   "name": "Zlatan Ibrahimović"
+  },
+  {
+   "rank": 66,
+   "name": "Kevin De Bruyne"
+  },
+  {
+   "rank": 67,
+   "name": "Mohamed Salah"
+  },
+  {
+   "rank": 68,
+   "name": "Gianni Rivera"
+  },
+  {
+   "rank": 69,
+   "name": "Francesco Totti"
+  },
+  {
+   "rank": 70,
+   "name": "Matthias Sindelar"
+  },
+  {
+   "rank": 71,
+   "name": "Didier Drogba"
+  },
+  {
+   "rank": 72,
+   "name": "Alessandro Del Piero"
+  },
+  {
+   "rank": 73,
+   "name": "Karl-Heinz Rummenigge"
+  },
+  {
+   "rank": 74,
+   "name": "Michael Laudrup"
+  },
+  {
+   "rank": 75,
+   "name": "Günter Netzer"
+  },
+  {
+   "rank": 76,
+   "name": "Gabriel Batistuta"
+  },
+  {
+   "rank": 77,
+   "name": "Roberto Carlos"
+  },
+  {
+   "rank": 78,
+   "name": "Gordon Banks"
+  },
+  {
+   "rank": 79,
+   "name": "Paul Gascoigne"
+  },
+  {
+   "rank": 80,
+   "name": "John Charles"
+  },
+  {
+   "rank": 81,
+   "name": "Denis Law"
+  },
+  {
+   "rank": 82,
+   "name": "Gheorghe Hagi"
+  },
+  {
+   "rank": 83,
+   "name": "Dixie Dean"
+  },
+  {
+   "rank": 84,
+   "name": "Raúl"
+  },
+  {
+   "rank": 85,
+   "name": "Philipp Lahm"
+  },
+  {
+   "rank": 86,
+   "name": "Paolo Rossi"
+  },
+  {
+   "rank": 87,
+   "name": "Oleg Blokhin"
+  },
+  {
+   "rank": 88,
+   "name": "Gigi Riva"
+  },
+  {
+   "rank": 89,
+   "name": "Marcel Desailly"
+  },
+  {
+   "rank": 90,
+   "name": "Tostão"
+  },
+  {
+   "rank": 91,
+   "name": "Patrick Vieira"
+  },
+  {
+   "rank": 92,
+   "name": "Eric Cantona"
+  },
+  {
+   "rank": 93,
+   "name": "Giacinto Facchetti"
+  },
+  {
+   "rank": 94,
+   "name": "Gareth Bale"
+  },
+  {
+   "rank": 95,
+   "name": "Hugo Sánchez"
+  },
+  {
+   "rank": 96,
+   "name": "Alan Shearer"
+  },
+  {
+   "rank": 97,
+   "name": "Gunnar Nordahl"
+  },
+  {
+   "rank": 98,
+   "name": "Kevin Keegan"
+  },
+  {
+   "rank": 99,
+   "name": "Javier Zanetti"
+  },
+  {
+   "rank": 100,
+   "name": "Uwe Seeler"
+  }
+ ],
+ "sources": [
+  "https://www.goodreads.com/work/quotes/264391557",
+  "https://www.perlego.com/book/4897091/the-soccer-100-pdf",
+  "https://www.planetfootball.com/lists-and-rankings/the-athletic-100-best-footballers-all-time-ranking-active",
+  "https://onefootball.com/en/news/our-ranking-of-the-9-active-stars-in-the-athletics-100-greatest-footballers-ever-42077478",
+  "https://x.com/Globalstats11/status/2019709985001976163",
+  "https://x.com/ArgenRanks/status/2019961579949724078"
+ ],
+ "gaps": "Full 1-100 order comes from two independent social-media reproductions of The Athletic's ranking (Global Statistics, credited 'The Athletic via Sport Bible'; Rankings de Argentina), which agree on all 100 positions. Planet Football/OneFootball (Dec 2025) independently confirm 9 ranks (Messi 1, Ronaldo 5, Mbappe 29, Modric 36, Neuer 38, Benzema 41, Neymar 46, De Bruyne 66, Salah 67), all matching. Not checked against the printed book or theathletic.com directly (paywalled). Imprint within HarperCollins and exact release date (listings say 18 Nov 2025; one says Dec 2025) not confirmed. All 100 are men (book is billed as a ranking of the greatest male players)."
+}

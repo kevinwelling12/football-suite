@@ -1,0 +1,1365 @@
+[
+ {
+  "name": "Jairzinho",
+  "full_name": "Jair Ventura Filho",
+  "gender": "M",
+  "active": false,
+  "born": 1944,
+  "nation": "Brazil",
+  "positions": [
+   "RW",
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Botafogo",
+    "from": 1962,
+    "to": 1974,
+    "apps": 416,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Marseille",
+    "from": 1974,
+    "to": 1975,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Kaizer Chiefs",
+    "from": 1975,
+    "to": 1975,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Cruzeiro",
+    "from": 1976,
+    "to": 1976,
+    "apps": 32,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Portuguesa (VEN)",
+    "from": 1977,
+    "to": 1977,
+    "apps": 21,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Noroeste",
+    "from": 1978,
+    "to": 1979,
+    "apps": 10,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fast Clube",
+    "from": 1979,
+    "to": 1979,
+    "apps": 2,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Jorge Wilstermann",
+    "from": 1980,
+    "to": 1981,
+    "apps": 26,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Botafogo",
+    "from": 1981,
+    "to": 1982,
+    "apps": 2,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "9 de Octubre",
+    "from": 1982,
+    "to": 1983,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Botafogo",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Brazil",
+   "caps": 81,
+   "goals": 33,
+   "captain": false
+  },
+  "honours": "1970 World Cup; 1976 Copa Libertadores (Cruzeiro); Botafogo Taça Brasil 1968, Rio state titles",
+  "awards": "1970 World Cup Bronze Ball; scored in every match of the 1970 World Cup",
+  "moments": [
+   "1970 World Cup: scored in all six matches (7 goals), incl. the winner vs England and a goal in the 4-1 final",
+   "1970: 'O Furacão da Copa' (Hurricane of the Cup)"
+  ],
+  "style": [
+   "powerful direct winger",
+   "pace",
+   "finisher"
+  ],
+  "work_rate": "medium: explosive attacker, not known for tracking back",
+  "ego": "neutral: no notable ego stories",
+  "fan_bond": "Botafogo idol, academy product, 12 years; later as a youth coach discovered Ronaldo at São Cristóvão",
+  "loyalty_notes": "Botafogo youth 1958-62, first team 1962-74 (age 18-30); then journeyman in France, South Africa, Brazil, Venezuela, Bolivia, Ecuador",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1975,
+    "type": "b06",
+    "what": "accused of assaulting a linesman during a brawl at the end of a Coupe de France quarter-final, Marseille v PSG",
+    "outcome": "banned by French football authorities (sources differ: one year or two); he always denied it; left Marseille 1975",
+    "source": "https://www.slate.fr/story/88203/paulo-cesar-jairzinho-champions-monde-france"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jairzinho",
+   "https://www.slate.fr/story/88203/paulo-cesar-jairzinho-champions-monde-france"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jimmy Greaves",
+  "full_name": "James Peter Greaves",
+  "gender": "M",
+  "active": false,
+  "born": 1940,
+  "nation": "England",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Chelsea",
+    "from": 1957,
+    "to": 1961,
+    "apps": 157,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "AC Milan",
+    "from": 1961,
+    "to": 1961,
+    "apps": 10,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "from": 1961,
+    "to": 1970,
+    "apps": 321,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "West Ham United",
+    "from": 1970,
+    "to": 1971,
+    "apps": 38,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Brentwood",
+    "from": 1975,
+    "to": 1976,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelmsford City",
+    "from": 1976,
+    "to": 1977,
+    "apps": 25,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barnet",
+    "from": 1977,
+    "to": 1979,
+    "apps": 51,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Woodford Town",
+    "from": 1979,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Tottenham Hotspur",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 57,
+   "goals": 44,
+   "captain": false
+  },
+  "honours": "1966 World Cup squad (injured, missed final; medal awarded 2009); 1963 Cup Winners' Cup; 2 FA Cups (1962, 1967)",
+  "awards": "Top-flight top scorer 6 times; record 357 English top-flight goals; Spurs record scorer (266); MBE 2021",
+  "moments": [
+   "1963 Cup Winners' Cup final: two goals as Spurs became first British club to win a European trophy",
+   "1966: lost his place to Geoff Hurst after injury and missed the World Cup final",
+   "Died 19 Sept 2021"
+  ],
+  "style": [
+   "poacher",
+   "clinical finisher",
+   "dribbler in the box"
+  ],
+  "work_rate": "low-medium: goal-hanger reputation, little defensive work",
+  "ego": "humble: self-deprecating, later a popular TV personality (Saint and Greavsie)",
+  "fan_bond": "Spurs legend; beloved TV figure in England",
+  "loyalty_notes": "Chelsea academy to 21; unhappy 1961 move to Milan for money (left after months); Spurs 1961-70 age 21-30; traded to West Ham in Peters deal 1970",
+  "causes": [
+   "spoke openly about his alcoholism and recovery (sober from 1978) in books and TV"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "England",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jimmy_Greaves"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cafu",
+  "full_name": "Marcos Evangelista de Morais",
+  "gender": "M",
+  "active": false,
+  "born": 1970,
+  "nation": "Brazil",
+  "positions": [
+   "RB",
+   "RWB"
+  ],
+  "clubs": [
+   {
+    "club": "São Paulo",
+    "from": 1990,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Zaragoza",
+    "from": 1995,
+    "to": 1995,
+    "apps": 16,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventude",
+    "from": 1995,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Palmeiras",
+    "from": 1995,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Roma",
+    "from": 1997,
+    "to": 2003,
+    "apps": 163,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2003,
+    "to": 2008,
+    "apps": 119,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Roma",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "Brazil captain 2002 World Cup (lifted trophy)",
+  "national": {
+   "team": "Brazil",
+   "caps": 142,
+   "goals": 5,
+   "captain": true
+  },
+  "honours": "2 World Cups (1994, 2002); 2 Copa América; 2 Libertadores (São Paulo); Serie A 2001 (Roma), 2004 (Milan); 2007 UCL",
+  "awards": "South American Footballer of the Year 1994; FIFA 100; Brazil's most-capped man",
+  "moments": [
+   "Only player to play in three World Cup finals (1994, 1998, 2002)",
+   "2002: lifted the World Cup on the podium, 'Regina, eu te amo' and a shout-out to his Jardim Irene neighbourhood"
+  ],
+  "style": [
+   "attacking full-back",
+   "tireless overlapping runner",
+   "stamina"
+  ],
+  "work_rate": "high: famed for endless up-and-down running",
+  "ego": "humble: warm, smiling public persona",
+  "fan_bond": "Popular at Roma and Milan; strong bond with his home favela Jardim Irene",
+  "loyalty_notes": "Settled at Roma 1997-2003 (age 27-33) and Milan 2003-08; left Roma on a free for Milan 2003",
+  "causes": [
+   "Fundação Cafu in Jardim Irene, São Paulo (2003-2019), education and sport for poor children; closed 2019 for financial problems"
+  ],
+  "incidents": [
+   {
+    "year": 2019,
+    "type": "other",
+    "what": "court-ordered seizure of properties over unpaid bank loans; his foundation closed with debts to the federal registry",
+    "outcome": "civil matter, no criminal case reported",
+    "source": "https://www.money.it/cafu-morto-figlio-danilo-2019-da-dimenticare-crisi-economica-debiti"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2019,
+    "what": "ambassador for Qatar's Supreme Committee for Delivery & Legacy (2022 World Cup); said Qatar was 'peaceful, safe and welcoming'",
+    "type": "b12"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cafu",
+   "https://anba.com.br/en/cafu-named-new-2022-qatar-world-cup-ambassador",
+   "https://jornaldebrasilia.com.br/torcida/fundacao-cafu-anuncia-fim-das-atividades-por-problemas-financeiros-apos-16-anos/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Toni Kroos",
+  "full_name": "Toni Kroos",
+  "gender": "M",
+  "active": false,
+  "born": 1990,
+  "nation": "Germany",
+  "positions": [
+   "CM",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Bayern Munich",
+    "from": 2007,
+    "to": 2014,
+    "apps": 205,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bayer Leverkusen",
+    "from": 2009,
+    "to": 2010,
+    "apps": 48,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 2014,
+    "to": 2024,
+    "apps": 465,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 114,
+   "goals": 17,
+   "captain": false
+  },
+  "honours": "2014 World Cup; 6 UCL (1 Bayern, 5 Real Madrid); 4 La Liga; 3 Bundesliga",
+  "awards": "German Footballer of the Year 2018; IFFHS world playmaker; Euro 2024 Team of the Tournament",
+  "moments": [
+   "2014 World Cup semi: two goals in 69 seconds in the 7-1 vs Brazil",
+   "2018 World Cup: injury-time free-kick winner vs Sweden",
+   "June 2024: retired at the top after winning the UCL, final game Euro 2024 quarter-final"
+  ],
+  "style": [
+   "deep-lying playmaker",
+   "passing metronome",
+   "set pieces"
+  ],
+  "work_rate": "medium: positional, rarely presses hard, very consistent",
+  "ego": "neutral: dry, outspoken but not self-promoting",
+  "fan_bond": "Madrid fans revered him; retired at Real Madrid rather than moving on",
+  "loyalty_notes": "Bayern academy (loan to Leverkusen 2009-10); left Bayern 2014 at 24 after contract talks stalled; Real Madrid 2014-24 age 24-34, retired there at 34",
+  "causes": [
+   "Toni Kroos Stiftung (2015-), supports seriously ill children and families",
+   "2021: criticised Qatar 2022 award (migrant workers, anti-gay laws)",
+   "2023-24: criticised Saudi league moves and Saudi human-rights record, defended LGBTQ+ community"
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "podcast remarks that migration to Germany had become 'too uncontrolled' and he would feel safer with his daughter out at night in Spain",
+    "outcome": "drew wide coverage and criticism; translation disputed",
+    "source": "https://www.lbc.co.uk/article/toni-kroos-slams-out-of-control-immigration-germany-5HjcnBY_2/"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2024,
+    "what": "appeared in a Visit Dubai promotion with Real Madrid days after criticising Saudi Arabia (club sponsorship); critics called it inconsistent",
+    "type": "other"
+   }
+  ],
+  "links": "Germany",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Toni_Kroos",
+   "https://www.si.com/soccer/2021/03/31/toni-kroos-2022-world-cup-qatar-germany",
+   "https://www.football-espana.net/2024/01/17/real-madrid-midfielder-toni-kroos-panned-for-hypocritical-stance"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sergio Busquets",
+  "full_name": "Sergio Busquets Burgos",
+  "gender": "M",
+  "active": false,
+  "born": 1988,
+  "nation": "Spain",
+  "positions": [
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "from": 2008,
+    "to": 2023,
+    "apps": 722,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "Inter Miami",
+    "from": 2023,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Barcelona captain 2021-2023; Spain captain 2021-2022",
+  "national": {
+   "team": "Spain",
+   "caps": 143,
+   "goals": 2,
+   "captain": true
+  },
+  "honours": "2010 World Cup; Euro 2012; 3 UCL; 9 La Liga; MLS Cup 2025, Supporters' Shield 2024, Leagues Cup 2023 (Inter Miami)",
+  "awards": "UEFA Nations League 2021 Player of the Finals; FIFA FIFPro World XI",
+  "moments": [
+   "2010 World Cup winner at 21",
+   "2010 UCL semi v Inter: went down holding his face, peeked through his fingers as Thiago Motta was sent off",
+   "Retired after Inter Miami won the MLS Cup, Dec 2025"
+  ],
+  "style": [
+   "holding midfielder",
+   "press-resistant",
+   "one-touch passing"
+  ],
+  "work_rate": "high: positional, selfless screening role",
+  "ego": "humble: low-key, team-first",
+  "fan_bond": "La Masia product and Barcelona captain; emotional farewell 2023",
+  "loyalty_notes": "Barcelona academy; first team 2008-23 (age 20-34), captain; late-career move to MLS (Inter Miami) 2023; retired Dec 2025",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2011,
+    "type": "b01",
+    "what": "Real Madrid alleged he called Marcelo 'mono' (monkey) in the UCL semi-final first leg",
+    "outcome": "UEFA dismissed the complaint for lack of strong and convincing evidence; Busquets denied it (said 'mucho morro')",
+    "source": "https://fourfourtwo.com/news/busquets-cleared-play-wembley-final"
+   },
+   {
+    "year": 2010,
+    "type": "b07",
+    "what": "feigned injury vs Inter (peeking through his fingers) as Thiago Motta was sent off",
+    "outcome": "widely criticised; no sanction",
+    "source": "https://en.wikipedia.org/wiki/Sergio_Busquets"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sergio_Busquets",
+   "https://www.mlssoccer.com/news/sergio-busquets-retire-after-inter-miami-2025-season-spain-barca-barcelona-midfielder"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mario Kempes",
+  "full_name": "Mario Alberto Kempes Chiodi",
+  "gender": "M",
+  "active": false,
+  "born": 1954,
+  "nation": "Argentina",
+  "positions": [
+   "ST",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Instituto",
+    "from": 1973,
+    "to": 1974,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Rosario Central",
+    "from": 1974,
+    "to": 1976,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Valencia",
+    "from": 1976,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "River Plate",
+    "from": 1981,
+    "to": 1982,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Valencia",
+    "from": 1982,
+    "to": 1984,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hércules",
+    "from": 1984,
+    "to": 1986,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "First Vienna",
+    "from": 1986,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SKN St. Pölten",
+    "from": 1987,
+    "to": 1990,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Kremser SC",
+    "from": 1990,
+    "to": 1992,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fernández Vial",
+    "from": 1995,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Pelita Jaya",
+    "from": 1996,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Valencia",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Argentina",
+   "caps": 43,
+   "goals": 20,
+   "captain": false
+  },
+  "honours": "1978 World Cup; 1980 Cup Winners' Cup, Copa del Rey 1979 (Valencia)",
+  "awards": "1978 World Cup Golden Ball and Golden Boot; Pichichi 1977, 1978",
+  "moments": [
+   "1978 World Cup final: two goals in 3-1 win over the Netherlands",
+   "Only Europe-based player in Menotti's 1978 squad"
+  ],
+  "style": [
+   "powerful striker",
+   "long-haired runner from deep",
+   "finisher"
+  ],
+  "work_rate": "medium-high",
+  "ego": "neutral: no notable ego stories",
+  "fan_bond": "Valencia idol (top scorer in club history at the time); Córdoba stadium named after him",
+  "loyalty_notes": "Valencia 1976-81 and 1982-84 (two spells, age 22-30); later Austria and lower leagues",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mario_Kempes",
+   "https://espnpressroom.com/bio/mario-kempes/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Michael Laudrup",
+  "full_name": "Michael Laudrup",
+  "gender": "M",
+  "active": false,
+  "born": 1964,
+  "nation": "Denmark",
+  "positions": [
+   "AM",
+   "SS"
+  ],
+  "clubs": [
+   {
+    "club": "Brøndby",
+    "from": 1982,
+    "to": 1983,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lazio",
+    "from": 1983,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1985,
+    "to": 1989,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1989,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 1994,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vissel Kobe",
+    "from": 1996,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Ajax",
+    "from": 1997,
+    "to": 1998,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Denmark captain (1990s)",
+  "national": {
+   "team": "Denmark",
+   "caps": 104,
+   "goals": 37,
+   "captain": true
+  },
+  "honours": "1992 European Cup; 5 consecutive La Liga (4 Barça, 1 Real Madrid); Serie A 1986; Intercontinental Cup 1985; Confederations Cup 1995",
+  "awards": "Danish Player of the Year 1982, 1985; voted best foreign player in La Liga history (Marca 2002)",
+  "moments": [
+   "Barcelona Dream Team 1992 European Cup",
+   "1994: moved from Barcelona to Real Madrid and won the league, part of Madrid's 5-0 over Barça",
+   "1998 World Cup quarter-final run with brother Brian"
+  ],
+  "style": [
+   "playmaker",
+   "no-look passes",
+   "elegant dribbler"
+  ],
+  "work_rate": "medium: creator, not a runner",
+  "ego": "neutral: quiet, but walked out of the national team in 1990 over coach Richard Møller Nielsen",
+  "fan_bond": "Revered at Barcelona until his move to Madrid; Danish national icon",
+  "loyalty_notes": "Joined Real Madrid from Barcelona in 1994 after falling out with Cruyff; boycotted Denmark 1990-93 and missed Euro 92 win",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1990,
+    "type": "other",
+    "what": "quit the Denmark team over disputes with coach Møller Nielsen, missing the Euro 1992 win",
+    "outcome": "returned 1993",
+    "source": "https://en.wikipedia.org/wiki/Michael_Laudrup"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 1994,
+    "what": "joined Real Madrid directly from Barcelona",
+    "type": "b09"
+   },
+   {
+    "year": 2014,
+    "what": "as coach, Lekhwiya (Qatar internal-security club, 2014-15) and Al-Rayyan (2016-18); in Danish media called Qatar-shaming hypocritical",
+    "type": "other"
+   }
+  ],
+  "links": "Denmark",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Michael_Laudrup",
+   "https://avisendanmark.dk/athena-sport/michael-laudrup-kalder-qatar-udskamning-for-hykleri"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Gordon Banks",
+  "full_name": "Gordon Banks",
+  "gender": "M",
+  "active": false,
+  "born": 1937,
+  "nation": "England",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Chesterfield",
+    "from": 1958,
+    "to": 1959,
+    "apps": 23,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Leicester City",
+    "from": 1959,
+    "to": 1967,
+    "apps": 293,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Stoke City",
+    "from": 1967,
+    "to": 1972,
+    "apps": 194,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fort Lauderdale Strikers",
+    "from": 1977,
+    "to": 1978,
+    "apps": 37,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Leicester City",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 73,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1966 World Cup; League Cup 1964 (Leicester), 1972 (Stoke, the club's first major trophy)",
+  "awards": "FIFA Goalkeeper of the Year 6 times; FWA Footballer of the Year 1972; OBE 1970",
+  "moments": [
+   "1970 World Cup: 'save of the century' from Pelé's header",
+   "1966 World Cup winner",
+   "1972: lost sight in right eye in a car crash"
+  ],
+  "style": [
+   "shot-stopper",
+   "positioning"
+  ],
+  "work_rate": "high: renowned for training dedication",
+  "ego": "humble: modest, gracious public figure",
+  "fan_bond": "Stoke City president; much-loved at Leicester and Stoke",
+  "loyalty_notes": "Leicester sold him in 1967 to make way for Peter Shilton; Stoke until 1972 crash; brief NASL comeback 1977-78. Died 12 Feb 2019",
+  "causes": [
+   "2001: sold his 1966 medal to provide for his children; criticised FA's treatment of 1966 squad"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "England",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gordon_Banks"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Denis Law",
+  "full_name": "Denis Law",
+  "gender": "M",
+  "active": false,
+  "born": 1940,
+  "nation": "Scotland",
+  "positions": [
+   "ST",
+   "IF"
+  ],
+  "clubs": [
+   {
+    "club": "Huddersfield Town",
+    "from": 1956,
+    "to": 1960,
+    "apps": 81,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 1960,
+    "to": 1961,
+    "apps": 44,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Torino",
+    "from": 1961,
+    "to": 1962,
+    "apps": 27,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester United",
+    "from": 1962,
+    "to": 1973,
+    "apps": 309,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 1973,
+    "to": 1974,
+    "apps": 24,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Manchester United",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "Manchester United captain in the late 1960s",
+  "national": {
+   "team": "Scotland",
+   "caps": 55,
+   "goals": 30,
+   "captain": true
+  },
+  "honours": "1968 European Cup (missed final injured); 2 league titles (1965, 1967); FA Cup 1963",
+  "awards": "Ballon d'Or 1964 (only Scottish winner); joint Scotland record scorer",
+  "moments": [
+   "1964 Ballon d'Or",
+   "1974: back-heel goal for Man City vs Man United in the derby, did not celebrate",
+   "1967: Scotland's 3-2 win over world champions England at Wembley"
+  ],
+  "style": [
+   "predatory striker",
+   "acrobatic finisher",
+   "fiery"
+  ],
+  "work_rate": "high: combative, tireless",
+  "ego": "neutral: showman celebrations (one-arm salute), but modest in later life",
+  "fan_bond": "'The King' of the Stretford End; statue at Old Trafford",
+  "loyalty_notes": "Settled at United 1962-73 (age 22-33); released by United 1973, rejoined City; Torino spell 1961-62 ended acrimoniously",
+  "causes": [
+   "Denis Law Legacy Trust (Aberdeen, youth sport); 2021: went public with dementia diagnosis, urged action on heading",
+   "Died 17 Jan 2025"
+  ],
+  "incidents": [
+   {
+    "year": 1967,
+    "type": "b06",
+    "what": "sent off after fighting Arsenal's Ian Ure at Old Trafford",
+    "outcome": "suspended (reports vary: six weeks/matches to nine games)",
+    "source": "https://en.wikipedia.org/wiki/Ian_Ure"
+   }
+  ],
+  "money_moves": [],
+  "links": "Scotland",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Denis_Law",
+   "https://uk.sports.yahoo.com/news/denis-law-played-beautifully-era-073700080.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Paolo Rossi",
+  "full_name": "Paolo Rossi",
+  "gender": "M",
+  "active": false,
+  "born": 1956,
+  "nation": "Italy",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Juventus",
+    "from": 1975,
+    "to": 1976,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Como",
+    "from": 1975,
+    "to": 1976,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vicenza",
+    "from": 1976,
+    "to": 1979,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Perugia",
+    "from": 1979,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1981,
+    "to": 1985,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1985,
+    "to": 1986,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hellas Verona",
+    "from": 1986,
+    "to": 1987,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Juventus",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Italy",
+   "caps": 48,
+   "goals": 20,
+   "captain": false
+  },
+  "honours": "1982 World Cup; 1985 European Cup; 2 Serie A; Cup Winners' Cup 1984",
+  "awards": "1982 Ballon d'Or; 1982 World Cup Golden Ball and Golden Boot",
+  "moments": [
+   "1982 World Cup: hat-trick vs Brazil, both goals in semi vs Poland, opener in the final",
+   "Came back from a two-year Totonero ban weeks before the 1982 World Cup",
+   "Died 9 Dec 2020"
+  ],
+  "style": [
+   "poacher",
+   "movement in the box"
+  ],
+  "work_rate": "medium",
+  "ego": "humble: modest, smiling public persona",
+  "fan_bond": "National hero 'Pablito'; Vicenza fan favourite",
+  "loyalty_notes": "Vicenza 1976-79 (co-ownership saga), Juventus 1981-85; injuries shortened career, retired at 31",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1980,
+    "type": "b04",
+    "what": "implicated in the Totonero betting scandal over Avellino-Perugia (Dec 1979) while at Perugia",
+    "outcome": "sporting ban of three years, cut to two on appeal; always maintained innocence; criminal defendants acquitted as sports fraud was not then a crime",
+    "source": "https://en.wikipedia.org/wiki/1980_Totonero"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paolo_Rossi",
+   "https://en.wikipedia.org/wiki/1980_Totonero"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Marcel Desailly",
+  "full_name": "Marcel Desailly",
+  "gender": "M",
+  "active": false,
+  "born": 1968,
+  "nation": "France",
+  "positions": [
+   "CB",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Nantes",
+    "from": 1986,
+    "to": 1992,
+    "apps": 164,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Marseille",
+    "from": 1992,
+    "to": 1993,
+    "apps": 34,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1993,
+    "to": 1998,
+    "apps": 186,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 1998,
+    "to": 2004,
+    "apps": 222,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Al-Gharafa",
+    "from": 2004,
+    "to": 2005,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Qatar SC",
+    "from": 2005,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Chelsea",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "Chelsea captain 2001-04; France captain 2000-04",
+  "national": {
+   "team": "France",
+   "caps": 116,
+   "goals": 3,
+   "captain": true
+  },
+  "honours": "1998 World Cup; Euro 2000; 2 European Cups (1993 Marseille, 1994 Milan); 2 Serie A; FA Cup 2000",
+  "awards": "FIFA 100; Chelsea Player of the Year 1999",
+  "moments": [
+   "Won the Champions League in consecutive years with two clubs (1993, 1994), scoring in the 1994 final",
+   "Sent off in the 1998 World Cup final",
+   "Captained France to the 2001 Confederations Cup"
+  ],
+  "style": [
+   "athletic centre-back",
+   "defensive midfielder",
+   "'The Rock'"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Respected Chelsea captain",
+  "loyalty_notes": "Nantes academy; moves 1992-93 (Marseille) and 1993 (Milan) at 24-25 for bigger clubs; settled Milan 5 years, Chelsea 6; ended career in Qatar",
+  "causes": [
+   "UNICEF goodwill ambassador (Ghana); lifetime goodwill ambassador of OrphanAid Africa",
+   "2013: said FIFA/UEFA must set firmer rules on racism, recalled racist chants he faced in Italy"
+  ],
+  "incidents": [
+   {
+    "year": 2016,
+    "type": "other",
+    "what": "French court declared him the father of Aida Mendy after he declined a paternity test",
+    "outcome": "civil ruling",
+    "source": "https://www.africanews.com/2016/03/19/court-rules-that-desailly-is-father-of-25-year-old-woman//"
+   },
+   {
+    "year": 2024,
+    "type": "b02",
+    "what": "former partner, in a paternity and child-support case, accused him of physical violence",
+    "outcome": "allegations reported in press (Le Parisien); no criminal charge or ruling found; DNA test confirmed paternity",
+    "source": "https://www.purepeople.com/article/marcel-desailly-papa-d-une-fillette-de-8-ans-et-violent-avec-la-mere-ces-terribles-accusations-de-son-ex-compagne_a502450/1"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2004,
+    "what": "ended career in the Qatar Stars League (Al-Gharafa, Qatar SC)",
+    "type": "other"
+   }
+  ],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marcel_Desailly",
+   "https://www.goal.com/fr/listes/marcel-desailly-de-nouvelles-accusations-qui-font-froid-dans-le-dos/bltec8a2be75eea36af",
+   "https://www.uefa.com/news-media/news/018f-0f8449aa4665-08e00b8931c2-1000--desailly-s-call-to-players"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Giacinto Facchetti",
+  "full_name": "Giacinto Facchetti",
+  "gender": "M",
+  "active": false,
+  "born": 1942,
+  "nation": "Italy",
+  "positions": [
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Inter Milan",
+    "from": 1960,
+    "to": 1978,
+    "apps": 634,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Inter Milan",
+  "longest_years": 18,
+  "one_club": true,
+  "captaincy": "Inter captain (late 1960s-1978); Italy captain 70 times",
+  "national": {
+   "team": "Italy",
+   "caps": 94,
+   "goals": 3,
+   "captain": true
+  },
+  "honours": "Euro 1968; 2 European Cups (1964, 1965); 2 Intercontinental Cups; 4 Serie A",
+  "awards": "Ballon d'Or runner-up 1965; FIFA 100; Inter retired No. 3",
+  "moments": [
+   "Pioneer of the attacking full-back in Herrera's Grande Inter",
+   "Called the coin toss win as captain in 1968 Euro semi; lifted Euro 1968",
+   "1970 World Cup final captain"
+  ],
+  "style": [
+   "attacking full-back",
+   "goal-scoring defender",
+   "elegant"
+  ],
+  "work_rate": "high",
+  "ego": "humble: gentleman of the game, sent off once in his career",
+  "fan_bond": "Inter one-club icon; later club president 2004-06; Inter's No. 3 retired",
+  "loyalty_notes": "One-club career at Inter 1960-78; then director and president; died 4 Sept 2006",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2011,
+    "type": "other",
+    "what": "Calciopoli wiretaps showed regular contacts with referee designators as Inter official; FIGC prosecutor Palazzi said he would have breached Article 6",
+    "outcome": "posthumous, time-barred; no sanction; his son's defamation suit against Moggi dismissed",
+    "source": "https://www.goal.com/en/news/revealed-inter-could-be-be-stripped-of-2006-scudetto/bltbec37f48a6efff70"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Giacinto_Facchetti"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gunnar Nordahl",
+  "full_name": "Gunnar Nordahl",
+  "gender": "M",
+  "active": false,
+  "born": 1921,
+  "nation": "Sweden",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Hörnefors IF",
+    "from": 1937,
+    "to": 1940,
+    "apps": 41,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Degerfors IF",
+    "from": 1940,
+    "to": 1944,
+    "apps": 77,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "IFK Norrköping",
+    "from": 1944,
+    "to": 1949,
+    "apps": 92,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1949,
+    "to": 1956,
+    "apps": 257,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Roma",
+    "from": 1956,
+    "to": 1958,
+    "apps": 34,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Karlstad BIK",
+    "from": 1959,
+    "to": 1960,
+    "apps": 24,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "AC Milan",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Sweden",
+   "caps": 33,
+   "goals": 43,
+   "captain": false
+  },
+  "honours": "1948 Olympic gold; 2 Serie A (1951, 1955); 4 Swedish titles (Norrköping)",
+  "awards": "Serie A top scorer 5 times; Milan all-time top scorer (210 league)",
+  "moments": [
+   "1948 London Olympics gold",
+   "Gre-No-Li trio (Gren, Nordahl, Liedholm) at Milan",
+   "1951 Milan's first scudetto in 44 years"
+  ],
+  "style": [
+   "powerful centre-forward",
+   "prolific finisher"
+  ],
+  "work_rate": "medium",
+  "ego": "humble: worked as a fireman while an amateur in Sweden",
+  "fan_bond": "Milan legend, 'Il Pompiere' (the fireman)",
+  "loyalty_notes": "Turned pro with Milan 1949 at 27, ending his Sweden career (amateur rules); 7 years at Milan. Died 15 Sept 1995",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gunnar_Nordahl"
+  ],
+  "confidence": "medium"
+ }
+]

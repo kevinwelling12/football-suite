@@ -1,0 +1,25 @@
+{
+ "source": "AncestryDNA ethnicity estimate, October 2026 model update",
+ "rule": "Nation heritage bonus = 0.4 x ancestry share (%), capped at +10 (25%). Regions that span nations are split as in 'split'. The United States keeps +10 as Kevin's home nation. Clubs get no heritage bonus (only Sacramento Republic, hometown +4).",
+ "regions": {
+  "Southeastern England": 13, "Devon & Somerset": 9, "West Midlands": 9, "East Midlands & Yorkshire": 7, "Northern England": 2,
+  "Ulster, Ireland": 12, "Scottish Lowlands & Central Belt": 11, "Leinster, Ireland": 2, "Northern Wales & North West England": 1,
+  "Madeira": 17,
+  "Bavaria & Western Austria": 4, "Belgium": 2, "Northwestern Germany": 2, "Northeastern Germany": 1, "Switzerland": 1,
+  "Lithuania": 3, "Central & Eastern Poland": 2, "Western Czechia": 2
+ },
+ "split": {
+  "Southeastern England": {"England": 1}, "Devon & Somerset": {"England": 1}, "West Midlands": {"England": 1},
+  "East Midlands & Yorkshire": {"England": 1}, "Northern England": {"England": 1},
+  "Ulster, Ireland": {"Northern Ireland": 0.67, "Republic of Ireland": 0.33},
+  "Scottish Lowlands & Central Belt": {"Scotland": 1}, "Leinster, Ireland": {"Republic of Ireland": 1},
+  "Northern Wales & North West England": {"Wales": 0.5, "England": 0.5},
+  "Madeira": {"Portugal": 1},
+  "Bavaria & Western Austria": {"Germany": 0.75, "Austria": 0.25}, "Belgium": {"Belgium": 1},
+  "Northwestern Germany": {"Germany": 1}, "Northeastern Germany": {"Germany": 1}, "Switzerland": {"Switzerland": 1},
+  "Lithuania": {"Lithuania": 1}, "Central & Eastern Poland": {"Poland": 1}, "Western Czechia": {"Czech Republic": 1}
+ },
+ "previous": {"note": "October 2025 model, as stored before this update (bonus0 = share)",
+  "England": 25, "Portugal": 14.9, "Germany": 9.3, "Scotland": 4.4, "Lithuania": 1.3, "Netherlands": 0.9, "Denmark": 0.6,
+  "Poland": 0.6, "Wales": 0.6, "Finland": 0.3, "Republic of Ireland": 0.3, "Spain": 0.3}
+}

@@ -5,7 +5,8 @@ Five factors, 0-10 each, weights from Kevin's own ranking (re-rate 2026-09):
 Values 26% · Supporter culture 23% · History & identity 16% · Team 15% · Ownership 10%
 (quiz round 5, 2026-09-29; round 4: 27 / 20 / 17 / 16 / 10; round 3: 26 / 26 / 14 / 12 / 12; before: 28 / 26 / 16 / 12 / Style 8; originally 22 / 28 / 18 / 14 / 8).
 base = weighted sum / 0.90 * 10 * track record coefficient + adjustments.
-Bonus: nations keep a heritage tiebreaker up to +10. Clubs have no regional bonus; only the hometown club
+Bonus: nations keep a heritage tiebreaker up to +10: 0.4 per % of Kevin's AncestryDNA estimate (scripts/affinity/heritage.json,
+updated with Ancestry's yearly model; regions spanning nations split there, e.g. Ulster 2/3 Northern Ireland). Clubs have no regional bonus; only the hometown club
 (Sacramento Republic FC) gets +4.
 
 Rules decided with Kevin (apply consistently):
@@ -258,3 +259,10 @@ to ... all while delivering performances on the pitch worthy of the highlight re
 - Effect: role models with modest careers drop (Trimmel 82 -> 76, Chara 76 -> 71, Inaki Williams 88 -> 81); stars with
   baggage gain a little (Messi 36 -> 41); top: Muller 89, Iniesta 95, Bonmati 94, Sinclair 94.
 - players_link.py uses the same score without connection, so clubs and players still don't echo.
+
+Heritage update (2026-10-08, AncestryDNA October 2026 model): heritage.json holds the regions and how they split by nation;
+rescore.py sets each nation's bonus = 0.4 x share, capped at +10 (the old per-nation numbers had no recorded rule; 0.4 per
+% is the stored bonus/bonus0 ratio). Changes: Scotland +1.8 -> +4.4 (Scottish Lowlands 11%), Northern Ireland 0 -> +3.2 and
+Republic of Ireland +0.1 -> +2.4 (Ulster 12% split 2/3-1/3, Leinster 2%), Portugal +6.0 -> +6.8 (Madeira 17%),
+Germany +3.7 -> +2.4, Belgium, Czech Republic, Poland +0.8, Lithuania +1.2, Austria and Switzerland +0.4; Netherlands,
+Denmark, Finland and Spain drop to 0. England stays at the +10 cap (40%), United States +10 (home nation).

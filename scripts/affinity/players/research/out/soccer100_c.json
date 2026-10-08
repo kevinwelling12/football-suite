@@ -1,0 +1,1131 @@
+[
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Napoli 1967-72",
+  "confidence": "high",
+  "name": "Dino Zoff",
+  "full_name": "Dino Zoff",
+  "born": 1942,
+  "nation": "Italy",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Udinese",
+    "from": 1961,
+    "to": 1963,
+    "apps": 38,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Mantova",
+    "from": 1963,
+    "to": 1967,
+    "apps": 131,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Napoli",
+    "from": 1967,
+    "to": 1972,
+    "apps": 143,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1972,
+    "to": 1983,
+    "apps": 330,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Juventus",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "Juventus captain (late 1970s-1983); Italy captain incl. 1982 World Cup",
+  "national": {
+   "team": "Italy",
+   "caps": 112,
+   "goals": 0,
+   "captain": true
+  },
+  "honours": "1982 World Cup, Euro 1968, 6 Serie A, 2 Coppa Italia, 1977 UEFA Cup",
+  "awards": "Ballon d'Or runner-up 1973; oldest World Cup winner (40)",
+  "moments": [
+   "Captained Italy to the 1982 World Cup at 40, key save vs Brazil",
+   "1,142 minutes unbeaten for Italy (1972-74)",
+   "Resigned as Italy coach after Euro 2000 final over Berlusconi's criticism"
+  ],
+  "style": [
+   "calm, positional goalkeeper",
+   "leader"
+  ],
+  "work_rate": "high (renowned professionalism, 332 consecutive Serie A matches)",
+  "ego": "humble (quiet, reserved; known for dignity)",
+  "fan_bond": "Respected across Italy; Juventus and Napoli legend; later Juve and Lazio coach, Lazio president",
+  "loyalty_notes": "Settled at Mantova at 21, Napoli 5 years, Juventus 11 years from age 30 to retirement; coached Juventus (1988-90), Lazio and Italy",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dino_Zoff",
+   "https://en.wikipedia.org/wiki/Italy_national_football_team"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "confidence": "high",
+  "name": "Paco Gento",
+  "full_name": "Francisco Gento López",
+  "born": 1933,
+  "nation": "Spain",
+  "positions": [
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Racing Santander",
+    "from": 1952,
+    "to": 1953,
+    "apps": 10,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Real Madrid",
+    "from": 1953,
+    "to": 1971,
+    "apps": 600,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 18,
+  "one_club": false,
+  "captaincy": "Real Madrid captain 1962-1971",
+  "national": {
+   "team": "Spain",
+   "caps": 43,
+   "goals": 5,
+   "captain": false
+  },
+  "honours": "6 European Cups (record), 12 La Liga (record), 2 Copa del Generalísimo, 1960 Intercontinental Cup",
+  "awards": "Only player with six European Cup wins (until Carvajal, Modrić, Kroos, Nacho 2024); Real Madrid honorary president 2016-22",
+  "moments": [
+   "Won the first five European Cups 1956-60",
+   "Captained the 'Yé-yé' side to the 1966 European Cup"
+  ],
+  "style": [
+   "very fast left winger",
+   "crosser"
+  ],
+  "work_rate": "high",
+  "ego": "humble (reserved, low-profile)",
+  "fan_bond": "Real Madrid icon; honorary president from 2016 until his death in January 2022",
+  "loyalty_notes": "One senior season at Racing, then 18 seasons at Real Madrid (age 20-38), captain 9 years. Died 18 Jan 2022",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Francisco_Gento",
+   "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Barcelona 1958-65",
+  "confidence": "medium",
+  "name": "Sándor Kocsis",
+  "full_name": "Sándor Kocsis Péter",
+  "born": 1929,
+  "nation": "Hungary",
+  "positions": [
+   "ST",
+   "IF"
+  ],
+  "clubs": [
+   {
+    "club": "Ferencváros",
+    "from": 1946,
+    "to": 1950,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Budapest Honvéd",
+    "from": 1950,
+    "to": 1956,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Young Boys",
+    "from": 1957,
+    "to": 1958,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Barcelona",
+    "from": 1958,
+    "to": 1965,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Barcelona",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Hungary",
+   "caps": 68,
+   "goals": 75,
+   "captain": false
+  },
+  "honours": "1952 Olympic gold, 1954 World Cup runner-up, 3 Hungarian titles, 2 La Liga, 2 Copa del Generalísimo, 2 Fairs Cups",
+  "awards": "1954 World Cup top scorer (11); first to score two World Cup hat-tricks",
+  "moments": [
+   "11 goals at the 1954 World Cup incl. two hat-tricks",
+   "Two headers in the 1954 semi-final vs Uruguay",
+   "Scored in the 1961 European Cup final for Barcelona (lost 3-2 to Benfica)"
+  ],
+  "style": [
+   "'Golden Head', elite header",
+   "inside forward in the Golden Team"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral (no reputation either way)",
+  "fan_bond": "Hungarian 'Golden Team' legend; respected at Barcelona",
+  "loyalty_notes": "Moved to army club Honvéd 1950 (state-arranged); stayed in the West after the 1956 uprising during a Honvéd tour abroad, then Barcelona 1958-65. Died 1979 after a fall from a Barcelona hospital window while ill with cancer",
+  "sources": [
+   "https://en.wikipedia.org/wiki/S%C3%A1ndor_Kocsis"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1940,
+    "type": "b09",
+    "what": "joined AC Milan (Inter's city rival) after Inter let him go during a long injury",
+    "outcome": "returned to Inter 1946",
+    "source": "https://en.wikipedia.org/wiki/Giuseppe_Meazza"
+   },
+   {
+    "year": 1938,
+    "type": "other",
+    "what": "Italy squad he captained gave the fascist salute before the World Cup match in Marseille vs Norway (team-wide, under the Mussolini regime)",
+    "outcome": "booed by anti-fascist exiles in the crowd",
+    "source": "https://en.wikipedia.org/wiki/1938_FIFA_World_Cup"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "confidence": "medium",
+  "name": "Giuseppe Meazza",
+  "full_name": "Giuseppe Meazza",
+  "born": 1910,
+  "nation": "Italy",
+  "positions": [
+   "ST",
+   "IF"
+  ],
+  "clubs": [
+   {
+    "club": "Inter (Ambrosiana)",
+    "from": 1927,
+    "to": 1940,
+    "apps": 365,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "AC Milan",
+    "from": 1940,
+    "to": 1942,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1942,
+    "to": 1943,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Varese",
+    "from": 1943,
+    "to": 1944,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atalanta",
+    "from": 1945,
+    "to": 1946,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter",
+    "from": 1946,
+    "to": 1947,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Inter",
+  "longest_years": 14,
+  "one_club": false,
+  "captaincy": "Inter captain 1930s; Italy captain 1938 World Cup",
+  "national": {
+   "team": "Italy",
+   "caps": 53,
+   "goals": 33,
+   "captain": true
+  },
+  "honours": "1934 and 1938 World Cups, 3 Serie A, 1939 Coppa Italia, 2 Central European International Cups",
+  "awards": "Serie A top scorer 3 times; 1934 World Cup best player; San Siro officially named Stadio Giuseppe Meazza (1980)",
+  "moments": [
+   "Scored the 1938 World Cup semi-final penalty vs Brazil, reportedly holding up his shorts",
+   "Captain of the 1938 world champions"
+  ],
+  "style": [
+   "dribbling inside forward",
+   "creative goal scorer",
+   "showman"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral (celebrity of his era, known for nightlife)",
+  "fan_bond": "Inter's greatest early idol; stadium bears his name",
+  "loyalty_notes": "Inter academy, 13 seasons; after a foot circulation problem Inter released him and he joined rival AC Milan 1940; returned to Inter 1946 as player-coach. Died 1979",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Giuseppe_Meazza",
+   "https://en.wikipedia.org/wiki/1938_FIFA_World_Cup"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [
+   "Co-founded and led the French players' union UNFP (1961), which fought the lifetime 'slave' contracts tying players to clubs until 35"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "confidence": "high",
+  "name": "Just Fontaine",
+  "full_name": "Just Louis Fontaine",
+  "born": 1933,
+  "nation": "France",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "USM Casablanca",
+    "from": 1950,
+    "to": 1953,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Nice",
+    "from": 1953,
+    "to": 1956,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Reims",
+    "from": 1956,
+    "to": 1962,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Reims",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France",
+   "caps": 21,
+   "goals": 30,
+   "captain": false
+  },
+  "honours": "4 French titles (Nice 1956, Reims 1958, 1960, 1962), 2 Coupes de France; 1959 European Cup runner-up; 1958 World Cup third",
+  "awards": "Record 13 goals at one World Cup (1958)",
+  "moments": [
+   "13 goals at the 1958 World Cup, still the record",
+   "Career ended at 28 by two leg fractures (1960-61)"
+  ],
+  "style": [
+   "fast, clinical centre-forward"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Reims legend; lived in Toulouse later; died 1 March 2023",
+  "loyalty_notes": "Nice 3 years, Reims 6 years until injury forced retirement at 28. Later coach of France (1967), PSG (1973-76, pre-Qatar ownership) and Morocco",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Just_Fontaine",
+   "https://www.unfp.org/"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1938,
+    "type": "other",
+    "what": "bought a café from Jewish owner Leopold Drill through the Nazi 'Aryanisation' process, at a price set below value by the Nazi administrator",
+    "outcome": "historians disagree on his role and knowledge; a 2003 Falter article ('Parteigenosse Sindelar') alleging Nazi party membership is disputed; the Gestapo reportedly kept a file on him and his café; a Vienna-commissioned review could not determine whether he knew of the coercion",
+    "source": "https://www.falter.at/zeitung/20031217/parteigenosse-sindelar"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "confidence": "medium",
+  "name": "Matthias Sindelar",
+  "full_name": "Matthias Sindelar",
+  "born": 1903,
+  "nation": "Austria",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Hertha Wien",
+    "from": 1918,
+    "to": 1924,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Austria Wien",
+    "from": 1924,
+    "to": 1939,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Austria Wien",
+  "longest_years": 15,
+  "one_club": false,
+  "captaincy": "Austria Wien; leader of Austria's 'Wunderteam'",
+  "national": {
+   "team": "Austria",
+   "caps": 43,
+   "goals": 27,
+   "captain": true
+  },
+  "honours": "2 Mitropa Cups (1933, 1936), Austrian titles, 1934 World Cup fourth",
+  "awards": "Voted Austria's footballer of the century (1999)",
+  "moments": [
+   "Led the 'Wunderteam' (1931-33)",
+   "Scored in the April 1938 'Anschluss match' vs Germany; reported to have celebrated in front of Nazi officials",
+   "Declined to play for the German national team after the Anschluss, citing age and injury"
+  ],
+  "style": [
+   "slight, creative centre-forward ('Der Papierene')",
+   "dribbler",
+   "playmaking striker"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "Viennese hero; around 15,000-40,000 attended his 1939 funeral",
+  "loyalty_notes": "Austria Wien 15 years from age 21 to his death in January 1939 (carbon monoxide poisoning; accident, suicide or foul play debated)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Matthias_Sindelar",
+   "https://www.falter.at/zeitung/20050413/in-der-grauzone",
+   "https://www.wbur.org/onlyagame/2018/10/26/matthias-sindelar-nazi-soccer"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [
+   "Had a banana held/thrown at him by a fan in Russia (2011, Anzhi), spoke out and walked off"
+  ],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "Rio de Janeiro court ordered three months' jail over unpaid child support (about R$61,000)",
+    "outcome": "his side said payments were being made; he lived abroad and was not detained",
+    "source": "https://www.si.com/soccer/2017/08/25/roberto-carlos-sentenced-3-months-jail-after-failing-pay-more-ps15000-child-support"
+   },
+   {
+    "year": 2016,
+    "type": "other",
+    "what": "paid brand ambassador for betting firms (Tempobet 2016, planetwin365 2016-19, BetWinner 2020-22) and a crypto casino (LUCKY.io)",
+    "outcome": "",
+    "source": "https://sbcamericas.com/2020/07/03/roberto-carlos-becomes-betwinners-brand-ambassador-in-latam/"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "confidence": "high",
+  "name": "Roberto Carlos",
+  "full_name": "Roberto Carlos da Silva Rocha",
+  "born": 1973,
+  "nation": "Brazil",
+  "positions": [
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "União São João",
+    "from": 1991,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Palmeiras",
+    "from": 1993,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter",
+    "from": 1995,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 1996,
+    "to": 2007,
+    "apps": 527,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fenerbahçe",
+    "from": 2007,
+    "to": 2009,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Corinthians",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Anzhi Makhachkala",
+    "from": 2011,
+    "to": 2012,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Delhi Dynamos",
+    "from": 2015,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "Real Madrid vice-captain; Anzhi captain 2011-12",
+  "national": {
+   "team": "Brazil",
+   "caps": 125,
+   "goals": 11,
+   "captain": false
+  },
+  "honours": "2002 World Cup, 2 Copa América, 1997 Confederations Cup, 3 Champions League, 4 La Liga, 2 Intercontinental Cups",
+  "awards": "Ballon d'Or runner-up 2002; FIFA World Player runner-up 1997",
+  "moments": [
+   "Swerving 35-metre free kick vs France, Tournoi de France 1997",
+   "2002 World Cup winner",
+   "Crossed for Zidane's volley in the 2002 Champions League final"
+  ],
+  "style": [
+   "attacking left-back",
+   "explosive pace",
+   "power free kicks"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (flamboyant but team-oriented)",
+  "fan_bond": "Real Madrid icon and club ambassador; left Corinthians 2011 after threats from fans",
+  "loyalty_notes": "11 seasons at Real Madrid from age 23; left Inter after one season (clash over his position); later Fenerbahçe, Corinthians, Anzhi (owned by billionaire Suleyman Kerimov)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Roberto_Carlos",
+   "https://www.si.com/soccer/2017/08/25/roberto-carlos-sentenced-3-months-jail-after-failing-pay-more-ps15000-child-support",
+   "https://sbcnews.co.uk/marketing/2016/07/19/roberto-carlos-becomes-brand-ambassador-tempobet/"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 1949-57, 1962; Wales",
+  "confidence": "high",
+  "name": "John Charles",
+  "full_name": "William John Charles",
+  "born": 1931,
+  "nation": "Wales",
+  "positions": [
+   "CF",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Leeds United",
+    "from": 1949,
+    "to": 1957,
+    "apps": 297,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 1957,
+    "to": 1962,
+    "apps": 155,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 1962,
+    "to": 1962,
+    "apps": 11,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Roma",
+    "from": 1962,
+    "to": 1963,
+    "apps": 10,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Cardiff City",
+    "from": 1963,
+    "to": 1966,
+    "apps": 69,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hereford United",
+    "from": 1966,
+    "to": 1971,
+    "apps": 173,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Merthyr Tydfil",
+    "from": 1972,
+    "to": 1974,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Leeds United",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "Leeds United captain (mid-1950s)",
+  "national": {
+   "team": "Wales",
+   "caps": 38,
+   "goals": 15,
+   "captain": false
+  },
+  "honours": "3 Serie A, 2 Coppa Italia, 2 Welsh Cups; 1958 World Cup quarter-finalist",
+  "awards": "Ballon d'Or third 1959; voted Juventus' best foreign player (1997)",
+  "moments": [
+   "British record transfer to Juventus 1957; Serie A top scorer in his first season",
+   "Never booked or sent off in his career"
+  ],
+  "style": [
+   "centre-forward and centre-back",
+   "aerial power",
+   "fair, clean player"
+  ],
+  "work_rate": "high",
+  "ego": "humble ('Il Gigante Buono', the Gentle Giant)",
+  "fan_bond": "Idolised at Leeds and Juventus; Leeds stand named after him; died 2004",
+  "loyalty_notes": "8 years at Leeds, then Juventus 5 years (age 25-30) for a record fee; short spells at Leeds, Roma, Cardiff, then Hereford player-manager",
+  "sources": [
+   "https://en.wikipedia.org/wiki/John_Charles",
+   "https://www.uefa.com/news-media/news/019a-0f84540fb5b6-d1766498fc7b-1000--welsh-legend-charles-passes-away"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1930,
+    "type": "other",
+    "what": "punched a spectator who racially taunted him as he left the pitch (1930s, London)",
+    "outcome": "no action taken; a police officer reportedly said the man deserved it",
+    "source": "https://en.wikipedia.org/wiki/Racism_in_English_football"
+   }
+  ],
+  "money_moves": [],
+  "links": "Everton (Liverpool's Merseyside rival)",
+  "confidence": "high",
+  "name": "Dixie Dean",
+  "full_name": "William Ralph Dean",
+  "born": 1907,
+  "nation": "England",
+  "positions": [
+   "CF"
+  ],
+  "clubs": [
+   {
+    "club": "Tranmere Rovers",
+    "from": 1923,
+    "to": 1925,
+    "apps": 27,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Everton",
+    "from": 1925,
+    "to": 1938,
+    "apps": 399,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Notts County",
+    "from": 1938,
+    "to": 1939,
+    "apps": 9,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sligo Rovers",
+    "from": 1939,
+    "to": 1939,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Everton",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "Everton captain (1930s)",
+  "national": {
+   "team": "England",
+   "caps": 16,
+   "goals": 18,
+   "captain": false
+  },
+  "honours": "2 First Division titles (1928, 1932), Second Division 1931, 1933 FA Cup",
+  "awards": "60 league goals in 1927-28, still the English top-flight record; 383 goals for Everton",
+  "moments": [
+   "60th league goal on the final day of 1927-28",
+   "Captained Everton to the 1933 FA Cup"
+  ],
+  "style": [
+   "aerial centre-forward",
+   "prolific header"
+  ],
+  "work_rate": "high",
+  "ego": "neutral",
+  "fan_bond": "Everton's greatest icon; statue at Goodison (2001); died at Goodison during the Merseyside derby, 1 March 1980",
+  "loyalty_notes": "Everton 12+ years from age 18; sold to Notts County 1938 when no longer first choice",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dixie_Dean",
+   "https://en.wikipedia.org/wiki/Racism_in_English_football"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "",
+  "confidence": "high",
+  "name": "Gigi Riva",
+  "full_name": "Luigi Riva",
+  "born": 1944,
+  "nation": "Italy",
+  "positions": [
+   "ST",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Legnano",
+    "from": 1962,
+    "to": 1963,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Cagliari",
+    "from": 1963,
+    "to": 1976,
+    "apps": 315,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Cagliari",
+  "longest_years": 13,
+  "one_club": false,
+  "captaincy": "Cagliari captain",
+  "national": {
+   "team": "Italy",
+   "caps": 42,
+   "goals": 35,
+   "captain": false
+  },
+  "honours": "Serie A 1970 (Cagliari's only title), Euro 1968, 1970 World Cup runner-up",
+  "awards": "Italy's all-time top scorer (35); Serie A top scorer 3 times; Ballon d'Or runner-up 1969; Cagliari retired No. 11; honorary president of Cagliari",
+  "moments": [
+   "Led Cagliari to the 1970 scudetto",
+   "Scored in the Euro 1968 final replay",
+   "Goal in the 1970 'Game of the Century' semi-final vs West Germany"
+  ],
+  "style": [
+   "powerful left-footed striker",
+   "'Rombo di Tuono'"
+  ],
+  "work_rate": "high",
+  "ego": "humble (shy, reserved, avoided the spotlight)",
+  "fan_bond": "Sardinia's adopted son; turned down Juventus and others to stay; lived in Cagliari until his death on 22 Jan 2024",
+  "loyalty_notes": "Cagliari from age 18 to retirement (13 years) despite repeated big offers from Juventus; two broken legs on Italy duty. Italy team manager 1988-2013 (incl. 2006 World Cup)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gigi_Riva",
+   "https://www.avvenire.it/agora/sport/gigi-riva-70-anni-di-solitudine_17399"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [
+   "Co-founded Diambars academy and NGO in Senegal (2003), education plus football",
+   "Repeatedly spoke on racism in football and the lack of Black coaches (CNN 2022); took his Nice players off in a friendly after alleged racial abuse"
+  ],
+  "incidents": [
+   {
+    "year": 1999,
+    "type": "b06",
+    "what": "spat at West Ham's Neil Ruddock after a red card",
+    "outcome": "FA six-match ban and £45,000 fine",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Vieira"
+   },
+   {
+    "year": 2005,
+    "type": "other",
+    "what": "tunnel confrontation with Roy Keane before Arsenal v Manchester United",
+    "outcome": "no action",
+    "source": "https://en.wikipedia.org/wiki/Patrick_Vieira"
+   },
+   {
+    "year": 2022,
+    "type": "other",
+    "what": "as Crystal Palace manager kicked out at an Everton fan who goaded him during a pitch invasion",
+    "outcome": "no FA action; police closed inquiry as the fan declined to complain",
+    "source": "https://www.fourfourtwo.com/news/patrick-vieira-to-face-no-fa-action-over-altercation-with-fan-at-goodison-park-1653488527000"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2010,
+    "what": "joined Manchester City (Abu Dhabi-owned)",
+    "type": "b11"
+   },
+   {
+    "year": 2011,
+    "what": "City Football Group staff 2011-18 (Man City football development, EDS coach, NYCFC head coach)",
+    "type": "b11"
+   }
+  ],
+  "links": "Senegal head coach 2026-",
+  "confidence": "high",
+  "name": "Patrick Vieira",
+  "full_name": "Patrick Vieira",
+  "born": 1976,
+  "nation": "France",
+  "positions": [
+   "CM",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Cannes",
+    "from": 1993,
+    "to": 1995,
+    "apps": 49,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 1995,
+    "to": 1996,
+    "apps": 2,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Arsenal",
+    "from": 1996,
+    "to": 2005,
+    "apps": 406,
+    "captain": true,
+    "academy": false
+   },
+   {
+    "club": "Juventus",
+    "from": 2005,
+    "to": 2006,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Inter",
+    "from": 2006,
+    "to": 2010,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2010,
+    "to": 2011,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Arsenal",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "Cannes captain at 19; Arsenal captain 2002-05 (2003-04 'Invincibles'); France captain at times",
+  "national": {
+   "team": "France",
+   "caps": 107,
+   "goals": 6,
+   "captain": true
+  },
+  "honours": "1998 World Cup, Euro 2000, 2001 Confederations Cup, 3 Premier League, 4 FA Cups, 4 Serie A (Inter), 2011 FA Cup (Man City)",
+  "awards": "PFA Team of the Year 6 times; FIFA 100",
+  "moments": [
+   "Captained the 2003-04 Arsenal Invincibles",
+   "Set up Petit's goal in the 1998 World Cup final",
+   "Winning penalty with his last kick for Arsenal, 2005 FA Cup final"
+  ],
+  "style": [
+   "box-to-box midfielder",
+   "ball-winner",
+   "driving runner"
+  ],
+  "work_rate": "high",
+  "ego": "neutral (dominant leader; combative)",
+  "fan_bond": "Arsenal legend; flirted with Real Madrid in 2004 before leaving for Juventus in 2005",
+  "loyalty_notes": "Arsenal age 20-29, captain 3 seasons; left 2005; ended career at Man City (Abu Dhabi-owned) and worked for City Football Group 2011-18 (Man City youth, NYCFC coach). Coached Nice, Crystal Palace, Strasbourg, Genoa; Senegal head coach from Aug 2026",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Patrick_Vieira",
+   "https://en.wikipedia.org/wiki/Diambars_FC",
+   "https://ktvz.com/sports/cnn-sports/2022/10/14/patrick-vieira-celebrates-his-african-identity-while-criticizing-footballs-lack-of-diversity-in-management/",
+   "https://allafrica.com/stories/202608200007.html"
+  ]
+ },
+ {
+  "gender": "M",
+  "active": false,
+  "causes": [],
+  "incidents": [
+   {
+    "year": 1985,
+    "type": "b09",
+    "what": "moved from Atlético Madrid to city rival Real Madrid",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Hugo_S%C3%A1nchez"
+   }
+  ],
+  "money_moves": [],
+  "links": "",
+  "confidence": "high",
+  "name": "Hugo Sánchez",
+  "full_name": "Hugo Sánchez Márquez",
+  "born": 1958,
+  "nation": "Mexico",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "UNAM Pumas",
+    "from": 1976,
+    "to": 1981,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "San Diego Sockers (loan)",
+    "from": 1979,
+    "to": 1980,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Madrid",
+    "from": 1981,
+    "to": 1985,
+    "apps": 111,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Real Madrid",
+    "from": 1985,
+    "to": 1992,
+    "apps": 207,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "América",
+    "from": 1992,
+    "to": 1993,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rayo Vallecano",
+    "from": 1993,
+    "to": 1994,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlante",
+    "from": 1994,
+    "to": 1995,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "LASK Linz",
+    "from": 1995,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Dallas Burn",
+    "from": 1996,
+    "to": 1996,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Celaya",
+    "from": 1997,
+    "to": 1997,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Real Madrid",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Mexico",
+   "caps": 58,
+   "goals": 29,
+   "captain": false
+  },
+  "honours": "5 La Liga, 1986 UEFA Cup, 2 Copa del Rey, 1 Mexican title (Pumas 1977); as coach 2 Pumas titles (2004)",
+  "awards": "5 Pichichi trophies; 1990 European Golden Shoe (38 goals, all one-touch)",
+  "moments": [
+   "38 La Liga goals in 1989-90, all with one touch",
+   "Acrobatic 'chilena' volleys; somersault celebration"
+  ],
+  "style": [
+   "acrobatic finisher",
+   "volleys and bicycle kicks",
+   "penalty-box striker"
+  ],
+  "work_rate": "medium",
+  "ego": "big (outspoken, self-assured; frequent public polemics as coach and pundit)",
+  "fan_bond": "Idol at Pumas and Real Madrid; divisive figure in Mexico",
+  "loyalty_notes": "Pumas academy; Atlético Madrid 4 years then crossed to city rival Real Madrid 1985 (age 27); many short spells after 1992. Mexico coach 2006-08, dismissed after failed Olympic qualification",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hugo_S%C3%A1nchez",
+   "https://www.unotv.com/deportes/hugo-sanchez-momentos-brillantes-polemicas/"
+  ]
+ }
+]

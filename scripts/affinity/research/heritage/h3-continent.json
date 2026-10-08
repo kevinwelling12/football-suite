@@ -1,0 +1,102 @@
+[
+ {"name": "Marítimo", "short": "Marítimo", "abbr": "MAR", "color": "#D7182A", "country": "Portugal",
+  "C": 6.8, "V": 5.0, "H": 6.0, "O": 5.8, "T": 5.0,
+  "adjustments": [],
+  "evidence": {
+   "C": "Estádio do Marítimo (Barreiros, 10,600, rebuilt 2016 on the old site). About 12,000 sócios; mean crowd 7,658 in Liga Portugal 2 in 2025-26 (5,579-8,509 in recent seasons), 10,000+ for the title clincher v Leixões, 1,312 travelled to Lisbon for the promotion game. Three claques (Esquadrão Maritimista, Ultras Templários, Ultras Fanatics 13). Crowds held up through three second-tier seasons; strong Madeiran diaspora following.",
+   "V": "Lower: bwin (sportsbook) became front-of-shirt sponsor with the Hummel kit for 2026-27 (Betano 2019-22 before). Raise: Madeiran regional identity, women's team in the top-tier Campeonato Nacional Feminino, multi-sport club. Madeira Tourism (regional board of a Free country) has no effect.",
+   "H": "Founded 1910; won the 1926 Campeonato de Portugal; first island club promoted to the top flight (1977) and first to play in Europe (1993); 43 top-flight seasons (38 in a row to 2023), two Taça de Portugal and two Taça da Liga finals, 2012-13 Europa League group stage. Solid regional club with famous moments.",
+   "O": "Club Sport Marítimo (members) controls the SAD; president Carlos André Gomes. Members approved selling 40% of the SAD to Brazilian group Revee (July 2025, 78%); deal voided late 2025 after reports linking Revee to organised crime and lack of guarantees. President says an investor is still essential. Financial strain, relegation in 2023.",
+   "T": "Heavy coach churn: five head coaches from Jan 2025 to Jun 2026 (Mitchell van der Gaag since 15 Jun 2026): R3 churn -1 applied. Promotion as champions in 2025-26 with big player-fan moments (title won before 10,000 at home). No current icon or long-serving coach."
+  },
+  "flags": ["The club is still looking for a SAD investor; an announced sale to a fund or multi-club group would be an R2 Ownership -1.", "bwin front-of-shirt from 2026-27 is new; counted in Values (-1 against an otherwise ~6).", "Kevin's Madeira ancestry (17%) has no club bonus under the current rules (clubs get no regional heritage bonus)."],
+  "confidence": "medium",
+  "sources": ["https://en.wikipedia.org/wiki/C.S._Mar%C3%ADtimo", "https://www.footyheadlines.com/9076069030/cs-maritimo-26-27-home-liga-portugal-kit-released-hummel-returns-after-30-years.html", "https://www.footyheadlines.com/3058979633/cs-maritimo-26-27-third-kit-released.html", "https://www.record.pt/futebol/futebol-nacional/2--liga/maritimo/detalhe/socios-do-maritimo-aprovam-entrada-de-investidor-brasileiro", "https://pt.soccerway.com/noticias/futebol-liga-portugal-2-maritimo-cancela-venda-parcial-da-sad-ao-grupo-revee-por-falta-de-garantias/dzfENNL6", "https://www.flashscore.pt/noticias/carlos-andre-gomes-no-116-aniversario-do-maritimo-2026-foi-um-ano-fantastico/zmAXbKuf/"]},
+
+ {"name": "Nacional", "short": "Nacional", "abbr": "NAC", "color": "#1A1A1A", "country": "Portugal",
+  "C": 3.6, "V": 5.8, "H": 4.3, "O": 5.8, "T": 4.5,
+  "adjustments": [],
+  "evidence": {
+   "C": "Estádio da Madeira (Choupana, 5,200), a small hillside ground outside Funchal with no stands behind the goals (fences). Thin crowds and a small following, overshadowed by Marítimo in Funchal; no notable organised atmosphere.",
+   "V": "Front-of-shirt sponsor Coral Cerveja since 2025 (Solverde, a casino/gaming brand, before that; ended). Cristiano Ronaldo's boyhood club; the academy campus bears his name. Funded partly by regional public support. No notable community or women's-team profile found.",
+   "H": "Founded 1910. Top flight 1988-91, 2002-17 and several later spells; best finish 4th (2003-04, 2008-09); 2009-10 Europa League group stage after beating Zenit; four Taça de Portugal semi-finals. No major trophy. Modest-to-solid regional history.",
+   "O": "Club-controlled SAD; president Rui Alves in office since 1994. A deal to sell 60% of the SAD to Singapore-based ACA Football Partners (EUR 13m) was cancelled when the group rejected the club's conditions; Alves later said the door to investors is closed. Stable but personalised, dependent on public support.",
+   "T": "Yo-yo club (five promotions/relegations since 2016). Tiago Margarido led promotion and two top-flight seasons; João Gião (summer 2026) was the first sacking of 2026-27, Alexandre Santos now in charge: three permanent coaches in the window, R3 churn -1 applied. No icon."
+  },
+  "flags": ["Attendance figures for 2025-26 not verified; Culture rests on capacity and reputation."],
+  "confidence": "medium",
+  "sources": ["https://en.wikipedia.org/wiki/C.D._Nacional", "https://www.record.pt/futebol/futebol-nacional/liga-betclic/nacional/detalhe/rui-alves-ja-nao-pensa-na-venda-da-sad-porta-esta-fechada-a-entrada-de-investidores", "https://www.rtp.pt/noticias/futebol-nacional/nacional-cancela-negocio-da-venda-da-sad-a-grupo-de-investimento-privado_d1665597", "https://www.footyheadlines.com/5328412825/cd-nacional-26-27-away-kit-released.html", "https://www.sportsmole.co.uk/football/nacional/preview/nacional-vs-alverca-prediction-team-news-lineups_604912.html"]},
+
+ {"name": "1. FC Nürnberg", "short": "Nürnberg", "abbr": "FCN", "color": "#AA1124", "country": "Germany",
+  "C": 8.6, "V": 7.6, "H": 8.3, "O": 9.0, "T": 6.0,
+  "adjustments": [],
+  "evidence": {
+   "C": "Max-Morlock-Stadion (1928 site, 50,000, renamed for the club legend after fans pushed for it). Averaged about 35,200 in the 2. Bundesliga in 2025-26 (upper half of the league; ground rarely full). Ultras Nürnberg 1994 lead a loud Nordkurve; long fan friendship with Schalke since the early 1980s. Crowds have stayed large through eight seasons in the second tier and many relegations.",
+   "V": "Member club (e.V.), 42,315 members (Sept 2026). Regional sponsors (Toolcraft front since 2025, Nürnberger Versicherung before), no betting or arms. Women's team back inside the club since 2023 and in the Frauen-Bundesliga. Club has researched and published its exclusion of Jewish members in 1933. Regular DFB pyro fines (EUR 16,800-70,000 per case, 2023-24), ordinary for German clubs.",
+   "H": "Nine German championships (record holder until 1987; dominant 1920s side), four DFB-Pokals (latest 2007), 1968 champions relegated the next season. Major national significance.",
+   "O": "1. FC Nürnberg e.V. runs professional football with no outsourced company or outside investor; members elect the supervisory board. Board turnover and financial strain over the years, no current conduct issues.",
+   "T": "Miroslav Klose head coach since summer 2024 (contract to 2028), the club's first stable spell in years: 10th then 8th. Sell-on model with a young, high-churn squad; no current long-serving icon. Within the R3 window only two permanent coaches (Fiél, Klose): no change."
+  },
+  "flags": [],
+  "confidence": "high",
+  "sources": ["https://en.wikipedia.org/wiki/1._FC_N%C3%BCrnberg", "https://de.wikipedia.org/wiki/1._FC_N%C3%BCrnberg", "https://ran.joyn.de/sports/fussball/bundesliga/bundesliga-zuschauer-ranking-die-top15-der-saison20252026-nicht-nur-aus-dem-oberhaus-132686", "https://www.infranken.de/sport/1-fc-nuernberg/fcn-strafe-dfb-urteil-fans-16800-euro-pyro-art-5922405", "https://bulinews.com/1-nurnberg-2026/27-season-preview-transfers-pre-season-predicted-lineup-predictions"]},
+
+ {"name": "Žalgiris", "short": "Žalgiris", "abbr": "ZAL", "color": "#007A3D", "country": "Lithuania",
+  "C": 5.5, "V": 4.8, "H": 6.0, "O": 5.0, "T": 4.5,
+  "adjustments": [],
+  "evidence": {
+   "C": "Plays at the federation's LFF Stadium (about 5,000, artificial pitch) since 2011 after leaving the 15,000 Žalgiris Stadium. Over 3,000 season tickets; Pietų IV supporters' group (since 1985) is the loudest in Lithuania and sold out the July 2026 Conference League tie. 2025 fan protests and boycotts over results. Small crowds in absolute terms in a basketball-first country.",
+   "V": "Lower: betting brands as main shirt sponsor for most of the period (Unibet 2010-12, Top Sport, Betsafe/Betsson from 2022). President Andrius Tapinas is a journalist and civic activist known for public fundraising for Ukraine. Fans' charity work in hard times. No women's-team profile found. Objects thrown on the pitch during 2025 protests.",
+   "H": "Founded 1947; Soviet-era symbol of Lithuanian identity (3rd in the 1987 Soviet Top League); most successful Lithuanian club (titles 1991-2024, record cup winner); first Lithuanian club in a UEFA group stage (2022). Bankrupt in 2008-09 and rebuilt from the second tier. Strong national significance in a small football nation.",
+   "O": "Businessman Tadas Burgaila became majority shareholder in November 2025 after a turbulent year; chairman Mindaugas Kasperūnas. Club rebuilt in 2009 as a city football association (VMFD Žalgiris). New owner, no track record yet.",
+   "T": "Long-serving coach Vladimir Cheburin (Jan 2021 - Aug 2025) dismissed; Rolandas Džiaukštas (Sep 2025 - Apr 2026), then Andrius Skerla: three permanent coaches inside a year, R3 churn -1 applied. Bond strained by the 2025 protests; Skerla publicly courting the fans."
+  },
+  "flags": ["Main shirt sponsor for 2025-26 not confirmed (Wikipedia lists Betsafe/Betsson spanning 2022 to present); if betting ended, Values about +0.7.", "Kevin's Lithuanian heritage gives no club bonus under current rules."],
+  "confidence": "medium",
+  "sources": ["https://en.wikipedia.org/wiki/FK_%C5%BDalgiris", "https://balticfootballnews.com/?p=13762", "https://balticfootballnews.com/?p=14760", "https://balticfootballnews.com/?p=27585", "https://fkzalgiris.lt/naujas-zalgirio-generalinis-remejas-betsafe/", "https://en.wikipedia.org/wiki/2025_A_Lyga"]},
+
+ {"name": "Viktoria Plzeň", "short": "Plzeň", "abbr": "PLZ", "color": "#C8102E", "country": "Czech Republic",
+  "C": 6.5, "V": 4.8, "H": 6.0, "O": 5.0, "T": 5.0,
+  "adjustments": [{"type": "other", "points": -3, "evidence": "New majority owner Michal Strnad (via Palatua a.s., signed Oct 2025, subject to competition approval) owns CSG, a major arms and ammunition maker; owner's fortune from arms, treated like Brighton's betting-fortune -3 (Kevin ranks arms with betting)."}],
+  "evidence": {
+   "C": "Doosan Arena (11,700, rebuilt in stages on the club's long-time site) fills for big and European games; vocal home end but a modest, regional following. Support grew with the 2010s title run.",
+   "V": "Lower: Betano (sportsbook) on the back of the shirt since 2022. Main partner Doosan Škoda Power (local industry) since 2005. Academy and women's section exist but are not prominent. No major fan-conduct sanctions found.",
+   "H": "Founded 1911; six Czech titles, all since 2011 (2011, 2013, 2015, 2016, 2018, 2022); Champions League group stages 2011-12, 2013-14, 2018-19, 2022-23; Conference League quarter-final 2024. Recent national significance, little older history.",
+   "O": "Owned 2021-25 by chairman Adolf Šádek (via Austrian FCVP GmbH). Michal Strnad bought a majority through his private company Palatua (Oct 2025); Šádek keeps a minority and stays as CEO. Billionaire private owner, conduct so far ordinary.",
+   "T": "Miroslav Koubek (Jun 2023 - Sep 2025), Martin Hyský (Oct 2025 - Aug 2026), Radoslav Kováč (Aug 2026 -): three permanent coaches in three seasons, R3 churn -1 applied. Consistent top-three side with a stable Czech core, no defining icon."
+  },
+  "flags": ["Owner's arms fortune (CSG): Kevin has ruled on arms sponsors (Dortmund -1 Values) but not on an arms-maker owner; -3 by analogy with Brighton's betting owner. Confirm.", "Confirm ÚOHS approval of the Strnad purchase (not found).", "Betano back-of-shirt deal dates from 2022; 2026-27 continuation not verified."],
+  "confidence": "medium",
+  "sources": ["https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88", "https://czechoslovakgroup.com/en/news/michal-strnad-acquires-fc-viktoria-plzen", "https://forbes.cz/dalsi-miliardar-v-ceskem-fotbale-michal-strnad-vstupuje-do-viktorie-plzen/", "https://insidersport.com/2022/09/07/fc-viktoria-plzen-edges-closer-to-marketing-goals-with-betano/", "https://en.wikipedia.org/wiki/2025%E2%80%9326_FC_Viktoria_Plze%C5%88_season"]},
+
+ {"name": "Union Saint-Gilloise", "short": "Union SG", "abbr": "USG", "color": "#FFD200", "country": "Belgium",
+  "C": 8.3, "V": 7.6, "H": 7.0, "O": 6.5, "T": 6.5,
+  "adjustments": [
+   {"type": "multiclub", "points": -3, "evidence": "Tony Bloom (majority owner of Brighton, the network's flagship) still holds a stake; shared recruitment data (Jamestown Analytics) and player moves with Brighton (e.g. Promise David). Scores.py names Union SG as Bloom's secondary club. Round-5 scale (x0.75), minor stake."},
+   {"type": "other", "points": -2, "evidence": "Owner money from sports betting: Bloom (Starlizard) is an investor and majority owner Alex Muzio is a former Starlizard consultant. Smaller than Brighton's -3 because Bloom is no longer the majority owner."}
+  ],
+  "evidence": {
+   "C": "Stade Joseph Marien (1926, listed Art Deco, 9,400) sells out; Union Bhoys in the all-standing Tribune Est; famously welcoming, family-friendly but loud, with 'Vamos a la playa' ritual. Support stayed through 48 years outside the top flight (as low as the fourth tier). Pitch invasion at the 2025 title.",
+   "V": "Raise: anti-fascist, anti-racist identity ('Anti-fascist Unionist for Life'), inclusive Brussels support base, women's team. Lower, slightly: main sponsor the National Lottery (state lottery, not a sportsbook; its group also runs sports betting). No betting shirt brand.",
+   "H": "Eleven Belgian titles before 1935 and a 60-match unbeaten run (1933-35); decades of decline; return to the top flight 2021, Belgian Cup 2024 (first in 110 years) and 2026, first league title in 90 years in 2025, Europa League quarter-final 2023, Champions League league phase 2025-26.",
+   "O": "Alex Muzio majority owner and chairman since July 2023 (UEFA multi-club rules forced Bloom below a majority); data-driven, sell-on model run sensibly and with fan approval. Structural issues are in the adjustments.",
+   "T": "Strong player-fan bond (Mazzu's post-match dancing, 2025 pitch invasion). High churn from the sell-on model. Coaches Blessin (2023-24), Pocognoli (2024-25), David Hubert (Oct 2025 -): three permanent coaches in three seasons, R3 churn -1 applied."
+  },
+  "flags": ["Planned move from the listed Joseph Marien to a new ~16,000 ground at Bempt (Forest), permit due end of October 2026, move hoped for 2029. Better facilities in the same commune but loses one of Belgium's most characterful grounds; fans' view not established. Kevin to decide whether R2 applies (+1 welcomed upgrade, -1 worse/opposed); not applied.", "Bloom/Muzio betting money -2 is a judgement call (Brighton takes -3)."],
+  "confidence": "medium",
+  "sources": ["https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise", "https://rusg.brussels/en/news/statement-president-and-owner-alex-muzio-0", "https://www.flashscore.com/news/soccer-champions-league-tony-bloom-s-football-empire-looking-strong-through-belgium-s-union-saint-gilloise/8Srj6uSj", "https://rusg.brussels/en/news/union-extends-partnership-national-lottery", "https://www.vrt.be/vrtnws/en/2026/06/22/consultation-on-new-stadium-for-union-ends.consumer/", "https://en.wikipedia.org/wiki/2025%E2%80%9326_Belgian_Pro_League"]},
+
+ {"name": "Anderlecht", "short": "Anderlecht", "abbr": "AND", "color": "#4E2A84", "country": "Belgium",
+  "C": 7.6, "V": 5.6, "H": 8.6, "O": 4.6, "T": 5.0,
+  "adjustments": [{"type": "violence", "points": -4, "evidence": "Repeated UEFA crowd sanctions: v Fenerbahçe (Mar 2025, over EUR 51,000 and 4,500 seats closed), at West Ham (2025, EUR 50,000 for pyro, objects, damage, away-ticket ban), v Hammarby (Jul 2026, EUR 27,625). Plus a 2018 derby with Standard abandoned for fireworks (older, half). Below Porto/Frankfurt -8."}],
+  "evidence": {
+   "C": "Lotto Park / Constant Vanden Stock (22,500) in Astrid Park, the club's home since 1917; large, loyal support and the Mauves Army ultras; regular big home crowds and away followings. Not a top European atmosphere.",
+   "V": "Lower: Napoleon Sports & Casino (betting and casino) shirt/sleeve sponsor since 2023; stadium named for the National Lottery since 2019. Raise: Neerpede academy (Kompany, Lukaku, Tielemans, Doku) still feeds the first team; women's team is Belgium's most successful (ten league titles). Domestic anti-discrimination sanction for a homophobic chant.",
+   "H": "Record 34 Belgian titles, 91 consecutive top-flight seasons; Cup Winners' Cup 1976 and 1978, UEFA Cup 1983, two UEFA Super Cups. Major national and some European significance.",
+   "O": "Marc Coucke owner since 2018; frequent restructuring and staff turnover, heavy losses, public conflict with CEO Wouter Vandenhaute in 2025 (Michael Verschueren now chairman). Repeated coach and director churn.",
+   "T": "Coaches Brian Riemer, Besnik Hasi (sacked Feb 2026), caretakers Edward Still and Jérémy Taravel, then Vítor Bruno (Jun 2026): R3 churn -1 applied. Young academy core (De Cat, Stroeykens) is a plus; no current icon since Vertonghen retired."
+  },
+  "flags": ["Fan violence -4 is a calibration call (pre-round-4 scale about -3, x1.5 = -4.5); fines are mid-size and repeated but no assaults on people documented."],
+  "confidence": "medium",
+  "sources": ["https://en.wikipedia.org/wiki/RSC_Anderlecht", "https://www.brusselstimes.com/2270008/uefa-fines-anderlecht-for-fan-misconduct-against-hammarby", "https://www.insideworldfootball.com/2025/03/20/uefa-cracks-olimpija-ljubljana-anderlecht-serious-fan-misconduct/", "https://www.rsca.be/en/uefa", "https://sporza.be/nl/2026/06/23/anderlecht-gaat-de-portugese-toer-op-met-vitor-bruno-als-nieuwe-hoofdcoach~1782239001353/", "https://www.sportbusiness.com/news/anderlecht-signs-long-term-sleeve-sponsorship-deal-with-napoleon-sports/"]}
+]

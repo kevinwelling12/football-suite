@@ -113,6 +113,16 @@ if px.exists():
         t['base'] = min(100, max(0, round((W['C']*C + W['V']*V + W['H']*H + W['O']*O + W['S']*St) / 0.90 * 10 + adj, 1)))
         t['bonus'], t['region'] = NATION_BONUS.get(t['name'], (round(min(10, 0.4 * HERITAGE.get(t['name'], 0)), 1), 'Heritage' if HERITAGE.get(t['name']) else ''))
         nation_bump(t)
+    # Heritage clubs: clubs from Kevin's ancestry regions outside the tracked leagues (X['clubs'], Affinity pages only).
+    # Factors and track record as for any club (judged against their top flight); no regional bonus, like every club.
+    for t in X.get('clubs', []):
+        C, V, H, O, St, adj, note = S[t['name']]
+        t['hai'] = dict(C=C, V=V, H=H, O=O, S=St, adj=adj, note=note); k = 1.0
+        if t['name'] in PERF:
+            P, xs = perf.track(PERF[t['name']], (1, 1)); k = perf.coef(P)
+            t['hai'].update(P=P, k=round(k, 3), ps=xs, pl=PERF[t['name']]['seasons'][0]['s'])
+        t['base'] = min(100, max(0, round((W['C']*C + W['V']*V + W['H']*H + W['O']*O + W['S']*St) / 0.90 * 10 * k + adj, 1)))
+        t['bonus'] = 0
     px.write_text(json.dumps(X, ensure_ascii=False, indent=1))
 p.write_text(json.dumps(D, ensure_ascii=False, separators=(',', ':')))
 print('rescored')

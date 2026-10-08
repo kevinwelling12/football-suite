@@ -15,6 +15,8 @@ const OUT = path.join(root, 'src/logos'), FORCE = process.argv.includes('--force
 
 // Where to look for each competition's clubs. The Carabao Cup draws on all four English divisions.
 const SOURCES = { epl: ['eng.1'], ch: ['eng.2'], cup: ['eng.1', 'eng.2', 'eng.3', 'eng.4'], ucl: ['uefa.champions', 'eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1', 'por.1', 'ned.1', 'bel.1', 'sco.1', 'aut.1', 'den.1', 'nor.1', 'tur.1', 'gre.1', 'cze.1', 'sui.1'],
+  // Heritage clubs (data/nations_extra.json clubs): Kevin's ancestry regions outside the tracked leagues.
+  xc: ['sco.1', 'por.1', 'por.2', 'ger.1', 'ger.2', 'bel.1', 'cze.1', 'irl.1', 'nir.1', 'ltu.1'],
   esp: ['esp.1'], ita: ['ita.1'], bl: ['ger.1'], fra: ['fra.1'], mls: ['usa.1'], usl: ['usa.usl.1'], nwsl: ['usa.nwsl'] };
 // ISO 3166 codes for flagcdn (UK home nations use its gb-xxx codes).
 const ISO = { Albania: 'al', Andorra: 'ad', Armenia: 'am', Austria: 'at', Azerbaijan: 'az', Belarus: 'by', Belgium: 'be', 'Bosnia and Herzegovina': 'ba',
@@ -71,7 +73,7 @@ async function save(file, url) {
   for (const [k, slugs] of Object.entries(SOURCES)) {
     map[k] = {};
     const seen = new Set(), pool = []; for (const s of slugs) for (const x of await league(s)) if (!seen.has(x.id)) { seen.add(x.id); pool.push(x); }
-    for (const t of D[k].teams) {
+    for (const t of (k === 'xc' ? EXTRA.clubs || [] : D[k].teams)) {
       const x = pick(pool, t);
       if (x && process.argv.includes('--check') && norm(x.displayName) !== norm(t.name)) console.log(`  ${k}: ${t.name} <- ${x.displayName}`);
       const logo = x && x.logos && ((!LIGHT.has(x.id) && x.logos.find(l => (l.rel || []).includes('dark'))) || x.logos.find(l => !(l.rel || []).includes('dark')) || x.logos[0]);

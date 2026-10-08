@@ -36,6 +36,7 @@ LINKS = {'Los Angeles Football Club': ('Republic link: Aaron Long, a former Repu
 # (club, team, kind, why)
 TIES = [
     ('Leeds United', 'San Francisco 49ers', 'ownership', 'Owned by 49ers Enterprises'),
+    ('Rangers', 'San Francisco 49ers', 'minority', '49ers Enterprises is in the owning consortium'),
     ('Huddersfield Town', 'Sacramento Kings', 'minority', 'Owner Kevin Nagle is a Kings minority owner'),
     ('Sacramento Republic FC', 'Sacramento Kings', 'minority', 'Managing partner Kevin Nagle is a Kings minority owner'),
     ('Portland Thorns', 'Sacramento Kings', 'minority', 'Owners (the Bhathal family) are Kings investors'),

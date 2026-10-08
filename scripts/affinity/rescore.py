@@ -122,6 +122,10 @@ if px.exists():
             P, xs = perf.track(PERF[t['name']], (1, 1)); k = perf.coef(P)
             t['hai'].update(P=P, k=round(k, 3), ps=xs, pl=PERF[t['name']]['seasons'][0]['s'])
         t['base'] = min(100, max(0, round((W['C']*C + W['V']*V + W['H']*H + W['O']*O + W['S']*St) / 0.90 * 10 * k + adj, 1)))
+        its = big4.items(t['name'])
+        if its:
+            t['hai'].update(us=[[l, v] for l, v in its], usTot=big4.total(its))
+            t['base'] = min(100, max(0, round(t['base'] + t['hai']['usTot'], 1)))
         t['bonus'] = 0
     px.write_text(json.dumps(X, ensure_ascii=False, indent=1))
 p.write_text(json.dumps(D, ensure_ascii=False, separators=(',', ':')))

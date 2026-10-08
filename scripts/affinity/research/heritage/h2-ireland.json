@@ -1,0 +1,107 @@
+[
+  {"name": "Linfield", "short": "Linfield", "abbr": "LIN", "color": "#0033A0", "country": "Northern Ireland",
+   "C": 7.0, "V": 3.8, "H": 7.3, "O": 8.4, "T": 7.3,
+   "adjustments": [
+     {"type": "racism", "points": -6, "evidence": "Repeated sectarian/discriminatory sanctions: UEFA fined the club EUR 10,000 for racist and/or discriminatory supporter behaviour (plus EUR 2,000 fireworks) and a suspended stand closure after the July 2025 Champions League qualifier v Shelbourne (anti-Catholic chants reported); Irish FA fined GBP 4,000 in Dec 2023 for sectarian chanting ('Billy Boys') at Larne and Cliftonville and a racist comment at a home game v Loughgall. Older: missiles at Celtic players (2017), sectarian-chant fines (2014), counted half. Behaviour continues."}
+   ],
+   "evidence": {
+     "C": "Largest support in the Irish League (about 2,900 league average in 2021-22, double the league average; bigger for Big Two derbies and Europe). Loud, loyal following and strong away support. Home is Windsor Park (club owns the land since 1905; rebuilt 2016, 18,400, managed by the IFA as the national stadium), so a large modern bowl that is rarely full for club games.",
+     "V": "Historically Protestant/unionist support base; sectarian chanting is a recurring sanction issue (Irish FA 2023, UEFA 2025). Club statements and manager Healy condemn sectarianism and racism; anti-sectarian and anti-racism programmes (FIFA commended 2006); charity shirt partner Cancer Focus NI; a women's team (Linfield Women) in the NI Women's Premiership. Bet McLean was sleeve/shorts sponsor through at least 2023-24 (current status unverified); new 2026-27 front-of-shirt sponsor is a wine merchant.",
+     "H": "Founded 1886; world-record haul of national league titles (57) and 44 Irish Cups; seven-trophy 1961-62 season; Northern Ireland's defining club, Windsor Park the national team's home. Also carries the 1948 Belfast Celtic Boxing Day riot in its history.",
+     "O": "Members-owned club. Board (chairman Roy McGivern) has said it will not sell a controlling stake but would consider minority outside investment (up to 49% per 2024 reports) and is in talks with several parties; nothing announced as of Oct 2026.",
+     "T": "David Healy (Northern Ireland's record goalscorer) manager since Oct 2015, 11 seasons and 6 league titles: a defining coach and club icon. Settled core squad; won 2025-26 League Cup but finished 4th."
+   },
+   "flags": [
+     "Racism -6 is a judgement on sectarian chanting: Millwall -8 and Valencia -5 are the nearest club peers. Kevin's Ulster heritage (Northern Ireland national team bonus) does not apply to clubs.",
+     "Outside investment talks (minority stake) ongoing; if a deal is announced, R2 applies (Ownership -1 for PE/multi-club, +1 for a respected local investor).",
+     "Betting sponsor status for 2026-27 unverified (Bet McLean sleeve deal last confirmed 2023-24); if still on the kit, Values -0.5 more.",
+     "R3 coach: Healy 10+ full seasons, credited in T."
+   ],
+   "confidence": "medium",
+   "sources": [
+     "https://en.wikipedia.org/wiki/Linfield_F.C.",
+     "https://www.the42.ie/linfield-fine-6773123-Jul2025/",
+     "https://www.irishnews.com/news/northern-ireland/linfield-fined-4000-after-sectarian-chanting-and-a-racist-comment-from-fans-BTBYAANUBBDT3MMZD2J2OQ74OU",
+     "https://newsletter.co.uk/sport/football/northern-ireland/linfield-chairman-reveals-discussions-ongoing-over-potential-investment-deal-but-no-appetite-for-full-takeover-5600488",
+     "https://www.pressreader.com/ireland/belfast-telegraph/20240510/281990382614298",
+     "https://sbcnews.co.uk/tag/bet-mclean/",
+     "https://en.wikipedia.org/wiki/2025%E2%80%9326_NIFL_Premiership"
+   ]},
+  {"name": "Derry City", "short": "Derry City", "abbr": "DER", "color": "#C8102E", "country": "Northern Ireland",
+   "C": 7.8, "V": 6.4, "H": 6.8, "O": 7.0, "T": 5.4,
+   "adjustments": [
+     {"type": "overspend", "points": -2, "evidence": "Spending well beyond the club's own income, funded by chairman Philip O'Doherty (Irish Times 2026 preview: 'big-spending Derry City'); he also paid for a GBP 3m North Stand and hybrid pitch at the council-owned Brandywell."},
+     {"type": "violence", "points": -2, "evidence": "April 2024 v Shamrock Rovers: flare and missiles thrown into the away section from outside the ground, game stopped, PSNI vehicles attacked; suspended partial closure and fines, accepted by the club. 2022 UEFA charges (pitch invasion, objects thrown, crowd disturbance) at the CSKA Sofia qualifier, counted half."}
+   ],
+   "evidence": {
+     "C": "Brandywell (about 3,700, now the Ryan McBride Brandywell Stadium) regularly sells out, average about 2,900-3,200 in 2022-24; noisy, city-wide support and a strong away following across the border. Loyalty: survived 13 years without senior football (1972-85) and the 2009 expulsion and re-formation.",
+     "V": "Cross-border club from a nationalist city playing in the Republic's league; strong local identity without sanctioned sectarianism. Community standing around the late captain Ryan McBride; women's team (Derry City Women) in the NI Women's Premiership; local youth pathway. No betting shirt sponsor found. Values pulled down slightly by crowd incidents (2022, 2024).",
+     "H": "Founded 1928; 1965 Irish League title and European Cup run; forced out of the Irish League in 1972 by the Troubles, joined the League of Ireland in 1985, 1989 treble; 2 league titles in the LOI, 6 FAI Cups (latest 2022). Expelled in 2009 over unofficial contracts, re-formed and kept its history.",
+     "O": "Run and funded by local billionaire chairman Philip O'Doherty (Derry-born engineering founder) for about a decade; invests in the ground and squad, no fan protests. Benefactor dependence and spending beyond income handled in the overspend adjustment.",
+     "T": "Coach churn: Ruaidhri Higgins (2021-Dec 2024), Tiernan Lynch (Jan 2025, sacked 5 Aug 2026 with the side sixth), director of football Mark Connolly interim. Big-budget recruited squad rather than a stable homegrown core."
+   },
+   "flags": [
+     "Ownership: Wikipedia's infobox still says 'supporter owned'; in practice O'Doherty is chairman and principal funder. Verify the company structure if O matters.",
+     "R3: two permanent coaches plus an interim in the last 3 seasons, so no churn hit by the letter; T already lowered for instability.",
+     "Violence -2 is borderline (2024 missiles came from outside the ground); Kevin may prefer 0."
+   ],
+   "confidence": "medium",
+   "sources": [
+     "https://en.wikipedia.org/wiki/Derry_City_F.C.",
+     "https://www.irishtimes.com/sport/soccer/2026/08/05/derry-city-part-company-with-tiernan-lynch/",
+     "https://www.irishtimes.com/sport/soccer/2026/02/04/league-of-ireland-preview-big-spending-derry-city-out-to-break-shamrock-rovers-dominance/",
+     "https://www.irishnews.com/sport/soccer/derry-city-accepts-disciplinary-ruling-over-brandywell-trouble-O5PJTCGZCNAUZIX62LJYBLFXFY/",
+     "https://derryjournal.com/sport/football/stephen-kenny-says-derry-citys-brandywell-stadium-upgrades-are-pitch-perfect-8642665",
+     "https://en.wikipedia.org/wiki/Derry_City_F.C._Women",
+     "https://en.wikipedia.org/wiki/List_of_Derry_City_F.C._seasons"
+   ]},
+  {"name": "Shamrock Rovers", "short": "Shamrock Rovers", "abbr": "SHR", "color": "#00843D", "country": "Republic of Ireland",
+   "C": 7.6, "V": 6.3, "H": 7.4, "O": 7.2, "T": 8.3,
+   "adjustments": [
+     {"type": "multiclub", "points": -3, "evidence": "Dermot Desmond, Celtic's majority shareholder, owns 25% (since 2019); Rovers is a minority secondary holding, not a feeder, but fans have voiced 'Celtic offshoot' fears. Minor stake: -4 x 0.75."}
+   ],
+   "evidence": {
+     "C": "Largest support in the League of Ireland at Tallaght Stadium (council-owned, about 10,000, home since 2009); active ultras and a strong away following. Loyalty through the 1987 sale of Milltown and two homeless decades; supporters' 400 Club rescued the club from examinership in 2005.",
+     "V": "Strong academy pathway into the first team and to England (Bazunu, Kenny, many U-21 internationals); women's team in the Women's Premier Division; community programmes. Lowered: NetBet is the men's first-team sleeve sponsor ('responsible gambling partner', into 2026), criticised in the league; earlier betting partners Paddy Power, BoyleSports, 888sport.",
+     "H": "Ireland's most successful club: record league titles (22 including 2025) and FAI Cups (26); 1980s four-in-a-row; first Irish club in a UEFA group stage (2022 Conference League), knockout play-off 2024-25, league phase 2025-26.",
+     "O": "Shamrock Rovers Members Club owns 50% and elects four directors; Ray Wilson 25%, Dermot Desmond 25%. Shareholders' agreement amended so members cannot fall below 50%. Public friction in 2025 (Desmond letter criticising member directors, chairman reappointment not ratified).",
+     "T": "Stephen Bradley head coach since 2016, ten seasons, five league titles: the defining coach (already credited, no extra R3 hit). Long-serving core (Roberto Lopes, Graham Burke, Jack Byrne), good bond with fans, front-foot possession style."
+   },
+   "flags": [
+     "Bradley was named a leading candidate for the Hibernian job in early Oct 2026; if he leaves, T drops by about 1.",
+     "Multiclub -3: Desmond's stake is minority and Rovers is not a feeder; Kevin may prefer 0 since the members hold 50% and a blocking position.",
+     "No betting shirt sponsor on the front, but the NetBet sleeve counts in full under the sportsbook rule."
+   ],
+   "confidence": "medium",
+   "sources": [
+     "https://www.the42.ie/shamrock-rovers-dermot-desmond-2-6681592-Apr2025/",
+     "https://www.shamrockrovers.ie/news/shamrock-rovers-fc-announce-netbet-as-responsible-gambling-partner/",
+     "https://www.shamrockrovers.ie/news/shamrock-rovers-unveil-new-2026-home-kit/",
+     "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/shamrock-rovers-fans-fear-club-could-become-celtic-offshoot-after-eu3m-investment-reports-94436",
+     "https://www.edinburghnews.scotsman.com/sport/football/hibs/hibs-new-manager-search-latest-leading-candidate-proven-european-record-9144888",
+     "https://en.wikipedia.org/wiki/List_of_Shamrock_Rovers_F.C._seasons"
+   ]},
+  {"name": "Bohemians", "short": "Bohemians", "abbr": "BOH", "color": "#D2001F", "country": "Republic of Ireland",
+   "C": 8.2, "V": 8.6, "H": 6.7, "O": 9.4, "T": 6.0,
+   "adjustments": [],
+   "evidence": {
+     "C": "Dalymount Park (1901, 'the home of Irish football') sells out most home games at about 4,500; loud, young, well-organised support with tifo and a large away following. Loyal through years of financial crisis (near-collapse around 2010-13, saved by members).",
+     "V": "Openly progressive identity: Refugees Welcome kits, Bob Marley and Fontaines D.C. shirts with proceeds to charity, Palestine solidarity; 2026 shirt sponsor is the band Kneecap with a share of sales to a club-linked charity. Women's team in the Women's Premier Division, prison and community outreach programmes, affordable tickets. No betting sponsor found.",
+     "H": "Founded 1890, one of Ireland's oldest clubs; 11 league titles and 7 FAI Cups, amateur until 1969, two titles in the 2000s; Dalymount hosted the national team for decades. Major national significance, modest beyond Ireland.",
+     "O": "Member-owned (one member, one vote); members elect the board. Ground sold to Dublin City Council (2015), which is rebuilding Dalymount (EUR 63m, about 8,000 seats) with Bohs as tenant.",
+     "T": "Alan Reynolds head coach since late 2023; Keith Long era (2016-22) built the current identity. Mid-table side in 2024, 4th in 2025; good player-fan bond, fairly high squad churn."
+   },
+   "flags": [
+     "Dalymount rebuild: Bohs leave for a temporary ground in 2027 (dates conflicting: end of 2026 season or first half of 2027), back in a new 8,000-seat stadium on the same site around end-2028. A welcomed upgrade on the same site: R2 Culture +1 could apply, but the move-out is temporary and the old ground's character is lost; left at no change. Kevin to decide.",
+     "Kneecap sponsorship (2026) is political: an Irish-language rap group whose member's 2025 terror charge in the UK was thrown out; counted as part of the progressive identity, not against Values.",
+     "Pyrotechnics: Bohs away fans banned for one match in 2024 after a flare struck a St Pat's player during an anti-FAI protest; no violence adjustment (isolated, club condemned it)."
+   ],
+   "confidence": "medium",
+   "sources": [
+     "https://en.wikipedia.org/wiki/2026_Bohemian_F.C._season",
+     "https://www.irishtimes.com/ireland/2026/07/22/dalymount-63m-redevelopment-moves-forward-following-scaled-back-construction-plan/",
+     "https://www.irishexaminer.com/sport/soccer/arid-41912905.html",
+     "https://extratime.com/articles/33014/bohs-fans-banned-from-boyneside-trip-after-pyro-incident-in-inchicore",
+     "https://en.wikipedia.org/wiki/List_of_Bohemian_F.C._seasons"
+   ]}
+]

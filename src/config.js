@@ -85,7 +85,7 @@ const REGIONS = [
   { key: 'uefa', name: 'UEFA', comps: ['ucl', 'unl'] },
 ];
 const DOT = { epl: '#FF2D87', ch: '#E9B824', cup: '#22C55E', ucl: '#3B82F6', esp: '#FF7A1A', ita: '#14B8A6', bl: '#EF4444', fra: '#C4E02A',
-  mls: '#38BDF8', usl: '#FFB020', nwsl: '#A78BFA', unl: '#CBD5E1' };
+  mls: '#38BDF8', usl: '#FFB020', nwsl: '#A78BFA', unl: '#CBD5E1', xc: '#E879F9' };
 // Chip labels: [full, phone]. Phone labels keep each region's chips on one row at 390px.
 const CHIP = { epl: ['Premier League', 'Premier Lg'], cup: ['Carabao Cup', 'Carabao'], usl: ['USL'] };
 const ORDER = REGIONS.flatMap(r => r.comps);

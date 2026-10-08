@@ -1,0 +1,109 @@
+[
+{"name": "Celtic", "short": "Celtic", "abbr": "CEL", "color": "#018749", "country": "Scotland",
+ "C": 9.6, "V": 5.2, "H": 10.0, "O": 5.0, "T": 6.0,
+ "adjustments": [
+  {"type": "violence", "points": -4, "evidence": "8 March 2026 Scottish Cup quarter-final at Ibrox: Celtic fans invaded the pitch, clashes with Rangers fans, missiles and a lit flare thrown, 37 arrests; SFA ordered a closed-door home cup tie and GBP 100k compensation (Aug 2026). Regular UEFA fines for pyrotechnics and blocked passageways (e.g. Atletico Madrid, Feyenoord away). Away followings otherwise well regarded."}
+ ],
+ "evidence": {
+  "C": "Celtic Park (60,411) sold out on season tickets; Green Brigade safe-standing section, Huddle, You'll Never Walk Alone; very large travelling support (about 80,000 in Seville 2003). Historic home since 1892. Fan revolt against the board (season-ticket boycott calls) has not emptied the ground.",
+  "V": "Founded in 1887 to relieve poverty among Glasgow's Irish poor; Celtic FC Foundation is a large charity; professional women's team (SWPL champions 2023-24); left-leaning, anti-fascist and pro-Palestine fan culture. Against: Dafabet sports-betting shirt sponsor since 2016, extended to 2027-28; Irish-republican chants and banners linked to sectarian division, about 20+ UEFA fines for illicit banners since 2007; the club suspended the Green Brigade and in Oct 2026 cut ties with the Celtic Fans Collective.",
+  "H": "Brief anchor: Celtic-level significance = 10. 1967 Lisbon Lions, first British European Cup winners (all born near Glasgow); 56 league titles, 9 and 9-in-a-row eras, 2003 UEFA Cup final; one of the world's defining club identities.",
+  "O": "Celtic plc (thousands of small fan shareholders, no formal fan voice); Dermot Desmond about 35% largest shareholder, director since 1995. Debt-free and cash-rich, but long-running fan protests over investment and governance: Nov 2025 AGM abandoned amid 'sack the board' chants, Oct 2026 tennis-ball protest against Desmond at St Andrews; the club answered with bans. Interim chairman Brian Wilson.",
+  "T": "Callum McGregor, academy product and long-serving captain, is the club icon; strong player-fan bond, a winning settled core. Coach churn: Rodgers left Oct 2025, Wilfried Nancy appointed and sacked within the season, Martin O'Neill interim twice then permanent (one-year deal) for 2026-27 = 3 permanent coaches in 3 seasons (R3 -1 applied)."
+ },
+ "flags": [
+  "Values: how much should Irish-republican / sectarian-tinged chanting weigh against the club's charity founding and anti-fascist fan culture? Scored as a moderate negative alongside the Dafabet sponsor.",
+  "Violence -4 rests mainly on one 2026 Old Firm cup incident (shared with Rangers) plus routine pyro fines; could be 0 if Kevin counts it as Rangers-led disorder.",
+  "Ownership is in flux: open fan revolt against Desmond and the board; if he sells, re-check O."
+ ],
+ "confidence": "medium",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Celtic_F.C.",
+  "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/fuming-celtic-release-stinging-dermot-desmond-protest-statement-after-st-andrews-drama-9263161",
+  "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/celtic-agm-descends-into-chaos-as-meeting-adjourned-amid-shareholder-protests-5411920",
+  "https://www.vegasslotsonline.com/news/2024/12/16/celtic-extends-dafabet-sponsorship-sets-new-front-of-shirt-record/",
+  "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/celtic-confirm-martin-oneill-as-manager-contract-details-assistants-and-what-dermot-desmond-said-8662323",
+  "https://www.scotland.police.uk/what-s-happening/news/2026/march/nine-arrested-after-disorder-at-scottish-cup-quarter-final/",
+  "https://www.scotsman.com/sport/football/celtic-and-rangers-hit-scottish-cup-stadium-bans-sfa-ibrox-old-firm-disorder-8947544",
+  "https://insideworldfootball.com/?p=146374"
+ ]},
+{"name": "Rangers", "short": "Rangers", "abbr": "RAN", "color": "#1B458F", "country": "Scotland",
+ "C": 9.4, "V": 3.2, "H": 9.3, "O": 4.5, "T": 4.0,
+ "adjustments": [
+  {"type": "racism", "points": -10, "evidence": "Repeated UEFA discrimination sanctions: 2006 and 2011 (sectarian chanting, fine and away ban), Aug 2019 partial stadium closure for racist behaviour, March 2025 EUR 30,000 fine and suspended Copland Stand closure for a 'racist and/or discriminatory' banner vs Fenerbahce. The 2025 case is recent, so nothing is halved."},
+  {"type": "violence", "points": -8, "evidence": "Jan 2025 Manchester: 39 arrests, balaclava group clashed with police, fighting in the home end; Apr 2025 Bilbao: police injured in clashes; May 2021 George Square title riot; Mar 2026 Ibrox cup disorder (SFA closed-door sanction). Repeated and continuing."},
+  {"type": "multiclub", "points": -3, "evidence": "Since May 2025 the 51% owner consortium is led by Andrew Cavenagh with 49ers Enterprises (owners of Leeds United); Paraag Marathe is vice-chairman of Rangers and chairman of Leeds. Rangers sits in the same network as a secondary club."}
+ ],
+ "evidence": {
+  "C": "Ibrox (51,700, Archibald Leitch main stand) sells out; Union Bears section; huge away followings (about 100,000 to Manchester 2008, about 50,000 to Seville 2022). Loyalty through the 2012 liquidation: 40,000+ crowds in the fourth tier.",
+  "V": "Rangers Charity Foundation; professional women's team (SWPL champions 2021-22); academy. Against: Unibet (Kindred) sports-betting front-of-shirt deal to 2028-29, 32Red on training kit; Protestant-unionist sectarian identity (no high-profile Catholic signings until 1989, 'Billy Boys' and loyalist songs, 2025 'anti-woke' banner). Sanctions themselves are in the racism adjustment.",
+  "H": "Founded 1872; 55 league titles, 1972 Cup Winners' Cup, 2008 UEFA Cup and 2022 Europa League finals; Ibrox disasters 1902 and 1971; 9-in-a-row 1989-97. 2012 liquidation of the operating company and restart in the fourth tier; the SFA/SPFL treat the history as continuous, and Kevin's rule keeps history through a re-founding.",
+  "O": "Cavenagh / 49ers Enterprises consortium bought 51% in 2025, took the club private, promised GBP 20m; Club 1872 fan shareholders remain minority holders. Turbulent first year: Russell Martin sacked after 4 months, Danny Rohl left for Salzburg after 8, fan protests at Ibrox against the board. Previous-owner collapse (2012) not counted.",
+  "T": "High squad turnover; James Tavernier a long-serving captain but no settled core. Coaches: Clement (sacked Feb 2025), Russell Martin (Jun-Oct 2025), Danny Rohl (Oct 2025-Jun 2026), Derek McInnes (Jun 2026-) = 4 permanent coaches in 18 months (R3 -1 applied)."
+ },
+ "flags": [
+  "Kevin's 49ers: 49ers Enterprises is part of the Rangers owner consortium (Paraag Marathe vice-chairman). The big-4 ownership tie (+ for Kevin's team, as at Leeds) should be applied by big4.py; it is not in these factors.",
+  "Multi-club -3 (secondary to Leeds) is a judgement: the consortium is led by Cavenagh, with 49ers Enterprises a partner rather than sole owner.",
+  "History 9.3 accepts continuity through the 2012 liquidation (contested by rival fans)."
+ ],
+ "confidence": "medium",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Rangers_F.C.",
+  "https://www.sportcal.com/news/deal-focus-rangers-acquired-by-49ers-backed-cavenagh-consortium/",
+  "https://www.sportcal.com/news/rangers-renewed-front-of-shirt-deal-with-kindred-group",
+  "https://www.insideworldfootball.com/2025/03/20/rangers-set-uefa-sanctions-following-condemnation-anti-woke-banner/",
+  "https://www.foxsports.com/stories/soccer/uefa-punishes-rangers-over-fans-sectarian-songs",
+  "https://www.hellorayo.co.uk/greatest-hits/glasgow/news/almost-40-arrests-made-as-rangers-visit-manchester-united",
+  "https://www.skysports.com/football/news/11781/13553879/derek-mcinnes-rangers-agree-deal-with-hearts-boss-to-replace-rb-salzburg-bound-danny-roehl-as-head-coach",
+  "https://www.scotsman.com/sport/football/celtic-and-rangers-hit-scottish-cup-stadium-bans-sfa-ibrox-old-firm-disorder-8947544"
+ ]},
+{"name": "Heart of Midlothian", "short": "Hearts", "abbr": "HEA", "color": "#7A1E36", "country": "Scotland",
+ "C": 8.6, "V": 7.8, "H": 7.0, "O": 8.8, "T": 5.0,
+ "adjustments": [
+  {"type": "multiclub", "points": -3, "evidence": "Tony Bloom (Brighton owner; stakes in Union Saint-Gilloise, Melbourne Victory) bought 29% of economic capital in non-voting shares for GBP 9.86m (June 2025), has a board nominee, and his Jamestown Analytics supplies recruitment data. Minor stake, no voting control."},
+  {"type": "other", "points": -1, "evidence": "Bloom's fortune comes from sports betting (Starlizard); Brighton carries -3 for this. Scaled down here for a non-voting minority stake."}
+ ],
+ "evidence": {
+  "C": "Tynecastle Park (19,852), tight historic ground since 1886, known as one of the loudest in Scotland; sold out most weeks with a long season-ticket waiting list. Loyalty: fans funded the club out of administration (2013-14) and backed it through relegation in 2020.",
+  "V": "Majority fan-owned (Foundation of Hearts, about 8,000 monthly donors); Big Hearts Community Trust; Hearts Women won their first SWPL title in 2025-26; non-betting front sponsor (Stellar Omada; earlier gave the shirt to MND Scotland); McCrae's Battalion remembrance; Scottish regional identity. No betting shirt sponsor found.",
+  "H": "Founded 1874; 4 league titles, 8 Scottish Cups (1998, 2006, 2012 5-1 over Hibs); McCrae's Battalion, players who enlisted together in 1914; 1986 last-day title collapse. Major national significance, modest beyond Scotland.",
+  "O": "Foundation of Hearts holds 75%+ of voting shares since 2021 (Ann Budge handover), the UK's largest fan-owned club. Bloom's non-voting 29% approved by 98.5% of Foundation members; control stays with fans. Multi-club tie handled in adjustments.",
+  "T": "2025-26: led the league most of the season, finished 2nd by 2 points. Bond with fans strong under fan ownership, but heavy data-led recruitment churn; Shankland and Craig Gordon no longer in the squad. Coaches: Naismith (sacked Sep 2024), Critchley (2024-25), McInnes (2025-26), Vrancken (Jun 2026-) = 3+ permanent coaches in 3 seasons (R3 -1 applied)."
+ },
+ "flags": [
+  "Bloom stake: multiclub -3 and betting-owner -1 are judgements for a non-voting minority holder; Kevin may prefer half of Brighton's treatment or none.",
+  "Old Edinburgh derby incidents (2011 attack on Neil Lennon by a Hearts fan, 2019 pyro) are older than 5 years and isolated: no violence adjustment."
+ ],
+ "confidence": "medium",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C.",
+  "https://www.edinburghnews.scotsman.com/sport/football/hearts/tony-bloom-investment-takes-major-step-forward-as-foundation-of-hearts-pass-resolution-4896338",
+  "https://swissramble.substack.com/p/hearts-finances-202425",
+  "https://www.heartsfc.co.uk/blogs/news/stellar-omada-new-front-of-shirt-partner",
+  "https://www.heartsfc.co.uk/blogs/news/hearts-women-crowned-swpl-champions",
+  "https://spfl.co.uk/news/wouter-vrancken-is-new-hearts-boss"
+ ]},
+{"name": "Hibernian", "short": "Hibs", "abbr": "HIB", "color": "#00703C", "country": "Scotland",
+ "C": 8.0, "V": 6.0, "H": 7.1, "O": 5.6, "T": 5.0,
+ "adjustments": [],
+ "evidence": {
+  "C": "Easter Road (20,421), home since 1893, crowds mostly 16,000-19,000; 'Sunshine on Leith' anthem; loyal through relegation (2014-17 in the Championship) and the 114-year Scottish Cup wait ended in 2016 (pitch invasion at Hampden).",
+  "V": "Founded 1875 by Edinburgh's Irish community, non-sectarian today; Hibernian Community Foundation; Hibs Women brought under club ownership in 2022, historically a leading SWPL side; long record of academy graduates. Against: SBK sports-betting sleeve sponsor (2024 deal, still on the 2026-27 kit); front sponsor bevvy.com is a drinks-delivery firm.",
+  "H": "Founded 1875; first British club to enter the European Cup (semi-final 1955-56); 'Famous Five' forward line, 4 league titles, 3 Scottish Cups (2016 ended a 114-year wait), 3 League Cups; inspired Celtic's green and white hoops.",
+  "O": "Gordon family (Bydand Sports, US-based) majority owners since 2019; bought back Bill Foley's 25% (Black Knight) in Nov 2025 citing different visions, ending the multi-club tie. Owners fund losses (about GBP 7m a year); fans' Hibernian Supporters Limited holds a minority stake and helped vet the Foley deal. Frequent coach changes.",
+  "T": "David Gray (one-club Hibs captain who scored the 2016 cup winner) coached from June 2024, took Hibs from bottom to 3rd in 2024-25, sacked Sep 2026 after six league games; Marink Reedijk appointed 24 Sep 2026. Captain Paul Hanlon era ended; Martin Boyle long-serving. Two permanent coaches in the last 3 seasons (Montgomery 2023-24 makes three in the last 3.5 years): R3 not applied."
+ },
+ "flags": [
+  "R3 churn borderline: Montgomery (sacked Apr 2024), Gray, Reedijk. Counting 2023-24 would make it 3 coaches and Team -1 (4.0).",
+  "Easter Road incidents (2018 attacks on Neil Lennon and James Tavernier, derby pyro) are older than 5 years: no violence adjustment."
+ ],
+ "confidence": "medium",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hibernian_F.C.",
+  "https://www.skysports.com/football/news/11792/13469156/hibernian-bournemouth-owner-bill-foley-sells-stake-in-easter-road-club-with-gordon-family-to-purchase-shareholding",
+  "https://www.gamblinginsider.com/news/26287/sbk-becomes-hibernian-fcs-new-sleeve-sponsor",
+  "https://www.hibernianfc.co.uk/news/2025/june/18/introducing-the-2025-26-hibs-home-kit",
+  "https://www.footyheadlines.com/0852770286/hibernian-fc-26-27-home-kit-released.html",
+  "https://spfl.co.uk/news/david-gray-named-hibernian-head-coach"
+ ]}
+]

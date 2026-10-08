@@ -18,5 +18,5 @@ Carabao Cup (cup): teams[] (92 clubs; att/dfn ratings for the rated ones; tier),
 
 Competition config (zones, statuses, colours, knockout kind, drawPrior, headline) is in src/config.js.
 
-data/nations_extra.json (Affinity pages only, bundled as EXTRA): {wc: {nation: World Cup 2026 result}, teams: [{name, short, abbr,
+data/nations_extra.json (Affinity pages only, bundled as EXTRA; `clubs` holds the heritage clubs: {name, short, abbr, color, league, region, base, bonus, hai}): {wc: {nation: World Cup 2026 result}, teams: [{name, short, abbr,
 color, confed, base, bonus, region, hai}]} for the 2026 World Cup nations outside the Nations League.

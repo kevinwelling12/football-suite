@@ -266,3 +266,11 @@ rescore.py sets each nation's bonus = 0.4 x share, capped at +10 (the old per-na
 Republic of Ireland +0.1 -> +2.4 (Ulster 12% split 2/3-1/3, Leinster 2%), Portugal +6.0 -> +6.8 (Madeira 17%),
 Germany +3.7 -> +2.4, Belgium, Czech Republic, Poland +0.8, Lithuania +1.2, Austria and Switzerland +0.4; Netherlands,
 Denmark, Finland and Spain drop to 0. England stays at the +10 cap (40%), United States +10 (home nation).
+
+Heritage clubs (2026-10-08; research in scripts/affinity/research/heritage and perf/h*.json): 15 clubs from Kevin's Ancestry
+regions outside the tracked leagues (Scotland, Ulster, Leinster, Madeira, Bavaria, Lithuania, Western Czechia, Belgium). Scored
+like every club: same factors and hard lines, track record against their own top flight, minor penalties folded into the
+factors, big-4 ties (Rangers: 49ers Enterprises in the owning consortium, minority +1). No regional bonus, as for all clubs.
+Metadata in data/nations_extra.json `clubs` (league, Ancestry region); shown in the overall ranking under "Heritage clubs"
+with a breakdown-only card. Open calls: Rangers multi-club -3 (secondary to Leeds), Hearts/Union SG Bloom stakes,
+Plzeň owner's arms fortune -3 (scaled like Brighton's betting fortune), Linfield racism -6, Celtic violence -4.

@@ -1,0 +1,422 @@
+[
+ {
+  "name": "Celtic",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2025-26",
+    "type": "league",
+    "what": "Scottish Premiership"
+   },
+   {
+    "s": "2025-26",
+    "type": "cup",
+    "what": "Scottish Cup"
+   },
+   {
+    "s": "2024-25",
+    "type": "league",
+    "what": "Scottish Premiership"
+   },
+   {
+    "s": "2024-25",
+    "type": "league_cup",
+    "what": "Scottish League Cup"
+   },
+   {
+    "s": "2023-24",
+    "type": "league",
+    "what": "Scottish Premiership"
+   },
+   {
+    "s": "2023-24",
+    "type": "cup",
+    "what": "Scottish Cup"
+   },
+   {
+    "s": "2022-23",
+    "type": "league",
+    "what": "Scottish Premiership"
+   },
+   {
+    "s": "2022-23",
+    "type": "cup",
+    "what": "Scottish Cup"
+   },
+   {
+    "s": "2022-23",
+    "type": "league_cup",
+    "what": "Scottish League Cup"
+   },
+   {
+    "s": "2021-22",
+    "type": "league",
+    "what": "Scottish Premiership"
+   },
+   {
+    "s": "2021-22",
+    "type": "league_cup",
+    "what": "Scottish League Cup"
+   },
+   {
+    "s": "2019-20",
+    "type": "league",
+    "what": "Scottish Premiership"
+   },
+   {
+    "s": "2019-20",
+    "type": "cup",
+    "what": "Scottish Cup"
+   },
+   {
+    "s": "2019-20",
+    "type": "league_cup",
+    "what": "Scottish League Cup"
+   },
+   {
+    "s": "2018-19",
+    "type": "league",
+    "what": "Scottish Premiership"
+   },
+   {
+    "s": "2018-19",
+    "type": "cup",
+    "what": "Scottish Cup"
+   },
+   {
+    "s": "2018-19",
+    "type": "league_cup",
+    "what": "Scottish League Cup"
+   },
+   {
+    "s": "2017-18",
+    "type": "league",
+    "what": "Scottish Premiership"
+   },
+   {
+    "s": "2017-18",
+    "type": "cup",
+    "what": "Scottish Cup"
+   },
+   {
+    "s": "2017-18",
+    "type": "league_cup",
+    "what": "Scottish League Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Scottish Premiership"
+   },
+   {
+    "s": "2016-17",
+    "type": "cup",
+    "what": "Scottish Cup"
+   },
+   {
+    "s": "2016-17",
+    "type": "league_cup",
+    "what": "Scottish League Cup"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Final positions after the split. 2019-20 curtailed by COVID (title on points per game); its Scottish Cup final was played in Dec 2020. Lost 2025-26 League Cup final to St Mirren and 2024-25 Scottish Cup final to Aberdeen."
+ },
+ {
+  "name": "Rangers",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 3,
+    "of": 12
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 1,
+    "of": 12
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 3,
+    "of": 12
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 3,
+    "of": 12
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2023-24",
+    "type": "league_cup",
+    "what": "Scottish League Cup"
+   },
+   {
+    "s": "2021-22",
+    "type": "cup",
+    "what": "Scottish Cup"
+   },
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Scottish Premiership"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2019-20 curtailed (2nd on points per game). Europa League runners-up 2021-22 (not a trophy). Back in the top flight since 2016-17 after the 2012 restart in the fourth tier."
+ },
+ {
+  "name": "Heart of Midlothian",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 2,
+    "of": 12
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 7,
+    "of": 12
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 3,
+    "of": 12
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 4,
+    "of": 12
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 3,
+    "of": 12
+   },
+   {
+    "s": "2020-21",
+    "tier": 2,
+    "pos": 1,
+    "of": 10
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 12,
+    "of": 12
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 6,
+    "of": 12
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 6,
+    "of": 12
+   },
+   {
+    "s": "2016-17",
+    "tier": 1,
+    "pos": 5,
+    "of": 12
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2020-21",
+    "type": "league",
+    "what": "Scottish Championship (tier 2)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "Relegated when the 2019-20 season was curtailed (12th on points per game); 2020-21 Championship shortened to 27 games. Scottish Cup finals lost in 2019, 2020 (played Dec 2020) and 2022."
+ },
+ {
+  "name": "Hibernian",
+  "seasons": [
+   {
+    "s": "2025-26",
+    "tier": 1,
+    "pos": 5,
+    "of": 12
+   },
+   {
+    "s": "2024-25",
+    "tier": 1,
+    "pos": 3,
+    "of": 12
+   },
+   {
+    "s": "2023-24",
+    "tier": 1,
+    "pos": 8,
+    "of": 12
+   },
+   {
+    "s": "2022-23",
+    "tier": 1,
+    "pos": 5,
+    "of": 12
+   },
+   {
+    "s": "2021-22",
+    "tier": 1,
+    "pos": 8,
+    "of": 12
+   },
+   {
+    "s": "2020-21",
+    "tier": 1,
+    "pos": 3,
+    "of": 12
+   },
+   {
+    "s": "2019-20",
+    "tier": 1,
+    "pos": 7,
+    "of": 12
+   },
+   {
+    "s": "2018-19",
+    "tier": 1,
+    "pos": 5,
+    "of": 12
+   },
+   {
+    "s": "2017-18",
+    "tier": 1,
+    "pos": 4,
+    "of": 12
+   },
+   {
+    "s": "2016-17",
+    "tier": 2,
+    "pos": 1,
+    "of": 10
+   }
+  ],
+  "trophies": [
+   {
+    "s": "2016-17",
+    "type": "league",
+    "what": "Scottish Championship (tier 2)"
+   }
+  ],
+  "current_tier": 1,
+  "confidence": "high",
+  "notes": "2019-20 curtailed (7th on points per game). 2015-16 Scottish Cup win falls just outside the window. Lost 2020-21 Scottish Cup and 2021-22 League Cup finals."
+ }
+]

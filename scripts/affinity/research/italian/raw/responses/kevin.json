@@ -1,0 +1,316 @@
+{
+  "answers": {
+    "academy": [
+      "a",
+      "c",
+      "b"
+    ],
+    "coach": [
+      "a",
+      "c",
+      "b"
+    ],
+    "community": [
+      "a",
+      "c",
+      "b"
+    ],
+    "direction": [
+      "a",
+      "b",
+      "c"
+    ],
+    "g1": 3,
+    "g2": 3,
+    "g3": 2,
+    "ground": [
+      "b",
+      "c",
+      "a"
+    ],
+    "history": "even",
+    "i_academy": 2,
+    "i_coach": 1,
+    "i_community": 3,
+    "i_direction": 2,
+    "i_ground": 1,
+    "i_history": 2,
+    "i_owner": 2,
+    "i_practical": 3,
+    "i_record": 2,
+    "i_sponsors": 2,
+    "i_squad": 2,
+    "i_supporters": 3,
+    "i_voice": 1,
+    "i_women": 2,
+    "owner": [
+      "c",
+      "a",
+      "b"
+    ],
+    "practical": [
+      "a",
+      "b",
+      "c"
+    ],
+    "r1": 1,
+    "r2": 1,
+    "r3": 1,
+    "r4": 0,
+    "r5": 1,
+    "r6": 1,
+    "record": [
+      "c",
+      "a",
+      "b"
+    ],
+    "s1": 3,
+    "s2": 7,
+    "s3": 4,
+    "sponsors": [
+      "b",
+      "a",
+      "c"
+    ],
+    "squad": [
+      "a",
+      "c",
+      "b"
+    ],
+    "supporters": [
+      "a",
+      "b",
+      "c"
+    ],
+    "voice": [
+      "b",
+      "a",
+      "c"
+    ],
+    "women": [
+      "c",
+      "a",
+      "b"
+    ]
+  },
+  "idx": 40,
+  "order": [
+    {
+      "d": "supporters",
+      "id": "i_supporters",
+      "t": "imp"
+    },
+    {
+      "d": "community",
+      "id": "i_community",
+      "t": "imp"
+    },
+    {
+      "d": "squad",
+      "id": "i_squad",
+      "t": "imp"
+    },
+    {
+      "d": "record",
+      "id": "i_record",
+      "t": "imp"
+    },
+    {
+      "d": "practical",
+      "id": "i_practical",
+      "t": "imp"
+    },
+    {
+      "d": "academy",
+      "id": "i_academy",
+      "t": "imp"
+    },
+    {
+      "d": "history",
+      "id": "i_history",
+      "t": "imp"
+    },
+    {
+      "d": "coach",
+      "id": "i_coach",
+      "t": "imp"
+    },
+    {
+      "d": "ground",
+      "id": "i_ground",
+      "t": "imp"
+    },
+    {
+      "d": "sponsors",
+      "id": "i_sponsors",
+      "t": "imp"
+    },
+    {
+      "d": "direction",
+      "id": "i_direction",
+      "t": "imp"
+    },
+    {
+      "d": "voice",
+      "id": "i_voice",
+      "t": "imp"
+    },
+    {
+      "d": "owner",
+      "id": "i_owner",
+      "t": "imp"
+    },
+    {
+      "d": "women",
+      "id": "i_women",
+      "t": "imp"
+    },
+    {
+      "id": "academy",
+      "t": "card"
+    },
+    {
+      "id": "history",
+      "t": "card"
+    },
+    {
+      "id": "voice",
+      "t": "card"
+    },
+    {
+      "id": "practical",
+      "t": "card"
+    },
+    {
+      "id": "community",
+      "t": "card"
+    },
+    {
+      "id": "owner",
+      "t": "card"
+    },
+    {
+      "id": "women",
+      "t": "card"
+    },
+    {
+      "id": "sponsors",
+      "t": "card"
+    },
+    {
+      "id": "squad",
+      "t": "card"
+    },
+    {
+      "id": "direction",
+      "t": "card"
+    },
+    {
+      "id": "supporters",
+      "t": "card"
+    },
+    {
+      "id": "record",
+      "t": "card"
+    },
+    {
+      "id": "coach",
+      "t": "card"
+    },
+    {
+      "id": "ground",
+      "t": "card"
+    },
+    {
+      "id": "r1",
+      "t": "rule"
+    },
+    {
+      "id": "r2",
+      "t": "rule"
+    },
+    {
+      "id": "r3",
+      "t": "rule"
+    },
+    {
+      "id": "r4",
+      "t": "rule"
+    },
+    {
+      "id": "r5",
+      "t": "rule"
+    },
+    {
+      "id": "r6",
+      "t": "rule"
+    },
+    {
+      "id": "s1",
+      "t": "scen"
+    },
+    {
+      "id": "s2",
+      "t": "scen"
+    },
+    {
+      "id": "s3",
+      "t": "scen"
+    },
+    {
+      "id": "g1",
+      "t": "gut"
+    },
+    {
+      "id": "g2",
+      "t": "gut"
+    },
+    {
+      "id": "g3",
+      "t": "gut"
+    }
+  ],
+  "times": {
+    "academy": 89131,
+    "coach": 53109,
+    "community": 85347,
+    "direction": 67758,
+    "g1": 7601,
+    "g2": 4176,
+    "g3": 13653,
+    "ground": 32293,
+    "history": 88889,
+    "i_academy": 3999,
+    "i_coach": 2445,
+    "i_community": 8812,
+    "i_direction": 3002,
+    "i_ground": 5986,
+    "i_history": 3716,
+    "i_owner": 3116,
+    "i_practical": 6966,
+    "i_record": 2565,
+    "i_sponsors": 4534,
+    "i_squad": 3668,
+    "i_supporters": 13435,
+    "i_voice": 8132,
+    "i_women": 3765,
+    "owner": 63725,
+    "practical": 52625,
+    "r1": 12103,
+    "r2": 15467,
+    "r3": 9601,
+    "r4": 1498,
+    "r5": 14138,
+    "r6": 12850,
+    "record": 60960,
+    "s1": 17068,
+    "s2": 9752,
+    "s3": 11998,
+    "sponsors": 62039,
+    "squad": 47049,
+    "supporters": 55897,
+    "voice": 53911,
+    "women": 24685
+  },
+  "updated": "2026-10-09T07:07:17.852Z"
+}

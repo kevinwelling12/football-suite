@@ -1,0 +1,72 @@
+{
+ "supporters": {
+  "a": "napoli",
+  "b": "fiorentina",
+  "c": "atalanta"
+ },
+ "ground": {
+  "a": "napoli",
+  "b": "atalanta",
+  "c": "fiorentina"
+ },
+ "owner": {
+  "a": "atalanta",
+  "b": "napoli",
+  "c": "fiorentina"
+ },
+ "voice": {
+  "a": "fiorentina",
+  "b": "atalanta",
+  "c": "napoli"
+ },
+ "community": {
+  "a": "atalanta",
+  "b": "napoli",
+  "c": "fiorentina"
+ },
+ "sponsors": {
+  "a": "napoli",
+  "b": "atalanta",
+  "c": "fiorentina"
+ },
+ "women": {
+  "a": "napoli",
+  "b": "atalanta",
+  "c": "fiorentina"
+ },
+ "coach": {
+  "a": "napoli",
+  "b": "fiorentina",
+  "c": "atalanta"
+ },
+ "squad": {
+  "a": "atalanta",
+  "b": "fiorentina",
+  "c": "napoli"
+ },
+ "academy": {
+  "a": "atalanta",
+  "b": "napoli",
+  "c": "fiorentina"
+ },
+ "record": {
+  "a": "atalanta",
+  "b": "fiorentina",
+  "c": "napoli"
+ },
+ "history": {
+  "a": "napoli",
+  "b": "atalanta",
+  "c": "fiorentina"
+ },
+ "practical": {
+  "a": "napoli",
+  "b": "atalanta",
+  "c": "fiorentina"
+ },
+ "direction": {
+  "a": "napoli",
+  "b": "atalanta",
+  "c": "fiorentina"
+ }
+}

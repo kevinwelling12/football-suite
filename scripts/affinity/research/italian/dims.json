@@ -1,0 +1,100 @@
+[
+ {
+  "id": "supporters",
+  "name": "Supporters and atmosphere",
+  "napoli": "About 50,000 a match in a big city, over 90% full. Ultras in both ends feud openly with the owner: protests, silent matches, posters across the city. About 200 travelling fans were detained abroad before a European match. No racism sanctions found.",
+  "fiorentina": "About 22,000 a match while the home end is closed for rebuilding. The home end drew a suspended closure for racist chants at opponents three years ago; one fan got a five-year ban for racist abuse. No recent violence cases found.",
+  "atalanta": "About 22,000 a match in a small city, over 90% full. Ultras rated among the country's most violent: the end was closed for racist chants three years ago, a motorway brawl brought 16 bans last year, bans broke up the main group."
+ },
+ {
+  "id": "ground",
+  "name": "The ground",
+  "napoli": "City-owned, opened in the 1950s, a capacity in the 50,000s with a running track. The city and region plan a fully public renovation; the owner refused to take part and wants a new stadium of his own. No deal, no timetable.",
+  "fiorentina": "City-owned, opened in the 1930s, being rebuilt around the team for the past two years; about 24,000 usable seats. The new home end slipped a year, to next spring; the whole rebuild runs to the end of the decade. The team stays throughout.",
+  "atalanta": "Opened in the 1920s; the club bought it from the city, then rebuilt it one stand at a time over five years while playing there. A capacity in the 20,000s. Finished, club-owned, no move planned."
+ },
+ {
+  "id": "owner",
+  "name": "Ownership and governance",
+  "napoli": "A family film company has owned it since restarting it after bankruptcy. It also owns a lower-division club it must sell within two years. The owner faces a false-accounting trial over past transfers. Lost money last season; large cash reserves.",
+  "fiorentina": "An American family that made its money in cable television. The founder died this year; his son took over and says the club is not for sale. The family has put in hundreds of millions and covers the losses. No bank debt.",
+  "atalanta": "A local business family runs it with 45% of the holding company; an American investor group led by a former private-equity chief holds 55%. Ten straight years of profit, mostly from selling players. A player match-fixing case cost points over a decade ago."
+ },
+ {
+  "id": "voice",
+  "name": "Fans' say in the club",
+  "napoli": "A private company: no fan vote, board seat or supporters' trust. Relations with organised fans run through protest; the owner has called most ultras outlaws and once needed police protection after threats.",
+  "fiorentina": "A private company: no fan vote, board seat or supporters' trust. Fans' main grievance, the slow stadium works, is the city's project rather than the club's. No organised campaign against the owners found.",
+  "atalanta": "A private company: no fan vote, board seat or supporters' trust. A small share sits outside the owners' holding company, with holders not identified. No public feud between owners and fans found."
+ },
+ {
+  "id": "community",
+  "name": "Community work and causes",
+  "napoli": "Partners with blood-cancer, neuromuscular-disease and blood-donation charities. Refused the league's anti-racism patch after a player's alleged abuser was cleared, saying it would act alone; yet its own social account once mocked a black star player. No Pride activity found.",
+  "fiorentina": "The owners gave large sums to local hospitals in the pandemic, and the club and fans rallied visibly around a player who collapsed on the pitch. No current club foundation, anti-racism campaign or Pride programme was found.",
+  "atalanta": "Gives a free shirt to every baby born in the city and auctions shirts for charity. Players and fans raised money for the city hospital in the pandemic. The coach played down racist chants as bad manners. No Pride activity found."
+ },
+ {
+  "id": "sponsors",
+  "name": "Sponsors",
+  "napoli": "Shirt: a family-owned cruise and shipping group. Kit: a fashion house. A betting firm's live-scores brand is an official partner for two more seasons, the usual workaround for a national ban on betting ads. No arms or state-owned partner.",
+  "fiorentina": "Shirt: the owners' own cable-TV company, a deal worth over a tenth of club revenue. Sleeve: a betting firm's live-scores app, the usual workaround for a national ban on betting ads. Kit: a sportswear brand. No arms or state-owned partner.",
+  "atalanta": "Shirt: a mineral-water brand. Sleeve: a crypto exchange under a fraud investigation abroad since spring (whether the deal continues is unclear). A betting firm's app brand is also a partner. No arms or state-owned partner."
+ },
+ {
+  "id": "women",
+  "name": "The women's team",
+  "napoli": "A top-flight women's team carries the club's name but is run as a separate company. Mid-table, 7th of 12, last season; plays at a small municipal ground outside the city. Has never won a major trophy.",
+  "fiorentina": "A women's team owned and run by the club. National champions within the last decade, several domestic cups and five European campaigns; 4th of 12 last season. Plays at a 3,000-seat ground inside the club's training centre.",
+  "atalanta": "No senior women's team. The club backed a local women's side for two seasons, then pulled its funding, and that side gave up its top-flight place. No women's section found since."
+ },
+ {
+  "id": "coach",
+  "name": "Coach and style of play",
+  "napoli": "A veteran coach, 59, hired this summer on a three-year deal: pragmatic, results first, flexible shape. The fifth new coach in four seasons and the owner's thirteenth. 9th of 20 after five matches.",
+  "fiorentina": "A coach of 54, rehired a month ago after this summer's appointment was sacked after three straight defeats. The fifth coaching change in just over two seasons; no settled style. 17th of 20 after five matches.",
+  "atalanta": "A veteran coach, 67, hired this summer on a three-year deal, bringing patient possession with a back four after nine years of all-out man-marking pressing. The third coach in sixteen months. 11th of 20 after five matches."
+ },
+ {
+  "id": "squad",
+  "name": "Squad stability and icons",
+  "napoli": "The captain is in his eighth season at the club. Built on expensive signings of established stars and big-money strikers, with dozens of loanees cycling in and out. No player conduct cases found.",
+  "fiorentina": "The captain, a veteran goalkeeper, is in his third season; the previous captain, an academy product, lost the armband for protesting too hard. About €140m spent this summer on eight signings, plus seven loans. No player conduct cases found.",
+  "atalanta": "The captain is in his fifth season; the long-time former captain, ten seasons at the club, was let go this summer. Sells its best players every year, this summer a homegrown full-back for about €60m. No player conduct cases found."
+ },
+ {
+  "id": "academy",
+  "name": "Academy and homegrown players",
+  "napoli": "Rated among the country's clubs that use their own youth players least; past graduates mostly made careers elsewhere. The youth set-up has been strengthened in the last two years, but few graduates play.",
+  "fiorentina": "A training centre costing over €120m opened three years ago, promising a couple of first-teamers a year. A few graduates have reached the team: one sold abroad, one vice-captain, one loaned out this summer.",
+  "atalanta": "Long one of the country's most respected academies, with a reserve team in the third tier. Six graduates in the squad, a couple of them regulars; critics say it produces less than before and sells its best."
+ },
+ {
+  "id": "record",
+  "name": "Winning and track record",
+  "napoli": "Last ten seasons: national champions more than once, plus a domestic cup; top three in seven seasons, never below 10th. Runners-up last season, but out in the Champions League's first phase.",
+  "fiorentina": "Last ten seasons: between 6th and 16th, no trophy; lost three finals in two seasons, two of them European. 15th last season after being bottom in the autumn, but reached a European quarter-final.",
+  "atalanta": "Last ten seasons: never below 8th, third four times, in the Champions League in half of them; won a European trophy in recent seasons. 7th last season, but reached the Champions League last 16."
+ },
+ {
+  "id": "history",
+  "name": "History and identity",
+  "napoli": "Founded in the 1920s in a big southern port city. Went bankrupt and restarted in the third tier two decades ago, with huge crowds even there. Its glory years made it the symbol of a region other fans still mock.",
+  "fiorentina": "Founded in the 1920s by a local aristocrat to rival the northern powers. Went bankrupt and restarted in the fourth tier two decades ago, then was punished in a national refereeing scandal. Its last national title is over 50 years old.",
+  "atalanta": "Founded in the 1900s by secondary-school students in a mid-sized northern city. Spent decades moving between the top two divisions; only in the last decade did it become a European regular and a trophy winner."
+ },
+ {
+  "id": "practical",
+  "name": "Following from Sacramento",
+  "napoli": "About 6,300 miles, no nonstop flights. League matches on a paid US streamer, kick-offs between 3:30 and 11:45 am Pacific. Champions League this season, weekdays around noon Pacific. A big ground, so tickets are easier to find.",
+  "fiorentina": "About 6,000 miles, no nonstop flights. League matches on a paid US streamer, kick-offs between 3:30 and 11:45 am Pacific. No European football this season. Reduced capacity until the new home end opens next year.",
+  "atalanta": "About 5,900 miles, no nonstop flights. League matches on a paid US streamer, kick-offs between 3:30 and 11:45 am Pacific. Europe's third-tier competition this season, Thursdays mid-morning to noon Pacific. A small, near-full ground."
+ },
+ {
+  "id": "direction",
+  "name": "Where the club is heading",
+  "napoli": "9th under a new coach. A stadium standoff with the city, the owner's trial pending, a second club to sell within two years, ultras at odds with the owner. Playing in the Champions League.",
+  "fiorentina": "17th under a rehired coach after heavy spending. New family leadership after the founder's death, not for sale. The home end returns next year and the rebuild ends late in the decade. The owners cover the losses.",
+  "atalanta": "11th under a new coach and a new style. Let its long-time captain and top young players go; still profitable, owns its finished ground. A sleeve sponsor is under investigation. Playing in Europe's third-tier competition."
+ }
+]

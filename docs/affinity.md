@@ -89,6 +89,22 @@ Both deciders (Portland over Seattle, Dortmund over Union) and their six scenari
 the model already called 9 of 10). Team record share 0.10 -> 0.124. Dortmund 81.0 over Union 80.2; Timbers 77.2 over
 Sounders 77.1, still on merit.
 
+## Italian decider (2026-10-09)
+Napoli, Fiorentina, Atalanta, three-way and more blind (no names, trophy counts or years; scripts/affinity/research/italian).
+Ranked by his importance weights: Atalanta +6, Napoli +2, Fiorentina -8 (each card: best +1, worst -1). Atalanta first on
+community, academy, sponsors, squad, voice, ground; Napoli on supporters, record, following, direction; Fiorentina on
+owner and women's team. Gut: he'd follow Atalanta. Rules: second club "a little", pending trial "about half", American
+owners neither way, racist chants and brawls worse than an ultras-owner feud.
+Applied like Cascadia (factor changes where his rankings contradicted the model): Atalanta Values 6 -> 7; Napoli Values
+7 -> 6.5, Ownership 5 -> 4.5 (owner's false-accounting trial at half). The three rankings and three scenarios joined the
+fit, but the refit (record share 0.14) matched fewer decider items (15 of 19 vs 17) and put Seattle above Portland, so
+params.json keeps the record share at 0.124 (do not refit with --write without checking the deciders and Timbers v
+Sounders). Result: Atalanta 71.1, Napoli 69.8, Fiorentina 68.6.
+Then the dossier's ultras findings were added as hard lines, at the usual scale (Kevin: "It should count no?"): Atalanta
+racism -3 (2023 end closure) and violence -4 (2025 brawl, group broken up by bans); Napoli violence -3 (about 200 fans
+detained abroad, 2026); Fiorentina racism -2 (2023 suspended closure, a five-year ban). Result: Fiorentina 65.5, Napoli
+65.2, Bologna 64.0, Atalanta 58.8 (6th).
+
 ## Decisions taken in the rebuild
 - Nations now have a record (FIFA ranking and tournaments) like clubs and players. Small nations are ranked among all
   211 FIFA members, so they aren't judged against the top of the world.

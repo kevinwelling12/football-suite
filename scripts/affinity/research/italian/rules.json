@@ -1,0 +1,75 @@
+{
+ "rules": [
+  {
+   "id": "r1",
+   "q": "A club's owner also owns a lower-division club in the same country, and the rules say one must be sold within two years. How much should that count against it?",
+   "o": [
+    "Not at all",
+    "A little",
+    "A lot",
+    "It nearly rules the club out"
+   ]
+  },
+  {
+   "id": "r2",
+   "q": "A club's owner has been sent to trial for false accounting over past transfer deals; no verdict yet. How much should it count now?",
+   "o": [
+    "Fully, as if proven",
+    "About half",
+    "Only if convicted",
+    "Not at all"
+   ]
+  },
+  {
+   "id": "r3",
+   "q": "Two of the clubs have American owners or co-owners; the third is owned at home. Should that pull you toward the American-owned ones?",
+   "o": [
+    "Toward them",
+    "Neither way",
+    "Away from them"
+   ]
+  },
+  {
+   "id": "r4",
+   "q": "Which bothers you more in a club's ultras?",
+   "o": [
+    "Racist chants and brawls with rival fans",
+    "A long, bitter public feud with their own owner",
+    "Both about equally",
+    "Neither much"
+   ]
+  },
+  {
+   "id": "r5",
+   "q": "A club plays on in a historic ground while it is rebuilt around it: reduced capacity and the home end closed for about three seasons. How much should that count against its atmosphere?",
+   "o": [
+    "Not at all: it's temporary",
+    "A little",
+    "A lot while it lasts"
+   ]
+  },
+  {
+   "id": "r6",
+   "q": "A club stays profitable by selling its best young players, and even its long-time captain, every year. How does that sit with you?",
+   "o": [
+    "It counts against it",
+    "Neutral: that's how it survives",
+    "It counts in its favour: it develops players"
+   ]
+  }
+ ],
+ "scenarios": [
+  {
+   "id": "s1",
+   "q": "It's 2031. Your club has won the league again and 50,000 fill every home match, but its owner was convicted of false accounting and is still in charge."
+  },
+  {
+   "id": "s2",
+   "q": "It's 2031. Your club has finished mid-table every year and won nothing, but it has a strong women's team, a rebuilt historic ground and owners who never sold."
+  },
+  {
+   "id": "s3",
+   "q": "It's 2031. Your club is in Europe every year and turns a profit, but it has sold every young star it produced and its ultras have been banned again for violence."
+  }
+ ]
+}

@@ -814,16 +814,16 @@
   "name": "Dino Zoff",
   "gender": "M",
   "active": false,
-  "aff": 82.6,
+  "aff": 82.5,
   "Q": 82.2,
   "Qh": 82.2,
   "R": 79.3,
   "A0": 81.0,
-  "K": 1.5,
+  "K": 1.4,
   "conn": [
    [
     "Club seasons",
-    2.0
+    1.9
    ],
    [
     "Seasons at clubs you rate low",
@@ -1816,28 +1816,6 @@
   "hard": []
  },
  {
-  "name": "Gianfranco Zola",
-  "gender": "M",
-  "active": false,
-  "aff": 76.4,
-  "Q": 74.7,
-  "Qh": 74.7,
-  "R": 80.9,
-  "A0": 77.1,
-  "K": -0.7,
-  "conn": [
-   [
-    "Club seasons",
-    2.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Ruud Gullit",
   "gender": "M",
   "active": false,
@@ -1877,6 +1855,28 @@
    [
     "Seasons at clubs you rate low",
     -0.1
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Gianfranco Zola",
+  "gender": "M",
+  "active": false,
+  "aff": 76.3,
+  "Q": 74.7,
+  "Qh": 74.7,
+  "R": 80.9,
+  "A0": 77.1,
+  "K": -0.8,
+  "conn": [
+   [
+    "Club seasons",
+    2.2
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
    ]
   ],
   "hard": []
@@ -1943,16 +1943,16 @@
   "name": "Johan Cruyff",
   "gender": "M",
   "active": false,
-  "aff": 75.8,
+  "aff": 75.7,
   "Q": 73.5,
   "Qh": 61.6,
   "R": 99.0,
   "A0": 74.5,
-  "K": 1.3,
+  "K": 1.2,
   "conn": [
    [
     "Club seasons",
-    1.3
+    1.2
    ]
   ],
   "hard": [
@@ -2819,24 +2819,6 @@
   "hard": []
  },
  {
-  "name": "Giovanni Di Lorenzo",
-  "gender": "M",
-  "active": true,
-  "aff": 72.1,
-  "Q": 71.8,
-  "Qh": 71.8,
-  "R": 66.1,
-  "A0": 69.5,
-  "K": 2.7,
-  "conn": [
-   [
-    "Club seasons",
-    2.6
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Jimmy Greaves",
   "gender": "M",
   "active": false,
@@ -2876,6 +2858,24 @@
    [
     "US international",
     2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Giovanni Di Lorenzo",
+  "gender": "M",
+  "active": true,
+  "aff": 71.9,
+  "Q": 71.8,
+  "Qh": 71.8,
+  "R": 66.1,
+  "A0": 69.5,
+  "K": 2.5,
+  "conn": [
+   [
+    "Club seasons",
+    2.4
    ]
   ],
   "hard": []
@@ -4504,28 +4504,6 @@
   "hard": []
  },
  {
-  "name": "Khvicha Kvaratskhelia",
-  "gender": "M",
-  "active": true,
-  "aff": 63.7,
-  "Q": 55.3,
-  "Qh": 55.3,
-  "R": 77.4,
-  "A0": 63.2,
-  "K": 0.5,
-  "conn": [
-   [
-    "Club seasons",
-    1.1
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.6
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Phil Foden",
   "gender": "M",
   "active": true,
@@ -4539,6 +4517,28 @@
    [
     "Seasons at clubs you rate low",
     -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Khvicha Kvaratskhelia",
+  "gender": "M",
+  "active": true,
+  "aff": 63.6,
+  "Q": 55.3,
+  "Qh": 55.3,
+  "R": 77.4,
+  "A0": 63.2,
+  "K": 0.4,
+  "conn": [
+   [
+    "Club seasons",
+    1.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.6
    ]
   ],
   "hard": []
@@ -5379,28 +5379,6 @@
   "hard": []
  },
  {
-  "name": "Victor Osimhen",
-  "gender": "M",
-  "active": true,
-  "aff": 60.5,
-  "Q": 53.6,
-  "Qh": 53.6,
-  "R": 68.0,
-  "A0": 58.9,
-  "K": 1.5,
-  "conn": [
-   [
-    "Club seasons",
-    1.8
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.3
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Juan Román Riquelme",
   "gender": "M",
   "active": false,
@@ -5436,6 +5414,28 @@
    [
     "Seasons at clubs you rate low",
     -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Victor Osimhen",
+  "gender": "M",
+  "active": true,
+  "aff": 60.4,
+  "Q": 53.6,
+  "Qh": 53.6,
+  "R": 68.0,
+  "A0": 58.9,
+  "K": 1.4,
+  "conn": [
+   [
+    "Club seasons",
+    1.7
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.3
    ]
   ],
   "hard": []
@@ -5506,16 +5506,16 @@
   "name": "Hugo Ekitiké",
   "gender": "M",
   "active": true,
-  "aff": 60.1,
+  "aff": 60.2,
   "Q": 58.6,
   "Qh": 58.6,
   "R": 64.0,
   "A0": 60.7,
-  "K": -0.6,
+  "K": -0.5,
   "conn": [
    [
     "Club seasons",
-    0.6
+    0.7
    ],
    [
     "Seasons at clubs you rate low",
@@ -5693,6 +5693,32 @@
   "hard": []
  },
  {
+  "name": "Yunus Musah",
+  "gender": "M",
+  "active": true,
+  "aff": 58.4,
+  "Q": 61.3,
+  "Qh": 61.3,
+  "R": 50.8,
+  "A0": 56.8,
+  "K": 1.5,
+  "conn": [
+   [
+    "Club seasons",
+    0.4
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.9
+   ],
+   [
+    "US international",
+    2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Lee Desmond",
   "gender": "M",
   "active": true,
@@ -5706,32 +5732,6 @@
    [
     "Club seasons",
     2.2
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Yunus Musah",
-  "gender": "M",
-  "active": true,
-  "aff": 58.3,
-  "Q": 61.3,
-  "Qh": 61.3,
-  "R": 50.8,
-  "A0": 56.8,
-  "K": 1.4,
-  "conn": [
-   [
-    "Club seasons",
-    0.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.9
-   ],
-   [
-    "US international",
-    2.0
    ]
   ],
   "hard": []
@@ -5865,6 +5865,33 @@
   "hard": []
  },
  {
+  "name": "Giuseppe Meazza",
+  "gender": "M",
+  "active": false,
+  "aff": 57.2,
+  "Q": 56.8,
+  "Qh": 44.9,
+  "R": 92.0,
+  "A0": 59.8,
+  "K": -2.7,
+  "conn": [
+   [
+    "Club seasons",
+    0.4
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": [
+   [
+    "Rival move (1940)",
+    6.0
+   ]
+  ]
+ },
+ {
   "name": "Daniel Svensson",
   "gender": "M",
   "active": true,
@@ -5899,33 +5926,6 @@
    ]
   ],
   "hard": []
- },
- {
-  "name": "Giuseppe Meazza",
-  "gender": "M",
-  "active": false,
-  "aff": 57.1,
-  "Q": 56.8,
-  "Qh": 44.9,
-  "R": 92.0,
-  "A0": 59.8,
-  "K": -2.8,
-  "conn": [
-   [
-    "Club seasons",
-    0.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Rival move (1940)",
-    6.0
-   ]
-  ]
  },
  {
   "name": "Matt Le Tissier",
@@ -6306,6 +6306,24 @@
   "hard": []
  },
  {
+  "name": "Emmanuel Latte Lath",
+  "gender": "M",
+  "active": true,
+  "aff": 54.4,
+  "Q": 55.3,
+  "Qh": 55.3,
+  "R": 45.8,
+  "A0": 51.3,
+  "K": 3.2,
+  "conn": [
+   [
+    "Club seasons",
+    3.1
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Oliver Burke",
   "gender": "M",
   "active": true,
@@ -6328,37 +6346,19 @@
   "hard": []
  },
  {
-  "name": "Emmanuel Latte Lath",
-  "gender": "M",
-  "active": true,
-  "aff": 54.1,
-  "Q": 55.3,
-  "Qh": 55.3,
-  "R": 45.8,
-  "A0": 51.3,
-  "K": 2.9,
-  "conn": [
-   [
-    "Club seasons",
-    2.8
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Fabio Cannavaro",
   "gender": "M",
   "active": false,
-  "aff": 54.0,
+  "aff": 53.9,
   "Q": 53.1,
   "Qh": 41.2,
   "R": 76.9,
   "A0": 52.9,
-  "K": 1.1,
+  "K": 1.0,
   "conn": [
    [
     "Club seasons",
-    2.1
+    2.0
    ],
    [
     "Seasons at clubs you rate low",
@@ -8825,7 +8825,7 @@
   "conn": [
    [
     "Club seasons",
-    3.0
+    2.8
    ],
    [
     "Seasons at clubs you rate low",

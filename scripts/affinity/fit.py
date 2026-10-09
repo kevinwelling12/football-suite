@@ -103,11 +103,15 @@ SCEN = [  # (decider, rating, profile)
  ('ger', 8, scen(9.0, [('arms_owner', 'Arms partner', 3.0)])),  # Champions League four years running, arms partner
  ('ger', 7, scen(5.0, C=10)),                      # mid-table, fan-built packed ground
  ('ger', 4, scen(1.0, C=10)),                      # relegated, still sold out
+ ('ita', 3, scen(9.0, [('other', 'Owner convicted of false accounting', 4.0)], C=10)),   # titles, 50,000 crowds, convicted owner
+ ('ita', 7, scen(5.0, V=8.5, H=8, O=8)),           # mid-table, strong women's team, rebuilt historic ground, loyal owners
+ ('ita', 4, scen(8.0, [('violence', 'Ultras banned for violence', 12.0)], V=6)),  # Europe every year, sells every young star
 ]
 for i, (da, va, xa) in enumerate(SCEN):
     for db, vb, xb in SCEN[i + 1:]:
         if da == db and va != vb: items.append(('dec', 'decider', xa, xb, 1.0 if va > vb else 0.0, 1.0, 'club', (da, va, vb)))
-for a, b in (('Portland Timbers', 'Seattle Sounders FC'), ('Borussia Dortmund', 'Union Berlin')):
+for a, b in (('Portland Timbers', 'Seattle Sounders FC'), ('Borussia Dortmund', 'Union Berlin'),
+             ('Atalanta', 'Napoli'), ('Napoli', 'Fiorentina'), ('Atalanta', 'Fiorentina')):  # Italian decider: Atalanta, Napoli, Fiorentina
     if a in R and b in R: items.append(('dec', 'decider', club_named(a), club_named(b), 1.0, 2.0, 'club', (a, b)))
 checks = dict(
     q6=[(a, b, y) for a, b, y, r in E.pairs(ev, domain='club', named=True) if r['round'] == 'q6' and a in R and b in R],

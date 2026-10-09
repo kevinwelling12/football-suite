@@ -332,7 +332,7 @@ const lastIn = {};
 function renderStatus() {
   const k = state.view;
   let s;
-  if (k === 'rank') s = rankMode === 'players' && PLAYERS.ma ? `Players ranked by your Affinity` : rankMode === 'leagues' ? `Leagues ranked by their clubs' Affinity` : `<b>${rankList().length}</b> clubs and nations, ranked by Affinity`;
+  if (k === 'rank') s = rankMode === 'players' && PLAYERS.ma ? `Players ranked by your Affinity` : rankMode === 'leagues' ? `Leagues ranked by their median club's Affinity` : `<b>${rankList().length}</b> clubs and nations, ranked by Affinity`;
   else if (k === 'live') { const a = liveNow().length, b = kickedOff().length; s = a || b ? `<b>${a}</b> live${b ? `, <b>${b}</b> kicked off without a live score` : ''}` : 'Nothing live right now'; }
   else if (k === 'home') {
     const done = ORDER.filter(c => R[c]).length;
@@ -840,16 +840,19 @@ function viewPlayers() {
         <div class="hb-items">${p.rm != null ? `<div class="hb-item"><span>Role model</span><b class="num">${p.rm.toFixed(1)}</b></div><div class="hb-item"><span>Performance</span><b class="num">${p.pf.toFixed(1)}</b></div>` : ''}${p.c ? `<div class="hb-item"><span>Connection</span><b class="num ${p.c < 0 ? 'neg' : ''}">${signed(p.c)}</b></div>` : ''}${p.p ? `<div class="hb-item"><span>Hard lines</span><b class="num neg">${signed(p.p)}</b></div>${(p.pen || []).map(x => `<div class="hb-item"><span>${esc(x)}</span></div>`).join('')}` : ''}</div>
         ${p.why ? `<p class="note">${esc(p.why)}</p>` : ''}</div>` : ''}`).join('')}</div></section>`;
 }
-// Leagues: the same Affinity, averaged over each competition's clubs (a league is as good as its clubs).
+// Leagues: the median club's Affinity (Kevin, 2026-10-09: a few heavily penalised clubs skewed the mean), plus how many
+// clubs reach 65 (the ones he'd enjoy watching) and the three he rates highest.
+const LIKE = 65;
 function viewLeagues() {
-  const L = ORDER.filter(k => k !== 'unl' && T(k).length).map(k => { const xs = T(k).map(affOf).sort((a, b) => b - a);
-    return {k, avg: xs.reduce((a, b) => a + b, 0) / xs.length, top: [...T(k)].sort((a, b) => affOf(b) - affOf(a)).slice(0, 3).map(t => t.name), n: xs.length}; })
-    .sort((a, b) => b.avg - a.avg), mx = L[0].avg;
-  return `<section class="section">${rankModes()}<p class="sub">Each competition's average club Affinity, with its three clubs you rate highest.</p>
+  const L = ORDER.filter(k => k !== 'unl' && T(k).length).map(k => { const xs = T(k).map(affOf).sort((a, b) => a - b), n = xs.length;
+    return {k, med: n % 2 ? xs[(n - 1) / 2] : (xs[n / 2 - 1] + xs[n / 2]) / 2, like: xs.filter(a => a >= LIKE).length,
+      top: [...T(k)].sort((a, b) => affOf(b) - affOf(a)).slice(0, 3).map(t => t.name), n}; })
+    .sort((a, b) => b.med - a.med || b.like / b.n - a.like / a.n), mx = L[0].med;
+  return `<section class="section">${rankModes()}<p class="sub">Ranked by the median club's Affinity. Clubs at ${LIKE}+ are the ones you'd most enjoy watching.</p>
     <div class="card rank" style="margin-top:12px">${L.map((e, n) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${n + 1}</span>
-      <span class="who"><button class="club-link" data-view="${e.k}">${esc(COMPS_CFG[e.k].name)}</button><small><i></i><span>${e.n} clubs · ${e.top.map(esc).join(', ')}</span></small></span>
-      <span class="stack"><span class="b" style="width:${e.avg / mx * 100}%"></span></span>
-      <span class="num sc">${fmtA(e.avg)}</span></div>`).join('')}</div></section>`;
+      <span class="who"><button class="club-link" data-view="${e.k}">${esc(COMPS_CFG[e.k].name)}</button><small><i></i><span>${e.like} of ${e.n} clubs at ${LIKE}+ · ${e.top.map(esc).join(', ')}</span></small></span>
+      <span class="stack"><span class="b" style="width:${e.med / mx * 100}%"></span></span>
+      <span class="num sc">${fmtA(e.med)}</span></div>`).join('')}</div></section>`;
 }
 function viewRank() {
   if (rankMode === 'players' && PLAYERS.ma) return viewPlayers();

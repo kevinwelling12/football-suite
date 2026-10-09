@@ -38,7 +38,8 @@ step-by-step history of the model is in git (docs/affinity.md before 2026-10-09)
      they played for, by how Kevin rates them, and US internationals.
    - Roots: Sacramento Republic +4 (hometown), the United States +20 (home nation), ancestry 0.4 per % up to +10 (nations).
    - In the app, base = A - roots and bonus = roots.
-- **Leagues**: a league's Affinity is the average of its clubs' (app: Affinity > Leagues).
+- **Leagues**: a league's Affinity is its median club's, shown with how many clubs reach 65 (app: Affinity > Leagues;
+  the mean was dropped 2026-10-09 because a few heavily penalised clubs skewed it).
 
 Parameters: scripts/affinity/params.json. Inputs: inputs.py (measurements only), players/model.py (player research
 loader), performance.py, big4.py + proximity.py, association.py, interplay.py, players_link.py, heritage.json.

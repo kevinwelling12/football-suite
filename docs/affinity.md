@@ -100,8 +100,10 @@ Applied like Cascadia (factor changes where his rankings contradicted the model)
 fit, but the refit (record share 0.14) matched fewer decider items (15 of 19 vs 17) and put Seattle above Portland, so
 params.json keeps the record share at 0.124 (do not refit with --write without checking the deciders and Timbers v
 Sounders). Result: Atalanta 71.1, Napoli 69.8, Fiorentina 68.6.
-Open, from the dossier: Atalanta's ultras (racism closure 2023, violence bans 2025) and Napoli fans detained abroad (2026)
-are not hard lines yet; under the usual scales they would cost Atalanta about 12 points and reverse his verdict.
+Then the dossier's ultras findings were added as hard lines, at the usual scale (Kevin: "It should count no?"): Atalanta
+racism -3 (2023 end closure) and violence -4 (2025 brawl, group broken up by bans); Napoli violence -3 (about 200 fans
+detained abroad, 2026); Fiorentina racism -2 (2023 suspended closure, a five-year ban). Result: Fiorentina 65.5, Napoli
+65.2, Bologna 64.0, Atalanta 58.8 (6th).
 
 ## Decisions taken in the rebuild
 - Nations now have a record (FIFA ranking and tournaments) like clubs and players. Small nations are ranked among all

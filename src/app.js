@@ -737,7 +737,7 @@ function viewRaces(k) {
 const affOf = t => t.base + t.bonus;
 const signed = v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v);
 // One-line summary under a club's name: track record and adjustments (the factors are on the club card).
-const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five ratings out of 10: Values 26%, Culture 23%, History 16%, Team 15%, Ownership 10%. Recent results scale that by 0.95 to 1.05 (top-flight clubs). Then hard lines (racism, state ownership, fan violence, private equity, Super League) and connection (distance, local teams, linked clubs, hometown or heritage).</p></details>`;
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five ratings out of 10: Values 26%, Culture 23%, History 16%, Team 15%, Ownership 10%. Recent results scale that by 0.95 to 1.05 (top-flight clubs). Then hard lines (racism, state ownership, fan violence, private equity, Super League) and connection (distance, local teams, linked clubs, hometown or heritage, and a pull against global brands and celebrity bandwagons).</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
 function viewClubs(k) {

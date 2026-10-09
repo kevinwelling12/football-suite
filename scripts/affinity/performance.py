@@ -19,12 +19,9 @@ against tier 2 and League One/Two against tiers 3-4.)
 Seasons are averaged with a 4-season half-life (last season weight 1, four seasons ago 0.5, nine ago 0.21);
 3 seasons until quiz round 4 (Kevin leans nostalgic: judges by the body of work, not the latest season).
 
-Coefficient: k = 0.95 + 0.01 * P, so P 0 -> x0.95, P 5 -> x1.00, P 10 -> x1.05 (2026-10-02: the gut test fitted
-0.723 at +/-15% and 0.776 at +/-5% for top-flight clubs; was 0.85 + 0.03 P). History: +/-10% (2026-09-28), +/-20% (Kevin,
-so Dortmund passes Union), +/-15% after quiz round 5 (2026-09-29): every method there (budget split, trade-offs, everyday
-items) ranked winning low, and gut ratings of 26 anonymous clubs fitted best with a small effect; 15% keeps Dortmund
-above Union Berlin.
-It multiplies the weighted factor score, before adjustments (penalties are not scaled). Nations: no track record.
+How much the record counts: affinity.py blends it with character (A0 = 100 x (Q/100)^(1-pi) x (P x 10/100)^pi), pi fitted
+in params.json (2026-10-09 rebuild; it replaced the multiplier k = 0.95 + 0.01 P, which was +/-20%, then 15%, then 5%).
+Applies to top-flight clubs and the USL (APPLIES); others are not judged (neutral). Nations: affinity.py / inputs.py.
 """
 import json, pathlib
 
@@ -90,13 +87,9 @@ def track(club, band):
     return round(num / den, 1), [None if x in (None, 'skip') else round(x, 1) for x in reversed(xs)]
 
 
-# Applies to top-flight clubs only (USL Championship counts: no promotion/relegation in the US). Championship and
-# lower English clubs get no coefficient: they were judged against the top flight and scored near zero.
+# Judged for top-flight clubs only (USL Championship counts: no promotion/relegation in the US). Championship and
+# lower English clubs are not judged: against the top flight they scored near zero (Kevin, 2026-10-02).
 APPLIES = {'epl', 'esp', 'ita', 'bl', 'fra', 'mls', 'nwsl', 'ucl', 'usl'}
-
-
-def coef(P):
-    return 0.95 + 0.01 * P
 
 
 def primary(comps):
@@ -121,4 +114,4 @@ if __name__ == '__main__':
         rows.append((v, name, pk, xs))
     rows.sort(reverse=True)
     for v, name, pk, xs in rows:
-        print(f'{v:4.1f}  x{coef(v):.3f}  {pk:4} {name:32} {" ".join("  -" if x is None else f"{x:3.0f}" for x in xs)}')
+        print(f'{v:4.1f}  {pk:4} {name:32} {" ".join("  -" if x is None else f"{x:3.0f}" for x in xs)}')

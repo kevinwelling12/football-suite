@@ -1,0 +1,419 @@
+{
+ "att": [
+  [
+   "F",
+   "Fans",
+   [
+    "Quiet crowds",
+    "Loyal, steady support",
+    "One of the loudest followings anywhere"
+   ]
+  ],
+  [
+   "V",
+   "Conduct",
+   [
+    "Fans sanctioned for racist chants, more than once",
+    "Nothing of note",
+    "Known for fair play and standing up for causes"
+   ]
+  ],
+  [
+   "H",
+   "History",
+   [
+    "Rarely at big tournaments",
+    "Some famous runs",
+    "Former world champions"
+   ]
+  ],
+  [
+   "O",
+   "Federation",
+   [
+    "Run by people close to the government, with corruption cases",
+    "An ordinary federation",
+    "Transparent and well run"
+   ]
+  ],
+  [
+   "T",
+   "Team",
+   [
+    "Defensive, built around one star",
+    "An honest, average side",
+    "Relentless and united, long-serving coach"
+   ]
+  ],
+  [
+   "R",
+   "Record",
+   [
+    "Rarely qualifies",
+    "Reaches the knockouts now and then",
+    "Top 10 in the world"
+   ]
+  ],
+  [
+   "G",
+   "Government",
+   [
+    "A free democracy",
+    "Partly free: jailed journalists, captured courts",
+    "Authoritarian: no free elections, political prisoners"
+   ]
+  ],
+  [
+   "A",
+   "Your ancestry",
+   [
+    "None of your ancestry",
+    "A little of your ancestry (about 5%)",
+    "A large share of your ancestry (about 15%)"
+   ]
+  ]
+ ],
+ "gut": {
+  "g01": "Japan",
+  "g02": "Denmark",
+  "g03": "Germany",
+  "g04": "Portugal",
+  "g05": "Spain",
+  "g06": "Brazil",
+  "g07": "Argentina",
+  "g08": "Morocco",
+  "g09": "Mexico",
+  "g10": "Croatia",
+  "g11": "Iran",
+  "g12": "Iceland",
+  "g13": "Canada",
+  "g14": "Turkey",
+  "g15": "Netherlands",
+  "g16": "England"
+ },
+ "pairs": [
+  {
+   "id": "p01",
+   "A": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 2,
+    "G": 1,
+    "A": 0
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 0,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "government vs record"
+  },
+  {
+   "id": "p02",
+   "A": {
+    "F": 2,
+    "V": 1,
+    "H": 2,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 2,
+    "A": 0
+   },
+   "B": {
+    "F": 0,
+    "V": 1,
+    "H": 0,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "authoritarian vs fans + history"
+  },
+  {
+   "id": "p03",
+   "A": {
+    "F": 1,
+    "V": 0,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 2
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "ancestry vs racism"
+  },
+  {
+   "id": "p04",
+   "A": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 1,
+    "A": 2
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "ancestry vs government"
+  },
+  {
+   "id": "p05",
+   "A": {
+    "F": 1,
+    "V": 0,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 2,
+    "G": 0,
+    "A": 0
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "racism vs record"
+  },
+  {
+   "id": "p06",
+   "A": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 0,
+    "T": 2,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 2,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "federation vs team"
+  },
+  {
+   "id": "p07",
+   "A": {
+    "F": 2,
+    "V": 0,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "B": {
+    "F": 0,
+    "V": 2,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "fans vs conduct"
+  },
+  {
+   "id": "p08",
+   "A": {
+    "F": 1,
+    "V": 1,
+    "H": 2,
+    "O": 1,
+    "T": 0,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 0,
+    "O": 1,
+    "T": 2,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "history vs team"
+  },
+  {
+   "id": "p09",
+   "A": {
+    "F": 2,
+    "V": 2,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 1,
+    "A": 0
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "government vs good conduct + fans"
+  },
+  {
+   "id": "p10",
+   "A": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 2,
+    "G": 0,
+    "A": 0
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 0,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "record alone"
+  },
+  {
+   "id": "p11",
+   "A": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 1,
+    "A": 0
+   },
+   "tests": "government alone"
+  },
+  {
+   "id": "p12",
+   "A": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 1
+   },
+   "B": {
+    "F": 1,
+    "V": 1,
+    "H": 1,
+    "O": 1,
+    "T": 1,
+    "R": 1,
+    "G": 0,
+    "A": 0
+   },
+   "tests": "ancestry alone"
+  }
+ ],
+ "direct": {
+  "d01": [
+   "A lot: I'd struggle to root for them",
+   "Some",
+   "A little",
+   "Not at all: the team isn't the government"
+  ],
+  "d02": [
+   "My home nation, easily",
+   "My home nation, mostly",
+   "Depends on the match",
+   "The nation of my ancestors"
+  ],
+  "d03": [
+   "Like them a lot more",
+   "Like them a bit more",
+   "No difference",
+   "Like them a bit less",
+   "Like them a lot less"
+  ],
+  "d04": [
+   "Like them a lot more",
+   "Like them a bit more",
+   "No difference",
+   "Like them a bit less",
+   "Like them a lot less"
+  ],
+  "d05": [
+   "Like them a lot more",
+   "Like them a bit more",
+   "No difference",
+   "Like them a bit less",
+   "Like them a lot less"
+  ]
+ }
+}

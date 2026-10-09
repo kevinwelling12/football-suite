@@ -28,7 +28,7 @@ Pure vanilla JS/CSS/HTML: no bundler, no npm dependencies. Python 3 only for bui
     firestore.rules           Firestore security rules;  .github/workflows/pages.yml = deploy
     user-data/                export of Kevin's saved state (entered results, follows, statuses...) - see docs/state.md
     scripts/build.py          build
-    scripts/affinity/         Affinity rubric scores + rescore script
+    scripts/affinity/         Affinity model (affinity.py), fit and backtest (fit.py), factor scores, research
     scripts/sync/             FBref sync: browser pack snippet + apply script
     scripts/importers/        one-off importers used to build the data (kept for reference/reuse)
     docs/                     architecture, data model, Affinity rules, sync procedure, backlog

@@ -57,10 +57,11 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 
 ## Where the logic lives
-- Affinity rubric & rules: docs/affinity.md and scripts/affinity/scores.py (+ USL in build_usl.py).
-  Clubs and players run together: `python3 scripts/affinity/unified.py [--fit]` (club rescore with player influence,
-  Player Affinity in scripts/affinity/players/, data/players.json for the app's Affinity > Players view).
-  Track record coefficient: scripts/affinity/performance.py. Overall ranking of every club: the Affinity view (view 'rank').
+- Affinity: one model for clubs, nations, players and leagues (rebuilt 2026-10-09). Spec and backtest: docs/affinity.md;
+  Kevin's rules and judgements in his words: docs/preferences.md (read before changing the model). Run
+  `python3 scripts/affinity/affinity.py` (scores everything, writes data/), refit with `python3 scripts/affinity/fit.py --write`
+  (evidence in scripts/affinity/evidence). Factor scores: scripts/affinity/scores.py (+ USL in build_usl.py); players in
+  scripts/affinity/players/. Judge changes by the leave-one-round-out backtest in fit.py.
 - Model details: docs/architecture.md (Dixon-Coles, draw calibration, importance, favour/Affinity picks).
 - Data sources and sync: docs/sync.md (nightly ESPN sync: .github/workflows/espn-sync.yml, scripts/sync/espn.js).
 - Open ideas: docs/backlog.md.

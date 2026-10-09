@@ -49,7 +49,7 @@ table was needed. `unmapped: true` marks a name that is not in the catalog (also
   - `player_named` (q8 h, q10): two real players. q10 adds `group`, `tested` (factors meant to differ) and
     `score_diff_a_minus_b` (audited factor scores at build time).
   - `player_profile` (q8 c, q9): anonymous players; `a.values` = hidden 0-10 factor points (CO in Affinity points,
-    PE in penalty points before scaling), as used by players/fit.py.
+    PE in penalty points before scaling), as used by scripts/affinity/fit.py.
   - `values_profile` (q11, q12): anonymous players equal on the pitch; `a.tags` = the research-tag features exactly as
     quiz11/fit.py and quiz12/fit.py build them (join with players/values/ and players/values2/ tags); `differs_on`.
 - **everyday**: an indirect item with hidden construct loadings. `options` = [{text, loadings}], `choice` = index,

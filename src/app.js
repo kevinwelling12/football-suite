@@ -3,7 +3,7 @@ const DATA = /*__DATA__*/;
 const EXTRA = /*__EXTRA__*/;
 // Club logos and national flags (files next to the page; data/logos.json, made by scripts/logos/fetch.js). Empty in the claude.ai build.
 const LOGOS = /*__LOGOS__*/;
-// Player Affinity lists (data/players.json, made by scripts/affinity/unified.py): {ma, mt, wa, wt: [{n, a, f, c, p, ...}]}.
+// Player Affinity lists (data/players.json, made by scripts/affinity/affinity.py): {ma, mt, wa, wt: [{n, a, f, c, p, ...}]}.
 const PLAYERS = /*__PLAYERS__*/;
 const DEF = {sims:1000, impFloor:0.05, impRamp:0.25, drawAuto:1, drawW0:60};
 const STORE = 'football-suite-2627';
@@ -332,7 +332,7 @@ const lastIn = {};
 function renderStatus() {
   const k = state.view;
   let s;
-  if (k === 'rank') s = rankMode === 'players' && PLAYERS.ma ? `Players ranked by your Affinity` : `<b>${rankList().length}</b> clubs and nations, ranked by Affinity`;
+  if (k === 'rank') s = rankMode === 'players' && PLAYERS.ma ? `Players ranked by your Affinity` : rankMode === 'leagues' ? `Leagues ranked by their clubs' Affinity` : `<b>${rankList().length}</b> clubs and nations, ranked by Affinity`;
   else if (k === 'live') { const a = liveNow().length, b = kickedOff().length; s = a || b ? `<b>${a}</b> live${b ? `, <b>${b}</b> kicked off without a live score` : ''}` : 'Nothing live right now'; }
   else if (k === 'home') {
     const done = ORDER.filter(c => R[c]).length;
@@ -737,7 +737,11 @@ function viewRaces(k) {
 const affOf = t => t.base + t.bonus;
 const signed = v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v);
 // One-line summary under a club's name: track record and adjustments (the factors are on the club card).
-const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Five ratings out of 10: Values 26%, Culture 23%, History 16%, Team 15%, Ownership 10%. Recent results scale that by 0.95 to 1.05 (top-flight clubs). Then hard lines (racism, state ownership, fan violence, private equity, Super League) and connection (distance, local teams, linked clubs, hometown or heritage, and a pull against global brands and celebrity bandwagons).</p></details>`;
+// Affinity parameters (scripts/affinity/params.json, fitted to Kevin's quiz answers by scripts/affinity/fit.py).
+const AFFP = /*__AFFPARAMS__*/;
+const wPct = (w, k) => Math.round(w[k] / Object.values(w).reduce((a, b) => a + b, 0) * 100);
+const FACTORS = [['Values', 'V'], ['Culture', 'C'], ['History', 'H'], ['Team', 'S'], ['Ownership', 'O']].map(([l, k]) => [l, k, wPct(AFFP.club_w, k === 'S' ? 'T' : k)]);
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>One model for every club, nation and player, in four steps.</p><p><b>1. Character.</b> Ratings out of 10, weighted by your quiz answers: Values ${FACTORS[0][2]}%, Culture ${FACTORS[1][2]}%, History ${FACTORS[2][2]}%, Team ${FACTORS[3][2]}%, Ownership ${FACTORS[4][2]}%.</p><p><b>2. Hard lines.</b> Racism, state ownership, fan violence, private equity, the Super League and the like come off character, with no cap. Your gut ratings showed they should cost about ${AFFP.hard.toFixed(1)}× their researched points.</p><p><b>3. Record.</b> Recent results are blended in: a club's last 10 seasons, a nation's FIFA ranking and tournaments. For teams they count ${Math.round(AFFP.club_pi * 100)}%, because winning matters little to you.</p><p><b>4. Connection and roots.</b> Distance, your other teams, linked clubs and pulls against global brands and celebrity bandwagons, then your hometown, home nation and ancestry.</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
 function viewClubs(k) {
@@ -823,8 +827,8 @@ function rankList() {
 }
 const PL_TABS = [['ma', 'Men · Active'], ['mt', 'Men · All-time'], ['wa', 'Women · Active'], ['wt', 'Women · All-time']];
 const PL_F = ['Character', 'Team player', 'Loyalty & bond', 'Greatness', 'Joy to watch', 'Legacy'];
-const rankModes = () => PLAYERS.ma ? `<div class="rank-chips">${[['clubs', 'Clubs & nations'], ['players', 'Players']].map(([m, l]) => `<button class="rchip" data-rankmode="${m}" aria-pressed="${rankMode === m}" style="--c:#fff">${l}</button>`).join('')}</div>` : '';
-const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>Two halves, and a player needs both. Role model: Character, Team player and Loyalty (weighted by your quiz choices), your values, hard lines (abuse, racism, match-fixing, violence, money-league moves and the like) and connection to the clubs they played for. Performance: Greatness 40%, Legacy 35%, Joy to watch 25%. Affinity combines them 60/40 so a weak half pulls the total down. A club's best players and icons also lift its own Affinity.</p></details>`;
+const rankModes = () => PLAYERS.ma ? `<div class="rank-chips">${[['clubs', 'Clubs & nations'], ['players', 'Players'], ['leagues', 'Leagues']].map(([m, l]) => `<button class="rchip" data-rankmode="${m}" aria-pressed="${rankMode === m}" style="--c:#fff">${l}</button>`).join('')}</div>` : '';
+const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>The same model as clubs and nations. <b>Character</b>: Character ${wPct(AFFP.player_w, 'CH')}%, Team player ${wPct(AFFP.player_w, 'WK')}%, Loyalty ${wPct(AFFP.player_w, 'LO')}%, with your values from the quizzes. <b>Hard lines</b> (abuse, racism, match-fixing, violence, money-league moves and the like) come off on the same scale as for clubs, with no cap. <b>Record</b>: Greatness ${wPct(AFFP.perf_w, 'AB')}%, Legacy ${wPct(AFFP.perf_w, 'LE')}%, Joy to watch ${wPct(AFFP.perf_w, 'ST')}%; a player needs both halves, so record counts ${Math.round(AFFP.player_pi * 100)}%. <b>Connection</b>: the clubs they played for, by how you rate them. A club's best players and icons also lift its own Affinity.</p></details>`;
 function viewPlayers() {
   const L = PLAYERS[plF] || [], mx = L.length ? L[0].a : 100;
   return `<section class="section">${rankModes()}${PL_HOW}
@@ -836,8 +840,20 @@ function viewPlayers() {
         <div class="hb-items">${p.rm != null ? `<div class="hb-item"><span>Role model</span><b class="num">${p.rm.toFixed(1)}</b></div><div class="hb-item"><span>Performance</span><b class="num">${p.pf.toFixed(1)}</b></div>` : ''}${p.c ? `<div class="hb-item"><span>Connection</span><b class="num ${p.c < 0 ? 'neg' : ''}">${signed(p.c)}</b></div>` : ''}${p.p ? `<div class="hb-item"><span>Hard lines</span><b class="num neg">${signed(p.p)}</b></div>${(p.pen || []).map(x => `<div class="hb-item"><span>${esc(x)}</span></div>`).join('')}` : ''}</div>
         ${p.why ? `<p class="note">${esc(p.why)}</p>` : ''}</div>` : ''}`).join('')}</div></section>`;
 }
+// Leagues: the same Affinity, averaged over each competition's clubs (a league is as good as its clubs).
+function viewLeagues() {
+  const L = ORDER.filter(k => k !== 'unl' && T(k).length).map(k => { const xs = T(k).map(affOf).sort((a, b) => b - a);
+    return {k, avg: xs.reduce((a, b) => a + b, 0) / xs.length, top: [...T(k)].sort((a, b) => affOf(b) - affOf(a)).slice(0, 3).map(t => t.name), n: xs.length}; })
+    .sort((a, b) => b.avg - a.avg), mx = L[0].avg;
+  return `<section class="section">${rankModes()}<p class="sub">Each competition's average club Affinity, with its three clubs you rate highest.</p>
+    <div class="card rank" style="margin-top:12px">${L.map((e, n) => `<div class="rank-row" style="--c:${DOT[e.k]}"><span class="num rk">${n + 1}</span>
+      <span class="who"><button class="club-link" data-view="${e.k}">${esc(COMPS_CFG[e.k].name)}</button><small><i></i><span>${e.n} clubs · ${e.top.map(esc).join(', ')}</span></small></span>
+      <span class="stack"><span class="b" style="width:${e.avg / mx * 100}%"></span></span>
+      <span class="num sc">${fmtA(e.avg)}</span></div>`).join('')}</div></section>`;
+}
 function viewRank() {
   if (rankMode === 'players' && PLAYERS.ma) return viewPlayers();
+  if (rankMode === 'leagues') return viewLeagues();
   const all = rankList(), mx = affOf(all[0].t);
   const counts = {}; all.forEach(e => counts[e.k] = (counts[e.k] || 0) + 1);
   const nFit = all.filter(e => fitOf(e.t.name)).length;
@@ -1131,38 +1147,31 @@ function openDetail(k, id) {
 const fmtR = v => v === 0 || v === 10 ? String(v) : Number(v).toFixed(1);
 // Overall Affinity reads to the tenth too, except the ends of its scale (0, 100).
 const fmtA = v => { const r = Math.round(v * 10) / 10; return r === 0 || r === 100 ? String(r) : r.toFixed(1); };
-const FACTORS = [['Values', 'V', 26], ['Culture', 'C', 23], ['History', 'H', 16], ['Team', 'S', 15], ['Ownership', 'O', 10]];
+// One breakdown for every club and nation, in the model's four steps: character, hard lines, record, connection (+ roots).
 function affBreakdown(k, t) {
-  const h = t.hai, fs = FACTORS.reduce((s, [, key, w]) => s + w * h[key], 0) / 90 * 10;
+  const h = t.hai;
   const spark = h.ps ? (() => { const last = h.pl || '', cal = !last.includes('-'), y = parseInt(last, 10);
     const lab = j => cal ? String(y - 9 + j) : `${String(y - 9 + j).slice(2)}/${String(y - 8 + j).slice(2)}`;
     return `<span class="spark" aria-label="Season scores, oldest to newest">${h.ps.map((x, j) => `<i title="${lab(j)}: ${x == null ? 'no season' : x.toFixed(1)}" class="${x == null ? 'none' : ''}" style="height:${x == null ? 8 : Math.max(8, x * 10)}%"></i>`).join('')}</span>`; })() : '';
-  // Added after the factors and track record, in two groups: hard lines (the penalties left in the note; its other
-  // lines are research history and stay out) and connection (distance, local teams, linked clubs, hometown or heritage).
-  const hard = [], conn = [];
-  if (h.adj) {
-    let left = h.adj;
-    for (const part of (h.note || '').split(';')) { const m = part.trim().match(/^(.*?)\s*([+−-]\d+(?:\.\d+)?)$/); if (m && m[1] && !/^(Rules|Folded|Cascadia)/.test(m[1])) { const v = parseFloat(m[2].replace('−', '-')); hard.push([m[1], v]); left -= v; } }
-    if (Math.abs(left) > 0.05) hard.push([hard.length ? 'Other' : 'Hard lines', Math.round(left * 10) / 10]);
-  }
-  for (const [l, v] of h.us || []) conn.push([l, v]);
-  for (const [y, v] of h.links || []) conn.push([`Linked to ${y}`, v]);
-  if (t.bonus) conn.push([k === 'unl' ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown', t.bonus]);
-  const tot = xs => Math.round(xs.reduce((x, [, v]) => x + v, 0) * 10) / 10, hardT = tot(hard), connT = tot(conn);
-  const sum = [`${fs.toFixed(1)} factors`];
-  if (h.k != null) sum.push(`× ${h.k.toFixed(2)} track record`);
-  if (hardT) sum.push(`${hardT < 0 ? '−' : '+'} ${Math.abs(hardT)} hard lines`);
+  const hard = h.hard || [], conn = (h.conn || []).slice();
+  const tot = xs => Math.round(xs.reduce((x, [, v]) => x + v, 0) * 10) / 10, hardT = tot(hard), connT = h.K || 0;
+  const roots = t.bonus ? [[k === 'unl' || t.confed ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown', t.bonus]] : [];
+  const rec = h.P != null ? `${h.P.toFixed(1)}` : 'not judged';
+  const sum = [`${h.Q.toFixed(1)} character`];
+  if (hardT) sum.push(`− ${Math.abs(hardT)} hard lines`);
+  sum.push(`with record ${rec} → ${h.A0.toFixed(1)}`);
   if (connT) sum.push(`${connT < 0 ? '−' : '+'} ${Math.abs(connT)} connection`);
-  if (fs * (h.k ?? 1) + h.adj > 100) sum.push('(capped at 100)');
+  if (t.bonus) sum.push(`+ ${t.bonus} ${roots[0][0].toLowerCase()}`);
   const group = (title, xs, total) => xs.length ? `<div class="hb-items"><div class="hb-items-head"><span>${title}</span><b class="num ${total < 0 ? 'neg' : ''}">${signed(total)}</b></div>${xs.map(([l, v]) => `<div class="hb-item"><span>${esc(l)}</span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('')}</div>` : '';
   const squad = h.tb ? (h.dom ? `${Math.round(h.dom[0] * 100)}% · league ${Math.round(h.dom[1] * 100)}%` : (h.clubs || []).slice(0, 2).map(([c]) => esc(c)).join(', ')) : '';
+  const recRow = h.P != null ? `<div class="hb hb-tr"><span>${h.ps ? 'Track record' : 'Recent record'}${h.rank ? ` <small>FIFA #${h.rank}</small>` : ''}</span>${spark || `<span>${h.wc2026 ? esc('World Cup: ' + h.wc2026) : ''}</span>`}<b class="num">${h.P.toFixed(1)}</b></div>` : '';
   return `<h4 style="margin-top:18px">Affinity ${fmtA(affOf(t))}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
     ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${fmtR(h[key])}</b></div>` +
       (key === 'S' && h.tb ? `<div class="hb hb-sub"><span>${h.dom ? 'Homegrown' : 'Club links'}</span><span>${squad}</span><b class="num ${h.tb < 0 ? 'neg' : ''}">${signed(h.tb)}</b></div>` : '') +
       (key === 'S' && h.py && h.py.t ? `<div class="hb hb-sub"><span>Players</span><span>${(h.py.sq || []).map(esc).join(', ')}</span><b class="num ${h.py.t < 0 ? 'neg' : ''}">${signed(h.py.t)}</b></div>` : '') +
       (key === 'H' && h.py && h.py.h ? `<div class="hb hb-sub"><span>Icons</span><span>${(h.py.ic || []).map(esc).join(', ')}</span><b class="num ${h.py.h < 0 ? 'neg' : ''}">${signed(h.py.h)}</b></div>` : '')).join('')}
-    ${h.P != null ? `<div class="hb hb-tr"><span>Track record <small>×${h.k.toFixed(2)}</small></span>${spark}<b class="num">${h.P.toFixed(1)}</b></div>` : ''}
-    ${group('Hard lines', hard, hardT)}${group('Connection', conn, connT)}</div>`;
+    ${recRow}
+    ${group('Hard lines', hard, hardT)}${group('Connection', conn, connT)}${group(roots.length ? 'Roots' : '', roots, t.bonus)}</div>`;
 }
 function openClub(k, i) {
   const r = R[k], cup = COMPS_CFG[k].cup, t = T(k)[i];

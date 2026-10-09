@@ -4,9 +4,11 @@ Top-level keys = competition keys: epl, ucl, cup, mls, usl, bl, nwsl, esp, ita, 
 
 Per league competition:
 - teams[]: name, short, abbr, color (chip colour, chosen to read on black), group (conference/group),
-  pa/pd (preseason attack/defence priors), base (Affinity before bonus), bonus (heritage tiebreaker),
-  region (heritage/hometown label), hai {C,V,H,O,S,adj,note} (Affinity factors; clubs also P track record 0-10,
-  k its coefficient, ps the 10 season scores oldest to newest, pl the latest season label), elo (Nations League).
+  pa/pd (preseason attack/defence priors), base (Affinity without roots), bonus (roots: hometown, home nation,
+  heritage), region (roots label for nations), elo (Nations League), hai (written by scripts/affinity/affinity.py):
+  C V H O S factors (S = Team; S0/H0 before squad and icon bumps, tb/dom/clubs/py the bumps), Q character, hard
+  [[label, points]], A0 after record, conn [[label, points]] and K their capped total, P record 0-10 (clubs: ps season
+  scores oldest to newest, pl latest season; nations: rank, wc2026, cont), notes.
 - fixtures[]: [round, 'YYYY-MM-DD', homeIdx, awayIdx, hs|null, as|null, lockedPickH, lockedPickA, lockedFavor]
   (the last three only on matches that were played when the data was built). **Fixture id = index.**
 - kick: { "<fixtureId>": ["YYYY-MM-DDTHH:MMZ", confirmed 0|1] }

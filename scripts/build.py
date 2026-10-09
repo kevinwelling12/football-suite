@@ -14,8 +14,9 @@ app = (src / 'app.js').read_text().replace('/*__DATA__*/', (root / 'data' / 'sui
 extra = root / 'data' / 'nations_extra.json'
 app = app.replace('/*__EXTRA__*/', extra.read_text() if extra.exists() else '{"wc":{},"teams":[]}')
 # Logos are files next to the web page; the claude.ai artifact can't load them, so it keeps the colour discs.
-players = root / 'data' / 'players.json'  # Player Affinity lists (scripts/affinity/unified.py)
+players = root / 'data' / 'players.json'  # Player Affinity lists (scripts/affinity/affinity.py)
 app = app.replace('/*__PLAYERS__*/', players.read_text() if players.exists() else '{}')
+app = app.replace('/*__AFFPARAMS__*/', (root / 'scripts' / 'affinity' / 'params.json').read_text())  # the model's fitted parameters
 logos = root / 'data' / 'logos.json'
 app = app.replace('/*__LOGOS__*/', logos.read_text() if logos.exists() and not claude else '{"flags":{}}')
 head = ''

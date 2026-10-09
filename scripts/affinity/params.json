@@ -1,0 +1,41 @@
+{
+ "club_w": {
+  "V": 28.6,
+  "C": 26.1,
+  "H": 17.7,
+  "T": 16.6,
+  "O": 11.0
+ },
+ "club_pi": 0.085,
+ "player_w": {
+  "CH": 36.3,
+  "WK": 39.8,
+  "LO": 23.9
+ },
+ "perf_w": {
+  "AB": 39.8,
+  "LE": 35.0,
+  "ST": 25.2
+ },
+ "player_pi": 0.4,
+ "hard": 1.658,
+ "conn": 0.989,
+ "conn_cap": 10,
+ "perf_floor": 1.0,
+ "perf_neutral": 5.0,
+ "home_club": 4,
+ "home_nation": 20,
+ "heritage_per_pct": 0.4,
+ "heritage_cap": 10,
+ "fit": {
+  "date": "2026-10-09",
+  "items": 238,
+  "checks": {
+   "gut_r": 0.798,
+   "q7_r": 0.353,
+   "q6": "20/36",
+   "q8": "18/29",
+   "timbers": 0.6
+  }
+ }
+}

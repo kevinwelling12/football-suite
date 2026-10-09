@@ -13,7 +13,7 @@ from the clubs), so the two sides never feed back into each other and one pass e
 - Icons (History, slot H): former players who spent 4+ seasons there, best 5, same x, bump = 1.0 * sum(x) / (n + 3), +/-1.
 Women play for NWSL sides only in the tracker; a woman's European club has no women's rating, so it is skipped.
 
-Usage (normally via scripts/affinity/unified.py): import players_link; players_link.bumps(D) -> {team: dict}
+Used by scripts/affinity/affinity.py: players_link.bumps(D, S) -> {team: dict}
 """
 import json, pathlib, sys
 here = pathlib.Path(__file__).resolve().parent
@@ -34,17 +34,9 @@ def _resolver(D):
         return hits.pop() if len(hits) == 1 else None
     return find
 
-def scores():
-    """name -> (Player Affinity without connection, facts)"""
-    facts, sc = M.load()
-    out = {}
-    for n, p in facts.items():
-        if n not in sc: continue
-        out[n] = (M.rate(p, sc[n], with_conn=False)['aff'], p)
-    return out
-
-def bumps(D):
-    find, S = _resolver(D), scores()
+def bumps(D, S):
+    """S: name -> (Player Affinity without connection, facts), from affinity.py."""
+    find = _resolver(D)
     squad, icons = {}, {}
     for n, (a, p) in S.items():
         w = p.get('gender') == 'W'
@@ -63,10 +55,3 @@ def bumps(D):
         out[team] = dict(team=round(tb, 2), hist=round(hb, 2),
                          squad=[[n, round(a, 1)] for n, a in sq], icons=[[n, round(a, 1)] for n, a in ic])
     return out
-
-if __name__ == '__main__':
-    D = json.loads((here.parents[1] / 'data' / 'suite_data.json').read_text())
-    B = bumps(D)
-    for t, b in sorted(B.items(), key=lambda kv: -(abs(kv[1]['team']) + abs(kv[1]['hist'])))[:25]:
-        print(f"{t:28s} team {b['team']:+.2f} ({len(b['squad'])} shown) hist {b['hist']:+.2f}  {[s[0] for s in b['squad'][:3]]} | {[s[0] for s in b['icons'][:3]]}")
-    print(len(B), 'clubs touched')

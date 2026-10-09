@@ -6,7 +6,7 @@ Kevin's teams: Sacramento Kings, San Francisco Giants, San Francisco 49ers, San 
 Rivals (full weight): Lakers; Dodgers; Seahawks, Rams, Cowboys; LA Kings, Ducks, Golden Knights.
 Half weight: Athletics (Bay Bridge), Raiders, Packers, Warriors (Kings).
 
-Items, all added like adjustments (not scaled), before the association pull:
+Connection items for the Affinity model (affinity.py adds them up with the other connection items, one cap for all):
 - distance from Sacramento (proximity.py): up to +4 for North American clubs (+3 until quiz round 5).
 - market: a US club sharing a metro with Kevin's teams +1 (Bay Area: +1 - 0.5 for the Warriors = +0.5); with his rivals -1 per full rival,
   -0.5 per half rival, at most -2. (Seattle was skipped while it carried a rival penalty; that penalty went on 2026-10-02.)
@@ -15,7 +15,6 @@ Items, all added like adjustments (not scaled), before the association pull:
   Rival: -5 ownership, -2.5 minority, -1 when the club's current owner used to own the rival; half for
   half rivals. Passive fund stakes (Arctos, Sixth Street's revenue deals), stadium concessions and ties
   that ended with an owner who has left are not counted.
-Total per club capped at -6 / +6.
 """
 import proximity
 
@@ -75,16 +74,15 @@ SHORT = {'Sacramento Kings': 'Kings', 'San Francisco Giants': 'Giants', 'San Fra
          'San Jose Sharks': 'Sharks', 'Los Angeles Rams': 'Rams', 'Los Angeles Kings': 'LA Kings',
          'Vegas Golden Knights': 'Golden Knights', 'Los Angeles Dodgers': 'Dodgers', 'Athletics': "A's",
          'Las Vegas Raiders': 'Raiders', 'Golden State Warriors': 'Warriors'}
-CAP = 6.0  # +/-4 until quiz round 4 (rival ownership now -5)
 
 
-def items(name, has_rival_penalty=False):
+def items(name):
     """-> [(label, points), ...]"""
     out = []
     p = proximity.bonus(name)
     if p and p[0]:
         out.append((f'{p[1]} mi from Sacramento', p[0]))
-    if name in MARKET and not has_rival_penalty:
+    if name in MARKET:
         out.append(MARKET[name])
     if name in LINKS:
         out.append(LINKS[name])
@@ -101,17 +99,10 @@ def items(name, has_rival_penalty=False):
     return out
 
 
-def total(its):
-    return round(max(-CAP, min(CAP, sum(p for _, p in its))), 1)
-
-
 if __name__ == '__main__':
     import json, pathlib
     D = json.loads((pathlib.Path(__file__).resolve().parents[2] / 'data' / 'suite_data.json').read_text())
-    seen = {}
-    for c in D.values():
-        for t in c['teams']:
-            seen.setdefault(t['name'], 'Rival' in (t.get('hai') or {}).get('note', ''))
-    rows = [(total(its), n, its) for n, r in seen.items() for its in [items(n, r)] if its]
+    seen = {t['name'] for c in D.values() for t in c['teams']}
+    rows = [(round(sum(p for _, p in its), 1), n, its) for n in seen for its in [items(n)] if its]
     for tot, n, its in sorted(rows, key=lambda x: -x[0]):
         print(f'{tot:+5.1f}  {n:28} ' + '; '.join(f'{l} {p:+g}' for l, p in its))

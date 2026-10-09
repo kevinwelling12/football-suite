@@ -73,13 +73,33 @@ for a, b, y, r in E.pairs(ev, domain='player', kinds=['player_profile']):
 for a, b, y, r in E.pairs(ev, domain='player', named=True):
     if r['round'] == 'q10' and a in PL and b in PL:
         items.append(('q10', 'player_q10', player_named(a), player_named(b), y, 1.0, 'player', (a, b)))
+# Nations (quiz round 13): blind vignettes (gut ratings) and mystery nation pairs. Rounds q13g / q13p are held out separately.
+Q13 = A / 'quiz13'
+NLV = dict(F=('C', [3, 6, 9.5]), H=('H', [1.5, 5.5, 10]), O=('O', [2, 6, 9]), T=('T', [3, 5.5, 9]))
+def nation_profile(lv):
+    f = {k: v[lv[c]] for c, (k, v) in NLV.items()}
+    f['V'] = [3, 6, 9][lv['V']]
+    hard = [('racism', 'Racist chants', 10.0)] if lv['V'] == 0 else []
+    hard += [('government', 'Government', [0, 10.0, 25.0][lv['G']])] if lv['G'] else []
+    return dict(f=f, hard=hard, P=[1.5, 5.0, 8.5][lv['R']], conn=[], roots=[0, 2.0, 6.0][lv['A']])
+if (Q13 / 'raw' / 'responses' / 'kevin.json').exists():
+    _a = json.loads((Q13 / 'raw' / 'responses' / 'kevin.json').read_text()); _a = _a.get('data', _a)['answers']
+    _k = json.loads((Q13 / 'key.json').read_text())
+    g = [(n, _a[i]) for i, n in _k['gut'].items() if isinstance(_a.get(i), (int, float)) and n in R]
+    pairs = [(a, b, 1.0 if va > vb else 0.0, abs(va - vb)) for i, (a, va) in enumerate(g) for b, vb in g[i + 1:] if va != vb]
+    tot = sum(w for *_, w in pairs)
+    for a, b, y, w in pairs: items.append(('q13g', 'nation_gut', club_named(a), club_named(b), y, w * len(g) / tot, 'club', (a, b)))
+    for pr in _k['pairs']:
+        y = {'l': 1.0, 'r': 0.0, 't': 0.5}.get(_a.get(pr['id']))
+        if y is not None: items.append(('q13p', 'nation_dce', nation_profile(pr['A']), nation_profile(pr['B']), y, 1.0, 'club', pr['id']))
 checks = dict(
     q6=[(a, b, y) for a, b, y, r in E.pairs(ev, domain='club', named=True) if r['round'] == 'q6' and a in R and b in R],
     q8=[(a, b, y) for a, b, y, r in E.pairs(ev, domain='player', named=True) if r['round'] == 'q8' and a in PL and b in PL],
     q7=[(n, v) for n, v, r in E.gut_players(ev) if n in PL])
 
 # ---------------------------------------------------------------- parameters
-SETS = ['club_gut', 'club_dce', 'player_profile', 'player_q10']
+SETS = ['club_gut', 'club_dce', 'player_profile', 'player_q10', 'nation_gut', 'nation_dce']
+FREE_GOV = '--gov' in sys.argv  # test a separate weight for a government's record
 def unpack(t, base=P0):
     p = copy.deepcopy(base); i = 0
     for k in M.CLUB_F: p['club_w'][k] = math.exp(t[i]); i += 1
@@ -88,11 +108,12 @@ def unpack(t, base=P0):
     p['club_pi'] = 0.3 / (1 + math.exp(-t[i])); i += 1
     p['hard'] = math.exp(t[i]); i += 1
     p['conn'] = math.exp(t[i]); i += 1
-    beta = {s: math.exp(t[i + j]) for j, s in enumerate(SETS)}
+    beta = {s: math.exp(t[i + j]) for j, s in enumerate(SETS)}; i += len(SETS)
+    if FREE_GOV: p['gov'] = math.exp(t[i])
     return p, beta
 def pack(p):
     t = [math.log(p['club_w'][k]) for k in M.CLUB_F] + [math.log(p['player_w'][k]) for k in M.ROLE_F] + [math.log(p['perf_w'][k]) for k in M.PERF_F]
-    t += [math.log(p['club_pi'] / (0.3 - p['club_pi'])), math.log(p['hard']), math.log(p['conn'])] + [math.log(0.15)] * len(SETS)
+    t += [math.log(p['club_pi'] / (0.3 - p['club_pi'])), math.log(p['hard']), math.log(p['conn'])] + [math.log(0.15)] * len(SETS) + [math.log(p.get('gov', 1.0))]
     return np.array(t)
 T0 = pack(P0)
 NW = 11  # weights in t
@@ -109,7 +130,8 @@ def loss(t, its):
         L += w * (y * np.logaddexp(0, -z) + (1 - y) * np.logaddexp(0, z))
     d = normw(t) - normw(T0)
     L += LAM['w'] * float((d[:NW] ** 2).sum()) + LAM['pi'] * (t[NW] - T0[NW]) ** 2 + LAM['hard'] * (t[NW + 1] - T0[NW + 1]) ** 2 + LAM['conn'] * (t[NW + 2] - T0[NW + 2]) ** 2
-    L += LAM['beta'] * float(((t[NW + 3:] - T0[NW + 3:]) ** 2).sum())  # choice sharpness stays near 0.15 per point
+    L += LAM['beta'] * float(((t[NW + 3:NW + 3 + len(SETS)] - T0[NW + 3:NW + 3 + len(SETS)]) ** 2).sum())
+    L += 3.0 * (t[-1] - T0[-1]) ** 2  # choice sharpness stays near 0.15 per point
     return L
 def fit(its):
     r = minimize(loss, T0, args=(its,), method='L-BFGS-B', options=dict(maxiter=400))
@@ -161,7 +183,8 @@ if __name__ == '__main__':
         out = copy.deepcopy(p)
         for g in ('club_w', 'player_w', 'perf_w'):
             s = sum(out[g].values()); out[g] = {k: round(v / s * 100, 1) for k, v in out[g].items()}
-        for k in ('club_pi', 'hard', 'conn'): out[k] = round(out[k], 3)
+        for k in ('club_pi', 'hard', 'conn', 'gov'):
+            if k in out: out[k] = round(out[k], 3)
         out['fit'] = dict(date='2026-10-09', items=len(items), checks=check_report(p))
         (A / 'params.json').write_text(json.dumps(out, indent=1))
         print('wrote params.json')

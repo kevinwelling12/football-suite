@@ -44,9 +44,13 @@ def connect(items, p=PARAMS):
     raw = sum(v for _, v in items)
     return max(-p['conn_cap'], min(p['conn_cap'], p['conn'] * raw))
 
+def hard_points(hard, p=PARAMS):
+    """Sum of hard-line points before the scale; a government's record weighs gov x its points (nations quiz, round 13)."""
+    return sum(x[2] * (p.get('gov', 1.0) if x[0] == 'government' else 1.0) for x in hard)
+
 def club_score(f, hard, P, conn_items, roots, p=PARAMS, pi=None):
     Q = character(f, p['club_w'])
-    a0, q = blend(Q, sum(x[2] for x in hard), P, p['club_pi'] if pi is None else pi, p)
+    a0, q = blend(Q, hard_points(hard, p), P, p['club_pi'] if pi is None else pi, p)
     k = connect(conn_items, p)
     if q <= 0: return 0.0, dict(Q=round(Q, 1), Qh=0.0, A0=0.0, K=0.0)  # hard lines took everything: nothing left to connect
     return max(0.0, min(100.0, a0 + k + roots)), dict(Q=round(Q, 1), Qh=round(q, 1), A0=round(a0, 1), K=round(k, 1))
@@ -162,7 +166,7 @@ def run(p=PARAMS, write=True):
 def hai(r, p):
     f = r['f']; parts = r['parts']
     h = dict(C=f['C'], V=f['V'], H=f['H'], O=f['O'], S=f['T'], Q=parts['Q'], A0=parts['A0'],
-             hard=[[l, -round(p['hard'] * x, 1)] for _, l, x in r['hard']],
+             hard=[[l, -round(p['hard'] * x * (p.get('gov', 1.0) if t == 'government' else 1.0), 1)] for t, l, x in r['hard']],
              conn=[[l, round(v, 1)] for l, v in r['conn'] if round(v, 1)], K=parts['K'])
     if r['f0']['T'] != f['T']: h['S0'] = r['f0']['T']
     if r['f0']['H'] != f['H']: h['H0'] = r['f0']['H']

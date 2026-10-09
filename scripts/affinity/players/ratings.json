@@ -3,16 +3,16 @@
   "name": "Andrés Iniesta",
   "gender": "M",
   "active": false,
-  "aff": 97.1,
-  "Q": 93.2,
-  "Qh": 93.2,
+  "aff": 96.9,
+  "Q": 93.3,
+  "Qh": 93.3,
   "R": 93.1,
   "A0": 93.2,
-  "K": 4.0,
+  "K": 3.7,
   "conn": [
    [
     "Club seasons",
-    4.0
+    3.7
    ]
   ],
   "hard": []
@@ -21,7 +21,7 @@
   "name": "Christine Sinclair",
   "gender": "W",
   "active": false,
-  "aff": 95.6,
+  "aff": 95.7,
   "Q": 95.8,
   "Qh": 95.8,
   "R": 85.8,
@@ -53,9 +53,9 @@
   "gender": "M",
   "active": false,
   "aff": 93.2,
-  "Q": 93.6,
-  "Qh": 93.6,
-  "R": 83.0,
+  "Q": 93.7,
+  "Qh": 93.7,
+  "R": 82.9,
   "A0": 89.2,
   "K": 4.0,
   "conn": [
@@ -70,9 +70,9 @@
   "name": "Kenny Dalglish",
   "gender": "M",
   "active": false,
-  "aff": 93.1,
-  "Q": 89.4,
-  "Qh": 89.4,
+  "aff": 93.2,
+  "Q": 89.5,
+  "Qh": 89.5,
   "R": 88.7,
   "A0": 89.2,
   "K": 4.0,
@@ -92,7 +92,7 @@
   "Q": 87.3,
   "Qh": 87.3,
   "R": 91.7,
-  "A0": 89.0,
+  "A0": 89.1,
   "K": 2.5,
   "conn": [
    [
@@ -107,24 +107,6 @@
   "hard": []
  },
  {
-  "name": "Carles Puyol",
-  "gender": "M",
-  "active": false,
-  "aff": 91.1,
-  "Q": 96.8,
-  "Qh": 96.8,
-  "R": 74.7,
-  "A0": 87.2,
-  "K": 3.9,
-  "conn": [
-   [
-    "Club seasons",
-    3.9
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Thomas Müller",
   "gender": "M",
   "active": true,
@@ -132,7 +114,7 @@
   "Q": 91.8,
   "Qh": 91.8,
   "R": 80.0,
-  "A0": 86.9,
+  "A0": 86.8,
   "K": 4.0,
   "conn": [
    [
@@ -143,13 +125,31 @@
   "hard": []
  },
  {
+  "name": "Carles Puyol",
+  "gender": "M",
+  "active": false,
+  "aff": 90.6,
+  "Q": 96.8,
+  "Qh": 96.8,
+  "R": 74.6,
+  "A0": 87.2,
+  "K": 3.4,
+  "conn": [
+   [
+    "Club seasons",
+    3.4
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Uwe Seeler",
   "gender": "M",
   "active": false,
   "aff": 90.2,
-  "Q": 89.4,
-  "Qh": 89.4,
-  "R": 81.9,
+  "Q": 89.3,
+  "Qh": 89.3,
+  "R": 81.8,
   "A0": 86.3,
   "K": 4.0,
   "conn": [
@@ -164,16 +164,16 @@
   "name": "Megan Rapinoe",
   "gender": "W",
   "active": false,
-  "aff": 89.5,
+  "aff": 89.3,
   "Q": 87.3,
   "Qh": 87.3,
   "R": 86.8,
   "A0": 87.1,
-  "K": 2.5,
+  "K": 2.2,
   "conn": [
    [
     "Club seasons",
-    0.5
+    0.2
    ],
    [
     "US international",
@@ -186,38 +186,16 @@
   "name": "Gigi Riva",
   "gender": "M",
   "active": false,
-  "aff": 88.7,
-  "Q": 85.4,
-  "Qh": 85.4,
+  "aff": 88.6,
+  "Q": 85.3,
+  "Qh": 85.3,
   "R": 85.7,
   "A0": 85.5,
-  "K": 3.2,
+  "K": 3.1,
   "conn": [
    [
     "Club seasons",
-    3.2
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Andy Robertson",
-  "gender": "M",
-  "active": true,
-  "aff": 88.5,
-  "Q": 89.4,
-  "Qh": 89.4,
-  "R": 77.6,
-  "A0": 84.5,
-  "K": 4.0,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.0
+    3.1
    ]
   ],
   "hard": []
@@ -236,10 +214,32 @@
   "hard": []
  },
  {
+  "name": "Andy Robertson",
+  "gender": "M",
+  "active": true,
+  "aff": 88.4,
+  "Q": 89.5,
+  "Qh": 89.5,
+  "R": 77.6,
+  "A0": 84.5,
+  "K": 3.9,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.1
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Stanley Matthews",
   "gender": "M",
   "active": false,
-  "aff": 88.3,
+  "aff": 88.4,
   "Q": 80.1,
   "Qh": 80.1,
   "R": 91.3,
@@ -258,8 +258,8 @@
   "gender": "W",
   "active": true,
   "aff": 88.3,
-  "Q": 81.3,
-  "Qh": 81.3,
+  "Q": 81.4,
+  "Qh": 81.4,
   "R": 98.5,
   "A0": 87.8,
   "K": 0.5,
@@ -275,7 +275,7 @@
   "name": "Paolo Maldini",
   "gender": "M",
   "active": false,
-  "aff": 88.3,
+  "aff": 88.2,
   "Q": 93.6,
   "Qh": 93.6,
   "R": 87.8,
@@ -294,8 +294,8 @@
   "gender": "M",
   "active": false,
   "aff": 88.0,
-  "Q": 91.6,
-  "Qh": 91.6,
+  "Q": 91.7,
+  "Qh": 91.7,
   "R": 90.0,
   "A0": 91.0,
   "K": -3.0,
@@ -312,36 +312,14 @@
   "hard": []
  },
  {
-  "name": "Toni Kroos",
-  "gender": "M",
-  "active": false,
-  "aff": 87.6,
-  "Q": 84.1,
-  "Qh": 84.1,
-  "R": 85.2,
-  "A0": 84.5,
-  "K": 3.1,
-  "conn": [
-   [
-    "Club seasons",
-    3.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.2
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Michelle Akers",
   "gender": "W",
   "active": false,
-  "aff": 87.5,
-  "Q": 84.7,
-  "Qh": 84.7,
+  "aff": 87.6,
+  "Q": 84.8,
+  "Qh": 84.8,
   "R": 86.8,
-  "A0": 85.5,
+  "A0": 85.6,
   "K": 2.0,
   "conn": [
    [
@@ -352,12 +330,34 @@
   "hard": []
  },
  {
+  "name": "Toni Kroos",
+  "gender": "M",
+  "active": false,
+  "aff": 87.6,
+  "Q": 84.1,
+  "Qh": 84.1,
+  "R": 85.2,
+  "A0": 84.6,
+  "K": 3.0,
+  "conn": [
+   [
+    "Club seasons",
+    3.4
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.4
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Kristine Lilly",
   "gender": "W",
   "active": false,
-  "aff": 87.4,
-  "Q": 90.8,
-  "Qh": 90.8,
+  "aff": 87.5,
+  "Q": 90.9,
+  "Qh": 90.9,
   "R": 79.3,
   "A0": 86.1,
   "K": 1.4,
@@ -387,13 +387,39 @@
   "hard": []
  },
  {
+  "name": "Lindsey Horan",
+  "gender": "W",
+  "active": true,
+  "aff": 86.5,
+  "Q": 84.6,
+  "Qh": 84.6,
+  "R": 75.8,
+  "A0": 81.0,
+  "K": 5.6,
+  "conn": [
+   [
+    "Club seasons",
+    3.6
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.0
+   ],
+   [
+    "US international",
+    2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Javier Zanetti",
   "gender": "M",
   "active": false,
   "aff": 86.5,
   "Q": 96.8,
   "Qh": 96.8,
-  "R": 79.5,
+  "R": 79.4,
   "A0": 89.5,
   "K": -3.0,
   "conn": [
@@ -405,23 +431,19 @@
   "hard": []
  },
  {
-  "name": "Lindsey Horan",
+  "name": "Becky Sauerbrunn",
   "gender": "W",
-  "active": true,
+  "active": false,
   "aff": 86.4,
-  "Q": 84.5,
-  "Qh": 84.5,
-  "R": 75.8,
-  "A0": 80.9,
-  "K": 5.5,
+  "Q": 87.7,
+  "Qh": 87.7,
+  "R": 70.6,
+  "A0": 80.4,
+  "K": 6.0,
   "conn": [
    [
     "Club seasons",
-    3.6
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.0
+    4.0
    ],
    [
     "US international",
@@ -449,57 +471,13 @@
   "hard": []
  },
  {
-  "name": "Becky Sauerbrunn",
-  "gender": "W",
-  "active": false,
-  "aff": 86.4,
-  "Q": 87.7,
-  "Qh": 87.7,
-  "R": 70.7,
-  "A0": 80.4,
-  "K": 5.9,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "US international",
-    2.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "John Charles",
-  "gender": "M",
-  "active": false,
-  "aff": 86.1,
-  "Q": 83.9,
-  "Qh": 83.9,
-  "R": 81.5,
-  "A0": 82.9,
-  "K": 3.2,
-  "conn": [
-   [
-    "Club seasons",
-    3.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Abby Wambach",
   "gender": "W",
   "active": false,
-  "aff": 85.8,
-  "Q": 81.7,
-  "Qh": 81.7,
-  "R": 82.5,
+  "aff": 85.9,
+  "Q": 81.8,
+  "Qh": 81.8,
+  "R": 82.4,
   "A0": 82.0,
   "K": 3.9,
   "conn": [
@@ -515,15 +493,37 @@
   "hard": []
  },
  {
+  "name": "John Charles",
+  "gender": "M",
+  "active": false,
+  "aff": 85.8,
+  "Q": 84.0,
+  "Qh": 84.0,
+  "R": 81.4,
+  "A0": 82.9,
+  "K": 2.9,
+  "conn": [
+   [
+    "Club seasons",
+    3.2
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.3
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Son Heung-min",
   "gender": "M",
   "active": true,
-  "aff": 85.3,
-  "Q": 86.5,
-  "Qh": 86.5,
+  "aff": 85.2,
+  "Q": 86.6,
+  "Qh": 86.6,
   "R": 80.2,
   "A0": 84.0,
-  "K": 1.4,
+  "K": 1.2,
   "conn": [
    [
     "Club seasons",
@@ -531,7 +531,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.0
+    -0.2
    ]
   ],
   "hard": []
@@ -540,11 +540,11 @@
   "name": "Lev Yashin",
   "gender": "M",
   "active": false,
-  "aff": 85.2,
-  "Q": 84.3,
-  "Qh": 84.3,
-  "R": 86.6,
-  "A0": 85.2,
+  "aff": 85.1,
+  "Q": 84.2,
+  "Qh": 84.2,
+  "R": 86.5,
+  "A0": 85.1,
   "K": 0.0,
   "conn": [],
   "hard": []
@@ -571,12 +571,12 @@
   "name": "Tobin Heath",
   "gender": "W",
   "active": false,
-  "aff": 85.0,
-  "Q": 77.1,
-  "Qh": 77.1,
-  "R": 82.0,
-  "A0": 79.0,
-  "K": 5.9,
+  "aff": 85.1,
+  "Q": 77.2,
+  "Qh": 77.2,
+  "R": 82.1,
+  "A0": 79.1,
+  "K": 6.0,
   "conn": [
    [
     "Club seasons",
@@ -594,8 +594,8 @@
   "gender": "M",
   "active": true,
   "aff": 85.0,
-  "Q": 91.0,
-  "Qh": 91.0,
+  "Q": 91.1,
+  "Qh": 91.1,
   "R": 74.6,
   "A0": 84.1,
   "K": 0.9,
@@ -611,10 +611,10 @@
   "name": "Franco Baresi",
   "gender": "M",
   "active": false,
-  "aff": 84.6,
+  "aff": 84.5,
   "Q": 91.0,
   "Qh": 91.0,
-  "R": 82.6,
+  "R": 82.5,
   "A0": 87.5,
   "K": -3.0,
   "conn": [
@@ -632,7 +632,7 @@
   "aff": 84.5,
   "Q": 82.4,
   "Qh": 82.4,
-  "R": 86.9,
+  "R": 86.8,
   "A0": 84.2,
   "K": 0.3,
   "conn": [
@@ -648,8 +648,8 @@
   "gender": "W",
   "active": true,
   "aff": 84.4,
-  "Q": 91.8,
-  "Qh": 91.8,
+  "Q": 91.9,
+  "Qh": 91.9,
   "R": 74.3,
   "A0": 84.4,
   "K": 0.0,
@@ -657,36 +657,14 @@
   "hard": []
  },
  {
-  "name": "Bastian Schweinsteiger",
-  "gender": "M",
-  "active": false,
-  "aff": 84.2,
-  "Q": 81.9,
-  "Qh": 81.9,
-  "R": 79.2,
-  "A0": 80.8,
-  "K": 3.4,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.6
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Tostão",
   "gender": "M",
   "active": false,
-  "aff": 84.1,
+  "aff": 84.2,
   "Q": 86.0,
   "Qh": 86.0,
   "R": 81.5,
-  "A0": 84.1,
+  "A0": 84.2,
   "K": 0.0,
   "conn": [],
   "hard": []
@@ -696,15 +674,15 @@
   "gender": "M",
   "active": false,
   "aff": 84.1,
-  "Q": 83.3,
-  "Qh": 83.3,
+  "Q": 83.4,
+  "Qh": 83.4,
   "R": 75.8,
   "A0": 80.2,
-  "K": 4.0,
+  "K": 3.9,
   "conn": [
    [
     "Club seasons",
-    2.0
+    1.9
    ],
    [
     "US international",
@@ -720,10 +698,32 @@
   "aff": 84.0,
   "Q": 85.5,
   "Qh": 85.5,
-  "R": 82.0,
+  "R": 81.9,
   "A0": 84.0,
   "K": 0.0,
   "conn": [],
+  "hard": []
+ },
+ {
+  "name": "Bastian Schweinsteiger",
+  "gender": "M",
+  "active": false,
+  "aff": 83.9,
+  "Q": 81.8,
+  "Qh": 81.8,
+  "R": 79.2,
+  "A0": 80.8,
+  "K": 3.2,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.8
+   ]
+  ],
   "hard": []
  },
  {
@@ -767,36 +767,14 @@
   "hard": []
  },
  {
-  "name": "Dino Zoff",
-  "gender": "M",
-  "active": false,
-  "aff": 82.9,
-  "Q": 82.1,
-  "Qh": 82.1,
-  "R": 79.4,
-  "A0": 81.0,
-  "K": 1.9,
-  "conn": [
-   [
-    "Club seasons",
-    2.1
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.2
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Giacinto Facchetti",
   "gender": "M",
   "active": false,
-  "aff": 82.8,
-  "Q": 85.8,
-  "Qh": 85.8,
+  "aff": 82.7,
+  "Q": 85.7,
+  "Qh": 85.7,
   "R": 85.7,
-  "A0": 85.8,
+  "A0": 85.7,
   "K": -3.0,
   "conn": [
    [
@@ -807,19 +785,23 @@
   "hard": []
  },
  {
-  "name": "Alessandro Del Piero",
+  "name": "Dino Zoff",
   "gender": "M",
   "active": false,
-  "aff": 82.5,
-  "Q": 80.1,
-  "Qh": 80.1,
-  "R": 87.3,
-  "A0": 82.9,
-  "K": -0.4,
+  "aff": 82.4,
+  "Q": 82.2,
+  "Qh": 82.2,
+  "R": 79.4,
+  "A0": 81.0,
+  "K": 1.4,
   "conn": [
    [
+    "Club seasons",
+    2.0
+   ],
+   [
     "Seasons at clubs you rate low",
-    -0.4
+    -0.6
    ]
   ],
   "hard": []
@@ -828,12 +810,12 @@
   "name": "Meghan Klingenberg",
   "gender": "W",
   "active": false,
-  "aff": 82.3,
-  "Q": 89.0,
-  "Qh": 89.0,
+  "aff": 82.4,
+  "Q": 89.1,
+  "Qh": 89.1,
   "R": 60.9,
   "A0": 76.5,
-  "K": 5.8,
+  "K": 5.9,
   "conn": [
    [
     "Club seasons",
@@ -855,8 +837,8 @@
   "gender": "M",
   "active": true,
   "aff": 82.2,
-  "Q": 81.1,
-  "Qh": 81.1,
+  "Q": 81.2,
+  "Qh": 81.2,
   "R": 76.4,
   "A0": 79.2,
   "K": 3.0,
@@ -869,36 +851,14 @@
   "hard": []
  },
  {
-  "name": "Henrik Larsson",
-  "gender": "M",
-  "active": false,
-  "aff": 82.1,
-  "Q": 81.8,
-  "Qh": 81.8,
-  "R": 81.1,
-  "A0": 81.5,
-  "K": 0.6,
-  "conn": [
-   [
-    "Club seasons",
-    0.8
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.2
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Vivianne Miedema",
   "gender": "W",
   "active": true,
-  "aff": 82.0,
-  "Q": 80.5,
-  "Qh": 80.5,
+  "aff": 82.1,
+  "Q": 80.6,
+  "Qh": 80.6,
   "R": 84.4,
-  "A0": 82.0,
+  "A0": 82.1,
   "K": 0.0,
   "conn": [],
   "hard": []
@@ -907,12 +867,12 @@
   "name": "Sophia Wilson",
   "gender": "W",
   "active": true,
-  "aff": 81.9,
+  "aff": 82.0,
   "Q": 76.4,
   "Qh": 76.4,
   "R": 76.4,
   "A0": 76.4,
-  "K": 5.5,
+  "K": 5.6,
   "conn": [
    [
     "Club seasons",
@@ -926,25 +886,52 @@
   "hard": []
  },
  {
-  "name": "Birgit Prinz",
-  "gender": "W",
+  "name": "Alessandro Del Piero",
+  "gender": "M",
+  "active": false,
+  "aff": 81.9,
+  "Q": 80.1,
+  "Qh": 80.1,
+  "R": 87.3,
+  "A0": 82.9,
+  "K": -1.0,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -1.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Henrik Larsson",
+  "gender": "M",
   "active": false,
   "aff": 81.8,
-  "Q": 81.6,
-  "Qh": 81.6,
-  "R": 82.0,
-  "A0": 81.8,
-  "K": 0.0,
-  "conn": [],
+  "Q": 81.8,
+  "Qh": 81.8,
+  "R": 81.1,
+  "A0": 81.5,
+  "K": 0.3,
+  "conn": [
+   [
+    "Club seasons",
+    0.5
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.2
+   ]
+  ],
   "hard": []
  },
  {
   "name": "Alex Morgan",
   "gender": "W",
   "active": false,
-  "aff": 81.7,
-  "Q": 76.5,
-  "Qh": 76.5,
+  "aff": 81.8,
+  "Q": 76.6,
+  "Qh": 76.6,
   "R": 81.2,
   "A0": 78.4,
   "K": 3.4,
@@ -965,36 +952,27 @@
   "hard": []
  },
  {
-  "name": "Ian Rush",
-  "gender": "M",
+  "name": "Birgit Prinz",
+  "gender": "W",
   "active": false,
   "aff": 81.7,
-  "Q": 78.4,
-  "Qh": 78.4,
-  "R": 78.2,
-  "A0": 78.3,
-  "K": 3.4,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.6
-   ]
-  ],
+  "Q": 81.6,
+  "Qh": 81.6,
+  "R": 81.9,
+  "A0": 81.7,
+  "K": 0.0,
+  "conn": [],
   "hard": []
  },
  {
   "name": "Crystal Dunn",
   "gender": "W",
   "active": true,
-  "aff": 81.5,
-  "Q": 80.9,
-  "Qh": 80.9,
+  "aff": 81.6,
+  "Q": 81.0,
+  "Qh": 81.0,
   "R": 73.4,
-  "A0": 77.8,
+  "A0": 77.9,
   "K": 3.8,
   "conn": [
    [
@@ -1013,12 +991,34 @@
   "hard": []
  },
  {
+  "name": "Ian Rush",
+  "gender": "M",
+  "active": false,
+  "aff": 81.6,
+  "Q": 78.3,
+  "Qh": 78.3,
+  "R": 78.2,
+  "A0": 78.3,
+  "K": 3.3,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.7
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Julie Foudy",
   "gender": "W",
   "active": false,
   "aff": 81.4,
-  "Q": 85.5,
-  "Qh": 85.5,
+  "Q": 85.6,
+  "Qh": 85.6,
   "R": 71.1,
   "A0": 79.4,
   "K": 2.0,
@@ -1031,78 +1031,12 @@
   "hard": []
  },
  {
-  "name": "Harry Kane",
-  "gender": "M",
-  "active": true,
-  "aff": 81.3,
-  "Q": 80.3,
-  "Qh": 80.3,
-  "R": 79.3,
-  "A0": 79.9,
-  "K": 1.4,
-  "conn": [
-   [
-    "Club seasons",
-    1.4
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Virgil van Dijk",
-  "gender": "M",
-  "active": true,
-  "aff": 81.3,
-  "Q": 79.9,
-  "Qh": 79.9,
-  "R": 75.3,
-  "A0": 78.0,
-  "K": 3.3,
-  "conn": [
-   [
-    "Club seasons",
-    3.8
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.5
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Joaquín",
-  "gender": "M",
-  "active": false,
-  "aff": 81.1,
-  "Q": 80.9,
-  "Qh": 80.9,
-  "R": 72.0,
-  "A0": 77.2,
-  "K": 3.9,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Sócrates",
   "gender": "M",
   "active": false,
   "aff": 81.0,
-  "Q": 75.7,
-  "Qh": 75.7,
+  "Q": 75.8,
+  "Qh": 75.8,
   "R": 88.8,
   "A0": 80.7,
   "K": 0.3,
@@ -1115,32 +1049,76 @@
   "hard": []
  },
  {
+  "name": "Harry Kane",
+  "gender": "M",
+  "active": true,
+  "aff": 81.0,
+  "Q": 80.4,
+  "Qh": 80.4,
+  "R": 79.3,
+  "A0": 79.9,
+  "K": 1.1,
+  "conn": [
+   [
+    "Club seasons",
+    1.4
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.3
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Virgil van Dijk",
+  "gender": "M",
+  "active": true,
+  "aff": 81.0,
+  "Q": 79.9,
+  "Qh": 79.9,
+  "R": 75.2,
+  "A0": 78.0,
+  "K": 3.0,
+  "conn": [
+   [
+    "Club seasons",
+    3.6
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.6
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Pernille Harder",
   "gender": "W",
   "active": true,
-  "aff": 80.9,
-  "Q": 80.1,
-  "Qh": 80.1,
+  "aff": 81.0,
+  "Q": 80.2,
+  "Qh": 80.2,
   "R": 82.2,
-  "A0": 80.9,
+  "A0": 81.0,
   "K": 0.0,
   "conn": [],
   "hard": []
  },
  {
-  "name": "Paco Gento",
+  "name": "Joaquín",
   "gender": "M",
   "active": false,
-  "aff": 80.7,
-  "Q": 78.0,
-  "Qh": 78.0,
-  "R": 85.0,
-  "A0": 80.7,
-  "K": 0.0,
+  "aff": 80.9,
+  "Q": 80.9,
+  "Qh": 80.9,
+  "R": 72.1,
+  "A0": 77.3,
+  "K": 3.7,
   "conn": [
    [
     "Club seasons",
-    0.3
+    4.0
    ],
    [
     "Seasons at clubs you rate low",
@@ -1153,11 +1131,11 @@
   "name": "Bunny Shaw",
   "gender": "W",
   "active": true,
-  "aff": 80.5,
+  "aff": 80.6,
   "Q": 84.9,
   "Qh": 84.9,
-  "R": 74.5,
-  "A0": 80.5,
+  "R": 74.4,
+  "A0": 80.6,
   "K": 0.0,
   "conn": [],
   "hard": []
@@ -1170,56 +1148,12 @@
   "Q": 84.4,
   "Qh": 84.4,
   "R": 80.8,
-  "A0": 83.0,
+  "A0": 82.9,
   "K": -2.5,
   "conn": [
    [
     "Club seasons",
     0.5
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "John Barnes",
-  "gender": "M",
-  "active": false,
-  "aff": 80.4,
-  "Q": 75.1,
-  "Qh": 75.1,
-  "R": 84.5,
-  "A0": 78.7,
-  "K": 1.7,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -2.3
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Miroslav Klose",
-  "gender": "M",
-  "active": false,
-  "aff": 80.4,
-  "Q": 82.1,
-  "Qh": 82.1,
-  "R": 77.7,
-  "A0": 80.3,
-  "K": 0.1,
-  "conn": [
-   [
-    "Club seasons",
-    3.1
    ],
    [
     "Seasons at clubs you rate low",
@@ -1235,7 +1169,7 @@
   "aff": 80.4,
   "Q": 85.7,
   "Qh": 85.7,
-  "R": 68.7,
+  "R": 68.6,
   "A0": 78.4,
   "K": 2.0,
   "conn": [
@@ -1251,19 +1185,85 @@
   "hard": []
  },
  {
+  "name": "Miroslav Klose",
+  "gender": "M",
+  "active": false,
+  "aff": 80.4,
+  "Q": 82.2,
+  "Qh": 82.2,
+  "R": 77.7,
+  "A0": 80.4,
+  "K": 0.0,
+  "conn": [
+   [
+    "Club seasons",
+    3.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "John Barnes",
+  "gender": "M",
+  "active": false,
+  "aff": 80.3,
+  "Q": 75.2,
+  "Qh": 75.2,
+  "R": 84.5,
+  "A0": 78.8,
+  "K": 1.5,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -2.5
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Paco Gento",
+  "gender": "M",
+  "active": false,
+  "aff": 80.3,
+  "Q": 77.9,
+  "Qh": 77.9,
+  "R": 85.0,
+  "A0": 80.7,
+  "K": -0.4,
+  "conn": [
+   [
+    "Club seasons",
+    0.3
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.7
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Ian Wright",
   "gender": "M",
   "active": false,
   "aff": 80.0,
-  "Q": 79.5,
-  "Qh": 79.5,
+  "Q": 79.6,
+  "Qh": 79.6,
   "R": 77.4,
-  "A0": 78.6,
-  "K": 1.4,
+  "A0": 78.7,
+  "K": 1.3,
   "conn": [
    [
     "Club seasons",
-    1.8
+    1.7
    ],
    [
     "Seasons at clubs you rate low",
@@ -1273,63 +1273,14 @@
   "hard": []
  },
  {
-  "name": "Raúl",
-  "gender": "M",
-  "active": false,
-  "aff": 80.0,
-  "Q": 89.0,
-  "Qh": 79.0,
-  "R": 80.3,
-  "A0": 79.6,
-  "K": 0.4,
-  "conn": [
-   [
-    "Club seasons",
-    0.7
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.3
-   ]
-  ],
-  "hard": [
-   [
-    "Money-league move (2012)",
-    6
-   ]
-  ]
- },
- {
-  "name": "Dennis Bergkamp",
-  "gender": "M",
-  "active": false,
-  "aff": 79.9,
-  "Q": 73.1,
-  "Qh": 73.1,
-  "R": 89.5,
-  "A0": 79.2,
-  "K": 0.7,
-  "conn": [
-   [
-    "Club seasons",
-    1.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.6
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Mikel Oyarzabal",
   "gender": "M",
   "active": true,
   "aff": 79.9,
-  "Q": 79.4,
-  "Qh": 79.4,
+  "Q": 79.3,
+  "Qh": 79.3,
   "R": 71.1,
-  "A0": 76.0,
+  "A0": 75.9,
   "K": 4.0,
   "conn": [
    [
@@ -1343,11 +1294,11 @@
   "name": "Raymond Kopa",
   "gender": "M",
   "active": false,
-  "aff": 79.7,
-  "Q": 76.1,
-  "Qh": 76.1,
+  "aff": 79.8,
+  "Q": 76.2,
+  "Qh": 76.2,
   "R": 86.5,
-  "A0": 80.1,
+  "A0": 80.2,
   "K": -0.4,
   "conn": [
    [
@@ -1362,12 +1313,34 @@
   "gender": "W",
   "active": true,
   "aff": 79.7,
-  "Q": 77.1,
-  "Qh": 77.1,
+  "Q": 77.3,
+  "Qh": 77.3,
   "R": 83.6,
   "A0": 79.7,
   "K": 0.0,
   "conn": [],
+  "hard": []
+ },
+ {
+  "name": "Dennis Bergkamp",
+  "gender": "M",
+  "active": false,
+  "aff": 79.7,
+  "Q": 73.1,
+  "Qh": 73.1,
+  "R": 89.5,
+  "A0": 79.3,
+  "K": 0.4,
+  "conn": [
+   [
+    "Club seasons",
+    1.2
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.8
+   ]
+  ],
   "hard": []
  },
  {
@@ -1378,7 +1351,7 @@
   "Q": 69.8,
   "Qh": 69.8,
   "R": 85.4,
-  "A0": 75.7,
+  "A0": 75.6,
   "K": 4.0,
   "conn": [
    [
@@ -1392,10 +1365,10 @@
   "name": "Brandi Chastain",
   "gender": "W",
   "active": false,
-  "aff": 79.5,
-  "Q": 80.5,
-  "Qh": 80.5,
-  "R": 73.4,
+  "aff": 79.6,
+  "Q": 80.6,
+  "Qh": 80.6,
+  "R": 73.3,
   "A0": 77.6,
   "K": 2.0,
   "conn": [
@@ -1407,31 +1380,13 @@
   "hard": []
  },
  {
-  "name": "Dixie Dean",
-  "gender": "M",
-  "active": false,
-  "aff": 79.4,
-  "Q": 71.8,
-  "Qh": 71.8,
-  "R": 82.0,
-  "A0": 75.7,
-  "K": 3.8,
-  "conn": [
-   [
-    "Club seasons",
-    3.8
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Rose Lavelle",
   "gender": "W",
   "active": true,
-  "aff": 79.0,
-  "Q": 74.1,
-  "Qh": 74.1,
-  "R": 80.6,
+  "aff": 79.1,
+  "Q": 74.2,
+  "Qh": 74.2,
+  "R": 80.7,
   "A0": 76.7,
   "K": 2.4,
   "conn": [
@@ -1451,14 +1406,32 @@
   "hard": []
  },
  {
+  "name": "Dixie Dean",
+  "gender": "M",
+  "active": false,
+  "aff": 79.1,
+  "Q": 71.7,
+  "Qh": 71.7,
+  "R": 81.9,
+  "A0": 75.6,
+  "K": 3.5,
+  "conn": [
+   [
+    "Club seasons",
+    3.5
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Paul Scholes",
   "gender": "M",
   "active": false,
   "aff": 79.0,
-  "Q": 82.3,
-  "Qh": 82.3,
+  "Q": 82.2,
+  "Qh": 82.2,
   "R": 81.5,
-  "A0": 82.0,
+  "A0": 81.9,
   "K": -3.0,
   "conn": [
    [
@@ -1469,15 +1442,42 @@
   "hard": []
  },
  {
-  "name": "Gordon Banks",
+  "name": "Raúl",
   "gender": "M",
   "active": false,
   "aff": 78.6,
+  "Q": 89.0,
+  "Qh": 77.3,
+  "R": 80.3,
+  "A0": 78.5,
+  "K": 0.1,
+  "conn": [
+   [
+    "Club seasons",
+    0.7
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.6
+   ]
+  ],
+  "hard": [
+   [
+    "Money-league move (2012)",
+    6
+   ]
+  ]
+ },
+ {
+  "name": "Gordon Banks",
+  "gender": "M",
+  "active": false,
+  "aff": 78.4,
   "Q": 77.4,
   "Qh": 77.4,
-  "R": 80.7,
+  "R": 80.6,
   "A0": 78.7,
-  "K": -0.1,
+  "K": -0.3,
   "conn": [
    [
     "Club seasons",
@@ -1485,7 +1485,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.5
+    -0.7
    ]
   ],
   "hard": []
@@ -1495,8 +1495,8 @@
   "gender": "W",
   "active": false,
   "aff": 78.2,
-  "Q": 79.5,
-  "Qh": 79.5,
+  "Q": 79.6,
+  "Qh": 79.6,
   "R": 70.8,
   "A0": 75.9,
   "K": 2.3,
@@ -1513,36 +1513,14 @@
   "hard": []
  },
  {
-  "name": "Martin Ødegaard",
-  "gender": "M",
-  "active": true,
-  "aff": 78.2,
-  "Q": 78.7,
-  "Qh": 78.7,
-  "R": 75.0,
-  "A0": 77.2,
-  "K": 1.0,
-  "conn": [
-   [
-    "Club seasons",
-    1.1
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Jamie Carragher",
   "gender": "M",
   "active": false,
   "aff": 78.1,
-  "Q": 83.8,
-  "Qh": 83.8,
-  "R": 61.8,
-  "A0": 74.2,
+  "Q": 83.7,
+  "Qh": 83.7,
+  "R": 61.7,
+  "A0": 74.1,
   "K": 4.0,
   "conn": [
    [
@@ -1589,19 +1567,23 @@
   "hard": []
  },
  {
-  "name": "Alfredo Di Stéfano",
+  "name": "Martin Ødegaard",
   "gender": "M",
-  "active": false,
+  "active": true,
   "aff": 78.0,
-  "Q": 69.8,
-  "Qh": 69.8,
-  "R": 94.4,
-  "A0": 78.8,
-  "K": -0.8,
+  "Q": 78.6,
+  "Qh": 78.6,
+  "R": 75.0,
+  "A0": 77.2,
+  "K": 0.8,
   "conn": [
    [
+    "Club seasons",
+    1.0
+   ],
+   [
     "Seasons at clubs you rate low",
-    -0.8
+    -0.2
    ]
   ],
   "hard": []
@@ -1628,10 +1610,10 @@
   "name": "Naomi Girma",
   "gender": "W",
   "active": true,
-  "aff": 77.8,
-  "Q": 80.1,
-  "Qh": 80.1,
-  "R": 70.0,
+  "aff": 77.9,
+  "Q": 80.2,
+  "Qh": 80.2,
+  "R": 69.9,
   "A0": 75.9,
   "K": 2.0,
   "conn": [
@@ -1647,23 +1629,19 @@
   "hard": []
  },
  {
-  "name": "Alisson Becker",
+  "name": "Alfredo Di Stéfano",
   "gender": "M",
-  "active": true,
-  "aff": 77.5,
-  "Q": 74.7,
-  "Qh": 74.7,
-  "R": 73.8,
-  "A0": 74.4,
-  "K": 3.2,
+  "active": false,
+  "aff": 77.6,
+  "Q": 69.8,
+  "Qh": 69.8,
+  "R": 94.3,
+  "A0": 78.7,
+  "K": -1.1,
   "conn": [
    [
-    "Club seasons",
-    4.0
-   ],
-   [
     "Seasons at clubs you rate low",
-    -0.8
+    -1.1
    ]
   ],
   "hard": []
@@ -1675,13 +1653,13 @@
   "aff": 77.4,
   "Q": 77.8,
   "Qh": 77.8,
-  "R": 67.4,
-  "A0": 73.4,
-  "K": 4.0,
+  "R": 67.5,
+  "A0": 73.5,
+  "K": 3.9,
   "conn": [
    [
     "Club seasons",
-    4.0
+    3.9
    ]
   ],
   "hard": []
@@ -1691,8 +1669,8 @@
   "gender": "W",
   "active": true,
   "aff": 77.3,
-  "Q": 75.2,
-  "Qh": 75.2,
+  "Q": 75.3,
+  "Qh": 75.3,
   "R": 74.2,
   "A0": 74.8,
   "K": 2.5,
@@ -1713,8 +1691,8 @@
   "gender": "M",
   "active": false,
   "aff": 77.3,
-  "Q": 76.9,
-  "Qh": 76.9,
+  "Q": 76.8,
+  "Qh": 76.8,
   "R": 68.3,
   "A0": 73.3,
   "K": 4.0,
@@ -1727,38 +1705,37 @@
   "hard": []
  },
  {
-  "name": "Johan Cruyff",
+  "name": "Alisson Becker",
   "gender": "M",
-  "active": false,
-  "aff": 77.2,
-  "Q": 73.4,
-  "Qh": 63.4,
-  "R": 99.0,
-  "A0": 75.8,
-  "K": 1.4,
+  "active": true,
+  "aff": 76.9,
+  "Q": 74.7,
+  "Qh": 74.7,
+  "R": 73.8,
+  "A0": 74.3,
+  "K": 2.6,
   "conn": [
    [
     "Club seasons",
-    1.4
+    3.7
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.1
    ]
   ],
-  "hard": [
-   [
-    "Rival move (1983)",
-    6.0
-   ]
-  ]
+  "hard": []
  },
  {
   "name": "Kaká",
   "gender": "M",
   "active": false,
-  "aff": 77.2,
-  "Q": 73.0,
-  "Qh": 73.0,
+  "aff": 76.7,
+  "Q": 73.1,
+  "Qh": 73.1,
   "R": 86.9,
   "A0": 78.3,
-  "K": -1.1,
+  "K": -1.6,
   "conn": [
    [
     "Club seasons",
@@ -1766,7 +1743,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -1.3
+    -1.8
    ]
   ],
   "hard": []
@@ -1775,9 +1752,9 @@
   "name": "Marco Reus",
   "gender": "M",
   "active": true,
-  "aff": 76.7,
-  "Q": 70.8,
-  "Qh": 70.8,
+  "aff": 76.6,
+  "Q": 70.7,
+  "Qh": 70.7,
   "R": 75.8,
   "A0": 72.7,
   "K": 4.0,
@@ -1785,68 +1762,6 @@
    [
     "Club seasons",
     4.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Pedri",
-  "gender": "M",
-  "active": true,
-  "aff": 76.6,
-  "Q": 74.2,
-  "Qh": 74.2,
-  "R": 76.6,
-  "A0": 75.2,
-  "K": 1.5,
-  "conn": [
-   [
-    "Club seasons",
-    1.5
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Ruud Gullit",
-  "gender": "M",
-  "active": false,
-  "aff": 76.6,
-  "Q": 74.2,
-  "Qh": 74.2,
-  "R": 85.2,
-  "A0": 78.5,
-  "K": -1.9,
-  "conn": [
-   [
-    "Club seasons",
-    1.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -2.9
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Gianfranco Zola",
-  "gender": "M",
-  "active": false,
-  "aff": 76.6,
-  "Q": 74.6,
-  "Qh": 74.6,
-  "R": 80.9,
-  "A0": 77.1,
-  "K": -0.5,
-  "conn": [
-   [
-    "Club seasons",
-    2.5
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
    ]
   ],
   "hard": []
@@ -1865,10 +1780,50 @@
   "hard": []
  },
  {
+  "name": "Pedri",
+  "gender": "M",
+  "active": true,
+  "aff": 76.5,
+  "Q": 74.1,
+  "Qh": 74.1,
+  "R": 76.6,
+  "A0": 75.1,
+  "K": 1.4,
+  "conn": [
+   [
+    "Club seasons",
+    1.4
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Gianfranco Zola",
+  "gender": "M",
+  "active": false,
+  "aff": 76.5,
+  "Q": 74.7,
+  "Qh": 74.7,
+  "R": 80.9,
+  "A0": 77.1,
+  "K": -0.6,
+  "conn": [
+   [
+    "Club seasons",
+    2.4
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Just Fontaine",
   "gender": "M",
   "active": false,
-  "aff": 76.4,
+  "aff": 76.5,
   "Q": 76.6,
   "Qh": 76.6,
   "R": 80.7,
@@ -1883,12 +1838,34 @@
   "hard": []
  },
  {
+  "name": "Ruud Gullit",
+  "gender": "M",
+  "active": false,
+  "aff": 76.4,
+  "Q": 74.4,
+  "Qh": 74.4,
+  "R": 85.2,
+  "A0": 78.5,
+  "K": -2.2,
+  "conn": [
+   [
+    "Club seasons",
+    0.8
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Aritz Aduriz",
   "gender": "M",
   "active": false,
   "aff": 76.2,
-  "Q": 75.5,
-  "Qh": 75.5,
+  "Q": 75.4,
+  "Qh": 75.4,
   "R": 68.0,
   "A0": 72.4,
   "K": 3.9,
@@ -1900,6 +1877,24 @@
    [
     "Seasons at clubs you rate low",
     -0.1
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Jessie Fleming",
+  "gender": "W",
+  "active": true,
+  "aff": 76.2,
+  "Q": 80.2,
+  "Qh": 80.2,
+  "R": 67.7,
+  "A0": 75.0,
+  "K": 1.2,
+  "conn": [
+   [
+    "Club seasons",
+    1.2
    ]
   ],
   "hard": []
@@ -1918,24 +1913,6 @@
    [
     "Club seasons",
     4.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Jessie Fleming",
-  "gender": "W",
-  "active": true,
-  "aff": 76.1,
-  "Q": 80.1,
-  "Qh": 80.1,
-  "R": 67.7,
-  "A0": 74.9,
-  "K": 1.2,
-  "conn": [
-   [
-    "Club seasons",
-    1.2
    ]
   ],
   "hard": []
@@ -1963,41 +1940,46 @@
   "hard": []
  },
  {
-  "name": "Michael Bradley",
+  "name": "Johan Cruyff",
   "gender": "M",
   "active": false,
-  "aff": 75.9,
-  "Q": 78.6,
-  "Qh": 78.6,
-  "R": 62.4,
-  "A0": 71.6,
-  "K": 4.3,
+  "aff": 75.8,
+  "Q": 73.5,
+  "Qh": 61.7,
+  "R": 99.0,
+  "A0": 74.6,
+  "K": 1.2,
   "conn": [
    [
     "Club seasons",
-    2.3
+    1.2
+   ]
+  ],
+  "hard": [
+   [
+    "Rival move (1983)",
+    6.0
+   ]
+  ]
+ },
+ {
+  "name": "Michael Bradley",
+  "gender": "M",
+  "active": false,
+  "aff": 75.6,
+  "Q": 78.6,
+  "Qh": 78.6,
+  "R": 62.3,
+  "A0": 71.6,
+  "K": 4.0,
+  "conn": [
+   [
+    "Club seasons",
+    2.0
    ],
    [
     "US international",
     2.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Sándor Kocsis",
-  "gender": "M",
-  "active": false,
-  "aff": 75.7,
-  "Q": 68.6,
-  "Qh": 68.6,
-  "R": 82.7,
-  "A0": 73.9,
-  "K": 1.8,
-  "conn": [
-   [
-    "Club seasons",
-    1.8
    ]
   ],
   "hard": []
@@ -2025,14 +2007,32 @@
   "hard": []
  },
  {
+  "name": "Sándor Kocsis",
+  "gender": "M",
+  "active": false,
+  "aff": 75.5,
+  "Q": 68.6,
+  "Qh": 68.6,
+  "R": 82.7,
+  "A0": 73.9,
+  "K": 1.6,
+  "conn": [
+   [
+    "Club seasons",
+    1.6
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Wendie Renard",
   "gender": "W",
   "active": true,
-  "aff": 75.6,
+  "aff": 75.5,
   "Q": 75.7,
   "Qh": 75.7,
-  "R": 75.3,
-  "A0": 75.6,
+  "R": 75.2,
+  "A0": 75.5,
   "K": 0.0,
   "conn": [],
   "hard": []
@@ -2064,10 +2064,10 @@
   "gender": "M",
   "active": false,
   "aff": 75.2,
-  "Q": 60.1,
-  "Qh": 60.1,
+  "Q": 60.0,
+  "Qh": 60.0,
   "R": 92.1,
-  "A0": 71.3,
+  "A0": 71.2,
   "K": 4.0,
   "conn": [
    [
@@ -2081,65 +2081,16 @@
   "name": "Johan Neeskens",
   "gender": "M",
   "active": false,
-  "aff": 75.2,
+  "aff": 75.0,
   "Q": 70.7,
   "Qh": 70.7,
   "R": 79.0,
   "A0": 73.9,
-  "K": 1.3,
+  "K": 1.1,
   "conn": [
    [
     "Club seasons",
-    1.3
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Xabi Alonso",
-  "gender": "M",
-  "active": false,
-  "aff": 75.2,
-  "Q": 71.7,
-  "Qh": 64.3,
-  "R": 83.5,
-  "A0": 71.4,
-  "K": 3.9,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ]
-  ],
-  "hard": [
-   [
-    "Tax fraud (2018)",
-    4.5
-   ]
-  ]
- },
- {
-  "name": "Thierry Henry",
-  "gender": "M",
-  "active": false,
-  "aff": 75.0,
-  "Q": 63.1,
-  "Qh": 63.1,
-  "R": 92.6,
-  "A0": 73.6,
-  "K": 1.4,
-  "conn": [
-   [
-    "Club seasons",
-    1.8
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.4
+    1.1
    ]
   ],
   "hard": []
@@ -2149,23 +2100,10 @@
   "gender": "W",
   "active": false,
   "aff": 74.9,
-  "Q": 67.0,
-  "Qh": 67.0,
+  "Q": 67.1,
+  "Qh": 67.1,
   "R": 88.5,
   "A0": 74.9,
-  "K": 0.0,
-  "conn": [],
-  "hard": []
- },
- {
-  "name": "Oleg Blokhin",
-  "gender": "M",
-  "active": false,
-  "aff": 74.8,
-  "Q": 68.6,
-  "Qh": 68.6,
-  "R": 85.2,
-  "A0": 74.8,
   "K": 0.0,
   "conn": [],
   "hard": []
@@ -2175,8 +2113,8 @@
   "gender": "W",
   "active": true,
   "aff": 74.8,
-  "Q": 69.2,
-  "Qh": 69.2,
+  "Q": 69.1,
+  "Qh": 69.1,
   "R": 75.0,
   "A0": 71.4,
   "K": 3.4,
@@ -2193,12 +2131,47 @@
   "hard": []
  },
  {
+  "name": "Oleg Blokhin",
+  "gender": "M",
+  "active": false,
+  "aff": 74.8,
+  "Q": 68.6,
+  "Qh": 68.6,
+  "R": 85.2,
+  "A0": 74.8,
+  "K": 0.0,
+  "conn": [],
+  "hard": []
+ },
+ {
+  "name": "Thierry Henry",
+  "gender": "M",
+  "active": false,
+  "aff": 74.7,
+  "Q": 63.1,
+  "Qh": 63.1,
+  "R": 92.6,
+  "A0": 73.6,
+  "K": 1.2,
+  "conn": [
+   [
+    "Club seasons",
+    1.6
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.4
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Julen Guerrero",
   "gender": "M",
   "active": false,
   "aff": 74.6,
-  "Q": 73.1,
-  "Qh": 73.1,
+  "Q": 73.0,
+  "Qh": 73.0,
   "R": 67.2,
   "A0": 70.7,
   "K": 4.0,
@@ -2211,32 +2184,14 @@
   "hard": []
  },
  {
-  "name": "Zico",
-  "gender": "M",
-  "active": false,
-  "aff": 74.6,
-  "Q": 65.2,
-  "Qh": 65.2,
-  "R": 90.5,
-  "A0": 74.4,
-  "K": 0.2,
-  "conn": [
-   [
-    "Club seasons",
-    0.2
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Barbra Banda",
   "gender": "W",
   "active": true,
-  "aff": 74.5,
-  "Q": 71.8,
-  "Qh": 71.8,
+  "aff": 74.6,
+  "Q": 71.9,
+  "Qh": 71.9,
   "R": 78.5,
-  "A0": 74.4,
+  "A0": 74.5,
   "K": 0.1,
   "conn": [
    [
@@ -2247,72 +2202,28 @@
   "hard": []
  },
  {
-  "name": "Gabriel Batistuta",
+  "name": "Zico",
   "gender": "M",
   "active": false,
-  "aff": 74.4,
-  "Q": 74.0,
-  "Qh": 64.0,
-  "R": 84.0,
-  "A0": 71.4,
-  "K": 3.1,
+  "aff": 74.5,
+  "Q": 65.2,
+  "Qh": 65.2,
+  "R": 90.5,
+  "A0": 74.3,
+  "K": 0.2,
   "conn": [
    [
     "Club seasons",
-    3.2
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.1
+    0.2
    ]
   ],
-  "hard": [
-   [
-    "Money-league move (2003)",
-    6
-   ]
-  ]
- },
- {
-  "name": "Roberto Baggio",
-  "gender": "M",
-  "active": false,
-  "aff": 74.4,
-  "Q": 63.6,
-  "Qh": 63.6,
-  "R": 91.4,
-  "A0": 73.5,
-  "K": 0.9,
-  "conn": [
-   [
-    "Club seasons",
-    1.9
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Matthias Sindelar",
-  "gender": "M",
-  "active": false,
-  "aff": 74.4,
-  "Q": 65.7,
-  "Qh": 65.7,
-  "R": 89.5,
-  "A0": 74.4,
-  "K": 0.0,
-  "conn": [],
   "hard": []
  },
  {
   "name": "Michael Zorc",
   "gender": "M",
   "active": false,
-  "aff": 74.4,
+  "aff": 74.3,
   "Q": 76.2,
   "Qh": 76.2,
   "R": 62.5,
@@ -2327,20 +2238,42 @@
   "hard": []
  },
  {
-  "name": "Carlos Alberto",
+  "name": "Matthias Sindelar",
   "gender": "M",
   "active": false,
   "aff": 74.3,
-  "Q": 76.9,
-  "Qh": 66.9,
-  "R": 87.0,
+  "Q": 65.6,
+  "Qh": 65.6,
+  "R": 89.5,
   "A0": 74.3,
   "K": 0.0,
   "conn": [],
+  "hard": []
+ },
+ {
+  "name": "Xabi Alonso",
+  "gender": "M",
+  "active": false,
+  "aff": 74.3,
+  "Q": 71.7,
+  "Qh": 63.0,
+  "R": 83.5,
+  "A0": 70.5,
+  "K": 3.8,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.2
+   ]
+  ],
   "hard": [
    [
-    "Rival move (1977)",
-    6.0
+    "Tax fraud (2018)",
+    4.5
    ]
   ]
  },
@@ -2348,10 +2281,10 @@
   "name": "Neven Subotić",
   "gender": "M",
   "active": false,
-  "aff": 74.2,
-  "Q": 83.7,
-  "Qh": 83.7,
-  "R": 54.1,
+  "aff": 74.3,
+  "Q": 83.8,
+  "Qh": 83.8,
+  "R": 54.0,
   "A0": 70.3,
   "K": 4.0,
   "conn": [
@@ -2363,38 +2296,73 @@
   "hard": []
  },
  {
-  "name": "Ferenc Puskás",
-  "gender": "M",
-  "active": false,
+  "name": "Mary Earps",
+  "gender": "W",
+  "active": true,
   "aff": 74.2,
-  "Q": 63.6,
-  "Qh": 63.6,
-  "R": 93.7,
-  "A0": 74.3,
-  "K": -0.1,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ]
-  ],
+  "Q": 76.6,
+  "Qh": 76.6,
+  "R": 70.6,
+  "A0": 74.2,
+  "K": 0.0,
+  "conn": [],
   "hard": []
  },
  {
   "name": "Matthias Sammer",
   "gender": "M",
   "active": false,
-  "aff": 74.2,
-  "Q": 66.9,
-  "Qh": 66.9,
-  "R": 77.7,
+  "aff": 74.1,
+  "Q": 66.8,
+  "Qh": 66.8,
+  "R": 77.6,
   "A0": 71.0,
-  "K": 3.2,
+  "K": 3.1,
   "conn": [
    [
     "Club seasons",
     3.5
    ],
+   [
+    "Seasons at clubs you rate low",
+    -0.4
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Roberto Baggio",
+  "gender": "M",
+  "active": false,
+  "aff": 74.0,
+  "Q": 63.7,
+  "Qh": 63.7,
+  "R": 91.4,
+  "A0": 73.6,
+  "K": 0.4,
+  "conn": [
+   [
+    "Club seasons",
+    1.9
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.5
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Ferenc Puskás",
+  "gender": "M",
+  "active": false,
+  "aff": 74.0,
+  "Q": 63.6,
+  "Qh": 63.6,
+  "R": 93.7,
+  "A0": 74.3,
+  "K": -0.3,
+  "conn": [
    [
     "Seasons at clubs you rate low",
     -0.3
@@ -2403,25 +2371,12 @@
   "hard": []
  },
  {
-  "name": "Mary Earps",
-  "gender": "W",
-  "active": true,
-  "aff": 74.1,
-  "Q": 76.5,
-  "Qh": 76.5,
-  "R": 70.7,
-  "A0": 74.1,
-  "K": 0.0,
-  "conn": [],
-  "hard": []
- },
- {
   "name": "Xabi Prieto",
   "gender": "M",
   "active": false,
   "aff": 73.8,
-  "Q": 74.3,
-  "Qh": 74.3,
+  "Q": 74.2,
+  "Qh": 74.2,
   "R": 63.8,
   "A0": 69.9,
   "K": 4.0,
@@ -2434,19 +2389,23 @@
   "hard": []
  },
  {
-  "name": "Wataru Endo",
-  "gender": "M",
+  "name": "Olivia Moultrie",
+  "gender": "W",
   "active": true,
   "aff": 73.8,
-  "Q": 81.0,
-  "Qh": 81.0,
-  "R": 57.7,
-  "A0": 70.8,
-  "K": 3.1,
+  "Q": 71.6,
+  "Qh": 71.6,
+  "R": 64.8,
+  "A0": 68.8,
+  "K": 5.0,
   "conn": [
    [
     "Club seasons",
-    3.1
+    3.0
+   ],
+   [
+    "US international",
+    2.0
    ]
   ],
   "hard": []
@@ -2474,37 +2433,15 @@
   "hard": []
  },
  {
-  "name": "Olivia Moultrie",
-  "gender": "W",
-  "active": true,
-  "aff": 73.8,
-  "Q": 71.7,
-  "Qh": 71.7,
-  "R": 64.8,
-  "A0": 68.8,
-  "K": 4.9,
-  "conn": [
-   [
-    "Club seasons",
-    3.0
-   ],
-   [
-    "US international",
-    2.0
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Darlington Nagbe",
   "gender": "M",
   "active": false,
-  "aff": 73.7,
+  "aff": 73.8,
   "Q": 72.6,
   "Qh": 72.6,
   "R": 61.1,
   "A0": 67.8,
-  "K": 5.9,
+  "K": 6.0,
   "conn": [
    [
     "Club seasons",
@@ -2518,12 +2455,30 @@
   "hard": []
  },
  {
+  "name": "Wataru Endo",
+  "gender": "M",
+  "active": true,
+  "aff": 73.7,
+  "Q": 81.1,
+  "Qh": 81.1,
+  "R": 57.7,
+  "A0": 70.8,
+  "K": 3.0,
+  "conn": [
+   [
+    "Club seasons",
+    3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Raquel Rodríguez",
   "gender": "W",
   "active": true,
-  "aff": 73.4,
-  "Q": 74.2,
-  "Qh": 74.2,
+  "aff": 73.5,
+  "Q": 74.3,
+  "Qh": 74.3,
   "R": 64.2,
   "A0": 70.1,
   "K": 3.4,
@@ -2557,9 +2512,9 @@
   "name": "Trent Alexander-Arnold",
   "gender": "M",
   "active": true,
-  "aff": 73.3,
-  "Q": 64.4,
-  "Qh": 64.4,
+  "aff": 73.4,
+  "Q": 64.5,
+  "Qh": 64.5,
   "R": 77.5,
   "A0": 69.4,
   "K": 4.0,
@@ -2589,6 +2544,24 @@
   "hard": []
  },
  {
+  "name": "Carlos Alberto",
+  "gender": "M",
+  "active": false,
+  "aff": 73.2,
+  "Q": 76.9,
+  "Qh": 65.2,
+  "R": 87.0,
+  "A0": 73.2,
+  "K": 0.0,
+  "conn": [],
+  "hard": [
+   [
+    "Rival move (1977)",
+    6.0
+   ]
+  ]
+ },
+ {
   "name": "Patrick Berg",
   "gender": "M",
   "active": true,
@@ -2607,86 +2580,41 @@
   "hard": []
  },
  {
-  "name": "Steven Gerrard",
+  "name": "Gabriel Batistuta",
   "gender": "M",
   "active": false,
   "aff": 72.9,
-  "Q": 78.0,
-  "Qh": 60.1,
-  "R": 84.7,
-  "A0": 68.9,
-  "K": 4.0,
+  "Q": 74.0,
+  "Qh": 62.2,
+  "R": 84.0,
+  "A0": 70.2,
+  "K": 2.8,
   "conn": [
    [
     "Club seasons",
-    4.0
-   ]
-  ],
-  "hard": [
-   [
-    "Violent conduct (2008)",
-    6.3
-   ],
-   [
-    "Money-league move (2023)",
-    4.5
-   ]
-  ]
- },
- {
-  "name": "Roberto Firmino",
-  "gender": "M",
-  "active": true,
-  "aff": 72.9,
-  "Q": 84.5,
-  "Qh": 64.6,
-  "R": 77.8,
-  "A0": 69.6,
-  "K": 3.3,
-  "conn": [
-   [
-    "Club seasons",
-    3.8
+    3.0
    ],
    [
     "Seasons at clubs you rate low",
-    -0.5
+    -0.2
    ]
   ],
   "hard": [
    [
-    "Money-league move (2023)",
-    12.0
+    "Money-league move (2003)",
+    6
    ]
   ]
- },
- {
-  "name": "Unai Simón",
-  "gender": "M",
-  "active": true,
-  "aff": 72.8,
-  "Q": 72.4,
-  "Qh": 72.4,
-  "R": 63.9,
-  "A0": 68.9,
-  "K": 4.0,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ]
-  ],
-  "hard": []
  },
  {
   "name": "Carli Lloyd",
   "gender": "W",
   "active": false,
-  "aff": 72.8,
-  "Q": 62.2,
-  "Qh": 62.2,
-  "R": 86.9,
-  "A0": 71.1,
+  "aff": 72.9,
+  "Q": 62.3,
+  "Qh": 62.3,
+  "R": 86.8,
+  "A0": 71.2,
   "K": 1.7,
   "conn": [
    [
@@ -2701,23 +2629,19 @@
   "hard": []
  },
  {
-  "name": "Brian McBride",
+  "name": "Unai Simón",
   "gender": "M",
-  "active": false,
-  "aff": 72.7,
-  "Q": 74.6,
-  "Qh": 74.6,
-  "R": 58.5,
-  "A0": 67.7,
-  "K": 5.0,
+  "active": true,
+  "aff": 72.8,
+  "Q": 72.3,
+  "Qh": 72.3,
+  "R": 63.9,
+  "A0": 68.8,
+  "K": 4.0,
   "conn": [
    [
     "Club seasons",
-    3.1
-   ],
-   [
-    "US international",
-    2.0
+    4.0
    ]
   ],
   "hard": []
@@ -2727,8 +2651,8 @@
   "gender": "M",
   "active": true,
   "aff": 72.7,
-  "Q": 82.5,
-  "Qh": 82.5,
+  "Q": 82.4,
+  "Qh": 82.4,
   "R": 52.2,
   "A0": 68.7,
   "K": 4.0,
@@ -2741,19 +2665,19 @@
   "hard": []
  },
  {
-  "name": "Cristian Roldan",
+  "name": "Brian McBride",
   "gender": "M",
-  "active": true,
-  "aff": 72.5,
-  "Q": 79.7,
-  "Qh": 79.7,
-  "R": 50.9,
-  "A0": 66.6,
-  "K": 5.9,
+  "active": false,
+  "aff": 72.6,
+  "Q": 74.6,
+  "Qh": 74.6,
+  "R": 58.4,
+  "A0": 67.7,
+  "K": 5.0,
   "conn": [
    [
     "Club seasons",
-    4.0
+    3.0
    ],
    [
     "US international",
@@ -2763,19 +2687,19 @@
   "hard": []
  },
  {
-  "name": "Abby Dahlkemper",
-  "gender": "W",
+  "name": "Cristian Roldan",
+  "gender": "M",
   "active": true,
-  "aff": 72.4,
-  "Q": 77.9,
-  "Qh": 77.9,
-  "R": 62.0,
-  "A0": 71.1,
-  "K": 1.3,
+  "aff": 72.6,
+  "Q": 79.7,
+  "Qh": 79.7,
+  "R": 50.9,
+  "A0": 66.6,
+  "K": 6.0,
   "conn": [
    [
-    "Seasons at clubs you rate low",
-    -0.7
+    "Club seasons",
+    4.0
    ],
    [
     "US international",
@@ -2806,11 +2730,11 @@
   "name": "Tyler Adams",
   "gender": "M",
   "active": true,
-  "aff": 72.3,
-  "Q": 82.9,
-  "Qh": 82.9,
-  "R": 57.0,
-  "A0": 71.3,
+  "aff": 72.4,
+  "Q": 83.0,
+  "Qh": 83.0,
+  "R": 56.9,
+  "A0": 71.4,
   "K": 1.0,
   "conn": [
    [
@@ -2829,41 +2753,23 @@
   "hard": []
  },
  {
-  "name": "Giovanni Di Lorenzo",
-  "gender": "M",
+  "name": "Abby Dahlkemper",
+  "gender": "W",
   "active": true,
-  "aff": 72.2,
-  "Q": 71.9,
-  "Qh": 71.9,
-  "R": 66.1,
-  "A0": 69.5,
-  "K": 2.7,
+  "aff": 72.3,
+  "Q": 78.0,
+  "Qh": 78.0,
+  "R": 61.9,
+  "A0": 71.1,
+  "K": 1.2,
   "conn": [
-   [
-    "Club seasons",
-    2.7
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Jimmy Greaves",
-  "gender": "M",
-  "active": false,
-  "aff": 72.2,
-  "Q": 70.3,
-  "Qh": 70.3,
-  "R": 82.2,
-  "A0": 74.9,
-  "K": -2.7,
-  "conn": [
-   [
-    "Club seasons",
-    0.1
-   ],
    [
     "Seasons at clubs you rate low",
-    -2.8
+    -0.8
+   ],
+   [
+    "US international",
+    2.0
    ]
   ],
   "hard": []
@@ -2891,14 +2797,36 @@
   "hard": []
  },
  {
+  "name": "Jimmy Greaves",
+  "gender": "M",
+  "active": false,
+  "aff": 72.0,
+  "Q": 70.4,
+  "Qh": 70.4,
+  "R": 82.2,
+  "A0": 74.9,
+  "K": -2.9,
+  "conn": [
+   [
+    "Club seasons",
+    0.1
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Sam Coffey",
   "gender": "W",
   "active": true,
   "aff": 72.0,
   "Q": 71.0,
   "Qh": 71.0,
-  "R": 64.4,
-  "A0": 68.2,
+  "R": 64.3,
+  "A0": 68.3,
   "K": 3.8,
   "conn": [
    [
@@ -2913,45 +2841,41 @@
   "hard": []
  },
  {
-  "name": "Lo'eau LaBonta",
-  "gender": "W",
+  "name": "Giovanni Di Lorenzo",
+  "gender": "M",
   "active": true,
   "aff": 72.0,
-  "Q": 74.6,
-  "Qh": 74.6,
-  "R": 58.6,
-  "A0": 67.7,
-  "K": 4.3,
+  "Q": 71.8,
+  "Qh": 71.8,
+  "R": 66.1,
+  "A0": 69.5,
+  "K": 2.5,
   "conn": [
    [
     "Club seasons",
-    2.3
-   ],
-   [
-    "US international",
-    2.0
+    2.5
    ]
   ],
   "hard": []
  },
  {
-  "name": "Lautaro Martínez",
-  "gender": "M",
+  "name": "Lo'eau LaBonta",
+  "gender": "W",
   "active": true,
-  "aff": 71.8,
-  "Q": 73.8,
-  "Qh": 73.8,
-  "R": 72.3,
-  "A0": 73.2,
-  "K": -1.4,
+  "aff": 71.9,
+  "Q": 74.5,
+  "Qh": 74.5,
+  "R": 58.6,
+  "A0": 67.7,
+  "K": 4.2,
   "conn": [
    [
     "Club seasons",
-    0.8
+    2.2
    ],
    [
-    "Seasons at clubs you rate low",
-    -2.2
+    "US international",
+    2.0
    ]
   ],
   "hard": []
@@ -2964,34 +2888,12 @@
   "Q": 80.1,
   "Qh": 80.1,
   "R": 52.7,
-  "A0": 67.8,
+  "A0": 67.7,
   "K": 4.0,
   "conn": [
    [
     "Club seasons",
     4.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Gunnar Nordahl",
-  "gender": "M",
-  "active": false,
-  "aff": 71.7,
-  "Q": 69.2,
-  "Qh": 69.2,
-  "R": 78.5,
-  "A0": 72.7,
-  "K": -1.1,
-  "conn": [
-   [
-    "Club seasons",
-    0.1
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.2
    ]
   ],
   "hard": []
@@ -3004,30 +2906,12 @@
   "Q": 69.6,
   "Qh": 69.6,
   "R": 64.8,
-  "A0": 67.7,
+  "A0": 67.6,
   "K": 4.0,
   "conn": [
    [
     "Club seasons",
     4.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Raphinha",
-  "gender": "M",
-  "active": true,
-  "aff": 71.5,
-  "Q": 68.4,
-  "Qh": 68.4,
-  "R": 70.7,
-  "A0": 69.4,
-  "K": 2.2,
-  "conn": [
-   [
-    "Club seasons",
-    2.2
    ]
   ],
   "hard": []
@@ -3055,64 +2939,37 @@
   "hard": []
  },
  {
-  "name": "Alexis Mac Allister",
+  "name": "Raphinha",
   "gender": "M",
   "active": true,
-  "aff": 71.5,
-  "Q": 70.3,
-  "Qh": 70.3,
-  "R": 67.9,
+  "aff": 71.4,
+  "Q": 68.4,
+  "Qh": 68.4,
+  "R": 70.7,
   "A0": 69.3,
-  "K": 2.2,
+  "K": 2.1,
   "conn": [
    [
     "Club seasons",
-    2.2
+    2.1
    ]
   ],
   "hard": []
  },
  {
-  "name": "Jordan Henderson",
+  "name": "Alexis Mac Allister",
   "gender": "M",
   "active": true,
-  "aff": 71.3,
-  "Q": 88.3,
-  "Qh": 68.4,
-  "R": 65.8,
-  "A0": 67.3,
-  "K": 4.0,
+  "aff": 71.4,
+  "Q": 70.3,
+  "Qh": 70.3,
+  "R": 67.8,
+  "A0": 69.3,
+  "K": 2.1,
   "conn": [
    [
     "Club seasons",
-    4.0
-   ]
-  ],
-  "hard": [
-   [
-    "Money-league move (2023)",
-    12.0
-   ]
-  ]
- },
- {
-  "name": "Shinji Kagawa",
-  "gender": "M",
-  "active": true,
-  "aff": 71.1,
-  "Q": 67.2,
-  "Qh": 67.2,
-  "R": 69.4,
-  "A0": 68.1,
-  "K": 3.1,
-  "conn": [
-   [
-    "Club seasons",
-    3.7
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.6
+    2.1
    ]
   ],
   "hard": []
@@ -3131,12 +2988,78 @@
   "hard": []
  },
  {
+  "name": "Gunnar Nordahl",
+  "gender": "M",
+  "active": false,
+  "aff": 71.0,
+  "Q": 69.2,
+  "Qh": 69.2,
+  "R": 78.4,
+  "A0": 72.7,
+  "K": -1.7,
+  "conn": [
+   [
+    "Club seasons",
+    0.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.7
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Lautaro Martínez",
+  "gender": "M",
+  "active": true,
+  "aff": 71.0,
+  "Q": 73.8,
+  "Qh": 73.8,
+  "R": 72.3,
+  "A0": 73.2,
+  "K": -2.2,
+  "conn": [
+   [
+    "Club seasons",
+    0.8
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Shinji Kagawa",
+  "gender": "M",
+  "active": true,
+  "aff": 71.0,
+  "Q": 67.2,
+  "Qh": 67.2,
+  "R": 69.4,
+  "A0": 68.1,
+  "K": 2.9,
+  "conn": [
+   [
+    "Club seasons",
+    3.7
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.8
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Giulia Gwinn",
   "gender": "W",
   "active": true,
   "aff": 70.9,
-  "Q": 72.8,
-  "Qh": 72.8,
+  "Q": 72.7,
+  "Qh": 72.7,
   "R": 68.1,
   "A0": 70.9,
   "K": 0.0,
@@ -3144,45 +3067,46 @@
   "hard": []
  },
  {
-  "name": "Ronald Araújo",
-  "gender": "M",
-  "active": true,
-  "aff": 70.8,
-  "Q": 75.9,
-  "Qh": 75.9,
-  "R": 58.7,
-  "A0": 68.5,
-  "K": 2.3,
-  "conn": [
-   [
-    "Club seasons",
-    2.3
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Tim Howard",
+  "name": "Steven Gerrard",
   "gender": "M",
   "active": false,
   "aff": 70.6,
-  "Q": 72.2,
-  "Qh": 72.2,
-  "R": 62.6,
-  "A0": 68.2,
-  "K": 2.5,
+  "Q": 77.9,
+  "Qh": 56.8,
+  "R": 84.7,
+  "A0": 66.7,
+  "K": 4.0,
   "conn": [
    [
     "Club seasons",
-    2.3
+    4.0
+   ]
+  ],
+  "hard": [
+   [
+    "Violent conduct (2008)",
+    6.3
    ],
    [
-    "Seasons at clubs you rate low",
-    -1.8
-   ],
+    "Money-league move (2023)",
+    4.5
+   ]
+  ]
+ },
+ {
+  "name": "Ronald Araújo",
+  "gender": "M",
+  "active": true,
+  "aff": 70.6,
+  "Q": 76.0,
+  "Qh": 76.0,
+  "R": 58.6,
+  "A0": 68.5,
+  "K": 2.1,
+  "conn": [
    [
-    "US international",
-    2.0
+    "Club seasons",
+    2.1
    ]
   ],
   "hard": []
@@ -3191,16 +3115,16 @@
   "name": "Cody Gakpo",
   "gender": "M",
   "active": true,
-  "aff": 70.6,
+  "aff": 70.5,
   "Q": 69.7,
   "Qh": 69.7,
   "R": 64.0,
   "A0": 67.3,
-  "K": 3.3,
+  "K": 3.2,
   "conn": [
    [
     "Club seasons",
-    3.3
+    3.2
    ]
   ],
   "hard": []
@@ -3209,7 +3133,7 @@
   "name": "Bernardo Silva",
   "gender": "M",
   "active": true,
-  "aff": 70.6,
+  "aff": 70.5,
   "Q": 71.6,
   "Qh": 71.6,
   "R": 76.5,
@@ -3224,23 +3148,50 @@
   "hard": []
  },
  {
-  "name": "Declan Rice",
+  "name": "Roberto Firmino",
   "gender": "M",
   "active": true,
-  "aff": 70.5,
-  "Q": 75.9,
-  "Qh": 75.9,
-  "R": 66.0,
-  "A0": 71.7,
-  "K": -1.2,
+  "aff": 70.4,
+  "Q": 84.6,
+  "Qh": 61.2,
+  "R": 77.8,
+  "A0": 67.3,
+  "K": 3.1,
   "conn": [
    [
     "Club seasons",
-    0.4
+    3.6
    ],
    [
     "Seasons at clubs you rate low",
-    -1.6
+    -0.5
+   ]
+  ],
+  "hard": [
+   [
+    "Money-league move (2023)",
+    12.0
+   ]
+  ]
+ },
+ {
+  "name": "Declan Rice",
+  "gender": "M",
+  "active": true,
+  "aff": 70.3,
+  "Q": 75.9,
+  "Qh": 75.9,
+  "R": 65.9,
+  "A0": 71.7,
+  "K": -1.4,
+  "conn": [
+   [
+    "Club seasons",
+    0.3
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.7
    ]
   ],
   "hard": []
@@ -3249,42 +3200,19 @@
   "name": "Mario Kempes",
   "gender": "M",
   "active": false,
-  "aff": 70.5,
+  "aff": 70.2,
   "Q": 64.0,
   "Qh": 64.0,
   "R": 82.0,
-  "A0": 70.7,
-  "K": -0.2,
+  "A0": 70.6,
+  "K": -0.4,
   "conn": [
    [
     "Seasons at clubs you rate low",
-    -0.2
+    -0.4
    ]
   ],
   "hard": []
- },
- {
-  "name": "Joseba Etxeberria",
-  "gender": "M",
-  "active": false,
-  "aff": 70.3,
-  "Q": 80.5,
-  "Qh": 70.5,
-  "R": 60.6,
-  "A0": 66.4,
-  "K": 4.0,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ]
-  ],
-  "hard": [
-   [
-    "Rival move (1995)",
-    6.0
-   ]
-  ]
  },
  {
   "name": "Martin Zubimendi",
@@ -3293,7 +3221,7 @@
   "aff": 70.2,
   "Q": 71.3,
   "Qh": 71.3,
-  "R": 61.5,
+  "R": 61.4,
   "A0": 67.2,
   "K": 3.1,
   "conn": [
@@ -3305,19 +3233,45 @@
   "hard": []
  },
  {
-  "name": "Gavi",
+  "name": "Tim Howard",
   "gender": "M",
-  "active": true,
+  "active": false,
   "aff": 70.2,
-  "Q": 73.0,
-  "Qh": 73.0,
-  "R": 63.2,
-  "A0": 68.9,
-  "K": 1.3,
+  "Q": 72.2,
+  "Qh": 72.2,
+  "R": 62.5,
+  "A0": 68.2,
+  "K": 2.0,
   "conn": [
    [
     "Club seasons",
-    1.3
+    2.1
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -2.1
+   ],
+   [
+    "US international",
+    2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Gavi",
+  "gender": "M",
+  "active": true,
+  "aff": 70.0,
+  "Q": 72.9,
+  "Qh": 72.9,
+  "R": 63.2,
+  "A0": 68.9,
+  "K": 1.1,
+  "conn": [
+   [
+    "Club seasons",
+    1.1
    ]
   ],
   "hard": []
@@ -3326,12 +3280,12 @@
   "name": "Debinha",
   "gender": "W",
   "active": true,
-  "aff": 70.0,
+  "aff": 69.9,
   "Q": 66.1,
   "Qh": 66.1,
   "R": 74.3,
-  "A0": 69.2,
-  "K": 0.8,
+  "A0": 69.3,
+  "K": 0.7,
   "conn": [
    [
     "Club seasons",
@@ -3339,7 +3293,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.4
+    -0.5
    ]
   ],
   "hard": []
@@ -3352,7 +3306,7 @@
   "Q": 74.6,
   "Qh": 74.6,
   "R": 54.6,
-  "A0": 65.9,
+  "A0": 65.8,
   "K": 4.0,
   "conn": [
    [
@@ -3366,11 +3320,11 @@
   "name": "Oliver Kahn",
   "gender": "M",
   "active": false,
-  "aff": 69.8,
-  "Q": 58.8,
-  "Qh": 58.8,
+  "aff": 69.7,
+  "Q": 58.7,
+  "Qh": 58.7,
   "R": 77.9,
-  "A0": 65.8,
+  "A0": 65.7,
   "K": 4.0,
   "conn": [
    [
@@ -3388,7 +3342,7 @@
   "Q": 71.6,
   "Qh": 71.6,
   "R": 57.6,
-  "A0": 65.7,
+  "A0": 65.6,
   "K": 4.0,
   "conn": [
    [
@@ -3399,50 +3353,10 @@
   "hard": []
  },
  {
-  "name": "Luis Díaz",
-  "gender": "M",
-  "active": true,
-  "aff": 69.6,
-  "Q": 67.2,
-  "Qh": 67.2,
-  "R": 67.0,
-  "A0": 67.1,
-  "K": 2.5,
-  "conn": [
-   [
-    "Club seasons",
-    2.5
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Jürgen Kohler",
-  "gender": "M",
-  "active": false,
-  "aff": 69.6,
-  "Q": 66.0,
-  "Qh": 66.0,
-  "R": 65.3,
-  "A0": 65.7,
-  "K": 3.9,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Stefan Frei",
   "gender": "M",
   "active": true,
-  "aff": 69.5,
+  "aff": 69.6,
   "Q": 75.8,
   "Qh": 75.8,
   "R": 52.8,
@@ -3457,19 +3371,59 @@
   "hard": []
  },
  {
-  "name": "Cobi Jones",
+  "name": "Jürgen Kohler",
   "gender": "M",
   "active": false,
   "aff": 69.5,
-  "Q": 72.4,
-  "Qh": 72.4,
-  "R": 59.3,
-  "A0": 66.8,
-  "K": 2.7,
+  "Q": 66.0,
+  "Qh": 66.0,
+  "R": 65.2,
+  "A0": 65.7,
+  "K": 3.8,
   "conn": [
    [
     "Club seasons",
-    0.7
+    4.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.2
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Luis Díaz",
+  "gender": "M",
+  "active": true,
+  "aff": 69.4,
+  "Q": 67.2,
+  "Qh": 67.2,
+  "R": 67.0,
+  "A0": 67.1,
+  "K": 2.3,
+  "conn": [
+   [
+    "Club seasons",
+    2.3
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Cobi Jones",
+  "gender": "M",
+  "active": false,
+  "aff": 69.4,
+  "Q": 72.3,
+  "Qh": 72.3,
+  "R": 59.3,
+  "A0": 66.8,
+  "K": 2.6,
+  "conn": [
+   [
+    "Club seasons",
+    0.6
    ],
    [
     "US international",
@@ -3482,12 +3436,12 @@
   "name": "Nuri Şahin",
   "gender": "M",
   "active": false,
-  "aff": 69.5,
+  "aff": 69.4,
   "Q": 66.2,
   "Qh": 66.2,
   "R": 64.5,
   "A0": 65.5,
-  "K": 4.0,
+  "K": 3.9,
   "conn": [
    [
     "Club seasons",
@@ -3495,32 +3449,56 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.0
+    -0.1
    ]
   ],
   "hard": []
  },
  {
-  "name": "Iker Casillas",
+  "name": "Joseba Etxeberria",
   "gender": "M",
   "active": false,
-  "aff": 69.2,
-  "Q": 61.4,
-  "Qh": 61.4,
-  "R": 80.9,
-  "A0": 68.5,
-  "K": 0.7,
+  "aff": 69.4,
+  "Q": 80.5,
+  "Qh": 68.8,
+  "R": 60.6,
+  "A0": 65.4,
+  "K": 4.0,
   "conn": [
    [
     "Club seasons",
-    1.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.3
+    4.0
    ]
   ],
-  "hard": []
+  "hard": [
+   [
+    "Rival move (1995)",
+    6.0
+   ]
+  ]
+ },
+ {
+  "name": "Jordan Henderson",
+  "gender": "M",
+  "active": true,
+  "aff": 69.2,
+  "Q": 88.3,
+  "Qh": 64.9,
+  "R": 65.8,
+  "A0": 65.3,
+  "K": 4.0,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ]
+  ],
+  "hard": [
+   [
+    "Money-league move (2023)",
+    12.0
+   ]
+  ]
  },
  {
   "name": "Temwa Chawinga",
@@ -3544,38 +3522,16 @@
   "name": "Conor Bradley",
   "gender": "M",
   "active": true,
-  "aff": 69.2,
+  "aff": 69.1,
   "Q": 75.3,
   "Qh": 75.3,
   "R": 55.8,
   "A0": 66.8,
-  "K": 2.4,
+  "K": 2.3,
   "conn": [
    [
     "Club seasons",
-    2.4
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Bruno Fernandes",
-  "gender": "M",
-  "active": true,
-  "aff": 69.1,
-  "Q": 66.2,
-  "Qh": 66.2,
-  "R": 74.6,
-  "A0": 69.5,
-  "K": -0.4,
-  "conn": [
-   [
-    "Club seasons",
-    1.5
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.9
+    2.3
    ]
   ],
   "hard": []
@@ -3602,16 +3558,16 @@
   "name": "Vitinha",
   "gender": "M",
   "active": true,
-  "aff": 68.8,
+  "aff": 68.7,
   "Q": 68.8,
   "Qh": 68.8,
   "R": 74.0,
   "A0": 70.8,
-  "K": -2.0,
+  "K": -2.1,
   "conn": [
    [
     "Club seasons",
-    0.4
+    0.3
    ],
    [
     "Seasons at clubs you rate low",
@@ -3621,19 +3577,45 @@
   "hard": []
  },
  {
-  "name": "Joe Gomez",
+  "name": "Iker Casillas",
   "gender": "M",
-  "active": true,
-  "aff": 68.5,
-  "Q": 73.6,
-  "Qh": 73.6,
-  "R": 53.0,
-  "A0": 64.5,
-  "K": 4.0,
+  "active": false,
+  "aff": 68.6,
+  "Q": 61.2,
+  "Qh": 61.2,
+  "R": 80.9,
+  "A0": 68.4,
+  "K": 0.2,
   "conn": [
    [
     "Club seasons",
-    4.0
+    0.8
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.6
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Bruno Fernandes",
+  "gender": "M",
+  "active": true,
+  "aff": 68.5,
+  "Q": 66.1,
+  "Qh": 66.1,
+  "R": 74.6,
+  "A0": 69.4,
+  "K": -0.9,
+  "conn": [
+   [
+    "Club seasons",
+    1.5
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -2.4
    ]
   ],
   "hard": []
@@ -3661,19 +3643,37 @@
   "hard": []
  },
  {
-  "name": "Kevin De Bruyne",
+  "name": "Joe Gomez",
   "gender": "M",
   "active": true,
-  "aff": 68.3,
-  "Q": 61.9,
-  "Qh": 61.9,
-  "R": 85.6,
-  "A0": 70.5,
-  "K": -2.2,
+  "aff": 68.4,
+  "Q": 73.5,
+  "Qh": 73.5,
+  "R": 52.9,
+  "A0": 64.5,
+  "K": 4.0,
   "conn": [
    [
     "Club seasons",
-    0.8
+    4.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Kevin De Bruyne",
+  "gender": "M",
+  "active": true,
+  "aff": 68.1,
+  "Q": 61.8,
+  "Qh": 61.8,
+  "R": 85.6,
+  "A0": 70.4,
+  "K": -2.3,
+  "conn": [
+   [
+    "Club seasons",
+    0.7
    ],
    [
     "Seasons at clubs you rate low",
@@ -3683,105 +3683,16 @@
   "hard": []
  },
  {
-  "name": "Roberto Carlos",
-  "gender": "M",
-  "active": false,
-  "aff": 68.3,
-  "Q": 59.0,
-  "Qh": 59.0,
-  "R": 88.2,
-  "A0": 69.3,
-  "K": -1.0,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -1.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Frank Rijkaard",
-  "gender": "M",
-  "active": false,
-  "aff": 68.1,
-  "Q": 70.3,
-  "Qh": 62.8,
-  "R": 79.0,
-  "A0": 68.8,
-  "K": -0.7,
-  "conn": [
-   [
-    "Club seasons",
-    0.2
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.9
-   ]
-  ],
-  "hard": [
-   [
-    "Money-league move (2011)",
-    4.5
-   ]
-  ]
- },
- {
-  "name": "Weston McKennie",
-  "gender": "M",
-  "active": true,
-  "aff": 68.1,
-  "Q": 70.7,
-  "Qh": 70.7,
-  "R": 56.7,
-  "A0": 64.8,
-  "K": 3.4,
-  "conn": [
-   [
-    "Club seasons",
-    1.5
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ],
-   [
-    "US international",
-    2.0
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Lena Oberdorf",
   "gender": "W",
   "active": true,
   "aff": 68.1,
-  "Q": 69.5,
-  "Qh": 69.5,
+  "Q": 69.6,
+  "Qh": 69.6,
   "R": 65.9,
   "A0": 68.1,
   "K": 0.0,
   "conn": [],
-  "hard": []
- },
- {
-  "name": "Kostas Tsimikas",
-  "gender": "M",
-  "active": true,
-  "aff": 68.0,
-  "Q": 71.0,
-  "Qh": 71.0,
-  "R": 57.3,
-  "A0": 65.1,
-  "K": 2.9,
-  "conn": [
-   [
-    "Club seasons",
-    2.9
-   ]
-  ],
   "hard": []
  },
  {
@@ -3793,7 +3704,7 @@
   "Qh": 57.7,
   "R": 72.9,
   "A0": 63.3,
-  "K": 4.6,
+  "K": 4.7,
   "conn": [
    [
     "Club seasons",
@@ -3811,14 +3722,275 @@
   "hard": []
  },
  {
+  "name": "Roberto Carlos",
+  "gender": "M",
+  "active": false,
+  "aff": 67.8,
+  "Q": 58.9,
+  "Qh": 58.9,
+  "R": 88.3,
+  "A0": 69.2,
+  "K": -1.4,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -1.4
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Weston McKennie",
+  "gender": "M",
+  "active": true,
+  "aff": 67.8,
+  "Q": 70.7,
+  "Qh": 70.7,
+  "R": 56.7,
+  "A0": 64.7,
+  "K": 3.1,
+  "conn": [
+   [
+    "Club seasons",
+    1.4
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.3
+   ],
+   [
+    "US international",
+    2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Kostas Tsimikas",
+  "gender": "M",
+  "active": true,
+  "aff": 67.8,
+  "Q": 71.0,
+  "Qh": 71.0,
+  "R": 57.3,
+  "A0": 65.1,
+  "K": 2.7,
+  "conn": [
+   [
+    "Club seasons",
+    2.7
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Rodrigo López",
+  "gender": "M",
+  "active": false,
+  "aff": 67.6,
+  "Q": 77.3,
+  "Qh": 77.3,
+  "R": 49.7,
+  "A0": 64.8,
+  "K": 2.8,
+  "conn": [
+   [
+    "Club seasons",
+    2.8
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Jan Oblak",
+  "gender": "M",
+  "active": true,
+  "aff": 67.4,
+  "Q": 73.0,
+  "Qh": 73.0,
+  "R": 66.7,
+  "A0": 70.4,
+  "K": -3.0,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Brad Friedel",
+  "gender": "M",
+  "active": false,
+  "aff": 67.3,
+  "Q": 64.4,
+  "Qh": 64.4,
+  "R": 59.6,
+  "A0": 62.4,
+  "K": 4.9,
+  "conn": [
+   [
+    "Club seasons",
+    3.1
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.2
+   ],
+   [
+    "US international",
+    2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "DaMarcus Beasley",
+  "gender": "M",
+  "active": false,
+  "aff": 67.2,
+  "Q": 65.0,
+  "Qh": 65.0,
+  "R": 62.7,
+  "A0": 64.1,
+  "K": 3.1,
+  "conn": [
+   [
+    "Club seasons",
+    1.7
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.6
+   ],
+   [
+    "US international",
+    2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Sebastián Blanco",
+  "gender": "M",
+  "active": true,
+  "aff": 67.2,
+  "Q": 69.2,
+  "Qh": 69.2,
+  "R": 57.3,
+  "A0": 64.2,
+  "K": 3.0,
+  "conn": [
+   [
+    "Club seasons",
+    3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Marcus Rashford",
+  "gender": "M",
+  "active": true,
+  "aff": 67.0,
+  "Q": 68.1,
+  "Qh": 68.1,
+  "R": 72.3,
+  "A0": 69.7,
+  "K": -2.7,
+  "conn": [
+   [
+    "Club seasons",
+    0.3
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Frank Rijkaard",
+  "gender": "M",
+  "active": false,
+  "aff": 66.9,
+  "Q": 70.3,
+  "Qh": 61.5,
+  "R": 78.9,
+  "A0": 67.9,
+  "K": -1.0,
+  "conn": [
+   [
+    "Club seasons",
+    0.2
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.2
+   ]
+  ],
+  "hard": [
+   [
+    "Money-league move (2011)",
+    4.5
+   ]
+  ]
+ },
+ {
+  "name": "Curtis Jones",
+  "gender": "M",
+  "active": true,
+  "aff": 66.9,
+  "Q": 67.9,
+  "Qh": 67.9,
+  "R": 57.5,
+  "A0": 63.6,
+  "K": 3.4,
+  "conn": [
+   [
+    "Club seasons",
+    3.6
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.2
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Fernando Torres",
+  "gender": "M",
+  "active": false,
+  "aff": 66.9,
+  "Q": 61.4,
+  "Qh": 61.4,
+  "R": 79.6,
+  "A0": 68.1,
+  "K": -1.2,
+  "conn": [
+   [
+    "Club seasons",
+    1.8
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Didier Drogba",
   "gender": "M",
   "active": false,
-  "aff": 68.0,
+  "aff": 66.8,
   "Q": 73.9,
-  "Qh": 63.9,
+  "Qh": 62.2,
   "R": 82.8,
-  "A0": 70.9,
+  "A0": 69.8,
   "K": -3.0,
   "conn": [
    [
@@ -3838,102 +4010,16 @@
   ]
  },
  {
-  "name": "N'Golo Kanté",
-  "gender": "M",
+  "name": "Emily Fox",
+  "gender": "W",
   "active": true,
-  "aff": 67.7,
-  "Q": 89.2,
-  "Qh": 69.3,
-  "R": 72.7,
-  "A0": 70.7,
-  "K": -3.0,
+  "aff": 66.8,
+  "Q": 66.0,
+  "Qh": 66.0,
+  "R": 63.2,
+  "A0": 64.9,
+  "K": 1.9,
   "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Money-league move (2023)",
-    12.0
-   ]
-  ]
- },
- {
-  "name": "Mats Hummels",
-  "gender": "M",
-  "active": false,
-  "aff": 67.6,
-  "Q": 67.5,
-  "Qh": 57.5,
-  "R": 74.1,
-  "A0": 63.6,
-  "K": 4.0,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ]
-  ],
-  "hard": [
-   [
-    "Rival move (2016)",
-    6.0
-   ]
-  ]
- },
- {
-  "name": "Jan Oblak",
-  "gender": "M",
-  "active": true,
-  "aff": 67.5,
-  "Q": 73.1,
-  "Qh": 73.1,
-  "R": 66.8,
-  "A0": 70.5,
-  "K": -3.0,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Rodrigo López",
-  "gender": "M",
-  "active": false,
-  "aff": 67.5,
-  "Q": 77.3,
-  "Qh": 77.3,
-  "R": 49.7,
-  "A0": 64.8,
-  "K": 2.8,
-  "conn": [
-   [
-    "Club seasons",
-    2.8
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Brad Friedel",
-  "gender": "M",
-  "active": false,
-  "aff": 67.5,
-  "Q": 64.3,
-  "Qh": 64.3,
-  "R": 59.7,
-  "A0": 62.4,
-  "K": 5.0,
-  "conn": [
-   [
-    "Club seasons",
-    3.2
-   ],
    [
     "Seasons at clubs you rate low",
     -0.1
@@ -3949,219 +4035,16 @@
   "name": "Marco van Basten",
   "gender": "M",
   "active": false,
-  "aff": 67.3,
-  "Q": 57.0,
-  "Qh": 57.0,
+  "aff": 66.8,
+  "Q": 56.9,
+  "Qh": 56.9,
   "R": 90.9,
-  "A0": 68.7,
-  "K": -1.4,
+  "A0": 68.6,
+  "K": -1.9,
   "conn": [
    [
     "Seasons at clubs you rate low",
-    -1.4
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Curtis Jones",
-  "gender": "M",
-  "active": true,
-  "aff": 67.2,
-  "Q": 68.0,
-  "Qh": 68.0,
-  "R": 57.5,
-  "A0": 63.6,
-  "K": 3.7,
-  "conn": [
-   [
-    "Club seasons",
-    3.8
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Sebastián Blanco",
-  "gender": "M",
-  "active": true,
-  "aff": 67.1,
-  "Q": 69.2,
-  "Qh": 69.2,
-  "R": 57.3,
-  "A0": 64.2,
-  "K": 3.0,
-  "conn": [
-   [
-    "Club seasons",
-    3.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "DaMarcus Beasley",
-  "gender": "M",
-  "active": false,
-  "aff": 67.1,
-  "Q": 65.0,
-  "Qh": 65.0,
-  "R": 62.6,
-  "A0": 64.0,
-  "K": 3.1,
-  "conn": [
-   [
-    "Club seasons",
-    1.7
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.6
-   ],
-   [
-    "US international",
-    2.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Marcus Rashford",
-  "gender": "M",
-  "active": true,
-  "aff": 67.1,
-  "Q": 68.0,
-  "Qh": 68.0,
-  "R": 72.3,
-  "A0": 69.7,
-  "K": -2.6,
-  "conn": [
-   [
-    "Club seasons",
-    0.4
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Fernando Torres",
-  "gender": "M",
-  "active": false,
-  "aff": 67.0,
-  "Q": 61.3,
-  "Qh": 61.3,
-  "R": 79.6,
-  "A0": 68.1,
-  "K": -1.1,
-  "conn": [
-   [
-    "Club seasons",
-    1.9
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Gianluigi Buffon",
-  "gender": "M",
-  "active": false,
-  "aff": 66.9,
-  "Q": 77.6,
-  "Qh": 57.2,
-  "R": 83.6,
-  "A0": 66.6,
-  "K": 0.3,
-  "conn": [
-   [
-    "Club seasons",
-    1.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.0
-   ]
-  ],
-  "hard": [
-   [
-    "Match-fixing (2006)",
-    12.3
-   ]
-  ]
- },
- {
-  "name": "Arjen Robben",
-  "gender": "M",
-  "active": false,
-  "aff": 66.8,
-  "Q": 53.6,
-  "Qh": 53.6,
-  "R": 85.6,
-  "A0": 64.6,
-  "K": 2.2,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.8
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Jude Bellingham",
-  "gender": "M",
-  "active": true,
-  "aff": 66.8,
-  "Q": 59.1,
-  "Qh": 59.1,
-  "R": 76.0,
-  "A0": 65.4,
-  "K": 1.4,
-  "conn": [
-   [
-    "Club seasons",
-    1.6
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.2
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Emily Fox",
-  "gender": "W",
-  "active": true,
-  "aff": 66.7,
-  "Q": 66.0,
-  "Qh": 66.0,
-  "R": 63.2,
-  "A0": 64.9,
-  "K": 1.9,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ],
-   [
-    "US international",
-    2.0
+    -1.9
    ]
   ],
   "hard": []
@@ -4189,13 +4072,80 @@
   "hard": []
  },
  {
+  "name": "Arjen Robben",
+  "gender": "M",
+  "active": false,
+  "aff": 66.7,
+  "Q": 53.5,
+  "Qh": 53.5,
+  "R": 85.6,
+  "A0": 64.6,
+  "K": 2.1,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.9
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Jude Bellingham",
+  "gender": "M",
+  "active": true,
+  "aff": 66.6,
+  "Q": 59.1,
+  "Qh": 59.1,
+  "R": 76.0,
+  "A0": 65.3,
+  "K": 1.3,
+  "conn": [
+   [
+    "Club seasons",
+    1.6
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.3
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Mats Hummels",
+  "gender": "M",
+  "active": false,
+  "aff": 66.5,
+  "Q": 67.5,
+  "Qh": 55.8,
+  "R": 74.0,
+  "A0": 62.5,
+  "K": 4.0,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ]
+  ],
+  "hard": [
+   [
+    "Rival move (2016)",
+    6.0
+   ]
+  ]
+ },
+ {
   "name": "Jeremie Frimpong",
   "gender": "M",
   "active": true,
-  "aff": 66.0,
+  "aff": 66.1,
   "Q": 65.0,
   "Qh": 65.0,
-  "R": 65.6,
+  "R": 65.7,
   "A0": 65.3,
   "K": 0.8,
   "conn": [
@@ -4207,59 +4157,14 @@
   "hard": []
  },
  {
-  "name": "Luka Modrić",
-  "gender": "M",
-  "active": true,
-  "aff": 66.0,
-  "Q": 68.8,
-  "Qh": 53.8,
-  "R": 91.0,
-  "A0": 66.4,
-  "K": -0.4,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -0.4
-   ]
-  ],
-  "hard": [
-   [
-    "Forced transfer (2012)",
-    9.0
-   ]
-  ]
- },
- {
-  "name": "Gregor Kobel",
-  "gender": "M",
-  "active": true,
-  "aff": 65.9,
-  "Q": 65.4,
-  "Qh": 65.4,
-  "R": 59.1,
-  "A0": 62.8,
-  "K": 3.2,
-  "conn": [
-   [
-    "Club seasons",
-    3.5
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.3
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Fridolina Rolfö",
   "gender": "W",
   "active": true,
-  "aff": 65.9,
+  "aff": 66.0,
   "Q": 64.4,
   "Qh": 64.4,
   "R": 68.4,
-  "A0": 65.9,
+  "A0": 66.0,
   "K": 0.0,
   "conn": [],
   "hard": []
@@ -4278,20 +4183,38 @@
   "hard": []
  },
  {
-  "name": "Alan Shearer",
+  "name": "Gregor Kobel",
   "gender": "M",
-  "active": false,
-  "aff": 65.6,
-  "Q": 71.2,
-  "Qh": 60.8,
-  "R": 81.0,
-  "A0": 68.2,
-  "K": -2.6,
+  "active": true,
+  "aff": 65.9,
+  "Q": 65.3,
+  "Qh": 65.3,
+  "R": 59.0,
+  "A0": 62.7,
+  "K": 3.2,
   "conn": [
    [
     "Club seasons",
-    0.4
+    3.5
    ],
+   [
+    "Seasons at clubs you rate low",
+    -0.3
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "N'Golo Kanté",
+  "gender": "M",
+  "active": true,
+  "aff": 65.5,
+  "Q": 89.3,
+  "Qh": 65.9,
+  "R": 72.6,
+  "A0": 68.5,
+  "K": -3.0,
+  "conn": [
    [
     "Seasons at clubs you rate low",
     -3.0
@@ -4299,36 +4222,18 @@
   ],
   "hard": [
    [
-    "Violent conduct (1998)",
-    6.3
+    "Money-league move (2023)",
+    12.0
    ]
   ]
- },
- {
-  "name": "Ronald Koeman",
-  "gender": "M",
-  "active": false,
-  "aff": 65.5,
-  "Q": 53.0,
-  "Qh": 53.0,
-  "R": 80.7,
-  "A0": 62.7,
-  "K": 2.8,
-  "conn": [
-   [
-    "Club seasons",
-    2.8
-   ]
-  ],
-  "hard": []
  },
  {
   "name": "Deniz Undav",
   "gender": "M",
   "active": true,
   "aff": 65.4,
-  "Q": 67.1,
-  "Qh": 67.1,
+  "Q": 67.2,
+  "Qh": 67.2,
   "R": 59.1,
   "A0": 63.8,
   "K": 1.6,
@@ -4341,12 +4246,30 @@
   "hard": []
  },
  {
+  "name": "Ronald Koeman",
+  "gender": "M",
+  "active": false,
+  "aff": 65.3,
+  "Q": 53.1,
+  "Qh": 53.1,
+  "R": 80.7,
+  "A0": 62.8,
+  "K": 2.5,
+  "conn": [
+   [
+    "Club seasons",
+    2.5
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Tab Ramos",
   "gender": "M",
   "active": false,
   "aff": 65.2,
-  "Q": 59.2,
-  "Qh": 59.2,
+  "Q": 59.3,
+  "Qh": 59.3,
   "R": 66.4,
   "A0": 62.0,
   "K": 3.2,
@@ -4367,8 +4290,8 @@
   "gender": "M",
   "active": true,
   "aff": 65.1,
-  "Q": 74.2,
-  "Qh": 74.2,
+  "Q": 74.1,
+  "Qh": 74.1,
   "R": 45.7,
   "A0": 61.1,
   "K": 4.0,
@@ -4381,53 +4304,13 @@
   "hard": []
  },
  {
-  "name": "Sergio Busquets",
-  "gender": "M",
-  "active": false,
-  "aff": 65.0,
-  "Q": 73.4,
-  "Qh": 53.1,
-  "R": 79.5,
-  "A0": 62.4,
-  "K": 2.7,
-  "conn": [
-   [
-    "Club seasons",
-    3.9
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.2
-   ]
-  ],
-  "hard": [
-   [
-    "Racist abuse (2011)",
-    12.3
-   ]
-  ]
- },
- {
-  "name": "Scott Brown",
-  "gender": "M",
-  "active": false,
-  "aff": 65.0,
-  "Q": 68.5,
-  "Qh": 68.5,
-  "R": 60.0,
-  "A0": 65.0,
-  "K": 0.0,
-  "conn": [],
-  "hard": []
- },
- {
   "name": "Allie Long",
   "gender": "W",
   "active": false,
   "aff": 64.9,
-  "Q": 70.8,
-  "Qh": 70.8,
-  "R": 49.0,
+  "Q": 70.9,
+  "Qh": 70.9,
+  "R": 48.9,
   "A0": 61.1,
   "K": 3.8,
   "conn": [
@@ -4443,12 +4326,25 @@
   "hard": []
  },
  {
+  "name": "Scott Brown",
+  "gender": "M",
+  "active": false,
+  "aff": 64.9,
+  "Q": 68.4,
+  "Qh": 68.4,
+  "R": 59.9,
+  "A0": 64.9,
+  "K": 0.0,
+  "conn": [],
+  "hard": []
+ },
+ {
   "name": "Hany Mukhtar",
   "gender": "M",
   "active": true,
   "aff": 64.8,
-  "Q": 65.0,
-  "Qh": 65.0,
+  "Q": 64.9,
+  "Qh": 64.9,
   "R": 62.9,
   "A0": 64.1,
   "K": 0.7,
@@ -4461,25 +4357,29 @@
   "hard": []
  },
  {
-  "name": "Robert Lewandowski",
+  "name": "Alan Shearer",
   "gender": "M",
-  "active": true,
+  "active": false,
   "aff": 64.3,
-  "Q": 58.7,
-  "Qh": 48.7,
-  "R": 83.3,
-  "A0": 60.4,
-  "K": 4.0,
+  "Q": 71.2,
+  "Qh": 58.9,
+  "R": 80.9,
+  "A0": 66.8,
+  "K": -2.6,
   "conn": [
    [
     "Club seasons",
-    4.0
+    0.4
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
    ]
   ],
   "hard": [
    [
-    "Rival move (2014)",
-    6.0
+    "Violent conduct (1998)",
+    6.3
    ]
   ]
  },
@@ -4487,10 +4387,10 @@
   "name": "Rúben Dias",
   "gender": "M",
   "active": true,
-  "aff": 64.3,
+  "aff": 64.2,
   "Q": 70.9,
   "Qh": 70.9,
-  "R": 62.2,
+  "R": 62.1,
   "A0": 67.2,
   "K": -3.0,
   "conn": [
@@ -4502,28 +4402,10 @@
   "hard": []
  },
  {
-  "name": "Vinícius Júnior",
-  "gender": "M",
-  "active": true,
-  "aff": 64.2,
-  "Q": 55.1,
-  "Qh": 55.1,
-  "R": 81.1,
-  "A0": 64.3,
-  "K": -0.1,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -0.1
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Chris Richards",
   "gender": "M",
   "active": true,
-  "aff": 64.2,
+  "aff": 64.1,
   "Q": 65.6,
   "Qh": 65.6,
   "R": 51.7,
@@ -4532,7 +4414,7 @@
   "conn": [
    [
     "Club seasons",
-    2.7
+    2.6
    ],
    [
     "Seasons at clubs you rate low",
@@ -4549,57 +4431,34 @@
   "name": "Ryan Gravenberch",
   "gender": "M",
   "active": true,
-  "aff": 64.2,
+  "aff": 64.1,
   "Q": 64.8,
   "Qh": 64.8,
   "R": 58.7,
   "A0": 62.3,
-  "K": 1.9,
+  "K": 1.8,
   "conn": [
    [
     "Club seasons",
-    1.9
+    1.8
    ]
   ],
   "hard": []
  },
  {
-  "name": "Asisat Oshoala",
-  "gender": "W",
-  "active": true,
-  "aff": 63.9,
-  "Q": 77.3,
-  "Qh": 57.4,
-  "R": 75.7,
-  "A0": 64.1,
-  "K": -0.2,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -0.2
-   ]
-  ],
-  "hard": [
-   [
-    "Money-league move (2025)",
-    12.0
-   ]
-  ]
- },
- {
-  "name": "Phil Foden",
+  "name": "Vinícius Júnior",
   "gender": "M",
   "active": true,
   "aff": 63.9,
-  "Q": 64.3,
-  "Qh": 64.3,
-  "R": 71.0,
-  "A0": 66.9,
-  "K": -3.0,
+  "Q": 55.0,
+  "Qh": 55.0,
+  "R": 81.1,
+  "A0": 64.2,
+  "K": -0.3,
   "conn": [
    [
     "Seasons at clubs you rate low",
-    -3.0
+    -0.3
    ]
   ],
   "hard": []
@@ -4608,12 +4467,12 @@
   "name": "Adrianna Franch",
   "gender": "W",
   "active": true,
-  "aff": 63.8,
-  "Q": 62.8,
-  "Qh": 62.8,
+  "aff": 63.9,
+  "Q": 62.9,
+  "Qh": 62.9,
   "R": 51.2,
   "A0": 57.9,
-  "K": 5.9,
+  "K": 6.0,
   "conn": [
    [
     "Club seasons",
@@ -4622,6 +4481,24 @@
    [
     "US international",
     2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Phil Foden",
+  "gender": "M",
+  "active": true,
+  "aff": 63.8,
+  "Q": 64.2,
+  "Qh": 64.2,
+  "R": 71.0,
+  "A0": 66.8,
+  "K": -3.0,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -3.0
    ]
   ],
   "hard": []
@@ -4671,14 +4548,64 @@
   "hard": []
  },
  {
+  "name": "Luka Modrić",
+  "gender": "M",
+  "active": true,
+  "aff": 63.6,
+  "Q": 68.7,
+  "Qh": 51.1,
+  "R": 91.0,
+  "A0": 64.4,
+  "K": -0.8,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -0.8
+   ]
+  ],
+  "hard": [
+   [
+    "Forced transfer (2012)",
+    9.0
+   ]
+  ]
+ },
+ {
+  "name": "Gianluigi Buffon",
+  "gender": "M",
+  "active": false,
+  "aff": 63.6,
+  "Q": 77.6,
+  "Qh": 53.6,
+  "R": 83.5,
+  "A0": 64.0,
+  "K": -0.4,
+  "conn": [
+   [
+    "Club seasons",
+    1.2
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.6
+   ]
+  ],
+  "hard": [
+   [
+    "Match-fixing (2006)",
+    12.3
+   ]
+  ]
+ },
+ {
   "name": "Serhou Guirassy",
   "gender": "M",
   "active": true,
-  "aff": 63.4,
-  "Q": 59.0,
-  "Qh": 59.0,
+  "aff": 63.5,
+  "Q": 59.1,
+  "Qh": 59.1,
   "R": 61.3,
-  "A0": 59.9,
+  "A0": 60.0,
   "K": 3.5,
   "conn": [
    [
@@ -4695,8 +4622,8 @@
   "aff": 63.4,
   "Q": 56.2,
   "Qh": 56.2,
-  "R": 64.6,
-  "A0": 59.4,
+  "R": 64.7,
+  "A0": 59.5,
   "K": 4.0,
   "conn": [
    [
@@ -4729,15 +4656,38 @@
   "hard": []
  },
  {
-  "name": "Emre Can",
+  "name": "Robert Lewandowski",
   "gender": "M",
   "active": true,
   "aff": 63.1,
-  "Q": 59.8,
-  "Qh": 59.8,
-  "R": 58.2,
-  "A0": 59.2,
+  "Q": 58.7,
+  "Qh": 47.0,
+  "R": 83.3,
+  "A0": 59.1,
   "K": 4.0,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ]
+  ],
+  "hard": [
+   [
+    "Rival move (2014)",
+    6.0
+   ]
+  ]
+ },
+ {
+  "name": "Emre Can",
+  "gender": "M",
+  "active": true,
+  "aff": 63.0,
+  "Q": 59.7,
+  "Qh": 59.7,
+  "R": 58.2,
+  "A0": 59.1,
+  "K": 3.9,
   "conn": [
    [
     "Club seasons",
@@ -4745,7 +4695,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.0
+    -0.1
    ]
   ],
   "hard": []
@@ -4754,16 +4704,16 @@
   "name": "Kenan Yıldız",
   "gender": "M",
   "active": true,
-  "aff": 63.1,
-  "Q": 65.4,
-  "Qh": 65.4,
+  "aff": 63.0,
+  "Q": 65.3,
+  "Qh": 65.3,
   "R": 60.0,
   "A0": 63.2,
-  "K": -0.1,
+  "K": -0.2,
   "conn": [
    [
     "Seasons at clubs you rate low",
-    -0.1
+    -0.2
    ]
   ],
   "hard": []
@@ -4776,8 +4726,8 @@
   "Q": 63.0,
   "Qh": 63.0,
   "R": 62.4,
-  "A0": 62.7,
-  "K": 0.3,
+  "A0": 62.8,
+  "K": 0.2,
   "conn": [
    [
     "Club seasons",
@@ -4785,29 +4735,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -1.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Gareth Bale",
-  "gender": "M",
-  "active": false,
-  "aff": 63.0,
-  "Q": 52.0,
-  "Qh": 52.0,
-  "R": 85.2,
-  "A0": 63.4,
-  "K": -0.4,
-  "conn": [
-   [
-    "Club seasons",
-    0.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.4
+    -1.1
    ]
   ],
   "hard": []
@@ -4839,27 +4767,23 @@
   "hard": []
  },
  {
-  "name": "Kasey Keller",
+  "name": "Gareth Bale",
   "gender": "M",
   "active": false,
-  "aff": 62.7,
-  "Q": 60.0,
-  "Qh": 60.0,
-  "R": 57.7,
-  "A0": 59.1,
-  "K": 3.7,
+  "aff": 62.8,
+  "Q": 52.0,
+  "Qh": 52.0,
+  "R": 85.2,
+  "A0": 63.3,
+  "K": -0.6,
   "conn": [
    [
     "Club seasons",
-    2.2
+    0.1
    ],
    [
     "Seasons at clubs you rate low",
-    -0.5
-   ],
-   [
-    "US international",
-    2.0
+    -0.7
    ]
   ],
   "hard": []
@@ -4909,12 +4833,38 @@
   "hard": []
  },
  {
-  "name": "Roman Weidenfeller",
+  "name": "Kasey Keller",
   "gender": "M",
   "active": false,
   "aff": 62.5,
-  "Q": 62.3,
-  "Qh": 62.3,
+  "Q": 60.1,
+  "Qh": 60.1,
+  "R": 57.6,
+  "A0": 59.1,
+  "K": 3.4,
+  "conn": [
+   [
+    "Club seasons",
+    2.2
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.8
+   ],
+   [
+    "US international",
+    2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Roman Weidenfeller",
+  "gender": "M",
+  "active": false,
+  "aff": 62.4,
+  "Q": 62.2,
+  "Qh": 62.2,
   "R": 53.3,
   "A0": 58.5,
   "K": 4.0,
@@ -4927,33 +4877,15 @@
   "hard": []
  },
  {
-  "name": "Lamine Yamal",
-  "gender": "M",
-  "active": true,
-  "aff": 62.4,
-  "Q": 51.4,
-  "Qh": 51.4,
-  "R": 80.9,
-  "A0": 61.6,
-  "K": 0.8,
-  "conn": [
-   [
-    "Club seasons",
-    0.8
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Christian Pulisic",
   "gender": "M",
   "active": true,
-  "aff": 62.3,
+  "aff": 62.2,
   "Q": 58.5,
   "Qh": 58.5,
-  "R": 66.6,
+  "R": 66.7,
   "A0": 61.6,
-  "K": 0.7,
+  "K": 0.6,
   "conn": [
    [
     "Club seasons",
@@ -4961,7 +4893,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -2.9
+    -3.0
    ],
    [
     "US international",
@@ -4971,23 +4903,19 @@
   "hard": []
  },
  {
-  "name": "Giorgi Mamardashvili",
+  "name": "Lamine Yamal",
   "gender": "M",
   "active": true,
-  "aff": 62.1,
-  "Q": 63.9,
-  "Qh": 63.9,
-  "R": 58.7,
-  "A0": 61.8,
-  "K": 0.4,
+  "aff": 62.2,
+  "Q": 51.3,
+  "Qh": 51.3,
+  "R": 80.9,
+  "A0": 61.5,
+  "K": 0.7,
   "conn": [
    [
     "Club seasons",
-    0.5
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.1
+    0.7
    ]
   ],
   "hard": []
@@ -5006,15 +4934,37 @@
   "hard": []
  },
  {
-  "name": "Marcel Sabitzer",
+  "name": "Giorgi Mamardashvili",
   "gender": "M",
   "active": true,
   "aff": 62.1,
+  "Q": 63.9,
+  "Qh": 63.9,
+  "R": 58.6,
+  "A0": 61.8,
+  "K": 0.3,
+  "conn": [
+   [
+    "Club seasons",
+    0.5
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.2
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Marcel Sabitzer",
+  "gender": "M",
+  "active": true,
+  "aff": 62.0,
   "Q": 62.8,
   "Qh": 62.8,
   "R": 61.7,
   "A0": 62.4,
-  "K": -0.3,
+  "K": -0.4,
   "conn": [
    [
     "Club seasons",
@@ -5022,35 +4972,35 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -2.8
+    -2.9
    ]
   ],
   "hard": []
  },
  {
-  "name": "Federico Chiesa",
+  "name": "Sergio Busquets",
   "gender": "M",
-  "active": true,
+  "active": false,
   "aff": 61.9,
-  "Q": 63.2,
-  "Qh": 53.3,
-  "R": 71.0,
-  "A0": 59.8,
+  "Q": 73.3,
+  "Qh": 49.3,
+  "R": 79.4,
+  "A0": 59.7,
   "K": 2.2,
   "conn": [
    [
     "Club seasons",
-    2.3
+    3.4
    ],
    [
     "Seasons at clubs you rate low",
-    -0.1
+    -1.2
    ]
   ],
   "hard": [
    [
-    "Rival move (2020)",
-    6.0
+    "Racist abuse (2011)",
+    12.3
    ]
   ]
  },
@@ -5058,19 +5008,42 @@
   "name": "Michel Platini",
   "gender": "M",
   "active": false,
-  "aff": 61.9,
-  "Q": 47.8,
-  "Qh": 47.8,
+  "aff": 61.7,
+  "Q": 47.7,
+  "Qh": 47.7,
   "R": 91.7,
   "A0": 62.0,
-  "K": -0.1,
+  "K": -0.3,
   "conn": [
    [
     "Seasons at clubs you rate low",
-    -0.1
+    -0.3
    ]
   ],
   "hard": []
+ },
+ {
+  "name": "Asisat Oshoala",
+  "gender": "W",
+  "active": true,
+  "aff": 61.5,
+  "Q": 77.4,
+  "Qh": 54.0,
+  "R": 75.7,
+  "A0": 61.8,
+  "K": -0.3,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -0.3
+   ]
+  ],
+  "hard": [
+   [
+    "Money-league move (2025)",
+    12.0
+   ]
+  ]
  },
  {
   "name": "Waldemar Anton",
@@ -5094,16 +5067,16 @@
   "name": "Riqui Puig",
   "gender": "M",
   "active": true,
-  "aff": 61.4,
+  "aff": 61.3,
   "Q": 60.6,
   "Qh": 60.6,
-  "R": 59.5,
+  "R": 59.6,
   "A0": 60.2,
-  "K": 1.2,
+  "K": 1.1,
   "conn": [
    [
     "Club seasons",
-    1.2
+    1.1
    ]
   ],
   "hard": []
@@ -5112,60 +5085,16 @@
   "name": "Brandon Bye",
   "gender": "M",
   "active": true,
-  "aff": 61.2,
-  "Q": 71.3,
-  "Qh": 71.3,
-  "R": 43.5,
-  "A0": 58.5,
+  "aff": 61.3,
+  "Q": 71.4,
+  "Qh": 71.4,
+  "R": 43.6,
+  "A0": 58.6,
   "K": 2.7,
   "conn": [
    [
     "Club seasons",
     0.7
-   ],
-   [
-    "US international",
-    2.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Matt Turner",
-  "gender": "M",
-  "active": true,
-  "aff": 60.9,
-  "Q": 65.1,
-  "Qh": 65.1,
-  "R": 49.3,
-  "A0": 58.3,
-  "K": 2.7,
-  "conn": [
-   [
-    "Club seasons",
-    0.7
-   ],
-   [
-    "US international",
-    2.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Carlos Bocanegra",
-  "gender": "M",
-  "active": false,
-  "aff": 60.9,
-  "Q": 61.4,
-  "Qh": 61.4,
-  "R": 52.7,
-  "A0": 57.8,
-  "K": 3.2,
-  "conn": [
-   [
-    "Club seasons",
-    1.2
    ],
    [
     "US international",
@@ -5193,19 +5122,49 @@
   "hard": []
  },
  {
-  "name": "Ramy Bensebaini",
+  "name": "Matt Turner",
   "gender": "M",
   "active": true,
-  "aff": 60.8,
-  "Q": 59.6,
-  "Qh": 59.6,
-  "R": 54.2,
-  "A0": 57.4,
-  "K": 3.5,
+  "aff": 60.9,
+  "Q": 65.2,
+  "Qh": 65.2,
+  "R": 49.3,
+  "A0": 58.3,
+  "K": 2.6,
   "conn": [
    [
     "Club seasons",
-    3.5
+    0.7
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.1
+   ],
+   [
+    "US international",
+    2.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Carlos Bocanegra",
+  "gender": "M",
+  "active": false,
+  "aff": 60.9,
+  "Q": 61.5,
+  "Qh": 61.5,
+  "R": 52.7,
+  "A0": 57.8,
+  "K": 3.1,
+  "conn": [
+   [
+    "Club seasons",
+    1.1
+   ],
+   [
+    "US international",
+    2.0
    ]
   ],
   "hard": []
@@ -5229,54 +5188,55 @@
   "hard": []
  },
  {
-  "name": "Victor Osimhen",
+  "name": "Ramy Bensebaini",
   "gender": "M",
   "active": true,
-  "aff": 60.7,
-  "Q": 53.7,
-  "Qh": 53.7,
-  "R": 68.1,
-  "A0": 59.0,
-  "K": 1.7,
+  "aff": 60.8,
+  "Q": 59.6,
+  "Qh": 59.6,
+  "R": 54.2,
+  "A0": 57.4,
+  "K": 3.4,
   "conn": [
    [
     "Club seasons",
-    1.9
+    3.4
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Federico Chiesa",
+  "gender": "M",
+  "active": true,
+  "aff": 60.6,
+  "Q": 63.2,
+  "Qh": 51.5,
+  "R": 71.0,
+  "A0": 58.6,
+  "K": 2.0,
+  "conn": [
+   [
+    "Club seasons",
+    2.2
    ],
    [
     "Seasons at clubs you rate low",
     -0.2
    ]
   ],
-  "hard": []
- },
- {
-  "name": "Michael Owen",
-  "gender": "M",
-  "active": false,
-  "aff": 60.6,
-  "Q": 49.5,
-  "Qh": 49.5,
-  "R": 79.3,
-  "A0": 59.8,
-  "K": 0.8,
-  "conn": [
+  "hard": [
    [
-    "Club seasons",
-    3.8
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
+    "Rival move (2020)",
+    6.0
    ]
-  ],
-  "hard": []
+  ]
  },
  {
   "name": "Ricardo Pepi",
   "gender": "M",
   "active": true,
-  "aff": 60.5,
+  "aff": 60.6,
   "Q": 63.1,
   "Qh": 63.1,
   "R": 49.1,
@@ -5325,6 +5285,28 @@
   "hard": []
  },
  {
+  "name": "Victor Osimhen",
+  "gender": "M",
+  "active": true,
+  "aff": 60.4,
+  "Q": 53.6,
+  "Qh": 53.6,
+  "R": 68.1,
+  "A0": 59.0,
+  "K": 1.4,
+  "conn": [
+   [
+    "Club seasons",
+    1.8
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.4
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Juan Román Riquelme",
   "gender": "M",
   "active": false,
@@ -5332,7 +5314,7 @@
   "Q": 47.1,
   "Qh": 47.1,
   "R": 84.9,
-  "A0": 59.7,
+  "A0": 59.6,
   "K": 0.8,
   "conn": [
    [
@@ -5343,23 +5325,23 @@
   "hard": []
  },
  {
-  "name": "Ibrahima Konaté",
+  "name": "Michael Owen",
   "gender": "M",
-  "active": true,
+  "active": false,
   "aff": 60.4,
-  "Q": 60.2,
-  "Qh": 60.2,
-  "R": 58.4,
-  "A0": 59.5,
-  "K": 0.9,
+  "Q": 49.5,
+  "Qh": 49.5,
+  "R": 79.3,
+  "A0": 59.8,
+  "K": 0.6,
   "conn": [
    [
     "Club seasons",
-    2.4
+    3.6
    ],
    [
     "Seasons at clubs you rate low",
-    -1.5
+    -3.0
    ]
   ],
   "hard": []
@@ -5368,38 +5350,16 @@
   "name": "Racheal Kundananji",
   "gender": "W",
   "active": true,
-  "aff": 60.3,
+  "aff": 60.4,
   "Q": 61.0,
   "Qh": 61.0,
   "R": 60.6,
-  "A0": 60.8,
+  "A0": 60.9,
   "K": -0.5,
   "conn": [
    [
     "Seasons at clubs you rate low",
     -0.5
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Wayne Rooney",
-  "gender": "M",
-  "active": false,
-  "aff": 60.3,
-  "Q": 51.0,
-  "Qh": 51.0,
-  "R": 83.9,
-  "A0": 62.2,
-  "K": -1.9,
-  "conn": [
-   [
-    "Club seasons",
-    1.1
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
    ]
   ],
   "hard": []
@@ -5449,6 +5409,50 @@
   "hard": []
  },
  {
+  "name": "Ibrahima Konaté",
+  "gender": "M",
+  "active": true,
+  "aff": 60.2,
+  "Q": 60.2,
+  "Qh": 60.2,
+  "R": 58.4,
+  "A0": 59.5,
+  "K": 0.7,
+  "conn": [
+   [
+    "Club seasons",
+    2.3
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.6
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Wayne Rooney",
+  "gender": "M",
+  "active": false,
+  "aff": 60.1,
+  "Q": 50.8,
+  "Qh": 50.8,
+  "R": 83.8,
+  "A0": 62.1,
+  "K": -2.0,
+  "conn": [
+   [
+    "Club seasons",
+    1.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Milos Kerkez",
   "gender": "M",
   "active": true,
@@ -5474,20 +5478,20 @@
   "name": "Jobe Bellingham",
   "gender": "M",
   "active": true,
-  "aff": 59.6,
+  "aff": 59.4,
   "Q": 64.6,
   "Qh": 64.6,
   "R": 51.1,
   "A0": 58.8,
-  "K": 0.8,
+  "K": 0.6,
   "conn": [
    [
     "Club seasons",
-    1.1
+    1.0
    ],
    [
     "Seasons at clubs you rate low",
-    -0.3
+    -0.4
    ]
   ],
   "hard": []
@@ -5496,16 +5500,16 @@
   "name": "Sergiño Dest",
   "gender": "M",
   "active": true,
-  "aff": 59.3,
+  "aff": 59.2,
   "Q": 54.7,
   "Qh": 54.7,
   "R": 57.0,
   "A0": 55.6,
-  "K": 3.7,
+  "K": 3.6,
   "conn": [
    [
     "Club seasons",
-    1.9
+    1.8
    ],
    [
     "Seasons at clubs you rate low",
@@ -5559,33 +5563,6 @@
   "hard": []
  },
  {
-  "name": "Giuseppe Meazza",
-  "gender": "M",
-  "active": false,
-  "aff": 58.8,
-  "Q": 56.9,
-  "Qh": 47.0,
-  "R": 92.0,
-  "A0": 61.5,
-  "K": -2.7,
-  "conn": [
-   [
-    "Club seasons",
-    0.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Rival move (1940)",
-    6.0
-   ]
-  ]
- },
- {
   "name": "Will Johnson",
   "gender": "M",
   "active": false,
@@ -5604,15 +5581,33 @@
   "hard": []
  },
  {
+  "name": "Lee Desmond",
+  "gender": "M",
+  "active": true,
+  "aff": 58.2,
+  "Q": 72.1,
+  "Qh": 72.1,
+  "R": 38.4,
+  "A0": 56.0,
+  "K": 2.2,
+  "conn": [
+   [
+    "Club seasons",
+    2.2
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Yunus Musah",
   "gender": "M",
   "active": true,
-  "aff": 58.5,
+  "aff": 58.2,
   "Q": 61.2,
   "Qh": 61.2,
   "R": 50.8,
   "A0": 56.8,
-  "K": 1.7,
+  "K": 1.4,
   "conn": [
    [
     "Club seasons",
@@ -5620,29 +5615,11 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.6
+    -0.9
    ],
    [
     "US international",
     2.0
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Lee Desmond",
-  "gender": "M",
-  "active": true,
-  "aff": 58.2,
-  "Q": 72.2,
-  "Qh": 72.2,
-  "R": 38.4,
-  "A0": 56.1,
-  "K": 2.2,
-  "conn": [
-   [
-    "Club seasons",
-    2.2
    ]
   ],
   "hard": []
@@ -5670,27 +5647,22 @@
   "hard": []
  },
  {
-  "name": "Andrea Pirlo",
+  "name": "Evander",
   "gender": "M",
-  "active": false,
-  "aff": 57.8,
-  "Q": 56.5,
-  "Qh": 46.6,
-  "R": 90.5,
-  "A0": 60.7,
-  "K": -3.0,
+  "active": true,
+  "aff": 57.7,
+  "Q": 55.9,
+  "Qh": 55.9,
+  "R": 59.4,
+  "A0": 57.3,
+  "K": 0.4,
   "conn": [
    [
-    "Seasons at clubs you rate low",
-    -3.0
+    "Club seasons",
+    0.4
    ]
   ],
-  "hard": [
-   [
-    "Rival move (2001)",
-    6.0
-   ]
-  ]
+  "hard": []
  },
  {
   "name": "Maximilian Beier",
@@ -5715,55 +5687,15 @@
   "hard": []
  },
  {
-  "name": "Evander",
-  "gender": "M",
-  "active": true,
-  "aff": 57.6,
-  "Q": 55.8,
-  "Qh": 55.8,
-  "R": 59.4,
-  "A0": 57.2,
-  "K": 0.4,
-  "conn": [
-   [
-    "Club seasons",
-    0.4
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Tim Weah",
-  "gender": "M",
-  "active": true,
-  "aff": 57.6,
-  "Q": 59.7,
-  "Qh": 59.7,
-  "R": 53.9,
-  "A0": 57.3,
-  "K": 0.3,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -1.7
-   ],
-   [
-    "US international",
-    2.0
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Vincent Janssen",
   "gender": "M",
   "active": true,
-  "aff": 57.4,
+  "aff": 57.3,
   "Q": 60.4,
   "Qh": 60.4,
   "R": 53.5,
   "A0": 57.5,
-  "K": -0.1,
+  "K": -0.2,
   "conn": [
    [
     "Club seasons",
@@ -5771,52 +5703,56 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.3
+    -0.4
    ]
   ],
   "hard": []
  },
  {
-  "name": "Kevin Keegan",
-  "gender": "M",
-  "active": false,
-  "aff": 57.4,
-  "Q": 76.6,
-  "Qh": 41.8,
-  "R": 82.7,
-  "A0": 54.9,
-  "K": 2.5,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.5
-   ]
-  ],
-  "hard": [
-   [
-    "Violent conduct (1974)",
-    21.0
-   ]
-  ]
- },
- {
-  "name": "Matt Le Tissier",
+  "name": "Giuseppe Meazza",
   "gender": "M",
   "active": false,
   "aff": 57.3,
-  "Q": 50.2,
-  "Qh": 50.2,
-  "R": 78.3,
+  "Q": 56.8,
+  "Qh": 45.1,
+  "R": 92.0,
   "A0": 60.0,
   "K": -2.7,
   "conn": [
    [
+    "Club seasons",
+    0.3
+   ],
+   [
     "Seasons at clubs you rate low",
-    -2.7
+    -3.0
+   ]
+  ],
+  "hard": [
+   [
+    "Rival move (1940)",
+    6.0
+   ]
+  ]
+ },
+ {
+  "name": "Tim Weah",
+  "gender": "M",
+  "active": true,
+  "aff": 57.3,
+  "Q": 59.7,
+  "Qh": 59.7,
+  "R": 53.9,
+  "A0": 57.3,
+  "K": 0.0,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -2.0
+   ],
+   [
+    "US international",
+    2.0
    ]
   ],
   "hard": []
@@ -5828,7 +5764,7 @@
   "aff": 57.2,
   "Q": 57.6,
   "Qh": 57.6,
-  "R": 55.0,
+  "R": 55.1,
   "A0": 56.6,
   "K": 0.6,
   "conn": [
@@ -5880,58 +5816,48 @@
   "hard": []
  },
  {
-  "name": "Romário",
+  "name": "Matt Le Tissier",
   "gender": "M",
   "active": false,
-  "aff": 57.0,
-  "Q": 45.3,
-  "Qh": 39.3,
-  "R": 89.6,
-  "A0": 54.7,
-  "K": 2.4,
+  "aff": 56.9,
+  "Q": 50.1,
+  "Qh": 50.1,
+  "R": 78.3,
+  "A0": 59.9,
+  "K": -3.0,
   "conn": [
    [
-    "Club seasons",
-    2.4
-   ],
-   [
     "Seasons at clubs you rate low",
-    -0.0
+    -3.0
    ]
   ],
-  "hard": [
-   [
-    "Doping (2007)",
-    3.6
-   ]
-  ]
+  "hard": []
  },
  {
-  "name": "Patrick Vieira",
+  "name": "Folarin Balogun",
   "gender": "M",
-  "active": false,
-  "aff": 57.0,
-  "Q": 80.1,
-  "Qh": 45.3,
-  "R": 83.2,
-  "A0": 57.8,
-  "K": -0.8,
+  "active": true,
+  "aff": 56.4,
+  "Q": 53.8,
+  "Qh": 53.8,
+  "R": 55.0,
+  "A0": 54.2,
+  "K": 2.2,
   "conn": [
    [
     "Club seasons",
-    1.1
+    0.4
    ],
    [
     "Seasons at clubs you rate low",
-    -1.9
+    -0.2
+   ],
+   [
+    "US international",
+    2.0
    ]
   ],
-  "hard": [
-   [
-    "Violent conduct (1999)",
-    21.0
-   ]
-  ]
+  "hard": []
  },
  {
   "name": "Claudio Reyna",
@@ -5960,36 +5886,33 @@
   "hard": []
  },
  {
-  "name": "Folarin Balogun",
+  "name": "Andrea Pirlo",
   "gender": "M",
-  "active": true,
+  "active": false,
   "aff": 56.4,
-  "Q": 53.7,
-  "Qh": 53.7,
-  "R": 55.0,
-  "A0": 54.2,
-  "K": 2.2,
+  "Q": 56.5,
+  "Qh": 44.8,
+  "R": 90.5,
+  "A0": 59.4,
+  "K": -3.0,
   "conn": [
    [
-    "Club seasons",
-    0.5
-   ],
-   [
     "Seasons at clubs you rate low",
-    -0.3
-   ],
-   [
-    "US international",
-    2.0
+    -3.0
    ]
   ],
-  "hard": []
+  "hard": [
+   [
+    "Rival move (2001)",
+    6.0
+   ]
+  ]
  },
  {
   "name": "Zac McGraw",
   "gender": "M",
   "active": true,
-  "aff": 56.3,
+  "aff": 56.4,
   "Q": 69.2,
   "Qh": 69.2,
   "R": 36.5,
@@ -6004,15 +5927,15 @@
   "hard": []
  },
  {
-  "name": "Fabio Cannavaro",
+  "name": "Romário",
   "gender": "M",
   "active": false,
-  "aff": 56.1,
-  "Q": 53.2,
-  "Qh": 43.2,
-  "R": 77.0,
-  "A0": 54.5,
-  "K": 1.6,
+  "aff": 56.0,
+  "Q": 45.3,
+  "Qh": 38.3,
+  "R": 89.6,
+  "A0": 53.8,
+  "K": 2.2,
   "conn": [
    [
     "Club seasons",
@@ -6020,13 +5943,13 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.7
+    -0.1
    ]
   ],
   "hard": [
    [
-    "Money-league move (2010)",
-    6
+    "Doping (2007)",
+    3.6
    ]
   ]
  },
@@ -6034,20 +5957,20 @@
   "name": "Cole Bassett",
   "gender": "M",
   "active": true,
-  "aff": 56.0,
+  "aff": 55.8,
   "Q": 60.8,
   "Qh": 60.8,
   "R": 47.3,
   "A0": 55.0,
-  "K": 1.0,
+  "K": 0.8,
   "conn": [
    [
     "Club seasons",
-    0.3
+    0.2
    ],
    [
     "Seasons at clubs you rate low",
-    -1.3
+    -1.4
    ],
    [
     "US international",
@@ -6057,46 +5980,19 @@
   "hard": []
  },
  {
-  "name": "Cafu",
-  "gender": "M",
-  "active": false,
-  "aff": 55.8,
-  "Q": 78.0,
-  "Qh": 43.2,
-  "R": 83.7,
-  "A0": 56.3,
-  "K": -0.5,
-  "conn": [
-   [
-    "Club seasons",
-    0.4
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.9
-   ]
-  ],
-  "hard": [
-   [
-    "Authoritarian ambassador (2019)",
-    21.0
-   ]
-  ]
- },
- {
   "name": "Rio Ngumoha",
   "gender": "M",
   "active": true,
-  "aff": 55.7,
+  "aff": 55.6,
   "Q": 57.6,
   "Qh": 57.6,
   "R": 50.6,
   "A0": 54.7,
-  "K": 1.0,
+  "K": 0.9,
   "conn": [
    [
     "Club seasons",
-    1.0
+    0.9
    ]
   ],
   "hard": []
@@ -6127,11 +6023,11 @@
   "name": "Konstantinos Karetsas",
   "gender": "M",
   "active": true,
-  "aff": 55.4,
+  "aff": 55.5,
   "Q": 56.4,
   "Qh": 56.4,
   "R": 53.3,
-  "A0": 55.1,
+  "A0": 55.2,
   "K": 0.3,
   "conn": [
    [
@@ -6140,29 +6036,6 @@
    ]
   ],
   "hard": []
- },
- {
-  "name": "Paolo Rossi",
-  "gender": "M",
-  "active": false,
-  "aff": 54.8,
-  "Q": 63.2,
-  "Qh": 42.8,
-  "R": 81.2,
-  "A0": 55.3,
-  "K": -0.5,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -0.5
-   ]
-  ],
-  "hard": [
-   [
-    "Match-fixing (1980)",
-    12.3
-   ]
-  ]
  },
  {
   "name": "David Da Costa",
@@ -6183,29 +6056,6 @@
   "hard": []
  },
  {
-  "name": "Ryan Giggs",
-  "gender": "M",
-  "active": false,
-  "aff": 54.5,
-  "Q": 70.1,
-  "Qh": 43.7,
-  "R": 86.6,
-  "A0": 57.5,
-  "K": -3.0,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Abuse allegations (2020)",
-    15.9
-   ]
-  ]
- },
- {
   "name": "Finn Surman",
   "gender": "M",
   "active": true,
@@ -6213,7 +6063,7 @@
   "Q": 58.4,
   "Qh": 58.4,
   "R": 47.0,
-  "A0": 53.5,
+  "A0": 53.6,
   "K": 0.9,
   "conn": [
    [
@@ -6227,10 +6077,10 @@
   "name": "Mathis Albert",
   "gender": "M",
   "active": true,
-  "aff": 54.3,
+  "aff": 54.4,
   "Q": 57.6,
   "Qh": 57.6,
-  "R": 43.0,
+  "R": 43.1,
   "A0": 51.3,
   "K": 3.1,
   "conn": [
@@ -6246,56 +6096,29 @@
   "hard": []
  },
  {
-  "name": "Luís Figo",
+  "name": "Fabio Cannavaro",
   "gender": "M",
   "active": false,
   "aff": 54.3,
-  "Q": 46.1,
-  "Qh": 36.2,
-  "R": 88.6,
-  "A0": 51.8,
-  "K": 2.5,
+  "Q": 53.2,
+  "Qh": 41.4,
+  "R": 77.0,
+  "A0": 53.1,
+  "K": 1.2,
   "conn": [
    [
     "Club seasons",
-    3.7
+    2.2
    ],
    [
     "Seasons at clubs you rate low",
-    -1.2
+    -1.0
    ]
   ],
   "hard": [
    [
-    "Rival move (2000)",
-    6.0
-   ]
-  ]
- },
- {
-  "name": "Lothar Matthäus",
-  "gender": "M",
-  "active": false,
-  "aff": 54.2,
-  "Q": 47.4,
-  "Qh": 37.5,
-  "R": 82.3,
-  "A0": 51.4,
-  "K": 2.9,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.1
-   ]
-  ],
-  "hard": [
-   [
-    "Rival move (1984)",
-    6.0
+    "Money-league move (2010)",
+    6
    ]
   ]
  },
@@ -6303,16 +6126,16 @@
   "name": "Bradley Barcola",
   "gender": "M",
   "active": true,
-  "aff": 54.1,
+  "aff": 53.9,
   "Q": 48.8,
   "Qh": 48.8,
   "R": 67.5,
   "A0": 55.5,
-  "K": -1.5,
+  "K": -1.6,
   "conn": [
    [
     "Club seasons",
-    0.3
+    0.2
    ],
    [
     "Seasons at clubs you rate low",
@@ -6322,37 +6145,10 @@
   "hard": []
  },
  {
-  "name": "Hugo Sánchez",
-  "gender": "M",
-  "active": false,
-  "aff": 53.9,
-  "Q": 52.3,
-  "Qh": 42.4,
-  "R": 86.5,
-  "A0": 56.4,
-  "K": -2.5,
-  "conn": [
-   [
-    "Club seasons",
-    0.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -2.8
-   ]
-  ],
-  "hard": [
-   [
-    "Rival move (1985)",
-    6.0
-   ]
-  ]
- },
- {
   "name": "Eric Wynalda",
   "gender": "M",
   "active": false,
-  "aff": 53.8,
+  "aff": 53.9,
   "Q": 46.2,
   "Qh": 46.2,
   "R": 61.4,
@@ -6378,11 +6174,11 @@
   "name": "Ronald Hernández",
   "gender": "M",
   "active": true,
-  "aff": 53.6,
+  "aff": 53.7,
   "Q": 59.6,
   "Qh": 59.6,
   "R": 44.8,
-  "A0": 53.1,
+  "A0": 53.2,
   "K": 0.5,
   "conn": [
    [
@@ -6393,67 +6189,13 @@
   "hard": []
  },
  {
-  "name": "David Beckham",
-  "gender": "M",
-  "active": false,
-  "aff": 53.5,
-  "Q": 79.2,
-  "Qh": 44.4,
-  "R": 80.5,
-  "A0": 56.3,
-  "K": -2.8,
-  "conn": [
-   [
-    "Club seasons",
-    0.2
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Authoritarian ambassador (2022)",
-    21.0
-   ]
-  ]
- },
- {
-  "name": "Michael Laudrup",
-  "gender": "M",
-  "active": false,
-  "aff": 53.4,
-  "Q": 48.8,
-  "Qh": 38.9,
-  "R": 86.0,
-  "A0": 53.4,
-  "K": 0.0,
-  "conn": [
-   [
-    "Club seasons",
-    1.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.3
-   ]
-  ],
-  "hard": [
-   [
-    "Rival move (1994)",
-    6.0
-   ]
-  ]
- },
- {
   "name": "Gianluigi Donnarumma",
   "gender": "M",
   "active": true,
-  "aff": 53.2,
+  "aff": 53.1,
   "Q": 49.1,
   "Qh": 49.1,
-  "R": 68.6,
+  "R": 68.5,
   "A0": 56.1,
   "K": -3.0,
   "conn": [
@@ -6465,37 +6207,10 @@
   "hard": []
  },
  {
-  "name": "George Weah",
-  "gender": "M",
-  "active": false,
-  "aff": 53.1,
-  "Q": 72.7,
-  "Qh": 41.8,
-  "R": 87.0,
-  "A0": 56.1,
-  "K": -3.0,
-  "conn": [
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Violent conduct (1996)",
-    12.6
-   ],
-   [
-    "Money-league move (2001)",
-    6
-   ]
-  ]
- },
- {
   "name": "Omir Fernandez",
   "gender": "M",
   "active": true,
-  "aff": 52.9,
+  "aff": 53.0,
   "Q": 57.6,
   "Qh": 57.6,
   "R": 41.8,
@@ -6539,11 +6254,11 @@
   "name": "Fábio Silva",
   "gender": "M",
   "active": true,
-  "aff": 52.3,
-  "Q": 55.2,
-  "Qh": 55.2,
+  "aff": 52.4,
+  "Q": 55.3,
+  "Qh": 55.3,
   "R": 46.2,
-  "A0": 51.4,
+  "A0": 51.5,
   "K": 0.9,
   "conn": [
    [
@@ -6552,6 +6267,60 @@
    ]
   ],
   "hard": []
+ },
+ {
+  "name": "Lothar Matthäus",
+  "gender": "M",
+  "active": false,
+  "aff": 52.3,
+  "Q": 47.4,
+  "Qh": 35.7,
+  "R": 82.3,
+  "A0": 49.8,
+  "K": 2.5,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.5
+   ]
+  ],
+  "hard": [
+   [
+    "Rival move (1984)",
+    6.0
+   ]
+  ]
+ },
+ {
+  "name": "Hugo Sánchez",
+  "gender": "M",
+  "active": false,
+  "aff": 52.3,
+  "Q": 52.4,
+  "Qh": 40.7,
+  "R": 86.5,
+  "A0": 55.0,
+  "K": -2.7,
+  "conn": [
+   [
+    "Club seasons",
+    0.3
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": [
+   [
+    "Rival move (1985)",
+    6.0
+   ]
+  ]
  },
  {
   "name": "Jack Gurr",
@@ -6564,6 +6333,28 @@
   "A0": 52.3,
   "K": 0.0,
   "conn": [],
+  "hard": []
+ },
+ {
+  "name": "Carney Chukwuemeka",
+  "gender": "M",
+  "active": true,
+  "aff": 52.3,
+  "Q": 56.4,
+  "Qh": 56.4,
+  "R": 49.0,
+  "A0": 53.4,
+  "K": -1.1,
+  "conn": [
+   [
+    "Club seasons",
+    0.7
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.8
+   ]
+  ],
   "hard": []
  },
  {
@@ -6585,26 +6376,31 @@
   "hard": []
  },
  {
-  "name": "Carney Chukwuemeka",
+  "name": "Kevin Keegan",
   "gender": "M",
-  "active": true,
+  "active": false,
   "aff": 52.2,
-  "Q": 56.4,
-  "Qh": 56.4,
-  "R": 49.0,
-  "A0": 53.3,
-  "K": -1.1,
+  "Q": 76.7,
+  "Qh": 35.7,
+  "R": 82.7,
+  "A0": 50.0,
+  "K": 2.2,
   "conn": [
    [
     "Club seasons",
-    0.7
+    3.8
    ],
    [
     "Seasons at clubs you rate low",
-    -1.8
+    -1.6
    ]
   ],
-  "hard": []
+  "hard": [
+   [
+    "Violent conduct (1974)",
+    21.0
+   ]
+  ]
  },
  {
   "name": "Hunter Sulte",
@@ -6629,30 +6425,62 @@
   "hard": []
  },
  {
-  "name": "Joel Waterman",
+  "name": "Luís Figo",
   "gender": "M",
-  "active": true,
-  "aff": 51.8,
-  "Q": 58.4,
-  "Qh": 58.4,
-  "R": 42.2,
-  "A0": 51.3,
-  "K": 0.5,
+  "active": false,
+  "aff": 52.0,
+  "Q": 46.1,
+  "Qh": 34.4,
+  "R": 88.6,
+  "A0": 50.2,
+  "K": 1.8,
   "conn": [
    [
     "Club seasons",
-    0.5
+    3.5
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.7
    ]
   ],
-  "hard": []
+  "hard": [
+   [
+    "Rival move (2000)",
+    6.0
+   ]
+  ]
+ },
+ {
+  "name": "Paolo Rossi",
+  "gender": "M",
+  "active": false,
+  "aff": 51.8,
+  "Q": 63.3,
+  "Qh": 39.3,
+  "R": 81.2,
+  "A0": 52.5,
+  "K": -0.7,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -0.7
+   ]
+  ],
+  "hard": [
+   [
+    "Match-fixing (1980)",
+    12.3
+   ]
+  ]
  },
  {
   "name": "Kamal Miller",
   "gender": "M",
   "active": true,
   "aff": 51.8,
-  "Q": 57.6,
-  "Qh": 57.6,
+  "Q": 57.7,
+  "Qh": 57.7,
   "R": 43.2,
   "A0": 51.4,
   "K": 0.4,
@@ -6669,14 +6497,86 @@
   "hard": []
  },
  {
+  "name": "Joel Waterman",
+  "gender": "M",
+  "active": true,
+  "aff": 51.7,
+  "Q": 58.4,
+  "Qh": 58.4,
+  "R": 42.2,
+  "A0": 51.3,
+  "K": 0.4,
+  "conn": [
+   [
+    "Club seasons",
+    0.4
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "Michael Laudrup",
+  "gender": "M",
+  "active": false,
+  "aff": 51.6,
+  "Q": 48.9,
+  "Qh": 37.1,
+  "R": 86.0,
+  "A0": 52.0,
+  "K": -0.4,
+  "conn": [
+   [
+    "Club seasons",
+    1.1
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.5
+   ]
+  ],
+  "hard": [
+   [
+    "Rival move (1994)",
+    6.0
+   ]
+  ]
+ },
+ {
+  "name": "Patrick Vieira",
+  "gender": "M",
+  "active": false,
+  "aff": 51.5,
+  "Q": 80.1,
+  "Qh": 39.2,
+  "R": 83.2,
+  "A0": 52.9,
+  "K": -1.4,
+  "conn": [
+   [
+    "Club seasons",
+    1.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -2.4
+   ]
+  ],
+  "hard": [
+   [
+    "Violent conduct (1999)",
+    21.0
+   ]
+  ]
+ },
+ {
   "name": "Kristoffer Velde",
   "gender": "M",
   "active": true,
-  "aff": 51.4,
-  "Q": 54.0,
-  "Qh": 54.0,
+  "aff": 51.5,
+  "Q": 54.1,
+  "Qh": 54.1,
   "R": 46.7,
-  "A0": 50.9,
+  "A0": 51.0,
   "K": 0.5,
   "conn": [
    [
@@ -6690,11 +6590,11 @@
   "name": "Felix Nmecha",
   "gender": "M",
   "active": true,
-  "aff": 51.3,
-  "Q": 47.5,
-  "Qh": 47.5,
+  "aff": 51.2,
+  "Q": 47.4,
+  "Qh": 47.4,
   "R": 56.5,
-  "A0": 50.9,
+  "A0": 50.8,
   "K": 0.4,
   "conn": [
    [
@@ -6713,8 +6613,8 @@
   "gender": "M",
   "active": true,
   "aff": 51.1,
-  "Q": 55.2,
-  "Qh": 55.2,
+  "Q": 55.3,
+  "Qh": 55.3,
   "R": 45.5,
   "A0": 51.1,
   "K": 0.0,
@@ -6728,7 +6628,7 @@
   "aff": 50.9,
   "Q": 57.6,
   "Qh": 57.6,
-  "R": 40.0,
+  "R": 40.1,
   "A0": 49.8,
   "K": 1.1,
   "conn": [
@@ -6740,28 +6640,10 @@
   "hard": []
  },
  {
-  "name": "James McConnell",
-  "gender": "M",
-  "active": true,
-  "aff": 50.9,
-  "Q": 62.0,
-  "Qh": 62.0,
-  "R": 32.0,
-  "A0": 47.6,
-  "K": 3.3,
-  "conn": [
-   [
-    "Club seasons",
-    3.3
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Lewis Koumas",
   "gender": "M",
   "active": true,
-  "aff": 50.8,
+  "aff": 50.9,
   "Q": 60.0,
   "Qh": 60.0,
   "R": 37.0,
@@ -6775,6 +6657,24 @@
    [
     "Seasons at clubs you rate low",
     -0.0
+   ]
+  ],
+  "hard": []
+ },
+ {
+  "name": "James McConnell",
+  "gender": "M",
+  "active": true,
+  "aff": 50.8,
+  "Q": 62.0,
+  "Qh": 62.0,
+  "R": 32.0,
+  "A0": 47.6,
+  "K": 3.2,
+  "conn": [
+   [
+    "Club seasons",
+    3.2
    ]
   ],
   "hard": []
@@ -6798,12 +6698,35 @@
   "hard": []
  },
  {
+  "name": "Ryan Giggs",
+  "gender": "M",
+  "active": false,
+  "aff": 50.6,
+  "Q": 69.9,
+  "Qh": 38.9,
+  "R": 86.6,
+  "A0": 53.6,
+  "K": -3.0,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": [
+   [
+    "Abuse allegations (2020)",
+    15.9
+   ]
+  ]
+ },
+ {
   "name": "Karim Adeyemi",
   "gender": "M",
   "active": true,
   "aff": 50.5,
-  "Q": 44.4,
-  "Qh": 44.4,
+  "Q": 44.3,
+  "Qh": 44.3,
   "R": 54.9,
   "A0": 48.3,
   "K": 2.2,
@@ -6819,16 +6742,20 @@
   "name": "Gio Reyna",
   "gender": "M",
   "active": true,
-  "aff": 50.4,
-  "Q": 40.3,
-  "Qh": 40.3,
+  "aff": 50.5,
+  "Q": 40.2,
+  "Qh": 40.2,
   "R": 53.2,
   "A0": 45.0,
-  "K": 5.4,
+  "K": 5.5,
   "conn": [
    [
     "Club seasons",
     3.5
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.0
    ],
    [
     "US international",
@@ -6844,7 +6771,7 @@
   "aff": 50.3,
   "Q": 60.0,
   "Qh": 60.0,
-  "R": 34.5,
+  "R": 34.6,
   "A0": 48.1,
   "K": 2.2,
   "conn": [
@@ -6860,14 +6787,41 @@
   "hard": []
  },
  {
+  "name": "Cafu",
+  "gender": "M",
+  "active": false,
+  "aff": 50.3,
+  "Q": 78.1,
+  "Qh": 37.1,
+  "R": 83.7,
+  "A0": 51.4,
+  "K": -1.1,
+  "conn": [
+   [
+    "Club seasons",
+    0.1
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.2
+   ]
+  ],
+  "hard": [
+   [
+    "Authoritarian ambassador (2019)",
+    21.0
+   ]
+  ]
+ },
+ {
   "name": "Ariel Lassiter",
   "gender": "M",
   "active": true,
-  "aff": 50.1,
-  "Q": 56.0,
-  "Qh": 56.0,
+  "aff": 50.2,
+  "Q": 56.1,
+  "Qh": 56.1,
   "R": 42.3,
-  "A0": 50.0,
+  "A0": 50.1,
   "K": 0.1,
   "conn": [
    [
@@ -6880,33 +6834,6 @@
    ]
   ],
   "hard": []
- },
- {
-  "name": "Antoine Griezmann",
-  "gender": "M",
-  "active": true,
-  "aff": 49.9,
-  "Q": 76.4,
-  "Qh": 35.6,
-  "R": 82.7,
-  "A0": 49.9,
-  "K": 0.0,
-  "conn": [
-   [
-    "Club seasons",
-    3.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Racist abuse (2021)",
-    24.6
-   ]
-  ]
  },
  {
   "name": "Trey Nyoni",
@@ -6930,34 +6857,16 @@
   "name": "Vítězslav Jaroš",
   "gender": "M",
   "active": true,
-  "aff": 49.8,
+  "aff": 49.7,
   "Q": 60.0,
   "Qh": 60.0,
   "R": 32.0,
   "A0": 46.6,
-  "K": 3.2,
+  "K": 3.1,
   "conn": [
    [
     "Club seasons",
-    3.2
-   ]
-  ],
-  "hard": []
- },
- {
-  "name": "Jayden Danns",
-  "gender": "M",
-  "active": true,
-  "aff": 49.7,
-  "Q": 61.2,
-  "Qh": 61.2,
-  "R": 33.5,
-  "A0": 48.1,
-  "K": 1.6,
-  "conn": [
-   [
-    "Club seasons",
-    1.6
+    3.1
    ]
   ],
   "hard": []
@@ -6969,7 +6878,7 @@
   "aff": 49.7,
   "Q": 58.8,
   "Qh": 58.8,
-  "R": 35.0,
+  "R": 35.1,
   "A0": 47.8,
   "K": 1.9,
   "conn": [
@@ -6981,53 +6890,22 @@
   "hard": []
  },
  {
-  "name": "Rivaldo",
+  "name": "Jayden Danns",
   "gender": "M",
-  "active": false,
+  "active": true,
   "aff": 49.6,
-  "Q": 33.3,
-  "Qh": 33.3,
-  "R": 85.1,
-  "A0": 48.5,
-  "K": 1.1,
+  "Q": 61.2,
+  "Qh": 61.2,
+  "R": 33.6,
+  "A0": 48.1,
+  "K": 1.5,
   "conn": [
    [
     "Club seasons",
     1.5
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.4
    ]
   ],
   "hard": []
- },
- {
-  "name": "Denis Law",
-  "gender": "M",
-  "active": false,
-  "aff": 49.4,
-  "Q": 71.4,
-  "Qh": 36.6,
-  "R": 85.2,
-  "A0": 51.3,
-  "K": -1.9,
-  "conn": [
-   [
-    "Club seasons",
-    1.1
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Violent conduct (1967)",
-    21.0
-   ]
-  ]
  },
  {
   "name": "Luca Reggiani",
@@ -7048,35 +6926,34 @@
   "hard": []
  },
  {
-  "name": "Federico Valverde",
+  "name": "Rivaldo",
   "gender": "M",
-  "active": true,
+  "active": false,
   "aff": 49.3,
-  "Q": 73.8,
-  "Qh": 39.0,
-  "R": 70.6,
-  "A0": 49.5,
-  "K": -0.2,
+  "Q": 33.3,
+  "Qh": 33.3,
+  "R": 85.1,
+  "A0": 48.4,
+  "K": 0.9,
   "conn": [
    [
+    "Club seasons",
+    1.4
+   ],
+   [
     "Seasons at clubs you rate low",
-    -0.2
+    -0.5
    ]
   ],
-  "hard": [
-   [
-    "Violent conduct (2023)",
-    21.0
-   ]
-  ]
+  "hard": []
  },
  {
   "name": "Joao Ortiz",
   "gender": "M",
   "active": true,
   "aff": 49.0,
-  "Q": 58.0,
-  "Qh": 58.0,
+  "Q": 58.1,
+  "Qh": 58.1,
   "R": 36.2,
   "A0": 48.1,
   "K": 0.9,
@@ -7107,34 +6984,70 @@
   "hard": []
  },
  {
-  "name": "Kyle Edwards",
+  "name": "David Beckham",
   "gender": "M",
-  "active": true,
-  "aff": 48.6,
-  "Q": 56.8,
-  "Qh": 56.8,
-  "R": 38.5,
-  "A0": 48.6,
-  "K": 0.0,
-  "conn": [],
-  "hard": []
- },
- {
-  "name": "Luke Chambers",
-  "gender": "M",
-  "active": true,
-  "aff": 48.6,
-  "Q": 63.2,
-  "Qh": 63.2,
-  "R": 29.5,
-  "A0": 46.6,
-  "K": 2.0,
+  "active": false,
+  "aff": 48.8,
+  "Q": 79.3,
+  "Qh": 38.3,
+  "R": 80.5,
+  "A0": 51.5,
+  "K": -2.8,
   "conn": [
    [
     "Club seasons",
-    2.0
+    0.2
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
    ]
   ],
+  "hard": [
+   [
+    "Authoritarian ambassador (2022)",
+    21.0
+   ]
+  ]
+ },
+ {
+  "name": "George Weah",
+  "gender": "M",
+  "active": false,
+  "aff": 48.7,
+  "Q": 72.8,
+  "Qh": 36.5,
+  "R": 87.0,
+  "A0": 51.7,
+  "K": -3.0,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": [
+   [
+    "Violent conduct (1996)",
+    12.6
+   ],
+   [
+    "Money-league move (2001)",
+    6
+   ]
+  ]
+ },
+ {
+  "name": "Kyle Edwards",
+  "gender": "M",
+  "active": true,
+  "aff": 48.7,
+  "Q": 56.9,
+  "Qh": 56.9,
+  "R": 38.6,
+  "A0": 48.7,
+  "K": 0.0,
+  "conn": [],
   "hard": []
  },
  {
@@ -7156,42 +7069,33 @@
   "hard": []
  },
  {
-  "name": "Karl-Heinz Rummenigge",
+  "name": "Luke Chambers",
   "gender": "M",
-  "active": false,
-  "aff": 48.4,
-  "Q": 55.2,
-  "Qh": 30.3,
-  "R": 82.5,
-  "A0": 45.2,
-  "K": 3.2,
+  "active": true,
+  "aff": 48.5,
+  "Q": 63.2,
+  "Qh": 63.2,
+  "R": 29.5,
+  "A0": 46.6,
+  "K": 1.9,
   "conn": [
    [
     "Club seasons",
-    4.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.8
+    1.9
    ]
   ],
-  "hard": [
-   [
-    "Tax fraud (2013)",
-    15.0
-   ]
-  ]
+  "hard": []
  },
  {
   "name": "Eric Miller",
   "gender": "M",
   "active": true,
-  "aff": 48.1,
-  "Q": 57.2,
-  "Qh": 57.2,
+  "aff": 48.0,
+  "Q": 57.3,
+  "Qh": 57.3,
   "R": 31.2,
   "A0": 44.9,
-  "K": 3.2,
+  "K": 3.1,
   "conn": [
    [
     "Club seasons",
@@ -7199,7 +7103,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.6
+    -0.7
    ],
    [
     "US international",
@@ -7234,16 +7138,16 @@
   "name": "Clint Mathis",
   "gender": "M",
   "active": false,
-  "aff": 47.9,
-  "Q": 38.0,
-  "Qh": 38.0,
+  "aff": 47.8,
+  "Q": 37.9,
+  "Qh": 37.9,
   "R": 60.7,
   "A0": 45.8,
-  "K": 2.1,
+  "K": 2.0,
   "conn": [
    [
     "Club seasons",
-    0.3
+    0.2
    ],
    [
     "Seasons at clubs you rate low",
@@ -7275,41 +7179,14 @@
   "hard": []
  },
  {
-  "name": "Xavi",
-  "gender": "M",
-  "active": false,
-  "aff": 47.6,
-  "Q": 71.3,
-  "Qh": 26.5,
-  "R": 91.9,
-  "A0": 43.6,
-  "K": 4.0,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ]
-  ],
-  "hard": [
-   [
-    "Authoritarian ambassador (2022)",
-    21.0
-   ],
-   [
-    "Money-league move (2015)",
-    6
-   ]
-  ]
- },
- {
   "name": "Fanendo Adi",
   "gender": "M",
   "active": false,
   "aff": 47.5,
-  "Q": 44.8,
-  "Qh": 44.8,
+  "Q": 44.7,
+  "Qh": 44.7,
   "R": 46.3,
-  "A0": 45.4,
+  "A0": 45.3,
   "K": 2.2,
   "conn": [
    [
@@ -7326,7 +7203,7 @@
   "aff": 47.3,
   "Q": 62.6,
   "Qh": 62.6,
-  "R": 31.0,
+  "R": 31.1,
   "A0": 47.3,
   "K": 0.0,
   "conn": [],
@@ -7359,10 +7236,10 @@
   "gender": "M",
   "active": true,
   "aff": 46.8,
-  "Q": 55.2,
-  "Qh": 55.2,
+  "Q": 55.3,
+  "Qh": 55.3,
   "R": 29.3,
-  "A0": 42.8,
+  "A0": 42.9,
   "K": 4.0,
   "conn": [
    [
@@ -7387,7 +7264,7 @@
   "aff": 46.8,
   "Q": 61.2,
   "Qh": 61.2,
-  "R": 25.0,
+  "R": 25.1,
   "A0": 42.8,
   "K": 4.0,
   "conn": [
@@ -7437,33 +7314,6 @@
    ]
   ],
   "hard": []
- },
- {
-  "name": "Ronaldo (Brazilian)",
-  "gender": "M",
-  "active": false,
-  "aff": 46.0,
-  "Q": 38.9,
-  "Qh": 28.9,
-  "R": 95.8,
-  "A0": 46.7,
-  "K": -0.7,
-  "conn": [
-   [
-    "Club seasons",
-    1.0
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -1.7
-   ]
-  ],
-  "hard": [
-   [
-    "Rival move (2007)",
-    6.0
-   ]
-  ]
  },
  {
   "name": "Kauã Prates",
@@ -7546,11 +7396,11 @@
   "gender": "M",
   "active": true,
   "aff": 44.9,
-  "Q": 57.2,
-  "Qh": 57.2,
+  "Q": 57.3,
+  "Qh": 57.3,
   "R": 33.8,
-  "A0": 46.3,
-  "K": -1.4,
+  "A0": 46.4,
+  "K": -1.5,
   "conn": [
    [
     "Club seasons",
@@ -7558,31 +7408,85 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -2.3
+    -2.4
    ]
   ],
   "hard": []
  },
  {
-  "name": "Francesco Totti",
+  "name": "Federico Valverde",
   "gender": "M",
-  "active": false,
-  "aff": 44.6,
-  "Q": 61.2,
-  "Qh": 26.4,
-  "R": 89.4,
-  "A0": 43.0,
-  "K": 1.7,
+  "active": true,
+  "aff": 44.2,
+  "Q": 73.8,
+  "Qh": 32.8,
+  "R": 70.6,
+  "A0": 44.5,
+  "K": -0.4,
   "conn": [
    [
-    "Club seasons",
-    1.7
+    "Seasons at clubs you rate low",
+    -0.4
    ]
   ],
   "hard": [
    [
-    "Violent conduct (2010)",
+    "Violent conduct (2023)",
     21.0
+   ]
+  ]
+ },
+ {
+  "name": "Denis Law",
+  "gender": "M",
+  "active": false,
+  "aff": 44.0,
+  "Q": 71.4,
+  "Qh": 30.4,
+  "R": 85.2,
+  "A0": 45.9,
+  "K": -1.9,
+  "conn": [
+   [
+    "Club seasons",
+    1.1
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": [
+   [
+    "Violent conduct (1967)",
+    21.0
+   ]
+  ]
+ },
+ {
+  "name": "Karl-Heinz Rummenigge",
+  "gender": "M",
+  "active": false,
+  "aff": 44.0,
+  "Q": 55.1,
+  "Qh": 25.8,
+  "R": 82.5,
+  "A0": 41.1,
+  "K": 2.9,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -1.1
+   ]
+  ],
+  "hard": [
+   [
+    "Tax fraud (2013)",
+    15.0
    ]
   ]
  },
@@ -7590,16 +7494,16 @@
   "name": "Harvey Davies",
   "gender": "M",
   "active": true,
-  "aff": 44.1,
+  "aff": 44.0,
   "Q": 61.2,
   "Qh": 61.2,
   "R": 23.0,
   "A0": 41.4,
-  "K": 2.8,
+  "K": 2.6,
   "conn": [
    [
     "Club seasons",
-    3.0
+    2.8
    ],
    [
     "Seasons at clubs you rate low",
@@ -7609,34 +7513,12 @@
   "hard": []
  },
  {
-  "name": "Ronaldinho",
-  "gender": "M",
-  "active": false,
-  "aff": 44.1,
-  "Q": 27.9,
-  "Qh": 27.9,
-  "R": 94.5,
-  "A0": 45.5,
-  "K": -1.4,
-  "conn": [
-   [
-    "Club seasons",
-    1.3
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -2.7
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Patrick Drewes",
   "gender": "M",
   "active": true,
   "aff": 43.9,
-  "Q": 57.2,
-  "Qh": 57.2,
+  "Q": 57.3,
+  "Qh": 57.3,
   "R": 28.7,
   "A0": 43.4,
   "K": 0.5,
@@ -7656,7 +7538,7 @@
   "Q": 58.8,
   "Qh": 58.8,
   "R": 24.8,
-  "A0": 41.6,
+  "A0": 41.7,
   "K": 2.2,
   "conn": [
    [
@@ -7677,7 +7559,7 @@
   "aff": 43.7,
   "Q": 40.6,
   "Qh": 40.6,
-  "R": 45.0,
+  "R": 45.1,
   "A0": 42.3,
   "K": 1.4,
   "conn": [
@@ -7707,6 +7589,82 @@
   "hard": []
  },
  {
+  "name": "Ronaldo (Brazilian)",
+  "gender": "M",
+  "active": false,
+  "aff": 43.7,
+  "Q": 38.9,
+  "Qh": 27.2,
+  "R": 95.8,
+  "A0": 45.0,
+  "K": -1.3,
+  "conn": [
+   [
+    "Club seasons",
+    1.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -2.3
+   ]
+  ],
+  "hard": [
+   [
+    "Rival move (2007)",
+    6.0
+   ]
+  ]
+ },
+ {
+  "name": "Antoine Griezmann",
+  "gender": "M",
+  "active": true,
+  "aff": 43.6,
+  "Q": 76.4,
+  "Qh": 28.4,
+  "R": 82.7,
+  "A0": 43.6,
+  "K": 0.0,
+  "conn": [
+   [
+    "Club seasons",
+    3.0
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": [
+   [
+    "Racist abuse (2021)",
+    24.6
+   ]
+  ]
+ },
+ {
+  "name": "Ronaldinho",
+  "gender": "M",
+  "active": false,
+  "aff": 43.6,
+  "Q": 27.8,
+  "Qh": 27.8,
+  "R": 94.5,
+  "A0": 45.4,
+  "K": -1.8,
+  "conn": [
+   [
+    "Club seasons",
+    1.1
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -2.9
+   ]
+  ],
+  "hard": []
+ },
+ {
   "name": "Silas Ostrzinski",
   "gender": "M",
   "active": true,
@@ -7725,14 +7683,91 @@
   "hard": []
  },
  {
+  "name": "Xavi",
+  "gender": "M",
+  "active": false,
+  "aff": 39.0,
+  "Q": 71.2,
+  "Qh": 18.5,
+  "R": 91.9,
+  "A0": 35.1,
+  "K": 3.9,
+  "conn": [
+   [
+    "Club seasons",
+    3.9
+   ]
+  ],
+  "hard": [
+   [
+    "Authoritarian ambassador (2022)",
+    21.0
+   ],
+   [
+    "Money-league move (2015)",
+    6
+   ]
+  ]
+ },
+ {
+  "name": "Jadon Sancho",
+  "gender": "M",
+  "active": true,
+  "aff": 38.4,
+  "Q": 43.8,
+  "Qh": 26.3,
+  "R": 67.9,
+  "A0": 38.4,
+  "K": 0.0,
+  "conn": [
+   [
+    "Club seasons",
+    2.6
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -2.6
+   ]
+  ],
+  "hard": [
+   [
+    "Forced transfer (2017)",
+    9.0
+   ]
+  ]
+ },
+ {
+  "name": "Francesco Totti",
+  "gender": "M",
+  "active": false,
+  "aff": 37.0,
+  "Q": 61.0,
+  "Qh": 20.1,
+  "R": 89.4,
+  "A0": 36.5,
+  "K": 0.5,
+  "conn": [
+   [
+    "Club seasons",
+    0.5
+   ]
+  ],
+  "hard": [
+   [
+    "Violent conduct (2010)",
+    21.0
+   ]
+  ]
+ },
+ {
   "name": "Jairzinho",
   "gender": "M",
   "active": false,
-  "aff": 42.3,
+  "aff": 36.1,
   "Q": 61.2,
-  "Qh": 26.4,
+  "Qh": 20.2,
   "R": 86.5,
-  "A0": 42.4,
+  "A0": 36.2,
   "K": -0.1,
   "conn": [
    [
@@ -7748,64 +7783,14 @@
   ]
  },
  {
-  "name": "Jadon Sancho",
-  "gender": "M",
-  "active": true,
-  "aff": 41.1,
-  "Q": 43.8,
-  "Qh": 28.9,
-  "R": 67.9,
-  "A0": 40.7,
-  "K": 0.4,
-  "conn": [
-   [
-    "Club seasons",
-    2.6
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -2.2
-   ]
-  ],
-  "hard": [
-   [
-    "Forced transfer (2017)",
-    9.0
-   ]
-  ]
- },
- {
-  "name": "Łukasz Piszczek",
-  "gender": "M",
-  "active": false,
-  "aff": 36.7,
-  "Q": 88.6,
-  "Qh": 20.7,
-  "R": 65.6,
-  "A0": 32.8,
-  "K": 4.0,
-  "conn": [
-   [
-    "Club seasons",
-    4.0
-   ]
-  ],
-  "hard": [
-   [
-    "Match-fixing (2006)",
-    41.0
-   ]
-  ]
- },
- {
   "name": "Thibaut Courtois",
   "gender": "M",
   "active": true,
-  "aff": 35.9,
+  "aff": 33.5,
   "Q": 40.7,
-  "Qh": 25.8,
-  "R": 71.9,
-  "A0": 38.9,
+  "Qh": 23.2,
+  "R": 71.8,
+  "A0": 36.5,
   "K": -3.0,
   "conn": [
    [
@@ -7824,11 +7809,11 @@
   "name": "Kylian Mbappé",
   "gender": "M",
   "active": true,
-  "aff": 35.3,
-  "Q": 48.3,
-  "Qh": 22.0,
+  "aff": 30.2,
+  "Q": 48.4,
+  "Qh": 17.4,
   "R": 88.1,
-  "A0": 38.3,
+  "A0": 33.2,
   "K": -3.0,
   "conn": [
    [
@@ -7847,12 +7832,12 @@
   "name": "Alexander Isak",
   "gender": "M",
   "active": true,
-  "aff": 31.4,
+  "aff": 28.4,
   "Q": 32.0,
-  "Qh": 17.1,
+  "Qh": 14.4,
   "R": 70.5,
-  "A0": 30.2,
-  "K": 1.3,
+  "A0": 27.2,
+  "K": 1.2,
   "conn": [
    [
     "Club seasons",
@@ -7860,7 +7845,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -1.7
+    -1.8
    ]
   ],
   "hard": [
@@ -7871,15 +7856,15 @@
   ]
  },
  {
-  "name": "Gheorghe Hagi",
+  "name": "Zlatan Ibrahimović",
   "gender": "M",
   "active": false,
-  "aff": 30.9,
-  "Q": 59.9,
-  "Qh": 15.2,
-  "R": 87.8,
-  "A0": 30.6,
-  "K": 0.3,
+  "aff": 24.1,
+  "Q": 23.8,
+  "Qh": 12.1,
+  "R": 86.5,
+  "A0": 26.6,
+  "K": -2.5,
   "conn": [
    [
     "Club seasons",
@@ -7887,17 +7872,36 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -0.2
+    -3.0
    ]
   ],
   "hard": [
    [
-    "Violent conduct (2000)",
-    21.0
-   ],
-   [
-    "Rival move (1994)",
+    "Rival move (2006)",
     6.0
+   ]
+  ]
+ },
+ {
+  "name": "Łukasz Piszczek",
+  "gender": "M",
+  "active": false,
+  "aff": 23.5,
+  "Q": 88.7,
+  "Qh": 8.7,
+  "R": 65.6,
+  "A0": 19.5,
+  "K": 4.0,
+  "conn": [
+   [
+    "Club seasons",
+    4.0
+   ]
+  ],
+  "hard": [
+   [
+    "Match-fixing (2006)",
+    41.0
    ]
   ]
  },
@@ -7905,12 +7909,12 @@
   "name": "Philippe Coutinho",
   "gender": "M",
   "active": true,
-  "aff": 30.2,
-  "Q": 48.9,
-  "Qh": 14.1,
+  "aff": 22.1,
+  "Q": 49.0,
+  "Qh": 8.0,
   "R": 72.8,
-  "A0": 27.2,
-  "K": 3.0,
+  "A0": 19.4,
+  "K": 2.7,
   "conn": [
    [
     "Club seasons",
@@ -7918,7 +7922,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -1.0
+    -1.3
    ]
   ],
   "hard": [
@@ -7933,20 +7937,70 @@
   ]
  },
  {
-  "name": "Roy Keane",
+  "name": "Darwin Núñez",
   "gender": "M",
-  "active": false,
-  "aff": 27.9,
-  "Q": 62.1,
-  "Qh": 16.8,
-  "R": 76.3,
-  "A0": 30.8,
-  "K": -3.0,
+  "active": true,
+  "aff": 20.9,
+  "Q": 50.7,
+  "Qh": 9.7,
+  "R": 55.4,
+  "A0": 19.5,
+  "K": 1.4,
   "conn": [
    [
     "Club seasons",
-    0.0
+    1.4
+   ]
+  ],
+  "hard": [
+   [
+    "Money-league move (2025)",
+    21.0
+   ]
+  ]
+ },
+ {
+  "name": "Gheorghe Hagi",
+  "gender": "M",
+  "active": false,
+  "aff": 19.7,
+  "Q": 60.0,
+  "Qh": 7.3,
+  "R": 87.8,
+  "A0": 19.8,
+  "K": -0.1,
+  "conn": [
+   [
+    "Club seasons",
+    0.5
    ],
+   [
+    "Seasons at clubs you rate low",
+    -0.6
+   ]
+  ],
+  "hard": [
+   [
+    "Violent conduct (2000)",
+    21.0
+   ],
+   [
+    "Rival move (1994)",
+    6.0
+   ]
+  ]
+ },
+ {
+  "name": "Roy Keane",
+  "gender": "M",
+  "active": false,
+  "aff": 17.8,
+  "Q": 62.0,
+  "Qh": 8.7,
+  "R": 76.3,
+  "A0": 20.7,
+  "K": -3.0,
+  "conn": [
    [
     "Seasons at clubs you rate low",
     -3.0
@@ -7964,88 +8018,11 @@
   ]
  },
  {
-  "name": "Darwin Núñez",
-  "gender": "M",
-  "active": true,
-  "aff": 27.6,
-  "Q": 50.7,
-  "Qh": 15.9,
-  "R": 55.4,
-  "A0": 26.2,
-  "K": 1.4,
-  "conn": [
-   [
-    "Club seasons",
-    1.4
-   ]
-  ],
-  "hard": [
-   [
-    "Money-league move (2025)",
-    21.0
-   ]
-  ]
- },
- {
-  "name": "Zlatan Ibrahimović",
-  "gender": "M",
-  "active": false,
-  "aff": 26.5,
-  "Q": 23.9,
-  "Qh": 13.9,
-  "R": 86.5,
-  "A0": 28.9,
-  "K": -2.4,
-  "conn": [
-   [
-    "Club seasons",
-    0.6
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Rival move (2006)",
-    6.0
-   ]
-  ]
- },
- {
-  "name": "Paolo Di Canio",
-  "gender": "M",
-  "active": false,
-  "aff": 2.9,
-  "Q": 35.7,
-  "Qh": 0.9,
-  "R": 71.9,
-  "A0": 5.2,
-  "K": -2.3,
-  "conn": [
-   [
-    "Club seasons",
-    0.7
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -3.0
-   ]
-  ],
-  "hard": [
-   [
-    "Violent conduct (1998)",
-    21.0
-   ]
-  ]
- },
- {
   "name": "Luis Suárez",
   "gender": "M",
   "active": true,
   "aff": 0.0,
-  "Q": 38.8,
+  "Q": 38.7,
   "Qh": 0.0,
   "R": 89.4,
   "A0": 0.0,
@@ -8053,11 +8030,11 @@
   "conn": [
    [
     "Club seasons",
-    3.0
+    2.7
    ],
    [
     "Seasons at clubs you rate low",
-    -2.3
+    -2.4
    ]
   ],
   "hard": [
@@ -8088,7 +8065,7 @@
   "gender": "M",
   "active": true,
   "aff": 0.0,
-  "Q": 56.4,
+  "Q": 56.3,
   "Qh": 0.0,
   "R": 100.0,
   "A0": 0.0,
@@ -8096,11 +8073,11 @@
   "conn": [
    [
     "Club seasons",
-    4.0
+    3.9
    ],
    [
     "Seasons at clubs you rate low",
-    -2.9
+    -3.0
    ]
   ],
   "hard": [
@@ -8119,7 +8096,7 @@
   "gender": "M",
   "active": true,
   "aff": 0.0,
-  "Q": 25.5,
+  "Q": 25.4,
   "Qh": 0.0,
   "R": 96.2,
   "A0": 0.0,
@@ -8131,7 +8108,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -2.5
+    -3.0
    ]
   ],
   "hard": [
@@ -8162,7 +8139,7 @@
   "conn": [
    [
     "Club seasons",
-    1.0
+    0.9
    ],
    [
     "Seasons at clubs you rate low",
@@ -8216,7 +8193,7 @@
   "gender": "M",
   "active": true,
   "aff": 0.0,
-  "Q": 36.2,
+  "Q": 36.1,
   "Qh": 0.0,
   "R": 79.6,
   "A0": 0.0,
@@ -8224,7 +8201,7 @@
   "conn": [
    [
     "Club seasons",
-    2.2
+    2.0
    ],
    [
     "Seasons at clubs you rate low",
@@ -8247,7 +8224,7 @@
   "gender": "M",
   "active": true,
   "aff": 0.0,
-  "Q": 57.0,
+  "Q": 56.9,
   "Qh": 0.0,
   "R": 84.4,
   "A0": 0.0,
@@ -8255,11 +8232,11 @@
   "conn": [
    [
     "Club seasons",
-    0.1
+    0.0
    ],
    [
     "Seasons at clubs you rate low",
-    -0.2
+    -0.5
    ]
   ],
   "hard": [
@@ -8290,7 +8267,7 @@
   "conn": [
    [
     "Club seasons",
-    3.2
+    3.0
    ],
    [
     "Seasons at clubs you rate low",
@@ -8333,9 +8310,9 @@
   "gender": "M",
   "active": false,
   "aff": 0.0,
-  "Q": 40.8,
+  "Q": 40.7,
   "Qh": 0.0,
-  "R": 92.6,
+  "R": 92.7,
   "A0": 0.0,
   "K": 0.0,
   "conn": [
@@ -8364,7 +8341,7 @@
   "gender": "M",
   "active": false,
   "aff": 0.0,
-  "Q": 48.4,
+  "Q": 48.3,
   "Qh": 0.0,
   "R": 95.5,
   "A0": 0.0,
@@ -8382,7 +8359,7 @@
   "gender": "M",
   "active": false,
   "aff": 0.0,
-  "Q": 63.6,
+  "Q": 63.7,
   "Qh": 0.0,
   "R": 95.0,
   "A0": 0.0,
@@ -8390,7 +8367,7 @@
   "conn": [
    [
     "Seasons at clubs you rate low",
-    -0.2
+    -0.4
    ]
   ],
   "hard": [
@@ -8425,7 +8402,7 @@
    ],
    [
     "Seasons at clubs you rate low",
-    -1.8
+    -2.3
    ]
   ],
   "hard": [
@@ -8448,7 +8425,7 @@
   "gender": "M",
   "active": false,
   "aff": 0.0,
-  "Q": 46.4,
+  "Q": 46.3,
   "Qh": 0.0,
   "R": 83.6,
   "A0": 0.0,
@@ -8456,11 +8433,11 @@
   "conn": [
    [
     "Club seasons",
-    1.5
+    1.4
    ],
    [
     "Seasons at clubs you rate low",
-    -1.2
+    -1.5
    ]
   ],
   "hard": [
@@ -8487,7 +8464,7 @@
   "gender": "M",
   "active": false,
   "aff": 0.0,
-  "Q": 37.9,
+  "Q": 37.8,
   "Qh": 0.0,
   "R": 84.4,
   "A0": 0.0,
@@ -8495,7 +8472,7 @@
   "conn": [
    [
     "Club seasons",
-    2.0
+    1.8
    ]
   ],
   "hard": [
@@ -8510,11 +8487,38 @@
   ]
  },
  {
+  "name": "Paolo Di Canio",
+  "gender": "M",
+  "active": false,
+  "aff": 0.0,
+  "Q": 35.6,
+  "Qh": 0.0,
+  "R": 71.9,
+  "A0": 0.0,
+  "K": 0.0,
+  "conn": [
+   [
+    "Club seasons",
+    0.6
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -3.0
+   ]
+  ],
+  "hard": [
+   [
+    "Violent conduct (1998)",
+    21.0
+   ]
+  ]
+ },
+ {
   "name": "Jamie Vardy",
   "gender": "M",
   "active": true,
   "aff": 0.0,
-  "Q": 63.8,
+  "Q": 63.7,
   "Qh": 0.0,
   "R": 72.5,
   "A0": 0.0,
@@ -8522,7 +8526,7 @@
   "conn": [
    [
     "Seasons at clubs you rate low",
-    -1.1
+    -1.4
    ]
   ],
   "hard": [
@@ -8568,7 +8572,7 @@
   "gender": "M",
   "active": false,
   "aff": 0.0,
-  "Q": 40.3,
+  "Q": 40.2,
   "Qh": 0.0,
   "R": 84.0,
   "A0": 0.0,

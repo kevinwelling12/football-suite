@@ -172,3 +172,11 @@ Liverpool, Dortmund, the Timbers/Thorns and Republic (Premier League, Bundesliga
 their cups). For global clubs he wants tier 1, mid-table or better regularly, with occasional title, cup and
 Champions League runs; lower-tier interest is regional (Sacramento, Portland). The "anonymous" clubs were often
 recognisable from context, so the gut ratings are not strictly blind.
+
+# Round 13: Nations (2026-10-09)
+
+The first round about national teams (scripts/affinity/quiz13): 16 blind nation vignettes, 12 mystery-nation pairs over
+fans, conduct, history, federation, team, record, government and ancestry, and 5 direct questions.
+Findings: a free democracy beat every alternative it was paired with (record, fans + history, ancestry, conduct + fans);
+racism beat ancestry and winning; federation > team > history. The model predicted the blind ratings at rho 0.88 before
+seeing them. Details and the fit: docs/affinity.md.

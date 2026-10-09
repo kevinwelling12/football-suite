@@ -35,3 +35,6 @@ choice 16, budget 6, attention 2.
 - Nations: no direct evidence. Fit through shared club constructs; a short nation round would be needed to test.
 - Players: q10 controlled pairs (today 9 of 15), q8/q9 profile pairs (weights), q11/q12 values (Character sub-weights),
   q7 gut (r 0.34) and feedback verdicts as weak checks.
+
+## Added 2026-10-09: round 13 (nations)
+Read directly by fit.py from quiz13/raw/responses/kevin.json and quiz13/key.json (16 nation gut ratings as rounds q13g, 12 mystery-nation pairs as q13p). Nations now have their own test.

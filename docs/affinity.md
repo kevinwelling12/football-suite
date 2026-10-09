@@ -23,13 +23,13 @@ step-by-step history of the model is in git (docs/affinity.md before 2026-10-09)
    One list for every entity: racism, abuse, match-fixing, state ownership or a government's record, violence, private
    equity, leveraged buyouts, the Super League, money-league moves, betting or arms money, overspending, multi-club
    feeders, relocation. Club points are researched per club (scores.py notes); player points follow Kevin's best-worst
-   ranking (inputs.py P_POINTS; acquittal 30%, apology 60%). One scale, `hard` = 1.66: fitted separately, clubs and
-   players both landed at 1.65-1.7. If hard lines take character to 0, nothing is added back.
+   ranking (inputs.py P_POINTS; acquittal 30%, apology 60%). One scale, `hard` = 1.95 (1.66 before the nations round): fitted separately,
+   clubs and players both landed at 1.65-1.7, and a separate weight for a government's record fit no better (round 13). If hard lines take character to 0, nothing is added back.
 3. **Record** R = recent record 0-10, blended geometrically: A0 = 100 x (Q+/100)^(1-pi) x (R x 10/100)^pi, so a weak side
    drags the total down.
    - Clubs: the last 10 league seasons (performance.py, top flight and USL only; others are not judged and get the
      neutral 5). Nations: FIFA ranking percentile and the last two World Cups and continental championship
-     (research/nations_perf.json). pi = 0.085 for teams ("winning matters little").
+     (research/nations_perf.json). pi = 0.10 for teams ("winning matters little").
    - Players: Greatness 40%, Legacy 35%, Joy to watch 25%; pi = 0.4, Kevin's decision ("all while delivering
      performances worthy of the highlight reels and the history books").
 4. **Connection and roots** A = A0 + conn x (connection, capped at +/-10) + roots.
@@ -62,8 +62,20 @@ player gut ratings r 0.36 (was 0.34). Timbers above Sounders on merit (77.7 v 77
 
 What the sweep showed:
 - Kevin's stated weights generalise better than refitted ones (strong prior won on every held-out round).
-- Penalties should be harsher: freeing the hard-line scale improved every setting; it settles at 1.66.
+- Penalties should be harsher: freeing the hard-line scale improved every setting; it settled at 1.66, then 1.95 with the nations round.
 - Separate penalty scales for clubs and players fit no better than one.
+
+## Nations round (quiz 13, 2026-10-09)
+16 blind national teams rated 0-10, 12 mystery-nation pairs, 5 direct questions (scripts/affinity/quiz13).
+- Out of sample, before it saw any of it, the model ranked his 16 gut ratings at rho 0.88 (r 0.80) and called 10 of
+  12 pairs; refitted with the round, 11 of 12. His top: Denmark 8; Japan, Germany, Portugal, Netherlands 7. Bottom:
+  Croatia and Turkey 1, Iran and Argentina 2.
+- A free democracy won every pair it was in: over a top-10 record, over loud fans plus a world-title history, over a
+  large share of his ancestry, over good conduct plus loud fans. Racism beat ancestry and winning. A well-run
+  federation beat a relentless team; a relentless team beat world-champion history.
+- Direct: a government that jails journalists counts "a lot"; home nation vs ancestral nation "depends on the match";
+  players at clubs he likes "a lot more"; winning lately "a bit more"; homophobic chants "a lot less".
+- Effect: the shared hard-line scale rose to 1.95 and the team record share to 0.10; Kevin kept the US home bonus at +20.
 
 ## Decisions taken in the rebuild
 - Nations now have a record (FIFA ranking and tournaments) like clubs and players. Small nations are ranked among all
@@ -74,7 +86,5 @@ What the sweep showed:
   scripts moved to scripts/affinity/archive/. The quiz banks (quiz4-12) are history: some import the v1 player model.
 
 ## Open questions for Kevin
-- US home nation +20 (twice the largest ancestry bonus) was Claude's call in the plastic-fan check.
 - Desailly's tabloid-only allegation still counts in full; national-team switching is not tagged.
-- No quiz has ever asked about nations: a short round of blind nation vignettes would give them their own test.
 - Incident decay (old wrongs fade) is in the evidence (round 5) but club incidents carry no dates, so it isn't applied.

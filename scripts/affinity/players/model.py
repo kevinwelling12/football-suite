@@ -28,8 +28,17 @@ def seasons(c):
     return max(0.5, (b - a)) if a else 0
 
 # Money leagues (Kevin, 2026-10-06): Saudi, Qatari, Emirati and Chinese Super League clubs; inputs.py prices the move.
-MONEY = re.compile(r"\bal[- ](nassr|hilal|ittihad|ahli|ettifaq|diriyah|qadsiah|shabab|sadd|duhail|arabi|gharafa|rayyan|wasl|ain|jazira|wahda)\b|"
-                   r"shanghai (shenhua|sipg|port)|guangzhou (evergrande|fc)|jiangsu suning|hebei|beijing guoan|tianjin|dalian (yifang|pro)|shandong")
+# Widened 2026-10-09 (Iniesta's Emirates Club season was missed; Kevin: "Gotta be consistent").
+MONEY = re.compile(
+    # Saudi Pro League
+    r"\bal[- ]?(nassr|hilal|ittihad|ahli|ettifaq|fateh|taawoun|raed|fayha|feiha|khaleej|okhdood|wehda|riyadh|orobah|hazem|kholood|qadsiah|shabab|diriyah|najmah|akhdoud)\b|\b(damac|abha|neom)\b|"
+    # UAE Pro League
+    r"\bemirates club\b|\bsharjah\b|\bbaniyas\b|\bajman\b|khor fakkan|\bkalba\b|\bal[- ]?(wasl|ain|jazira|wahda|nasr|dhafra|bataeh|urooba)\b|shabab al[- ]ahli|"
+    # Qatar Stars League
+    r"\bal[- ]?(sadd|duhail|arabi|gharafa|rayyan|wakrah|khor|sailiya|markhiya|shamal)\b|\bqatar sc\b|umm salal|"
+    # Chinese Super League
+    r"shanghai (shenhua|sipg|port)|guangzhou (evergrande|fc)|jiangsu suning|hebei|beijing guoan|tianjin|dalian (yifang|pro)|shandong|"
+    r"shenzhen fc|chongqing|hangzhou greentown|wuhan|changchun yatai|henan")
 
 def load(raw=False):
     """Facts and scores. Unless raw, the independent audit is applied: merged scores (audit/merged.json) and incident

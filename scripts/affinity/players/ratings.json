@@ -1,23 +1,5 @@
 [
  {
-  "name": "Andrés Iniesta",
-  "gender": "M",
-  "active": false,
-  "aff": 97.0,
-  "Q": 93.3,
-  "Qh": 93.3,
-  "R": 93.1,
-  "A0": 93.2,
-  "K": 3.8,
-  "conn": [
-   [
-    "Club seasons",
-    3.7
-   ]
-  ],
-  "hard": []
- },
- {
   "name": "Christine Sinclair",
   "gender": "W",
   "active": false,
@@ -159,6 +141,29 @@
    ]
   ],
   "hard": []
+ },
+ {
+  "name": "Andrés Iniesta",
+  "gender": "M",
+  "active": false,
+  "aff": 89.7,
+  "Q": 93.3,
+  "Qh": 81.4,
+  "R": 93.1,
+  "A0": 85.9,
+  "K": 3.8,
+  "conn": [
+   [
+    "Club seasons",
+    3.7
+   ]
+  ],
+  "hard": [
+   [
+    "Money-league move (2023)",
+    6
+   ]
+  ]
  },
  {
   "name": "Megan Rapinoe",

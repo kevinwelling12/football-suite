@@ -1,0 +1,2432 @@
+[
+ {
+  "name": "Frederik Rønnow",
+  "full_name": "Frederik Riis Rønnow",
+  "gender": "M",
+  "active": true,
+  "born": 1992,
+  "nation": "Denmark",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "AC Horsens",
+    "from": 2010,
+    "to": 2015,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Esbjerg fB (loan)",
+    "from": 2013,
+    "to": 2014,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Brøndby IF",
+    "from": 2015,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Eintracht Frankfurt",
+    "from": 2018,
+    "to": 2021,
+    "apps": 11,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Schalke 04 (loan)",
+    "from": 2020,
+    "to": 2021,
+    "apps": 11,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2021,
+    "to": null,
+    "apps": 130,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Denmark",
+   "caps": 10,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 Danish Cup (2018, Brøndby)",
+  "awards": "Brøndby Player of the Year 2016; Horsens Player of the Year 2012-13",
+  "moments": [
+   "2018: in Denmark's World Cup squad",
+   "Union's first-choice keeper since 2021-22, including the 2023-24 Champions League season"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium: steady keeper",
+  "ego": "neutral: low public profile",
+  "fan_bond": "Union regular for five-plus seasons, including relegation fights",
+  "loyalty_notes": "Union since July 2021 (6th season); lost his place at Frankfurt and Schalke before that; retired from Denmark Nov 2024, recalled Mar 2026 for the World Cup play-offs when Schmeichel and Jørgensen were injured (Denmark lost the play-off final)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2021-; Denmark (rated 78); Schalke loan 2020-21",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Frederik_R%C3%B8nnow"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Felix Uduokhai",
+  "full_name": "Felix Ohis Uduokhai",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Germany",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Erzgebirge Aue (youth)",
+    "from": 2008,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "1860 Munich",
+    "from": 2016,
+    "to": 2017,
+    "apps": 21,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Wolfsburg",
+    "from": 2017,
+    "to": 2020,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "FC Augsburg",
+    "from": 2019,
+    "to": 2024,
+    "apps": 120,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Beşiktaş",
+    "from": 2024,
+    "to": 2026,
+    "apps": 36,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2026,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "FC Augsburg",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "UEFA U21 Euro runner-up 2019",
+  "moments": [
+   "2021: scored for Germany v Saudi Arabia at the Tokyo Olympics",
+   "Nov 2020: called up by Germany, uncapped"
+  ],
+  "style": [
+   "centre-back",
+   "aerial"
+  ],
+  "work_rate": "medium: solid defender",
+  "ego": "neutral: low public profile",
+  "fan_bond": "",
+  "loyalty_notes": "Five seasons at Augsburg (loan 2019-20, then permanent, reported €9m); Beşiktaş loan 2024-25 made permanent (reported €5m); joined Union 27 Aug 2026 (reported €1.5m); German mother, Nigerian father",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin (rated 86)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Felix_Uduokhai"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Andrik Markgraf",
+  "full_name": "Andrik Markgraf",
+  "gender": "M",
+  "active": true,
+  "born": 2006,
+  "nation": "Germany",
+  "positions": [
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Union Berlin",
+    "from": 2016,
+    "to": null,
+    "apps": 0,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "left-back",
+   "attacking full-back"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "Berlin-area local, Union since U12",
+  "loyalty_notes": "Union academy since 2016 (from SC Eintracht Miersdorf/Zeuthen); first professional contract summer 2025, extended June 2026; serious knee injury in a July 2026 friendly, out long-term; no competitive senior appearance found",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2016- (academy)",
+  "sources": [
+   "https://www.fc-union-berlin.de/en/news/from-the-academy-to-the-pro-s-union-give-andrik-markgraf-a-professional-contract--ARsCp9",
+   "https://www.volksstimme.de/panorama/knie-operation-markgraf-fallt-bei-union-berlin-lange-aus-4285799"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Zeno Van Den Bosch",
+  "full_name": "Zeno Van Den Bosch",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "Belgium",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Royal Antwerp",
+    "from": 2016,
+    "to": 2026,
+    "apps": 116,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2026,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Royal Antwerp",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Belgium",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 Belgian Pro League (2023), 1 Belgian Cup (2023), 1 Belgian Super Cup (2023)",
+  "awards": "",
+  "moments": [
+   "2023: came on in the cup final as Antwerp completed the league-and-cup double"
+  ],
+  "style": [
+   "centre-back",
+   "tall"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Beerschot and Lierse youth, Antwerp academy from 13 (2016), 140 first-team games; joined Union on a free when his contract ended (June 2026); Belgium U21",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin (rated 86)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Zeno_Van_Den_Bosch",
+   "https://ms-aktuell.de/welt/zeno-van-den-bosch-union-berlin/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Marvin Friedrich",
+  "full_name": "Marvin Friedrich",
+  "gender": "M",
+  "active": true,
+  "born": 1995,
+  "nation": "Germany",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Schalke 04",
+    "from": 2011,
+    "to": 2016,
+    "apps": 7,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "FC Augsburg",
+    "from": 2016,
+    "to": 2018,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2018,
+    "to": 2022,
+    "apps": 124,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2022,
+    "to": 2026,
+    "apps": 83,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2026,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "UEFA U19 Euro 2014",
+  "awards": "kicker Bundesliga team of the season 2020-21",
+  "moments": [
+   "23 May 2019: headed Union's equaliser in the 2-2 promotion play-off first leg at Stuttgart; Union went up on away goals after a 0-0 return, their first Bundesliga promotion",
+   "2020-21: kicker team of the season as Union reached Europe"
+  ],
+  "style": [
+   "centre-back",
+   "aerial"
+  ],
+  "work_rate": "medium-high: commanding defender",
+  "ego": "neutral",
+  "fan_bond": "Part of Union's promotion side; welcomed back in 2026",
+  "loyalty_notes": "Joined Union from Augsburg Jan 2018; Augsburg used a buy-back clause in 2019 and sold him straight back to Union (reported €2.5m); left for Gladbach Jan 2022; four years there; returned to Union on a free June 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2018-22, 2026-; Schalke academy; Gladbach 2022-26",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marvin_Friedrich",
+   "https://fussballstadt.com/stuttgart-v-union-berlin-bundesliga-relegation-1819"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Aljoscha Kemlein",
+  "full_name": "Aljoscha Kemlein",
+  "gender": "M",
+  "active": true,
+  "born": 2004,
+  "nation": "Germany",
+  "positions": [
+   "CDM"
+  ],
+  "clubs": [
+   {
+    "club": "SC Berliner Amateure (youth)",
+    "from": 2015,
+    "to": 2016,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2016,
+    "to": null,
+    "apps": 51,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "FC St. Pauli (loan)",
+    "from": 2024,
+    "to": 2024,
+    "apps": 17,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "2. Bundesliga (2024, St. Pauli, on loan)",
+  "awards": "",
+  "moments": [
+   "2025-26: established Union starter at 21 (30 league games)"
+  ],
+  "style": [
+   "holding midfielder"
+  ],
+  "work_rate": "high: defensive midfielder",
+  "ego": "neutral",
+  "fan_bond": "Berlin-born Union academy graduate",
+  "loyalty_notes": "Union academy from age 12 (2016); first pro contract Sept 2022; debut Aug 2023; half-season loan to St. Pauli 2024; Germany U21",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2016- (academy)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Aljoscha_Kemlein"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Oliver Burke",
+  "full_name": "Oliver Jasen Burke",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Scotland",
+  "positions": [
+   "RW",
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Nottingham Forest",
+    "from": 2005,
+    "to": 2016,
+    "apps": 25,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bradford City (loan)",
+    "from": 2015,
+    "to": 2015,
+    "apps": 2,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "RB Leipzig",
+    "from": 2016,
+    "to": 2017,
+    "apps": 25,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "West Bromwich Albion",
+    "from": 2017,
+    "to": 2020,
+    "apps": 20,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Celtic (loan)",
+    "from": 2019,
+    "to": 2019,
+    "apps": 14,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Alavés (loan)",
+    "from": 2019,
+    "to": 2020,
+    "apps": 31,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Sheffield United",
+    "from": 2020,
+    "to": 2022,
+    "apps": 28,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Millwall (loan)",
+    "from": 2021,
+    "to": 2023,
+    "apps": 31,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Werder Bremen",
+    "from": 2022,
+    "to": 2025,
+    "apps": 41,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Birmingham City (loan)",
+    "from": 2023,
+    "to": 2024,
+    "apps": 21,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2025,
+    "to": null,
+    "apps": 29,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Nottingham Forest",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Scotland",
+   "caps": 13,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "1 Scottish Premiership (2019, Celtic loan)",
+  "awards": "",
+  "moments": [
+   "2016: £13m move to RB Leipzig, then a record fee for a Scottish player (WBA paid £15m in 2017)",
+   "21 Sep 2025: hat-trick in Union's 4-3 win at Frankfurt, first Scot to score a Bundesliga hat-trick"
+  ],
+  "style": [
+   "pace",
+   "direct runner",
+   "winger/forward"
+  ],
+  "work_rate": "medium-high: direct, physical",
+  "ego": "neutral",
+  "fan_bond": "Forest fans angry at his 2016 sale (aimed at the owner); left out of Scotland's 2026 World Cup squad despite calls for a recall",
+  "loyalty_notes": "Forest academy 2005-16; then eleven spells including loans in ten years; free move to Werder 2022; Union since May 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2025-; Scotland (rated 84); Werder 2022-25; Celtic loan 2019",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Oliver_Burke",
+   "https://global.espn.com/football/story/_/id/48814281/scotland-world-cup-squad-announced-scott-mctominay-ross-stewart"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Rani Khedira",
+  "full_name": "Rani Khedira",
+  "gender": "M",
+  "active": true,
+  "born": 1994,
+  "nation": "Tunisia",
+  "positions": [
+   "CDM"
+  ],
+  "clubs": [
+   {
+    "club": "VfB Stuttgart",
+    "from": 2005,
+    "to": 2014,
+    "apps": 9,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "RB Leipzig",
+    "from": 2014,
+    "to": 2017,
+    "apps": 51,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "FC Augsburg",
+    "from": 2017,
+    "to": 2021,
+    "apps": 119,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2021,
+    "to": null,
+    "apps": 153,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "Union Berlin vice-captain (2026-27)",
+  "national": {
+   "team": "Tunisia",
+   "caps": 6,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "27 May 2023: scored the 1-0 winner v Werder Bremen on the final day, sealing Union's first Champions League place",
+   "2026: played all three of Tunisia's World Cup group matches"
+  ],
+  "style": [
+   "holding midfielder",
+   "ball winner",
+   "balance"
+  ],
+  "work_rate": "high: defensive anchor",
+  "ego": "humble: has said he wants his own path, not his brother Sami's",
+  "fan_bond": "Union mainstay through the 2023 Champions League run and later relegation fights; vice-captain",
+  "loyalty_notes": "Union since 2021 (free from Augsburg, 6th season); a summer 2026 move was reported but ruled out; declined Tunisia in 2018 ('born and raised in Germany'), switched allegiance Mar 2026, retired from Tunisia after the World Cup",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2021-; Stuttgart academy",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rani_Khedira",
+   "https://www.flashscore.de/news/nach-reiflicher-uberlegung-rani-khedira-tritt-aus-tunesischer-nationalelf-zuruck/4SXl3Hln/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Livan Burcu",
+  "full_name": "Livan Baha Burcu",
+  "gender": "M",
+  "active": true,
+  "born": 2004,
+  "nation": "Turkey",
+  "positions": [
+   "LW",
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Eintracht Frankfurt (youth)",
+    "from": 2014,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "SV Sandhausen",
+    "from": 2022,
+    "to": 2024,
+    "apps": 28,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2024,
+    "to": null,
+    "apps": 22,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "1. FC Magdeburg (loan)",
+    "from": 2024,
+    "to": 2025,
+    "apps": 31,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Eintracht Frankfurt (youth)",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Turkey",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "winger",
+   "dribbler"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Frankfurt-born; Eintracht youth, brief Beşiktaş youth spell 2022, Sandhausen; signed by Union July 2024 and loaned straight to Magdeburg; Turkey U21",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin (rated 86)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Livan_Burcu"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jeong Woo-yeong",
+  "full_name": "Jeong Woo-yeong",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "South Korea",
+  "positions": [
+   "AM",
+   "RW"
+  ],
+  "clubs": [
+   {
+    "club": "Incheon United (youth)",
+    "from": 2010,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bayern Munich",
+    "from": 2018,
+    "to": 2019,
+    "apps": 1,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SC Freiburg",
+    "from": 2019,
+    "to": 2023,
+    "apps": 84,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Bayern Munich II (loan)",
+    "from": 2019,
+    "to": 2020,
+    "apps": 15,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfB Stuttgart",
+    "from": 2023,
+    "to": 2025,
+    "apps": 26,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2024,
+    "to": null,
+    "apps": 54,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "SC Freiburg",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "South Korea",
+   "caps": 22,
+   "goals": 4,
+   "captain": false
+  },
+  "honours": "2022 Asian Games gold (2023), AFC U23 Championship 2020; Bundesliga 2019 (1 app, Bayern)",
+  "awards": "Asian Games top scorer (8 goals)",
+  "moments": [
+   "2023: top scorer with 8 goals as South Korea won Asian Games gold",
+   "4 May 2024: scored in Stuttgart's 3-1 win over Bayern"
+  ],
+  "style": [
+   "attacking midfielder",
+   "presser"
+  ],
+  "work_rate": "high: known for pressing",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Freiburg four years (20-24); Stuttgart one season; Union on loan 2024-25, permanent May 2025; caps figure as of Mar 2024, in 2022 World Cup squad",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2024-; Freiburg 2019-23; Stuttgart 2023-25; Bayern 2018-19",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jeong_Woo-yeong"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "András Schäfer",
+  "full_name": "András Schäfer",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Hungary",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Haladás (youth)",
+    "from": 2010,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "MTK Budapest",
+    "from": 2014,
+    "to": 2019,
+    "apps": 44,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Genoa",
+    "from": 2019,
+    "to": 2020,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chievo (loan)",
+    "from": 2019,
+    "to": 2020,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "DAC Dunajská Streda",
+    "from": 2020,
+    "to": 2022,
+    "apps": 52,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2022,
+    "to": null,
+    "apps": 102,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Hungary",
+   "caps": 49,
+   "goals": 5,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Hungarian Footballer of the Year 2021",
+  "moments": [
+   "23 Jun 2021: scored v Germany in Munich at Euro 2020 (2-2)",
+   "Dec 2024: gave about HUF 15m (~€37k) towards the fund that saved boyhood club Haladás from bankruptcy"
+  ],
+  "style": [
+   "box-to-box",
+   "combative"
+  ],
+  "work_rate": "high: combative runner; sent off twice for rough play (2024, 2026, 2-match ban)",
+  "ego": "neutral",
+  "fan_bond": "Strong bond with Szombathely/Haladás; signed a letter of intent to buy a 1% share of the club company (Jan 2025, outcome not reported)",
+  "loyalty_notes": "Union since Jan 2022 (5th year), through a broken leg (2023) and relegation fights",
+  "causes": [
+   "Dec 2024: donated about HUF 15m to help save his boyhood club Haladás from bankruptcy"
+  ],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2022-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andr%C3%A1s_Sch%C3%A4fer",
+   "https://telex.hu/sport/2025/01/01/schafer-andras-haladas-adakozas-gyerekek",
+   "https://www.origo.hu/sport/sport-futball/2025/01/schafer-andras-szombathelyi-haladas-tulajdonresz"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Leopold Querfeld",
+  "full_name": "Leopold Querfeld",
+  "gender": "M",
+  "active": true,
+  "born": 2003,
+  "nation": "Austria",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Rapid Wien",
+    "from": 2012,
+    "to": 2024,
+    "apps": 56,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2024,
+    "to": null,
+    "apps": 61,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Rapid Wien",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Austria",
+   "caps": 5,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "Bundesliga Goal of the Season 2024-25",
+  "moments": [
+   "2024-25: Bundesliga Goal of the Season",
+   "2024: in Austria's Euro 2024 squad"
+  ],
+  "style": [
+   "ball-playing centre-back",
+   "goal threat"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Rapid Wien academy from 8 (2012), first team 2021-24; Union since June 2024 at 20",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2024-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Leopold_Querfeld"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Tom Rothe",
+  "full_name": "Tom Alexander Rothe",
+  "gender": "M",
+  "active": true,
+  "born": 2004,
+  "nation": "Germany",
+  "positions": [
+   "LB",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Borussia Dortmund",
+    "from": 2021,
+    "to": 2024,
+    "apps": 4,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Holstein Kiel (loan)",
+    "from": 2023,
+    "to": 2024,
+    "apps": 33,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2024,
+    "to": null,
+    "apps": 51,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Apr 2022: scored in a Bundesliga game for Dortmund v Wolfsburg aged 17 (Wikipedia, citation weak)",
+   "2023-24: regular as Holstein Kiel won promotion to the Bundesliga"
+  ],
+  "style": [
+   "attacking left-back",
+   "tall"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Dortmund youth from 2021, three senior UCL apps; loan to Kiel; Union since Aug 2024 at 19; Germany U21",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2024-; Dortmund academy/first team 2021-24",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tom_Rothe"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Derrick Köhn",
+  "full_name": "Derrick Arthur Köhn",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Ghana",
+  "positions": [
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Hamburger SV (youth)",
+    "from": 2013,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bayern Munich II",
+    "from": 2017,
+    "to": 2020,
+    "apps": 78,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Willem II",
+    "from": 2020,
+    "to": 2022,
+    "apps": 62,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hannover 96",
+    "from": 2022,
+    "to": 2024,
+    "apps": 53,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Galatasaray",
+    "from": 2024,
+    "to": 2025,
+    "apps": 14,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Werder Bremen (loan)",
+    "from": 2024,
+    "to": 2025,
+    "apps": 27,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2025,
+    "to": null,
+    "apps": 31,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Bayern Munich II",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Ghana",
+   "caps": 3,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 Süper Lig (2024, Galatasaray)",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "attacking left-back",
+   "crosser"
+  ],
+  "work_rate": "medium-high",
+  "ego": "neutral",
+  "fan_bond": "Left out of Ghana's final 2026 World Cup squad (reported), publicly backed the team",
+  "loyalty_notes": "Hamburg-born; moves every 2 years 2020-25; Union since Aug 2025 (€4m from Galatasaray); sent off Jan 2026 for rough play, 2-match ban",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2025-; HSV academy; Werder loan 2024-25",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Derrick_K%C3%B6hn",
+   "https://www.dfb.de/news/zwei-spiele-sperre-fuer-union-berlins-koehn"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Josip Juranović",
+  "full_name": "Josip Juranović",
+  "gender": "M",
+  "active": true,
+  "born": 1995,
+  "nation": "Croatia",
+  "positions": [
+   "RB",
+   "RWB"
+  ],
+  "clubs": [
+   {
+    "club": "NK Dubrava",
+    "from": 2013,
+    "to": 2015,
+    "apps": 36,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Hajduk Split",
+    "from": 2015,
+    "to": 2020,
+    "apps": 136,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Legia Warsaw",
+    "from": 2020,
+    "to": 2021,
+    "apps": 28,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Celtic",
+    "from": 2021,
+    "to": 2023,
+    "apps": 36,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2023,
+    "to": null,
+    "apps": 64,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Hajduk Split",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Croatia",
+   "caps": 40,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "2022 World Cup third place; 1 Ekstraklasa (2021); 1 Scottish Premiership (2022), 1 Scottish League Cup (2022)",
+  "awards": "PFA Scotland Team of the Year 2021-22",
+  "moments": [
+   "2022 World Cup: Croatia's first-choice right-back as they finished third"
+  ],
+  "style": [
+   "attacking full-back",
+   "crosser",
+   "penalty taker"
+  ],
+  "work_rate": "high: overlapping full-back",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Five years at Hajduk; one season Legia, 18 months Celtic; Union since Jan 2023 (reported £7.5m), 4th year",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2023-; Celtic 2021-23",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Josip_Juranovi%C4%87"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Janik Haberer",
+  "full_name": "Janik Haberer",
+  "gender": "M",
+  "active": true,
+  "born": 1994,
+  "nation": "Germany",
+  "positions": [
+   "CM",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "SpVgg Unterhaching",
+    "from": 2011,
+    "to": 2014,
+    "apps": 53,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "1899 Hoffenheim",
+    "from": 2014,
+    "to": 2016,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Bochum (loan)",
+    "from": 2015,
+    "to": 2016,
+    "apps": 33,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SC Freiburg",
+    "from": 2016,
+    "to": 2022,
+    "apps": 158,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2022,
+    "to": null,
+    "apps": 112,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "SC Freiburg",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "UEFA U21 Euro 2017",
+  "awards": "",
+  "moments": [
+   "18 May 2024: stoppage-time winner v his old club Freiburg on the final day kept Union in the Bundesliga",
+   "Oct 2022: both goals in Union's 2-0 win over Dortmund"
+  ],
+  "style": [
+   "versatile midfielder",
+   "runner"
+  ],
+  "work_rate": "high: versatile, team role",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Six seasons at Freiburg (22-28); Union since 2022 (5th season); reported possible exit summer 2026, stayed",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2022-; Freiburg 2016-22",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Janik_Haberer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Michel Aebischer",
+  "full_name": "Michel Aebischer",
+  "gender": "M",
+  "active": true,
+  "born": 1997,
+  "nation": "Switzerland",
+  "positions": [
+   "CDM",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Young Boys",
+    "from": 2011,
+    "to": 2022,
+    "apps": 133,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Bologna",
+    "from": 2022,
+    "to": 2026,
+    "apps": 82,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Pisa (loan)",
+    "from": 2025,
+    "to": 2026,
+    "apps": 35,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2026,
+    "to": null,
+    "apps": 4,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Young Boys",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Switzerland",
+   "caps": 47,
+   "goals": 2,
+   "captain": false
+  },
+  "honours": "3 Swiss Super League (2018-20), 1 Swiss Cup (2020); 1 Coppa Italia (2025, Bologna)",
+  "awards": "Swiss Super League Team of the Year 2019-20, 2020-21",
+  "moments": [
+   "15 Jun 2024: scored and assisted in Switzerland's 3-1 Euro 2024 win over Hungary",
+   "2025: Coppa Italia with Bologna"
+  ],
+  "style": [
+   "midfielder",
+   "two-way"
+  ],
+  "work_rate": "high: tidy two-way midfielder",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Young Boys youth and first team to 25 (debut 2016); Bologna 2022-26 (last season on loan at Pisa); joined Union Aug 2026; in Switzerland's 2022 and 2026 World Cup squads",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Michel_Aebischer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Tim Skarke",
+  "full_name": "Tim Skarke",
+  "gender": "M",
+  "active": true,
+  "born": 1996,
+  "nation": "Germany",
+  "positions": [
+   "RW",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "1. FC Heidenheim",
+    "from": 2008,
+    "to": 2019,
+    "apps": 62,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "SV Darmstadt 98",
+    "from": 2019,
+    "to": 2022,
+    "apps": 76,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2022,
+    "to": null,
+    "apps": 62,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Schalke 04 (loan)",
+    "from": 2023,
+    "to": 2023,
+    "apps": 9,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SV Darmstadt 98 (loan)",
+    "from": 2023,
+    "to": 2024,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "1. FC Heidenheim",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "winger",
+   "runner"
+  ],
+  "work_rate": "medium-high",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Heidenheim-born, academy and four senior seasons there; Darmstadt three; Union since 2022 with two loans away; reported possible exit summer 2026, stayed",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2022-; Schalke loan 2023",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tim_Skarke"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Andrej Ilić",
+  "full_name": "Andrej Ilić",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Serbia",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Partizan (youth)",
+    "from": 2008,
+    "to": 2018,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Napredak Kruševac",
+    "from": 2018,
+    "to": 2020,
+    "apps": 29,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Javor Ivanjica",
+    "from": 2020,
+    "to": 2021,
+    "apps": 27,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "RFS",
+    "from": 2021,
+    "to": 2023,
+    "apps": 65,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Vålerenga",
+    "from": 2023,
+    "to": 2024,
+    "apps": 15,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Lille",
+    "from": 2024,
+    "to": 2025,
+    "apps": 2,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2024,
+    "to": null,
+    "apps": 48,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Serbia",
+   "caps": 1,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 Latvian Higher League (2021), 1 Latvian Cup (2021)",
+  "awards": "",
+  "moments": [
+   "2024-25: seven Bundesliga goals on loan, made permanent June 2025"
+  ],
+  "style": [
+   "target striker",
+   "aerial"
+  ],
+  "work_rate": "medium-high",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Six clubs by 24; Union on loan Aug 2024, permanent June 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2024-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andrej_Ili%C4%87"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Robert Skov",
+  "full_name": "Robert Faxe Skov",
+  "gender": "M",
+  "active": true,
+  "born": 1996,
+  "nation": "Denmark",
+  "positions": [
+   "LW",
+   "LWB"
+  ],
+  "clubs": [
+   {
+    "club": "Silkeborg IF",
+    "from": 2012,
+    "to": 2018,
+    "apps": 99,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "FC Copenhagen",
+    "from": 2018,
+    "to": 2019,
+    "apps": 54,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "TSG Hoffenheim",
+    "from": 2019,
+    "to": 2024,
+    "apps": 114,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2024,
+    "to": null,
+    "apps": 19,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Silkeborg IF",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Denmark",
+   "caps": 14,
+   "goals": 7,
+   "captain": false
+  },
+  "honours": "1 Danish Superliga (2019), 1 Danish 1st Division (2014)",
+  "awards": "Superliga Player of the Year and top scorer 2018-19 (record 29 goals)",
+  "moments": [
+   "2018-19: Superliga-record 29 goals for Copenhagen",
+   "2016 Olympics: scored the winner v South Africa"
+  ],
+  "style": [
+   "left-footed",
+   "free-kick taker",
+   "two-footed dribbler"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Silkeborg academy and first team to 21; Copenhagen 18 months; Hoffenheim five years (reported €10m), left at contract end; Union since Sept 2024; in Denmark's Euro 2020 and 2022 World Cup squads",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2024-; Denmark (rated 78)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Robert_Skov"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Carl Klaus",
+  "full_name": "Carl Friedrich Georg Klaus",
+  "gender": "M",
+  "active": true,
+  "born": 1994,
+  "nation": "Germany",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "VfB Stuttgart (youth)",
+    "from": 2012,
+    "to": 2013,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "VfL Wolfsburg II",
+    "from": 2013,
+    "to": 2015,
+    "apps": 9,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Stuttgarter Kickers",
+    "from": 2015,
+    "to": 2016,
+    "apps": 12,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlético Baleares",
+    "from": 2016,
+    "to": 2019,
+    "apps": 53,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SV Darmstadt 98",
+    "from": 2019,
+    "to": 2021,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "1. FC Nürnberg",
+    "from": 2021,
+    "to": 2024,
+    "apps": 23,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2024,
+    "to": null,
+    "apps": 4,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Atlético Baleares",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "goalkeeper"
+  ],
+  "work_rate": "medium: backup keeper",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Journeyman: seven clubs including three years in Spain's third tier; Union backup since July 2024",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2024-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carl_Klaus"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Marin Ljubičić",
+  "full_name": "Marin Ljubičić",
+  "gender": "M",
+  "active": true,
+  "born": 2002,
+  "nation": "Croatia",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Hajduk Split",
+    "from": 2014,
+    "to": 2022,
+    "apps": 37,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "LASK",
+    "from": 2022,
+    "to": 2025,
+    "apps": 75,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2025,
+    "to": null,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fortuna Düsseldorf (loan)",
+    "from": 2026,
+    "to": 2026,
+    "apps": 10,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Hajduk Split",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Croatia",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 Croatian Cup (2022, Hajduk)",
+  "awards": "",
+  "moments": [
+   "Mar 2021: winning goal on his league debut, Hajduk's Dalmatian derby v Šibenik"
+  ],
+  "style": [
+   "striker",
+   "pace"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Hajduk youth (Split-born; academy start year unclear); LASK 2022-25; Union since Feb 2025, loaned to Düsseldorf spring 2026; reported possible exit summer 2026, stayed; Croatia U21 19 caps 9 goals",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marin_Ljubi%C4%8Di%C4%87_(footballer,_born_2002)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Christopher Trimmel",
+  "full_name": "Christopher Trimmel",
+  "gender": "M",
+  "active": true,
+  "born": 1987,
+  "nation": "Austria",
+  "positions": [
+   "RB",
+   "RWB"
+  ],
+  "clubs": [
+   {
+    "club": "Rapid Wien",
+    "from": 2008,
+    "to": 2014,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2014,
+    "to": null,
+    "apps": null,
+    "captain": true,
+    "academy": false
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 12,
+  "one_club": false,
+  "captaincy": "Union Berlin captain 2018-",
+  "national": {
+   "team": "Austria",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "Captained Union's first Bundesliga promotion (2019) and Champions League debut (2023)"
+  ],
+  "style": [
+   "crossing wing-back",
+   "set-piece taker"
+  ],
+  "work_rate": "high",
+  "ego": "humble",
+  "fan_bond": "Union icon; contract extension signed at the club's 60th birthday (Jan 2026)",
+  "loyalty_notes": "13th season at Union in 2026-27, aged 39",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin (rated 86)",
+  "sources": [
+   "https://www.fc-union-berlin.de/en/news/trimmel-and-the-wild-13-vom0do",
+   "https://www.bundesliga.com/en/bundesliga/news/captains-2026-2027-manuel-neuer-emre-can-bayern-munich-borussia-dortmund-38534"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Emmanuel Latte Lath",
+  "full_name": "Emmanuel Delan Junior Latte Lath",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Ivory Coast",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Atalanta",
+    "from": 2016,
+    "to": 2023,
+    "apps": 0,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Pro Patria (loan)",
+    "from": 2020,
+    "to": 2021,
+    "apps": 34,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SPAL (loan)",
+    "from": 2021,
+    "to": 2022,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "St. Gallen (loan)",
+    "from": 2022,
+    "to": 2023,
+    "apps": 31,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Middlesbrough",
+    "from": 2023,
+    "to": 2025,
+    "apps": 59,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Atlanta United",
+    "from": 2025,
+    "to": 2026,
+    "apps": 44,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin (loan)",
+    "from": 2026,
+    "to": null,
+    "apps": 4,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Middlesbrough",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Ivory Coast",
+   "caps": 4,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "EFL Championship Player of the Month Apr 2024",
+  "moments": [
+   "2023-24: Middlesbrough's top scorer (18 goals)",
+   "Feb 2025: MLS-record transfer to Atlanta United (reported $22m), scored twice on debut"
+  ],
+  "style": [
+   "striker",
+   "pace",
+   "runs in behind"
+  ],
+  "work_rate": "medium-high",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Moved from Abidjan to Cremona aged 8; Atalanta youth, then eight loans in Italy and Switzerland 2017-23; Middlesbrough 18 months; Atlanta United 18 months; on loan at Union 2026-27 with option to buy",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2026- (loan)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Emmanuel_Latte_Lath"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kastriot Imeri",
+  "full_name": "Kastriot Imeri",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Switzerland",
+  "positions": [
+   "AM",
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Servette",
+    "from": 2013,
+    "to": 2022,
+    "apps": 135,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Young Boys",
+    "from": 2022,
+    "to": 2026,
+    "apps": 63,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "FC Thun (loan)",
+    "from": 2025,
+    "to": 2026,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2026,
+    "to": null,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Servette",
+  "longest_years": 9,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Switzerland",
+   "caps": 1,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "Swiss Challenge League 2019 (Servette); Swiss Super League + Cup 2023 (Young Boys); Swiss Super League 2026 (Thun)",
+  "awards": "Swiss Super League Young Player of the Year 2020-21",
+  "moments": [
+   "2025-26: on loan, helped newly promoted Thun to their first-ever Swiss title",
+   "Nov 2024: scored on his Champions League debut v Shakhtar"
+  ],
+  "style": [
+   "creative midfielder",
+   "left-footed"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Geneva-born, of Kosovo-Albanian descent; Servette academy and first team 2013-22 (debut at 16); Young Boys 2022 (Swiss-record CHF 3.5m); joined Union 1 Sep 2026, reuniting with his Thun coach Lustrinelli",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2026-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kastriot_Imeri"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Matheo Raab",
+  "full_name": "Matheo Raab",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "Germany",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Eintracht Trier (youth)",
+    "from": 2016,
+    "to": 2017,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "1. FC Kaiserslautern",
+    "from": 2017,
+    "to": 2022,
+    "apps": 38,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hamburger SV",
+    "from": 2022,
+    "to": 2025,
+    "apps": 18,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2025,
+    "to": null,
+    "apps": 2,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "1. FC Kaiserslautern",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "2021-22: Kaiserslautern's first-choice keeper (34 games) in their promotion season"
+  ],
+  "style": [
+   "goalkeeper"
+  ],
+  "work_rate": "medium: backup keeper",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Kaiserslautern five years (reserves to starter); HSV backup three years; Union backup since July 2025",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2025-; HSV 2022-25",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Matheo_Raab"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Mekhi Gray",
+  "full_name": "Mekhi Gray",
+  "gender": "M",
+  "active": true,
+  "born": 2007,
+  "nation": "Jamaica",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "BFC Dynamo (youth)",
+    "from": 2019,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2020,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Jamaica",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "tall striker",
+   "target man"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Born in Kingston, Jamaica; German-Jamaican, grew up in Berlin (Weißenseer FC from 2014, BFC Dynamo); Union youth since 2020 (U14-U19); contract extended Dec 2025; senior appearances not confirmed",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2020- (academy)",
+  "sources": [
+   "https://www.fc-union-berlin.de/en/news/mekhi-gray-remains-steadfast-HbVmR7",
+   "https://www.fc-union-berlin.de/en/news/mekhi-grays-contract-extended-hwBsy5"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Stanley Nsoki",
+  "full_name": "Stanley Pierre Nsoki",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "France",
+  "positions": [
+   "CB",
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Paris Saint-Germain",
+    "from": 2014,
+    "to": 2019,
+    "apps": 13,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "OGC Nice",
+    "from": 2019,
+    "to": 2021,
+    "apps": 35,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Club Brugge",
+    "from": 2021,
+    "to": 2022,
+    "apps": 33,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "TSG Hoffenheim",
+    "from": 2022,
+    "to": 2026,
+    "apps": 52,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2025,
+    "to": null,
+    "apps": 13,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "TSG Hoffenheim",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "2 Ligue 1 (2018, 2019), 1 Coupe de France (2018), 1 Coupe de la Ligue (2018) (PSG squad); Belgian Pro League 2022 (Brugge)",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "centre-back",
+   "left-footed"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "PSG academy; Nice (€12.5m, 2019), Brugge one season, Hoffenheim; Union on loan 2025-26, permanent July 2026 (reported €1.5m)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "PSG academy and first team (Qatar state-owned) 2014-19",
+    "type": "b11"
+   }
+  ],
+  "links": "Union Berlin 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stanley_Nsoki"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Julien Friedrich",
+  "full_name": "Julien Friedrich",
+  "gender": "M",
+  "active": true,
+  "born": 2006,
+  "nation": "Germany",
+  "positions": [
+   "ST"
+  ],
+  "clubs": [
+   {
+    "club": "Union Berlin",
+    "from": 2018,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "VSG Altglienicke (loan)",
+    "from": 2025,
+    "to": 2026,
+    "apps": 27,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Union Berlin",
+  "longest_years": 8,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": null,
+   "goals": null,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "left-footed striker"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "Local (Woltersdorf, east of Berlin)",
+  "loyalty_notes": "Woltersdorf and Rot-Weiß Neuenhagen youth; Union since U13 (2018); loan to Regionalliga Altglienicke 2025-26; contract extended Feb 2026 with a plan to join the pro squad; birth date (Nov 2006) from stats sites",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2018- (academy)",
+  "sources": [
+   "https://www.fc-union-berlin.de/en/news/union-binds-julien-friedrich-Ixv2La"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Linus Güther",
+  "full_name": "Linus Güther",
+  "gender": "M",
+  "active": true,
+  "born": 2010,
+  "nation": "Germany",
+  "positions": [
+   "AM",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Energie Cottbus (youth)",
+    "from": 2022,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Union Berlin",
+    "from": 2025,
+    "to": null,
+    "apps": 1,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Energie Cottbus (youth)",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "11 Apr 2026: Bundesliga debut aged 16 years 3 days v Heidenheim, the first Bundesliga player born in the 2010s"
+  ],
+  "style": [
+   "dribbler",
+   "two-footed",
+   "attacking midfielder"
+  ],
+  "work_rate": "unknown",
+  "ego": "neutral",
+  "fan_bond": "",
+  "loyalty_notes": "Spremberg-born (Lusatia); Spremberger SV, Energie Cottbus youth; joined Union's academy July 2025; Germany U16 (9 caps, 7 goals)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Union Berlin 2025-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Linus_G%C3%BCther"
+  ],
+  "confidence": "medium"
+ }
+]

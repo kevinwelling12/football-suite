@@ -33,6 +33,23 @@ MARKET = {
 }
 # Republic link (was an adjustment until 2026-10-02): a former Republic player who is a regular at a higher-tier club.
 LINKS = {'Los Angeles Football Club': ('Republic link: Aaron Long, a former Republic player', 2.0)}
+# "Plastic fan" check (Kevin, 2026-10-09: "I don't want that label"). Glory and brand chasing is the charge, so global
+# brands carry a bandwagon pull: Deloitte Football Money League 2026 (2025 revenue) top 5 -3, 6-10 -2, 11-20 -1.
+MONEY_LEAGUE = ['Real Madrid', 'Barcelona', 'Bayern Munich', 'Paris Saint-Germain', 'Liverpool', 'Manchester City', 'Arsenal',
+                'Manchester United', 'Tottenham Hotspur', 'Chelsea', 'Inter Milan', 'Borussia Dortmund', 'Atlético Madrid',
+                'Aston Villa', 'AC Milan', 'Juventus', 'Newcastle United', 'VfB Stuttgart', 'Benfica', 'West Ham United']
+# Clubs whose American following is built on celebrity (Beckham and Messi; the Hollywood owners and the TV series): -2.
+CELEBRITY = {'Inter Miami CF': 'Celebrity bandwagon (Beckham, Messi)', 'Wrexham': 'Celebrity bandwagon (Hollywood owners, TV series)'}
+
+
+def brand(name):
+    if name in MONEY_LEAGUE:
+        r = MONEY_LEAGUE.index(name) + 1
+        return (f'Global brand (Money League #{r})', -3 if r <= 5 else -2 if r <= 10 else -1)
+    if name in CELEBRITY:
+        return (CELEBRITY[name], -2)
+
+
 # (club, team, kind, why)
 TIES = [
     ('Leeds United', 'San Francisco 49ers', 'ownership', 'Owned by 49ers Enterprises'),
@@ -71,6 +88,8 @@ def items(name, has_rival_penalty=False):
         out.append(MARKET[name])
     if name in LINKS:
         out.append(LINKS[name])
+    if brand(name):
+        out.append(brand(name))
     for club, team, kind, why in TIES:
         if club != name:
             continue

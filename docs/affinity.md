@@ -274,3 +274,12 @@ factors, big-4 ties (Rangers: 49ers Enterprises in the owning consortium, minori
 Metadata in data/nations_extra.json `clubs` (league, Ancestry region); shown in the overall ranking under "Heritage clubs"
 with a breakdown-only card. Open calls: Rangers multi-club -3 (secondary to Leeds), Hearts/Union SG Bloom stakes,
 Plzeň owner's arms fortune -3 (scaled like Brighton's betting fortune), Linfield racism -6, Celtic violence -4.
+
+"Plastic fan" check (2026-10-09; Kevin: Americans get called plastic fans, "I don't want that label"). The charge is glory
+and brand chasing with no roots, so (big4.py, rescore.py):
+- Global brands: Deloitte Football Money League 2026 (2025 revenue) top 5 -3, 6-10 -2, 11-20 -1, a connection item.
+  Liverpool 85.8 -> 82.3, Bayern 82.3 -> 79.3, Barcelona -3, Dortmund -1.1.
+- Celebrity bandwagons: Inter Miami (Beckham, Messi) and Wrexham (Hollywood owners, TV series) -2.
+- Home nation first: the United States +20 (twice the largest ancestry bonus; was +10). 76.7 -> 86.5, top nation.
+- Already in place: hometown Sacramento Republic +4, distance bonus for nearby clubs, track record only +/-5%.
+- Players: unchanged. Player Affinity already ranks character over fame; club connection carries the brand pull through.

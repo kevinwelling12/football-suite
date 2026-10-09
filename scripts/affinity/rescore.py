@@ -102,8 +102,9 @@ def nation_bump(t):
 for t in D['unl']['teams']:
     if t.get('hai'): nation_bump(t)
 # Nations outside the Nations League (2026 World Cup field): data/nations_extra.json, same factors, no track record.
-# Heritage bonus: the United States is Kevin's home nation (+10, the nations' maximum).
-NATION_BONUS = {'United States': (10.0, 'Home nation')}
+# Home nation: the United States counts twice the largest ancestry bonus (+20): the nation Kevin was born and lives in
+# outranks ancestral ones (2026-10-09, the "plastic fan" check; was +10).
+NATION_BONUS = {'United States': (20.0, 'Home nation')}
 px = root / 'data' / 'nations_extra.json'
 if px.exists():
     X = json.loads(px.read_text())

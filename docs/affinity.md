@@ -78,6 +78,17 @@ What the sweep showed:
   players at clubs he likes "a lot more"; winning lately "a bit more"; homophobic chants "a lot less".
 - Effect: the shared hard-line scale rose to 1.95 and the team record share to 0.10; Kevin kept the US home bonus at +20.
 
+## German decider (2026-10-09)
+Union Berlin v Dortmund, blind, the Cascadia format (scripts/affinity/research/berlin_dortmund: sourced dossier, cards,
+answers). Weighted by his importance ratings: Dortmund +8 of +/-100 (record strongly, ground, academy, history, direction)
+against Union on sponsors, community, owner, fan voice, women's team, squad. Gut: Dortmund, and switching to Union would
+not feel like a betrayal. Scenarios: Champions League with an arms partner 8, mid-table fan-built ground 7, relegated and
+sold out 4. Rules: arms partner "a little", stock listing "a little", selling young players neutral, shared anthem with
+Liverpool "some", easy to watch on US TV "a lot" (both clubs share the US deal).
+Both deciders (Portland over Seattle, Dortmund over Union) and their six scenarios joined the fit (round 'dec'; held out,
+the model already called 9 of 10). Team record share 0.10 -> 0.124. Dortmund 81.0 over Union 80.2; Timbers 77.2 over
+Sounders 77.1, still on merit.
+
 ## Decisions taken in the rebuild
 - Nations now have a record (FIFA ranking and tournaments) like clubs and players. Small nations are ranked among all
   211 FIFA members, so they aren't judged against the top of the world.

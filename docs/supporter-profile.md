@@ -180,3 +180,10 @@ fans, conduct, history, federation, team, record, government and ancestry, and 5
 Findings: a free democracy beat every alternative it was paired with (record, fans + history, ancestry, conduct + fans);
 racism beat ancestry and winning; federation > team > history. The model predicted the blind ratings at rho 0.88 before
 seeing them. Details and the fit: docs/affinity.md.
+
+# German decider (2026-10-09)
+
+Union Berlin v Dortmund, blind, like the Cascadia decider: Dortmund +8 of +/-100. Record, ground and academy for Dortmund;
+sponsors, community, ownership and fan voice for Union. Gut: Dortmund. Scenarios rate results higher than the abstract
+rankings do (Champions League with an arms partner 8, mid-table fan-built ground 7, relegated and sold out 4). Applied
+through the fit (docs/affinity.md).

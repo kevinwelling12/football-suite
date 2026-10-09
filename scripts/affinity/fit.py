@@ -92,13 +92,30 @@ if (Q13 / 'raw' / 'responses' / 'kevin.json').exists():
     for pr in _k['pairs']:
         y = {'l': 1.0, 'r': 0.0, 't': 0.5}.get(_a.get(pr['id']))
         if y is not None: items.append(('q13p', 'nation_dce', nation_profile(pr['A']), nation_profile(pr['B']), y, 1.0, 'club', pr['id']))
+# The two deciders (Cascadia 2026-09-29, German 2026-10-09): Kevin's verdicts (Portland over Seattle, Dortmund over Union)
+# and his 0-10 happiness with three future scenarios each, read as pairwise orderings. Round 'dec'.
+BASEF = dict(C=8, V=7, H=7, O=7, T=6)
+def scen(P, hard=(), **f): return dict(f={**BASEF, **f}, hard=list(hard), P=P, conn=[], roots=0)
+SCEN = [  # (decider, rating, profile)
+ ('cas', 8, scen(8.0, C=7)),                       # two trophies in five years, new suburban stadium
+ ('cas', 6, scen(3.0, C=10)),                      # no trophies, old ground packed and loud
+ ('cas', 5, scen(5.0, O=3)),                       # owner fans told to sell, decent but trophyless
+ ('ger', 8, scen(9.0, [('arms_owner', 'Arms partner', 3.0)])),  # Champions League four years running, arms partner
+ ('ger', 7, scen(5.0, C=10)),                      # mid-table, fan-built packed ground
+ ('ger', 4, scen(1.0, C=10)),                      # relegated, still sold out
+]
+for i, (da, va, xa) in enumerate(SCEN):
+    for db, vb, xb in SCEN[i + 1:]:
+        if da == db and va != vb: items.append(('dec', 'decider', xa, xb, 1.0 if va > vb else 0.0, 1.0, 'club', (da, va, vb)))
+for a, b in (('Portland Timbers', 'Seattle Sounders FC'), ('Borussia Dortmund', 'Union Berlin')):
+    if a in R and b in R: items.append(('dec', 'decider', club_named(a), club_named(b), 1.0, 2.0, 'club', (a, b)))
 checks = dict(
     q6=[(a, b, y) for a, b, y, r in E.pairs(ev, domain='club', named=True) if r['round'] == 'q6' and a in R and b in R],
     q8=[(a, b, y) for a, b, y, r in E.pairs(ev, domain='player', named=True) if r['round'] == 'q8' and a in PL and b in PL],
     q7=[(n, v) for n, v, r in E.gut_players(ev) if n in PL])
 
 # ---------------------------------------------------------------- parameters
-SETS = ['club_gut', 'club_dce', 'player_profile', 'player_q10', 'nation_gut', 'nation_dce']
+SETS = ['club_gut', 'club_dce', 'player_profile', 'player_q10', 'nation_gut', 'nation_dce', 'decider']
 FREE_GOV = '--gov' in sys.argv  # test a separate weight for a government's record
 def unpack(t, base=P0):
     p = copy.deepcopy(base); i = 0

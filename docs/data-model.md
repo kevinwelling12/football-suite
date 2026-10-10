@@ -12,6 +12,7 @@ Per league competition:
 - fixtures[]: [round, 'YYYY-MM-DD', homeIdx, awayIdx, hs|null, as|null, lockedPickH, lockedPickA, lockedFavor]
   (the last three only on matches that were played when the data was built). **Fixture id = index.**
 - kick: { "<fixtureId>": ["YYYY-MM-DDTHH:MMZ", confirmed 0|1] }
+- odds: { "<fixtureId>": {H, D, A, L, O, U} } pre-match decimal odds (DraftKings via ESPN): 3-way moneyline, over/under line and prices.
 - params: halfLife, k, h2h, h2hK, rhoPrior, rhoW, beta, drawW, haPrior, scPrior, baseW, zoneW{}
 - tv: US broadcaster string. statusDefault (optional): default status per fixture (e.g. postponed).
 

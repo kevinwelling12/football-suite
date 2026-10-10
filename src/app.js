@@ -5,7 +5,7 @@ const EXTRA = /*__EXTRA__*/;
 const LOGOS = /*__LOGOS__*/;
 // Player Affinity lists (data/players.json, made by scripts/affinity/affinity.py): {ma, mt, wa, wt: [{n, a, f, c, p, ...}]}.
 const PLAYERS = /*__PLAYERS__*/;
-const DEF = {sims:1000, impFloor:0.05, impRamp:0.25, drawAuto:1, drawW0:60};
+const DEF = {sims:1000, impFloor:0.05, impRamp:0.25, drawAuto:1, drawW0:60, mktW:0.8};  // mktW: betting-market weight (scripts/pickem/blend.js)
 const STORE = 'football-suite-2627';
 // In views that mix competitions (Live), fixture ids repeat, so a click looks up ids inside its own card first.
 let scopeEl = null;
@@ -24,7 +24,7 @@ for (const k of ORDER) for (const t of DATA[k].teams) {
 }
 for (const k of ORDER) {
   const d = DATA[k], c = COMPS_CFG[k];
-  COMP[k] = {teams:d.teams, fixtures:d.fixtures, params:d.params || {}, cfg:compCfg(k, d.params)};
+  COMP[k] = {teams:d.teams, fixtures:d.fixtures, params:d.params || {}, odds:d.odds || {}, cfg:compCfg(k, d.params)};
   state.results[k] = {}; state.settings[k] = {}; state.tab[k] = 'week'; state.favs[k] = []; state.status[k] = {}; state.live[k] = {}; state.motw[k] = {}; state.ko[k] = {}; state.heart[k] = {};
 }
 state.draws.cup = {};
@@ -33,7 +33,7 @@ for (const k of ORDER) Object.assign(state.status[k], DATA[k].statusDefault || {
 function Sfor(k) {
   const p = COMP[k].params, s = state.settings[k] || {};
   return Object.assign({}, DEF, {halfLife:p.halfLife || 56, k:p.k || 10, h2h:p.h2h ?? 1, h2hK:p.h2hK || 10, rhoPrior:p.rhoPrior ?? -0.13, rhoW:p.rhoW || 300,
-    beta:0.3, underdog:0.05, drawW:p.drawW ?? 1.05, haPrior:p.haPrior, scPrior:p.scPrior, baseW:p.baseW || 0}, s, {peOutcome:state.suite.peOutcome, peExact:state.suite.peExact, koRes:state.ko[k] || {}});
+    beta:0.3, underdog:0.05, drawW:p.drawW ?? 1.05, haPrior:p.haPrior, scPrior:p.scPrior, baseW:p.baseW || 0}, s, {peOutcome:state.suite.peOutcome, peExact:state.suite.peExact, mktW:state.suite.mktW ?? DEF.mktW, koRes:state.ko[k] || {}});
 }
 // ---------------------------------------------------------------- live clock
 // A live entry is {h, a, ph, t, m0}: the phase ('1H' | 'HT' | '2H'), the time t (ms) of the last tap or typed
@@ -109,7 +109,7 @@ function startWorker() {
     worker = new Worker(URL.createObjectURL(new Blob([src], {type:'text/javascript'})));
     worker.onmessage = e => { const {k, id, r} = e.data; if (jobs[k] !== id) return; delete jobs[k]; finish(k, r); bgRender(k); };
     worker.onerror = () => { worker = null; for (const k of Object.keys(jobs)) { delete jobs[k]; compute(k); } render(); };
-    worker.postMessage({init:Object.fromEntries(ORDER.map(k => [k, {teams:COMP[k].teams, fixtures:COMP[k].fixtures, params:COMP[k].params}]))});
+    worker.postMessage({init:Object.fromEntries(ORDER.map(k => [k, {teams:COMP[k].teams, fixtures:COMP[k].fixtures, params:COMP[k].params, odds:COMP[k].odds}]))});
   } catch (e) { worker = null; }
 }
 // Full run in the background (or on the page if workers are unavailable, e.g. inside claude.ai).
@@ -871,11 +871,11 @@ function viewRank() {
       <span class="stack"><span class="b" style="width:${Math.max(0, affOf(e.t)) / mx * 100}%"></span></span>
       <span class="num sc">${fmtA(affOf(e.t))}</span></div>`).join('')}</div></section>`;
 }
-function field(k, key, label, help, step, global) { const v = global ? state.suite[key] : Sfor(k)[key]; return `<div class="field"><label for="f-${key}">${label}</label><p>${help}</p><input id="f-${key}" data-set="${key}" data-global="${global ? 1 : 0}" type="number" step="${step}" value="${v}"></div>`; }
+function field(k, key, label, help, step, global) { const v = global ? (state.suite[key] ?? DEF[key]) : Sfor(k)[key]; return `<div class="field"><label for="f-${key}">${label}</label><p>${help}</p><input id="f-${key}" data-set="${key}" data-global="${global ? 1 : 0}" type="number" step="${step}" value="${v}"></div>`; }
 function viewSettings(k) {
   const n = Object.keys(state.results[k]).length, cup = COMPS_CFG[k].cup, nd = R[k] ? R[k].fx.filter(f => f.baseDiff).length : 0;
   return `<section class="section"><h2>Settings</h2><p class="sub">Changes apply straight away and save with your scores. Pick 'em scoring is shared by every competition.</p>
-    <div class="set-grid">${field(k, 'peOutcome', "Pick 'em: correct result", 'Points for the right winner or draw.', 1, true)}${field(k, 'motwW', 'Match of the week: importance share', 'Blend of what\'s at stake (importance) and how evenly matched the sides are. 1 = importance only, 0 = competitiveness only. Default 0.5. Also used for Match of the day.', 0.1, true)}${field(k, 'peExact', "Pick 'em: correct score (total)", 'Total points when the exact score is right too.', 1, true)}
+    <div class="set-grid">${field(k, 'peOutcome', "Pick 'em: correct result", 'Points for the right winner or draw.', 1, true)}${field(k, 'motwW', 'Match of the week: importance share', 'Blend of what\'s at stake (importance) and how evenly matched the sides are. 1 = importance only, 0 = competitiveness only. Default 0.5. Also used for Match of the day.', 0.1, true)}${field(k, 'peExact', "Pick 'em: correct score (total)", 'Total points when the exact score is right too.', 1, true)}${field(k, 'mktW', 'Betting market weight', 'How much the betting odds count against the model in match chances, pick \'em and projections, where odds exist (DraftKings via ESPN). 0 = model only, 1 = market only. Default 0.8: in a backtest over 750 matches this season the market predicted results better than the model.', 0.1, true)}
     ${cup ? field(k, 'underdog', 'Affinity pick: underdog lean', 'Extra weight for the side less likely to go through. At 0.05 (5%) it only decides close calls. 0 = off.', 0.01) : field(k, 'beta', 'Affinity pick: stakes weight (β)', "How much a club's stakes can outweigh Affinity in the pick. 0 = Affinity only. Default 0.3.", 0.05) +
       field(k, 'underdog', 'Affinity pick: underdog lean', "Extra weight for the side less likely to win. At 0.05 (5%) it only decides close calls. 0 = off.", 0.01) + field(k, 'drawW', 'Favor: draw weight (used when auto draw rate is off)', `How strongly an even match is favored as a draw. With auto draw rate on, it's set so Affinity picks call draws at the same rate as the league: now ${R[k] && R[k].favDrawW ? R[k].favDrawW.toFixed(3) : '—'}.`, 0.05) +
       field(k, 'drawAuto', 'Model: auto draw rate (1 = on, 0 = off)', `Keeps predicted draws in line with how often this league actually draws. Now: ${R[k] && R[k].drawTarget != null ? (R[k].drawTarget * 100).toFixed(1) + '% target (' + (R[k].fx.filter(f => f.played && f.hs === f.as).length) + ' draws in ' + R[k].fx.filter(f => f.played).length + ' matches, blended with a ' + Math.round(COMP[k].cfg.drawPrior * 100) + '% long-run norm)' : 'off'}.`, 1) +

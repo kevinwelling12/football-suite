@@ -37,3 +37,8 @@ only replaced if FBref disagrees and Kevin confirms.
 Broadcasters (US, 2026-27) are in data (tv field); USL = "ESPN Select (ESPN+)".
 Kevin's routine: he says "sync" and a full pass runs across all competitions (now mostly covered by the
 ESPN workflow; use FBref to cross-check or when ESPN is down).
+
+## Betting odds (2026-10-10)
+The ESPN sync also stores DraftKings odds for upcoming league fixtures as `odds[fixtureId] = {H, D, A, L, O, U}` (decimal
+3-way moneyline, over/under line and prices) in each competition of data/suite_data.json. The model blends them in (docs/architecture.md
+5b). History for backtests: `python3 scripts/odds/history.py` (football-data.co.uk) and `node scripts/pickem/blend.js`.

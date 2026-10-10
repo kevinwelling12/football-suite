@@ -21,6 +21,23 @@ const MODEL = (() => {
     const [w2, d2] = winDraw(laET, lbET);
     return w + d * (w2 + pen * d2);
   }
+  // Betting-market scoreline grid (2026-10-10; backtest: scripts/pickem/blend.js): odds -> probabilities with the margin
+  // removed; total goals from the over/under price (else the model's), the home-away split matched to P(home) - P(away),
+  // and wins, draws and losses scaled to the market's. o = {H, D, A} decimal odds, optional {L, O, U} = total line and prices.
+  function marketFit(o, lh, la) {
+    const iH = 1 / o.H, iD = 1 / o.D, iA = 1 / o.A, s = iH + iD + iA, pH = iH / s, pD = iD / s, pA = iA / s;
+    let T = lh + la;
+    if (o.O && o.U) {
+      const pO = (1 / o.O) / (1 / o.O + 1 / o.U), line = o.L || 2.5; let lo = 0.3, hi = 7;
+      for (let i = 0; i < 40; i++) { const m = (lo + hi) / 2, v = poisVec(m); let under = 0; for (let k = 0; k <= line; k++) under += v[k]; if (1 - under < pO) lo = m; else hi = m; }
+      T = (lo + hi) / 2;
+    }
+    const diff = pH - pA; let lo = -T + 0.05, hi = T - 0.05, r = null;
+    for (let i = 0; i < 40; i++) { const m = (lo + hi) / 2; r = grid((T + m) / 2, (T - m) / 2, 0); if (r.H - r.A < diff) lo = m; else hi = m; }
+    const sup = (lo + hi) / 2; r = grid((T + sup) / 2, (T - sup) / 2, 0);
+    for (let h = 0; h <= KMAX; h++) for (let a = 0; a <= KMAX; a++) r.g[h][a] *= h > a ? pH / r.H : h === a ? pD / r.D : pA / r.A;
+    return { g: r.g, lh: (T + sup) / 2, la: (T - sup) / 2, pH, pD, pA };
+  }
   function picks(f, S) {
     let pk = null, pkEV = -1; const ev = [];
     for (let h = 0; h <= 5; h++) for (let a = 0; a <= 5; a++) {
@@ -101,6 +118,14 @@ const MODEL = (() => {
         for (let h = 0; h <= KMAX; h++) for (let a = 0; a <= KMAX; a++) f.g[h][a] = (h === a ? f.g[h][a] * drawFactor : f.g[h][a]) / norm;
         f.pH /= norm; f.pA /= norm; f.pD = f.pD * drawFactor / norm;
       }
+    }
+    // ---- betting market blend: w x market + (1 - w) x model for every fixture with odds (comp.odds, filled by the sync)
+    const OD = comp.odds || {}, mw = S.mktW || 0;
+    if (mw > 0) for (const f of fx) {
+      const o = OD[f.id]; if (!o || !o.H || !o.D || !o.A) continue;
+      const m = marketFit(o, f.lh, f.la); let H = 0, Dd = 0, A = 0;
+      for (let h = 0; h <= KMAX; h++) for (let a = 0; a <= KMAX; a++) { const v = (1 - mw) * f.g[h][a] + mw * m.g[h][a]; f.g[h][a] = v; if (h > a) H += v; else if (h === a) Dd += v; else A += v; }
+      f.pH = H; f.pD = Dd; f.pA = A; f.lh = f.lh ** (1 - mw) * m.lh ** mw; f.la = f.la ** (1 - mw) * m.la ** mw; f.mkt = { pH: m.pH, pD: m.pD, pA: m.pA };
     }
     const gaps = fx.map(f => Math.abs(f.pH - f.pA)).sort((x, y) => x - y), drawShare = fx.reduce((s, f) => s + f.pD, 0) / fx.length;
     const pos_ = drawShare * (gaps.length - 1), lo = Math.floor(pos_);

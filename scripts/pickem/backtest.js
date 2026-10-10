@@ -37,11 +37,12 @@ for (const k of ORDER) {
     for (const f of played.filter(f => f.date === day)) {
       const m = r.fx[f.id], g = [];
       for (let h = 0; h < KM; h++) { g.push([]); for (let a = 0; a < KM; a++) g[h].push(m.g[h][a]); }
-      preds.push({ k, date: day, hs: f.hs, as: f.as, g, pH: m.pH, pD: m.pD, pA: m.pA, pred: m.pred, ev: m.pick, locked: f.lk, emp, di, nd: days.length, lh: m.lh, la: m.la });
+      preds.push({ k, id: f.id, date: day, hs: f.hs, as: f.as, g, pH: m.pH, pD: m.pD, pA: m.pA, pred: m.pred, ev: m.pick, locked: f.lk, emp, di, nd: days.length, lh: m.lh, la: m.la });
     }
   });
 }
 
+if (require.main !== module) { module.exports = { preds }; return; }
 // ---------------------------------------------------------------- strategies (each: x -> [h, a])
 const cells = g => { const c = []; for (let h = 0; h < KM; h++) for (let a = 0; a < KM; a++) c.push([h, a, g[h][a]]); return c; };
 const outP = g => { let H = 0, Dd = 0, A = 0; for (const [h, a, p] of cells(g)) (h > a ? H += p : h === a ? Dd += p : A += p); return [H, Dd, A]; };

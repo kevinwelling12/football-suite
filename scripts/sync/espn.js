@@ -63,8 +63,21 @@ async function events(league, from, to) {
     const team = x => ({ name: x.team.displayName, short: x.team.shortDisplayName, abbr: x.team.abbreviation, loc: x.team.location });
     return { id: e.id, date: c.date || e.date, timeValid: c.timeValid !== false, state: st.state, status: st.name, detail: st.description,
       h: team(h), a: team(a), hs: parseInt(h.score, 10), as: parseInt(a.score, 10), hso: h.shootoutScore, aso: a.shootoutScore,
-      hw: h.winner, aw: a.winner };
+      hw: h.winner, aw: a.winner, odds: oddsOf(c) };
   });
+}
+
+// Pre-match betting odds as ESPN shows them (DraftKings): 3-way moneyline (home/draw/away) and the over/under line, as
+// decimal odds. Closing price when given, else opening. The model blends these with its own grid (src/model.js marketFit).
+function oddsOf(c) {
+  const od = (c.odds || [])[0]; if (!od) return null;
+  const dec = x => { const n = parseFloat(x); return !n ? null : Math.round((n > 0 ? 1 + n / 100 : 1 + 100 / -n) * 1000) / 1000; };
+  const px = s => s ? dec((s.close || s.open || {}).odds) : null;
+  const ml = od.moneyline || {}, t = od.total || {};
+  const H = px(ml.home), A = px(ml.away), D = px(ml.draw) || (od.drawOdds ? dec(od.drawOdds.moneyLine) : null);
+  if (!H || !A || !D) return null;
+  const O = px(t.over), U = px(t.under), L = od.overUnder;
+  return Object.assign({ H, D, A }, O && U && L ? { L, O, U } : {});
 }
 
 function teamMatcher(k, teams) {
@@ -83,10 +96,10 @@ function teamMatcher(k, teams) {
 // Pick 'em score and Affinity pick the model gives each unplayed fixture right now (default settings).
 function picksNow(k) {
   const L = D[k], p = L.params || {};
-  const comp = { teams: L.teams, fixtures: L.fixtures, params: p, cfg: compCfg(k, p) };
+  const comp = { teams: L.teams, fixtures: L.fixtures, params: p, odds: L.odds || {}, cfg: compCfg(k, p) };
   const S = { sims: 50, impFloor: 0.05, impRamp: 0.25, drawAuto: 1, drawW0: 60, halfLife: p.halfLife || 56, k: p.k || 10, h2h: p.h2h ?? 1,
     h2hK: p.h2hK || 10, rhoPrior: p.rhoPrior ?? -0.13, rhoW: p.rhoW || 300, beta: 0.3, underdog: 0.05, drawW: p.drawW ?? 1.05,
-    haPrior: p.haPrior, scPrior: p.scPrior, baseW: p.baseW || 0, peOutcome: 2, peExact: 3, koRes: {} };
+    haPrior: p.haPrior, scPrior: p.scPrior, baseW: p.baseW || 0, peOutcome: 2, peExact: 3, mktW: 0.8, koRes: {} };
   return MODEL.run(comp, {}, S, Object.assign({}, L.statusDefault), {}).fx;
 }
 
@@ -98,7 +111,7 @@ async function syncComp(k) {
   const I = cup ? { date: 2, h: 3, a: 4, hs: 5, as: 6 } : { date: 1, h: 2, a: 3, hs: 4, as: 5 };
   const evs = await events(LEAGUE[k], today - BACK * DAY, today + AHEAD * DAY);
   const team = teamMatcher(k, T), used = new Set();
-  const R = { results: [], disagree: [], times: [], dates: [], unknown: new Set(), unmatched: [], skipped: [] };
+  const R = { results: [], disagree: [], times: [], dates: [], unknown: new Set(), unmatched: [], skipped: [], odds: 0 };
   const lab = f => `${T[f[I.h]].short || T[f[I.h]].name} v ${T[f[I.a]].short || T[f[I.a]].name}`;
   const pending = [];
   for (const e of evs.sort((x, y) => x.date.localeCompare(y.date))) {
@@ -122,6 +135,7 @@ async function syncComp(k) {
     if (hasBase) continue;
     if (e.status === 'STATUS_POSTPONED' || e.status === 'STATUS_CANCELED') { R.skipped.push(`${lab(f)} ${f[I.date]}: ${e.detail}`); continue; }
     if (e.state !== 'pre') continue;
+    if (e.odds && !cup) { L.odds = L.odds || {}; if (JSON.stringify(L.odds[id]) !== JSON.stringify(e.odds)) { L.odds[id] = e.odds; R.odds++; } }
     const d = localDate(k, e.date);
     if (d !== f[I.date]) { R.dates.push(`${lab(f)}: ${f[I.date]} → ${d}`); markMoved(id); f[I.date] = d; }
     if (e.timeValid) {
@@ -153,8 +167,8 @@ async function syncComp(k) {
   let changed = 0;
   for (const r of report) {
     if (r.error) { lines.push(`## ${r.name}\nError: ${r.error}\n`); continue; }
-    changed += r.results.length + r.times.length + r.dates.length;
-    const parts = [`## ${r.name}`, `${r.events} ESPN matches checked. ${r.results.length} new results, ${r.times.length} kickoff times set, ${r.dates.length} date moves.`];
+    changed += r.results.length + r.times.length + r.dates.length + r.odds;
+    const parts = [`## ${r.name}`, `${r.events} ESPN matches checked. ${r.results.length} new results, ${r.times.length} kickoff times set, ${r.dates.length} date moves, ${r.odds} odds updated.`];
     const list = (title, xs) => { if (xs.length) parts.push(`${title}:`, ...xs.map(x => `- ${x}`)); };
     list('New results', r.results); list('Date moves', r.dates); list('Kickoff times', r.times);
     list('DISAGREES with the tracker (not changed)', r.disagree); list('Not applied', r.skipped);
@@ -166,9 +180,9 @@ async function syncComp(k) {
   if (REPORT) fs.writeFileSync(REPORT, text);
   if (!DRY && changed) {
     // Python writes the file so the rest of it stays byte-identical (Python keeps floats like 0.0; JSON.stringify doesn't).
-    // Only fixtures, kick, moved and synced change; they hold no floats.
-    const patch = Object.fromEntries(report.filter(r => !r.error && (r.results.length || r.times.length || r.dates.length))
-      .map(r => [r.k, { fixtures: D[r.k].fixtures, kick: D[r.k].kick, synced: D[r.k].synced, ...(D[r.k].moved ? { moved: D[r.k].moved } : {}) }]));
+    // Only fixtures, kick, moved, synced and odds change; odds are rounded decimals.
+    const patch = Object.fromEntries(report.filter(r => !r.error && (r.results.length || r.times.length || r.dates.length || r.odds))
+      .map(r => [r.k, { fixtures: D[r.k].fixtures, kick: D[r.k].kick, synced: D[r.k].synced, ...(D[r.k].moved ? { moved: D[r.k].moved } : {}), ...(D[r.k].odds ? { odds: D[r.k].odds } : {}) }]));
     require('child_process').execFileSync('python3', ['-c', `import json,sys
 f=sys.argv[1]; D=json.load(open(f)); P=json.load(sys.stdin)
 for k,v in P.items(): D[k].update(v)

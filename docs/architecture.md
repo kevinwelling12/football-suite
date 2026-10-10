@@ -10,6 +10,11 @@ MODEL.run(comp, results, S, status, live) for league-style competitions:
 4. Head-to-head adjustment (h2hK), Dixon-Coles rho (fit vs prior, weight rhoW).
 5. **Draw calibration** (drawAuto): diagonal of every scoreline grid scaled so mean P(draw) over played
    matches = target, target = (n*observed + drawW0*cfg.drawPrior)/(n+drawW0).
+5b. **Betting market blend** (mktW, default 0.8; Settings): for fixtures with odds (comp.odds = data odds[fixtureId], DraftKings
+   via the ESPN sync), the scoreline grid becomes mktW x market grid + (1 - mktW) x model grid (marketFit: margin removed,
+   total from the over/under price, home-away split and draws matched to the market). Probabilities, picks and the season
+   simulations all use the blended grid. Backtest (scripts/pickem/blend.js, 750 matches with odds, walk-forward): log loss
+   1.052 model only, 1.016 at 0.75, 1.015 market only; pick 'em 1.048 -> 1.084 points a match.
 6. Predicted score (draw-zone calibrated) and **pick 'em** pick = argmax of
    peOutcome*P(outcome) + (peExact-peOutcome)*P(exact). Locked at result entry (results[id][2..4]).
 7. Table (+ points adjustments S.adj), clinch/elimination statuses (cfg.status), groups/conferences.

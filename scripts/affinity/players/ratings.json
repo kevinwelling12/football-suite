@@ -9104,6 +9104,33 @@
   ]
  },
  {
+  "name": "Enzo Fernández",
+  "gender": "M",
+  "active": true,
+  "aff": 0.0,
+  "Q": 30.5,
+  "Qh": 0.0,
+  "R": 67.2,
+  "A0": 0.0,
+  "K": 0.0,
+  "conn": [
+   [
+    "Seasons at clubs you rate low",
+    -2.1
+   ]
+  ],
+  "hard": [
+   [
+    "Racist abuse (2024)",
+    24.6
+   ],
+   [
+    "Forced transfer (2026)",
+    9.0
+   ]
+  ]
+ },
+ {
   "name": "Marcel Desailly",
   "gender": "M",
   "active": false,

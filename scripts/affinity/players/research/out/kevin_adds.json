@@ -1,0 +1,139 @@
+[
+ {
+  "name": "Enzo Fernández",
+  "full_name": "Enzo Jeremías Fernández",
+  "gender": "M",
+  "active": true,
+  "born": 2001,
+  "nation": "Argentina",
+  "positions": [
+   "CM",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "River Plate",
+    "from": 2019,
+    "to": 2022,
+    "apps": 40,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Defensa y Justicia (loan)",
+    "from": 2020,
+    "to": 2021,
+    "apps": 14,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Benfica",
+    "from": 2022,
+    "to": 2023,
+    "apps": 17,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chelsea",
+    "from": 2023,
+    "to": 2026,
+    "apps": 119,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Manchester City",
+    "from": 2026,
+    "to": null,
+    "apps": 3,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Chelsea",
+  "longest_years": 3.5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Argentina",
+   "caps": 50,
+   "goals": 8,
+   "captain": false
+  },
+  "honours": "World Cup 2022, Copa América 2024, Primeira Liga 2022-23, Argentine Primera 2021, Copa Sudamericana 2020, Conference League 2024-25, Club World Cup 2025",
+  "awards": "World Cup Young Player 2022; Club World Cup Team of the Tournament 2025; Conference League Team of the Season 2024-25",
+  "moments": [
+   "2022: World Cup winner and Young Player of the tournament at 21",
+   "Jan 2023: Chelsea paid Benfica's €121m release clause (£106.8m, then a British record) after six months in Lisbon",
+   "Jul 2026: long-range equaliser in the World Cup semi-final win over England, then cupped his ears, stuck out his tongue and blew a kiss at England's fans",
+   "Jul 2026: sent off in the 93rd minute of the World Cup final v Spain for a challenge on Cubarsí; kicked a pitch-side microphone leaving the field; Argentina lost in extra time",
+   "Sep 2026: joined Manchester City for £125m, the first player sold for over £100m twice"
+  ],
+  "style": [
+   "box-to-box midfielder",
+   "progressive passer",
+   "long-range shooting"
+  ],
+  "work_rate": "high: covers ground in midfield",
+  "ego": "provocative: taunts opponents, posts to provoke (Wonderwall post after the England semi-final, July 2026)",
+  "fan_bond": "lost Chelsea fans over the 2024 chant, the Madrid hint and the England taunts; called the English public's 'public enemy number one' by the Mirror (July 2026)",
+  "loyalty_notes": "River Plate academy; left Benfica after six months (Jan 2023) after an unauthorised trip home amid Chelsea's pursuit; at Chelsea hinted at Real Madrid in April 2026 and was left out for two matches, told the club in May he wanted to leave, his agent said in July they were looking for a way out; joined Man City on deadline day 2026 on a five-year deal",
+  "causes": [
+   "2024: donated to an anti-discrimination charity after the Copa América chant video"
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "b01",
+    "what": "Copa América celebration: posted an Instagram live video of Argentina players singing a racist chant about France's Black players; the French federation complained to FIFA and French teammates at Chelsea unfollowed him",
+    "outcome": "apologised publicly and to teammates, donated to an anti-discrimination charity; Chelsea took no further action",
+    "source": "https://en.wikipedia.org/wiki/Enzo_Fern%C3%A1ndez"
+   },
+   {
+    "year": 2026,
+    "type": "b08",
+    "what": "told Chelsea in May 2026 he wanted to leave, with three years left on his contract; his agent Javier Pastore said in July they were looking at ways out; joined Manchester City on 1 Sep 2026 for £125m",
+    "outcome": "move completed",
+    "source": "https://www.beinsports.com/en-us/soccer/premier-league/articles/fernandez-exploring-options-for-chelsea-exit-says-agent-2026-07-02"
+   },
+   {
+    "year": 2023,
+    "type": "other",
+    "what": "Benfica: travelled to Argentina for New Year's without permission and missed two training sessions; coach Roger Schmidt left him out of the next league match",
+    "outcome": "returned to the squad a week later; sold to Chelsea at month's end",
+    "source": "https://observador.pt/2023/01/05/schmidt-ataca-chelsea-devido-a-enzo-enlouquecem-o-jogador-fazem-de-conta-que-podem-pagar-a-clausula-e-depois-querem-negociar/"
+   },
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "driving offences in South Wales (red light, speeding, late 2023); did not appear at Llanelli Magistrates' Court",
+    "outcome": "six-month driving ban, 12 points, £3,020 fine (Sep 2024)",
+    "source": "https://en.wikipedia.org/wiki/Enzo_Fern%C3%A1ndez"
+   },
+   {
+    "year": 2026,
+    "type": "other",
+    "what": "April 2026: hinted publicly at a move to Real Madrid; Chelsea coach Liam Rosenior left him out for two matches",
+    "outcome": "apologised to the club",
+    "source": "https://www.beinsports.com/en-au/football/premier-league/articles/fernandez-out-for-chelsea-despite-apology-2026-04-10"
+   },
+   {
+    "year": 2026,
+    "type": "other",
+    "what": "World Cup: taunted England fans after his semi-final equaliser and posted a 'Wonderwall' mock; sent off in the final and kicked a pitch-side microphone",
+    "outcome": "no FIFA ban for him (bans went to Paredes, Molina, Almada for the post-match scuffle)",
+    "source": "https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2026/07/enzo-fernandez-sparks-chelsea-fan-fury-with-deleted-england-post"
+   }
+  ],
+  "money_moves": [],
+  "links": "Manchester City 2026-; Chelsea 2023-26",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Enzo_Fern%C3%A1ndez",
+   "https://www.skysports.com/football/news/13579972/enzo-fernandez-transfer-news-man-city-sign-midfielder-from-chelsea-in-british-record-equalling-lb125m-deal",
+   "https://www.beinsports.com/en-us/soccer/premier-league/articles/enzo-fern%C3%A1ndez-wants-to-leave-chelsea-and-real-madrid-already-knows-his-price-2026-05-28",
+   "https://www.contextotucuman.com/nota/396834/la-tajante-respuesta-de-enzo-fernandez-a-las-criticas-que-recibio-valentina-cervantes-en-la-previa-del-partido-ante-inglaterra.html"
+  ]
+ }
+]

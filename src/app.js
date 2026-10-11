@@ -613,20 +613,13 @@ function tableRows(k, rows, proj, colsOverride) {
     const pos = proj ? r.projPos : r.pos, mv = r.moved ? `<span class="mv-arrow ${r.moved > 0 ? 'up' : 'down'}">${r.moved > 0 ? '▲' : '▼'}${Math.abs(r.moved)}</span>` : '', club = `<button class="club-link" data-club="${r.i}">${tchip(k, r.i)}${dual(k, r.i)}${mk}</button>${mv}`;
     const st = r.status ? `<span class="status-tag ${r.statusBad ? 'rel' : ''}">${esc(r.status)}</span>` : '';
     const mid = proj
-      ? `<td class="num sm-hide">${wdl(r).join('-')}</td><td class="num sm-hide">${r.projGD > 0.5 ? '+' : ''}${r.projGD.toFixed(0)}</td>
-         <td class="num"><b>${r.projPts.toFixed(0)}</b><span class="sm-hide" style="color:var(--faint)"> (${r.projLow}–${r.projHigh})</span></td><td class="num">${r.pos}${ord(r.pos)}<span class="sm-hide" style="color:var(--faint)"> · ${r.Pts} pts</span></td>`
+      ? `<td class="num sm-hide">${r.projRec.join('-')}</td><td class="num sm-hide">${r.projGD > 0.5 ? '+' : ''}${r.projGD.toFixed(0)}</td>
+         <td class="num"><b>${r.projPtsR}</b><span class="sm-hide" style="color:var(--faint)"> (${r.projLow}–${r.projHigh})</span></td><td class="num">${r.pos}${ord(r.pos)}<span class="sm-hide" style="color:var(--faint)"> · ${r.Pts} pts</span></td>`
       : `<td class="num sm-hide">${r.P}</td><td class="num sm-hide">${r.W}-${r.D}-${r.L}</td><td class="num">${r.GF - r.GA > 0 ? '+' : ''}${r.GF - r.GA}</td><td class="num"><b>${r.Pts}</b>${r.adj ? `<span class="adj-chip" title="${esc(r.adjNote || 'Points adjustment')}">${r.adj > 0 ? '+' : ''}${r.adj}</span>` : ''}</td>
-         <td class="num sm-hide">${r.projPts.toFixed(0)} <span style="color:var(--faint)">(${r.projLow}–${r.projHigh})</span></td>`;
+         <td class="num sm-hide">${r.projPtsR} <span style="color:var(--faint)">(${r.projLow}–${r.projHigh})</span></td>`;
  return `<tr class="${cfg.cuts.includes(pos) ? 'cut' : ''} ${isFav(k, r.i) ? 'fav-row' : ''} ${marked && r.statusBad ? 'out' : ''}" ${T(k)[r.i].color ? `style="--fc:${T(k)[r.i].color}"` : ''}><td class="pos num" style="--zone:${zoneColor(k, pos)}">${pos}</td><td class="club">${club}</td>${mid}
       ${cfg.cols.map(c => `<td>${mini(r, c)}</td>`).join('')}${marked ? '' : `<td class="sm-hide">${proj ? '' : st}</td>`}</tr>`;
   }).join('');
-}
-function wdl(r) {
-  // round expected W/D/L so they add up to the games played + left (largest remainder)
-  const v = [r.projW, r.projD, r.projL], n = Math.round(v[0] + v[1] + v[2]), base = v.map(Math.floor);
-  let left = n - base.reduce((s, x) => s + x, 0);
-  v.map((x, i) => [x - Math.floor(x), i]).sort((p, q) => q[0] - p[0]).forEach(([, i]) => { if (left > 0) { base[i]++; left--; } });
-  return base;
 }
 const ord = n => (n % 100 >= 11 && n % 100 <= 13) ? 'th' : ({1:'st', 2:'nd', 3:'rd'}[n % 10] || 'th');
 function tableHTML(k, rows, proj, grp) {
@@ -684,7 +677,7 @@ function viewTable(k) {
     + (lg && cfg.leagueNotes ? `<p class="note">${esc(cfg.leagueNotes[lg])}</p>` : '') + (lg ? unlRaces(k, src || r.tab, proj, lg) : '') : tableHTML(k, rowsFor(''), proj);
   const toggle = `<div class="seg" role="group" aria-label="Table view"><button data-tmode="now" aria-pressed="${!proj && !live}">Current</button>${anyLive ? `<button data-tmode="live" aria-pressed="${live}"><span class="live-dot"></span>As it stands</button>` : ''}<button data-tmode="proj" aria-pressed="${proj}">Projected</button></div>`;
   return `<section class="section"><div class="mw-head"><h2>${cfg.grouped ? (['mls', 'usl'].includes(k) ? 'Conferences' : 'Groups') : 'Table'}</h2>${toggle}</div>${k === 'unl' ? leagueSeg() : ''}
-    <p class="sub">${live ? 'The table if every live match finished at its current score. Odds already account for the live scores. ' : ''}${proj ? 'Final table if every remaining match plays out at its expected value: projected points, the middle-80% range from 1,000 simulated seasons, and where each club sits now.' : 'Live from your results. Projected points and odds come from 1,000 simulated seasons; the range covers the middle 80%.'} Tap a club for its fixtures.</p>
+    <p class="sub">${live ? 'The table if every live match finished at its current score. Odds already account for the live scores. ' : ''}${proj ? 'Final table if every remaining match plays out at its expected value: projected points, a W-D-L record that adds up to them, the middle-80% range from 1,000 simulated seasons, and where each club sits now.' : 'Live from your results. Projected points and odds come from 1,000 simulated seasons; the range covers the middle 80%.'} Tap a club for its fixtures.</p>
     ${body}<div class="legend">${cfg.legend.map(([l, c]) => `<span style="--c:${c}">${esc(l)}</span>`).join('')}</div>${hasMarks(k) && !live && markLegend(k, r.tab) ? `<div class="legend marks">${markLegend(k, r.tab)}</div>` : ''}
     <div class="race" style="margin-top:18px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
       <div><h3 style="margin:0">Affinity satisfaction</h3><p class="sub" style="margin:4px 0 0">How closely the standings follow your Affinity order. 0 is the worst possible order, 100 the best.</p></div>
@@ -1198,7 +1191,7 @@ function openClub(k, i) {
   if (!cup) {
     const row = r.tab[i], cfg = COMP[k].cfg;
     stats = `<div class="club-stats"><div><div class="k">Now</div><div class="v">${row.pos}${ord(row.pos)} · ${row.Pts} pts</div></div>
-      <div><div class="k">Projected</div><div class="v">${row.projPos}${ord(row.projPos)} · ${row.projPts.toFixed(0)} pts</div></div>
+      <div><div class="k">Projected</div><div class="v">${row.projPos}${ord(row.projPos)} · ${row.projPtsR} pts</div></div>
       ${cfg.cols.map(c => `<div><div class="k">${esc(colLabel(k, c))}</div><div class="v">${pct(row.odds[c] || 0)}</div></div>`).join('')}
       <div><div class="k">Affinity</div><div class="v">${fmtA(t.base + t.bonus)}</div></div></div>`;
   } else {

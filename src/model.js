@@ -234,6 +234,16 @@ const MODEL = (() => {
         if (f.h === r.i) { r.projW += f.pH; r.projD += f.pD; r.projL += f.pA; r.projGD += f.lh - f.la; }
         else if (f.a === r.i) { r.projW += f.pA; r.projD += f.pD; r.projL += f.pH; r.projGD += f.la - f.lh; }
       }
+      // one whole-number record that adds up to the shown points: the record whose points are closest to the expected
+      // points (round(projPts) when it can be reached), then closest to the expected W-D-L
+      const n = rem.filter(f => f.h === r.i || f.a === r.i).length, target = r.projPts - r.Pts;
+      let best = null, bc = Infinity;
+      for (let w = 0; w <= n; w++) for (let d = 0; w + d <= n; d++) {
+        const W = r.W + w, D = r.D + d, L = r.L + n - w - d;
+        const c = 1e3 * Math.abs(3 * w + d - target) + (W - r.projW) ** 2 + (D - r.projD) ** 2 + (L - r.projL) ** 2;
+        if (c < bc) { bc = c; best = [W, D, L]; }
+      }
+      r.projRec = best; r.projPtsR = r.Pts + 3 * (best[0] - r.W) + (best[1] - r.D);
     }
     const pkey = r => r.projPts * 1e3 + r.projGD;
     for (const r of tab) { const peers = C.grouped ? tab.filter(o => o.group === r.group) : tab; r.projPos = 1 + peers.filter(o => pkey(o) > pkey(r)).length; }

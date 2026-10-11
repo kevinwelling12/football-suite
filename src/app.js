@@ -874,10 +874,10 @@ function viewSettings(k) {
       field(k, 'drawAuto', 'Model: auto draw rate (1 = on, 0 = off)', `Keeps predicted draws in line with how often this league actually draws. Now: ${R[k] && R[k].drawTarget != null ? (R[k].drawTarget * 100).toFixed(1) + '% target (' + (R[k].fx.filter(f => f.played && f.hs === f.as).length) + ' draws in ' + R[k].fx.filter(f => f.played).length + ' matches, blended with a ' + Math.round(COMP[k].cfg.drawPrior * 100) + '% long-run norm)' : 'off'}.`, 1) +
       field(k, 'drawW0', 'Model: draw-rate prior (matches)', 'How many matches of the long-run norm the observed rate is blended with. Lower = follow this season faster.', 5) +
       field(k, 'halfLife', 'Model: recency half-life (days)', 'A result this many days older counts half as much.', 1) + field(k, 'k', 'Model: regression to the mean', "Phantom games at each club's preseason rating.", 1)}</div></section>
-    ${cup ? '' : `<section class="section"><h2>Points adjustments</h2><p class="sub">For points deductions or awards handed down by the league. They apply to the table, clinch statuses and every simulation.</p>
-      <div class="card" style="margin-top:12px">${(state.settings[k].adj || []).map((x, n) => `<div class="adj-row"><span>${tchip(k, x.i)}<b>${esc(T(k)[x.i].name)}</b> ${x.n ? `<small>${esc(x.n)}</small>` : ''}</span><b class="num ${x.p < 0 ? 'neg' : ''}">${x.p > 0 ? '+' : ''}${x.p} pts</b><button class="btn ghost" data-adjdel="${n}">Remove</button></div>`).join('') || '<div class="adj-row"><span style="color:var(--muted)">None</span></div>'}
+    ${cup ? '' : `<section class="section"><h2>Points adjustments</h2><p class="sub">For points deductions or awards handed down by the league. Strip all points sets a club to zero for the season: it keeps playing, but no result, past or future, earns it a point. They apply to the table, clinch statuses and every simulation.</p>
+      <div class="card" style="margin-top:12px">${(state.settings[k].adj || []).map((x, n) => `<div class="adj-row"><span>${tchip(k, x.i)}<b>${esc(T(k)[x.i].name)}</b> ${x.n ? `<small>${esc(x.n)}</small>` : ''}</span><b class="num ${x.all || x.p < 0 ? 'neg' : ''}">${x.all ? 'All points' : `${x.p > 0 ? '+' : ''}${x.p} pts`}</b><button class="btn ghost" data-adjdel="${n}">Remove</button></div>`).join('') || '<div class="adj-row"><span style="color:var(--muted)">None</span></div>'}
       <div class="adj-add"><select id="adj-club" aria-label="Club">${[...T(k).keys()].sort((x, y) => T(k)[x].name.localeCompare(T(k)[y].name)).map(i => `<option value="${i}">${esc(T(k)[i].name)}</option>`).join('')}</select>
-        <select id="adj-sign" aria-label="Deduction or award"><option value="-1">Deduct</option><option value="1">Award</option></select>
+        <select id="adj-sign" aria-label="Deduction or award"><option value="-1">Deduct</option><option value="1">Award</option><option value="all">Strip all points</option></select>
         <input id="adj-pts" inputmode="numeric" pattern="[0-9]*" placeholder="6" aria-label="Points"><input id="adj-note" placeholder="Reason (optional)" aria-label="Reason">
         <button class="btn primary" data-adjadd="1">Add</button></div></div></section>`}
     <section class="section"><h2>Your clubs</h2><p class="sub">Followed clubs get a star, a highlighted match card and table row, and their own section on the overview. You can also follow from any club card.</p>
@@ -1278,6 +1278,8 @@ document.addEventListener('click', e => {
     h[id] = Object.assign({}, h[id], {note:(el ? el.value : '').trim().slice(0, 300)}); render(); save(k); return; }
   if (t.dataset.signin) { signIn(); return; }
   if (t.dataset.signout) { signOut(); return; }
+  if (t.dataset.adjadd && $('#adj-sign').value === 'all') { const i = +$('#adj-club').value, n = $('#adj-note').value.trim(), st = state.settings[k];
+    if ((st.adj || []).some(x => x.all && x.i === i)) return; st.adj = [...(st.adj || []), {i, all: 1, p: 0, n}]; update(k); render(); save(k); return; }
   if (t.dataset.adjadd) { const i = +$('#adj-club').value, p = +$('#adj-sign').value * Math.abs(parseInt(String($('#adj-pts').value).replace(/[^0-9]/g, ''), 10)), n = $('#adj-note').value.trim();
     if (!Number.isInteger(p) || p === 0) return; const st = state.settings[k]; st.adj = [...(st.adj || []), {i, p, n}]; update(k); render(); save(k); return; }
   if (t.dataset.adjdel) { const st = state.settings[k]; st.adj = (st.adj || []).filter((_, n) => n !== +t.dataset.adjdel); update(k); render(); save(k); return; }

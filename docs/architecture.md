@@ -17,7 +17,7 @@ MODEL.run(comp, results, S, status, live) for league-style competitions:
    1.052 model only, 1.016 at 0.75, 1.015 market only; pick 'em 1.048 -> 1.084 points a match.
 6. Predicted score (draw-zone calibrated) and **pick 'em** pick = argmax of
    peOutcome*P(outcome) + (peExact-peOutcome)*P(exact). Locked at result entry (results[id][2..4]).
-7. Table (+ points adjustments S.adj), clinch/elimination statuses (cfg.status), groups/conferences.
+7. Table (+ points adjustments S.adj: {i, p, n} flat, or {i, all: 1} strips a club of every point this season, played and simulated), clinch/elimination statuses (cfg.status), groups/conferences.
 8. Monte Carlo: S.sims seasons (1000); live matches sample remaining goals (xG scaled by time left;
    per red card that side's rate x0.67, the opponent's x1.25, up to 3 each; live entry field rc:[home, away]).
    Knockouts/playoffs simulated per season via makeKO(kind): 'ucl', 'unl2' (Nations League A-D with

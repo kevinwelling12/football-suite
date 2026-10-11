@@ -166,7 +166,11 @@ const MODEL = (() => {
       if (f.hs > f.as) { H.W++; A.L++; H.Pts += 3; } else if (f.hs < f.as) { A.W++; H.L++; A.Pts += 3; } else { H.D++; A.D++; H.Pts++; A.Pts++; }
     }
     // points adjustments (deductions or awards) from Settings
-    for (const a of (S.adj || [])) if (tab[a.i]) { tab[a.i].Pts += a.p; tab[a.i].adj = (tab[a.i].adj || 0) + a.p; tab[a.i].adjNote = [tab[a.i].adjNote, a.n].filter(Boolean).join('; '); }
+    // a club stripped of all its points ({all: 1}) earns nothing from any match this season, played or still to come
+    const zeroed = new Uint8Array(N);
+    for (const a of (S.adj || [])) if (tab[a.i] && a.all) { const r = tab[a.i]; zeroed[a.i] = 1; r.adj = (r.adj || 0) - r.Pts; r.Pts = 0; r.zeroed = true;
+      r.adjNote = [r.adjNote, 'All points stripped' + (a.n ? ': ' + a.n : '')].filter(Boolean).join('; '); }
+    for (const a of (S.adj || [])) if (tab[a.i] && !a.all) { tab[a.i].Pts += a.p; tab[a.i].adj = (tab[a.i].adj || 0) + a.p; tab[a.i].adjNote = [tab[a.i].adjNote, a.n].filter(Boolean).join('; '); }
     const key = r => r.Pts * 1e6 + (r.GF - r.GA + 300) * 1e3 + r.GF;
     const games = {}; for (const f of fx) { games[f.h] = (games[f.h] || 0) + 1; games[f.a] = (games[f.a] || 0) + 1; }
     for (const r of tab) {
@@ -176,7 +180,7 @@ const MODEL = (() => {
       r.opos = 1 + tab.filter(o => key(o) > key(r)).length;
       const same = peers.filter(o => key(o) === key(r)).length;
       r.avgRank = r.pos - 1 + (same + 1) / 2;
-      r.left = games[r.i] - r.P; r.max = r.Pts + 3 * r.left;
+      r.left = games[r.i] - r.P; r.max = r.Pts + (zeroed[r.i] ? 0 : 3 * r.left);
     }
     for (const r of tab) {
       const peers = C.grouped ? tab.filter(o => o.group === r.group) : tab;
@@ -202,6 +206,7 @@ const MODEL = (() => {
     const ko = C.knockout ? makeKO(C.knockout, att, def, avgRate, homeRate, awayRate, { ko: S.koRes, done: rem.length === 0 }) : null;
     const koCount = ko ? {} : null;
     if (ko) for (const z of ko.zones) koCount[z] = new Float64Array(N);
+    const zk = Array.from(zeroed, z => 1 - z);   // points a result is worth to each club (0 when stripped)
     const cmp = (x, y) => (pts[y] - pts[x]) || (gd[y] - gd[x]) || (gfs[y] - gfs[x]) || (x - y);
     for (let s = 0; s < NS; s++) {
       for (const r of tab) { pts[r.i] = r.Pts; gd[r.i] = r.GF - r.GA; gfs[r.i] = r.GF; }
@@ -210,7 +215,7 @@ const MODEL = (() => {
         if (f.live) { h = f.live.h + poisSample(rand, f.live.rh); a = f.live.a + poisSample(rand, f.live.ra); }
         else { const c = cums[m], u = rand() * c[35]; let k = 0; while (k < 35 && c[k] < u) k++; h = Math.floor(k / 6); a = k % 6; }
         gd[f.h] += h - a; gd[f.a] += a - h; gfs[f.h] += h; gfs[f.a] += a;
-        if (h > a) { pts[f.h] += 3; outcome[s * R + m] = 1; } else if (h < a) { pts[f.a] += 3; outcome[s * R + m] = 3; } else { pts[f.h]++; pts[f.a]++; outcome[s * R + m] = 2; }
+        if (h > a) { pts[f.h] += 3 * zk[f.h]; outcome[s * R + m] = 1; } else if (h < a) { pts[f.a] += 3 * zk[f.a]; outcome[s * R + m] = 3; } else { pts[f.h] += zk[f.h]; pts[f.a] += zk[f.a]; outcome[s * R + m] = 2; }
       }
       const groupOrders = members.map(mm => [...mm].sort(cmp));
       groupOrders.forEach(go => go.forEach((t, k) => { gr[s * N + t] = k + 1; }));
@@ -228,7 +233,7 @@ const MODEL = (() => {
       if (ko) for (const z of ko.zones) r.odds[z] = koCount[z][r.i] / NS;
       fp.sort((x, y) => x - y); r.projLow = fp[Math.floor(0.1 * NS)]; r.projHigh = fp[Math.floor(0.9 * NS)];
       r.avgSimPos = sumPos / NS;
-      r.projPts = r.Pts + rem.reduce((s, f) => s + (f.h === r.i ? 3 * f.pH + f.pD : f.a === r.i ? 3 * f.pA + f.pD : 0), 0);
+      r.projPts = r.Pts + zk[r.i] * rem.reduce((s, f) => s + (f.h === r.i ? 3 * f.pH + f.pD : f.a === r.i ? 3 * f.pA + f.pD : 0), 0);
       r.projW = r.W; r.projD = r.D; r.projL = r.L; r.projGD = r.GF - r.GA;
       for (const f of rem) {
         if (f.h === r.i) { r.projW += f.pH; r.projD += f.pD; r.projL += f.pA; r.projGD += f.lh - f.la; }
@@ -240,10 +245,10 @@ const MODEL = (() => {
       let best = null, bc = Infinity;
       for (let w = 0; w <= n; w++) for (let d = 0; w + d <= n; d++) {
         const W = r.W + w, D = r.D + d, L = r.L + n - w - d;
-        const c = 1e3 * Math.abs(3 * w + d - target) + (W - r.projW) ** 2 + (D - r.projD) ** 2 + (L - r.projL) ** 2;
+        const c = 1e3 * zk[r.i] * Math.abs(3 * w + d - target) + (W - r.projW) ** 2 + (D - r.projD) ** 2 + (L - r.projL) ** 2;
         if (c < bc) { bc = c; best = [W, D, L]; }
       }
-      r.projRec = best; r.projPtsR = r.Pts + 3 * (best[0] - r.W) + (best[1] - r.D);
+      r.projRec = best; r.projPtsR = r.Pts + zk[r.i] * (3 * (best[0] - r.W) + (best[1] - r.D));
     }
     const pkey = r => r.projPts * 1e3 + r.projGD;
     for (const r of tab) { const peers = C.grouped ? tab.filter(o => o.group === r.group) : tab; r.projPos = 1 + peers.filter(o => pkey(o) > pkey(r)).length; }

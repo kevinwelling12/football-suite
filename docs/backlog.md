@@ -7,5 +7,5 @@
 - Carabao Cup: postponed/awarded status for cup ties; live scoring for cup ties.
 - Per-match US TV channels (Premier League via NBC weekly picks; MLS FOX/FS1 picks).
 - UCL/UNL/Carabao kickoff times beyond current data; far-future provisional dates refresh.
-- Possible Man City sanction: points adjustments tool exists (Settings > Points adjustments).
+- Possible Man City sanction: Settings > Points adjustments takes a flat deduction or "Strip all points" (zero for the season).
 - Underdog lean for edge cases implemented (0.05); stakes weight 0.3.

@@ -42,3 +42,7 @@ ESPN workflow; use FBref to cross-check or when ESPN is down).
 The ESPN sync also stores DraftKings odds for upcoming league fixtures as `odds[fixtureId] = {H, D, A, L, O, U}` (decimal
 3-way moneyline, over/under line and prices) in each competition of data/suite_data.json. The model blends them in (docs/architecture.md
 5b). History for backtests: `python3 scripts/odds/history.py` (football-data.co.uk) and `node scripts/pickem/blend.js`.
+
+## API-Football (checked 2026-10-11, not used)
+The free plan only reaches the 2022-2024 seasons, so it has nothing current for any of the 12 competitions. Kevin won't pay
+for a plan. The probe script and workflow were removed (see git history).

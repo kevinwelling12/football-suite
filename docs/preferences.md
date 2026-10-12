@@ -289,13 +289,14 @@ He asked to "run the re-rate with the new sub-weights". The result did not impro
 - **Republic link** (round 3): +2 while a former Republic player is a regular at a higher-tier club (now LAFC, Aaron Long). [CURRENT] It moved into the big-4 connection items on 2026-10-02.
 
 ### B11. Hometown, heritage, home nation
-- **Clubs** (round 2) [CURRENT]: the regional heritage bonus was dropped. Only the hometown club, Sacramento Republic FC, gets +4.
+- **Clubs** (round 2): the regional heritage bonus was dropped. Only the hometown club, Sacramento Republic FC, gets +4.
+  - 2026-10-12, with his Ancestry results: "let's reapply my dna origins to both national and club affinity scores, along with players." Chose "Region, half scale". [CURRENT] 0.2 × the share of the club's own Ancestry region, cap +5 (Madeira +3.4, Southeastern England +2.6, Ulster +2.4, Scottish Central Belt +2.2, Liverpool's NW England +0.2). US clubs get none.
+- **Players** (2026-10-12): chose "National team, half scale". [CURRENT] 0.2 × their national team's share, cap +5 (England +5, Portugal +3.4, Scotland +2.2). US players get none.
 - **Nations, heritage** (round 2): kept as a tiebreaker up to +10.
   - 2026-10-08, after "big update on the heritage side. Ancestry released their annual model update." [CURRENT] 0.4 × Ancestry share, capped at +10. Regions are split across nations, for example Ulster 2/3 Northern Ireland and 1/3 Republic of Ireland.
 - **Home nation:**
   - 2026-09-28: the United States +10.
   - 2026-10-09 plastic-fan check: [CURRENT] +20, "twice the largest ancestry bonus".
-  - heritage.json's rule text still says +10, which is stale.
 - **Heritage clubs** (2026-10-08): "based solely on my DNA heritage shares, rank my top club and nation teams" → "combine with my affinity rankings" → "the word" (that is, research and rate the 15 heritage clubs).
   - [CURRENT] 15 clubs from his Ancestry regions are scored like every other club, with no regional bonus. They show as a separate "Heritage clubs" filter.
   - The combined club ranking that used a region bonus in chat (Portsmouth +5.2 and so on) was a one-off view, not a model rule.
@@ -840,7 +841,7 @@ Scenarios (happiness 0-10):
     - Coutinho and Courtois media tags were cleared.
 20. **Familiarity in the gut data.** Kevin pointed out the anonymous clubs were recognisable, so the "blind" gut set is partly a named set. The rebuild should not treat the 26 vignettes as clean blind labels.
 21. **Stale documentation.** These conflict with the code and are not preference conflicts:
-    - heritage.json says US +10; it is +20.
+    - heritage.json says US +10; it is +20. (Fixed 2026-10-12.)
     - The rescore.py header says k = 0.85 + 0.03 P; it is 0.95 + 0.01 P.
     - The players/model.py docstring describes the old fixed-club connection.
     - The whitepaper (claude.ai doc) is out of date. Claude flagged this on 2026-10-02 and Kevin never answered.

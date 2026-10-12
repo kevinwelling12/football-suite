@@ -55,13 +55,13 @@ def club_score(f, hard, P, conn_items, roots, p=PARAMS, pi=None):
     if q <= 0: return 0.0, dict(Q=round(Q, 1), Qh=0.0, A0=0.0, K=0.0)  # hard lines took everything: nothing left to connect
     return max(0.0, min(100.0, a0 + k + roots)), dict(Q=round(Q, 1), Qh=round(q, 1), A0=round(a0, 1), K=round(k, 1))
 
-def player_score(f, hard, conn_items, p=PARAMS):
+def player_score(f, hard, conn_items, p=PARAMS, roots=0):
     Q = character(f, p['player_w'])
     R = sum(p['perf_w'][k] * f[k] for k in PERF_F) / sum(p['perf_w'].values())
     a0, q = blend(Q, sum(x[2] for x in hard), R, p['player_pi'], p)
     k = connect(conn_items, p)
     if q <= 0: return 0.0, dict(Q=round(Q, 1), Qh=0.0, R=round(R * 10, 1), A0=0.0, K=0.0)
-    return max(0.0, min(100.0, a0 + k)), dict(Q=round(Q, 1), Qh=round(q, 1), R=round(R * 10, 1), A0=round(a0, 1), K=round(k, 1))
+    return max(0.0, min(100.0, a0 + k + roots)), dict(Q=round(Q, 1), Qh=round(q, 1), R=round(R * 10, 1), A0=round(a0, 1), K=round(k, 1))
 
 # ---------------------------------------------------------------- connection for players: the clubs they played for
 def per_season(a):
@@ -124,7 +124,9 @@ def run(p=PARAMS, write=True):
             f['T'], f['H'] = t1, h1
         P = I.club_perf(n, comps.get(n))
         conn = I.club_conn(n)
-        roots = (('Hometown', p['home_club']) if n == I.HOMETOWN else None)
+        rg = I.CLUB_REGION.get(n)
+        roots = (('Hometown', p['home_club']) if n == I.HOMETOWN else
+                 (f'Heritage: {rg} {I.REGION_PCT[rg]}%', round(min(p['club_heritage_cap'], p['club_heritage_per_pct'] * I.REGION_PCT[rg]), 1)) if rg else None)
         R[n] = dict(f=f, f0=f0, sub=sub, hard=hard, notes=notes, P=P, conn=conn, roots=roots)
     def score_club(n, extra=()):
         r = R[n]
@@ -158,7 +160,10 @@ def run(p=PARAMS, write=True):
             for nm in {t['name'], t.get('short') or t['name']}: (CW if key == 'nwsl' else CA).setdefault(' '.join(I.PM.norm(nm)), R[t['name']]['A'])
     for n, pl in PL.items():
         pl['conn'] = player_conn(pl, CA, CW)
-        pl['A'], pl['parts'] = player_score(pl['factors'], pl['hard'], pl['conn'], p)
+        nat = (pl['facts'].get('national') or {}).get('team') or pl['facts'].get('nation')
+        sh = I.nation_share(nat)
+        pl['roots'] = (f'Heritage: {nat} {round(sh)}%', round(min(p['player_heritage_cap'], p['player_heritage_per_pct'] * sh), 1)) if sh else None
+        pl['A'], pl['parts'] = player_score(pl['factors'], pl['hard'], pl['conn'], p, pl['roots'][1] if pl['roots'] else 0)
     if write: write_out(D, X, R, PL, p)
     return R, PL
 
@@ -178,6 +183,7 @@ def hai(r, p):
     if 'py' in r['sub']: h['py'] = r['sub']['py']
     if 'clubs' in r['sub']: h['tb'], h['clubs'] = r['sub']['tb'], r['sub']['clubs']
     if r['notes']: h['notes'] = r['notes']
+    if r['roots'] and not r.get('nation'): h['rl'] = r['roots'][0]
     return h
 
 def write_out(D, X, R, PL, p):
@@ -216,11 +222,12 @@ def write_players(PL, p):
                  why=re.sub(r'\(?\banchors?\b\)?\s*', '', s.get('why', ''))[:240],
                  pen=[f"{l}: {w}"[:90] for _, l, _, w in pl['hard']][:3],
                  nw=next((c['club'] for c in f.get('clubs', []) if not c.get('to') and NWSL.search(c.get('club') or '')), None))
+        if pl.get('roots') and pl['parts']['Qh'] > 0: e['h'] = pl['roots'][1]; e['hl'] = pl['roots'][0]
         g = 'w' if pl['gender'] in ('F', 'female', 'w', 'W') else 'm'
         for k in ((g + 'a', g + 't') if pl['active'] else (g + 't',)):
             if len(L[k]) < SIZE[k]: L[k].append(e)
         ratings.append(dict(name=n, gender=pl['gender'], active=pl['active'], aff=round(pl['A'], 1), **pl['parts'],
-                            conn=pl['conn'], hard=[[l, x] for _, l, x, _ in pl['hard']]))
+                            conn=pl['conn'], hard=[[l, x] for _, l, x, _ in pl['hard']], roots=pl.get('roots')))
     (root / 'data' / 'players.json').write_text(json.dumps(L, ensure_ascii=False, separators=(',', ':')))
     (A / 'players' / 'ratings.json').write_text(json.dumps(ratings, ensure_ascii=False, indent=1))
 

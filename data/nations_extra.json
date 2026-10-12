@@ -177,12 +177,13 @@
     "V": 7.3,
     "H": 5.3,
     "O": 6,
-    "S": 7.0,
-    "Q": 64.1,
-    "A0": 64.5,
+    "S": 7.1,
+    "Q": 64.3,
+    "A0": 64.6,
     "hard": [],
     "conn": [],
     "K": 0.0,
+    "S0": 7,
     "P": 6.7,
     "rank": 26,
     "wc2026": "round of 32",
@@ -190,7 +191,7 @@
      "event": "Asian Cup 2023",
      "result": "quarter-finals"
     },
-    "tb": -0.0,
+    "tb": 0.1,
     "clubs": [
      [
       "New York City Football Club",
@@ -200,21 +201,21 @@
      [
       "Heart of Midlothian",
       6,
-      0.06
+      0.09
      ],
      [
       "Celtic",
       4,
-      0.05
+      0.06
      ],
      [
-      "Viking",
-      1,
-      0.03
+      "Hibernian",
+      5,
+      0.04
      ]
     ]
    },
-   "base": 64.5,
+   "base": 64.6,
    "bonus": 0,
    "region": ""
   },
@@ -282,9 +283,9 @@
     "V": 5.7,
     "H": 4.1,
     "O": 4.2,
-    "S": 8.1,
-    "Q": 57.4,
-    "A0": 58.4,
+    "S": 8.2,
+    "Q": 57.6,
+    "A0": 58.5,
     "hard": [],
     "conn": [],
     "K": 0.0,
@@ -296,7 +297,7 @@
      "event": "Gold Cup 2025",
      "result": "quarter-finals"
     },
-    "tb": 0.1,
+    "tb": 0.2,
     "clubs": [
      [
       "Portland Timbers",
@@ -306,7 +307,7 @@
      [
       "Bayern Munich",
       4,
-      0.12
+      0.13
      ],
      [
       "Inter Miami CF",
@@ -320,7 +321,7 @@
      ]
     ]
    },
-   "base": 58.4,
+   "base": 58.5,
    "bonus": 0,
    "region": ""
   },
@@ -354,7 +355,7 @@
      [
       "Shamrock Rovers",
       3,
-      0.07
+      0.08
      ],
      [
       "Columbus Crew",
@@ -416,7 +417,7 @@
      [
       "Bayern Munich",
       3,
-      0.09
+      0.1
      ],
      [
       "Sporting CP",
@@ -528,9 +529,9 @@
       0.04
      ],
      [
-      "Espanyol",
-      2,
-      -0.02
+      "Celtic",
+      1,
+      0.03
      ]
     ]
    },
@@ -634,7 +635,7 @@
      [
       "Liverpool",
       6,
-      0.2
+      0.21
      ],
      [
       "Manchester City",
@@ -700,9 +701,9 @@
       -0.1
      ],
      [
-      "Atlético Madrid",
-      1,
-      -0.04
+      "Club Brugge",
+      3,
+      0.04
      ]
     ]
    },
@@ -844,12 +845,12 @@
      [
       "AFC Wimbledon",
       1,
-      0.04
+      0.05
      ],
      [
       "Luton Town",
       1,
-      0.02
+      0.04
      ]
     ]
    },
@@ -955,7 +956,7 @@
      [
       "Celtic",
       4,
-      0.07
+      0.09
      ],
      [
       "VfB Stuttgart",
@@ -1159,6 +1160,11 @@
       "Viking",
       1,
       0.13
+     ],
+     [
+      "Port Vale",
+      1,
+      0.01
      ]
     ]
    },
@@ -1202,6 +1208,11 @@
       "Seattle Sounders FC",
       2,
       0.03
+     ],
+     [
+      "Norwich City",
+      2,
+      0.0
      ],
      [
       "Vancouver Whitecaps FC",
@@ -1259,7 +1270,7 @@
      [
       "Portsmouth",
       1,
-      0.04
+      0.05
      ],
      [
       "Seattle Sounders FC",
@@ -1394,7 +1405,7 @@
      [
       "Bayern Munich",
       4,
-      0.13
+      0.14
      ]
     ]
    },
@@ -1489,7 +1500,7 @@
      [
       "Celtic",
       3,
-      0.06
+      0.08
      ],
      [
       "Mainz 05",
@@ -1735,14 +1746,14 @@
     "conn": [
      [
       "Linked to Liverpool",
-      0.7
+      0.6
      ],
      [
       "Linked to Borussia Dortmund",
-      0.5
+      0.4
      ]
     ],
-    "K": 1.2,
+    "K": 1.0,
     "P": 9.9,
     "ps": [
      10.0,
@@ -1756,10 +1767,11 @@
      10.0,
      10.0
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
-   "base": 70.0,
-   "bonus": 0
+   "base": 69.8,
+   "bonus": 2.2
   },
   {
    "name": "Rangers",
@@ -1810,10 +1822,11 @@
      8.3,
      7.8
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
    "base": 25.4,
-   "bonus": 0
+   "bonus": 2.2
   },
   {
    "name": "Heart of Midlothian",
@@ -1855,10 +1868,11 @@
      5.1,
      8.3
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
    "base": 67.0,
-   "bonus": 0
+   "bonus": 2.2
   },
   {
    "name": "Hibernian",
@@ -1891,10 +1905,11 @@
      7.8,
      6.6
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
    "base": 64.9,
-   "bonus": 0
+   "bonus": 2.2
   },
   {
    "name": "Linfield",
@@ -1932,10 +1947,11 @@
      10.0,
      7.8
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Ulster, Ireland 12%"
    },
    "base": 55.4,
-   "bonus": 0
+   "bonus": 2.4
   },
   {
    "name": "Derry City",
@@ -1977,10 +1993,11 @@
      6.9,
      8.2
     ],
-    "pl": "2025"
+    "pl": "2025",
+    "rl": "Heritage: Ulster, Ireland 12%"
    },
    "base": 61.0,
-   "bonus": 0
+   "bonus": 2.4
   },
   {
    "name": "Shamrock Rovers",
@@ -2018,10 +2035,11 @@
      8.2,
      10.0
     ],
-    "pl": "2025"
+    "pl": "2025",
+    "rl": "Heritage: Leinster, Ireland 2%"
    },
    "base": 69.6,
-   "bonus": 0
+   "bonus": 0.4
   },
   {
    "name": "Bohemians",
@@ -2054,10 +2072,11 @@
      2.7,
      6.9
     ],
-    "pl": "2025"
+    "pl": "2025",
+    "rl": "Heritage: Leinster, Ireland 2%"
    },
    "base": 75.0,
-   "bonus": 0
+   "bonus": 0.4
   },
   {
    "name": "Marítimo",
@@ -2090,10 +2109,11 @@
      2.2,
      6.0
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Madeira 17%"
    },
    "base": 55.1,
-   "bonus": 0
+   "bonus": 3.4
   },
   {
    "name": "Nacional",
@@ -2126,10 +2146,11 @@
      2.8,
      2.8
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Madeira 17%"
    },
    "base": 44.5,
-   "bonus": 0
+   "bonus": 3.4
   },
   {
    "name": "1. FC Nürnberg",
@@ -2162,10 +2183,11 @@
      2.8,
      3.3
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Bavaria & Western Austria 4%"
    },
    "base": 68.0,
-   "bonus": 0
+   "bonus": 0.8
   },
   {
    "name": "Žalgiris",
@@ -2198,10 +2220,11 @@
      10.0,
      7.6
     ],
-    "pl": "2025"
+    "pl": "2025",
+    "rl": "Heritage: Lithuania 3%"
    },
    "base": 55.4,
-   "bonus": 0
+   "bonus": 0.6
   },
   {
    "name": "Viktoria Plzeň",
@@ -2239,10 +2262,11 @@
      8.4,
      8.1
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Western Czechia 2%"
    },
    "base": 52.6,
-   "bonus": 0
+   "bonus": 0.4
   },
   {
    "name": "Union Saint-Gilloise",
@@ -2284,10 +2308,11 @@
      10.0,
      9.4
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Belgium 2%"
    },
    "base": 65.3,
-   "bonus": 0
+   "bonus": 0.4
   },
   {
    "name": "Anderlecht",
@@ -2325,10 +2350,11 @@
      7.7,
      7.7
     ],
-    "pl": "2025-26"
+    "pl": "2025-26",
+    "rl": "Heritage: Belgium 2%"
    },
    "base": 58.5,
-   "bonus": 0
+   "bonus": 0.4
   }
  ]
 }

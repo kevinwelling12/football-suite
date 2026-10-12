@@ -1,0 +1,449 @@
+{
+ "1. FC Nürnberg": {
+  "country": "Germany",
+  "avg_attendance": 35099,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveger.htm",
+   "https://www.diefalsche9.de/stehplatz-dauerkartenpreise-der-zweitligisten-im-vergleich/"
+  ]
+ },
+ "AEK Athens": {
+  "country": "Greece",
+  "avg_attendance": 24999,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avegrc.htm"
+  ]
+ },
+ "Anderlecht": {
+  "country": "Belgium",
+  "avg_attendance": 20199,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avebel.htm"
+  ]
+ },
+ "Atlético Madrid": {
+  "country": "Spain",
+  "avg_attendance": 60855,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveesp.htm",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Barcelona": {
+  "country": "Spain",
+  "avg_attendance": 45099,
+  "att_season": "2025-26",
+  "capacity": 62652,
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveesp.htm",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html",
+   "https://www.thenews.pk/print/1403812-barca-permitted-to-expand-camp-nou-capacity-to-63-000"
+  ]
+ },
+ "Bayern Munich": {
+  "country": "Germany",
+  "avg_attendance": 75000,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveger.htm",
+   "https://www.diefalsche9.de/stehplatz-dauerkartenpreise-der-bundesligisten-im-vergleich/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444"
+  ]
+ },
+ "Bodø/Glimt": {
+  "country": "Norway",
+  "avg_attendance": 6843,
+  "att_season": "2025",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/archive/nor/avenor2025.htm"
+  ]
+ },
+ "Bohemians": {
+  "country": "Republic of Ireland",
+  "avg_attendance": 5860,
+  "att_season": "2025",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/archive/irl/aveirl25.htm"
+  ]
+ },
+ "Borussia Dortmund": {
+  "country": "Germany",
+  "avg_attendance": 81365,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveger.htm",
+   "https://www.diefalsche9.de/stehplatz-dauerkartenpreise-der-bundesligisten-im-vergleich/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444"
+  ]
+ },
+ "Celtic": {
+  "country": "Scotland",
+  "avg_attendance": 58558,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avesco.htm",
+   "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/scottish-premiership-season-ticket-prices-2526-rangers-celtic-and-rivals-ranked-from-lowest-to-highest-5153205"
+  ]
+ },
+ "Club Brugge": {
+  "country": "Belgium",
+  "avg_attendance": 24049,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avebel.htm"
+  ]
+ },
+ "Como": {
+  "country": "Italy",
+  "avg_attendance": 11451,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveita.htm",
+   "https://www.calcioefinanza.it/?p=199053"
+  ]
+ },
+ "Derry City": {
+  "country": "Republic of Ireland",
+  "avg_attendance": 3462,
+  "att_season": "2025",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/archive/irl/aveirl25.htm"
+  ]
+ },
+ "Fenerbahçe": {
+  "country": "Turkey",
+  "avg_attendance": 38080,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avetur.htm",
+   "https://www.karar.com/spor-haberleri/4-buyukler-kombine-fiyatlarinda-avrupa-devlerini-solladi-1982132"
+  ]
+ },
+ "Feyenoord": {
+  "country": "Netherlands",
+  "avg_attendance": 47500,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avened.htm",
+   "https://www.welingelichtekringen.nl/sport/dit-kost-een-seizoenkaart-bij-de-eredivisie-clubs-bijna-overal-prijsstijgingen-telstar-en-feyenoord-uitschieters"
+  ]
+ },
+ "Galatasaray": {
+  "country": "Turkey",
+  "avg_attendance": 42989,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avetur.htm",
+   "https://www.karar.com/spor-haberleri/4-buyukler-kombine-fiyatlarinda-avrupa-devlerini-solladi-1982132"
+  ]
+ },
+ "Heart of Midlothian": {
+  "country": "Scotland",
+  "avg_attendance": 18746,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avesco.htm",
+   "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/scottish-premiership-season-ticket-prices-2526-rangers-celtic-and-rivals-ranked-from-lowest-to-highest-5153205"
+  ]
+ },
+ "Hibernian": {
+  "country": "Scotland",
+  "avg_attendance": 18510,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avesco.htm",
+   "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/scottish-premiership-season-ticket-prices-2526-rangers-celtic-and-rivals-ranked-from-lowest-to-highest-5153205",
+   "https://hibernianfc.co.uk/news/2025/march/05/2025-26-season-tickets-on-sale-now-"
+  ]
+ },
+ "Inter Milan": {
+  "country": "Italy",
+  "avg_attendance": 73305,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveita.htm",
+   "https://www.calcioefinanza.it/?p=199053",
+   "https://www.goal.com/it/liste/abbonamenti-serie-a-25-26-aumenti-e-conferma-dei-prezzi-come-si-sono-comportate-le-squadre-di-serie-a/blt068c262d91422c8d"
+  ]
+ },
+ "LASK": {
+  "country": "Austria",
+  "avg_attendance": 13401,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveaut.htm"
+  ]
+ },
+ "Lens": {
+  "country": "France",
+  "avg_attendance": 37564,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avefra.htm",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/"
+  ]
+ },
+ "Lille": {
+  "country": "France",
+  "avg_attendance": 43092,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avefra.htm",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25"
+  ]
+ },
+ "Linfield": {
+  "country": "Northern Ireland",
+  "avg_attendance": 2796,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avenir.htm"
+  ]
+ },
+ "Marítimo": {
+  "country": "Portugal",
+  "avg_attendance": 7658,
+  "att_season": "2025-26 (Liga Portugal 2)",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveprt.htm"
+  ]
+ },
+ "Nacional": {
+  "country": "Portugal",
+  "avg_attendance": 2458,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveprt.htm"
+  ]
+ },
+ "Napoli": {
+  "country": "Italy",
+  "avg_attendance": 49906,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveita.htm",
+   "https://www.goal.com/it/liste/abbonamenti-serie-a-25-26-aumenti-e-conferma-dei-prezzi-come-si-sono-comportate-le-squadre-di-serie-a/blt068c262d91422c8d"
+  ]
+ },
+ "PSV Eindhoven": {
+  "country": "Netherlands",
+  "avg_attendance": 34441,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avened.htm",
+   "https://www.welingelichtekringen.nl/sport/dit-kost-een-seizoenkaart-bij-de-eredivisie-clubs-bijna-overal-prijsstijgingen-telstar-en-feyenoord-uitschieters"
+  ]
+ },
+ "Paris Saint-Germain": {
+  "country": "France",
+  "avg_attendance": 47574,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avefra.htm",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/"
+  ]
+ },
+ "Porto": {
+  "country": "Portugal",
+  "avg_attendance": 45611,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveprt.htm"
+  ]
+ },
+ "RB Leipzig": {
+  "country": "Germany",
+  "avg_attendance": 44164,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveger.htm",
+   "https://www.diefalsche9.de/stehplatz-dauerkartenpreise-der-bundesligisten-im-vergleich/"
+  ]
+ },
+ "Rangers": {
+  "country": "Scotland",
+  "avg_attendance": 50314,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avesco.htm",
+   "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/scottish-premiership-season-ticket-prices-2526-rangers-celtic-and-rivals-ranked-from-lowest-to-highest-5153205"
+  ]
+ },
+ "Real Betis": {
+  "country": "Spain",
+  "avg_attendance": 57427,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveesp.htm"
+  ]
+ },
+ "Real Madrid": {
+  "country": "Spain",
+  "avg_attendance": 71853,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveesp.htm",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Roma": {
+  "country": "Italy",
+  "avg_attendance": 61796,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveita.htm",
+   "https://www.goal.com/it/liste/abbonamenti-serie-a-25-26-aumenti-e-conferma-dei-prezzi-come-si-sono-comportate-le-squadre-di-serie-a/blt068c262d91422c8d"
+  ]
+ },
+ "Sabah": {
+  "country": "Azerbaijan",
+  "avg_attendance": 1390,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveaze.htm"
+  ]
+ },
+ "Shakhtar Donetsk": {
+  "country": "Ukraine",
+  "avg_attendance": 2673,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveukr.htm"
+  ]
+ },
+ "Shamrock Rovers": {
+  "country": "Republic of Ireland",
+  "avg_attendance": 5791,
+  "att_season": "2025",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/archive/irl/aveirl25.htm"
+  ]
+ },
+ "Slavia Prague": {
+  "country": "Czech Republic",
+  "avg_attendance": 16351,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avecze.htm"
+  ]
+ },
+ "Slovan Bratislava": {
+  "country": "Slovakia",
+  "avg_attendance": 7569,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avesvk.htm"
+  ]
+ },
+ "Sporting CP": {
+  "country": "Portugal",
+  "avg_attendance": 42408,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveprt.htm"
+  ]
+ },
+ "Union Saint-Gilloise": {
+  "country": "Belgium",
+  "avg_attendance": 7822,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avebel.htm"
+  ]
+ },
+ "VfB Stuttgart": {
+  "country": "Germany",
+  "avg_attendance": 59441,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveger.htm",
+   "https://www.diefalsche9.de/stehplatz-dauerkartenpreise-der-bundesligisten-im-vergleich/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444"
+  ]
+ },
+ "Viking": {
+  "country": "Norway",
+  "avg_attendance": 13731,
+  "att_season": "2025",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/archive/nor/avenor2025.htm"
+  ]
+ },
+ "Viktoria Plzeň": {
+  "country": "Czech Republic",
+  "avg_attendance": 9119,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/avecze.htm"
+  ]
+ },
+ "Villarreal": {
+  "country": "Spain",
+  "avg_attendance": 17989,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/aveesp.htm",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Žalgiris": {
+  "country": "Lithuania",
+  "avg_attendance": 869,
+  "att_season": "2025",
+  "ticket_price": null,
+  "sources": [
+   "https://www.european-football-statistics.co.uk/attn/archive/ltu/aveltu25.htm"
+  ]
+ }
+}

@@ -1,0 +1,3243 @@
+[
+{
+"name": "Christine Sinclair",
+"gender": "W",
+"active": false,
+"affinity": 95.8,
+"CH": 10.0
+},
+{
+"name": "Kenny Dalglish",
+"gender": "M",
+"active": false,
+"affinity": 95.5,
+"CH": 10.0
+},
+{
+"name": "Mia Hamm",
+"gender": "W",
+"active": false,
+"affinity": 94.7,
+"CH": 10.0
+},
+{
+"name": "Philipp Lahm",
+"gender": "M",
+"active": false,
+"affinity": 94.5,
+"CH": 10.0
+},
+{
+"name": "Aitana Bonmatí",
+"gender": "W",
+"active": true,
+"affinity": 94.2,
+"CH": 10.0
+},
+{
+"name": "Stanley Matthews",
+"gender": "M",
+"active": false,
+"affinity": 93.3,
+"CH": 9.99
+},
+{
+"name": "Bobby Charlton",
+"gender": "M",
+"active": false,
+"affinity": 92.9,
+"CH": 10.0
+},
+{
+"name": "Megan Rapinoe",
+"gender": "W",
+"active": false,
+"affinity": 92.8,
+"CH": 10.0
+},
+{
+"name": "Thomas Müller",
+"gender": "M",
+"active": true,
+"affinity": 92.1,
+"CH": 9.32
+},
+{
+"name": "Bukayo Saka",
+"gender": "M",
+"active": true,
+"affinity": 90.8,
+"CH": 10.0
+},
+{
+"name": "Michelle Akers",
+"gender": "W",
+"active": false,
+"affinity": 90.6,
+"CH": 10.0
+},
+{
+"name": "Andy Robertson",
+"gender": "M",
+"active": true,
+"affinity": 90.6,
+"CH": 10.0
+},
+{
+"name": "Kristine Lilly",
+"gender": "W",
+"active": false,
+"affinity": 90.4,
+"CH": 10.0
+},
+{
+"name": "Uwe Seeler",
+"gender": "M",
+"active": false,
+"affinity": 90.3,
+"CH": 8.17
+},
+{
+"name": "Lindsey Horan",
+"gender": "W",
+"active": true,
+"affinity": 89.7,
+"CH": 10.0
+},
+{
+"name": "Becky Sauerbrunn",
+"gender": "W",
+"active": false,
+"affinity": 89.5,
+"CH": 10.0
+},
+{
+"name": "Leah Williamson",
+"gender": "W",
+"active": true,
+"affinity": 89.4,
+"CH": 10.0
+},
+{
+"name": "Abby Wambach",
+"gender": "W",
+"active": false,
+"affinity": 89.1,
+"CH": 10.0
+},
+{
+"name": "Marta",
+"gender": "W",
+"active": true,
+"affinity": 88.6,
+"CH": 10.0
+},
+{
+"name": "Alexia Putellas",
+"gender": "W",
+"active": true,
+"affinity": 88.5,
+"CH": 10.0
+},
+{
+"name": "Carles Puyol",
+"gender": "M",
+"active": false,
+"affinity": 88.3,
+"CH": 9.82
+},
+{
+"name": "Tobin Heath",
+"gender": "W",
+"active": false,
+"affinity": 88.3,
+"CH": 10.0
+},
+{
+"name": "Eusébio",
+"gender": "M",
+"active": false,
+"affinity": 88.3,
+"CH": 8.73
+},
+{
+"name": "Paolo Maldini",
+"gender": "M",
+"active": false,
+"affinity": 88.1,
+"CH": 9.6
+},
+{
+"name": "Manuel Neuer",
+"gender": "M",
+"active": true,
+"affinity": 87.7,
+"CH": 8.5
+},
+{
+"name": "Toni Kroos",
+"gender": "M",
+"active": false,
+"affinity": 87.2,
+"CH": 10.0
+},
+{
+"name": "Andrés Iniesta",
+"gender": "M",
+"active": false,
+"affinity": 87.1,
+"CH": 10.0
+},
+{
+"name": "Pelé",
+"gender": "M",
+"active": false,
+"affinity": 87.1,
+"CH": 7.94
+},
+{
+"name": "Gigi Riva",
+"gender": "M",
+"active": false,
+"affinity": 87.0,
+"CH": 8.71
+},
+{
+"name": "Javier Zanetti",
+"gender": "M",
+"active": false,
+"affinity": 86.4,
+"CH": 10.0
+},
+{
+"name": "John Barnes",
+"gender": "M",
+"active": false,
+"affinity": 86.0,
+"CH": 8.96
+},
+{
+"name": "Landon Donovan",
+"gender": "M",
+"active": false,
+"affinity": 85.8,
+"CH": 10.0
+},
+{
+"name": "Meghan Klingenberg",
+"gender": "W",
+"active": false,
+"affinity": 85.5,
+"CH": 10.0
+},
+{
+"name": "Bobby Moore",
+"gender": "M",
+"active": false,
+"affinity": 85.5,
+"CH": 8.73
+},
+{
+"name": "Bastian Schweinsteiger",
+"gender": "M",
+"active": false,
+"affinity": 85.3,
+"CH": 7.25
+},
+{
+"name": "Sophia Wilson",
+"gender": "W",
+"active": true,
+"affinity": 85.1,
+"CH": 8.11
+},
+{
+"name": "Lev Yashin",
+"gender": "M",
+"active": false,
+"affinity": 85.1,
+"CH": 7.75
+},
+{
+"name": "Alex Morgan",
+"gender": "W",
+"active": false,
+"affinity": 84.9,
+"CH": 10.0
+},
+{
+"name": "Crystal Dunn",
+"gender": "W",
+"active": true,
+"affinity": 84.9,
+"CH": 10.0
+},
+{
+"name": "Harry Kane",
+"gender": "M",
+"active": true,
+"affinity": 84.9,
+"CH": 8.91
+},
+{
+"name": "Lucy Bronze",
+"gender": "W",
+"active": true,
+"affinity": 84.8,
+"CH": 9.46
+},
+{
+"name": "Julie Foudy",
+"gender": "W",
+"active": false,
+"affinity": 84.5,
+"CH": 10.0
+},
+{
+"name": "Homare Sawa",
+"gender": "W",
+"active": false,
+"affinity": 84.5,
+"CH": 7.9
+},
+{
+"name": "Joshua Kimmich",
+"gender": "M",
+"active": true,
+"affinity": 84.4,
+"CH": 8.55
+},
+{
+"name": "Franco Baresi",
+"gender": "M",
+"active": false,
+"affinity": 84.4,
+"CH": 8.62
+},
+{
+"name": "John Charles",
+"gender": "M",
+"active": false,
+"affinity": 84.4,
+"CH": 9.73
+},
+{
+"name": "Tostão",
+"gender": "M",
+"active": false,
+"affinity": 84.2,
+"CH": 9.97
+},
+{
+"name": "Dixie Dean",
+"gender": "M",
+"active": false,
+"affinity": 84.2,
+"CH": 6.5
+},
+{
+"name": "Son Heung-min",
+"gender": "M",
+"active": true,
+"affinity": 84.1,
+"CH": 9.8
+},
+{
+"name": "Ada Hegerberg",
+"gender": "W",
+"active": true,
+"affinity": 84.1,
+"CH": 10.0
+},
+{
+"name": "Paul Scholes",
+"gender": "M",
+"active": false,
+"affinity": 83.9,
+"CH": 7.37
+},
+{
+"name": "Gordon Banks",
+"gender": "M",
+"active": false,
+"affinity": 83.8,
+"CH": 7.94
+},
+{
+"name": "Iñaki Williams",
+"gender": "M",
+"active": true,
+"affinity": 83.5,
+"CH": 10.0
+},
+{
+"name": "Julie Ertz",
+"gender": "W",
+"active": false,
+"affinity": 83.4,
+"CH": 9.34
+},
+{
+"name": "Kelly Smith",
+"gender": "W",
+"active": false,
+"affinity": 82.9,
+"CH": 8.72
+},
+{
+"name": "Birgit Prinz",
+"gender": "W",
+"active": false,
+"affinity": 82.9,
+"CH": 8.12
+},
+{
+"name": "Brandi Chastain",
+"gender": "W",
+"active": false,
+"affinity": 82.7,
+"CH": 10.0
+},
+{
+"name": "Giacinto Facchetti",
+"gender": "M",
+"active": false,
+"affinity": 82.6,
+"CH": 7.73
+},
+{
+"name": "Nico Williams",
+"gender": "M",
+"active": true,
+"affinity": 82.3,
+"CH": 8.86
+},
+{
+"name": "Rose Lavelle",
+"gender": "W",
+"active": true,
+"affinity": 82.3,
+"CH": 9.51
+},
+{
+"name": "Vivianne Miedema",
+"gender": "W",
+"active": true,
+"affinity": 82.1,
+"CH": 10.0
+},
+{
+"name": "Virgil van Dijk",
+"gender": "M",
+"active": true,
+"affinity": 81.8,
+"CH": 8.47
+},
+{
+"name": "Miroslav Klose",
+"gender": "M",
+"active": false,
+"affinity": 81.6,
+"CH": 9.9
+},
+{
+"name": "Henrik Larsson",
+"gender": "M",
+"active": false,
+"affinity": 81.5,
+"CH": 8.6
+},
+{
+"name": "Ian Rush",
+"gender": "M",
+"active": false,
+"affinity": 81.5,
+"CH": 7.0
+},
+{
+"name": "Joaquín",
+"gender": "M",
+"active": false,
+"affinity": 81.4,
+"CH": 10.0
+},
+{
+"name": "Briana Scurry",
+"gender": "W",
+"active": false,
+"affinity": 81.3,
+"CH": 10.0
+},
+{
+"name": "Dennis Bergkamp",
+"gender": "M",
+"active": false,
+"affinity": 81.1,
+"CH": 8.12
+},
+{
+"name": "Pernille Harder",
+"gender": "W",
+"active": true,
+"affinity": 81.1,
+"CH": 10.0
+},
+{
+"name": "Sócrates",
+"gender": "M",
+"active": false,
+"affinity": 81.0,
+"CH": 10.0
+},
+{
+"name": "Naomi Girma",
+"gender": "W",
+"active": true,
+"affinity": 81.0,
+"CH": 10.0
+},
+{
+"name": "Bunny Shaw",
+"gender": "W",
+"active": true,
+"affinity": 80.6,
+"CH": 10.0
+},
+{
+"name": "Mallory Swanson",
+"gender": "W",
+"active": true,
+"affinity": 80.5,
+"CH": 8.49
+},
+{
+"name": "Mikel Oyarzabal",
+"gender": "M",
+"active": true,
+"affinity": 80.0,
+"CH": 7.0
+},
+{
+"name": "Alessandro Del Piero",
+"gender": "M",
+"active": false,
+"affinity": 79.8,
+"CH": 7.49
+},
+{
+"name": "Gerd Müller",
+"gender": "M",
+"active": false,
+"affinity": 79.7,
+"CH": 6.67
+},
+{
+"name": "Dino Zoff",
+"gender": "M",
+"active": false,
+"affinity": 79.6,
+"CH": 9.08
+},
+{
+"name": "Jamal Musiala",
+"gender": "M",
+"active": true,
+"affinity": 79.4,
+"CH": 7.91
+},
+{
+"name": "Raymond Kopa",
+"gender": "M",
+"active": false,
+"affinity": 79.3,
+"CH": 8.69
+},
+{
+"name": "Mary Earps",
+"gender": "W",
+"active": true,
+"affinity": 79.2,
+"CH": 10.0
+},
+{
+"name": "Ian Wright",
+"gender": "M",
+"active": false,
+"affinity": 78.8,
+"CH": 10.0
+},
+{
+"name": "Michael Bradley",
+"gender": "M",
+"active": false,
+"affinity": 78.4,
+"CH": 7.17
+},
+{
+"name": "Trent Alexander-Arnold",
+"gender": "M",
+"active": true,
+"affinity": 78.3,
+"CH": 7.0
+},
+{
+"name": "Alyssa Naeher",
+"gender": "W",
+"active": true,
+"affinity": 78.3,
+"CH": 7.99
+},
+{
+"name": "Christopher Trimmel",
+"gender": "M",
+"active": true,
+"affinity": 78.2,
+"CH": 8.2
+},
+{
+"name": "Paco Gento",
+"gender": "M",
+"active": false,
+"affinity": 77.9,
+"CH": 7.0
+},
+{
+"name": "Trinity Rodman",
+"gender": "W",
+"active": true,
+"affinity": 77.8,
+"CH": 6.0
+},
+{
+"name": "Marco Reus",
+"gender": "M",
+"active": true,
+"affinity": 77.8,
+"CH": 5.07
+},
+{
+"name": "Alisson Becker",
+"gender": "M",
+"active": true,
+"affinity": 77.8,
+"CH": 7.42
+},
+{
+"name": "Diego Valeri",
+"gender": "M",
+"active": false,
+"affinity": 77.6,
+"CH": 8.48
+},
+{
+"name": "Martin Ødegaard",
+"gender": "M",
+"active": true,
+"affinity": 77.5,
+"CH": 7.08
+},
+{
+"name": "Lars Ricken",
+"gender": "M",
+"active": false,
+"affinity": 77.4,
+"CH": 7.7
+},
+{
+"name": "Iker Muniain",
+"gender": "M",
+"active": false,
+"affinity": 77.3,
+"CH": 6.75
+},
+{
+"name": "Jimmy Greaves",
+"gender": "M",
+"active": false,
+"affinity": 77.1,
+"CH": 9.94
+},
+{
+"name": "Darlington Nagbe",
+"gender": "M",
+"active": false,
+"affinity": 76.9,
+"CH": 7.17
+},
+{
+"name": "Olivia Moultrie",
+"gender": "W",
+"active": true,
+"affinity": 76.9,
+"CH": 6.69
+},
+{
+"name": "Asisat Oshoala",
+"gender": "W",
+"active": true,
+"affinity": 76.6,
+"CH": 10.0
+},
+{
+"name": "Caroline Graham Hansen",
+"gender": "W",
+"active": true,
+"affinity": 76.6,
+"CH": 7.49
+},
+{
+"name": "Aritz Aduriz",
+"gender": "M",
+"active": false,
+"affinity": 76.4,
+"CH": 6.75
+},
+{
+"name": "Just Fontaine",
+"gender": "M",
+"active": false,
+"affinity": 76.4,
+"CH": 9.14
+},
+{
+"name": "Alfredo Di Stéfano",
+"gender": "M",
+"active": false,
+"affinity": 76.3,
+"CH": 5.25
+},
+{
+"name": "Ruud Gullit",
+"gender": "M",
+"active": false,
+"affinity": 76.3,
+"CH": 9.76
+},
+{
+"name": "Jessie Fleming",
+"gender": "W",
+"active": true,
+"affinity": 76.2,
+"CH": 10.0
+},
+{
+"name": "Mohamed Salah",
+"gender": "M",
+"active": true,
+"affinity": 76.2,
+"CH": 6.69
+},
+{
+"name": "Alessia Russo",
+"gender": "W",
+"active": true,
+"affinity": 76.1,
+"CH": 7.25
+},
+{
+"name": "Kaká",
+"gender": "M",
+"active": false,
+"affinity": 76.1,
+"CH": 7.67
+},
+{
+"name": "Raúl",
+"gender": "M",
+"active": false,
+"affinity": 76.0,
+"CH": 9.6
+},
+{
+"name": "Joseba Etxeberria",
+"gender": "M",
+"active": false,
+"affinity": 75.9,
+"CH": 7.75
+},
+{
+"name": "Brian McBride",
+"gender": "M",
+"active": false,
+"affinity": 75.9,
+"CH": 7.0
+},
+{
+"name": "Carli Lloyd",
+"gender": "W",
+"active": false,
+"affinity": 75.9,
+"CH": 7.77
+},
+{
+"name": "Gianfranco Zola",
+"gender": "M",
+"active": false,
+"affinity": 75.8,
+"CH": 8.87
+},
+{
+"name": "Cristian Roldan",
+"gender": "M",
+"active": true,
+"affinity": 75.6,
+"CH": 6.5
+},
+{
+"name": "Pedri",
+"gender": "M",
+"active": true,
+"affinity": 75.6,
+"CH": 6.67
+},
+{
+"name": "Michael Zorc",
+"gender": "M",
+"active": false,
+"affinity": 75.6,
+"CH": 6.25
+},
+{
+"name": "Tyler Adams",
+"gender": "M",
+"active": true,
+"affinity": 75.6,
+"CH": 9.07
+},
+{
+"name": "Matthias Sammer",
+"gender": "M",
+"active": false,
+"affinity": 75.5,
+"CH": 5.75
+},
+{
+"name": "Abby Dahlkemper",
+"gender": "W",
+"active": true,
+"affinity": 75.5,
+"CH": 10.0
+},
+{
+"name": "Rodri",
+"gender": "M",
+"active": true,
+"affinity": 75.4,
+"CH": 7.75
+},
+{
+"name": "Steven Gerrard",
+"gender": "M",
+"active": false,
+"affinity": 75.4,
+"CH": 5.36
+},
+{
+"name": "Wendie Renard",
+"gender": "W",
+"active": true,
+"affinity": 75.4,
+"CH": 5.95
+},
+{
+"name": "Franz Beckenbauer",
+"gender": "M",
+"active": false,
+"affinity": 75.3,
+"CH": 4.93
+},
+{
+"name": "Sam Coffey",
+"gender": "W",
+"active": true,
+"affinity": 75.1,
+"CH": 6.5
+},
+{
+"name": "Thierry Henry",
+"gender": "M",
+"active": false,
+"affinity": 75.1,
+"CH": 5.65
+},
+{
+"name": "Lo'eau LaBonta",
+"gender": "W",
+"active": true,
+"affinity": 75.0,
+"CH": 6.5
+},
+{
+"name": "Johan Cruyff",
+"gender": "M",
+"active": false,
+"affinity": 75.0,
+"CH": 8.32
+},
+{
+"name": "Declan Rice",
+"gender": "M",
+"active": true,
+"affinity": 75.0,
+"CH": 6.75
+},
+{
+"name": "Sun Wen",
+"gender": "W",
+"active": false,
+"affinity": 74.9,
+"CH": 6.9
+},
+{
+"name": "Antonee Robinson",
+"gender": "M",
+"active": true,
+"affinity": 74.8,
+"CH": 7.04
+},
+{
+"name": "Oleg Blokhin",
+"gender": "M",
+"active": false,
+"affinity": 74.8,
+"CH": 6.4
+},
+{
+"name": "Julen Guerrero",
+"gender": "M",
+"active": false,
+"affinity": 74.7,
+"CH": 6.75
+},
+{
+"name": "Barbra Banda",
+"gender": "W",
+"active": true,
+"affinity": 74.6,
+"CH": 7.4
+},
+{
+"name": "Zico",
+"gender": "M",
+"active": false,
+"affinity": 74.5,
+"CH": 5.41
+},
+{
+"name": "Matthias Sindelar",
+"gender": "M",
+"active": false,
+"affinity": 74.5,
+"CH": 5.6
+},
+{
+"name": "Sándor Kocsis",
+"gender": "M",
+"active": false,
+"affinity": 74.4,
+"CH": 7.1
+},
+{
+"name": "Neven Subotić",
+"gender": "M",
+"active": false,
+"affinity": 74.4,
+"CH": 10.0
+},
+{
+"name": "Johan Neeskens",
+"gender": "M",
+"active": false,
+"affinity": 74.3,
+"CH": 6.0
+},
+{
+"name": "Jordan Henderson",
+"gender": "M",
+"active": true,
+"affinity": 74.1,
+"CH": 10.0
+},
+{
+"name": "Brenden Aaronson",
+"gender": "M",
+"active": true,
+"affinity": 74.0,
+"CH": 8.14
+},
+{
+"name": "Xabi Prieto",
+"gender": "M",
+"active": false,
+"affinity": 73.9,
+"CH": 6.92
+},
+{
+"name": "Wataru Endo",
+"gender": "M",
+"active": true,
+"affinity": 73.9,
+"CH": 8.18
+},
+{
+"name": "Bernardo Silva",
+"gender": "M",
+"active": true,
+"affinity": 73.8,
+"CH": 5.25
+},
+{
+"name": "Iago Aspas",
+"gender": "M",
+"active": true,
+"affinity": 73.7,
+"CH": 5.5
+},
+{
+"name": "Tim Howard",
+"gender": "M",
+"active": false,
+"affinity": 73.6,
+"CH": 8.42
+},
+{
+"name": "Raquel Rodríguez",
+"gender": "W",
+"active": true,
+"affinity": 73.6,
+"CH": 7.4
+},
+{
+"name": "Joe Gomez",
+"gender": "M",
+"active": true,
+"affinity": 73.5,
+"CH": 6.07
+},
+{
+"name": "Robbie Fowler",
+"gender": "M",
+"active": false,
+"affinity": 73.5,
+"CH": 6.0
+},
+{
+"name": "Xabi Alonso",
+"gender": "M",
+"active": false,
+"affinity": 73.5,
+"CH": 7.42
+},
+{
+"name": "Florian Wirtz",
+"gender": "M",
+"active": true,
+"affinity": 73.3,
+"CH": 6.67
+},
+{
+"name": "Gianni Rivera",
+"gender": "M",
+"active": false,
+"affinity": 73.3,
+"CH": 6.65
+},
+{
+"name": "Sam Kerr",
+"gender": "W",
+"active": true,
+"affinity": 73.3,
+"CH": 6.04
+},
+{
+"name": "Patrick Berg",
+"gender": "M",
+"active": true,
+"affinity": 73.1,
+"CH": 6.5
+},
+{
+"name": "Carlos Alberto",
+"gender": "M",
+"active": false,
+"affinity": 73.1,
+"CH": 9.0
+},
+{
+"name": "Christian Günter",
+"gender": "M",
+"active": true,
+"affinity": 73.0,
+"CH": 6.5
+},
+{
+"name": "Dominic Calvert-Lewin",
+"gender": "M",
+"active": true,
+"affinity": 72.9,
+"CH": 8.16
+},
+{
+"name": "Unai Simón",
+"gender": "M",
+"active": true,
+"affinity": 72.8,
+"CH": 6.5
+},
+{
+"name": "Roberto Baggio",
+"gender": "M",
+"active": false,
+"affinity": 72.8,
+"CH": 7.93
+},
+{
+"name": "Diego Chará",
+"gender": "M",
+"active": true,
+"affinity": 72.7,
+"CH": 6.5
+},
+{
+"name": "Ferenc Puskás",
+"gender": "M",
+"active": false,
+"affinity": 72.6,
+"CH": 6.5
+},
+{
+"name": "Curtis Jones",
+"gender": "M",
+"active": true,
+"affinity": 72.5,
+"CH": 6.0
+},
+{
+"name": "Gabriel Batistuta",
+"gender": "M",
+"active": false,
+"affinity": 72.4,
+"CH": 7.0
+},
+{
+"name": "Vitinha",
+"gender": "M",
+"active": true,
+"affinity": 72.4,
+"CH": 6.0
+},
+{
+"name": "Lautaro Martínez",
+"gender": "M",
+"active": true,
+"affinity": 72.3,
+"CH": 5.75
+},
+{
+"name": "Giulia Gwinn",
+"gender": "W",
+"active": true,
+"affinity": 72.0,
+"CH": 6.5
+},
+{
+"name": "Bruno Fernandes",
+"gender": "M",
+"active": true,
+"affinity": 71.9,
+"CH": 4.21
+},
+{
+"name": "Marcus Rashford",
+"gender": "M",
+"active": true,
+"affinity": 71.9,
+"CH": 8.59
+},
+{
+"name": "Günter Netzer",
+"gender": "M",
+"active": false,
+"affinity": 71.7,
+"CH": 7.12
+},
+{
+"name": "Alexis Mac Allister",
+"gender": "M",
+"active": true,
+"affinity": 71.7,
+"CH": 6.25
+},
+{
+"name": "Cobi Jones",
+"gender": "M",
+"active": false,
+"affinity": 71.7,
+"CH": 6.5
+},
+{
+"name": "Sami Hyypiä",
+"gender": "M",
+"active": false,
+"affinity": 71.6,
+"CH": 5.58
+},
+{
+"name": "Giovanni Di Lorenzo",
+"gender": "M",
+"active": true,
+"affinity": 71.3,
+"CH": 5.55
+},
+{
+"name": "Gunnar Nordahl",
+"gender": "M",
+"active": false,
+"affinity": 71.3,
+"CH": 7.1
+},
+{
+"name": "Shinji Kagawa",
+"gender": "M",
+"active": true,
+"affinity": 71.3,
+"CH": 7.0
+},
+{
+"name": "Jude Bellingham",
+"gender": "M",
+"active": true,
+"affinity": 71.2,
+"CH": 4.39
+},
+{
+"name": "Clint Dempsey",
+"gender": "M",
+"active": false,
+"affinity": 71.2,
+"CH": 4.65
+},
+{
+"name": "Sebastian Kehl",
+"gender": "M",
+"active": false,
+"affinity": 71.1,
+"CH": 6.25
+},
+{
+"name": "Lauren James",
+"gender": "W",
+"active": true,
+"affinity": 71.0,
+"CH": 6.61
+},
+{
+"name": "Conor Bradley",
+"gender": "M",
+"active": true,
+"affinity": 71.0,
+"CH": 7.37
+},
+{
+"name": "Oliver Kahn",
+"gender": "M",
+"active": false,
+"affinity": 70.9,
+"CH": 3.86
+},
+{
+"name": "Nico Schlotterbeck",
+"gender": "M",
+"active": true,
+"affinity": 70.9,
+"CH": 6.74
+},
+{
+"name": "Cody Gakpo",
+"gender": "M",
+"active": true,
+"affinity": 70.7,
+"CH": 6.58
+},
+{
+"name": "Roberto Firmino",
+"gender": "M",
+"active": true,
+"affinity": 70.7,
+"CH": 8.7
+},
+{
+"name": "Raphinha",
+"gender": "M",
+"active": true,
+"affinity": 70.6,
+"CH": 5.75
+},
+{
+"name": "Mario Kempes",
+"gender": "M",
+"active": false,
+"affinity": 70.5,
+"CH": 6.0
+},
+{
+"name": "Martin Zubimendi",
+"gender": "M",
+"active": true,
+"affinity": 70.3,
+"CH": 6.25
+},
+{
+"name": "DaMarcus Beasley",
+"gender": "M",
+"active": false,
+"affinity": 70.1,
+"CH": 6.5
+},
+{
+"name": "Luis Díaz",
+"gender": "M",
+"active": true,
+"affinity": 70.1,
+"CH": 6.5
+},
+{
+"name": "Debinha",
+"gender": "W",
+"active": true,
+"affinity": 70.1,
+"CH": 6.25
+},
+{
+"name": "Brad Friedel",
+"gender": "M",
+"active": false,
+"affinity": 70.1,
+"CH": 6.75
+},
+{
+"name": "Stefan Frei",
+"gender": "M",
+"active": true,
+"affinity": 69.9,
+"CH": 8.2
+},
+{
+"name": "Jürgen Kohler",
+"gender": "M",
+"active": false,
+"affinity": 69.8,
+"CH": 6.0
+},
+{
+"name": "Emily Fox",
+"gender": "W",
+"active": true,
+"affinity": 69.8,
+"CH": 6.0
+},
+{
+"name": "Weston McKennie",
+"gender": "M",
+"active": true,
+"affinity": 69.5,
+"CH": 6.43
+},
+{
+"name": "Ronald Araújo",
+"gender": "M",
+"active": true,
+"affinity": 69.4,
+"CH": 7.54
+},
+{
+"name": "Gavi",
+"gender": "M",
+"active": true,
+"affinity": 69.2,
+"CH": 5.25
+},
+{
+"name": "Lena Oberdorf",
+"gender": "W",
+"active": true,
+"affinity": 69.2,
+"CH": 6.0
+},
+{
+"name": "Temwa Chawinga",
+"gender": "W",
+"active": true,
+"affinity": 69.2,
+"CH": 6.25
+},
+{
+"name": "Nuri Şahin",
+"gender": "M",
+"active": false,
+"affinity": 69.2,
+"CH": 6.5
+},
+{
+"name": "Julian Ryerson",
+"gender": "M",
+"active": true,
+"affinity": 69.1,
+"CH": 6.5
+},
+{
+"name": "Alan Shearer",
+"gender": "M",
+"active": false,
+"affinity": 69.0,
+"CH": 5.69
+},
+{
+"name": "Jamie Carragher",
+"gender": "M",
+"active": false,
+"affinity": 68.9,
+"CH": 6.68
+},
+{
+"name": "Phil Foden",
+"gender": "M",
+"active": true,
+"affinity": 68.7,
+"CH": 4.49
+},
+{
+"name": "Kevin De Bruyne",
+"gender": "M",
+"active": true,
+"affinity": 68.3,
+"CH": 4.33
+},
+{
+"name": "Kostas Tsimikas",
+"gender": "M",
+"active": true,
+"affinity": 68.2,
+"CH": 6.5
+},
+{
+"name": "Allie Long",
+"gender": "W",
+"active": false,
+"affinity": 68.1,
+"CH": 7.99
+},
+{
+"name": "Tab Ramos",
+"gender": "M",
+"active": false,
+"affinity": 68.0,
+"CH": 6.5
+},
+{
+"name": "Chris Richards",
+"gender": "M",
+"active": true,
+"affinity": 67.8,
+"CH": 6.5
+},
+{
+"name": "Mats Hummels",
+"gender": "M",
+"active": false,
+"affinity": 67.7,
+"CH": 7.67
+},
+{
+"name": "Rodrigo López",
+"gender": "M",
+"active": false,
+"affinity": 67.6,
+"CH": 7.25
+},
+{
+"name": "Rúben Dias",
+"gender": "M",
+"active": true,
+"affinity": 67.5,
+"CH": 6.25
+},
+{
+"name": "Jan Oblak",
+"gender": "M",
+"active": true,
+"affinity": 67.3,
+"CH": 6.42
+},
+{
+"name": "Sebastián Blanco",
+"gender": "M",
+"active": true,
+"affinity": 67.3,
+"CH": 6.5
+},
+{
+"name": "Fernando Torres",
+"gender": "M",
+"active": false,
+"affinity": 67.1,
+"CH": 6.15
+},
+{
+"name": "Chloe Kelly",
+"gender": "W",
+"active": true,
+"affinity": 67.0,
+"CH": 3.94
+},
+{
+"name": "Scott Brown",
+"gender": "M",
+"active": false,
+"affinity": 67.0,
+"CH": 3.25
+},
+{
+"name": "Adrianna Franch",
+"gender": "W",
+"active": true,
+"affinity": 67.0,
+"CH": 6.4
+},
+{
+"name": "Dominik Szoboszlai",
+"gender": "M",
+"active": true,
+"affinity": 66.8,
+"CH": 6.0
+},
+{
+"name": "Iker Casillas",
+"gender": "M",
+"active": false,
+"affinity": 66.8,
+"CH": 3.52
+},
+{
+"name": "Frank Rijkaard",
+"gender": "M",
+"active": false,
+"affinity": 66.8,
+"CH": 6.25
+},
+{
+"name": "Deniz Undav",
+"gender": "M",
+"active": true,
+"affinity": 66.8,
+"CH": 7.2
+},
+{
+"name": "Marco van Basten",
+"gender": "M",
+"active": false,
+"affinity": 66.8,
+"CH": 5.0
+},
+{
+"name": "Arjen Robben",
+"gender": "M",
+"active": false,
+"affinity": 66.5,
+"CH": 3.57
+},
+{
+"name": "Jack Jewsbury",
+"gender": "M",
+"active": false,
+"affinity": 66.5,
+"CH": 7.0
+},
+{
+"name": "Ao Tanaka",
+"gender": "M",
+"active": true,
+"affinity": 66.4,
+"CH": 6.6
+},
+{
+"name": "Roberto Carlos",
+"gender": "M",
+"active": false,
+"affinity": 66.2,
+"CH": 4.34
+},
+{
+"name": "Gregor Kobel",
+"gender": "M",
+"active": true,
+"affinity": 66.2,
+"CH": 6.0
+},
+{
+"name": "Hany Mukhtar",
+"gender": "M",
+"active": true,
+"affinity": 66.0,
+"CH": 6.0
+},
+{
+"name": "Fridolina Rolfö",
+"gender": "W",
+"active": true,
+"affinity": 66.0,
+"CH": 6.0
+},
+{
+"name": "Giuseppe Meazza",
+"gender": "M",
+"active": false,
+"affinity": 65.9,
+"CH": 4.49
+},
+{
+"name": "Jeremie Frimpong",
+"gender": "M",
+"active": true,
+"affinity": 65.9,
+"CH": 6.5
+},
+{
+"name": "Claire Hutton",
+"gender": "W",
+"active": true,
+"affinity": 65.9,
+"CH": 6.25
+},
+{
+"name": "Michael Owen",
+"gender": "M",
+"active": false,
+"affinity": 65.8,
+"CH": 4.86
+},
+{
+"name": "Cole Palmer",
+"gender": "M",
+"active": true,
+"affinity": 65.8,
+"CH": 6.0
+},
+{
+"name": "Ethan Nwaneri",
+"gender": "M",
+"active": true,
+"affinity": 65.5,
+"CH": 6.0
+},
+{
+"name": "Christian Pulisic",
+"gender": "M",
+"active": true,
+"affinity": 65.4,
+"CH": 5.25
+},
+{
+"name": "N'Golo Kanté",
+"gender": "M",
+"active": true,
+"affinity": 65.3,
+"CH": 10.0
+},
+{
+"name": "Marco Friedl",
+"gender": "M",
+"active": true,
+"affinity": 65.2,
+"CH": 6.5
+},
+{
+"name": "Kasey Keller",
+"gender": "M",
+"active": false,
+"affinity": 65.0,
+"CH": 6.5
+},
+{
+"name": "Nico Elvedi",
+"gender": "M",
+"active": true,
+"affinity": 64.9,
+"CH": 6.0
+},
+{
+"name": "Wayne Rooney",
+"gender": "M",
+"active": false,
+"affinity": 64.9,
+"CH": 0.0
+},
+{
+"name": "Jobe Bellingham",
+"gender": "M",
+"active": true,
+"affinity": 64.8,
+"CH": 6.0
+},
+{
+"name": "Julian Brandt",
+"gender": "M",
+"active": true,
+"affinity": 64.6,
+"CH": 6.0
+},
+{
+"name": "András Schäfer",
+"gender": "M",
+"active": true,
+"affinity": 64.5,
+"CH": 7.44
+},
+{
+"name": "Ronald Koeman",
+"gender": "M",
+"active": false,
+"affinity": 64.4,
+"CH": 6.0
+},
+{
+"name": "James Justin",
+"gender": "M",
+"active": true,
+"affinity": 64.4,
+"CH": 6.0
+},
+{
+"name": "Ryan Gravenberch",
+"gender": "M",
+"active": true,
+"affinity": 64.3,
+"CH": 6.0
+},
+{
+"name": "Brandon Bye",
+"gender": "M",
+"active": true,
+"affinity": 64.2,
+"CH": 8.02
+},
+{
+"name": "Michael Olise",
+"gender": "M",
+"active": true,
+"affinity": 64.2,
+"CH": 6.0
+},
+{
+"name": "Carlos Bocanegra",
+"gender": "M",
+"active": false,
+"affinity": 64.0,
+"CH": 6.5
+},
+{
+"name": "Matt Turner",
+"gender": "M",
+"active": true,
+"affinity": 64.0,
+"CH": 7.41
+},
+{
+"name": "Emre Can",
+"gender": "M",
+"active": true,
+"affinity": 63.8,
+"CH": 3.86
+},
+{
+"name": "Roman Weidenfeller",
+"gender": "M",
+"active": false,
+"affinity": 63.7,
+"CH": 4.16
+},
+{
+"name": "Ricardo Pepi",
+"gender": "M",
+"active": true,
+"affinity": 63.6,
+"CH": 6.25
+},
+{
+"name": "Nat Borchers",
+"gender": "M",
+"active": false,
+"affinity": 63.6,
+"CH": 7.0
+},
+{
+"name": "Khvicha Kvaratskhelia",
+"gender": "M",
+"active": true,
+"affinity": 63.4,
+"CH": 4.1
+},
+{
+"name": "Robert Lewandowski",
+"gender": "M",
+"active": true,
+"affinity": 63.4,
+"CH": 5.85
+},
+{
+"name": "Cucho Hernández",
+"gender": "M",
+"active": true,
+"affinity": 63.4,
+"CH": 6.0
+},
+{
+"name": "Matt Le Tissier",
+"gender": "M",
+"active": false,
+"affinity": 63.2,
+"CH": 3.75
+},
+{
+"name": "Ethan Ampadu",
+"gender": "M",
+"active": true,
+"affinity": 63.2,
+"CH": 7.87
+},
+{
+"name": "Serhou Guirassy",
+"gender": "M",
+"active": true,
+"affinity": 63.2,
+"CH": 6.5
+},
+{
+"name": "Daniel James",
+"gender": "M",
+"active": true,
+"affinity": 63.0,
+"CH": 6.87
+},
+{
+"name": "Felipe Mora",
+"gender": "M",
+"active": true,
+"affinity": 62.7,
+"CH": 6.25
+},
+{
+"name": "Waldemar Anton",
+"gender": "M",
+"active": true,
+"affinity": 62.7,
+"CH": 6.25
+},
+{
+"name": "Vinícius Júnior",
+"gender": "M",
+"active": true,
+"affinity": 62.5,
+"CH": 3.49
+},
+{
+"name": "Erling Haaland",
+"gender": "M",
+"active": true,
+"affinity": 62.5,
+"CH": 6.0
+},
+{
+"name": "Marcel Sabitzer",
+"gender": "M",
+"active": true,
+"affinity": 62.4,
+"CH": 6.0
+},
+{
+"name": "Giorgi Mamardashvili",
+"gender": "M",
+"active": true,
+"affinity": 62.3,
+"CH": 7.18
+},
+{
+"name": "Danny Vitiello",
+"gender": "M",
+"active": true,
+"affinity": 62.1,
+"CH": 6.25
+},
+{
+"name": "Harry Wilson",
+"gender": "M",
+"active": true,
+"affinity": 62.1,
+"CH": 6.0
+},
+{
+"name": "Kenan Yıldız",
+"gender": "M",
+"active": true,
+"affinity": 62.1,
+"CH": 6.0
+},
+{
+"name": "Rani Khedira",
+"gender": "M",
+"active": true,
+"affinity": 62.0,
+"CH": 6.0
+},
+{
+"name": "Gianluigi Buffon",
+"gender": "M",
+"active": false,
+"affinity": 61.8,
+"CH": 7.01
+},
+{
+"name": "Sergiño Dest",
+"gender": "M",
+"active": true,
+"affinity": 61.8,
+"CH": 5.75
+},
+{
+"name": "Janik Haberer",
+"gender": "M",
+"active": true,
+"affinity": 61.7,
+"CH": 6.0
+},
+{
+"name": "Lamine Yamal",
+"gender": "M",
+"active": true,
+"affinity": 61.7,
+"CH": 3.07
+},
+{
+"name": "Jeong Woo-yeong",
+"gender": "M",
+"active": true,
+"affinity": 61.3,
+"CH": 6.0
+},
+{
+"name": "Josip Juranović",
+"gender": "M",
+"active": true,
+"affinity": 61.2,
+"CH": 6.0
+},
+{
+"name": "Yunus Musah",
+"gender": "M",
+"active": true,
+"affinity": 61.2,
+"CH": 6.0
+},
+{
+"name": "Luka Modrić",
+"gender": "M",
+"active": true,
+"affinity": 61.1,
+"CH": 4.74
+},
+{
+"name": "Sam Hiatt",
+"gender": "W",
+"active": true,
+"affinity": 61.0,
+"CH": 6.0
+},
+{
+"name": "Joey Veerman",
+"gender": "M",
+"active": true,
+"affinity": 60.9,
+"CH": 6.5
+},
+{
+"name": "Rio Ngumoha",
+"gender": "M",
+"active": true,
+"affinity": 60.8,
+"CH": 6.0
+},
+{
+"name": "Gareth Bale",
+"gender": "M",
+"active": false,
+"affinity": 60.7,
+"CH": 4.13
+},
+{
+"name": "Danny Barrera",
+"gender": "M",
+"active": false,
+"affinity": 60.7,
+"CH": 6.25
+},
+{
+"name": "Ramy Bensebaini",
+"gender": "M",
+"active": true,
+"affinity": 60.6,
+"CH": 6.0
+},
+{
+"name": "Michel Platini",
+"gender": "M",
+"active": false,
+"affinity": 60.6,
+"CH": 4.0
+},
+{
+"name": "Racheal Kundananji",
+"gender": "W",
+"active": true,
+"affinity": 60.5,
+"CH": 6.0
+},
+{
+"name": "Riqui Puig",
+"gender": "M",
+"active": true,
+"affinity": 60.4,
+"CH": 6.0
+},
+{
+"name": "Ibrahima Konaté",
+"gender": "M",
+"active": true,
+"affinity": 60.4,
+"CH": 6.0
+},
+{
+"name": "Tim Weah",
+"gender": "M",
+"active": true,
+"affinity": 60.3,
+"CH": 5.75
+},
+{
+"name": "Juan Román Riquelme",
+"gender": "M",
+"active": false,
+"affinity": 60.2,
+"CH": 3.5
+},
+{
+"name": "Victor Osimhen",
+"gender": "M",
+"active": true,
+"affinity": 60.2,
+"CH": 3.16
+},
+{
+"name": "Anton Stach",
+"gender": "M",
+"active": true,
+"affinity": 60.1,
+"CH": 6.0
+},
+{
+"name": "Hugo Ekitiké",
+"gender": "M",
+"active": true,
+"affinity": 60.0,
+"CH": 6.0
+},
+{
+"name": "Folarin Balogun",
+"gender": "M",
+"active": true,
+"affinity": 59.9,
+"CH": 5.75
+},
+{
+"name": "Milos Kerkez",
+"gender": "M",
+"active": true,
+"affinity": 59.8,
+"CH": 6.0
+},
+{
+"name": "Lee Desmond",
+"gender": "M",
+"active": true,
+"affinity": 59.5,
+"CH": 6.5
+},
+{
+"name": "Sergio Busquets",
+"gender": "M",
+"active": false,
+"affinity": 59.3,
+"CH": 4.44
+},
+{
+"name": "Federico Chiesa",
+"gender": "M",
+"active": true,
+"affinity": 59.3,
+"CH": 5.9
+},
+{
+"name": "Claudio Reyna",
+"gender": "M",
+"active": false,
+"affinity": 59.2,
+"CH": 4.3
+},
+{
+"name": "Giannis Konstantelias",
+"gender": "M",
+"active": true,
+"affinity": 59.1,
+"CH": 6.0
+},
+{
+"name": "Sean Longstaff",
+"gender": "M",
+"active": true,
+"affinity": 59.0,
+"CH": 6.0
+},
+{
+"name": "Cole Bassett",
+"gender": "M",
+"active": true,
+"affinity": 59.0,
+"CH": 6.0
+},
+{
+"name": "Denis Bouanga",
+"gender": "M",
+"active": true,
+"affinity": 58.9,
+"CH": 6.0
+},
+{
+"name": "Maximilian Beier",
+"gender": "M",
+"active": true,
+"affinity": 58.8,
+"CH": 6.0
+},
+{
+"name": "Michel Aebischer",
+"gender": "M",
+"active": true,
+"affinity": 58.8,
+"CH": 6.0
+},
+{
+"name": "Will Johnson",
+"gender": "M",
+"active": false,
+"affinity": 58.6,
+"CH": 6.0
+},
+{
+"name": "David Da Costa",
+"gender": "M",
+"active": true,
+"affinity": 58.2,
+"CH": 6.0
+},
+{
+"name": "Marvin Friedrich",
+"gender": "M",
+"active": true,
+"affinity": 57.8,
+"CH": 6.0
+},
+{
+"name": "Evander",
+"gender": "M",
+"active": true,
+"affinity": 57.7,
+"CH": 6.0
+},
+{
+"name": "Ilia Gruev",
+"gender": "M",
+"active": true,
+"affinity": 57.7,
+"CH": 6.0
+},
+{
+"name": "Mathis Albert",
+"gender": "M",
+"active": true,
+"affinity": 57.5,
+"CH": 6.0
+},
+{
+"name": "Jack Gurr",
+"gender": "M",
+"active": true,
+"affinity": 57.3,
+"CH": 6.25
+},
+{
+"name": "Vincent Janssen",
+"gender": "M",
+"active": true,
+"affinity": 57.1,
+"CH": 6.0
+},
+{
+"name": "Daniel Svensson",
+"gender": "M",
+"active": true,
+"affinity": 57.1,
+"CH": 6.0
+},
+{
+"name": "Kevin Keegan",
+"gender": "M",
+"active": false,
+"affinity": 57.1,
+"CH": 7.95
+},
+{
+"name": "Aljoscha Kemlein",
+"gender": "M",
+"active": true,
+"affinity": 56.9,
+"CH": 6.0
+},
+{
+"name": "Joe Rodon",
+"gender": "M",
+"active": true,
+"affinity": 56.8,
+"CH": 6.0
+},
+{
+"name": "Eric Wynalda",
+"gender": "M",
+"active": false,
+"affinity": 56.8,
+"CH": 4.39
+},
+{
+"name": "Víctor Muñoz",
+"gender": "M",
+"active": true,
+"affinity": 56.6,
+"CH": 6.0
+},
+{
+"name": "Jayden Bogle",
+"gender": "M",
+"active": true,
+"affinity": 56.6,
+"CH": 6.0
+},
+{
+"name": "Zac McGraw",
+"gender": "M",
+"active": true,
+"affinity": 56.4,
+"CH": 7.1
+},
+{
+"name": "Jaka Bijol",
+"gender": "M",
+"active": true,
+"affinity": 56.4,
+"CH": 6.0
+},
+{
+"name": "Oliver Burke",
+"gender": "M",
+"active": true,
+"affinity": 56.4,
+"CH": 6.0
+},
+{
+"name": "Michael Zetterer",
+"gender": "M",
+"active": true,
+"affinity": 56.2,
+"CH": 6.0
+},
+{
+"name": "James McConnell",
+"gender": "M",
+"active": true,
+"affinity": 56.2,
+"CH": 6.0
+},
+{
+"name": "Andrea Pirlo",
+"gender": "M",
+"active": false,
+"affinity": 56.1,
+"CH": 5.86
+},
+{
+"name": "Omir Fernandez",
+"gender": "M",
+"active": true,
+"affinity": 56.0,
+"CH": 6.0
+},
+{
+"name": "Robert Skov",
+"gender": "M",
+"active": true,
+"affinity": 55.9,
+"CH": 6.0
+},
+{
+"name": "Romário",
+"gender": "M",
+"active": false,
+"affinity": 55.8,
+"CH": 6.11
+},
+{
+"name": "Frederik Rønnow",
+"gender": "M",
+"active": true,
+"affinity": 55.7,
+"CH": 6.0
+},
+{
+"name": "Fábio Silva",
+"gender": "M",
+"active": true,
+"affinity": 55.7,
+"CH": 6.0
+},
+{
+"name": "Konstantinos Karetsas",
+"gender": "M",
+"active": true,
+"affinity": 55.5,
+"CH": 6.0
+},
+{
+"name": "Hunter Sulte",
+"gender": "M",
+"active": true,
+"affinity": 55.1,
+"CH": 6.0
+},
+{
+"name": "Trey Nyoni",
+"gender": "M",
+"active": true,
+"affinity": 55.1,
+"CH": 6.0
+},
+{
+"name": "Jayden Danns",
+"gender": "M",
+"active": true,
+"affinity": 54.8,
+"CH": 6.0
+},
+{
+"name": "Kastriot Imeri",
+"gender": "M",
+"active": true,
+"affinity": 54.6,
+"CH": 6.0
+},
+{
+"name": "Finn Surman",
+"gender": "M",
+"active": true,
+"affinity": 54.5,
+"CH": 6.0
+},
+{
+"name": "James Trafford",
+"gender": "M",
+"active": true,
+"affinity": 54.3,
+"CH": 6.08
+},
+{
+"name": "Tom Rothe",
+"gender": "M",
+"active": true,
+"affinity": 54.2,
+"CH": 6.0
+},
+{
+"name": "Luís Figo",
+"gender": "M",
+"active": false,
+"affinity": 53.9,
+"CH": 2.46
+},
+{
+"name": "Bradley Barcola",
+"gender": "M",
+"active": true,
+"affinity": 53.9,
+"CH": 4.0
+},
+{
+"name": "Luke Chambers",
+"gender": "M",
+"active": true,
+"affinity": 53.7,
+"CH": 6.0
+},
+{
+"name": "Kyle Edwards",
+"gender": "M",
+"active": true,
+"affinity": 53.7,
+"CH": 6.0
+},
+{
+"name": "Gio Reyna",
+"gender": "M",
+"active": true,
+"affinity": 53.6,
+"CH": 3.36
+},
+{
+"name": "Leopold Querfeld",
+"gender": "M",
+"active": true,
+"affinity": 53.6,
+"CH": 6.0
+},
+{
+"name": "Ronald Hernández",
+"gender": "M",
+"active": true,
+"affinity": 53.6,
+"CH": 6.0
+},
+{
+"name": "Eric Izoita",
+"gender": "M",
+"active": true,
+"affinity": 53.4,
+"CH": 6.0
+},
+{
+"name": "David Beckham",
+"gender": "M",
+"active": false,
+"affinity": 53.0,
+"CH": 9.31
+},
+{
+"name": "Gianluigi Donnarumma",
+"gender": "M",
+"active": true,
+"affinity": 53.0,
+"CH": 4.05
+},
+{
+"name": "Fabio Cannavaro",
+"gender": "M",
+"active": false,
+"affinity": 52.9,
+"CH": 3.41
+},
+{
+"name": "Lothar Matthäus",
+"gender": "M",
+"active": false,
+"affinity": 52.9,
+"CH": 2.05
+},
+{
+"name": "Freddie Woodman",
+"gender": "M",
+"active": true,
+"affinity": 52.8,
+"CH": 6.0
+},
+{
+"name": "Emmanuel Latte Lath",
+"gender": "M",
+"active": true,
+"affinity": 52.8,
+"CH": 6.0
+},
+{
+"name": "Carney Chukwuemeka",
+"gender": "M",
+"active": true,
+"affinity": 52.7,
+"CH": 6.0
+},
+{
+"name": "Tim Skarke",
+"gender": "M",
+"active": true,
+"affinity": 52.6,
+"CH": 6.0
+},
+{
+"name": "Felix Nmecha",
+"gender": "M",
+"active": true,
+"affinity": 52.4,
+"CH": 2.33
+},
+{
+"name": "Sydney Collins",
+"gender": "W",
+"active": true,
+"affinity": 52.3,
+"CH": 6.0
+},
+{
+"name": "Patrick Vieira",
+"gender": "M",
+"active": false,
+"affinity": 52.3,
+"CH": 7.92
+},
+{
+"name": "Blake Willey",
+"gender": "M",
+"active": true,
+"affinity": 52.3,
+"CH": 6.0
+},
+{
+"name": "Jérémy Jacquet",
+"gender": "M",
+"active": true,
+"affinity": 52.2,
+"CH": 6.0
+},
+{
+"name": "Hugo Sánchez",
+"gender": "M",
+"active": false,
+"affinity": 52.1,
+"CH": 6.3
+},
+{
+"name": "Linus Güther",
+"gender": "M",
+"active": true,
+"affinity": 52.1,
+"CH": 6.0
+},
+{
+"name": "Gabriel Gudmundsson",
+"gender": "M",
+"active": true,
+"affinity": 52.0,
+"CH": 6.0
+},
+{
+"name": "Karim Adeyemi",
+"gender": "M",
+"active": true,
+"affinity": 51.7,
+"CH": 3.07
+},
+{
+"name": "Noah Okafor",
+"gender": "M",
+"active": true,
+"affinity": 51.6,
+"CH": 4.8
+},
+{
+"name": "Felix Uduokhai",
+"gender": "M",
+"active": true,
+"affinity": 51.6,
+"CH": 6.0
+},
+{
+"name": "Kristoffer Velde",
+"gender": "M",
+"active": true,
+"affinity": 51.5,
+"CH": 6.0
+},
+{
+"name": "Kamal Miller",
+"gender": "M",
+"active": true,
+"affinity": 51.3,
+"CH": 6.0
+},
+{
+"name": "Alexander Aravena",
+"gender": "M",
+"active": true,
+"affinity": 51.2,
+"CH": 6.0
+},
+{
+"name": "Lewis Koumas",
+"gender": "M",
+"active": true,
+"affinity": 51.1,
+"CH": 6.0
+},
+{
+"name": "Andrej Ilić",
+"gender": "M",
+"active": true,
+"affinity": 51.0,
+"CH": 6.0
+},
+{
+"name": "Samuele Inácio",
+"gender": "M",
+"active": true,
+"affinity": 51.0,
+"CH": 6.0
+},
+{
+"name": "Eric Miller",
+"gender": "M",
+"active": true,
+"affinity": 51.0,
+"CH": 6.0
+},
+{
+"name": "Derrick Köhn",
+"gender": "M",
+"active": true,
+"affinity": 50.9,
+"CH": 6.0
+},
+{
+"name": "Joel Waterman",
+"gender": "M",
+"active": true,
+"affinity": 50.8,
+"CH": 6.0
+},
+{
+"name": "Alex Cairns",
+"gender": "M",
+"active": true,
+"affinity": 50.8,
+"CH": 6.0
+},
+{
+"name": "Clint Mathis",
+"gender": "M",
+"active": false,
+"affinity": 50.7,
+"CH": 2.78
+},
+{
+"name": "Zeno Van Den Bosch",
+"gender": "M",
+"active": true,
+"affinity": 50.5,
+"CH": 6.0
+},
+{
+"name": "Vítězslav Jaroš",
+"gender": "M",
+"active": true,
+"affinity": 50.4,
+"CH": 6.0
+},
+{
+"name": "Gage Guerra",
+"gender": "M",
+"active": true,
+"affinity": 50.3,
+"CH": 6.6
+},
+{
+"name": "Cafu",
+"gender": "M",
+"active": false,
+"affinity": 50.1,
+"CH": 7.68
+},
+{
+"name": "Ryan Giggs",
+"gender": "M",
+"active": false,
+"affinity": 50.1,
+"CH": 4.11
+},
+{
+"name": "Trey Muse",
+"gender": "M",
+"active": true,
+"affinity": 49.9,
+"CH": 6.0
+},
+{
+"name": "Lukas Nmecha",
+"gender": "M",
+"active": true,
+"affinity": 49.9,
+"CH": 6.0
+},
+{
+"name": "Ariel Lassiter",
+"gender": "M",
+"active": true,
+"affinity": 49.8,
+"CH": 6.0
+},
+{
+"name": "Juan Mosquera",
+"gender": "M",
+"active": true,
+"affinity": 49.8,
+"CH": 6.0
+},
+{
+"name": "James Pantemis",
+"gender": "M",
+"active": true,
+"affinity": 49.5,
+"CH": 6.0
+},
+{
+"name": "Luca Reggiani",
+"gender": "M",
+"active": true,
+"affinity": 49.4,
+"CH": 6.0
+},
+{
+"name": "Harvey Davies",
+"gender": "M",
+"active": true,
+"affinity": 49.3,
+"CH": 6.0
+},
+{
+"name": "Melvin Bard",
+"gender": "M",
+"active": true,
+"affinity": 49.1,
+"CH": 6.0
+},
+{
+"name": "Joao Ortiz",
+"gender": "M",
+"active": true,
+"affinity": 49.0,
+"CH": 6.0
+},
+{
+"name": "Filippo Mané",
+"gender": "M",
+"active": true,
+"affinity": 48.9,
+"CH": 6.0
+},
+{
+"name": "Ian Smith",
+"gender": "M",
+"active": true,
+"affinity": 48.7,
+"CH": 6.0
+},
+{
+"name": "Marin Ljubičić",
+"gender": "M",
+"active": true,
+"affinity": 48.6,
+"CH": 6.0
+},
+{
+"name": "José Caicedo",
+"gender": "M",
+"active": true,
+"affinity": 48.5,
+"CH": 6.0
+},
+{
+"name": "Livan Burcu",
+"gender": "M",
+"active": true,
+"affinity": 48.5,
+"CH": 6.0
+},
+{
+"name": "Rivaldo",
+"gender": "M",
+"active": false,
+"affinity": 48.5,
+"CH": 0.85
+},
+{
+"name": "George Weah",
+"gender": "M",
+"active": false,
+"affinity": 48.2,
+"CH": 9.82
+},
+{
+"name": "Mussa Kaba",
+"gender": "M",
+"active": true,
+"affinity": 48.1,
+"CH": 6.0
+},
+{
+"name": "Andrik Markgraf",
+"gender": "M",
+"active": true,
+"affinity": 48.1,
+"CH": 6.0
+},
+{
+"name": "Jean-Mattéo Bahoya",
+"gender": "M",
+"active": true,
+"affinity": 48.0,
+"CH": 6.0
+},
+{
+"name": "Justin Lerma",
+"gender": "M",
+"active": true,
+"affinity": 47.7,
+"CH": 6.0
+},
+{
+"name": "Fanendo Adi",
+"gender": "M",
+"active": false,
+"affinity": 47.6,
+"CH": 3.07
+},
+{
+"name": "Tarik Muharemović",
+"gender": "M",
+"active": true,
+"affinity": 47.3,
+"CH": 6.0
+},
+{
+"name": "Julien Friedrich",
+"gender": "M",
+"active": true,
+"affinity": 47.1,
+"CH": 6.0
+},
+{
+"name": "Sawyer Jura",
+"gender": "M",
+"active": true,
+"affinity": 46.9,
+"CH": 6.0
+},
+{
+"name": "Joane Gadou",
+"gender": "M",
+"active": true,
+"affinity": 46.6,
+"CH": 6.0
+},
+{
+"name": "Enzo dos Santos",
+"gender": "M",
+"active": true,
+"affinity": 46.2,
+"CH": 6.0
+},
+{
+"name": "Kauã Prates",
+"gender": "M",
+"active": true,
+"affinity": 46.0,
+"CH": 6.0
+},
+{
+"name": "Giovanni Leoni",
+"gender": "M",
+"active": true,
+"affinity": 45.9,
+"CH": 6.0
+},
+{
+"name": "Denis Law",
+"gender": "M",
+"active": false,
+"affinity": 45.6,
+"CH": 6.51
+},
+{
+"name": "Alex Bonetig",
+"gender": "M",
+"active": true,
+"affinity": 45.3,
+"CH": 6.0
+},
+{
+"name": "Patrick Drewes",
+"gender": "M",
+"active": true,
+"affinity": 45.2,
+"CH": 6.0
+},
+{
+"name": "Alexander Meyer",
+"gender": "M",
+"active": true,
+"affinity": 44.9,
+"CH": 6.0
+},
+{
+"name": "Jimer Fory",
+"gender": "M",
+"active": true,
+"affinity": 44.9,
+"CH": 6.0
+},
+{
+"name": "Stanley Nsoki",
+"gender": "M",
+"active": true,
+"affinity": 44.7,
+"CH": 6.0
+},
+{
+"name": "Matheo Raab",
+"gender": "M",
+"active": true,
+"affinity": 44.4,
+"CH": 6.0
+},
+{
+"name": "Mekhi Gray",
+"gender": "M",
+"active": true,
+"affinity": 44.1,
+"CH": 6.0
+},
+{
+"name": "Karl-Heinz Rummenigge",
+"gender": "M",
+"active": false,
+"affinity": 44.1,
+"CH": 4.5
+},
+{
+"name": "Silas Ostrzinski",
+"gender": "M",
+"active": true,
+"affinity": 43.8,
+"CH": 6.0
+},
+{
+"name": "Antony",
+"gender": "M",
+"active": true,
+"affinity": 43.8,
+"CH": 3.3
+},
+{
+"name": "Jadon Sancho",
+"gender": "M",
+"active": true,
+"affinity": 43.6,
+"CH": 4.45
+},
+{
+"name": "Ronaldo (Brazilian)",
+"gender": "M",
+"active": false,
+"affinity": 43.4,
+"CH": 4.07
+},
+{
+"name": "Jayden Lienou",
+"gender": "M",
+"active": true,
+"affinity": 42.9,
+"CH": 6.0
+},
+{
+"name": "Ronaldinho",
+"gender": "M",
+"active": false,
+"affinity": 42.7,
+"CH": 0.23
+},
+{
+"name": "Antoine Griezmann",
+"gender": "M",
+"active": true,
+"affinity": 42.5,
+"CH": 7.23
+},
+{
+"name": "Federico Valverde",
+"gender": "M",
+"active": true,
+"affinity": 41.9,
+"CH": 4.66
+},
+{
+"name": "Michael Laudrup",
+"gender": "M",
+"active": false,
+"affinity": 41.6,
+"CH": 4.79
+},
+{
+"name": "Carl Klaus",
+"gender": "M",
+"active": true,
+"affinity": 40.7,
+"CH": 6.0
+},
+{
+"name": "Marcel Desailly",
+"gender": "M",
+"active": false,
+"affinity": 37.5,
+"CH": 6.18
+},
+{
+"name": "Xavi",
+"gender": "M",
+"active": false,
+"affinity": 35.4,
+"CH": 4.4
+},
+{
+"name": "Jairzinho",
+"gender": "M",
+"active": false,
+"affinity": 35.3,
+"CH": 6.0
+},
+{
+"name": "Gheorghe Hagi",
+"gender": "M",
+"active": false,
+"affinity": 34.1,
+"CH": 7.74
+},
+{
+"name": "Thibaut Courtois",
+"gender": "M",
+"active": true,
+"affinity": 33.5,
+"CH": 3.11
+},
+{
+"name": "Didier Drogba",
+"gender": "M",
+"active": false,
+"affinity": 32.7,
+"CH": 7.58
+},
+{
+"name": "Kylian Mbappé",
+"gender": "M",
+"active": true,
+"affinity": 29.7,
+"CH": 6.29
+},
+{
+"name": "Alexander Isak",
+"gender": "M",
+"active": true,
+"affinity": 28.1,
+"CH": 1.15
+},
+{
+"name": "Łukasz Piszczek",
+"gender": "M",
+"active": false,
+"affinity": 22.2,
+"CH": 9.39
+},
+{
+"name": "Philippe Coutinho",
+"gender": "M",
+"active": true,
+"affinity": 21.7,
+"CH": 5.75
+},
+{
+"name": "Hope Solo",
+"gender": "W",
+"active": false,
+"affinity": 19.5,
+"CH": 4.26
+},
+{
+"name": "Luis Suárez",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 0.0
+},
+{
+"name": "Lionel Messi",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 3.53
+},
+{
+"name": "Cristiano Ronaldo",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 0.0
+},
+{
+"name": "Neymar",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 0.0
+},
+{
+"name": "Achraf Hakimi",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 5.5
+},
+{
+"name": "Ousmane Dembélé",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 0.0
+},
+{
+"name": "Darwin Núñez",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 3.55
+},
+{
+"name": "Karim Benzema",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 3.54
+},
+{
+"name": "Diego Maradona",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 4.58
+},
+{
+"name": "George Best",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 3.0
+},
+{
+"name": "Garrincha",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 3.07
+},
+{
+"name": "Zinedine Zidane",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 7.27
+},
+{
+"name": "Francesco Totti",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 3.69
+},
+{
+"name": "Eric Cantona",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 6.89
+},
+{
+"name": "Roy Keane",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 2.85
+},
+{
+"name": "Zlatan Ibrahimović",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 1.8
+},
+{
+"name": "Samuel Eto'o",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 1.7
+},
+{
+"name": "Hristo Stoichkov",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 0.02
+},
+{
+"name": "Paolo Di Canio",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 0.63
+},
+{
+"name": "Jamie Vardy",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 3.26
+},
+{
+"name": "Enzo Fernández",
+"gender": "M",
+"active": true,
+"affinity": 0.0,
+"CH": 0.0
+},
+{
+"name": "Paolo Rossi",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 7.0
+},
+{
+"name": "Paul Gascoigne",
+"gender": "M",
+"active": false,
+"affinity": 0.0,
+"CH": 1.89
+}
+]

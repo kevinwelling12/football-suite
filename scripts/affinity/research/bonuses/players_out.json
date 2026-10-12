@@ -1,0 +1,324 @@
+[
+ {
+  "name": "Marcus Rashford",
+  "kind": "player",
+  "label": "Free school meals campaign",
+  "points": 5,
+  "year": "2020-21",
+  "why": "His open letters and campaign forced two UK government reversals in 2020, extending free school meal support (GBP 120m in June, GBP 170m winter package in November) reaching about 1.3-1.7 million children. A national policy change, well beyond the foundation-level giving Character credits.",
+  "current_factor": "Character 8.59",
+  "sources": [
+   "https://www.aljazeera.com/sports/2020/6/16/marcus-rashford-forces-uk-government-u-turn-on-free-school-meals",
+   "https://www.itv.com/news/2020-11-07/rashford-proud-after-government-u-turn-on-free-school-meals-at-christmas"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sócrates",
+  "kind": "player",
+  "label": "Corinthians Democracy",
+  "points": 4,
+  "year": "1982-84",
+  "why": "Led the player-run Corinthians Democracy under Brazil's military regime, with 'Dia 15 Vote' shirts before the 1982 elections, then spoke at Diretas Já rallies. Open political defiance of a dictatorship at personal risk.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://tribunemag.co.uk/2022/11/the-radical-spirit-of-doctor-socrates",
+   "https://www.sportanddev.org/node/15575"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Didier Drogba",
+  "kind": "player",
+  "label": "Ivory Coast peace plea",
+  "points": 4,
+  "year": "2005-",
+  "why": "After World Cup qualification in October 2005 he led a televised dressing-room plea for both sides to lay down arms, credited with helping bring a ceasefire and renewed talks (the truce later broke down). His foundation also funds a hospital in Abidjan.",
+  "current_factor": "Character 7.58",
+  "sources": [
+   "https://amp.cnn.com/cnn/2017/11/11/football/ivory-coast-didier-drogba-stops-civil-war-copa",
+   "https://dandc.eu/en/article/didier-drogba-cote-d%E2%80%99ivoire-civil-war-football"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Just Fontaine",
+  "kind": "player",
+  "label": "Founded French players' union",
+  "points": 4,
+  "year": "1961-68",
+  "why": "Co-founded the UNFP in 1961 and was its first president; its fight against lifetime contracts tying players to clubs led to the fixed-term 'contrat a temps' (1968-69), still in force. A lasting change for every French professional.",
+  "current_factor": "Character 9.14",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Union_Nationale_des_Footballeurs_Professionnels",
+   "https://www.europe1.fr/sport/transfert-contrats-raymond-kopa-un-pionnier-du-foot-business-2993522"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Raymond Kopa",
+  "kind": "player",
+  "label": "'Footballers are slaves' stand",
+  "points": 3,
+  "year": "1963",
+  "why": "As France's biggest star he publicly called players 'slaves' of lifetime contracts and received a suspended six-month ban; the campaign he backed with the UNFP won fixed-term contracts in 1968-69. Spoke out at real career risk.",
+  "current_factor": "Character 8.69",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Raymond_Kopa",
+   "https://www.europe1.fr/sport/transfert-contrats-raymond-kopa-un-pionnier-du-foot-business-2993522"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Neven Subotić",
+  "kind": "player",
+  "label": "Wells and sanitation in East Africa",
+  "points": 4,
+  "year": "2012-",
+  "why": "His foundation (now well:fair) has completed more than 500 water and sanitation projects in Ethiopia, Kenya and Tanzania, serving over 400,000 people, and he has given up much of a pro lifestyle to run it. Measurable impact beyond a typical player foundation.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://www.thyssenkrupp-nucera.com/cn/%E6%96%B0%E9%97%BB%E4%B8%AD%E5%BF%83/%E6%9C%80%E6%96%B0%E8%B5%84%E8%AE%AF%E5%8F%8A%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83/for-access-to-clean-water-wellfair-and-thyssenkrupp-nucera-launch-partnership",
+   "https://www.giz.de/en/newsroom/stories/neven-subotic-wellfair-wasser-engagement"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Megan Rapinoe",
+  "kind": "player",
+  "label": "Equal pay and anthem stand",
+  "points": 4,
+  "year": "2016-22",
+  "why": "A leading voice and named complainant in the USWNT equal-pay fight that ended in the 2022 $24m settlement and the first equal World Cup prize-money CBA; earlier knelt in 2016, was booed and prompted a US Soccer stand-for-the-anthem rule (repealed 2020). National impact plus real personal cost.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://www.cbssports.com/soccer/news/uswnt-u-s-soccer-reach-24m-equal-pay-settlement-rapinoe-says-justice-comes-in-the-next-generation",
+   "https://global.espn.com/football/story/_/id/37584546/now-repealed-uswnt-anthem-rule-had-chilling-effect"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alex Morgan",
+  "kind": "player",
+  "label": "Lead plaintiff, USWNT equal pay",
+  "points": 4,
+  "year": "2016-22",
+  "why": "Named lead plaintiff in the 2019 suit (after the 2016 EEOC complaint) that produced the 2022 $24m settlement and equal pay, including World Cup prize money, in the US Soccer CBAs; also pushed NWSL abuse accountability in 2021. Leading a fight with lasting national effect.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://www.cnbc.com/amp/2022/02/22/us-soccer-and-women-soccer-stars-settle-equal-pay-lawsuit-for-24-million.html",
+   "https://www.sportresolutions.com/news/uswnt-reach-landmark-24m-settlement-in-equal-pay-dispute"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Becky Sauerbrunn",
+  "kind": "player",
+  "label": "Led USWNT players' union to equal pay",
+  "points": 3,
+  "year": "2016-22",
+  "why": "EEOC complainant in 2016 and first USWNTPA president, signing the 2022 CBA with equal pay and equal World Cup prize money; publicly demanded NWSL owners step aside after the 2022 abuse report. Years of leadership beyond plaintiff status.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://www.espn.com/soccer/story/_/id/37582070/becky-sauerbrunn-named-first-uswntpa-president",
+   "https://justwomenssports.com/reads/uswnt-soccer-cba-equal-pay-becky-sauerbrunn-nwsl"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Christine Sinclair",
+  "kind": "player",
+  "label": "Canada pay-equity fight to Parliament",
+  "points": 3,
+  "year": "2023",
+  "why": "As captain she led the players' 2023 dispute with Canada Soccer, including a threatened strike and testimony to the House of Commons heritage committee; the federation committed to equal per-match pay and shared World Cup prize money. Led at the end of her career with public risk.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://www.cbc.ca/lite/story/1.6773010",
+   "https://equalizersoccer.com/2023/03/10/canada-womens-players-take-labor-dispute-to-parliament/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ada Hegerberg",
+  "kind": "player",
+  "label": "Five-year Norway boycott",
+  "points": 3,
+  "year": "2017-22",
+  "why": "Stepped away from Norway for five years over the federation's treatment of the women's game, missing the 2019 World Cup as the reigning Ballon d'Or winner. A stand at real career cost.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://www.cbssports.com/soccer/world-cup/news/womens-world-cup-why-ada-hegerberg-the-worlds-best-player-refuses-to-play-for-norway-at-france-2019",
+   "https://www.wsc.co.uk/stories/closed-d-ors-why-ada-hegerberg-won-t-be-at-the-world-cup-this-summer/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Aitana Bonmatí",
+  "kind": "player",
+  "label": "One of 'Las 15'",
+  "points": 3,
+  "year": "2022-23",
+  "why": "One of 15 Spain players who withdrew from selection in September 2022 over conditions under Vilda and the RFEF, facing heavy public criticism; after the 2023 Rubiales affair she again backed the players' stand that forced federation reform. Real career risk before the leadership changed.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://www.90min.com/posts/women-world-cup-2023-group-c-players-to-watch",
+   "https://www.90min.de/posts/frauen-wm-2023-aitana-bonmati-portrait-von-der-schulerin-zu-spaniens-anfuhrerin"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Julie Foudy",
+  "kind": "player",
+  "label": "Child-labour stand and pay holdout",
+  "points": 3,
+  "year": "1995-2003",
+  "why": "Refused to rely on Reebok's word and inspected Sialkot ball factories for child labour in 1997, becoming the first woman and first American to win the FIFA Fair Play Award; led the 1995-96 pay holdout and later chaired the Women's Sports Foundation. Sustained leadership beyond peers.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://britannica.com/biography/Julie-Foudy",
+   "https://vault.si.com/vault/1999/06/21/americas-host-with-soccer-teams-from-15-nations-set-to-invade-the-us-voluble-midfielder-julie-foudy-is-a-one-person-welcoming-party"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Brandi Chastain",
+  "kind": "player",
+  "label": "Safer Soccer heading campaign",
+  "points": 3,
+  "year": "2014-",
+  "why": "Co-led the Safer Soccer campaign (Concussion Legacy Foundation) and pledged her brain to CTE research; in 2015 US Soccer banned heading for players 10 and under and limited it for 11-13. Shared credit with the campaign and a lawsuit, but a national rule change.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://concussionfoundation.org/programs/safer-soccer",
+   "https://www.wbur.org/onlyagame/2015/11/25/us-youth-soccer-heading-ban"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Johan Cruyff",
+  "kind": "player",
+  "label": "Cruyff Foundation and Courts",
+  "points": 3,
+  "year": "1997-",
+  "why": "His foundation has built hundreds of Cruyff Courts and school courts in more than 20 countries for children and disabled sport, and he founded the Cruyff Institute. Built and led a lasting movement beyond a typical foundation.",
+  "current_factor": "Character 8.32",
+  "sources": [
+   "https://itftennis.com/en/news-and-media/articles/the-uniqlo-interview-the-cruyff-foundation",
+   "https://www.uefa.com/news-media/news/0254-0d7ef5d2e62b-45bc7eff4e87-1000--uefa-award-boosts-cruyff-foundation"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Patrick Vieira",
+  "kind": "player",
+  "label": "Diambars academy, Senegal",
+  "points": 3,
+  "year": "2003-",
+  "why": "Co-founded the Diambars institute in Saly, an education-first football school for Senegalese youth, running for over 20 years; also a persistent voice on racism and the lack of Black coaches. Decades of work beyond peers.",
+  "current_factor": "Character 7.92",
+  "sources": [
+   "https://amp.cnn.com/cnn/2016/06/07/football/senegal-football-school-diambars",
+   "https://sportencommun.org/en/?p=12154"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Javier Zanetti",
+  "kind": "player",
+  "label": "Fundación PUPI",
+  "points": 2,
+  "year": "2001-",
+  "why": "With his wife he has run Fundación PUPI for 25 years, providing food, education and health support to poor children in Buenos Aires Province and expanding to new centres; recognised at the UN. Sustained work clearly beyond peers.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fundaci%C3%B3n_PUPI",
+   "https://www.elgrafico.com.ar/articulo/1089/94066/javier-zanetti-de-punta-a-punta-la-leyenda-que-se-emociona-con-messi-y-cristaliza-suenios-como-dirigente"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kenny Dalglish",
+  "kind": "player",
+  "label": "Hillsborough support and cancer appeal",
+  "points": 3,
+  "year": "1989-",
+  "why": "As Liverpool manager he and Marina attended funerals (four in one day) and supported families, a strain he named as the main reason he resigned in 1991; the Marina Dalglish Appeal (2004-05) has since raised over GBP 13m for cancer care on Merseyside.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kenny_Dalglish",
+   "https://www.liverpoolfc.com/news/sir-kenny-dalglish-receives-2026-pfa-merit-award?amp=1"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Vinícius Júnior",
+  "kind": "player",
+  "label": "Anti-racism fight in Spain",
+  "points": 4,
+  "year": "2023-",
+  "why": "Repeatedly confronted racist abuse and pressed LaLiga and the courts; the Mestalla case brought the first racism convictions in Spanish professional football (2024), with him as a party. Stood up at real personal cost and with national effect; his Character penalties stand separately.",
+  "current_factor": "Character 3.49",
+  "sources": [
+   "https://www.cbsnews.com/news/vinicius-junior-soccer-fans-sentenced-to-prison-racist-insults-spain/",
+   "https://www.nbcnews.com/news/sports/vinicius-junior-spanish-soccer-fans-prison-racist-rcna156311"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Landon Donovan",
+  "kind": "player",
+  "label": "San Diego Loyal walk-offs",
+  "points": 3,
+  "year": "2020",
+  "why": "As coach he led two walk-offs in 2020 over a racist slur and a homophobic slur at Collin Martin; the second forfeit while leading 3-1 knocked the team out of playoff contention. A stand at clear sporting cost.",
+  "current_factor": "Character 10.0",
+  "sources": [
+   "https://www.mlssoccer.com/news/landon-donovan-explains-why-san-diego-loyal-walked-and-forfeited-match-against",
+   "https://www.nbcnews.com/feature/nbc-out/san-diego-soccer-team-walks-field-after-alleged-homophobic-slur-n1241682"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "David Beckham",
+  "kind": "player",
+  "label": "Twenty years with UNICEF",
+  "points": 2,
+  "year": "2005-",
+  "why": "UNICEF Goodwill Ambassador since 2005; his 7 Fund (2015) has raised millions and reached over a million children, and he gave his 2013 PSG salary to a children's charity. Recognised with the 2025 WEF Crystal Award; sustained beyond peers.",
+  "current_factor": "Character 9.31",
+  "sources": [
+   "https://www.unicef.org/people/people_40608.html",
+   "https://www.thirdsector.co.uk/david-beckham-unicef-launch-7-raise-millions-worlds-children/fundraising/article/1333237"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Mohamed Salah",
+  "kind": "player",
+  "label": "Rebuilding Nagrig",
+  "points": 2,
+  "year": "2017-",
+  "why": "Has funded a school, hospital and medical units, an ambulance station, water treatment and monthly support for poor families in his home village, plus a Cairo children's cancer hospital. Sustained giving well beyond peers; reported figures vary.",
+  "current_factor": "Character 6.69",
+  "sources": [
+   "https://gulfnews.com/sport/football/salah--the-king-of-charity-1.2210111",
+   "https://www.empireofthekop.com/2021/01/10/salah-makes-crucial-donation-to-egypt-hometown-in-covid-19-fightback/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "George Weah",
+  "kind": "player",
+  "label": "Funded Liberia's team in the civil war",
+  "points": 2,
+  "year": "1990s",
+  "why": "Paid flights, kit, hotels and bonuses for the Liberia national team from his own pocket during and after the civil war, and worked with UNICEF; later conceded the 2023 presidential election peacefully. Sustained personal cost; the 2002 funding is disputed.",
+  "current_factor": "Character 9.82",
+  "sources": [
+   "https://thesefootballtimes.co/how-george-weah-united-a-broken-liberia-in-his-last-days-as-an-international-footballer/",
+   "https://www.wsc.co.uk/book-reviews/the-weah-forward/"
+  ],
+  "confidence": "medium"
+ }
+]

@@ -18,7 +18,7 @@ root = here.parents[1]
 sys.path.insert(0, str(root / 'scripts' / 'blind'))
 import build, live as blind
 
-CHOSEN = ['Liverpool', 'Real Madrid', 'Borussia Dortmund', 'Portland Timbers', 'Portland Thorns', 'Sacramento Republic FC']
+CHOSEN = ['Liverpool', 'Borussia Dortmund', 'Portland Timbers', 'Portland Thorns', 'Sacramento Republic FC']
 HOME = (38.58, -121.49)   # Sacramento
 LABEL = {f[0]: f[2] for f in blind.Q['CF']}
 POS = ('work', 'humble', 'fans', 'charity', 'speak', 'captain')

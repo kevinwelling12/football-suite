@@ -60,9 +60,11 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 
 ## Where the logic lives
-- Affinity (live since 2026-10-12): the blind model in scripts/blind (README.md): researched facts only, weighted by Kevin's
-  own answers to the 100-question blind test. Run `python3 scripts/blind/live.py`, then build. The earlier categories model
-  (scripts/affinity, docs/affinity.md, docs/preferences.md) is history: don't run scripts/affinity/affinity.py over the live data.
+- Affinity (2026-10-12, "back to basics"): scripts/favs/live.py. Kevin's chosen clubs (CHOSEN there) define it: for each
+  researched fact (scripts/blind facts), how far his clubs stand out from the average club times how much they agree; clubs
+  score by how closely they match that profile (0-100), players by the seasons-weighted average of their clubs. Run
+  `python3 scripts/favs/live.py`, then build. The blind test (scripts/blind) and the categories model (scripts/affinity)
+  are history: don't run their live.py / affinity.py over the live data.
 - Model details: docs/architecture.md (Dixon-Coles, draw calibration, importance, favour/Affinity picks).
 - Data sources and sync: docs/sync.md (nightly ESPN sync: .github/workflows/espn-sync.yml, scripts/sync/espn.js).
 - Open ideas: docs/backlog.md.

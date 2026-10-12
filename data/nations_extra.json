@@ -119,9 +119,9 @@
     "V": 2.7,
     "H": 10.0,
     "O": 1.8,
-    "S": 7.3,
-    "Q": 65.9,
-    "A0": 40.9,
+    "S": 7.5,
+    "Q": 66.3,
+    "A0": 41.3,
     "hard": [
      [
       "Racism",
@@ -138,12 +138,12 @@
      "event": "Copa América 2024",
      "result": "champions"
     },
-    "tb": -1.7,
+    "tb": -1.5,
     "clubs": [
      [
       "Atlético Madrid",
       14,
-      -0.85
+      -0.76
      ],
      [
       "Manchester City",
@@ -162,7 +162,7 @@
      ]
     ]
    },
-   "base": 40.9,
+   "base": 41.3,
    "bonus": 0,
    "region": ""
   },
@@ -177,9 +177,9 @@
     "V": 7.3,
     "H": 5.3,
     "O": 6,
-    "S": 7.1,
-    "Q": 64.3,
-    "A0": 64.6,
+    "S": 7.2,
+    "Q": 64.4,
+    "A0": 64.8,
     "hard": [],
     "conn": [],
     "K": 0.0,
@@ -191,7 +191,7 @@
      "event": "Asian Cup 2023",
      "result": "quarter-finals"
     },
-    "tb": 0.1,
+    "tb": 0.2,
     "clubs": [
      [
       "New York City Football Club",
@@ -201,12 +201,12 @@
      [
       "Heart of Midlothian",
       6,
-      0.12
+      0.18
      ],
      [
       "Celtic",
       4,
-      0.06
+      0.07
      ],
      [
       "Hibernian",
@@ -215,7 +215,7 @@
      ]
     ]
    },
-   "base": 64.6,
+   "base": 64.8,
    "bonus": 0,
    "region": ""
   },
@@ -230,9 +230,9 @@
     "V": 5.2,
     "H": 10.0,
     "O": 2.8,
-    "S": 3.7,
-    "Q": 57.3,
-    "A0": 59.3,
+    "S": 3.9,
+    "Q": 57.6,
+    "A0": 59.6,
     "hard": [],
     "conn": [],
     "K": 0.0,
@@ -244,7 +244,7 @@
      "event": "Copa América 2024",
      "result": "quarter-finals"
     },
-    "tb": -1.3,
+    "tb": -1.1,
     "clubs": [
      [
       "Paris Saint-Germain",
@@ -259,7 +259,7 @@
      [
       "Liverpool",
       11,
-      0.23
+      0.3
      ],
      [
       "Newcastle United",
@@ -268,7 +268,7 @@
      ]
     ]
    },
-   "base": 59.3,
+   "base": 59.6,
    "bonus": 0,
    "region": ""
   },
@@ -355,7 +355,7 @@
      [
       "Shamrock Rovers",
       3,
-      0.1
+      0.13
      ],
      [
       "Columbus Crew",
@@ -363,14 +363,14 @@
       0.05
      ],
      [
-      "Philadelphia Union",
+      "Rayo Vallecano",
       1,
       0.01
      ],
      [
-      "Rayo Vallecano",
+      "Philadelphia Union",
       1,
-      0.01
+      0.0
      ]
     ]
    },
@@ -420,13 +420,13 @@
       0.09
      ],
      [
-      "Sporting CP",
-      2,
+      "Liverpool",
+      1,
       0.05
      ],
      [
-      "Liverpool",
-      1,
+      "Crystal Palace",
+      4,
       0.04
      ],
      [
@@ -464,17 +464,17 @@
      "event": "Gold Cup 2025",
      "result": "group stage"
     },
-    "tb": 0.0,
+    "tb": -0.0,
     "clubs": [
-     [
-      "PSV Eindhoven",
-      2,
-      0.08
-     ],
      [
       "Miami FC",
       2,
       -0.07
+     ],
+     [
+      "PSV Eindhoven",
+      2,
+      0.06
      ]
     ]
    },
@@ -493,9 +493,9 @@
     "V": 6.2,
     "H": 6.1,
     "O": 3,
-    "S": 7.1,
-    "Q": 64.7,
-    "A0": 27.7,
+    "S": 7.0,
+    "Q": 64.5,
+    "A0": 27.5,
     "hard": [
      [
       "Government record",
@@ -504,7 +504,6 @@
     ],
     "conn": [],
     "K": 0.0,
-    "S0": 7,
     "P": 5.6,
     "rank": 40,
     "wc2026": "round of 32",
@@ -512,7 +511,7 @@
      "event": "AFCON 2025",
      "result": "round of 16"
     },
-    "tb": 0.1,
+    "tb": 0.0,
     "clubs": [
      [
       "Newcastle United",
@@ -520,23 +519,23 @@
       -0.11
      ],
      [
+      "Lens",
+      1,
+      0.04
+     ],
+     [
       "VfB Stuttgart",
       2,
       0.04
      ],
      [
-      "Lens",
-      1,
-      0.03
-     ],
-     [
-      "Real Betis",
-      2,
-      0.03
+      "West Ham United",
+      3,
+      -0.04
      ]
     ]
    },
-   "base": 27.7,
+   "base": 27.5,
    "bonus": 0,
    "region": ""
   },
@@ -577,14 +576,14 @@
     "tb": -0.1,
     "clubs": [
      [
-      "Chelsea",
-      2,
-      -0.11
-     ],
-     [
       "Paris Saint-Germain",
       1,
       -0.1
+     ],
+     [
+      "Chelsea",
+      2,
+      -0.09
      ],
      [
       "Seattle Sounders FC",
@@ -631,12 +630,12 @@
      "event": "AFCON 2025",
      "result": "fourth place"
     },
-    "tb": -0.0,
+    "tb": 0.0,
     "clubs": [
      [
       "Liverpool",
       6,
-      0.2
+      0.27
      ],
      [
       "Manchester City",
@@ -702,9 +701,9 @@
       -0.1
      ],
      [
-      "Club Brugge",
-      3,
-      0.04
+      "Lens",
+      2,
+      0.05
      ]
     ]
    },
@@ -723,9 +722,9 @@
     "V": 4,
     "H": 3.7,
     "O": 2,
-    "S": 6.0,
-    "Q": 47.9,
-    "A0": 29.2,
+    "S": 5.9,
+    "Q": 47.7,
+    "A0": 29.0,
     "hard": [
      [
       "Government record",
@@ -734,6 +733,7 @@
     ],
     "conn": [],
     "K": 0.0,
+    "S0": 6,
     "P": 3.8,
     "rank": 84,
     "wc2026": "group stage",
@@ -741,7 +741,7 @@
      "event": "Gold Cup 2025",
      "result": "group stage"
     },
-    "tb": -0.0,
+    "tb": -0.1,
     "clubs": [
      [
       "Inter Miami CF",
@@ -749,23 +749,23 @@
       -0.05
      ],
      [
-      "Philadelphia Union",
-      2,
-      0.04
-     ],
-     [
       "Nice",
       1,
       -0.02
      ],
      [
-      "AEK Athens",
+      "Miami FC",
+      1,
+      -0.01
+     ],
+     [
+      "Columbus Crew",
       1,
       0.01
      ]
     ]
    },
-   "base": 29.2,
+   "base": 29.0,
    "bonus": 0,
    "region": ""
   },
@@ -780,8 +780,8 @@
     "V": 1.7,
     "H": 5,
     "O": 0.8,
-    "S": 5.1,
-    "Q": 43.8,
+    "S": 5.0,
+    "Q": 43.7,
     "A0": 0.0,
     "hard": [
      [
@@ -791,7 +791,6 @@
     ],
     "conn": [],
     "K": 0.0,
-    "S0": 5,
     "P": 6.3,
     "rank": 23,
     "wc2026": "group stage",
@@ -799,12 +798,17 @@
      "event": "Asian Cup 2023",
      "result": "semi-finals"
     },
-    "tb": 0.1,
+    "tb": 0.0,
     "clubs": [
+     [
+      "Porto",
+      2,
+      0.02
+     ],
      [
       "AEK Athens",
       5,
-      0.07
+      0.0
      ]
     ]
    },
@@ -847,12 +851,12 @@
      [
       "AFC Wimbledon",
       1,
-      0.05
+      0.07
      ],
      [
       "Luton Town",
       1,
-      0.04
+      0.03
      ]
     ]
    },
@@ -900,17 +904,17 @@
      [
       "Sporting CP",
       3,
-      0.09
-     ],
-     [
-      "Manchester United",
-      3,
-      -0.05
+      0.04
      ],
      [
       "Lazio",
       1,
       -0.04
+     ],
+     [
+      "Borussia Dortmund",
+      1,
+      0.04
      ]
     ]
    },
@@ -1018,9 +1022,9 @@
     "V": 2.8,
     "H": 7,
     "O": 2.8,
-    "S": 6.1,
-    "Q": 55.3,
-    "A0": 13.7,
+    "S": 6.0,
+    "Q": 55.1,
+    "A0": 13.5,
     "hard": [
      [
       "Racism",
@@ -1033,7 +1037,6 @@
     ],
     "conn": [],
     "K": 0.0,
-    "S0": 6,
     "P": 7.7,
     "rank": 10,
     "wc2026": "round of 16",
@@ -1041,22 +1044,22 @@
      "event": "Gold Cup 2025",
      "result": "champions"
     },
-    "tb": 0.1,
+    "tb": 0.0,
     "clubs": [
      [
       "Atlético Madrid",
       2,
-      -0.09
+      -0.08
      ],
      [
       "PSV Eindhoven",
       6,
-      0.05
+      0.04
      ],
      [
-      "AEK Athens",
-      5,
-      0.04
+      "West Ham United",
+      3,
+      -0.03
      ],
      [
       "Real Sociedad",
@@ -1065,7 +1068,7 @@
      ]
     ]
    },
-   "base": 13.7,
+   "base": 13.5,
    "bonus": 0,
    "region": ""
   },
@@ -1108,7 +1111,7 @@
      [
       "PSV Eindhoven",
       5,
-      0.13
+      0.09
      ],
      [
       "VfB Stuttgart",
@@ -1164,7 +1167,12 @@
       0.14
      ],
      [
-      "Port Vale",
+      "Swansea City",
+      1,
+      0.02
+     ],
+     [
+      "Wrexham",
       1,
       0.01
      ]
@@ -1204,17 +1212,12 @@
      [
       "Slovan Bratislava",
       3,
-      -0.18
+      -0.15
      ],
      [
       "Seattle Sounders FC",
       2,
       0.03
-     ],
-     [
-      "Norwich City",
-      2,
-      0.0
      ],
      [
       "Vancouver Whitecaps FC",
@@ -1275,9 +1278,9 @@
       -0.05
      ],
      [
-      "Vancouver Whitecaps FC",
+      "West Ham United",
       2,
-      0.01
+      -0.02
      ]
     ]
    },
@@ -1374,9 +1377,9 @@
     "V": 3.8,
     "H": 7,
     "O": 3.8,
-    "S": 5.5,
-    "Q": 57.7,
-    "A0": 44.8,
+    "S": 5.6,
+    "Q": 57.9,
+    "A0": 45.0,
     "hard": [
      [
       "Fan violence",
@@ -1393,7 +1396,7 @@
      "event": "AFCON 2025",
      "result": "runners-up"
     },
-    "tb": -0.5,
+    "tb": -0.4,
     "clubs": [
      [
       "Nice",
@@ -1408,7 +1411,7 @@
      [
       "Chelsea",
       5,
-      -0.17
+      -0.13
      ],
      [
       "Bayern Munich",
@@ -1417,7 +1420,7 @@
      ]
     ]
    },
-   "base": 44.8,
+   "base": 45.0,
    "bonus": 0,
    "region": ""
   },
@@ -1432,13 +1435,12 @@
     "V": 5,
     "H": 6,
     "O": 2.7,
-    "S": 7.1,
-    "Q": 55.4,
-    "A0": 55.2,
+    "S": 7.0,
+    "Q": 55.2,
+    "A0": 55.1,
     "hard": [],
     "conn": [],
     "K": 0.0,
-    "S0": 7,
     "P": 5.4,
     "rank": 48,
     "wc2026": "round of 32",
@@ -1446,26 +1448,21 @@
      "event": "AFCON 2025",
      "result": "round of 16"
     },
-    "tb": 0.1,
+    "tb": 0.0,
     "clubs": [
-     [
-      "Philadelphia Union",
-      1,
-      0.02
-     ],
-     [
-      "Club Brugge",
-      1,
-      0.02
-     ],
      [
       "Union Saint-Gilloise",
       1,
       0.01
+     ],
+     [
+      "Philadelphia Union",
+      1,
+      0.0
      ]
     ]
    },
-   "base": 55.2,
+   "base": 55.1,
    "bonus": 0,
    "region": ""
   },
@@ -1620,12 +1617,12 @@
      [
       "PSV Eindhoven",
       5,
-      0.12
+      0.08
      ],
      [
-      "Chelsea",
-      3,
-      -0.07
+      "Borussia Mönchengladbach",
+      5,
+      0.06
      ]
     ]
    },
@@ -1644,9 +1641,9 @@
     "V": 4.7,
     "H": 9.7,
     "O": 4.8,
-    "S": 3.4,
-    "Q": 62.5,
-    "A0": 62.8,
+    "S": 3.5,
+    "Q": 62.6,
+    "A0": 62.9,
     "hard": [],
     "conn": [],
     "K": 0.0,
@@ -1658,12 +1655,12 @@
      "event": "Copa América 2024",
      "result": "third place"
     },
-    "tb": -0.6,
+    "tb": -0.5,
     "clubs": [
      [
       "Atlético Madrid",
       12,
-      -0.53
+      -0.47
      ],
      [
       "Paris Saint-Germain",
@@ -1671,9 +1668,9 @@
       -0.13
      ],
      [
-      "Sporting CP",
-      7,
-      0.13
+      "Liverpool",
+      2,
+      0.07
      ],
      [
       "Lazio",
@@ -1682,7 +1679,7 @@
      ]
     ]
    },
-   "base": 62.8,
+   "base": 62.9,
    "bonus": 0,
    "region": ""
   },
@@ -1726,7 +1723,7 @@
      [
       "Lens",
       1,
-      0.03
+      0.04
      ]
     ]
    },
@@ -1760,14 +1757,14 @@
     "conn": [
      [
       "Linked to Liverpool",
-      0.5
+      0.9
      ],
      [
       "Linked to Borussia Dortmund",
       0.4
      ]
     ],
-    "K": 0.9,
+    "K": 1.3,
     "P": 9.9,
     "ps": [
      10.0,
@@ -1784,7 +1781,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
-   "base": 69.7,
+   "base": 70.1,
    "bonus": 2.2
   },
   {
@@ -1801,7 +1798,7 @@
     "O": 4.5,
     "S": 4,
     "Q": 62.0,
-    "A0": 21.0,
+    "A0": 25.1,
     "hard": [
      [
       "Racism",
@@ -1809,7 +1806,7 @@
      ],
      [
       "Fan violence",
-      -15.9
+      -11.9
      ],
      [
       "Multi-club",
@@ -1839,7 +1836,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
-   "base": 22.0,
+   "base": 26.2,
    "bonus": 2.2
   },
   {
@@ -1856,7 +1853,7 @@
     "O": 8.8,
     "S": 5,
     "Q": 75.2,
-    "A0": 69.0,
+    "A0": 72.4,
     "hard": [
      [
       "Multi-club",
@@ -1883,9 +1880,15 @@
      8.3
     ],
     "pl": "2025-26",
-    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
+    "rl": "Heritage: Scottish Lowlands & Central Belt 11%",
+    "bonus": [
+     [
+      "Foundation of Hearts rescue and fan ownership",
+      4.0
+     ]
+    ]
    },
-   "base": 69.0,
+   "base": 72.4,
    "bonus": 2.2
   },
   {
@@ -2027,7 +2030,7 @@
     "O": 7.2,
     "S": 8.3,
     "Q": 72.7,
-    "A0": 71.3,
+    "A0": 74.0,
     "hard": [
      [
       "Multi-club",
@@ -2050,9 +2053,15 @@
      10.0
     ],
     "pl": "2025",
-    "rl": "Heritage: Leinster, Ireland 2%"
+    "rl": "Heritage: Leinster, Ireland 2%",
+    "bonus": [
+     [
+      "400 Club fans saved the club",
+      3.0
+     ]
+    ]
    },
-   "base": 71.3,
+   "base": 74.0,
    "bonus": 0.4
   },
   {
@@ -2069,8 +2078,13 @@
     "O": 9.4,
     "S": 6,
     "Q": 78.2,
-    "A0": 74.7,
-    "hard": [],
+    "A0": 73.1,
+    "hard": [
+     [
+      "Fan violence",
+      -4.0
+     ]
+    ],
     "conn": [],
     "K": 0.0,
     "P": 5.4,
@@ -2087,9 +2101,15 @@
      6.9
     ],
     "pl": "2025",
-    "rl": "Heritage: Leinster, Ireland 2%"
+    "rl": "Heritage: Leinster, Ireland 2%",
+    "bonus": [
+     [
+      "Refugee and humanitarian kit campaigns",
+      2.0
+     ]
+    ]
    },
-   "base": 74.7,
+   "base": 73.1,
    "bonus": 0.4
   },
   {
@@ -2254,8 +2274,12 @@
     "O": 5,
     "S": 5,
     "Q": 55.2,
-    "A0": 52.6,
+    "A0": 45.5,
     "hard": [
+     [
+      "Racism",
+      -7.4
+     ],
      [
       "Owner's fortune from arms making",
       -5.9
@@ -2279,7 +2303,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Western Czechia 2%"
    },
-   "base": 52.6,
+   "base": 45.5,
    "bonus": 0.4
   },
   {

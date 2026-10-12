@@ -1,0 +1,413 @@
+[
+ {
+  "name": "1. FC Köln",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Bayer Leverkusen",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": "Company club (50+1 exemption)"
+ },
+ {
+  "name": "Bayern Munich",
+  "comps": [
+   "ucl",
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Borussia Dortmund",
+  "comps": [
+   "ucl",
+   "bl"
+  ],
+  "hard": [],
+  "note": "Values: Rheinmetall arms-maker sponsorship"
+ },
+ {
+  "name": "Borussia Mönchengladbach",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Eintracht Frankfurt",
+  "comps": [
+   "bl"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -8.0
+   ]
+  ],
+  "note": "Fan violence -8"
+ },
+ {
+  "name": "FC Augsburg",
+  "comps": [
+   "bl"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Hamburger SV",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Mainz 05",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "RB Leipzig",
+  "comps": [
+   "ucl",
+   "bl"
+  ],
+  "hard": [
+   [
+    "Franchise",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Franchise -4 -> History -2.2"
+ },
+ {
+  "name": "SC Freiburg",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "SC Paderborn",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "SV Elversberg",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Schalke 04",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 6->5, R4 Values 7->6"
+ },
+ {
+  "name": "TSG Hoffenheim",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": "Patron-built club"
+ },
+ {
+  "name": "Union Berlin",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "VfB Stuttgart",
+  "comps": [
+   "ucl",
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Werder Bremen",
+  "comps": [
+   "bl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Angers",
+  "comps": [
+   "fra"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Auxerre",
+  "comps": [
+   "fra"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Brest",
+  "comps": [
+   "fra"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Le Havre",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -4 -> Ownership -3.6"
+ },
+ {
+  "name": "Le Mans",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Lens",
+  "comps": [
+   "ucl",
+   "fra"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -6.0
+   ]
+  ],
+  "note": "Private equity -6; multi-club removed 2026-10-12: Lens is Oughourlian's flagship (Millonarios, Padova, Zaragoza secondary)"
+ },
+ {
+  "name": "Lille",
+  "comps": [
+   "ucl",
+   "fra"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -9.0
+   ]
+  ],
+  "note": "Private equity -9"
+ },
+ {
+  "name": "Lorient",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -4 -> Ownership -3.6"
+ },
+ {
+  "name": "Lyon",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ],
+   [
+    "Overspend",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -3 -> Ownership -2.7, Overspend -4 -> Ownership -1.3, Values -0.9"
+ },
+ {
+  "name": "Marseille",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -6.0
+   ],
+   [
+    "Overspend",
+    -4.0
+   ]
+  ],
+  "note": "Fan violence -6; Folded 2026-10-02: Overspend -4 -> Ownership -3.6"
+ },
+ {
+  "name": "Monaco",
+  "comps": [
+   "fra"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Nice",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -6.0
+   ],
+   [
+    "Fan violence",
+    -8.0
+   ],
+   [
+    "Multi-club",
+    -6.0
+   ]
+  ],
+  "note": "Racism -6; Fan violence -8; Folded 2026-10-02: Multi-club -6 -> Ownership -2.8, Values -1.0"
+ },
+ {
+  "name": "Paris FC",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ],
+   [
+    "Overspend",
+    -2.0
+   ]
+  ],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4; Folded 2026-10-02: Multi-club -3 -> Ownership -2.7, Overspend -2 -> Ownership -1.8"
+ },
+ {
+  "name": "Paris Saint-Germain",
+  "comps": [
+   "ucl",
+   "fra"
+  ],
+  "hard": [
+   [
+    "State-backed",
+    -25.0
+   ],
+   [
+    "Private equity",
+    -6.0
+   ]
+  ],
+  "note": "State-backed -25; Private equity -6"
+ },
+ {
+  "name": "Rennes",
+  "comps": [
+   "fra"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Strasbourg",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -6.0
+   ],
+   [
+    "Multi-club",
+    -6.0
+   ]
+  ],
+  "note": "Private equity -6; Folded 2026-10-02: Multi-club -6 -> Ownership -3.0, Values -0.9"
+ },
+ {
+  "name": "Toulouse",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -6.0
+   ],
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Private equity -6; Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Troyes",
+  "comps": [
+   "fra"
+  ],
+  "hard": [
+   [
+    "State-backed",
+    -12.0
+   ],
+   [
+    "Multi-club",
+    -6.0
+   ]
+  ],
+  "note": "State-backed -12; Folded 2026-10-02: Multi-club -6 -> Ownership -1.0, Values -1.7"
+ }
+]

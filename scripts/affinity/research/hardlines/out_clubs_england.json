@@ -1,0 +1,875 @@
+[
+ {
+  "name": "Arsenal",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Super League",
+    "from": 3,
+    "to": 1.5,
+    "year": 2021,
+    "why": "Signed in April 2021 and withdrew within two days; over 5 years old and not repeated (no English club backed the 2023-25 A22 relaunch): half, unverified for any later statement.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/European_Super_League"
+    ]
+   }
+  ],
+  "values_note": "No FA/UEFA discrimination sanction on the club found for 2021-26 (club itself banned 24 fans in 2023-24, incl. 2 for racism); no line.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Aston Villa",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2026,
+    "why": "UEFA fined the club EUR 10,000 with a suspended one-match away-ticket ban for a supporters' banner referencing the Traveller community at the 20 May 2026 Europa League final; single recent sanction, club statement not found.",
+    "sources": [
+     "https://footballgroundguide.com/news/aston-villa-fined-and-handed-away-ticket-ban-by-uefa-for-discriminatory-banner-at-europa-league-final.html",
+     "https://britbrief.co.uk/crime/prosecution/aston-villa-suspended-ban-on-away-ticket-sales-by-uefa.html"
+    ]
+   },
+   {
+    "label": "Overspend",
+    "from": 3,
+    "to": 3,
+    "year": 2026,
+    "why": "Confirmed: UEFA squad-cost settlement (2025) and June 2026 fine; recent and repeated, full weight (folded into Ownership).",
+    "sources": []
+   }
+  ],
+  "values_note": "If the Racism line is taken, drop the round-2 audit's Values -0.2 for the same banner (r2_england.json) to avoid double counting.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Brighton",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Owner's fortune from sports betting",
+    "from": 3,
+    "to": 3,
+    "year": 2026,
+    "why": "Kevin's round-4 call, folded into Values; December 2025 allegations against Bloom remain unproven.",
+    "sources": [
+     "https://insidersport.com/2025/12/09/brighton-owner-tony-bloom-denies-legal/"
+    ]
+   }
+  ],
+  "values_note": "No discrimination or fan-violence sanction on Brighton fans found 2021-26. Bloom stays flagship (Union SG, Hearts minority).",
+  "confidence": "high"
+ },
+ {
+  "name": "Chelsea",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 12,
+    "to": 12,
+    "year": 2026,
+    "why": "Confirmed and strengthened: Clearlake bought out Boehly and Walter (announced 16 Sept 2026) and now has sole control.",
+    "sources": [
+     "https://www.local10.com/sports/2026/09/16/todd-boehly-and-mark-walter-sell-chelsea-shares-clearlake-now-has-full-control/",
+     "https://www.thestar.com.my/sport/football/2026/09/17/soccer-former-chelsea-owners-boehly-and-walter-sell-holdings-to-clearlake"
+    ]
+   },
+   {
+    "label": "Super League",
+    "from": 3,
+    "to": 1.5,
+    "year": 2021,
+    "why": "Signed in April 2021 and withdrew within two days; over 5 years old and not repeated (no English club backed the 2023-25 A22 relaunch): half, unverified for any later statement.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/European_Super_League"
+    ]
+   },
+   {
+    "label": "Overspend",
+    "from": 4,
+    "to": 4,
+    "year": 2026,
+    "why": "Confirmed: March 2026 Premier League fine and suspended transfer ban; recent (folded).",
+    "sources": []
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2026,
+    "why": "FA charged the club (Sept 2026, Rule E21, reference to religion) over a sectarian chant at Fulham; outcome pending; the club warned fans of indefinite bans. UEFA's EUR 10,000 fine for anti-IRA chanting v Shamrock Rovers (Dec 2024) was not under the discrimination article (unverified), so counted as context only.",
+    "sources": [
+     "https://footballgroundguide.com/news/how-chelsea-fans-reacted-to-fa-charge-over-fulham-chants-games-gone.html",
+     "https://uk.sports.yahoo.com/news/chelsea-shamrock-rovers-fined-uefa-121808291.html"
+    ]
+   }
+  ],
+  "values_note": "Clearlake acquisition financing still unverified; if purchase debt sits on the club, an LBO line could apply. Racism line is a pending case: drop it if the FA dismisses the charge.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Crystal Palace",
+  "verdict": "remove",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 0,
+    "year": 2025,
+    "why": "The multi-club tie was Textor's Eagle Football (Lyon); Woody Johnson completed the purchase of that 43% stake in 2025, so it is a previous owner's penalty. Blitzer's other stakes (Bolt network) are smaller clubs, so Palace would be his flagship, not a secondary.",
+    "sources": [
+     "https://www.richmond-news.com/soccer/jets-owner-woody-johnson-completes-purchase-of-stake-in-premier-league-club-crystal-palace-10989120",
+     "https://global.espn.com/football/story/_/id/45567347/ny-jets-owner-woody-johnson-agrees-deal-buy-crystal-palace-stake-source"
+    ]
+   }
+  ],
+  "values_note": "Line is folded into Ownership (-2.7); removing it means restoring that amount. Anti-UEFA chant fines (2025-26) are not discrimination; no line.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Everton",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 4,
+    "to": 4,
+    "year": 2024,
+    "why": "Friedkin Group still owns AS Roma (bought 2020, the flagship) and is reported to control Cannes; Everton is a secondary club (folded into Ownership).",
+    "sources": [
+     "https://www.sportcal.com/news/everton-add-cmc-markets-as-main-sponsor-stake-shifts-to-sleeve-deal/"
+    ]
+   }
+  ],
+  "values_note": "No FA/UEFA discrimination or fan-violence sanction on Everton found 2021-26 (the 2021 pitch-invasion fine came from May 2021, over 5 years, not repeated).",
+  "confidence": "medium"
+ },
+ {
+  "name": "Ipswich Town",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 9,
+    "to": 9,
+    "year": 2025,
+    "why": "Bright Path Sports Partners (PE) about 40% and ORG (pension-fund investment manager) about 45%, control via Portman Holdings since the Dec 2025 restructure: fund ownership of a major stake.",
+    "sources": [
+     "https://swissramble.substack.com/p/ipswich-town-finances-202425",
+     "https://www.ipswich.co.uk/articles/ipswich-town-ownership-restructured-at-reported-350m-valuation"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Leeds United",
+  "verdict": "confirmed",
+  "lines": [],
+  "values_note": "Not a line by Kevin's instruction: the homophobic-chanting question (FA GBP 150,000 fine and action plan for March 2023 v Brighton; reported repeat chanting at Elland Road, outcome not found) stays open. Under this schedule it would score Racism 2-3 (single sanction, club acted), the same as Wolves and Luton below.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Liverpool",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Super League",
+    "from": 3,
+    "to": 1.5,
+    "year": 2021,
+    "why": "Signed in April 2021 and withdrew within two days; over 5 years old and not repeated (no English club backed the 2023-25 A22 relaunch): half, unverified for any later statement.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/European_Super_League"
+    ]
+   }
+  ],
+  "values_note": "No discrimination or fan-violence sanction found 2021-26.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Manchester City",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "State-backed",
+    "from": 25,
+    "to": 25,
+    "year": 2026,
+    "why": "Abu Dhabi United Group (Sheikh Mansour) still majority owner.",
+    "sources": []
+   },
+   {
+    "label": "Super League",
+    "from": 3,
+    "to": 1.5,
+    "year": 2021,
+    "why": "Signed in April 2021 and withdrew within two days; over 5 years old and not repeated (no English club backed the 2023-25 A22 relaunch): half, unverified for any later statement.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/European_Super_League"
+    ]
+   },
+   {
+    "label": "Overspend",
+    "from": 6,
+    "to": 6,
+    "year": 2026,
+    "why": "Confirmed: independent commission reportedly found the club guilty on 114 of 115 charges (25 Sept 2026); sanction pending, appeal expected.",
+    "sources": [
+     "https://www.businessday.co.za/sport/soccer/2026-09-29-man-city-faces-long-road-to-sanctions-after-guilty-verdict/",
+     "https://www.aljazeera.com/sports/2026/9/26/man-city-face-drastic-sanctions-according-to-clubs-former-chairman"
+    ]
+   }
+  ],
+  "values_note": "No FA/UEFA discrimination sanction found 2021-26 (FA took no action over 2023 chants). Revisit Overspend once the sanction is set.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Manchester United",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Leveraged buyout",
+    "from": 12,
+    "to": 12,
+    "year": 2026,
+    "why": "2005 Glazer purchase debt still on the club: ongoing, full weight.",
+    "sources": []
+   },
+   {
+    "label": "Super League",
+    "from": 3,
+    "to": 1.5,
+    "year": 2021,
+    "why": "Signed in April 2021 and withdrew within two days; over 5 years old and not repeated (no English club backed the 2023-25 A22 relaunch): half, unverified for any later statement.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/European_Super_League"
+    ]
+   }
+  ],
+  "values_note": "No club sanction found for 2021-26; Bilbao 2025 clashes with Spurs fans brought no UEFA sanction found.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Newcastle United",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "State-backed",
+    "from": 25,
+    "to": 25,
+    "year": 2021,
+    "why": "PIF (Saudi sovereign fund) majority owner; ongoing.",
+    "sources": []
+   }
+  ],
+  "values_note": "No fan sanctions found 2021-26 (Marseille 2025 was a club complaint about police).",
+  "confidence": "high"
+ },
+ {
+  "name": "Nottingham Forest",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 4,
+    "to": 4,
+    "year": 2017,
+    "why": "Marinakis' Olympiacos (owned since 2010) is the flagship; Forest secondary (folded).",
+    "sources": []
+   },
+   {
+    "label": "Overspend",
+    "from": 3,
+    "to": 3,
+    "year": 2024,
+    "why": "2024 PSR deduction, within 5 years (folded).",
+    "sources": []
+   },
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2022,
+    "why": "FA fined the club GBP 50,000 (half suspended, May 2023) for the May 2022 play-off pitch invasion in which a fan headbutted Sheffield United's Billy Sharp (fan jailed); single serious incident, about 4.4 years old, so it fades next year.",
+    "sources": [
+     "https://www.thefa.com/news/2023/may/16/nottingham-forest-fc-fined-160523",
+     "https://uk.sports.yahoo.com/news/forest-fined-over-pitch-invasion-132628426.html"
+    ]
+   }
+  ],
+  "values_note": "Club's GBP 750,000 fine for the 2025 post attacking a VAR is owner/club conduct, a Values matter, not a hard line.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Tottenham Hotspur",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Super League",
+    "from": 3,
+    "to": 1.5,
+    "year": 2021,
+    "why": "Signed in April 2021 and withdrew within two days; over 5 years old and not repeated (no English club backed the 2023-25 A22 relaunch): half, unverified for any later statement.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/European_Super_League"
+    ]
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 4,
+    "year": 2026,
+    "why": "Two discrimination sanctions in two years: FA GBP 75,000 (June 2025) for homophobic chanting at Mason Mount (Sept 2024) and UEFA EUR 30,000 plus a suspended away-ticket ban (March 2026) for fans' Nazi salutes at Frankfurt; the club banned the three fans indefinitely, so low end of the band.",
+    "sources": [
+     "https://www.thepinknews.com/2025/06/20/tottenham-anti-gay-chants-mason-mount/",
+     "https://www.foxsports.com/articles/soccer/tottenham-bans-three-fans-for-nazi-salutes-in-germany-at-champions-league-game",
+     "https://www.jewishnews.co.uk/tottenham-ban-three-supporters-found-to-be-making-nazi-salutes-in-frankfurt/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "West Ham United",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2021,
+    "why": "Kretinsky (Sparta Prague owner) holds about 27% since 2021; stake not re-verified for 2026 (folded).",
+    "sources": [
+     "https://uk.sports.yahoo.com/news/west-ham-talks-sell-27-141310801.html"
+    ]
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 3,
+    "year": 2025,
+    "why": "FA fined the club GBP 120,000 with an action plan and warning (May 2025) for homophobic 'mass chanting' at Chelsea on 3 Feb 2025, which the commission said amounted to a criminal offence; single sanction but large-scale, so top of the single-case band.",
+    "sources": [
+     "https://www.thepinknews.com/2025/06/02/west-ham-chelsea-anti-gay-chants-fine-120k-fa",
+     "https://www.whufc.com/news/club-statement-3"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2023,
+    "why": "UEFA fined the club EUR 50,000 and banned away tickets for one European match (a second suspended) after fans threw objects that cut Fiorentina captain Biraghi's head at the 2023 Conference League final; the club promised police referral and indefinite bans. Single serious incident, 3.4 years old.",
+    "sources": [
+     "https://www.goal.com/en/news/west-ham-fans-handed-uefa-ban-after-incidents-at-europa-conference-league-final/blt079d92d4f398fca3",
+     "https://www.skysports.com/football/news/11685/12898618/europa-conference-league-final-west-ham-condemn-fan-behaviour-after-object-strikes-fiorentina-captain-cristiano-biragi"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Birmingham City",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 8,
+    "to": 8,
+    "year": 2023,
+    "why": "Controlled by Shelby Companies, a subsidiary of Knighthead Capital Management (investment fund).",
+    "sources": []
+   }
+  ],
+  "values_note": "The GBP 100,000 fine (Oct 2025) was for a players' mass confrontation with Ipswich, not fans; no line.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Burnley",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Leveraged buyout",
+    "from": 10,
+    "to": 10,
+    "year": 2020,
+    "why": "ALK's 2020 purchase was part-funded by an MSD loan secured on the club and repaid from club revenue; still ongoing (part repaid after relegation), so full weight.",
+    "sources": [
+     "https://www.fourfourtwo.com/news/burnley-would-face-significant-loan-repayment-if-relegated-from-premier-league-1651660615000"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Millwall",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 8,
+    "to": 10,
+    "year": 2026,
+    "why": "Repeated discrimination sanctions over years: FA fines for sectarian chants at Wigan (2023), homophobic chants at Chelsea's Chilwell (2025, GBP 15,000) and disability chant at Crystal Palace (March 2026, GBP 45,000, action plan to 2027), plus pending FA charges over disability and sexual-orientation chants v Charlton (Jan 2026); older 2019 racist-chant fine counts half. Fits the 'repeated sanctions over years' band; the club and supporters' groups act, so its bottom.",
+    "sources": [
+     "https://www.beinsports.com/en-au/football/carabao-cup/articles-video/millwall-fined-over-offensive-chanting-in-carabao-cup-tie-2026-03-10",
+     "https://www.thefa.com/news/2026/mar/09/millwall-fc-sanctioned-090326",
+     "https://www.aol.com/articles/millwall-charged-fa-failing-control-152806011.html",
+     "https://www.thefa.com/-/media/files/thefaportal/governance-docs/discipline-cases/2023/the-fa-v-millwall-fc---13-september-2023.ashx"
+    ]
+   }
+  ],
+  "values_note": "No recent organised-violence sanction found; hooligan reputation not scored as a line.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Queens Park Rangers",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Overspend",
+    "from": 2,
+    "to": 1,
+    "year": 2014,
+    "why": "2013-14 FFP breach settled in 2018 (GBP 42m); over 5 years old and not repeated: half (folded into Ownership).",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sheffield United",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Conduct",
+    "from": 5,
+    "to": 5,
+    "year": 2026,
+    "why": "Ongoing: High Court wound up COH Sports Bidco (19 Aug 2026) over an undisputed GBP 35m+ purchase debt to the former owner; Rosen and Eltoukhy still control the club via 1919 Partners; EFL and IFR reviewing, possible 12-point deduction (folded into Values).",
+    "sources": [
+     "https://www.insideworldfootball.com/2026/08/20/sheffield-united-could-face-12-point-penalty/",
+     "https://www.thestar.com.my/sport/football/2026/08/19/soccer-sheffield-united039s-ex-owners-winds-up-company-which-bought-club"
+    ]
+   }
+  ],
+  "values_note": "Several 2024-25 FA fines for players' mass confrontations (up to GBP 180,000) are team discipline, not fan lines.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Southampton",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 6,
+    "to": 6,
+    "year": 2022,
+    "why": "Sport Republic (investment vehicle financed by Dragan Solak) holds 80%; Southampton is its flagship (Goztepe secondary).",
+    "sources": []
+   },
+   {
+    "label": "Conduct",
+    "from": 3,
+    "to": 3,
+    "year": 2026,
+    "why": "Spygate (May 2026): play-off final expulsion and 4-point deduction; Kevin's deliberate double count (folded).",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Swansea City",
+  "verdict": "remove",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 0,
+    "year": 2024,
+    "why": "The line was for Levien/Kaplan (D.C. United flagship); they sold all their shares in November 2024 to Coleman, Cravatt, Morris and Cohen, so it is a previous owner's penalty. Coleman's reported minority investment in D.C. United (single 2023 Bloomberg report) is not a network.",
+    "sources": [
+     "https://www.swanseacity.com/news/swansea-city-afc-ownership-update",
+     "https://www.scfc2.co.uk/2024/11/08/jason-levien-and-steve-kaplan-in-process-of-selling-swansea-city/"
+    ]
+   }
+  ],
+  "values_note": "Line is folded into Ownership (-2.7); removing it means restoring that amount.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Watford",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 4,
+    "to": 4,
+    "year": 2026,
+    "why": "Pozzo family still owns Udinese (the flagship since 1986); the reported 2025 sale was never confirmed and July-Aug 2026 transfers still move players between the clubs (folded).",
+    "sources": [
+     "https://www.calcioefinanza.it/2025/05/25/udinese-ceduta-fondo-usa-si-chiude-era-pozzo/",
+     "https://cryptobriefing.com/watford-iker-bravo-udinese-multi-club-deal/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Wrexham",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 6,
+    "to": 4,
+    "year": 2025,
+    "why": "Apollo Sports Capital holds under 10% (Dec 2025), plus about 5% to a group led by ASC executives; Reynolds and McElhenney keep control. Not a 'major stake', so below the schedule's 6-12 band; 4 is the low end of Kevin's -4 to -12 PE range (remove it if a sub-15% stake should not count).",
+    "sources": [
+     "https://www.sportcal.com/news/wrexham-fc-nets-apollo-sports-capital-as-minority-investor/",
+     "https://www.si.com/soccer/who-owns-wrexham-club-ownership-structure-investors"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Leicester City",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Overspend",
+    "from": 5,
+    "to": 5,
+    "year": 2026,
+    "why": "PSR breach of GBP 20.8m, six-point deduction (Feb 2026), appeal failed; recent (folded).",
+    "sources": []
+   }
+  ],
+  "values_note": "King Power is flagship (OH Leuven secondary): no multi-club line. No fan sanctions found 2021-26.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Milton Keynes Dons",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Franchise",
+    "from": 6,
+    "to": 6,
+    "year": 2004,
+    "why": "Relocation is a lasting identity, not a faded incident; kept (folded into History).",
+    "sources": []
+   },
+   {
+    "label": "Overspend",
+    "from": 3,
+    "to": 3,
+    "year": 2025,
+    "why": "Owner-funded spending since the 2024 Kuwaiti takeover; ongoing (folded).",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Salford City",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Overspend",
+    "from": 4,
+    "to": 4,
+    "year": 2026,
+    "why": "Losses funded far beyond natural income; ongoing (folded).",
+    "sources": []
+   }
+  ],
+  "values_note": "Consello-led investor group not verified as a PE fund; no PE line.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Sheffield Wednesday",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 8,
+    "to": 0,
+    "year": 2026,
+    "why": "Buyer (May 2026) is Steel City Sports Fund LP, a holding vehicle for a handful of US individuals (David Storch majority; Bacich, Ross, Costin, Michael Storch), fronted as 'Arise Capital Partners'; no evidence it is an institutional PE or investment fund, so it reads as a US investor group, which REVIEW excludes. If Kevin counts the fund structure, 6 (band floor) fits better than 8.",
+    "sources": [
+     "https://thestar.co.uk/sport/football/sheffield-wednesday/sheffield-wednesday-investors-8514588",
+     "https://www.irishnews.com/sport/soccer/sheffield-wednesday-avoid-further-points-deduction-as-takeover-saga-ends-INICDBJNGNIQRC4DFFUZSQQWOA/"
+    ]
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2024,
+    "why": "FA fined the club GBP 12,500 with an action plan (June 2024) for fans' chanting with reference to ethnic origin, colour and race at Coventry (Jan 2024); single sanction.",
+    "sources": [
+     "https://www.thefa.com/-/media/files/thefaportal/governance-docs/discipline-cases/2024/the-fa-v-sheffield-wednesday-fc---28-june-2024.ashx",
+     "https://www.thefa.com/news/2024/jul/16/sheffield-wednesday-sanctioned-170724"
+    ]
+   }
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Walsall",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 4,
+    "to": 4,
+    "year": 2024,
+    "why": "Trivela Group also owns 80% of Silkeborg (Danish top flight) and is buying Drogheda (members' vote Nov 2026); kept, but note Walsall was Trivela's first club and its co-chairman sits there, so it may be the flagship (0) rather than a secondary (folded).",
+    "sources": [
+     "https://expressandstar.com/sport/2024/11/19/walsall-owners-trivela-set-to-purchase-majority-stake-in-danish-superliga-side",
+     "https://www.expressandstar.com/sport/what-walsall-hope-to-continue-getting-out-of-their-drogheda-partnership-5636488"
+    ]
+   }
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Wolverhampton Wanderers",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2023,
+    "why": "FA fined the club GBP 100,000 with an 11-point action plan (July 2023) for homophobic chanting v Chelsea (April 2023), the first such sanction; the commission called the club's response inadequate, after which it banned fans and two were convicted. Single sanction, within 5 years.",
+    "sources": [
+     "https://www.wolves.co.uk/news/club/20230714-wolves-receive-fa-fine-for-discriminatory-chants/",
+     "https://www.wolves.co.uk/news/club/20230818-wolves-reaffirm-zero-tolerance-towards-discrimination/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Luton Town",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2023,
+    "why": "FA fined the club GBP 120,000 with a two-year action plan (Nov 2023) for homophobic chanting at Brighton (Aug 2023); the club admitted it and promised bans. Single sanction.",
+    "sources": [
+     "https://www.thepinknews.com/2023/11/23/luton-town-fc-homophobic-chanting/",
+     "https://www.lutontown.co.uk/news/2023/november/fa-statement/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Hull City",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2026,
+    "why": "FA fined the club GBP 30,000 (Sept 2026) for homophobic chanting in the FA Cup v Chelsea (Feb 2026); the club condemned it and banned three supporters for at least three years. Single sanction, club acted firmly.",
+    "sources": [
+     "https://www.thestar.com.my/sport/football/2026/09/11/soccer-hull-fined-over-offensive-chanting",
+     "https://footballgroundguide.com/news/fa-hit-hull-city-with-fine-as-supporters-banned-for-discriminatory-chanting-during-chelsea-clash.html"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Cardiff City",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2026,
+    "why": "FA fined the club GBP 15,000 with a warning and an action plan to 2026-27 (April 2026) for homophobic chanting at Chelsea (EFL Cup, Dec 2025); the club admitted it but appealed the size of the fine. Single sanction.",
+    "sources": [
+     "https://www.thepinknews.com/2026/04/21/cardiff-city-fine-fa-chelsea-homophobic-chants/",
+     "https://www.thefa.com/-/media/files/thefaportal/governance-docs/discipline-cases/2025-26/the-fa-v-cardiff-city-fc.ashx"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Bristol City",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2025,
+    "why": "FA fined the club GBP 7,500 with an action plan (Aug 2025) for an 'overtly racist' chant by a small minority v Cardiff (Oct 2024); admitted. Single sanction.",
+    "sources": [
+     "https://www.thefa.com/news/2025/aug/26/bristol-city-sanctioned-260825",
+     "https://nation.cymru/sport/fa-charges-bristol-city-for-offensive-fan-chants-in-game-against-cardiff/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Norwich City",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2024,
+    "why": "FA fined the club GBP 10,000 with an action plan (Jan 2024) for disability-related chanting at a King's Lynn friendly (July 2023); admitted. Single sanction.",
+    "sources": [
+     "https://www.thefa.com/news/2024/jan/10/norwich-city-sanctioned-100124"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Lincoln City",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 4,
+    "year": 2026,
+    "why": "Two FA discrimination sanctions in a year: GBP 8,500 plus action plan (2025) for sectarian chants at Wrexham's James McClean, and GBP 16,000 with the plan extended to 2026-27 (Jan 2026) for 'Chelsea rent boy' chants (Sept 2025); admitted both. Low end of the band.",
+    "sources": [
+     "https://www.thefa.com/news/2026/jan/21/lincoln-city-sanctioned-210126",
+     "https://www.weareimps.com/news/chief-executive-update-after-imps-fined-football-association"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Preston North End",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 3,
+    "year": 2024,
+    "why": "FA sanction (2024) covering homophobic chanting at two separate matches (Huddersfield, Dec 2023; Chelsea FA Cup, Jan 2024); club admitted and says it received a heavy fine. One sanction for two cases, so top of the single-case band.",
+    "sources": [
+     "https://lep.co.uk/sport/football/preston-north-end/pne-has-until-wednesday-february-21-to-respond-to-the-charges-4520461",
+     "https://thefa.com/-/media/files/thefaportal/governance-docs/discipline-cases/2024/the-fa-v-preston-north-end-fc---24-may-2024.ashx"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Blackpool",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2023,
+    "why": "FA fine and action plan (July 2023) for religious/sectarian chanting at Wigan's James McClean (April 2023); club accepted the charge. Single sanction, 3.5 years old.",
+    "sources": [
+     "https://blackpoolfc.co.uk/news/2023/july/20/club-statement--fa-charge",
+     "https://www.wigantoday.net/sport/football/fa-charge-blackpool-after-incident-involving-wigan-athletic-star-james-mcclean-4106015"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Gillingham",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 3,
+    "year": 2023,
+    "why": "FA fined the club GBP 12,500 with an action plan (Sept 2023) for race-related abuse (v Colchester) and gender-related abuse (v Sutton, AFC Wimbledon) at three 2022-23 matches; the club also gave a lifetime ban after abuse of Newport's Omar Bogle (2023). One sanction for three incidents: top of the single-case band.",
+    "sources": [
+     "https://www.thefa.com/news/2023/sep/21/gillingham-fined-210923",
+     "https://www.gillinghamfootballclub.com/news/2023/september/football-association-decision"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Grimsby Town",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2024,
+    "why": "FA Regulatory Commission (Dec 2024) gave a suspended GBP 2,000 fine and an action plan for sectarian chanting by a small number of fans at a July 2024 friendly at South Shields. Single, minor sanction: band floor.",
+    "sources": [
+     "https://gtfc.co.uk/?p=72304"
+    ]
+   }
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Barnsley",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 3,
+    "year": 2022,
+    "why": "FA fined the club GBP 30,000 with an action plan (Dec 2022) for gendered abuse of a Bristol Rovers staff member (Aug 2022); earlier GBP 20,000 fine and action plan (Feb 2020) for sectarian chants at James McClean, with a safety officer's remark, counts half (over 5 years). Club condemned and investigated.",
+    "sources": [
+     "https://www.thefa.com/news/2022/dec/01/barnsley-fc-fined-011222",
+     "https://www.thefa.com/news/2020/feb/21/barnsley-action-plan-and-fined-210220"
+    ]
+   }
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "West Bromwich Albion",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2024,
+    "why": "FA fined the club GBP 30,000 and warned it (July 2024) after crowd trouble halted the Jan 2024 FA Cup derby v Wolves for over 30 minutes (seven arrests, one for an offensive weapon). Single serious incident.",
+    "sources": [
+     "https://www.expressandstar.com/sport/football/2024/07/23/west-brom-handed-fine-for-black-country-derby-trouble/",
+     "https://www.skysports.com/football/news/12040/13058604/west-brom-vs-wolves-fan-trouble-mars-fa-cup-tie-between-black-country-rivals-at-the-hawthorns"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ }
+]

@@ -1,0 +1,2154 @@
+[
+{
+"name": "Arsenal",
+"comp": "epl",
+"V": 4.2,
+"O": 5.2,
+"H": 9.5,
+"affinity": 61.9
+},
+{
+"name": "Aston Villa",
+"comp": "epl",
+"V": 4.7,
+"O": 4.8,
+"H": 9.1,
+"affinity": 59.3
+},
+{
+"name": "Bournemouth",
+"comp": "epl",
+"V": 5,
+"O": 5.2,
+"H": 4.3,
+"affinity": 50.8
+},
+{
+"name": "Brentford",
+"comp": "epl",
+"V": 6.7,
+"O": 7,
+"H": 5,
+"affinity": 62.8
+},
+{
+"name": "Brighton",
+"comp": "epl",
+"V": 8.0,
+"O": 7.3,
+"H": 5.4,
+"affinity": 62.8
+},
+{
+"name": "Chelsea",
+"comp": "epl",
+"V": 3.0,
+"O": 1.0,
+"H": 8.7,
+"affinity": 23.9
+},
+{
+"name": "Coventry City",
+"comp": "epl",
+"V": 6,
+"O": 7.3,
+"H": 6,
+"affinity": 62.6
+},
+{
+"name": "Crystal Palace",
+"comp": "epl",
+"V": 6,
+"O": 5,
+"H": 6.6,
+"affinity": 66.3
+},
+{
+"name": "Everton",
+"comp": "epl",
+"V": 6.8,
+"O": 5.2,
+"H": 9.3,
+"affinity": 64.0
+},
+{
+"name": "Fulham",
+"comp": "epl",
+"V": 5.8,
+"O": 6,
+"H": 5.3,
+"affinity": 55.9
+},
+{
+"name": "Hull City",
+"comp": "epl",
+"V": 6,
+"O": 4.7,
+"H": 4.2,
+"affinity": 46.2
+},
+{
+"name": "Ipswich Town",
+"comp": "epl",
+"V": 6,
+"O": 5,
+"H": 7.3,
+"affinity": 50.4
+},
+{
+"name": "Leeds United",
+"comp": "epl",
+"V": 6,
+"O": 5.2,
+"H": 8.0,
+"affinity": 66.1
+},
+{
+"name": "Liverpool",
+"comp": "epl",
+"V": 8.2,
+"O": 6,
+"H": 10,
+"affinity": 79.0
+},
+{
+"name": "Manchester City",
+"comp": "epl",
+"V": 3.0,
+"O": 0.0,
+"H": 7.6,
+"affinity": 0.0
+},
+{
+"name": "Manchester United",
+"comp": "epl",
+"V": 3.2,
+"O": 2,
+"H": 10,
+"affinity": 33.3
+},
+{
+"name": "Newcastle United",
+"comp": "epl",
+"V": 4,
+"O": 0.0,
+"H": 7.9,
+"affinity": 14.7
+},
+{
+"name": "Nottingham Forest",
+"comp": "epl",
+"V": 4.7,
+"O": 3.8,
+"H": 8.3,
+"affinity": 47.6
+},
+{
+"name": "Sunderland",
+"comp": "epl",
+"V": 5.8,
+"O": 6.2,
+"H": 8,
+"affinity": 65.5
+},
+{
+"name": "Tottenham Hotspur",
+"comp": "epl",
+"V": 4,
+"O": 5,
+"H": 7.8,
+"affinity": 44.5
+},
+{
+"name": "AEK Athens",
+"comp": "ucl",
+"V": 6,
+"O": 6.2,
+"H": 7.7,
+"affinity": 63.1
+},
+{
+"name": "Atlético Madrid",
+"comp": "ucl",
+"V": 3.7,
+"O": 3.8,
+"H": 9.1,
+"affinity": 17.3
+},
+{
+"name": "Barcelona",
+"comp": "ucl",
+"V": 7.8,
+"O": 6.2,
+"H": 10,
+"affinity": 54.5
+},
+{
+"name": "Bayern Munich",
+"comp": "ucl",
+"V": 6,
+"O": 8.8,
+"H": 10,
+"affinity": 77.8
+},
+{
+"name": "Bodø/Glimt",
+"comp": "ucl",
+"V": 9,
+"O": 9.2,
+"H": 5.7,
+"affinity": 83.7
+},
+{
+"name": "Borussia Dortmund",
+"comp": "ucl",
+"V": 7,
+"O": 8,
+"H": 9.7,
+"affinity": 81.3
+},
+{
+"name": "Club Brugge",
+"comp": "ucl",
+"V": 5,
+"O": 6,
+"H": 7.3,
+"affinity": 59.8
+},
+{
+"name": "Como",
+"comp": "ucl",
+"V": 4.8,
+"O": 4.2,
+"H": 4.2,
+"affinity": 39.7
+},
+{
+"name": "Fenerbahçe",
+"comp": "ucl",
+"V": 2,
+"O": 4.8,
+"H": 8.0,
+"affinity": 37.8
+},
+{
+"name": "Feyenoord",
+"comp": "ucl",
+"V": 5,
+"O": 7,
+"H": 9.3,
+"affinity": 50.3
+},
+{
+"name": "Galatasaray",
+"comp": "ucl",
+"V": 4,
+"O": 5.0,
+"H": 8.6,
+"affinity": 49.2
+},
+{
+"name": "Inter Milan",
+"comp": "ucl",
+"V": 4,
+"O": 4,
+"H": 10,
+"affinity": 39.9
+},
+{
+"name": "LASK",
+"comp": "ucl",
+"V": 4,
+"O": 6,
+"H": 5.2,
+"affinity": 56.8
+},
+{
+"name": "Lens",
+"comp": "ucl",
+"V": 8.2,
+"O": 6,
+"H": 7,
+"affinity": 74.0
+},
+{
+"name": "Lille",
+"comp": "ucl",
+"V": 7,
+"O": 4,
+"H": 7.0,
+"affinity": 48.7
+},
+{
+"name": "Napoli",
+"comp": "ucl",
+"V": 6.5,
+"O": 4.2,
+"H": 8.4,
+"affinity": 65.1
+},
+{
+"name": "PSV Eindhoven",
+"comp": "ucl",
+"V": 7.2,
+"O": 7,
+"H": 8.3,
+"affinity": 71.1
+},
+{
+"name": "Paris Saint-Germain",
+"comp": "ucl",
+"V": 0.0,
+"O": 0.0,
+"H": 7.8,
+"affinity": 0.0
+},
+{
+"name": "Porto",
+"comp": "ucl",
+"V": 6,
+"O": 7.2,
+"H": 9.4,
+"affinity": 67.5
+},
+{
+"name": "RB Leipzig",
+"comp": "ucl",
+"V": 4,
+"O": 1,
+"H": 2.2,
+"affinity": 31.2
+},
+{
+"name": "Real Betis",
+"comp": "ucl",
+"V": 8,
+"O": 5,
+"H": 7.2,
+"affinity": 66.9
+},
+{
+"name": "Real Madrid",
+"comp": "ucl",
+"V": 4,
+"O": 5.8,
+"H": 10,
+"affinity": 40.0
+},
+{
+"name": "Roma",
+"comp": "ucl",
+"V": 5,
+"O": 4,
+"H": 8.5,
+"affinity": 54.9
+},
+{
+"name": "Sabah",
+"comp": "ucl",
+"V": 4,
+"O": 3,
+"H": 1.4,
+"affinity": 34.9
+},
+{
+"name": "Shakhtar Donetsk",
+"comp": "ucl",
+"V": 6.2,
+"O": 4.2,
+"H": 7.3,
+"affinity": 60.4
+},
+{
+"name": "Slavia Prague",
+"comp": "ucl",
+"V": 5,
+"O": 5,
+"H": 7.1,
+"affinity": 58.0
+},
+{
+"name": "Slovan Bratislava",
+"comp": "ucl",
+"V": 4,
+"O": 5,
+"H": 6.3,
+"affinity": 18.3
+},
+{
+"name": "Sporting CP",
+"comp": "ucl",
+"V": 6.2,
+"O": 8.2,
+"H": 8.0,
+"affinity": 68.3
+},
+{
+"name": "VfB Stuttgart",
+"comp": "ucl",
+"V": 6,
+"O": 7.8,
+"H": 8.1,
+"affinity": 74.1
+},
+{
+"name": "Viking",
+"comp": "ucl",
+"V": 8,
+"O": 8,
+"H": 6.2,
+"affinity": 76.1
+},
+{
+"name": "Villarreal",
+"comp": "ucl",
+"V": 5,
+"O": 7.2,
+"H": 5.4,
+"affinity": 59.1
+},
+{
+"name": "AFC Wimbledon",
+"comp": "cup",
+"V": 9,
+"O": 8.7,
+"H": 7.7,
+"affinity": 78.6
+},
+{
+"name": "Accrington Stanley",
+"comp": "cup",
+"V": 7,
+"O": 5.8,
+"H": 5.7,
+"affinity": 54.3
+},
+{
+"name": "Barnet",
+"comp": "cup",
+"V": 6.2,
+"O": 5,
+"H": 5,
+"affinity": 54.8
+},
+{
+"name": "Barnsley",
+"comp": "cup",
+"V": 6,
+"O": 4.8,
+"H": 6.8,
+"affinity": 53.9
+},
+{
+"name": "Birmingham City",
+"comp": "cup",
+"V": 3.8,
+"O": 5.2,
+"H": 6,
+"affinity": 46.3
+},
+{
+"name": "Blackburn Rovers",
+"comp": "cup",
+"V": 6,
+"O": 1.8,
+"H": 7.5,
+"affinity": 56.2
+},
+{
+"name": "Blackpool",
+"comp": "cup",
+"V": 7,
+"O": 5.7,
+"H": 8.2,
+"affinity": 61.6
+},
+{
+"name": "Bolton Wanderers",
+"comp": "cup",
+"V": 6.2,
+"O": 5.3,
+"H": 6.8,
+"affinity": 62.2
+},
+{
+"name": "Bradford City",
+"comp": "cup",
+"V": 8.2,
+"O": 6,
+"H": 7.2,
+"affinity": 73.8
+},
+{
+"name": "Bristol City",
+"comp": "cup",
+"V": 6,
+"O": 6.8,
+"H": 4.8,
+"affinity": 56.3
+},
+{
+"name": "Bristol Rovers",
+"comp": "cup",
+"V": 6,
+"O": 3.8,
+"H": 6,
+"affinity": 57.3
+},
+{
+"name": "Bromley",
+"comp": "cup",
+"V": 6,
+"O": 6,
+"H": 4,
+"affinity": 56.1
+},
+{
+"name": "Burnley",
+"comp": "cup",
+"V": 6,
+"O": 2.8,
+"H": 7.3,
+"affinity": 38.7
+},
+{
+"name": "Burton Albion",
+"comp": "cup",
+"V": 4.9,
+"O": 3.7,
+"H": 4.2,
+"affinity": 41.0
+},
+{
+"name": "Cambridge United",
+"comp": "cup",
+"V": 7,
+"O": 6.2,
+"H": 5,
+"affinity": 61.1
+},
+{
+"name": "Cardiff City",
+"comp": "cup",
+"V": 5,
+"O": 2,
+"H": 6.2,
+"affinity": 52.5
+},
+{
+"name": "Charlton Athletic",
+"comp": "cup",
+"V": 7.7,
+"O": 3.8,
+"H": 6,
+"affinity": 65.0
+},
+{
+"name": "Cheltenham Town",
+"comp": "cup",
+"V": 7,
+"O": 5,
+"H": 4,
+"affinity": 53.2
+},
+{
+"name": "Chesterfield",
+"comp": "cup",
+"V": 7.2,
+"O": 7,
+"H": 6.1,
+"affinity": 66.7
+},
+{
+"name": "Colchester United",
+"comp": "cup",
+"V": 6,
+"O": 4.8,
+"H": 6,
+"affinity": 56.8
+},
+{
+"name": "Crawley Town",
+"comp": "cup",
+"V": 5,
+"O": 4,
+"H": 2.2,
+"affinity": 41.8
+},
+{
+"name": "Crewe Alexandra",
+"comp": "cup",
+"V": 5,
+"O": 6,
+"H": 6,
+"affinity": 55.8
+},
+{
+"name": "Derby County",
+"comp": "cup",
+"V": 5.8,
+"O": 7.7,
+"H": 7.3,
+"affinity": 67.0
+},
+{
+"name": "Doncaster Rovers",
+"comp": "cup",
+"V": 7,
+"O": 6.2,
+"H": 5,
+"affinity": 61.9
+},
+{
+"name": "Exeter City",
+"comp": "cup",
+"V": 9,
+"O": 8.9,
+"H": 5.8,
+"affinity": 71.0
+},
+{
+"name": "Fleetwood Town",
+"comp": "cup",
+"V": 5,
+"O": 3,
+"H": 1.8,
+"affinity": 36.0
+},
+{
+"name": "Gillingham",
+"comp": "cup",
+"V": 6,
+"O": 5,
+"H": 5,
+"affinity": 50.3
+},
+{
+"name": "Grimsby Town",
+"comp": "cup",
+"V": 6.9,
+"O": 7,
+"H": 7,
+"affinity": 65.1
+},
+{
+"name": "Huddersfield Town",
+"comp": "cup",
+"V": 6,
+"O": 5,
+"H": 8.1,
+"affinity": 63.7
+},
+{
+"name": "Leicester City",
+"comp": "cup",
+"V": 4.7,
+"O": 4.0,
+"H": 8.1,
+"affinity": 47.1
+},
+{
+"name": "Leyton Orient",
+"comp": "cup",
+"V": 7.2,
+"O": 5,
+"H": 6,
+"affinity": 64.8
+},
+{
+"name": "Lincoln City",
+"comp": "cup",
+"V": 7.2,
+"O": 7,
+"H": 4,
+"affinity": 56.3
+},
+{
+"name": "Luton Town",
+"comp": "cup",
+"V": 8,
+"O": 8,
+"H": 6.3,
+"affinity": 65.2
+},
+{
+"name": "Mansfield Town",
+"comp": "cup",
+"V": 6,
+"O": 7.2,
+"H": 5,
+"affinity": 59.4
+},
+{
+"name": "Middlesbrough",
+"comp": "cup",
+"V": 5,
+"O": 8.3,
+"H": 6.2,
+"affinity": 59.5
+},
+{
+"name": "Millwall",
+"comp": "cup",
+"V": 4,
+"O": 6.2,
+"H": 5.0,
+"affinity": 40.4
+},
+{
+"name": "Milton Keynes Dons",
+"comp": "cup",
+"V": 4.0,
+"O": 4.0,
+"H": 2.2,
+"affinity": 21.9
+},
+{
+"name": "Newport County",
+"comp": "cup",
+"V": 7.2,
+"O": 6.8,
+"H": 6,
+"affinity": 60.5
+},
+{
+"name": "Northampton Town",
+"comp": "cup",
+"V": 6,
+"O": 5,
+"H": 5.2,
+"affinity": 52.4
+},
+{
+"name": "Norwich City",
+"comp": "cup",
+"V": 7,
+"O": 6,
+"H": 5.4,
+"affinity": 59.9
+},
+{
+"name": "Notts County",
+"comp": "cup",
+"V": 6,
+"O": 7.2,
+"H": 7.7,
+"affinity": 65.4
+},
+{
+"name": "Oldham Athletic",
+"comp": "cup",
+"V": 4.3,
+"O": 7.2,
+"H": 6.3,
+"affinity": 57.2
+},
+{
+"name": "Oxford United",
+"comp": "cup",
+"V": 6,
+"O": 4.8,
+"H": 6.2,
+"affinity": 54.2
+},
+{
+"name": "Peterborough United",
+"comp": "cup",
+"V": 6,
+"O": 5,
+"H": 5,
+"affinity": 53.7
+},
+{
+"name": "Plymouth Argyle",
+"comp": "cup",
+"V": 6,
+"O": 7.3,
+"H": 6,
+"affinity": 66.3
+},
+{
+"name": "Port Vale",
+"comp": "cup",
+"V": 7,
+"O": 7.8,
+"H": 5.2,
+"affinity": 63.7
+},
+{
+"name": "Portsmouth",
+"comp": "cup",
+"V": 7,
+"O": 7.2,
+"H": 8,
+"affinity": 74.9
+},
+{
+"name": "Preston North End",
+"comp": "cup",
+"V": 4,
+"O": 6,
+"H": 8,
+"affinity": 45.5
+},
+{
+"name": "Queens Park Rangers",
+"comp": "cup",
+"V": 5,
+"O": 4.0,
+"H": 5,
+"affinity": 51.5
+},
+{
+"name": "Reading",
+"comp": "cup",
+"V": 4.8,
+"O": 5,
+"H": 5.3,
+"affinity": 50.2
+},
+{
+"name": "Rochdale",
+"comp": "cup",
+"V": 6,
+"O": 7,
+"H": 4.8,
+"affinity": 59.5
+},
+{
+"name": "Rotherham United",
+"comp": "cup",
+"V": 7.2,
+"O": 7.2,
+"H": 4,
+"affinity": 57.7
+},
+{
+"name": "Salford City",
+"comp": "cup",
+"V": 4.8,
+"O": 4.0,
+"H": 2,
+"affinity": 30.6
+},
+{
+"name": "Sheffield United",
+"comp": "cup",
+"V": 5.0,
+"O": 1,
+"H": 7.3,
+"affinity": 51.8
+},
+{
+"name": "Sheffield Wednesday",
+"comp": "cup",
+"V": 5,
+"O": 4,
+"H": 8.3,
+"affinity": 59.9
+},
+{
+"name": "Shrewsbury Town",
+"comp": "cup",
+"V": 6,
+"O": 5,
+"H": 5,
+"affinity": 53.7
+},
+{
+"name": "Southampton",
+"comp": "cup",
+"V": 5.0,
+"O": 3.8,
+"H": 6.8,
+"affinity": 45.2
+},
+{
+"name": "Stevenage",
+"comp": "cup",
+"V": 6,
+"O": 6.3,
+"H": 3,
+"affinity": 49.3
+},
+{
+"name": "Stockport County",
+"comp": "cup",
+"V": 6.2,
+"O": 7,
+"H": 5,
+"affinity": 63.6
+},
+{
+"name": "Stoke City",
+"comp": "cup",
+"V": 3,
+"O": 6,
+"H": 6.6,
+"affinity": 53.1
+},
+{
+"name": "Swansea City",
+"comp": "cup",
+"V": 8,
+"O": 6,
+"H": 6.1,
+"affinity": 64.7
+},
+{
+"name": "Swindon Town",
+"comp": "cup",
+"V": 7.2,
+"O": 6.2,
+"H": 6.2,
+"affinity": 64.2
+},
+{
+"name": "Tranmere Rovers",
+"comp": "cup",
+"V": 6,
+"O": 4.8,
+"H": 6,
+"affinity": 54.8
+},
+{
+"name": "Walsall",
+"comp": "cup",
+"V": 6,
+"O": 5.2,
+"H": 5,
+"affinity": 49.4
+},
+{
+"name": "Watford",
+"comp": "cup",
+"V": 6.0,
+"O": 3.0,
+"H": 5.4,
+"affinity": 44.1
+},
+{
+"name": "West Bromwich Albion",
+"comp": "cup",
+"V": 6,
+"O": 6,
+"H": 7.4,
+"affinity": 59.3
+},
+{
+"name": "West Ham United",
+"comp": "cup",
+"V": 4.0,
+"O": 2.0,
+"H": 7.5,
+"affinity": 31.2
+},
+{
+"name": "Wigan Athletic",
+"comp": "cup",
+"V": 6,
+"O": 7,
+"H": 6.4,
+"affinity": 55.4
+},
+{
+"name": "Wolverhampton Wanderers",
+"comp": "cup",
+"V": 4,
+"O": 2,
+"H": 8.2,
+"affinity": 49.7
+},
+{
+"name": "Wrexham",
+"comp": "cup",
+"V": 7,
+"O": 6,
+"H": 6.2,
+"affinity": 64.0
+},
+{
+"name": "Wycombe Wanderers",
+"comp": "cup",
+"V": 6,
+"O": 6,
+"H": 5,
+"affinity": 55.3
+},
+{
+"name": "York City",
+"comp": "cup",
+"V": 7.2,
+"O": 7.2,
+"H": 5,
+"affinity": 61.9
+},
+{
+"name": "Atlanta United",
+"comp": "mls",
+"V": 6,
+"O": 6,
+"H": 3.1,
+"affinity": 51.5
+},
+{
+"name": "Austin FC",
+"comp": "mls",
+"V": 6,
+"O": 5,
+"H": 2,
+"affinity": 50.9
+},
+{
+"name": "CF Montréal",
+"comp": "mls",
+"V": 6,
+"O": 4.8,
+"H": 5.7,
+"affinity": 40.5
+},
+{
+"name": "Charlotte FC",
+"comp": "mls",
+"V": 6,
+"O": 4.8,
+"H": 1,
+"affinity": 47.0
+},
+{
+"name": "Chicago Fire FC",
+"comp": "mls",
+"V": 6,
+"O": 6.2,
+"H": 6.3,
+"affinity": 57.0
+},
+{
+"name": "Colorado Rapids",
+"comp": "mls",
+"V": 6,
+"O": 4.0,
+"H": 4.9,
+"affinity": 42.3
+},
+{
+"name": "Columbus Crew",
+"comp": "mls",
+"V": 6,
+"O": 7.2,
+"H": 7.4,
+"affinity": 68.2
+},
+{
+"name": "D.C. United",
+"comp": "mls",
+"V": 6,
+"O": 4.8,
+"H": 8,
+"affinity": 54.5
+},
+{
+"name": "FC Cincinnati",
+"comp": "mls",
+"V": 6,
+"O": 7.1,
+"H": 4.0,
+"affinity": 60.7
+},
+{
+"name": "FC Dallas",
+"comp": "mls",
+"V": 7.3,
+"O": 6.2,
+"H": 5.8,
+"affinity": 58.4
+},
+{
+"name": "Houston Dynamo FC",
+"comp": "mls",
+"V": 6,
+"O": 5,
+"H": 5.4,
+"affinity": 50.8
+},
+{
+"name": "Inter Miami CF",
+"comp": "mls",
+"V": 3,
+"O": 4.0,
+"H": 3.3,
+"affinity": 23.3
+},
+{
+"name": "LA Galaxy",
+"comp": "mls",
+"V": 5,
+"O": 5,
+"H": 8.3,
+"affinity": 48.4
+},
+{
+"name": "Los Angeles Football Club",
+"comp": "mls",
+"V": 6,
+"O": 5,
+"H": 3.3,
+"affinity": 53.3
+},
+{
+"name": "Minnesota United FC",
+"comp": "mls",
+"V": 6,
+"O": 6,
+"H": 4.8,
+"affinity": 60.6
+},
+{
+"name": "Nashville SC",
+"comp": "mls",
+"V": 5,
+"O": 6,
+"H": 2.3,
+"affinity": 57.0
+},
+{
+"name": "New England Revolution",
+"comp": "mls",
+"V": 6,
+"O": 4.2,
+"H": 5.1,
+"affinity": 53.0
+},
+{
+"name": "New York City Football Club",
+"comp": "mls",
+"V": 4.0,
+"O": 1.0,
+"H": 3,
+"affinity": 14.6
+},
+{
+"name": "Orlando City",
+"comp": "mls",
+"V": 6,
+"O": 6,
+"H": 4.1,
+"affinity": 55.6
+},
+{
+"name": "Philadelphia Union",
+"comp": "mls",
+"V": 7.2,
+"O": 6,
+"H": 5.0,
+"affinity": 63.5
+},
+{
+"name": "Portland Timbers",
+"comp": "mls",
+"V": 8,
+"O": 5.8,
+"H": 7.5,
+"affinity": 77.3
+},
+{
+"name": "Real Salt Lake",
+"comp": "mls",
+"V": 6,
+"O": 7.1,
+"H": 4.9,
+"affinity": 58.3
+},
+{
+"name": "Red Bull New York",
+"comp": "mls",
+"V": 5.0,
+"O": 2.0,
+"H": 5,
+"affinity": 43.6
+},
+{
+"name": "San Diego FC",
+"comp": "mls",
+"V": 6.1,
+"O": 5.0,
+"H": 1,
+"affinity": 41.1
+},
+{
+"name": "San Jose Earthquakes",
+"comp": "mls",
+"V": 6,
+"O": 3,
+"H": 6.1,
+"affinity": 49.1
+},
+{
+"name": "Seattle Sounders FC",
+"comp": "mls",
+"V": 7.8,
+"O": 5.2,
+"H": 7.3,
+"affinity": 77.0
+},
+{
+"name": "Sporting Kansas City",
+"comp": "mls",
+"V": 6,
+"O": 6,
+"H": 6.3,
+"affinity": 56.2
+},
+{
+"name": "St. Louis CITY SC",
+"comp": "mls",
+"V": 5,
+"O": 7,
+"H": 2.8,
+"affinity": 52.3
+},
+{
+"name": "Toronto FC",
+"comp": "mls",
+"V": 6,
+"O": 4,
+"H": 6.3,
+"affinity": 53.0
+},
+{
+"name": "Vancouver Whitecaps FC",
+"comp": "mls",
+"V": 6,
+"O": 3.8,
+"H": 7.1,
+"affinity": 64.9
+},
+{
+"name": "1. FC Köln",
+"comp": "bl",
+"V": 7.8,
+"O": 8.8,
+"H": 7.9,
+"affinity": 70.0
+},
+{
+"name": "Bayer Leverkusen",
+"comp": "bl",
+"V": 6,
+"O": 4.3,
+"H": 6.7,
+"affinity": 51.4
+},
+{
+"name": "Borussia Mönchengladbach",
+"comp": "bl",
+"V": 7,
+"O": 9.2,
+"H": 8.1,
+"affinity": 70.4
+},
+{
+"name": "Eintracht Frankfurt",
+"comp": "bl",
+"V": 7.2,
+"O": 8,
+"H": 7.9,
+"affinity": 52.4
+},
+{
+"name": "FC Augsburg",
+"comp": "bl",
+"V": 6,
+"O": 4.8,
+"H": 3.9,
+"affinity": 48.1
+},
+{
+"name": "Hamburger SV",
+"comp": "bl",
+"V": 7.1,
+"O": 7,
+"H": 8.4,
+"affinity": 70.4
+},
+{
+"name": "Mainz 05",
+"comp": "bl",
+"V": 8.2,
+"O": 8.3,
+"H": 4.3,
+"affinity": 68.5
+},
+{
+"name": "SC Freiburg",
+"comp": "bl",
+"V": 9,
+"O": 10.0,
+"H": 5.2,
+"affinity": 77.2
+},
+{
+"name": "SC Paderborn",
+"comp": "bl",
+"V": 6,
+"O": 6.8,
+"H": 3,
+"affinity": 53.4
+},
+{
+"name": "SV Elversberg",
+"comp": "bl",
+"V": 6,
+"O": 4.8,
+"H": 2,
+"affinity": 44.1
+},
+{
+"name": "Schalke 04",
+"comp": "bl",
+"V": 6.2,
+"O": 7.8,
+"H": 9.1,
+"affinity": 70.0
+},
+{
+"name": "TSG Hoffenheim",
+"comp": "bl",
+"V": 4.8,
+"O": 3,
+"H": 2.2,
+"affinity": 43.4
+},
+{
+"name": "Union Berlin",
+"comp": "bl",
+"V": 8.9,
+"O": 10.0,
+"H": 6.8,
+"affinity": 80.2
+},
+{
+"name": "Werder Bremen",
+"comp": "bl",
+"V": 8.3,
+"O": 8,
+"H": 7.9,
+"affinity": 71.5
+},
+{
+"name": "Angel City FC",
+"comp": "nwsl",
+"V": 6.8,
+"O": 5,
+"H": 2,
+"affinity": 51.6
+},
+{
+"name": "Bay FC",
+"comp": "nwsl",
+"V": 6.2,
+"O": 4,
+"H": 1.8,
+"affinity": 40.9
+},
+{
+"name": "Boston Legacy",
+"comp": "nwsl",
+"V": 5,
+"O": 5,
+"H": 1.7,
+"affinity": 39.1
+},
+{
+"name": "Chicago Stars",
+"comp": "nwsl",
+"V": 4.2,
+"O": 4.9,
+"H": 5.8,
+"affinity": 40.0
+},
+{
+"name": "Denver Summit",
+"comp": "nwsl",
+"V": 6,
+"O": 6,
+"H": 1.0,
+"affinity": 48.7
+},
+{
+"name": "Gotham FC",
+"comp": "nwsl",
+"V": 6,
+"O": 6,
+"H": 8.3,
+"affinity": 65.7
+},
+{
+"name": "Houston Dash",
+"comp": "nwsl",
+"V": 5,
+"O": 5,
+"H": 3.8,
+"affinity": 44.2
+},
+{
+"name": "Kansas City Current",
+"comp": "nwsl",
+"V": 8,
+"O": 8,
+"H": 4.5,
+"affinity": 74.3
+},
+{
+"name": "North Carolina Courage",
+"comp": "nwsl",
+"V": 5,
+"O": 4,
+"H": 6.4,
+"affinity": 45.2
+},
+{
+"name": "Orlando Pride",
+"comp": "nwsl",
+"V": 6,
+"O": 5,
+"H": 4.3,
+"affinity": 54.3
+},
+{
+"name": "Portland Thorns",
+"comp": "nwsl",
+"V": 7.8,
+"O": 6,
+"H": 9.6,
+"affinity": 86.8
+},
+{
+"name": "Racing Louisville",
+"comp": "nwsl",
+"V": 5,
+"O": 3.8,
+"H": 2,
+"affinity": 47.4
+},
+{
+"name": "San Diego Wave",
+"comp": "nwsl",
+"V": 5,
+"O": 5,
+"H": 2.3,
+"affinity": 50.2
+},
+{
+"name": "Seattle Reign",
+"comp": "nwsl",
+"V": 6,
+"O": 5,
+"H": 7.2,
+"affinity": 54.1
+},
+{
+"name": "Utah Royals",
+"comp": "nwsl",
+"V": 6,
+"O": 6.2,
+"H": 2,
+"affinity": 49.6
+},
+{
+"name": "Washington Spirit",
+"comp": "nwsl",
+"V": 5,
+"O": 5,
+"H": 7.5,
+"affinity": 66.8
+},
+{
+"name": "Alavés",
+"comp": "esp",
+"V": 5.8,
+"O": 6.2,
+"H": 5.3,
+"affinity": 55.7
+},
+{
+"name": "Athletic Club",
+"comp": "esp",
+"V": 9,
+"O": 10.0,
+"H": 10,
+"affinity": 92.5
+},
+{
+"name": "Celta Vigo",
+"comp": "esp",
+"V": 8.2,
+"O": 7,
+"H": 6.9,
+"affinity": 74.6
+},
+{
+"name": "Deportivo La Coruña",
+"comp": "esp",
+"V": 7.7,
+"O": 6,
+"H": 8,
+"affinity": 61.6
+},
+{
+"name": "Elche",
+"comp": "esp",
+"V": 3.2,
+"O": 4,
+"H": 5,
+"affinity": 44.3
+},
+{
+"name": "Espanyol",
+"comp": "esp",
+"V": 5,
+"O": 4.0,
+"H": 6.3,
+"affinity": 46.5
+},
+{
+"name": "Getafe",
+"comp": "esp",
+"V": 4.8,
+"O": 5.2,
+"H": 3.3,
+"affinity": 39.8
+},
+{
+"name": "Levante",
+"comp": "esp",
+"V": 7.2,
+"O": 7,
+"H": 5,
+"affinity": 58.1
+},
+{
+"name": "Málaga",
+"comp": "esp",
+"V": 6.7,
+"O": 3,
+"H": 6,
+"affinity": 56.1
+},
+{
+"name": "Osasuna",
+"comp": "esp",
+"V": 7.7,
+"O": 9.8,
+"H": 6.2,
+"affinity": 69.8
+},
+{
+"name": "Racing Santander",
+"comp": "esp",
+"V": 7,
+"O": 6.2,
+"H": 6,
+"affinity": 65.9
+},
+{
+"name": "Rayo Vallecano",
+"comp": "esp",
+"V": 7.8,
+"O": 0.8,
+"H": 6,
+"affinity": 64.5
+},
+{
+"name": "Real Sociedad",
+"comp": "esp",
+"V": 8.3,
+"O": 7.3,
+"H": 8.3,
+"affinity": 78.3
+},
+{
+"name": "Sevilla",
+"comp": "esp",
+"V": 4,
+"O": 3,
+"H": 8.4,
+"affinity": 41.0
+},
+{
+"name": "Valencia",
+"comp": "esp",
+"V": 3,
+"O": 1.8,
+"H": 9.4,
+"affinity": 49.6
+},
+{
+"name": "AC Milan",
+"comp": "ita",
+"V": 4,
+"O": 3.8,
+"H": 10,
+"affinity": 38.5
+},
+{
+"name": "Atalanta",
+"comp": "ita",
+"V": 7,
+"O": 6.3,
+"H": 7.1,
+"affinity": 57.2
+},
+{
+"name": "Bologna",
+"comp": "ita",
+"V": 6.8,
+"O": 6.2,
+"H": 8.0,
+"affinity": 65.7
+},
+{
+"name": "Cagliari",
+"comp": "ita",
+"V": 7,
+"O": 5.8,
+"H": 7.2,
+"affinity": 56.8
+},
+{
+"name": "Fiorentina",
+"comp": "ita",
+"V": 7,
+"O": 6,
+"H": 8.2,
+"affinity": 63.7
+},
+{
+"name": "Frosinone",
+"comp": "ita",
+"V": 6,
+"O": 6.3,
+"H": 2.3,
+"affinity": 49.4
+},
+{
+"name": "Genoa",
+"comp": "ita",
+"V": 4.8,
+"O": 5.2,
+"H": 8.8,
+"affinity": 55.2
+},
+{
+"name": "Juventus",
+"comp": "ita",
+"V": 5,
+"O": 5.0,
+"H": 10,
+"affinity": 36.7
+},
+{
+"name": "Lazio",
+"comp": "ita",
+"V": 2,
+"O": 1.8,
+"H": 8.0,
+"affinity": 0.0
+},
+{
+"name": "Lecce",
+"comp": "ita",
+"V": 7,
+"O": 7,
+"H": 4,
+"affinity": 56.6
+},
+{
+"name": "Monza",
+"comp": "ita",
+"V": 3.8,
+"O": 4,
+"H": 3,
+"affinity": 28.9
+},
+{
+"name": "Parma",
+"comp": "ita",
+"V": 6.2,
+"O": 6,
+"H": 7.2,
+"affinity": 58.5
+},
+{
+"name": "Sassuolo",
+"comp": "ita",
+"V": 6,
+"O": 6,
+"H": 2.8,
+"affinity": 49.2
+},
+{
+"name": "Torino",
+"comp": "ita",
+"V": 6,
+"O": 3,
+"H": 9,
+"affinity": 59.4
+},
+{
+"name": "Udinese",
+"comp": "ita",
+"V": 7,
+"O": 6,
+"H": 6,
+"affinity": 55.5
+},
+{
+"name": "Venezia",
+"comp": "ita",
+"V": 7,
+"O": 5,
+"H": 5.8,
+"affinity": 57.2
+},
+{
+"name": "Angers",
+"comp": "fra",
+"V": 4.7,
+"O": 2.8,
+"H": 4,
+"affinity": 41.3
+},
+{
+"name": "Auxerre",
+"comp": "fra",
+"V": 6.3,
+"O": 5,
+"H": 6.8,
+"affinity": 57.8
+},
+{
+"name": "Brest",
+"comp": "fra",
+"V": 8.7,
+"O": 7.1,
+"H": 4.3,
+"affinity": 69.7
+},
+{
+"name": "Le Havre",
+"comp": "fra",
+"V": 5,
+"O": 4.0,
+"H": 6.2,
+"affinity": 45.5
+},
+{
+"name": "Le Mans",
+"comp": "fra",
+"V": 6,
+"O": 4.0,
+"H": 3.8,
+"affinity": 43.6
+},
+{
+"name": "Lorient",
+"comp": "fra",
+"V": 7,
+"O": 5.0,
+"H": 4.2,
+"affinity": 46.2
+},
+{
+"name": "Lyon",
+"comp": "fra",
+"V": 5,
+"O": 4.0,
+"H": 7.9,
+"affinity": 49.6
+},
+{
+"name": "Marseille",
+"comp": "fra",
+"V": 3,
+"O": 3.8,
+"H": 9.2,
+"affinity": 43.2
+},
+{
+"name": "Monaco",
+"comp": "fra",
+"V": 3.8,
+"O": 3,
+"H": 7.5,
+"affinity": 46.5
+},
+{
+"name": "Nice",
+"comp": "fra",
+"V": 2.0,
+"O": 2.8,
+"H": 5.3,
+"affinity": 0.0
+},
+{
+"name": "Paris FC",
+"comp": "fra",
+"V": 3.7,
+"O": 5.0,
+"H": 3,
+"affinity": 32.0
+},
+{
+"name": "Rennes",
+"comp": "fra",
+"V": 6,
+"O": 5.2,
+"H": 5.0,
+"affinity": 54.1
+},
+{
+"name": "Strasbourg",
+"comp": "fra",
+"V": 4.8,
+"O": 3.0,
+"H": 6.9,
+"affinity": 39.6
+},
+{
+"name": "Toulouse",
+"comp": "fra",
+"V": 5,
+"O": 4.0,
+"H": 4.8,
+"affinity": 36.6
+},
+{
+"name": "Troyes",
+"comp": "fra",
+"V": 3.0,
+"O": 1.0,
+"H": 3.8,
+"affinity": 4.1
+},
+{
+"name": "Birmingham Legion FC",
+"comp": "usl",
+"V": 6,
+"O": 5,
+"H": 3.2,
+"affinity": 43.2
+},
+{
+"name": "Brooklyn FC",
+"comp": "usl",
+"V": 7.1,
+"O": 4.8,
+"H": 1,
+"affinity": 38.7
+},
+{
+"name": "Charleston Battery",
+"comp": "usl",
+"V": 6,
+"O": 4.8,
+"H": 7.2,
+"affinity": 61.4
+},
+{
+"name": "Colorado Springs Switchbacks FC",
+"comp": "usl",
+"V": 6,
+"O": 6.2,
+"H": 4.1,
+"affinity": 57.4
+},
+{
+"name": "Detroit City FC",
+"comp": "usl",
+"V": 8,
+"O": 8.2,
+"H": 4.7,
+"affinity": 71.3
+},
+{
+"name": "El Paso Locomotive FC",
+"comp": "usl",
+"V": 6,
+"O": 5,
+"H": 3.2,
+"affinity": 50.9
+},
+{
+"name": "FC Tulsa",
+"comp": "usl",
+"V": 6,
+"O": 5,
+"H": 3.7,
+"affinity": 51.5
+},
+{
+"name": "Hartford Athletic",
+"comp": "usl",
+"V": 6,
+"O": 5,
+"H": 3.9,
+"affinity": 49.3
+},
+{
+"name": "Indy Eleven",
+"comp": "usl",
+"V": 6.2,
+"O": 3.8,
+"H": 5,
+"affinity": 56.1
+},
+{
+"name": "Las Vegas Lights FC",
+"comp": "usl",
+"V": 6,
+"O": 3.8,
+"H": 2,
+"affinity": 37.5
+},
+{
+"name": "Lexington SC",
+"comp": "usl",
+"V": 7,
+"O": 6.2,
+"H": 1.2,
+"affinity": 46.0
+},
+{
+"name": "Loudoun United FC",
+"comp": "usl",
+"V": 6.1,
+"O": 4,
+"H": 1.7,
+"affinity": 34.9
+},
+{
+"name": "Louisville City FC",
+"comp": "usl",
+"V": 7,
+"O": 6.9,
+"H": 6.3,
+"affinity": 71.5
+},
+{
+"name": "Miami FC",
+"comp": "usl",
+"V": 6,
+"O": 2.9,
+"H": 3.1,
+"affinity": 30.0
+},
+{
+"name": "Monterey Bay FC",
+"comp": "usl",
+"V": 6,
+"O": 5,
+"H": 2,
+"affinity": 41.2
+},
+{
+"name": "New Mexico United",
+"comp": "usl",
+"V": 7.4,
+"O": 7,
+"H": 3.9,
+"affinity": 69.2
+},
+{
+"name": "Oakland Roots SC",
+"comp": "usl",
+"V": 10.0,
+"O": 5.8,
+"H": 3.6,
+"affinity": 64.5
+},
+{
+"name": "Orange County SC",
+"comp": "usl",
+"V": 6,
+"O": 5.2,
+"H": 4.2,
+"affinity": 53.2
+},
+{
+"name": "Phoenix Rising FC",
+"comp": "usl",
+"V": 5.4,
+"O": 5,
+"H": 4.3,
+"affinity": 49.4
+},
+{
+"name": "Pittsburgh Riverhounds",
+"comp": "usl",
+"V": 6,
+"O": 6.3,
+"H": 6.2,
+"affinity": 67.6
+},
+{
+"name": "Rhode Island FC",
+"comp": "usl",
+"V": 6,
+"O": 6,
+"H": 2.2,
+"affinity": 52.3
+},
+{
+"name": "Sacramento Republic FC",
+"comp": "usl",
+"V": 8.2,
+"O": 8,
+"H": 6.2,
+"affinity": 82.7
+},
+{
+"name": "San Antonio FC",
+"comp": "usl",
+"V": 6,
+"O": 6,
+"H": 4.1,
+"affinity": 56.9
+},
+{
+"name": "Sporting JAX",
+"comp": "usl",
+"V": 7,
+"O": 4.8,
+"H": 1,
+"affinity": 35.7
+},
+{
+"name": "Tampa Bay Rowdies",
+"comp": "usl",
+"V": 6,
+"O": 5,
+"H": 6.8,
+"affinity": 59.2
+},
+{
+"name": "Celtic",
+"comp": "heritage",
+"V": 5.2,
+"O": 5,
+"H": 10.0,
+"affinity": 72.2
+},
+{
+"name": "Rangers",
+"comp": "heritage",
+"V": 3.2,
+"O": 4.5,
+"H": 9.3,
+"affinity": 28.4
+},
+{
+"name": "Heart of Midlothian",
+"comp": "heritage",
+"V": 7.8,
+"O": 8.8,
+"H": 7,
+"affinity": 71.2
+},
+{
+"name": "Hibernian",
+"comp": "heritage",
+"V": 6,
+"O": 5.6,
+"H": 7.1,
+"affinity": 67.1
+},
+{
+"name": "Linfield",
+"comp": "heritage",
+"V": 3.8,
+"O": 8.4,
+"H": 7.3,
+"affinity": 54.9
+},
+{
+"name": "Derry City",
+"comp": "heritage",
+"V": 6.4,
+"O": 7.0,
+"H": 6.8,
+"affinity": 63.7
+},
+{
+"name": "Shamrock Rovers",
+"comp": "heritage",
+"V": 6.3,
+"O": 7.2,
+"H": 7.4,
+"affinity": 71.7
+},
+{
+"name": "Bohemians",
+"comp": "heritage",
+"V": 8.6,
+"O": 9.4,
+"H": 6.7,
+"affinity": 71.8
+},
+{
+"name": "Marítimo",
+"comp": "heritage",
+"V": 5,
+"O": 5.8,
+"H": 6,
+"affinity": 58.5
+},
+{
+"name": "Nacional",
+"comp": "heritage",
+"V": 5.8,
+"O": 5.8,
+"H": 4.3,
+"affinity": 47.9
+},
+{
+"name": "1. FC Nürnberg",
+"comp": "heritage",
+"V": 7.6,
+"O": 9,
+"H": 8.3,
+"affinity": 69.5
+},
+{
+"name": "Žalgiris",
+"comp": "heritage",
+"V": 4.8,
+"O": 5,
+"H": 6,
+"affinity": 55.9
+},
+{
+"name": "Viktoria Plzeň",
+"comp": "heritage",
+"V": 4.8,
+"O": 5,
+"H": 6,
+"affinity": 45.9
+},
+{
+"name": "Union Saint-Gilloise",
+"comp": "heritage",
+"V": 7.6,
+"O": 6.5,
+"H": 7,
+"affinity": 68.2
+},
+{
+"name": "Anderlecht",
+"comp": "heritage",
+"V": 5.6,
+"O": 4.6,
+"H": 8.6,
+"affinity": 58.9
+}
+]

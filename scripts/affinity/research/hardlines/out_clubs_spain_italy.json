@@ -1,0 +1,617 @@
+[
+ {
+  "name": "Atlético Madrid",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 10,
+    "to": 10,
+    "year": 2024,
+    "why": "Repeated cases within five years (racist chants at Vinícius 2022, effigy hung from a bridge Jan 2023 with four ultras convicted of a hate crime, UEFA EUR 30,000 fine and suspended away-ticket ban for racist behaviour at Benfica Oct 2024) on top of Frente Atlético's far-right identity; the club has acted firmly since 2024 (nine life bans, halted away sales), so it sits at the low end of the tolerated-identity band rather than higher.",
+    "sources": [
+     "https://africa.espn.com/football/story/_/id/41733032/uefa-sanction-lazio-atletico-fans-racist-behaviour",
+     "https://www.malaymail.com/news/sports/2024/11/02/atletico-permanently-ban-nine-fans-for-racism/155567",
+     "https://www.ultimahora.es/deportes/futbol/2023/06/05/1951055/vinicius-multados-madrid-60000-euros-dos-anos-entrar-estadios.html",
+     "https://insideworldfootball.com/?p=156081"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 6,
+    "to": 6,
+    "year": 2024,
+    "why": "Repeated recent incidents (Frente-Betis ultra brawl Mar 2024, Sept 2024 derby suspended after objects thrown, RFEF partial closure cut to one match on appeal); the 2014 killing of a Deportivo fan in a pre-arranged Frente fight is older than five years and counts half; together this stays at the top of the 3-6 band.",
+    "sources": [
+     "https://www.elindependiente.com/deportes/2024/03/03/ultras-del-atletico-de-madrid-y-betis-se-enzarzan-en-una-batalla-campal-horas-antes-del-partido-en-el-metropolitano/",
+     "https://www.malaymail.com/news/sports/2024/11/02/atletico-permanently-ban-nine-fans-for-racism/155567"
+    ]
+   },
+   {
+    "label": "Private equity",
+    "from": 9,
+    "to": 9,
+    "year": 2026,
+    "why": "Apollo Sports Capital (a real PE fund arm of Apollo Global) completed its purchase of about 55% on 12 Mar 2026; mid-band. Apollo calls Atlético its flagship and not a multi-club play; Atlético Ottawa is the club's own secondary, so no multi-club line.",
+    "sources": [
+     "https://ir.apollo.com/news-events/press-releases/detail/612/apollo-sports-capital-completes-transaction-to-become",
+     "https://africa.espn.com/football/story/_/id/46917268/us-based-firm-apollo-buys-majority-stake-atletico-madrid"
+    ]
+   },
+   {
+    "label": "Super League",
+    "from": 3,
+    "to": 3,
+    "year": 2021,
+    "why": "Signed in April 2021 and withdrew within days.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Barcelona",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Super League",
+    "from": 4,
+    "to": 4,
+    "year": 2026,
+    "why": "Signed in 2021 and stayed in until it formally withdrew on 7 Feb 2026: 'withdrew late'.",
+    "sources": [
+     "https://ianslive.in/fc-barcelona-confirms-exit-from-european-super-league-project--20260207192703"
+    ]
+   },
+   {
+    "label": "Overspend",
+    "from": 3,
+    "to": 3,
+    "year": 2025,
+    "why": "Folded into Ownership; the levers and squad-cost breaches are under the current board, so it stays as recorded.",
+    "sources": []
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 4,
+    "year": 2024,
+    "why": "Two UEFA discrimination sanctions in 2024: EUR 25,000 plus a suspended away-ticket ban for Nazi salutes and racist gestures at PSG (Apr 2024), then EUR 10,000 and the away ban activated for Belgrade over a 'Flick Heil' banner at Monaco (Sept 2024). More than one sanction in five years, but the club complied, refunded fans and fined its own animation stand, so it sits at the low end of 4-8.",
+    "sources": [
+     "https://global.espn.com/football/story/_/id/41469560/uefa-bans-barcelona-fans-champions-league-game-racism",
+     "https://www.clarosports.com/futbol/champions-league/uefa-multa-al-barcelona-por-el-comportamiento-de-sus-aficionados-en-la-eliminatoria-ante-psg/",
+     "https://www.elindependiente.com/deportes/2024/10/31/el-barca-multa-a-su-grada-de-animacion-con-21-000-euros-por-incidentes-y-amenaza-con-vetar-su-entrada-al-estadio/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Real Madrid",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Super League",
+    "from": 4,
+    "to": 4,
+    "year": 2026,
+    "why": "Last backer; ended the dispute with UEFA and the EFC by an agreement of principles on 11 Feb 2026, so 'withdrew late' (4) rather than 'still backing' (7.5). The agreement settles the dispute only once the principles are implemented; revisit if it collapses.",
+    "sources": [
+     "https://insidersport.com/2026/02/12/uefa-real-madrid-super-league-dispute/",
+     "https://www.football-legal.com/content/super-league-uefa-european-football-clubs-and-real-madrid-sign-peace"
+    ]
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 5,
+    "year": 2026,
+    "why": "Three UEFA discrimination sanctions in about a year (EUR 30,000 and a suspended 500-seat closure after the Man City play-off, Feb 2025; EUR 15,000 for a fan's Nazi salute at Arsenal, 2025; EUR 15,000 and a suspended 500-seat closure for a Nazi salute at the Bernabéu, 25 Feb 2026) plus the racist abuse of Lamine Yamal at the Oct 2024 Clásico (four fans proposed for one-year bans). The club investigated and banned fans, so mid-low in 4-8; one point above Barcelona for the extra sanctions.",
+    "sources": [
+     "https://www.nst.com.my/amp/sports/football/2025/03/1182194/uefa-fines-real-madrid-discriminatory-behaviour-champions-league",
+     "https://www.goal.com/en-us/lists/real-madrid-uefa-fine-nazi-salute-benfica-vinicius-jr-racism/bltf63d95d006468aa4",
+     "https://insideworldfootball.com/?p=157363"
+    ]
+   }
+  ],
+  "values_note": "The 2025 Man City sanction did not specify the conduct (AP); the 2026 Bernabéu sanction is from search summaries, not the UEFA decision text.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Valencia",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 5,
+    "to": 3,
+    "year": 2023,
+    "why": "One case in the window: the May 2023 abuse of Vinícius (three fans convicted, the first such criminal conviction in Spain; RFEF partial closure cut on appeal to three matches and EUR 27,000). No later sanction found. A single recent case is 2-3; the club banned the fans but called the stand closure 'unjust and disproportionate', so the top of that band.",
+    "sources": [
+     "https://es.soccerway.com/noticias/futbol-laliga-santander-apelacion-rebaja-la-sancion-al-valencia-cierra-una-grada-y-reduce-la-multa-a-27-000-euros/OCHWtikn",
+     "https://arab.news/gyj8c"
+    ]
+   }
+  ],
+  "values_note": "Lim's old Salford stake does not create a multi-club line: Valencia would be the flagship.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Sevilla",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 8,
+    "to": 8,
+    "year": 2026,
+    "why": "Five Eleven Capital (the fund fronted by Sergio Ramos) signed an agreement in May 2026 to buy about 60-80%; signed takeovers count now. CSD approval and closing are still unconfirmed as of October 2026; drop it if the deal falls through.",
+    "sources": [
+     "https://www.beinsports.com/en-us/soccer/la-liga/articles/sergio-ramos-agrees-to-purchase-sevilla-pending-signature-and-csd-approval-2026-05-12"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2025,
+    "why": "The mass brawl with Betis radicals before the 30 Nov 2025 derby and a Biris Norte 50th-anniversary tifo led the State Commission to propose a one-month stadium closure and EUR 120,000; the club called it disproportionate. A single recent serious incident (2); proposal, final ruling not found.",
+    "sources": [
+     "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Comision-contra-la-Violencia-en-el-Deporte-propone-el-cierre-del-estadio-del-Sevilla-FC-durante-un-mes/",
+     "https://unanimodeportes.com/deportes/futbol/laliga/pelea-ultras-sevilla-y-betis/",
+     "https://es.soccerway.com/noticias/futbol-laliga-ea-sports-sevilla-absoluta-indignacion-propuesta-antiviolencia/lxcfuXlm"
+    ]
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2022,
+    "why": "UEFA fined Sevilla EUR 5,000 with a suspended partial closure for racist abuse of a Man City player (Nov 2022); the club expelled the member. A single sanction inside five years, club acted firmly: low end.",
+    "sources": [
+     "https://www.football-espana.net/2022/12/08/sevilla-fined-after-racial-abuse-of-manchester-city-player",
+     "https://sevillafc.es/en/actual/news/official/statement/man/city"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Getafe",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2024,
+    "why": "Racist abuse of Sevilla's Marcos Acuña stopped play under the protocol (Mar 2024); the RFEF ordered a three-match partial closure and EUR 27,000, the closure was revoked on appeal (Apr 2024). One recent case: 2.",
+    "sources": [
+     "https://www.football-espana.net/2024/04/03/getafe-hit-with-partial-stadium-closure-and-fine-for-racial-abuse",
+     "https://www.elgrafico.com.ar/articulo/futbol-europeo/75680/getafe-fue-sancionado-tras-los-gritos-racistas-contra-marcos-acunia"
+    ]
+   }
+  ],
+  "values_note": "The June 2026 Commission proposal (one-month closure, EUR 10,000) was for a pitch invasion at the last home match, not violence; no line proposed for it. Greenwood loan is already in Values.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Espanyol",
+  "verdict": "remove",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 8,
+    "to": 0,
+    "year": 2025,
+    "why": "The owner, Velocity Sports Partners (ALK Capital, Alan Pace; investors include JJ Watt), is a US sports investment group, which Kevin's REVIEW rule excludes from PE (it is why Burnley, same owner, carries a leveraged-buyout line and no PE). No acquisition debt on Espanyol found, so no LBO line either.",
+    "sources": [
+     "https://www.cityam.com/?p=2368731",
+     "https://www.catalannews.com/business/item/rcd-espanyol-barcelona-football-team-velocity-sport-14-july-2025"
+    ]
+   },
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2025,
+    "why": "Secondary club to Burnley in the Velocity network; stays (folded into Ownership).",
+    "sources": []
+   }
+  ],
+  "values_note": "If Kevin wants consistency with Burnley, check whether any acquisition debt was pushed onto Espanyol; that would bring LBO 10 instead. RFEF partial closure of 344 seats for water thrown at Bordalás (Mar 2026): the club identified the member and took his season ticket, so no line.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Elche",
+  "verdict": "remove",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 0,
+    "year": 2019,
+    "why": "Christian Bragarnik's network is Elche plus Chilean clubs (Unión La Calera, San Luis); Elche is the largest club and the European top-flight one, so it is the flagship and pays 0 under the flagship rule (as applied to Lens, Napoli, Bournemouth).",
+    "sources": []
+   }
+  ],
+  "values_note": "Agent-owner conflict and the Rafa Mir loan stay in Ownership/Values. If Kevin sees the network as Bragarnik's agency business with no flagship, keep 3.",
+  "confidence": "low"
+ },
+ {
+  "name": "Osasuna",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 3,
+    "to": 3,
+    "year": 2026,
+    "why": "Reused from the round-2 audit: 50+ chant sanctions from the Grada Sur, Commission proposal (June 2026) of a two-month closure and EUR 200,000, Feb 2026 police charges and Indar Gorri arrests; repeated and recent, low in 3-6 because part of the Feb 2026 violence is contested.",
+    "sources": [
+     "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Comision-contra-la-Violencia-en-el-Deporte-propone-la-clausura-temporal-de-los-estadios-de-Osasuna-y-Getafe/",
+     "https://www.eldiario.es/navarra/policia-nacional-detiene-nueve-ultras-osasuna-incidentes-partido-real-madrid_1_13179472.html"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Real Betis",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 4,
+    "to": 4,
+    "year": 2025,
+    "why": "Reused from the round-2 audit: organised ultra fights 2023, 2024 and 2025, UEFA away-ticket ban 2025, Nov 2025 derby brawl; repeated within five years, club appealed to fans.",
+    "sources": [
+     "https://es.soccerway.com/noticias/futbol-europa-league-el-betis-se-queda-sin-aficion-en-su-primer-partido-como-visitante-en-la-europa-league/xIJB0xwJ",
+     "https://unanimodeportes.com/deportes/futbol/laliga/pelea-ultras-sevilla-y-betis/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "AC Milan",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 9,
+    "to": 9,
+    "year": 2022,
+    "why": "RedBird Capital Partners (PE) owns about 99.9%; Elliott's vendor loan sits at the holding level, not on the club. RedBird's Toulouse is the secondary, Milan the flagship.",
+    "sources": []
+   },
+   {
+    "label": "Super League",
+    "from": 3,
+    "to": 3,
+    "year": 2021,
+    "why": "Signed 2021, withdrew within days.",
+    "sources": []
+   },
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 4,
+    "year": 2025,
+    "why": "Doppia Curva: Curva Sud leader Luca Lucci sentenced to 10 years (June 2025) for mafia-aggravated association and related violence, with other Curva Sud leaders convicted. Organised ultra crime belongs in the top band, but the club was an injured civil party (awarded damages) and cut ties, and no club staff were named, so well below Inter's 9.",
+    "sources": [
+     "https://sport.sky.it/calcio/serie-a/2025/06/17/beretta-lucci-condanna-ultra-inter-milan",
+     "https://www.agi.it/cronaca/news/2025-06-19/condanne-ai-vertici-della-curva-sud-milano-per-reati-gravi-31959385/"
+    ]
+   }
+  ],
+  "values_note": "Round-1 research left Milan out because it was an injured party; Inter was too, so treating the two curve differently needs a size difference, not a zero.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Inter Milan",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 9,
+    "to": 9,
+    "year": 2024,
+    "why": "Oaktree Capital owns about 99.6% since May 2024 (loan enforcement).",
+    "sources": []
+   },
+   {
+    "label": "Fan violence",
+    "from": 9,
+    "to": 9,
+    "year": 2026,
+    "why": "Recent and organised: the 2024 killing of Antonio Bellocco inside the Curva Nord leadership (Beretta 10 years, Ferdico 8, June 2025); the judge's reasoning names Inter security and liaison staff as most involved in dealings with the ultras; Inzaghi and Calhanoglu banned in a plea settlement; Feb 2026 firecracker at Cremonese's Audero. Top band, not faded.",
+    "sources": [
+     "https://sport.sky.it/calcio/serie-a/2025/06/17/beretta-lucci-condanna-ultra-inter-milan",
+     "https://www.calcioefinanza.it/2025/06/21/inter-milan-inchiesta-ultras-antimafia/"
+    ]
+   },
+   {
+    "label": "Super League",
+    "from": 3,
+    "to": 3,
+    "year": 2021,
+    "why": "Signed 2021, withdrew within days.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Juventus",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Super League",
+    "from": 4,
+    "to": 4,
+    "year": 2024,
+    "why": "Founding signatory; left only in 2023-24: 'withdrew late'.",
+    "sources": []
+   },
+   {
+    "label": "Overspend",
+    "from": 3,
+    "to": 3,
+    "year": 2023,
+    "why": "Folded into Ownership; same Exor ownership as during the plusvalenze case.",
+    "sources": []
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 3,
+    "year": 2023,
+    "why": "Monkey chants at Lukaku in the Apr 2023 Coppa Italia semi-final (171 fans fined and banned by police; the FIGC stand closure was overturned after the club identified them), on top of a long record (Balotelli 2009-12, Muntari 2013, Koulibaly 2018, all older than five years and counting half). One sanctioned case in the window plus the faded record: 3.",
+    "sources": [
+     "https://www.themalaysianinsight.com/s/439458",
+     "https://vukaninews.co.za/sport/2023-04-25-juventus-fans-fined-and-banned-for-racist-chants-towards-romelu-lukaku",
+     "https://www.pressreader.com/malaysia/new-straits-times/20181004/282591673886569"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2024,
+    "why": "Juventus and Torino ultras (100+) brawled in central Turin before the 9 Nov 2024 derby; 43 new Daspo plus 20 extended, homes of 23 ultras searched. A single recent serious incident.",
+    "sources": [
+     "https://www.lapresse.it/cronaca/2025/01/09/scontri-ultras-juve-torino-al-derby-emessi-oltre-50-daspo/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Torino",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2024,
+    "why": "Same Nov 2024 derby-eve brawl with Juventus ultras, plus 10 Daspo for damage in the away section; a single recent serious incident.",
+    "sources": [
+     "https://www.lapresse.it/cronaca/2025/01/09/scontri-ultras-juve-torino-al-derby-emessi-oltre-50-daspo/",
+     "https://www.lanotiziagiornale.it/scontri-e-violenze-al-derby-dandata-tra-juventus-e-torino-emessi-oltre-50-daspo-e-perquisite-le-abitazioni-di-23-ultra"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Lazio",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 30,
+    "to": 30,
+    "year": 2024,
+    "why": "Kept at Kevin's own anchor (B7 'Lazio -30'): the behaviour continues (FIGC suspended Curva Nord closure for antisemitic chants at the Mar 2023 derby, Curva closed for racist abuse of Lukaku at a later derby, UEFA EUR 45,000 and two Curva Nord sectors closed for racist behaviour v Nice, Oct 2024), with a far-right ultra identity the club has tolerated for decades and only light club action. It is three times the next-highest club racism lines (Atlético, Rangers, Slovan 10), which matches the schedule's top for the worst case; no change, but this is Kevin's anchor rather than a schedule result.",
+    "sources": [
+     "https://africa.espn.com/football/story/_/id/41733032/uefa-sanction-lazio-atletico-fans-racist-behaviour",
+     "https://www.lapresse.it/calcio/2023/04/04/cori-antisemiti-derby-curva-lazio-chiusa-pena-sospesa/",
+     "https://sport.quotidiano.net/en/calcio/roma/giudice-sportivo-derby-roma-lazio-d50r2kyj"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 6,
+    "year": 2025,
+    "why": "Missing line: about 80 Ultras Lazio ambushed Real Sociedad fans in Rome with knives, hammers and chains (Jan 2025, at least three stabbed; five charged with attempted homicide, bans up to nine years), and Lazio ultras joined the pre-derby clashes of 13 Apr 2025 (24 police hurt, away travel banned for both clubs). The 2019 stabbing of Celtic fans is older and counts half. Repeated organised violence in the last five years: top of 3-6.",
+    "sources": [
+     "https://www.football-espana.net/2025/01/23/at-least-three-stabbed-as-lazio-and-real-sociedad-ultras-clash-in-rome",
+     "https://www.ondavasca.com/primeras-sanciones-para-ultras-de-la-lazio-tras-la-emboscada-de-roma/",
+     "https://www.lapresse.it/cronaca/2025/04/14/roma-scontri-derby-24-agenti-feriti/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Roma",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 9,
+    "to": 8,
+    "year": 2025,
+    "why": "The 2014 killing of Ciro Esposito and the 2012-18 stabbings of English fans are older than five years and count half; the behaviour continues (Jan 2023 A1 motorway brawl with Napoli fans and away bans; 13 Apr 2025, about 500 Roma ultras attacked police before the derby, 24 officers hurt, arrests, three-match away ban), so it stays in the top band at its bottom, one below Inter.",
+    "sources": [
+     "https://www.agi.it/cronaca/news/2025-04-15/arresti-derby-roma-lazio-scontri-polizia-30935766/",
+     "https://www.lapresse.it/cronaca/2025/04/14/roma-scontri-derby-24-agenti-feriti/"
+    ]
+   }
+  ],
+  "values_note": "Unverified: a March 2025 attack on Athletic fans attributed to Roma ultras was not confirmed (sources point to Lazio ultras); not counted.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Napoli",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 3,
+    "to": 3,
+    "year": 2025,
+    "why": "Repeated within five years but not organised killings: Jan 2023 A1 motorway brawl with Roma fans (away bans), Mar 2023 clashes in Naples around the Eintracht tie, Sept 2024 disorder at Cagliari (fine and warning), Oct 2025 Eindhoven detentions (no clashes). Low end of 3-6.",
+    "sources": [
+     "https://www.dutchnews.nl/2025/10/napoli-fans-arrested-in-eindhoven-ahead-of-champions-league-game/",
+     "https://www.unionesarda.it/news-sardegna/cagliari/scontri-durante-cagliari-napoli-niente-chiusura-dello-stadio-ma-multa-e-diffida-yq17j5tp"
+    ]
+   }
+  ],
+  "values_note": "Bari: Napoli is the flagship, so no multi-club line.",
+  "confidence": "high"
+ },
+ {
+  "name": "Atalanta",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 3,
+    "to": 3,
+    "year": 2023,
+    "why": "One sanctioned case in the window: 'zingaro' chants at Vlahović from most of the Curva Nord (May 2023), one-match end closure and EUR 10,000. Coach played it down, so the top of 2-3.",
+    "sources": [
+     "https://www.open.online/2023/05/09/cori-razzisti-vlahovic-chiusura-curva-nord-pisani"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 4,
+    "to": 4,
+    "year": 2025,
+    "why": "About 200 Atalanta fans brawled with Como fans at a motorway services (Aug 2025, 16 Daspo); a long violent record with the leadership banned in 2021. Repeated: mid 3-6.",
+    "sources": [
+     "https://www.ilgiorno.it/lodi/cronaca/daspo-ultras-scontri-somaglia-21b77ffd"
+    ]
+   }
+  ],
+  "values_note": "Pagliuca's group is a personal investor group, not a PE fund: no PE line.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Fiorentina",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 2,
+    "to": 2,
+    "year": 2023,
+    "why": "Nov 2023 racist chants at Juventus players, one-match Curva Fiesole closure suspended; the Oct 2021 Koulibaly abuse (fan banned five years) is at the five-year edge and counts half. Club acted firmly: 2.",
+    "sources": [
+     "https://www.calcioefinanza.it/?p=133693",
+     "https://sport.sky.it/calcio/serie-a/2021/10/08/fiorentina-napoli-cori-razzisti-koulibaly-individuato-un-tifoso"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Genoa",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2024,
+    "why": "Șucu also owns Rapid București; kept as is (folded). Genoa could be read as the flagship (larger club, larger investment), as with Lens: Kevin's call.",
+    "sources": []
+   },
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2024,
+    "why": "Genoa and Sampdoria ultras fought police before the Coppa Italia derby on 25 Sept 2024 (38 hurt, 26 of them officers; five ultras arrested, three from Genoa). A single recent serious incident.",
+    "sources": [
+     "https://www.ilpost.it/2024/09/25/scontri-ultras-genoa-sampdoria-coppa-italia-derby/",
+     "https://www.agi.it/sport/news/2024-09-27/derby-genoa-arrestati-ultras-28029038/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Cagliari",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 3,
+    "year": 2022,
+    "why": "A run of racist abuse from the stands at Black opponents (Muntari 2017, Matuidi 2018, Kean and Lukaku 2019: older than five years, half) continued with Maignan and Tomori in March 2022 (FIGC inquiry, no sanction); the sporting judge repeatedly declined to sanction and the club responded with messages only. Faded repeated pattern plus one recent case: 3.",
+    "sources": [
+     "https://www.unionesarda.it/en/cagliari-after-the-controversy-quot-no-to-racismquot-digos-on-the-hunt-for-choir-leaders-hnuh4xnf",
+     "https://www.calcioefinanza.it/2019/09/17/cori-razzisti-giudice-sportivo/"
+    ]
+   }
+  ],
+  "values_note": "Not counted: a Cagliari player (Dossena) was accused of a racist insult at Udinese's Keinan Davis on 9 May 2026; he denies it and no ruling was found.",
+  "confidence": "low"
+ },
+ {
+  "name": "Bologna",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2014,
+    "why": "Saputo still owns CF Montréal; kept (folded into Ownership). Bologna could be the flagship by size; Kevin's call.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Como",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Overspend",
+    "from": 5,
+    "to": 5,
+    "year": 2025,
+    "why": "Folded into Ownership; Hartono spending continues under the same owners.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Monza",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 8,
+    "to": 8,
+    "year": 2026,
+    "why": "Beckett Layne Ventures, a US investment fund, took 80% in Sept 2025 and the remaining 20% from Fininvest in June 2026.",
+    "sources": [
+     "https://www.acmonza.com/en/news/beckett-layne-ventures-finalizes-the-acquisition-of-ac-monza/",
+     "https://www.borsaitaliana.it/borsa/notizie/teleborsa/economia/fininvest-cede-la-residua-partecipazione-del-20-nell-ac-monza-113_2026-06-26_TLB.html?lang=it"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ }
+]

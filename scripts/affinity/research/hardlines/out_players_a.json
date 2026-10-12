@@ -1,0 +1,945 @@
+[
+ {
+  "name": "Alexander Isak",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b08",
+    "year": 2025,
+    "from": "kept",
+    "to": "keep",
+    "why": "Refused to play and missed the pre-season tour in summer 2025 to force a move; sold to Liverpool on deadline day (1 Sept 2025).",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jadon Sancho",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b08",
+    "year": 2017,
+    "from": "kept",
+    "to": "keep",
+    "why": "Refused a new Man City contract and did not travel on the US pre-season tour to force a move; sold to Dortmund Aug 2017.",
+    "sources": [
+     "https://www.si.com/soccer/2017/08/03/arsenal-spurs-target-jadon-sancho-refuses-train-man-city-order-force-move"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Luis Suárez",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b01",
+    "year": 2011,
+    "from": "kept",
+    "to": "keep",
+    "why": "FA found he racially abused Evra; 8-match ban and GBP 40k fine; apologised only for the 2012 handshake refusal, not the abuse, so the 60% rate is generous but matches the recorded outcome.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 2010,
+    "from": "kept",
+    "to": "keep",
+    "why": "Bit Otman Bakkal (Ajax v PSV, Nov 2010); KNVB 7-match ban. No apology found in the sources checked, so full weight stands.",
+    "sources": [
+     "https://eurosport.com/football/international-football/2010/seven-match-ban-for-suarez_sto2556839/story.shtml"
+    ]
+   },
+   {
+    "type": "b06",
+    "year": 2013,
+    "from": "kept",
+    "to": "keep",
+    "why": "Bit Ivanović, 10-match FA ban; apologised.",
+    "sources": [
+     "https://www.washingtontimes.com/news/2013/apr/22/suarez-bites-opponents-arm-apologizes/"
+    ]
+   },
+   {
+    "type": "b06",
+    "year": 2014,
+    "from": "kept",
+    "to": "keep",
+    "why": "Bit Chiellini at the 2014 World Cup; FIFA 9-match international ban plus 4 months from all football; apologised after initially denying.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 2025,
+    "from": "kept",
+    "to": "keep",
+    "why": "Spat at a Seattle Sounders security staff member after the 31 Aug 2025 Leagues Cup final; 6-match Leagues Cup ban (5 Sept 2025); apologised. Correct the text: the ban is Leagues Cup matches only, not MLS games.",
+    "sources": [
+     "https://global.espn.com/football/story/_/id/46167752/inter-miami-luis-suarez-ban-spitting-seattle-sounders-leagues-cup"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lionel Messi",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b12",
+    "year": 2022,
+    "from": "kept",
+    "to": "keep",
+    "why": "Paid Visit Saudi tourism ambassador since May 2022 (widely reported, fee reportedly about USD 25m).",
+    "sources": []
+   },
+   {
+    "type": "b05",
+    "year": 2016,
+    "from": "kept",
+    "to": "keep",
+    "why": "Convicted with his father in Barcelona (July 2016), 21-month sentence upheld by the Supreme Court in 2017 and substituted by a fine (about EUR 252k); conviction stands.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lionel_Messi"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cristiano Ronaldo",
+  "verdict": "add",
+  "lines": [
+   {
+    "type": "b02",
+    "year": 2009,
+    "from": "kept",
+    "to": "keep",
+    "why": "Mayorga allegation (Las Vegas 2009); DA declined charges July 2019; civil suit dismissed 2022. A 2010 confidential settlement (about USD 375k) was paid; 'no charges' rate stands.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+    ]
+   },
+   {
+    "type": "b05",
+    "year": 2019,
+    "from": "kept",
+    "to": "keep",
+    "why": "Jan 2019 Madrid plea deal: 23-month suspended sentence (converted to a fine) plus about EUR 18.8m.",
+    "sources": []
+   },
+   {
+    "type": "b10",
+    "year": 2023,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Al-Nassr Jan 2023 at 37 (club transferred to PIF June 2023).",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 2022,
+    "from": "new",
+    "to": "add",
+    "why": "Knocked the phone out of a 14-year-old Everton fan's hand at Goodison (9 Apr 2022), bruising his hand; received a police caution (assault/criminal damage) and an FA 2-match ban and GBP 50k fine for improper and/or violent conduct; apologised. Outcome: apologised.",
+    "sources": [
+     "https://www.enca.com/sport/ronaldo-banned-two-matches-and-fined-ps50000-over-everton-fan-clash",
+     "https://www.fotmob.com/fi/news/1i4xy7zmqwtk01rbzcfv6oa0tk/Ronaldo-suspended-for-two-matches-over-Everton-fan-phone-incident"
+    ]
+   },
+   {
+    "type": "b12",
+    "year": 2023,
+    "from": "new",
+    "to": "add",
+    "why": "Reported PIF-financed promotional deal (AFP, Jan 2023, about EUR 200m) to promote Saudi Arabia's World Cup bids, and described as an ambassador for the 2034 bid; same kind of deal as Benzema's and Messi's. Single anonymous source on the fee: medium.",
+    "sources": [
+     "https://www.iol.co.za/sport/soccer/cristiano-ronaldo-to-earn-an-extra-200-million-to-promote-saudi-arabias-2030-world-cup-bid-81e43c3b-0b2f-4ea2-9c5e-e3fa33193d40",
+     "https://www.malaymail.com/news/sports/2025/02/07/cristiano-ronaldo-at-40-how-the-football-icon-shaped-saudi-arabias-sporting-ambitions/165676"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kylian Mbappé",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b02",
+    "year": 2024,
+    "from": "kept",
+    "to": "keep",
+    "why": "Stockholm rape inquiry (Oct 2024) in which media named him; prosecutors closed it Dec 2024 for insufficient evidence; he was never formally named a suspect. 30% rate stands.",
+    "sources": [
+     "https://www.thelocal.se/20241212/swedish-police-drop-rape-inquiry-against-kylian-mbappe"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Robert Lewandowski",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b09",
+    "year": 2014,
+    "from": "kept",
+    "to": "keep",
+    "why": "Free transfer Dortmund -> Bayern (2014), Der Klassiker rival. His 2022 Bayern exit was pushed via the media but he kept training: not a b08.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Antoine Griezmann",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b01",
+    "year": 2021,
+    "from": "kept",
+    "to": "keep",
+    "why": "Video filmed on Barcelona's 2019 Japan tour, published July 2021: Dembélé mocked the hotel staff, Griezmann laughed along; both apologised and Konami ended Griezmann's deal. Year 2021 is when it became public (filmed 2019).",
+    "sources": []
+   }
+  ],
+  "confidence": "high",
+  "values_note": "2017 blackface costume photo (deleted, apologised) stays 'other' but supports a Values cut; together with 2021 it is a repeat."
+ },
+ {
+  "name": "Luka Modrić",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b08",
+    "year": 2012,
+    "from": "kept",
+    "to": "keep",
+    "why": "Did not travel on Tottenham's July 2012 US tour to push the Real Madrid move; fined by Spurs.",
+    "sources": []
+   }
+  ],
+  "confidence": "high",
+  "values_note": "2017 false-testimony charge in the Mamić trial is not a hard-line type; recorded outcome (charge dismissed, prosecution dropped) is consistent with reports."
+ },
+ {
+  "name": "Neymar",
+  "verdict": "add",
+  "lines": [
+   {
+    "type": "b06",
+    "year": 2019,
+    "from": "kept",
+    "to": "keep",
+    "why": "Punched a Rennes fan after the April 2019 Coupe de France final; FFF 3-match ban.",
+    "sources": [
+     "https://www.skysports.com/football/news/11820/11716058/neymar-handed-three-match-ban-by-french-football-federation-after-fan-punch"
+    ]
+   },
+   {
+    "type": "b02",
+    "year": 2019,
+    "from": "kept",
+    "to": "keep",
+    "why": "Najila Trindade rape allegation (June 2019); police closed it Aug 2019 for lack of evidence.",
+    "sources": []
+   },
+   {
+    "type": "b10",
+    "year": 2023,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Al-Hilal Aug 2023 at 31.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 2020,
+    "from": "new",
+    "to": "add",
+    "why": "Struck Álvaro González on the back of the head in the stoppage-time brawl at Marseille (13 Sept 2020); red card, 2-match LFP ban (+1 suspended). Said he 'acted like a fool'. Suggested outcome: regretted (treat as apologised).",
+    "sources": [
+     "https://english.stadiumastro.com/football/neymar-banned-two-matches-after-classique-red-card-176025",
+     "https://mb.com.ph/2020/9/15/football-i-acted-like-a-fool-neymar-regrets-marseille-red-card"
+    ]
+   }
+  ],
+  "confidence": "medium",
+  "values_note": "A Benzema report says Neymar formerly had a PIF promotional deal like Benzema's and Ronaldo's; not verified, so no b12 proposed."
+ },
+ {
+  "name": "Federico Valverde",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b06",
+    "year": 2023,
+    "from": "kept",
+    "to": "keep",
+    "why": "Punched Álex Baena in the Bernabéu car park after Real Madrid v Villarreal (April 2023), saying Baena had mocked his wife's pregnancy; no sporting sanction. A real punch, so b06 fits.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Thibaut Courtois",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b08",
+    "year": 2018,
+    "from": "kept",
+    "to": "keep",
+    "why": "Did not return to Chelsea training in Aug 2018 to force the move to Real Madrid.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Achraf Hakimi",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b02",
+    "year": 2023,
+    "from": "kept",
+    "to": "keep",
+    "why": "Charged with rape (Feb 2023 allegation, charged March 2023); trial ordered Feb 2026, upheld by the Versailles appeal court 19 June 2026; the Court of Cassation rejected his final appeal 23 Sept 2026. Trial before the Hauts-de-Seine criminal court, date not set. Denies. Full weight while pending.",
+    "sources": [
+     "https://citizen.digital/article/french-court-confirms-rape-trial-for-psg-and-morocco-star-hakimi-n390732",
+     "https://www.moroccoworldnews.com/2026/09/339430/achraf-hakimi-to-face-trial-after-frances-highest-court-rejects-appeal/"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ousmane Dembélé",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b01",
+    "year": 2021,
+    "from": "kept",
+    "to": "keep",
+    "why": "His remarks mocking Japanese hotel staff (filmed 2019, published July 2021); apologised.",
+    "sources": []
+   },
+   {
+    "type": "b08",
+    "year": 2017,
+    "from": "kept",
+    "to": "keep",
+    "why": "Skipped Dortmund training Aug 2017 and was suspended; sold to Barcelona.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Darwin Núñez",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "type": "b10",
+    "year": 2025,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Al-Hilal Aug 2025 at 26.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 2024,
+    "from": "kept",
+    "to": "retype:b06",
+    "why": "Climbed into the stands after the Copa América semi-final (10 July 2024) and exchanged punches with Colombia fans; CONMEBOL 5-match international ban and USD 20k fine. He said he was protecting family members; no apology. Real violence, now typed 'other'.",
+    "sources": [
+     "https://www.capitalfm.co.ke/sports/2024/08/28/liverpools-nunez-hit-with-five-game-uruguay-ban/",
+     "https://www.90min.com/darwin-nunez-handed-five-match-ban-following-brawl"
+    ]
+   },
+   {
+    "type": "b06",
+    "year": 2022,
+    "from": "new",
+    "to": "add",
+    "why": "Headbutted Joachim Andersen (Liverpool v Crystal Palace, 15 Aug 2022); red card, 3-match ban; apologised next day. Outcome: apologised.",
+    "sources": [
+     "https://www.90min.com/posts/darwin-nunez-apologises-for-red-card-vs-crystal-palace"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Karim Benzema",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b12",
+    "year": 2026,
+    "from": "kept",
+    "to": "keep",
+    "why": "Real: PIF promotional deal running to 2030 as an ambassador for Saudi tourism and the 2034 World Cup, reported Aug-Sept 2026.",
+    "sources": [
+     "https://citizen.digital/article/benzema-ends-brief-stint-with-al-hilal-in-saudi-league-n389366",
+     "https://worldsoccertalk.com/news/karim-benzema-reportedly-blocked-from-emotional-olympique-lyon-return-due-to-saudi-pro-league-ambassador-status/"
+    ]
+   },
+   {
+    "type": "b02",
+    "year": 2014,
+    "from": "kept",
+    "to": "keep",
+    "why": "Acquitted Jan 2014 of soliciting an underage prostitute (Zahia Dehar).",
+    "sources": []
+   },
+   {
+    "type": "b10",
+    "year": 2023,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Al-Ittihad June 2023 at 35. The Feb 2026 Al-Hilal move is real (left by mutual agreement end of Aug 2026); counted once anyway.",
+    "sources": [
+     "https://www.thescore.com/news/3589517/benzema-ends-brief-stint-with-al-hilal-in-saudi-league"
+    ]
+   }
+  ],
+  "confidence": "high",
+  "values_note": "Nov 2021 conviction for complicity in the attempted blackmail of teammate Valbuena (1-year suspended, EUR 75k) is real and carries no hard line because no type fits; propose a Values cut (or a new 'criminal conviction' type) rather than leaving it at 'other'."
+ },
+ {
+  "name": "N'Golo Kanté",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b10",
+    "year": 2023,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Al-Ittihad June 2023 at 32.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Diego Maradona",
+  "verdict": "add",
+  "lines": [
+   {
+    "type": "b02",
+    "year": 2014,
+    "from": "kept",
+    "to": "keep",
+    "why": "2014 video appears to show him striking Rocío Oliva; she later accused him of physical and sexual violence; no conviction.",
+    "sources": [
+     "https://www.tribuneindia.com/news/sports/former-partner-in-argentina-accuses-maradona-of-physical-and-sexual-violence-341875/amp"
+    ]
+   },
+   {
+    "type": "b02",
+    "year": 2001,
+    "from": "kept",
+    "to": "keep",
+    "why": "Mavys Álvarez testified (2021, after his death) that he raped her when she was 16; untested in court. Medium.",
+    "sources": [
+     "https://batimes.com.ar/news/argentina/ex-girlfriend-of-maradona-testifies-in-underage-trafficking-case.phtml"
+    ]
+   },
+   {
+    "type": "b06",
+    "year": 1994,
+    "from": "kept",
+    "to": "keep",
+    "why": "Fired an air rifle at journalists outside his home (Feb 1994); convicted 1998, suspended sentence.",
+    "sources": []
+   },
+   {
+    "type": "b12",
+    "year": 2012,
+    "from": "kept",
+    "to": "keep",
+    "why": "Dubai Sports Council honorary ambassador from 2012, renewed several years.",
+    "sources": [
+     "https://gulfnews.com/sport/football/maradona-to-be-retained-as-dubai-sports-council-ambassador-1.1206739"
+    ]
+   },
+   {
+    "type": "b03",
+    "year": 1991,
+    "from": "kept",
+    "to": "keep",
+    "why": "Cocaine positive at Napoli, 15-month ban.",
+    "sources": []
+   },
+   {
+    "type": "b03",
+    "year": 1994,
+    "from": "kept",
+    "to": "keep",
+    "why": "Ephedrine positive at USA 94, sent home, 15-month ban.",
+    "sources": []
+   },
+   {
+    "type": "b03",
+    "year": 1997,
+    "from": "kept",
+    "to": "keep",
+    "why": "Third positive (cocaine) Aug 1997; suspension lifted by a judge, retired Oct 1997.",
+    "sources": [
+     "https://www.deseret.com/1997/10/30/19342611/maradona-done-playing-soccer/"
+    ]
+   },
+   {
+    "type": "b06",
+    "year": 1984,
+    "from": "new",
+    "to": "add",
+    "why": "Started the brawl after the 1984 Copa del Rey final v Athletic Bilbao: knocked Sola down and kneed him in the head, leaving him unconscious; reported 3-month ban (ban length single-sourced).",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Miguel_Sola",
+     "https://vice.com/en/article/how-the-butcher-of-bilbao-almost-ended-diego-maradonas-career"
+    ]
+   },
+   {
+    "type": "b10",
+    "year": 2011,
+    "from": "new",
+    "to": "retype:b10",
+    "why": "Coached Al-Wasl (UAE, 2011-12) and Al-Fujairah (UAE, 2017-18); recorded as 'other'. Coach move: half rate. A separate type from his b12, so it adds.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium",
+  "values_note": "Also kicked Brazil's Batista (1982 WC red card); left out as one sending-off."
+ },
+ {
+  "name": "Johan Cruyff",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b09",
+    "year": 1983,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Feyenoord in 1983 after Ajax did not renew; won the double.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "George Best",
+  "verdict": "add",
+  "lines": [
+   {
+    "type": "b06",
+    "year": 1984,
+    "from": "kept",
+    "to": "keep",
+    "why": "Drink-driving, assaulting a police officer and jumping bail (Nov-Dec 1984); jailed 3 months.",
+    "sources": []
+   },
+   {
+    "type": "b02",
+    "year": 2004,
+    "from": "kept",
+    "to": "keep",
+    "why": "Alex Best's claims that he hit her: reported but not confirmed in the sources checked. Correct the outcome text: the arrest was July 2003 (Reigate pub brawl with a photographer, no further action), not Dec 2003, and it was not about Alex. Low confidence.",
+    "sources": [
+     "https://iol.co.za/news/world/2003-07-13-george-best-arrested-after-bar-room-brawl/"
+    ]
+   },
+   {
+    "type": "b02",
+    "year": 2005,
+    "from": "new",
+    "to": "add",
+    "why": "Questioned by Surrey police (June 2005) over allegations that he indecently assaulted a young girl and hit a woman; police took no further action (5 July 2005). Outcome: dropped.",
+    "sources": [
+     "https://www.rte.ie/news/2005/0705/65084-bestg"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Garrincha",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b02",
+    "year": 1970,
+    "from": "kept",
+    "to": "keep",
+    "why": "Elza Soares described repeated beatings during his alcoholism (also in Ruy Castro's biography); never charged. Medium.",
+    "sources": [
+     "https://www.thenewfeminist.co.uk/2022/04/the-voice-of-the-millennium-resists-being-silent/"
+    ]
+   }
+  ],
+  "confidence": "medium",
+  "values_note": "1969 drink-driving crash that killed Soares's mother is real; no hard-line type fits."
+ },
+ {
+  "name": "Frank Rijkaard",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b10",
+    "year": 2011,
+    "from": "kept",
+    "to": "keep",
+    "why": "Coached Saudi Arabia's national team June 2011 - Jan 2013 (coach, half). A national team, not a club, but the same Saudi money; keep.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lothar Matthäus",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b09",
+    "year": 1984,
+    "from": "kept",
+    "to": "keep",
+    "why": "Agreed the Gladbach -> Bayern move before the 1984 DFB-Pokal final, then missed a shoot-out penalty against Bayern. Kevin: 'no opinion', kept.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Zinedine Zidane",
+  "verdict": "add",
+  "lines": [
+   {
+    "type": "b06",
+    "year": 2000,
+    "from": "kept",
+    "to": "keep",
+    "why": "Headbutted Jochen Kientz (Juventus v Hamburg, Oct 2000); UEFA 5-match ban.",
+    "sources": []
+   },
+   {
+    "type": "b12",
+    "year": 2010,
+    "from": "kept",
+    "to": "keep",
+    "why": "Qatar 2022 bid ambassador (Dec 2010 presentation); fee of about USD 15m reported by the Sunday Times, never confirmed.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 2006,
+    "from": "kept",
+    "to": "keep",
+    "why": "Headbutted Materazzi in the 2006 final; FIFA 3-match ban (served as community work); apologised to fans, not to Materazzi.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 1998,
+    "from": "new",
+    "to": "add",
+    "why": "Stamped on Saudi Arabia's Fuad Anwar at the 1998 World Cup; red card and 2-match ban. Deliberate stamp: real violence, part of a pattern (14 career red cards). From memory, not re-checked: medium.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ronaldo (Brazilian)",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b09",
+    "year": 2007,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Milan in Jan 2007 from Real Madrid, not directly from Inter (left Inter 2002); Inter fans still see it as a betrayal. Keep, low weight already.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Romário",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b03",
+    "year": 2007,
+    "from": "kept",
+    "to": "keep",
+    "why": "Finasteride positive (Oct 2007), 120-day ban Dec 2007; acquitted on appeal 14 Feb 2008 (hair-loss treatment). 30% rate stands.",
+    "sources": [
+     "https://www.aljazeera.com/sports/2007/12/19/romario-hit-with-doping-suspension",
+     "https://dawn.com/news/289634"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Francesco Totti",
+  "verdict": "add",
+  "lines": [
+   {
+    "type": "b06",
+    "year": 2010,
+    "from": "kept",
+    "to": "keep",
+    "why": "Deliberately kicked Balotelli from behind in the May 2010 Coppa Italia final; red card, 4-match ban. Retaliation, not a tackle for the ball: real violence.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 2004,
+    "from": "new",
+    "to": "add",
+    "why": "Spat at Denmark's Christian Poulsen at Euro 2004; UEFA 3-match ban; publicly apologised. Same type as Suárez's 2025 spit. Outcome: apologised.",
+    "sources": [
+     "https://cooperativa.cl/noticias/deportes/eurocopa/portugal-2004/uefa-castigo-con-tres-partidos-a-francesco-to/2004-06-17/080710.html",
+     "https://www.filgoal.com/articles/158694"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Andrea Pirlo",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b09",
+    "year": 2001,
+    "from": "kept",
+    "to": "keep",
+    "why": "Direct move Inter -> Milan, summer 2001.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gianluigi Buffon",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b04",
+    "year": 2006,
+    "from": "kept",
+    "to": "keep",
+    "why": "Investigated by Parma prosecutors in 2006 over betting through a tobacconist; admitted betting before the 2005 ban but not on Italian football; cleared by the FIGC. 30% rate stands.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gianluigi_Buffon"
+    ]
+   }
+  ],
+  "confidence": "high",
+  "values_note": "2000 '88' shirt number and 'Boia chi molla' slogan (said ignorance, changed number) and the 2000-01 forged school diploma (fined) are real; Values only."
+ },
+ {
+  "name": "Fabio Cannavaro",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b10",
+    "year": 2010,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Al-Ahli Dubai in 2010 at 36. His coaching jobs at Guangzhou Evergrande, Tianjin and Al-Nassr (2015) are also money-league moves but b10 counts once.",
+    "sources": [
+     "https://www.ansa.it/english/news/2016/02/12/soccer-saudi-club-al-nassr-fires-cannavaro-as-coach_db6b0e68-2801-43b0-afd9-fcdab1eb44c6.html"
+    ]
+   }
+  ],
+  "confidence": "high",
+  "values_note": "2009 cortisone positive after a wasp sting was cleared as emergency treatment; not proposed as b03."
+ },
+ {
+  "name": "Eric Cantona",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "type": "b06",
+    "year": 1995,
+    "from": "kept",
+    "to": "keep",
+    "why": "Kung-fu kick at Crystal Palace fan Matthew Simmons (Jan 1995); convicted of assault, 120 hours community service on appeal; FA ban to 30 Sept 1995 (8 months).",
+    "sources": []
+   },
+   {
+    "type": "b09",
+    "year": 1992,
+    "from": "kept",
+    "to": "keep",
+    "why": "Leeds -> Manchester United, Nov 1992.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 1987,
+    "from": "kept",
+    "to": "drop",
+    "why": "The flying tackle on Der Zakarian was a dangerous tackle in play, not an assault: by the brief, not violent conduct on its own. Replace with the real violence below.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 1988,
+    "from": "new",
+    "to": "add",
+    "why": "Punched Auxerre teammate and goalkeeper Bruno Martini in the face (year approximate, Auxerre spell ended 1988).",
+    "sources": [
+     "https://sites.duke.edu/wcwp/research-projects/european-icons-of-the-1980s-and-1990s/controversy/eric-cantona/"
+    ]
+   },
+   {
+    "type": "b06",
+    "year": 1993,
+    "from": "new",
+    "to": "add",
+    "why": "Spat at Leeds fans at Elland Road (Feb 1993); FA fine GBP 1,000.",
+    "sources": [
+     "https://www.pressreader.com/ireland/the-irish-mail-on-sunday/20201220/283098481685904"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ryan Giggs",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b02",
+    "year": 2020,
+    "from": "kept",
+    "to": "keep",
+    "why": "Arrested Nov 2020, charged April 2021 with assault (ex-partner and her sister) and coercive control; hung jury Aug 2022; retrial dropped July 2023.",
+    "sources": [
+     "https://lbc.co.uk/news/ryan-giggs-retrial-dropped"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Roy Keane",
+  "verdict": "add",
+  "lines": [
+   {
+    "type": "b06",
+    "year": 2001,
+    "from": "kept",
+    "to": "keep",
+    "why": "April 2001 tackle on Alf-Inge Håland, admitted in his 2002 autobiography as deliberate retribution; FA 5-match ban and GBP 150k (2002). Admitted intent to hurt makes it violence, not an ordinary bad tackle.",
+    "sources": []
+   },
+   {
+    "type": "b06",
+    "year": 1999,
+    "from": "kept",
+    "to": "keep",
+    "why": "Arrested 17 May 1999 over an alleged assault on a woman in a Manchester bar; police took no further action (June 1999). Dropped, 30%.",
+    "sources": [
+     "https://www.rte.ie/news/1999/0628/2296-sport"
+    ]
+   },
+   {
+    "type": "b06",
+    "year": 2004,
+    "from": "new",
+    "to": "add",
+    "why": "Charged with assault and criminal damage after an altercation with a 16-year-old outside his home (Sept 2004); found not guilty (2005). Outcome: acquitted.",
+    "sources": [
+     "https://www.irishpost.com/sport/roy-keane-found-not-guilty-in-manchester-56066",
+     "https://www.rte.ie/news/2004/0923/54703-keaner"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "David Beckham",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b12",
+    "year": 2022,
+    "from": "kept",
+    "to": "keep",
+    "why": "Qatar 2022 ambassador; fee reported at GBP 150m over 10 years (not confirmed by him). The 1998 red card (flick at Simeone) is not violent conduct.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Xavi",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b12",
+    "year": 2022,
+    "from": "kept",
+    "to": "keep",
+    "why": "Qatar 2022 World Cup ambassador (Supreme Committee).",
+    "sources": []
+   },
+   {
+    "type": "b10",
+    "year": 2015,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Al Sadd (Qatar) in 2015 at 35, later coached there.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Andrés Iniesta",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b10",
+    "year": 2023,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Emirates Club (UAE) Aug 2023 at 39.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Raúl",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "type": "b10",
+    "year": 2012,
+    "from": "kept",
+    "to": "keep",
+    "why": "Joined Al Sadd (Qatar) in 2012 at 35.",
+    "sources": []
+   }
+  ],
+  "confidence": "high"
+ }
+]

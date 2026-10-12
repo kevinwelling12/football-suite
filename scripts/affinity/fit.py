@@ -45,7 +45,7 @@ def club_profile(side, rnd):
     return dict(f=f, hard=hard, P=P, conn=conn, roots=0)
 
 def club_named(n):
-    r = R[n]; return dict(f=r['f'], hard=r['hard'], P=r['P']['P'] if r['P'] else None, conn=r['conn'], roots=r['roots'][1] if r['roots'] else 0)
+    r = R[n]; return dict(f=r['f'], hard=r['hard'], P=r['P']['P'] if r['P'] else None, conn=r['conn'], roots=r['roots'][1] if r['roots'] else 0, bonus=sum(x for _, x in r.get('bonus', [])))
 
 def player_profile(side):
     v = side['values']
@@ -54,10 +54,10 @@ def player_profile(side):
     return dict(f=f, hard=hard, conn=[('Connection', v.get('CO', 0.0))] if v.get('CO') else [])
 
 def player_named(n):
-    pl = PL[n]; return dict(f=pl['factors'], hard=pl['hard'], conn=pl['conn'])
+    pl = PL[n]; return dict(f=pl['factors'], hard=pl['hard'], conn=pl['conn'], bonus=sum(x for _, x in pl.get('bonus', [])))
 
-def club_A(x, p): return M.club_score(x['f'], x['hard'], x['P'], x['conn'], x['roots'], p)[0]
-def player_A(x, p): return M.player_score(x['f'], x['hard'], x['conn'], p)[0]
+def club_A(x, p): return M.club_score(x['f'], x['hard'], x['P'], x['conn'], x['roots'], p, bonus=x.get('bonus', 0.0))[0]
+def player_A(x, p): return M.player_score(x['f'], x['hard'], x['conn'], p, bonus=x.get('bonus', 0.0))[0]
 
 items = []   # (round, set, a, b, y, weight, scorer)
 gut = [(n, v, r['round']) for n, v, r in E.gut_clubs(ev) if n in R]
@@ -171,8 +171,8 @@ def evaluate(p, its):
 def fmt(e): return ', '.join(f"{s} {h:.1f}/{t:.1f} ({h / t:.0%})" for s, (h, t) in e.items())
 
 def check_report(p):
-    Rp = {n: M.club_score(r['f'], r['hard'], r['P']['P'] if r['P'] else None, r['conn'], r['roots'][1] if r['roots'] else 0, p)[0] for n, r in R.items()}
-    Pp = {n: M.player_score(pl['factors'], pl['hard'], pl['conn'], p)[0] for n, pl in PL.items()}
+    Rp = {n: M.club_score(r['f'], r['hard'], r['P']['P'] if r['P'] else None, r['conn'], r['roots'][1] if r['roots'] else 0, p, bonus=sum(x for _, x in r.get('bonus', [])))[0] for n, r in R.items()}
+    Pp = {n: M.player_score(pl['factors'], pl['hard'], pl['conn'], p, bonus=sum(x for _, x in pl.get('bonus', [])))[0] for n, pl in PL.items()}
     q6 = sum((Rp[a] > Rp[b]) == (y > .5) for a, b, y in checks['q6'] if y != .5)
     q8 = sum((Pp[a] > Pp[b]) == (y > .5) for a, b, y in checks['q8'] if y != .5)
     g = [(Rp[n], v) for n, v, _ in gut]; q7 = [(Pp[n], v) for n, v in checks['q7']]

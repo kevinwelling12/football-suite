@@ -1,0 +1,476 @@
+[
+ {
+  "name": "Alavés",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Athletic Club",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Atlético Madrid",
+  "comps": [
+   "ucl",
+   "esp"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -10.0
+   ],
+   [
+    "Private equity",
+    -9.0
+   ],
+   [
+    "Fan violence",
+    -6.0
+   ],
+   [
+    "Super League",
+    -3.0
+   ]
+  ],
+  "note": "Racism -10; Private equity -9; Fan violence -6; Super League -3"
+ },
+ {
+  "name": "Barcelona",
+  "comps": [
+   "ucl",
+   "esp"
+  ],
+  "hard": [
+   [
+    "Super League",
+    -4.0
+   ],
+   [
+    "Overspend",
+    -3.0
+   ]
+  ],
+  "note": "Super League -4; Folded 2026-10-02: Overspend -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Celta Vigo",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Deportivo La Coruña",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 6->5"
+ },
+ {
+  "name": "Elche",
+  "comps": [
+   "esp"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Espanyol",
+  "comps": [
+   "esp"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -8.0
+   ],
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Private equity -8; Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Getafe",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Levante",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Málaga",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Osasuna",
+  "comps": [
+   "esp"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -3.0
+   ]
+  ],
+  "note": "Fan violence -3"
+ },
+ {
+  "name": "Racing Santander",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Rayo Vallecano",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Real Betis",
+  "comps": [
+   "ucl",
+   "esp"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -4.0
+   ]
+  ],
+  "note": "Fan violence -4; Top-3 audit 2026-10-12: organised ultra fights 2023 to 2025, UEFA away-ticket ban 2025, derby brawl Nov 2025"
+ },
+ {
+  "name": "Real Madrid",
+  "comps": [
+   "ucl",
+   "esp"
+  ],
+  "hard": [
+   [
+    "Super League",
+    -4.0
+   ]
+  ],
+  "note": "Super League -4"
+ },
+ {
+  "name": "Real Sociedad",
+  "comps": [
+   "esp"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 7->6"
+ },
+ {
+  "name": "Sevilla",
+  "comps": [
+   "esp"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -8.0
+   ]
+  ],
+  "note": "Private equity -8"
+ },
+ {
+  "name": "Valencia",
+  "comps": [
+   "esp"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -5.0
+   ]
+  ],
+  "note": "Racism -5"
+ },
+ {
+  "name": "Villarreal",
+  "comps": [
+   "ucl",
+   "esp"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "AC Milan",
+  "comps": [
+   "ita"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -9.0
+   ],
+   [
+    "Super League",
+    -3.0
+   ]
+  ],
+  "note": "Private equity -9; Super League -3"
+ },
+ {
+  "name": "Atalanta",
+  "comps": [
+   "ita"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -3.0
+   ],
+   [
+    "Fan violence",
+    -4.0
+   ]
+  ],
+  "note": "Racism -3; Fan violence -4; Italian decider 2026-10-09: Values 6->7 (community, academy and sponsors ranked first)"
+ },
+ {
+  "name": "Bologna",
+  "comps": [
+   "ita"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Cagliari",
+  "comps": [
+   "ita"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R2 Culture 6->7"
+ },
+ {
+  "name": "Como",
+  "comps": [
+   "ucl",
+   "ita"
+  ],
+  "hard": [
+   [
+    "Overspend",
+    -5.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Overspend -5 -> Ownership -4.2, Values -0.1"
+ },
+ {
+  "name": "Fiorentina",
+  "comps": [
+   "ita"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -2.0
+   ]
+  ],
+  "note": "Racism -2"
+ },
+ {
+  "name": "Frosinone",
+  "comps": [
+   "ita"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 6->5"
+ },
+ {
+  "name": "Genoa",
+  "comps": [
+   "ita"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Rules re-rate 2026-09-30: R3 Team 6->5; Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Inter Milan",
+  "comps": [
+   "ucl",
+   "ita"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -9.0
+   ],
+   [
+    "Fan violence",
+    -9.0
+   ],
+   [
+    "Super League",
+    -3.0
+   ]
+  ],
+  "note": "Private equity -9; Fan violence -9; Super League -3"
+ },
+ {
+  "name": "Juventus",
+  "comps": [
+   "ita"
+  ],
+  "hard": [
+   [
+    "Super League",
+    -4.0
+   ],
+   [
+    "Overspend",
+    -3.0
+   ]
+  ],
+  "note": "Super League -4; Folded 2026-10-02: Overspend -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Lazio",
+  "comps": [
+   "ita"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -30.0
+   ]
+  ],
+  "note": "Racism -30; Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Lecce",
+  "comps": [
+   "ita"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Monza",
+  "comps": [
+   "ita"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -8.0
+   ]
+  ],
+  "note": "Private equity -8; Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Napoli",
+  "comps": [
+   "ucl",
+   "ita"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -3.0
+   ]
+  ],
+  "note": "Fan violence -3; Italian decider 2026-10-09: Values 7->6.5 (community ranked last), Ownership 5->4.5 (owner's false-accounting trial counts half)"
+ },
+ {
+  "name": "Parma",
+  "comps": [
+   "ita"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Roma",
+  "comps": [
+   "ucl",
+   "ita"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -9.0
+   ]
+  ],
+  "note": "Fan violence -9; Rules re-rate 2026-09-30: R2 Culture 9->10"
+ },
+ {
+  "name": "Sassuolo",
+  "comps": [
+   "ita"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Torino",
+  "comps": [
+   "ita"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Udinese",
+  "comps": [
+   "ita"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Venezia",
+  "comps": [
+   "ita"
+  ],
+  "hard": [],
+  "note": ""
+ }
+]

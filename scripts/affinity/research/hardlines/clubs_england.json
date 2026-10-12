@@ -1,0 +1,959 @@
+[
+ {
+  "name": "Arsenal",
+  "comps": [
+   "epl",
+   "ucl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Super League",
+    -3.0
+   ]
+  ],
+  "note": "Super League -3"
+ },
+ {
+  "name": "Aston Villa",
+  "comps": [
+   "epl",
+   "ucl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Overspend",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Overspend -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Bournemouth",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [],
+  "note": "Black Knight flagship (Lorient secondary): no multi-club penalty"
+ },
+ {
+  "name": "Brentford",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Brighton",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Owner's fortune from sports betting",
+    -3.0
+   ]
+  ],
+  "note": "Bloom flagship (Union SG secondary): no multi-club penalty; Folded 2026-10-02: Owner's fortune from sports betting -3 -> Values -1.0"
+ },
+ {
+  "name": "Chelsea",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -12.0
+   ],
+   [
+    "Super League",
+    -3.0
+   ],
+   [
+    "Overspend",
+    -4.0
+   ]
+  ],
+  "note": "Private equity -12; Super League -3; Folded 2026-10-02: Overspend -4 -> Ownership -1.0, Values -1.0"
+ },
+ {
+  "name": "Coventry City",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Crystal Palace",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Everton",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -4 -> Ownership -3.6"
+ },
+ {
+  "name": "Fulham",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Hull City",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Ipswich Town",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -9.0
+   ]
+  ],
+  "note": "Private equity -9"
+ },
+ {
+  "name": "Leeds United",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Liverpool",
+  "comps": [
+   "epl",
+   "ucl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Super League",
+    -3.0
+   ]
+  ],
+  "note": "Super League -3"
+ },
+ {
+  "name": "Manchester City",
+  "comps": [
+   "epl",
+   "ucl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "State-backed",
+    -25.0
+   ],
+   [
+    "Super League",
+    -3.0
+   ],
+   [
+    "Overspend",
+    -6.0
+   ]
+  ],
+  "note": "State-backed -25; Super League -3; Folded 2026-10-02: Overspend -6 -> Ownership -0.0, Values -2.1"
+ },
+ {
+  "name": "Manchester United",
+  "comps": [
+   "epl",
+   "ucl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Leveraged buyout",
+    -12.0
+   ],
+   [
+    "Super League",
+    -3.0
+   ]
+  ],
+  "note": "Leveraged buyout -12; Super League -3"
+ },
+ {
+  "name": "Newcastle United",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "State-backed",
+    -25.0
+   ]
+  ],
+  "note": "State-backed -25"
+ },
+ {
+  "name": "Nottingham Forest",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -4.0
+   ],
+   [
+    "Overspend",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -4 -> Ownership -3.6, Overspend -3 -> Ownership -0.2, Values -1.0"
+ },
+ {
+  "name": "Sunderland",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Tottenham Hotspur",
+  "comps": [
+   "epl",
+   "cup"
+  ],
+  "hard": [
+   [
+    "Super League",
+    -3.0
+   ]
+  ],
+  "note": "Super League -3"
+ },
+ {
+  "name": "Birmingham City",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -8.0
+   ]
+  ],
+  "note": "Private equity -8"
+ },
+ {
+  "name": "Blackburn Rovers",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Bolton Wanderers",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Bristol City",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Burnley",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Leveraged buyout",
+    -10.0
+   ]
+  ],
+  "note": "Leveraged buyout -10"
+ },
+ {
+  "name": "Cardiff City",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Charlton Athletic",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Derby County",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Lincoln City",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Middlesbrough",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Millwall",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -8.0
+   ]
+  ],
+  "note": "Racism -8"
+ },
+ {
+  "name": "Norwich City",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Portsmouth",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Preston North End",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Queens Park Rangers",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Overspend",
+    -2.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Overspend -2 -> Ownership -1.8"
+ },
+ {
+  "name": "Sheffield United",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Conduct",
+    -5.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Other -5 -> Values -1.7"
+ },
+ {
+  "name": "Southampton",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -6.0
+   ],
+   [
+    "Conduct",
+    -3.0
+   ]
+  ],
+  "note": "Private equity -6; Rules re-rate 2026-09-30: R3 Team 5->4; Folded 2026-10-02: Other -3 -> Values -1.0"
+ },
+ {
+  "name": "Stoke City",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Swansea City",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Watford",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -4 -> Ownership -3.0, Values -0.2"
+ },
+ {
+  "name": "West Bromwich Albion",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "West Ham United",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Rules re-rate 2026-09-30: R2 Ownership 3->2; Folded 2026-10-02: Multi-club -3 -> Ownership -2.0, Values -0.3"
+ },
+ {
+  "name": "Wolverhampton Wanderers",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Wrexham",
+  "comps": [
+   "cup",
+   "ch"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -6.0
+   ]
+  ],
+  "note": "Private equity -6"
+ },
+ {
+  "name": "Bradford City",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Fleetwood Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Peterborough United",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "AFC Wimbledon",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Fan-owned (Dons Trust); rebuilt by supporters from the ninth tier"
+ },
+ {
+  "name": "Accrington Stanley",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Barnet",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Barnsley",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 6->5"
+ },
+ {
+  "name": "Blackpool",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Bristol Rovers",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Bromley",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Burton Albion",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 4->3"
+ },
+ {
+  "name": "Cambridge United",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 6->5"
+ },
+ {
+  "name": "Cheltenham Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 6->5"
+ },
+ {
+  "name": "Chesterfield",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Colchester United",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Crawley Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Crypto/NFT investor ownership"
+ },
+ {
+  "name": "Crewe Alexandra",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Values: club failings in the Bennell abuse case (Sheldon report)"
+ },
+ {
+  "name": "Doncaster Rovers",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Exeter City",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Owned by its Supporters' Trust"
+ },
+ {
+  "name": "Gillingham",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Grimsby Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Huddersfield Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Leicester City",
+  "comps": [
+   "cup"
+  ],
+  "hard": [
+   [
+    "Overspend",
+    -5.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Overspend -5 -> Ownership -4.0, Values -0.2"
+ },
+ {
+  "name": "Leyton Orient",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Luton Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Local fan consortium ownership; Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Mansfield Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Milton Keynes Dons",
+  "comps": [
+   "cup"
+  ],
+  "hard": [
+   [
+    "Franchise",
+    -6.0
+   ],
+   [
+    "Overspend",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Franchise -6 -> History -2.2, Values -0.7, Overspend -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Newport County",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Northampton Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Notts County",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Oldham Athletic",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Oxford United",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Plymouth Argyle",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Port Vale",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Reading",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ },
+ {
+  "name": "Rochdale",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Rotherham United",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Salford City",
+  "comps": [
+   "cup"
+  ],
+  "hard": [
+   [
+    "Overspend",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Overspend -4 -> Ownership -3.6"
+ },
+ {
+  "name": "Sheffield Wednesday",
+  "comps": [
+   "cup"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -8.0
+   ]
+  ],
+  "note": "Private equity -8"
+ },
+ {
+  "name": "Shrewsbury Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Stevenage",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Stockport County",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Swindon Town",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Tranmere Rovers",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Walsall",
+  "comps": [
+   "cup"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -4 -> Ownership -3.6"
+ },
+ {
+  "name": "Wigan Athletic",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Wycombe Wanderers",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "York City",
+  "comps": [
+   "cup"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 5->4"
+ }
+]

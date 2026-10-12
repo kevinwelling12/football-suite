@@ -1,0 +1,254 @@
+{
+ "note": "Hard-line re-assessment 2026-10-12 (scripts/affinity/research/hardlines/out_players_*.json). Applied after audit/incidents.json; matched by year and current type.",
+ "players": {
+  "Zlatan Ibrahimović": {
+   "add": [
+    {
+     "year": 2017,
+     "type": "b06",
+     "what": "pattern of violence: punched Bari's Marco Rossi off the ball (2011, ban cut to 2 matches); accepted an FA violent-conduct charge for elbowing Tyrone Mings (2017, 3-match ban)",
+     "outcome": "banned"
+    }
+   ]
+  },
+  "Didier Drogba": {
+   "add": [
+    {
+     "year": 2008,
+     "type": "b06",
+     "what": "sent off in the Champions League final for slapping Nemanja Vidić",
+     "outcome": "red card"
+    }
+   ]
+  },
+  "Samuel Eto'o": {
+   "set": [
+    {
+     "year": 2023,
+     "type": "b04",
+     "outcome": "acquitted: CAF found no proof of match manipulation (July 2024); the $200k fine was for the 1xBet ambassador role"
+    }
+   ]
+  },
+  "Michael Laudrup": {
+   "set": [
+    {
+     "year": 2014,
+     "type": "other",
+     "to_type": "b10",
+     "what": "as coach, Lekhwiya (Qatar, 2014-15) and Al-Rayyan (2016-18)"
+    }
+   ]
+  },
+  "Paolo Rossi": {
+   "set": [
+    {
+     "year": 1980,
+     "type": "b04",
+     "outcome": "sporting tribunal banned him three years, cut to two on appeal; the criminal case is separate; he always denied it"
+    }
+   ]
+  },
+  "Marcel Desailly": {
+   "set": [
+    {
+     "year": 2024,
+     "type": "b02",
+     "year_to": 2013,
+     "outcome": "no charges: a police record (main courante) in 2013, reported in a 2023 paternity suit; no charge or ruling"
+    }
+   ]
+  },
+  "Paul Gascoigne": {
+   "drop": [
+    [
+     1991,
+     "b06"
+    ]
+   ]
+  },
+  "Gheorghe Hagi": {
+   "drop": [
+    [
+     1994,
+     "b09"
+    ]
+   ]
+  },
+  "Joseba Etxeberria": {
+   "drop": [
+    [
+     1995,
+     "b09"
+    ]
+   ]
+  },
+  "Giuseppe Meazza": {
+   "drop": [
+    [
+     1940,
+     "b09"
+    ]
+   ]
+  },
+  "Hope Solo": {
+   "set": [
+    {
+     "year": 2012,
+     "type": "b03",
+     "outcome": "cleared: USADA accepted prescribed medication; public warning, no ban"
+    }
+   ]
+  },
+  "Cristiano Ronaldo": {
+   "add": [
+    {
+     "year": 2022,
+     "type": "b06",
+     "what": "knocked a phone out of a 14-year-old Everton fan's hand",
+     "outcome": "police caution; FA 2-match ban and £50k fine; apologised"
+    },
+    {
+     "year": 2023,
+     "type": "b12",
+     "what": "reported paid deal (about €200m, AFP, one anonymous source) with Saudi Arabia's PIF to promote the Saudi World Cup bid; described as a 2034 bid ambassador",
+     "outcome": "reported"
+    }
+   ]
+  },
+  "Neymar": {
+   "add": [
+    {
+     "year": 2020,
+     "type": "b06",
+     "what": "hit Álvaro González on the back of the head in the PSG-Marseille brawl",
+     "outcome": "red card, 2-match ban; said he 'acted like a fool' (treated as an apology)"
+    }
+   ]
+  },
+  "Darwin Núñez": {
+   "set": [
+    {
+     "year": 2024,
+     "type": "other",
+     "to_type": "b06",
+     "outcome": "exchanged punches with fans in the stands; 5-match CONMEBOL ban; no apology"
+    }
+   ],
+   "add": [
+    {
+     "year": 2022,
+     "type": "b06",
+     "what": "headbutted Joachim Andersen (Crystal Palace)",
+     "outcome": "red card, 3-match ban; apologised"
+    }
+   ]
+  },
+  "Diego Maradona": {
+   "add": [
+    {
+     "year": 1984,
+     "type": "b06",
+     "what": "kneed Miguel Ángel Sola unconscious in the brawl after the Copa del Rey final",
+     "outcome": "long ban (length disputed)"
+    }
+   ],
+   "set": [
+    {
+     "year": 2017,
+     "type": "other",
+     "to_type": "b10",
+     "what": "as coach, Al-Wasl (UAE, 2011-12) and Al-Fujairah (UAE, 2017-18)"
+    }
+   ]
+  },
+  "George Best": {
+   "add": [
+    {
+     "year": 2005,
+     "type": "b02",
+     "what": "allegations of indecent assault on a young girl and of hitting a woman",
+     "outcome": "police took no further action (dropped)"
+    }
+   ],
+   "set": [
+    {
+     "year": 2004,
+     "type": "b02",
+     "outcome": "no charges; ex-wife's claims, low confidence (the July 2003 arrest was a pub brawl with a photographer)"
+    }
+   ]
+  },
+  "Zinedine Zidane": {
+   "add": [
+    {
+     "year": 1998,
+     "type": "b06",
+     "what": "stamped on Saudi Arabia's Fuad Anwar at the World Cup",
+     "outcome": "red card, 2-match ban"
+    }
+   ]
+  },
+  "Francesco Totti": {
+   "add": [
+    {
+     "year": 2004,
+     "type": "b06",
+     "what": "spat at Christian Poulsen at Euro 2004",
+     "outcome": "3-match UEFA ban; apologised"
+    }
+   ]
+  },
+  "Eric Cantona": {
+   "drop": [
+    [
+     1987,
+     "b06"
+    ]
+   ],
+   "add": [
+    {
+     "year": 1988,
+     "type": "b06",
+     "what": "punched Auxerre teammate Bruno Martini",
+     "outcome": "suspended by the club"
+    },
+    {
+     "year": 1993,
+     "type": "b06",
+     "what": "spat at Leeds fans",
+     "outcome": "£1,000 FA fine"
+    }
+   ]
+  },
+  "Roy Keane": {
+   "add": [
+    {
+     "year": 2004,
+     "type": "b06",
+     "what": "charged with assault after an altercation with a 16-year-old",
+     "outcome": "not guilty (acquitted, 2005)"
+    }
+   ]
+  },
+  "Jamie Carragher": {
+   "set": [
+    {
+     "year": 2018,
+     "type": "other",
+     "to_type": "b06"
+    }
+   ]
+  },
+  "Ian Wright": {
+   "add": [
+    {
+     "year": 2000,
+     "type": "b06",
+     "what": "manhandled the fourth official in the tunnel after Kilmarnock v Celtic",
+     "outcome": "disrepute charge dropped after his move"
+    }
+   ]
+  }
+ }
+}

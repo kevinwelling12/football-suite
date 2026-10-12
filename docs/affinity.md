@@ -19,7 +19,7 @@ step-by-step history of the model is in git (docs/affinity.md before 2026-10-09)
    - Measurements are pure: the minor penalties folded into the factors on 2026-10-02 were unfolded back into hard lines.
      Team includes the squad interplay (homegrown share for clubs, club links for nations) and the best current players;
      History includes the icons (players_link.py).
-2. **Hard lines** come off character: Q+ = Q - hard x (points), floored at 0, no cap ("shitheads need not apply").
+2. **Hard lines** come off character (and **bonuses** for exceptional good work go on, at half the scale: scripts/affinity/bonuses.json, since 2026-10-12): Q+ = Q - hard x (points), floored at 0, no cap ("shitheads need not apply").
    One list for every entity: racism, abuse, match-fixing, state ownership or a government's record, violence, private
    equity, leveraged buyouts, the Super League, money-league moves, betting or arms money, overspending, multi-club
    feeders, relocation. Club points are researched per club (scores.py notes); player points follow Kevin's best-worst

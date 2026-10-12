@@ -1,0 +1,99 @@
+[
+{"name": "New York City Football Club",
+ "verdict": "confirmed",
+ "lines": [
+  {"label": "State-backed", "from": 12, "to": 12, "year": 2013, "why": "City Football Group, which holds about 80% of NYCFC, is controlled by Abu Dhabi United Group (Sheikh Mansour); NYCFC is a satellite of a state-controlled group, so 12 (Manchester City carries the full 25).", "sources": ["https://en.wikipedia.org/wiki/New_York_City_FC", "https://en.wikipedia.org/wiki/City_Football_Group"]},
+  {"label": "Multi-club", "from": 6, "to": 6, "year": 2013, "why": "Secondary club in the CFG network with Manchester City as flagship; top of the 3-6 band because CFG runs player and staff flows centrally. Already folded into Ownership/Values (2026-10-02).", "sources": ["https://en.wikipedia.org/wiki/City_Football_Group"]}],
+ "values_note": "Not proposed as a line: Oct 2024 MLS confirmed a spectator's homophobic slur at Cincinnati's Acosta stopped an NYCFC home match at Red Bull Arena; both clubs condemned it, no sanction reported. In 2018 NYCFC banned a supporter tied to the Proud Boys (old, club acted). A June 2022 away-end misconduct case (reported ticket cut) is from one blog only, unverified. If another case follows, Racism 2-3 would apply.",
+ "confidence": "high"},
+
+{"name": "Red Bull New York",
+ "verdict": "confirmed",
+ "lines": [
+  {"label": "Multi-club", "from": 6, "to": 6, "year": 2006, "why": "Owned by Red Bull GmbH since 2006 and a secondary club in the Red Bull network (Salzburg, Leipzig); players move up the chain. Red Bull GmbH is privately owned (Yoovidhya family 51%, Mateschitz 49%), so no state line. Already folded into Ownership/Values.", "sources": ["https://en.wikipedia.org/wiki/New_York_Red_Bulls", "https://en.wikipedia.org/wiki/Red_Bull_GmbH"]}],
+ "confidence": "high"},
+
+{"name": "Colorado Rapids",
+ "verdict": "confirmed",
+ "lines": [
+  {"label": "Multi-club", "from": 3, "to": 3, "year": 2004, "why": "Kroenke Sports & Entertainment owns Arsenal (flagship, 0) and the Rapids; the Rapids are a secondary holding but not a feeder, so the low end. Already folded into Ownership.", "sources": ["https://en.wikipedia.org/wiki/Kroenke_Sports_%26_Entertainment"]}],
+ "confidence": "high"},
+
+{"name": "San Diego FC",
+ "verdict": "add",
+ "lines": [
+  {"label": "Multi-club", "from": 4, "to": 4, "year": 2023, "why": "Mohamed Mansour's Right to Dream network also owns FC Nordsjaelland (owned since 2015) and FC Masar; SDFC is the newer, secondary club with an integrated academy pathway. Already folded into Ownership. Mansour served as Egypt's transport minister (2006-09) but the club is privately owned, so no state line.", "sources": ["https://en.wikipedia.org/wiki/San_Diego_FC", "https://en.wikipedia.org/wiki/Right_to_Dream_Academy"]},
+  {"label": "Fan violence", "from": 0, "to": 3, "year": 2025, "why": "Two brawls in the stands at Snapdragon Stadium in the first season, after the LAFC match (late March 2025) and the LA Galaxy match (24 May 2025, spilling into the car parks); the club banned 33 people indefinitely from all club and MLS matches and tightened security, so the low end of the repeated band.", "sources": ["https://global.espn.com/soccer/story/_/id/45395399/san-diego-fc-ban-33-fans-la-galaxy-postgame-brawl", "https://www.tmz.com/2025/03/31/mls-fan-sucker-punched-lafc-san-diego-fc-brawl/", "https://mlsmultiplex.com/san-diego-fc-crowd-trouble-pattern-after-la-galaxy-visit-01jw2tr9te8m"]}],
+ "values_note": "Feb 2025: a homophobic chant at the inaugural home match; the club and supporters run the 'Aqui No' campaign against it. Not counted as a line (no sanction).",
+ "confidence": "medium"},
+
+{"name": "LA Galaxy",
+ "verdict": "add",
+ "lines": [
+  {"label": "Fan violence", "from": 0, "to": 2, "year": 2025, "why": "MLS fined the Galaxy $100,000, put the club under league security oversight and suspended all supporter-group privileges for serious misconduct (flares during play) at the 4 July 2024 El Trafico; Galaxy and San Diego fans then fought in the stands and car parks at Snapdragon Stadium on 24 May 2025. One sanction plus one brawl: single-incident level.", "sources": ["https://mlssoccer.com/news/mls-statement-on-la-galaxy", "https://abc7.com/post/massive-brawl-between-fans-breaks-la-galaxys-loss-san-diego-fc-snapdragon-stadium/16538153/"]}],
+ "confidence": "medium"},
+
+{"name": "Los Angeles Football Club",
+ "verdict": "add",
+ "lines": [
+  {"label": "Fan violence", "from": 0, "to": 2, "year": 2025, "why": "MLS fined LAFC $100,000 and suspended supporters' group 3252's privileges for the 2024 season over flares before the 2 Dec 2023 playoff match against Houston; LAFC fans were in the brawl after the match at San Diego in late March 2025. Pyrotechnics plus one away brawl: single-incident level.", "sources": ["https://www.mlssoccer.com/news/mls-statement-on-los-angeles-football-club", "https://www.tmz.com/2025/03/31/mls-fan-sucker-punched-lafc-san-diego-fc-brawl/"]}],
+ "values_note": "Low confidence on the brawl share: reports of the March 2025 San Diego fight do not say which side started it. If Kevin counts only league sanctions for violence (the 2023 sanction was for flares, not fighting), drop this line. Note also: co-owner Larry Berg becomes MLS commissioner and must sell his LAFC stake within two years (not a hard line).",
+ "confidence": "low"},
+
+{"name": "CF Montréal",
+ "verdict": "add",
+ "lines": [
+  {"label": "Racism", "from": 0, "to": 2, "year": 2026, "why": "On 1 Aug 2026 Montreal supporters directed antisemitic abuse (reported chants including 'Death to Israel') at New England's Israeli forward Dor Turgeman; MLS investigated and the club banned two fans indefinitely, suspended supporter-group privileges and revoked the implicated section's privileges indefinitely. Single recent case, club acted firmly.", "sources": ["https://www.bostonglobe.com/2026/08/16/sports/mls-montreal-dor-turgeman-antisemitism/", "https://globalnews.ca/news/12023068/cf-montreal-bans-two-fans-for-antisemitism/", "https://africa.espn.com/football/story/_/id/49524591/mls-investigates-alleged-antisemitic-fan-abuse-revolution-dor-turgeman-montreal"]},
+  {"label": "Fan violence", "from": 0, "to": 3, "year": 2026, "why": "Aug 2021: section 132 fans assaulted Toronto supporters outside Stade Saputo; the club closed the section and banned Ultras Montreal 2002, citing repeated violence, intimidation and pyrotechnics (2021, over 5 years: half). May 2023: Montreal supporters brawled with security at BMO Field. Aug 2026: fans banned for throwing objects. Repeated over 5 years, club acted each time: low end.", "sources": ["https://montreal.ctvnews.ca/cf-montreal-closes-ultras-section-of-stadium-after-assaults-intimidation-and-unauthorized-fireworks-1.5576958", "https://soccerstadiumdigest.com/2021/09/cf-montreal-closes-stade-saputo-supporter-section-after-repeated-incidents", "https://www.bostonglobe.com/2026/08/16/sports/mls-montreal-dor-turgeman-antisemitism/"]}],
+ "values_note": "The May 2023 BMO Field brawl is from one search summary; outcome not verified. Saputo's Bologna is the multi-club secondary (already -3); Montreal is the flagship, 0.",
+ "confidence": "medium"},
+
+{"name": "Philadelphia Union",
+ "verdict": "add",
+ "lines": [
+  {"label": "Racism", "from": 0, "to": 3, "year": 2026, "why": "MLS substantiated misconduct by sporting director Ernst Tanner (reported racist remarks about Black players, coaches and referees, plus sexist and anti-gay language) and suspended him without pay to 1 June 2026 with a restorative programme; the club 'supports the league's disciplinary action' but took no action of its own and he has not been dismissed. Single recent case, club passive: top of the 2-3 band.", "sources": ["https://www.mlssoccer.com/news/mls-statement-on-ernst-tanner-x3628", "https://billypenn.com/2026/03/16/ernst-tanner-philadelphia-union-suspended-alleged-misconduct-mls-investigation-closed/", "https://philadelphiasoccernow.com/2026/03/16/philadelphia-union-ernst-tanner-suspended-without-pay-through-june-1/"]}],
+ "values_note": "The Tanner case is already in Ownership -1 (round 1). If this line is accepted, drop that -1 to avoid counting it twice. Tanner denies the allegations. Revisit if he is reinstated (raise) or leaves (could fall to 2).",
+ "confidence": "medium"},
+
+{"name": "Inter Miami CF",
+ "verdict": "confirmed",
+ "lines": [
+  {"label": "Private equity", "from": 6, "to": 6, "year": 2021, "why": "Ares Management, an alternative investment firm, put $150m of preferred equity in when Claure and Son were bought out (Sept 2021) and $75m more in 2023 ($225m in all); a real fund with a major stake but no control and undisclosed terms, so mid-band.", "sources": ["https://www.insideworldfootball.com/2021/09/21/beckham-mas-brothers-take-intermiami-control-ares-backed-deal/", "https://www.sportsbusinessdaily.com/Daily/Morning-Buzz/2023/08/04.aspx"]},
+  {"label": "Overspend", "from": 3, "to": 3, "year": 2021, "why": "MLS fined the club $2m (2021) for salary-cap breaches and owner spending runs well beyond the cap framework; as recorded, already folded into Ownership.", "sources": ["https://en.wikipedia.org/wiki/Inter_Miami_CF"]}],
+ "values_note": "Not a club line: Yannick Bright's MLS ban for a racial slur (April 2026, accepted responsibility) and Suarez's 2025 spitting are already in Values via the player rule.",
+ "confidence": "high"},
+
+{"name": "Bay FC",
+ "verdict": "confirmed",
+ "lines": [
+  {"label": "Private equity", "from": 9, "to": 9, "year": 2023, "why": "Majority owned and controlled by Sixth Street (through its Bay Collective vehicle), a global investment firm, with a 10-year commitment; real PE majority, so upper-middle of the band.", "sources": ["https://en.wikipedia.org/wiki/Bay_FC", "https://fortune.com/2024/04/04/sixth-street-goldman-sachs-tao-bay-fc-sports-deals-soccer-wall-street-private-equity"]}],
+ "values_note": "Bay Collective also bought about 80% of Sunderland Women; Bay FC is the flagship, so no multi-club line.",
+ "confidence": "high"},
+
+{"name": "Seattle Reign",
+ "verdict": "confirmed",
+ "lines": [
+  {"label": "Private equity", "from": 6, "to": 6, "year": 2024, "why": "The Carlyle Group co-owns the club with the Sounders' owners ($58m, June 2024); reports call Carlyle the majority financier, but the Sounders operate it and Hanauer is governor (Carlyle's head of private credit is alternate), so below Bay FC's 9.", "sources": ["https://www.soundersfc.com/news/ownership-group-of-sounders-fc-and-global-investment-firm-carlyle-invest-in-three-time-nwsl-shield-winner-seattle-reign-fc", "https://www.sportico.com/business/team-sales/2024/carlyle-sounders-reign-nwsl-sale-58-million-1234771244/"]}],
+ "values_note": "The 2023 NWSL $50,000 fine (Yates/joint investigation) was under OL Groupe, a previous owner: no effect. If Kevin wants PE lines to follow stake size only, Carlyle's reported majority would put this at 8-9.",
+ "confidence": "medium"},
+
+{"name": "North Carolina Courage",
+ "verdict": "confirmed",
+ "lines": [
+  {"label": "Franchise", "from": 4, "to": 4, "year": 2017, "why": "Bought the Western New York Flash and moved it to Cary in 2017; as recorded, already folded into History.", "sources": ["https://en.wikipedia.org/wiki/North_Carolina_Courage"]}],
+ "values_note": "Jan 2023: NWSL fined the Courage $100,000 after the joint investigation (Riley era) and required staff changes; the club fired Riley on the day the allegations surfaced (2021) and the owner (Malik) is unchanged. Owner consequences with no repeat: a Values matter (V already 5), not a hard line.",
+ "confidence": "high"},
+
+{"name": "Loudoun United FC",
+ "verdict": "remove",
+ "lines": [
+  {"label": "Multi-club", "from": 4, "to": 0, "year": 2023, "why": "Since Feb 2023 Attain Sports & Entertainment holds the majority and D.C. United only a minority stake; the club stopped being D.C.'s reserve side, and a minority stake by another club is not counted elsewhere (LAFC in Angel City, Blitzer at RSL/Utah), so it is no longer a network club. Undo the fold (Ownership -3.6).", "sources": ["https://onthemoney.sportbusiness.com/news/dc-united-gives-up-controlling-stake-in-usl-club-loudoun-united/", "https://en.wikipedia.org/wiki/Loudoun_United_FC"]}],
+ "values_note": "May 2021: USL investigated reported racist chants by Loudoun fans at a Red Bulls II player; outcome not found, over 5 years old, under the previous owner. No line.",
+ "confidence": "medium"},
+
+{"name": "Washington Spirit",
+ "verdict": "confirmed",
+ "lines": [],
+ "values_note": "Still Kang's flagship (her first club and home base); Lyon already carries the secondary multi-club line (-3, folded). Kang agreed in June 2026 to buy 87.8% of Eagle Football Group (Lyon men); reported completed late June, AMF tender offer pending. If Kevin sees Lyon as the flagship now, the Spirit would take a multi-club 4-6 and Lyon would drop to 0. 2021 Burke/Baldwin case is under the previous owner: no effect.",
+ "confidence": "medium"}
+]

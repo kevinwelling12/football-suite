@@ -1,0 +1,623 @@
+[
+ {
+  "name": "Atlanta United",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Austin FC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Charlotte FC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Chicago Fire FC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R2 Culture 5->6"
+ },
+ {
+  "name": "FC Cincinnati",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Colorado Rapids",
+  "comps": [
+   "mls"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Columbus Crew",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "D.C. United",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "FC Dallas",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Houston Dynamo FC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Inter Miami CF",
+  "comps": [
+   "mls"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -6.0
+   ],
+   [
+    "Overspend",
+    -3.0
+   ]
+  ],
+  "note": "Private equity -6; Folded 2026-10-02: Overspend -3 -> Ownership -2.7"
+ },
+ {
+  "name": "LA Galaxy",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Los Angeles Football Club",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": "Folded 2026-10-02: Republic link +2 -> connection items"
+ },
+ {
+  "name": "Minnesota United FC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "CF Montréal",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Nashville SC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "New England Revolution",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R2 Culture 4->5"
+ },
+ {
+  "name": "New York City Football Club",
+  "comps": [
+   "mls"
+  ],
+  "hard": [
+   [
+    "State-backed",
+    -12.0
+   ],
+   [
+    "Multi-club",
+    -6.0
+   ]
+  ],
+  "note": "State-backed -12; Rules re-rate 2026-09-30: R2 Culture 5->6; Folded 2026-10-02: Multi-club -6 -> Ownership -1.0, Values -1.7"
+ },
+ {
+  "name": "Red Bull New York",
+  "comps": [
+   "mls"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -6.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -6 -> Ownership -2.0, Values -1.3"
+ },
+ {
+  "name": "Orlando City",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Philadelphia Union",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Portland Timbers",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": "Cascadia decider 2026-09-30: Ownership 5->6 (owner's past misconduct counts half; no repeat)"
+ },
+ {
+  "name": "Real Salt Lake",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "San Diego FC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -4 -> Ownership -3.6"
+ },
+ {
+  "name": "San Jose Earthquakes",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Seattle Sounders FC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": "Cascadia decider 2026-09-30: Culture 9->8 (NFL stadium, likely suburban move), History 8->7, Ownership 6->5 (2025 conduct, ownership change pending)"
+ },
+ {
+  "name": "Sporting Kansas City",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "St. Louis CITY SC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Toronto FC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Vancouver Whitecaps FC",
+  "comps": [
+   "mls"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Angel City FC",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Bay FC",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -9.0
+   ]
+  ],
+  "note": "Private equity -9"
+ },
+ {
+  "name": "Boston Legacy",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R2 Culture 4->5"
+ },
+ {
+  "name": "Chicago Stars",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Denver Summit",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R2 Culture 6->7"
+ },
+ {
+  "name": "Gotham FC",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Houston Dash",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Kansas City Current",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "North Carolina Courage",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [
+   [
+    "Franchise",
+    -4.0
+   ]
+  ],
+  "note": "Rules re-rate 2026-09-30: R2 Ownership 5->4; Folded 2026-10-02: Franchise -4 -> History -2.2"
+ },
+ {
+  "name": "Orlando Pride",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Portland Thorns",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Racing Louisville",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "San Diego Wave",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Seattle Reign",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [
+   [
+    "Private equity",
+    -6.0
+   ]
+  ],
+  "note": "Private equity -6"
+ },
+ {
+  "name": "Utah Royals",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Washington Spirit",
+  "comps": [
+   "nwsl"
+  ],
+  "hard": [],
+  "note": "Kang flagship (Lyon, London City secondary): no multi-club penalty"
+ },
+ {
+  "name": "Sacramento Republic FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R2 Culture 9->10"
+ },
+ {
+  "name": "Louisville City FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Detroit City FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Charleston Battery",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Pittsburgh Riverhounds",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Tampa Bay Rowdies",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Indy Eleven",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Hartford Athletic",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Birmingham Legion FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Miami FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Rhode Island FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Loudoun United FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -4.0
+   ]
+  ],
+  "note": "Folded 2026-10-02: Multi-club -4 -> Ownership -3.6"
+ },
+ {
+  "name": "Brooklyn FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Sporting JAX",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R2 Culture 2->3"
+ },
+ {
+  "name": "Lexington SC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Monterey Bay FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Oakland Roots SC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "FC Tulsa",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Orange County SC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Las Vegas Lights FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "San Antonio FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Phoenix Rising FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "El Paso Locomotive FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Colorado Springs Switchbacks FC",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "New Mexico United",
+  "comps": [
+   "usl"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R4 Values 8->7, R2 Culture 8->9"
+ }
+]

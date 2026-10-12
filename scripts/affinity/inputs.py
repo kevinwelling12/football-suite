@@ -122,12 +122,13 @@ def player_hard(p):
     for e in (p.get('incidents') or []) + (p.get('money_moves') or []):
         t = e.get('type')
         if t not in P_POINTS: continue
+        if t == 'b10' and p.get('gender') == 'W': continue   # money-league moves apply to men only (B13)
         txt = ' '.join(str(e.get(k, '')) for k in ('what', 'outcome')).lower(); coach = re.search(r'manag|coach', txt)
         pts = P_POINTS[t]
         if t == 'b10' and not coach and born and e.get('year'): pts = money_points(e['year'] - born)
         f = 1.0
         if re.search(r'acquit|dismiss|dropped|cleared|closed|not guilty|no charges|charges were|overturned|annulled|quashed', txt): f = 0.3
-        elif re.search(r'apolog', txt): f = 0.6
+        elif re.search(r'apolog', txt) and not re.search(r'\b(no|not|never|without|refused to)\s+(\w+\s+)?apolog', txt): f = 0.6
         if t == 'b10' and coach: f *= 0.5
         items.append((t, f"{P_LABEL[t]} ({e.get('year', '?')})", round(pts * f, 1), e.get('what', '')))
     if born and p.get('gender') != 'W':

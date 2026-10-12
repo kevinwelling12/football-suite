@@ -890,3 +890,9 @@ Scenarios (happiness 0-10):
     positive association links up (cap 5 -> 7), negative unchanged; nation ancestry 0.4 -> 0.3 per % (cap 7.5); John Fisher
     (Athletics) full rival weight; Denmark and Norway Values 7.9; KC Current Values back to 8.0. Backtest: deciders 11 -> 13
     of 19, club gut orderings 88% -> 90%, gut r 0.789 -> 0.796, real-club pairs 18 -> 20 of 36; Timbers +0.4 over Sounders.
+22. **Hard-line re-assessment** (2026-10-12; research in scripts/affinity/research/hardlines). Kevin: homophobic chanting with
+    a sanction is a discrimination hard line (Racism 2-4), Leeds included; 2021 Super League lines fade to half (3 -> 1.5;
+    Real Madrid, Barcelona, Juventus stay 4). [CURRENT] About 70 club changes (new racism/violence lines, fades, PE and
+    multi-club corrections) and 22 player corrections (players/audit/hardlines_review.json). Code: women skip money-league
+    lines on every path; "no apology" no longer reads as an apology. Backtest: club gut orderings 90% -> 91%, gut r 0.796 ->
+    0.786, deciders 13/19 and Timbers +0.4 unchanged.

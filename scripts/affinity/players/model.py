@@ -89,5 +89,22 @@ def load(raw=False):
             p['incidents'] = [e for i, e in enumerate(allv[:len(inc)]) if i not in drop] + list(fx.get('missing', []))
             p['money_moves'] = [e for i, e in enumerate(allv[len(inc):], len(inc)) if i not in drop]
             facts[n] = p
+    hr = a / 'hardlines_review.json'   # hard-line re-assessment, 2026-10-12
+    if hr.exists():
+        for n, ops in json.loads(hr.read_text())['players'].items():
+            if n not in facts: continue
+            p = dict(facts[n]); inc = [dict(e) for e in p.get('incidents') or []]; mon = [dict(e) for e in p.get('money_moves') or []]
+            hit = lambda e, y, t: e.get('year') == y and e.get('type') == t
+            for y, t in ops.get('drop', []):
+                inc = [e for e in inc if not hit(e, y, t)]; mon = [e for e in mon if not hit(e, y, t)]
+            for o in ops.get('set', []):
+                for e in inc + mon:
+                    if hit(e, o['year'], o['type']):
+                        if o.get('to_type'): e['type'] = o['to_type']
+                        if o.get('year_to'): e['year'] = o['year_to']
+                        for k in ('outcome', 'what'):
+                            if o.get(k): e[k] = o[k]
+            p['incidents'] = inc + [dict(e) for e in ops.get('add', [])]; p['money_moves'] = mon
+            facts[n] = p
     return facts, scores
 

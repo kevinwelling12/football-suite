@@ -1,58 +1,51 @@
 {
  "club_w": {
-  "V": 28.2,
-  "C": 27.1,
-  "H": 17.2,
-  "T": 16.6,
-  "O": 11.0
+  "V": 12.1,
+  "C": 13.2,
+  "H": 6.8,
+  "T": 7.3,
+  "O": 4.7,
+  "I": 32.4,
+  "R": 10.9,
+  "K": 12.5
  },
- "club_pi": 0.124,
  "player_w": {
-  "CH": 36.8,
-  "WK": 39.7,
-  "LO": 23.5
+  "CH": 15.3,
+  "WK": 17.3,
+  "LO": 9.1,
+  "AB": 8.4,
+  "LE": 8.1,
+  "ST": 6.7,
+  "I": 24.3,
+  "K": 10.8
  },
- "perf_w": {
-  "AB": 39.4,
-  "LE": 35.0,
-  "ST": 25.6
- },
- "player_pi": 0.4,
- "hard": 1.982,
- "conn": 1.021,
+ "k_per_point": 0.8,
  "conn_cap": 10,
- "perf_floor": 1.0,
- "perf_neutral": 5.0,
+ "record_neutral": 5.0,
  "home_club": 4,
  "home_nation": 20,
  "heritage_per_pct": 0.3,
  "heritage_cap": 7.5,
- "fit": {
-  "date": "2026-10-09",
-  "items": 366,
-  "checks": {
-   "gut_r": 0.794,
-   "q7_r": 0.367,
-   "q6": "19/36",
-   "q8": "18/29",
-   "timbers": 0.0
-  }
- },
  "club_heritage_per_pct": 0.2,
  "club_heritage_cap": 5,
  "player_heritage_per_pct": 0.2,
  "player_heritage_cap": 5,
  "player_home_nation": 5,
- "hard_x": {
-  "racism": 1.25,
-  "pe": 0.7,
-  "multiclub": 0.7
- },
- "bonus_scale": 1.0,
  "runway": {
   "max": 6,
   "age_full": 22,
   "age_zero": 28.5,
   "gk_shift": 3
+ },
+ "fit": {
+  "date": "2026-10-12",
+  "items": 372,
+  "checks": {
+   "gut_r": 0.786,
+   "q7_r": 0.345,
+   "q6": "19/36",
+   "q8": "18/29",
+   "timbers": 0.6
+  }
  }
 }

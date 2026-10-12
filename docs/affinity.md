@@ -11,41 +11,58 @@ step-by-step history of the model is in git (docs/affinity.md before 2026-10-09)
   prints the leave-one-round-out backtest. Needs numpy and scipy. Refit after a new quiz round.
 - After the nightly sync conflicts on suite_data.json: take main's file and rerun affinity.py.
 
-## The model (same four steps for everything)
-1. **Character** Q = weighted average of the character factors x 10 (0-100).
-   - Clubs, women's clubs, nations: Values, Culture, History, Team, Ownership. Weights are Kevin's stated weights
-     (round 5: 26 / 23 / 16 / 15 / 10 of 90); the fit left them in place.
-   - Players: Character (with his values tags, rounds 11-12), Team player, Loyalty (fitted in rounds 8-10).
-   - Measurements are pure: the minor penalties folded into the factors on 2026-10-02 were unfolded back into hard lines.
-     Team includes the squad interplay (homegrown share for clubs, club links for nations) and the best current players;
-     History includes the icons (players_link.py).
-2. **Hard lines** come off character (and **bonuses** for exceptional good work go on, at half the scale: scripts/affinity/bonuses.json, since 2026-10-12): Q+ = Q - hard x (points), floored at 0, no cap ("shitheads need not apply").
-   One list for every entity: racism, abuse, match-fixing, state ownership or a government's record, violence, private
-   equity, leveraged buyouts, the Super League, money-league moves, betting or arms money, overspending, multi-club
-   feeders, relocation. Club points are researched per club (scores.py notes); player points follow Kevin's best-worst
-   ranking (inputs.py P_POINTS; acquittal 30%, apology 60%). One scale, `hard` = 1.95 (1.66 before the nations round): fitted separately,
-   clubs and players both landed at 1.65-1.7, and a separate weight for a government's record fit no better (round 13). If hard lines take character to 0, nothing is added back.
-3. **Record** R = recent record 0-10, blended geometrically: A0 = 100 x (Q+/100)^(1-pi) x (R x 10/100)^pi, so a weak side
-   drags the total down.
-   - Clubs: the last 10 league seasons (performance.py, top flight and USL only; others are not judged and get the
-     neutral 5). Nations: FIFA ranking percentile and the last two World Cups and continental championship
-     (research/nations_perf.json). pi = 0.10 for teams ("winning matters little").
-   - Players: Greatness 40%, Legacy 35%, Joy to watch 25%; pi = 0.4, Kevin's decision ("all while delivering
-     performances worthy of the highlight reels and the history books").
-4. **Connection and roots** A = A0 + conn x (connection, capped at +/-10) + roots.
-   - Connection: distance from Sacramento, Kevin's other teams and their rivals (big4.py), linked clubs (association.py,
-     links.json), the plastic-fan pulls (global brands, celebrity bandwagons), the Republic link; for players the clubs
-     they played for, by how Kevin rates them (US internationals moved to roots, +5, 2026-10-12).
-   - Roots: Sacramento Republic +4 (hometown), the United States +20 (home nation), ancestry 0.4 per % up to +10 (nations).
-     Since 2026-10-12 also clubs (0.2 per % of the club's own Ancestry region, cap +5; heritage.json club_regions) and
-     players (0.2 per % of their national team's share, cap +5; US internationals +5, replacing the +2 connection item). Effect on the fit: club gut r 0.792 -> 0.789,
-     real-club pairs 19 -> 18 of 36; player checks unchanged; Timbers still above Sounders.
-   - In the app, base = A - roots and bonus = roots.
-- **Leagues**: a league's Affinity is its median club's, shown with how many clubs reach 65 (app: Affinity > Leagues;
-  the mean was dropped 2026-10-09 because a few heavily penalised clubs skewed it).
+## The model: one weighted average (since 2026-10-12)
+Kevin, 2026-10-12: "I want to get rid of all the bonuses and penalties. I want the ratings to live entirely within the
+categories and their weights ... K.I.S.S." So there is one step:
+
+**Affinity = 10 x the weighted average of eight ratings out of 10.** Weights in params.json, fitted by fit.py.
+
+| Clubs, women's clubs, nations | weight | Players | weight |
+|---|---|---|---|
+| Integrity | 32% | Integrity | 24% |
+| Culture | 13% | Team player | 17% |
+| Connection | 13% | Character | 15% |
+| Values | 12% | Connection | 11% |
+| Record | 11% | Loyalty | 9% |
+| Team | 7% | Greatness | 8% |
+| History | 7% | Legacy | 8% |
+| Ownership | 5% | Joy to watch | 7% |
+
+- **Integrity** (new): 10 for a clean record, minus each documented wrong. Clubs and nations: the 6th field in scores.py
+  (and build_usl.py), with the items in the note ("Racism -0.9; Super League -0.5"); inputs.py flags a value that differs
+  from its items. Converted from the old hard lines at 0.36 Integrity points per hard-line point (racism x1.25, private
+  equity and multi-club x0.7, the old type weights), so State-backed -25 became -9 and a 2021 Super League exit -0.5.
+  Players: computed from their incidents (inputs.py P_POINTS, in Integrity points: abuse 14, racist abuse and
+  match-fixing 11, violent conduct and authoritarian ambassador 5.6, tax fraud 4, doping 3.2, forced transfer and a
+  money-league move 2.4 (5.6 / 3.2 / 1.6 by age), rival move 1.6; acquittal 30%, apology 60%).
+- **Record**: a club's last 10 league seasons (performance.py; 5 when not judged), a nation's FIFA ranking and last
+  tournaments. Players have no separate record: Greatness, Legacy and Joy to watch are ratings like the others.
+- **Connection** (new as a rating): 5 with no tie, plus 0.8 per connection point (params k_per_point), within 0-10.
+  Points: distance from Sacramento, Kevin's other teams and their rivals (big4.py), linked clubs (association.py), brand
+  and bandwagon pulls; for players the clubs they played for. Roots count as connection points: hometown +4, home
+  nation +20 (nations) or +5 (US internationals), ancestry (nations 0.3 per %, cap 7.5; clubs and players 0.2 per %, cap 5).
+- **Bonuses** are gone: exceptional good work now sits in the ratings. Clubs: Values +0.45 x the researched points
+  (baked into scores.py, e.g. "Values +2.3 for Fans re-founded the club"); players: Character, the same 0.45
+  (players/audit/good_work.json, applied with the values tags in players/model.py).
+- Team includes the squad interplay and the best current players; History includes the icons (players_link.py).
+- The scale is narrower than before (a linear average has no floor at 0): Manchester City 0 -> 35, Athletic Club 92 -> 89.
+  Thresholds tied to the scale moved with it (old x0.58 + 37): disliked club 50 -> 66 (association.py), player club
+  seasons neutral 50 -> 66 (affinity.py per_season), nation club links 63 / 35 -> 73.5 / 57 (interplay.py), player
+  neutral 60 -> 71.5 (players_link.py), "clubs you'd enjoy" 65 -> 75 (app Leagues).
+- In the app, base = A minus what roots add and bonus = what roots add (drawn apart in the lists).
+- **Leagues**: a league's Affinity is its median club's, shown with how many clubs reach 75.
+- **Years ahead** (active player lists only) is unchanged and is not part of Affinity.
+
+Backtest of the switch (leave-one-round-out, 372 items; old model with hard lines and bonuses -> one weighted average):
+deciders 13 -> 13 of 19, named player pairs 9 -> 12 of 15, nation gut 15.1 -> 15.1 of 16, mystery nations 11 -> 11 of 12,
+club gut 23.8 -> 23.2 of 26, club profiles 24 -> 24 of 28, player profiles 38 -> 39 of 48. Checks: gut r 0.786 -> 0.786,
+real-club pairs 19 -> 19 of 36, named player pairs 20 -> 19 of 29, player gut r 0.372 -> 0.345, Timbers +0.4 -> +0.6 over
+Sounders; Dortmund over Union and Napoli over Fiorentina hold. One rerate: Oakland Roots Values 10 -> 8.8 (the only club at
+10 from research alone; a Common Goal pledge sits with Freiburg and Union, 10 is for clubs their fans saved).
 
 Parameters: scripts/affinity/params.json. Inputs: inputs.py (measurements only), players/model.py (player research
 loader), performance.py, big4.py + proximity.py, association.py, interplay.py, players_link.py, heritage.json.
+The sections below describe the earlier model (hard lines, geometric record blend) and stay as history.
 
 ## Backtest (2026-10-09)
 Evidence: 579 recorded answers (scripts/affinity/evidence, summary.md). Fitted on the 238 that label the score itself:

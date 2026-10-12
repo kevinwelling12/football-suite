@@ -5,7 +5,7 @@ Player -> club, here: each club's Team factor moves with its current squad and i
 by Kevin's Player Affinity for them. No echo: the player score used here leaves out connection (the part that comes
 from the clubs), so the two sides never feed back into each other and one pass each is exact.
 
-- Squad (Team, slot S): every current player in the pool, x = (A - 60) / 15 clipped to +/-1, A = Player Affinity
+- Squad (Team, slot S): every current player in the pool, x = (A - 71.5) / 8.5 clipped to +/-1, A = Player Affinity
   without connection. bump = 1.5 * sum(x) / (n + 4), so one or two players move a club a little and a full squad up
   to +/-1.5 (the +4 is a prior of four neutral players). Only a club's best 5 count: the pool covers Kevin's clubs
   down to the third keeper but other clubs only through their stars, so comparing whole squads would punish the clubs
@@ -18,7 +18,7 @@ Used by scripts/affinity/affinity.py: players_link.bumps(D, S) -> {team: dict}
 import json, pathlib, sys
 here = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(here / 'players')); import model as M
-NEUTRAL, SPREAD, TOP = 60.0, 15.0, 5
+NEUTRAL, SPREAD, TOP = 71.5, 8.5, 5   # one-step Affinity scale (2026-10-12; was 60, 15)
 
 def _resolver(D):
     men, women = {}, {}

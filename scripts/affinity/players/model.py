@@ -3,9 +3,10 @@
 Loads the researched facts (research/out/*.json) and factor scores (scores/*.json, SCORING_BRIEF.md) and applies, in order:
 - the independent audit (audit/merged.json) and the loyalty re-scores (audit/lo_out*.json: judged from when a player
   settles, around 23; Kevin, 2026-10-06);
-- Kevin's values (quiz rounds 11 and 12): Character shifts by VALUES_X x sum(weight x tag) from values/ and values2/;
+- Kevin's values (quiz rounds 11 and 12): Character shifts by VALUES_X x sum(weight x tag) from values/ and values2/,
+  plus exceptional good work (audit/good_work.json);
 - incident corrections (audit/incidents.json: dropped, retyped, new outcomes, missing incidents added).
-The rating itself (character, hard lines, record, connection) lives in affinity.py; hard-line severities in inputs.py.
+The rating itself lives in affinity.py; Integrity (documented wrongs) in inputs.py.
 """
 import json, glob, pathlib, re, unicodedata
 root = pathlib.Path(__file__).resolve().parents[3]
@@ -71,6 +72,10 @@ def load(raw=False):
         for f in sorted((here / folder).glob('out*.json')):
             for n, tg in json.loads(f.read_text()).items():
                 if n in scores: shift[n] = shift.get(n, 0) + sum(VW[k] * float(tg.get(k) or 0) for k in VW)
+    gw = here / 'audit' / 'good_work.json'   # exceptional good work lifts Character (2026-10-12; was a bonus)
+    if gw.exists():
+        for n, xs in json.loads(gw.read_text())['players'].items():
+            if n in scores: shift[n] = shift.get(n, 0) + sum(v for _, v in xs) / VALUES_X
     for n, v in shift.items():
         ch = max(0.0, min(10.0, scores[n]['CH'] + VALUES_X * v))
         scores[n] = {**scores[n], 'CH_research': scores[n]['CH'], 'CH_values': round(VALUES_X * v, 2), 'CH': round(ch, 2)}

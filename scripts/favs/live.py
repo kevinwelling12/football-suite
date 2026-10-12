@@ -7,7 +7,10 @@ Clubs: every club is described by the researched facts in scripts/blind (coded/*
 plus distance from Sacramento). For each fact: how far the chosen clubs sit from the average club (in standard
 deviations), times how much they agree with each other (1 - their spread / everyone's spread, at least 0). A club's score
 is the sum over facts of that weight times how far the club sits from the average, scaled 0-100 across all clubs.
-Players: the average score of the clubs they played for, weighted by seasons at each.
+Players: half the average score of the clubs they played for (weighted by seasons at each), half character: 100 x the
+average of six character facts (work rate, humility, time for fans, charity, speaking out, captaincy) minus 25 per
+incident at full strength (violence, abuse, racism, doping, match-fixing, crime, money-league, authoritarian
+ambassador, forced transfer, rival move), within 0-100.
 """
 import json, math, pathlib, re, sys
 here = pathlib.Path(__file__).resolve().parent
@@ -18,7 +21,10 @@ import build, live as blind
 CHOSEN = ['Liverpool', 'Real Madrid', 'Borussia Dortmund', 'Portland Timbers', 'Portland Thorns', 'Sacramento Republic FC']
 HOME = (38.58, -121.49)   # Sacramento
 LABEL = {f[0]: f[2] for f in blind.Q['CF']}
-SKIP = {'home', 'gov'}     # national-team facts
+POS = ('work', 'humble', 'fans', 'charity', 'speak', 'captain')
+NEG = ('viol', 'abuse', 'racism', 'doping', 'fixing', 'crime', 'money', 'ambass', 'forced', 'rival')
+SKIP = {'home', 'gov',      # national-team facts
+        'cheap', 'stable', 'rescue'}   # shared by chance among six clubs, not a reason to like them (Kevin agreed, 2026-10-12)
 
 def model():
     clubs, _ = build.rows()
@@ -71,10 +77,13 @@ def main():
             if a is None or not yrs: continue
             acc += a * yrs; tot += yrs; per[nm] = per.get(nm, 0) + yrs
         if not tot: continue
-        score = round(acc / tot, 1)
-        fx = sorted(((n, round(y / tot, 2), round(lookup(n, T) * y / tot, 1)) for n, y in per.items()), key=lambda x: -x[2])
+        f = p['f']
+        char = max(0.0, min(100.0, 100 * sum(f[k] for k in POS) / len(POS) - 25 * sum(f[k] for k in NEG)))
+        score = round(0.5 * acc / tot + 0.5 * char, 1)
+        fx = [('Character', round(char / 100, 2), round(0.5 * char, 1))] + [(k, f[k], -round(12.5 * f[k], 1)) for k in NEG if f[k] >= 0.05]
+        fx += sorted(((n, round(y / tot, 2), round(0.5 * lookup(n, T) * y / tot, 1)) for n, y in per.items()), key=lambda x: -x[2])
         clubs_ = [c['club'] for c in sorted(fa.get('clubs', []), key=lambda c: c.get('from') or 0) if c.get('club')]
-        e = dict(n=p['n'], a=score, nat=p['nat'], pos=p['pos'], clubs=list(dict.fromkeys(clubs_))[-2:], fx=fx[:6],
+        e = dict(n=p['n'], a=score, nat=p['nat'], pos=p['pos'], clubs=list(dict.fromkeys(clubs_))[-2:], fx=fx[:8],
                  nw=next((c['club'] for c in fa.get('clubs', []) if not c.get('to') and NWSL.search(c.get('club') or '')), None))
         rated.append((p, e))
     rated.sort(key=lambda x: -x[1]['a'])

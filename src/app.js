@@ -828,7 +828,7 @@ function rankList() {
 }
 const PL_TABS = [['ma', 'Men · Active'], ['mt', 'Men · All-time'], ['wa', 'Women · Active'], ['wt', 'Women · All-time']];
 const rankModes = () => PLAYERS.ma ? `<div class="rank-chips">${[['clubs', 'Clubs'], ['players', 'Players'], ['leagues', 'Leagues']].map(([m, l]) => `<button class="rchip" data-rankmode="${m}" aria-pressed="${rankMode === m}" style="--c:#fff">${l}</button>`).join('')}</div>` : '';
-const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>A player's Affinity is the average Affinity of the clubs they played for, weighted by seasons at each. Open a player to see which clubs count.</p></details>`;
+const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>Half clubs, half character. Clubs: the average Affinity of the clubs a player played for, weighted by seasons at each. Character: work rate, humility, time for fans, charity, speaking out and captaincy, with points off for violence, abuse, racism, doping, match-fixing, crime, money-league moves and the like. Open a player to see what counts.</p></details>`;
 // The facts that move a score most: [fact key, value 0-1, points]. Labels from the blind test.
 const fxRows = (fx, labels) => (fx || []).map(([k, x, v]) => `<div class="hb"><span>${esc(labels[k] || k)}</span><span class="bar"><i style="width:${x * 100}%"></i></span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('');
 function viewPlayers() {

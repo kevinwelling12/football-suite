@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Wales",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 8.0,
+        "to": 8.2,
+        "why": "The FAW gave the senior men's and women's teams equal match fees from January 2023 (part-funded by a 25% cut to the men's fees), covering up to the 2026 men's and 2027 women's World Cups; this was not in the earlier evidence and matches the +0.2 given to Denmark and the equal-pay credit given to the Netherlands.",
+        "sources": [
+          "https://www.planetsport.com/soccer/news/wales-mens-womens-teams-receive-equal-financial-rewards-international-games",
+          "https://www.goal.com/en-gh/news/wales-agree-equal-pay-men-women-national-football-teams/blt6fe5270f5d59149e",
+          "https://www.90min.com/posts/wales-agree-equal-pay-deal-for-men-s-and-women-s-national-teams"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "no current betting partner: past deals with Dafabet (2015-18) and BOB Sports (Asian-market betting brand, global partner from May 2021 on a three-year deal) have ended; partners listed on faw.cymru in Jan 2026 are EE, Admiral (insurance), McDonald's, Sport Wales, plus JD and Adidas (no 2024+ renewal of BOB Sports found; marked as not found, not proven absent)",
+      "no UEFA/FIFA discrimination or violence sanctions on the FAW 2021-26 found (last fan-conduct fines are from 2014 and earlier)",
+      "governance: CEO Noel Mooney extended to 2030 (Jan 2026), governance reform programme, Cymru Football Foundation nearly GBP 30m to grassroots facilities; no scandal 2025-26, O stays 7",
+      "coach: Bellamy stayed after a reported Burnley move collapsed (June 2026); no churn",
+      "government: UK Free (Freedom House 92), no hard line"
+    ],
+    "notes": "Equal-pay deal runs to the 2027 Women's World Cup; no extension beyond that found yet. Jess Fishlock criticised the FAW's pay commitment in an S4C documentary (undated, probably before the 2023 deal); not counted. With both changes in this batch Wales (V 8.2) moves further ahead of Norway (V 7.5) for 3rd place.",
+    "confidence": "medium"
+  },
+  {
+    "name": "Norway",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 8.3,
+        "to": 7.5,
+        "why": "Verified: Norsk Tipping (the state-owned gaming monopoly, which runs Oddsen sports betting and online casino as well as lotteries) renewed in March 2026 as general partner of the NFF for 2026-2029, covering the men's and women's national teams plus Eliteserien and Toppserien. That is a top-tier betting sponsor, so the Denmark yardstick applies (-0.8); no ad limits like Denmark's were found, but the brand is the lottery-led company rather than a betting-only brand and its surplus goes to sport by law, so it is not worse than Denmark.",
+        "sources": [
+          "https://www.intergameonline.com/land-based-gaming/news/norsk-tipping-extends-football-collaboration",
+          "https://lotterydaily.com/2026/03/05/marketing/norsk-tipping-norway-5/",
+          "https://insidersport.com/2021/01/21/norsk-tipping-takes-main-sponsorship-of-norwegian-football/"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "FIFA fined the NFF CHF 10,000 (Nov 2025) for anthem disturbance, a pitch invader and order/security at the Oct 2025 Israel qualifier in Oslo; not discrimination, no flags charged; treated as minor and not counted (as Scotland's 2021 anthem fine was)",
+      "no UEFA discrimination or violence sanctions on the NFF 2021-26 found",
+      "NFF under Klaveness kept its stance (Israel-match profits to Doctors Without Borders Gaza work, July 2026 call to suspend Israel per FIFA rules); already in the V evidence, no further change",
+      "women's equal pay since 2017 already counted",
+      "government: Free (Freedom House 99, RSF 1st), no hard line; Norsk Tipping is state-owned but a domestic gaming monopoly, not a state-backing case"
+    ],
+    "notes": "Round 1 flagged Norsk Tipping as unverified; it is now verified as the NFF's general partner to 2029 (fee not disclosed; one trade report says lower than the 2021 deal of NOK 258m, unverified). If Kevin sees a state lottery-led monopoly as milder than Denmark's Oddset brand, -0.4 (V 7.9) is the lower bound, the same range given for Denmark. The previous research's own note said 'lower V by 1 if a main partner'; -0.8 is used for consistency with Denmark. Effect: Norway's gap to Wales for 3rd in the Nations League grows (Norway was 0.6 behind).",
+    "confidence": "medium"
+  }
+]

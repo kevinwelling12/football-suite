@@ -119,9 +119,9 @@
     "V": 2.7,
     "H": 10.0,
     "O": 1.8,
-    "S": 7.2,
-    "Q": 65.8,
-    "A0": 46.6,
+    "S": 7.1,
+    "Q": 65.6,
+    "A0": 46.4,
     "hard": [
      [
       "Racism",
@@ -138,7 +138,7 @@
      "event": "Copa América 2024",
      "result": "champions"
     },
-    "tb": -1.8,
+    "tb": -1.9,
     "clubs": [
      [
       "Atlético Madrid",
@@ -162,7 +162,7 @@
      ]
     ]
    },
-   "base": 46.6,
+   "base": 46.4,
    "bonus": 0,
    "region": ""
   },
@@ -389,9 +389,9 @@
     "V": 3.8,
     "H": 6.2,
     "O": 2.7,
-    "S": 8.3,
-    "Q": 62.5,
-    "A0": 39.9,
+    "S": 8.2,
+    "Q": 62.3,
+    "A0": 39.7,
     "hard": [
      [
       "Racism",
@@ -412,7 +412,7 @@
      "event": "Copa América 2024",
      "result": "runners-up"
     },
-    "tb": 0.3,
+    "tb": 0.2,
     "clubs": [
      [
       "Bayern Munich",
@@ -425,18 +425,18 @@
       0.05
      ],
      [
-      "Real Betis",
+      "Liverpool",
       1,
       0.04
      ],
      [
-      "Liverpool",
+      "Atlético Madrid",
       1,
-      0.04
+      -0.03
      ]
     ]
    },
-   "base": 39.9,
+   "base": 39.7,
    "bonus": 0,
    "region": ""
   },
@@ -493,9 +493,9 @@
     "V": 6.2,
     "H": 6.1,
     "O": 3,
-    "S": 7.1,
-    "Q": 64.7,
-    "A0": 27.7,
+    "S": 7.0,
+    "Q": 64.5,
+    "A0": 27.5,
     "hard": [
      [
       "Government record",
@@ -504,7 +504,6 @@
     ],
     "conn": [],
     "K": 0.0,
-    "S0": 7,
     "P": 5.6,
     "rank": 40,
     "wc2026": "round of 32",
@@ -512,17 +511,12 @@
      "event": "AFCON 2025",
      "result": "round of 16"
     },
-    "tb": 0.1,
+    "tb": 0.0,
     "clubs": [
      [
       "Newcastle United",
       1,
       -0.11
-     ],
-     [
-      "Real Betis",
-      2,
-      0.07
      ],
      [
       "VfB Stuttgart",
@@ -533,10 +527,15 @@
       "Celtic",
       1,
       0.03
+     ],
+     [
+      "Real Betis",
+      2,
+      0.03
      ]
     ]
    },
-   "base": 27.7,
+   "base": 27.5,
    "bonus": 0,
    "region": ""
   },
@@ -1017,9 +1016,9 @@
     "V": 2.8,
     "H": 7,
     "O": 2.8,
-    "S": 6.1,
-    "Q": 55.3,
-    "A0": 19.1,
+    "S": 6.0,
+    "Q": 55.1,
+    "A0": 18.9,
     "hard": [
      [
       "Racism",
@@ -1032,7 +1031,6 @@
     ],
     "conn": [],
     "K": 0.0,
-    "S0": 6,
     "P": 7.7,
     "rank": 10,
     "wc2026": "round of 16",
@@ -1040,17 +1038,12 @@
      "event": "Gold Cup 2025",
      "result": "champions"
     },
-    "tb": 0.1,
+    "tb": 0.0,
     "clubs": [
      [
       "Atlético Madrid",
       2,
       -0.09
-     ],
-     [
-      "Real Betis",
-      4,
-      0.06
      ],
      [
       "PSV Eindhoven",
@@ -1061,10 +1054,15 @@
       "AEK Athens",
       5,
       0.03
+     ],
+     [
+      "Real Sociedad",
+      3,
+      0.03
      ]
     ]
    },
-   "base": 19.1,
+   "base": 18.9,
    "bonus": 0,
    "region": ""
   },
@@ -1079,9 +1077,9 @@
     "V": 4.8,
     "H": 8.2,
     "O": 3.2,
-    "S": 7.0,
-    "Q": 67.6,
-    "A0": 42.0,
+    "S": 6.9,
+    "Q": 67.5,
+    "A0": 41.9,
     "hard": [
      [
       "Government record",
@@ -1090,6 +1088,7 @@
     ],
     "conn": [],
     "K": 0.0,
+    "S0": 7,
     "P": 8.7,
     "rank": 7,
     "wc2026": "quarter-finals",
@@ -1097,17 +1096,12 @@
      "event": "AFCON 2025",
      "result": "champions"
     },
-    "tb": -0.0,
+    "tb": -0.1,
     "clubs": [
      [
       "Paris Saint-Germain",
       5,
       -0.31
-     ],
-     [
-      "Real Betis",
-      5,
-      0.11
      ],
      [
       "PSV Eindhoven",
@@ -1118,10 +1112,15 @@
       "VfB Stuttgart",
       2,
       0.05
+     ],
+     [
+      "Bayern Munich",
+      2,
+      0.04
      ]
     ]
    },
-   "base": 42.0,
+   "base": 41.9,
    "bonus": 0,
    "region": ""
   },
@@ -1589,9 +1588,9 @@
     "V": 7.2,
     "H": 6,
     "O": 6.2,
-    "S": 6.3,
-    "Q": 66.0,
-    "A0": 67.2,
+    "S": 6.2,
+    "Q": 65.8,
+    "A0": 67.0,
     "hard": [],
     "conn": [],
     "K": 0.0,
@@ -1603,7 +1602,7 @@
      "event": "Gold Cup 2025",
      "result": "runners-up"
     },
-    "tb": 0.3,
+    "tb": 0.2,
     "clubs": [
      [
       "New York City Football Club",
@@ -1627,7 +1626,7 @@
      ]
     ]
    },
-   "base": 67.2,
+   "base": 67.0,
    "bonus": 20,
    "region": "Home nation"
   },

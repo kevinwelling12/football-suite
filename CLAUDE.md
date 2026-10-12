@@ -60,7 +60,7 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 
 ## Where the logic lives
-- Affinity (2026-10-12, "back to basics"): scripts/favs/live.py. Kevin's chosen clubs (CHOSEN there: Liverpool, Dortmund, Timbers, Thorns, Republic) define it: for each
+- Affinity (2026-10-12, "back to basics"): scripts/favs/live.py. Kevin's chosen clubs (CHOSEN there: Liverpool, Dortmund, Timbers, Thorns, Republic) define it; they sit at the top of their leagues by PRIORITY (Republic over Timbers if it reaches MLS): for each
   researched fact (scripts/blind facts), how far his clubs stand out from the average club times how much they agree; clubs
   score by how closely they match that profile (0-100), players by the seasons-weighted average of their clubs. Run
   `python3 scripts/favs/live.py`, then build. The blind test (scripts/blind) and the categories model (scripts/affinity)

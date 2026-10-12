@@ -30,3 +30,13 @@ Kevin: "do all four ... The goal here is to make it more accurate, not more tail
 - validate.py: a held-out check against Kevin's earlier named-club and named-player quiz answers. Report only: nothing
   is tuned to it. On the day: club gut orderings 80% -> 82%, named club pairs 33% -> 44%, nation gut 83% -> 85%,
   named player pairs 50% -> 52%, player gut r 0.27 -> 0.40 (the categories model, partly fitted to these, 90/53/94/68%, 0.33).
+
+## Recount, distance and gut check (2026-10-12)
+- Sanctions recounted to one standard for all 355 (SANCTIONS_BRIEF.md, fill/out_sanctions_*.json): discrimination and
+  violence 2021-26, financial 2016-26, mapped to bands (0, 1, 2 for 2-3, 3 for 4+ or far-right/deaths).
+- Distance on a log scale: 1 at home, 0.64 at 110 km, 0.36 at 800 km, about 0 overseas.
+- Gut check (8 named favourites, after the 100): each pick counts as the pick over every other club in its league,
+  each league weighing as much as 3 trade-off answers (Kevin: "it shows which clubs one naturally gravitates to").
+  Kevin: Liverpool, Real Madrid, Dortmund, Portland Timbers, Portland Thorns, Sacramento Republic; Serie A and Ligue 1
+  "don't know". Result: Liverpool, Dortmund, Sacramento #1; Real Madrid #3 (was 9th); Timbers and Thorns #2.
+- validate.py on the day: club gut 80%, named club pairs 33%, nation gut 87%, named player pairs 52%, player gut r 0.40.

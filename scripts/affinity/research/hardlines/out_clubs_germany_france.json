@@ -1,0 +1,467 @@
+[
+ {
+  "name": "Eintracht Frankfurt",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 8,
+    "to": 8,
+    "year": 2025,
+    "why": "Organised, repeated ultra disorder with several UEFA sanctions: Marseille 2022 (fireworks, objects), Naples 2023 riots despite a ticket ban, Frankfurt-Stuttgart clashes Nov 2023 (200+ injured by club and police counts), a suspended away-ticket ban after Roma (Jan 2025) enforced after Camp Nou damage (Nov 2025, upheld on appeal). Recent and ongoing, so full weight; 8 is the low end of the 8-12 band because the club works against offenders.",
+    "sources": [
+     "https://footballgroundguide.com/news/barcelona-demand-uefa-action-after-unacceptable-frankfurt-fans-damage-away-section-of-new-camp-nou.html",
+     "https://www.uefa.com/running-competitions/disciplinary/stadium-bans/",
+     "https://www.blick.ch/sport/fussball/international/bundesliga/ausschreitungen-vor-stadion-ueber-100-verletzte-in-frankfurt-sonderkommission-ermittelt-id19184299.html"
+    ]
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 4,
+    "year": 2025,
+    "why": "Two discrimination cases in the last 5 years: UEFA sanctioned Frankfurt for racist behaviour (a fan's Nazi salute at Marseille, Sept 2022; suspended partial closure and away-ticket ban), and the DFB fined the club in May 2025 for a banner at St. Pauli (Jan 2025) the club itself called queerphobic. Low end of the 4-8 band because the club has a firm public anti-racist stance and accepted the rulings.",
+    "sources": [
+     "https://insideworldfootball.com/?p=136945",
+     "https://www.qatar-tribune.com/article/21419/sports/uefa-fines-juventus-and-eintracht-frankfurt",
+     "https://www.heidelberg24.de/sport/fussball/queerfeindlich-und-homophob-eintracht-frankfurt-knallhart-bestraft-zr-93680412.html"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "1. FC Köln",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2022,
+    "why": "Single serious incident within 5 years: at Nice (8 Sept 2022, Conference League) Köln fans left their section to confront Nice ultras, 32 people were injured; UEFA fined Köln EUR 100,000 and barred away-ticket sales for two matches. No repeat of that scale found since (later DFB fines are pyrotechnics, already in Values).",
+    "sources": [
+     "https://www.getfootballnewsgermany.com/2022/fc-koln-fined-e100k-by-uefa-for-crowd-disturbances-against-nice/",
+     "https://www.cbssports.com/soccer/news/violence-delays-nice-koln-match-injuries-reported-as-flares-fighting-litter-allianz-riviera"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Bayer Leverkusen",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2023,
+    "why": "Single recent discrimination sanction: the DFB fined Leverkusen EUR 18,000 (Jan 2024) for a banner with discriminatory content (on there being only two genders) at Werder Bremen, 25 Nov 2023; the club accepted the ruling. Bottom of the band for one case with a firm response.",
+    "sources": [
+     "https://www.dfb.de/news/detail/18000-euro-geldstrafe-fuer-bayer-leverkusen-258291/"
+    ]
+   }
+  ],
+  "values_note": "Could equally be handled as a small Values cut if Kevin prefers not to treat one banner as a hard line.",
+  "confidence": "low"
+ },
+ {
+  "name": "FC Augsburg",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2021,
+    "why": "David Blitzer's Bolt Football Holdings still holds 45% of Hofmann Investoren (which holds 99.4% of the KGaA) as of Feb 2026; Augsburg is one of several clubs in his portfolio, not its flagship and not an overt feeder, so the low end. A sale has been explored but nothing announced. Folded into Ownership.",
+    "sources": [
+     "https://onthemoney.sportbusiness.com/news/blitzer-eyes-augsburg-sale-german-regulator-stands-by-501-after-ecj-ruling/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "RB Leipzig",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Franchise",
+    "from": 4,
+    "to": 4,
+    "year": 2009,
+    "why": "Created by taking over SSV Markranstädt's licence and rebranding as a corporate club; recorded value kept (folded into History). Leipzig is the flagship of the Red Bull network, so no multi-club line; Red Bull GmbH is a company, not a PE fund.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/RB_Leipzig"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Le Havre",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 4,
+    "to": 4,
+    "year": 2025,
+    "why": "Blue Crow Sports Group completed the purchase of about 96% in July 2025; it also owns CD Leganés and Cancún FC and talks of talent flows between clubs. Le Havre is one club in that network rather than a declared feeder, so mid band. BCSG is a US sports investment group, so no PE line. Folded into Ownership.",
+    "sources": [
+     "https://www.getfootballnewsfrance.com/2025/le-havre-sold-to-american-firm-blue-crow/",
+     "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/ebadat-represents-blue-crow-sports-group-in-acquisition-of-le-ha-1052020"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Le Mans",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2025,
+    "why": "Brazilian sports investor OutField led the 2025 investment and has since taken control; it also co-manages Coritiba (with majority owner Treecorp) and markets the Coritiba-Le Mans link as one strategy. Small network, low end. Folded into Ownership.",
+    "sources": [
+     "https://maquinadoesporte.com.br/maquinistas/maquinistas-como-coritiba-e-le-mans-se-conectam-na-estrategia-da-outfield/",
+     "https://capitalaberto.com.br/empresas/2025/11/com-novos-fidcs-e-safs-outfield-acelera-estrategia-no-mercado-esportivo"
+    ]
+   }
+  ],
+  "values_note": "OutField also runs credit funds (FIDCs) for clubs; it reads as a sports investment group rather than a PE fund, so no PE line. Unverified exact stake.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Lorient",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 4,
+    "to": 4,
+    "year": 2024,
+    "why": "Bill Foley's Black Knight holds a large stake; Bournemouth is the network flagship (0) and Lorient a secondary club. Mid band, consistent with Le Havre. Folded into Ownership.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/FC_Lorient"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lyon",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2026,
+    "why": "Michele Kang's network (Washington Spirit, London City Lionesses, OL); the tracker treats Washington Spirit as her flagship, so Lyon pays the low end. Folded into Ownership.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Olympique_Lyonnais"
+    ]
+   },
+   {
+    "label": "Overspend",
+    "from": 4,
+    "to": 0,
+    "year": 2025,
+    "why": "The overspending that led to the 2025 DNCG relegation ruling and the 2026 wage cap happened under John Textor's Eagle Football; Textor has gone and Kang's Olympe Bidco took control in June 2026. Under the previous-owner rule the penalty drops (it is folded as Ownership -1.3, Values -0.9).",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Olympique_Lyonnais"
+    ]
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 4,
+    "year": 2024,
+    "why": "More than one discrimination case in 5 years: the LFP heard homophobic chants at OL-OM (Feb 2024; outcome not found) and closed the Lyon 1950 section for one match after homophobic chants and smoke bombs in the derby against Saint-Etienne (decision 27 Nov 2024). Low end of the band.",
+    "sources": [
+     "https://sports.orange.fr/football/ligue-1/olympique-lyonnais/article/ol-om-la-lfp-va-se-saisir-des-chants-homophobes-CNT000002c7pna.html",
+     "https://www.goal.com/fr/listes/ligue-1-l-om-et-l-ol-lourdement-sanctionnes-par-la-lfp-officiel/blt7aeeaf73a58e3721"
+    ]
+   }
+  ],
+  "values_note": "Multi-club flagship call is inconsistent with the evidence text ('Lyon is the parent'): OL is now Kang's largest asset and its only men's club. If Kevin treats OL as the flagship, drop the Multi-club 3 and keep it on the Spirit side instead. The Feb 2024 case outcome is unverified; with only the Nov 2024 sanction it would be 2-3.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Marseille",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 6,
+    "to": 8,
+    "year": 2025,
+    "why": "Repeated and organised over the last 5 years with several UEFA sanctions: closed-door UEFA match after the Frankfurt game (Sept 2022), the stoning of Lyon's team bus (Oct 2023, coach Grosso injured), a suspended closed-door ruling after a journalist was hit by a projectile (Nov 2024), a UEFA fine and suspended South Stand closure after Atalanta (Nov 2025), and LFP stand closures in 2026. That matches the 8-12 band ('multiple UEFA/national bans'), level with Frankfurt.",
+    "sources": [
+     "https://www.flashscore.com/news/marseille-to-play-next-champions-league-game-behind-closed-doors-after-crowd-trouble/GhGRexR6",
+     "https://www.goal.com/fr/listes/ligue-1-l-om-et-l-ol-lourdement-sanctionnes-par-la-lfp-officiel/blt7aeeaf73a58e3721",
+     "https://www.insideworldfootball.com/2025/11/14/uefa-halves-feyenoords-sanctions-appeal-marseilles-fenerbache-bologna-feel-force/"
+    ]
+   },
+   {
+    "label": "Overspend",
+    "from": 4,
+    "to": 4,
+    "year": 2026,
+    "why": "UEFA June 2026 settlement (EUR 10m for deficit and squad-cost breaches) under the current owner McCourt; kept (folded into Ownership).",
+    "sources": []
+   }
+  ],
+  "values_note": "Homophobic chants at OM-PSG (Sept 2026) may go to the LFP commission; no sanction found yet. If one is imposed, add Racism 2-3.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Nice",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 6,
+    "to": 6,
+    "year": 2025,
+    "why": "LFP ordered a three-match partial closure of the Populaire Sud after racist and sexist banners ('let the rat hunt begin') and homophobic chants that stopped Nice-OM (Jan 2025); the 2019 Nice-OM homophobic-chant stoppage is old but the behaviour has repeated, so full weight. 6 is mid band.",
+    "sources": [
+     "https://www.maxifoot.fr/nice-om/la-lfp-reagit-aux-chants-et-banderoles-foot-427216.htm",
+     "https://www.rivieraradio.mc/article/ogc-nice-1-5HjdLbL_2/"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 8,
+    "to": 10,
+    "year": 2026,
+    "why": "Organised and repeated: Köln clashes (Sept 2022, 32 injured), about 400 ultras attacked their own players Moffi and Boga at the training centre (30 Nov 2025, prosecutors opened an aggravated-violence case), and the Nice-Metz pitch invasion and damage (17 May 2026) led to two matches behind closed doors upheld on appeal; the 2021 Nice-OM pitch invasion (players attacked) is older and counts half. The club's response was weak (it voiced 'understanding of the frustration' and called the 2026 sanction disproportionate), so higher in the band.",
+    "sources": [
+     "https://fr.soccerway.com/actualites/terem-moffi-jeremie-boga-et-florian-maurice-agresses-par-des-supporters-nicois/fFowb6Tk",
+     "https://www.maxifoot.fr/nice/huis-clos-le-club-va-faire-appel-foot-456326.htm",
+     "https://www.getfootballnewsgermany.com/2022/fc-koln-fined-e100k-by-uefa-for-crowd-disturbances-against-nice/"
+    ]
+   },
+   {
+    "label": "Multi-club",
+    "from": 6,
+    "to": 4,
+    "year": 2024,
+    "why": "INEOS's flagship is Manchester United; Nice is secondary but was put in a blind trust for UEFA and is not used as a feeder. Mid band, consistent with Lorient and Le Havre; 6 is kept for overt feeders (Strasbourg, Troyes). Folded into Ownership/Values.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/OGC_Nice"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Paris FC",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2024,
+    "why": "Red Bull holds about 10.6%; a minority stake as a secondary club of the Red Bull network, low end. Folded into Ownership.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Paris_FC"
+    ]
+   },
+   {
+    "label": "Overspend",
+    "from": 2,
+    "to": 2,
+    "year": 2025,
+    "why": "Owner-funded spending since the 2024 Arnault (Agache) takeover; current owner, kept. Agache is a family holding, not a PE fund. Folded into Ownership.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Paris Saint-Germain",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "State-backed",
+    "from": 25,
+    "to": 25,
+    "year": 2011,
+    "why": "Qatar Sports Investments (Qatar Investment Authority) owns about 86%; ongoing.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C."
+    ]
+   },
+   {
+    "label": "Private equity",
+    "from": 6,
+    "to": 6,
+    "year": 2023,
+    "why": "Arctos Partners, a private-equity fund, holds 12.5%; minority stake, low end.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C."
+    ]
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 4,
+    "year": 2024,
+    "why": "Repeated LFP sanctions for homophobic chanting from the Auteuil stand: two-match closure (one suspended) for chants at PSG-OM (Sept 2023) and a one-match partial closure for chants during PSG-Strasbourg (Oct 2024); a further partial sanction in April 2025 for insults at Adrien Rabiot and his mother. Low end because the club did not appeal and the stadium announcer intervened.",
+    "sources": [
+     "https://www.goal.com/en-om/news/four-psg-players-handed-one-match-suspensions-for-contributing-to-offensive-chants-in-ligue-1-clash-with-marseille/blt144baca025ed5e8a",
+     "https://jamaicaobserver.com/2024/10/30/psg-ordered-close-stand-homophobic-chanting",
+     "https://www.brut.media/fr/articles/chants-homophobes-le-psg-ecope-de-la-fermeture-partielle-dune-tribune-pour-un-match"
+    ]
+   }
+  ],
+  "values_note": "Sources disagree on whether the second partial Auteuil closure was for the Oct 2024 or Oct 2025 match; either way it is within 5 years.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Lens",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 6,
+    "to": 4,
+    "year": 2026,
+    "why": "Funds hold minority stakes only: Side Invest (13.56% since 2023) is a regional fund of the Mulliez family association, IRD and the Hauts-de-France region; Entrepreneur Equity Partners (13.93%, Sept 2026) is Tim Leiweke's US sports and real-estate investment firm, which the US-sports-group rule excludes. Oughourlian (69.1%) is the controlling owner and Lens is his flagship (no multi-club). Below PSG's Arctos 12.5% (a true PE fund), so 4.",
+    "sources": [
+     "https://www.cfnews.net/Acces-libre/Le-RC-Lens-renforce-son-equipe-actionnariale-728277",
+     "https://www.lejournaldesentreprises.com/article/le-rc-lens-ouvre-son-capital-au-fonds-regional-side-invest-2068612",
+     "https://www.bclplaw.com/en-US/events-insights-news/bclp-advises-entrepreneur-equity-partners-on-strategic-investment-in-rc-lens.html"
+    ]
+   }
+  ],
+  "values_note": "No LFP/UEFA supporter sanction found since May 2023 (pyro); Sept 2021 derby clashes are older than 5 years and not repeated.",
+  "confidence": "low"
+ },
+ {
+  "name": "Lille",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 9,
+    "to": 9,
+    "year": 2020,
+    "why": "Owned since Dec 2020 by Merlyn Partners SCSp (Luxembourg investment fund) via Callisto Sporting; full fund control, mid band, level with AC Milan. No change of owner found.",
+    "sources": [
+     "https://onthemoney.sportbusiness.com/news/luxembourg-based-investment-fund-acquires-ligue-1-leaders-lille/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Strasbourg",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 6,
+    "to": 9,
+    "year": 2023,
+    "why": "BlueCo (majority-backed by Clearlake Capital) owns essentially all of Strasbourg; Chelsea, under the same owner, carries 12. A fund-controlled majority owner sits at 9 elsewhere (Lille, AC Milan), so 6 is too low.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace"
+    ]
+   },
+   {
+    "label": "Multi-club",
+    "from": 6,
+    "to": 6,
+    "year": 2026,
+    "why": "Secondary club to Chelsea with player and staff flows; Strasbourg and Chelsea fans protested jointly (March 2026) that it is a feeder. Top of band. Folded into Ownership/Values.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Toulouse",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Private equity",
+    "from": 6,
+    "to": 9,
+    "year": 2020,
+    "why": "RedBird Capital Partners (a PE firm) owns 85% (Sadran 15%); AC Milan, majority-owned by the same fund, carries 9 and Lille's fund owner 9. Sale talk (2023-24) never closed.",
+    "sources": [
+     "https://www.unquote.com/france/official-record/3020317/redbird-capital-acquires-toulouse-football-club",
+     "https://onthemoney.sportbusiness.com/news/redbird-ponders-toulouse-fc-sale-as-uefa-hones-in-on-multi-club-ownership/"
+    ]
+   },
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2020,
+    "why": "Secondary to AC Milan in RedBird's network (blind-trust arrangement for UEFA); low end. Folded into Ownership.",
+    "sources": [
+     "https://insideworldfootball.com/?p=145966"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Troyes",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "State-backed",
+    "from": 12,
+    "to": 12,
+    "year": 2020,
+    "why": "Satellite of City Football Group (majority Abu Dhabi United Group); satellite rate, same as NYCFC. No 2026 sale found.",
+    "sources": [
+     "https://www.cityfootballgroup.com/post/city-football-group-add-estac-troyes-as-tenth-club"
+    ]
+   },
+   {
+    "label": "Multi-club",
+    "from": 6,
+    "to": 6,
+    "year": 2020,
+    "why": "Used as a CFG development/loan club; overt feeder, top of band. Folded into Ownership/Values.",
+    "sources": [
+     "https://insideworldfootball.com/?p=122171"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Rennes",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 2,
+    "year": 2023,
+    "why": "Single discrimination case within 5 years: the LFP disciplinary commission heard homophobic chants by Rennes fans in the Nantes derby (Oct 2023), also aimed at Rennes loanee Matthis Abline; a EUR 70,000 fine covering chants and pyrotechnics is reported by one blog only (unverified).",
+    "sources": [
+     "https://www.goal.com/fr/news/rennes-psg-la-lfp-va-examiner-deventuels-chants-homophobes/17e9azu2laoy21bpa9uy4vxruu",
+     "https://abargenteuil.fr/blog/chants-homophobes-psg-om/"
+    ]
+   }
+  ],
+  "values_note": "Same kind of item as the open Leeds Values question; if Kevin keeps Leeds as is, treat this the same way (Values about -0.2) rather than a hard line.",
+  "confidence": "low"
+ }
+]

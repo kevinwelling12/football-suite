@@ -62,7 +62,7 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 ## Where the logic lives
 - Affinity (2026-10-12): the archetype model, scripts/archetype/live.py (BRIEF.md). Kevin's clubs (CHOSEN: Liverpool,
   Dortmund, Timbers, Thorns, Republic) define an archetype: every club is researched on ten traits (out/*.json) plus
-  distance from Sacramento; each trait weighs the number of his clubs that have it strongly (7+ of 10). His clubs sit at
+  distance from Sacramento; each trait weighs the number of his clubs that have it strongly (7+ of 10); falling below the weakest of his clubs on a trait costs as if all five shared it. His clubs sit at
   the top of their leagues by PRIORITY in scripts/favs/live.py (Republic over Timbers if it reaches MLS). Players: half
   their clubs' Affinity (seasons-weighted), half character. Run `python3 scripts/archetype/live.py`, then build. Older
   models (scripts/favs facts profile, scripts/blind, scripts/affinity) are history.

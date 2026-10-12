@@ -5,7 +5,8 @@
 Kevin: "base the rating on an archetypically perfect club that would result from combining the best qualities of the named
 clubs, focusing most on the traits they share." Traits (BRIEF.md) are scored 0-10 for every club by research (out/*.json),
 plus geography (near Sacramento). Each trait's weight is how many of Kevin's clubs have it strongly (7 or more of 10), so
-traits all five share count five times one only a single club has. The archetype scores 10 on every trait: a club's
+traits all five share count five times one only a single club has. Below the weakest of his clubs on any trait
+costs as if all five shared it (the shared floor). The archetype scores 10 on every trait: a club's
 Affinity is 100 x its weighted trait average / 10. Kevin's clubs then sit at the top of their leagues (PRIORITY).
 Players: half the seasons-weighted Affinity of their clubs, half character (as before).
 """
@@ -47,10 +48,15 @@ def model():
     T = traits()
     w = {k: sum(1 for c in CHOSEN if (T[c].get(k) or 0) >= STRONG) for k in TRAITS}
     W = sum(w.values())
+    # Shared floor (Kevin, 2026-10-12): on every trait, falling below the weakest of his clubs costs as if all five shared
+    # it (weight 5). None of his clubs is state, oligarch or private-equity owned, so that now costs heavily.
+    floor = {k: min(T[c].get(k) or 0 for c in CHOSEN) for k in TRAITS}
     S = {}
     for n, t in T.items():
         parts = [(k, round((t.get(k) or 0) / 10, 2), round(100 * w[k] * (t.get(k) or 0) / 10 / W, 1)) for k in TRAITS if w[k]]
-        S[n] = (round(sum(p[2] for p in parts), 1), sorted(parts, key=lambda p: -p[2]))
+        parts += [('below_' + k, round((t.get(k) or 0) / 10, 2), -round(100 * len(CHOSEN) * (floor[k] - (t.get(k) or 0)) / 10 / W, 1))
+                  for k in TRAITS if (t.get(k) or 0) < floor[k]]
+        S[n] = (round(max(0.0, sum(p[2] for p in parts)), 1), sorted(parts, key=lambda p: -p[2]))
     return S, w, T
 
 if __name__ == '__main__':
@@ -62,7 +68,7 @@ if __name__ == '__main__':
     P = json.loads((root / 'scripts' / 'affinity' / 'params.json').read_text())
     P['favs'] = dict(date='2026-10-12', model='archetype', chosen=CHOSEN,
                      weights={LABEL[k]: v for k, v in sorted(w.items(), key=lambda kv: -kv[1]) if v})
-    P['blind']['labels']['club'] = LABEL
+    P['blind']['labels']['club'] = {**LABEL, **{'below_' + k: f'{v}: below all your clubs' for k, v in LABEL.items()}}
     (root / 'scripts' / 'affinity' / 'params.json').write_text(json.dumps(P, indent=1, ensure_ascii=False))
     print('weights (clubs of 5 with the trait):', {LABEL[k]: v for k, v in w.items()})
     for c in CHOSEN: print(' ', c, S[c][0], {k: T[c].get(k) for k in TRAITS})

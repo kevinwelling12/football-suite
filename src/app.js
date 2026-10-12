@@ -742,7 +742,7 @@ const wPct = (w, k) => Math.round(w[k] / Object.values(w).reduce((a, b) => a + b
 const BL = AFFP.blind || {club: {}, player: {}, labels: {club: {}, player: {}}};
 const topW = (w, n, sign) => Object.entries(w).filter(([, v]) => sign > 0 ? v > 0.05 : v < -0.05).sort((x, y) => sign * (y[1] - x[1])).slice(0, n).map(([l]) => l.toLowerCase()).join(', ');
 const FV = AFFP.favs || {chosen: [], weights: {}};
-const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Every club is measured against an archetype: the perfect club you'd get by combining the best of ${FV.chosen.map(esc).join(', ')}. Each club is researched on ten traits (singing end, city identity, supporters' say, inclusive fan culture, home ground, contending, rituals and tifo, ownership, women's side, playing style) plus distance from Sacramento, each out of 10. A trait counts once for each of your clubs that has it strongly (7 or more), so traits they all share count most. Affinity is the club's weighted trait score out of 100; your own clubs sit at the top of their leagues.</p><p>Trait weights: ${Object.entries(FV.weights).map(([l, v]) => `${esc(l.toLowerCase())} ×${v}`).join(', ')}.</p></details>`;
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Every club is measured against an archetype: the perfect club you'd get by combining the best of ${FV.chosen.map(esc).join(', ')}. Each club is researched on ten traits (singing end, city identity, supporters' say, inclusive fan culture, home ground, contending, rituals and tifo, ownership, women's side, playing style) plus distance from Sacramento, each out of 10. A trait counts once for each of your clubs that has it strongly (7 or more), so traits they all share count most. Falling below the weakest of your clubs on any trait costs as if all five shared it. Affinity is the club's weighted trait score out of 100; your own clubs sit at the top of their leagues.</p><p>Trait weights: ${Object.entries(FV.weights).map(([l, v]) => `${esc(l.toLowerCase())} ×${v}`).join(', ')}.</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
 function viewClubs(k) {
@@ -841,8 +841,8 @@ function viewPlayers() {
       <span class="num sc">${p.a.toFixed(1)}</span></div>${plOpen === n ? `<div class="pl-det">${fxRows(p.fx, BL.labels.player)}</div>` : ''}`).join('')}</div></section>`;
 }
 // Leagues: the median club's Affinity (Kevin, 2026-10-09: a few heavily penalised clubs skewed the mean), plus how many
-// clubs reach 57 (the ones he'd enjoy watching) and the three he rates highest.
-const LIKE = 57;   // about the top fifth of clubs on the archetype scale (2026-10-12)
+// clubs reach 52 (the ones he'd enjoy watching) and the three he rates highest.
+const LIKE = 52;   // about the top fifth of clubs on the archetype scale (2026-10-12)
 function viewLeagues() {
   const L = ORDER.filter(k => k !== 'unl' && T(k).length).map(k => { const xs = T(k).map(affOf).sort((a, b) => a - b), n = xs.length;
     return {k, med: n % 2 ? xs[(n - 1) / 2] : (xs[n / 2 - 1] + xs[n / 2]) / 2, like: xs.filter(a => a >= LIKE).length,

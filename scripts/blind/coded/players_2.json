@@ -74,7 +74,7 @@
   "active": true,
   "position": "DF",
   "nation": "USA",
-  "major_trophies": 4,
+  "major_trophies": 6,
   "world_cup_wins": 1,
   "individual": 2,
   "caps": null,
@@ -99,7 +99,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "No incidents; plaintiff in 2019 USWNT equal-pay lawsuit; joined Qatar-owned PSG 2025 (French club)."
+  "notes": "No incidents; plaintiff in 2019 USWNT equal-pay lawsuit; joined Qatar-owned PSG 2025 (French club). Recount: major_trophies 6: WC 2019, NWSL 2018/2019/2022, CONCACAF 2018, W Gold Cup 2024."
  },
  {
   "name": "Cucho Hernández",
@@ -428,7 +428,7 @@
   "charity": 2,
   "speaks_out": 0,
   "flair": 1,
-  "red_card_violence": 0,
+  "red_card_violence": 1,
   "abuse_allegation": 0,
   "racist_abuse": 0,
   "doping": 0,
@@ -439,7 +439,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 1,
   "forced_transfer": 0,
-  "notes": "Paid Qatar 2022 ambassador (reported £150m deal); 1998 World Cup red card v Argentina (kick at Simeone, not coded as violent conduct); played for Qatar-owned PSG 2013 (French club)."
+  "notes": "Paid Qatar 2022 ambassador (reported £150m deal); 1998 World Cup red card v Argentina (kick at Simeone, not coded as violent conduct); played for Qatar-owned PSG 2013 (French club). Recount: red_card_violence 1: 1998 World Cup kick at Simeone (red card)."
  },
  {
   "name": "David Da Costa",
@@ -503,11 +503,11 @@
   "match_fixing": 0,
   "tax_fraud": 0,
   "criminal_other": 0,
-  "money_league": 0,
+  "money_league": 1,
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: money_league 1: played for Dalian Quanjian (China) Feb 2016-Jan 2017."
  },
  {
   "name": "Declan Rice",
@@ -809,11 +809,11 @@
   "match_fixing": 0,
   "tax_fraud": 0,
   "criminal_other": 1,
-  "money_league": 1,
+  "money_league": 0,
   "rival_move": 0,
   "authoritarian_ambassador": 1,
   "forced_transfer": 0,
-  "notes": "Cocaine positives 1991 and 1997, ephedrine 1994 WC (bans); kneed Sola in 1984 Copa del Rey final brawl; convicted 1998 for firing air rifle at journalists (suspended); partner violence and child-rape allegations, no conviction; coached UAE clubs; Dubai Sports Council ambassador; Italian tax claims ruled in his favour 2021."
+  "notes": "Cocaine positives 1991 and 1997, ephedrine 1994 WC (bans); kneed Sola in 1984 Copa del Rey final brawl; convicted 1998 for firing air rifle at journalists (suspended); partner violence and child-rape allegations, no conviction; coached UAE clubs; Dubai Sports Council ambassador; Italian tax claims ruled in his favour 2021. Recount: money_league 0: UAE jobs were as coach only."
  },
  {
   "name": "Diego Valeri",
@@ -992,7 +992,7 @@
   "active": true,
   "position": "DF",
   "nation": "USA",
-  "major_trophies": 1,
+  "major_trophies": 3,
   "world_cup_wins": 0,
   "individual": 0,
   "caps": null,
@@ -1017,7 +1017,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: major_trophies 3: UWCL 2025, CONCACAF 2022, W Gold Cup 2024; Olympics not counted."
  },
  {
   "name": "Emmanuel Latte Lath",
@@ -1176,7 +1176,7 @@
   "charity": 1,
   "speaks_out": 1,
   "flair": 2,
-  "red_card_violence": 3,
+  "red_card_violence": 2,
   "abuse_allegation": 0,
   "racist_abuse": 0,
   "doping": 0,
@@ -1187,7 +1187,7 @@
   "rival_move": 1,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "1988 punched teammate Martini; 1993 spat at Leeds fans (FA fine); 1995 kung-fu kick at fan (8-month ban, community service); moved Leeds to Man United 1992."
+  "notes": "1988 punched teammate Martini; 1993 spat at Leeds fans (FA fine); 1995 kung-fu kick at fan (8-month ban, community service); moved Leeds to Man United 1992. Recount: red_card_violence 2: 1993 spit at Leeds fans, 1995 kick at fan; 1988 Martini punch was not in a match."
  },
  {
   "name": "Eric Izoita",
@@ -1264,7 +1264,7 @@
   "active": false,
   "position": "FW",
   "nation": "USA",
-  "major_trophies": 0,
+  "major_trophies": 1,
   "world_cup_wins": 0,
   "individual": 0,
   "caps": 106,
@@ -1289,7 +1289,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: major_trophies 1: Gold Cup 1991."
  },
  {
   "name": "Erling Haaland",
@@ -1584,7 +1584,7 @@
   "charity": 0,
   "speaks_out": 0,
   "flair": 0,
-  "red_card_violence": 1,
+  "red_card_violence": 0,
   "abuse_allegation": 0,
   "racist_abuse": 0,
   "doping": 0,
@@ -1595,7 +1595,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "2023 alleged punch on Álex Baena in car park after a match; criminal complaint archived, no sanction."
+  "notes": "2023 alleged punch on Álex Baena in car park after a match; criminal complaint archived, no sanction. Recount: red_card_violence 0: alleged car-park punch was off the pitch, no conviction."
  },
  {
   "name": "Felipe Mora",
@@ -1999,11 +1999,11 @@
   "match_fixing": 0,
   "tax_fraud": 0,
   "criminal_other": 0,
-  "money_league": 1,
+  "money_league": 0,
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "1990 WC spat at Völler, both sent off (apologised, reconciled); Saudi Arabia national-team head coach 2011-13 (national team, not a club)."
+  "notes": "1990 WC spat at Völler, both sent off (apologised, reconciled); Saudi Arabia national-team head coach 2011-13 (national team, not a club). Recount: money_league 0: Saudi job was national-team coach."
  },
  {
   "name": "Franz Beckenbauer",
@@ -2400,7 +2400,7 @@
   "charity": 0,
   "speaks_out": 0,
   "flair": 2,
-  "red_card_violence": 1,
+  "red_card_violence": 0,
   "abuse_allegation": 1,
   "racist_abuse": 0,
   "doping": 0,
@@ -2411,7 +2411,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "1984 convicted of drink-driving and assaulting a police officer (3 months jail); ex-wife and 2005 allegations, no charges."
+  "notes": "1984 convicted of drink-driving and assaulting a police officer (3 months jail); ex-wife and 2005 allegations, no charges. Recount: red_card_violence 0: 1984 assault on a police officer was off-pitch (already in criminal_other)."
  },
  {
   "name": "George Weah",
@@ -2606,7 +2606,7 @@
   "flair": 0,
   "red_card_violence": 0,
   "abuse_allegation": 0,
-  "racist_abuse": 1,
+  "racist_abuse": 0,
   "doping": 0,
   "match_fixing": 0,
   "tax_fraud": 0,
@@ -2615,7 +2615,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "2000 wore '88' shirt and used fascist slogan 'Boia chi molla' (changed number, claimed ignorance); 2006 betting investigation, cleared; played for Qatar-owned PSG 2018-19 (French club)."
+  "notes": "2000 wore '88' shirt and used fascist slogan 'Boia chi molla' (changed number, claimed ignorance); 2006 betting investigation, cleared; played for Qatar-owned PSG 2018-19 (French club). Recount: racist_abuse 0: '88' shirt and 'Boia chi molla' are fascist, kept in notes."
  },
  {
   "name": "Gianluigi Donnarumma",

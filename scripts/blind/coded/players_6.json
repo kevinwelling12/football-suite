@@ -108,7 +108,7 @@
   "active": true,
   "position": "MF",
   "nation": "USA",
-  "major_trophies": 1,
+  "major_trophies": 4,
   "world_cup_wins": 0,
   "individual": 0,
   "caps": null,
@@ -133,7 +133,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "Joined Abu Dhabi-owned Manchester City 2026 (English club, not coded as money_league)."
+  "notes": "Joined Abu Dhabi-owned Manchester City 2026 (English club, not coded as money_league). Recount: major_trophies 4: NWSL 2022, WSL 2026, CONCACAF 2022, W Gold Cup 2024; Olympics not counted."
  },
  {
   "name": "Sam Hiatt",
@@ -142,7 +142,7 @@
   "active": true,
   "position": "DF",
   "nation": "USA",
-  "major_trophies": 1,
+  "major_trophies": 0,
   "world_cup_wins": 0,
   "individual": 0,
   "caps": null,
@@ -167,7 +167,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "League title = 2022 NWSL Shield with OL Reign."
+  "notes": "League title = 2022 NWSL Shield with OL Reign. Recount: major_trophies 0: NWSL Shield not counted."
  },
  {
   "name": "Sam Kerr",
@@ -258,7 +258,7 @@
   "charity": 1,
   "speaks_out": 1,
   "flair": 1,
-  "red_card_violence": 1,
+  "red_card_violence": 0,
   "abuse_allegation": 0,
   "racist_abuse": 0,
   "doping": 0,
@@ -269,7 +269,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 1,
   "forced_transfer": 0,
-  "notes": "Tax fraud conviction Spain 2022 (22-month suspended, fine); assaulted a YouTuber outside a Qatar 2022 stadium (off-field), apologised; 2023 match-fixing allegation, CAF found no proof (fined $200k for betting-ambassador role); Qatar SC 2018-19; Qatar 2022 ambassador."
+  "notes": "Tax fraud conviction Spain 2022 (22-month suspended, fine); assaulted a YouTuber outside a Qatar 2022 stadium (off-field), apologised; 2023 match-fixing allegation, CAF found no proof (fined $200k for betting-ambassador role); Qatar SC 2018-19; Qatar 2022 ambassador. Recount: red_card_violence 0: 2022 YouTuber assault was outside the stadium, not in a match he played, no conviction."
  },
  {
   "name": "Samuele Inácio",
@@ -482,7 +482,7 @@
   "active": false,
   "position": "MF",
   "nation": "Spain",
-  "major_trophies": 16,
+  "major_trophies": 15,
   "world_cup_wins": 1,
   "individual": 1,
   "caps": 143,
@@ -507,7 +507,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "2011: Real Madrid alleged he called Marcelo 'mono'; UEFA dismissed for lack of evidence, he denied it. 2010 feigned-injury episode vs Inter (no sanction)."
+  "notes": "2011: Real Madrid alleged he called Marcelo 'mono'; UEFA dismissed for lack of evidence, he denied it. 2010 feigned-injury episode vs Inter (no sanction). Recount: major_trophies 15: Supporters' Shield not counted."
  },
  {
   "name": "Sergiño Dest",
@@ -686,7 +686,7 @@
   "active": true,
   "position": "FW",
   "nation": "USA",
-  "major_trophies": 2,
+  "major_trophies": 3,
   "world_cup_wins": 0,
   "individual": 2,
   "caps": null,
@@ -711,7 +711,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: major_trophies 3: NWSL 2022, CONCACAF 2022, W Gold Cup 2024; Olympics not counted."
  },
  {
   "name": "Stanley Matthews",
@@ -788,7 +788,7 @@
   "active": true,
   "position": "GK",
   "nation": "Switzerland",
-  "major_trophies": 4,
+  "major_trophies": 3,
   "world_cup_wins": 0,
   "individual": 1,
   "caps": 0,
@@ -813,7 +813,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: major_trophies 3: MLS Cups 2016/2019, CCL 2022; Leagues Cup not counted."
  },
  {
   "name": "Steven Gerrard",
@@ -843,11 +843,11 @@
   "match_fixing": 0,
   "tax_fraud": 0,
   "criminal_other": 0,
-  "money_league": 1,
+  "money_league": 0,
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "2015 red card for stamping on Ander Herrera; 2008 affray charge after bar fight, acquitted (self-defence); managed Al-Ettifaq (Saudi) 2023-25 as coach; 2005 transfer request withdrawn."
+  "notes": "2015 red card for stamping on Ander Herrera; 2008 affray charge after bar fight, acquitted (self-defence); managed Al-Ettifaq (Saudi) 2023-25 as coach; 2005 transfer request withdrawn. Recount: money_league 0: Al-Ettifaq job was as manager."
  },
  {
   "name": "Sun Wen",
@@ -1060,7 +1060,7 @@
   "active": true,
   "position": "FW",
   "nation": "Malawi",
-  "major_trophies": 1,
+  "major_trophies": 4,
   "world_cup_wins": 0,
   "individual": 2,
   "caps": null,
@@ -1081,11 +1081,11 @@
   "match_fixing": 0,
   "tax_fraud": 0,
   "criminal_other": 0,
-  "money_league": 0,
+  "money_league": 1,
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: money_league 1: played for Wuhan Jianghan (China) 2020-23. Recount: major_trophies 4: 4 Chinese Women's Super League titles 2020-23; NWSL Shield not counted."
  },
  {
   "name": "Thibaut Courtois",
@@ -1298,7 +1298,7 @@
   "active": false,
   "position": "FW",
   "nation": "USA",
-  "major_trophies": 8,
+  "major_trophies": 6,
   "world_cup_wins": 2,
   "individual": 1,
   "caps": 181,
@@ -1323,7 +1323,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "Plaintiff in USWNT 2019 equal-pay lawsuit (settled 2022)."
+  "notes": "Plaintiff in USWNT 2019 equal-pay lawsuit (settled 2022). Recount: major_trophies 6: WC 2015/2019, NWSL 2013/2017, CONCACAF 2014/2018; Olympics and Shields not counted."
  },
  {
   "name": "Tom Rothe",
@@ -1536,7 +1536,7 @@
   "active": true,
   "position": "FW",
   "nation": "USA",
-  "major_trophies": 1,
+  "major_trophies": 3,
   "world_cup_wins": 0,
   "individual": 1,
   "caps": null,
@@ -1561,7 +1561,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: major_trophies 3: NWSL 2021, CONCACAF 2022, W Gold Cup 2024; Olympics not counted."
  },
  {
   "name": "Tyler Adams",
@@ -1570,7 +1570,7 @@
   "active": true,
   "position": "MF",
   "nation": "USA",
-  "major_trophies": 1,
+  "major_trophies": 0,
   "world_cup_wins": 0,
   "individual": 0,
   "caps": 58,
@@ -1595,7 +1595,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: major_trophies 0: Supporters' Shield 2018 and Nations League not counted."
  },
  {
   "name": "Unai Simón",
@@ -2114,7 +2114,7 @@
   "active": false,
   "position": "MF",
   "nation": "Canada",
-  "major_trophies": 4,
+  "major_trophies": 3,
   "world_cup_wins": 0,
   "individual": 0,
   "caps": 45,
@@ -2139,7 +2139,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: major_trophies 3: MLS Cups 2009, 2015, 2017 only."
  },
  {
   "name": "Xabi Alonso",

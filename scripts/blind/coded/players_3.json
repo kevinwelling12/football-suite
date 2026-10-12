@@ -278,7 +278,7 @@
   "active": false,
   "position": "FW",
   "nation": "Italy",
-  "major_trophies": 7,
+  "major_trophies": 5,
   "world_cup_wins": 2,
   "individual": 2,
   "caps": 53,
@@ -303,7 +303,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "Inter-to-Milan move (1940) after Inter released him; audit dropped it as a rival move. 1938 team-wide fascist salute under the regime."
+  "notes": "Inter-to-Milan move (1940) after Inter released him; audit dropped it as a rival move. 1938 team-wide fascist salute under the regime. Recount: major_trophies 5: Central European International Cups not counted."
  },
  {
   "name": "Gordon Banks",
@@ -652,7 +652,7 @@
   "active": false,
   "position": "GK",
   "nation": "USA",
-  "major_trophies": 1,
+  "major_trophies": 3,
   "world_cup_wins": 1,
   "individual": 1,
   "caps": 202,
@@ -677,7 +677,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "2014 domestic-violence assault charges, later dropped; 2022 DWI guilty plea with children in car; 2016 suspension for 'cowards' remark; 2012 diuretic test cleared (no doping code)."
+  "notes": "2014 domestic-violence assault charges, later dropped; 2022 DWI guilty plea with children in car; 2016 suspension for 'cowards' remark; 2012 diuretic test cleared (no doping code). Recount: major_trophies 3: WC 2015, CONCACAF 2006/2014; Olympics and Shields not counted."
  },
  {
   "name": "Hristo Stoichkov",
@@ -1482,7 +1482,7 @@
   "charity": 1,
   "speaks_out": 0,
   "flair": 0,
-  "red_card_violence": 1,
+  "red_card_violence": 0,
   "abuse_allegation": 0,
   "racist_abuse": 0,
   "doping": 0,
@@ -1493,7 +1493,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "2018 spat from his car at a man and his 14-year-old daughter; Sky suspension, apologised (audit retyped as violence)."
+  "notes": "2018 spat from his car at a man and his 14-year-old daughter; Sky suspension, apologised (audit retyped as violence). Recount: red_card_violence 0: 2018 spitting was off-pitch, no conviction."
  },
  {
   "name": "Jamie Vardy",
@@ -1516,7 +1516,7 @@
   "charity": 0,
   "speaks_out": 0,
   "flair": 0,
-  "red_card_violence": 1,
+  "red_card_violence": 0,
   "abuse_allegation": 0,
   "racist_abuse": 1,
   "doping": 0,
@@ -1527,7 +1527,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "2007 street assault conviction (tag/curfew); 2015 filmed racially abusing a man in a casino, fined by club and apologised."
+  "notes": "2007 street assault conviction (tag/curfew); 2015 filmed racially abusing a man in a casino, fined by club and apologised. Recount: red_card_violence 0: 2007 street assault was off-pitch (counted in criminal_other only)."
  },
  {
   "name": "Jan Oblak",

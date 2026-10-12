@@ -1,0 +1,710 @@
+{
+ "1. FC Köln": {
+  "country": "Germany",
+  "avg_attendance": 49918,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "AC Milan": {
+  "country": "Italy",
+  "avg_attendance": 73370,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Alavés": {
+  "country": "Spain",
+  "avg_attendance": 16801,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Angers": {
+  "country": "France",
+  "avg_attendance": 12484,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Atalanta": {
+  "country": "Italy",
+  "avg_attendance": 22242,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Athletic Club": {
+  "country": "Spain",
+  "avg_attendance": 47617,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Auxerre": {
+  "country": "France",
+  "avg_attendance": 16313,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Bayer Leverkusen": {
+  "country": "Germany",
+  "avg_attendance": 30016,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Bologna": {
+  "country": "Italy",
+  "avg_attendance": 27742,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Borussia Mönchengladbach": {
+  "country": "Germany",
+  "avg_attendance": 51100,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Brest": {
+  "country": "France",
+  "avg_attendance": 14362,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Cagliari": {
+  "country": "Italy",
+  "avg_attendance": 16007,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Celta Vigo": {
+  "country": "Spain",
+  "avg_attendance": 20007,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Deportivo La Coruña": {
+  "country": "Spain",
+  "avg_attendance": 24251,
+  "att_season": "2025-26 (Segunda División)",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES2/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Eintracht Frankfurt": {
+  "country": "Germany",
+  "avg_attendance": 59071,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Elche": {
+  "country": "Spain",
+  "avg_attendance": 26434,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Espanyol": {
+  "country": "Spain",
+  "avg_attendance": 28646,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "FC Augsburg": {
+  "country": "Germany",
+  "avg_attendance": 29787,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Fiorentina": {
+  "country": "Italy",
+  "avg_attendance": 20400,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Frosinone": {
+  "country": "Italy",
+  "avg_attendance": 11594,
+  "att_season": "2025-26 (Serie B)",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT2/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Genoa": {
+  "country": "Italy",
+  "avg_attendance": 31075,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Getafe": {
+  "country": "Spain",
+  "avg_attendance": 8196,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Hamburger SV": {
+  "country": "Germany",
+  "avg_attendance": 56947,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Juventus": {
+  "country": "Italy",
+  "avg_attendance": 40663,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Lazio": {
+  "country": "Italy",
+  "avg_attendance": 28430,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Le Havre": {
+  "country": "France",
+  "avg_attendance": 19253,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Le Mans": {
+  "country": "France",
+  "avg_attendance": 12033,
+  "att_season": "2025-26 (Ligue 2)",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR2/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/",
+   "https://info.fr/le-mans-fc-abonnements-2026-2027-ligue-1-ouverture-ventes-2026-06/"
+  ]
+ },
+ "Lecce": {
+  "country": "Italy",
+  "avg_attendance": 25842,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Levante": {
+  "country": "Spain",
+  "avg_attendance": 20211,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Lorient": {
+  "country": "France",
+  "avg_attendance": 15382,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Lyon": {
+  "country": "France",
+  "avg_attendance": 49848,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Mainz 05": {
+  "country": "Germany",
+  "avg_attendance": 31797,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Marseille": {
+  "country": "France",
+  "avg_attendance": 62612,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Monaco": {
+  "country": "France",
+  "avg_attendance": 8153,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/",
+   "https://www.monaco-tribune.com/en/2025/06/as-monaco-relaunches-season-ticket-campaign-with-discount-deals/"
+  ]
+ },
+ "Monza": {
+  "country": "Italy",
+  "avg_attendance": 6948,
+  "att_season": "2025-26 (Serie B)",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT2/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Málaga": {
+  "country": "Spain",
+  "avg_attendance": 25361,
+  "att_season": "2025-26 (Segunda División)",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES2/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Nice": {
+  "country": "France",
+  "avg_attendance": 22078,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Osasuna": {
+  "country": "Spain",
+  "avg_attendance": 20560,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Paris FC": {
+  "country": "France",
+  "avg_attendance": 16826,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Parma": {
+  "country": "Italy",
+  "avg_attendance": 18689,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Racing Santander": {
+  "country": "Spain",
+  "avg_attendance": 21099,
+  "att_season": "2025-26 (Segunda División)",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES2/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Rayo Vallecano": {
+  "country": "Spain",
+  "avg_attendance": 12017,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Real Sociedad": {
+  "country": "Spain",
+  "avg_attendance": 30698,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Rennes": {
+  "country": "France",
+  "avg_attendance": 27765,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "SC Freiburg": {
+  "country": "Germany",
+  "avg_attendance": 34118,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "SC Paderborn": {
+  "country": "Germany",
+  "avg_attendance": 14522,
+  "att_season": "2025-26 (2. Bundesliga)",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L2/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "SV Elversberg": {
+  "country": "Germany",
+  "avg_attendance": 9113,
+  "att_season": "2025-26 (2. Bundesliga)",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L2/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Sassuolo": {
+  "country": "Italy",
+  "avg_attendance": 14232,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Schalke 04": {
+  "country": "Germany",
+  "avg_attendance": 61829,
+  "att_season": "2025-26 (2. Bundesliga)",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L2/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Sevilla": {
+  "country": "Spain",
+  "avg_attendance": 35688,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Strasbourg": {
+  "country": "France",
+  "avg_attendance": 27836,
+  "att_season": "2025-26",
+  "capacity": 32300,
+  "ticket_price": null,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "TSG Hoffenheim": {
+  "country": "Germany",
+  "avg_attendance": 26697,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Torino": {
+  "country": "Italy",
+  "avg_attendance": 16871,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Toulouse": {
+  "country": "France",
+  "avg_attendance": 24620,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR1/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/"
+  ]
+ },
+ "Troyes": {
+  "country": "France",
+  "avg_attendance": 7969,
+  "att_season": "2025-26 (Ligue 2)",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/FR2/saison_id/2025",
+   "https://lessentieldeleco.fr/2479-clubs-de-ligue-1-qui-a-labonnement-le-moins-cher/",
+   "https://www.90min.com/fr/posts/ligue-1-le-classement-complet-des-prix-des-abonnements-par-club-pour-la-saison-2024-25",
+   "https://bourseinside.fr/economie/abonnement-ligue-1-ces-clubs-ou-votre-passion-vous-coute-quatre-fois-plus-cher-que-dans-le-reste-de-la-france/",
+   "https://info.fr/troyes-estac-campagne-abonnements-2026-27-ligue-1-2026-06/"
+  ]
+ },
+ "Udinese": {
+  "country": "Italy",
+  "avg_attendance": 22681,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT1/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Union Berlin": {
+  "country": "Germany",
+  "avg_attendance": 21996,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ },
+ "Valencia": {
+  "country": "Spain",
+  "avg_attendance": 44699,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/ES1/saison_id/2025",
+   "https://www.racinguismo.com/2026/07/racing-cuartos-abonos-mas-baratos.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20260807/estos-son-precios-abonos-todos-equipos-laliga-20262027_447116.html",
+   "https://www.eldebate.com/deportes/futbol/la-liga/20250811/estos-son-precios-abonos-todos-equipos-laliga-20252026_324410.html"
+  ]
+ },
+ "Venezia": {
+  "country": "Italy",
+  "avg_attendance": 9030,
+  "att_season": "2025-26 (Serie B)",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/IT2/saison_id/2025",
+   "https://www.tuttoudinese.it/primo-piano/classifica-prezzi-abbonamenti-serie-a-udinese-6-agosto-2026-184043",
+   "https://www.calcioefinanza.it/2025/07/30/serie-a-prezzi-abbonamenti-quanto-costano/"
+  ]
+ },
+ "Werder Bremen": {
+  "country": "Germany",
+  "avg_attendance": 41265,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/L1/saison_id/2025",
+   "https://bundesliga-tickets.com/ligen/1-bundesliga/ticketpreise/erstmarkt/2026/",
+   "https://ran.joyn.de/sports/fussball/bundesliga/dauerkarten-preise-in-der-bundesliga-fc-bayern-muenchen-guenstig-borussia-dortmund-teuer-166444",
+   "https://neunzigplus.de/bundesliga/dauerkarten-bundesliga-2026-27-preise"
+  ]
+ }
+}

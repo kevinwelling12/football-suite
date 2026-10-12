@@ -4,6 +4,16 @@ Rebuilt 2026-10-09 (Kevin: "build one monolithic model across all teams, nations
 piecemeal system"). The rules and judgements it honours, in Kevin's words, are in docs/preferences.md. The earlier,
 step-by-step history of the model is in git (docs/affinity.md before 2026-10-09) and docs/supporter-profile.md.
 
+## Live model: the blind test (since 2026-10-12)
+Kevin, after comparing his blind-test results with the model below: "ship the blind model. It's probably less biased."
+Live Affinity now comes from scripts/blind (README.md there): researched facts only (CODEBOOK.md, coded/*.json),
+weighted by Kevin's own answers to the 100-question blind test (answers/kevin.json). `python3 scripts/blind/live.py`
+writes data/suite_data.json, nations_extra.json, players.json and the weights (params.json "blind"); then build.
+To update: retake the test, copy the new answers into answers/kevin.json, rerun live.py.
+Comparison with the model below on the day: rank agreement 0.72 for clubs and nations, 0.75 for players
+(scripts/blind/comparison_2026-10-12.md). The categories model below is kept as history and still runs, but nothing
+reads its output any more: do not run affinity.py over the live data.
+
 ## Run it
 - `python3 scripts/affinity/affinity.py`: scores every club, women's club, nation and player; writes data/suite_data.json
   (base, bonus, hai), data/nations_extra.json, data/players.json and players/ratings.json. Then `python3 scripts/build.py`.

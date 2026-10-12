@@ -112,7 +112,8 @@ def fill(rows):
             if r['f'].get(k) is None: r['f'][k] = m
     for r in rows: r['f'] = {k: round(v, 3) for k, v in r['f'].items()}
 
-def main():
+def rows():
+    """-> (clubs, players): every entity with its features 0-1 (missing facts at the average)."""
     D = json.loads((root / 'data' / 'suite_data.json').read_text())
     X = json.loads((root / 'data' / 'nations_extra.json').read_text())
     comps = {}
@@ -133,6 +134,10 @@ def main():
         players.append(dict(n=p['name'], g=p.get('gender') or 'M', a=bool(p.get('active')), pos=p.get('position'), nat=p.get('nation'),
                             f=player_features(p)))
     fill(clubs); fill(players)
+    return clubs, players
+
+def main():
+    clubs, players = rows()
     nations = sorted(c['n'] for c in clubs if c['k'] == 'nation')
     used = {k for c in clubs for k in c['comps']}
     data = dict(places=[list(p) for p in PLACES], nations=nations, comps=[list(c) for c in COMPS if c[0] in used], clubs=clubs, players=players)

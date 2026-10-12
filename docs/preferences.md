@@ -877,3 +877,7 @@ Scenarios (happiness 0-10):
 17. **Republic women's team.** Research found none, so its women's-team sub-score was 4 in the scrapped sub-weights run. Claude asked Kevin to correct it if wrong; no answer.
 18. **Familiarity / "clubs I'd pick when I see the name".** This was raised and resolved as tags only. If the heart-over-head data later shows a persistent named-club lean, this question returns.
 19. **Family Club Draft:** deprecated on Kevin's instruction. Do not refresh it.
+20. **Leeds Values check** (2026-10-12): the sourced dossier (scripts/affinity/research/leeds_values) proposed Values 6.0 -> 5.7
+    (tier-5 women's team, BoyleSports betting partner, recurring homophobic chanting with a 2023 FA fine and 16 fans reported
+    after the April 2026 FA Cup semi-final; against cheap tickets, the membership freeze and Football v Homophobia award).
+    Open: 5.7 alone, or 5.7 plus a discrimination hard line like Fiorentina's. Kevin: "leave as is for now". [CURRENT] 6.0.

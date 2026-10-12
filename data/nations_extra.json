@@ -417,7 +417,7 @@
      [
       "Bayern Munich",
       3,
-      0.1
+      0.09
      ],
      [
       "Sporting CP",
@@ -493,9 +493,9 @@
     "V": 6.2,
     "H": 6.1,
     "O": 3,
-    "S": 7.0,
-    "Q": 64.5,
-    "A0": 27.5,
+    "S": 7.1,
+    "Q": 64.7,
+    "A0": 27.7,
     "hard": [
      [
       "Government record",
@@ -504,6 +504,7 @@
     ],
     "conn": [],
     "K": 0.0,
+    "S0": 7,
     "P": 5.6,
     "rank": 40,
     "wc2026": "round of 32",
@@ -511,7 +512,7 @@
      "event": "AFCON 2025",
      "result": "round of 16"
     },
-    "tb": 0.0,
+    "tb": 0.1,
     "clubs": [
      [
       "Newcastle United",
@@ -535,7 +536,7 @@
      ]
     ]
    },
-   "base": 27.5,
+   "base": 27.7,
    "bonus": 0,
    "region": ""
   },
@@ -1349,7 +1350,13 @@
      "result": "round of 16"
     },
     "tb": 0.0,
-    "clubs": []
+    "clubs": [
+     [
+      "Lens",
+      1,
+      0.01
+     ]
+    ]
    },
    "base": 0.0,
    "bonus": 0,
@@ -1405,7 +1412,7 @@
      [
       "Bayern Munich",
       4,
-      0.14
+      0.13
      ]
     ]
    },
@@ -1688,9 +1695,9 @@
     "V": 5.2,
     "H": 3,
     "O": 1.8,
-    "S": 3.8,
-    "Q": 43.8,
-    "A0": 0.4,
+    "S": 3.9,
+    "Q": 44.0,
+    "A0": 0.6,
     "hard": [
      [
       "Government record",
@@ -1707,16 +1714,21 @@
      "event": "Asian Cup 2023",
      "result": "quarter-finals"
     },
-    "tb": -0.2,
+    "tb": -0.1,
     "clubs": [
      [
       "Manchester City",
       1,
       -0.16
+     ],
+     [
+      "Lens",
+      1,
+      0.02
      ]
     ]
    },
-   "base": 0.4,
+   "base": 0.6,
    "bonus": 0,
    "region": ""
   }

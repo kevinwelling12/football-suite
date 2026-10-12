@@ -204,8 +204,8 @@ CF.forEach(f => Q.push({id:'c_' + f[0], part:1, type:'seven', prompt:`How do you
 CP.forEach((p, i) => Q.push({id:'cp' + (i + 1), part:2, type:'pair', side:'c', pair:p, prompt:'Which would you rather follow? Everything not listed is the same.'}));
 PF.forEach(f => Q.push({id:'p_' + f[0], part:3, type:'seven', prompt:`How do you feel about a player who ${f[1]}?`}));
 PP.forEach((p, i) => Q.push({id:'pp' + (i + 1), part:4, type:'pair', side:'p', pair:p, prompt:'Which player would you rather follow? Everything not listed is the same.'}));
-// Gut check (optional, after the 100): a favourite club now in each of eight leagues, by name. It never changes the
-// weights; the results show where each pick lands in your blind ranking for that league.
+// Gut check (optional, after the 100): a favourite club now in each of eight leagues, by name. Each pick is a revealed
+// choice (the pick over every other club in its league) in the weight fit; the results also show where each pick lands.
 const GUT = [['epl', 'Premier League'], ['esp', 'LaLiga'], ['ita', 'Serie A'], ['bl', 'Bundesliga'], ['fra', 'Ligue 1'], ['mls', 'MLS'], ['nwsl', 'NWSL'], ['usl', 'USL Championship']];
 GUT.forEach(([k, l]) => Q.push({id:'g_' + k, part:5, type:'select', gut:true, prompt:`Regardless of anything above: right now, who would you choose as your favourite ${l} club?`,
   opts:DATA.clubs.filter(c => c.comps.includes(k)).map(c => c.n).sort((a, b) => a.localeCompare(b)).map(n => [n, n]).concat([['dk', "I don't know"]])}));
@@ -214,7 +214,7 @@ const PARTS = ['Part 1 of 5 · About you. Two questions so distance and your own
   'Part 3 of 5 · Club trade-offs. Two clubs that differ only in the facts listed.',
   'Part 4 of 5 · Players, one fact at a time.',
   'Part 5 of 5 · Player trade-offs.',
-  'Gut check · Optional, and it never changes your weights. Clubs are named here, so answer only after the 100 questions. Your results show where each pick lands.'];
+  'Gut check · Optional. Clubs are named here, so answer only after the 100 questions. Your picks show which clubs you gravitate to: the model shifts its weights toward the facts your favourites share, each league counting about as much as three trade-off answers.'];
 
 const state = {a:{}};
 let db = null, uid = null, saveT = null;
@@ -272,22 +272,24 @@ document.addEventListener('change', e => {
 
 // ---------------------------------------------------------------- scoring: weights from this person's answers only
 // Each direct answer sets a starting weight (-1 to +1). The trade-off pairs then adjust the weights by logistic regression,
-// pulled back toward those starting weights. Nothing else feeds in: no other person's answers, no preset weights.
-function weights(feats, prefix, pairs, pairPrefix) {
+// pulled back toward those starting weights. The gut-check favourites add revealed choices: the pick over every other club
+// in its league, each league counting as much as GUT_W trade-off answers. Nothing else feeds in.
+const GUT_W = 3;
+function weights(feats, prefix, pairs, pairPrefix, extra = []) {
   const w = {}, w0 = {};
   feats.forEach(f => { const a = state.a[prefix + f[0]]; w0[f[0]] = typeof a === 'number' ? a / 3 : 0; w[f[0]] = w0[f[0]]; });
   const obs = pairs.map((p, i) => {
     const r = state.a[pairPrefix + (i + 1)]; if (typeof r !== 'number') return null;
     const d = {}; p[0].forEach(([k, v]) => d[k] = (d[k] || 0) + v); p[1].forEach(([k, v]) => d[k] = (d[k] || 0) - v);
-    return {d, y: (r + 2) / 4};
-  }).filter(Boolean);
+    return {d, y: (r + 2) / 4, w: 1};
+  }).filter(Boolean).concat(extra);
   const K = 3, LAM = 0.5, LR = 0.05;
   for (let it = 0; it < 2000; it++) {
     const g = {}; for (const k in w) g[k] = 2 * LAM * (w[k] - w0[k]);
     for (const o of obs) {
       let z = 0; for (const k in o.d) z += w[k] * o.d[k];
       const p = 1 / (1 + Math.exp(-K * z));
-      for (const k in o.d) g[k] += K * (p - o.y) * o.d[k];
+      for (const k in o.d) g[k] += o.w * K * (p - o.y) * o.d[k];
     }
     for (const k in w) w[k] -= LR * g[k];
   }
@@ -298,16 +300,21 @@ const R2 = (a, b) => { const t = x => x * Math.PI / 180, dl = t(b[0] - a[0]), dn
 function scoreAll() {
   // A serious wrong costs more than one fact's worth: "Turn-off" counts double, "Strong turn-off" triple.
   const turnoffs = (w, feats, prefix) => { for (const f of feats) { const v = state.a[prefix + f[0]]; if (typeof v === 'number' && v <= -2 && w[f[0]] < 0) w[f[0]] *= 1 + (-v - 1); } return w; };
-  const wc = turnoffs(weights(CF, 'c_', CP, 'cp'), CF, 'c_'), wp = turnoffs(weights(PF, 'p_', PP, 'pp'), PF, 'p_');
   const home = DATA.places.find(p => p[0] === state.a.home), nat = state.a.nation || '';
+  const feat = c => { const f = Object.assign({}, c.f);
+    f.near = home && c.ll ? Math.max(0, 1 - Math.log1p(R2(home.slice(1), c.ll) / 10) / Math.log1p(1000)) : 0;   // log scale: 1 at home, about 0 overseas
+    f.home = c.k === 'nation' && c.n === nat ? 1 : 0; return f; };
+  const F = DATA.clubs.map(c => ({c, f: feat(c)}));
+  const gut = [];
+  for (const [k] of GUT) {
+    const pick = state.a['g_' + k], xs = F.filter(x => x.c.comps.includes(k)), me = xs.find(x => x.c.n === pick);
+    if (!me) continue;
+    for (const x of xs) if (x !== me) { const d = {}; for (const f of CF) d[f[0]] = (me.f[f[0]] ?? 0) - (x.f[f[0]] ?? 0); gut.push({d, y: 1, w: GUT_W / (xs.length - 1)}); }
+  }
+  const wc = turnoffs(weights(CF, 'c_', CP, 'cp', gut), CF, 'c_'), wp = turnoffs(weights(PF, 'p_', PP, 'pp'), PF, 'p_');
   const range = w => { let lo = 0, hi = 0; for (const k in w) { if (w[k] < 0) lo += w[k]; else hi += w[k]; } return [lo, hi]; };
   const sc = (w, f) => { const [lo, hi] = range(w); if (hi - lo < 1e-9) return 50; let s = 0; for (const k in w) s += w[k] * (f[k] ?? 0); return 100 * (s - lo) / (hi - lo); };
-  const clubs = DATA.clubs.map(c => {
-    const f = Object.assign({}, c.f);
-    f.near = home && c.ll ? Math.max(0, 1 - Math.log1p(R2(home.slice(1), c.ll) / 10) / Math.log1p(1000)) : 0;   // log scale: 1 at home, about 0 overseas
-    f.home = c.k === 'nation' && c.n === nat ? 1 : 0;
-    return {c, s: sc(wc, f)};
-  });
+  const clubs = F.map(({c, f}) => ({c, s: sc(wc, f)}));
   const players = DATA.players.map(p => { const f = Object.assign({}, p.f); f.homenat = nat && p.nat === nat ? 1 : 0; return {p, s: sc(wp, f)}; });
   return {wc, wp, clubs, players};
 }

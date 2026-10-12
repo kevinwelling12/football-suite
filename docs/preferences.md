@@ -901,3 +901,7 @@ Scenarios (happiness 0-10):
     women's-game pioneers, humanitarian acts) and 23 players (+2 to +5; Rashford's free school meals, Sócrates, equal-pay
     leaders, Vinícius, Subotić's wells, ...), added to character x bonus_scale 1.0. Union Berlin's fan-built stadium was left
     out (already weighed in the German decider). Backtest: club gut 91%, named player pairs 19 -> 20 of 29, deciders hold.
+24. **Years ahead** (2026-10-12, Kevin: "I want some sort of deference given to younger active players over those that are nearing
+    the ends of their careers ... players I'll be able to follow for years to come at the top level"). [CURRENT] The active
+    lists rank by Affinity + years ahead: +6 at 22 or younger, 0 at 28.5, -6 by 35 (goalkeepers count 3 years younger;
+    params runway). Affinity itself and the all-time lists are unchanged.

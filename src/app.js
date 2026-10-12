@@ -261,11 +261,16 @@ async function connect() {
     if (!found) {
       // first sign-in: seed from the bundled export if this device has nothing yet, then upload
       if (window.SEED && !localStorage.getItem(STORE + ':seeded')) { for (const [k, d] of Object.entries(window.SEED)) applyDoc(k, d); try { localStorage.setItem(STORE + ':seeded', '1'); } catch (e) {} }
-      syncFavs(); saveLocal();
+      applyFollowSets(state.suite.followSets); syncFavs(); saveLocal();
       for (const k of keys) await backend.set(k, docFor(k));
     } else {
       keys.forEach((k, i) => { if (docs[i]) applyDoc(k, docs[i]); });
-      syncFavs(); saveLocal();
+      syncFavs();
+      // follow sets go by what the cloud has recorded, not this device's copy
+      const sd = docs[keys.indexOf('suite')]; let done = [];
+      try { done = JSON.parse((sd && sd.suite) || '{}').followSets || []; } catch (e) {}
+      if (applyFollowSets(done)) { syncFavs(); for (const k of keys) await backend.set(k, docFor(k)); }
+      saveLocal();
     }
     saveMode = backend.name;
     ORDER.forEach(k => queueFull(k)); bgRender();
@@ -1352,6 +1357,18 @@ document.addEventListener('change', e => {
   if (e.target.dataset.global === '1') { state.suite[key] = v; ORDER.forEach(c => queueFull(c)); render(); save(state.view); }
   else { state.settings[state.view][key] = v; update(state.view); render(); save(state.view); }
 });
+// One-time follow sets: clubs Kevin asked to follow, added once to his follows (never removes any) and remembered in
+// suite.followSets, so unfollowing one later sticks. 2026-10-12: a primary and secondary club per league.
+const FOLLOW_SETS = [{id:'pairs-2026-10-12', names:['Liverpool', 'Leeds United', 'Portsmouth', 'Charlton Athletic', 'Borussia Dortmund',
+  'Union Berlin', 'Athletic Club', 'Celta Vigo', 'Napoli', 'Fiorentina', 'Brest', 'Lens', 'Portland Timbers', 'Philadelphia Union',
+  'Sacramento Republic FC', 'Detroit City FC', 'Portland Thorns', 'Kansas City Current', 'Scotland', 'Netherlands', 'Bodø/Glimt']}];
+function applyFollowSets(done) {
+  const todo = FOLLOW_SETS.filter(f => !(done || []).includes(f.id)); if (!todo.length) return false;
+  for (const f of todo) for (const c of ORDER) { const arr = state.favs[c] = state.favs[c] || [];
+    T(c).forEach((x, i) => { if (f.names.includes(x.name) && !arr.includes(i)) arr.push(i); }); }
+  state.suite.followSets = [...new Set([...(state.suite.followSets || []), ...todo.map(f => f.id)])];
+  return true;
+}
 function syncFavs() {
   const names = new Set(); for (const c of ORDER) for (const i of (state.favs[c] || [])) if (T(c)[i]) names.add(T(c)[i].name);
   for (const c of ORDER) { const arr = state.favs[c] = state.favs[c] || []; T(c).forEach((x, i) => { if (names.has(x.name) && !arr.includes(i)) arr.push(i); }); }
@@ -1391,5 +1408,5 @@ function pullRefresh() {
   addEventListener('touchcancel', reset);
 }
 
-loadLocal(); syncFavs(); restoreUI(); startWorker(); render(); computeAll(); connect();
+loadLocal(); if (applyFollowSets(state.suite.followSets)) saveLocal(); syncFavs(); restoreUI(); startWorker(); render(); computeAll(); connect();
 if (standalone) { document.documentElement.classList.add('standalone'); pullRefresh(); }

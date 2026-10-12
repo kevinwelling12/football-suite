@@ -1,0 +1,348 @@
+[
+ {
+  "name": "AEK Athens",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Bodø/Glimt",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R2 Culture 7->8"
+ },
+ {
+  "name": "Club Brugge",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R2 Culture 7->8, R1 Ownership 5->6"
+ },
+ {
+  "name": "Fenerbahçe",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -12.0
+   ],
+   [
+    "Overspend",
+    -3.0
+   ]
+  ],
+  "note": "Fan violence -12; Folded 2026-10-02: Overspend -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Feyenoord",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -8.0
+   ],
+   [
+    "Fan violence",
+    -8.0
+   ]
+  ],
+  "note": "Racism -8; Fan violence -8"
+ },
+ {
+  "name": "Galatasaray",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -12.0
+   ],
+   [
+    "Overspend",
+    -2.0
+   ]
+  ],
+  "note": "Fan violence -12; Folded 2026-10-02: Overspend -2 -> Ownership -1.8"
+ },
+ {
+  "name": "LASK",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "PSV Eindhoven",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Porto",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -8.0
+   ]
+  ],
+  "note": "Fan violence -8; Rules re-rate 2026-09-30: R3 Team 7->6"
+ },
+ {
+  "name": "Sabah",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Shakhtar Donetsk",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Slavia Prague",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Slovan Bratislava",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -10.0
+   ],
+   [
+    "Fan violence",
+    -8.0
+   ]
+  ],
+  "note": "Racism -10; Fan violence -8"
+ },
+ {
+  "name": "Sporting CP",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": "Rules re-rate 2026-09-30: R3 Team 7->6"
+ },
+ {
+  "name": "Viking",
+  "comps": [
+   "ucl"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Celtic",
+  "comps": [
+   "heritage:Scottish Premiership"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -4.0
+   ]
+  ],
+  "note": "Fan violence -4"
+ },
+ {
+  "name": "Rangers",
+  "comps": [
+   "heritage:Scottish Premiership"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -10.0
+   ],
+   [
+    "Fan violence",
+    -8.0
+   ],
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Racism -10; Fan violence -8; Folded 2026-10-08: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Heart of Midlothian",
+  "comps": [
+   "heritage:Scottish Premiership"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ],
+   [
+    "Owner's fortune from sports betting",
+    -1.0
+   ]
+  ],
+  "note": "Folded 2026-10-08: Multi-club -3 -> Ownership -2.7, Owner's fortune from sports betting -1 -> Values -0.3"
+ },
+ {
+  "name": "Hibernian",
+  "comps": [
+   "heritage:Scottish Premiership"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Linfield",
+  "comps": [
+   "heritage:NIFL Premiership"
+  ],
+  "hard": [
+   [
+    "Racism",
+    -6.0
+   ]
+  ],
+  "note": "Racism -6"
+ },
+ {
+  "name": "Derry City",
+  "comps": [
+   "heritage:League of Ireland"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -2.0
+   ],
+   [
+    "Overspend",
+    -2.0
+   ]
+  ],
+  "note": "Fan violence -2; Folded 2026-10-08: Overspend -2 -> Ownership -1.8"
+ },
+ {
+  "name": "Shamrock Rovers",
+  "comps": [
+   "heritage:League of Ireland"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-08: Multi-club -3 -> Ownership -2.7"
+ },
+ {
+  "name": "Bohemians",
+  "comps": [
+   "heritage:League of Ireland"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Marítimo",
+  "comps": [
+   "heritage:Liga Portugal"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Nacional",
+  "comps": [
+   "heritage:Liga Portugal"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "1. FC Nürnberg",
+  "comps": [
+   "heritage:2. Bundesliga"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Žalgiris",
+  "comps": [
+   "heritage:A Lyga"
+  ],
+  "hard": [],
+  "note": ""
+ },
+ {
+  "name": "Viktoria Plzeň",
+  "comps": [
+   "heritage:Czech First League"
+  ],
+  "hard": [
+   [
+    "Owner's fortune from arms making",
+    -3.0
+   ]
+  ],
+  "note": "Folded 2026-10-08: Owner's fortune from arms making -3 -> Values -1.0"
+ },
+ {
+  "name": "Union Saint-Gilloise",
+  "comps": [
+   "heritage:Belgian Pro League"
+  ],
+  "hard": [
+   [
+    "Multi-club",
+    -3.0
+   ],
+   [
+    "Owner's fortune from sports betting",
+    -2.0
+   ]
+  ],
+  "note": "Folded 2026-10-08: Multi-club -3 -> Ownership -2.7, Owner's fortune from sports betting -2 -> Values -0.7"
+ },
+ {
+  "name": "Anderlecht",
+  "comps": [
+   "heritage:Belgian Pro League"
+  ],
+  "hard": [
+   [
+    "Fan violence",
+    -4.0
+   ]
+  ],
+  "note": "Fan violence -4"
+ }
+]

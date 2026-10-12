@@ -1,0 +1,1392 @@
+[
+ {
+  "name": "Alexander Isak",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b08",
+    "Forced transfer (2025)",
+    9.0,
+    "went on strike at Newcastle (missed pre-season, refused to play) to force Liverpool move"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2025,
+    "type": "b08",
+    "what": "went on strike at Newcastle (missed pre-season, refused to play) to force Liverpool move",
+    "outcome": "sold to Liverpool on deadline day",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2022,
+    "what": "joined Newcastle (PIF-owned since 2021)",
+    "type": "b11"
+   }
+  ]
+ },
+ {
+  "name": "Jadon Sancho",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b08",
+    "Forced transfer (2017)",
+    9.0,
+    "refused a new Man City deal, missed the US pre-season tour and stopped training to force a move"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "victim of racist abuse after missing Euro 2020 final penalty",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2023,
+    "type": "other",
+    "what": "public dispute with Man United manager Ten Hag; exiled from first team",
+    "outcome": "loaned back to Dortmund",
+    "source": ""
+   },
+   {
+    "type": "b08",
+    "year": 2017,
+    "what": "refused a new Man City deal, missed the US pre-season tour and stopped training to force a move",
+    "outcome": "sold to Dortmund Aug 2017",
+    "source": "https://www.si.com/soccer/2017/08/03/arsenal-spurs-target-jadon-sancho-refuses-train-man-city-order-force-move"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2015,
+    "what": "Manchester City academy (Abu Dhabi-owned), no senior apps",
+    "type": "b11"
+   }
+  ]
+ },
+ {
+  "name": "Luis Suárez",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b01",
+    "Racist abuse (2011)",
+    24.6,
+    "racially abused Patrice Evra, 8-match ban; later refused handshake"
+   ],
+   [
+    "b06",
+    "Violent conduct (2010)",
+    21.0,
+    "bit Otman Bakkal (Ajax v PSV), 7-match ban"
+   ],
+   [
+    "b06",
+    "Violent conduct (2013)",
+    12.6,
+    "bit Branislav Ivanović, 10-match ban"
+   ],
+   [
+    "b06",
+    "Violent conduct (2014)",
+    12.6,
+    "bit Giorgio Chiellini at World Cup, 4-month ban"
+   ],
+   [
+    "b06",
+    "Violent conduct (2025)",
+    12.6,
+    "spat at a Seattle staff member after 2025 Leagues Cup final, 6-game ban"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2010,
+    "type": "b06",
+    "what": "bit Otman Bakkal (Ajax v PSV), 7-match ban",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2011,
+    "type": "b01",
+    "what": "racially abused Patrice Evra, 8-match ban; later refused handshake",
+    "outcome": "apologised for handshake; never accepted the verdict",
+    "source": ""
+   },
+   {
+    "year": 2013,
+    "type": "b06",
+    "what": "bit Branislav Ivanović, 10-match ban",
+    "outcome": "apologised",
+    "source": ""
+   },
+   {
+    "year": 2014,
+    "type": "b06",
+    "what": "bit Giorgio Chiellini at World Cup, 4-month ban",
+    "outcome": "apologised after initial denial",
+    "source": ""
+   },
+   {
+    "year": 2010,
+    "type": "other",
+    "what": "deliberate goal-line handball vs Ghana in World Cup QF",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2025,
+    "type": "b06",
+    "what": "spat at a Seattle staff member after 2025 Leagues Cup final, 6-game ban",
+    "outcome": "apologised",
+    "source": ""
+   },
+   {
+    "year": 2014,
+    "type": "b07",
+    "what": "long-standing diving reputation",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Lionel Messi",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b12",
+    "Authoritarian ambassador (2022)",
+    21.0,
+    "paid Visit Saudi tourism ambassador (since 2022)"
+   ],
+   [
+    "b05",
+    "Tax fraud (2016)",
+    15.0,
+    "convicted in Spain of tax fraud with father (image rights), 21-month suspended sentence later converted to a fine"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2016,
+    "type": "b05",
+    "what": "convicted in Spain of tax fraud with father (image rights), 21-month suspended sentence later converted to a fine",
+    "outcome": "paid; conviction stands",
+    "source": "https://en.wikipedia.org/wiki/Lionel_Messi"
+   },
+   {
+    "year": 2019,
+    "type": "other",
+    "what": "3-month CONMEBOL ban for alleging Copa América corruption",
+    "outcome": "served",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2021,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   },
+   {
+    "year": 2022,
+    "what": "paid Visit Saudi tourism ambassador (since 2022)",
+    "type": "b12"
+   }
+  ]
+ },
+ {
+  "name": "Cristiano Ronaldo",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b02",
+    "Abuse allegations (2009)",
+    15.9,
+    "Kathryn Mayorga alleged rape in Las Vegas; police reopened 2018, no charges 2019 (could not be proven); civil suit dismissed 2022"
+   ],
+   [
+    "b05",
+    "Tax fraud (2019)",
+    15.0,
+    "convicted in Spain of tax fraud, 23-month suspended sentence + ~EUR 18.8m fine"
+   ],
+   [
+    "b10",
+    "Money-league move (2023)",
+    6.0,
+    "joined Al-Nassr (Saudi PIF-owned)"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2009,
+    "type": "b02",
+    "what": "Kathryn Mayorga alleged rape in Las Vegas; police reopened 2018, no charges 2019 (could not be proven); civil suit dismissed 2022",
+    "outcome": "denied; no charges",
+    "source": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+   },
+   {
+    "year": 2019,
+    "type": "b05",
+    "what": "convicted in Spain of tax fraud, 23-month suspended sentence + ~EUR 18.8m fine",
+    "outcome": "accepted plea deal",
+    "source": ""
+   },
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "obscene gesture to fans chanting Messi's name (Al-Nassr), 1-match ban",
+    "outcome": "banned",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Nassr (Saudi PIF-owned)",
+    "type": "b10"
+   },
+   {
+    "year": 2023,
+    "what": "Al-Nassr is PIF-owned",
+    "type": "b11"
+   }
+  ]
+ },
+ {
+  "name": "Kylian Mbappé",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b02",
+    "Abuse allegations (2024)",
+    15.9,
+    "Swedish media named him in a Stockholm rape investigation; prosecutors closed it Dec 2024 for insufficient evidence; he was never notified as suspect"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "b02",
+    "what": "Swedish media named him in a Stockholm rape investigation; prosecutors closed it Dec 2024 for insufficient evidence; he was never notified as suspect",
+    "outcome": "case closed; denied",
+    "source": "https://www.thelocal.se/20241212/swedish-police-drop-rape-inquiry-against-kylian-mbappe"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ]
+ },
+ {
+  "name": "Robert Lewandowski",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b09",
+    "Rival move (2014)",
+    6.0,
+    "joined Bayern from Dortmund (rival)"
+   ]
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2014,
+    "what": "joined Bayern from Dortmund (rival)",
+    "type": "b09"
+   }
+  ]
+ },
+ {
+  "name": "Antoine Griezmann",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b01",
+    "Racist abuse (2021)",
+    24.6,
+    "video in Japan with Dembélé mocking Asian hotel staff (Dembélé's remarks; Griezmann laughing)"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "posted photo in blackface costume as Harlem Globetrotter",
+    "outcome": "deleted, apologised",
+    "source": ""
+   },
+   {
+    "year": 2021,
+    "type": "b01",
+    "what": "video in Japan with Dembélé mocking Asian hotel staff (Dembélé's remarks; Griezmann laughing)",
+    "outcome": "apologised; Konami/Rakuten criticism",
+    "source": ""
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Luka Modrić",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b08",
+    "Forced transfer (2012)",
+    9.0,
+    "skipped Tottenham preseason tour to force Real Madrid move"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "charged with false testimony over evidence in Zdravko Mamić fraud trial",
+    "outcome": "indicted for perjury 2018; court dismissed the charge (2018-19); prosecution dropped 2024",
+    "source": ""
+   },
+   {
+    "year": 2012,
+    "type": "b08",
+    "what": "skipped Tottenham preseason tour to force Real Madrid move",
+    "outcome": "transferred",
+    "source": ""
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Neymar",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b06",
+    "Violent conduct (2019)",
+    21.0,
+    "punched a Rennes fan after the Coupe de France final"
+   ],
+   [
+    "b02",
+    "Abuse allegations (2019)",
+    15.9,
+    "accused of rape by Najila Trindade; police closed case for lack of evidence"
+   ],
+   [
+    "b10",
+    "Money-league move (2023)",
+    12.0,
+    "joined Al-Hilal (Saudi PIF-owned)"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2019,
+    "type": "b02",
+    "what": "accused of rape by Najila Trindade; police closed case for lack of evidence",
+    "outcome": "no charges; denied",
+    "source": ""
+   },
+   {
+    "year": 2018,
+    "type": "b07",
+    "what": "widely mocked for play-acting at 2018 World Cup",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2016,
+    "type": "other",
+    "what": "tax/fraud cases over Barcelona transfer; acquitted in Spain 2022",
+    "outcome": "acquitted",
+    "source": ""
+   },
+   {
+    "type": "b06",
+    "year": 2019,
+    "what": "punched a Rennes fan after the Coupe de France final",
+    "outcome": "FFF 3-match ban (+2 suspended); PSG appealed",
+    "source": "https://www.skysports.com/football/news/11820/11716058/neymar-handed-three-match-ban-by-french-football-federation-after-fan-punch"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   },
+   {
+    "year": 2023,
+    "what": "joined Al-Hilal (Saudi PIF-owned)",
+    "type": "b10"
+   }
+  ]
+ },
+ {
+  "name": "Federico Valverde",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b06",
+    "Violent conduct (2023)",
+    21.0,
+    "punched Álex Baena in car park after alleged comments about his son"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "b06",
+    "what": "punched Álex Baena in car park after alleged comments about his son",
+    "outcome": "no sanction",
+    "source": ""
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Thibaut Courtois",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b08",
+    "Forced transfer (2018)",
+    9.0,
+    "skipped Chelsea training to force move to Real Madrid"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2018,
+    "type": "b08",
+    "what": "skipped Chelsea training to force move to Real Madrid",
+    "outcome": "transferred",
+    "source": ""
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Achraf Hakimi",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b02",
+    "Abuse allegations (2023)",
+    53.0,
+    "charged with rape (alleged Feb 2023); ordered to stand trial; Court of Cassation upheld trial Sept 2026"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2023,
+    "type": "b02",
+    "what": "charged with rape (alleged Feb 2023); ordered to stand trial; Court of Cassation upheld trial Sept 2026",
+    "outcome": "denies; trial pending",
+    "source": "https://citizen.digital/article/french-court-confirms-rape-trial-for-psg-and-morocco-star-hakimi-n390732"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2021,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ]
+ },
+ {
+  "name": "Ousmane Dembélé",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b01",
+    "Racist abuse (2021)",
+    24.6,
+    "video in Japan mocking Asian hotel staff's language/appearance"
+   ],
+   [
+    "b08",
+    "Forced transfer (2017)",
+    9.0,
+    "skipped Dortmund training (strike) to force Barcelona transfer"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2017,
+    "type": "b08",
+    "what": "skipped Dortmund training (strike) to force Barcelona transfer",
+    "outcome": "transferred",
+    "source": ""
+   },
+   {
+    "year": 2021,
+    "type": "b01",
+    "what": "video in Japan mocking Asian hotel staff's language/appearance",
+    "outcome": "apologised; Konami criticised",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined PSG (Qatar state-owned)",
+    "type": "b11"
+   }
+  ]
+ },
+ {
+  "name": "Darwin Núñez",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b10",
+    "Money-league move (2025)",
+    21.0,
+    "joined Al-Hilal (Saudi PIF-owned)"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2024,
+    "type": "other",
+    "what": "involved in brawl with Colombian fans in stands after Copa América semi, banned",
+    "outcome": "banned",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2025,
+    "what": "joined Al-Hilal (Saudi PIF-owned)",
+    "type": "b10"
+   }
+  ]
+ },
+ {
+  "name": "Karim Benzema",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b12",
+    "Authoritarian ambassador (2026)",
+    21.0,
+    "Saudi league ambassador to 2030"
+   ],
+   [
+    "b02",
+    "Abuse allegations (2014)",
+    15.9,
+    "acquitted in underage prostitution case (Zahia)"
+   ],
+   [
+    "b10",
+    "Money-league move (2023)",
+    6.0,
+    "joined Al-Ittihad (Saudi PIF-owned)"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2021,
+    "type": "other",
+    "what": "convicted of complicity in Valbuena sex-tape blackmail, 1-year suspended",
+    "outcome": "convicted",
+    "source": ""
+   },
+   {
+    "year": 2014,
+    "type": "b02",
+    "what": "acquitted in underage prostitution case (Zahia)",
+    "outcome": "acquitted",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Ittihad (Saudi PIF-owned)",
+    "type": "b10"
+   },
+   {
+    "year": 2026,
+    "what": "joined Al-Hilal (Saudi PIF-owned)",
+    "type": "b10"
+   },
+   {
+    "year": 2026,
+    "what": "Saudi league ambassador to 2030",
+    "type": "b12"
+   }
+  ]
+ },
+ {
+  "name": "N'Golo Kanté",
+  "active": true,
+  "gender": "M",
+  "hard": [
+   [
+    "b10",
+    "Money-league move (2023)",
+    12.0,
+    "joined Al-Ittihad (Saudi PIF-owned)"
+   ]
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "joined Al-Ittihad (Saudi PIF-owned)",
+    "type": "b10"
+   }
+  ]
+ },
+ {
+  "name": "Diego Maradona",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b02",
+    "Abuse allegations (2014)",
+    53.0,
+    "video appeared to show him striking partner Rocío Oliva; she later accused him of violence"
+   ],
+   [
+    "b02",
+    "Abuse allegations (2001)",
+    53.0,
+    "Mavys Álvarez says he raped her when she was 16 (relationship 2000-2005)"
+   ],
+   [
+    "b06",
+    "Violent conduct (1994)",
+    21.0,
+    "fired an air rifle at journalists outside his home"
+   ],
+   [
+    "b12",
+    "Authoritarian ambassador (2012)",
+    21.0,
+    "Honorary sports ambassador for the Dubai Sports Council (UAE government body), renewed for several years"
+   ],
+   [
+    "b03",
+    "Doping (1991)",
+    12.0,
+    "cocaine positive in Serie A, 15-month ban"
+   ],
+   [
+    "b03",
+    "Doping (1994)",
+    12.0,
+    "ephedrine positive at World Cup, sent home, 15-month ban"
+   ],
+   [
+    "b03",
+    "Doping (1997)",
+    12.0,
+    "Third positive test for cocaine after Boca v Argentinos Juniors, August 1997"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 1991,
+    "type": "b03",
+    "what": "cocaine positive in Serie A, 15-month ban",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Diego_Maradona"
+   },
+   {
+    "year": 1994,
+    "type": "b03",
+    "what": "ephedrine positive at World Cup, sent home, 15-month ban",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Diego_Maradona"
+   },
+   {
+    "year": 1994,
+    "type": "b06",
+    "what": "fired an air rifle at journalists outside his home",
+    "outcome": "convicted 1998, suspended sentence",
+    "source": "https://en.wikipedia.org/wiki/Diego_Maradona"
+   },
+   {
+    "year": 2014,
+    "type": "b02",
+    "what": "video appeared to show him striking partner Rocío Oliva; she later accused him of violence",
+    "outcome": "no conviction",
+    "source": "https://www.tribuneindia.com/news/sports/former-partner-in-argentina-accuses-maradona-of-physical-and-sexual-violence-341875/amp"
+   },
+   {
+    "year": 2001,
+    "type": "b02",
+    "what": "Mavys Álvarez says he raped her when she was 16 (relationship 2000-2005)",
+    "outcome": "alleged after his death 2021; trafficking case vs entourage reopened",
+    "source": "https://batimes.com.ar/news/argentina/ex-girlfriend-of-maradona-testifies-in-underage-trafficking-case.phtml"
+   },
+   {
+    "year": 1990,
+    "type": "other",
+    "what": "Italian tax-evasion claims dogged him for decades",
+    "outcome": "Italian court ruled in his favour 2021",
+    "source": ""
+   },
+   {
+    "type": "b12",
+    "year": 2012,
+    "what": "Honorary sports ambassador for the Dubai Sports Council (UAE government body), renewed for several years",
+    "outcome": "paid role, 2012-2016 approx.",
+    "source": "https://gulfnews.com/sport/football/maradona-to-be-retained-as-dubai-sports-council-ambassador-1.1206739"
+   },
+   {
+    "type": "b03",
+    "year": 1997,
+    "what": "Third positive test for cocaine after Boca v Argentinos Juniors, August 1997",
+    "outcome": "suspension lifted by a judge pending tampering claim; retired October 1997",
+    "source": "https://www.deseret.com/1997/10/30/19342611/maradona-done-playing-soccer/"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2017,
+    "what": "coached Al-Fujairah (UAE) and earlier Al-Wasl 2011-12; chairman of Dinamo Brest (Belarus) 2018",
+    "type": "other"
+   }
+  ]
+ },
+ {
+  "name": "Johan Cruyff",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b09",
+    "Rival move (1983)",
+    6.0,
+    "joined Feyenoord, Ajax's arch-rival, after Ajax didn't renew his deal"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 1983,
+    "type": "b09",
+    "what": "joined Feyenoord, Ajax's arch-rival, after Ajax didn't renew his deal",
+    "outcome": "won the double",
+    "source": ""
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "George Best",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b06",
+    "Violent conduct (1984)",
+    21.0,
+    "drink-driving and assaulting a police officer; jailed 3 months"
+   ],
+   [
+    "b02",
+    "Abuse allegations (2004)",
+    15.9,
+    "ex-wife Alex Best alleged he beat her during their marriage"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 1984,
+    "type": "b06",
+    "what": "drink-driving and assaulting a police officer; jailed 3 months",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/George_Best"
+   },
+   {
+    "year": 2004,
+    "type": "b02",
+    "what": "ex-wife Alex Best alleged he beat her during their marriage",
+    "outcome": "no charges; Dec 2003 arrest released without charge; Alex Best said he did not beat her and that they 'lashed out at each other'",
+    "source": ""
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Garrincha",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b02",
+    "Abuse allegations (1970)",
+    53.0,
+    "Elza Soares, his wife 1966-77, said he repeatedly beat her during his alcoholism (broke her teeth)"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 1969,
+    "type": "other",
+    "what": "drink-driving crash that killed his mother-in-law",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Garrincha"
+   },
+   {
+    "type": "b02",
+    "year": 1970,
+    "what": "Elza Soares, his wife 1966-77, said he repeatedly beat her during his alcoholism (broke her teeth)",
+    "outcome": "never charged; publicly described by Soares",
+    "source": "https://www.thenewfeminist.co.uk/2022/04/the-voice-of-the-millennium-resists-being-silent/"
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Frank Rijkaard",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b10",
+    "Money-league move (2011)",
+    4.5,
+    "coached Saudi Arabia national team 2011-13"
+   ]
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2011,
+    "what": "coached Saudi Arabia national team 2011-13",
+    "type": "b10"
+   }
+  ]
+ },
+ {
+  "name": "Lothar Matthäus",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b09",
+    "Rival move (1984)",
+    6.0,
+    "agreed and made direct move from Borussia Mönchengladbach to their main title rival Bayern Munich, then missed a penalty for Gladbach against Bayern in the 1984 DFB-Pokal final"
+   ]
+  ],
+  "incidents": [
+   {
+    "type": "b09",
+    "year": 1984,
+    "what": "agreed and made direct move from Borussia Mönchengladbach to their main title rival Bayern Munich, then missed a penalty for Gladbach against Bayern in the 1984 DFB-Pokal final",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us"
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Zinedine Zidane",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b06",
+    "Violent conduct (2000)",
+    21.0,
+    "headbutted Hamburg's Jochen Kientz in a Champions League match for Juventus, sent off"
+   ],
+   [
+    "b12",
+    "Authoritarian ambassador (2010)",
+    21.0,
+    "Qatar 2022 bid ambassador; reportedly paid ~$15m"
+   ],
+   [
+    "b06",
+    "Violent conduct (2006)",
+    12.6,
+    "headbutted Materazzi in 2006 WC final, sent off; 14 career red cards"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2006,
+    "type": "b06",
+    "what": "headbutted Materazzi in 2006 WC final, sent off; 14 career red cards",
+    "outcome": "apologised to fans, not to Materazzi; 3-match ban",
+    "source": "https://en.wikipedia.org/wiki/Zinedine_Zidane"
+   },
+   {
+    "type": "b06",
+    "year": 2000,
+    "what": "headbutted Hamburg's Jochen Kientz in a Champions League match for Juventus, sent off",
+    "outcome": "UEFA 5-match ban",
+    "source": "https://hurriyet.com.tr/gundem/zidanes-career-dotted-by-headbutting-incidents-4731561"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2010,
+    "what": "Qatar 2022 bid ambassador; reportedly paid ~$15m",
+    "type": "b12"
+   }
+  ]
+ },
+ {
+  "name": "Ronaldo (Brazilian)",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b09",
+    "Rival move (2007)",
+    6.0,
+    "joined AC Milan, rival of former club Inter"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2007,
+    "type": "b09",
+    "what": "joined AC Milan, rival of former club Inter",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "year": 2008,
+    "type": "other",
+    "what": "incident with transvestite sex workers in Rio hotel",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2018,
+    "what": "owned Real Valladolid 2018-24 and Cruzeiro 2021-24 (sold both)",
+    "type": "other"
+   }
+  ]
+ },
+ {
+  "name": "Romário",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b03",
+    "Doping (2007)",
+    3.6,
+    "tested positive for finasteride (hair-loss drug, masking agent) after Vasco v Palmeiras; 120-day ban"
+   ]
+  ],
+  "incidents": [
+   {
+    "type": "b03",
+    "year": 2007,
+    "what": "tested positive for finasteride (hair-loss drug, masking agent) after Vasco v Palmeiras; 120-day ban",
+    "outcome": "ban overturned on appeal, 2008",
+    "source": "https://www.aljazeera.com/sports/2007/12/19/romario-hit-with-doping-suspension"
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Francesco Totti",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b06",
+    "Violent conduct (2010)",
+    21.0,
+    "kicked Mario Balotelli, red card, 2010 Coppa final"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2010,
+    "type": "b06",
+    "what": "kicked Mario Balotelli, red card, 2010 Coppa final",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Francesco_Totti"
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Andrea Pirlo",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b09",
+    "Rival move (2001)",
+    6.0,
+    "moved from Inter to city rival AC Milan"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2001,
+    "type": "b09",
+    "what": "moved from Inter to city rival AC Milan",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2015,
+    "what": "joined New York City FC (City Football Group, Abu Dhabi majority-owned)",
+    "type": "b11"
+   }
+  ]
+ },
+ {
+  "name": "Gianluigi Buffon",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b04",
+    "Match-fixing (2006)",
+    12.3,
+    "investigated for betting via a tobacconist"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2000,
+    "type": "other",
+    "what": "wore '88' shirt (neo-Nazi code) and 'Boia chi molla' fascist slogan",
+    "outcome": "changed number; said ignorance",
+    "source": "https://en.wikipedia.org/wiki/Gianluigi_Buffon"
+   },
+   {
+    "year": 2006,
+    "type": "b04",
+    "what": "investigated for betting via a tobacconist",
+    "outcome": "cleared",
+    "source": "https://en.wikipedia.org/wiki/Gianluigi_Buffon"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2018,
+    "what": "joined Paris Saint-Germain (Qatar)",
+    "type": "b11"
+   }
+  ]
+ },
+ {
+  "name": "Fabio Cannavaro",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b10",
+    "Money-league move (2010)",
+    6,
+    "Al-Ahli Dubai"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 1999,
+    "type": "other",
+    "what": "video of him being injected with neoton before 1999 UEFA Cup final",
+    "outcome": "legal substance, no ban",
+    "source": ""
+   },
+   {
+    "year": 2017,
+    "type": "other",
+    "what": "10-month suspended sentence for violating seal on his villa",
+    "outcome": "first-instance 10-month sentence Feb 2015 for breaching seals on villa seized in tax probe; suspended pending appeal",
+    "source": ""
+   },
+   {
+    "type": "b10",
+    "year": 2015,
+    "what": "head coach of Saudi club Al-Nassr Oct 2015 - Feb 2016",
+    "outcome": "sacked after four months",
+    "source": "https://www.ansa.it/english/news/2016/02/12/soccer-saudi-club-al-nassr-fires-cannavaro-as-coach_db6b0e68-2801-43b0-afd9-fcdab1eb44c6.html"
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2010,
+    "what": "played for Al-Ahli Dubai (UAE)",
+    "type": "other"
+   },
+   {
+    "year": 2025,
+    "what": "coaching Uzbekistan national team (2026 WC)",
+    "type": "other"
+   }
+  ]
+ },
+ {
+  "name": "Eric Cantona",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b06",
+    "Violent conduct (1995)",
+    21.0,
+    "kung-fu kick at a fan who abused him"
+   ],
+   [
+    "b06",
+    "Violent conduct (1987)",
+    21.0,
+    "dangerous kung-fu tackle on Nantes' Michel Der Zakarian"
+   ],
+   [
+    "b09",
+    "Rival move (1992)",
+    6.0,
+    "moved from Leeds to bitter rival Man Utd"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 1995,
+    "type": "b06",
+    "what": "kung-fu kick at a fan who abused him",
+    "outcome": "8-month ban, community service",
+    "source": "https://en.wikipedia.org/wiki/Eric_Cantona"
+   },
+   {
+    "year": 1992,
+    "type": "b09",
+    "what": "moved from Leeds to bitter rival Man Utd",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "type": "b06",
+    "year": 1987,
+    "what": "dangerous kung-fu tackle on Nantes' Michel Der Zakarian",
+    "outcome": "3-month ban, reduced to 2 months",
+    "source": "https://en.wikipedia.org/wiki/Eric_Cantona"
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Ryan Giggs",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b02",
+    "Abuse allegations (2020)",
+    15.9,
+    "charged with assault and coercive control of ex-partner"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2020,
+    "type": "b02",
+    "what": "charged with assault and coercive control of ex-partner",
+    "outcome": "hung jury 2022; charges dropped 2023",
+    "source": "https://lbc.co.uk/news/ryan-giggs-retrial-dropped"
+   },
+   {
+    "year": 2011,
+    "type": "other",
+    "what": "privacy injunction over affair scandal",
+    "outcome": "",
+    "source": "https://en.wikipedia.org/wiki/Ryan_Giggs"
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "Roy Keane",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b06",
+    "Violent conduct (2001)",
+    21.0,
+    "admitted deliberate tackle on Haaland"
+   ],
+   [
+    "b06",
+    "Violent conduct (1999)",
+    6.3,
+    "arrested over alleged assault on a woman in a Manchester bar"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 2001,
+    "type": "b06",
+    "what": "admitted deliberate tackle on Haaland",
+    "outcome": "fined £150k, 5-match ban",
+    "source": "https://en.wikipedia.org/wiki/Roy_Keane"
+   },
+   {
+    "year": 2002,
+    "type": "other",
+    "what": "walked out of Ireland's World Cup squad in Saipan",
+    "outcome": "",
+    "source": ""
+   },
+   {
+    "type": "b06",
+    "year": 1999,
+    "what": "arrested over alleged assault on a woman in a Manchester bar",
+    "outcome": "not prosecuted; case dropped",
+    "source": "https://www.rte.ie/news/1999/0628/2296-sport"
+   }
+  ],
+  "money_moves": []
+ },
+ {
+  "name": "David Beckham",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b12",
+    "Authoritarian ambassador (2022)",
+    21.0,
+    "Qatar 2022 ambassador (reported £150m deal)"
+   ]
+  ],
+  "incidents": [
+   {
+    "year": 1998,
+    "type": "other",
+    "what": "red card vs Argentina at 1998 World Cup",
+    "outcome": "",
+    "source": ""
+   }
+  ],
+  "money_moves": [
+   {
+    "year": 2013,
+    "what": "played for PSG (Qatar)",
+    "type": "b11"
+   },
+   {
+    "year": 2022,
+    "what": "Qatar 2022 ambassador (reported £150m deal)",
+    "type": "b12"
+   }
+  ]
+ },
+ {
+  "name": "Xavi",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b12",
+    "Authoritarian ambassador (2022)",
+    21.0,
+    "Qatar 2022 global ambassador"
+   ],
+   [
+    "b10",
+    "Money-league move (2015)",
+    6,
+    "Al Sadd"
+   ]
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2015,
+    "what": "joined Al Sadd (Qatar; not state-owned by PIF but royal-family club), later coached there",
+    "type": "other"
+   },
+   {
+    "year": 2022,
+    "what": "Qatar 2022 global ambassador",
+    "type": "b12"
+   }
+  ]
+ },
+ {
+  "name": "Andrés Iniesta",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b10",
+    "Money-league move (2023)",
+    6,
+    "Emirates Club"
+   ]
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2023,
+    "what": "played for Emirates Club (UAE)",
+    "type": "other"
+   }
+  ]
+ },
+ {
+  "name": "Raúl",
+  "active": false,
+  "gender": "M",
+  "hard": [
+   [
+    "b10",
+    "Money-league move (2012)",
+    6,
+    "Al Sadd"
+   ]
+  ],
+  "incidents": [],
+  "money_moves": [
+   {
+    "year": 2012,
+    "what": "joined Al Sadd (Qatar)",
+    "type": "other"
+   }
+  ]
+ }
+]

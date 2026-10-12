@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Scotland",
+    "verdict": "confirmed",
+    "changes": [],
+    "missing_checked": [
+      "no UEFA discrimination or violence sanctions against the SFA 2021-26 (last: FIFA fine Nov 2021 for jeering Israel's anthem and a flag, older than 5 years, minor)",
+      "no betting partner: William Hill deal ended June 2020; current partners Adidas (to 2028), Chase, Pepsi Max, Chest Heart & Stroke Scotland",
+      "no SFA governance scandal 2025-26; Clarke resigned after the 2026 World Cup, Pocognoli appointed Aug 2026 (coach change only)",
+      "women's team: equal pay and treatment dispute settled Sept 2023 after a tribunal claim (parity reached, but only under legal pressure; small minus, offsets the plus below)",
+      "2026 World Cup fan conduct: Tartan Army praised in Boston (clean-ups, $15,000 to Massachusetts Child, hospital donation); continues the already-counted Sunshine Appeal record",
+      "government: UK Free (Freedom House 92), no hard line"
+    ],
+    "notes": "Evidence only reinforces the current numbers (C 10, V 8). The 2026 World Cup charity is a plus, the 2023 women's pay dispute a small minus; net no change.",
+    "confidence": "high",
+    "sources": [
+      "https://www.scotsman.com/sport/football/international/scotland-fans-told-youll-always-have-a-home-in-boston-as-tartan-army-thanked-for-delivering-pure-joy-8752518",
+      "https://kutv.com/news/nation-world/tartan-army-donates-15000-to-massachusetts-students-in-need-scottish-fans-soccer-world-cup-boston-stadium-school-bus-child-teachers-association-july-8-2026",
+      "https://insidersport.com/2020/02/24/scottish-fa-and-william-hill-announces-end-of-sponsorship/",
+      "https://prod.news.stv.tv/sport/scotland-womens-national-team-and-scottish-fa-reach-agreement-to-halt-employment-tribunal",
+      "https://thejc.com/news/scottish-football-association-fined-after-fans-booed-israeli-national-anthem-uh0nqlz6"
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 7.0,
+        "to": 7.3,
+        "why": "The KNVB gave the women's team equal pay with the men from July 2022 (not in the earlier evidence), and the earlier open question on betting sponsors is settled: Dutch law ended gambling sponsorship of sport on 1 July 2025, and the main partners are KPN (to 2030) and Nike.",
+        "sources": [
+          "https://www.iamexpat.nl/lifestyle/lifestyle-news/dutch-womens-football-team-now-receive-same-pay-men",
+          "https://www.fieldfisher.com/en/insights/amended-advertising-rules-for-online-games-of-chance-in-the-netherlands",
+          "https://www.dutchitchannel.nl/news/754401/kpn-verlengt-sponsorovereenkomst-met-knvb-tot-2030"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "no UEFA discrimination sanctions on the KNVB 2021-26 (not among the seven federations fined at Euro 2024)",
+      "fan violence: Euro 2024 semi-final in Dortmund, 26 arrests around England v Netherlands with clashes involving both sets of fans; isolated, no sanction; the June 2026 unrest in The Hague and Rotterdam was mostly after Morocco's win, not Oranje fans",
+      "KNVB condemned racist online abuse of players after the 2026 World Cup exit and passed it to the public prosecutor (consistent with the existing anti-racism credit)",
+      "governance: criticism of Xavi's appointment (Sneijder on licence rules, reports he was a 4th or 5th choice); a process dispute, not misconduct, so O stays 7",
+      "government: Free (Freedom House 97), no hard line"
+    ],
+    "notes": "Kevin's blind gut rating had the Netherlands at 7 and Denmark at 8 (quiz 13). With this change and the Denmark change below, Netherlands V (7.3) and Denmark V (7.5) end up close together.",
+    "confidence": "medium",
+    "sources": [
+      "https://brusselstimes.com/1154249/uefa-sanctions-seven-countries-for-racist-and-discriminatory-fan-behaviour",
+      "https://nltimes.nl/node/73920",
+      "https://businessday.ng/sports/article/dutch-fa-condemns-racist-abuse-after-world-cup-exit/",
+      "https://www.fichajes.net/en/news/xavi-hernandez-facing-criticism-in-the-netherlands-national-team-20261001.html"
+    ]
+  },
+  {
+    "name": "Denmark",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 8.1,
+        "to": 7.5,
+        "why": "Oddset (Danske Spil's sports-betting brand) has been an official sponsor of the men's and women's national teams since 2016, renewed in March 2026 to 2028, and is also title sponsor of the DBU Pokalen. That is a betting sponsor (-0.8; less than a full point because of the 2026 limits: no logo on kit or training wear, no national-team players in its marketing). Partly offset by the 2025 national-team agreement giving women the same base fees and bonus rates, part-funded by a cut to the men's insurance cover (+0.2).",
+        "sources": [
+          "https://www.dbu.dk/nyheder/2026/marts/dbu-og-oddset-forlaenger-partnerskab/",
+          "https://www.fodboldforpiger.dk/2026/03/dbu-og-oddset-forlaenger-partnerskab-for-landsholdene/",
+          "https://www.abola.pt/noticias/dinamarca-da-mais-um-passo-na-igualdade-salarial-entre-homens-e-mulheres-2025020511031303794"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "no UEFA discrimination or violence sanctions 2021-26; only a Euro 2024 fine (about EUR 10,000) for a banner abusing UEFA, which the DBU passed on to the fans responsible (minor, not discrimination)",
+      "Futsal team fined EUR 1,500 for improper team conduct (UEFA CEDB, May 2026); trivial, not counted",
+      "DBU governance stable; Salling Group partnership 2024-29 (retail, neutral)",
+      "government: Free (Freedom House 97, RSF 4th), no hard line"
+    ],
+    "notes": "Denmark was Kevin's top blind gut nation (8). This change lowers it for a documented betting partner, which his rules count against Values (compare Sweden: Svenska Spel main sponsor, V 5.8). If Kevin sees a state-run betting monopoly with these limits as milder, -0.4 (V 7.9) is the lower bound. Consistency flag outside this batch: Norway's earlier research left 'Norsk Tipping as NFF sponsor' unverified (V 8.3); it should be checked the same way.",
+    "confidence": "high",
+    "sources": [
+      "https://www.goal.com/en-us/lists/explained-why-denmark-were-fined-uefa-rules-euro-2024-england/bltddd4849e2b34864a",
+      "https://editorial.uefa.com/resources/02a5-209d9ae60c80-3068134a5fa9-1000/cedb_decisions_-_jsa_-_12.05.2026.pdf",
+      "https://www.dbu.dk/nyheder/2026/marts/dbu-og-oddset-forlaenger-partnerskab/"
+    ]
+  },
+  {
+    "name": "Bodø/Glimt",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "H",
+        "from": 5.4,
+        "to": 5.7,
+        "why": "The 2025-26 Champions League run added famous moments of European note: wins over Manchester City and Atlético Madrid in the league phase, Inter knocked out in the play-off, and a 3-0 first-leg win over Sporting in the last 16 (out 5-3 on aggregate after extra time). This is on top of the four titles and the 2025 Europa League semi-final (raw scores.py value 5.2 -> 5.5).",
+        "sources": [
+          "https://www.insideworldfootball.com/2026/03/18/sporting-lisbon-end-bodo-glimts-fairy-tale-ucl-run/",
+          "https://www.thescore.com/news/3502198/sportings-miraculous-comeback-ends-bodo-glimts-ucl-run"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "ownership: member association, no private owner, no multi-club, PE or state links found",
+      "shirt sponsor: StrongPoint (retail technology), 25-year deal worth NOK 25m a year from 2025 including arena naming; no betting, arms or state sponsor found",
+      "no UEFA fan-conduct sanctions found",
+      "stadium: own 10,000-seat Arctic Arena under construction since early 2026 (opening autumn 2027, about NOK 1.26bn, part supporter-funded); no public-money controversy found; the C rule for a new ground already applies",
+      "coach: Knutsen still in charge (since 2018); no churn",
+      "cause (under-counted): Feb 2025, gate receipts from the Europa League match against Maccabi Tel Aviv plus NOK 735,000 pledged to the Red Cross for Gaza",
+      "women's team (minus): Glimt Kvinner (separate entity since 2024) is last in the 2026 Toppserien, 0 wins in 16, goal difference -55, about 476 per home match, which points to thin investment beside the men's Champions League income",
+      "2026 Eliteserien: no reliable October table found (unverified)"
+    ],
+    "notes": "V stays 9.0: the Gaza donation (a cause, among Kevin's highest-weighted Values items) and the weak women's side roughly cancel. If Kevin weights the women's team more heavily than causes, V 8.8 would be defensible.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.strongpoint.com/uncategorized/strongpoint-signs-sponsorship-deal-with-norwegian-football-club-bodo-glimt/",
+      "https://www.goal.com/en-gh/lists/bodo-glimt-huge-donation-red-cross-gaza-israel-hamas-war-europa-league-maccabi-tel-aviv/blt5cafadc6996f5a3d",
+      "https://en.wikipedia.org/wiki/2026_Toppserien",
+      "https://en.wikipedia.org/wiki/FK_Bod%C3%B8/Glimt_(women)",
+      "https://www.thestadiumbusiness.com/2026/05/21/bodo-glimt-begins-work-on-new-10000-capacity-arctic-arena/",
+      "https://en.wikipedia.org/wiki/Kjetil_Knutsen"
+    ]
+  }
+]

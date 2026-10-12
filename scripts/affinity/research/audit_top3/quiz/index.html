@@ -1,0 +1,129 @@
+<title>Top-3 Tiebreakers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Public+Sans:wght@400;600&display=swap">
+<style>
+/* Layout: one column of question cards, a five-step choice row under each, sticky progress bar. */
+:root{
+  --bg:#f3f5f2; --card:#ffffff; --fg:#13201a; --fg2:#4b5a52; --muted:#7d8a83; --line:#d9e0db;
+  --a:#1f6f4a; --b:#2f5fa8; --pick:#e3efe8; --pickb:#e2eaf6; --mid:#eceeec;
+  --display:"Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+  --body:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1512; --card:#18201c; --fg:#e9eeeb; --fg2:#b3beb8; --muted:#86928c; --line:#2a3530;
+  --a:#4fbf88; --b:#6f9be0; --pick:#1d3328; --pickb:#1c2a40; --mid:#232c28; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1512; --card:#18201c; --fg:#e9eeeb; --fg2:#b3beb8; --muted:#86928c; --line:#2a3530;
+  --a:#4fbf88; --b:#6f9be0; --pick:#1d3328; --pickb:#1c2a40; --mid:#232c28; color-scheme:dark}
+body{background:var(--bg); color:var(--fg); font:16px/1.5 var(--body); padding-inline:16px; padding-block:0 56px}
+.wrap{max-width:680px; margin:0 auto; display:flex; flex-direction:column; gap:16px}
+header{padding-top:28px; display:flex; flex-direction:column; gap:8px}
+h1{font:700 clamp(34px,8vw,48px)/1 var(--display); letter-spacing:.01em; margin:0; text-transform:uppercase}
+.intro{color:var(--fg2); margin:0; max-width:62ch}
+.bar{position:sticky; top:env(safe-area-inset-top,0px); z-index:2; background:var(--bg); padding-block:10px; display:flex; align-items:center; gap:12px; font-size:13px; color:var(--muted)}
+.track{flex:1; height:6px; background:var(--line); border-radius:3px; overflow:hidden}
+.fill{height:100%; width:0; background:var(--a); transition:width .2s}
+@media (prefers-reduced-motion: reduce){.fill{transition:none}}
+.q{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; display:flex; flex-direction:column; gap:12px}
+.qn{font:600 13px var(--display); letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
+.prompt{margin:0; font-weight:600}
+.pair{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+.opt{border-radius:8px; padding:10px 12px; font-size:15px; color:var(--fg2); min-width:0}
+.opt b{display:block; font:700 15px var(--display); letter-spacing:.06em; text-transform:uppercase}
+.opt.A{background:var(--pick)} .opt.A b{color:var(--a)}
+.opt.B{background:var(--pickb)} .opt.B b{color:var(--b)}
+.scale{display:grid; grid-template-columns:repeat(5,1fr); gap:6px}
+.scale button,.pass{font:600 13px/1.2 var(--body); color:var(--fg); background:var(--mid); border:1px solid var(--line); border-radius:8px; padding:9px 4px; cursor:pointer; min-width:0}
+.scale button[aria-pressed="true"]{color:#fff; border-color:transparent}
+.scale button[data-v="-2"][aria-pressed="true"],.scale button[data-v="-1"][aria-pressed="true"]{background:var(--a)}
+.scale button[data-v="1"][aria-pressed="true"],.scale button[data-v="2"][aria-pressed="true"]{background:var(--b)}
+.scale button[data-v="0"][aria-pressed="true"]{background:var(--fg2)}
+.pass{align-self:flex-start; padding:6px 12px; background:transparent; color:var(--muted)}
+.pass[aria-pressed="true"]{color:var(--fg); border-color:var(--fg2)}
+button:focus-visible,textarea:focus-visible{outline:2px solid var(--a); outline-offset:2px}
+textarea{width:100%; box-sizing:border-box; min-height:96px; font:15px/1.5 var(--body); color:var(--fg); background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px}
+.status{font-size:13px; color:var(--muted)}
+@media (max-width:420px){.pair{grid-template-columns:1fr}.scale button{font-size:12px}}
+</style>
+
+<div class="wrap">
+<header>
+  <h1>Top-3 Tiebreakers</h1>
+  <p class="intro">Twenty general trade-offs. None is about a particular club, and each one applies to any league. Pick a side, or "Pass" if you don't know. Answers save as you go.</p>
+</header>
+<div class="bar" aria-live="polite"><div class="track"><div class="fill" id="fill"></div></div><span id="count">0 of 20</span></div>
+<div id="qs" class="wrap" style="gap:16px"></div>
+<section class="q">
+  <span class="qn">Anything else</span>
+  <label class="prompt" for="note">A rule of thumb, or a trade-off these missed?</label>
+  <textarea id="note" placeholder="Optional"></textarea>
+</section>
+<p class="status" id="status">Loading saved answers…</p>
+</div>
+
+<script>
+const Q = [
+  ['Which would you rather follow?', 'The loudest, most loyal crowd in its league, but a small section of its fans has been sanctioned for bad behaviour.', 'A quieter, respectful crowd and a strong record of community work.'],
+  ['Which would you rather follow?', 'One of the richest histories in the sport, run as a professional company.', 'Owned and run by its members, with a modest trophy history.'],
+  ['Which would you rather follow?', 'Wins trophies or contends most seasons.', 'Rarely wins, but you admire its character more.'],
+  ['Which would you rather follow?', 'Plays the most exciting, intense football in its league, in front of decent crowds.', 'Plays ordinary football, in front of an electric home crowd.'],
+  ['Which would you rather follow?', 'A global club with millions of followers worldwide.', 'A club rooted in its city, with few fans abroad.'],
+  ['Which is worse in a club\'s recent past?', 'Racist abuse by some of its fans, which the club was punished for.', 'Organised fights between its ultras and rival fans.'],
+  ['Which would you rather follow?', 'Signed up to a breakaway super league a few years ago, pulled out within days, and has won plenty since.', 'Never involved, and wins far less.'],
+  ['Which would you rather follow?', 'Owned by an investment fund that runs it well and invests.', 'Owned by a local family that runs it averagely.'],
+  ['Which would you rather follow?', 'Independent, with a mid-table budget.', 'Part of a multi-club group, with better facilities and results.'],
+  ['Which national team pulls you more?', 'A large share of your ancestry, a smaller football tradition.', 'No ancestral tie, a famous football tradition.'],
+  ['Which would you rather follow?', 'A day\'s drive from home, everything else equal.', 'Across the country, everything else equal.'],
+  ['Which would you rather follow?', 'A strong, well-funded women\'s team alongside the men\'s.', 'No women\'s team, but a better men\'s side.'],
+  ['Which would you rather follow?', 'Young, founded in the last 15 years, with a passionate fan base that built it.', 'Decades of history, calmer crowds.'],
+  ['Which would you rather follow?', 'A past owner was forced out over a scandal; new owners have rebuilt trust.', 'No scandal ever, but owners with little ambition.'],
+  ['Which would you rather follow?', 'A betting company as an official partner (not on the shirt), and some of the cheapest tickets in its league.', 'No betting sponsor, and some of the most expensive tickets.'],
+  ['How much should a link to one of your other clubs pull you?', 'A lot: a shared song, a fan friendship or a common history should count.', 'Very little: judge each club on its own.'],
+  ['Which would you rather follow?', 'On the way up: promoted, building, every season better than the last.', 'Once great, fallen on hard times, fighting its way back.'],
+  ['Which would you rather follow?', 'Owned by the group behind one of your American teams.', 'An otherwise identical club with no tie.'],
+  ['Which would you rather follow?', 'A new purpose-built stadium designed for the club.', 'A historic old ground that needs repair.'],
+  ['Which federation would you rather back?', 'Pays its men and women equally, but takes sponsorship from a state lottery and betting company.', 'No betting sponsor, but slower progress on equal pay.'],
+];
+const LBL = ['Strongly A', 'Lean A', 'Even', 'Lean B', 'Strongly B'];
+const state = {answers: {}, note: ''};
+let db = null, ready = false, timer = null;
+
+function render() {
+  document.getElementById('qs').innerHTML = Q.map(([p, a, b], i) => {
+    const v = state.answers['q' + (i + 1)];
+    return `<section class="q" id="q${i + 1}"><span class="qn">Question ${i + 1}</span><p class="prompt">${p}</p>
+      <div class="pair"><div class="opt A"><b>A</b>${a}</div><div class="opt B"><b>B</b>${b}</div></div>
+      <div class="scale" role="group" aria-label="Question ${i + 1}">${[-2, -1, 0, 1, 2].map((s, j) => `<button type="button" data-q="${i + 1}" data-v="${s}" aria-pressed="${v === s}">${LBL[j]}</button>`).join('')}</div>
+      <button type="button" class="pass" data-q="${i + 1}" data-v="pass" aria-pressed="${v === 'pass'}">Pass / don't know</button></section>`;
+  }).join('');
+  const n = Object.keys(state.answers).filter(k => /^q\d+$/.test(k)).length;
+  document.getElementById('count').textContent = `${n} of ${Q.length}`;
+  document.getElementById('fill').style.width = (n / Q.length * 100) + '%';
+}
+function status(t) { document.getElementById('status').textContent = t; }
+function save() {
+  clearTimeout(timer);
+  timer = setTimeout(async () => {
+    if (!db) { status('Saving is unavailable here (sign in to claude.ai to save).'); return; }
+    try { await db.doc('answers/kevin').set({answers: state.answers, note: state.note, updated: new Date().toISOString()}); status('Saved.'); }
+    catch (e) { status('Could not save: ' + (e && e.code || 'error') + '. Your answers are still on screen.'); }
+  }, 400);
+}
+document.addEventListener('click', e => {
+  const t = e.target.closest('button[data-q]'); if (!t) return;
+  const k = 'q' + t.dataset.q, v = t.dataset.v === 'pass' ? 'pass' : +t.dataset.v;
+  if (state.answers[k] === v) delete state.answers[k]; else state.answers[k] = v;
+  const y = window.scrollY; render(); window.scrollTo(0, y); save();
+});
+document.getElementById('note').addEventListener('input', e => { state.note = e.target.value; save(); });
+render();
+(async () => {
+  try { db = await (window.claude && window.claude.use ? window.claude.use('db') : null); } catch (e) { db = null; }
+  if (!db) { status('Answers show here but can\'t be saved in this view.'); return; }
+  try {
+    const s = await db.doc('answers/kevin').get();
+    if (s.exists) { const d = s.data(); Object.assign(state.answers, d.answers || {}); state.note = d.note || ''; document.getElementById('note').value = state.note; render(); status('Saved answers loaded.'); }
+    else status('Nothing saved yet.');
+  } catch (e) { status('Could not load saved answers.'); }
+})();
+</script>

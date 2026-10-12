@@ -21,7 +21,8 @@ import proximity
 KEVIN = ['Sacramento Kings', 'San Francisco Giants', 'San Francisco 49ers', 'San Jose Sharks']
 RIVAL = {'Los Angeles Lakers': 1, 'Los Angeles Dodgers': 1, 'Seattle Seahawks': 1, 'Los Angeles Rams': 1,
          'Dallas Cowboys': 1, 'Los Angeles Kings': 1, 'Anaheim Ducks': 1, 'Vegas Golden Knights': 1,
-         'Athletics': 0.5, 'Las Vegas Raiders': 0.5, 'Green Bay Packers': 0.5, 'Golden State Warriors': 0.5}
+         'Athletics': 1,  # John Fisher: full rival weight (Kevin, 2026-10-12)
+         'Las Vegas Raiders': 0.5, 'Green Bay Packers': 0.5, 'Golden State Warriors': 0.5}
 BAY = 'Bay Area (Giants, 49ers, Sharks; Warriors)'
 LA = 'LA market (Lakers, Dodgers, Rams, Kings, Ducks)'
 MARKET = {

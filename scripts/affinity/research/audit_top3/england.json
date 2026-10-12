@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Liverpool",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 8.2,
+        "to": 7.7,
+        "why": "On 8 September 2026 the club announced Turkish Airlines (49.12% held by the Turkiye Wealth Fund, a state fund of a Freedom House 'Not Free' country) as front-of-shirt main partner from June 2027; Kevin's rule counts announced plans now, and the original research deferred the drop until the deal starts. Weighed at about half the -1 used for Arsenal's fully state-owned Emirates because the state stake is a minority one.",
+        "sources": [
+          "https://www.thestar.com.my/sport/football/2026/09/08/soccer-liverpool-announce-five-year-sponsorship-deal-with-turkish-airlines",
+          "https://insidersport.com/2026/09/08/liverpool-signs-turkish-airlines-deal/",
+          "https://china.aiddata.org/projects/105205",
+          "https://www.turkishminute.com/2017/02/06/treasury-stakes-thy-halkbank-also-transferred-wealth-fund/"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "no FA/UEFA discrimination sanctions on Liverpool fans 2021-26 found (UEFA chant fines found are from 2016)",
+      "no current betting partner confirmed (Ladbrokes/Interwetten/Marathonbet deals found are undated or older)",
+      "ticket pricing: 3% rise 2026-27 then 2027-28 freeze after Supporters Board talks, already counted in V",
+      "1892 Holdings minority deal (Aug 2026): Bhatia left QPR in July 2026, so no multi-club tie found; FSG keeps control",
+      "LFC Women in the WSL 2026-27, three Anfield matches, prices frozen: no change",
+      "Super League -3 kept: same value as the other five English signatories in scores.py"
+    ],
+    "notes": "1) Check the V move against the original intent: the out/ research listed the Turkish Airlines deal under 'Lowers' but its flag said 'V drops a point when it starts (currently 8, was 9)', which reads as not yet applied. If Kevin takes it as already counted, leave V at 8.2. A full Emirates-style -1 would give 7.2. 2) 1892 Holdings reportedly holds an option to buy a controlling stake within 12 months (Aug 2026 reports, not a formal commitment). If it is exercised, re-check Ownership. Lakshmi Mittal's own QPR shareholding after Bhatia's exit was not verified. 3) A Greek Cypriot supporter's column (Cyprus Mail) objected to the Turkish Airlines deal. No organised fan-group statement (e.g. Spirit of Shankly) was found.",
+    "confidence": "medium"
+  },
+  {
+    "name": "Leeds United",
+    "verdict": "confirmed",
+    "changes": [],
+    "missing_checked": [
+      "Values not redone: sourced dossier in research/leeds_values (5.7 proposed; Kevin kept 6.0). Its homophobic-chanting hard-line question (2023 FA fine, April 2026 FA Cup semi-final reports) stays open for Kevin",
+      "ownership: 49ers Enterprises 100% since 2023, Red Bull minority under 10% with no board seat; Leeds is the 49ers' flagship (Rangers secondary), so no multi-club or PE line under the REVIEW rules",
+      "no new owner change, sale or owner scandal found for 2025-26 or summer 2026",
+      "Elland Road expansion to about 53,000-55,000 still the plan (supports C/O); no relocation",
+      "no 2026 fan-violence sanctions found (arrest reports found are undated or older; Service Crew history not current)",
+      "no head-coach change found in 2026 (Farke status as of October 2026 not directly confirmed)"
+    ],
+    "notes": "No changes to C 9.3, H 8.0, O 5.2 or S. The +2 conn item for 49ers Enterprises ownership still applies. BoyleSports (official betting partner from July 2026) is a Values matter and is already in the Leeds dossier.",
+    "confidence": "medium"
+  },
+  {
+    "name": "Everton",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 7.0,
+        "to": 6.8,
+        "why": "In summer 2026 the club renewed Stake on a multi-year deal (sleeve plus stadium and digital presence) as CMC Markets took the shirt front. In February 2025 the Gambling Commission forced Stake out of the GB market and wrote to Everton about the risks of promoting unlicensed gambling sites, which makes this a stronger case than a typical betting sleeve.",
+        "sources": [
+          "https://www.sportcal.com/news/everton-add-cmc-markets-as-main-sponsor-stake-shifts-to-sleeve-deal/",
+          "https://sponsorship.sportbusiness.com/news/everton-moves-ahead-with-cmc-stake-to-sleeve/",
+          "https://www.sportcal.com/news/everton-sponsor-stake-to-exit-uk-amid-adult-content-advertising-probe/",
+          "https://insidersport.com/2025/02/12/stake-ordered-to-exit-uk-sponsorships/"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "multi-club: Friedkin Group still owns AS Roma (and is reported to control Cannes); Multi-club -4 stands. A Sept 2026 report says Friedkin may sell a minority Everton stake to widen the shareholder base, which is not an exit",
+      "no FA/UEFA discrimination sanctions on Everton fans 2021-26 found (2023 FA probe concerned Man Utd fans' chant at Lampard)",
+      "no state, PE or LBO ownership; Moshiri-era overspend stays dropped (previous owner)",
+      "Hill Dickinson Stadium move (2025) already handled by the new-stadium rule in C",
+      "front of shirt is now CMC Markets (financial services): neutral"
+    ],
+    "notes": "If Roma and Everton ever enter the same UEFA competition, UEFA's multi-club rules could force a structural change. Re-check the multi-club line then.",
+    "confidence": "medium"
+  },
+  {
+    "name": "Portsmouth",
+    "verdict": "confirmed",
+    "changes": [],
+    "missing_checked": [
+      "ownership: Eisner/Tornante since 2017, unchanged; record summer 2026 spend described as a shift in owner priorities, with no PSR/overspend case found",
+      "sponsors 2026-27: University of Portsmouth front (home, away, third), Neutonic on the back of the third kit; no betting partner found",
+      "no FA charges for discriminatory chanting by Pompey fans 2021-26 found (cases found date from 2008-09)",
+      "no fan-violence sanctions, relocation, multi-club or state links found",
+      "Fratton Park stays home (redeveloped); no stadium move"
+    ],
+    "notes": "Still open from earlier research: whether the Pompey Supporters' Trust kept any golden share or veto after the 2017 sale (a golden-share idea was discussed in 2015-16; adoption not verified). If it was adopted, O 7.2 could rise slightly. One undated item says BeeBu became the men's team's first sleeve sponsor; its season and sector were not verified.",
+    "confidence": "medium"
+  },
+  {
+    "name": "Derby County",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 6.0,
+        "to": 5.8,
+        "why": "Spreadex (a spread-betting and sports-betting firm) is a Club Partner through the end of 2026-27, with matchday branding at Pride Park. It is counted partly, as stadium branding rather than kit; the earlier research found no betting sponsor.",
+        "sources": [
+          "https://www.dcfc.co.uk/news/2025/07/club-partner-derby-county-extend-partnership-with-spreadex"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "shirt sponsor Loaded is a digital game store, not gambling (resolves the earlier flag); sleeve Tonic Health Group",
+      "ownership: Lion Sport (Turki Alalshikh) withdrew on 10 August 2026 after IFR/EFL approval; Clowes Developments stays and took the club off the market; the O -0.3 for the agreed sale already reflects this",
+      "no 2025-26 fan racism or disorder sanctions found (most recent banning orders 2022)",
+      "no multi-club, PE, LBO or relocation"
+    ],
+    "notes": "Alalshikh said he would 'remain in conversation with the club and see what is possible in the future'. If a Saudi-linked bid is revived, the state hard line from the earlier flag applies.",
+    "confidence": "medium"
+  },
+  {
+    "name": "Charlton Athletic",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 8.0,
+        "to": 7.7,
+        "why": "The club has a betting partner on the kit: London.Bet (online sportsbook and casino) as back-of-shorts sponsor and official betting partner from 4 August 2026, replacing Tangobet in 2025-26. The earlier research recorded no betting sponsor. Charlton Women's promotion to the WSL in May 2026 offsets a little of the drop.",
+        "sources": [
+          "https://www.gambling.com/uk/news/london-bet-named-charlton-athletic-s-back-of-shorts-and-betting-partner-for-2026-27",
+          "https://igamingbusiness.com/company-news/london-bet-named-official-back-of-shorts-and-betting-partner-of-charlton-athletic/",
+          "https://en.wikipedia.org/wiki/Charlton_Athletic_W.F.C.",
+          "https://www.cafc.co.uk/news/note-board-following-202526-season"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "ownership: Global Football Partners still owner; Oakwell appointed to explore a sale (Aug 2026), no buyer found as of October; already in O 3.8",
+      "The Valley and Sparrows Lane are still owned by former owner Roland Duchatelet, but the lease was extended (reported to 2040) in late 2025, so there is no relocation risk; this fits O 3.8",
+      "no FA/UEFA discrimination or fan-violence sanctions found 2021-26",
+      "front of shirt RSK Group; TodayTix back of shirt: neutral"
+    ],
+    "notes": "If GFP sells, re-check Ownership (Kevin's announced-plans rule: -1 for a sale to PE, multi-club or an opposed owner, +1 for one to fans or a respected local). The sale pitch reportedly names women's-team investment as a growth lever.",
+    "confidence": "medium"
+  }
+]

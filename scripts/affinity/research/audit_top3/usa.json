@@ -1,0 +1,116 @@
+[
+{"name": "Portland Timbers",
+ "verdict": "confirmed",
+ "changes": [],
+ "missing_checked": [
+  "no betting, casino, airline or state-owned sponsor on the 2026 partner page (Bank of America shirt, Tillamook sleeve, Providence, Toyota, adidas, Old Trapper)",
+  "no Timbers sale, PE stake or multi-club link reported 2025-26; Paulson still sole controlling owner",
+  "no relocation or new-stadium plan; Providence Park operating agreement to 2035",
+  "no MLS discrimination or fan-violence sanctions 2021-26 found",
+  "no new player-conduct case since Polo (2022); coach Cifuentes since Aug 2026 (already in Team via Cascadia dossier)",
+  "Cascadia dossier (2026-09-29) reused; nothing in it out of date as of 12 Oct 2026"],
+ "notes": "Luckii.com (Oregon Racing Commission online wagering) was named 'Official Online Gaming Partner' in April 2021 on a multi-year deal; it is not on the current partner page and no renewal was found. Unverified whether it is still active; if it is, the casino/betting rule would apply. No change proposed. Source: https://sbcamericas.com/2021/04/16/luckii-com-appointed-official-online-gaming-partner-of-portland-timbers/ ; https://www.timbers.com/corporate-partnerships",
+ "confidence": "high"},
+
+{"name": "Seattle Sounders FC",
+ "verdict": "confirmed",
+ "changes": [],
+ "missing_checked": [
+  "Allen estate's 25% stake still unsold; no buyer or signed deal for the Moelis capital raise (no R2 trigger yet)",
+  "Alliance GM vote on Craig Waibel runs Oct-Nov 2026; no result yet",
+  "Renton stadium still 'on the table', no announced move beyond the Sept 2026 business meeting already counted in the Cascadia decider",
+  "no MLS discrimination or fan-violence sanctions 2021-26",
+  "sponsors unchanged since the dossier: Providence shirt to 2027, Emerald Queen Casino sleeve and pitch (sportsbook inside, already counted)"],
+ "notes": "Cascadia decider facts are current. Two pending items could move Ownership later: the Allen-stake sale (R2 -1 if to PE or an opposed buyer) and a formal Renton announcement (R2 Culture -1 if opposed; the decider already priced in a 'likely suburban move'). Neither reverses Timbers > Sounders.",
+ "confidence": "high"},
+
+{"name": "Philadelphia Union",
+ "verdict": "confirmed",
+ "changes": [],
+ "missing_checked": [
+  "no sportsbook or casino partner on the current partner page (the 2019 Parx Casino gaming deal is no longer listed; PA Lottery is a partner, not a sportsbook)",
+  "kit clean: Bimbo shirt, IBX sleeve, Subaru stadium",
+  "no ownership change, PE or multi-club stake (Sugarman/Keystone)",
+  "no fan discrimination or violence sanctions found",
+  "Tanner case (MLS suspension to 1 June 2026, restorative programme) already counted in Ownership -1; reports say he has not resumed duties and Jon Scheer (academy director) is acting sporting director"],
+ "notes": "If Tanner is reinstated as sporting director, revisit Ownership/Values; if he leaves, the existing -1 could be reviewed. Sources: https://www.mlssoccer.com/news/mls-statement-on-ernst-tanner-x3628 ; https://footballboard.co.uk/transfers/ernst-tanner-yet-to-complete-mls-training-after-suspension-ends ; https://www.philadelphiaunion.com/partners",
+ "confidence": "medium"},
+
+{"name": "Sacramento Republic FC",
+ "verdict": "confirmed",
+ "changes": [],
+ "missing_checked": [
+  "no sportsbook partner (California has no legal sports betting); casino partner is Sky River Casino, owned by the club's owner Wilton Rancheria (covered by the tribal-casino rule)",
+  "Republic Stadium: groundbreaking Aug 2025, 20,000+ seat soccer-first venue announced Mar 2026, opening 2028 (already counted, R2 Culture +1)",
+  "no ownership change; Wilton Rancheria majority, Nagle minority",
+  "no discrimination or fan-violence sanctions found",
+  "no women's team found (USL W League or Super League) as of Oct 2026"],
+ "notes": "Values 8.2 has no women's-team credit: research found no Republic women's side (open question 17 in docs/preferences.md is still unanswered). If Kevin knows of one, nothing changes; if not, 8.2 is still supported by the tribal ownership and community work. Sources: https://www.sacrepublicfc.com/news/2024/02/22/multi-year-republic-fc-and-sky-river-casino-partnership-adds-to-premium-matchday-experiences-showcases-wilton-rancherias-proud-history-and-connection-to-region/ ; https://en.wikipedia.org/wiki/Republic_FC_Stadium",
+ "confidence": "high"},
+
+{"name": "Detroit City FC",
+ "verdict": "adjust",
+ "changes": [
+  {"field": "V", "from": 9.0, "to": 8.0,
+   "why": "MotorCity Casino Hotel became the right-sleeve kit sponsor for 2026-28 and has a FanDuel Sportsbook inside, the 'casino with a sportsbook' rule (Values -1, rules re-rate R4) that earlier research had not counted.",
+   "sources": ["https://www.detcityfc.com/?p=16713",
+               "https://www.dbusiness.com/daily-news/dbusiness-daily-update-fanduel-sportsbook-at-motorcity-casino-debuts-new-vip-room-and-more/",
+               "https://www.legalsportsreport.com/38641/fanduel-michigan-sports-betting-access/"]}],
+ "missing_checked": [
+  "AlumniFi Field: groundbreaking 15 July 2026, 15,000 seats, opening slipped to 2028 (R2 was skipped earlier: leaving historic Keyworth)",
+  "no ownership change; founders keep control with fan investment units",
+  "women's team still in the USL W League (semi-pro)",
+  "no discrimination or fan-violence sanctions found",
+  "the old Golden Nugget Online Gaming deal (2021-22) ended when GNOG was absorbed by DraftKings; no current online sportsbook partner found"],
+ "notes": "This moves Detroit toward Kevin's gut rating (6 against a model of 77.1 in round 5).",
+ "confidence": "high"},
+
+{"name": "Louisville City FC",
+ "verdict": "confirmed",
+ "changes": [],
+ "missing_checked": [
+  "no betting or casino sponsor found",
+  "no ownership change at LouCity (Soccer Holdings, John Neace, local)",
+  "no discrimination or fan-violence sanctions found",
+  "Lynn Family Stadium unchanged"],
+ "notes": "Two updates for Kevin. (1) Coach Danny Cruz (back-to-back USL Coach of the Year) left in March 2026; Simon Bird is interim. Earlier Team evidence (final3) wrongly said Cruz was still coach in 2026. He did not get the 5-season coach credit, so the Team base of 7 still stands on the stable core and recent shields, but it is weaker. (2) In Sept 2026 ESPN reported Soccer Holdings is exploring options for Racing Louisville, possibly including a sale, with talk of FC Cincinnati interest and fan worry about relocation. Nothing is announced, so R2 does not apply yet. A sale or move of Racing would change the -4.9 'Linked to Racing Louisville' item and LouCity's women's-team credit. Sources: https://www.loucity.com/news/2026/03/17/bird-delpiccolo-to-lead-loucity-as-cruz-departs-the-club/ ; https://spectrumnews1.com/ky/lexington/news/2026/09/12/louisville-fc-fans-react-to-potential-sale ; https://justwomenssports.com/reads/racing-louisville-nwsl-sale-minority-stake-soccer-holdings/",
+ "confidence": "medium"},
+
+{"name": "Portland Thorns",
+ "verdict": "confirmed",
+ "changes": [],
+ "missing_checked": [
+  "no betting or casino partner (top partners Alaska Airlines, First Tech, Ring, Toyota)",
+  "no new NWSL welfare investigation 2023-26 found; Yates/Riley findings are under the previous owner and Values 7.8 is Kevin's REVIEW call",
+  "ownership unchanged: Bhathal family (RAJ Sports) since Jan 2024, no sale or multi-club stake",
+  "coach churn: Rob Gale dismissed Nov 2025 after a semifinal, no misconduct reason given; Vilahamn in 2026",
+  "no stadium move; still at Providence Park"],
+ "notes": "",
+ "confidence": "high"},
+
+{"name": "Kansas City Current",
+ "verdict": "adjust",
+ "changes": [
+  {"field": "V", "from": 8.0, "to": 7.8,
+   "why": "The Dec 2022 NWSL/NWSLPA joint investigation found the club did not act on player concerns raised to owners Angie and Chris Long in Aug 2021 and did not stop coach Huw Williams retaliating; he stayed in a front-office role until Nov 2022 (no fine, no finding of club retaliation). This is the women's-game welfare record the brief requires, it happened under the current owners, and it places the Current level with, not above, the Thorns.",
+   "sources": ["https://www.kshb.com/sports/local-sports/kc-current/nwsl-report-players-allege-current-ignored-mistreatment-by-former-coach-huw-williams",
+               "https://www.kshb.com/sports/local-sports/kc-current/nwsl-fallout-kansas-city-current-didnt-retaliate-against-players-avoids-fine"]}],
+ "missing_checked": [
+  "no betting or casino partner found (United Way shirt; CPKC stadium naming is a railway)",
+  "no new welfare investigation 2023-26 beyond a 2024 review of a draftee's mother's complaint (no finding reported)",
+  "ownership unchanged (the Longs, the Mahomeses); no PE or multi-club stake",
+  "no supporter discrimination or violence sanctions"],
+ "notes": "The welfare finding is now about five years old with no repeat. If Kevin treats it like the Thorns (forgiven), keep 8.0.",
+ "confidence": "medium"},
+
+{"name": "Washington Spirit",
+ "verdict": "confirmed",
+ "changes": [],
+ "missing_checked": [
+  "Fanatics Sportsbook partnership (May 2026) is still the only betting deal found; already counted in Values 5",
+  "no new NWSL welfare investigation since the 2021 Burke/Baldwin case",
+  "no stadium move; Audi Field hosts the 2026 NWSL Championship",
+  "no supporter discrimination or violence sanctions"],
+ "notes": "Decision for Kevin on multi-club ownership: Kang's network has grown. Besides OL Lyonnes and London City Lionesses (Kynisca), she has been president of Olympique Lyonnais since mid-2025 and in June 2026 agreed to buy 87.78% of Eagle Football Group (the men's club's parent) for about 26m euros plus up to 71m euros of new money. The current rule treats the Spirit as Kang's flagship (no multi-club penalty). If Kevin now sees Lyon as the flagship of a men's-and-women's group, the Spirit becomes a secondary club and multi-club (-4 to -6, folded into Ownership) would apply. Not proposed as a change because the flagship rule still reads literally on the Spirit, Kang's first club and home base. Sources: https://onthemoney.sportbusiness.com/news/kang-agrees-takeover-deal-for-olympique-lyonnais/ ; https://www.flashscore.co.uk/news/football-ligue-1-lyon-president-kang-becomes-club-s-majority-shareholder-in-23m-purchase/WfoTPhdd/ ; https://en.wikipedia.org/wiki/Michele_Kang",
+ "confidence": "medium"}
+]

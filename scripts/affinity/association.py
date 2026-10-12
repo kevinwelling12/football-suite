@@ -20,8 +20,9 @@ import json, pathlib
 root = pathlib.Path(__file__).resolve().parents[2]
 LINKS = root / 'scripts' / 'affinity' / 'links.json'
 W = {'strong': 0.15, 'medium': 0.08, 'light': 0.04}
-CAP = 5.0
-MAX_W = 0.15
+CAP = 7.0   # was 5; top-3 tiebreakers 2026-10-12: links to his other clubs should count 'a lot'
+MAX_W = 0.25  # was 0.15 (same answer)
+NEG_W, NEG_CAP = 0.15, 5.0   # pulls toward disliked clubs: unchanged
 DISLIKE = 50
 
 
@@ -46,8 +47,10 @@ def pulls(score, rivals, links=None):
         ps = [(y, p) for y, p in ps if round(p, 1)]
         if not ps:
             continue
+        # the 2026-10-12 increase is for links to clubs he likes; pulls toward clubs he dislikes keep the old weight
+        ps = [(y, p if p > 0 else p * NEG_W / MAX_W) for y, p in ps]
         tot = sum(p for _, p in ps)
-        res[n] = (round(max(-CAP, min(CAP, tot)), 1), [(y, round(p, 1)) for y, p in ps])
+        res[n] = (round(max(-NEG_CAP, min(CAP, tot)), 1), [(y, round(p, 1)) for y, p in ps])
     return res
 
 

@@ -1,0 +1,50 @@
+[
+ {
+  "name": "Celta Vigo",
+  "verdict": "confirmed",
+  "changes": [],
+  "missing_checked": [
+   "no UEFA or RFEF discrimination sanction against the club found 2021-26; no UEFA fine found for the 2025-26 Europa League run (the Celta-PAOK tie was declared high risk, no incident reported)",
+   "fan conduct is routine-level: LaLiga chant reports (e.g. 'puta Betis' Jan 2024, 'puta Santander' v Racing 19 Sep 2026, no sanction found) and Antiviolencia fines on two individual fans (EUR 1,500 each, insults to police, flares) after a match v Cordoba; no club-level closure proposal, no ultra arrests found",
+   "no betting sponsor: Luckia was a one-year shirt deal in 2016; shirt Estrella Galicia (2026-27 kit), ABANCA main partner to 2028, sleeve JP Financial (Spanish investment consultancy) to 2028",
+   "state-linked sponsors are past: Maldives tourism sleeve 2019-22 and AIX Investment Group (private UAE firm) 2021-24 both ended",
+   "ownership unchanged: Mourino family majority, Marian Mourino president since 2023; no PE, multi-club, Super League or sale process found",
+   "Balaidos is council-owned and being rebuilt to about 27,000 with council/provincial money; no relocation; the club-council dispute over the stadium and sports city is long-running and already reflected",
+   "Giraldez still coach (contract to June 2027); Aspas in his final season, already flagged for S",
+   "positive checked: Celta Integra (LaLiga Genuine team for players with intellectual disabilities) marked 10 years in Sept 2025; most LaLiga clubs run a Genuine team, so not a distinguishing raise"
+  ],
+  "notes": "Kevin's gut rating of 10 found no new fact to support a raise: the strengths (Galician identity, A Madroa core, left-wing Celtarras, stable family owner with a female president) are already in C 7.0 / V 8.2 / O 7.0. Celta's lead over Betis for 3rd does not depend on this audit holding Celta up; it widens because of the Betis hard line below. Unverified: Celta's women's team tier in 2026-27 (not among Liga F promotions for 2026-27). The 'Linked to Athletic Club' item rests on the Celtarras-Herri Norte twinning; Athletic's round-1 V cut for Herri Norte conduct does not change Athletic's high score, so the link stands. Sources checked: https://vigoe.es/deportes/celta/antiviolencia-multa-a-dos-aficionados-del-celta-por-incidentes-en-el-partido-ante-el-cordoba; https://www.laliga.com/noticias/nota-informativa-sobre-las-denuncias-de-la-j7-de-laliga-ea-sports-y-la-j6-de-laliga-hypermotion-2026-27; https://insidersport.com/2019/11/05/celta-vigo-unveils-maldives-sponsorship-agreement/; https://insidersport.com/2021/11/08/celta-vigo-grants-aix-investments-la-liga-brand-presence/; https://rccelta.es/en/?p=154362; https://www.footballkitarchive.com/rc-celta-de-vigo-2026-27-third-kit-500135/; https://planomato.com/es/vigo/p/celta-integra-diez-anos-funcionamiento; https://stadiumdb.com/news/2024/06/spain_agreement_to_fund_works_signed_on_balaidos_pitch",
+  "confidence": "medium"
+ },
+ {
+  "name": "Real Betis",
+  "verdict": "adjust",
+  "changes": [
+   {
+    "field": "hard",
+    "from": null,
+    "to": "Fan violence -4",
+    "why": "Recent, repeated ultra violence and sanctions not in the model: a planned street fight between United Family and Osasuna's Indar Gorri near the Villamarin (Oct 2023, 86 fans proposed for fines and bans), an ultras clash with Atletico fans (Mar 2024), arrests of United Family members over clashes before the 2025 Copa final, UEFA's EUR 30,000 fine and away-ticket ban for firecrackers, objects and vandalism in Florence (May 2025, upheld on appeal), a mass brawl with Sevilla radicals before the Nov 2025 derby (14 Betis fans arrested), plus EUR 242,233 in 2025 fines for offensive and intolerant chants across 14 league matchdays, escalating for recidivism, and a May 2025 Antiviolencia proposal to close the stadium for a month (pyro, access control).",
+    "sources": [
+     "https://www.elindependiente.com/deportes/2024/03/07/detenidos-58-ultras-por-una-pelea-campal-en-sevilla-previa-al-betis-osasuna/",
+     "https://www.interior.gob.es/opencms/es/detalle/articulo/Antiviolencia-propone-una-sancion-de-3.001-euros-para-cada-uno-de-los-86-aficionados-identificados-miembros-de-grupos-ultras-del-Betis-y-Osasuna-que-participaron-en-una-brutal-pelea-por-las-calles-de-Sevilla/",
+     "https://www.elindependiente.com/deportes/2024/03/03/ultras-del-atletico-de-madrid-y-betis-se-enzarzan-en-una-batalla-campal-horas-antes-del-partido-en-el-metropolitano/",
+     "https://www.elgoldigital.com/futbol/copa-del-rey/redada-policial-en-los-grupos-radicales-del-barcelona-y-betis/",
+     "https://es.soccerway.com/noticias/futbol-europa-league-el-betis-se-queda-sin-aficion-en-su-primer-partido-como-visitante-en-la-europa-league/xIJB0xwJ",
+     "https://unanimodeportes.com/deportes/futbol/laliga/pelea-ultras-sevilla-y-betis/",
+     "https://www.vozpopuli.com/deportes/los-clubes-de-laliga-se-movilizan-contra-los-canticos-intolerantes-dentro-y-fuera-de-los-estadios-de-futbol.html",
+     "https://www.biobiochile.cl/noticias/deportes/futbol-internacional/notas-futbol-internacional/2025/05/14/comision-antiviolencia-quiere-sancion-para-el-betis-de-pellegrini-proponen-un-mes-con-estadio-cerrado.shtml"
+    ]
+   }
+  ],
+  "missing_checked": [
+   "no racism-specific UEFA or RFEF sanction found 2021-26 (the 2025 chant fines are for 'offensive and intolerant' chants; content not specified)",
+   "no current betting sponsor verified: OlyBet was regional betting partner for Europe outside Spain 2021-June 2026, no renewal found; Betway was replaced as shirt sponsor by Finetwork years ago; 2026-27 partners found (Ebury, Vrauu, Revel, hummel kit) are not betting",
+   "no state-owned sponsor, PE, multi-club, Super League or new investor found; SAD led by Angel Haro and Jose Miguel Lopez Catalan, with a minority opposition platform ('Es posible otro Betis') at shareholder meetings, already in O 5.0",
+   "Pellegrini renewed to June 2027 (Nov 2025); still coach Sept 2026",
+   "temporary La Cartuja move to about 2028 already in C 8.3"
+  ],
+  "notes": "The club is not complicit, unlike Osasuna: it issued a public appeal (Sept 2025) asking fans to stop sanctionable chants and called the fines a financial and reputational harm, so no V cut is proposed beside the hard line (Osasuna's extra V -0.4 was for players joining ultra chants). -4 sits with Celtic, Anderlecht and Atalanta's violence lines and one point above Osasuna's -3, reflecting more separate organised brawls (2023, 2024, 2025 x2) and a UEFA away ban. Several 2025-26 Antiviolencia items are proposals, not final; the brawls, arrests and UEFA sanction are confirmed. Possible positive not counted: the Forever Green sustainability platform (with LaLiga, the UN and the Spanish government; galas 2025, 2026) is a cause-type credit worth perhaps +0.1 V if Kevin counts environmental causes. Unverified, carried from round 1: Vozpopuli describes Supporters Gol Sur as far-right in ideology; no discrimination sanction tied to it was found, so no Racism line is proposed. Effect: Betis (73.5) drops clearly below Celta (73.8) for 3rd in La Liga; the 2025 derby-brawl figures come from the Commission's Dec 2025 note as reported in the press (interior.gob.es pages returned 403 to fetch).",
+  "confidence": "medium"
+ }
+]

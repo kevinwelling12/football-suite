@@ -1,0 +1,116 @@
+[
+ {
+  "name": "Fiorentina",
+  "verdict": "adjust",
+  "changes": [
+   {
+    "field": "V",
+    "from": 7.2,
+    "to": 7.0,
+    "why": "A betting firm's brand (bet365 Scores) is on the first-team sleeve in all competitions from 2026-27, after Betway Scores before it; the current +0.2 credits Viola Park and the women's team but nothing counts the betting sleeve, which the Values rule lists.",
+    "sources": [
+     "https://www.casinos.com/it/news/bet365-scores-sulla-maglia-della-fiorentina-un-altro-club-nella-scalata-alla-serie-a",
+     "https://sigma.world/news/serie-a-kicks-off-sponsors-infotainment/"
+    ]
+   }
+  ],
+  "missing_checked": [
+   "no new racism or violence sanction against Fiorentina fans 2024-26 (latest: Nov 2023 suspended Curva Fiesole closure, 2021 Koulibaly abuse ban; both already behind Racism -2)",
+   "ownership unchanged: Commisso family, 'not for sale' after Rocco Commisso's death (Jan 2026); no PE, multi-club, state or Super League link",
+   "no owner-conduct case in 2026; no bank debt",
+   "no arms or state-owned sponsor",
+   "coach churn (Grosso sacked after three matches, Vanoli rehired Sep 2026) already reflected in Team 4 (out3: -1 for churn)"
+  ],
+  "notes": "Italian decider: this change lowers Fiorentina (about -0.5 Affinity), which moves it toward the decider order (Napoli above Fiorentina), not against it. Kevin saw the sleeve on the decider's sponsor card and ranked Fiorentina last there; the decider changed only Atalanta and Napoli, so the sleeve was never applied to the model. Head of football Paratici served a Juventus-era FIGC ban and is reported indicted in the related criminal case (unverified); not counted.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Napoli",
+  "verdict": "adjust",
+  "changes": [
+   {
+    "field": "O",
+    "from": 4.5,
+    "to": 4.2,
+    "why": "Since July 2026 Aurelio and Luigi De Laurentiis have been under investigation in Bari for aggravated fraudulent bankruptcy and false accounting at their second club (incl. goalkeeper Caprile's sale to Napoli); no charges yet, so it counts for less than the Rome trial that already costs half.",
+    "sources": [
+     "https://www.ansa.it/english/news/2026/07/07/napoli-chairman-de-laurentiis-probed-for-alleged-financial-crimes-regarding-bari_c37fa2bd-f705-428e-9242-e566822c9f75.html",
+     "https://www.calcioefinanza.it/2026/09/10/inchiesta-de-laurentiis-udienza-fallimento-bari-data/",
+     "https://www.agi.it/cronaca/news/2026-09-29/bancarotta-rinuncia-richiesta-liquidazione-bari-calcio-39313010/"
+    ]
+   }
+  ],
+  "missing_checked": [
+   "no racism sanction against Napoli fans found (Napoli are usually the target of territorial-discrimination chants)",
+   "no new fan-violence case after the Oct 2025 Eindhoven detentions (already behind Fan violence -3); the 2024 Monza clash bans went to Monza ultras",
+   "Bari still owned by Filmauro (prosecutors dropped the liquidation request on 29 Sep 2026 after an EUR 11.1m Filmauro commitment); Napoli is the flagship, so no multi-club penalty under the rule",
+   "betting brand partner (Eurobet.live infotainment) was already on the decider's sponsor card and inside Values 6.5",
+   "no state, PE, arms or Super League link; Rome false-accounting trial status (Dec 2026 vs back to the preliminary judge) still unconfirmed"
+  ],
+  "notes": "Bears on the Italian decider: the Bari probe was public on 7 July 2026, before the decider, but it was not on the dossier's owner card, so Kevin did not weigh it. The change is about -0.3 Affinity and widens Fiorentina's current lead over Napoli (the decider had Napoli second, Fiorentina third, before the ultras hard lines). With the Fiorentina change above, the two land within about 0.2 of each other. Kevin may prefer to treat an uncharged investigation as zero ('only if convicted' was not his answer for the trial, but this is an earlier stage).",
+  "confidence": "medium"
+ },
+ {
+  "name": "Bologna",
+  "verdict": "adjust",
+  "changes": [
+   {
+    "field": "V",
+    "from": 7.0,
+    "to": 6.8,
+    "why": "Since July 2026 BGame News, the infotainment brand of licensed betting and casino operator Bgame S.p.A., is a club Top Partner; Bologna's Values had no betting partner before.",
+    "sources": [
+     "https://www.casinos.com/it/news/bologna-sceglie-bgame-news-modello-infotainment-serie-a"
+    ]
+   }
+  ],
+  "missing_checked": [
+   "no racism or violence sanction against Bologna fans 2021-26 found",
+   "owner unchanged: Joey Saputo (BFC 1909 Lux SPV), still owns CF Montreal (Multi-club -3 stays); no PE, state or Super League link",
+   "shirt sponsor is the owner's dairy firm Saputo (neutral); no arms or state-owned sponsor",
+   "coach: Italiano left by mutual consent 28 May 2026, Domenico Tedesco from 2 Jun 2026; two permanent coaches in three seasons, so no churn penalty"
+  ],
+  "notes": "Stadium: in Aug 2026 the club and BolognaFiere sent the mayor a letter of intent for a new 30,000-seat multipurpose stadium on Fiera land, after the Dall'Ara renovation stalled (costs over EUR 200m, the city withdrew EUR 40m). It is a feasibility step only (a decision was due in September, outcome not found), so Culture is unchanged. If it is confirmed, leaving the 1927 Dall'Ara would remove the +0.2 ground credit and bring the new-stadium -1, and Kevin should decide. Team data note: out3 lists Palladino as the 2026-27 coach, but Palladino was at Atalanta; the coach is Tedesco. Summer 2026 sales (Castro EUR 35m, Lucumi) and many loans continue the sell-on model already in Team. Team score left as is. The Fiera LOI (Il Resto del Carlino, 2 Aug 2026): https://www.ilrestodelcarlino.it/bologna/cronaca/nuovo-stadio-vicino-fiera-r3yitrdf ; coach: https://en.wikipedia.org/wiki/2026%E2%80%9327_Bologna_FC_1909_season",
+  "confidence": "medium"
+ },
+ {
+  "name": "Brest",
+  "verdict": "confirmed",
+  "changes": [],
+  "missing_checked": [
+   "no LFP supporter sanction in 2025-26 or 2026-27 found (a 2024 two-match stand closure followed incidents v Strasbourg)",
+   "no betting, arms or state-owned sponsor found (local sponsors; Credit Mutuel Arkea holds naming rights for the new stadium)",
+   "ownership unchanged: Denis and Gerard Le Saint; no PE, multi-club or state link",
+   "coach: Eric Roy died (pancreatic cancer); his assistant Julien Lachuer succeeded him on a two-year deal; fans of both sides chanted Roy's name; Chardonnet still captain"
+  ],
+  "notes": "Watch items, no change now: (1) On 31 May 2026 Denis Le Saint told L'Equipe he is open to a 'new economic model' and does not rule out new shareholders, after national TV income fell from EUR 42.5m (2023-24) to EUR 4.5m (2025-26). If a PE fund or a multi-club group buys in, the ownership rules apply. (2) The new 15,000-seat stadium at Froutven, Guipavas (EUR 106.5m) has slipped to about 2027-28; the existing flag applies the new-stadium rule when it opens. (3) No senior women's team or club foundation was found (unverified; only a U19 girls' side). Values 8.7 is the highest in this batch, mostly for Breton identity, local sponsors and Chardonnet. If Kevin wants the women's team weighted as in the round-5 sub-weights, Values could fall a few tenths. Sources: https://www.lejournaldesentreprises.com/article/un-budget-revu-la-hausse-1065-millions-deuros-pour-le-futur-stade-de-brest-2063586 ; https://m.maxifoot.fr/brest/l-emotion-de-lachuer-pour-roy-foot-462336.htm",
+  "confidence": "medium"
+ },
+ {
+  "name": "Lens",
+  "verdict": "confirmed",
+  "changes": [],
+  "missing_checked": [
+   "no LFP supporter sanction 2024-26 found (latest: May 2023 Marek stand closure for pyrotechnics, Sept 2021 derby clashes)",
+   "no betting, arms or state-owned sponsor found; Auchan shirt deal to 2031",
+   "women's team in Arkema Premiere Ligue 2026-27 (relegated on the pitch, reinstated after Dijon's DNCG exclusion)",
+   "shareholding Sept 2026: Oughourlian 69.10%, EEP (US sports fund) 13.93%, Side Invest (regional fund, since 2023) 13.56%, local dealer Lempereur 2.79%, Seko Fofana 0.62%; Private equity -6 covers the fund stakes",
+   "coach churn (Still, Sage, Toppmoller, Cahuzac) already reflected in Team (out3: -1)"
+  ],
+  "notes": "Multi-club: Oughourlian (via Amber Capital) holds about 86% of Millonarios (since 2015, sale offers received but nothing closed), about 20% of Padova and about 5% of Real Zaragoza. Lens is where he is president and makes his largest investment, so Lens could be read as the flagship. Under the 'only secondary clubs pay' rule (as applied to Napoli/Bari and Bournemouth), that would drop Lens's Multi-club -3 (folded as Ownership -2.7, shown as -5.9). Kevin should decide which club is the flagship; no change proposed. Also: in Feb 2026 Colombia's Supersociedades fined Oughourlian for late disclosure of his control of Millonarios. This is minor and not counted. Sources: https://www.cfnews.net/Acces-libre/Le-RC-Lens-renforce-son-equipe-actionnariale-728277 ; https://www.clarosports.com/colombia/liga-bet-play/joseph-oughourlian-accionista-mayoritario-de-millonarios-desmiente-la-venta-y-confirma-la-oferta/ ; https://www.publimetro.co/deportes/2026/02/23/una-millonada-tendra-que-pagar-el-maximo-accionista-de-millonarios-tras-multa-de-supersociedades/ ; https://www.fff.fr/article/17080-lens-chamboule-tout.html",
+  "confidence": "medium"
+ },
+ {
+  "name": "Rennes",
+  "verdict": "confirmed",
+  "changes": [],
+  "missing_checked": [
+   "no 2025-26 or 2026-27 LFP discrimination sanction against Rennes fans found (Dec 2024 partial stand closure was for pyrotechnics)",
+   "Winamax (betting) renewed for three seasons as Premium Partner on the back of the shirt; already counted in Values 6",
+   "owner unchanged: Pinault family (Artemis) since 1998; board chair to Nicolas de Tavernost representing the family; no PE, multi-club, state or Super League link",
+   "coach churn (Stephan, Sampaoli, Beye, Haise) already behind the R3 Team -1"
+  ],
+  "notes": "Not in the earlier evidence: in Oct 2023 Rennes ultras sang homophobic chants in the Nantes derby, including at Matthis Abline, a Rennes player on loan at Nantes, and the LFP disciplinary commission heard the case. One blog source gives a EUR 70,000 fine that also covers pyrotechnics (amount unverified). It is the same kind of item as the Leeds Values check (homophobic chanting with a 2023 fine), which Kevin left open ('leave as is for now'). For consistency it is flagged, not applied. If Kevin applies the Leeds item, Rennes Values 6.0 -> about 5.8 would match. Sources: https://www.goal.com/fr/news/rennes-psg-la-lfp-va-examiner-deventuels-chants-homophobes/17e9azu2laoy21bpa9uy4vxruu ; https://abargenteuil.fr/blog/chants-homophobes-psg-om/ ; https://www.lejournaldesentreprises.com/article/le-stade-rennais-prolonge-de-trois-ans-son-partenariat-avec-winamax-2147143",
+  "confidence": "medium"
+ }
+]

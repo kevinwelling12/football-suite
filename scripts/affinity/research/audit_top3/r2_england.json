@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Brentford",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 7.0,
+        "to": 6.7,
+        "why": "Hollywoodbets (sportsbook) was front-of-shirt sponsor from 2021-22 to 2025-26 and in August 2026 renewed for five years as official betting partner with prominent in-stadium matchday branding and player access; the earlier research recorded no betting sponsor, and this is weighed like Charlton's partner-level deal (-0.3) because of the stadium branding and five-year term.",
+        "sources": [
+          "https://www.brentfordfc.com/en/news/article/club-news-brentford-fc-partnership-extension-hollywoodbets-official-betting-partner",
+          "https://insidersport.com/2026/08/17/brentford-extends-hollywoodbets-deal/",
+          "https://sbcnews.co.uk/sponsorship/2026/08/17/brentford-hollywoodbets/",
+          "https://www.sportcal.com/sponsorship/brentford-upgrade-indeed-to-shirt-sponsor-ahead-of-betting-ban/"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "front of shirt 2026-27 is Indeed (jobs site): neutral",
+      "ownership: Benham still in control; Lubner/Vaughn minority stake (2025) and reports of a further minority stake sale being considered (Bloomberg via Front Office Sports, 2026), no buyer or agreement found",
+      "no multi-club link (Midtjylland sold 2023), no PE, LBO, state or relocation",
+      "no FA/UEFA discrimination or fan-violence sanctions found 2021-26",
+      "ticket pricing 2026-27: general season tickets +5% after a 2025-26 freeze, junior prices and membership frozen, Category A/B single-match prices frozen; still low for the Premier League, no change",
+      "women's team: tier-5 regional side moving to Uxbridge's Honeycroft, B team closed, new free-to-play girls' academy (U14/U16) for 2026-27; small positive, not enough to move V"
+    ],
+    "notes": "The earlier dossier's line 'no betting on shirt/sleeve (Indeed, Cazoo)' was wrong for 2021-26: Hollywoodbets was the front-of-shirt sponsor in that period. If Kevin wants the five years of front-of-shirt betting counted too, -0.4 (to 6.6) would fit; only the current deal is counted here. Ticket rise of 5% is noted but not counted.",
+    "confidence": "high"
+  },
+  {
+    "name": "Brighton",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 8.3,
+        "to": 8.0,
+        "why": "Betway (sportsbook) is listed as a Global Partner on the club's current partners page (official global betting partner since 2019), which the earlier research missed (-0.2); and in December 2025 the club barred Guardian reporters and photographers from the Amex over its reporting on the owner, which the Football Supporters' Association, MPs and press bodies criticised as an attack on press freedom, with no report found of the ban being lifted (-0.1).",
+        "sources": [
+          "https://www.brightonandhovealbion.com/partner-and-sponsors",
+          "https://supergroup.com/partnerships/",
+          "https://sigma.world/news/brighton-bans-guardian-over-tony-bloom-gambling-coverage/",
+          "https://www.newsmediacoalition.org/50926-2/",
+          "https://insidersport.com/2025/12/09/brighton-owner-tony-bloom-denies-legal/"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "kit 2026-27: American Express front, Experience Kissimmee (Florida county tourism board) sleeve: neutral",
+      "no FA/UEFA discrimination or fan-violence sanctions on Brighton fans found 2021-26 (sanctions found concern visiting Luton and Leeds fans in 2023)",
+      "multi-club: Bloom holds 29% non-voting in Hearts (2025), 19.1% of Melbourne Victory, and Union SG; reported interest in a Ligue 1 club. Brighton stays the flagship, so no multi-club line under the REVIEW rule; UEFA was reported in May 2026 to be reviewing Brighton-Hearts ahead of the Conference League, outcome not found",
+      "Owner's fortune from sports betting -3 (Kevin, round 4) kept as is; the December 2025 allegations (Guardian report, Dudfield High Court claim, US 'John Doe' case) are unproven and Bloom denies betting on Brighton since 2009",
+      "no owner change, PE, LBO, state link or relocation"
+    ],
+    "notes": "1) The earlier research said 'no betting sponsors'; Betway's exact rights (LED, digital) are not shown on the partners page, so it is counted at partner level like Derby (-0.2), not as kit. 2) If the Bloom allegations are ever upheld by the FA or a court, the betting-owner line would need re-checking; nothing proven as of October 2026. 3) If the Guardian ban was quietly lifted, drop the -0.1 (V 8.1). 4) Bloom's widening portfolio (Hearts, Melbourne Victory, a possible French club) is worth watching: if Brighton ever stops being the clear flagship, the multi-club rule applies.",
+    "confidence": "medium"
+  },
+  {
+    "name": "Aston Villa",
+    "verdict": "adjust",
+    "changes": [
+      {
+        "field": "V",
+        "from": 4.7,
+        "to": 4.5,
+        "why": "UEFA fined the club EUR 10,000 under its racist and/or discriminatory behaviour article, with a one-match away-ticket ban suspended for two years, for a supporters' banner referencing the Traveller community at the 20 May 2026 Europa League final; a single, recent discrimination sanction weighed in Values rather than as a hard line.",
+        "sources": [
+          "https://footballgroundguide.com/news/aston-villa-fined-and-handed-away-ticket-ban-by-uefa-for-discriminatory-banner-at-europa-league-final.html",
+          "https://britbrief.co.uk/crime/prosecution/aston-villa-suspended-ban-on-away-ticket-sales-by-uefa.html",
+          "https://myoldmansaid.com/?p=67399"
+        ]
+      }
+    ],
+    "missing_checked": [
+      "betting: Betano moves from front of shirt to left sleeve for three years (to 2028-29); a betting sleeve was already counted in V 4.7",
+      "Visit Rwanda front of shirt from 2026-27 (up to GBP 20m a year, Amnesty UK criticism, July 2026): already counted as a non-Free state tourism board in V",
+      "overspend: the June 2026 UEFA squad-cost fine (EUR 22.5m, EUR 15m suspended, List A registration limits 2026-27) is the 'over GBP 19m settlement' already behind the folded Overspend -3 (shown as -5.9); the academy sell-off reports are also already in O",
+      "ownership: V Sports (Sawiris, Edens) with Atairos minority; no 2026 change found; Atairos not a PE fund per REVIEW; V Sports flagship (Vitoria SC secondary): no multi-club line",
+      "Maccabi Tel Aviv away-fan ban (November 2025) was a police/safety-group decision, not club or fan misconduct: no effect",
+      "no FA discrimination or fan-violence sanctions found for 2025-26 besides the UEFA banner case",
+      "ticket prices raised again for 2026-27 (amount not found); 2024-25 rises already in V"
+    ],
+    "notes": "Kevin may prefer the banner as a hard line instead: the smallest racism line in scores.py is Fiorentina 'Racism -2' (-4.0 after scaling), which would move Villa far more than its 3rd-place rivals. Leeds' 2023 FA homophobic-chanting fine was left as an open hard-line question, so the Values route keeps English clubs consistent. Club statement on the banner not found. A separate Premier League fine of about GBP 570k-695k for kick-off/restart delays in 2025-26 comes from one fan site only (unverified, not counted).",
+    "confidence": "medium"
+  },
+  {
+    "name": "Sunderland",
+    "verdict": "confirmed",
+    "changes": [],
+    "missing_checked": [
+      "betting: W88 (front of shirt 2025-26) gone under the front-of-shirt gambling ban; Shuffle (crypto casino and sportsbook with only a Curacao licence, not licensed in Great Britain) confirmed as multi-year sleeve partner on 11 September 2026. V 5.8 already counted a betting front plus a crypto-casino sleeve, so losing W88 and Shuffle being unlicensed roughly cancel out",
+      "front of shirt: none at the start of 2026-27; a Visit Ghana deal was announced by Ghana's Speaker of Parliament (August 2026) but no club confirmation found. Ghana is rated Free by Freedom House, so no effect either way",
+      "no FA/UEFA discrimination or fan-violence sanctions found 2021-26 (cases found are 2016-2021 touchline incidents)",
+      "no state, PE, LBO, multi-club or relocation",
+      "Stadium of Light stays home"
+    ],
+    "notes": "Ownership: FootBiz (8 May 2026) reports the owners (Louis-Dreyfus 64%, Sartori 36%) hired Moelis and offered the club to high-net-worth investors and funds; no buyer or agreement found as of October 2026. Under Kevin's announced-plans rule nothing applies until a sale is agreed; an agreed sale to PE or a multi-club group would cost about -1 in O. If Kevin counts an active sale process as lower stability (as Charlton's O does), O 6.2 could drop by 0.1-0.2; not proposed here. If the sale goes ahead, re-check the 'Linked to Feyenoord' connection item too.",
+    "confidence": "medium"
+  }
+]

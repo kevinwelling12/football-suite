@@ -25,6 +25,7 @@ sys.path.insert(0, str(A))
 import inputs as I
 
 PARAMS = json.loads((A / 'params.json').read_text())
+NOW_YEAR = 2026
 CLUB_F = ('V', 'C', 'H', 'T', 'O')
 ROLE_F = ('CH', 'WK', 'LO')
 PERF_F = ('AB', 'LE', 'ST')
@@ -211,13 +212,23 @@ def write_out(D, X, R, PL, p):
     (root / 'data' / 'nations_extra.json').write_text(json.dumps(X, ensure_ascii=False, indent=1))
     write_players(PL, p)
 
+def runway(f, p=PARAMS):
+    """Years ahead at the top level, for the active lists only (Kevin, 2026-10-12: "I want to find players I'll be able to
+    follow for years to come at the top level"). +max at age_full or younger, 0 at age_zero, -max by age_full + 2 x
+    (age_zero - age_full); goalkeepers count gk_shift years younger. All-time lists and Affinity itself are unchanged."""
+    r = p.get('runway', {}); born = f.get('born')
+    if not born or not r: return 0.0
+    age = NOW_YEAR - born - (r.get('gk_shift', 3) if 'GK' in (f.get('positions') or []) else 0)
+    mx, a0, az = r.get('max', 4), r.get('age_full', 22), r.get('age_zero', 28.5)
+    return round(max(-mx, min(mx, mx * (az - age) / (az - a0))), 1)
+
 def write_players(PL, p):
     import re
     NWSL = re.compile(r'thorns|kansas city current|orlando pride|washington spirit|north carolina courage|gotham|seattle reign|san diego wave|'
                       r'red stars|chicago stars|angel city|bay fc|utah royals|houston dash|racing louisville|denver summit|boston legacy', re.I)
     SIZE = {'ma': 75, 'mt': 75, 'wa': 30, 'wt': 30}
     L = {k: [] for k in SIZE}
-    ratings = []
+    ratings = []; act = {}
     for n, pl in sorted(PL.items(), key=lambda kv: -kv[1]['A']):
         f = pl['facts']; s = pl['scores']
         clubs = []
@@ -232,10 +243,13 @@ def write_players(PL, p):
         if pl.get('roots') and pl['parts']['Qh'] > 0: e['h'] = pl['roots'][1]; e['hl'] = pl['roots'][0]
         if pl.get('bonus'): e['bn'] = [[l, round(p.get('bonus_scale', 1.0) * x, 1)] for l, x in pl['bonus']]
         g = 'w' if pl['gender'] in ('F', 'female', 'w', 'W') else 'm'
-        for k in ((g + 'a', g + 't') if pl['active'] else (g + 't',)):
-            if len(L[k]) < SIZE[k]: L[k].append(e)
+        if len(L[g + 't']) < SIZE[g + 't']: L[g + 't'].append(e)
+        if pl['active']:   # the active lists rank by Affinity plus the years ahead at the top level
+            ya = runway(f, p) if pl['A'] > 0 else 0.0
+            act.setdefault(g + 'a', []).append(dict(e, a=round(pl['A'] + ya, 1), aff=round(pl['A'], 1), ya=ya))
         ratings.append(dict(name=n, gender=pl['gender'], active=pl['active'], aff=round(pl['A'], 1), **pl['parts'],
                             conn=pl['conn'], hard=[[l, x] for _, l, x, _ in pl['hard']], roots=pl.get('roots'), bonus=pl.get('bonus')))
+    for k, xs in act.items(): L[k] = sorted(xs, key=lambda e: -e['a'])[:SIZE[k]]
     (root / 'data' / 'players.json').write_text(json.dumps(L, ensure_ascii=False, separators=(',', ':')))
     (A / 'players' / 'ratings.json').write_text(json.dumps(ratings, ensure_ascii=False, indent=1))
 

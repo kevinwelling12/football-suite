@@ -48,5 +48,11 @@
   "pe": 0.7,
   "multiclub": 0.7
  },
- "bonus_scale": 1.0
+ "bonus_scale": 1.0,
+ "runway": {
+  "max": 6,
+  "age_full": 22,
+  "age_zero": 28.5,
+  "gk_shift": 3
+ }
 }

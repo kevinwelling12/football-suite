@@ -52,6 +52,11 @@ def haversine(a, b):
     h = math.sin(dl / 2) ** 2 + math.cos(t(a[0])) * math.cos(t(b[0])) * math.sin(dn / 2) ** 2
     return 6371 * 2 * math.asin(math.sqrt(h))
 
+def near(km):
+    """Closeness on a log scale (Kevin, 2026-10-12): 1 at home, 0.64 at 110 km (Oakland from Sacramento), 0.36 at 800 km,
+    0.13 across the US, about 0 in Europe. 1 - ln(1 + km/10) / ln(1 + 10000/10), floored at 0."""
+    return max(0.0, 1 - math.log1p(km / 10) / math.log1p(1000))
+
 def scorer(w):
     lo = sum(v for v in w.values() if v < 0); hi = sum(v for v in w.values() if v > 0); span = hi - lo
     def score(f):
@@ -72,7 +77,7 @@ def scores(fair=True, detail=False):
     S = {}
     for c in clubs:
         f = dict(c['f'])
-        f['near'] = max(0.0, 1 - haversine(home[1:], c['ll']) / 3000) if home and c['ll'] else 0.0
+        f['near'] = near(haversine(home[1:], c['ll'])) if home and c['ll'] else 0.0
         f['home'] = 1.0 if c['k'] == 'nation' and c['n'] == nat else 0.0
         S[c['n']] = sc(f)
     SP = {}

@@ -298,7 +298,7 @@ function scoreAll() {
   const sc = (w, f) => { const [lo, hi] = range(w); if (hi - lo < 1e-9) return 50; let s = 0; for (const k in w) s += w[k] * (f[k] ?? 0); return 100 * (s - lo) / (hi - lo); };
   const clubs = DATA.clubs.map(c => {
     const f = Object.assign({}, c.f);
-    f.near = home && c.ll ? Math.max(0, 1 - R2(home.slice(1), c.ll) / 3000) : 0;
+    f.near = home && c.ll ? Math.max(0, 1 - Math.log1p(R2(home.slice(1), c.ll) / 10) / Math.log1p(1000)) : 0;   // log scale: 1 at home, about 0 overseas
     f.home = c.k === 'nation' && c.n === nat ? 1 : 0;
     return {c, s: sc(wc, f)};
   });

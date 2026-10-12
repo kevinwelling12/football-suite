@@ -60,11 +60,12 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 
 ## Where the logic lives
-- Affinity (2026-10-12, "back to basics"): scripts/favs/live.py. Kevin's chosen clubs (CHOSEN there: Liverpool, Dortmund, Timbers, Thorns, Republic) define it; they sit at the top of their leagues by PRIORITY (Republic over Timbers if it reaches MLS): for each
-  researched fact (scripts/blind facts), how far his clubs stand out from the average club times how much they agree; clubs
-  score by how closely they match that profile (0-100), players by the seasons-weighted average of their clubs. Run
-  `python3 scripts/favs/live.py`, then build. The blind test (scripts/blind) and the categories model (scripts/affinity)
-  are history: don't run their live.py / affinity.py over the live data.
+- Affinity (2026-10-12): the archetype model, scripts/archetype/live.py (BRIEF.md). Kevin's clubs (CHOSEN: Liverpool,
+  Dortmund, Timbers, Thorns, Republic) define an archetype: every club is researched on ten traits (out/*.json) plus
+  distance from Sacramento; each trait weighs the number of his clubs that have it strongly (7+ of 10); falling below the weakest of his clubs on a trait costs as if all five shared it. His clubs sit at
+  the top of their leagues by PRIORITY in scripts/favs/live.py (Republic over Timbers if it reaches MLS). Players: half
+  their clubs' Affinity (seasons-weighted), half character. Run `python3 scripts/archetype/live.py`, then build. Older
+  models (scripts/favs facts profile, scripts/blind, scripts/affinity) are history.
 - Model details: docs/architecture.md (Dixon-Coles, draw calibration, importance, favour/Affinity picks).
 - Data sources and sync: docs/sync.md (nightly ESPN sync: .github/workflows/espn-sync.yml, scripts/sync/espn.js).
 - Open ideas: docs/backlog.md.

@@ -482,7 +482,7 @@
   "active": false,
   "position": "GK",
   "nation": "USA",
-  "major_trophies": 2,
+  "major_trophies": 3,
   "world_cup_wins": 0,
   "individual": 2,
   "caps": 102,
@@ -507,7 +507,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: major_trophies 3: Gold Cups 2002, 2005, 2007; League Cup and Open Cups not counted."
  },
  {
   "name": "Kastriot Imeri",
@@ -754,7 +754,7 @@
   "active": true,
   "position": "FW",
   "nation": "Georgia",
-  "major_trophies": 4,
+  "major_trophies": 6,
   "world_cup_wins": 0,
   "individual": 2,
   "caps": 45,
@@ -779,7 +779,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 1,
-  "notes": "Refused Napoli renewal and pushed for a January 2025 move to PSG."
+  "notes": "Refused Napoli renewal and pushed for a January 2025 move to PSG. Recount: major_trophies 6: Serie A 2023 and 2025, Ligue 1 2025 and 2026, UCL 2025 and 2026."
  },
  {
   "name": "Konstantinos Karetsas",
@@ -1366,7 +1366,7 @@
   "active": true,
   "position": "MF",
   "nation": "USA",
-  "major_trophies": 9,
+  "major_trophies": 11,
   "world_cup_wins": 1,
   "individual": 2,
   "caps": null,
@@ -1391,7 +1391,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "Plaintiff in the 2019 USWNT equal-pay lawsuit."
+  "notes": "Plaintiff in the 2019 USWNT equal-pay lawsuit. Recount: major_trophies 11: WC 2019, NWSL 2017, UWCL 2022, 5 French titles 2022-26, CONCACAF 2018/2022, W Gold Cup 2024; Olympics and Shields not counted."
  },
  {
   "name": "Linus Güther",
@@ -1638,7 +1638,7 @@
   "active": true,
   "position": "FW",
   "nation": "Colombia",
-  "major_trophies": 3,
+  "major_trophies": 6,
   "world_cup_wins": 0,
   "individual": 1,
   "caps": 65,
@@ -1663,7 +1663,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": ""
+  "notes": "Recount: major_trophies 6: 2 Colombian titles (Junior), 2 Primeira Liga, PL 2025, Bundesliga 2026."
  },
  {
   "name": "Luis Suárez",
@@ -2062,7 +2062,7 @@
   "flair": 2,
   "red_card_violence": 0,
   "abuse_allegation": 0,
-  "racist_abuse": 1,
+  "racist_abuse": 0,
   "doping": 0,
   "match_fixing": 0,
   "tax_fraud": 0,
@@ -2071,7 +2071,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "2020: said 'Sieg Heil' on live Dutch TV; apologised, pay docked."
+  "notes": "2020: said 'Sieg Heil' on live Dutch TV; apologised, pay docked. Recount: racist_abuse 0: 'Sieg Heil' remark is a Nazi/fascist act, kept in notes."
  },
  {
   "name": "Marcus Rashford",
@@ -2556,7 +2556,7 @@
   "active": false,
   "position": "FW",
   "nation": "Austria",
-  "major_trophies": 3,
+  "major_trophies": 1,
   "world_cup_wins": 0,
   "individual": 2,
   "caps": 43,
@@ -2581,7 +2581,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "1938: bought a Jewish-owned café through Nazi 'Aryanisation' at a below-value price; his role and knowledge are disputed. Declined to play for Germany after the Anschluss."
+  "notes": "1938: bought a Jewish-owned café through Nazi 'Aryanisation' at a below-value price; his role and knowledge are disputed. Declined to play for Germany after the Anschluss. Recount: major_trophies 1: Austrian title 1926 only; Mitropa Cups not counted."
  },
  {
   "name": "Maximilian Beier",

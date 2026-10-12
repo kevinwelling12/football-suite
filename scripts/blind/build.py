@@ -32,6 +32,27 @@ PLACES = [  # name, lat, lon (city centre)
  ('São Paulo', -23.55, -46.63), ('Seattle', 47.61, -122.33), ('Seoul', 37.57, 126.98), ('St. Louis', 38.63, -90.20), ('Sydney', -33.87, 151.21),
  ('Tokyo', 35.68, 139.69), ('Toronto', 43.65, -79.38), ('Vancouver', 49.28, -123.12), ('Washington, D.C.', 38.91, -77.04)]
 
+# Improvements (2026-10-12, Kevin: "do all four"): FAIR = True fills researched gaps (fill/out_*.json: attendance,
+# capacity, ticket price, league country, caps) and weighs domestic trophies by league strength. False reproduces the
+# first shipped version, for comparison.
+FAIR = True
+# League strength for domestic titles and cups: UEFA association coefficients (2021-26, approximate) scaled to England = 1;
+# MLS and NWSL set at the level of a mid-ranked European league. Continental club titles: UEFA 1, CONCACAF 0.3.
+LEAGUE = {'England': 1.0, 'Spain': 0.9, 'Italy': 0.9, 'Germany': 0.85, 'France': 0.75, 'Netherlands': 0.6, 'Portugal': 0.6,
+          'Belgium': 0.5, 'Turkey': 0.45, 'Czech Republic': 0.4, 'Czechia': 0.4, 'Greece': 0.38, 'Scotland': 0.35, 'Austria': 0.35,
+          'Switzerland': 0.33, 'Norway': 0.33, 'Denmark': 0.33, 'Poland': 0.3, 'Ukraine': 0.3, 'Israel': 0.28, 'Serbia': 0.25,
+          'Croatia': 0.25, 'Sweden': 0.25, 'Cyprus': 0.25, 'Hungary': 0.2, 'Slovakia': 0.2, 'Romania': 0.2, 'Slovenia': 0.18,
+          'Azerbaijan': 0.18, 'Bulgaria': 0.15, 'Republic of Ireland': 0.1, 'Ireland': 0.1, 'Northern Ireland': 0.08,
+          'Lithuania': 0.08, 'Wales': 0.06, 'United States': 0.35, 'Canada': 0.35}
+NA = {'United States', 'Canada'}
+# Continental titles for nations, by confederation strength (World Cups count 1 each).
+CONFED = {'CONMEBOL': 1.0, 'UEFA': 1.0, 'CAF': 0.5, 'AFC': 0.5, 'CONCACAF': 0.4, 'OFC': 0.1}
+NATION_CONFED = {**{n: 'CONMEBOL' for n in ('Argentina', 'Brazil', 'Colombia', 'Ecuador', 'Paraguay', 'Uruguay', 'Chile', 'Peru', 'Bolivia', 'Venezuela')},
+                 **{n: 'CONCACAF' for n in ('Mexico', 'United States', 'Canada', 'Panama', 'Haiti', 'Curaçao', 'Costa Rica', 'Jamaica', 'Honduras')},
+                 **{n: 'OFC' for n in ('New Zealand',)},
+                 **{n: 'AFC' for n in ('Australia', 'Iran', 'Iraq', 'Japan', 'Jordan', 'Qatar', 'Saudi Arabia', 'South Korea', 'Uzbekistan')},
+                 **{n: 'CAF' for n in ('Algeria', 'Cape Verde', 'DR Congo', 'Egypt', 'Ghana', 'Ivory Coast', 'Morocco', 'Senegal', 'South Africa', 'Tunisia')}}
+
 def cl(x): return max(0.0, min(1.0, x))
 def num(v): return v if isinstance(v, (int, float)) and not isinstance(v, bool) else None
 def lg(n, cap): return cl(math.log1p(n) / math.log1p(cap)) if n is not None else None
@@ -39,11 +60,26 @@ def lg(n, cap): return cl(math.log1p(n) / math.log1p(cap)) if n is not None else
 def load(prefix):
     out = []
     for f in sorted(glob.glob(str(here / 'coded' / f'{prefix}_*.json'))): out += json.load(open(f))
+    if FAIR:   # researched gap fills override nulls (and clearly wrong capacities)
+        patch = {}
+        for f in sorted(glob.glob(str(here / 'fill' / ('out_clubs_*.json' if prefix == 'clubs' else 'out_caps_*.json')))):
+            patch.update(json.load(open(f)))
+        for x in out:
+            p = patch.get(x['name']) or {}
+            for k in ('avg_attendance', 'capacity', 'ticket_price', 'country', 'caps', 'nation'):
+                if p.get(k) is not None and (k in ('avg_attendance', 'capacity', 'ticket_price', 'country') or x.get(k) is None): x[k] = p[k]
     return out
 
 def club_features(c, perf, ranks, dom):
     nation = c['kind'] == 'nation'; f = {}
-    n = sum(num(c.get(k)) or 0 for k in (('league_titles', 'cups') if nation else ('league_titles', 'cups', 'continental')))
+    if not FAIR:
+        n = sum(num(c.get(k)) or 0 for k in (('league_titles', 'cups') if nation else ('league_titles', 'cups', 'continental')))
+    elif nation:
+        n = (num(c.get('league_titles')) or 0) + (num(c.get('cups')) or 0) * CONFED[NATION_CONFED.get(c['name'], 'UEFA')]
+    else:
+        country = c.get('country') or ''
+        n = ((num(c.get('league_titles')) or 0) + (num(c.get('cups')) or 0)) * LEAGUE.get(country, 0.2) \
+            + (num(c.get('continental')) or 0) * (0.3 if country in NA else 1.0)
     f['trophies'] = lg(n, 10 if nation else 60)
     if nation:
         rk = ranks.get(c['name']); f['recent'] = cl(1 - (rk - 1) / 210) if rk else None

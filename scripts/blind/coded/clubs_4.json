@@ -367,7 +367,7 @@
   "founded": 1927,
   "league_titles": 3,
   "cups": 9,
-  "continental": 1,
+  "continental": 2,
   "seasons_top_flight_last10": 10,
   "avg_attendance": 62000,
   "capacity": 70634,
@@ -393,7 +393,7 @@
   "style": 2,
   "manager_years": 1.3,
   "government": null,
-  "notes": "Friedkin Group (US) owns about 96% since 2020 and also owns Everton (Pursuit Sports); Eurobet.live betting shirt sponsor, Riyadh Season sponsor 2023-25; ultras attacked police before Apr 2025 derby (24 officers hurt, away ban), 2023 motorway brawl with Napoli fans, 2014 death of Ciro Esposito; UEFA settlement agreement under FFP; missing-children transfer-video campaign."
+  "notes": "Friedkin Group (US) owns about 96% since 2020 and also owns Everton (Pursuit Sports); Eurobet.live betting shirt sponsor, Riyadh Season sponsor 2023-25; ultras attacked police before Apr 2025 derby (24 officers hurt, away ban), 2023 motorway brawl with Napoli fans, 2014 death of Ciro Esposito; UEFA settlement agreement under FFP; missing-children transfer-video campaign. Accuracy pass 2026-10-12: continental 1->2: adds 1961 Fairs Cup."
  },
  {
   "name": "Rotherham United",
@@ -814,7 +814,7 @@
   "violence": 0,
   "financial_breaches": 0,
   "relocated": 0,
-  "sponsor_betting": 1,
+  "sponsor_betting": 0,
   "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
@@ -825,7 +825,7 @@
   "style": 1,
   "manager_years": 1.3,
   "government": null,
-  "notes": "FC Gelsenkirchen-Schalke 04 e.V. fully member-controlled, financed via members' cooperative Auf Schalke eG; debt about EUR 162m; Merkur Group (casino operator, Merkur Bets) exclusive partner to 2027."
+  "notes": "FC Gelsenkirchen-Schalke 04 e.V. fully member-controlled, financed via members' cooperative Auf Schalke eG; debt about EUR 162m; Merkur Group (casino operator, Merkur Bets) exclusive partner to 2027. Accuracy pass 2026-10-12: sponsor_betting 1->0: Merkur is an exclusive partner, not on the shirt or main partner (shirt Beumer/Hegmanns, sleeve Blakläder)."
  },
  {
   "name": "Seattle Sounders FC",
@@ -951,7 +951,7 @@
   "stadium_age": 17,
   "fan_governance": 2,
   "owner_type": "members",
-  "multi_club": "secondary",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 0,
@@ -969,7 +969,7 @@
   "style": 2,
   "manager_years": 10.2,
   "government": null,
-  "notes": "Members Club owns 50% and elects four directors (Ray Wilson 25%, Dermot Desmond 25%, Desmond also Celtic's majority shareholder); 400 Club supporters rescued the club from examinership 2005; NetBet sleeve sponsor; homeless for two decades after 1987 sale of Milltown."
+  "notes": "Members Club owns 50% and elects four directors (Ray Wilson 25%, Dermot Desmond 25%, Desmond also Celtic's majority shareholder); 400 Club supporters rescued the club from examinership 2005; NetBet sleeve sponsor; homeless for two decades after 1987 sale of Milltown. Accuracy pass 2026-10-12: multi_club secondary->none: Desmond's 25% is under 30%."
  },
  {
   "name": "Sheffield United",
@@ -1102,7 +1102,7 @@
   "violence": 2,
   "financial_breaches": 0,
   "relocated": 0,
-  "sponsor_betting": 1,
+  "sponsor_betting": 0,
   "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
@@ -1113,7 +1113,7 @@
   "style": 1,
   "manager_years": 8.8,
   "government": null,
-  "notes": "Czech billionaire Pavel Tykac owner since Dec 2023 (Chinese CEFC/CITIC/Sinobo 2015-23); UEFA racism sanction Feb 2025 and Kudela's 10-match ban for racist abuse of Glen Kamara 2021; repeated UEFA fines and stand closure for pyro/objects 2023-24; Fortuna (betting) stadium naming sponsor."
+  "notes": "Czech billionaire Pavel Tykac owner since Dec 2023 (Chinese CEFC/CITIC/Sinobo 2015-23); UEFA racism sanction Feb 2025 and Kudela's 10-match ban for racist abuse of Glen Kamara 2021; repeated UEFA fines and stand closure for pyro/objects 2023-24; Fortuna (betting) stadium naming sponsor. Accuracy pass 2026-10-12: sponsor_betting 1->0: Fortuna holds stadium naming and a club partnership; eToro is shirt and general (main) partner."
  },
  {
   "name": "Slovan Bratislava",
@@ -1895,7 +1895,7 @@
   "financial_breaches": 0,
   "relocated": 0,
   "sponsor_betting": 0,
-  "sponsor_state": 1,
+  "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 0,
@@ -1905,7 +1905,7 @@
   "style": null,
   "manager_years": 2.3,
   "government": null,
-  "notes": "Pozzo family owners since 1986 (also Watford), 2025 reports of a sale to Guggenheim Partners unconfirmed; club-owned Stadio Friuli; shirt sponsor 'Io sono Friuli Venezia Giulia' is the regional government's promotional brand."
+  "notes": "Pozzo family owners since 1986 (also Watford), 2025 reports of a sale to Guggenheim Partners unconfirmed; club-owned Stadio Friuli; shirt sponsor 'Io sono Friuli Venezia Giulia' is the regional government's promotional brand. Accuracy pass 2026-10-12: sponsor_state 1->0: 'Io sono Friuli Venezia Giulia' is a regional government brand."
  },
  {
   "name": "Union Berlin",
@@ -1987,7 +1987,7 @@
   "founded": 1919,
   "league_titles": 6,
   "cups": 8,
-  "continental": 2,
+  "continental": 4,
   "seasons_top_flight_last10": 10,
   "avg_attendance": null,
   "capacity": 49430,
@@ -2013,7 +2013,7 @@
   "style": 1,
   "manager_years": 0.1,
   "government": null,
-  "notes": "Peter Lim (Meriton Holdings, Singapore) majority owner since 2014, club debt around EUR 600m, sustained mass fan protests (Libertad VCF); racist abuse of Vinicius Jr May 2023 led to criminal convictions and partial stand closure; kept selecting Rafa Mir after 2024 sexual-assault arrest (convicted 2026)."
+  "notes": "Peter Lim (Meriton Holdings, Singapore) majority owner since 2014, club debt around EUR 600m, sustained mass fan protests (Libertad VCF); racist abuse of Vinicius Jr May 2023 led to criminal convictions and partial stand closure; kept selecting Rafa Mir after 2024 sexual-assault arrest (convicted 2026). Accuracy pass 2026-10-12: continental 2->4: adds 1962 and 1963 Fairs Cups."
  },
  {
   "name": "Vancouver Whitecaps FC",
@@ -2111,7 +2111,7 @@
   "financial_breaches": 0,
   "relocated": 0,
   "sponsor_betting": 0,
-  "sponsor_state": 1,
+  "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 1,
@@ -2121,7 +2121,7 @@
   "style": 2,
   "manager_years": 3.5,
   "government": null,
-  "notes": "e.V. holds the majority of the AG under 50+1 (Mercedes-Benz and Porsche 10.4% each); fan pressure ended the Winamax betting shirt deal early, now LBBW (state-owned regional bank); kept Atakan Karazor and made him captain despite open 2022 rape investigation."
+  "notes": "e.V. holds the majority of the AG under 50+1 (Mercedes-Benz and Porsche 10.4% each); fan pressure ended the Winamax betting shirt deal early, now LBBW (state-owned regional bank); kept Atakan Karazor and made him captain despite open 2022 rape investigation. Accuracy pass 2026-10-12: sponsor_state 1->0: LBBW is owned by the Baden-Wurttemberg state (regional), savings banks and city."
  },
  {
   "name": "Viking",
@@ -2147,7 +2147,7 @@
   "financial_breaches": 0,
   "relocated": 0,
   "sponsor_betting": 0,
-  "sponsor_state": 1,
+  "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 1,
@@ -2157,6 +2157,6 @@
   "style": 2,
   "manager_years": 5.8,
   "government": null,
-  "notes": "Norwegian member-run club; stadium partly sold to SR-Bank in the 2017-18 refinancing rescue; long-term sponsor Lyse Energi (municipally owned utility); 2025 league title first in 34 years."
+  "notes": "Norwegian member-run club; stadium partly sold to SR-Bank in the 2017-18 refinancing rescue; long-term sponsor Lyse Energi (municipally owned utility); 2025 league title first in 34 years. Accuracy pass 2026-10-12: sponsor_state 1->0: Lyse Energi is municipally owned."
  }
 ]

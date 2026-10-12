@@ -231,7 +231,7 @@
   "stadium_age": 8,
   "fan_governance": 0,
   "owner_type": "local_private",
-  "multi_club": "flagship",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 0,
@@ -249,7 +249,7 @@
   "style": null,
   "manager_years": null,
   "government": null,
-  "notes": "MLS franchise; Jason Levien and Steve Kaplan, who also hold Swansea City; 1998 CONCACAF Champions' Cup; no sanctions found."
+  "notes": "MLS franchise; Jason Levien and Steve Kaplan, who also hold Swansea City; 1998 CONCACAF Champions' Cup; no sanctions found. Accuracy pass 2026-10-12: multi_club flagship->none: Levien/Kaplan sold Swansea Nov 2024; Loudoun now Attain-majority, no network."
  },
  {
   "name": "Deportivo La Coruña",
@@ -1275,7 +1275,7 @@
   "stadium_age": 140,
   "fan_governance": 3,
   "owner_type": "members",
-  "multi_club": "secondary",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 0,
@@ -1293,7 +1293,7 @@
   "style": null,
   "manager_years": 0.3,
   "government": null,
-  "notes": "Foundation of Hearts holds 75%+ of voting shares since 2021 after fans' 2013 rescue; Tony Bloom (Brighton owner, betting fortune) holds 29% non-voting; no sanctions found."
+  "notes": "Foundation of Hearts holds 75%+ of voting shares since 2021 after fans' 2013 rescue; Tony Bloom (Brighton owner, betting fortune) holds 29% non-voting; no sanctions found. Accuracy pass 2026-10-12: multi_club secondary->none: Bloom's 29% is under 30%."
  },
  {
   "name": "Hibernian",
@@ -1383,7 +1383,7 @@
   "stadium_age": 32,
   "fan_governance": 0,
   "owner_type": "foreign_private",
-  "multi_club": "flagship",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 0,
@@ -1401,7 +1401,7 @@
   "style": null,
   "manager_years": 0.4,
   "government": null,
-  "notes": "California-based Kevin Nagle since 2023, also owns Sacramento Republic FC and a Sacramento Kings minority stake; no sanctions found."
+  "notes": "California-based Kevin Nagle since 2023, also owns Sacramento Republic FC and a Sacramento Kings minority stake; no sanctions found. Accuracy pass 2026-10-12: multi_club flagship->none: Nagle is now a minority owner of Sacramento Republic (Wilton Rancheria majority), so he controls one club."
  },
  {
   "name": "Hull City",
@@ -1786,7 +1786,7 @@
   "violence": 0,
   "financial_breaches": 0,
   "relocated": 0,
-  "sponsor_betting": 1,
+  "sponsor_betting": 0,
   "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
@@ -1797,7 +1797,7 @@
   "style": 0,
   "manager_years": 2.3,
   "government": null,
-  "notes": "Blue Crow Sports Group (Houston, Jeff Luhnow) ~96% since July 2025, also owns Leganes and Cancun FC; Zeturf betting on shorts; no sanctions found."
+  "notes": "Blue Crow Sports Group (Houston, Jeff Luhnow) ~96% since July 2025, also owns Leganes and Cancun FC; Zeturf betting on shorts; no sanctions found. Accuracy pass 2026-10-12: sponsor_betting 1->0: Zeturf is on the shorts only, not shirt or main partner."
  },
  {
   "name": "Le Mans",
@@ -1815,7 +1815,7 @@
   "stadium_age": 15,
   "fan_governance": 0,
   "owner_type": "foreign_private",
-  "multi_club": "secondary",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 0,
@@ -1833,7 +1833,7 @@
   "style": 1,
   "manager_years": 2.3,
   "government": null,
-  "notes": "Brazilian investor OutField (celebrity co-owners incl. Djokovic) since 2025, also co-manages Coritiba; 2013 bankruptcy; no sanctions found."
+  "notes": "Brazilian investor OutField (celebrity co-owners incl. Djokovic) since 2025, also co-manages Coritiba; 2013 bankruptcy; no sanctions found. Accuracy pass 2026-10-12: multi_club secondary->none: OutField holds ~30% of a fund owning 90% of Coritiba (about 27%, Treecorp controls), no controlled second club."
  },
  {
   "name": "Lecce",

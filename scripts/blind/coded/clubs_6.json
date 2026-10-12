@@ -635,7 +635,7 @@
   "financial_breaches": 0,
   "relocated": 0,
   "sponsor_betting": 0,
-  "sponsor_state": 0,
+  "sponsor_state": 1,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 1,
@@ -645,7 +645,7 @@
   "style": 0,
   "manager_years": 1.4,
   "government": 3,
-  "notes": "QFA led by a member of the ruling Al Thani family and state-funded; naturalised players; 2022 WC migrant-worker deaths/abuse; LGBT rights criminalised; state-company sponsors not verified (coded 0); Freedom House Not Free 25."
+  "notes": "QFA led by a member of the ruling Al Thani family and state-funded; naturalised players; 2022 WC migrant-worker deaths/abuse; LGBT rights criminalised; state-company sponsors not verified (coded 0); Freedom House Not Free 25. Accuracy pass 2026-10-12: sponsor_state 0->1: Ooredoo (state-majority) official telecom partner to 2028, QNB official sponsor."
  },
  {
   "name": "Republic of Ireland",
@@ -779,7 +779,7 @@
   "financial_breaches": 0,
   "relocated": 0,
   "sponsor_betting": 0,
-  "sponsor_state": 0,
+  "sponsor_state": 1,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 1,
@@ -789,7 +789,7 @@
   "style": 0,
   "manager_years": 0.5,
   "government": 3,
-  "notes": "SAFF operates under the Ministry of Sport; national team and league part of PIF-led state sports programme; FIFA fine for fireworks v Iraq (2025); state-company sponsors not verified (coded 0); Freedom House Not Free 9."
+  "notes": "SAFF operates under the Ministry of Sport; national team and league part of PIF-led state sports programme; FIFA fine for fireworks v Iraq (2025); state-company sponsors not verified (coded 0); Freedom House Not Free 9. Accuracy pass 2026-10-12: sponsor_state 0->1: PIF-majority STC holds SAFF sponsorship/marketing rights."
  },
  {
   "name": "Scotland",
@@ -1589,7 +1589,7 @@
   "lat": 40.74,
   "lon": -74.15,
   "founded": 2006,
-  "league_titles": 3,
+  "league_titles": 2,
   "cups": 0,
   "continental": 1,
   "seasons_top_flight_last10": 10,
@@ -1617,7 +1617,7 @@
   "style": null,
   "manager_years": 3.8,
   "government": null,
-  "notes": "Titles: WPS 2009, NWSL 2023 and 2025; CONCACAF W Champions Cup 2025; Sky Blue era (2017-19) lacked basic player facilities; owners incl. Murphys, Carli Lloyd, Eli Manning."
+  "notes": "Titles: WPS 2009, NWSL 2023 and 2025; CONCACAF W Champions Cup 2025; Sky Blue era (2017-19) lacked basic player facilities; owners incl. Murphys, Carli Lloyd, Eli Manning. Accuracy pass 2026-10-12: league_titles 3->2: NWSL Championships 2023 and 2025 only (WPS 2009 excluded)."
  },
  {
   "name": "Houston Dash",
@@ -1697,7 +1697,7 @@
   "lat": 35.79,
   "lon": -78.75,
   "founded": 2017,
-  "league_titles": 4,
+  "league_titles": 2,
   "cups": 2,
   "continental": 0,
   "seasons_top_flight_last10": 10,
@@ -1725,7 +1725,7 @@
   "style": null,
   "manager_years": 0.8,
   "government": null,
-  "notes": "Western New York Flash moved to Cary in 2017 (titles include Flash WPS 2011, NWSL 2016, Courage 2018-19); coach Riley fired 2021, NWSL fined club $100,000 (2023)."
+  "notes": "Western New York Flash moved to Cary in 2017 (titles include Flash WPS 2011, NWSL 2016, Courage 2018-19); coach Riley fired 2021, NWSL fined club $100,000 (2023). Accuracy pass 2026-10-12: league_titles 4->2: NWSL Championships 2018-19 only (WPS 2011 and Flash 2016 excluded, as San Jose titles stay off Houston)."
  },
  {
   "name": "Orlando Pride",
@@ -1966,7 +1966,7 @@
   "violence": 0,
   "financial_breaches": 0,
   "relocated": 1,
-  "sponsor_betting": 1,
+  "sponsor_betting": 0,
   "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
@@ -1977,6 +1977,6 @@
   "style": 2,
   "manager_years": 1.3,
   "government": null,
-  "notes": "Michele Kang majority since 2022, also owns OL Lyonnes, London City Lionesses and bought Lyon men's parent (2026); Fanatics Sportsbook partnership (May 2026); 2021 coach Burke dismissed for abuse, owner Baldwin forced out."
+  "notes": "Michele Kang majority since 2022, also owns OL Lyonnes, London City Lionesses and bought Lyon men's parent (2026); Fanatics Sportsbook partnership (May 2026); 2021 coach Burke dismissed for abuse, owner Baldwin forced out. Accuracy pass 2026-10-12: sponsor_betting 1->0: Fanatics Sportsbook is official betting/market-access partner (2024 deal), not shirt or main partner."
  }
 ]

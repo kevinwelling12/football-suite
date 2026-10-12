@@ -375,7 +375,7 @@
   "stadium_age": 116,
   "fan_governance": 0,
   "owner_type": "us_sports_group",
-  "multi_club": "flagship",
+  "multi_club": "none",
   "debt_buyout": 1,
   "super_league": "left_quickly",
   "discrimination": 0,
@@ -393,7 +393,7 @@
   "style": 1,
   "manager_years": 0.8,
   "government": null,
-  "notes": "Glazer family control since 2005 leveraged buyout (debt still on club); INEOS ~29% (also owns Nice); left 2021 Super League within two days; no fan sanctions 2021-26 found."
+  "notes": "Glazer family control since 2005 leveraged buyout (debt still on club); INEOS ~29% (also owns Nice); left 2021 Super League within two days; no fan sanctions 2021-26 found. Accuracy pass 2026-10-12: multi_club flagship->none: INEOS holds ~29%, under 30%."
  },
  {
   "name": "Mansfield Town",
@@ -627,7 +627,7 @@
   "stadium_age": 19,
   "fan_governance": 0,
   "owner_type": "foreign_private",
-  "multi_club": "secondary",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 0,
@@ -645,7 +645,7 @@
   "style": 1,
   "manager_years": 1.5,
   "government": null,
-  "notes": "Created 2004 by relocating Wimbledon FC; Kuwaiti consortium led by Fahad Al Ghanim since 2024 (family also tied to Kuwait SC); Visit Kuwait (state tourism) sleeve."
+  "notes": "Created 2004 by relocating Wimbledon FC; Kuwaiti consortium led by Fahad Al Ghanim since 2024 (family also tied to Kuwait SC); Visit Kuwait (state tourism) sleeve. Accuracy pass 2026-10-12: multi_club secondary->none: owner's family tie to Kuwait SC is not ownership control."
  },
  {
   "name": "Minnesota United FC",
@@ -706,7 +706,7 @@
   "violence": 0,
   "financial_breaches": 0,
   "relocated": 0,
-  "sponsor_betting": 1,
+  "sponsor_betting": 0,
   "sponsor_state": 1,
   "sponsor_arms": 0,
   "ticket_price": null,
@@ -717,7 +717,7 @@
   "style": 1,
   "manager_years": 0.3,
   "government": null,
-  "notes": "Rybolovlev's Monaco Sport Investment 66.7%, Grimaldi family 33.3% (Cercle Brugge in same ownership); VBET shorts sponsor, DR Congo tourism sleeve."
+  "notes": "Rybolovlev's Monaco Sport Investment 66.7%, Grimaldi family 33.3% (Cercle Brugge in same ownership); VBET shorts sponsor, DR Congo tourism sleeve. Accuracy pass 2026-10-12: sponsor_betting 1->0: VBET is on the shorts only."
  },
  {
   "name": "Monterey Bay FC",
@@ -1131,14 +1131,14 @@
   "stadium_age": 13,
   "fan_governance": 0,
   "owner_type": "corporate",
-  "multi_club": "secondary",
+  "multi_club": "flagship",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 2,
   "violence": 3,
   "financial_breaches": 0,
   "relocated": 0,
-  "sponsor_betting": 1,
+  "sponsor_betting": 0,
   "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
@@ -1149,7 +1149,7 @@
   "style": null,
   "manager_years": 0.3,
   "government": null,
-  "notes": "INEOS-owned (Manchester United flagship); LFP closures for racist banners and homophobic chants (2019, 2025); organised violence: Koln 2022, ultras assaulted own players Nov 2025, 2026 pitch invasion led to closed-door matches; VBET shorts."
+  "notes": "INEOS-owned (Manchester United flagship); LFP closures for racist banners and homophobic chants (2019, 2025); organised violence: Koln 2022, ultras assaulted own players Nov 2025, 2026 pitch invasion led to closed-door matches; VBET shorts. Accuracy pass 2026-10-12: sponsor_betting 1->0: VBET is on the shorts only; multi_club secondary->flagship: INEOS holds under 30% of Manchester United, so its controlled network is Nice plus Lausanne-Sport, with Nice as parent."
  },
  {
   "name": "Northampton Town",
@@ -1533,7 +1533,7 @@
   "discrimination": 0,
   "violence": 1,
   "financial_breaches": 0,
-  "relocated": 0,
+  "relocated": 1,
   "sponsor_betting": 0,
   "sponsor_state": 0,
   "sponsor_arms": 0,
@@ -1545,7 +1545,7 @@
   "style": 2,
   "manager_years": 3.3,
   "government": null,
-  "notes": "Shares held by Stichting PSV Football with one share for the members' club (no private owner); UEFA fine and stand closure after a fan punched Sevilla goalkeeper (Feb 2023)."
+  "notes": "Shares held by Stichting PSV Football with one share for the members' club (no private owner); UEFA fine and stand closure after a fan punched Sevilla goalkeeper (Feb 2023). Accuracy pass 2026-10-12: relocated 0->1: founded as Philips works team (company team)."
  },
  {
   "name": "Paris FC",
@@ -1563,14 +1563,14 @@
   "stadium_age": 1,
   "fan_governance": 0,
   "owner_type": "local_private",
-  "multi_club": "secondary",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 0,
   "violence": 0,
   "financial_breaches": 0,
   "relocated": 0,
-  "sponsor_betting": 1,
+  "sponsor_betting": 0,
   "sponsor_state": 1,
   "sponsor_arms": 0,
   "ticket_price": null,
@@ -1581,7 +1581,7 @@
   "style": null,
   "manager_years": 0.3,
   "government": null,
-  "notes": "Arnault family (Agache) 52.4%, Ferracci 29.8%, Red Bull 10.6%; Bahrain Victorious (Kingdom of Bahrain brand) main sponsor, Bwin shorts."
+  "notes": "Arnault family (Agache) 52.4%, Ferracci 29.8%, Red Bull 10.6%; Bahrain Victorious (Kingdom of Bahrain brand) main sponsor, Bwin shorts. Accuracy pass 2026-10-12: sponsor_betting 1->0: Bwin is on the shorts only; multi_club secondary->none: Red Bull's 10.6% is under 30%, no network."
  },
  {
   "name": "Paris Saint-Germain",
@@ -1599,7 +1599,7 @@
   "stadium_age": 52,
   "fan_governance": 0,
   "owner_type": "state",
-  "multi_club": "flagship",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 2,
@@ -1617,7 +1617,7 @@
   "style": 2,
   "manager_years": 3.3,
   "government": null,
-  "notes": "Qatar Sports Investments 85.9%, Arctos Partners 12.5%; Qatar Airways shirt; UEFA 2022 FFP settlement fine; repeated LFP sanctions for homophobic chants from Auteuil (2023, 2024, 2025)."
+  "notes": "Qatar Sports Investments 85.9%, Arctos Partners 12.5%; Qatar Airways shirt; UEFA 2022 FFP settlement fine; repeated LFP sanctions for homophobic chants from Auteuil (2023, 2024, 2025). Accuracy pass 2026-10-12: multi_club flagship->none: QSI's Braga stake (~22%) is under 30%, no other controlled club."
  },
  {
   "name": "Parma",

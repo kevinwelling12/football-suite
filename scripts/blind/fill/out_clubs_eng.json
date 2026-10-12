@@ -1,0 +1,945 @@
+{
+ "AFC Wimbledon": {
+  "country": "England",
+  "avg_attendance": 8396,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Accrington Stanley": {
+  "country": "England",
+  "avg_attendance": 2259,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Arsenal": {
+  "country": "England",
+  "avg_attendance": 60217,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Aston Villa": {
+  "country": "England",
+  "avg_attendance": 41977,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Barnet": {
+  "country": "England",
+  "avg_attendance": 2848,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Barnsley": {
+  "country": "England",
+  "avg_attendance": 11144,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Birmingham City": {
+  "country": "England",
+  "avg_attendance": 27163,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Blackburn Rovers": {
+  "country": "England",
+  "avg_attendance": 14993,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Blackpool": {
+  "country": "England",
+  "avg_attendance": 9606,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Bolton Wanderers": {
+  "country": "England",
+  "avg_attendance": 21692,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Bournemouth": {
+  "country": "England",
+  "avg_attendance": 11175,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Bradford City": {
+  "country": "England",
+  "avg_attendance": 20444,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Brentford": {
+  "country": "England",
+  "avg_attendance": 17132,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Brighton": {
+  "country": "England",
+  "avg_attendance": 31379,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Bristol City": {
+  "country": "England",
+  "avg_attendance": 23278,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Bristol Rovers": {
+  "country": "England",
+  "avg_attendance": 8051,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Bromley": {
+  "country": "England",
+  "avg_attendance": 3953,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Burnley": {
+  "country": "England",
+  "avg_attendance": 21005,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Burton Albion": {
+  "country": "England",
+  "avg_attendance": 4130,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Cambridge United": {
+  "country": "England",
+  "avg_attendance": 6600,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Cardiff City": {
+  "country": "England",
+  "avg_attendance": 19564,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Charlton Athletic": {
+  "country": "England",
+  "avg_attendance": 20066,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Chelsea": {
+  "country": "England",
+  "avg_attendance": 39661,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Cheltenham Town": {
+  "country": "England",
+  "avg_attendance": 3988,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Chesterfield": {
+  "country": "England",
+  "avg_attendance": 8143,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Colchester United": {
+  "country": "England",
+  "avg_attendance": 5104,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Coventry City": {
+  "country": "England",
+  "avg_attendance": 30290,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Crawley Town": {
+  "country": "England",
+  "avg_attendance": 3631,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Crewe Alexandra": {
+  "country": "England",
+  "avg_attendance": 5693,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Crystal Palace": {
+  "country": "England",
+  "avg_attendance": 24925,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Derby County": {
+  "country": "England",
+  "avg_attendance": 28563,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Doncaster Rovers": {
+  "country": "England",
+  "avg_attendance": 9073,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Everton": {
+  "country": "England",
+  "avg_attendance": 52132,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Exeter City": {
+  "country": "England",
+  "avg_attendance": 6655,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Fleetwood Town": {
+  "country": "England",
+  "avg_attendance": 2818,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Fulham": {
+  "country": "England",
+  "avg_attendance": 27228,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Gillingham": {
+  "country": "England",
+  "avg_attendance": 6083,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Grimsby Town": {
+  "country": "England",
+  "avg_attendance": 6537,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Huddersfield Town": {
+  "country": "England",
+  "avg_attendance": 17159,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Hull City": {
+  "country": "England",
+  "avg_attendance": 21400,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Ipswich Town": {
+  "country": "England",
+  "avg_attendance": 28303,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Leeds United": {
+  "country": "England",
+  "avg_attendance": 36695,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Leicester City": {
+  "country": "England",
+  "avg_attendance": 28907,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Leyton Orient": {
+  "country": "England",
+  "avg_attendance": 8262,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Lincoln City": {
+  "country": "England",
+  "avg_attendance": 9431,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Liverpool": {
+  "country": "England",
+  "avg_attendance": 60389,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Luton Town": {
+  "country": "England",
+  "avg_attendance": 11039,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518",
+   "https://www.lutontown.co.uk/en/news/25-26-season-cards"
+  ]
+ },
+ "Manchester City": {
+  "country": "England",
+  "avg_attendance": 52640,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Manchester United": {
+  "country": "England",
+  "avg_attendance": 73975,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Mansfield Town": {
+  "country": "England",
+  "avg_attendance": 7939,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Middlesbrough": {
+  "country": "England",
+  "avg_attendance": 27622,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Millwall": {
+  "country": "England",
+  "avg_attendance": 17135,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Milton Keynes Dons": {
+  "country": "England",
+  "avg_attendance": 8563,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Newcastle United": {
+  "country": "England",
+  "avg_attendance": 52095,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Newport County": {
+  "country": "England",
+  "avg_attendance": 4317,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Northampton Town": {
+  "country": "England",
+  "avg_attendance": 6542,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Norwich City": {
+  "country": "England",
+  "avg_attendance": 25886,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Nottingham Forest": {
+  "country": "England",
+  "avg_attendance": 30421,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Notts County": {
+  "country": "England",
+  "avg_attendance": 10423,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Oldham Athletic": {
+  "country": "England",
+  "avg_attendance": 7538,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Oxford United": {
+  "country": "England",
+  "avg_attendance": 11123,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Peterborough United": {
+  "country": "England",
+  "avg_attendance": 8125,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Plymouth Argyle": {
+  "country": "England",
+  "avg_attendance": 15695,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Port Vale": {
+  "country": "England",
+  "avg_attendance": 7257,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Portsmouth": {
+  "country": "England",
+  "avg_attendance": 20120,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Preston North End": {
+  "country": "England",
+  "avg_attendance": 16813,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Queens Park Rangers": {
+  "country": "England",
+  "avg_attendance": 16672,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Reading": {
+  "country": "England",
+  "avg_attendance": 12194,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Rochdale": {
+  "country": "England",
+  "avg_attendance": 3065,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/CNAT/saison_id/2025"
+  ]
+ },
+ "Rotherham United": {
+  "country": "England",
+  "avg_attendance": 8519,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Salford City": {
+  "country": "England",
+  "avg_attendance": 3045,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Sheffield United": {
+  "country": "England",
+  "avg_attendance": 27676,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Sheffield Wednesday": {
+  "country": "England",
+  "avg_attendance": 23199,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Shrewsbury Town": {
+  "country": "England",
+  "avg_attendance": 5659,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Southampton": {
+  "country": "England",
+  "avg_attendance": 28456,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Stevenage": {
+  "country": "England",
+  "avg_attendance": 4237,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Stockport County": {
+  "country": "England",
+  "avg_attendance": 9440,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Stoke City": {
+  "country": "England",
+  "avg_attendance": 24133,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Sunderland": {
+  "country": "England",
+  "avg_attendance": 46489,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Swansea City": {
+  "country": "England",
+  "avg_attendance": 16786,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Swindon Town": {
+  "country": "England",
+  "avg_attendance": 8434,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Tottenham Hotspur": {
+  "country": "England",
+  "avg_attendance": 61003,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Tranmere Rovers": {
+  "country": "England",
+  "avg_attendance": 6871,
+  "att_season": "2025-26",
+  "ticket_price": 2,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Walsall": {
+  "country": "England",
+  "avg_attendance": 6356,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB4/saison_id/2025",
+   "https://www.miltonkeynes.co.uk/sport/football/the-price-of-an-adult-season-ticket-at-every-league-two-club-where-mk-dons-gillingham-oldham-athletic-newport-county-and-the-rest-rank-5196054"
+  ]
+ },
+ "Watford": {
+  "country": "England",
+  "avg_attendance": 18613,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "West Bromwich Albion": {
+  "country": "England",
+  "avg_attendance": 23605,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "West Ham United": {
+  "country": "England",
+  "avg_attendance": 62347,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Wigan Athletic": {
+  "country": "England",
+  "avg_attendance": 10022,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "Wolverhampton Wanderers": {
+  "country": "England",
+  "avg_attendance": 29835,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB1/saison_id/2025",
+   "https://www.givemesport.com/premier-league-every-club-season-ticket-prices-2025-26/"
+  ]
+ },
+ "Wrexham": {
+  "country": "England",
+  "avg_attendance": 10664,
+  "att_season": "2025-26",
+  "ticket_price": 1,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB2/saison_id/2025",
+   "https://www.yorkshirepost.co.uk/sport/football/championship-season-ticket-prices-sheffield-wednesday-middlesbrough-sheffield-united-hull-city-5188237",
+   "https://footballleagueworld.co.uk/all-24-efl-championship-clubs-season-ticket-price-in-202526-ranked-from-most-expensive-to-least/"
+  ]
+ },
+ "Wycombe Wanderers": {
+  "country": "England",
+  "avg_attendance": 5550,
+  "att_season": "2025-26",
+  "ticket_price": 0,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/GB3/saison_id/2025",
+   "https://www.doncasterfreepress.co.uk/sport/football/this-is-the-price-of-an-adult-season-ticket-at-every-league-one-club-ahead-of-todays-efl-fixture-release-where-doncaster-rovers-cardiff-city-luton-town-and-the-rest-rank-5194518"
+  ]
+ },
+ "York City": {
+  "country": "England",
+  "avg_attendance": 6649,
+  "att_season": "2025-26",
+  "ticket_price": null,
+  "sources": [
+   "https://www.transfermarkt.com/x/besucherzahlen/wettbewerb/CNAT/saison_id/2025"
+  ]
+ }
+}

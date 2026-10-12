@@ -38,6 +38,15 @@ def weights(feats, prefix, pairs, pair_prefix, a=ANS):
         for k in w: w[k] -= LR * g[k]
     return w
 
+def turnoffs(w, feats, prefix, a=ANS):
+    """A serious wrong costs more than one fact's worth: a fact answered "Turn-off" counts double and "Strong turn-off"
+    triple (Kevin, 2026-10-12: "do all four"). Weight x (1 + strength beyond slight), only on negative weights."""
+    out = dict(w)
+    for f in feats:
+        v = a.get(prefix + f[0])
+        if isinstance(v, (int, float)) and v <= -2 and out[f[0]] < 0: out[f[0]] *= 1 + (-v - 1)
+    return out
+
 def haversine(a, b):
     t = math.radians; dl, dn = t(b[0] - a[0]), t(b[1] - a[1])
     h = math.sin(dl / 2) ** 2 + math.cos(t(a[0])) * math.cos(t(b[0])) * math.sin(dn / 2) ** 2
@@ -51,8 +60,12 @@ def scorer(w):
         return round(100 * (s - lo) / span, 1), [p for p in parts if abs(p[2]) >= 0.3]
     return score
 
-def main():
+def scores(fair=True, detail=False):
+    """-> (clubs {name: score}, players {name: score}); with detail, also the parts and the inputs main() writes.
+    fair=False reproduces the first shipped version (no gap fills, raw trophy counts, every fact at its own weight)."""
+    build.FAIR = fair
     wc = weights(Q['CF'], 'c_', Q['CP'], 'cp'); wp = weights(Q['PF'], 'p_', Q['PP'], 'pp')
+    if fair: wc, wp = turnoffs(wc, Q['CF'], 'c_'), turnoffs(wp, Q['PF'], 'p_')
     home = next((p for p in build.PLACES if p[0] == ANS.get('home')), None); nat = ANS.get('nation') or ''
     clubs, players = build.rows()
     sc, sp = scorer(wc), scorer(wp)
@@ -62,6 +75,15 @@ def main():
         f['near'] = max(0.0, 1 - haversine(home[1:], c['ll']) / 3000) if home and c['ll'] else 0.0
         f['home'] = 1.0 if c['k'] == 'nation' and c['n'] == nat else 0.0
         S[c['n']] = sc(f)
+    SP = {}
+    for p in players:
+        f = dict(p['f']); f['homenat'] = 1.0 if nat and p['nat'] == nat else 0.0
+        SP[p['n']] = sp(f)
+    if detail: return S, SP, players, wc, wp
+    return {n: v[0] for n, v in S.items()}, {n: v[0] for n, v in SP.items()}
+
+def main():
+    S, SP, players, wc, wp = scores(True, detail=True)
     D = json.loads((root / 'data' / 'suite_data.json').read_text())
     X = json.loads((root / 'data' / 'nations_extra.json').read_text())
     for t in [t for c in D.values() for t in c['teams']] + X['teams'] + X.get('clubs', []):
@@ -82,8 +104,7 @@ def main():
     SIZE = {'ma': 75, 'mt': 75, 'wa': 30, 'wt': 30}; L = {k: [] for k in SIZE}
     rated = []
     for p in players:
-        f = dict(p['f']); f['homenat'] = 1.0 if nat and p['nat'] == nat else 0.0
-        a, parts = sp(f); fa = facts.get(p['n'], {})
+        a, parts = SP[p['n']]; fa = facts.get(p['n'], {})
         clubs_ = []
         for c in sorted(fa.get('clubs', []), key=lambda c: c.get('from') or 0):
             if c.get('club') and c['club'] not in clubs_ and not re.search(r'\b(II|B|U\d+|youth|academy)\b', c['club'], re.I): clubs_.append(c['club'])

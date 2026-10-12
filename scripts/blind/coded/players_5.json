@@ -6,7 +6,7 @@
   "active": false,
   "position": "DF",
   "nation": "USA",
-  "major_trophies": 6,
+  "major_trophies": 5,
   "world_cup_wins": 1,
   "individual": 0,
   "caps": 73,
@@ -31,7 +31,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "No incidents. Trophies: 2015 World Cup, Tyresö 2012 Damallsvenskan, NWSL Championships 2017/2022 and Shields 2016/2021 (Shield counted as league title); spoke out for abuse survivors."
+  "notes": "No incidents. Trophies: 2015 World Cup, Tyresö 2012 Damallsvenskan, NWSL Championships 2017/2022 and Shields 2016/2021; spoke out for abuse survivors. Recount: major_trophies 5: Shields no longer counted; World Cup 2015, Damallsvenskan 2012, NWSL Championships 2017/2022, CONCACAF 2014."
  },
  {
   "name": "Mekhi Gray",
@@ -142,7 +142,7 @@
   "active": false,
   "position": "MF",
   "nation": "USA",
-  "major_trophies": 4,
+  "major_trophies": 3,
   "world_cup_wins": 0,
   "individual": 0,
   "caps": 151,
@@ -167,7 +167,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "No incidents. Trophies: MLS Cup and Supporters' Shield 2017, Gold Cups 2007/2017."
+  "notes": "No incidents. Trophies: MLS Cup and Supporters' Shield 2017, Gold Cups 2007/2017. Recount: major_trophies 3: MLS Cup 2017, Gold Cups 2007/2017; Shield not counted."
  },
  {
   "name": "Michael Laudrup",
@@ -197,11 +197,11 @@
   "match_fixing": 0,
   "tax_fraud": 0,
   "criminal_other": 0,
-  "money_league": 1,
+  "money_league": 0,
   "rival_move": 1,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "Moved directly Barcelona to Real Madrid 1994; as coach took jobs at Qatari clubs Lekhwiya (2014-15) and Al-Rayyan (2016-18); quit Denmark team 1990-93 over a dispute with the coach."
+  "notes": "Moved directly Barcelona to Real Madrid 1994; as coach took jobs at Qatari clubs Lekhwiya (2014-15) and Al-Rayyan (2016-18); quit Denmark team 1990-93 over a dispute with the coach. Recount: money_league 0: Qatari jobs were as coach only."
  },
  {
   "name": "Michael Olise",
@@ -380,7 +380,7 @@
   "active": false,
   "position": "MF",
   "nation": "France",
-  "major_trophies": 5,
+  "major_trophies": 6,
   "world_cup_wins": 0,
   "individual": 3,
   "caps": 72,
@@ -405,7 +405,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "Banned from football 2015-2019 by FIFA ethics over a CHF 2m payment from Blatter, acquitted of fraud by Swiss courts 2022 and 2025; questioned without charge 2019 over the Qatar World Cup vote; celebrated his penalty in the 1985 Heysel final, later regretted it."
+  "notes": "Banned from football 2015-2019 by FIFA ethics over a CHF 2m payment from Blatter, acquitted of fraud by Swiss courts 2022 and 2025; questioned without charge 2019 over the Qatar World Cup vote; celebrated his penalty in the 1985 Heysel final, later regretted it. Recount: major_trophies 6: adds Ligue 1 1981 and Cup Winners' Cup 1984."
  },
  {
   "name": "Michelle Akers",
@@ -652,7 +652,7 @@
   "active": true,
   "position": "DF",
   "nation": "USA",
-  "major_trophies": 4,
+  "major_trophies": 3,
   "world_cup_wins": 0,
   "individual": 2,
   "caps": null,
@@ -677,7 +677,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "No incidents. Co-founded mental-health initiative; signed 2024 letter urging FIFA to drop Aramco sponsorship."
+  "notes": "No incidents. Co-founded mental-health initiative; signed 2024 letter urging FIFA to drop Aramco sponsorship. Recount: major_trophies 3: WSL 2025, CONCACAF 2022, W Gold Cup 2024; Olympics and Shield not counted."
  },
  {
   "name": "Nat Borchers",
@@ -1040,7 +1040,7 @@
   "charity": 0,
   "speaks_out": 0,
   "flair": 0,
-  "red_card_violence": 0,
+  "red_card_violence": 2,
   "abuse_allegation": 0,
   "racist_abuse": 0,
   "doping": 0,
@@ -1051,7 +1051,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "1999 kick at Chapuisat and mock bite at Herrlich drew no card or ban (audit: too minor to code)."
+  "notes": "1999 kick at Chapuisat and mock bite at Herrlich drew no card or ban (audit: too minor to code). Recount: red_card_violence 2: 1999 flying kick at Chapuisat and bite at Herrlich in one match (no card)."
  },
  {
   "name": "Olivia Moultrie",
@@ -1366,7 +1366,7 @@
   "active": false,
   "position": "MF",
   "nation": "France",
-  "major_trophies": 10,
+  "major_trophies": 9,
   "world_cup_wins": 1,
   "individual": 1,
   "caps": 107,
@@ -1380,7 +1380,7 @@
   "charity": 2,
   "speaks_out": 1,
   "flair": 0,
-  "red_card_violence": 1,
+  "red_card_violence": 2,
   "abuse_allegation": 0,
   "racist_abuse": 0,
   "doping": 0,
@@ -1391,7 +1391,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "Spat at Neil Ruddock 1999 (6-match ban); 2022 as Palace manager kicked out at a goading Everton fan (no action); ended career at Abu Dhabi-owned Man City and worked for City Football Group 2011-18; Diambars academy in Senegal since 2003."
+  "notes": "Spat at Neil Ruddock 1999 (6-match ban); 2022 as Palace manager kicked out at a goading Everton fan (no action); ended career at Abu Dhabi-owned Man City and worked for City Football Group 2011-18; Diambars academy in Senegal since 2003. Recount: major_trophies 9: Confederations Cup not counted (WC, Euro, Serie A 1996 Milan, 3 PL, 3 Serie A Inter). Recount: red_card_violence 2: adds 2022 kick at a goading Everton fan on the pitch (as Palace manager)."
  },
  {
   "name": "Paul Gascoigne",
@@ -1808,7 +1808,7 @@
   "active": true,
   "position": "MF",
   "nation": "Costa Rica",
-  "major_trophies": 2,
+  "major_trophies": 1,
   "world_cup_wins": 0,
   "individual": 0,
   "caps": null,
@@ -1833,7 +1833,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "No incidents."
+  "notes": "No incidents. Recount: major_trophies 1: NWSL Championship 2022; Shield not counted."
  },
  {
   "name": "Raymond Kopa",
@@ -2284,7 +2284,7 @@
   "active": false,
   "position": "MF",
   "nation": null,
-  "major_trophies": 1,
+  "major_trophies": 0,
   "world_cup_wins": 0,
   "individual": 1,
   "caps": null,
@@ -2309,7 +2309,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "No incidents. Guadalajara-born, no senior international career found; 13 clubs in Mexico and USA (web); Sacramento Republic captain."
+  "notes": "No incidents. Guadalajara-born, no senior international career found; 13 clubs in Mexico and USA (web); Sacramento Republic captain. Recount: major_trophies 0: USL Pro 2014 is not a top-flight title."
  },
  {
   "name": "Roman Weidenfeller",
@@ -2373,11 +2373,11 @@
   "match_fixing": 0,
   "tax_fraud": 0,
   "criminal_other": 0,
-  "money_league": 1,
+  "money_league": 0,
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "2007 positive test for finasteride, 120-day ban overturned on appeal 2008 (doping coded 0); brief 2003 spell at Qatari club Al Sadd (not in research clubs list); advocate for people with disabilities, later senator."
+  "notes": "2007 positive test for finasteride, 120-day ban overturned on appeal 2008 (doping coded 0); brief 2003 spell at Qatari club Al Sadd (not in research clubs list); advocate for people with disabilities, later senator. Recount: money_league 0: Al Sadd 2003 was a three-month loan (3 apps), under a season."
  },
  {
   "name": "Ronald Araújo",
@@ -2556,7 +2556,7 @@
   "active": true,
   "position": "MF",
   "nation": "USA",
-  "major_trophies": 7,
+  "major_trophies": 6,
   "world_cup_wins": 1,
   "individual": 1,
   "caps": null,
@@ -2581,7 +2581,7 @@
   "rival_move": 0,
   "authoritarian_ambassador": 0,
   "forced_transfer": 0,
-  "notes": "No incidents. Plaintiff in 2019 USWNT gender-discrimination lawsuit; 2020-21 at Abu Dhabi-owned Man City."
+  "notes": "No incidents. Plaintiff in 2019 USWNT gender-discrimination lawsuit; 2020-21 at Abu Dhabi-owned Man City. Recount: major_trophies 6: WC 2019, NWSL 2025, W Champions Cup 2025, CONCACAF 2018/2022, W Gold Cup 2024; Olympics and Challenge Cup not counted."
  },
  {
   "name": "Roy Keane",

@@ -339,7 +339,7 @@
   "stadium_age": 162,
   "fan_governance": 1,
   "owner_type": "foreign_private",
-  "multi_club": "flagship",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 0,
@@ -357,7 +357,7 @@
   "style": 0,
   "manager_years": 7.3,
   "government": null,
-  "notes": "Reynolds and McElhenney majority since 2021, Apollo Sports Capital (PE) just under 10% plus ~5% ASC-linked group; owners also invested in Necaxa; supporters' trust saved and ran the club 2011-21; cups = 23 Welsh Cups; no fan sanctions found."
+  "notes": "Reynolds and McElhenney majority since 2021, Apollo Sports Capital (PE) just under 10% plus ~5% ASC-linked group; owners also invested in Necaxa; supporters' trust saved and ran the club 2011-21; cups = 23 Welsh Cups; no fan sanctions found. Accuracy pass 2026-10-12: multi_club flagship->none: owners hold only an undisclosed minority stake in Necaxa (Tylis-Porter group controls), no network."
  },
  {
   "name": "Wycombe Wanderers",
@@ -1247,7 +1247,7 @@
   "financial_breaches": 0,
   "relocated": 0,
   "sponsor_betting": 1,
-  "sponsor_state": 0,
+  "sponsor_state": 1,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 2,
@@ -1257,7 +1257,7 @@
   "style": 1,
   "manager_years": 2.0,
   "government": 0,
-  "notes": "No discrimination or violence sanctions; Oddset (Danske Spil, majority state-owned) is a national-team sponsor; 2025 agreement gives women equal base fees and bonuses; DBU openly critical of FIFA over Qatar."
+  "notes": "No discrimination or violence sanctions; Oddset (Danske Spil, majority state-owned) is a national-team sponsor; 2025 agreement gives women equal base fees and bonuses; DBU openly critical of FIFA over Qatar. Accuracy pass 2026-10-12: sponsor_state 0->1: Oddset belongs to Danske Spil, majority owned by the Danish state."
  },
  {
   "name": "Ecuador",
@@ -1462,8 +1462,8 @@
   "violence": 0,
   "financial_breaches": 0,
   "relocated": 0,
-  "sponsor_betting": 0,
-  "sponsor_state": 0,
+  "sponsor_betting": 1,
+  "sponsor_state": 1,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 2,
@@ -1473,7 +1473,7 @@
   "style": 0,
   "manager_years": 1.8,
   "government": 0,
-  "notes": "No sanctions or scandals found."
+  "notes": "No sanctions or scandals found. Accuracy pass 2026-10-12: sponsor_betting 0->1: Veikkaus (state gaming monopoly) is the FA's main partner to 2030; sponsor_state 0->1: Veikkaus is state-owned."
  },
  {
   "name": "France",
@@ -1750,8 +1750,8 @@
   "violence": 1,
   "financial_breaches": 0,
   "relocated": 0,
-  "sponsor_betting": 0,
-  "sponsor_state": 0,
+  "sponsor_betting": 1,
+  "sponsor_state": 1,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 1,
@@ -1761,7 +1761,7 @@
   "style": 1,
   "manager_years": 8.3,
   "government": 2,
-  "notes": "Far-right Carpathian Brigade; UEFA closed-door sanctions for homophobic banners (Euro 2020) and FIFA fan ban for racist abuse of England players (2021); federation chief close to the former Orban government; Partly Free 65."
+  "notes": "Far-right Carpathian Brigade; UEFA closed-door sanctions for homophobic banners (Euro 2020) and FIFA fan ban for racist abuse of England players (2021); federation chief close to the former Orban government; Partly Free 65. Accuracy pass 2026-10-12: sponsor_betting 0->1: state-owned Szerencsejaték (TippMix) is a strategic/key MLSZ sponsor (2019 deal, 2024 source); sponsor_state 0->1: Szerencsejaték is state-owned."
  },
  {
   "name": "Iceland",

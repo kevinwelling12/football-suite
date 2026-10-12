@@ -375,7 +375,7 @@
   "stadium_age": 129,
   "fan_governance": 0,
   "owner_type": "foreign_private",
-  "multi_club": "flagship",
+  "multi_club": "none",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 1,
@@ -393,7 +393,7 @@
   "style": 1,
   "manager_years": 3.9,
   "government": null,
-  "notes": "V Sports (Sawiris, Edens) with US fund Atairos ~32%; V Sports holds 29% of Vitória SC. UEFA squad-cost settlement 2025 and June 2026 fine. UEFA fine for Traveller-community banner at 2026 Europa League final. Betano sleeve, Visit Rwanda chest. Capacity reduced during North Stand rebuild (usually ~42,600)."
+  "notes": "V Sports (Sawiris, Edens) with US fund Atairos ~32%; V Sports holds 29% of Vitória SC. UEFA squad-cost settlement 2025 and June 2026 fine. UEFA fine for Traveller-community banner at 2026 Europa League final. Betano sleeve, Visit Rwanda chest. Capacity reduced during North Stand rebuild (usually ~42,600). Accuracy pass 2026-10-12: multi_club flagship->none: V Sports' 29% of Vitoria SC is under 30%, no network."
  },
  {
   "name": "Atalanta",
@@ -779,7 +779,7 @@
   "financial_breaches": 0,
   "relocated": 0,
   "sponsor_betting": 0,
-  "sponsor_state": 1,
+  "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": 1,
   "womens_team": 3,
@@ -789,7 +789,7 @@
   "style": 2,
   "manager_years": 2.4,
   "government": null,
-  "notes": "e.V. majority with Adidas, Allianz, Audi minority. Visit Rwanda deal reduced to youth-academy partnership to 2028; Betano official betting partner (not shirt). Cups incl. 6 DFB-Ligapokal. 2025 Boateng internship cancelled after fan protest."
+  "notes": "e.V. majority with Adidas, Allianz, Audi minority. Visit Rwanda deal reduced to youth-academy partnership to 2028; Betano official betting partner (not shirt). Cups incl. 6 DFB-Ligapokal. 2025 Boateng internship cancelled after fan protest. Accuracy pass 2026-10-12: sponsor_state 1->0: Visit Rwanda cut to a youth-academy partnership (not shirt, stadium or headline); Qatar Airways ended 2023."
  },
  {
   "name": "Birmingham City",
@@ -1319,7 +1319,7 @@
   "financial_breaches": 0,
   "relocated": 0,
   "sponsor_betting": 0,
-  "sponsor_state": 1,
+  "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 2,
@@ -1329,7 +1329,7 @@
   "style": 2,
   "manager_years": 2.3,
   "government": null,
-  "notes": "Tony Bloom (local fan, fortune from sports betting) owner since 2009; minority stakes in Union SG, Hearts, Melbourne Victory. Betway official betting partner (not shirt). Club barred Guardian reporters Dec 2025. Sleeve: Experience Kissimmee (US county tourism board)."
+  "notes": "Tony Bloom (local fan, fortune from sports betting) owner since 2009; minority stakes in Union SG, Hearts, Melbourne Victory. Betway official betting partner (not shirt). Club barred Guardian reporters Dec 2025. Sleeve: Experience Kissimmee (US county tourism board). Accuracy pass 2026-10-12: sponsor_state 1->0: Experience Kissimmee sleeve is a county (regional) tourism board."
  },
  {
   "name": "Bristol City",
@@ -1607,7 +1607,7 @@
   "financial_breaches": 0,
   "relocated": 0,
   "sponsor_betting": 0,
-  "sponsor_state": 1,
+  "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
   "womens_team": 1,
@@ -1617,7 +1617,7 @@
   "style": 0,
   "manager_years": 1.3,
   "government": null,
-  "notes": "Tommaso Giulini controls; US investors at 49%. Racist abuse from stands 2017-19 and Maignan/Tomori 2022 (no sanction). Shirt sponsor Sardegna Turismo (regional government tourism brand)."
+  "notes": "Tommaso Giulini controls; US investors at 49%. Racist abuse from stands 2017-19 and Maignan/Tomori 2022 (no sanction). Shirt sponsor Sardegna Turismo (regional government tourism brand). Accuracy pass 2026-10-12: sponsor_state 1->0: Sardegna Turismo is a regional government brand."
  },
  {
   "name": "Cambridge United",
@@ -1671,7 +1671,7 @@
   "stadium_age": 17,
   "fan_governance": 0,
   "owner_type": "foreign_private",
-  "multi_club": "none",
+  "multi_club": "flagship",
   "debt_buyout": 0,
   "super_league": "none",
   "discrimination": 1,
@@ -1689,7 +1689,7 @@
   "style": 2,
   "manager_years": 1.3,
   "government": null,
-  "notes": "Malaysian owner Vincent Tan since 2010 (absent 1,000+ days, fan protests). FA fine Apr 2026 for homophobic chanting. Visit Malaysia (government tourism) shirt sponsor. Cups count FA Cup 1927 only (22 Welsh Cups not counted)."
+  "notes": "Malaysian owner Vincent Tan since 2010 (absent 1,000+ days, fan protests). FA fine Apr 2026 for homophobic chanting. Visit Malaysia (government tourism) shirt sponsor. Cups count FA Cup 1927 only (22 Welsh Cups not counted). Accuracy pass 2026-10-12: multi_club none->flagship: Vincent Tan also owns KV Kortrijk (2023 sale collapsed; Wikipedia still lists Tan)."
  },
  {
   "name": "Celta Vigo",
@@ -1858,7 +1858,7 @@
   "violence": 0,
   "financial_breaches": 0,
   "relocated": 0,
-  "sponsor_betting": 1,
+  "sponsor_betting": 0,
   "sponsor_state": 0,
   "sponsor_arms": 0,
   "ticket_price": null,
@@ -1869,7 +1869,7 @@
   "style": 0,
   "manager_years": 2.7,
   "government": null,
-  "notes": "US consortium Global Football Partners since 2023, exploring sale. London.Bet back-of-shorts and betting partner. Red, White and Black anti-racism work. At The Valley since 1992 return (1985-92 exile)."
+  "notes": "US consortium Global Football Partners since 2023, exploring sale. London.Bet back-of-shorts and betting partner. Red, White and Black anti-racism work. At The Valley since 1992 return (1985-92 exile). Accuracy pass 2026-10-12: sponsor_betting 1->0: London.Bet is back-of-shorts and official betting partner only, not shirt or main partner."
  },
  {
   "name": "Chelsea",

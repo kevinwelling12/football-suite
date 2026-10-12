@@ -75,19 +75,19 @@
    "Bought on debt": 0.0,
    "Foreign billionaire owner": -0.07,
    "Investment-fund owner": -0.27,
-   "Franchise or relocation": -0.3,
    "Super League": -0.33,
    "Parent of a network": -0.35,
    "Arms money": -0.35,
    "State-owned sponsor": -0.47,
-   "Betting sponsor": -0.67,
-   "Company owner": -0.73,
+   "Franchise or relocation": -0.59,
    "Feeder in a network": -0.87,
-   "Financial breaches": -1.02,
-   "Discrimination incidents": -1.04,
-   "State owner": -1.1,
-   "Authoritarian government": -1.1,
-   "Fan violence": -1.33
+   "Betting sponsor": -1.33,
+   "Company owner": -2.18,
+   "Financial breaches": -3.06,
+   "Discrimination incidents": -3.11,
+   "State owner": -3.31,
+   "Authoritarian government": -3.31,
+   "Fan violence": -3.99
   },
   "player": {
    "Humility": 1.3,
@@ -108,13 +108,13 @@
    "Forced a transfer": -0.19,
    "Rival move": -0.48,
    "Money-league move": -0.64,
-   "Match-fixing or betting": -0.83,
-   "Criminal conviction": -0.84,
-   "Doping": -0.86,
    "Authoritarian ambassador": -1.0,
-   "Racist abuse": -1.14,
-   "Violent conduct": -1.18,
-   "Abuse allegations": -1.32
+   "Criminal conviction": -1.68,
+   "Match-fixing or betting": -2.48,
+   "Doping": -2.57,
+   "Racist abuse": -3.43,
+   "Violent conduct": -3.53,
+   "Abuse allegations": -3.96
   },
   "labels": {
    "club": {

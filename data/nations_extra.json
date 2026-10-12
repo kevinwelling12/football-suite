@@ -57,56 +57,62 @@
    "color": "#0B8C3F",
    "confed": "CAF",
    "hai": {
-    "C": 9.2,
-    "V": 3.8,
-    "H": 6.3,
-    "O": 2,
-    "S": 4.5,
-    "I": 2.8,
-    "R": 6.2,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -7.2
-     ]
-    ],
-    "conn": [],
-    "S0": 5,
-    "P": 6.2,
-    "rank": 28,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "quarter-finals"
-    },
-    "tb": -0.5,
-    "clubs": [
-     [
-      "Nice",
-      6,
-      -0.35
+      "gov",
+      1.0,
+      -4.6
      ],
      [
-      "Manchester City",
-      4,
-      -0.27
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Borussia Dortmund",
-      3,
-      0.14
+      "recent",
+      0.87,
+      3.4
      ],
      [
-      "Paris FC",
-      3,
-      -0.03
+      "atmos",
+      1.0,
+      2.6
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "old",
+      0.43,
+      1.1
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.46,
+      0.8
      ]
     ]
    },
-   "base": 47.4,
-   "bonus": 0.0,
-   "region": ""
+   "base": 54.8,
+   "bonus": 0
   },
   {
    "name": "Argentina",
@@ -115,56 +121,87 @@
    "color": "#75AADB",
    "confed": "CONMEBOL",
    "hai": {
-    "C": 10.0,
-    "V": 2.7,
-    "H": 10.0,
-    "O": 1.8,
-    "S": 7.4,
-    "I": 4.6,
-    "R": 9.7,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Racism",
-      -5.4
-     ]
-    ],
-    "conn": [],
-    "S0": 9,
-    "P": 9.7,
-    "rank": 2,
-    "wc2026": "runners-up",
-    "cont": {
-     "event": "Copa América 2024",
-     "result": "champions"
-    },
-    "tb": -1.6,
-    "clubs": [
-     [
-      "Atlético Madrid",
-      14,
-      -0.85
+      "stable",
+      1.0,
+      4.8
      ],
      [
-      "Manchester City",
-      9,
-      -0.28
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Paris Saint-Germain",
-      9,
-      -0.28
+      "recent",
+      0.99,
+      3.8
      ],
      [
-      "Inter Miami CF",
-      3,
-      -0.15
+      "discr",
+      0.67,
+      -2.9
+     ],
+     [
+      "atmos",
+      1.0,
+      2.6
+     ],
+     [
+      "old",
+      0.89,
+      2.4
+     ],
+     [
+      "ssp",
+      1.0,
+      -2.0
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "trophies",
+      1.0,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "viol",
+      0.33,
+      -1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "gov",
+      0.33,
+      -1.5
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 61.3,
-   "bonus": 0.0,
-   "region": ""
+   "base": 60.8,
+   "bonus": 0
   },
   {
    "name": "Australia",
@@ -173,51 +210,72 @@
    "color": "#FFCD00",
    "confed": "AFC",
    "hai": {
-    "C": 6,
-    "V": 7.3,
-    "H": 5.3,
-    "O": 6,
-    "S": 7.2,
-    "I": 10.0,
-    "R": 6.7,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 7,
-    "P": 6.7,
-    "rank": 26,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "Asian Cup 2023",
-     "result": "quarter-finals"
-    },
-    "tb": 0.2,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "New York City Football Club",
-      2,
-      -0.2
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Heart of Midlothian",
-      6,
-      0.17
+      "recent",
+      0.88,
+      3.4
      ],
      [
-      "Celtic",
-      4,
-      0.08
+      "equal",
+      1.0,
+      3.1
      ],
      [
-      "Hibernian",
-      5,
-      0.05
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "trophies",
+      0.75,
+      1.4
+     ],
+     [
+      "stable",
+      0.26,
+      1.3
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "old",
+      0.43,
+      1.2
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 74.5,
-   "bonus": 0.0,
-   "region": ""
+   "base": 64.7,
+   "bonus": 0
   },
   {
    "name": "Brazil",
@@ -226,51 +284,77 @@
    "color": "#FEDD00",
    "confed": "CONMEBOL",
    "hai": {
-    "C": 6,
-    "V": 5.2,
-    "H": 10.0,
-    "O": 2.8,
-    "S": 3.8,
-    "I": 10.0,
-    "R": 7.6,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 5,
-    "P": 7.6,
-    "rank": 6,
-    "wc2026": "round of 16",
-    "cont": {
-     "event": "Copa América 2024",
-     "result": "quarter-finals"
-    },
-    "tb": -1.2,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Paris Saint-Germain",
-      15,
-      -0.65
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Manchester City",
-      10,
-      -0.31
+      "recent",
+      0.98,
+      3.8
      ],
      [
-      "Liverpool",
-      11,
-      0.24
+      "equal",
+      1.0,
+      3.1
      ],
      [
-      "Newcastle United",
-      3,
-      -0.19
+      "ground",
+      0.95,
+      2.5
+     ],
+     [
+      "old",
+      0.75,
+      2.0
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "trophies",
+      1.0,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "gov",
+      0.33,
+      -1.5
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "stable",
+      0.17,
+      0.8
      ]
     ]
    },
-   "base": 72.1,
-   "bonus": 0.0,
-   "region": ""
+   "base": 65.7,
+   "bonus": 0
   },
   {
    "name": "Canada",
@@ -279,51 +363,72 @@
    "color": "#E4222A",
    "confed": "CONCACAF",
    "hai": {
-    "C": 6,
-    "V": 5.7,
-    "H": 4.1,
-    "O": 4.2,
-    "S": 8.3,
-    "I": 10.0,
-    "R": 6.6,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 8,
-    "P": 6.6,
-    "rank": 27,
-    "wc2026": "round of 16",
-    "cont": {
-     "event": "Gold Cup 2025",
-     "result": "quarter-finals"
-    },
-    "tb": 0.3,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Portland Timbers",
-      5,
-      0.13
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Bayern Munich",
-      4,
-      0.11
+      "attack",
+      1.0,
+      3.6
      ],
      [
-      "Celtic",
-      3,
-      0.07
+      "recent",
+      0.88,
+      3.4
      ],
      [
-      "Nice",
-      1,
-      -0.07
+      "women",
+      1.0,
+      3.1
+     ],
+     [
+      "equal",
+      1.0,
+      3.1
+     ],
+     [
+      "old",
+      0.76,
+      2.0
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "stable",
+      0.3,
+      1.4
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.46,
+      0.8
      ]
     ]
    },
-   "base": 71.6,
-   "bonus": 0.0,
-   "region": ""
+   "base": 68.0,
+   "bonus": 0
   },
   {
    "name": "Cape Verde",
@@ -332,46 +437,62 @@
    "color": "#1F5FBF",
    "confed": "CAF",
    "hai": {
-    "C": 7,
-    "V": 7,
-    "H": 4.2,
-    "O": 5,
-    "S": 8.2,
-    "I": 10.0,
-    "R": 4.2,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 8,
-    "P": 4.2,
-    "rank": 68,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "did not qualify"
-    },
-    "tb": 0.2,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Shamrock Rovers",
-      3,
-      0.14
+      "stable",
+      0.85,
+      4.1
      ],
      [
-      "Columbus Crew",
-      2,
-      0.05
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Rayo Vallecano",
-      1,
-      0.01
+      "recent",
+      0.68,
+      2.6
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "old",
+      0.29,
+      0.8
+     ],
+     [
+      "ground",
+      0.15,
+      0.4
      ]
     ]
    },
-   "base": 72.2,
-   "bonus": 0.0,
-   "region": ""
+   "base": 60.0,
+   "bonus": 0
   },
   {
    "name": "Colombia",
@@ -380,60 +501,82 @@
    "color": "#FCD116",
    "confed": "CONMEBOL",
    "hai": {
-    "C": 9,
-    "V": 3.8,
-    "H": 6.2,
-    "O": 2.7,
-    "S": 8.3,
-    "I": 4.9,
-    "R": 7.2,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Racism",
-      -2.2
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Fan violence",
-      -2.9
-     ]
-    ],
-    "conn": [],
-    "S0": 8,
-    "P": 7.2,
-    "rank": 11,
-    "wc2026": "round of 16",
-    "cont": {
-     "event": "Copa América 2024",
-     "result": "runners-up"
-    },
-    "tb": 0.3,
-    "clubs": [
-     [
-      "Bayern Munich",
-      3,
-      0.08
+      "recent",
+      0.95,
+      3.7
      ],
      [
-      "Crystal Palace",
-      4,
-      0.06
+      "stable",
+      0.54,
+      2.6
      ],
      [
-      "Liverpool",
-      1,
-      0.04
+      "women",
+      0.67,
+      2.0
      ],
      [
-      "Atlético Madrid",
-      1,
-      -0.03
+      "old",
+      0.68,
+      1.8
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "viol",
+      0.33,
+      -1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "gov",
+      0.33,
+      -1.5
+     ],
+     [
+      "discr",
+      0.33,
+      -1.4
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.29,
+      0.5
      ]
     ]
    },
-   "base": 58.1,
-   "bonus": 0.0,
-   "region": ""
+   "base": 59.1,
+   "bonus": 0
   },
   {
    "name": "Curaçao",
@@ -442,40 +585,62 @@
    "color": "#2A7DE1",
    "confed": "CONCACAF",
    "hai": {
-    "C": 5,
-    "V": 6,
-    "H": 2.8,
-    "O": 3.8,
-    "S": 5.0,
-    "I": 10.0,
-    "R": 3.9,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "P": 3.9,
-    "rank": 80,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Gold Cup 2025",
-     "result": "group stage"
-    },
-    "tb": -0.0,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Miami FC",
-      2,
-      -0.06
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "PSV Eindhoven",
-      2,
-      0.06
+      "recent",
+      0.62,
+      2.4
+     ],
+     [
+      "old",
+      0.7,
+      1.9
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "stable",
+      0.21,
+      1.0
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 64.2,
-   "bonus": 0.0,
-   "region": ""
+   "base": 58.8,
+   "bonus": 0
   },
   {
    "name": "DR Congo",
@@ -484,55 +649,72 @@
    "color": "#0098FF",
    "confed": "CAF",
    "hai": {
-    "C": 8,
-    "V": 6.2,
-    "H": 6.1,
-    "O": 3,
-    "S": 7.0,
-    "I": 2.8,
-    "R": 5.6,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -7.2
-     ]
-    ],
-    "conn": [],
-    "P": 5.6,
-    "rank": 40,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "round of 16"
-    },
-    "tb": 0.0,
-    "clubs": [
-     [
-      "Newcastle United",
-      1,
-      -0.11
+      "gov",
+      1.0,
+      -4.6
      ],
      [
-      "West Ham United",
-      3,
-      -0.04
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Lens",
-      1,
-      0.04
+      "recent",
+      0.81,
+      3.1
      ],
      [
-      "Celtic",
-      1,
-      0.04
+      "stable",
+      0.53,
+      2.5
+     ],
+     [
+      "old",
+      0.71,
+      1.9
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "ground",
+      0.4,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.46,
+      0.8
      ]
     ]
    },
-   "base": 50.2,
-   "bonus": 0.0,
-   "region": ""
+   "base": 57.9,
+   "bonus": 0
   },
   {
    "name": "Ecuador",
@@ -541,60 +723,67 @@
    "color": "#FFD100",
    "confed": "CONMEBOL",
    "hai": {
-    "C": 6.8,
-    "V": 4,
-    "H": 4.3,
-    "O": 3,
-    "S": 5.9,
-    "I": 4.2,
-    "R": 6.5,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Racism",
-      -2.2
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Government record",
-      -3.6
-     ]
-    ],
-    "conn": [],
-    "S0": 6,
-    "P": 6.5,
-    "rank": 24,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "Copa América 2024",
-     "result": "quarter-finals"
-    },
-    "tb": -0.1,
-    "clubs": [
-     [
-      "Paris Saint-Germain",
-      1,
-      -0.1
+      "recent",
+      0.89,
+      3.4
      ],
      [
-      "Chelsea",
-      2,
-      -0.07
+      "gov",
+      0.67,
+      -3.1
      ],
      [
-      "Seattle Sounders FC",
-      3,
-      0.06
+      "old",
+      0.67,
+      1.8
      ],
      [
-      "Troyes",
-      1,
-      -0.05
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "discr",
+      0.33,
+      -1.4
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 49.4,
-   "bonus": 0.0,
-   "region": ""
+   "base": 55.2,
+   "bonus": 0
   },
   {
    "name": "Egypt",
@@ -603,55 +792,72 @@
    "color": "#E4002B",
    "confed": "CAF",
    "hai": {
-    "C": 6,
-    "V": 2.8,
-    "H": 7.3,
-    "O": 3,
-    "S": 6.0,
-    "I": 2.1,
-    "R": 6.6,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -7.9
-     ]
-    ],
-    "conn": [],
-    "P": 6.6,
-    "rank": 25,
-    "wc2026": "round of 16",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "fourth place"
-    },
-    "tb": -0.0,
-    "clubs": [
-     [
-      "Liverpool",
-      6,
-      0.22
+      "gov",
+      1.0,
+      -4.6
      ],
      [
-      "Manchester City",
-      2,
-      -0.15
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Nice",
-      1,
-      -0.09
+      "recent",
+      0.89,
+      3.4
      ],
      [
-      "VfB Stuttgart",
-      1,
-      0.01
+      "ground",
+      0.82,
+      2.2
+     ],
+     [
+      "old",
+      0.7,
+      1.9
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "trophies",
+      0.87,
+      1.6
+     ],
+     [
+      "stable",
+      0.34,
+      1.6
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 42.4,
-   "bonus": 0.0,
-   "region": ""
+   "base": 58.2,
+   "bonus": 0
   },
   {
    "name": "Ghana",
@@ -660,51 +866,72 @@
    "color": "#FCD116",
    "confed": "CAF",
    "hai": {
-    "C": 6,
-    "V": 6,
-    "H": 7.2,
-    "O": 4,
-    "S": 4.1,
-    "I": 10.0,
-    "R": 4.3,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 4,
-    "P": 4.3,
-    "rank": 70,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "did not qualify"
-    },
-    "tb": 0.1,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Athletic Club",
-      3,
-      0.21
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Manchester City",
-      1,
-      -0.1
+      "recent",
+      0.67,
+      2.6
      ],
      [
-      "Nice",
-      1,
-      -0.1
+      "attack",
+      0.53,
+      1.9
      ],
      [
-      "Lens",
-      2,
-      0.04
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "gov",
+      0.33,
+      -1.5
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "trophies",
+      0.67,
+      1.2
+     ],
+     [
+      "old",
+      0.46,
+      1.2
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "stable",
+      0.06,
+      0.3
      ]
     ]
    },
-   "base": 68.4,
-   "bonus": 0.0,
-   "region": ""
+   "base": 58.2,
+   "bonus": 0
   },
   {
    "name": "Haiti",
@@ -713,55 +940,72 @@
    "color": "#2F5BD3",
    "confed": "CONCACAF",
    "hai": {
-    "C": 6.7,
-    "V": 4,
-    "H": 3.7,
-    "O": 2,
-    "S": 6.0,
-    "I": 6.4,
-    "R": 3.8,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -3.6
-     ]
-    ],
-    "conn": [],
-    "P": 3.8,
-    "rank": 84,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Gold Cup 2025",
-     "result": "group stage"
-    },
-    "tb": -0.0,
-    "clubs": [
-     [
-      "Inter Miami CF",
-      1,
-      -0.04
+      "gov",
+      1.0,
+      -4.6
      ],
      [
-      "Nice",
-      1,
-      -0.02
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Miami FC",
-      1,
-      -0.01
+      "recent",
+      0.6,
+      2.3
      ],
      [
-      "Columbus Crew",
-      1,
-      0.01
+      "old",
+      0.81,
+      2.2
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "stable",
+      0.21,
+      1.0
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.29,
+      0.5
      ]
     ]
    },
-   "base": 52.7,
-   "bonus": 0.0,
-   "region": ""
+   "base": 55.0,
+   "bonus": 0
   },
   {
    "name": "Iran",
@@ -770,50 +1014,72 @@
    "color": "#239F40",
    "confed": "AFC",
    "hai": {
-    "C": 7.8,
-    "V": 1.7,
-    "H": 5,
-    "O": 0.8,
-    "S": 5.0,
-    "I": 1,
-    "R": 6.3,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -9.0
-     ]
-    ],
-    "conn": [],
-    "P": 6.3,
-    "rank": 23,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Asian Cup 2023",
-     "result": "semi-finals"
-    },
-    "tb": 0.0,
-    "clubs": [
-     [
-      "Porto",
-      2,
-      0.02
+      "gov",
+      1.0,
+      -4.6
      ],
      [
-      "AEK Athens",
-      5,
-      0.01
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Brentford",
-      2,
-      0.01
+      "recent",
+      0.9,
+      3.4
+     ],
+     [
+      "stable",
+      0.45,
+      2.1
+     ],
+     [
+      "old",
+      0.71,
+      1.9
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "ground",
+      0.69,
+      1.8
+     ],
+     [
+      "discr",
+      0.33,
+      -1.4
+     ],
+     [
+      "trophies",
+      0.58,
+      1.1
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 36.2,
-   "bonus": 0.0,
-   "region": ""
+   "base": 55.6,
+   "bonus": 0
   },
   {
    "name": "Iraq",
@@ -822,46 +1088,67 @@
    "color": "#1B8A3A",
    "confed": "AFC",
    "hai": {
-    "C": 8.2,
-    "V": 6,
-    "H": 5.8,
-    "O": 2.8,
-    "S": 4.1,
-    "I": 2.8,
-    "R": 4.7,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -7.2
-     ]
-    ],
-    "conn": [],
-    "S0": 4,
-    "P": 4.7,
-    "rank": 63,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Asian Cup 2023",
-     "result": "round of 16"
-    },
-    "tb": 0.1,
-    "clubs": [
-     [
-      "AFC Wimbledon",
-      1,
-      0.06
+      "gov",
+      1.0,
+      -4.6
      ],
      [
-      "Luton Town",
-      1,
-      0.03
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "recent",
+      0.7,
+      2.7
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "old",
+      0.52,
+      1.4
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "stable",
+      0.19,
+      0.9
+     ],
+     [
+      "trophies",
+      0.29,
+      0.5
      ]
     ]
    },
-   "base": 46.8,
-   "bonus": 0.0,
-   "region": ""
+   "base": 53.5,
+   "bonus": 0
   },
   {
    "name": "Ivory Coast",
@@ -870,56 +1157,62 @@
    "color": "#FF8200",
    "confed": "CAF",
    "hai": {
-    "C": 7,
-    "V": 6,
-    "H": 7,
-    "O": 4,
-    "S": 5.9,
-    "I": 6.4,
-    "R": 6.1,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -3.6
-     ]
-    ],
-    "conn": [],
-    "S0": 6,
-    "P": 6.1,
-    "rank": 29,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "quarter-finals"
-    },
-    "tb": -0.1,
-    "clubs": [
-     [
-      "Nice",
-      2,
-      -0.15
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Sporting CP",
-      3,
-      0.05
+      "recent",
+      0.87,
+      3.3
      ],
      [
-      "Manchester United",
-      3,
-      -0.04
+      "gov",
+      0.67,
+      -3.1
      ],
      [
-      "Lazio",
-      1,
-      -0.04
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "old",
+      0.44,
+      1.2
+     ],
+     [
+      "trophies",
+      0.58,
+      1.1
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 61.1,
-   "bonus": 0.0,
-   "region": ""
+   "base": 55.9,
+   "bonus": 0
   },
   {
    "name": "Japan",
@@ -928,51 +1221,62 @@
    "color": "#2F5DD6",
    "confed": "AFC",
    "hai": {
-    "C": 7,
-    "V": 8.3,
-    "H": 6.3,
-    "O": 7.2,
-    "S": 8.7,
-    "I": 10.0,
-    "R": 6.9,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 8,
-    "P": 6.9,
-    "rank": 17,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "Asian Cup 2023",
-     "result": "quarter-finals"
-    },
-    "tb": 0.7,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Celtic",
-      4,
-      0.11
+      "stable",
+      1.0,
+      4.8
      ],
      [
-      "Real Sociedad",
-      3,
-      0.11
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "SC Freiburg",
-      3,
-      0.1
+      "recent",
+      0.92,
+      3.6
      ],
      [
-      "VfB Stuttgart",
-      3,
-      0.05
+      "attack",
+      1.0,
+      3.6
+     ],
+     [
+      "women",
+      1.0,
+      3.1
+     ],
+     [
+      "old",
+      0.7,
+      1.9
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "trophies",
+      0.67,
+      1.2
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 79.6,
-   "bonus": 0.0,
-   "region": ""
+   "base": 68.5,
+   "bonus": 0
   },
   {
    "name": "Jordan",
@@ -981,34 +1285,62 @@
    "color": "#CE1126",
    "confed": "AFC",
    "hai": {
-    "C": 7,
-    "V": 6.2,
-    "H": 3.2,
-    "O": 4,
-    "S": 6.0,
-    "I": 4.6,
-    "R": 5.2,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -5.4
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "gov",
+      0.67,
+      -3.1
+     ],
+     [
+      "recent",
+      0.66,
+      2.6
+     ],
+     [
+      "ground",
+      0.72,
+      1.9
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "old",
+      0.51,
+      1.4
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
-    ],
-    "conn": [],
-    "P": 5.2,
-    "rank": 72,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Asian Cup 2023",
-     "result": "runners-up"
-    },
-    "tb": 0.0,
-    "clubs": []
+    ]
    },
-   "base": 52.1,
-   "bonus": 0.0,
-   "region": ""
+   "base": 56.0,
+   "bonus": 0
   },
   {
    "name": "Mexico",
@@ -1017,59 +1349,77 @@
    "color": "#1FA35C",
    "confed": "CONCACAF",
    "hai": {
-    "C": 8.2,
-    "V": 2.8,
-    "H": 7,
-    "O": 2.8,
-    "S": 6.0,
-    "I": 1.9,
-    "R": 7.7,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Racism",
-      -4.5
+      "discr",
+      1.0,
+      -4.3
      ],
      [
-      "Government record",
-      -3.6
-     ]
-    ],
-    "conn": [],
-    "P": 7.7,
-    "rank": 10,
-    "wc2026": "round of 16",
-    "cont": {
-     "event": "Gold Cup 2025",
-     "result": "champions"
-    },
-    "tb": -0.0,
-    "clubs": [
-     [
-      "Atlético Madrid",
-      2,
-      -0.09
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "PSV Eindhoven",
-      6,
-      0.04
+      "recent",
+      0.96,
+      3.7
      ],
      [
-      "West Ham United",
-      3,
-      -0.03
+      "gov",
+      0.67,
+      -3.1
      ],
      [
-      "Porto",
-      7,
-      0.03
+      "bet",
+      1.0,
+      -2.8
+     ],
+     [
+      "ground",
+      0.75,
+      2.0
+     ],
+     [
+      "trophies",
+      1.0,
+      1.8
+     ],
+     [
+      "old",
+      0.66,
+      1.8
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 45.5,
-   "bonus": 0.0,
-   "region": ""
+   "base": 52.3,
+   "bonus": 0
   },
   {
    "name": "Morocco",
@@ -1078,56 +1428,67 @@
    "color": "#C1272D",
    "confed": "CAF",
    "hai": {
-    "C": 9.2,
-    "V": 4.8,
-    "H": 8.2,
-    "O": 3.2,
-    "S": 6.9,
-    "I": 4.6,
-    "R": 8.7,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -5.4
-     ]
-    ],
-    "conn": [],
-    "S0": 7,
-    "P": 8.7,
-    "rank": 7,
-    "wc2026": "quarter-finals",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "champions"
-    },
-    "tb": -0.1,
-    "clubs": [
-     [
-      "Paris Saint-Germain",
-      5,
-      -0.31
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "PSV Eindhoven",
-      5,
-      0.1
+      "recent",
+      0.97,
+      3.7
      ],
      [
-      "VfB Stuttgart",
-      2,
-      0.04
+      "gov",
+      0.67,
+      -3.1
      ],
      [
-      "Bayern Munich",
-      2,
-      0.04
+      "atmos",
+      1.0,
+      2.6
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "old",
+      0.47,
+      1.3
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.46,
+      0.8
+     ],
+     [
+      "stable",
+      0.07,
+      0.4
      ]
     ]
    },
-   "base": 60.8,
-   "bonus": 0.0,
-   "region": ""
+   "base": 58.1,
+   "bonus": 0
   },
   {
    "name": "New Zealand",
@@ -1136,51 +1497,67 @@
    "color": "#E6E6E6",
    "confed": "OFC",
    "hai": {
-    "C": 4,
-    "V": 7.2,
-    "H": 3.9,
-    "O": 7,
-    "S": 6.3,
-    "I": 10.0,
-    "R": 5.1,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 6,
-    "P": 5.1,
-    "rank": 88,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "OFC Nations Cup 2024",
-     "result": "champions"
-    },
-    "tb": 0.3,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Portland Timbers",
-      1,
-      0.15
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Viking",
-      1,
-      0.14
+      "equal",
+      1.0,
+      3.1
      ],
      [
-      "Port Vale",
-      1,
-      0.01
+      "old",
+      0.9,
+      2.4
      ],
      [
-      "Swansea City",
-      1,
-      0.0
+      "recent",
+      0.59,
+      2.3
+     ],
+     [
+      "stable",
+      0.45,
+      2.1
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "trophies",
+      0.81,
+      1.5
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 68.8,
-   "bonus": 0.0,
-   "region": ""
+   "base": 64.1,
+   "bonus": 0
   },
   {
    "name": "Panama",
@@ -1189,46 +1566,67 @@
    "color": "#E4312B",
    "confed": "CONCACAF",
    "hai": {
-    "C": 7,
-    "V": 6,
-    "H": 3.2,
-    "O": 5,
-    "S": 6.9,
-    "I": 10.0,
-    "R": 5.4,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 7,
-    "P": 5.4,
-    "rank": 46,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Gold Cup 2025",
-     "result": "quarter-finals"
-    },
-    "tb": -0.1,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Slovan Bratislava",
-      3,
-      -0.11
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Seattle Sounders FC",
-      2,
-      0.03
+      "stable",
+      0.84,
+      4.0
      ],
      [
-      "Vancouver Whitecaps FC",
-      1,
-      0.0
+      "recent",
+      0.79,
+      3.0
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "ground",
+      0.7,
+      1.8
+     ],
+     [
+      "old",
+      0.59,
+      1.6
+     ],
+     [
+      "gov",
+      0.33,
+      -1.5
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 70.7,
-   "bonus": 0.0,
-   "region": ""
+   "base": 62.0,
+   "bonus": 0
   },
   {
    "name": "Paraguay",
@@ -1237,56 +1635,67 @@
    "color": "#D52B1E",
    "confed": "CONMEBOL",
    "hai": {
-    "C": 7,
-    "V": 4.8,
-    "H": 5.4,
-    "O": 4.2,
-    "S": 6.9,
-    "I": 6.4,
-    "R": 5.6,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -3.6
-     ]
-    ],
-    "conn": [],
-    "S0": 7,
-    "P": 5.6,
-    "rank": 33,
-    "wc2026": "round of 16",
-    "cont": {
-     "event": "Copa América 2024",
-     "result": "group stage"
-    },
-    "tb": -0.1,
-    "clubs": [
-     [
-      "Newcastle United",
-      3,
-      -0.16
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Portsmouth",
-      1,
-      0.05
+      "recent",
+      0.85,
+      3.3
      ],
      [
-      "Inter Miami CF",
-      1,
-      -0.04
+      "gov",
+      0.67,
+      -3.1
      ],
      [
-      "Vancouver Whitecaps FC",
-      2,
-      0.02
+      "old",
+      0.8,
+      2.1
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "stable",
+      0.28,
+      1.3
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.46,
+      0.8
      ]
     ]
    },
-   "base": 58.9,
-   "bonus": 0.0,
-   "region": ""
+   "base": 57.0,
+   "bonus": 0
   },
   {
    "name": "Qatar",
@@ -1295,34 +1704,62 @@
    "color": "#A6193C",
    "confed": "AFC",
    "hai": {
-    "C": 1.8,
-    "V": 1.7,
-    "H": 3.2,
-    "O": 1,
-    "S": 3.0,
-    "I": 2.8,
-    "R": 6.0,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -7.2
+      "gov",
+      1.0,
+      -4.6
+     ],
+     [
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "recent",
+      0.72,
+      2.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "ground",
+      0.62,
+      1.6
+     ],
+     [
+      "old",
+      0.44,
+      1.2
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.46,
+      0.8
+     ],
+     [
+      "stable",
+      0.17,
+      0.8
      ]
-    ],
-    "conn": [],
-    "P": 6.0,
-    "rank": 60,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Asian Cup 2023",
-     "result": "champions"
-    },
-    "tb": 0.0,
-    "clubs": []
+    ]
    },
-   "base": 31.2,
-   "bonus": 0.0,
-   "region": ""
+   "base": 52.2,
+   "bonus": 0
   },
   {
    "name": "Saudi Arabia",
@@ -1331,40 +1768,67 @@
    "color": "#1FA35B",
    "confed": "AFC",
    "hai": {
-    "C": 4,
-    "V": 2,
-    "H": 5.2,
-    "O": 1,
-    "S": 3.0,
-    "I": 1,
-    "R": 5.1,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -9.0
-     ]
-    ],
-    "conn": [],
-    "P": 5.1,
-    "rank": 55,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Asian Cup 2023",
-     "result": "round of 16"
-    },
-    "tb": 0.0,
-    "clubs": [
+      "gov",
+      1.0,
+      -4.6
+     ],
      [
-      "Lens",
-      1,
-      0.03
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "recent",
+      0.74,
+      2.9
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "old",
+      0.47,
+      1.3
+     ],
+     [
+      "ground",
+      0.49,
+      1.3
+     ],
+     [
+      "trophies",
+      0.58,
+      1.1
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "stable",
+      0.06,
+      0.3
      ]
     ]
    },
-   "base": 29.0,
-   "bonus": 0.0,
-   "region": ""
+   "base": 52.5,
+   "bonus": 0
   },
   {
    "name": "Senegal",
@@ -1373,56 +1837,67 @@
    "color": "#00853F",
    "confed": "CAF",
    "hai": {
-    "C": 8,
-    "V": 3.8,
-    "H": 7,
-    "O": 3.8,
-    "S": 5.5,
-    "I": 7.1,
-    "R": 7.3,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Fan violence",
-      -2.9
-     ]
-    ],
-    "conn": [],
-    "S0": 6,
-    "P": 7.3,
-    "rank": 18,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "runners-up"
-    },
-    "tb": -0.5,
-    "clubs": [
-     [
-      "Nice",
-      4,
-      -0.27
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Paris Saint-Germain",
-      4,
-      -0.19
+      "recent",
+      0.92,
+      3.5
      ],
      [
-      "Bayern Munich",
-      4,
-      0.12
+      "atmos",
+      0.67,
+      1.8
      ],
      [
-      "Chelsea",
-      5,
-      -0.11
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "viol",
+      0.33,
+      -1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "gov",
+      0.33,
+      -1.5
+     ],
+     [
+      "old",
+      0.44,
+      1.2
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.29,
+      0.5
      ]
     ]
    },
-   "base": 63.0,
-   "bonus": 0.0,
-   "region": ""
+   "base": 55.2,
+   "bonus": 0
   },
   {
    "name": "South Africa",
@@ -1431,40 +1906,67 @@
    "color": "#FFB612",
    "confed": "CAF",
    "hai": {
-    "C": 6,
-    "V": 5,
-    "H": 6,
-    "O": 2.7,
-    "S": 7.0,
-    "I": 10.0,
-    "R": 5.4,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "P": 5.4,
-    "rank": 48,
-    "wc2026": "round of 32",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "round of 16"
-    },
-    "tb": 0.0,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Union Saint-Gilloise",
-      1,
-      0.01
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Brentford",
-      1,
-      0.0
+      "recent",
+      0.78,
+      3.0
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "gov",
+      0.33,
+      -1.5
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "old",
+      0.23,
+      0.6
+     ],
+     [
+      "trophies",
+      0.29,
+      0.5
      ]
     ]
    },
-   "base": 69.0,
-   "bonus": 0.0,
-   "region": ""
+   "base": 57.1,
+   "bonus": 0
   },
   {
    "name": "South Korea",
@@ -1473,51 +1975,72 @@
    "color": "#E53935",
    "confed": "AFC",
    "hai": {
-    "C": 7.2,
-    "V": 5,
-    "H": 7.2,
-    "O": 3,
-    "S": 5.1,
-    "I": 10.0,
-    "R": 6.4,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 5,
-    "P": 6.4,
-    "rank": 32,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Asian Cup 2023",
-     "result": "semi-finals"
-    },
-    "tb": 0.1,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Paris Saint-Germain",
-      2,
-      -0.18
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Celtic",
-      3,
-      0.1
+      "recent",
+      0.85,
+      3.3
      ],
      [
-      "Bayern Munich",
-      2,
-      0.09
+      "women",
+      0.67,
+      2.0
      ],
      [
-      "Newcastle United",
-      1,
-      -0.04
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "old",
+      0.62,
+      1.7
+     ],
+     [
+      "gov",
+      0.33,
+      -1.5
+     ],
+     [
+      "stable",
+      0.21,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "trophies",
+      0.46,
+      0.8
+     ],
+     [
+      "ground",
+      0.31,
+      0.8
      ]
     ]
    },
-   "base": 71.3,
-   "bonus": 0.0,
-   "region": ""
+   "base": 60.2,
+   "bonus": 0
   },
   {
    "name": "Tunisia",
@@ -1526,56 +2049,62 @@
    "color": "#E70013",
    "confed": "CAF",
    "hai": {
-    "C": 7,
-    "V": 5,
-    "H": 5.2,
-    "O": 2.8,
-    "S": 2.8,
-    "I": 4.6,
-    "R": 5.0,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -5.4
-     ]
-    ],
-    "conn": [],
-    "S0": 3,
-    "P": 5.0,
-    "rank": 61,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "AFCON 2025",
-     "result": "round of 16"
-    },
-    "tb": -0.2,
-    "clubs": [
-     [
-      "Nice",
-      5,
-      -0.21
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Paris Saint-Germain",
-      1,
-      -0.08
+      "gov",
+      0.67,
+      -3.1
      ],
      [
-      "Union Berlin",
-      2,
-      0.07
+      "recent",
+      0.71,
+      2.8
      ],
      [
-      "Celtic",
-      2,
-      0.06
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "old",
+      0.46,
+      1.2
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "ground",
+      0.31,
+      0.8
+     ],
+     [
+      "trophies",
+      0.29,
+      0.5
      ]
     ]
    },
-   "base": 48.8,
-   "bonus": 0.0,
-   "region": ""
+   "base": 53.7,
+   "bonus": 0
   },
   {
    "name": "United States",
@@ -1584,55 +2113,82 @@
    "color": "#4A7BD0",
    "confed": "CONCACAF",
    "hai": {
-    "C": 6.7,
-    "V": 7.2,
-    "H": 6,
-    "O": 6.2,
-    "S": 6.3,
-    "I": 10.0,
-    "R": 7.6,
-    "K": 10.0,
-    "items": [],
-    "conn": [],
-    "roots": [
-     "Home nation",
-     20
-    ],
-    "S0": 6,
-    "P": 7.6,
-    "rank": 16,
-    "wc2026": "round of 16",
-    "cont": {
-     "event": "Gold Cup 2025",
-     "result": "runners-up"
-    },
-    "tb": 0.3,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "New York City Football Club",
-      7,
-      -0.25
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Seattle Sounders FC",
-      9,
-      0.14
+      "recent",
+      0.93,
+      3.6
      ],
      [
-      "PSV Eindhoven",
-      5,
-      0.08
+      "women",
+      1.0,
+      3.1
      ],
      [
-      "Celtic",
-      3,
-      0.06
+      "equal",
+      1.0,
+      3.1
+     ],
+     [
+      "old",
+      0.75,
+      2.0
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "home",
+      1.0,
+      1.8
+     ],
+     [
+      "trophies",
+      0.87,
+      1.6
+     ],
+     [
+      "gov",
+      0.33,
+      -1.5
+     ],
+     [
+      "stable",
+      0.26,
+      1.3
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 76.1,
-   "bonus": 6.3,
-   "region": "Home nation"
+   "base": 67.3,
+   "bonus": 0
   },
   {
    "name": "Uruguay",
@@ -1641,51 +2197,67 @@
    "color": "#5CBFEB",
    "confed": "CONMEBOL",
    "hai": {
-    "C": 8,
-    "V": 4.7,
-    "H": 9.7,
-    "O": 4.8,
-    "S": 3.4,
-    "I": 10.0,
-    "R": 6.5,
-    "K": 5.0,
-    "items": [],
-    "conn": [],
-    "S0": 4,
-    "P": 6.5,
-    "rank": 20,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Copa América 2024",
-     "result": "third place"
-    },
-    "tb": -0.6,
-    "clubs": [
+    "blind": 1,
+    "fx": [
      [
-      "Atlético Madrid",
-      12,
-      -0.53
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Paris Saint-Germain",
-      4,
-      -0.13
+      "recent",
+      0.91,
+      3.5
      ],
      [
-      "Lazio",
-      2,
-      -0.07
+      "ground",
+      1.0,
+      2.6
      ],
      [
-      "Sporting CP",
-      7,
-      0.07
+      "old",
+      0.84,
+      2.3
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "trophies",
+      1.0,
+      1.8
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "viol",
+      0.33,
+      -1.8
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
     ]
    },
-   "base": 73.4,
-   "bonus": 0.0,
-   "region": ""
+   "base": 61.7,
+   "bonus": 0
   },
   {
    "name": "Uzbekistan",
@@ -1694,46 +2266,67 @@
    "color": "#3FA9F5",
    "confed": "AFC",
    "hai": {
-    "C": 5.8,
-    "V": 5.2,
-    "H": 3,
-    "O": 1.8,
-    "S": 3.9,
-    "I": 2.1,
-    "R": 5.1,
-    "K": 5.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Government record",
-      -7.9
-     ]
-    ],
-    "conn": [],
-    "S0": 4,
-    "P": 5.1,
-    "rank": 59,
-    "wc2026": "group stage",
-    "cont": {
-     "event": "Asian Cup 2023",
-     "result": "quarter-finals"
-    },
-    "tb": -0.1,
-    "clubs": [
-     [
-      "Manchester City",
-      1,
-      -0.16
+      "gov",
+      1.0,
+      -4.6
      ],
      [
-      "Lens",
-      1,
-      0.03
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "recent",
+      0.72,
+      2.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "old",
+      0.53,
+      1.4
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "stable",
+      0.12,
+      0.6
+     ],
+     [
+      "ground",
+      0.17,
+      0.5
      ]
     ]
    },
-   "base": 38.3,
-   "bonus": 0.0,
-   "region": ""
+   "base": 52.9,
+   "bonus": 0
   }
  ],
  "clubs": [
@@ -1743,54 +2336,93 @@
    "abbr": "CEL",
    "color": "#018749",
    "league": "Scottish Premiership",
-   "region": "Scottish Lowlands",
    "hai": {
-    "C": 9.6,
-    "V": 5.2,
-    "H": 10.0,
-    "O": 5,
-    "S": 6,
-    "I": 8.6,
-    "R": 9.9,
-    "K": 7.0,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Fan violence",
-      -1.4
-     ]
-    ],
-    "conn": [
-     [
-      "Linked to Liverpool",
-      0.2
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Linked to Borussia Dortmund",
-      0.1
+      "recent",
+      1.0,
+      3.9
+     ],
+     [
+      "viol",
+      0.67,
+      -3.7
+     ],
+     [
+      "attack",
+      1.0,
+      3.6
+     ],
+     [
+      "women",
+      1.0,
+      3.1
+     ],
+     [
+      "discr",
+      0.67,
+      -2.9
+     ],
+     [
+      "bet",
+      1.0,
+      -2.8
+     ],
+     [
+      "atmos",
+      1.0,
+      2.6
+     ],
+     [
+      "ground",
+      1.0,
+      2.6
+     ],
+     [
+      "old",
+      0.93,
+      2.5
+     ],
+     [
+      "comm",
+      0.5,
+      2.2
+     ],
+     [
+      "trophies",
+      1.0,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "stable",
+      0.1,
+      0.5
+     ],
+     [
+      "own_foreign",
+      1.0,
+      -0.3
      ]
-    ],
-    "roots": [
-     "Heritage: Scottish Lowlands & Central Belt 11%",
-     2.2
-    ],
-    "P": 9.9,
-    "ps": [
-     10.0,
-     10.0,
-     10.0,
-     10.0,
-     8.3,
-     10.0,
-     10.0,
-     10.0,
-     10.0,
-     10.0
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
+    ]
    },
-   "base": 77.8,
-   "bonus": 2.2
+   "base": 61.6,
+   "bonus": 0
   },
   {
    "name": "Rangers",
@@ -1798,58 +2430,93 @@
    "abbr": "RAN",
    "color": "#1B458F",
    "league": "Scottish Premiership",
-   "region": "Scottish Lowlands",
    "hai": {
-    "C": 9.4,
-    "V": 3.2,
-    "H": 9.3,
-    "O": 4.5,
-    "S": 4,
-    "I": 2.5,
-    "R": 8.4,
-    "K": 7.56,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Racism",
-      -4.5
+      "discr",
+      1.0,
+      -4.3
      ],
      [
-      "Fan violence",
-      -2.2
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Multi-club",
-      -0.8
-     ]
-    ],
-    "conn": [
+      "viol",
+      0.67,
+      -3.7
+     ],
      [
-      "49ers Enterprises is in the owning consortium",
-      1
+      "mc_sec",
+      1.0,
+      -3.6
+     ],
+     [
+      "recent",
+      0.89,
+      3.4
+     ],
+     [
+      "bet",
+      1.0,
+      -2.8
+     ],
+     [
+      "old",
+      1.0,
+      2.7
+     ],
+     [
+      "ground",
+      1.0,
+      2.6
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "trophies",
+      1.0,
+      1.8
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "fangov",
+      0.33,
+      0.6
+     ],
+     [
+      "own_us",
+      1.0,
+      0.3
      ]
-    ],
-    "roots": [
-     "Heritage: Scottish Lowlands & Central Belt 11%",
-     2.2
-    ],
-    "P": 8.4,
-    "ps": [
-     7.8,
-     7.8,
-     8.3,
-     8.3,
-     10.0,
-     9.3,
-     8.3,
-     8.8,
-     8.3,
-     7.8
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
+    ]
    },
-   "base": 52.2,
-   "bonus": 2.2
+   "base": 51.4,
+   "bonus": 0
   },
   {
    "name": "Heart of Midlothian",
@@ -1857,52 +2524,83 @@
    "abbr": "HEA",
    "color": "#7A1E36",
    "league": "Scottish Premiership",
-   "region": "Scottish Lowlands",
    "hai": {
-    "C": 8.6,
-    "V": 9.6,
-    "H": 7,
-    "O": 8.8,
-    "S": 5,
-    "I": 8.8,
-    "R": 6.8,
-    "K": 6.76,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Multi-club",
-      -0.8
+      "full",
+      0.93,
+      4.9
      ],
      [
-      "Owner's fortune from sports betting",
-      -0.4
+      "mc_sec",
+      1.0,
+      -3.6
+     ],
+     [
+      "women",
+      1.0,
+      3.1
+     ],
+     [
+      "recent",
+      0.74,
+      2.9
+     ],
+     [
+      "old",
+      1.0,
+      2.7
+     ],
+     [
+      "ground",
+      1.0,
+      2.6
+     ],
+     [
+      "comm",
+      0.5,
+      2.2
+     ],
+     [
+      "fangov",
+      1.0,
+      1.9
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "rescue",
+      1.0,
+      1.6
+     ],
+     [
+      "trophies",
+      0.69,
+      1.3
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
-    ],
-    "conn": [],
-    "roots": [
-     "Heritage: Scottish Lowlands & Central Belt 11%",
-     2.2
-    ],
-    "P": 6.8,
-    "ps": [
-     6.6,
-     5.9,
-     5.9,
-     0.0,
-     6.0,
-     7.8,
-     7.3,
-     7.8,
-     5.1,
-     8.3
-    ],
-    "pl": "2025-26",
-    "notes": [
-     "Values +1.8 for Foundation of Hearts rescue and fan ownership"
-    ],
-    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
+    ]
    },
-   "base": 77.8,
-   "bonus": 2.2
+   "base": 67.9,
+   "bonus": 0
   },
   {
    "name": "Hibernian",
@@ -1910,40 +2608,83 @@
    "abbr": "HIB",
    "color": "#00703C",
    "league": "Scottish Premiership",
-   "region": "Scottish Lowlands",
    "hai": {
-    "C": 8,
-    "V": 6,
-    "H": 7.1,
-    "O": 5.6,
-    "S": 5,
-    "I": 10.0,
-    "R": 6.3,
-    "K": 6.76,
-    "items": [],
-    "conn": [],
-    "roots": [
-     "Heritage: Scottish Lowlands & Central Belt 11%",
-     2.2
-    ],
-    "P": 6.3,
-    "ps": [
-     6.0,
-     7.3,
-     6.6,
-     5.1,
-     7.8,
-     4.2,
-     6.6,
-     4.2,
-     7.8,
-     6.6
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
+    "blind": 1,
+    "fx": [
+     [
+      "full",
+      0.86,
+      4.5
+     ],
+     [
+      "bet",
+      1.0,
+      -2.8
+     ],
+     [
+      "old",
+      1.0,
+      2.7
+     ],
+     [
+      "ground",
+      1.0,
+      2.6
+     ],
+     [
+      "recent",
+      0.56,
+      2.2
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "crowd",
+      0.35,
+      1.7
+     ],
+     [
+      "rescue",
+      1.0,
+      1.6
+     ],
+     [
+      "trophies",
+      0.58,
+      1.1
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "fangov",
+      0.33,
+      0.6
+     ],
+     [
+      "own_foreign",
+      1.0,
+      -0.3
+     ]
+    ]
    },
-   "base": 74.5,
-   "bonus": 2.2
+   "base": 61.6,
+   "bonus": 0
   },
   {
    "name": "Linfield",
@@ -1951,45 +2692,83 @@
    "abbr": "LIN",
    "color": "#0033A0",
    "league": "NIFL Premiership",
-   "region": "Ulster",
    "hai": {
-    "C": 7,
-    "V": 3.8,
-    "H": 7.3,
-    "O": 8.4,
-    "S": 7.3,
-    "I": 7.3,
-    "R": 9.0,
-    "K": 6.92,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Racism",
-      -2.7
+      "stable",
+      1.0,
+      4.8
+     ],
+     [
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "recent",
+      0.91,
+      3.5
+     ],
+     [
+      "discr",
+      0.67,
+      -2.9
+     ],
+     [
+      "ground",
+      1.0,
+      2.6
+     ],
+     [
+      "old",
+      0.93,
+      2.5
+     ],
+     [
+      "comm",
+      0.5,
+      2.2
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "fangov",
+      1.0,
+      1.9
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "trophies",
+      1.0,
+      1.8
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
-    ],
-    "conn": [],
-    "roots": [
-     "Heritage: Ulster, Ireland 12%",
-     2.4
-    ],
-    "P": 9.0,
-    "ps": [
-     10.0,
-     7.3,
-     10.0,
-     10.0,
-     10.0,
-     10.0,
-     8.8,
-     8.8,
-     10.0,
-     7.8
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Ulster, Ireland 12%"
+    ]
    },
-   "base": 67.9,
-   "bonus": 2.4
+   "base": 70.6,
+   "bonus": 0
   },
   {
    "name": "Derry City",
@@ -1997,49 +2776,73 @@
    "abbr": "DER",
    "color": "#C8102E",
    "league": "League of Ireland",
-   "region": "Ulster",
    "hai": {
-    "C": 7.8,
-    "V": 6.4,
-    "H": 6.8,
-    "O": 7,
-    "S": 5.4,
-    "I": 8.6,
-    "R": 7.5,
-    "K": 6.92,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Fan violence",
-      -0.7
+      "full",
+      0.81,
+      4.3
      ],
      [
-      "Overspend",
-      -0.7
+      "viol",
+      0.67,
+      -3.7
+     ],
+     [
+      "recent",
+      0.8,
+      3.1
+     ],
+     [
+      "ground",
+      1.0,
+      2.6
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "old",
+      0.65,
+      1.8
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "trophies",
+      0.77,
+      1.4
+     ],
+     [
+      "own_local",
+      1.0,
+      1.4
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "crowd",
+      0.06,
+      0.3
      ]
-    ],
-    "conn": [],
-    "roots": [
-     "Heritage: Ulster, Ireland 12%",
-     2.4
-    ],
-    "P": 7.5,
-    "ps": [
-     7.8,
-     7.3,
-     3.2,
-     6.9,
-     3.9,
-     6.9,
-     9.2,
-     8.2,
-     6.9,
-     8.2
-    ],
-    "pl": "2025",
-    "rl": "Heritage: Ulster, Ireland 12%"
+    ]
    },
-   "base": 72.3,
-   "bonus": 2.4
+   "base": 59.7,
+   "bonus": 0
   },
   {
    "name": "Shamrock Rovers",
@@ -2047,48 +2850,88 @@
    "abbr": "SHR",
    "color": "#00843D",
    "league": "League of Ireland",
-   "region": "Leinster",
    "hai": {
-    "C": 7.6,
-    "V": 7.7,
-    "H": 7.4,
-    "O": 7.2,
-    "S": 8.3,
-    "I": 9.2,
-    "R": 9.4,
-    "K": 5.32,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Multi-club",
-      -0.8
+      "stable",
+      1.0,
+      4.8
+     ],
+     [
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "recent",
+      0.98,
+      3.8
+     ],
+     [
+      "mc_sec",
+      1.0,
+      -3.6
+     ],
+     [
+      "attack",
+      1.0,
+      3.6
+     ],
+     [
+      "bet",
+      1.0,
+      -2.8
+     ],
+     [
+      "old",
+      0.85,
+      2.3
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "trophies",
+      0.95,
+      1.7
+     ],
+     [
+      "rescue",
+      1.0,
+      1.6
+     ],
+     [
+      "fangov",
+      0.67,
+      1.3
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "ground",
+      0.21,
+      0.6
      ]
-    ],
-    "conn": [],
-    "roots": [
-     "Heritage: Leinster, Ireland 2%",
-     0.4
-    ],
-    "P": 9.4,
-    "ps": [
-     7.3,
-     7.8,
-     7.6,
-     9.2,
-     10.0,
-     10.0,
-     10.0,
-     10.0,
-     8.2,
-     10.0
-    ],
-    "pl": "2025",
-    "notes": [
-     "Values +1.4 for 400 Club fans saved the club"
-    ],
-    "rl": "Heritage: Leinster, Ireland 2%"
+    ]
    },
-   "base": 80.2,
-   "bonus": 0.4
+   "base": 65.4,
+   "bonus": 0
   },
   {
    "name": "Bohemians",
@@ -2096,48 +2939,88 @@
    "abbr": "BOH",
    "color": "#D2001F",
    "league": "League of Ireland",
-   "region": "Leinster",
    "hai": {
-    "C": 8.2,
-    "V": 9.5,
-    "H": 6.7,
-    "O": 9.4,
-    "S": 6,
-    "I": 9.3,
-    "R": 5.4,
-    "K": 5.32,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Fan violence",
-      -0.7
+      "full",
+      1.0,
+      5.3
+     ],
+     [
+      "cheap",
+      1.0,
+      2.8
+     ],
+     [
+      "ground",
+      1.0,
+      2.6
+     ],
+     [
+      "old",
+      0.91,
+      2.4
+     ],
+     [
+      "comm",
+      0.5,
+      2.2
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "fangov",
+      1.0,
+      1.9
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "recent",
+      0.47,
+      1.8
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "viol",
+      0.33,
+      -1.8
+     ],
+     [
+      "stable",
+      0.36,
+      1.7
+     ],
+     [
+      "rescue",
+      1.0,
+      1.6
+     ],
+     [
+      "trophies",
+      0.75,
+      1.4
+     ],
+     [
+      "crowd",
+      0.09,
+      0.4
      ]
-    ],
-    "conn": [],
-    "roots": [
-     "Heritage: Leinster, Ireland 2%",
-     0.4
-    ],
-    "P": 5.4,
-    "ps": [
-     4.2,
-     6.6,
-     5.0,
-     7.6,
-     8.2,
-     6.0,
-     5.0,
-     5.0,
-     2.7,
-     6.9
-    ],
-    "pl": "2025",
-    "notes": [
-     "Values +0.9 for Refugee and humanitarian kit campaigns"
-    ],
-    "rl": "Heritage: Leinster, Ireland 2%"
+    ]
    },
-   "base": 78.0,
-   "bonus": 0.4
+   "base": 69.9,
+   "bonus": 0
   },
   {
    "name": "Marítimo",
@@ -2145,40 +3028,68 @@
    "abbr": "MAR",
    "color": "#D7182A",
    "league": "Liga Portugal",
-   "region": "Madeira",
    "hai": {
-    "C": 6.8,
-    "V": 5,
-    "H": 6,
-    "O": 5.8,
-    "S": 5,
-    "I": 10.0,
-    "R": 4.1,
-    "K": 7.72,
-    "items": [],
-    "conn": [],
-    "roots": [
-     "Heritage: Madeira 17%",
-     3.4
-    ],
-    "P": 4.1,
-    "ps": [
-     7.1,
-     6.7,
-     4.7,
-     4.7,
-     2.1,
-     5.2,
-     1.5,
-     4.2,
-     2.2,
-     6.0
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Madeira 17%"
+    "blind": 1,
+    "fx": [
+     [
+      "full",
+      0.72,
+      3.8
+     ],
+     [
+      "bet",
+      1.0,
+      -2.8
+     ],
+     [
+      "recent",
+      0.55,
+      2.1
+     ],
+     [
+      "old",
+      0.77,
+      2.1
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "fangov",
+      0.67,
+      1.3
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "crowd",
+      0.15,
+      0.7
+     ]
+    ]
    },
-   "base": 68.7,
-   "bonus": 3.4
+   "base": 56.3,
+   "bonus": 0
   },
   {
    "name": "Nacional",
@@ -2186,40 +3097,53 @@
    "abbr": "NAC",
    "color": "#1A1A1A",
    "league": "Liga Portugal",
-   "region": "Madeira",
    "hai": {
-    "C": 3.6,
-    "V": 5.8,
-    "H": 4.3,
-    "O": 5.8,
-    "S": 4.5,
-    "I": 10.0,
-    "R": 2.9,
-    "K": 7.72,
-    "items": [],
-    "conn": [],
-    "roots": [
-     "Heritage: Madeira 17%",
-     3.4
-    ],
-    "P": 2.9,
-    "ps": [
-     0.0,
-     6.0,
-     0.7,
-     6.0,
-     0.0,
-     3.8,
-     1.5,
-     4.4,
-     2.8,
-     2.8
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Madeira 17%"
+    "blind": 1,
+    "fx": [
+     [
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "old",
+      0.77,
+      2.1
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "recent",
+      0.47,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "fangov",
+      0.67,
+      1.3
+     ],
+     [
+      "ground",
+      0.48,
+      1.3
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ]
+    ]
    },
-   "base": 62.6,
-   "bonus": 3.4
+   "base": 56.9,
+   "bonus": 0
   },
   {
    "name": "1. FC Nürnberg",
@@ -2227,40 +3151,78 @@
    "abbr": "FCN",
    "color": "#AA1124",
    "league": "2. Bundesliga",
-   "region": "Bavaria",
    "hai": {
-    "C": 8.6,
-    "V": 7.6,
-    "H": 8.3,
-    "O": 9,
-    "S": 6,
-    "I": 10.0,
-    "R": 2.6,
-    "K": 5.64,
-    "items": [],
-    "conn": [],
-    "roots": [
-     "Heritage: Bavaria & Western Austria 4%",
-     0.8
-    ],
-    "P": 2.6,
-    "ps": [
-     2.2,
-     4.4,
-     0.0,
-     0.8,
-     2.5,
-     3.3,
-     1.5,
-     2.2,
-     2.8,
-     3.3
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Bavaria & Western Austria 4%"
+    "blind": 1,
+    "fx": [
+     [
+      "full",
+      0.7,
+      3.7
+     ],
+     [
+      "crowd",
+      0.7,
+      3.4
+     ],
+     [
+      "old",
+      0.84,
+      2.3
+     ],
+     [
+      "comm",
+      0.5,
+      2.2
+     ],
+     [
+      "ground",
+      0.79,
+      2.1
+     ],
+     [
+      "women",
+      0.67,
+      2.0
+     ],
+     [
+      "fangov",
+      1.0,
+      1.9
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "recent",
+      0.45,
+      1.7
+     ],
+     [
+      "stable",
+      0.29,
+      1.4
+     ],
+     [
+      "trophies",
+      0.64,
+      1.2
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ]
+    ]
    },
-   "base": 76.4,
-   "bonus": 0.8
+   "base": 68.3,
+   "bonus": 0
   },
   {
    "name": "Žalgiris",
@@ -2268,40 +3230,73 @@
    "abbr": "ZAL",
    "color": "#007A3D",
    "league": "A Lyga",
-   "region": "Lithuania",
    "hai": {
-    "C": 5.5,
-    "V": 4.8,
-    "H": 6,
-    "O": 5,
-    "S": 4.5,
-    "I": 10.0,
-    "R": 8.9,
-    "K": 5.48,
-    "items": [],
-    "conn": [],
-    "roots": [
-     "Heritage: Lithuania 3%",
-     0.6
-    ],
-    "P": 8.9,
-    "ps": [
-     10.0,
-     8.0,
-     9.0,
-     8.0,
-     10.0,
-     10.0,
-     10.0,
-     8.2,
-     10.0,
-     7.6
-    ],
-    "pl": "2025",
-    "rl": "Heritage: Lithuania 3%"
+    "blind": 1,
+    "fx": [
+     [
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "recent",
+      0.93,
+      3.6
+     ],
+     [
+      "bet",
+      1.0,
+      -2.8
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "trophies",
+      0.79,
+      1.4
+     ],
+     [
+      "old",
+      0.53,
+      1.4
+     ],
+     [
+      "own_local",
+      1.0,
+      1.4
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "ground",
+      0.19,
+      0.5
+     ],
+     [
+      "stable",
+      0.06,
+      0.3
+     ]
+    ]
    },
-   "base": 71.2,
-   "bonus": 0.6
+   "base": 57.1,
+   "bonus": 0
   },
   {
    "name": "Viktoria Plzeň",
@@ -2309,49 +3304,83 @@
    "abbr": "PLZ",
    "color": "#C8102E",
    "league": "Czech First League",
-   "region": "Western Czechia",
    "hai": {
-    "C": 6.5,
-    "V": 4.8,
-    "H": 6,
-    "O": 5,
-    "S": 5,
-    "I": 7.5,
-    "R": 8.3,
-    "K": 5.32,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Racism",
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "recent",
+      0.91,
+      3.5
+     ],
+     [
+      "bet",
+      1.0,
+      -2.8
+     ],
+     [
+      "ground",
+      0.89,
+      2.3
+     ],
+     [
+      "old",
+      0.77,
+      2.1
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "own_local",
+      1.0,
+      1.4
+     ],
+     [
+      "discr",
+      0.33,
       -1.4
      ],
      [
-      "Owner's fortune from arms making",
-      -1.1
+      "arms",
+      1.0,
+      -1.4
+     ],
+     [
+      "trophies",
+      0.53,
+      1.0
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "atmos",
+      0.33,
+      0.9
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
-    ],
-    "conn": [],
-    "roots": [
-     "Heritage: Western Czechia 2%",
-     0.4
-    ],
-    "P": 8.3,
-    "ps": [
-     8.4,
-     10.0,
-     8.4,
-     8.4,
-     7.5,
-     10.0,
-     8.1,
-     8.1,
-     8.4,
-     8.1
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Western Czechia 2%"
+    ]
    },
-   "base": 64.1,
-   "bonus": 0.4
+   "base": 56.9,
+   "bonus": 0
   },
   {
    "name": "Union Saint-Gilloise",
@@ -2359,49 +3388,83 @@
    "abbr": "USG",
    "color": "#FFD200",
    "league": "Belgian Pro League",
-   "region": "Belgium",
    "hai": {
-    "C": 8.3,
-    "V": 7.6,
-    "H": 7,
-    "O": 6.5,
-    "S": 6.5,
-    "I": 8.5,
-    "R": 8.5,
-    "K": 5.32,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Multi-club",
-      -0.8
+      "full",
+      0.74,
+      4.0
      ],
      [
-      "Owner's fortune from sports betting",
-      -0.7
+      "recent",
+      0.94,
+      3.6
+     ],
+     [
+      "mc_sec",
+      1.0,
+      -3.6
+     ],
+     [
+      "ground",
+      1.0,
+      2.6
+     ],
+     [
+      "old",
+      0.86,
+      2.3
+     ],
+     [
+      "ssp",
+      1.0,
+      -2.0
+     ],
+     [
+      "attack",
+      0.53,
+      1.9
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "trophies",
+      0.67,
+      1.2
+     ],
+     [
+      "women",
+      0.33,
+      1.0
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
+     ],
+     [
+      "stable",
+      0.12,
+      0.6
+     ],
+     [
+      "own_foreign",
+      1.0,
+      -0.3
      ]
-    ],
-    "conn": [],
-    "roots": [
-     "Heritage: Belgium 2%",
-     0.4
-    ],
-    "P": 8.5,
-    "ps": [
-     3.2,
-     1.8,
-     3.8,
-     3.2,
-     6.0,
-     8.4,
-     8.2,
-     9.4,
-     10.0,
-     9.4
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Belgium 2%"
+    ]
    },
-   "base": 75.8,
-   "bonus": 0.4
+   "base": 57.7,
+   "bonus": 0
   },
   {
    "name": "Anderlecht",
@@ -2409,45 +3472,88 @@
    "abbr": "AND",
    "color": "#4E2A84",
    "league": "Belgian Pro League",
-   "region": "Belgium",
    "hai": {
-    "C": 7.6,
-    "V": 5.6,
-    "H": 8.6,
-    "O": 4.6,
-    "S": 5,
-    "I": 8.6,
-    "R": 7.4,
-    "K": 5.32,
-    "items": [
+    "blind": 1,
+    "fx": [
      [
-      "Fan violence",
+      "full",
+      0.74,
+      4.0
+     ],
+     [
+      "viol",
+      0.67,
+      -3.7
+     ],
+     [
+      "women",
+      1.0,
+      3.1
+     ],
+     [
+      "recent",
+      0.75,
+      2.9
+     ],
+     [
+      "bet",
+      1.0,
+      -2.8
+     ],
+     [
+      "ground",
+      1.0,
+      2.6
+     ],
+     [
+      "old",
+      0.79,
+      2.1
+     ],
+     [
+      "ssp",
+      1.0,
+      -2.0
+     ],
+     [
+      "atmos",
+      0.67,
+      1.8
+     ],
+     [
+      "crowd",
+      0.37,
+      1.8
+     ],
+     [
+      "attack",
+      0.5,
+      1.8
+     ],
+     [
+      "trophies",
+      0.94,
+      1.7
+     ],
+     [
+      "own_local",
+      1.0,
+      1.4
+     ],
+     [
+      "discr",
+      0.33,
       -1.4
+     ],
+     [
+      "cheap",
+      0.33,
+      0.9
      ]
-    ],
-    "conn": [],
-    "roots": [
-     "Heritage: Belgium 2%",
-     0.4
-    ],
-    "P": 7.4,
-    "ps": [
-     10.0,
-     8.1,
-     6.9,
-     5.8,
-     7.9,
-     8.2,
-     4.7,
-     8.1,
-     7.7,
-     7.7
-    ],
-    "pl": "2025-26",
-    "rl": "Heritage: Belgium 2%"
+    ]
    },
-   "base": 70.7,
-   "bonus": 0.4
+   "base": 56.1,
+   "bonus": 0
   }
  ]
 }

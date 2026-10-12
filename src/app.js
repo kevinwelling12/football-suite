@@ -3,7 +3,7 @@ const DATA = /*__DATA__*/;
 const EXTRA = /*__EXTRA__*/;
 // Club logos and national flags (files next to the page; data/logos.json, made by scripts/logos/fetch.js). Empty in the claude.ai build.
 const LOGOS = /*__LOGOS__*/;
-// Player Affinity lists (data/players.json, made by scripts/affinity/affinity.py): {ma, mt, wa, wt: [{n, a, f, c, p, ...}]}.
+// Player Affinity lists (data/players.json, made by scripts/blind/live.py): {ma, mt, wa, wt: [{n, a, nat, pos, clubs, fx, nw}]}.
 const PLAYERS = /*__PLAYERS__*/;
 const DEF = {sims:1000, impFloor:0.05, impRamp:0.25, drawAuto:1, drawW0:60, mktW:0.8};  // mktW: betting-market weight (scripts/pickem/blend.js)
 const STORE = 'football-suite-2627';
@@ -738,8 +738,10 @@ const signed = v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v);
 // Affinity parameters (scripts/affinity/params.json, fitted to Kevin's quiz answers by scripts/affinity/fit.py).
 const AFFP = /*__AFFPARAMS__*/;
 const wPct = (w, k) => Math.round(w[k] / Object.values(w).reduce((a, b) => a + b, 0) * 100);
-const FACTORS = [['Values', 'V'], ['Culture', 'C'], ['History', 'H'], ['Team', 'S'], ['Ownership', 'O'], ['Integrity', 'I']].map(([l, k]) => [l, k, wPct(AFFP.club_w, k === 'S' ? 'T' : k)]);
-const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>One step: Affinity is the weighted average of eight ratings out of 10, times 10. The weights come from your quiz answers: ${FACTORS.map(([l, , w]) => `${l} ${w}%`).join(', ')}, Record ${wPct(AFFP.club_w, 'R')}%, Connection ${wPct(AFFP.club_w, 'K')}%.</p><p><b>Integrity</b> starts at 10 and loses points for each documented wrong: racism, fan violence, state or private-equity owners, a leveraged buyout, the Super League, multi-club networks, overspending, a franchise move, a government's record. <b>Record</b> is a club's last 10 seasons or a nation's ranking and tournaments (5 when not judged). <b>Connection</b> is 5 with no tie, moved by distance, your other teams, linked clubs, pulls against global brands and celebrity bandwagons, and your hometown, home nation and ancestry. Nothing is added or taken off outside the ratings.</p></details>`;
+// The blind model (2026-10-12): Affinity is the blind test's score, from researched facts weighted by Kevin's own answers.
+const BL = AFFP.blind || {club: {}, player: {}, labels: {club: {}, player: {}}};
+const topW = (w, n, sign) => Object.entries(w).filter(([, v]) => sign > 0 ? v > 0.05 : v < -0.05).sort((x, y) => sign * (y[1] - x[1])).slice(0, n).map(([l]) => l.toLowerCase()).join(', ');
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>From your blind test: 100 questions that never named a club. Each club and nation is described by researched facts only (trophies, crowds, owners, sanctions, women's team and so on), each scaled 0 to 1. Your answers set every weight, and Affinity is the weighted sum placed between the lowest and highest score your weights allow (0 to 100).</p><p>Pulls you most: ${topW(BL.club, 6, 1)}. Pushes you away most: ${topW(BL.club, 5, -1)}.</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
 function viewClubs(k) {
@@ -794,7 +796,7 @@ function openXClub(j) {
   $('#sheet').style.cssText = '';
   $('#sheet').innerHTML = `<div class="sheet-head"><div><div class="sub">${esc(t.league)} · ${esc(t.region)}</div>
       <h2 style="margin-top:4px">${nchip(t.name, t.color, 'xc')}${esc(t.name)}</h2></div><button class="close" aria-label="Close" id="close">✕</button></div>
-    ${affBreakdown('xc', t)}<p class="note">Rated for your heritage region. Not in a league the app tracks, so there are no matches to show.</p>`;
+    ${affBreakdown('xc', t)}<p class="note">Not in a league the app tracks, so there are no matches to show.</p>`;
   if (!$('#detail').open) $('#detail').showModal(); $('#close').onclick = () => $('#detail').close();
 }
 // Overall ranking: every club and nation once, under its primary league.
@@ -824,9 +826,10 @@ function rankList() {
   return rankCache = Object.values(by).sort((a, b) => affOf(b.t) - affOf(a.t) || a.t.name.localeCompare(b.t.name));
 }
 const PL_TABS = [['ma', 'Men · Active'], ['mt', 'Men · All-time'], ['wa', 'Women · Active'], ['wt', 'Women · All-time']];
-const PL_F = ['Character', 'Team player', 'Loyalty & bond', 'Greatness', 'Joy to watch', 'Legacy', 'Integrity', 'Connection'];
 const rankModes = () => PLAYERS.ma ? `<div class="rank-chips">${[['clubs', 'Clubs & nations'], ['players', 'Players'], ['leagues', 'Leagues']].map(([m, l]) => `<button class="rchip" data-rankmode="${m}" aria-pressed="${rankMode === m}" style="--c:#fff">${l}</button>`).join('')}</div>` : '';
-const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>The same one step as clubs and nations: the weighted average of eight ratings out of 10. Character ${wPct(AFFP.player_w, 'CH')}% (with your values from the quizzes and exceptional good work), Team player ${wPct(AFFP.player_w, 'WK')}%, Loyalty ${wPct(AFFP.player_w, 'LO')}%, Greatness ${wPct(AFFP.player_w, 'AB')}%, Legacy ${wPct(AFFP.player_w, 'LE')}%, Joy to watch ${wPct(AFFP.player_w, 'ST')}%, Integrity ${wPct(AFFP.player_w, 'I')}%, Connection ${wPct(AFFP.player_w, 'K')}%. <b>Integrity</b> starts at 10 and loses points for abuse, racism, match-fixing, violence, doping, money-league moves and the like. <b>Connection</b>: the clubs they played for, by how you rate them, and your ancestry or home nation. A club's best players and icons also lift its own Affinity.</p><p><b>Active lists</b> add years ahead at the top level: up to +6 for players 22 and under, falling to −6 for those at the end of their careers (goalkeepers count three years younger). The all-time lists use Affinity alone.</p></details>`;
+const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>From your blind test, the same way as clubs: researched facts about each player (trophies, awards, years at one club, captaincy, work rate, humility, time for fans, charity, incidents and so on), weighted by your answers. Pulls you most: ${topW(BL.player, 6, 1)}. Pushes you away most: ${topW(BL.player, 5, -1)}. Youth is one of the facts, so younger players with their careers ahead already count for it.</p></details>`;
+// The facts that move a score most: [fact key, value 0-1, points]. Labels from the blind test.
+const fxRows = (fx, labels) => (fx || []).map(([k, x, v]) => `<div class="hb"><span>${esc(labels[k] || k)}</span><span class="bar"><i style="width:${x * 100}%"></i></span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('');
 function viewPlayers() {
   const L = PLAYERS[plF] || [], mx = L.length ? L[0].a : 100;
   return `<section class="section">${rankModes()}${PL_HOW}
@@ -834,13 +837,11 @@ function viewPlayers() {
     <div class="card rank" style="margin-top:12px">${L.map((p, n) => `<div class="rank-row pl-row" data-plopen="${n}" role="button" tabindex="0" aria-expanded="${plOpen === n}"><span class="num rk">${n + 1}</span>
       <span class="who">${esc(p.n)}${p.nw ? ' <span class="pl-tag">NWSL</span>' : ''}<small><span>${esc([p.pos, p.nat, (p.clubs || []).slice(-1)[0]].filter(Boolean).join(' · '))}</span></small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, p.a) / mx * 100}%"></span></span>
-      <span class="num sc">${p.a.toFixed(1)}</span></div>${plOpen === n ? `<div class="pl-det">${p.f.map((v, j) => `<div class="hb"><span>${PL_F[j]}</span><span class="bar"><i style="width:${v * 10}%"></i></span><b class="num">${v.toFixed(1)}</b></div>`).join('')}
-        <div class="hb-items">${p.ya ? `<div class="hb-item"><span>Years ahead (active list only; Affinity ${p.aff.toFixed(1)})</span><b class="num ${p.ya < 0 ? 'neg' : ''}">${signed(p.ya)}</b></div>` : ''}${(p.cn || []).map(([l, v]) => `<div class="hb-item"><span>Connection: ${esc(l)}</span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('')}${p.h ? `<div class="hb-item"><span>Connection: ${esc(p.hl || 'Heritage')}</span><b class="num">${signed(p.h)}</b></div>` : ''}${(p.pen || []).map(([l, v]) => `<div class="hb-item"><span>Integrity: ${esc(l)}</span><b class="num neg">${signed(v)}</b></div>`).join('')}</div>
-        ${p.why ? `<p class="note">${esc(p.why)}</p>` : ''}</div>` : ''}`).join('')}</div></section>`;
+      <span class="num sc">${p.a.toFixed(1)}</span></div>${plOpen === n ? `<div class="pl-det">${fxRows(p.fx, BL.labels.player)}</div>` : ''}`).join('')}</div></section>`;
 }
 // Leagues: the median club's Affinity (Kevin, 2026-10-09: a few heavily penalised clubs skewed the mean), plus how many
-// clubs reach 75 (the ones he'd enjoy watching) and the three he rates highest.
-const LIKE = 75;   // one-step Affinity scale (2026-10-12; was 65)
+// clubs reach 63 (the ones he'd enjoy watching) and the three he rates highest.
+const LIKE = 63;   // blind-model scale: about the top fifth of clubs (2026-10-12; was 65, then 75)
 function viewLeagues() {
   const L = ORDER.filter(k => k !== 'unl' && T(k).length).map(k => { const xs = T(k).map(affOf).sort((a, b) => a - b), n = xs.length;
     return {k, med: n % 2 ? xs[(n - 1) / 2] : (xs[n / 2 - 1] + xs[n / 2]) / 2, like: xs.filter(a => a >= LIKE).length,
@@ -1148,28 +1149,12 @@ function openDetail(k, id) {
 const fmtR = v => v === 0 || v === 10 ? String(v) : Number(v).toFixed(1);
 // Overall Affinity reads to the tenth too, except the ends of its scale (0, 100).
 const fmtA = v => { const r = Math.round(v * 10) / 10; return r === 0 || r === 100 ? String(r) : r.toFixed(1); };
-// One breakdown for every club and nation: the eight weighted ratings, with Integrity and Connection items listed under them.
+// One breakdown for every club and nation: the facts that move its blind-model score most, with the points each adds.
 function affBreakdown(k, t) {
-  const h = t.hai;
-  const spark = h.ps ? (() => { const last = h.pl || '', cal = !last.includes('-'), y = parseInt(last, 10);
-    const lab = j => cal ? String(y - 9 + j) : `${String(y - 9 + j).slice(2)}/${String(y - 8 + j).slice(2)}`;
-    return `<span class="spark" aria-label="Season scores, oldest to newest">${h.ps.map((x, j) => `<i title="${lab(j)}: ${x == null ? 'no season' : x.toFixed(1)}" class="${x == null ? 'none' : ''}" style="height:${x == null ? 8 : Math.max(8, x * 10)}%"></i>`).join('')}</span>`; })() : '';
-  const items = h.items || [], conn = (h.conn || []).slice();
-  if (h.roots) conn.push([k === 'unl' || t.confed ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : (h.rl || 'Hometown'), h.roots[1]]);
-  const tot = xs => Math.round(xs.reduce((x, [, v]) => x + v, 0) * 10) / 10;
-  const sum = [`Weighted average of eight ratings out of 10, × 10.`];
-  if (t.bonus) sum.push(`Your roots add ${t.bonus} of it.`);
-  const group = (title, xs, total) => xs.length ? `<div class="hb-items"><div class="hb-items-head"><span>${title}</span><b class="num ${total < 0 ? 'neg' : ''}">${signed(total)}</b></div>${xs.map(([l, v]) => `<div class="hb-item"><span>${esc(l)}</span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('')}</div>` : '';
-  const squad = h.tb ? (h.dom ? `${Math.round(h.dom[0] * 100)}% · league ${Math.round(h.dom[1] * 100)}%` : (h.clubs || []).slice(0, 2).map(([c]) => esc(c)).join(', ')) : '';
-  const recRow = `<div class="hb hb-tr"><span>${h.ps ? 'Track record' : h.P != null ? 'Recent record' : 'Record'} <small>${wPct(AFFP.club_w, 'R')}%</small>${h.rank ? ` <small>FIFA #${h.rank}</small>` : ''}</span>${spark || `<span>${h.P == null ? 'not judged' : h.wc2026 ? esc('World Cup: ' + h.wc2026) : ''}</span>`}<b class="num">${fmtR(h.R)}</b></div>`;
-  const connRow = `<div class="hb"><span>Connection <small>${wPct(AFFP.club_w, 'K')}%</small></span><span class="bar"><i style="width:${h.K * 10}%"></i></span><b class="num">${fmtR(Math.round(h.K * 10) / 10)}</b></div>`;
-  return `<h4 style="margin-top:18px">Affinity ${fmtA(affOf(t))}</h4><p class="aff-sum">${sum.join(' ')}</p><div class="hai-break">
-    ${FACTORS.map(([l, key, w]) => `<div class="hb"><span>${l} <small>${w}%</small></span><span class="bar"><i style="width:${h[key] * 10}%"></i></span><b class="num">${fmtR(h[key])}</b></div>` +
-      (key === 'S' && h.tb ? `<div class="hb hb-sub"><span>${h.dom ? 'Homegrown' : 'Club links'}</span><span>${squad}</span><b class="num ${h.tb < 0 ? 'neg' : ''}">${signed(h.tb)}</b></div>` : '') +
-      (key === 'S' && h.py && h.py.t ? `<div class="hb hb-sub"><span>Players</span><span>${(h.py.sq || []).map(esc).join(', ')}</span><b class="num ${h.py.t < 0 ? 'neg' : ''}">${signed(h.py.t)}</b></div>` : '') +
-      (key === 'H' && h.py && h.py.h ? `<div class="hb hb-sub"><span>Icons</span><span>${(h.py.ic || []).map(esc).join(', ')}</span><b class="num ${h.py.h < 0 ? 'neg' : ''}">${signed(h.py.h)}</b></div>` : '')).join('')}
-    ${recRow}${connRow}
-    ${group('Integrity', items, tot(items))}${group('Connection points', conn, tot(conn))}</div>`;
+  const fx = (t.hai && t.hai.fx) || [];
+  const plus = fx.filter(x => x[2] > 0), minus = fx.filter(x => x[2] < 0);
+  return `<h4 style="margin-top:18px">Affinity ${fmtA(affOf(t))}</h4><p class="aff-sum">From your blind test: each fact (bar, 0 to 1) times your weight for it. The biggest pulls and pushes:</p><div class="hai-break">
+    ${fxRows(plus.slice(0, 10), BL.labels.club)}${minus.length ? `<div class="hb-items"><div class="hb-items-head"><span>Pushing it down</span></div></div>${fxRows(minus.slice(0, 8), BL.labels.club)}` : ''}</div>`;
 }
 function openClub(k, i) {
   const r = R[k], cup = COMPS_CFG[k].cup, t = T(k)[i];

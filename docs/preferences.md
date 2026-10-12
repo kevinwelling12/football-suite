@@ -915,3 +915,8 @@ Scenarios (happiness 0-10):
     Legacy 8, Joy 7. Folding hard lines into Values/Ownership alone was tried first and failed the backtest (deciders
     9 of 19, club gut r 0.58: a club already at Ownership 0 had nothing left to lose). Backtest held or improved on six
     of seven sets (club gut 23.8 -> 23.2 of 26); deciders all hold. Oakland Roots Values 10 -> 8.8.
+26. **Blind model is live** (2026-10-12). Kevin asked for a from-scratch, blind re-rating ("wipe clean every piece of
+    guidance ... completely blind ... no peeking"), took the 100-question test, saw the comparison (agreement 0.72 clubs,
+    0.75 players; his favourites Athletic, Thorns, Scotland, Wimbledon fell because the blind test has no connection or
+    ancestry pulls; big clubs with misconduct rose because each wrong is one fact of 37) and said: "ship the blind model.
+    It's probably less biased." [CURRENT] scripts/blind/live.py; items 1-25 describe the earlier model and are history.

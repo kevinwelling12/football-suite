@@ -888,4 +888,5 @@ Scenarios (happiness 0-10):
     Northern California are a plus (except John Fisher)". [CURRENT] record half-life 4 -> 2 seasons (a higher record share
     broke two deciders and flipped Timbers/Sounders); racism x1.25, private equity and multi-club x0.7 (params hard_x);
     positive association links up (cap 5 -> 7), negative unchanged; nation ancestry 0.4 -> 0.3 per % (cap 7.5); John Fisher
-    (Athletics) full rival weight; Denmark and Norway Values 7.9; KC Current Values back to 8.0.
+    (Athletics) full rival weight; Denmark and Norway Values 7.9; KC Current Values back to 8.0. Backtest: deciders 11 -> 13
+    of 19, club gut orderings 88% -> 90%, gut r 0.789 -> 0.796, real-club pairs 18 -> 20 of 36; Timbers +0.4 over Sounders.

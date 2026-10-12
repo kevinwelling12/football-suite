@@ -1,0 +1,479 @@
+[
+ {
+  "name": "Fenerbahçe",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 12,
+    "to": 10,
+    "year": 2026,
+    "why": "Two UEFA away-fan bans in two years (March 2024: EUR 80,000 and a 3-match away ban, one suspended, after the Union SG match; March 2026: EUR 50,500 and an away ban after pyro and seat damage at Nottingham Forest) plus a 2022 suspended partial closure: repeated and current, top band, but no deaths or injuries to people documented, so below the band ceiling.",
+    "sources": [
+     "https://www.aa.com.tr/en/sports/uefa-imposes-3-match-away-ban-on-fenerbahce-fans/3165585",
+     "https://www.aa.com.tr/en/sports/uefa-suspends-1-match-of-fenerbahces-3-match-away-supporters-ban/3186745",
+     "https://www.fanatik.com.tr/en/uefa-penalty-for-fenerbahce-the-statement-came-2617417"
+    ]
+   },
+   {
+    "label": "Overspend",
+    "from": 3,
+    "to": 3,
+    "year": 2026,
+    "why": "UEFA CFCB settlement fine for breaching squad-cost rules; already folded into Ownership, no change.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Galatasaray",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 12,
+    "to": 10,
+    "year": 2026,
+    "why": "Feb 2026 at Juventus: a firework thrown from the away end injured a man and his daughter; UEFA fined EUR 40,000 and banned away fans for the Anfield tie (appeal rejected). Oct 2023 EUR 51,500 fine at Manchester United for objects, fireworks, damage and crowd disturbances. The 2000 killings of two Leeds fans in Istanbul are 26 years old: counted half. Repeated and continuing, top band; one UEFA ban (not several), so 10 rather than 12.",
+    "sources": [
+     "https://www.insideworldfootball.com/2026/03/04/uefa-bans-travelling-galatasaray-fans-last-16-tie-anfield/",
+     "https://www.goal.com/en-us/lists/explained-why-galatasaray-fans-banned-champions-league-game-liverpool/blt797e7d9c39e79a69",
+     "https://www.flashscore.com/news/soccer-champions-league-bayern-munich-galatasaray-and-aek-athens-fined-by-uefa-for-crowd-trouble/ObfNp236"
+    ]
+   },
+   {
+    "label": "Overspend",
+    "from": 2,
+    "to": 2,
+    "year": 2026,
+    "why": "Unquantified; already folded into Ownership, no change.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Feyenoord",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 8,
+    "to": 8,
+    "year": 2026,
+    "why": "UEFA EUR 25,000 for monkey gestures by away fans at Barcelona (9 Sept 2026, decision 25 Sept) plus a suspended 25% away-ticket cut; antisemitic chanting led over a microphone at De Kuip before the April 2023 cup semi-final (prosecuted); KNVB 6-year ban for a supporter-group board member's antisemitic posts. Repeated and ongoing (no fade); the club banned 47 fans and is passing on the fine, which keeps it at 8 rather than in the 10-30 band.",
+    "sources": [
+     "https://beninwebtv.bj/en/champions-league-feyenoord-fined-e74375-including-e25000-for-racist-acts/",
+     "https://nltimes.nl/2026/09/11/feyenoord-bans-47-supporters-fireworks-attack-racist-gesture-video-emerges",
+     "https://www.om.nl/actueel/nieuws/2024/02/15/om-eist-90-uur-taakstraf",
+     "https://nltimes.nl/node/67838"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 8,
+    "to": 8,
+    "year": 2026,
+    "why": "Nov 2022 UEFA: EUR 106,000 in fines, an away-fan ban (second suspended) and a partial home closure after Sturm Graz and Lazio; travel bans by French authorities citing Nancy 2006 and Marseille 2022; Sept 2026 objects thrown and damage at Barcelona. Multiple UEFA bans and organised hooliganism, low end of the top band.",
+    "sources": [
+     "https://www.dutchnews.nl/news/2022/11/feyenoord-fans-banned-from-european-games-after-crowd-trouble/",
+     "https://supersport.com/football/uefa-champions-league/news/3af4c451-c1f4-402a-b2be-b98589261781/feyenoord-fans-banned-from-travelling-to-lille-due-to-risk-of-violence",
+     "https://footballgroundguide.com/news/feyenoord-slapped-with-heavy-fine-for-barcelona-fan-disorder-after-despicable-racist-gesture.html"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Porto",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 8,
+    "to": 4,
+    "year": 2023,
+    "why": "Operação Pretoriano: Super Dragões members assaulted and intimidated members at the Nov 2023 general assembly; leader Fernando Madureira sentenced to 3 years 9 months (2025, appeals pending). Organised and recent, but a single episode, no UEFA crowd sanctions found since 2017, and the new Villas-Boas board broke with the group: low-middle of the 3-6 band. The previous board's closeness to the ultras is dropped with that board.",
+    "sources": [
+     "https://www.abola.pt/noticias/fc-porto-ja-ha-data-para-a-leitura-do-acordao-da-operacao-pretoriano-2025070118451252129",
+     "https://pt.soccerway.com/noticias/operacao-pretoriano-mp-pede-agravamento-de-penas-e-nove-anos-de-prisao-para-madureira/48iwgcUr",
+     "https://www.abola.pt/noticias/operacao-pretoriano-madureira-e-tres-arguidos-voltam-ao-tribunal-2026010922430308127"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Slovan Bratislava",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 10,
+    "to": 10,
+    "year": 2022,
+    "why": "Repeated UEFA discrimination sanctions over years: 2014 partial closures, 2019 closed-doors match (v Wolves) for racist chants and a banner v PAOK, 2022 EUR 40,000 and partial closure for racist behaviour and a far-right flag at Ferencváros (upheld at CAS). The 2014 and 2019 cases are old, but the pattern of a far-right ultra scene continues, so full weight; low end of the 10-30 band. No 2023-26 discrimination case found.",
+    "sources": [
+     "https://www.insideworldfootball.com/2022/08/02/uefa-hits-bratislava-partial-stadium-closure-fines-away-fan-ban/",
+     "https://editorial.uefa.com/resources/028b-1a6481cf6aa0-f3fad81c6bed-1000/cas_2022a9078_sk_slovan_bratislava_v._uefa.pdf",
+     "https://www.foxsports.com/stories/soccer/uefa-punishes-slovakian-club-for-fan-racism-in-europa-league"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 8,
+    "to": 6,
+    "year": 2024,
+    "why": "UEFA away-ticket bans in 2022 (Ferencváros, objects and fireworks) and 2024 (fine and away ban after facilities wrecked and pyro at Sturm Graz): repeated sanctions in the last 5 years, but no assaults or deaths documented, so the top of the 3-6 band rather than the 8-12 band.",
+    "sources": [
+     "https://www.insideworldfootball.com/2022/08/02/uefa-hits-bratislava-partial-stadium-closure-fines-away-fan-ban/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Celtic",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 4,
+    "to": 4,
+    "year": 2026,
+    "why": "8 March 2026 Scottish Cup quarter-final at Ibrox: Celtic fans invaded the pitch, fireworks exchanged, 37 arrests, police and stewards injured; SFA ordered a closed-doors home cup tie and GBP 100,000 compensation for both clubs. Plus routine UEFA pyro and passageway fines. Repeated, middle-low of the 3-6 band. No UEFA discrimination sanction found since 2019 (Mussolini banner v Lazio, counted under Values, not a line); sectarian chanting stays in Values.",
+    "sources": [
+     "https://www.scotsman.com/sport/football/celtic-and-rangers-hit-scottish-cup-stadium-bans-sfa-ibrox-old-firm-disorder-8947544",
+     "https://www.irishexaminer.com/sport/soccer/arid-41883439.html",
+     "https://www.the42.ie/celtic-lazio-banner-chanting-fined-uefa-4902950-Nov2019/"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Rangers",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 10,
+    "to": 10,
+    "year": 2025,
+    "why": "Repeated UEFA discrimination sanctions over two decades (2006 and 2011 sectarian chanting, 2019 partial closure, March 2025 EUR 30,000 and a suspended Copland Stand closure for the 'defend Europe' banner v Fenerbahçe) and continuing sectarian songs. Older cases would halve, but the behaviour continues: full weight, low end of the 10-30 band because the club issues lifetime bans.",
+    "sources": [
+     "https://global.espn.com/football/story/_/id/44402875/rangers-punished-uefa-discriminatory-fans-banner",
+     "https://www.rangers.co.uk/Article/club-statement-2025-03-25/66ngqKh09HfxnnFUBuTloH"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 8,
+    "to": 6,
+    "year": 2026,
+    "why": "Jan 2025 Manchester: 39 arrests, disorder in Ancoats and fighting in the home end at Old Trafford; April 2025 clashes with police in Bilbao; March 2026 Ibrox cup disorder (SFA closed-doors sanction). May 2021 George Square riot is about 5 years old: half. Repeated and current, but no UEFA crowd bans or deaths: top of the 3-6 band, two points above Celtic.",
+    "sources": [
+     "https://www.hellorayo.co.uk/greatest-hits/glasgow/news/almost-40-arrests-made-as-rangers-visit-manchester-united",
+     "https://www.scotsman.com/sport/football/celtic-and-rangers-hit-scottish-cup-stadium-bans-sfa-ibrox-old-firm-disorder-8947544"
+    ]
+   },
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2025,
+    "why": "Secondary in the 49ers Enterprises network (Leeds flagship; Marathe vice-chairman at Rangers) since the 2025 Cavenagh consortium takeover; minority partner, low end. Already folded into Ownership.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Heart of Midlothian",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2025,
+    "why": "Tony Bloom's 29% non-voting stake (GBP 9.86m, 2025) with a board nominee and Jamestown recruitment data; secondary club in his network, low end. Folded into Ownership.",
+    "sources": [
+     "https://sportingintelligence832.substack.com/p/after-a-90-year-wait-a-12th-title"
+    ]
+   },
+   {
+    "label": "Owner's fortune from sports betting",
+    "from": 1,
+    "to": 1,
+    "year": 2025,
+    "why": "Bloom's betting fortune, scaled for a minority holder; folded into Values. A Dec 2025 report of allegations that Bloom ran an illegal betting network is unverified and unresolved: not counted.",
+    "sources": [
+     "https://www.dhnet.be/sports/football/division-1a/union-saint-gilloise/2025/12/04/un-actionnaire-de-lunion-saint-gilloise-dans-la-tourmente-tony-bloom-accuse-de-diriger-un-reseau-de-paris-clandestins-BGD2QKVMTRC2ZLWRKG4O7WXBX4/"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Linfield",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 6,
+    "to": 6,
+    "year": 2025,
+    "why": "UEFA EUR 10,000 for racist and/or discriminatory supporter behaviour plus a suspended stand closure (July 2025 v Shelbourne); Irish FA GBP 4,000 (Dec 2023) for sectarian chanting and a racist comment. More than one sanction in the last 5 years and continuing: middle of the 4-8 band.",
+    "sources": [
+     "https://www.the42.ie/linfield-fine-6773123-Jul2025/",
+     "https://us.irishnews.com/news/northern-ireland/linfield-fined-4000-after-sectarian-chanting-and-a-racist-comment-from-fans-BTBYAANUBBDT3MMZD2J2OQ74OU"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Derry City",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 2,
+    "to": 2,
+    "year": 2024,
+    "why": "April 2024 v Shamrock Rovers: flare and missiles into the away section, PSNI vehicles attacked, suspended partial closure accepted by the club; 2022 UEFA charges v CSKA Sofia counted half. Single recent serious incident.",
+    "sources": []
+   },
+   {
+    "label": "Overspend",
+    "from": 2,
+    "to": 2,
+    "year": 2026,
+    "why": "Chairman-funded spending beyond income; folded into Ownership, no change.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Shamrock Rovers",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2019,
+    "why": "Dermot Desmond (Celtic's majority shareholder, flagship) holds 25% since 2019; no change found in 2026. Minority secondary holding, low end; folded into Ownership.",
+    "sources": [
+     "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/shamrock-rovers-fans-fear-club-could-become-celtic-offshoot-after-eu3m-investment-reports-94436"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Union Saint-Gilloise",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Multi-club",
+    "from": 3,
+    "to": 3,
+    "year": 2023,
+    "why": "Alex Muzio majority owner since the 2023 restructuring; Bloom keeps a minority stake and shared recruitment data with Brighton (flagship). Low end; folded into Ownership.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
+     "https://www.flashscore.com/news/soccer-champions-league-tony-bloom-s-football-empire-looking-strong-through-belgium-s-union-saint-gilloise/8Srj6uSj"
+    ]
+   },
+   {
+    "label": "Owner's fortune from sports betting",
+    "from": 2,
+    "to": 2,
+    "year": 2023,
+    "why": "Bloom (Starlizard) investor, Muzio an ex-Starlizard consultant; folded into Values, no change.",
+    "sources": []
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Viktoria Plzeň",
+  "verdict": "adjust",
+  "lines": [
+   {
+    "label": "Owner's fortune from arms making",
+    "from": 3,
+    "to": 3,
+    "year": 2025,
+    "why": "Michal Strnad (CSG) majority owner via Palatua; folded into Values, no change.",
+    "sources": []
+   },
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 3,
+    "year": 2025,
+    "why": "UEFA fined the club EUR 15,000 for racist and/or discriminatory behaviour (a 'we must fight the Turks' banner at the Europa League match v Fenerbahçe, Nov 2025) with a partial stand closure suspended for two years. A single recent sanction; no firm club response found, so the top of the 2-3 band.",
+    "sources": [
+     "https://www.aspor.com.tr/fenerbahce/2025/11/14/uefa-fenerbahce-macindaki-pankart-icin-viktoria-plzene-ceza-verdi",
+     "https://t24.com.tr/spor/uefa-dan-fenerbahce-ile-viktoria-plzen-e-para-cezasi,1276032"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Anderlecht",
+  "verdict": "confirmed",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 4,
+    "to": 4,
+    "year": 2026,
+    "why": "UEFA EUR 50,000 and an away-fan ban (second suspended) after seats and flares were thrown at West Ham fans (13 Oct 2022, not 2025 as earlier recorded); a fight in the stands halted the Feb 2025 play-off v Fenerbahçe (club closed the section and banned those involved); EUR 27,625 v Hammarby (July 2026). Repeated in the last 5 years: low-middle of the 3-6 band.",
+    "sources": [
+     "https://brusselstimes.com/310605/anderlecht-fined-e50000-and-a-match-without-fans-in-the-conference-league",
+     "https://bx1.be/?p=736944",
+     "https://www.brusselstimes.com/2270008/uefa-fines-anderlecht-for-fan-misconduct-against-hammarby"
+    ]
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Club Brugge",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 4,
+    "year": 2026,
+    "why": "Belgian FA sanctions for antisemitic chanting ('whoever doesn't jump is a Jew', Dec 2021, three cases that season); Kühnen/Nazi salutes by away fans at Standard (Aug 2024, 34 banned); a Hitler salute at the home match v Union led to a suspended EUR 2,000 fine (June 2026). More than one case in the last 5 years; the club bans offenders, so the low end of the 4-8 band.",
+    "sources": [
+     "https://www.algemeiner.com/2021/12/27/supporters-of-belgian-soccer-club-brugge-in-the-spotlight-again-over-antisemitic-chants/",
+     "https://belganewsagency.eu/club-brugge-bans-34-fans-after-sundays-nazi-salute-incident-at-standard",
+     "https://www.voetbalkrant.com/nieuws/2026-06-10/club-brugge-kent-straf-na-fan-die-hitlergroet-deed-ook-union-krijgt-sanctie"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Slavia Prague",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Racism",
+    "from": 0,
+    "to": 4,
+    "year": 2025,
+    "why": "UEFA EUR 35,000 and a partial closure (Feb 2025) for fans' racist behaviour v Anderlecht (Dec 2024); the club said it would appeal. Plus Ondřej Kúdela's 10-match UEFA ban for racist abuse of Glen Kamara (March 2021, over 5 years: half), where the club stood by the player. Single recent sanction at the top of 2-3, plus the faded 2021 case.",
+    "sources": [
+     "https://brnodaily.com/2025/02/21/news/uefa-fines-slavia-prague-football-club-over-racist-behaviour-by-fans/",
+     "https://malaysia.news.yahoo.com/slavia-pragues-kudela-banned-10-140000800.html"
+    ]
+   },
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 3,
+    "year": 2024,
+    "why": "UEFA record EUR 91,625 fine and a North Stand closure after the Nov 2023 Roma match (fireworks, objects, chants), then EUR 87,000 after AC Milan (March 2024). Repeated sanctions in the last 5 years, mostly pyro and objects rather than assaults: low end of 3-6.",
+    "sources": [
+     "https://english.radio.cz/node/8800917",
+     "https://ca.news.yahoo.com/slavia-prague-fined-93-000-153050716.html"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sporting CP",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 3,
+    "year": 2025,
+    "why": "UEFA barred away tickets for the Jan 2026 match at Athletic Club (second ban suspended) after objects and flares at the home match v Bayern (Dec 2025); sector A14 (Juventude Leonina) closed for Bologna (Jan 2025); over EUR 300,000 in pyro fines in 2024-25 and open defiance of the club by Juve Leo. The 2018 Alcochete attack on players is over 5 years old: half. The board cut ties with the ultras: low end of 3-6.",
+    "sources": [
+     "https://www.abola.pt/noticias/sporting-reage-a-castigo-da-uefa-e-faz-apelo-aos-adeptos-2025121812091466727",
+     "https://www.abola.pt/noticias/juve-leo-responde-a-direcao-do-sporting-2025021517385119926",
+     "https://www.abola.pt/noticias/uefa-com-mao-muito-pesada-para-o-sporting-2025031918483264795"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "AEK Athens",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 3,
+    "year": 2025,
+    "why": "UEFA EUR 56,000 and closure of much of one end (for the Oct 2025 Aberdeen match) after a pitch invasion, fireworks and an obscene banner at the Aug 2025 Conference League play-off v Anderlecht; Nov 2023 charges for fireworks and blocked passageways v Marseille; the 2018 Ajax violence (closed doors, suspended European ban) is over 5 years old: half. AEK fans were the victims, not perpetrators, of the 2023 killing by Dinamo Zagreb ultras.",
+    "sources": [
+     "https://businessday.ng/?p=1018040",
+     "https://www.cadena3.com/noticia/mundo/la-uefa-sanciona-al-fcsb-de-rumania-y-al-aek-atenas-por-comportamientos-de-hinchas_461447",
+     "https://www.eurosport.co.uk/football/aek-handed-suspended-ban-from-european-competition_sto7155467/story.shtml"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "PSV Eindhoven",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2023,
+    "why": "Feb 2023: a fan (already under a national stadium ban) ran on and punched Sevilla goalkeeper Marko Dmitrović; UEFA reportedly fined PSV EUR 20,000 and closed the stand behind the goal for one match. A single recent serious incident; the club acted firmly (40-year ban, damages claim).",
+    "sources": [
+     "https://www.si.com/soccer/2023/03/22/psv-eindhoven-40-year-stadium-ban-pitch-invader-fan",
+     "https://nltimes.nl/node/65187",
+     "https://www.espn.com/soccer/sevilla-espfc_sevilla/story/4895827/fan-jailed-for-two-months-after-attacking-sevilla-goalkeeper-marko-dmitrovic"
+    ]
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Bohemians",
+  "verdict": "add",
+  "lines": [
+   {
+    "label": "Fan violence",
+    "from": 0,
+    "to": 2,
+    "year": 2024,
+    "why": "Feb 2024 at St Patrick's Athletic: a flare thrown from the Bohemians away end hit a player (Cian Byrne); FAI banned Bohs fans from the next away match. Bottles thrown near the Aviva before the Nov 2021 FAI Cup final, right at the 5-year line: half. The club condemned both and promised bans. Single recent serious incident; the same 2 as Derry City.",
+    "sources": [
+     "https://extratime.com/articles/33014/bohs-fans-banned-from-boyneside-trip-after-pyro-incident-in-inchicore",
+     "https://www.leagueofireland.ie/news/statement-bohemian-fc/",
+     "https://breakingnews.ie/ireland/bohemians-pledge-to-ban-fans-involved-in-cup-final-violence-1221083.html"
+    ]
+   }
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Sabah",
+  "verdict": "confirmed",
+  "lines": [],
+  "values_note": "No hard line: founded 2017 and backed by Yagub Huseynov's Bridge Group construction company, not state-controlled. But on 27 Aug 2026 President Aliyev granted the club AZN 5m from the President's Reserve Fund after Champions League qualification; money from an authoritarian government could count against Values like a state-firm sponsor (about -0.5 to -1). Sources: https://azertag.az/en/xeber/azerbaijani_president_allocates_azn_5_million_to_sabah_fc-4385885 , https://lossi36.com/2026/09/08/sabah-fk-azerbaijans-ultimate-soccer-underdog-fairytale/",
+  "confidence": "medium"
+ }
+]

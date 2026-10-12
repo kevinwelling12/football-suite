@@ -1,6 +1,6 @@
 {
  "source": "AncestryDNA ethnicity estimate, October 2026 model update",
- "rule": "Nations: 0.4 x ancestry share (%), cap +10 (heritage_per_pct, heritage_cap). Clubs (2026-10-12): 0.2 x the share of the club's own Ancestry region, cap +5 (club_heritage_*), from club_regions. Players (2026-10-12): 0.2 x their national team's share, cap +5 (player_heritage_*). Regions that span nations are split as in 'split'. The United States, Kevin's home nation, gets home_nation (+20); Sacramento Republic, his hometown club, home_club (+4). Applied as roots in affinity.py.",
+ "rule": "Nations: 0.4 x ancestry share (%), cap +10 (heritage_per_pct, heritage_cap). Clubs (2026-10-12): 0.2 x the share of the club's own Ancestry region, cap +5 (club_heritage_*), from club_regions. Players (2026-10-12): 0.2 x their national team's share, cap +5 (player_heritage_*); US internationals +5 (player_home_nation), replacing the old +2 connection item. Regions that span nations are split as in 'split'. The United States, Kevin's home nation, gets home_nation (+20); Sacramento Republic, his hometown club, home_club (+4). Applied as roots in affinity.py.",
  "regions": {
   "Southeastern England": 13,
   "Devon & Somerset": 9,

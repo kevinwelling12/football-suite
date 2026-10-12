@@ -741,7 +741,8 @@ const wPct = (w, k) => Math.round(w[k] / Object.values(w).reduce((a, b) => a + b
 // The blind model (2026-10-12): Affinity is the blind test's score, from researched facts weighted by Kevin's own answers.
 const BL = AFFP.blind || {club: {}, player: {}, labels: {club: {}, player: {}}};
 const topW = (w, n, sign) => Object.entries(w).filter(([, v]) => sign > 0 ? v > 0.05 : v < -0.05).sort((x, y) => sign * (y[1] - x[1])).slice(0, n).map(([l]) => l.toLowerCase()).join(', ');
-const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>From your blind test: 100 questions that never named a club. Each club and nation is described by researched facts only (trophies, crowds, owners, sanctions, women's team and so on), each scaled 0 to 1. Your answers set every weight, and Affinity is the weighted sum placed between the lowest and highest score your weights allow (0 to 100).</p><p>Pulls you most: ${topW(BL.club, 6, 1)}. Pushes you away most: ${topW(BL.club, 5, -1)}.</p></details>`;
+const FV = AFFP.favs || {chosen: [], weights: {}};
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>Based on your clubs: ${FV.chosen.map(esc).join(', ')}. For each researched fact (crowds, owners, sanctions, sponsors, results and so on) the model checks how far your clubs stand out from the average club, and how much they agree with each other. Facts they share count most. Every club is scored on how closely it matches that profile, from 0 (least like your clubs) to 100 (most like them).</p><p>What your clubs share: ${Object.entries(FV.weights).slice(0, 8).map(([l, v]) => `${esc(l.toLowerCase())} (${v > 0 ? 'more' : 'less'})`).join(', ')}.</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
 function viewClubs(k) {
@@ -827,7 +828,7 @@ function rankList() {
 }
 const PL_TABS = [['ma', 'Men · Active'], ['mt', 'Men · All-time'], ['wa', 'Women · Active'], ['wt', 'Women · All-time']];
 const rankModes = () => PLAYERS.ma ? `<div class="rank-chips">${[['clubs', 'Clubs'], ['players', 'Players'], ['leagues', 'Leagues']].map(([m, l]) => `<button class="rchip" data-rankmode="${m}" aria-pressed="${rankMode === m}" style="--c:#fff">${l}</button>`).join('')}</div>` : '';
-const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>From your blind test, the same way as clubs: researched facts about each player (trophies, awards, years at one club, captaincy, work rate, humility, time for fans, charity, incidents and so on), weighted by your answers. Pulls you most: ${topW(BL.player, 6, 1)}. Pushes you away most: ${topW(BL.player, 5, -1)}. Youth is one of the facts, so younger players with their careers ahead already count for it.</p></details>`;
+const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>Half clubs, half character. Clubs: the average Affinity of the clubs a player played for, weighted by seasons at each. Character: work rate, humility, time for fans, charity, speaking out and captaincy, with points off for violence, abuse, racism, doping, match-fixing, crime, money-league moves and the like. Open a player to see what counts.</p></details>`;
 // The facts that move a score most: [fact key, value 0-1, points]. Labels from the blind test.
 const fxRows = (fx, labels) => (fx || []).map(([k, x, v]) => `<div class="hb"><span>${esc(labels[k] || k)}</span><span class="bar"><i style="width:${x * 100}%"></i></span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('');
 function viewPlayers() {
@@ -1153,7 +1154,7 @@ const fmtA = v => { const r = Math.round(v * 10) / 10; return r === 0 || r === 1
 function affBreakdown(k, t) {
   const fx = (t.hai && t.hai.fx) || [];
   const plus = fx.filter(x => x[2] > 0), minus = fx.filter(x => x[2] < 0);
-  return `<h4 style="margin-top:18px">Affinity ${fmtA(affOf(t))}</h4><p class="aff-sum">From your blind test: each fact (bar, 0 to 1) times your weight for it. The biggest pulls and pushes:</p><div class="hai-break">
+  return `<h4 style="margin-top:18px">Affinity ${fmtA(affOf(t))}</h4><p class="aff-sum">How this club compares with your clubs on the facts they share (bar: the club's own value, 0 to 1). The biggest pulls and pushes:</p><div class="hai-break">
     ${fxRows(plus.slice(0, 10), BL.labels.club)}${minus.length ? `<div class="hb-items"><div class="hb-items-head"><span>Pushing it down</span></div></div>${fxRows(minus.slice(0, 8), BL.labels.club)}` : ''}</div>`;
 }
 function openClub(k, i) {

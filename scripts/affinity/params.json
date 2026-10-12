@@ -152,7 +152,7 @@
     "stable": "Coach stability",
     "ground": "Historic ground",
     "domestic": "Home-grown squad",
-    "near": "Near you",
+    "near": "Near Sacramento",
     "gov": "Authoritarian government",
     "home": "Your country"
    },
@@ -183,6 +183,32 @@
     "young": "Youth",
     "homenat": "Your country"
    }
+  }
+ },
+ "favs": {
+  "date": "2026-10-12",
+  "chosen": [
+   "Liverpool",
+   "Real Madrid",
+   "Borussia Dortmund",
+   "Portland Timbers",
+   "Portland Thorns",
+   "Sacramento Republic FC"
+  ],
+  "weights": {
+   "Foreign billionaire owner": -0.51,
+   "Fan violence": -0.5,
+   "Betting sponsor": -0.42,
+   "Financial breaches": -0.37,
+   "Sold-out ground": 0.35,
+   "Parent of a network": -0.34,
+   "Recent results": 0.29,
+   "Feeder in a network": -0.27,
+   "Investment-fund owner": -0.22,
+   "Company owner": -0.2,
+   "State owner": -0.14,
+   "Equal treatment": -0.09,
+   "Bought on debt": -0.09
   }
  }
 }

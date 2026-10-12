@@ -16,7 +16,7 @@ against tier 2 and League One/Two against tiers 3-4.)
   Champions League / CONCACAF Champions Cup 2, Europa / Conference League 1. Capped at 10.
 - a season the club did not exist: 3 (a new club has not shown consistency yet). A season with no
   regular season (NWSL 2020) is left out.
-Seasons are averaged with a 4-season half-life (last season weight 1, four seasons ago 0.5, nine ago 0.21);
+Seasons are averaged with a 2-season half-life (last season weight 1, two seasons ago 0.5, four ago 0.25; 4 until 2026-10-12);
 3 seasons until quiz round 4 (Kevin leans nostalgic: judges by the body of work, not the latest season).
 
 How much the record counts: affinity.py blends it with character (A0 = 100 x (Q/100)^(1-pi) x (P x 10/100)^pi), pi fitted
@@ -27,7 +27,7 @@ import json, pathlib
 
 root = pathlib.Path(__file__).resolve().parents[2]
 PERF = root / 'scripts' / 'affinity' / 'research' / 'perf'
-HALF_LIFE = 4
+HALF_LIFE = 2  # was 4; Kevin 2026-10-12: follow clubs 'competing for something' now (not dominating for years)
 EMPTY = 3.0
 TROPHY = {'league': 1.5, 'cup': 1.0, 'league_cup': 0.5, 'continental': 2.0, 'continental2': 1.0}
 # Band of tiers each app league is judged against. Clubs only in the Champions League: their own top flight.

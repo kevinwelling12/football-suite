@@ -25,8 +25,8 @@
  "perf_neutral": 5.0,
  "home_club": 4,
  "home_nation": 20,
- "heritage_per_pct": 0.4,
- "heritage_cap": 10,
+ "heritage_per_pct": 0.3,
+ "heritage_cap": 7.5,
  "fit": {
   "date": "2026-10-09",
   "items": 366,
@@ -42,5 +42,10 @@
  "club_heritage_cap": 5,
  "player_heritage_per_pct": 0.2,
  "player_heritage_cap": 5,
- "player_home_nation": 5
+ "player_home_nation": 5,
+ "hard_x": {
+  "racism": 1.25,
+  "pe": 0.7,
+  "multiclub": 0.7
+ }
 }

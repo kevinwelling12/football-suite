@@ -881,3 +881,11 @@ Scenarios (happiness 0-10):
     (tier-5 women's team, BoyleSports betting partner, recurring homophobic chanting with a 2023 FA fine and 16 fans reported
     after the April 2026 FA Cup semi-final; against cheap tickets, the membership freeze and Football v Homophobia award).
     Open: 5.7 alone, or 5.7 plus a discrimination hard line like Fiorentina's. Kevin: "leave as is for now". [CURRENT] 6.0.
+21. **Top-3 tiebreakers** (2026-10-12; 20 general trade-offs, answers in the "Top-3 Tiebreakers" artifact,
+    key in scripts/affinity/research/audit_top3/quiz_key.json). Kevin: "I want to follow teams that are competing for
+    something ... competing for trophies is not the same thing as dominating"; "I can put up with some bad ownership vibes
+    if they're still committed to putting a quality product on the pitch and being good stewards"; "Ties to Sacramento and
+    Northern California are a plus (except John Fisher)". [CURRENT] record half-life 4 -> 2 seasons (a higher record share
+    broke two deciders and flipped Timbers/Sounders); racism x1.25, private equity and multi-club x0.7 (params hard_x);
+    positive association links up (cap 5 -> 7), negative unchanged; nation ancestry 0.4 -> 0.3 per % (cap 7.5); John Fisher
+    (Athletics) full rival weight; Denmark and Norway Values 7.9; KC Current Values back to 8.0.

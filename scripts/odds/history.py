@@ -9,8 +9,7 @@ averages (MLS has closing only). Matched to tracker fixtures by date (+/-1 day) 
 import csv, io, json, pathlib, re, unicodedata, urllib.request, datetime
 root = pathlib.Path(__file__).resolve().parents[2]
 D = json.loads((root / 'data' / 'suite_data.json').read_text())
-FILES = {'epl': 'mmz4281/2627/E0.csv', 'ch': 'mmz4281/2627/E1.csv', 'bl': 'mmz4281/2627/D1.csv', 'esp': 'mmz4281/2627/SP1.csv',
-         'ita': 'mmz4281/2627/I1.csv', 'fra': 'mmz4281/2627/F1.csv', 'mls': 'new/USA.csv'}
+FILES = {'epl': 'mmz4281/2627/E0.csv', 'bl': 'mmz4281/2627/D1.csv', 'mls': 'new/USA.csv'}
 ALIAS = {'man united': 'manchester united', 'man city': 'manchester city', "nott'm forest": 'nottingham forest', 'wolves': 'wolverhampton wanderers',
          'tottenham': 'tottenham hotspur', 'newcastle': 'newcastle united', 'west ham': 'west ham united', 'brighton': 'brighton',
          'sheffield weds': 'sheffield wednesday', 'sheffield united': 'sheffield united', 'qpr': 'queens park rangers', 'west brom': 'west bromwich albion',

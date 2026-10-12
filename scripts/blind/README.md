@@ -40,3 +40,7 @@ Kevin: "do all four ... The goal here is to make it more accurate, not more tail
   Kevin: Liverpool, Real Madrid, Dortmund, Portland Timbers, Portland Thorns, Sacramento Republic; Serie A and Ligue 1
   "don't know". Result: Liverpool, Dortmund, Sacramento #1; Real Madrid #3 (was 9th); Timbers and Thorns #2.
 - validate.py on the day: club gut 80%, named club pairs 33%, nation gut 87%, named player pairs 52%, player gut r 0.40.
+
+## Six competitions (2026-10-12)
+The tracker now follows six competitions. The blind model still scores its full 355-entry pool with the leagues frozen in
+comps.json (the gut check and weights were fitted on it); live.py writes scores only for clubs the app still has.

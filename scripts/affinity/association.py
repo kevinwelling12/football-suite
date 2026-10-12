@@ -10,7 +10,7 @@ Each club moves that share of the gap toward its partner: pull = w * (partner - 
 A club's link weights add up to at most 15% (more links are scaled down, so they average instead of stacking),
 and the total is capped at +/-5.
 Direction (Kevin, 2026-09-28): a club always gains from a partner rated above it, but only loses to a partner
-rated below 50 (a club he dislikes). So Liverpool isn't dragged down by Mainz or Gladbach, while a friendship
+rated below 66 (a club he dislikes; 50 before the one-step scale). So Liverpool isn't dragged down by Mainz or Gladbach, while a friendship
 with Lazio or PSG still costs. It runs once, on the Affinity before any pull, so links don't feed back. A tie between two
 clubs that both carry a rival penalty is skipped (the rival penalty already covers them).
 Ownership ties are not links: multi-club networks have their own penalty.
@@ -23,7 +23,7 @@ W = {'strong': 0.15, 'medium': 0.08, 'light': 0.04}
 CAP = 7.0   # was 5; top-3 tiebreakers 2026-10-12: links to his other clubs should count 'a lot'
 MAX_W = 0.25  # was 0.15 (same answer)
 NEG_W, NEG_CAP = 0.15, 5.0   # pulls toward disliked clubs: unchanged
-DISLIKE = 50
+DISLIKE = 66   # one-step Affinity scale (2026-10-12; was 50)
 
 
 def load():

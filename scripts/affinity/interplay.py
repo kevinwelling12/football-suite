@@ -2,7 +2,7 @@
 
 Nations (club link): national-team squads at the 20 tournaments since 2016 (research/squads.json, parsed from
 Wikipedia by interplay/parse_squads.py). Each player counts by how Kevin rates his club: clubs above 63 Affinity
-count up to +1 (at 90), clubs below 35 down to -1 (at 15), everything between is neutral; captains count 1.5x.
+count up to +1 (at 89), clubs below 57 down to -1 (at 46), everything between is neutral; captains count 1.5x.
 Per squad the sum is scaled to 23 players; squads are averaged with a 4-year half-life (like the track record).
 bump = link / 3, capped at +/-2. Liverpool's four Dutch internationals (van Dijk captain) lift the Netherlands.
 
@@ -21,8 +21,8 @@ ALIAS = {'Brighton & Hove Albion F.C.': 'Brighton', 'Athletic Bilbao': 'Athletic
 SKIP = {'Barcelona S.C.', 'Juventus Next Gen', 'New York Red Bulls II'}
 def _norm(s): return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower())
 
-def g(aff):
-    return min(1.0, (aff - 63) / 27) if aff > 63 else max(-1.0, (aff - 35) / 20) if aff < 35 else 0.0
+def g(aff):   # thresholds on the one-step Affinity scale (2026-10-12; were 63 / 90 and 35 / 15)
+    return min(1.0, (aff - 73.5) / 15.5) if aff > 73.5 else max(-1.0, (aff - 57) / 11) if aff < 57 else 0.0
 
 def nation_links(aff, nations):
     """aff: club -> Affinity. -> {nation: (bump, [(club, players, contribution), ...] top contributors)}"""

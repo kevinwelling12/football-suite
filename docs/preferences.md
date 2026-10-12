@@ -905,3 +905,13 @@ Scenarios (happiness 0-10):
     the ends of their careers ... players I'll be able to follow for years to come at the top level"). [CURRENT] The active
     lists rank by Affinity + years ahead: +6 at 22 or younger, 0 at 28.5, -6 by 35 (goalkeepers count 3 years younger;
     params runway). Affinity itself and the all-time lists are unchanged.
+25. **Categories only** (2026-10-12, Kevin: "get rid of all the bonuses and penalties. I want the ratings to live entirely
+    within the categories and their weights ... It may also be okay to add a category or two ... K.I.S.S."). [CURRENT]
+    Affinity = 10 x the weighted average of eight ratings out of 10. Two new categories: Integrity (10 minus documented
+    wrongs; replaces every hard line) and Connection (5 plus connection and roots points; replaces the added connection
+    and roots); Record became a weighted category (was a geometric blend). Bonuses folded into Values (clubs) and
+    Character (players). Weights refit: clubs Integrity 32, Culture 13, Connection 13, Values 12, Record 11, Team 7,
+    History 7, Ownership 5; players Integrity 24, Team player 17, Character 15, Connection 11, Loyalty 9, Greatness 8,
+    Legacy 8, Joy 7. Folding hard lines into Values/Ownership alone was tried first and failed the backtest (deciders
+    9 of 19, club gut r 0.58: a club already at Ownership 0 had nothing left to lose). Backtest held or improved on six
+    of seven sets (club gut 23.8 -> 23.2 of 26); deciders all hold. Oakland Roots Values 10 -> 8.8.

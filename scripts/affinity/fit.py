@@ -1,19 +1,20 @@
-"""Fit the Affinity parameters (params.json) to Kevin's answers and backtest them (rebuild, 2026-10-09).
+"""Fit the Affinity weights (params.json) to Kevin's answers and backtest them (rebuilt 2026-10-09, categories only 2026-10-12).
 
   python3 scripts/affinity/fit.py            # fit on everything, backtest leave-one-round-out, print the report
-  python3 scripts/affinity/fit.py --write    # also save the fitted params.json
+  python3 scripts/affinity/fit.py --write    # also save the fitted weights to params.json
 
 Evidence (scripts/affinity/evidence): every round that has a clean label for the score itself.
 - Clubs: 26 gut ratings of described clubs (rounds 4-5), as pairwise orderings weighted by the gap in his rating;
-  28 choices between anonymous club profiles (rounds 4-5).
-- Players: 50 choices between anonymous player profiles (rounds 8-9); 15 controlled named pairs (round 10).
+  28 choices between anonymous club profiles (rounds 4-5). Nations: round 13 gut ratings and mystery pairs.
+- Players: 48 choices between anonymous player profiles (rounds 8-9); 15 controlled named pairs (round 10).
+- Deciders: Cascadia, German and Italian verdicts and scenario ratings.
 Checks only (confounded, see evidence/summary.md): round 6 named club pairs (familiarity), round 8 named player pairs
 (name recognition), round 7 player gut ratings, Timbers above Sounders.
 
-One likelihood for everything: P(a over b) = sigmoid(beta x (A_a - A_b)), A from affinity.py's own functions, so the
-fit sees exactly the model that runs. Club and player weights are pulled toward Kevin's stated weights (the prior),
-hard-line and connection scales toward 1 (as researched), the team performance share toward its current value.
-Player performance share stays 0.4: Kevin's decision (2026-10-07), reported but not refitted.
+One likelihood for everything: P(a over b) = sigmoid(beta x (A_a - A_b)), A from affinity.py's own functions. The
+weights are pulled toward a prior: Kevin's stated character weights, with Integrity, Record and Connection at the shares
+the old penalties, record blend and connection points carried. Only the eight weights per side (and the choice
+sharpness per set) are fitted; Integrity and Connection scales are fixed in the data (inputs.py, params k_per_point).
 """
 import json, math, pathlib, sys, copy
 import numpy as np
@@ -27,6 +28,11 @@ import load as E
 P0 = json.loads((A / 'params.json').read_text())
 ev = E.load()
 R, PL = M.run(P0, write=False)
+
+# Integrity in the quiz profiles: the same scale as the data (scores.py, 2026-10-12): 0.36 Integrity points per old
+# hard-line point for clubs and nations (racism x1.25), 0.267 for players.
+HX = dict(racism=1.25, pe=0.7, multiclub=0.7)
+def integ(hard, s=0.36): return max(0.0, round(10 - sum(round(s * x * HX.get(t, 1.0), 1) for t, _, x in hard), 1))
 
 # ---------------------------------------------------------------- evidence -> model inputs
 LV = dict(C=[3, 6, 9.5], V=[3, 6, 9.5], H=[1.5, 5.5, 10], O=[2, 6, 10], T=[3, 5.5, 9])
@@ -42,22 +48,23 @@ def club_profile(side, rnd):
     if a.get('BAGT') == 2: hard.append(('violence', 'Violence last season', 12.0))
     P = TRL[a['TR']] + (0.2 if a.get('TROPHY') == 2 else 0.0)
     conn = [('Distance', LOCL[a['LOC']])] if 'LOC' in a else []
-    return dict(f=f, hard=hard, P=P, conn=conn, roots=0)
+    f['I'] = integ(hard)
+    return dict(f=f, P=P, conn=conn, roots=0)
 
 def club_named(n):
-    r = R[n]; return dict(f=r['f'], hard=r['hard'], P=r['P']['P'] if r['P'] else None, conn=r['conn'], roots=r['roots'][1] if r['roots'] else 0, bonus=sum(x for _, x in r.get('bonus', [])))
+    r = R[n]; return dict(f=r['f'], P=r['P']['P'] if r['P'] else None, conn=r['conn'], roots=r['roots'][1] if r['roots'] else 0)
 
 def player_profile(side):
     v = side['values']
     f = {k: v[k] for k in ('CH', 'WK', 'LO', 'AB', 'LE', 'ST')}
-    hard = [('pe', 'Baggage', abs(v.get('PE', 0.0)) * 2.94)] if v.get('PE') else []
-    return dict(f=f, hard=hard, conn=[('Connection', v.get('CO', 0.0))] if v.get('CO') else [])
+    f['I'] = integ([('other', 'Baggage', abs(v.get('PE', 0.0)) * 2.94)], 0.267) if v.get('PE') else 10.0
+    return dict(f=f, conn=[('Connection', v.get('CO', 0.0))] if v.get('CO') else [], roots=0)
 
 def player_named(n):
-    pl = PL[n]; return dict(f=pl['factors'], hard=pl['hard'], conn=pl['conn'], bonus=sum(x for _, x in pl.get('bonus', [])))
+    pl = PL[n]; return dict(f=pl['factors'], conn=pl['conn'], roots=pl['roots'][1] if pl.get('roots') else 0)
 
-def club_A(x, p): return M.club_score(x['f'], x['hard'], x['P'], x['conn'], x['roots'], p, bonus=x.get('bonus', 0.0))[0]
-def player_A(x, p): return M.player_score(x['f'], x['hard'], x['conn'], p, bonus=x.get('bonus', 0.0))[0]
+def club_A(x, p): return M.club_score(x['f'], x['P'], x['conn'], x['roots'], p)[0]
+def player_A(x, p): return M.player_score(x['f'], x['conn'], p, x['roots'])[0]
 
 items = []   # (round, set, a, b, y, weight, scorer)
 gut = [(n, v, r['round']) for n, v, r in E.gut_clubs(ev) if n in R]
@@ -81,7 +88,8 @@ def nation_profile(lv):
     f['V'] = [3, 6, 9][lv['V']]
     hard = [('racism', 'Racist chants', 10.0)] if lv['V'] == 0 else []
     hard += [('government', 'Government', [0, 10.0, 25.0][lv['G']])] if lv['G'] else []
-    return dict(f=f, hard=hard, P=[1.5, 5.0, 8.5][lv['R']], conn=[], roots=[0, 2.0, 6.0][lv['A']])
+    f['I'] = integ(hard)
+    return dict(f=f, P=[1.5, 5.0, 8.5][lv['R']], conn=[], roots=[0, 2.0, 6.0][lv['A']])
 if (Q13 / 'raw' / 'responses' / 'kevin.json').exists():
     _a = json.loads((Q13 / 'raw' / 'responses' / 'kevin.json').read_text()); _a = _a.get('data', _a)['answers']
     _k = json.loads((Q13 / 'key.json').read_text())
@@ -95,7 +103,7 @@ if (Q13 / 'raw' / 'responses' / 'kevin.json').exists():
 # The two deciders (Cascadia 2026-09-29, German 2026-10-09): Kevin's verdicts (Portland over Seattle, Dortmund over Union)
 # and his 0-10 happiness with three future scenarios each, read as pairwise orderings. Round 'dec'.
 BASEF = dict(C=8, V=7, H=7, O=7, T=6)
-def scen(P, hard=(), **f): return dict(f={**BASEF, **f}, hard=list(hard), P=P, conn=[], roots=0)
+def scen(P, hard=(), **f): return dict(f={**BASEF, **f, 'I': integ(hard)}, P=P, conn=[], roots=0)
 SCEN = [  # (decider, rating, profile)
  ('cas', 8, scen(8.0, C=7)),                       # two trophies in five years, new suburban stadium
  ('cas', 6, scen(3.0, C=10)),                      # no trophies, old ground packed and loud
@@ -120,42 +128,33 @@ checks = dict(
 
 # ---------------------------------------------------------------- parameters
 SETS = ['club_gut', 'club_dce', 'player_profile', 'player_q10', 'nation_gut', 'nation_dce', 'decider']
-FREE_GOV = '--gov' in sys.argv  # test a separate weight for a government's record
+# Prior shares (%): character factors from Kevin's stated weights (the 2026-10-09 fit), Integrity, Record and Connection
+# at the shares the old hard lines, record blend and connection points carried.
+PRIOR = dict(club_w=dict(V=12.8, C=12.3, H=7.8, T=7.6, O=5.0, I=35.0, R=9.8, K=13.0),
+             player_w=dict(CH=14.1, WK=15.2, LO=9.0, AB=10.0, LE=8.9, ST=6.5, I=25.0, K=11.3))
+NC, NP = len(M.CLUB_F), len(M.PLAYER_F)
 def unpack(t, base=P0):
-    p = copy.deepcopy(base); i = 0
-    for k in M.CLUB_F: p['club_w'][k] = math.exp(t[i]); i += 1
-    for k in M.ROLE_F: p['player_w'][k] = math.exp(t[i]); i += 1
-    for k in M.PERF_F: p['perf_w'][k] = math.exp(t[i]); i += 1
-    p['club_pi'] = 0.3 / (1 + math.exp(-t[i])); i += 1
-    p['hard'] = math.exp(t[i]); i += 1
-    p['conn'] = math.exp(t[i]); i += 1
-    beta = {s: math.exp(t[i + j]) for j, s in enumerate(SETS)}; i += len(SETS)
-    if FREE_GOV: p['gov'] = math.exp(t[i])
+    p = copy.deepcopy(base)
+    p['club_w'] = {k: math.exp(t[i]) for i, k in enumerate(M.CLUB_F)}
+    p['player_w'] = {k: math.exp(t[NC + i]) for i, k in enumerate(M.PLAYER_F)}
+    beta = {s: math.exp(t[NC + NP + j]) for j, s in enumerate(SETS)}
     return p, beta
-def pack(p):
-    t = [math.log(p['club_w'][k]) for k in M.CLUB_F] + [math.log(p['player_w'][k]) for k in M.ROLE_F] + [math.log(p['perf_w'][k]) for k in M.PERF_F]
-    t += [math.log(p['club_pi'] / (0.3 - p['club_pi'])), math.log(p['hard']), math.log(p['conn'])] + [math.log(0.15)] * len(SETS) + [math.log(p.get('gov', 1.0))]
-    return np.array(t)
-T0 = pack(P0)
-NW = 11  # weights in t
-def normw(t):  # weights are scale-free within each group: centre them so the prior compares shapes
-    t = t.copy()
-    for a, b in ((0, 5), (5, 8), (8, 11)): t[a:b] -= t[a:b].mean()
-    return t
-LAM = dict(w=100.0, pi=4.0, hard=3.0, conn=3.0, beta=2.0)  # chosen by the leave-one-round-out sweep: Kevin's stated weights generalise best
+def pack(w):
+    return np.array([math.log(w['club_w'][k]) for k in M.CLUB_F] + [math.log(w['player_w'][k]) for k in M.PLAYER_F] + [math.log(0.15)] * len(SETS))
+T0 = pack(PRIOR)
+LAM = dict(w=10.0, beta=2.0)  # pull toward the prior shapes, and choice sharpness near 0.15 per point
+def cen(x): return x - x.mean()
 def loss(t, its):
     p, beta = unpack(t); L = 0.0
     for rnd, s, a, b, y, w, kind, _ in its:
         f = club_A if kind == 'club' else player_A
         z = beta[s] * (f(a, p) - f(b, p))
         L += w * (y * np.logaddexp(0, -z) + (1 - y) * np.logaddexp(0, z))
-    d = normw(t) - normw(T0)
-    L += LAM['w'] * float((d[:NW] ** 2).sum()) + LAM['pi'] * (t[NW] - T0[NW]) ** 2 + LAM['hard'] * (t[NW + 1] - T0[NW + 1]) ** 2 + LAM['conn'] * (t[NW + 2] - T0[NW + 2]) ** 2
-    L += LAM['beta'] * float(((t[NW + 3:NW + 3 + len(SETS)] - T0[NW + 3:NW + 3 + len(SETS)]) ** 2).sum())
-    L += 3.0 * (t[-1] - T0[-1]) ** 2  # choice sharpness stays near 0.15 per point
+    d = t - T0
+    L += LAM['w'] * float((cen(d[:NC]) ** 2).sum() + (cen(d[NC:NC + NP]) ** 2).sum()) + LAM['beta'] * float((d[NC + NP:] ** 2).sum())
     return L
 def fit(its):
-    r = minimize(loss, T0, args=(its,), method='L-BFGS-B', options=dict(maxiter=400))
+    r = minimize(loss, T0, args=(its,), method='L-BFGS-B', options=dict(maxiter=500))
     return r.x
 
 # ---------------------------------------------------------------- scoring held-out items
@@ -171,8 +170,8 @@ def evaluate(p, its):
 def fmt(e): return ', '.join(f"{s} {h:.1f}/{t:.1f} ({h / t:.0%})" for s, (h, t) in e.items())
 
 def check_report(p):
-    Rp = {n: M.club_score(r['f'], r['hard'], r['P']['P'] if r['P'] else None, r['conn'], r['roots'][1] if r['roots'] else 0, p, bonus=sum(x for _, x in r.get('bonus', [])))[0] for n, r in R.items()}
-    Pp = {n: M.player_score(pl['factors'], pl['hard'], pl['conn'], p, bonus=sum(x for _, x in pl.get('bonus', [])))[0] for n, pl in PL.items()}
+    Rp = {n: club_A(club_named(n), p) for n in R}
+    Pp = {n: player_A(player_named(n), p) for n in PL}
     q6 = sum((Rp[a] > Rp[b]) == (y > .5) for a, b, y in checks['q6'] if y != .5)
     q8 = sum((Pp[a] > Pp[b]) == (y > .5) for a, b, y in checks['q8'] if y != .5)
     g = [(Rp[n], v) for n, v, _ in gut]; q7 = [(Pp[n], v) for n, v in checks['q7']]
@@ -193,19 +192,14 @@ if __name__ == '__main__':
         for s, (h, t) in eo.items(): tot_old[s] = [a + b for a, b in zip(tot_old.get(s, [0, 0]), (h, t))]
     print('  total rebuilt:', fmt(tot_new)); print('  total current:', fmt(tot_old))
     t = fit(items); p, beta = unpack(t)
+    pct = lambda w: {k: round(v / sum(w.values()) * 100, 1) for k, v in w.items()}
     print('\nfit on everything:')
-    print('  club weights', {k: round(v / sum(p['club_w'].values()) * 100, 1) for k, v in p['club_w'].items()}, 'performance share', round(p['club_pi'], 3))
-    print('  player role', {k: round(v / sum(p['player_w'].values()) * 100, 1) for k, v in p['player_w'].items()},
-          'performance', {k: round(v / sum(p['perf_w'].values()) * 100, 1) for k, v in p['perf_w'].items()})
-    print('  hard-line scale', round(p['hard'], 2), 'connection scale', round(p['conn'], 2))
+    print('  club weights', pct(p['club_w'])); print('  player weights', pct(p['player_w']))
     print('  in-sample', fmt(evaluate(p, items)))
     print('  checks rebuilt', check_report(p)); print('  checks current', check_report(P0))
     if '--write' in sys.argv:
-        out = copy.deepcopy(p)
-        for g in ('club_w', 'player_w', 'perf_w'):
-            s = sum(out[g].values()); out[g] = {k: round(v / s * 100, 1) for k, v in out[g].items()}
-        for k in ('club_pi', 'hard', 'conn', 'gov'):
-            if k in out: out[k] = round(out[k], 3)
-        out['fit'] = dict(date='2026-10-09', items=len(items), checks=check_report(p))
+        out = copy.deepcopy(P0)
+        out['club_w'], out['player_w'] = pct(p['club_w']), pct(p['player_w'])
+        out['fit'] = dict(date='2026-10-12', items=len(items), checks=check_report(out))
         (A / 'params.json').write_text(json.dumps(out, indent=1))
         print('wrote params.json')

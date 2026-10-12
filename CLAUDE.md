@@ -57,7 +57,8 @@ claude.ai artifact; this repo is the transfer to Claude Code.
 - "Ship it" = take it live without asking: commit, push, open the PR and merge it to main (Pages deploys main).
 
 ## Where the logic lives
-- Affinity: one model for clubs, nations, players and leagues (rebuilt 2026-10-09). Spec and backtest: docs/affinity.md;
+- Affinity: one model for clubs, nations, players and leagues: 10 x the weighted average of eight ratings out of 10
+  (Integrity holds every documented wrong; no separate penalties or bonuses, since 2026-10-12). Spec and backtest: docs/affinity.md;
   Kevin's rules and judgements in his words: docs/preferences.md (read before changing the model). Run
   `python3 scripts/affinity/affinity.py` (scores everything, writes data/), refit with `python3 scripts/affinity/fit.py --write`
   (evidence in scripts/affinity/evidence). Factor scores: scripts/affinity/scores.py (+ USL in build_usl.py); players in

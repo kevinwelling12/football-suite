@@ -14,24 +14,24 @@ FULL={"Lexington SC":("Lexington SC","West","LEX","#2E8BC0"),"Louisville City":(
 SHORT={"Louisville City FC":"Louisville City","Charleston Battery":"Charleston","Pittsburgh Riverhounds":"Pittsburgh","Monterey Bay FC":"Monterey Bay","Oakland Roots SC":"Oakland Roots",
 "Sacramento Republic FC":"Sac Republic FC","Orange County SC":"Orange County","Las Vegas Lights FC":"Las Vegas Lights","Phoenix Rising FC":"Phoenix Rising","El Paso Locomotive FC":"El Paso",
 "Colorado Springs Switchbacks FC":"Colorado Springs","Birmingham Legion FC":"Birmingham Legion","Tampa Bay Rowdies":"Tampa Bay","Loudoun United FC":"Loudoun United","Detroit City FC":"Detroit City"}
-A={ # (Culture, Values, History, Ownership, Style, adj, note)
-"Sacramento Republic FC":(9.6,8.2,6.1,8,6,0,"Rules re-rate 2026-09-30: R2 Culture 9->10"),"Louisville City FC":(7.9,7,6.3,6.9,7,0,""),"Detroit City FC":(9,8,4.7,8.2,7,0,""),"Charleston Battery":(4.8,6,7.2,4.8,7,0,""),
-"Pittsburgh Riverhounds":(7.2,6,6.2,6.3,7,0,""),"Tampa Bay Rowdies":(5.9,6,6.8,5,6,0,""),"Indy Eleven":(7.1,6.2,5,3.8,5,0,""),"Hartford Athletic":(4.8,6,3.9,5,6,0,""),"Birmingham Legion FC":(3.8,6,3.2,5,4,0,""),
-"Miami FC":(0.8,6,3.1,2.9,3,0,""),"Rhode Island FC":(6.9,6,2.2,6,5,0,""),"Loudoun United FC":(2,6.1,1.7,4,3,0,""),"Brooklyn FC":(3,7.1,1,4.8,3,0,""),
-"Sporting JAX":(2.8,7,1,4.8,2,0,"Rules re-rate 2026-09-30: R2 Culture 2->3"),"Lexington SC":(4.8,7,1.2,6.2,5,0,""),"Monterey Bay FC":(4,6,2,5,3,0,""),"Oakland Roots SC":(6,10,3.6,5.8,5,0,""),"FC Tulsa":(4.8,6,3.7,5,6,0,""),
-"Orange County SC":(4.2,6,4.2,5.2,5,0,""),"Las Vegas Lights FC":(2.8,6,2,3.8,4,0,""),"San Antonio FC":(6,6,4.1,6,6,0,""),"Phoenix Rising FC":(4.8,5.4,4.3,5,5,0,""),"El Paso Locomotive FC":(5,6,3.2,5,6,0,""),
-"Colorado Springs Switchbacks FC":(6,6,4.1,6.2,6,0,""),"New Mexico United":(8.7,7.4,3.9,7,6,0,"Rules re-rate 2026-09-30: R4 Values 8->7, R2 Culture 8->9")}
+A={ # (Culture, Values, History, Ownership, Team, Integrity, note)
+"Sacramento Republic FC":(9.6,8.2,6.1,8,6,10,"Rules re-rate 2026-09-30: R2 Culture 9->10"),"Louisville City FC":(7.9,7,6.3,6.9,7,10,""),"Detroit City FC":(9,8,4.7,8.2,7,10,""),"Charleston Battery":(4.8,6,7.2,4.8,7,10,""),
+"Pittsburgh Riverhounds":(7.2,6,6.2,6.3,7,10,""),"Tampa Bay Rowdies":(5.9,6,6.8,5,6,10,""),"Indy Eleven":(7.1,6.2,5,3.8,5,10,""),"Hartford Athletic":(4.8,6,3.9,5,6,10,""),"Birmingham Legion FC":(3.8,6,3.2,5,4,10,""),
+"Miami FC":(0.8,6,3.1,2.9,3,10,""),"Rhode Island FC":(6.9,6,2.2,6,5,10,""),"Loudoun United FC":(2,6.1,1.7,4,3,10,""),"Brooklyn FC":(3,7.1,1,4.8,3,10,""),
+"Sporting JAX":(2.8,7,1,4.8,2,10,"Rules re-rate 2026-09-30: R2 Culture 2->3"),"Lexington SC":(4.8,7,1.2,6.2,5,10,""),"Monterey Bay FC":(4,6,2,5,3,10,""),"Oakland Roots SC":(6,8.8,3.6,5.8,5,10,"Values 10->8.8 2026-10-12: a Common Goal pledge and justice fund sit with Freiburg and Union Berlin; 10 is for clubs their fans saved"),"FC Tulsa":(4.8,6,3.7,5,6,10,""),
+"Orange County SC":(4.2,6,4.2,5.2,5,10,""),"Las Vegas Lights FC":(2.8,6,2,3.8,4,10,""),"San Antonio FC":(6,6,4.1,6,6,10,""),"Phoenix Rising FC":(4.8,5.4,4.3,5,5,10,""),"El Paso Locomotive FC":(5,6,3.2,5,6,10,""),
+"Colorado Springs Switchbacks FC":(6,6,4.1,6.2,6,10,""),"New Mexico United":(8.7,7.4,3.9,7,6,10,"Rules re-rate 2026-09-30: R4 Values 8->7, R2 Culture 8->9")}
 W={'C':.26,'V':.26,'H':.14,'O':.12,'S':.12}
 names=sorted(FULL[k][0] for k in FULL); idx={n:i for i,n in enumerate(names)}
 teams=[]
 for n in names:
     key=[k for k,v in FULL.items() if v[0]==n][0]; full,conf,ab,col=FULL[key]
-    C,V,H,O,St,adj,note=A[n]
-    base=max(0,round((W['C']*C+W['V']*V+W['H']*H+W['O']*O+W['S']*St)/0.90*10+adj,1))
+    C,V,H,O,St,integ,note=A[n]  # base is rescored by scripts/affinity/affinity.py
+    base=max(0,round((W['C']*C+W['V']*V+W['H']*H+W['O']*O+W['S']*St)/0.90*10,1))
     # Hometown rule: the club of the city you've lived in all your life gets the full club heritage cap (+4)
     bonus=4.0 if n=='Sacramento Republic FC' else 0
     teams.append(dict(name=n,short=SHORT.get(n,n),abbr=ab,color=col,group=conf,pa=1.0,pd=1.0,base=base,bonus=bonus,bonus0=bonus/0.4,
-        region='Hometown club: Sacramento' if bonus else '',drivers='',hai=dict(C=C,V=V,H=H,O=O,S=St,adj=adj,note=note)))
+        region='Hometown club: Sacramento' if bonus else '',drivers='',hai=dict(C=C,V=V,H=H,O=O,S=St,I=integ,note=note)))
 key2idx={k:idx[v[0]] for k,v in FULL.items()}
 fix=[];kick={}
 for wk,d,pt,h,hs,as_,a in rows:

@@ -1,22 +1,18 @@
-"""Affinity: one model for every club, women's club, nation and player (rebuild, 2026-10-09).
+"""Affinity: one model for every club, women's club, nation and player (rebuilt 2026-10-09, categories only 2026-10-12).
 
   python3 scripts/affinity/affinity.py          # score everything, write data/suite_data.json, nations_extra.json, players.json
-  python3 scripts/affinity/fit.py               # refit params.json to Kevin's quiz answers and backtest it
+  python3 scripts/affinity/fit.py               # refit the weights to Kevin's quiz answers and backtest them
 
-How a score is made (the same four steps for everything):
+One step: Affinity = 10 x the weighted average of eight ratings out of 10 (weights in params.json, fitted by fit.py).
+  clubs and nations  Values, Culture, History, Team, Ownership, Integrity, Record, Connection
+  players            Character, Team player, Loyalty, Greatness, Legacy, Joy to watch, Integrity, Connection
+Integrity is 10 for a clean record, docked by documented wrongs (inputs.py). Record is the track record (a club's last
+10 seasons, a nation's ranking and tournaments; 5 when not judged). Connection is 5 when there is none, moved by
+k_per_point per connection point (distance, Kevin's other teams, rival markets, linked clubs, a player's clubs) and roots
+(hometown, home nation, ancestry), within 0-10. No penalties or bonuses outside the ratings (Kevin, 2026-10-12: "I want
+the ratings to live entirely within the categories and their weights").
 
-  1. Character  Q = weighted average of the character factors x 10              (0-100)
-                clubs and nations: Values, Culture, History, Team, Ownership; players: Character, Team player, Loyalty
-  2. Hard lines Q+ = Q - hard x (sum of hard-line points), floored at 0          (no cap: several can take Q to 0)
-  3. Performance R = recent record 0-10 x 10: a club's last 10 seasons, a nation's ranking and tournaments, a player's
-                Greatness, Legacy and Joy to watch. Blended geometrically: A0 = 100 x (Q+/100)^(1-pi) x (R/100)^pi,
-                so a weak side drags the total down. pi is small for teams (Kevin: winning matters little) and 0.4 for
-                players ("all while delivering performances worthy of the highlight reels and the history books").
-  4. Connection A = A0 + conn x (sum of connection items, capped) + roots
-                connection: distance, Kevin's other teams, rival markets, linked clubs, brand pulls, club seasons (players);
-                roots: hometown club, home nation, ancestry (nations).
-
-Parameters live in params.json (fitted by fit.py); measurements come from inputs.py.
+Measurements come from inputs.py.
 """
 import json, math, pathlib, sys
 root = pathlib.Path(__file__).resolve().parents[2]
@@ -26,55 +22,35 @@ import inputs as I
 
 PARAMS = json.loads((A / 'params.json').read_text())
 NOW_YEAR = 2026
-CLUB_F = ('V', 'C', 'H', 'T', 'O')
-ROLE_F = ('CH', 'WK', 'LO')
-PERF_F = ('AB', 'LE', 'ST')
+CLUB_F = ('V', 'C', 'H', 'T', 'O', 'I', 'R', 'K')
+PLAYER_F = ('CH', 'WK', 'LO', 'AB', 'LE', 'ST', 'I', 'K')
 
 # ---------------------------------------------------------------- the model
-def character(f, w):
+def weighted(f, w):
     return sum(w[k] * f[k] for k in w) / sum(w.values()) * 10
 
-def blend(Q, hard_pts, R, pi, p=PARAMS):
-    """Steps 2 and 3. R None -> neutral record."""
-    q = max(0.0, min(100.0, Q - p['hard'] * hard_pts))
-    r = 10 * max(p['perf_floor'], min(10.0, p['perf_neutral'] if R is None else R))
-    if q <= 0: return 0.0, q
-    return 100 * (q / 100) ** (1 - pi) * (r / 100) ** pi, q
+def connection(items, roots=0.0, p=PARAMS):
+    """Connection out of 10: 5 = none; each point of connection items (capped) and roots moves it k_per_point."""
+    raw = max(-p['conn_cap'], min(p['conn_cap'], sum(v for _, v in items)))
+    return round(max(0.0, min(10.0, 5 + p['k_per_point'] * (raw + roots))), 2)
 
-def connect(items, p=PARAMS):
-    raw = sum(v for _, v in items)
-    return max(-p['conn_cap'], min(p['conn_cap'], p['conn'] * raw))
+def record(P, p=PARAMS):
+    return p['record_neutral'] if P is None else max(0.0, min(10.0, P))
 
-def hard_points(hard, p=PARAMS):
-    """Sum of hard-line points before the scale; a government's record weighs gov x its points (nations quiz, round 13)."""
-    return sum(x[2] * hard_x(x[0], p) for x in hard)
+def club_score(f, P, conn_items, roots, p=PARAMS):
+    g = dict(f, R=record(P, p), K=connection(conn_items, roots, p))
+    return max(0.0, min(100.0, weighted(g, p['club_w']))), g
 
-def hard_x(t, p=PARAMS):
-    """Per-type weight on a hard line: gov (nations quiz, round 13), plus hard_x from the top-3 tiebreakers (2026-10-12:
-    racism weighs more than fan violence; private equity and multi-club less when the owners are good stewards)."""
-    return p.get('gov', 1.0) if t == 'government' else p.get('hard_x', {}).get(t, 1.0)
-
-def club_score(f, hard, P, conn_items, roots, p=PARAMS, pi=None, bonus=0.0):
-    Q = character(f, p['club_w']); B = p.get('bonus_scale', 1.0) * bonus   # bonuses: exceptional good work
-    a0, q = blend(Q + B, hard_points(hard, p), P, p['club_pi'] if pi is None else pi, p)
-    k = connect(conn_items, p)
-    if q <= 0: return 0.0, dict(Q=round(Q, 1), Qh=0.0, A0=0.0, K=0.0)  # hard lines took everything: nothing left to connect
-    return max(0.0, min(100.0, a0 + k + roots)), dict(Q=round(Q, 1), Qh=round(q, 1), A0=round(a0, 1), K=round(k, 1))
-
-def player_score(f, hard, conn_items, p=PARAMS, roots=0, bonus=0.0):
-    Q = character(f, p['player_w']); B = p.get('bonus_scale', 1.0) * bonus
-    R = sum(p['perf_w'][k] * f[k] for k in PERF_F) / sum(p['perf_w'].values())
-    a0, q = blend(Q + B, sum(x[2] for x in hard), R, p['player_pi'], p)
-    k = connect(conn_items, p)
-    if q <= 0: return 0.0, dict(Q=round(Q, 1), Qh=0.0, R=round(R * 10, 1), A0=0.0, K=0.0)
-    return max(0.0, min(100.0, a0 + k + roots)), dict(Q=round(Q, 1), Qh=round(q, 1), R=round(R * 10, 1), A0=round(a0, 1), K=round(k, 1))
+def player_score(f, conn_items, p=PARAMS, roots=0):
+    g = dict(f, K=connection(conn_items, roots, p))
+    return max(0.0, min(100.0, weighted(g, p['player_w']))), g
 
 # ---------------------------------------------------------------- connection for players: the clubs they played for
 def per_season(a):
-    """Kevin, 2026-10-07: "base it solely on Affinity rating, not my stated favourites". 50 is neutral; up to +0.6 a
-    season at 85+, down to -0.6 at 20 or below."""
+    """Kevin, 2026-10-07: "base it solely on Affinity rating, not my stated favourites". 66 is neutral; up to +0.6 a
+    season at 86+, down to -0.6 at 48 or below (the old 50 / 85 / 20 on the one-step scale, 2026-10-12)."""
     if a is None: return 0.0
-    return min(0.6, 0.6 * (a - 50) / 35) if a >= 50 else max(-0.6, -0.3 * (50 - a) / 15)
+    return min(0.6, 0.6 * (a - 66) / 20) if a >= 66 else max(-0.6, -0.3 * (66 - a) / 9)
 
 def player_conn(pl, club_aff, club_aff_w):
     import re
@@ -112,15 +88,14 @@ def run(p=PARAMS, write=True):
     # players first, without connection (their clubs aren't scored yet; connection is added at the end)
     PL = I.players()
     for n, pl in PL.items():
-        pl['bonus'] = I.PLAYER_BONUS.get(n, [])
-        pl['a_nc'], _ = player_score(pl['factors'], pl['hard'], [], p, bonus=sum(x for _, x in pl['bonus']))
+        pl['a_nc'], _ = player_score(pl['factors'], [], p)
     bumps = players_link.bumps(D, {n: (pl['a_nc'], pl['facts']) for n, pl in PL.items()})
     dom = interplay.domestic({n: I.perf.primary(cs) for n, cs in comps.items() if n not in nations})
 
     # clubs
     R = {}
     for n in clubs:
-        f, hard, notes = I.club_measures(n)
+        f, items, notes = I.club_measures(n)
         f0 = dict(f); sub = {}
         if n in dom:
             b, sh, m = dom[n]; f['T'] = round(min(10, max(0, f['T'] + b)), 1); sub['dom'] = [b, sh, m]
@@ -133,11 +108,10 @@ def run(p=PARAMS, write=True):
         rg = I.CLUB_REGION.get(n)
         roots = (('Hometown', p['home_club']) if n == I.HOMETOWN else
                  (f'Heritage: {rg} {I.REGION_PCT[rg]}%', round(min(p['club_heritage_cap'], p['club_heritage_per_pct'] * I.REGION_PCT[rg]), 1)) if rg else None)
-        R[n] = dict(f=f, f0=f0, sub=sub, hard=hard, notes=notes, P=P, conn=conn, roots=roots, bonus=I.CLUB_BONUS.get(n, []))
+        R[n] = dict(f=f, f0=f0, sub=sub, items=items, notes=notes, P=P, conn=conn, roots=roots)
     def score_club(n, extra=()):
         r = R[n]
-        return club_score(r['f'], r['hard'], r['P']['P'] if r['P'] else None, list(r['conn']) + list(extra),
-                          r['roots'][1] if r['roots'] else 0, p, bonus=sum(x for _, x in r.get('bonus', [])))
+        return club_score(r['f'], r['P']['P'] if r['P'] else None, list(r['conn']) + list(extra), r['roots'][1] if r['roots'] else 0, p)
     pre = {n: score_club(n)[0] for n in clubs}
     links = association.pulls(pre, set())
     for n in clubs:
@@ -148,15 +122,15 @@ def run(p=PARAMS, write=True):
     club_aff = {n: R[n]['A'] for n in clubs}
     NL = interplay.nation_links(club_aff, nations)
     for n in nations:
-        f, hard, notes = I.club_measures(n); f0 = dict(f); sub = {}
+        f, items, notes = I.club_measures(n); f0 = dict(f); sub = {}
         if n in NL:
             b, top = NL[n]; f['T'] = round(min(10, max(0, f['T'] + b)), 1); sub['clubs'] = [[c, k, v] for c, k, v in top]; sub['tb'] = b
         P = I.nation_perf(n)
         if n == I.HOME_NATION: roots = ('Home nation', p['home_nation'])
         elif I.HERITAGE.get(n): roots = ('Heritage', round(min(p['heritage_cap'], p['heritage_per_pct'] * I.HERITAGE[n]), 1))
         else: roots = None
-        R[n] = dict(f=f, f0=f0, sub=sub, hard=hard, notes=notes, P=P, conn=[], roots=roots, nation=True)
-        R[n]['A'], R[n]['parts'] = club_score(f, hard, P['P'] if P else None, [], roots[1] if roots else 0, p)
+        R[n] = dict(f=f, f0=f0, sub=sub, items=items, notes=notes, P=P, conn=[], roots=roots, nation=True)
+        R[n]['A'], R[n]['parts'] = club_score(f, P['P'] if P else None, [], roots[1] if roots else 0, p)
 
     # players: connection from the clubs just scored
     CA, CW = {}, {}
@@ -170,18 +144,25 @@ def run(p=PARAMS, write=True):
         sh = I.nation_share(nat)
         if nat in ('USA', I.HOME_NATION): pl['roots'] = ('Home nation: United States', p['player_home_nation'])   # Kevin, 2026-10-12: level with England
         else: pl['roots'] = (f'Heritage: {nat} {round(sh) if sh >= 1 else round(sh, 1)}%', round(min(p['player_heritage_cap'], p['player_heritage_per_pct'] * sh), 1)) if sh else None
-        pl['A'], pl['parts'] = player_score(pl['factors'], pl['hard'], pl['conn'], p, pl['roots'][1] if pl['roots'] else 0, bonus=sum(x for _, x in pl['bonus']))
+        pl['A'], pl['parts'] = player_score(pl['factors'], pl['conn'], p, pl['roots'][1] if pl['roots'] else 0)
     if write: write_out(D, X, R, PL, p)
     return R, PL
 
 # ---------------------------------------------------------------- outputs (shapes the app reads)
+def roots_gain(r, p):
+    """Affinity points that roots (hometown, home nation, ancestry) add through Connection: shown apart in the lists."""
+    if not r['roots']: return 0.0
+    g = r['parts']; w = p['club_w']
+    k0 = connection(r['conn'], 0, p)
+    return round(w['K'] * (g['K'] - k0) / sum(w.values()) * 10, 1)
+
 def hai(r, p):
-    f = r['f']; parts = r['parts']
-    h = dict(C=f['C'], V=f['V'], H=f['H'], O=f['O'], S=f['T'], Q=parts['Q'], A0=parts['A0'],
-             hard=[[l, -round(p['hard'] * x * hard_x(t, p), 1)] for t, l, x in r['hard']],
-             conn=[[l, round(v, 1)] for l, v in r['conn'] if round(v, 1)], K=parts['K'])
-    if r['f0']['T'] != f['T']: h['S0'] = r['f0']['T']
-    if r['f0']['H'] != f['H']: h['H0'] = r['f0']['H']
+    g = r['parts']
+    h = dict(C=g['C'], V=g['V'], H=g['H'], O=g['O'], S=g['T'], I=g['I'], R=g['R'], K=g['K'],
+             items=[[l, -x] for l, x in r['items']], conn=[[l, round(v, 1)] for l, v in r['conn'] if round(v, 1)])
+    if r['roots']: h['roots'] = [r['roots'][0], r['roots'][1]]
+    if r['f0']['T'] != g['T']: h['S0'] = r['f0']['T']
+    if r['f0']['H'] != g['H']: h['H0'] = r['f0']['H']
     if r['P']:
         h['P'] = r['P']['P']
         for k in ('ps', 'pl', 'rank', 'wc2026', 'cont'):
@@ -191,7 +172,6 @@ def hai(r, p):
     if 'clubs' in r['sub']: h['tb'], h['clubs'] = r['sub']['tb'], r['sub']['clubs']
     if r['notes']: h['notes'] = r['notes']
     if r['roots'] and not r.get('nation'): h['rl'] = r['roots'][0]
-    if r.get('bonus'): h['bonus'] = [[l, round(p.get('bonus_scale', 1.0) * x, 1)] for l, x in r['bonus']]
     return h
 
 def write_out(D, X, R, PL, p):
@@ -199,13 +179,13 @@ def write_out(D, X, R, PL, p):
         for t in comp['teams']:
             r = R.get(t['name'])
             if not r: continue
-            bonus = r['roots'][1] if r['roots'] else 0
+            bonus = roots_gain(r, p)   # 'bonus' = what roots add (drawn apart in the lists); base + bonus = Affinity
             t['base'] = round(r['A'] - bonus, 1); t['bonus'] = bonus
             if key == 'unl' and r['roots']: t['region'] = r['roots'][0]
             t['hai'] = hai(r, p)
             t.pop('bonus0', None)
     for t in X['teams'] + X.get('clubs', []):
-        r = R[t['name']]; bonus = r['roots'][1] if r['roots'] else 0
+        r = R[t['name']]; bonus = roots_gain(r, p)
         t['base'] = round(r['A'] - bonus, 1); t['bonus'] = bonus; t['hai'] = hai(r, p)
         if r['roots'] and r.get('nation'): t['region'] = r['roots'][0]
     (root / 'data' / 'suite_data.json').write_text(json.dumps(D, ensure_ascii=False, separators=(',', ':')))
@@ -234,21 +214,21 @@ def write_players(PL, p):
         clubs = []
         for c in sorted(f.get('clubs', []), key=lambda c: c.get('from') or 0):
             if c.get('club') and c['club'] not in clubs and not re.search(r'\b(II|B|U\d+|youth|academy)\b', c['club'], re.I): clubs.append(c['club'])
-        e = dict(n=n, a=round(pl['A'], 1), f=[s[k] for k in ('CH', 'WK', 'LO', 'AB', 'ST', 'LE')], c=pl['parts']['K'],
-                 p=-round(p['hard'] * sum(x[2] for x in pl['hard']), 1), rm=pl['parts']['Qh'], pf=pl['parts']['R'],
+        gp = pl['parts']
+        e = dict(n=n, a=round(pl['A'], 1), f=[round(gp[k], 1) for k in ('CH', 'WK', 'LO', 'AB', 'ST', 'LE', 'I', 'K')],
                  nat=(f.get('national') or {}).get('team') or f.get('nation'), pos='/'.join(f.get('positions') or []), clubs=clubs[-2:],
                  why=re.sub(r'\(?\banchors?\b\)?\s*', '', s.get('why', ''))[:240],
-                 pen=[f"{l}: {w}"[:90] for _, l, _, w in pl['hard']][:3],
+                 pen=[[f"{l}: {w}"[:90], -x] for _, l, x, w in pl['items']][:4], cn=[[l, v] for l, v in pl['conn']],
                  nw=next((c['club'] for c in f.get('clubs', []) if not c.get('to') and NWSL.search(c.get('club') or '')), None))
-        if pl.get('roots') and pl['parts']['Qh'] > 0: e['h'] = pl['roots'][1]; e['hl'] = pl['roots'][0]
-        if pl.get('bonus'): e['bn'] = [[l, round(p.get('bonus_scale', 1.0) * x, 1)] for l, x in pl['bonus']]
+        if pl.get('roots'): e['h'] = pl['roots'][1]; e['hl'] = pl['roots'][0]
+        if s.get('CH_values'): e['cv'] = s['CH_values']
         g = 'w' if pl['gender'] in ('F', 'female', 'w', 'W') else 'm'
         if len(L[g + 't']) < SIZE[g + 't']: L[g + 't'].append(e)
         if pl['active']:   # the active lists rank by Affinity plus the years ahead at the top level
             ya = runway(f, p) if pl['A'] > 0 else 0.0
             act.setdefault(g + 'a', []).append(dict(e, a=round(pl['A'] + ya, 1), aff=round(pl['A'], 1), ya=ya))
-        ratings.append(dict(name=n, gender=pl['gender'], active=pl['active'], aff=round(pl['A'], 1), **pl['parts'],
-                            conn=pl['conn'], hard=[[l, x] for _, l, x, _ in pl['hard']], roots=pl.get('roots'), bonus=pl.get('bonus')))
+        ratings.append(dict(name=n, gender=pl['gender'], active=pl['active'], aff=round(pl['A'], 1), **{k: round(v, 2) for k, v in gp.items()},
+                            conn=pl['conn'], integrity=[[l, x] for _, l, x, _ in pl['items']], roots=pl.get('roots')))
     for k, xs in act.items(): L[k] = sorted(xs, key=lambda e: -e['a'])[:SIZE[k]]
     (root / 'data' / 'players.json').write_text(json.dumps(L, ensure_ascii=False, separators=(',', ':')))
     (A / 'players' / 'ratings.json').write_text(json.dumps(ratings, ensure_ascii=False, indent=1))

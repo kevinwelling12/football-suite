@@ -61,17 +61,17 @@
     "V": 3.8,
     "H": 6.3,
     "O": 2,
-    "S": 4.6,
-    "Q": 56.3,
-    "A0": 19.6,
-    "hard": [
+    "S": 4.5,
+    "I": 2.8,
+    "R": 6.2,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -39.6
+      -7.2
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 5,
     "P": 6.2,
     "rank": 28,
@@ -80,7 +80,7 @@
      "event": "AFCON 2025",
      "result": "quarter-finals"
     },
-    "tb": -0.4,
+    "tb": -0.5,
     "clubs": [
      [
       "Nice",
@@ -95,17 +95,17 @@
      [
       "Borussia Dortmund",
       3,
-      0.15
+      0.14
      ],
      [
       "Paris FC",
       3,
-      -0.04
+      -0.03
      ]
     ]
    },
-   "base": 19.6,
-   "bonus": 0,
+   "base": 47.4,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -119,17 +119,17 @@
     "V": 2.7,
     "H": 10.0,
     "O": 1.8,
-    "S": 7.5,
-    "Q": 66.3,
-    "A0": 41.3,
-    "hard": [
+    "S": 7.4,
+    "I": 4.6,
+    "R": 9.7,
+    "K": 5.0,
+    "items": [
      [
       "Racism",
-      -29.7
+      -5.4
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 9,
     "P": 9.7,
     "rank": 2,
@@ -138,12 +138,12 @@
      "event": "Copa América 2024",
      "result": "champions"
     },
-    "tb": -1.5,
+    "tb": -1.6,
     "clubs": [
      [
       "Atlético Madrid",
       14,
-      -0.76
+      -0.85
      ],
      [
       "Manchester City",
@@ -158,12 +158,12 @@
      [
       "Inter Miami CF",
       3,
-      -0.18
+      -0.15
      ]
     ]
    },
-   "base": 41.3,
-   "bonus": 0,
+   "base": 61.3,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -178,11 +178,11 @@
     "H": 5.3,
     "O": 6,
     "S": 7.2,
-    "Q": 64.4,
-    "A0": 64.8,
-    "hard": [],
+    "I": 10.0,
+    "R": 6.7,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 7,
     "P": 6.7,
     "rank": 26,
@@ -196,27 +196,27 @@
      [
       "New York City Football Club",
       2,
-      -0.22
+      -0.2
      ],
      [
       "Heart of Midlothian",
       6,
-      0.18
+      0.17
      ],
      [
       "Celtic",
       4,
-      0.07
+      0.08
      ],
      [
       "Hibernian",
       5,
-      0.04
+      0.05
      ]
     ]
    },
-   "base": 64.8,
-   "bonus": 0,
+   "base": 74.5,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -230,12 +230,12 @@
     "V": 5.2,
     "H": 10.0,
     "O": 2.8,
-    "S": 3.9,
-    "Q": 57.6,
-    "A0": 59.6,
-    "hard": [],
+    "S": 3.8,
+    "I": 10.0,
+    "R": 7.6,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 5,
     "P": 7.6,
     "rank": 6,
@@ -244,7 +244,7 @@
      "event": "Copa América 2024",
      "result": "quarter-finals"
     },
-    "tb": -1.1,
+    "tb": -1.2,
     "clubs": [
      [
       "Paris Saint-Germain",
@@ -259,7 +259,7 @@
      [
       "Liverpool",
       11,
-      0.3
+      0.24
      ],
      [
       "Newcastle United",
@@ -268,8 +268,8 @@
      ]
     ]
    },
-   "base": 59.6,
-   "bonus": 0,
+   "base": 72.1,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -283,12 +283,12 @@
     "V": 5.7,
     "H": 4.1,
     "O": 4.2,
-    "S": 8.2,
-    "Q": 57.6,
-    "A0": 58.5,
-    "hard": [],
+    "S": 8.3,
+    "I": 10.0,
+    "R": 6.6,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 8,
     "P": 6.6,
     "rank": 27,
@@ -297,32 +297,32 @@
      "event": "Gold Cup 2025",
      "result": "quarter-finals"
     },
-    "tb": 0.2,
+    "tb": 0.3,
     "clubs": [
      [
       "Portland Timbers",
       5,
-      0.14
+      0.13
      ],
      [
       "Bayern Munich",
       4,
-      0.13
+      0.11
+     ],
+     [
+      "Celtic",
+      3,
+      0.07
      ],
      [
       "Nice",
       1,
       -0.07
-     ],
-     [
-      "Inter Miami CF",
-      2,
-      -0.07
      ]
     ]
    },
-   "base": 58.5,
-   "bonus": 0,
+   "base": 71.6,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -337,11 +337,11 @@
     "H": 4.2,
     "O": 5,
     "S": 8.2,
-    "Q": 65.0,
-    "A0": 61.6,
-    "hard": [],
+    "I": 10.0,
+    "R": 4.2,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 8,
     "P": 4.2,
     "rank": 68,
@@ -355,7 +355,7 @@
      [
       "Shamrock Rovers",
       3,
-      0.13
+      0.14
      ],
      [
       "Columbus Crew",
@@ -366,16 +366,11 @@
       "Rayo Vallecano",
       1,
       0.01
-     ],
-     [
-      "Philadelphia Union",
-      1,
-      0.0
      ]
     ]
    },
-   "base": 61.6,
-   "bonus": 0,
+   "base": 72.2,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -390,20 +385,20 @@
     "H": 6.2,
     "O": 2.7,
     "S": 8.3,
-    "Q": 62.5,
-    "A0": 37.5,
-    "hard": [
+    "I": 4.9,
+    "R": 7.2,
+    "K": 5.0,
+    "items": [
      [
       "Racism",
-      -12.4
+      -2.2
      ],
      [
       "Fan violence",
-      -15.9
+      -2.9
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 8,
     "P": 7.2,
     "rank": 11,
@@ -417,16 +412,16 @@
      [
       "Bayern Munich",
       3,
-      0.09
-     ],
-     [
-      "Liverpool",
-      1,
-      0.05
+      0.08
      ],
      [
       "Crystal Palace",
       4,
+      0.06
+     ],
+     [
+      "Liverpool",
+      1,
       0.04
      ],
      [
@@ -436,8 +431,8 @@
      ]
     ]
    },
-   "base": 37.5,
-   "bonus": 0,
+   "base": 58.1,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -452,11 +447,11 @@
     "H": 2.8,
     "O": 3.8,
     "S": 5.0,
-    "Q": 47.7,
-    "A0": 46.5,
-    "hard": [],
+    "I": 10.0,
+    "R": 3.9,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "P": 3.9,
     "rank": 80,
     "wc2026": "group stage",
@@ -469,7 +464,7 @@
      [
       "Miami FC",
       2,
-      -0.07
+      -0.06
      ],
      [
       "PSV Eindhoven",
@@ -478,8 +473,8 @@
      ]
     ]
    },
-   "base": 46.5,
-   "bonus": 0,
+   "base": 64.2,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -494,16 +489,16 @@
     "H": 6.1,
     "O": 3,
     "S": 7.0,
-    "Q": 64.5,
-    "A0": 27.5,
-    "hard": [
+    "I": 2.8,
+    "R": 5.6,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -39.6
+      -7.2
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "P": 5.6,
     "rank": 40,
     "wc2026": "round of 32",
@@ -519,24 +514,24 @@
       -0.11
      ],
      [
+      "West Ham United",
+      3,
+      -0.04
+     ],
+     [
       "Lens",
       1,
       0.04
      ],
      [
-      "VfB Stuttgart",
-      2,
+      "Celtic",
+      1,
       0.04
-     ],
-     [
-      "West Ham United",
-      3,
-      -0.04
      ]
     ]
    },
-   "base": 27.5,
-   "bonus": 0,
+   "base": 50.2,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -551,20 +546,20 @@
     "H": 4.3,
     "O": 3,
     "S": 5.9,
-    "Q": 50.1,
-    "A0": 21.0,
-    "hard": [
+    "I": 4.2,
+    "R": 6.5,
+    "K": 5.0,
+    "items": [
      [
       "Racism",
-      -12.4
+      -2.2
      ],
      [
       "Government record",
-      -19.8
+      -3.6
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 6,
     "P": 6.5,
     "rank": 24,
@@ -583,7 +578,7 @@
      [
       "Chelsea",
       2,
-      -0.09
+      -0.07
      ],
      [
       "Seattle Sounders FC",
@@ -597,8 +592,8 @@
      ]
     ]
    },
-   "base": 21.0,
-   "bonus": 0,
+   "base": 49.4,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -613,16 +608,16 @@
     "H": 7.3,
     "O": 3,
     "S": 6.0,
-    "Q": 49.9,
-    "A0": 8.5,
-    "hard": [
+    "I": 2.1,
+    "R": 6.6,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -43.6
+      -7.9
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "P": 6.6,
     "rank": 25,
     "wc2026": "round of 16",
@@ -630,12 +625,12 @@
      "event": "AFCON 2025",
      "result": "fourth place"
     },
-    "tb": 0.0,
+    "tb": -0.0,
     "clubs": [
      [
       "Liverpool",
       6,
-      0.27
+      0.22
      ],
      [
       "Manchester City",
@@ -654,8 +649,8 @@
      ]
     ]
    },
-   "base": 8.5,
-   "bonus": 0,
+   "base": 42.4,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -670,11 +665,11 @@
     "H": 7.2,
     "O": 4,
     "S": 4.1,
-    "Q": 56.7,
-    "A0": 54.8,
-    "hard": [],
+    "I": 10.0,
+    "R": 4.3,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 4,
     "P": 4.3,
     "rank": 70,
@@ -688,7 +683,7 @@
      [
       "Athletic Club",
       3,
-      0.22
+      0.21
      ],
      [
       "Manchester City",
@@ -703,12 +698,12 @@
      [
       "Lens",
       2,
-      0.05
+      0.04
      ]
     ]
    },
-   "base": 54.8,
-   "bonus": 0,
+   "base": 68.4,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -722,18 +717,17 @@
     "V": 4,
     "H": 3.7,
     "O": 2,
-    "S": 5.9,
-    "Q": 47.7,
-    "A0": 29.0,
-    "hard": [
+    "S": 6.0,
+    "I": 6.4,
+    "R": 3.8,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -19.8
+      -3.6
      ]
     ],
     "conn": [],
-    "K": 0.0,
-    "S0": 6,
     "P": 3.8,
     "rank": 84,
     "wc2026": "group stage",
@@ -741,12 +735,12 @@
      "event": "Gold Cup 2025",
      "result": "group stage"
     },
-    "tb": -0.1,
+    "tb": -0.0,
     "clubs": [
      [
       "Inter Miami CF",
       1,
-      -0.05
+      -0.04
      ],
      [
       "Nice",
@@ -765,8 +759,8 @@
      ]
     ]
    },
-   "base": 29.0,
-   "bonus": 0,
+   "base": 52.7,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -781,16 +775,16 @@
     "H": 5,
     "O": 0.8,
     "S": 5.0,
-    "Q": 43.7,
-    "A0": 0.0,
-    "hard": [
+    "I": 1,
+    "R": 6.3,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -49.5
+      -9.0
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "P": 6.3,
     "rank": 23,
     "wc2026": "group stage",
@@ -808,12 +802,17 @@
      [
       "AEK Athens",
       5,
-      0.0
+      0.01
+     ],
+     [
+      "Brentford",
+      2,
+      0.01
      ]
     ]
    },
-   "base": 0.0,
-   "bonus": 0,
+   "base": 36.2,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -828,16 +827,16 @@
     "H": 5.8,
     "O": 2.8,
     "S": 4.1,
-    "Q": 58.9,
-    "A0": 21.6,
-    "hard": [
+    "I": 2.8,
+    "R": 4.7,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -39.6
+      -7.2
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 4,
     "P": 4.7,
     "rank": 63,
@@ -851,7 +850,7 @@
      [
       "AFC Wimbledon",
       1,
-      0.07
+      0.06
      ],
      [
       "Luton Town",
@@ -860,8 +859,8 @@
      ]
     ]
    },
-   "base": 21.6,
-   "bonus": 0,
+   "base": 46.8,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -876,16 +875,16 @@
     "H": 7,
     "O": 4,
     "S": 5.9,
-    "Q": 62.1,
-    "A0": 44.2,
-    "hard": [
+    "I": 6.4,
+    "R": 6.1,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -19.8
+      -3.6
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 6,
     "P": 6.1,
     "rank": 29,
@@ -904,22 +903,22 @@
      [
       "Sporting CP",
       3,
-      0.04
+      0.05
+     ],
+     [
+      "Manchester United",
+      3,
+      -0.04
      ],
      [
       "Lazio",
       1,
       -0.04
-     ],
-     [
-      "Borussia Dortmund",
-      1,
-      0.04
      ]
     ]
    },
-   "base": 44.2,
-   "bonus": 0,
+   "base": 61.1,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -934,11 +933,11 @@
     "H": 6.3,
     "O": 7.2,
     "S": 8.7,
-    "Q": 75.5,
-    "A0": 74.7,
-    "hard": [],
+    "I": 10.0,
+    "R": 6.9,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 8,
     "P": 6.9,
     "rank": 17,
@@ -950,29 +949,29 @@
     "tb": 0.7,
     "clubs": [
      [
-      "Real Sociedad",
-      3,
-      0.12
+      "Celtic",
+      4,
+      0.11
      ],
      [
-      "SC Freiburg",
+      "Real Sociedad",
       3,
       0.11
      ],
      [
-      "Celtic",
-      4,
-      0.09
+      "SC Freiburg",
+      3,
+      0.1
      ],
      [
       "VfB Stuttgart",
       3,
-      0.07
+      0.05
      ]
     ]
    },
-   "base": 74.7,
-   "bonus": 0,
+   "base": 79.6,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -987,16 +986,16 @@
     "H": 3.2,
     "O": 4,
     "S": 6.0,
-    "Q": 56.3,
-    "A0": 28.8,
-    "hard": [
+    "I": 4.6,
+    "R": 5.2,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -29.7
+      -5.4
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "P": 5.2,
     "rank": 72,
     "wc2026": "group stage",
@@ -1007,8 +1006,8 @@
     "tb": 0.0,
     "clubs": []
    },
-   "base": 28.8,
-   "bonus": 0,
+   "base": 52.1,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1023,20 +1022,20 @@
     "H": 7,
     "O": 2.8,
     "S": 6.0,
-    "Q": 55.1,
-    "A0": 13.5,
-    "hard": [
+    "I": 1.9,
+    "R": 7.7,
+    "K": 5.0,
+    "items": [
      [
       "Racism",
-      -24.8
+      -4.5
      ],
      [
       "Government record",
-      -19.8
+      -3.6
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "P": 7.7,
     "rank": 10,
     "wc2026": "round of 16",
@@ -1044,12 +1043,12 @@
      "event": "Gold Cup 2025",
      "result": "champions"
     },
-    "tb": 0.0,
+    "tb": -0.0,
     "clubs": [
      [
       "Atlético Madrid",
       2,
-      -0.08
+      -0.09
      ],
      [
       "PSV Eindhoven",
@@ -1062,14 +1061,14 @@
       -0.03
      ],
      [
-      "Real Sociedad",
-      3,
+      "Porto",
+      7,
       0.03
      ]
     ]
    },
-   "base": 13.5,
-   "bonus": 0,
+   "base": 45.5,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1083,17 +1082,18 @@
     "V": 4.8,
     "H": 8.2,
     "O": 3.2,
-    "S": 7.0,
-    "Q": 67.6,
-    "A0": 42.0,
-    "hard": [
+    "S": 6.9,
+    "I": 4.6,
+    "R": 8.7,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -29.7
+      -5.4
      ]
     ],
     "conn": [],
-    "K": 0.0,
+    "S0": 7,
     "P": 8.7,
     "rank": 7,
     "wc2026": "quarter-finals",
@@ -1101,7 +1101,7 @@
      "event": "AFCON 2025",
      "result": "champions"
     },
-    "tb": -0.0,
+    "tb": -0.1,
     "clubs": [
      [
       "Paris Saint-Germain",
@@ -1111,12 +1111,12 @@
      [
       "PSV Eindhoven",
       5,
-      0.09
+      0.1
      ],
      [
       "VfB Stuttgart",
       2,
-      0.06
+      0.04
      ],
      [
       "Bayern Munich",
@@ -1125,8 +1125,8 @@
      ]
     ]
    },
-   "base": 42.0,
-   "bonus": 0,
+   "base": 60.8,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1141,11 +1141,11 @@
     "H": 3.9,
     "O": 7,
     "S": 6.3,
-    "Q": 56.0,
-    "A0": 55.3,
-    "hard": [],
+    "I": 10.0,
+    "R": 5.1,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 6,
     "P": 5.1,
     "rank": 88,
@@ -1159,7 +1159,7 @@
      [
       "Portland Timbers",
       1,
-      0.16
+      0.15
      ],
      [
       "Viking",
@@ -1167,19 +1167,19 @@
       0.14
      ],
      [
-      "Swansea City",
-      1,
-      0.02
-     ],
-     [
-      "Wrexham",
+      "Port Vale",
       1,
       0.01
+     ],
+     [
+      "Swansea City",
+      1,
+      0.0
      ]
     ]
    },
-   "base": 55.3,
-   "bonus": 0,
+   "base": 68.8,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1194,11 +1194,11 @@
     "H": 3.2,
     "O": 5,
     "S": 6.9,
-    "Q": 58.3,
-    "A0": 57.7,
-    "hard": [],
+    "I": 10.0,
+    "R": 5.4,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 7,
     "P": 5.4,
     "rank": 46,
@@ -1212,7 +1212,7 @@
      [
       "Slovan Bratislava",
       3,
-      -0.15
+      -0.11
      ],
      [
       "Seattle Sounders FC",
@@ -1226,8 +1226,8 @@
      ]
     ]
    },
-   "base": 57.7,
-   "bonus": 0,
+   "base": 70.7,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1242,16 +1242,16 @@
     "H": 5.4,
     "O": 4.2,
     "S": 6.9,
-    "Q": 57.8,
-    "A0": 39.9,
-    "hard": [
+    "I": 6.4,
+    "R": 5.6,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -19.8
+      -3.6
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 7,
     "P": 5.6,
     "rank": 33,
@@ -1275,17 +1275,17 @@
      [
       "Inter Miami CF",
       1,
-      -0.05
+      -0.04
      ],
      [
-      "West Ham United",
+      "Vancouver Whitecaps FC",
       2,
-      -0.02
+      0.02
      ]
     ]
    },
-   "base": 39.9,
-   "bonus": 0,
+   "base": 58.9,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1300,16 +1300,16 @@
     "H": 3.2,
     "O": 1,
     "S": 3.0,
-    "Q": 21.2,
-    "A0": 0.0,
-    "hard": [
+    "I": 2.8,
+    "R": 6.0,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -39.6
+      -7.2
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "P": 6.0,
     "rank": 60,
     "wc2026": "group stage",
@@ -1320,8 +1320,8 @@
     "tb": 0.0,
     "clubs": []
    },
-   "base": 0.0,
-   "bonus": 0,
+   "base": 31.2,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1336,16 +1336,16 @@
     "H": 5.2,
     "O": 1,
     "S": 3.0,
-    "Q": 31.5,
-    "A0": 0.0,
-    "hard": [
+    "I": 1,
+    "R": 5.1,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -49.5
+      -9.0
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "P": 5.1,
     "rank": 55,
     "wc2026": "group stage",
@@ -1362,8 +1362,8 @@
      ]
     ]
    },
-   "base": 0.0,
-   "bonus": 0,
+   "base": 29.0,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1377,17 +1377,17 @@
     "V": 3.8,
     "H": 7,
     "O": 3.8,
-    "S": 5.6,
-    "Q": 57.9,
-    "A0": 45.0,
-    "hard": [
+    "S": 5.5,
+    "I": 7.1,
+    "R": 7.3,
+    "K": 5.0,
+    "items": [
      [
       "Fan violence",
-      -15.9
+      -2.9
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 6,
     "P": 7.3,
     "rank": 18,
@@ -1396,7 +1396,7 @@
      "event": "AFCON 2025",
      "result": "runners-up"
     },
-    "tb": -0.4,
+    "tb": -0.5,
     "clubs": [
      [
       "Nice",
@@ -1409,19 +1409,19 @@
       -0.19
      ],
      [
-      "Chelsea",
-      5,
-      -0.13
-     ],
-     [
       "Bayern Munich",
       4,
-      0.13
+      0.12
+     ],
+     [
+      "Chelsea",
+      5,
+      -0.11
      ]
     ]
    },
-   "base": 45.0,
-   "bonus": 0,
+   "base": 63.0,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1436,11 +1436,11 @@
     "H": 6,
     "O": 2.7,
     "S": 7.0,
-    "Q": 55.2,
-    "A0": 55.1,
-    "hard": [],
+    "I": 10.0,
+    "R": 5.4,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "P": 5.4,
     "rank": 48,
     "wc2026": "round of 32",
@@ -1456,14 +1456,14 @@
       0.01
      ],
      [
-      "Philadelphia Union",
+      "Brentford",
       1,
       0.0
      ]
     ]
    },
-   "base": 55.1,
-   "bonus": 0,
+   "base": 69.0,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1478,11 +1478,11 @@
     "H": 7.2,
     "O": 3,
     "S": 5.1,
-    "Q": 57.7,
-    "A0": 58.5,
-    "hard": [],
+    "I": 10.0,
+    "R": 6.4,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 5,
     "P": 6.4,
     "rank": 32,
@@ -1499,24 +1499,24 @@
       -0.18
      ],
      [
-      "Bayern Munich",
-      2,
+      "Celtic",
+      3,
       0.1
      ],
      [
-      "Celtic",
-      3,
-      0.08
+      "Bayern Munich",
+      2,
+      0.09
      ],
      [
-      "Mainz 05",
-      3,
-      0.05
+      "Newcastle United",
+      1,
+      -0.04
      ]
     ]
    },
-   "base": 58.5,
-   "bonus": 0,
+   "base": 71.3,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1531,16 +1531,16 @@
     "H": 5.2,
     "O": 2.8,
     "S": 2.8,
-    "Q": 49.7,
-    "A0": 22.4,
-    "hard": [
+    "I": 4.6,
+    "R": 5.0,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -29.7
+      -5.4
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 3,
     "P": 5.0,
     "rank": 61,
@@ -1557,24 +1557,24 @@
       -0.21
      ],
      [
-      "Union Berlin",
-      2,
-      0.08
-     ],
-     [
       "Paris Saint-Germain",
       1,
       -0.08
      ],
      [
-      "Troyes",
+      "Union Berlin",
       2,
-      -0.05
+      0.07
+     ],
+     [
+      "Celtic",
+      2,
+      0.06
      ]
     ]
    },
-   "base": 22.4,
-   "bonus": 0,
+   "base": 48.8,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1589,11 +1589,15 @@
     "H": 6,
     "O": 6.2,
     "S": 6.3,
-    "Q": 66.0,
-    "A0": 67.2,
-    "hard": [],
+    "I": 10.0,
+    "R": 7.6,
+    "K": 10.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Home nation",
+     20
+    ],
     "S0": 6,
     "P": 7.6,
     "rank": 16,
@@ -1607,12 +1611,12 @@
      [
       "New York City Football Club",
       7,
-      -0.28
+      -0.25
      ],
      [
       "Seattle Sounders FC",
       9,
-      0.16
+      0.14
      ],
      [
       "PSV Eindhoven",
@@ -1620,14 +1624,14 @@
       0.08
      ],
      [
-      "Borussia Mönchengladbach",
-      5,
+      "Celtic",
+      3,
       0.06
      ]
     ]
    },
-   "base": 67.2,
-   "bonus": 20,
+   "base": 76.1,
+   "bonus": 6.3,
    "region": "Home nation"
   },
   {
@@ -1641,12 +1645,12 @@
     "V": 4.7,
     "H": 9.7,
     "O": 4.8,
-    "S": 3.5,
-    "Q": 62.6,
-    "A0": 62.9,
-    "hard": [],
+    "S": 3.4,
+    "I": 10.0,
+    "R": 6.5,
+    "K": 5.0,
+    "items": [],
     "conn": [],
-    "K": 0.0,
     "S0": 4,
     "P": 6.5,
     "rank": 20,
@@ -1655,12 +1659,12 @@
      "event": "Copa América 2024",
      "result": "third place"
     },
-    "tb": -0.5,
+    "tb": -0.6,
     "clubs": [
      [
       "Atlético Madrid",
       12,
-      -0.47
+      -0.53
      ],
      [
       "Paris Saint-Germain",
@@ -1668,19 +1672,19 @@
       -0.13
      ],
      [
-      "Liverpool",
-      2,
-      0.07
-     ],
-     [
       "Lazio",
       2,
       -0.07
+     ],
+     [
+      "Sporting CP",
+      7,
+      0.07
      ]
     ]
    },
-   "base": 62.9,
-   "bonus": 0,
+   "base": 73.4,
+   "bonus": 0.0,
    "region": ""
   },
   {
@@ -1695,16 +1699,16 @@
     "H": 3,
     "O": 1.8,
     "S": 3.9,
-    "Q": 44.0,
-    "A0": 0.6,
-    "hard": [
+    "I": 2.1,
+    "R": 5.1,
+    "K": 5.0,
+    "items": [
      [
       "Government record",
-      -43.6
+      -7.9
      ]
     ],
     "conn": [],
-    "K": 0.0,
     "S0": 4,
     "P": 5.1,
     "rank": 59,
@@ -1723,12 +1727,12 @@
      [
       "Lens",
       1,
-      0.04
+      0.03
      ]
     ]
    },
-   "base": 0.6,
-   "bonus": 0,
+   "base": 38.3,
+   "bonus": 0.0,
    "region": ""
   }
  ],
@@ -1746,25 +1750,29 @@
     "H": 10.0,
     "O": 5,
     "S": 6,
-    "Q": 73.3,
-    "A0": 68.8,
-    "hard": [
+    "I": 8.6,
+    "R": 9.9,
+    "K": 7.0,
+    "items": [
      [
       "Fan violence",
-      -7.9
+      -1.4
      ]
     ],
     "conn": [
      [
       "Linked to Liverpool",
-      0.9
+      0.2
      ],
      [
       "Linked to Borussia Dortmund",
-      0.4
+      0.1
      ]
     ],
-    "K": 1.3,
+    "roots": [
+     "Heritage: Scottish Lowlands & Central Belt 11%",
+     2.2
+    ],
     "P": 9.9,
     "ps": [
      10.0,
@@ -1781,7 +1789,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
-   "base": 70.1,
+   "base": 77.8,
    "bonus": 2.2
   },
   {
@@ -1797,20 +1805,21 @@
     "H": 9.3,
     "O": 4.5,
     "S": 4,
-    "Q": 62.0,
-    "A0": 25.1,
-    "hard": [
+    "I": 2.5,
+    "R": 8.4,
+    "K": 7.56,
+    "items": [
      [
       "Racism",
-      -24.8
+      -4.5
      ],
      [
       "Fan violence",
-      -11.9
+      -2.2
      ],
      [
       "Multi-club",
-      -4.2
+      -0.8
      ]
     ],
     "conn": [
@@ -1819,7 +1828,10 @@
       1
      ]
     ],
-    "K": 1.0,
+    "roots": [
+     "Heritage: Scottish Lowlands & Central Belt 11%",
+     2.2
+    ],
     "P": 8.4,
     "ps": [
      7.8,
@@ -1836,7 +1848,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
-   "base": 26.2,
+   "base": 52.2,
    "bonus": 2.2
   },
   {
@@ -1848,24 +1860,28 @@
    "region": "Scottish Lowlands",
    "hai": {
     "C": 8.6,
-    "V": 7.8,
+    "V": 9.6,
     "H": 7,
     "O": 8.8,
     "S": 5,
-    "Q": 75.2,
-    "A0": 72.4,
-    "hard": [
+    "I": 8.8,
+    "R": 6.8,
+    "K": 6.76,
+    "items": [
      [
       "Multi-club",
-      -4.2
+      -0.8
      ],
      [
       "Owner's fortune from sports betting",
-      -2.0
+      -0.4
      ]
     ],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Scottish Lowlands & Central Belt 11%",
+     2.2
+    ],
     "P": 6.8,
     "ps": [
      6.6,
@@ -1880,15 +1896,12 @@
      8.3
     ],
     "pl": "2025-26",
-    "rl": "Heritage: Scottish Lowlands & Central Belt 11%",
-    "bonus": [
-     [
-      "Foundation of Hearts rescue and fan ownership",
-      4.0
-     ]
-    ]
+    "notes": [
+     "Values +1.8 for Foundation of Hearts rescue and fan ownership"
+    ],
+    "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
-   "base": 72.4,
+   "base": 77.8,
    "bonus": 2.2
   },
   {
@@ -1904,11 +1917,15 @@
     "H": 7.1,
     "O": 5.6,
     "S": 5,
-    "Q": 65.2,
-    "A0": 64.9,
-    "hard": [],
+    "I": 10.0,
+    "R": 6.3,
+    "K": 6.76,
+    "items": [],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Scottish Lowlands & Central Belt 11%",
+     2.2
+    ],
     "P": 6.3,
     "ps": [
      6.0,
@@ -1925,7 +1942,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Scottish Lowlands & Central Belt 11%"
    },
-   "base": 64.9,
+   "base": 74.5,
    "bonus": 2.2
   },
   {
@@ -1941,16 +1958,20 @@
     "H": 7.3,
     "O": 8.4,
     "S": 7.3,
-    "Q": 63.5,
-    "A0": 52.5,
-    "hard": [
+    "I": 7.3,
+    "R": 9.0,
+    "K": 6.92,
+    "items": [
      [
       "Racism",
-      -14.9
+      -2.7
      ]
     ],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Ulster, Ireland 12%",
+     2.4
+    ],
     "P": 9.0,
     "ps": [
      10.0,
@@ -1967,7 +1988,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Ulster, Ireland 12%"
    },
-   "base": 52.5,
+   "base": 67.9,
    "bonus": 2.4
   },
   {
@@ -1981,22 +2002,26 @@
     "C": 7.8,
     "V": 6.4,
     "H": 6.8,
-    "O": 7.0,
+    "O": 7,
     "S": 5.4,
-    "Q": 67.5,
-    "A0": 61.3,
-    "hard": [
+    "I": 8.6,
+    "R": 7.5,
+    "K": 6.92,
+    "items": [
      [
       "Fan violence",
-      -4.0
+      -0.7
      ],
      [
       "Overspend",
-      -4.0
+      -0.7
      ]
     ],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Ulster, Ireland 12%",
+     2.4
+    ],
     "P": 7.5,
     "ps": [
      7.8,
@@ -2013,7 +2038,7 @@
     "pl": "2025",
     "rl": "Heritage: Ulster, Ireland 12%"
    },
-   "base": 61.3,
+   "base": 72.3,
    "bonus": 2.4
   },
   {
@@ -2025,20 +2050,24 @@
    "region": "Leinster",
    "hai": {
     "C": 7.6,
-    "V": 6.3,
+    "V": 7.7,
     "H": 7.4,
     "O": 7.2,
     "S": 8.3,
-    "Q": 72.7,
-    "A0": 74.0,
-    "hard": [
+    "I": 9.2,
+    "R": 9.4,
+    "K": 5.32,
+    "items": [
      [
       "Multi-club",
-      -4.2
+      -0.8
      ]
     ],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Leinster, Ireland 2%",
+     0.4
+    ],
     "P": 9.4,
     "ps": [
      7.3,
@@ -2053,15 +2082,12 @@
      10.0
     ],
     "pl": "2025",
-    "rl": "Heritage: Leinster, Ireland 2%",
-    "bonus": [
-     [
-      "400 Club fans saved the club",
-      3.0
-     ]
-    ]
+    "notes": [
+     "Values +1.4 for 400 Club fans saved the club"
+    ],
+    "rl": "Heritage: Leinster, Ireland 2%"
    },
-   "base": 74.0,
+   "base": 80.2,
    "bonus": 0.4
   },
   {
@@ -2073,20 +2099,24 @@
    "region": "Leinster",
    "hai": {
     "C": 8.2,
-    "V": 8.6,
+    "V": 9.5,
     "H": 6.7,
     "O": 9.4,
     "S": 6,
-    "Q": 78.2,
-    "A0": 73.1,
-    "hard": [
+    "I": 9.3,
+    "R": 5.4,
+    "K": 5.32,
+    "items": [
      [
       "Fan violence",
-      -4.0
+      -0.7
      ]
     ],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Leinster, Ireland 2%",
+     0.4
+    ],
     "P": 5.4,
     "ps": [
      4.2,
@@ -2101,15 +2131,12 @@
      6.9
     ],
     "pl": "2025",
-    "rl": "Heritage: Leinster, Ireland 2%",
-    "bonus": [
-     [
-      "Refugee and humanitarian kit campaigns",
-      2.0
-     ]
-    ]
+    "notes": [
+     "Values +0.9 for Refugee and humanitarian kit campaigns"
+    ],
+    "rl": "Heritage: Leinster, Ireland 2%"
    },
-   "base": 73.1,
+   "base": 78.0,
    "bonus": 0.4
   },
   {
@@ -2125,11 +2152,15 @@
     "H": 6,
     "O": 5.8,
     "S": 5,
-    "Q": 57.5,
-    "A0": 55.1,
-    "hard": [],
+    "I": 10.0,
+    "R": 4.1,
+    "K": 7.72,
+    "items": [],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Madeira 17%",
+     3.4
+    ],
     "P": 4.1,
     "ps": [
      7.1,
@@ -2146,7 +2177,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Madeira 17%"
    },
-   "base": 55.1,
+   "base": 68.7,
    "bonus": 3.4
   },
   {
@@ -2162,11 +2193,15 @@
     "H": 4.3,
     "O": 5.8,
     "S": 4.5,
-    "Q": 47.3,
-    "A0": 44.5,
-    "hard": [],
+    "I": 10.0,
+    "R": 2.9,
+    "K": 7.72,
+    "items": [],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Madeira 17%",
+     3.4
+    ],
     "P": 2.9,
     "ps": [
      0.0,
@@ -2183,7 +2218,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Madeira 17%"
    },
-   "base": 44.5,
+   "base": 62.6,
    "bonus": 3.4
   },
   {
@@ -2199,11 +2234,15 @@
     "H": 8.3,
     "O": 9,
     "S": 6,
-    "Q": 78.8,
-    "A0": 68.7,
-    "hard": [],
+    "I": 10.0,
+    "R": 2.6,
+    "K": 5.64,
+    "items": [],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Bavaria & Western Austria 4%",
+     0.8
+    ],
     "P": 2.6,
     "ps": [
      2.2,
@@ -2220,7 +2259,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Bavaria & Western Austria 4%"
    },
-   "base": 68.7,
+   "base": 76.4,
    "bonus": 0.8
   },
   {
@@ -2236,11 +2275,15 @@
     "H": 6,
     "O": 5,
     "S": 4.5,
-    "Q": 51.7,
-    "A0": 55.3,
-    "hard": [],
+    "I": 10.0,
+    "R": 8.9,
+    "K": 5.48,
+    "items": [],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Lithuania 3%",
+     0.6
+    ],
     "P": 8.9,
     "ps": [
      10.0,
@@ -2257,7 +2300,7 @@
     "pl": "2025",
     "rl": "Heritage: Lithuania 3%"
    },
-   "base": 55.3,
+   "base": 71.2,
    "bonus": 0.6
   },
   {
@@ -2273,20 +2316,24 @@
     "H": 6,
     "O": 5,
     "S": 5,
-    "Q": 55.2,
-    "A0": 45.5,
-    "hard": [
+    "I": 7.5,
+    "R": 8.3,
+    "K": 5.32,
+    "items": [
      [
       "Racism",
-      -7.4
+      -1.4
      ],
      [
       "Owner's fortune from arms making",
-      -5.9
+      -1.1
      ]
     ],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Western Czechia 2%",
+     0.4
+    ],
     "P": 8.3,
     "ps": [
      8.4,
@@ -2303,7 +2350,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Western Czechia 2%"
    },
-   "base": 45.5,
+   "base": 64.1,
    "bonus": 0.4
   },
   {
@@ -2319,20 +2366,24 @@
     "H": 7,
     "O": 6.5,
     "S": 6.5,
-    "Q": 73.8,
-    "A0": 67.8,
-    "hard": [
+    "I": 8.5,
+    "R": 8.5,
+    "K": 5.32,
+    "items": [
      [
       "Multi-club",
-      -4.2
+      -0.8
      ],
      [
       "Owner's fortune from sports betting",
-      -4.0
+      -0.7
      ]
     ],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Belgium 2%",
+     0.4
+    ],
     "P": 8.5,
     "ps": [
      3.2,
@@ -2349,7 +2400,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Belgium 2%"
    },
-   "base": 67.8,
+   "base": 75.8,
    "bonus": 0.4
   },
   {
@@ -2365,16 +2416,20 @@
     "H": 8.6,
     "O": 4.6,
     "S": 5,
-    "Q": 64.5,
-    "A0": 58.5,
-    "hard": [
+    "I": 8.6,
+    "R": 7.4,
+    "K": 5.32,
+    "items": [
      [
       "Fan violence",
-      -7.9
+      -1.4
      ]
     ],
     "conn": [],
-    "K": 0.0,
+    "roots": [
+     "Heritage: Belgium 2%",
+     0.4
+    ],
     "P": 7.4,
     "ps": [
      10.0,
@@ -2391,7 +2446,7 @@
     "pl": "2025-26",
     "rl": "Heritage: Belgium 2%"
    },
-   "base": 58.5,
+   "base": 70.7,
    "bonus": 0.4
   }
  ]

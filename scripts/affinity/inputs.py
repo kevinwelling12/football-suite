@@ -1,9 +1,9 @@
 """Inputs for the Affinity model (scripts/affinity/affinity.py). Measurements only: nothing here decides a score.
 
 Every entity (club, women's club, nation, player) is described the same way:
-  factors     0-10 research scores (clubs and nations: C V H O T; players: CH WK LO for the role side, AB LE ST for performance)
+  factors     0-10 research scores (clubs and nations: C V H O T I; players: CH WK LO AB LE ST I)
   perf        track record 0-10, or None when it isn't judged (see performance.py)
-  hard        hard lines: [(type, label, points)]  points > 0 = how much it costs before the model's scale
+  integrity   0-10, docked by documented wrongs (items: [(label, points off)])
   conn        connection items: [(label, points)]  signed
   roots       hometown / home nation / ancestry: (label, points)
 
@@ -26,41 +26,24 @@ SCORES = _S
 HOMETOWN = 'Sacramento Republic FC'
 HOME_NATION = 'United States'
 
-# ---------------------------------------------------------------- hard lines
-# Club and nation hard lines are researched per club (points in scores.py notes). The minor ones were folded into the
-# factors on 2026-10-02 (the note keeps what was moved): unfold them so factors are pure measurements again and every
-# cost shows as a hard line. Same arithmetic: the model subtracts hard lines from the character score, which is what
-# the fold did.
-TYPE = {'Racism': 'racism', 'Fan violence': 'violence', 'State-backed': 'state', 'Government record': 'government',
-        'Private equity': 'pe', 'Leveraged buyout': 'lbo', 'Super League': 'superleague', 'Multi-club': 'multiclub',
-        'Overspend': 'overspend', 'Franchise': 'franchise', "Owner's fortune from sports betting": 'betting_owner',
-        "Owner's fortune from arms making": 'arms_owner', 'Other': 'other'}
-FACTOR = {'Ownership': 'O', 'History': 'H', 'Values': 'V'}
-PER = {'O': 1.0 / 0.9, 'H': 1.6 / 0.9, 'V': 2.6 / 0.9}  # Affinity points per factor point when the fold was made
-_FOLD = re.compile(r"([A-Z][^,>]*?) (-?\d+(?:\.\d+)?) -> (Ownership|History|Values) ([+-]\d+(?:\.\d+)?)(?:, Values ([+-]\d+(?:\.\d+)?))?")
-_ITEM = re.compile(r'^(.*?)\s*([+-]\d+(?:\.\d+)?)$')
+# ---------------------------------------------------------------- integrity
+# Integrity (0-10) is a rating like the others: 10 for a clean record, docked for each documented wrong (racism, fan
+# violence, state or private-equity ownership, a leveraged buyout, the Super League, multi-club, overspending, a
+# franchise move, a government's record for nations). It is the 6th field in scores.py; the note lists each item with
+# what it takes off ("Racism -0.9"). Replaced the hard lines and bonuses on 2026-10-12 (docs/affinity.md).
+_ITEM = re.compile(r'^(.*?)\s*-(\d+(?:\.\d+)?)$')
 
 def club_measures(name):
-    """-> (factors dict, hard [(type, label, points)], notes [str]) from scores.py, with folds undone."""
-    C, V, H, O, T, adj, note = SCORES[name]
-    f = dict(C=C, V=V, H=H, O=O, T=T); hard, notes = [], []
+    """-> (factors dict C V H O T I, integrity items [(label, points off)], notes [str]) from scores.py."""
+    C, V, H, O, T, I, note = SCORES[name]
+    f = dict(C=C, V=V, H=H, O=O, T=T, I=I); items, notes = [], []
     for part in [p.strip() for p in note.split(';') if p.strip()]:
-        if part.startswith('Folded'):
-            for lab, pts, fac, d, dv in _FOLD.findall(part.split(': ', 1)[1]):
-                f[FACTOR[fac]] = round(f[FACTOR[fac]] - float(d), 1)
-                if dv: f['V'] = round(f['V'] - float(dv), 1)
-                hard.append((TYPE.get(lab, 'other'), lab if lab != 'Other' else 'Conduct', -float(pts)))
-            continue
         m = _ITEM.match(part)
-        if m and m.group(1) and not part.startswith(('Rules', 'Cascadia')):
-            hard.append((TYPE.get(m.group(1), 'other'), m.group(1), -float(m.group(2))))
-        else:
-            notes.append(part)
-    if abs(sum(-p for t, l, p in hard if t not in ('multiclub', 'overspend', 'franchise', 'betting_owner', 'arms_owner', 'other')) - adj) > 0.05 \
-       and not any(p.startswith('Folded') for p in note.split(';')):
-        notes.append(f'unparsed adjustment {adj}')
+        if m and m.group(1) and not part.startswith(('Rules', 'Cascadia')): items.append((m.group(1), float(m.group(2))))
+        else: notes.append(part)
+    if abs(max(0.0, 10 - sum(x for _, x in items)) - I) > 0.05: notes.append(f'Integrity {I} differs from its items')
     for k in f: f[k] = max(0.0, min(10.0, f[k]))
-    return f, hard, notes
+    return f, items, notes
 
 # ---------------------------------------------------------------- heritage and roots
 _H = json.loads((A / 'heritage.json').read_text())
@@ -71,10 +54,6 @@ REGION_PCT = dict(_H['regions'])
 CLUB_REGION = dict(_H.get('club_regions', {}))   # club -> its Ancestry region (clubs get that region's share, 2026-10-12)
 NATION_ALIAS = {'Ireland': 'Republic of Ireland', 'Czechia': 'Czech Republic'}
 def nation_share(team): return HERITAGE.get(NATION_ALIAS.get(team, team), 0)
-
-# ---------------------------------------------------------------- bonuses (exceptional good work; 2026-10-12)
-BONUS = json.loads((A / 'bonuses.json').read_text())
-CLUB_BONUS, PLAYER_BONUS = BONUS['clubs'], BONUS['players']
 
 # ---------------------------------------------------------------- track records
 PERF = perf.load()
@@ -115,12 +94,13 @@ def club_conn(name):
 import model as PM  # players/model.py: research loader (audit, loyalty overlays, values tags, incident corrections)
 P_LABEL = {'b01': 'Racist abuse', 'b02': 'Abuse allegations', 'b03': 'Doping', 'b04': 'Match-fixing', 'b05': 'Tax fraud',
            'b06': 'Violent conduct', 'b08': 'Forced transfer', 'b09': 'Rival move', 'b10': 'Money-league move', 'b12': 'Authoritarian ambassador'}
-# Severities on the character scale (Kevin's best-worst ranking, quiz round 7; points fitted in round 9 and kept).
-P_POINTS = {'b02': 53, 'b01': 41, 'b04': 41, 'b06': 21, 'b12': 21, 'b05': 15, 'b03': 12, 'b08': 9, 'b09': 6, 'b10': 9}
-def money_points(age): return 21 if age <= 29 else 12 if age <= 33 else 6   # 7 / 4 / 2 severity units x 2.94
+# Integrity points off per incident (Kevin's best-worst ranking, quiz round 7; sizes fitted in round 9, moved onto the
+# 0-10 Integrity scale on 2026-10-12). Integrity = 10 minus the items, floored at 0.
+P_POINTS = {'b02': 14, 'b01': 11, 'b04': 11, 'b06': 5.6, 'b12': 5.6, 'b05': 4, 'b03': 3.2, 'b08': 2.4, 'b09': 1.6, 'b10': 2.4}
+def money_points(age): return 5.6 if age <= 29 else 3.2 if age <= 33 else 1.6
 
-def player_hard(p):
-    """Itemised hard lines for a player, the same rules as before: acquittal or dropped charges 30%, apology 60%, a move
+def player_items(p):
+    """Integrity items for a player: acquittal or dropped charges 30%, apology 60%, a move
     made as a coach half; one money-league move, ambassadorship, rival move or forced transfer counts once; no cap."""
     items = []; born = p.get('born')
     for e in (p.get('incidents') or []) + (p.get('money_moves') or []):
@@ -152,5 +132,6 @@ def players():
         if n not in sc: continue
         s = {**sc[n], **PM.FIXES.get(n, {})}
         out[n] = dict(name=n, kind='player', gender=p.get('gender'), active=bool(p.get('active')), facts=p, scores=s,
-                      factors={k: s[k] for k in ('CH', 'WK', 'LO', 'AB', 'LE', 'ST')}, hard=player_hard(p))
+                      factors={k: s[k] for k in ('CH', 'WK', 'LO', 'AB', 'LE', 'ST')}, items=player_items(p))
+        out[n]['factors']['I'] = round(max(0.0, 10 - sum(x[2] for x in out[n]['items'])), 1)
     return out

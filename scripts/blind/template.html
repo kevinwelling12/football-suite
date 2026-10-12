@@ -204,11 +204,17 @@ CF.forEach(f => Q.push({id:'c_' + f[0], part:1, type:'seven', prompt:`How do you
 CP.forEach((p, i) => Q.push({id:'cp' + (i + 1), part:2, type:'pair', side:'c', pair:p, prompt:'Which would you rather follow? Everything not listed is the same.'}));
 PF.forEach(f => Q.push({id:'p_' + f[0], part:3, type:'seven', prompt:`How do you feel about a player who ${f[1]}?`}));
 PP.forEach((p, i) => Q.push({id:'pp' + (i + 1), part:4, type:'pair', side:'p', pair:p, prompt:'Which player would you rather follow? Everything not listed is the same.'}));
+// Gut check (optional, after the 100): a favourite club now in each of eight leagues, by name. It never changes the
+// weights; the results show where each pick lands in your blind ranking for that league.
+const GUT = [['epl', 'Premier League'], ['esp', 'LaLiga'], ['ita', 'Serie A'], ['bl', 'Bundesliga'], ['fra', 'Ligue 1'], ['mls', 'MLS'], ['nwsl', 'NWSL'], ['usl', 'USL Championship']];
+GUT.forEach(([k, l]) => Q.push({id:'g_' + k, part:5, type:'select', gut:true, prompt:`Regardless of anything above: right now, who would you choose as your favourite ${l} club?`,
+  opts:DATA.clubs.filter(c => c.comps.includes(k)).map(c => c.n).sort((a, b) => a.localeCompare(b)).map(n => [n, n]).concat([['dk', "I don't know"]])}));
 const PARTS = ['Part 1 of 5 · About you. Two questions so distance and your own country can count, if you want them to.',
   'Part 2 of 5 · Clubs and national teams, one fact at a time. Say how each fact on its own moves you.',
   'Part 3 of 5 · Club trade-offs. Two clubs that differ only in the facts listed.',
   'Part 4 of 5 · Players, one fact at a time.',
-  'Part 5 of 5 · Player trade-offs.'];
+  'Part 5 of 5 · Player trade-offs.',
+  'Gut check · Optional, and it never changes your weights. Clubs are named here, so answer only after the 100 questions. Your results show where each pick lands.'];
 
 const state = {a:{}};
 let db = null, uid = null, saveT = null;
@@ -235,10 +241,10 @@ function render() {
   progress();
 }
 function progress() {
-  const n = Q.filter(q => state.a[q.id] !== undefined).length;
-  document.getElementById('count').textContent = `${n} of ${Q.length}`;
-  document.getElementById('fill').style.width = (n / Q.length * 100) + '%';
-  document.getElementById('go').disabled = n < Q.length;
+  const core = Q.filter(q => !q.gut), n = core.filter(q => state.a[q.id] !== undefined).length;
+  document.getElementById('count').textContent = `${n} of ${core.length}`;
+  document.getElementById('fill').style.width = (n / core.length * 100) + '%';
+  document.getElementById('go').disabled = n < core.length;
 }
 function status(t) { document.getElementById('status').textContent = t; }
 function save() {
@@ -328,7 +334,11 @@ function drawResults() {
     rows = RES.clubs.filter(x => tab === 'all' || x.c.comps.includes(tab)).sort((a, b) => b.s - a.s)
       .map((x, i) => [i + 1, x.c.n, x.c.label, x.s]);
   }
-  document.getElementById('res').innerHTML = `<h2>Your results</h2>
+  const gut = GUT.filter(([k]) => state.a['g_' + k] && state.a['g_' + k] !== 'dk').map(([k, l]) => {
+    const xs = RES.clubs.filter(x => x.c.comps.includes(k)).sort((a, b) => b.s - a.s), pick = state.a['g_' + k];
+    const r = xs.findIndex(x => x.c.n === pick) + 1;
+    return `<div class="row"><span class="rk">${r}</span><span class="nm">${esc(pick)}<small>${esc(l)} · ${r === 1 ? 'your #1 here too' : 'your #1 here: ' + esc(xs[0].c.n)}</small></span><span class="meter"><i style="width:${Math.max(0, 100 - (r - 1) / (xs.length - 1) * 100)}%"></i></span><span class="sc">of ${xs.length}</span></div>`; });
+  document.getElementById('res').innerHTML = `<h2>Your results</h2>${gut.length ? `<p class="part">Gut check: where the club you picked in each league ranks in these results.</p><div class="list">${gut.join('')}</div>` : ''}
     <p class="part">These come only from your answers. Positive weights draw you to a fact, negative ones push you away. Scores run 0 to 100: 100 would be a club or player with every fact you like and none you dislike.</p>
     <details class="how"><summary>Your weights</summary><h2 style="font-size:18px">Clubs and national teams</h2><div class="wts">${wList(RES.wc, CF)}</div><h2 style="font-size:18px">Players</h2><div class="wts">${wList(RES.wp, PF)}</div></details>
     <details class="how"><summary>How the scores work</summary><p>Each club, national team and player was described by researched facts only (trophies, owners, sanctions, crowds, incidents and so on), each scaled 0 to 1. Your one-fact answers set a weight per fact. Your trade-off answers then adjust those weights so that the choices you made come out on top. A fact you call a turn-off counts double, a strong turn-off triple. Domestic trophies are weighed by the strength of the league they were won in. A score is the weighted sum of the facts, placed between the lowest and highest score your weights allow. Missing facts count at the average of all entries.</p></details>

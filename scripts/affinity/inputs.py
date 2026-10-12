@@ -67,6 +67,10 @@ _H = json.loads((A / 'heritage.json').read_text())
 HERITAGE = {}
 for _r, _pct in _H['regions'].items():
     for _n, _sh in _H['split'][_r].items(): HERITAGE[_n] = HERITAGE.get(_n, 0) + _pct * _sh
+REGION_PCT = dict(_H['regions'])
+CLUB_REGION = dict(_H.get('club_regions', {}))   # club -> its Ancestry region (clubs get that region's share, 2026-10-12)
+NATION_ALIAS = {'Ireland': 'Republic of Ireland', 'Czechia': 'Czech Republic'}
+def nation_share(team): return HERITAGE.get(NATION_ALIAS.get(team, team), 0)
 
 # ---------------------------------------------------------------- track records
 PERF = perf.load()

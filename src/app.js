@@ -830,7 +830,7 @@ function viewPlayers() {
       <span class="who">${esc(p.n)}${p.nw ? ' <span class="pl-tag">NWSL</span>' : ''}<small><span>${esc([p.pos, p.nat, (p.clubs || []).slice(-1)[0]].filter(Boolean).join(' · '))}</span></small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, p.a) / mx * 100}%"></span></span>
       <span class="num sc">${p.a.toFixed(1)}</span></div>${plOpen === n ? `<div class="pl-det">${p.f.map((v, j) => `<div class="hb"><span>${PL_F[j]}</span><span class="bar"><i style="width:${v * 10}%"></i></span><b class="num">${v.toFixed(1)}</b></div>`).join('')}
-        <div class="hb-items">${p.rm != null ? `<div class="hb-item"><span>Role model</span><b class="num">${p.rm.toFixed(1)}</b></div><div class="hb-item"><span>Performance</span><b class="num">${p.pf.toFixed(1)}</b></div>` : ''}${p.c ? `<div class="hb-item"><span>Connection</span><b class="num ${p.c < 0 ? 'neg' : ''}">${signed(p.c)}</b></div>` : ''}${p.p ? `<div class="hb-item"><span>Hard lines</span><b class="num neg">${signed(p.p)}</b></div>${(p.pen || []).map(x => `<div class="hb-item"><span>${esc(x)}</span></div>`).join('')}` : ''}</div>
+        <div class="hb-items">${p.rm != null ? `<div class="hb-item"><span>Role model</span><b class="num">${p.rm.toFixed(1)}</b></div><div class="hb-item"><span>Performance</span><b class="num">${p.pf.toFixed(1)}</b></div>` : ''}${p.c ? `<div class="hb-item"><span>Connection</span><b class="num ${p.c < 0 ? 'neg' : ''}">${signed(p.c)}</b></div>` : ''}${p.h ? `<div class="hb-item"><span>${esc(p.hl || 'Heritage')}</span><b class="num">${signed(p.h)}</b></div>` : ''}${p.p ? `<div class="hb-item"><span>Hard lines</span><b class="num neg">${signed(p.p)}</b></div>${(p.pen || []).map(x => `<div class="hb-item"><span>${esc(x)}</span></div>`).join('')}` : ''}</div>
         ${p.why ? `<p class="note">${esc(p.why)}</p>` : ''}</div>` : ''}`).join('')}</div></section>`;
 }
 // Leagues: the median club's Affinity (Kevin, 2026-10-09: a few heavily penalised clubs skewed the mean), plus how many
@@ -1151,13 +1151,13 @@ function affBreakdown(k, t) {
     return `<span class="spark" aria-label="Season scores, oldest to newest">${h.ps.map((x, j) => `<i title="${lab(j)}: ${x == null ? 'no season' : x.toFixed(1)}" class="${x == null ? 'none' : ''}" style="height:${x == null ? 8 : Math.max(8, x * 10)}%"></i>`).join('')}</span>`; })() : '';
   const hard = h.hard || [], conn = (h.conn || []).slice();
   const tot = xs => Math.round(xs.reduce((x, [, v]) => x + v, 0) * 10) / 10, hardT = tot(hard), connT = h.K || 0;
-  const roots = t.bonus ? [[k === 'unl' || t.confed ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : 'Hometown', t.bonus]] : [];
+  const roots = t.bonus ? [[k === 'unl' || t.confed ? (t.region === 'Home nation' ? 'Home nation' : 'Heritage') : (h.rl || 'Hometown'), t.bonus]] : [];
   const rec = h.P != null ? `${h.P.toFixed(1)}` : 'not judged';
   const sum = [`${h.Q.toFixed(1)} character`];
   if (hardT) sum.push(`− ${Math.abs(hardT)} hard lines`);
   sum.push(`with record ${rec} → ${h.A0.toFixed(1)}`);
   if (connT) sum.push(`${connT < 0 ? '−' : '+'} ${Math.abs(connT)} connection`);
-  if (t.bonus) sum.push(`+ ${t.bonus} ${roots[0][0].toLowerCase()}`);
+  if (t.bonus) sum.push(`+ ${t.bonus} ${roots[0][0].split(':')[0].toLowerCase()}`);
   const group = (title, xs, total) => xs.length ? `<div class="hb-items"><div class="hb-items-head"><span>${title}</span><b class="num ${total < 0 ? 'neg' : ''}">${signed(total)}</b></div>${xs.map(([l, v]) => `<div class="hb-item"><span>${esc(l)}</span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('')}</div>` : '';
   const squad = h.tb ? (h.dom ? `${Math.round(h.dom[0] * 100)}% · league ${Math.round(h.dom[1] * 100)}%` : (h.clubs || []).slice(0, 2).map(([c]) => esc(c)).join(', ')) : '';
   const recRow = h.P != null ? `<div class="hb hb-tr"><span>${h.ps ? 'Track record' : 'Recent record'}${h.rank ? ` <small>FIFA #${h.rank}</small>` : ''}</span>${spark || `<span>${h.wc2026 ? esc('World Cup: ' + h.wc2026) : ''}</span>`}<b class="num">${h.P.toFixed(1)}</b></div>` : '';

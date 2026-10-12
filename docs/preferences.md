@@ -896,3 +896,8 @@ Scenarios (happiness 0-10):
     multi-club corrections) and 22 player corrections (players/audit/hardlines_review.json). Code: women skip money-league
     lines on every path; "no apology" no longer reads as an apology. Backtest: club gut orderings 90% -> 91%, gut r 0.796 ->
     0.786, deciders 13/19 and Timbers +0.4 unchanged.
+23. **Bonuses** (2026-10-12, Kevin: "maybe consider adding bonuses in the same way"; approved the researched list at half the
+    hard-line scale). [CURRENT] scripts/affinity/bonuses.json: 15 clubs (+1 to +5; fan rescues, Hillsborough, anti-far-right,
+    women's-game pioneers, humanitarian acts) and 23 players (+2 to +5; Rashford's free school meals, Sócrates, equal-pay
+    leaders, Vinícius, Subotić's wells, ...), added to character x bonus_scale 1.0. Union Berlin's fan-built stadium was left
+    out (already weighed in the German decider). Backtest: club gut 91%, named player pairs 19 -> 20 of 29, deciders hold.

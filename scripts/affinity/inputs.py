@@ -72,6 +72,10 @@ CLUB_REGION = dict(_H.get('club_regions', {}))   # club -> its Ancestry region (
 NATION_ALIAS = {'Ireland': 'Republic of Ireland', 'Czechia': 'Czech Republic'}
 def nation_share(team): return HERITAGE.get(NATION_ALIAS.get(team, team), 0)
 
+# ---------------------------------------------------------------- bonuses (exceptional good work; 2026-10-12)
+BONUS = json.loads((A / 'bonuses.json').read_text())
+CLUB_BONUS, PLAYER_BONUS = BONUS['clubs'], BONUS['players']
+
 # ---------------------------------------------------------------- track records
 PERF = perf.load()
 

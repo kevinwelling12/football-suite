@@ -739,7 +739,7 @@ const signed = v => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v);
 const AFFP = /*__AFFPARAMS__*/;
 const wPct = (w, k) => Math.round(w[k] / Object.values(w).reduce((a, b) => a + b, 0) * 100);
 const FACTORS = [['Values', 'V'], ['Culture', 'C'], ['History', 'H'], ['Team', 'S'], ['Ownership', 'O']].map(([l, k]) => [l, k, wPct(AFFP.club_w, k === 'S' ? 'T' : k)]);
-const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>One model for every club, nation and player, in four steps.</p><p><b>1. Character.</b> Ratings out of 10, weighted by your quiz answers: Values ${FACTORS[0][2]}%, Culture ${FACTORS[1][2]}%, History ${FACTORS[2][2]}%, Team ${FACTORS[3][2]}%, Ownership ${FACTORS[4][2]}%.</p><p><b>2. Hard lines.</b> Racism, state ownership, fan violence, private equity, the Super League and the like come off character, with no cap. Your gut ratings showed they should cost about ${AFFP.hard.toFixed(1)}× their researched points.</p><p><b>3. Record.</b> Recent results are blended in: a club's last 10 seasons, a nation's FIFA ranking and tournaments. For teams they count ${Math.round(AFFP.club_pi * 100)}%, because winning matters little to you.</p><p><b>4. Connection and roots.</b> Distance, your other teams, linked clubs and pulls against global brands and celebrity bandwagons, then your hometown, home nation and ancestry.</p></details>`;
+const AFF_HOW = `<details class="how"><summary>How it's scored</summary><p>One model for every club, nation and player, in four steps.</p><p><b>1. Character.</b> Ratings out of 10, weighted by your quiz answers: Values ${FACTORS[0][2]}%, Culture ${FACTORS[1][2]}%, History ${FACTORS[2][2]}%, Team ${FACTORS[3][2]}%, Ownership ${FACTORS[4][2]}%.</p><p><b>2. Hard lines and bonuses.</b> Racism, state ownership, fan violence, private equity, the Super League and the like come off character, with no cap. Exceptional good work (fans rescuing their club, a cause that changed things) adds a smaller bonus. Your gut ratings showed they should cost about ${AFFP.hard.toFixed(1)}× their researched points.</p><p><b>3. Record.</b> Recent results are blended in: a club's last 10 seasons, a nation's FIFA ranking and tournaments. For teams they count ${Math.round(AFFP.club_pi * 100)}%, because winning matters little to you.</p><p><b>4. Connection and roots.</b> Distance, your other teams, linked clubs and pulls against global brands and celebrity bandwagons, then your hometown, home nation and ancestry.</p></details>`;
 let natF = 'all';
 const wcOf = name => EXTRA.wc[name];
 function viewClubs(k) {
@@ -835,7 +835,7 @@ function viewPlayers() {
       <span class="who">${esc(p.n)}${p.nw ? ' <span class="pl-tag">NWSL</span>' : ''}<small><span>${esc([p.pos, p.nat, (p.clubs || []).slice(-1)[0]].filter(Boolean).join(' · '))}</span></small></span>
       <span class="stack"><span class="b" style="width:${Math.max(0, p.a) / mx * 100}%"></span></span>
       <span class="num sc">${p.a.toFixed(1)}</span></div>${plOpen === n ? `<div class="pl-det">${p.f.map((v, j) => `<div class="hb"><span>${PL_F[j]}</span><span class="bar"><i style="width:${v * 10}%"></i></span><b class="num">${v.toFixed(1)}</b></div>`).join('')}
-        <div class="hb-items">${p.rm != null ? `<div class="hb-item"><span>Role model</span><b class="num">${p.rm.toFixed(1)}</b></div><div class="hb-item"><span>Performance</span><b class="num">${p.pf.toFixed(1)}</b></div>` : ''}${p.c ? `<div class="hb-item"><span>Connection</span><b class="num ${p.c < 0 ? 'neg' : ''}">${signed(p.c)}</b></div>` : ''}${p.h ? `<div class="hb-item"><span>${esc(p.hl || 'Heritage')}</span><b class="num">${signed(p.h)}</b></div>` : ''}${p.p ? `<div class="hb-item"><span>Hard lines</span><b class="num neg">${signed(p.p)}</b></div>${(p.pen || []).map(x => `<div class="hb-item"><span>${esc(x)}</span></div>`).join('')}` : ''}</div>
+        <div class="hb-items">${p.rm != null ? `<div class="hb-item"><span>Role model</span><b class="num">${p.rm.toFixed(1)}</b></div><div class="hb-item"><span>Performance</span><b class="num">${p.pf.toFixed(1)}</b></div>` : ''}${p.c ? `<div class="hb-item"><span>Connection</span><b class="num ${p.c < 0 ? 'neg' : ''}">${signed(p.c)}</b></div>` : ''}${p.h ? `<div class="hb-item"><span>${esc(p.hl || 'Heritage')}</span><b class="num">${signed(p.h)}</b></div>` : ''}${(p.bn || []).map(([l, v]) => `<div class="hb-item"><span>Bonus: ${esc(l)}</span><b class="num">${signed(v)}</b></div>`).join('')}${p.p ? `<div class="hb-item"><span>Hard lines</span><b class="num neg">${signed(p.p)}</b></div>${(p.pen || []).map(x => `<div class="hb-item"><span>${esc(x)}</span></div>`).join('')}` : ''}</div>
         ${p.why ? `<p class="note">${esc(p.why)}</p>` : ''}</div>` : ''}`).join('')}</div></section>`;
 }
 // Leagues: the median club's Affinity (Kevin, 2026-10-09: a few heavily penalised clubs skewed the mean), plus how many
@@ -1160,6 +1160,8 @@ function affBreakdown(k, t) {
   const rec = h.P != null ? `${h.P.toFixed(1)}` : 'not judged';
   const sum = [`${h.Q.toFixed(1)} character`];
   if (hardT) sum.push(`− ${Math.abs(hardT)} hard lines`);
+  const bon = h.bonus || [], bonT = tot(bon);
+  if (bonT) sum.push(`+ ${bonT} bonus`);
   sum.push(`with record ${rec} → ${h.A0.toFixed(1)}`);
   if (connT) sum.push(`${connT < 0 ? '−' : '+'} ${Math.abs(connT)} connection`);
   if (t.bonus) sum.push(`+ ${t.bonus} ${roots[0][0].split(':')[0].toLowerCase()}`);
@@ -1172,7 +1174,7 @@ function affBreakdown(k, t) {
       (key === 'S' && h.py && h.py.t ? `<div class="hb hb-sub"><span>Players</span><span>${(h.py.sq || []).map(esc).join(', ')}</span><b class="num ${h.py.t < 0 ? 'neg' : ''}">${signed(h.py.t)}</b></div>` : '') +
       (key === 'H' && h.py && h.py.h ? `<div class="hb hb-sub"><span>Icons</span><span>${(h.py.ic || []).map(esc).join(', ')}</span><b class="num ${h.py.h < 0 ? 'neg' : ''}">${signed(h.py.h)}</b></div>` : '')).join('')}
     ${recRow}
-    ${group('Hard lines', hard, hardT)}${group('Connection', conn, connT)}${group(roots.length ? 'Roots' : '', roots, t.bonus)}</div>`;
+    ${group('Hard lines', hard, hardT)}${group('Bonuses', bon, bonT)}${group('Connection', conn, connT)}${group(roots.length ? 'Roots' : '', roots, t.bonus)}</div>`;
 }
 function openClub(k, i) {
   const r = R[k], cup = COMPS_CFG[k].cup, t = T(k)[i];

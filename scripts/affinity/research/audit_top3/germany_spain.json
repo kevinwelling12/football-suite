@@ -1,0 +1,130 @@
+[
+ {
+  "name": "Borussia Dortmund",
+  "verdict": "confirmed",
+  "changes": [],
+  "missing_checked": [
+   "no UEFA/DFB discrimination sanctions 2021-26; Nov 2025 UEFA fine EUR 32,000 (objects thrown, organisation) v Galatasaray and DFB pyro fines are ordinary-level",
+   "Rheinmetall (arms) Champion Partner and bwin (betting, men and women) to 2027-28 are already in V 7",
+   "no state, PE, multi-club or Super League links; e.V. controls the KGaA (50+1); Watzke elected e.V. president Nov 2025",
+   "shirt Vodafone to 2030, training REWE, stadium Signal Iduna: no new betting/arms/state sponsor found",
+   "women's team (Regionalliga, 1st in 2026-27) already credited; Money League #12 global-brand item stands"
+  ],
+  "notes": "Sport Bild (via Get Football News Germany, 2026) reports CEO Carsten Cramer favours letting the Rheinmetall deal lapse in summer 2027; not announced. If it ends, V would recover about +0.3 to +1 (the -1 arms rule) and would strengthen Dortmund over Union in the German decider. Dortmund (81.4) is currently above Union (80.4), consistent with the decider. Checked: https://www.getfootballnewsgermany.com/2026/borussia-dortmund-rheinmetall/; https://www.sportcal.com/news/dortmund-increase-commercial-revenue-despite-steep-turnover-drop-in-2025-26/; https://myfootball.com.au/news/dortmund-galatasaray-fined-uefa; scripts/affinity/research/berlin_dortmund/dossier.md",
+  "confidence": "high"
+ },
+ {
+  "name": "Union Berlin",
+  "verdict": "confirmed",
+  "changes": [],
+  "missing_checked": [
+   "no discrimination sanctions 2021-26 beyond the 2021 individual ban (antisemitic abuse v Maccabi Haifa, club banned the fan)",
+   "member-owned e.V., fan stadium shares (2011, 2025); no outside investor, PE, multi-club",
+   "no current betting or casino partner verified: bwin deal ran to 2023-24, no renewal found; Wildz is a Schalke sponsor, not Union (earlier Wikipedia claim not confirmed)",
+   "no arms or state-owned sponsor; shirt Raisin, sleeve Kermi, premium eBay, Berliner Verlag, REWE",
+   "women's team in the Frauen-Bundesliga since 2025 already credited"
+  ],
+  "notes": "DFB fined Union EUR 340,000 for 200+ flares at the 60th-birthday match v Frankfurt (6 Feb 2026), reported as a club record; pyro, not violence or discrimination, so left out of V (Dortmund also carries large pyro fines). Stadium expansion means home matches at the Olympiastadion in 2028-29: a future temporary C question, not current. Checked: https://www.dfb.de/news/340000-euro-geldstrafe-fuer-union-berlin; https://www.fc-union-berlin.de/en/news/union-and-bwin-extend-partnership-XMbVu1; https://www.casino.org/de/nachrichten/wildz-wird-gluecksspiel-sponsor-bei-schalke-04/; scripts/affinity/research/berlin_dortmund/dossier.md",
+  "confidence": "high"
+ },
+ {
+  "name": "Bayern Munich",
+  "verdict": "adjust",
+  "changes": [
+   {
+    "field": "V",
+    "from": 6.2,
+    "to": 6.0,
+    "why": "Betano became Bayern's exclusive sports-betting official partner from 2025-26 to 2027-28 (Tipico before it since 2015); the existing V evidence does not mention a betting partner, and a partner-tier betting deal costs 0.1-0.3 elsewhere in the tracker.",
+    "sources": [
+     "https://europeangaming.eu/portal/latest-news/2025/07/03/186149/fc-bayern-and-betano-sign-partnership-agreement/",
+     "https://casinobeats.com/de/2025/07/03/fc-bayern-muenchen-holt-sportwetten-anbieter-betano-als-neuen-sponsor-bis-2028/"
+    ]
+   }
+  ],
+  "missing_checked": [
+   "no UEFA discrimination sanction since the 2016 'Gay Gunners' banner (partial closure); April 2026 UEFA fine EUR 89,625 v Real Madrid for pitch invasion, a banner critical of UEFA, objects: disorder, not discrimination",
+   "Visit Rwanda (state tourism) reshaped into a youth-academy programme in Aug 2025, deal to 2028; already in V evidence",
+   "no PE, LBO, multi-club or Super League involvement; e.V. majority with Adidas, Allianz, Audi minority stakes (already in O 8.8)",
+   "Boateng internship episode (late 2025) already counted"
+  ],
+  "notes": "Rival adjustment (-5) and Money League -3 untouched. The Rwanda link still runs to 2028 in reduced form; Kevin's open flag on whether it counts as a state sponsor remains.",
+  "confidence": "medium"
+ },
+ {
+  "name": "Athletic Club",
+  "verdict": "adjust",
+  "changes": [
+   {
+    "field": "V",
+    "from": 9.2,
+    "to": 9.0,
+    "why": "Fan-conduct sanctions not in the current evidence: UEFA fined the club EUR 50,000 in 2025 (offensive chants, objects, flares v Manchester United home and away), the RFEF fined it EUR 9,000 for chants classed as inciting hatred v Barcelona (May 2025), and Herri Norte is classed as an ultra group by the Ertzaintza; the club has expelled Herri Norte promoters, which limits the cut.",
+    "sources": [
+     "https://www.football-espana.net/2025/07/29/athletic-club-sanctioned-for-behaviour-during-manchester-united-clash",
+     "https://www.goal.com/en-ca/lists/f-ck-barca-chants-see-athletic-club-fined-inciting-violence-spanish-fa-crack-down-songs-deemed-expressions-of-hatred/blt1f3584f81e827795"
+    ]
+   }
+  ],
+  "missing_checked": [
+   "no racism sanction found 2021-26",
+   "member-owned association, president cannot invest; no PE, multi-club or Super League",
+   "no betting sponsor: shirt Kutxabank (Basque savings-bank foundation) since 2015, DIGI on the back renewed Feb 2026 for two seasons, kit Castore",
+   "cantera policy and Athletic Femenino unchanged",
+   "Roma clashes (Mar 2025) involved Roma ultras attacking Athletic fans; no Athletic sanction found for it"
+  ],
+  "notes": "Edin Terzic is the new coach (2026); S may need a look after 2026-27, as already flagged. The V cut is small and leaves Athletic top of every factor band.",
+  "confidence": "high"
+ },
+ {
+  "name": "Real Sociedad",
+  "verdict": "confirmed",
+  "changes": [],
+  "missing_checked": [
+   "no betting sponsor: members voted 86% against betting sponsors in 2018 after the club turned down Betway; no later betting deal found",
+   "no UEFA/RFEF discrimination sanctions found 2021-26",
+   "SAD with broad local shareholder base; Dec 2025 shareholders' meeting approved record EUR 16.9m profit, board support above 98%; no outside buyer, PE or multi-club",
+   "ticket-price row: only a Dec 2023 'price update' with one shareholder objecting; minor",
+   "women's team in Liga F; Zubieta pathway (2026 Copa won with 10 homegrown players) already credited"
+  ],
+  "notes": "The 2018 member vote against betting sponsors is a fan-voice positive that fits V 8.3 as it stands; no change proposed. Checked: https://sponsorship.sportbusiness.com/news/real-sociedad-to-reject-gambling-partners/; https://www.ondavasca.com/respaldo-unanime-al-consejo-de-la-real/; https://www.ondavasca.com/aperribay-responde-a-las-preguntas-de-los-abonados-es-una-actualizacion-de-precios/",
+  "confidence": "medium"
+ },
+ {
+  "name": "Osasuna",
+  "verdict": "adjust",
+  "changes": [
+   {
+    "field": "hard",
+    "from": null,
+    "to": "Fan violence -3",
+    "why": "Repeated and recent fan-conduct record not in the model: the State Commission against Violence, Racism, Xenophobia and Intolerance proposed (June 2026) closing El Sadar for two months and a EUR 200,000 fine over flares and Indar Gorri promotion at a 22 May 2026 open training, noting 50+ disciplinary sanctions for intolerant chants from the Grada Sur; Osasuna had the most LaLiga chant complaints in 2024-25; the 21 Feb 2026 Real Madrid match ended with police charges, two officers hurt and 13+ Indar Gorri members arrested over the following months.",
+    "sources": [
+     "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Comision-contra-la-Violencia-en-el-Deporte-propone-la-clausura-temporal-de-los-estadios-de-Osasuna-y-Getafe/",
+     "https://www.noticiasdenavarra.com/osasuna/2025/08/28/liga-denuncia-seis-incidencias-primer-10021911.html",
+     "https://www.vozpopuli.com/deportes/cargas-policiales-y-dos-detenidos-en-el-sadar-uno-tiro-una-botella-al-campo-en-el-osasuna-real-madrid.html",
+     "https://www.eldiario.es/navarra/policia-nacional-detiene-nueve-ultras-osasuna-incidentes-partido-real-madrid_1_13179472.html"
+    ]
+   },
+   {
+    "field": "V",
+    "from": 8.1,
+    "to": 7.7,
+    "why": "Club-side conduct: per the Commission, players went to the south stand at the May 2026 training, wore Indar Gorri flags and scarves and joined its chants; the club denied the 'Vinicius, muerete' chants that LaLiga investigated after the Feb 2026 match (logged as the 27th abuse incident against Vinicius) and similar chants in March 2024.",
+    "sources": [
+     "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Comision-contra-la-Violencia-en-el-Deporte-propone-la-clausura-temporal-de-los-estadios-de-Osasuna-y-Getafe/",
+     "https://digital-release.wkrg.com/sports/sports-illustrated/6a0d5c70/new-vinicius-jr-investigation-launched-four-days-after-benfica-racism-scandal",
+     "https://www.flashscore.com/news/soccer-laliga-osasuna-deny-there-were-racist-chants-at-home-game-with-real-madrid/C8IFEsEM/"
+    ]
+   }
+  ],
+  "missing_checked": [
+   "no betting sponsor now (Kirolbet main sponsor 2018-21 ended); MGS Seguros youth/official partner from July 2026",
+   "member-owned club, president Luis Sabalza; no PE, multi-club or Super League",
+   "no UEFA sanction (no European football 2024-26)",
+   "2013 match-fixing by former directors: past, already reflected in O 9.8"
+  ],
+  "notes": "Unverified: whether the June 2026 closure/fine proposal became a final sanction or was appealed, and the outcome of LaLiga's Feb 2026 Vinicius probe. If the 'Vinicius, muerete' chants are ruled racist, Kevin may want a 'Racism' line instead of or beside 'Fan violence'. Pamplona city council criticised the police response on 21 Feb 2026 as disproportionate, so the violence part of that night is contested; the chant record and the Commission's findings are not. Indar Gorri's left-wing identity remains a V credit. Together the two changes cost roughly 6 hard points plus 0.4 V, which would move Osasuna (74.9) below Real Sociedad by more; check the 'Linked to Athletic Club' +0.9 still makes sense.",
+  "confidence": "medium"
+ }
+]

@@ -336,9 +336,9 @@
     "V": 7,
     "H": 4.2,
     "O": 5,
-    "S": 8.1,
-    "Q": 64.8,
-    "A0": 61.4,
+    "S": 8.2,
+    "Q": 65.0,
+    "A0": 61.6,
     "hard": [],
     "conn": [],
     "K": 0.0,
@@ -350,7 +350,7 @@
      "event": "AFCON 2025",
      "result": "did not qualify"
     },
-    "tb": 0.1,
+    "tb": 0.2,
     "clubs": [
      [
       "Shamrock Rovers",
@@ -374,7 +374,7 @@
      ]
     ]
    },
-   "base": 61.4,
+   "base": 61.6,
    "bonus": 0,
    "region": ""
   },
@@ -1588,9 +1588,9 @@
     "V": 7.2,
     "H": 6,
     "O": 6.2,
-    "S": 6.2,
-    "Q": 65.8,
-    "A0": 67.0,
+    "S": 6.3,
+    "Q": 66.0,
+    "A0": 67.2,
     "hard": [],
     "conn": [],
     "K": 0.0,
@@ -1602,7 +1602,7 @@
      "event": "Gold Cup 2025",
      "result": "runners-up"
     },
-    "tb": 0.2,
+    "tb": 0.3,
     "clubs": [
      [
       "New York City Football Club",
@@ -1626,7 +1626,7 @@
      ]
     ]
    },
-   "base": 67.0,
+   "base": 67.2,
    "bonus": 20,
    "region": "Home nation"
   },

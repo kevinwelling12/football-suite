@@ -5508,6 +5508,29 @@
   ]
  },
  {
+  "name": "Cucho Hernández",
+  "gender": "M",
+  "active": true,
+  "aff": 63.5,
+  "Q": 63.0,
+  "Qh": 63.0,
+  "R": 62.4,
+  "A0": 62.8,
+  "K": 0.7,
+  "conn": [
+   [
+    "Club seasons",
+    1.3
+   ],
+   [
+    "Seasons at clubs you rate low",
+    -0.6
+   ]
+  ],
+  "hard": [],
+  "roots": null
+ },
+ {
   "name": "Khvicha Kvaratskhelia",
   "gender": "M",
   "active": true,
@@ -5556,29 +5579,6 @@
    "Heritage: Poland 2%",
    0.4
   ]
- },
- {
-  "name": "Cucho Hernández",
-  "gender": "M",
-  "active": true,
-  "aff": 63.4,
-  "Q": 63.0,
-  "Qh": 63.0,
-  "R": 62.4,
-  "A0": 62.8,
-  "K": 0.6,
-  "conn": [
-   [
-    "Club seasons",
-    1.2
-   ],
-   [
-    "Seasons at clubs you rate low",
-    -0.6
-   ]
-  ],
-  "hard": [],
-  "roots": null
  },
  {
   "name": "Matt Le Tissier",

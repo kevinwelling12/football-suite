@@ -1,0 +1,61 @@
+[
+ {
+  "name": "Crystal Palace",
+  "verdict": "confirmed",
+  "changes": [],
+  "missing_checked": [
+   "ownership confirmed: Woody Johnson ~43% (bought Textor's Eagle Football stake, completed July 2025), Josh Harris 18%, David Blitzer 18%, Steve Parish ~10% (chairman), Robert Franco ~5%; no multi-club feeder link left (hard line removal already made)",
+   "sale process: FT (June 2026) reported the owners hired Raine Group and are open to options including a full sale, linked to funding the new Main Stand; no buyer, bid or agreement found as of October 2026, already reflected in O 5.0",
+   "no state, PE, LBO, Super League or relocation link",
+   "sponsors 2026-27: Temporal (software) front of shirt replacing NET88 (betting); Chexx Bet (gambling) sleeve with Selhurst Park LED/backdrop branding (single-outlet report of the September 2026 announcement) - the sleeve was already counted in V 6.0; Macron kit; Molson Coors",
+   "no FA/UEFA discrimination sanctions found 2021-26; UEFA fines 2025-26 were for anti-UEFA chants and 'UEFA mafia' banners (disrepute, not discrimination); FA fined the club GBP 50,000 in February 2026 for a Holmesdale banner about Nottingham Forest owner Evangelos Marinakis (offensive banner, not discrimination)",
+   "women's team: promoted back to the WSL for 2026-27 (2nd in WSL2), TEN Ltd sleeve, adult season tickets GBP 90-125; a positive not in the earlier V evidence",
+   "community: Palace for Life Foundation active; academy (Mitchell, Wharton-era pathway) already counted",
+   "Woody Johnson: 2020 State Department inspector general report recorded staff complaints of insensitive remarks on race, religion and sex while he was US ambassador; the department's Office of Civil Rights later found the allegations unsubstantiated - not counted"
+  ],
+  "notes": "V stays 6.0: the WSL return is a real women's-team positive (about +0.2), but the Chexx Bet deal now includes stadium branding and the FA banner fine is a minor conduct negative; together they roughly offset. If Kevin wants the WSL side counted on its own, V 6.2 would fit. current_r3 shows H 6.6 while scores.py has 6.4; H not re-judged here. Sources: https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/ ; https://www.richmond-news.com/soccer/jets-owner-woody-johnson-completes-purchase-of-stake-in-premier-league-club-crystal-palace-10989120 ; https://www.insideworldfootball.com/2026/05/22/crystal-palace-swap-net88-for-temporal-on-shirt-front/ ; https://www.scoreandchange.com/overview-of-the-2026-2027-premier-league-sponsors/ ; https://sportskhabri.com/?p=154499 ; https://www.goal.com/en-sa/lists/crystal-palace-receive-massive-fine-fans-display-offensive-banner-nottingham-forest-owner-evangelos-marinakis/blt357ccc8f94451ed9 ; https://wtop.com/news/2026/05/crystal-palace-fans-take-their-feud-with-uefa-all-the-way-to-conference-league-final/ ; https://www.cpfc.co.uk/news/announcement/2026-27-palace-womens-season-ticket-now-on-sale/ ; https://www.nbcnews.com/news/world/trump-s-ambassador-uk-made-inappropriate-comments-race-gender-government-n1236515",
+  "confidence": "medium"
+ },
+ {
+  "name": "Auxerre",
+  "verdict": "confirmed",
+  "changes": [],
+  "missing_checked": [
+   "ownership unchanged: James Zhou (ORG Technology, private packaging firm) majority owner since 2016; June 2026 open letter says he is staying, priorities infrastructure (new stand), international development, youth training; no sale reports",
+   "no state, PE, LBO, multi-club, Super League or relocation link",
+   "no sportsbook/betting partner found (Macron kit; Groupama long-term partner; Acadomia tutoring partner); club partner page not fully verified",
+   "no LFP/FFF/UEFA discrimination or fan-violence sanctions found 2021-26 (hard lines re-checked: none)",
+   "fan anger in June 2026 at the dismissal of Christophe Pelissier after he kept the club up; one-off, not protests against the owner - not counted",
+   "women's team: founded 2018, rose from regional level to the Seconde Ligue (2nd tier), 4th in 2025-26, signing players for 2026-27; small positive, within the existing V 6.3 (academy)"
+  ],
+  "notes": "Nothing new moves a factor. Coach Will Still (since June 2026) already in Team. current_r3 shows H 6.8 while scores.py has 7.0; H not re-judged here. Sources: https://morning-foot.com/ligue-1/auxerre/aja-james-zhou-lettre-supporters-nouveau-projet-auxerre/ ; https://en.wikipedia.org/wiki/AJ_Auxerre_(women) ; https://info.fr/auxerre-jamila-hamidou-ex-losc-engage-aja-feminin/ ; https://www.footyheadlines.com/2483306221/aj-auxerre-26-27-away-kit-released.html",
+  "confidence": "medium"
+ },
+ {
+  "name": "Columbus Crew",
+  "verdict": "adjust",
+  "changes": [
+   {
+    "field": "V",
+    "from": 6.0,
+    "to": 6.2,
+    "why": "In April 2026 the Crew's ownership group (Haslam Sports Group, Nationwide, the Edwards family) was awarded an NWSL expansion team for 2028 ($205m fee, shared stadium refurbished for it, new training facility), a real women's-team commitment not in the earlier V evidence; counted modestly because it does not play until 2028.",
+    "sources": [
+     "https://wysu.org/ohio-news/2026-04-21/columbus-awarded-national-womens-soccer-league-expansion-franchise-starting-in-2028",
+     "https://www.arenadistrict.com/news/columbus-awarded-nwsl-team-will-begin-play-in-2028/",
+     "https://www.nbcwashington.com/news/sports/soccer/columbus-nwsl-18th-team-2028/4094095/"
+    ]
+   }
+  ],
+  "missing_checked": [
+   "betting: Tipico was 'official and exclusive sports betting partner' from 2022 (beer garden and club naming at the stadium); the club's current partners page lists no sportsbook or casino (Ohio Lottery is a partner, a lottery not a sportsbook, treated as Philadelphia's PA Lottery was)",
+   "kit clean: Nationwide shirt; stadium renamed ScottsMiracle-Gro Field (from Lower.com Field) for 2026",
+   "ownership change: Edwards family to 30% in 2025; Nationwide (Columbus-based mutual insurer) agreed in May 2026 to buy 37% (30% from the Haslams, 7% from the Edwards) at a $900m valuation, announced June 2026; Haslams keep control at 40%. MLS approval not separately confirmed. More local ownership, consistent with O 7.2",
+   "no PE, state, LBO or multi-club link (Haslam Sports Group's other teams are the NFL Browns and a Milwaukee Bucks stake, not football clubs)",
+   "no MLS fan discrimination or violence sanctions found",
+   "Derrick Jones and Yaw Yeboah lifetime betting bans (March 2026) concern former players; club not implicated (already noted in Team research)"
+  ],
+  "notes": "For Kevin: the controlling owners, Jimmy and Dee Haslam, gave Deshaun Watson a fully guaranteed $230m contract at the Browns in 2022 while he faced more than 20 civil suits alleging sexual misconduct; Haslam later called the trade 'a big swing and miss' but stood by the decision. This is owner conduct at another franchise, which no existing rule covers (the nearest is Arsenal's rival-ownership line). If Kevin wants it counted under Ownership, about -0.3 (O 7.2 to 6.9) would fit; not proposed because the new Nationwide stake moves the club the other way. current_r3 shows H 7.4 while scores.py has 7.2; H not re-judged here. Sources: https://www.sportico.com/business/team-sales/2026/mls-columbus-crew-nationwide-stake-sale-1234901712/ ; https://fieldlevelmedia.com/news/reports-nationwide-buying-37-stake-in-crew-at-900m-valuation/ ; https://www.sportico.com/business/team-sales/2025/mls-columbus-crew-haslam-stake-sale-1234858669/ ; https://sbcamericas.com/2022/01/17/tipico-becomes-sports-betting-partner-of-columbus-crew/ ; https://www.columbuscrew.com/club/partners ; https://www.experiencecolumbus.com/blog/post/whats-new-with-the-columbus-crew-in-2026/ ; https://www.nfl.com/news/browns-owner-jimmy-haslam-admits-team-took-a-big-swing-and-miss-with-deshaun-watson ; https://www.cleveland19.com/2025/03/31/browns-owner-watson-trade-was-big-swing-miss/",
+  "confidence": "medium"
+ }
+]

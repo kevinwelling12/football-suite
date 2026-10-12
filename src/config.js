@@ -18,17 +18,7 @@ const euro18 = (zw, top, topKey) => ({
 
 const COMPS_CFG = {
   epl: { drawPrior: 0.24, name: 'Premier League', season: '26/27', round: 'Matchweek', abbr: 'MW', brand: { head: '#37003C', accent: '#E90052', glow: 'rgba(233,0,82,.55)', tag: '#FF6FA6' }, source: 'openfootball', build: zw => euro20(zw) },
-  esp: { drawPrior: 0.26, name: 'LaLiga', season: '26/27', round: 'Matchday', abbr: 'MD', brand: { head: '#1B1B2F', accent: '#FF4B44', glow: 'rgba(255,75,68,.5)', tag: '#FF8A84' }, source: 'openfootball', build: zw => euro20(zw) },
-  ita: { drawPrior: 0.26, name: 'Serie A', season: '26/27', round: 'Matchday', abbr: 'MD', brand: { head: '#0B1E3D', accent: '#1F7AE0', glow: 'rgba(31,122,224,.55)', tag: '#7DB5FF' }, source: 'openfootball', build: zw => euro20(zw) },
   bl: { drawPrior: 0.24, name: 'Bundesliga', season: '26/27', round: 'Matchday', abbr: 'MD', brand: { head: '#1A1A1A', accent: '#D20515', glow: 'rgba(210,5,21,.55)', tag: '#FF6B74' }, source: 'openfootball', build: zw => euro18(zw, 4, 'top4') },
-  fra: { drawPrior: 0.27, name: 'Ligue 1', season: '26/27', round: 'Matchday', abbr: 'MD', brand: { head: '#101010', accent: '#C8DC00', glow: 'rgba(200,220,0,.45)', tag: '#DAED3A' }, source: 'openfootball', build: zw => euro18(zw, 3, 'top3') },
-  ch: { drawPrior: 0.27, name: 'Championship', season: '26/27', round: 'Matchweek', abbr: 'MW', brand: { head: '#0B1F3A', accent: '#C9A227', glow: 'rgba(201,162,39,.5)', tag: '#E7C65A' }, source: 'openfootball',
-    build: zw => ({
-      zones: [Z('title', 'Title', r => r === 1, zw['Title']), Z('auto', 'Promoted', r => r <= 2, zw['Automatic promotion']), Z('po', 'Play-offs', r => r <= 6, zw['Play-offs (top 6)']), Z('rel', 'Relegated', r => r >= 22, zw['Relegation'], { bad: true })],
-      status: [{ type: 'doom', k: 21, label: 'Relegated', mark: 'r' }, { type: 'clinch', k: 2, label: 'Promoted', mark: 'p' }, { type: 'clinch', k: 6, label: 'Play-offs clinched', mark: 'x' }, { type: 'clinch', k: 21, label: 'Safe' }],
-      lines: [[2.5, 1], [6.5, 0.85], [21.5, 1], [1.5, 0.3]], cols: ['auto', 'po', 'rel'], colors: [[1, 1, GOLD], [2, 2, GREEN], [3, 6, CYAN], [22, 24, RED]], cuts: [2, 6, 21],
-      legend: [['Champion', GOLD], ['Promoted', GREEN], ['Play-offs', CYAN], ['Relegation', RED]],
-      headline: ['Promotion race', 'auto', 'to go up automatically'], line: ['Play-off line', 6, 'Projected 6th place'] }) },
   nwsl: { drawPrior: 0.24, name: 'NWSL', season: '2026', round: 'Week', abbr: 'Wk', brand: { head: '#0A1F44', accent: '#E03A3E', glow: 'rgba(224,58,62,.5)', tag: '#FF8A8D' }, source: 'FBref',
     build: zw => ({
       zones: [Z('shield', 'Shield', r => r === 1, zw['NWSL Shield']), Z('top4', 'Top 4', r => r <= 4, zw['Top 4 (home quarterfinal)']), Z('po', 'Playoffs', r => r <= 8, zw['Playoffs (top 8)'])],
@@ -59,41 +49,22 @@ const COMPS_CFG = {
       lines: [[8.5, 1], [24.5, 1], [16.5, 0.5]], cols: ['top8', 'qf', 'win'], colLabels: { qf: 'Quarter-finals', win: 'Win it' },
       colors: [[1, 8, GREEN], [9, 24, CYAN]], cuts: [8, 24], legend: [['Round of 16', GREEN], ['Knockout play-off', CYAN]],
       headline: ['Title race', 'win', 'to lift the trophy'], line: ['Top-8 line', 8, 'Projected 8th place'] }) },
-  unl: { drawPrior: 0.25, name: 'Nations League', season: '26/27', round: 'Matchday', abbr: 'MD', brand: { head: '#0D1B3E', accent: '#00A3E0', glow: 'rgba(0,163,224,.5)', tag: '#6FD2F5' }, source: 'UEFA', grouped: true, satOrder: 'groupFirst', noun: 'Nation',
-    build: zw => ({
-      zones: [Z('winner', 'Group winner', r => r === 1, zw['Group winner'] ?? 0.5, { scope: 'group' }), Z('top2', 'Top 2', r => r <= 2, zw['Quarter-finals (top 2)'] ?? 1, { scope: 'group' }),
-        Z('safe', 'Top 3', r => r <= 3, zw['Avoid relegation (top 3)'] ?? 1, { scope: 'group' })],
-      knockout: 'unl2', status: [{ type: 'clinch', k: 1, label: 'Group won' }, { type: 'clinch', k: 2, label: 'Top 2 clinched' }],
-      lines: [[2.5, 1], [3.5, 0.85], [1.5, 0.4]], cols: ['top2', 'win', 'down'],
-      colsByLeague: { A: ['top2', 'win', 'down'], B: ['up', 'po', 'down'], C: ['up', 'po'], D: ['winner', 'up'] },
-      colLabels: { top2: 'Quarter-finals', win: 'Win it', down: 'Relegated', up: 'Promoted', po: 'Play-off', winner: 'Group winner' },
-      leagueNotes: { A: 'Top 2 in each group reach the quarter-finals. The two worst 4th-placed teams go down; the two best 4th-placed and two worst 3rd-placed teams play off against League B runners-up in March.',
-        B: 'Group winners are promoted to League A. Runners-up play off for promotion against League A teams; 4th-placed teams play off to stay up against League C runners-up.',
-        C: 'Group winners are promoted to League B. Runners-up play off for promotion against League B\'s 4th-placed teams.',
-        D: 'Every League D nation is promoted to League C for the next edition.' },
-      colors: [], cuts: [], legend: [],
-      headline: ['Title race', 'win', 'to win the Nations League'], line: ['Quarter-final line', 8, 'Projected 8th overall'] }) },
-  cup: { name: 'Carabao Cup', season: '26/27', round: 'Round', abbr: '', brand: { head: '#004D2C', accent: '#E30613', glow: 'rgba(227,6,19,.5)', tag: '#FF7A82' }, source: 'EFL and match reports', cup: true },
 };
 // Top nav: region tabs, then that region's competitions as chips. ORDER follows the regions.
 // dot = the competition's colour in the nav and on the overview: one clearly different hue per competition,
 // tuned to read on black. brand.* still themes each competition's own pages.
 const REGIONS = [
-  { key: 'eng', name: 'England', comps: ['epl', 'ch', 'cup'] },
-  { key: 'eur', name: 'Europe', comps: ['esp', 'ita', 'bl', 'fra'] },
+  { key: 'eur', name: 'Europe', comps: ['epl', 'bl', 'ucl'] },
   { key: 'usa', name: 'USA', comps: ['mls', 'usl', 'nwsl'] },
-  { key: 'uefa', name: 'UEFA', comps: ['ucl', 'unl'] },
 ];
-const DOT = { epl: '#FF2D87', ch: '#E9B824', cup: '#22C55E', ucl: '#3B82F6', esp: '#FF7A1A', ita: '#14B8A6', bl: '#EF4444', fra: '#C4E02A',
-  mls: '#38BDF8', usl: '#FFB020', nwsl: '#A78BFA', unl: '#CBD5E1', xc: '#E879F9' };
+const DOT = { epl: '#FF2D87', ucl: '#3B82F6', bl: '#EF4444', mls: '#38BDF8', usl: '#FFB020', nwsl: '#A78BFA' };
 // Chip labels: [full, phone]. Phone labels keep each region's chips on one row at 390px.
-const CHIP = { epl: ['Premier League', 'Premier Lg'], cup: ['Carabao Cup', 'Carabao'], usl: ['USL'] };
+const CHIP = { epl: ['Premier League', 'Premier Lg'], usl: ['USL'] };
 const ORDER = REGIONS.flatMap(r => r.comps);
 // US TV, short form for match cards (the full line, from data tv, shows on the match sheet).
-const TV_SHORT = { epl: 'Peacock / NBC', ch: 'Paramount+', cup: 'Paramount+', ucl: 'Paramount+ / CBS', esp: 'ESPN+', ita: 'Paramount+',
-  bl: 'Fandango', fra: 'beIN SPORTS', mls: 'Apple TV', usl: 'ESPN+', nwsl: 'Paramount+, ESPN, Prime', unl: 'FOX / FS1' };
+const TV_SHORT = { epl: 'Peacock / NBC', ucl: 'Paramount+ / CBS', bl: 'Fandango', mls: 'Apple TV', usl: 'ESPN+', nwsl: 'Paramount+, ESPN, Prime' };
 // Short labels for the slim bar that sticks to the top once the header scrolls away.
-const ABBR = { epl: 'EPL', ch: 'EFL', cup: 'Cup', ucl: 'UCL', esp: 'LaLiga', ita: 'Serie A', bl: 'BL', fra: 'L1', mls: 'MLS', usl: 'USL', nwsl: 'NWSL', unl: 'UNL' };
+const ABBR = { epl: 'EPL', ucl: 'UCL', bl: 'BL', mls: 'MLS', usl: 'USL', nwsl: 'NWSL' };
 // Model config for a competition (shared by the page and the background model worker).
 function compCfg(k, params) {
   const c = COMPS_CFG[k];

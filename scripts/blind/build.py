@@ -160,13 +160,9 @@ def fill(rows):
 
 def rows():
     """-> (clubs, players): every entity with its features 0-1 (missing facts at the average)."""
-    D = json.loads((root / 'data' / 'suite_data.json').read_text())
-    X = json.loads((root / 'data' / 'nations_extra.json').read_text())
-    comps = {}
-    for k, c in D.items():
-        for t in c['teams']: comps.setdefault(t['name'], []).append(k)
-    for t in X['teams']: comps.setdefault(t['name'], []).append('wc')
-    for t in X.get('clubs', []): comps.setdefault(t['name'], []).append('xc')
+    # The test's pool and its leagues are frozen as they were when Kevin took it (comps.json, 2026-10-12): the tracker
+    # now follows six competitions, but the weights and the gut check were fitted on this pool.
+    comps = json.loads((here / 'comps.json').read_text())
     perf = performance.load()
     ranks = {x['name']: x.get('fifa_rank') for x in json.loads((root / 'scripts/affinity/research/nations_perf.json').read_text())}
     dom = json.loads((root / 'scripts/affinity/research/domestic.json').read_text())

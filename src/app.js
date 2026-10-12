@@ -337,7 +337,7 @@ const lastIn = {};
 function renderStatus() {
   const k = state.view;
   let s;
-  if (k === 'rank') s = rankMode === 'players' && PLAYERS.ma ? `Players ranked by your Affinity` : rankMode === 'leagues' ? `Leagues ranked by their median club's Affinity` : `<b>${rankList().length}</b> clubs and nations, ranked by Affinity`;
+  if (k === 'rank') s = rankMode === 'players' && PLAYERS.ma ? `Players ranked by your Affinity` : rankMode === 'leagues' ? `Leagues ranked by their median club's Affinity` : `<b>${rankList().length}</b> clubs, ranked by Affinity`;
   else if (k === 'live') { const a = liveNow().length, b = kickedOff().length; s = a || b ? `<b>${a}</b> live${b ? `, <b>${b}</b> kicked off without a live score` : ''}` : 'Nothing live right now'; }
   else if (k === 'home') {
     const done = ORDER.filter(c => R[c]).length;
@@ -800,8 +800,8 @@ function openXClub(j) {
   if (!$('#detail').open) $('#detail').showModal(); $('#close').onclick = () => $('#detail').close();
 }
 // Overall ranking: every club and nation once, under its primary league.
-const RANK_PRIMARY = ['epl', 'esp', 'ita', 'bl', 'fra', 'mls', 'nwsl', 'ch', 'usl', 'ucl', 'cup', 'unl'];
-const RANK_LABEL = { cup: 'League One / Two', ucl: 'Other European leagues', unl: 'Nations', xc: 'Heritage clubs' };
+const RANK_PRIMARY = ['epl', 'bl', 'mls', 'nwsl', 'usl', 'ucl'];
+const RANK_LABEL = { ucl: 'Champions League' };
 const rankLabel = k => RANK_LABEL[k] || COMPS_CFG[k].name;
 let rankF = 'all', rankCache = null, rankMode = 'clubs', plF = 'ma', plOpen = null;
 // What Kevin can realistically follow (bandwidth): the leagues he follows, and the competitions where his clubs meet
@@ -826,7 +826,7 @@ function rankList() {
   return rankCache = Object.values(by).sort((a, b) => affOf(b.t) - affOf(a.t) || a.t.name.localeCompare(b.t.name));
 }
 const PL_TABS = [['ma', 'Men · Active'], ['mt', 'Men · All-time'], ['wa', 'Women · Active'], ['wt', 'Women · All-time']];
-const rankModes = () => PLAYERS.ma ? `<div class="rank-chips">${[['clubs', 'Clubs & nations'], ['players', 'Players'], ['leagues', 'Leagues']].map(([m, l]) => `<button class="rchip" data-rankmode="${m}" aria-pressed="${rankMode === m}" style="--c:#fff">${l}</button>`).join('')}</div>` : '';
+const rankModes = () => PLAYERS.ma ? `<div class="rank-chips">${[['clubs', 'Clubs'], ['players', 'Players'], ['leagues', 'Leagues']].map(([m, l]) => `<button class="rchip" data-rankmode="${m}" aria-pressed="${rankMode === m}" style="--c:#fff">${l}</button>`).join('')}</div>` : '';
 const PL_HOW = `<details class="how"><summary>How it's scored</summary><p>From your blind test, the same way as clubs: researched facts about each player (trophies, awards, years at one club, captaincy, work rate, humility, time for fans, charity, incidents and so on), weighted by your answers. Pulls you most: ${topW(BL.player, 6, 1)}. Pushes you away most: ${topW(BL.player, 5, -1)}. Youth is one of the facts, so younger players with their careers ahead already count for it.</p></details>`;
 // The facts that move a score most: [fact key, value 0-1, points]. Labels from the blind test.
 const fxRows = (fx, labels) => (fx || []).map(([k, x, v]) => `<div class="hb"><span>${esc(labels[k] || k)}</span><span class="bar"><i style="width:${x * 100}%"></i></span><b class="num ${v < 0 ? 'neg' : ''}">${signed(v)}</b></div>`).join('');
@@ -859,7 +859,7 @@ function viewRank() {
   const all = rankList(), mx = affOf(all[0].t);
   const counts = {}; all.forEach(e => counts[e.k] = (counts[e.k] || 0) + 1);
   const nFit = all.filter(e => fitOf(e.t.name)).length;
-  const chips = [['all', `All ${all.length}`], ['fit', `In your competitions ${nFit}`]].concat(RANK_PRIMARY.concat('xc').filter(k => counts[k]).map(k => [k, `${rankLabel(k)} ${counts[k]}`]));
+  const chips = [['all', `All ${all.length}`], ['fit', `In your competitions ${nFit}`]].concat(RANK_PRIMARY.filter(k => counts[k]).map(k => [k, `${rankLabel(k)} ${counts[k]}`]));
   const list = all.map((e, n) => Object.assign({n: n + 1}, e)).filter(e => rankF === 'all' || (rankF === 'fit' ? fitOf(e.t.name) : e.k === rankF));
   // Filtered to one league: rank within the league, overall rank in parentheses.
   const byLeague = rankF !== 'all' && rankF !== 'fit';

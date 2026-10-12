@@ -100,15 +100,13 @@ def scores(fair=True, detail=False):
 def main():
     S, SP, players, wc, wp = scores(True, detail=True)
     D = json.loads((root / 'data' / 'suite_data.json').read_text())
-    X = json.loads((root / 'data' / 'nations_extra.json').read_text())
-    for t in [t for c in D.values() for t in c['teams']] + X['teams'] + X.get('clubs', []):
+    for t in [t for c in D.values() for t in c['teams']]:
         a, parts = S[t['name']]
         t['base'], t['bonus'] = a, 0
         t['hai'] = dict(blind=1, fx=parts)
         t.pop('bonus0', None)
         if 'region' in t and str(t['region']).startswith(('Heritage', 'Home nation', 'Hometown')): t.pop('region')
     (root / 'data' / 'suite_data.json').write_text(json.dumps(D, ensure_ascii=False, separators=(',', ':')))
-    (root / 'data' / 'nations_extra.json').write_text(json.dumps(X, ensure_ascii=False, indent=1))
 
     # players: the research facts give clubs and the NWSL tag for the lists
     sys.path.insert(0, str(root / 'scripts' / 'affinity' / 'players'))

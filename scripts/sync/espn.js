@@ -16,8 +16,7 @@ const MODEL = require(path.join(root, 'src/model.js'));
 const { COMPS_CFG, compCfg } = require(path.join(root, 'src/config.js'));
 const ALIAS = require('./espn_aliases.json');   // ESPN name -> tracker name, for names the matcher can't pair
 
-const LEAGUE = { epl: 'eng.1', ch: 'eng.2', cup: 'eng.league_cup', ucl: 'uefa.champions', esp: 'esp.1', ita: 'ita.1', bl: 'ger.1',
-  fra: 'fra.1', mls: 'usa.1', usl: 'usa.usl.1', nwsl: 'usa.nwsl', unl: 'uefa.nations' };
+const LEAGUE = { epl: 'eng.1', ucl: 'uefa.champions', bl: 'ger.1', mls: 'usa.1', usl: 'usa.usl.1', nwsl: 'usa.nwsl' };
 // Fixture dates are the local match date: US leagues in Eastern time, everything else in UK time.
 const TZ = { mls: 'America/New_York', usl: 'America/New_York', nwsl: 'America/New_York' };
 const DAY = 864e5;

@@ -4,6 +4,9 @@ Read this first. Then docs/architecture.md, docs/data-model.md, docs/affinity.md
 
 ## What this is
 A personal football tracker for Kevin (Sacramento). One self-contained HTML page built from src/ + data/.
+Six competitions since 2026-10-12: Premier League, Bundesliga, Champions League (Europe tab), MLS, USL Championship, NWSL
+(USA tab). The rest (LaLiga, Serie A, Ligue 1, Championship, Carabao Cup, Nations League, extra nations and heritage
+clubs) were removed; the cup and Nations League code paths in app.js/model.js are dormant.
 Used mostly on iPhone/iPad (Safari), dark mode. It was built in claude.ai chat and published as a
 claude.ai artifact; this repo is the transfer to Claude Code.
 

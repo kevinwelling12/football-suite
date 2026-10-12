@@ -840,8 +840,8 @@ function viewPlayers() {
       <span class="num sc">${p.a.toFixed(1)}</span></div>${plOpen === n ? `<div class="pl-det">${fxRows(p.fx, BL.labels.player)}</div>` : ''}`).join('')}</div></section>`;
 }
 // Leagues: the median club's Affinity (Kevin, 2026-10-09: a few heavily penalised clubs skewed the mean), plus how many
-// clubs reach 76 (the ones he'd enjoy watching) and the three he rates highest.
-const LIKE = 76;   // blind-model scale: about the top fifth of clubs (2026-10-12)
+// clubs reach 75 (the ones he'd enjoy watching) and the three he rates highest.
+const LIKE = 75;   // blind-model scale: about the top fifth of clubs (2026-10-12)
 function viewLeagues() {
   const L = ORDER.filter(k => k !== 'unl' && T(k).length).map(k => { const xs = T(k).map(affOf).sort((a, b) => a - b), n = xs.length;
     return {k, med: n % 2 ? xs[(n - 1) / 2] : (xs[n / 2 - 1] + xs[n / 2]) / 2, like: xs.filter(a => a >= LIKE).length,

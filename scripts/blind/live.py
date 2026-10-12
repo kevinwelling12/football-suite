@@ -18,7 +18,10 @@ import build
 Q = json.loads(subprocess.check_output(['node', str(here / 'questions.js')]))
 ANS = json.loads((here / 'answers' / 'kevin.json').read_text())['answers']
 
-def weights(feats, prefix, pairs, pair_prefix, a=ANS):
+GUT_W = 3   # each league's gut-check favourite counts as much as 3 trade-off answers (same as the test page)
+GUT = ['epl', 'esp', 'ita', 'bl', 'fra', 'mls', 'nwsl', 'usl']
+
+def weights(feats, prefix, pairs, pair_prefix, a=ANS, extra=()):
     """Port of weights() in template.html: same start, same pairs, same learning rate and iterations."""
     w0 = {f[0]: (a.get(prefix + f[0]) / 3 if isinstance(a.get(prefix + f[0]), (int, float)) else 0.0) for f in feats}
     w = dict(w0); obs = []
@@ -28,13 +31,14 @@ def weights(feats, prefix, pairs, pair_prefix, a=ANS):
         d = {}
         for k, v in pa: d[k] = d.get(k, 0) + v
         for k, v in pb: d[k] = d.get(k, 0) - v
-        obs.append((d, (r + 2) / 4))
+        obs.append((d, (r + 2) / 4, 1.0))
+    obs += list(extra)
     K, LAM, LR = 3, 0.5, 0.05
     for _ in range(2000):
         g = {k: 2 * LAM * (w[k] - w0[k]) for k in w}
-        for d, y in obs:
+        for d, y, ow in obs:
             z = sum(w[k] * v for k, v in d.items()); p = 1 / (1 + math.exp(-K * z))
-            for k, v in d.items(): g[k] += K * (p - y) * v
+            for k, v in d.items(): g[k] += ow * K * (p - y) * v
         for k in w: w[k] -= LR * g[k]
     return w
 
@@ -52,6 +56,11 @@ def haversine(a, b):
     h = math.sin(dl / 2) ** 2 + math.cos(t(a[0])) * math.cos(t(b[0])) * math.sin(dn / 2) ** 2
     return 6371 * 2 * math.asin(math.sqrt(h))
 
+def near(km):
+    """Closeness on a log scale (Kevin, 2026-10-12): 1 at home, 0.64 at 110 km (Oakland from Sacramento), 0.36 at 800 km,
+    0.13 across the US, about 0 in Europe. 1 - ln(1 + km/10) / ln(1 + 10000/10), floored at 0."""
+    return max(0.0, 1 - math.log1p(km / 10) / math.log1p(1000))
+
 def scorer(w):
     lo = sum(v for v in w.values() if v < 0); hi = sum(v for v in w.values() if v > 0); span = hi - lo
     def score(f):
@@ -64,17 +73,23 @@ def scores(fair=True, detail=False):
     """-> (clubs {name: score}, players {name: score}); with detail, also the parts and the inputs main() writes.
     fair=False reproduces the first shipped version (no gap fills, raw trophy counts, every fact at its own weight)."""
     build.FAIR = fair
-    wc = weights(Q['CF'], 'c_', Q['CP'], 'cp'); wp = weights(Q['PF'], 'p_', Q['PP'], 'pp')
-    if fair: wc, wp = turnoffs(wc, Q['CF'], 'c_'), turnoffs(wp, Q['PF'], 'p_')
     home = next((p for p in build.PLACES if p[0] == ANS.get('home')), None); nat = ANS.get('nation') or ''
     clubs, players = build.rows()
-    sc, sp = scorer(wc), scorer(wp)
-    S = {}
+    keys = [f[0] for f in Q['CF']]
     for c in clubs:
-        f = dict(c['f'])
-        f['near'] = max(0.0, 1 - haversine(home[1:], c['ll']) / 3000) if home and c['ll'] else 0.0
-        f['home'] = 1.0 if c['k'] == 'nation' and c['n'] == nat else 0.0
-        S[c['n']] = sc(f)
+        c['f']['near'] = near(haversine(home[1:], c['ll'])) if home and c['ll'] else 0.0
+        c['f']['home'] = 1.0 if c['k'] == 'nation' and c['n'] == nat else 0.0
+    gut = []
+    if fair:   # gut-check favourites: the pick over every other club in its league (revealed choices)
+        for k in GUT:
+            pick = ANS.get('g_' + k); xs = [c for c in clubs if k in c['comps']]; me = next((c for c in xs if c['n'] == pick), None)
+            if not me: continue
+            for x in xs:
+                if x is not me: gut.append(({f: me['f'].get(f, 0) - x['f'].get(f, 0) for f in keys}, 1.0, GUT_W / (len(xs) - 1)))
+    wc = weights(Q['CF'], 'c_', Q['CP'], 'cp', extra=gut); wp = weights(Q['PF'], 'p_', Q['PP'], 'pp')
+    if fair: wc, wp = turnoffs(wc, Q['CF'], 'c_'), turnoffs(wp, Q['PF'], 'p_')
+    sc, sp = scorer(wc), scorer(wp)
+    S = {c['n']: sc(c['f']) for c in clubs}
     SP = {}
     for p in players:
         f = dict(p['f']); f['homenat'] = 1.0 if nat and p['nat'] == nat else 0.0

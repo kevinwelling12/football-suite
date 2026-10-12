@@ -68,6 +68,16 @@ def load(prefix):
             p = patch.get(x['name']) or {}
             for k in ('avg_attendance', 'capacity', 'ticket_price', 'country', 'caps', 'nation'):
                 if p.get(k) is not None and (k in ('avg_attendance', 'capacity', 'ticket_price', 'country') or x.get(k) is None): x[k] = p[k]
+        if prefix == 'clubs':   # sanctions recounted to one standard (SANCTIONS_BRIEF.md), mapped to the codebook's 0-3 bands
+            sanc = {}
+            for f in sorted(glob.glob(str(here / 'fill' / 'out_sanctions_*.json'))): sanc.update(json.load(open(f)))
+            for x in out:
+                s = sanc.get(x['name'])
+                if not s: continue
+                d, v = s.get('discr_n') or 0, s.get('viol_n') or 0
+                x['discrimination'] = 3 if s.get('far_right') or d >= 4 else 2 if d >= 2 else d
+                x['violence'] = 3 if s.get('deaths') or v >= 4 else 2 if v >= 2 else v
+                if x['kind'] != 'nation': x['financial_breaches'] = s.get('fin_n') or 0
     return out
 
 def club_features(c, perf, ranks, dom):

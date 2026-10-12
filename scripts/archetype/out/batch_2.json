@@ -1,0 +1,966 @@
+{
+ "Columbus Crew": {
+  "terrace": 5,
+  "city": 6,
+  "voice": 5,
+  "conscience": 4,
+  "ground": 6,
+  "contender": 8,
+  "rituals": 4,
+  "stewardship": 7,
+  "women": 1,
+  "intensity": 6,
+  "why": "Nordecke is an organised, loud MLS supporters' end, not famous abroad | Crew is Columbus's pro soccer identity but shares a college-football city (Ohio State) | #SaveTheCrew fan campaign (2017-18) kept the club in Columbus; no formal fan power now | Community work but no defining inclusion identity (estimate) | Downtown Lower.com Field (2021, ~20k), well filled, club attendance records 2023 | MLS Cups 2020 and 2023, 2024 Leagues Cup, 2024 CCC final | Nordecke traditions known in MLS, little beyond | Local Haslam/Edwards owners bought it to keep it in Columbus and built a stadium | No women's team; NWSL side planned for 2028 | Nancy's possession side ended 2025; mixed tempo since with coach churn",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Columbus_Crew"
+  ]
+ },
+ "Como": {
+  "terrace": 3,
+  "city": 5,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 5,
+  "contender": 6,
+  "rituals": 2,
+  "stewardship": 4,
+  "women": 3,
+  "intensity": 8,
+  "why": "Small reorganised ultras; crowds now include tourists more than a big terrace | Well-loved local club in a small lakeside city, but low crowds | Hartono-owned since 2019, no fan voice; fan-backed refoundings after 2004/2017 bankruptcies | Nothing notable either way found | Sinigaglia (1927, 13.6k) is a historic lakeside ground with character but small crowds | 4th in Serie A 2025-26, first UCL qualification; no major honours | No rituals known beyond the club | Billionaire Hartono brothers fund an imported squad; stable but asset-style spending | Women's side in Serie A (Como Women), low profile | Fabregas's possession-dominant, high-pressing young side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Como_1907"
+  ]
+ },
+ "Coventry City": {
+  "terrace": 4,
+  "city": 7,
+  "voice": 3,
+  "conscience": 4,
+  "ground": 5,
+  "contender": 3,
+  "rituals": 5,
+  "stewardship": 7,
+  "women": 2,
+  "intensity": 7,
+  "why": "Loyal, vocal home support but no famous singing end | Coventry's main club, a working city that stayed loyal through exiles and League Two | No fan board seat; fans' long protests against SISU did not give them formal power | Sky Blues in the Community; nothing defining (estimate) | CBS Arena is a 2005 out-of-town bowl, ~29k average | 1987 FA Cup; promoted to the Premier League 2026, newcomers | 'Sky Blue Song' anthem known in England | Local owner Doug King reunited club and stadium (2025) | Women's team in lower tiers | Lampard's front-foot, high-scoring promotion side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+  ]
+ },
+ "Crawley Town": {
+  "terrace": 1,
+  "city": 3,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 2,
+  "contender": 1,
+  "rituals": 1,
+  "stewardship": 2,
+  "women": 2,
+  "intensity": 4,
+  "why": "Thin crowds (~4,300), no known singing section | New-town club, little city identity, in the League only since 2011 | No fan voice found | Ex-manager Yems banned for racist abuse of players (2022) | Broadfield (5.5k, council-owned 1997) half-filled | Near relegation from League Two 2025-26 | None known | Crypto WAGMI owners (2022-25) then KB Sports; churn | Affiliated Crawley Wasps in lower tiers | Possession under Lindsey, then rebuild; no clear identity (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crawley_Town_F.C."
+  ]
+ },
+ "Crewe Alexandra": {
+  "terrace": 2,
+  "city": 6,
+  "voice": 2,
+  "conscience": 2,
+  "ground": 4,
+  "contender": 4,
+  "rituals": 2,
+  "stewardship": 6,
+  "women": 1,
+  "intensity": 5,
+  "why": "Ordinary crowds (~5,500), no noted singing end | Railway town's club, but small crowds and Stoke/Man clubs nearby | Board-run; no fan ownership | Bennell abuse case: Sheldon Report said club should have done more | Gresty Road about half full (10k) | Mid-table League Two, 2024-25 promotion push | None known beyond the club | Stable local board ownership | Women's side lower tiers | Technical, academy-first passing style, not a pressing side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crewe_Alexandra_F.C."
+  ]
+ },
+ "Crystal Palace": {
+  "terrace": 7,
+  "city": 6,
+  "voice": 3,
+  "conscience": 5,
+  "ground": 8,
+  "contender": 6,
+  "rituals": 6,
+  "stewardship": 4,
+  "women": 3,
+  "intensity": 7,
+  "why": "Holmesdale Fanatics (2005) bring drums, flags and tifos; one of England's loudest ends | South London club, loved locally but one of many London clubs | Fan groups campaign on prices; no formal power | Palace for Life Foundation, visible community work | Selhurst Park (1924), compact, full, very loud | FA Cup 2025 and Conference League 2026 | Holmesdale ultra culture, 'Glad All Over' known in England | US investors (Johnson, Harris/Blitzer) exploring a sale; Parish 10% | Women's team relegated from WSL in 2025 (estimate) | Glasner's intense 3-4-3, Sage (intense) from 2026",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
+   "https://insidecroydon.com/2026/06/16/ft-reports-palaces-us-billionaire-owners-look-to-sell-shares/"
+  ]
+ },
+ "D.C. United": {
+  "terrace": 6,
+  "city": 4,
+  "voice": 2,
+  "conscience": 4,
+  "ground": 6,
+  "contender": 2,
+  "rituals": 5,
+  "stewardship": 5,
+  "women": 0,
+  "intensity": 4,
+  "why": "La Barra Brava (1995) and Screaming Eagles, among MLS's oldest supporter groups | Washington's MLS club, small in a big multi-sport city | No fan power found | Nothing notable either way | Audi Field (2018, 20k) with safe standing in the north end | Long run of poor results; four MLS Cups long ago | Bouncing-stand tradition from RFK, known in MLS | Levien/Kaplan ordinary private owners | No women's team (Washington Spirit separate) | Coach churn, no identity",
+  "sources": [
+   "https://en.wikipedia.org/wiki/D.C._United"
+  ]
+ },
+ "Deportivo La Coruña": {
+  "terrace": 6,
+  "city": 9,
+  "voice": 2,
+  "conscience": 6,
+  "ground": 7,
+  "contender": 2,
+  "rituals": 5,
+  "stewardship": 5,
+  "women": 4,
+  "intensity": 7,
+  "why": "Riazor Blues and ~200 peñas, known in Spain | The city's club and a Galician symbol: 25k season tickets even in the third tier | Abanca owns ~99%; no fan power | Riazor Blues are an anti-fascist group; Galician identity | Riazor (32.5k, central, by the sea) well filled | Just promoted back to La Liga 2026; Super Depor era is history | Known in Spain, not beyond | Regional bank Abanca rescued the club; not fan-owned | Women's team in Liga F | Hidalgo's attacking promotion side around Yeremay",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+  ]
+ },
+ "Derby County": {
+  "terrace": 5,
+  "city": 8,
+  "voice": 4,
+  "conscience": 4,
+  "ground": 6,
+  "contender": 4,
+  "rituals": 4,
+  "stewardship": 7,
+  "women": 2,
+  "intensity": 5,
+  "why": "Loud, loyal support but no famous end | Derby's one club; 27k in League One after administration | Supporters' Board meets the owner; documented but modest influence | Community trust; nothing defining | Pride Park (1997 bowl) well filled | 8th in Championship 2025-26 | 'Steve Bloomer's Watchin'' known locally | Local developer Clowes rescued it (2022); Saudi takeover withdrew 2026 | Women's team in lower tiers | Eustace's organised, pragmatic side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Derby_County_F.C."
+  ]
+ },
+ "Derry City": {
+  "terrace": 5,
+  "city": 9,
+  "voice": 2,
+  "conscience": 4,
+  "ground": 5,
+  "contender": 5,
+  "rituals": 4,
+  "stewardship": 6,
+  "women": 1,
+  "intensity": 5,
+  "why": "Loyal Brandywell support, loud by League of Ireland standards | The city's club; plays in the Republic's league from Northern Ireland, deep community bond | No fan ownership found | Cross-community role; crowd incidents 2022/2024 (estimate) | Brandywell (~3,700) small, full, historic | Mid-table (~5th) in 2026; FAI Cup 2022 | Known in Ireland only | Local chairman O'Doherty funds beyond income | Women's team status unknown after search (estimate) | No style evidence found (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Derry_City_F.C.",
+   "https://www.espn.co.cr/futbol/partido/_/juegoId/763206/dundalk-derry-city"
+  ]
+ },
+ "Detroit City FC": {
+  "terrace": 7,
+  "city": 6,
+  "voice": 6,
+  "conscience": 9,
+  "ground": 7,
+  "contender": 5,
+  "rituals": 5,
+  "stewardship": 8,
+  "women": 3,
+  "intensity": 6,
+  "why": "Northern Guard: smoke, chanting, tifo, famous in US lower leagues | Deeply local (Hamtramck), but Detroit's main teams are the big leagues | Fans bought investment units ($1m+ in 2020); supporter-driven culture | Openly anti-racist, anti-fascist; first US pro-LGBTQ+ match kit (2014) | Keyworth Stadium (1936, ~8k) packed and atmospheric | 3rd East in USL Championship 2026 | Smoke and chants known in US soccer | Founded and still controlled by five local residents | Women's team in the amateur/pre-pro tier since 2020 | Front-foot by repute; style not verified (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Detroit_City_FC"
+  ]
+ },
+ "Doncaster Rovers": {
+  "terrace": 3,
+  "city": 5,
+  "voice": 2,
+  "conscience": 4,
+  "ground": 3,
+  "contender": 4,
+  "rituals": 2,
+  "stewardship": 7,
+  "women": 3,
+  "intensity": 6,
+  "why": "Ordinary crowds, no notable singing end | Town's club, ~8k crowds; rugby league competes | No fan power found | CALM charity kit; community trust | Eco-Power Stadium (2007 bowl) about half full | 14th in League One 2025-26 after League Two title | None known beyond the club | Long-term local owner Terry Bramall | Linked to historic Doncaster Rovers Belles | McCann's 'go and entertain' front-foot side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Doncaster_Rovers_F.C."
+  ]
+ },
+ "Eintracht Frankfurt": {
+  "terrace": 8,
+  "city": 7,
+  "voice": 8,
+  "conscience": 6,
+  "ground": 8,
+  "contender": 7,
+  "rituals": 7,
+  "stewardship": 9,
+  "women": 7,
+  "intensity": 6,
+  "why": "Nordwestkurve choreographies; ~30,000 travelled to Camp Nou (2022) | The city's main club, though Frankfurt is a finance hub | Members' e.V. holds majority under 50+1 | Public anti-AfD stance; offset by racist and queerphobic fan incidents and disorder | Waldstadion averages 59k, full, very loud | Europa League 2022, DFB-Pokal 2018; regular Europe | Eagle mascot Attila, choreos and 'Im Herzen von Europa' known in Europe | Member-controlled, stable | Women's side (ex-1. FFC Frankfurt) top-tier and prominent | Transition football, intensity varies with coaches",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+  ]
+ },
+ "El Paso Locomotive FC": {
+  "terrace": 2,
+  "city": 4,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 3,
+  "contender": 5,
+  "rituals": 2,
+  "stewardship": 7,
+  "women": 0,
+  "intensity": 5,
+  "why": "Supporters exist but no noted section | Well liked locally but a young franchise | No fan power | Nothing notable found | Shared baseball ground, ~5k of 7.5k | 1st in USL West 2026 | None known | Local MountainStar group | No women's team | No style evidence (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/El_Paso_Locomotive_FC"
+  ]
+ },
+ "Elche": {
+  "terrace": 4,
+  "city": 7,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 5,
+  "contender": 2,
+  "rituals": 3,
+  "stewardship": 2,
+  "women": 1,
+  "intensity": 7,
+  "why": "Ordinary atmosphere, occasional big nights | The city's club, well supported for its size | Owner-run; no fan voice | Kept charged player Rafa Mir; owner linked to barra funding reports | Martínez Valero (33.7k) well supported | Survival side in La Liga | None known beyond Spain | Agent-owner Bragarnik with Chilean club network | Women's side low profile | Front-foot possession and press (Sarabia, Anselmi)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Elche_CF"
+  ]
+ },
+ "Espanyol": {
+  "terrace": 4,
+  "city": 3,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 4,
+  "contender": 2,
+  "rituals": 3,
+  "stewardship": 2,
+  "women": 4,
+  "intensity": 4,
+  "why": "Curva RCDE singing end; ordinary atmosphere | Second club in Barcelona, in Barça's shadow | No fan power | Historic far-right ultras links; club distanced itself | RCDE Stadium (2009) modern bowl on the city edge | Survival level; last Copa 2006 | None known beyond Spain | Velocity Sports Partners (Burnley owners) multi-club since 2025 | Women's side in Liga F with past titles | Compact, direct, hard-running side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RCD_Espanyol"
+  ]
+ },
+ "Everton": {
+  "terrace": 6,
+  "city": 7,
+  "voice": 3,
+  "conscience": 6,
+  "ground": 7,
+  "contender": 3,
+  "rituals": 6,
+  "stewardship": 4,
+  "women": 5,
+  "intensity": 4,
+  "why": "Loud, loyal support; no single famous end now Gwladys Street is gone | 'The People's Club', shares Liverpool with Liverpool | No formal fan power; supporters' groups protested Moshiri era | Everton in the Community is widely praised | New 52.9k Bramley-Moore Dock stadium (2025), full and steep but new | Relegation fights, now mid-table | Z-Cars walk-out known in England | Friedkin Group (also Roma) since 2024; Stake.com sponsor | Everton Women in WSL, play at Goodison | Moyes: organised, direct, not pressing",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Everton_F.C."
+  ]
+ },
+ "Exeter City": {
+  "terrace": 4,
+  "city": 6,
+  "voice": 10,
+  "conscience": 5,
+  "ground": 6,
+  "contender": 4,
+  "rituals": 3,
+  "stewardship": 10,
+  "women": 2,
+  "intensity": 5,
+  "why": "Big Bank terrace; loyal but small crowds | City's club, ~6.5k average | Supporters' Trust owns 53.6% of voting shares | Community-rooted, employee-owned sponsor; nothing defining | St James Park (1904) traditional terrace ground | Relegated to League Two 2026 | First team to play Brazil (1914); limited rituals | Supporter-owned since 2003 rescue | Women's team in lower tiers | No pressing identity",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Exeter_City_F.C.",
+   "https://en.wikipedia.org/wiki/Exeter_City_Supporters%27_Trust"
+  ]
+ },
+ "FC Augsburg": {
+  "terrace": 4,
+  "city": 6,
+  "voice": 4,
+  "conscience": 4,
+  "ground": 5,
+  "contender": 2,
+  "rituals": 2,
+  "stewardship": 3,
+  "women": 1,
+  "intensity": 4,
+  "why": "Steady crowds, little distinct atmosphere | City's only top club | 50+1 applies, but investor-held pro arm | Nothing notable either way | WWK Arena (2009) ~30k, near full | Mid-table survival club | None known beyond the club | Blitzer's Bolt (multi-club) ~45% | Women's team in lower tiers | Pragmatic, compact football",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Augsburg"
+  ]
+ },
+ "FC Cincinnati": {
+  "terrace": 6,
+  "city": 6,
+  "voice": 2,
+  "conscience": 3,
+  "ground": 7,
+  "contender": 7,
+  "rituals": 5,
+  "stewardship": 7,
+  "women": 0,
+  "intensity": 6,
+  "why": "The Bailey and its march through Over-the-Rhine, known in MLS | Big local following since USL days | No fan power | Nothing notable either way | TQL Stadium (2021, 26k) full, steep supporters' end | 2023 Supporters' Shield; regular contender | Pre-match march known in MLS | Local Lindner family majority | No women's team | Attacking, moderately intense under Noonan",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Cincinnati"
+  ]
+ },
+ "FC Dallas": {
+  "terrace": 2,
+  "city": 3,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 2,
+  "contender": 4,
+  "rituals": 2,
+  "stewardship": 7,
+  "women": 0,
+  "intensity": 5,
+  "why": "Modest atmosphere historically | Suburban Frisco club in a big multi-sport metro | No fan power | Girls' academy; nothing defining | Toyota Stadium under renovation, 11k temporary capacity | 2nd West in Sept 2026; last trophy 2016 | None known | Hunt family, long-term owners investing in academy and stadium | No women's team (Dallas Trinity separate) | Style not verified (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Dallas"
+  ]
+ },
+ "FC Tulsa": {
+  "terrace": 2,
+  "city": 3,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 2,
+  "contender": 6,
+  "rituals": 1,
+  "stewardship": 6,
+  "women": 0,
+  "intensity": 5,
+  "why": "83UNITED official supporters; small | Young franchise in a baseball park | No fan power | Nothing notable found | ONEOK Field (baseball), ~4k | 2025 Western Conference champions | None known | Local Craft family | No women's team | No style evidence (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/FC_Tulsa"
+  ]
+ },
+ "Fenerbahçe": {
+  "terrace": 8,
+  "city": 6,
+  "voice": 6,
+  "conscience": 2,
+  "ground": 9,
+  "contender": 8,
+  "rituals": 7,
+  "stewardship": 6,
+  "women": 4,
+  "intensity": 5,
+  "why": "Genç Fenerbahçeliler lead one of Europe's loudest supports | One of Istanbul's big three; Kadıköy identity | Members elect the president | Nationalist displays, Greenwood signing, betting-probe captain | Şükrü Saracoğlu (Kadıköy, since 1908) famously loud | Title contender every year | Chants and tifo known across Europe | Member club but UEFA fines, transfer ban, churn | Women's team in Turkish top flight | Star-signing side, no pressing identity",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)"
+  ]
+ },
+ "Feyenoord": {
+  "terrace": 8,
+  "city": 8,
+  "voice": 6,
+  "conscience": 2,
+  "ground": 9,
+  "contender": 8,
+  "rituals": 7,
+  "stewardship": 7,
+  "women": 4,
+  "intensity": 7,
+  "why": "Het Legioen, huge travelling support | Rotterdam's working-class people's club | Supporter-investor groups (VAK) in foundation governance | Racism fine (Barcelona 2026), antisemitic chanting prosecuted | De Kuip (1937) the Netherlands' most intense stadium | 2023 champions, regular top-two | 'Hand in Hand' anthem known in Europe | No single owner, foundation-governed | Women's team in Eredivisie | Slot-era pressing legacy; coach churn since",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Feyenoord"
+  ]
+ },
+ "Fiorentina": {
+  "terrace": 6,
+  "city": 9,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 5,
+  "contender": 4,
+  "rituals": 5,
+  "stewardship": 5,
+  "women": 6,
+  "intensity": 5,
+  "why": "Curva Fiesole, one of Italy's classic ends | Florence's only club and its soul | No fan power | Racist chants (2023); otherwise nothing notable | Franchi (1931) under renovation, reduced capacity, running track | Conference League finals 2023-24; 15th in 2025-26 | Viola traditions known in Italy | Commisso family, invested in Viola Park | Women's side won Serie A 2017, top-tier | Coach churn, mixed style",
+  "sources": [
+   "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+  ]
+ },
+ "Fleetwood Town": {
+  "terrace": 1,
+  "city": 4,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 2,
+  "contender": 2,
+  "rituals": 1,
+  "stewardship": 4,
+  "women": 1,
+  "intensity": 4,
+  "why": "Thin crowds (~3k), no singing end | Small fishing-town club, little identity | No fan power | Ex-owner jailed for fraud (2023) | Highbury (5.3k) smallest in division | 15th in League Two | None known | Owned by the jailed ex-owner's son | Women's team lower tiers | No identity found",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fleetwood_Town_F.C."
+  ]
+ },
+ "Frosinone": {
+  "terrace": 3,
+  "city": 6,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 4,
+  "contender": 1,
+  "rituals": 2,
+  "stewardship": 8,
+  "women": 1,
+  "intensity": 6,
+  "why": "Loyal but modest support | Small-town club with a close bond | No fan power | Nothing notable found | Stadio Stirpe (2017, 16k), small modern ground | Promoted to Serie A 2026, survival level | None known | Local industrialist Stirpe, prudent, owns stadium | Women's side low profile | Alvini's front-foot promotion side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+  ]
+ },
+ "Fulham": {
+  "terrace": 3,
+  "city": 4,
+  "voice": 1,
+  "conscience": 4,
+  "ground": 6,
+  "contender": 4,
+  "rituals": 3,
+  "stewardship": 5,
+  "women": 1,
+  "intensity": 6,
+  "why": "Generally quiet crowd, includes a neutral section | One of many London clubs | No fan power | Fulham FC Foundation | Craven Cottage (1896) characterful riverside ground | Mid-table Premier League | None known beyond England | Shahid Khan, stable, no other clubs | Women's team not professional | Silva's possession, Arbeloa new (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fulham_F.C."
+  ]
+ },
+ "Galatasaray": {
+  "terrace": 9,
+  "city": 6,
+  "voice": 6,
+  "conscience": 2,
+  "ground": 8,
+  "contender": 10,
+  "rituals": 8,
+  "stewardship": 6,
+  "women": 5,
+  "intensity": 6,
+  "why": "ultrAslan; Guinness crowd-noise record | One of Istanbul's big three | Members elect the president | Nationalist displays, betting shirt sponsor, violence | RAMS Park (2011) set a noise record | Turkey's most successful club, recent titles | 'Welcome to Hell' known worldwide | Member club, debt-heavy spending | Women's league champions 2024 | Star-driven; no pressing identity",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)"
+  ]
+ },
+ "Genoa": {
+  "terrace": 7,
+  "city": 6,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 8,
+  "contender": 2,
+  "rituals": 6,
+  "stewardship": 4,
+  "women": 2,
+  "intensity": 6,
+  "why": "Gradinata Nord, one of Italy's famous curves | Shares Genoa with Sampdoria | No fan power | Derby disorder; nothing positive notable | Luigi Ferraris (1911) English-style, steep | 16th in Serie A | No. 12 retired for fans; known in Italy | Dan Sucu also owns Rapid Bucharest | Women's side low profile | De Rossi brought energy",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Genoa_CFC"
+  ]
+ },
+ "Getafe": {
+  "terrace": 2,
+  "city": 4,
+  "voice": 1,
+  "conscience": 1,
+  "ground": 2,
+  "contender": 2,
+  "rituals": 2,
+  "stewardship": 5,
+  "women": 2,
+  "intensity": 5,
+  "why": "Quiet crowds | Madrid suburb club in Real/Atlético's shadow | No fan power | Racist abuse of Acuña (2024); signed Greenwood | Coliseum (16.5k), modest | Survival side | None known | Long-time owner-president Torres | Women's side low profile | Bordalás: very intense but low-possession, foul-heavy",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Getafe_CF"
+  ]
+ },
+ "Gillingham": {
+  "terrace": 3,
+  "city": 6,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 5,
+  "contender": 3,
+  "rituals": 2,
+  "stewardship": 5,
+  "women": 1,
+  "intensity": 4,
+  "why": "Ordinary crowds, no famous end | Medway's club | No fan power | FA fine for race- and gender-related abuse (2023) | Priestfield (1893) traditional ground | 17th in League Two | None known | US owner Galinson, ordinary | Women's team lower tiers | Direct, physical style",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gillingham_F.C."
+  ]
+ },
+ "Grimsby Town": {
+  "terrace": 4,
+  "city": 8,
+  "voice": 5,
+  "conscience": 3,
+  "ground": 6,
+  "contender": 6,
+  "rituals": 5,
+  "stewardship": 7,
+  "women": 1,
+  "intensity": 6,
+  "why": "Strong, loyal following through non-league spells | Fishing town lives through the Mariners | Mariners Trust 13.5% and partnership with owners | Sectarian chanting fine (2024) | Blundell Park (1899) traditional | 7th in League Two; beat Man United in EFL Cup 2025 | Inflatable haddock tradition known in England | Local-born owners with the trust | Women's team lower tiers | Attacking side (74 goals), no press documented",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Grimsby_Town_F.C."
+  ]
+ },
+ "Hamburger SV": {
+  "terrace": 7,
+  "city": 6,
+  "voice": 8,
+  "conscience": 6,
+  "ground": 7,
+  "contender": 2,
+  "rituals": 7,
+  "stewardship": 8,
+  "women": 4,
+  "intensity": 6,
+  "why": "Nordtribüne, large and loud | Shares Hamburg with St. Pauli | e.V. holds ~75% | Plan International charity sleeve; solid | Volksparkstadion ~57k, near full even in 2. Bundesliga | Promoted 2025, survival level | Stadium clock, 'Hamburg meine Perle' known in Germany | Member-controlled; boardroom instability | Women's team promoted to Frauen-Bundesliga 2025 | Front-foot, not elite press",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hamburger_SV"
+  ]
+ },
+ "Hartford Athletic": {
+  "terrace": 3,
+  "city": 4,
+  "voice": 1,
+  "conscience": 4,
+  "ground": 4,
+  "contender": 4,
+  "rituals": 4,
+  "stewardship": 6,
+  "women": 0,
+  "intensity": 5,
+  "why": "The Bonanza and Raza Brava | City's club, small crowds | No fan power | Players walked off over alleged slur (2025) | Dillon Stadium (1935) historic, half full | 2025 USL Cup winners | Whalers' 'Brass Bonanza' chant | Local Hartford Sports Group | No women's team | No style evidence (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hartford_Athletic"
+  ]
+ },
+ "Heart of Midlothian": {
+  "terrace": 6,
+  "city": 7,
+  "voice": 9,
+  "conscience": 5,
+  "ground": 8,
+  "contender": 8,
+  "rituals": 5,
+  "stewardship": 9,
+  "women": 6,
+  "intensity": 6,
+  "why": "Loud home support at Tynecastle | Shares Edinburgh with Hibs | Foundation of Hearts holds 75%+ of voting shares | Community foundation; solid | Tynecastle steep and loud | 2nd in 2025-26, lost the title on the last day; UCL qualifier | Hearts song known in Scotland | Fan-owned; Bloom has a minority non-voting stake | Hearts Women challenge for SWPL titles | No style evidence (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C.",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_Scottish_Premiership"
+  ]
+ },
+ "Hibernian": {
+  "terrace": 5,
+  "city": 7,
+  "voice": 3,
+  "conscience": 4,
+  "ground": 6,
+  "contender": 4,
+  "rituals": 7,
+  "stewardship": 5,
+  "women": 5,
+  "intensity": 6,
+  "why": "Loyal support, loud on big nights | Shares Edinburgh with Hearts; Leith identity | Hibernian Supporters Limited minority stake | Community foundation; nothing defining | Easter Road traditional and steep | 5th in 2025-26 | 'Sunshine on Leith' anthem known beyond Scotland | US Gordon family majority; SBK betting sleeve | Hibs Women historic SWPL side | No style evidence (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hibernian_F.C."
+  ]
+ },
+ "Houston Dynamo FC": {
+  "terrace": 3,
+  "city": 3,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 4,
+  "contender": 4,
+  "rituals": 3,
+  "stewardship": 5,
+  "women": 3,
+  "intensity": 4,
+  "why": "El Batallón and Texian Army; no strong atmosphere reports | Big multi-sport city | No fan power | Nothing notable either way | Downtown stadium, fluctuating crowds | 2023 Open Cup | None known | Ted Segal, ordinary private owner | Shares owner with Houston Dash (NWSL) | Average intensity",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Houston_Dynamo_FC"
+  ]
+ },
+ "Huddersfield Town": {
+  "terrace": 4,
+  "city": 6,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 4,
+  "contender": 6,
+  "rituals": 3,
+  "stewardship": 5,
+  "women": 2,
+  "intensity": 6,
+  "why": "Cowshed Loyal ultras-style group | Town's club, rugby league competes | No fan power | Nothing notable either way | Kirklees Stadium (1994) modern bowl | 6th in League One early 2026-27 | 'Smile A While' anthem | Kevin Nagle, ordinary | Women's team lower tiers | Drury demands an all-in running side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Huddersfield_Town_A.F.C."
+  ]
+ },
+ "Hull City": {
+  "terrace": 4,
+  "city": 6,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 5,
+  "contender": 2,
+  "rituals": 3,
+  "stewardship": 4,
+  "women": 1,
+  "intensity": 5,
+  "why": "Solid crowds, not a noted atmosphere | City's club but rugby league is big | No fan power | Homophobic chanting fine (2026) | MKM Stadium (2002), solid | Promoted via play-offs 2026 | None known | Owner Ilicali, high churn | Women's team lower tiers | No lasting identity",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+  ]
+ },
+ "Indy Eleven": {
+  "terrace": 5,
+  "city": 4,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 4,
+  "contender": 4,
+  "rituals": 3,
+  "stewardship": 5,
+  "women": 2,
+  "intensity": 5,
+  "why": "Brickyard Battalion (2,000+ members) | Indianapolis's soccer club | No fan power | Nothing notable | Carroll Stadium, ~8.5k | Mid-table | None known | Ozdemir; stadium plans stalled | Women's team won USL W League 2023 | No style evidence (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Indy_Eleven"
+  ]
+ },
+ "Inter Miami CF": {
+  "terrace": 3,
+  "city": 3,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 5,
+  "contender": 10,
+  "rituals": 2,
+  "stewardship": 4,
+  "women": 0,
+  "intensity": 5,
+  "why": "Four groups, but support largely Messi-driven | Big city, newer franchise | No fan power | Suárez spitting ban, Bright racial slur ban | New Nu Stadium (2026) sold out | 2025 MLS Cup, 2024 Shield | None known | Mas brothers/Beckham, Ares stake, cap fines | No women's team | Quality high, intensity low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Inter_Miami_CF"
+  ]
+ },
+ "Inter Milan": {
+  "terrace": 7,
+  "city": 5,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 7,
+  "contender": 10,
+  "rituals": 6,
+  "stewardship": 1,
+  "women": 5,
+  "intensity": 7,
+  "why": "Curva Nord choreographies and constant noise | Shares Milan with AC Milan | No fan power | Curva Nord leaders convicted (mafia links); betting sponsor | San Siro ~75k, the biggest crowds in Italy | Title contender, two UCL finals in 3 years | 'Pazza Inter' known in Italy | Oaktree Capital (credit fund) owns ~99.6% | Women's side in Serie A | Chivu's aggressive, front-foot side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Inter_Milan"
+  ]
+ },
+ "Ipswich Town": {
+  "terrace": 5,
+  "city": 8,
+  "voice": 2,
+  "conscience": 4,
+  "ground": 7,
+  "contender": 3,
+  "rituals": 4,
+  "stewardship": 3,
+  "women": 3,
+  "intensity": 6,
+  "why": "Loyal, lively, not elite | Suffolk's club, one-club region | No fan board seat found | Community trust; women funded | Portman Road (1884) sold out | Up-and-down 2024-26 | None known beyond England | US pension/private equity (Gamechanger 20, Bright Path) | Women funded and professionalised | O'Neil pressing after McKenna",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+  ]
+ },
+ "Juventus": {
+  "terrace": 5,
+  "city": 4,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 6,
+  "contender": 8,
+  "rituals": 6,
+  "stewardship": 5,
+  "women": 7,
+  "intensity": 5,
+  "why": "Ordinary atmosphere for the club's size | National club, not Turin's soul | No fan power | Racist chants (Lukaku 2023), plusvalenze case | Allianz Stadium (2011) full but ordinary | Contender but last title 2020 | Juve songs known in Italy | Agnelli-Elkann long-term family | Juventus Women multiple Serie A titles | Coach churn, mixed",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Juventus_FC"
+  ]
+ },
+ "LA Galaxy": {
+  "terrace": 4,
+  "city": 4,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 4,
+  "contender": 7,
+  "rituals": 3,
+  "stewardship": 5,
+  "women": 0,
+  "intensity": 6,
+  "why": "Galaxians, Angel City Brigade; safe standing | Big city, suburban Carson | No fan power | Club banned fans during ICE protests | Dignity Health (Carson) ordinary | 2024 MLS Cup, collapse 2025 | None known | AEG, ordinary | No women's team (Angel City separate) | Vanney's possession side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/LA_Galaxy"
+  ]
+ },
+ "LASK": {
+  "terrace": 5,
+  "city": 5,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 6,
+  "contender": 8,
+  "rituals": 3,
+  "stewardship": 6,
+  "women": 3,
+  "intensity": 7,
+  "why": "Organised support, solid crowds | Linz's main club, shares with Blau-Weiss | No fan power | Signed Boateng despite fans' and women's team protests | Raiffeisen Arena (2023) new, ~13k | 2025-26 Austrian double | None known | Local entrepreneurs consortium | Women's team top division | Austrian pressing school",
+  "sources": [
+   "https://en.wikipedia.org/wiki/LASK"
+  ]
+ },
+ "Las Vegas Lights FC": {
+  "terrace": 1,
+  "city": 2,
+  "voice": 1,
+  "conscience": 2,
+  "ground": 1,
+  "contender": 1,
+  "rituals": 1,
+  "stewardship": 4,
+  "women": 0,
+  "intensity": 5,
+  "why": "BLVD Locals; small | Little local bond | No fan power | Nothing notable | Cashman Field, ~2.8k | Bottom-half | Gimmick promotions | Bautista group; no home ground for 2027 | No women's team | No style evidence (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Las_Vegas_Lights_FC"
+  ]
+ },
+ "Lazio": {
+  "terrace": 7,
+  "city": 4,
+  "voice": 3,
+  "conscience": 0,
+  "ground": 3,
+  "contender": 5,
+  "rituals": 6,
+  "stewardship": 3,
+  "women": 3,
+  "intensity": 5,
+  "why": "Curva Nord historically loud; boycott 2026 | Shares Rome with Roma | Fan boycott hasn't changed ownership | Far-right Irriducibili legacy, racism sanctions | Olimpico with running track; boycott leaves it empty | Cup contender, mid-table | Olimpia eagle flight known in Italy | Lotito owner, mass fan protests | Women's side in Serie A | Gattuso (intense) after Sarri",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SS_Lazio"
+  ]
+ },
+ "Le Havre": {
+  "terrace": 3,
+  "city": 6,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 4,
+  "contender": 2,
+  "rituals": 3,
+  "stewardship": 2,
+  "women": 4,
+  "intensity": 3,
+  "why": "Average atmosphere | Port city's club | No fan power | Nothing notable | Stade Océane (2012), ~19k | Survival in Ligue 1 | None known | Blue Crow multi-club group | Women's side in top flight | Low-possession, defensive",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Le_Havre_AC"
+  ]
+ },
+ "Le Mans": {
+  "terrace": 3,
+  "city": 5,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 3,
+  "contender": 1,
+  "rituals": 2,
+  "stewardship": 4,
+  "women": 1,
+  "intensity": 6,
+  "why": "Loyal support (~12k in Ligue 2) | City's club | No fan power | Nothing notable | Stade Marie-Marvingt half full | Just promoted to Ligue 1 | None known | OutField Brazilian investors | Women's side low profile | Videira stresses intensity and character",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Le_Mans_FC"
+  ]
+ },
+ "Lecce": {
+  "terrace": 5,
+  "city": 8,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 6,
+  "contender": 1,
+  "rituals": 4,
+  "stewardship": 7,
+  "women": 1,
+  "intensity": 4,
+  "why": "Loud Curva Nord | Salento's identity | No fan power | Nothing notable | Via del Mare well filled | Survival side | Known in Italy | Local shareholder group | Women's side low profile | Survival side under Di Francesco",
+  "sources": [
+   "https://en.wikipedia.org/wiki/US_Lecce"
+  ]
+ },
+ "Leeds United": {
+  "terrace": 7,
+  "city": 9,
+  "voice": 3,
+  "conscience": 4,
+  "ground": 8,
+  "contender": 3,
+  "rituals": 7,
+  "stewardship": 4,
+  "women": 2,
+  "intensity": 7,
+  "why": "Elland Road loud and intimidating; huge away following | One-club city | Supporters' Trust consulted | Foundation work; homophobic chanting fine (2023) | Elland Road (1919) loud, expansion planned | Promoted 2025, survival level | 'Marching On Together' known in England | 49ers Enterprises, Rangers stake | Women's team lower tiers | Farke's energetic, ball-controlling side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+  ]
+ },
+ "Leicester City": {
+  "terrace": 4,
+  "city": 6,
+  "voice": 1,
+  "conscience": 4,
+  "ground": 5,
+  "contender": 6,
+  "rituals": 3,
+  "stewardship": 3,
+  "women": 4,
+  "intensity": 5,
+  "why": "Loud on big nights, not standout | City's main football club (rugby competes) | No fan power | Community legacy; crypto casino sponsor | King Power (2002) | League One contender after two relegations | 2016 title folklore | King Power, PSR breach, OH Leuven multi-club | Women's team in WSL | Russell Martin possession",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Leicester_City_F.C."
+  ]
+ },
+ "Lens": {
+  "terrace": 8,
+  "city": 10,
+  "voice": 2,
+  "conscience": 5,
+  "ground": 9,
+  "contender": 7,
+  "rituals": 9,
+  "stewardship": 4,
+  "women": 3,
+  "intensity": 8,
+  "why": "Bollaert famed for atmosphere and loyalty | Town of 30,000 lives through the club | No fan power | Mining-basin community identity | Bollaert (38k in a 30k town) full | 2nd in Ligue 1, Coupe de France 2026 | 'Les Corons' known across France | Oughourlian multi-club holder | Women's team rising (estimate) | Intense, organised sides",
+  "sources": [
+   "https://en.wikipedia.org/wiki/RC_Lens"
+  ]
+ },
+ "Levante": {
+  "terrace": 4,
+  "city": 4,
+  "voice": 5,
+  "conscience": 4,
+  "ground": 4,
+  "contender": 2,
+  "rituals": 3,
+  "stewardship": 7,
+  "women": 4,
+  "intensity": 5,
+  "why": "Ultras and peñas, ordinary to decent | Second club in Valencia | Foundation-controlled with small fan shareholders | Solid community club (estimate) | Ciutat de València ordinary | Survival side | None known | Club foundation owns majority | Established women's team | No style evidence (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Levante_UD"
+  ]
+ },
+ "Lexington SC": {
+  "terrace": 2,
+  "city": 3,
+  "voice": 1,
+  "conscience": 4,
+  "ground": 4,
+  "contender": 3,
+  "rituals": 2,
+  "stewardship": 7,
+  "women": 6,
+  "intensity": 5,
+  "why": "Railbirds supporters; small | Young club | No fan power | Pro women's team | New stadium (2024), ~4.8k | Mid-table | None known | Local owners built stadium | Women's team 2nd in USL Super League | No style evidence (estimate)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lexington_SC"
+  ]
+ },
+ "Leyton Orient": {
+  "terrace": 3,
+  "city": 4,
+  "voice": 3,
+  "conscience": 6,
+  "ground": 5,
+  "contender": 3,
+  "rituals": 3,
+  "stewardship": 5,
+  "women": 2,
+  "intensity": 6,
+  "why": "Loyal but small | One of many London clubs | Fans Trust exists | Charity shirt sponsorships (Harry Kane deal) | Brisbane Road (1937) compact | 20th in League One | None known | US TV executive Gandler new owner | Women's team lower tiers | Wellens's expansive passing side",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Leyton_Orient_F.C."
+  ]
+ },
+ "Lille": {
+  "terrace": 5,
+  "city": 6,
+  "voice": 1,
+  "conscience": 3,
+  "ground": 5,
+  "contender": 7,
+  "rituals": 4,
+  "stewardship": 2,
+  "women": 2,
+  "intensity": 6,
+  "why": "Dogues Virage Est ultras | City's club | No fan power | Nothing notable | Pierre-Mauroy suburban arena | 2021 champions, regular Europe | None known | Merlyn Partners investment fund | Women's side lower | Organised possession",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lille_OSC"
+  ]
+ },
+ "Lincoln City": {
+  "terrace": 4,
+  "city": 7,
+  "voice": 5,
+  "conscience": 3,
+  "ground": 7,
+  "contender": 3,
+  "rituals": 3,
+  "stewardship": 6,
+  "women": 2,
+  "intensity": 8,
+  "why": "Loud, loyal Sincil Bank | City's club | Red Imps Community Trust ~8% with board seats | Two discrimination fines | Sincil Bank sells out | First Championship season 2026-27 | None known | US owner Fowler, prudent | Women's team lower tiers | Skubala's intense, front-foot side (103 points)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lincoln_City_F.C."
+  ]
+ }
+}

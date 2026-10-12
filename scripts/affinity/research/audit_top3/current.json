@@ -1,0 +1,712 @@
+[
+ {
+  "name": "Liverpool",
+  "comps": [
+   "epl"
+  ],
+  "affinity": 76.6,
+  "C": 10.0,
+  "V": 8.2,
+  "H": 10,
+  "O": 6,
+  "S": 7.1,
+  "P": 8.8,
+  "hard": [
+   [
+    "Super League",
+    -5.9
+   ]
+  ],
+  "conn": [
+   [
+    "Global brand (Money League #5)",
+    -3
+   ],
+   [
+    "Linked to Borussia Dortmund",
+    0.1
+   ],
+   [
+    "Linked to Feyenoord",
+    -0.8
+   ],
+   [
+    "Linked to Inter Milan",
+    -0.6
+   ]
+  ],
+  "notes": null,
+  "rl": "Heritage: Northern Wales & North West England 1%",
+  "roots": 0.2
+ },
+ {
+  "name": "Leeds United",
+  "comps": [
+   "epl"
+  ],
+  "affinity": 70.0,
+  "C": 9.3,
+  "V": 6,
+  "H": 8.0,
+  "O": 5.2,
+  "S": 6.0,
+  "P": 4.0,
+  "hard": [],
+  "conn": [
+   [
+    "Owned by 49ers Enterprises",
+    2
+   ]
+  ],
+  "notes": null,
+  "rl": "Heritage: East Midlands & Yorkshire 7%",
+  "roots": 1.4
+ },
+ {
+  "name": "Everton",
+  "comps": [
+   "epl"
+  ],
+  "affinity": 63.1,
+  "C": 8.3,
+  "V": 7,
+  "H": 9.3,
+  "O": 5.2,
+  "S": 6.4,
+  "P": 4.2,
+  "hard": [
+   [
+    "Multi-club",
+    -7.9
+   ]
+  ],
+  "conn": [],
+  "notes": null,
+  "rl": "Heritage: Northern Wales & North West England 1%",
+  "roots": 0.2
+ },
+ {
+  "name": "Portsmouth",
+  "comps": [
+   "ch"
+  ],
+  "affinity": 74.9,
+  "C": 8.3,
+  "V": 7,
+  "H": 8,
+  "O": 7.2,
+  "S": 7.4,
+  "P": null,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": "Heritage: Southeastern England 13%",
+  "roots": 2.6
+ },
+ {
+  "name": "Derby County",
+  "comps": [
+   "ch"
+  ],
+  "affinity": 67.5,
+  "C": 8.2,
+  "V": 6,
+  "H": 7.3,
+  "O": 7.7,
+  "S": 5.2,
+  "P": null,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": "Heritage: East Midlands & Yorkshire 7%",
+  "roots": 1.4
+ },
+ {
+  "name": "Charlton Athletic",
+  "comps": [
+   "ch"
+  ],
+  "affinity": 65.7,
+  "C": 7.3,
+  "V": 8,
+  "H": 6,
+  "O": 3.8,
+  "S": 5.1,
+  "P": null,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": "Heritage: Southeastern England 13%",
+  "roots": 2.6
+ },
+ {
+  "name": "Borussia Dortmund",
+  "comps": [
+   "bl",
+   "ucl"
+  ],
+  "affinity": 81.4,
+  "C": 10.0,
+  "V": 7,
+  "H": 9.7,
+  "O": 8,
+  "S": 5.8,
+  "P": 8.3,
+  "hard": [],
+  "conn": [
+   [
+    "Global brand (Money League #12)",
+    -1
+   ]
+  ],
+  "notes": [
+   "Values: Rheinmetall arms-maker sponsorship"
+  ],
+  "rl": "Heritage: Northwestern Germany 2%",
+  "roots": 0.4
+ },
+ {
+  "name": "Union Berlin",
+  "comps": [
+   "bl"
+  ],
+  "affinity": 80.4,
+  "C": 10.0,
+  "V": 8.9,
+  "H": 6.8,
+  "O": 10.0,
+  "S": 6.9,
+  "P": 4.8,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": "Heritage: Northeastern Germany 1%",
+  "roots": 0.2
+ },
+ {
+  "name": "Bayern Munich",
+  "comps": [
+   "bl",
+   "ucl"
+  ],
+  "affinity": 78.3,
+  "C": 7.3,
+  "V": 6.2,
+  "H": 10,
+  "O": 8.8,
+  "S": 8.7,
+  "P": 9.7,
+  "hard": [],
+  "conn": [
+   [
+    "Global brand (Money League #3)",
+    -3
+   ]
+  ],
+  "notes": null,
+  "rl": "Heritage: Bavaria & Western Austria 4%",
+  "roots": 0.8
+ },
+ {
+  "name": "Athletic Club",
+  "comps": [
+   "esp"
+  ],
+  "affinity": 92.7,
+  "C": 10.0,
+  "V": 9.2,
+  "H": 10,
+  "O": 10.0,
+  "S": 10,
+  "P": 6.4,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Real Sociedad",
+  "comps": [
+   "esp"
+  ],
+  "affinity": 78.4,
+  "C": 8,
+  "V": 8.3,
+  "H": 8.3,
+  "O": 7.3,
+  "S": 6.7,
+  "P": 6.9,
+  "hard": [],
+  "conn": [
+   [
+    "Linked to Athletic Club",
+    1.2
+   ]
+  ],
+  "notes": [
+   "Rules re-rate 2026-09-30: R3 Team 7->6"
+  ],
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Osasuna",
+  "comps": [
+   "esp"
+  ],
+  "affinity": 74.9,
+  "C": 8.3,
+  "V": 8.1,
+  "H": 6.2,
+  "O": 9.8,
+  "S": 7.2,
+  "P": 4.8,
+  "hard": [],
+  "conn": [
+   [
+    "Linked to Athletic Club",
+    0.9
+   ]
+  ],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Fiorentina",
+  "comps": [
+   "ita"
+  ],
+  "affinity": 65.5,
+  "C": 8,
+  "V": 7.2,
+  "H": 8.2,
+  "O": 6,
+  "S": 4.5,
+  "P": 5.6,
+  "hard": [
+   [
+    "Racism",
+    -4.0
+   ]
+  ],
+  "conn": [
+   [
+    "Linked to Sporting CP",
+    0.7
+   ]
+  ],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Napoli",
+  "comps": [
+   "ita"
+  ],
+  "affinity": 65.3,
+  "C": 10.0,
+  "V": 6.5,
+  "H": 8.4,
+  "O": 4.5,
+  "S": 4.7,
+  "P": 8.4,
+  "hard": [
+   [
+    "Fan violence",
+    -5.9
+   ]
+  ],
+  "conn": [
+   [
+    "Linked to Borussia Dortmund",
+    0.6
+   ],
+   [
+    "Linked to Feyenoord",
+    -0.9
+   ],
+   [
+    "Linked to Paris Saint-Germain",
+    -2.9
+   ]
+  ],
+  "notes": [
+   "Italian decider 2026-10-09: Values 7->6.5 (community ranked last), Ownership 5->4.5 (owner's false-accounting trial counts half)"
+  ],
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Bologna",
+  "comps": [
+   "ita"
+  ],
+  "affinity": 64.0,
+  "C": 7.2,
+  "V": 7,
+  "H": 8.0,
+  "O": 6.2,
+  "S": 6.6,
+  "P": 5.9,
+  "hard": [
+   [
+    "Multi-club",
+    -5.9
+   ]
+  ],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Brest",
+  "comps": [
+   "fra"
+  ],
+  "affinity": 69.4,
+  "C": 7,
+  "V": 8.7,
+  "H": 4.3,
+  "O": 7.1,
+  "S": 8.7,
+  "P": 4.8,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Lens",
+  "comps": [
+   "fra"
+  ],
+  "affinity": 62.5,
+  "C": 10.0,
+  "V": 8.2,
+  "H": 7,
+  "O": 6.0,
+  "S": 6.5,
+  "P": 6.8,
+  "hard": [
+   [
+    "Private equity",
+    -11.9
+   ],
+   [
+    "Multi-club",
+    -5.9
+   ]
+  ],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Rennes",
+  "comps": [
+   "fra"
+  ],
+  "affinity": 58.7,
+  "C": 7,
+  "V": 6,
+  "H": 5.0,
+  "O": 5.2,
+  "S": 4.6,
+  "P": 6.6,
+  "hard": [],
+  "conn": [],
+  "notes": [
+   "Rules re-rate 2026-09-30: R3 Team 5->4"
+  ],
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Portland Timbers",
+  "comps": [
+   "mls"
+  ],
+  "affinity": 77.2,
+  "C": 9.8,
+  "V": 8,
+  "H": 7.5,
+  "O": 5.8,
+  "S": 5.3,
+  "P": 5.8,
+  "hard": [],
+  "conn": [
+   [
+    "483 mi from Sacramento",
+    1.6
+   ],
+   [
+    "Linked to Portland Thorns",
+    1.1
+   ]
+  ],
+  "notes": [
+   "Cascadia decider 2026-09-30: Ownership 5->6 (owner's past misconduct counts half",
+   "no repeat)"
+  ],
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Seattle Sounders FC",
+  "comps": [
+   "mls"
+  ],
+  "affinity": 77.1,
+  "C": 8.2,
+  "V": 7.8,
+  "H": 7.3,
+  "O": 5.2,
+  "S": 9.0,
+  "P": 7.6,
+  "hard": [],
+  "conn": [
+   [
+    "625 mi from Sacramento",
+    0.9
+   ],
+   [
+    "Seattle (Seahawks)",
+    -1
+   ]
+  ],
+  "notes": [
+   "Cascadia decider 2026-09-30: Culture 9->8 (NFL stadium, likely suburban move), History 8->7, Ownership 6->5 (2025 conduct, ownership change pending)"
+  ],
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Philadelphia Union",
+  "comps": [
+   "mls"
+  ],
+  "affinity": 68.9,
+  "C": 8.1,
+  "V": 7.2,
+  "H": 5.0,
+  "O": 5,
+  "S": 7.7,
+  "P": 6.8,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Sacramento Republic FC",
+  "comps": [
+   "usl"
+  ],
+  "affinity": 82.4,
+  "C": 9.6,
+  "V": 8.2,
+  "H": 6.2,
+  "O": 8,
+  "S": 6.0,
+  "P": 7.0,
+  "hard": [],
+  "conn": [
+   [
+    "Managing partner Kevin Nagle is a Kings minority owner",
+    1
+   ]
+  ],
+  "notes": [
+   "Rules re-rate 2026-09-30: R2 Culture 9->10"
+  ],
+  "rl": "Hometown",
+  "roots": 4
+ },
+ {
+  "name": "Detroit City FC",
+  "comps": [
+   "usl"
+  ],
+  "affinity": 73.1,
+  "C": 9,
+  "V": 9,
+  "H": 4.7,
+  "O": 8.2,
+  "S": 6.5,
+  "P": 4.8,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Louisville City FC",
+  "comps": [
+   "usl"
+  ],
+  "affinity": 69.6,
+  "C": 7.9,
+  "V": 7,
+  "H": 6.3,
+  "O": 6.9,
+  "S": 8.4,
+  "P": 8.3,
+  "hard": [],
+  "conn": [
+   [
+    "Linked to Racing Louisville",
+    -4.9
+   ]
+  ],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Portland Thorns",
+  "comps": [
+   "nwsl"
+  ],
+  "affinity": 87.0,
+  "C": 10.0,
+  "V": 7.8,
+  "H": 9.6,
+  "O": 6,
+  "S": 7.6,
+  "P": 8.2,
+  "hard": [],
+  "conn": [
+   [
+    "483 mi from Sacramento",
+    1.6
+   ],
+   [
+    "Owners (the Bhathal family) are Kings investors",
+    1
+   ]
+  ],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Kansas City Current",
+  "comps": [
+   "nwsl"
+  ],
+  "affinity": 72.9,
+  "C": 9.2,
+  "V": 8,
+  "H": 4.5,
+  "O": 8,
+  "S": 8.2,
+  "P": 4.7,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Washington Spirit",
+  "comps": [
+   "nwsl"
+  ],
+  "affinity": 65.9,
+  "C": 8,
+  "V": 5,
+  "H": 7.5,
+  "O": 5,
+  "S": 7.7,
+  "P": 5.9,
+  "hard": [],
+  "conn": [],
+  "notes": [
+   "Kang flagship (Lyon, London City secondary): no multi-club penalty"
+  ],
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Scotland",
+  "comps": [
+   "unl"
+  ],
+  "affinity": 81.2,
+  "C": 10.0,
+  "V": 8,
+  "H": 8.8,
+  "O": 6,
+  "S": 6.5,
+  "P": 4.8,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 4.4
+ },
+ {
+  "name": "Netherlands",
+  "comps": [
+   "unl"
+  ],
+  "affinity": 77.4,
+  "C": 9,
+  "V": 7,
+  "H": 9.3,
+  "O": 7,
+  "S": 6.1,
+  "P": 7.4,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Denmark",
+  "comps": [
+   "unl"
+  ],
+  "affinity": 73.9,
+  "C": 8.2,
+  "V": 8.1,
+  "H": 7.3,
+  "O": 7.2,
+  "S": 7.0,
+  "P": 5.5,
+  "hard": [],
+  "conn": [],
+  "notes": null,
+  "rl": null,
+  "roots": 0
+ },
+ {
+  "name": "Bodø/Glimt",
+  "comps": [
+   "ucl"
+  ],
+  "affinity": 82.8,
+  "C": 7.8,
+  "V": 9,
+  "H": 5.4,
+  "O": 9.2,
+  "S": 10,
+  "P": 8.5,
+  "hard": [],
+  "conn": [],
+  "notes": [
+   "Rules re-rate 2026-09-30: R2 Culture 7->8"
+  ],
+  "rl": null,
+  "roots": 0
+ }
+]

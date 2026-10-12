@@ -35,10 +35,10 @@ step-by-step history of the model is in git (docs/affinity.md before 2026-10-09)
 4. **Connection and roots** A = A0 + conn x (connection, capped at +/-10) + roots.
    - Connection: distance from Sacramento, Kevin's other teams and their rivals (big4.py), linked clubs (association.py,
      links.json), the plastic-fan pulls (global brands, celebrity bandwagons), the Republic link; for players the clubs
-     they played for, by how Kevin rates them, and US internationals.
+     they played for, by how Kevin rates them (US internationals moved to roots, +5, 2026-10-12).
    - Roots: Sacramento Republic +4 (hometown), the United States +20 (home nation), ancestry 0.4 per % up to +10 (nations).
      Since 2026-10-12 also clubs (0.2 per % of the club's own Ancestry region, cap +5; heritage.json club_regions) and
-     players (0.2 per % of their national team's share, cap +5). Effect on the fit: club gut r 0.792 -> 0.789,
+     players (0.2 per % of their national team's share, cap +5; US internationals +5, replacing the +2 connection item). Effect on the fit: club gut r 0.792 -> 0.789,
      real-club pairs 19 -> 18 of 36; player checks unchanged; Timbers still above Sounders.
    - In the app, base = A - roots and bonus = roots.
 - **Leagues**: a league's Affinity is its median club's, shown with how many clubs reach 65 (app: Affinity > Leagues;

@@ -84,7 +84,6 @@ def player_conn(pl, club_aff, club_aff_w):
     items = []
     if plus: items.append(('Club seasons', round(min(plus, 4.0), 1)))
     if minus: items.append(('Seasons at clubs you rate low', -round(min(minus, 3.0), 1)))
-    if (p.get('national') or {}).get('team') in ('USA', 'United States'): items.append(('US international', 2.0))
     return items
 
 def lookup(name, T):
@@ -162,7 +161,8 @@ def run(p=PARAMS, write=True):
         pl['conn'] = player_conn(pl, CA, CW)
         nat = (pl['facts'].get('national') or {}).get('team') or pl['facts'].get('nation')
         sh = I.nation_share(nat)
-        pl['roots'] = (f'Heritage: {nat} {round(sh)}%', round(min(p['player_heritage_cap'], p['player_heritage_per_pct'] * sh), 1)) if sh else None
+        if nat in ('USA', I.HOME_NATION): pl['roots'] = ('Home nation: United States', p['player_home_nation'])   # Kevin, 2026-10-12: level with England
+        else: pl['roots'] = (f'Heritage: {nat} {round(sh)}%', round(min(p['player_heritage_cap'], p['player_heritage_per_pct'] * sh), 1)) if sh else None
         pl['A'], pl['parts'] = player_score(pl['factors'], pl['hard'], pl['conn'], p, pl['roots'][1] if pl['roots'] else 0)
     if write: write_out(D, X, R, PL, p)
     return R, PL

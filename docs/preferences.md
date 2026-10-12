@@ -291,7 +291,7 @@ He asked to "run the re-rate with the new sub-weights". The result did not impro
 ### B11. Hometown, heritage, home nation
 - **Clubs** (round 2): the regional heritage bonus was dropped. Only the hometown club, Sacramento Republic FC, gets +4.
   - 2026-10-12, with his Ancestry results: "let's reapply my dna origins to both national and club affinity scores, along with players." Chose "Region, half scale". [CURRENT] 0.2 × the share of the club's own Ancestry region, cap +5 (Madeira +3.4, Southeastern England +2.6, Ulster +2.4, Scottish Central Belt +2.2, Liverpool's NW England +0.2). US clubs get none.
-- **Players** (2026-10-12): chose "National team, half scale". [CURRENT] 0.2 × their national team's share, cap +5 (England +5, Portugal +3.4, Scotland +2.2). US players get none.
+- **Players** (2026-10-12): chose "National team, half scale". [CURRENT] 0.2 × their national team's share, cap +5 (England +5, Portugal +3.4, Scotland +2.2). US internationals +5, level with England (Kevin, 2026-10-12: "give US players +5 too"), replacing the +2 "US international" connection item.
 - **Nations, heritage** (round 2): kept as a tiebreaker up to +10.
   - 2026-10-08, after "big update on the heritage side. Ancestry released their annual model update." [CURRENT] 0.4 × Ancestry share, capped at +10. Regions are split across nations, for example Ulster 2/3 Northern Ireland and 1/3 Republic of Ireland.
 - **Home nation:**

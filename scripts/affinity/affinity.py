@@ -162,7 +162,7 @@ def run(p=PARAMS, write=True):
         nat = (pl['facts'].get('national') or {}).get('team') or pl['facts'].get('nation')
         sh = I.nation_share(nat)
         if nat in ('USA', I.HOME_NATION): pl['roots'] = ('Home nation: United States', p['player_home_nation'])   # Kevin, 2026-10-12: level with England
-        else: pl['roots'] = (f'Heritage: {nat} {round(sh)}%', round(min(p['player_heritage_cap'], p['player_heritage_per_pct'] * sh), 1)) if sh else None
+        else: pl['roots'] = (f'Heritage: {nat} {round(sh) if sh >= 1 else round(sh, 1)}%', round(min(p['player_heritage_cap'], p['player_heritage_per_pct'] * sh), 1)) if sh else None
         pl['A'], pl['parts'] = player_score(pl['factors'], pl['hard'], pl['conn'], p, pl['roots'][1] if pl['roots'] else 0)
     if write: write_out(D, X, R, PL, p)
     return R, PL

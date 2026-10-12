@@ -1,0 +1,958 @@
+[
+ {
+  "name": "Jaka Bijol",
+  "full_name": "Jaka Bijol",
+  "gender": "M",
+  "active": true,
+  "born": 1999,
+  "nation": "Slovenia",
+  "positions": [
+   "CB",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Rudar Velenje",
+    "from": 2017,
+    "to": 2018,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "CSKA Moscow",
+    "from": 2018,
+    "to": 2022,
+    "apps": 96,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Hannover 96 (loan)",
+    "from": 2020,
+    "to": 2021,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Udinese",
+    "from": 2022,
+    "to": 2025,
+    "apps": 90,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2025,
+    "to": null,
+    "apps": 31,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "CSKA Moscow",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Slovenia",
+   "caps": 77,
+   "goals": 1,
+   "captain": false
+  },
+  "honours": "1 Russian Super Cup (2018, CSKA)",
+  "awards": "WhoScored Euro 2024 team of the tournament",
+  "moments": [
+   "2024: Slovenia's Euro 2024 campaign (reached last 16); named in WhoScored's best XI",
+   "2022: stoppage-time equaliser vs Croatia, his only Slovenia goal"
+  ],
+  "style": [
+   "aerial centre-back",
+   "ball-winner"
+  ],
+  "work_rate": "high: physical, committed defender",
+  "ego": "neutral: low public profile",
+  "fan_bond": "first-choice centre-back in Leeds' 2025-26 Premier League return; no notable fan story",
+  "loyalty_notes": "youth at Dravograd and Bravo; four seasons at CSKA (loan to Hannover 2020-21), three at Udinese, joined Leeds June 2025 (about EUR 21m, five-year deal)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2025-; Hannover 96 loan 2020-21",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jaka_Bijol"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Michael Zetterer",
+  "full_name": "Michael Zetterer",
+  "gender": "M",
+  "active": true,
+  "born": 1995,
+  "nation": "Germany",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "SpVgg Unterhaching",
+    "from": 2013,
+    "to": 2015,
+    "apps": 30,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Werder Bremen",
+    "from": 2015,
+    "to": 2025,
+    "apps": 74,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Austria Klagenfurt (loan)",
+    "from": 2019,
+    "to": 2019,
+    "apps": 14,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "PEC Zwolle (loan)",
+    "from": 2019,
+    "to": 2021,
+    "apps": 32,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Eintracht Frankfurt",
+    "from": 2025,
+    "to": 2026,
+    "apps": 28,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2026,
+    "to": null,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Werder Bremen",
+  "longest_years": 10,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Germany",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "2025-26: played five Champions League matches for Eintracht Frankfurt"
+  ],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium: steady keeper",
+  "ego": "neutral: low public profile",
+  "fan_bond": "spent most of a decade as Werder's backup before becoming first choice; no notable fan story at Leeds yet",
+  "loyalty_notes": "Unterhaching academy; Werder Bremen 2015-2025 (loans to Klagenfurt and Zwolle); Frankfurt Aug 2025 (four-year deal), left after one season; joined Leeds 29 Aug 2026 on a three-year deal",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2026-; Werder Bremen 2015-2025; Germany youth (U20, U21)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Michael_Zetterer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Anton Stach",
+  "full_name": "Anton Levi Stach",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "Germany",
+  "positions": [
+   "CM",
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Werder Bremen (youth)",
+    "from": 2011,
+    "to": 2015,
+    "apps": null,
+    "captain": true,
+    "academy": true
+   },
+   {
+    "club": "VfL Osnabrück II",
+    "from": 2016,
+    "to": 2017,
+    "apps": 1,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SSV Jeddeloh",
+    "from": 2017,
+    "to": 2018,
+    "apps": 23,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "VfL Wolfsburg II",
+    "from": 2018,
+    "to": 2020,
+    "apps": 40,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "SpVgg Greuther Fürth",
+    "from": 2020,
+    "to": 2021,
+    "apps": 30,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Mainz 05",
+    "from": 2021,
+    "to": 2023,
+    "apps": 61,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "TSG Hoffenheim",
+    "from": 2023,
+    "to": 2025,
+    "apps": 72,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2025,
+    "to": null,
+    "apps": 35,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Mainz 05",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "Werder Bremen U16 captain",
+  "national": {
+   "team": "Germany",
+   "caps": 5,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "UEFA U21 Euro (2021); 2. Bundesliga promotion with Fürth (2021)",
+  "awards": "",
+  "moments": [
+   "2021: won the U21 Euro with Germany",
+   "2025-26: scored 5 Premier League goals in Leeds' first season back"
+  ],
+  "style": [
+   "box-to-box midfielder",
+   "ball-winner",
+   "long-range shooter"
+  ],
+  "work_rate": "high: covers ground, physical",
+  "ego": "neutral: low public profile",
+  "fan_bond": "regular starter in Leeds' 2025-26 midfield; no notable fan story",
+  "loyalty_notes": "rose from the fourth and fifth tiers (Jeddeloh, Wolfsburg II) to the Bundesliga; moved every 1-2 seasons; joined Leeds July 2025 (about GBP 17m, four-year deal)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2025-; Werder Bremen youth 2011-15; Germany 5 caps",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Anton_Stach"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Noah Okafor",
+  "full_name": "Noah Arinzechukwu Okafor",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Switzerland",
+  "positions": [
+   "FW",
+   "LW"
+  ],
+  "clubs": [
+   {
+    "club": "Basel",
+    "from": 2018,
+    "to": 2020,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Red Bull Salzburg",
+    "from": 2020,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "AC Milan",
+    "from": 2023,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Napoli (loan)",
+    "from": 2025,
+    "to": 2025,
+    "apps": 4,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2025,
+    "to": null,
+    "apps": 39,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Red Bull Salzburg",
+  "longest_years": 3,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Switzerland",
+   "caps": 26,
+   "goals": 2,
+   "captain": false
+  },
+  "honours": "1 Serie A (2025, Napoli loan), 4 Austrian Bundesliga, 3 Austrian Cups, 1 Swiss Cup, 1 Supercoppa",
+  "awards": "Swiss Super League Young Player of the Year 2019-20",
+  "moments": [
+   "2026: brace in a 2-1 win at Manchester United, Leeds' first league win there since 1981",
+   "2026: played 19 minutes for Switzerland at the World Cup"
+  ],
+  "style": [
+   "direct forward",
+   "dribbler",
+   "pace"
+  ],
+  "work_rate": "medium",
+  "ego": "neutral: low profile, but publicly broke with the national coach",
+  "fan_bond": "scored key goals in Leeds' 2025-26 Premier League season; no notable fan story",
+  "loyalty_notes": "Basel academy 2009-2018; moved to Salzburg Jan 2020, Milan 2023; Jan 2025 loan to Leipzig cancelled after a failed medical, went to Napoli on loan; Leeds Aug 2025 (about GBP 18m); 10 Sep 2026 said he will not play for Switzerland under Murat Yakin, citing broken trust; chose Switzerland over Nigeria",
+  "causes": [],
+  "incidents": [
+   {
+    "year": 2026,
+    "type": "other",
+    "what": "announced he would not play for Switzerland under coach Murat Yakin, saying commitments to him were not kept",
+    "outcome": "Swiss FA accepted the decision",
+    "source": "https://www.bluewin.ch/en/sport/football/okafor-no-longer-wants-to-play-for-switzerland-under-yakin-li.3595062"
+   }
+  ],
+  "money_moves": [],
+  "links": "Leeds United 2025-; Napoli loan 2025",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Noah_Okafor",
+   "https://www.bluewin.ch/en/sport/football/okafor-no-longer-wants-to-play-for-switzerland-under-yakin-li.3595062"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Alex Cairns",
+  "full_name": "Alex Thomas Cairns",
+  "gender": "M",
+  "active": true,
+  "born": 1993,
+  "nation": "England",
+  "positions": [
+   "GK"
+  ],
+  "clubs": [
+   {
+    "club": "Leeds United",
+    "from": 2011,
+    "to": 2015,
+    "apps": 1,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Stalybridge Celtic (loan)",
+    "from": 2012,
+    "to": 2013,
+    "apps": 38,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Chesterfield",
+    "from": 2015,
+    "to": 2016,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Rotherham United",
+    "from": 2016,
+    "to": 2016,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fleetwood Town",
+    "from": 2016,
+    "to": 2023,
+    "apps": 240,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Salford City",
+    "from": 2023,
+    "to": 2024,
+    "apps": 69,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2024,
+    "to": null,
+    "apps": 0,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Fleetwood Town",
+  "longest_years": 7,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 Championship (2025, Leeds, squad member)",
+  "awards": "Stalybridge Celtic Player of the Year 2012-13",
+  "moments": [],
+  "style": [
+   "shot-stopper"
+  ],
+  "work_rate": "medium: backup keeper",
+  "ego": "humble: low profile, third-choice role",
+  "fan_bond": "Leeds academy product who returned as a backup in 2024",
+  "loyalty_notes": "Leeds academy; left 2015; seven seasons at Fleetwood (240 apps); Salford 2023-24; rejoined Leeds 2024 as a backup",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2011-15, 2024-",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alex_Cairns"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ao Tanaka",
+  "full_name": "Ao Tanaka",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "Japan",
+  "positions": [
+   "CM"
+  ],
+  "clubs": [
+   {
+    "club": "Kawasaki Frontale",
+    "from": 2017,
+    "to": 2022,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Fortuna Düsseldorf (loan)",
+    "from": 2021,
+    "to": 2022,
+    "apps": 29,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Fortuna Düsseldorf",
+    "from": 2022,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2024,
+    "to": null,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Kawasaki Frontale",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Japan",
+   "caps": 45,
+   "goals": 8,
+   "captain": false
+  },
+  "honours": "3 J1 League, 1 Emperor's Cup, 1 J.League Cup (Frontale); 1 Championship (2025, Leeds)",
+  "awards": "J.League Rookie of the Year 2019; J.League Best XI 2020; PFA Championship Team of the Year 2024-25; Leeds Players' Player of the Year 2024-25",
+  "moments": [
+   "2022: scored the winner vs Spain at the World Cup after the disputed 'ball on the line' assist",
+   "2025: long-range goals vs Chelsea and Liverpool in Leeds' Premier League return",
+   "2026: late turnover led to Brazil's stoppage-time winner in Japan's World Cup last-32 exit"
+  ],
+  "style": [
+   "box-to-box midfielder",
+   "passer",
+   "long-range shooter"
+  ],
+  "work_rate": "high: tireless runner",
+  "ego": "humble: low-key, took responsibility for the 2026 error",
+  "fan_bond": "Leeds fan favourite; Players' Player of the Year in the 2024-25 promotion season",
+  "loyalty_notes": "Kawasaki Frontale youth and senior 2007-2021; Düsseldorf 2021-2024; Leeds since 2024 through promotion to the Premier League",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2024-; Japan (rated 76)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ao_Tanaka",
+   "https://www.yorkshireeveningpost.co.uk/sport/football/leeds-united/leeds-united-ao-tanaka-world-cup-japan-8773608"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jean-Mattéo Bahoya",
+  "full_name": "Jean-Mattéo Bahoya Négoce",
+  "gender": "M",
+  "active": true,
+  "born": 2005,
+  "nation": "France",
+  "positions": [
+   "LW",
+   "AM"
+  ],
+  "clubs": [
+   {
+    "club": "Angers",
+    "from": 2022,
+    "to": 2024,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Eintracht Frankfurt",
+    "from": 2024,
+    "to": 2026,
+    "apps": 77,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United (loan)",
+    "from": 2026,
+    "to": null,
+    "apps": 1,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Eintracht Frankfurt",
+  "longest_years": 2,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France U21",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "2024: runner-up at the U19 Euro with France"
+  ],
+  "style": [
+   "dribbler",
+   "winger"
+  ],
+  "work_rate": "",
+  "ego": "",
+  "fan_bond": "",
+  "loyalty_notes": "Angers academy 2014-2022; Frankfurt Jan 2024; loaned to Leeds 1 Sep 2026 with an obligation to buy; also eligible for Cameroon",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2026- (loan)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jean-Mattéo_Bahoya"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "James Justin",
+  "full_name": "James Justin",
+  "gender": "M",
+  "active": true,
+  "born": 1998,
+  "nation": "England",
+  "positions": [
+   "RB",
+   "LB",
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "Luton Town",
+    "from": 2015,
+    "to": 2019,
+    "apps": 114,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Leicester City",
+    "from": 2019,
+    "to": 2025,
+    "apps": 169,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2025,
+    "to": null,
+    "apps": 42,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Leicester City",
+  "longest_years": 6,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "England",
+   "caps": 1,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 FA Cup (2021, Leicester), 1 Championship (2024, Leicester), 1 League One (2019, Luton)",
+  "awards": "PFA League One Team of the Year 2018-19",
+  "moments": [
+   "2021: FA Cup winner with Leicester",
+   "2022: England debut vs Hungary"
+  ],
+  "style": [
+   "versatile full-back",
+   "attacking full-back"
+  ],
+  "work_rate": "high",
+  "ego": "humble: low public profile",
+  "fan_bond": "Luton-born, at his hometown club from age seven; no notable fan story at Leeds",
+  "loyalty_notes": "Luton Town 2005-2019 (youth and senior); Leicester 2019-2025 incl. two ACL/knee injuries and the 2023 relegation and promotion; Leeds Aug 2025 (about GBP 8-10m)",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2025-; England 1 cap",
+  "sources": [
+   "https://en.wikipedia.org/wiki/James_Justin"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Melvin Bard",
+  "full_name": "Melvin Michel Maxence Bard",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "France",
+  "positions": [
+   "LB",
+   "LWB"
+  ],
+  "clubs": [
+   {
+    "club": "Lyon",
+    "from": 2019,
+    "to": 2021,
+    "apps": 15,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Nice",
+    "from": 2021,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United (loan)",
+    "from": 2026,
+    "to": null,
+    "apps": 1,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Nice",
+  "longest_years": 5,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "France Olympic",
+   "caps": 3,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "2021: played at the Tokyo Olympics for France",
+   "2022, 2026: Coupe de France finalist with Nice"
+  ],
+  "style": [
+   "attacking full-back"
+  ],
+  "work_rate": "",
+  "ego": "",
+  "fan_bond": "",
+  "loyalty_notes": "Lyon academy 2016-2019; five seasons at Nice (two cup finals, 2025-26 relegation play-offs); loaned to Leeds for 2026-27 on 1 Sep 2026",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2026- (loan)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Melvin_Bard"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Nico Elvedi",
+  "full_name": "Nico Elvedi",
+  "gender": "M",
+  "active": true,
+  "born": 1996,
+  "nation": "Switzerland",
+  "positions": [
+   "CB"
+  ],
+  "clubs": [
+   {
+    "club": "FC Zürich",
+    "from": 2014,
+    "to": 2015,
+    "apps": 18,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Borussia Mönchengladbach",
+    "from": 2015,
+    "to": 2026,
+    "apps": null,
+    "captain": false,
+    "academy": false
+   },
+   {
+    "club": "Leeds United",
+    "from": 2026,
+    "to": null,
+    "apps": 2,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Borussia Mönchengladbach",
+  "longest_years": 11,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Switzerland",
+   "caps": 77,
+   "goals": 4,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [
+   "2021: in the Swiss side that knocked France out of Euro 2020",
+   "2017: first Bundesliga goal, derby winner vs Köln"
+  ],
+  "style": [
+   "calm centre-back"
+  ],
+  "work_rate": "high: consistent, reliable",
+  "ego": "humble: low public profile",
+  "fan_bond": "eleven seasons and 300-plus Bundesliga games at Gladbach",
+  "loyalty_notes": "Zürich academy; Gladbach 2015-2026 (318 league apps); joined Leeds Aug 2026 (about EUR 8.5m); twin brother Jan plays for Kaiserslautern",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2026-; Gladbach 2015-26",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nico_Elvedi"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ilia Gruev",
+  "full_name": "Ilia Iliev Gruev",
+  "gender": "M",
+  "active": true,
+  "born": 2000,
+  "nation": "Bulgaria",
+  "positions": [
+   "DM"
+  ],
+  "clubs": [
+   {
+    "club": "Werder Bremen",
+    "from": 2019,
+    "to": 2023,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Leeds United",
+    "from": 2023,
+    "to": null,
+    "apps": 86,
+    "captain": false,
+    "academy": false
+   }
+  ],
+  "longest_club": "Werder Bremen",
+  "longest_years": 4,
+  "one_club": false,
+  "captaincy": "Werder Bremen U19 captain",
+  "national": {
+   "team": "Bulgaria",
+   "caps": 31,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "1 Championship (2025, Leeds); 2. Bundesliga promotion with Werder (2022)",
+  "awards": "Bulgarian Footballer of the Year 2025 (runner-up 2022-24)",
+  "moments": [
+   "2026: two assists on his Premier League debut, 3-1 vs Nottingham Forest"
+  ],
+  "style": [
+   "holding midfielder",
+   "passer"
+  ],
+  "work_rate": "high",
+  "ego": "humble: low public profile",
+  "fan_bond": "with Leeds since 2023 through the Championship years",
+  "loyalty_notes": "Sofia-born, raised in Erfurt; Werder academy 2015-2019 then first team; Leeds since Aug 2023, through the 2024 play-off loss and 2025 promotion; son of manager Iliya Gruev",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2023-; Werder Bremen 2015-23",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ilia_Gruev_(footballer,_born_2000)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jayden Lienou",
+  "full_name": "Jayden Lienou",
+  "gender": "M",
+  "active": true,
+  "born": null,
+  "nation": "Wales",
+  "positions": [
+   "LB"
+  ],
+  "clubs": [
+   {
+    "club": "Manchester City (youth)",
+    "from": null,
+    "to": 2025,
+    "apps": null,
+    "captain": false,
+    "academy": true
+   },
+   {
+    "club": "Leeds United",
+    "from": 2025,
+    "to": null,
+    "apps": 0,
+    "captain": false,
+    "academy": true
+   }
+  ],
+  "longest_club": "Leeds United",
+  "longest_years": 1,
+  "one_club": false,
+  "captaincy": "",
+  "national": {
+   "team": "Wales",
+   "caps": 0,
+   "goals": 0,
+   "captain": false
+  },
+  "honours": "",
+  "awards": "",
+  "moments": [],
+  "style": [
+   "left-back"
+  ],
+  "work_rate": "",
+  "ego": "",
+  "fan_bond": "",
+  "loyalty_notes": "joined Leeds academy from Man City in 2025 (aged 17); new deal to 2029 in July 2026; first Wales senior call-up May 2026 (unused vs Ghana); Wales U19 at the 2026 U19 Euro; reported earlier Everton youth spell",
+  "causes": [],
+  "incidents": [],
+  "money_moves": [],
+  "links": "Leeds United 2025-; Wales (rated 79)",
+  "sources": [
+   "https://www.leedsunited.com/en/news/jayden-lienou-signs-new-contract-with-the-whites",
+   "https://www.leedsunited.com/en/news/jayden-lienou-joins-leeds-united"
+  ],
+  "confidence": "low"
+ }
+]

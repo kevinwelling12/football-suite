@@ -1582,9 +1582,9 @@
     "V": 7.2,
     "H": 6,
     "O": 6.2,
-    "S": 6.2,
-    "Q": 65.8,
-    "A0": 67.0,
+    "S": 6.3,
+    "Q": 66.0,
+    "A0": 67.2,
     "hard": [],
     "conn": [],
     "K": 0.0,
@@ -1596,7 +1596,7 @@
      "event": "Gold Cup 2025",
      "result": "runners-up"
     },
-    "tb": 0.2,
+    "tb": 0.3,
     "clubs": [
      [
       "New York City Football Club",
@@ -1620,7 +1620,7 @@
      ]
     ]
    },
-   "base": 67.0,
+   "base": 67.2,
    "bonus": 20,
    "region": "Home nation"
   },

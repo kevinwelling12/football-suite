@@ -6,7 +6,8 @@ factors that they share and use that as the basis for rating all other clubs and
 Clubs: every club is described by the researched facts in scripts/blind (coded/*.json, scaled 0-1 by blind/build.py,
 plus distance from Sacramento). For each fact: how far the chosen clubs sit from the average club (in standard
 deviations), times how much they agree with each other (1 - their spread / everyone's spread, at least 0). A club's score
-is the sum over facts of that weight times how far the club sits from the average, scaled 0-100 across all clubs.
+is the sum over facts of that weight times how far the club sits from the average, scaled so 0 and 100 are the worst
+and best possible profiles. Kevin's clubs then sit at the top of their leagues (PRIORITY).
 Players: half the average score of the clubs they played for (weighted by seasons at each), half character: 100 x the
 average of six character facts (work rate, humility, time for fans, charity, speaking out, captaincy) minus 25 per
 incident at full strength (violence, abuse, racism, doping, match-fixing, crime, money-league, authoritarian
@@ -19,6 +20,10 @@ sys.path.insert(0, str(root / 'scripts' / 'blind'))
 import build, live as blind
 
 CHOSEN = ['Liverpool', 'Borussia Dortmund', 'Portland Timbers', 'Portland Thorns', 'Sacramento Republic FC']
+# Kevin, 2026-10-12: his clubs sit at the top of their leagues, but not at 100. Where two share a league, the earlier in
+# this order wins: the Republic is his MLS side the day it moves up from USL, ahead of the Timbers.
+PRIORITY = ['Sacramento Republic FC', 'Liverpool', 'Borussia Dortmund', 'Portland Timbers', 'Portland Thorns']
+MARGIN = 1.0               # points above the best other club in the league
 HOME = (38.58, -121.49)   # Sacramento
 LABEL = {f[0]: f[2] for f in blind.Q['CF']}
 POS = ('work', 'humble', 'fans', 'charity', 'speak', 'captain')
@@ -42,16 +47,34 @@ def model():
     for c in clubs:
         parts = [(k, round(c['f'][k], 2), w[k] * (c['f'][k] - mu[k]) / sd[k]) for k in keys]
         raw[c['n']] = (sum(p[2] for p in parts), parts)
-    lo, hi = min(v[0] for v in raw.values()), max(v[0] for v in raw.values()); span = hi - lo
+    # 0 and 100 are the worst and best possible profiles (every fact at its worst or best value among all clubs), so no
+    # real club sits at either end.
+    lo = sum(min(w[k] * (c['f'][k] - mu[k]) / sd[k] for c in clubs) for k in keys)
+    hi = sum(max(w[k] * (c['f'][k] - mu[k]) / sd[k] for c in clubs) for k in keys); span = hi - lo
     S = {}
     for n, (s, parts) in raw.items():
         parts = sorted(((k, x, round(100 * v / span, 1)) for k, x, v in parts), key=lambda p: -abs(p[2]))
         S[n] = (round(100 * (s - lo) / span, 1), [p for p in parts if abs(p[2]) >= 0.5])
     return S, w
 
+def lift(S, D):
+    """Put each chosen club at the top of every league it plays in, MARGIN above the best other club, in PRIORITY order.
+    Scores only go up, so the club's own breakdown still shows where it stands on the facts."""
+    for _ in range(5):   # a club in two leagues (Liverpool: Premier League and Champions League) settles in a few passes
+        for comp in D.values():
+            names = [t['name'] for t in comp['teams'] if t['name'] in S]
+            mine = [n for n in PRIORITY if n in names]
+            if not mine: continue
+            floor = max(S[n][0] for n in names if n not in PRIORITY)
+            for n in reversed(mine):   # the lowest-priority club first, each one above the last
+                a, parts = S[n]
+                if a < floor + MARGIN: S[n] = (round(floor + MARGIN, 1), parts)
+                floor = S[n][0]
+
 def main():
     S, w = model()
     D = json.loads((root / 'data' / 'suite_data.json').read_text())
+    lift(S, D)
     for c in D.values():
         for t in c['teams']:
             a, parts = S.get(t['name'], (50.0, []))

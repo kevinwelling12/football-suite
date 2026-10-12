@@ -290,7 +290,9 @@ function weights(feats, prefix, pairs, pairPrefix) {
 const R2 = (a, b) => { const t = x => x * Math.PI / 180, dl = t(b[0] - a[0]), dn = t(b[1] - a[1]);
   const h = Math.sin(dl / 2) ** 2 + Math.cos(t(a[0])) * Math.cos(t(b[0])) * Math.sin(dn / 2) ** 2; return 6371 * 2 * Math.asin(Math.sqrt(h)); };
 function scoreAll() {
-  const wc = weights(CF, 'c_', CP, 'cp'), wp = weights(PF, 'p_', PP, 'pp');
+  // A serious wrong costs more than one fact's worth: "Turn-off" counts double, "Strong turn-off" triple.
+  const turnoffs = (w, feats, prefix) => { for (const f of feats) { const v = state.a[prefix + f[0]]; if (typeof v === 'number' && v <= -2 && w[f[0]] < 0) w[f[0]] *= 1 + (-v - 1); } return w; };
+  const wc = turnoffs(weights(CF, 'c_', CP, 'cp'), CF, 'c_'), wp = turnoffs(weights(PF, 'p_', PP, 'pp'), PF, 'p_');
   const home = DATA.places.find(p => p[0] === state.a.home), nat = state.a.nation || '';
   const range = w => { let lo = 0, hi = 0; for (const k in w) { if (w[k] < 0) lo += w[k]; else hi += w[k]; } return [lo, hi]; };
   const sc = (w, f) => { const [lo, hi] = range(w); if (hi - lo < 1e-9) return 50; let s = 0; for (const k in w) s += w[k] * (f[k] ?? 0); return 100 * (s - lo) / (hi - lo); };
@@ -329,7 +331,7 @@ function drawResults() {
   document.getElementById('res').innerHTML = `<h2>Your results</h2>
     <p class="part">These come only from your answers. Positive weights draw you to a fact, negative ones push you away. Scores run 0 to 100: 100 would be a club or player with every fact you like and none you dislike.</p>
     <details class="how"><summary>Your weights</summary><h2 style="font-size:18px">Clubs and national teams</h2><div class="wts">${wList(RES.wc, CF)}</div><h2 style="font-size:18px">Players</h2><div class="wts">${wList(RES.wp, PF)}</div></details>
-    <details class="how"><summary>How the scores work</summary><p>Each club, national team and player was described by researched facts only (trophies, owners, sanctions, crowds, incidents and so on), each scaled 0 to 1. Your one-fact answers set a weight per fact. Your trade-off answers then adjust those weights so that the choices you made come out on top. A score is the weighted sum of the facts, placed between the lowest and highest score your weights allow. Missing facts count at the average of all entries.</p></details>
+    <details class="how"><summary>How the scores work</summary><p>Each club, national team and player was described by researched facts only (trophies, owners, sanctions, crowds, incidents and so on), each scaled 0 to 1. Your one-fact answers set a weight per fact. Your trade-off answers then adjust those weights so that the choices you made come out on top. A fact you call a turn-off counts double, a strong turn-off triple. Domestic trophies are weighed by the strength of the league they were won in. A score is the weighted sum of the facts, placed between the lowest and highest score your weights allow. Missing facts count at the average of all entries.</p></details>
     <div class="tabs" role="group" aria-label="Lists">${tabs.map(([k, l]) => `<button type="button" data-tab="${k}" aria-pressed="${tab === k}">${esc(l)}</button>`).join('')}</div>
     <div class="list">${rows.map(([r, n, s, v]) => `<div class="row"><span class="rk">${r}</span><span class="nm">${esc(n)}<small>${esc(s || '')}</small></span><span class="meter"><i style="width:${Math.max(0, Math.min(100, v))}%"></i></span><span class="sc">${v.toFixed(1)}</span></div>`).join('')}</div>`;
 }

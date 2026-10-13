@@ -64,8 +64,7 @@ claude.ai artifact; this repo is the transfer to Claude Code.
   Dortmund, Timbers, Thorns, Republic) define an archetype: every club is researched on ten traits (out/*.json) plus
   distance from Sacramento; each trait weighs the number of his clubs that have it strongly (7+ of 10); falling below the weakest of his clubs on a trait costs as if all five shared it. His clubs sit at
   the top of their leagues by PRIORITY in scripts/favs/live.py (Republic over Timbers if it reaches MLS). Players: half
-  their clubs' Affinity (seasons-weighted), half character. The supporter archetype (docs/supporter.md: who Kevin is as a supporter) adds his American teams' owners and
-  rivals, plastic-fan brands and his clubs' rivalries in points. Run `python3 scripts/archetype/live.py`, then build. Older
+  their clubs' Affinity (seasons-weighted), half character. Run `python3 scripts/archetype/live.py`, then build. Older
   models (scripts/favs facts profile, scripts/blind, scripts/affinity) are history.
 - Model details: docs/architecture.md (Dixon-Coles, draw calibration, importance, favour/Affinity picks).
 - Data sources and sync: docs/sync.md (nightly ESPN sync: .github/workflows/espn-sync.yml, scripts/sync/espn.js).

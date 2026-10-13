@@ -8,8 +8,7 @@ plus geography (near Sacramento). Each trait's weight is how many of Kevin's clu
 traits all five share count five times one only a single club has. Below the weakest of his clubs on any trait
 costs as if all five shared it (the shared floor). The archetype scores 10 on every trait: a club's
 Affinity is 100 x its weighted trait average / 10. Kevin's clubs then sit at the top of their leagues (PRIORITY).
-Then the supporter archetype (docs/supporter.md): his American teams' owners and rivals, plastic-fan brands and his
-clubs' rivalries, in points. Players: half the seasons-weighted Affinity of their clubs, half character (as before).
+Players: half the seasons-weighted Affinity of their clubs, half character (as before).
 """
 import json, math, pathlib, sys, glob
 here = pathlib.Path(__file__).resolve().parent
@@ -60,24 +59,8 @@ def model():
         S[n] = (round(max(0.0, sum(p[2] for p in parts)), 1), sorted(parts, key=lambda p: -p[2]))
     return S, w, T
 
-# The supporter archetype (docs/supporter.md): his American teams, plastic-fan brands and his clubs' rivalries, in points.
-RIVALS = {'Seattle Sounders FC': 3, 'Vancouver Whitecaps FC': 3, 'Seattle Reign': 3,      # Cascadia (Timbers, Thorns)
-          'Schalke 04': 3, 'Bayern Munich': 3,                                            # Revierderby, Klassiker (Dortmund)
-          'Manchester United': 3, 'Everton': 1.5}                                         # Liverpool (Everton: friendly derby)
-
-def supporter(S):
-    sys.path.insert(0, str(root / 'scripts' / 'affinity'))
-    import big4
-    for n, (a, parts) in list(S.items()):
-        items = [(l, v) for l, v in big4.items(n) if 'mi from' not in l]   # distance is already the geography trait
-        if n in RIVALS: items.append(("Rival of one of your clubs", -RIVALS[n]))
-        if not items: continue
-        extra = [(l, 0, round(v, 1)) for l, v in items]
-        S[n] = (round(max(0.0, a + sum(v for _, v in items)), 1), sorted(parts + extra, key=lambda p: -p[2]))
-
 if __name__ == '__main__':
     S, w, T = model()
-    supporter(S)
     favs.CHOSEN = CHOSEN
     favs.model = lambda: (S, w)            # reuse favs' writer: lift to top of league, players, params
     favs.LABEL = LABEL

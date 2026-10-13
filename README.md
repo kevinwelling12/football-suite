@@ -1,5 +1,10 @@
 # Football Tracker Suite
 
+> **Shut down on 2026-10-13.** The nightly ESPN sync and the Pages deploy workflow are disabled, and the repository is
+> archived. The last state: six competitions (Premier League, Bundesliga, Champions League, MLS, NWSL, USL) and Affinity
+> from the archetype of Kevin's five clubs (scripts/archetype, docs/supporter.md). To revive it, unarchive the repo,
+> re-enable both workflows under Actions, and turn GitHub Pages back on (Source: GitHub Actions).
+
 A single-page web app that tracks 13 competitions for one supporter (Kevin): live tables, a Dixon-Coles
 prediction model with 1,000-season simulations, pick 'em, match importance, playoff/knockout brackets,
 and a personal **Affinity** score for every club that drives "Affinity picks".
